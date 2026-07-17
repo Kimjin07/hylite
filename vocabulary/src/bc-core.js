@@ -120,8 +120,11 @@ function normalize(s){
   const out={v:3};
   const w=(s.w&&typeof s.w==='object')?s.w:{};
   out.w={};
+  // 词书数据未就绪时(拆分构建加载失败/未完成) WIDX 为空，此时不做词表过滤，
+  // 仅做格式清洗——否则会把整份词态误删成空档（再被云同步扩散就是灾难）
+  const widxReady = TOTAL > 0 || Object.keys(WIDX).length > 0;
   for (const k in w){
-    if (!(k in WIDX)) continue;
+    if (widxReady ? !(k in WIDX) : !/^[A-Za-z0-9]+:\d+$/.test(k)) continue;
     const e=w[k];
     if (!e || typeof e!=='object' || Array.isArray(e)) continue;
     const x={ b:Math.min(MAXB,Math.max(0,Math.floor(Number(e.b)||0))),

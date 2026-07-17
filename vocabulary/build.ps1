@@ -11,8 +11,8 @@ $data  = ([IO.File]::ReadAllText("$root\src\units-data.js", $u8) + "`n" +
           [IO.File]::ReadAllText("$root\src\books-extra.js", $u8))
 $js    = ([IO.File]::ReadAllText("$root\src\bc-core.js", $u8) + "`n" +
           [IO.File]::ReadAllText("$root\src\bc-session.js", $u8) + "`n" +
-          [IO.File]::ReadAllText("$root\src\bc-views.js", $u8) + "`n" +
-          [IO.File]::ReadAllText("$root\src\bc-sync.js", $u8))
+          [IO.File]::ReadAllText("$root\src\bc-sync.js", $u8) + "`n" +
+          [IO.File]::ReadAllText("$root\src\bc-views.js", $u8))
 $html = $shell.Replace('{{CSS}}', $css).Replace('{{BODY}}', $body).Replace('{{DATA}}', $data).Replace('{{JS}}', $js)
 [IO.File]::WriteAllText("$root\index.html", $html, $enc)
 Write-Host ("OK -> index.html (" + [math]::Round((Get-Item "$root\index.html").Length/1kb) + " KB)")

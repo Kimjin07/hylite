@@ -3,18 +3,20 @@
 //
 // 设计原则:
 // - 同步码 HY-XXXX-XXXX 是账号的根凭证(注册即得, 可独立登录, 也是忘记密码的找回钥匙)
-// - 账号名+密码为可选的第二种登录方式
-// - 进度按 (user, book) 存整份 JSON, 只增不删; 服务端永不主动清数据
-// - 所有写接口有输入校验和大小上限; 登录类接口有限流
+// - 账号名+密码为可选的第二种登录方式(账号名大小写不敏感)
+// - 进度按 (user, book) 存整份 JSON; 覆盖时把旧版挪入 prev_data 保底一层历史
+// - 写接口带乐观并发控制(base_server_at 不匹配返回 409, 客户端走冲突合并)
+// - "空词态档覆盖非空云档"在服务端直接拒绝(防止损坏档扩散)
+// - 所有写接口有输入校验和大小上限; 登录类接口有限流(参数照顾学校 NAT 同 IP 场景)
 
 'use strict';
 
 /* ---------------- 工具 ---------------- */
 const JSONH = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
 const ok = (data) => new Response(JSON.stringify({ ok: true, ...data }), { headers: JSONH });
-const err = (status, msg) => new Response(JSON.stringify({ ok: false, error: msg }), { status, headers: JSONH });
+const err = (status, msg, extra) => new Response(JSON.stringify(Object.assign({ ok: false, error: msg }, extra || {})), { status, headers: JSONH });
 
-const MAX_BODY = 1_500_000;        // 请求体上限 1.5MB(单本词书进度实测 < 500KB)
+const MAX_BODY = 1_500_000;        // 请求体上限(单本词书进度实测 < 500KB)
 const MAX_DATA = 1_200_000;        // 单本进度 JSON 上限
 const BOOK_IDS = new Set(['b3000','prep','basic','core','green','a2','b1','b1p','b2']);
 const SESSION_DAYS = 180;          // 会话有效期
@@ -35,6 +37,8 @@ function normCode(s){
   if (!/^HY[23456789ABCDEFGHJKMNPQRSTUVWXYZ]{8}$/.test(t)) return null;
   return 'HY-' + t.slice(2,6) + '-' + t.slice(6);
 }
+// 账号名规范化: 拉丁字母统一小写(iOS 输入法自动首字母大写不再导致登录失败)
+function normUsername(s){ return String(s).trim().toLowerCase(); }
 
 async function pbkdf2(password, saltHex, iterations){
   const enc = new TextEncoder();
@@ -43,7 +47,7 @@ async function pbkdf2(password, saltHex, iterations){
   const bits = await crypto.subtle.deriveBits({ name:'PBKDF2', hash:'SHA-256', salt, iterations }, key, 256);
   return hex(bits);
 }
-const PBKDF2_ITER = 10000; // 免费版 Workers 10ms CPU 限制下的稳妥值; 场景为学习进度, 非高价值凭证
+const PBKDF2_ITER = 10000; // 免费版 Workers 10ms CPU 限制下的稳妥值; 保护对象为学习进度, 非高价值凭证
 
 function timingSafeEqual(a, b){
   if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
@@ -52,9 +56,22 @@ function timingSafeEqual(a, b){
   return r === 0;
 }
 
+// 进度档结构校验: 必须是含 w(object) 的对象; 返回 {valid, wCount}
+function inspectArchive(dataStr){
+  try {
+    const d = JSON.parse(dataStr);
+    if (!d || typeof d !== 'object' || Array.isArray(d)) return { valid:false };
+    if (!d.w || typeof d.w !== 'object' || Array.isArray(d.w)) return { valid:false };
+    return { valid:true, wCount: Object.keys(d.w).length, xp: (d.xp|0) };
+  } catch(e){ return { valid:false }; }
+}
+
 /* ---------------- 限流(D1) ---------------- */
 async function rateLimit(env, key, limit, windowSec){
   const now = Date.now();
+  if (Math.random() < 0.01){ // 机会式清理过期限流行, 防表无限增长
+    try { await env.DB.prepare("DELETE FROM rate_limits WHERE window_start < datetime('now','-2 days')").run(); } catch(e){}
+  }
   const row = await env.DB.prepare('SELECT count, window_start FROM rate_limits WHERE rl_key=?1').bind(key).first();
   if (row){
     const start = Date.parse(row.window_start);
@@ -77,6 +94,9 @@ function clientIp(request){
 async function createSession(env, userId){
   const token = randHex(32);
   await env.DB.prepare('INSERT INTO sessions (token,user_id,last_used) VALUES (?1,?2,datetime(\'now\'))').bind(token, userId).run();
+  if (Math.random() < 0.02){ // 机会式清理过期会话
+    try { await env.DB.prepare(`DELETE FROM sessions WHERE created_at < datetime('now','-${SESSION_DAYS + 10} days')`).run(); } catch(e){}
+  }
   return token;
 }
 async function authUser(env, request){
@@ -130,7 +150,8 @@ export async function onRequest(context){
 
     /* ---- 注册 ---- */
     if (path === '/register' && method === 'POST'){
-      if (!await rateLimit(env, 'reg|' + clientIp(request), 10, 3600)) return err(429, '注册太频繁，请稍后再试');
+      // 60/小时/IP: 照顾课堂同一出口 IP 集中注册
+      if (!await rateLimit(env, 'reg|' + clientIp(request), 60, 3600)) return err(429, '当前网络注册人数较多，请几分钟后再试');
       const b = await readJson(request);
       if (!b) return err(400, '请求格式错误');
       if (!validNickname(b.nickname)) return err(400, '请填写姓名（1-24字，不含特殊符号）');
@@ -140,7 +161,7 @@ export async function onRequest(context){
       if (b.username || b.password){
         if (!validUsername(b.username)) return err(400, '账号名需 2-24 位（字母/数字/汉字/下划线）');
         if (!validPassword(b.password)) return err(400, '密码需 6-64 位');
-        username = b.username.trim();
+        username = normUsername(b.username);
         const exist = await env.DB.prepare('SELECT id FROM users WHERE username=?1').bind(username).first();
         if (exist) return err(409, '该账号名已被使用，换一个吧');
         passSalt = randHex(16);
@@ -174,9 +195,10 @@ export async function onRequest(context){
     if (path === '/login' && method === 'POST'){
       const b = await readJson(request);
       if (!b || !validUsername(b.username || '') || typeof b.password !== 'string') return err(400, '请输入账号和密码');
-      const rlKey = 'login|' + clientIp(request) + '|' + b.username;
+      const uname = normUsername(b.username);
+      const rlKey = 'login|' + clientIp(request) + '|' + uname;
       if (!await rateLimit(env, rlKey, 10, 600)) return err(429, '尝试太多次，请 10 分钟后再试');
-      const u = await env.DB.prepare('SELECT * FROM users WHERE username=?1').bind(b.username.trim()).first();
+      const u = await env.DB.prepare('SELECT * FROM users WHERE username=?1').bind(uname).first();
       if (!u || !u.pass_hash) return err(401, '账号或密码不对');
       const h = await pbkdf2(b.password, u.pass_salt, PBKDF2_ITER);
       if (!timingSafeEqual(h, u.pass_hash)) return err(401, '账号或密码不对');
@@ -189,7 +211,8 @@ export async function onRequest(context){
       const b = await readJson(request);
       const code = b && normCode(b.sync_code);
       if (!code) return err(400, '同步码格式不对（形如 HY-XXXX-XXXX）');
-      if (!await rateLimit(env, 'code|' + clientIp(request), 15, 600)) return err(429, '尝试太多次，请 10 分钟后再试');
+      // 60/10分钟/IP: 照顾课堂同一出口 IP 集中登录
+      if (!await rateLimit(env, 'code|' + clientIp(request), 60, 600)) return err(429, '当前网络登录人数较多，请几分钟后再试');
       const u = await env.DB.prepare('SELECT * FROM users WHERE sync_code=?1').bind(code).first();
       if (!u) return err(401, '同步码不存在，请检查是否输错');
       const token = await createSession(env, u.id);
@@ -216,7 +239,7 @@ export async function onRequest(context){
       const b = await readJson(request);
       if (!b || !validUsername(b.username || '')) return err(400, '账号名需 2-24 位（字母/数字/汉字/下划线）');
       if (!validPassword(b.password || '')) return err(400, '密码需 6-64 位');
-      const username = b.username.trim();
+      const username = normUsername(b.username);
       const exist = await env.DB.prepare('SELECT id FROM users WHERE username=?1 AND id<>?2').bind(username, s.user_id).first();
       if (exist) return err(409, '该账号名已被使用，换一个吧');
       const salt = randHex(16);
@@ -226,21 +249,50 @@ export async function onRequest(context){
       return ok({ user: { sync_code: s.sync_code, username, nickname: s.nickname } });
     }
 
-    /* ---- 进度: 上传(按词书整份覆盖, 服务端记录双时间) ---- */
+    /* ---- 进度: 上传 ----
+     * 乐观并发: 客户端带 base_server_at(它已知的云端版本)。
+     *   - 云端已有数据且 base 不匹配 → 409 + 返回当前云端数据, 客户端做冲突合并后重试
+     * 防损坏扩散: 空词态档(w 为空)不允许覆盖非空云档 → 422
+     * 一层历史: 覆盖时旧数据挪入 prev_data
+     */
     if (path === '/sync' && method === 'POST'){
       const s = await authUser(env, request);
       if (!s) return err(401, '未登录');
       const b = await readJson(request);
       if (!b || !BOOK_IDS.has(b.book_id)) return err(400, '词书标识不对');
       if (typeof b.data !== 'string' || b.data.length === 0 || b.data.length > MAX_DATA) return err(400, '进度数据超限或为空');
-      try { const parsed = JSON.parse(b.data); if (!parsed || typeof parsed !== 'object' || !parsed.w) return err(400, '进度数据结构不对'); }
-      catch(e){ return err(400, '进度数据不是有效 JSON'); }
+      const insp = inspectArchive(b.data);
+      if (!insp.valid) return err(400, '进度数据结构不对');
+
+      const existing = await env.DB.prepare('SELECT data, server_at FROM progress WHERE user_id=?1 AND book_id=?2')
+        .bind(s.user_id, b.book_id).first();
+
+      if (existing){
+        // 空档保护: 空词态档不能覆盖非空云档(疑似损坏档或异常状态)
+        if (insp.wCount === 0){
+          const old = inspectArchive(existing.data);
+          if (old.valid && old.wCount > 0) return err(422, '拒绝用空进度覆盖云端已有进度');
+        }
+        // 乐观并发: base 不匹配说明有别的设备先写入了
+        const base = (typeof b.base_server_at === 'string') ? b.base_server_at : null;
+        if (base !== existing.server_at){
+          return err(409, '云端已有更新版本', {
+            conflict: true,
+            data: existing.data,
+            server_at: existing.server_at,
+          });
+        }
+      }
+
       const updatedAt = (typeof b.updated_at === 'string' && !isNaN(Date.parse(b.updated_at))) ? b.updated_at : new Date().toISOString();
       const serverAt = new Date().toISOString();
       const device = typeof b.device === 'string' ? b.device.slice(0, 64) : null;
       await env.DB.prepare(
-        `INSERT INTO progress (user_id,book_id,data,updated_at,server_at,device) VALUES (?1,?2,?3,?4,?5,?6)
-         ON CONFLICT(user_id,book_id) DO UPDATE SET data=?3, updated_at=?4, server_at=?5, device=?6`
+        `INSERT INTO progress (user_id,book_id,data,updated_at,server_at,device,prev_data,prev_server_at)
+         VALUES (?1,?2,?3,?4,?5,?6,NULL,NULL)
+         ON CONFLICT(user_id,book_id) DO UPDATE SET
+           prev_data=progress.data, prev_server_at=progress.server_at,
+           data=?3, updated_at=?4, server_at=?5, device=?6`
       ).bind(s.user_id, b.book_id, b.data, updatedAt, serverAt, device).run();
       return ok({ updated_at: updatedAt, server_at: serverAt });
     }
@@ -289,7 +341,7 @@ export async function onRequest(context){
         if (!Number.isInteger(id) || id <= 0) return err(400, 'id 不对');
         const u = await env.DB.prepare('SELECT id,nickname,username,sync_code,created_at,last_seen FROM users WHERE id=?1').bind(id).first();
         if (!u) return err(404, '用户不存在');
-        const p = await env.DB.prepare('SELECT book_id, data, updated_at, server_at, device FROM progress WHERE user_id=?1').bind(id).all();
+        const p = await env.DB.prepare('SELECT book_id, data, updated_at, server_at, device, prev_data, prev_server_at FROM progress WHERE user_id=?1').bind(id).all();
         // 提炼每本书的关键指标, 也附原始数据
         const books = (p.results || []).map(r => {
           let stat = null;
@@ -301,7 +353,8 @@ export async function onRequest(context){
               if ((st.s|0) > 0){ seen++; if ((st.b|0) >= 5) master++; } }
             stat = { seen, master, zhan, xp: d.xp|0, checkins: Object.keys(d.ck||{}).length };
           } catch(e){}
-          return { book_id: r.book_id, updated_at: r.updated_at, server_at: r.server_at, device: r.device, stat, data: r.data };
+          return { book_id: r.book_id, updated_at: r.updated_at, server_at: r.server_at, device: r.device,
+                   stat, data: r.data, prev_data: r.prev_data || null, prev_server_at: r.prev_server_at || null };
         });
         return ok({ user: u, books });
       }

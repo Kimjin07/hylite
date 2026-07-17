@@ -133,20 +133,21 @@ async function openUser(id){
       <span class="num">XP ${s.xp ?? '?'}</span>
       <span class="num">打卡 ${s.checkins ?? '?'} 天</span>
       <span class="muted num">同步于 ${fmtT(b.server_at)}${b.device ? ' · ' + esc(b.device) : ''}</span>
-      <button class="ghost" style="padding:4px 12px;font-size:12px" onclick="event.stopPropagation();dl('${esc(u.sync_code)}','${b.book_id}', ${u.id})">下载备份</button>
+      <button class="ghost" style="padding:4px 12px;font-size:12px" onclick="event.stopPropagation();dl('${esc(u.sync_code)}','${b.book_id}','data')">下载备份</button>
+      ${b.prev_data ? `<button class="ghost" style="padding:4px 12px;font-size:12px" onclick="event.stopPropagation();dl('${esc(u.sync_code)}','${b.book_id}','prev_data')">上一版(${fmtT(b.prev_server_at)})</button>` : ''}
     </div>`;
   }
   box.innerHTML = h;
   box.scrollIntoView({ behavior:'smooth' });
   window.__detail = r;
 }
-function dl(code, bookId, id){
+function dl(code, bookId, field){
   const b = (window.__detail && window.__detail.books || []).find(x => x.book_id === bookId);
-  if (!b) return;
-  const blob = new Blob([b.data], { type:'application/json' });
+  if (!b || !b[field]) return;
+  const blob = new Blob([b[field]], { type:'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'hylite-' + code + '-' + bookId + '.json';
+  a.download = 'hylite-' + code + '-' + bookId + (field === 'prev_data' ? '-上一版' : '') + '.json';
   a.click();
 }
 if (KEY){ enter(); }

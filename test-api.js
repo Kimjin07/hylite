@@ -86,17 +86,28 @@ const S2 = { ...S1, xp: 500, w:{ 'B01:0':{b:3,due:'2026-07-22',s:1,ng:0,cs:2}, '
   { const r = await api('me', { token: 'f'.repeat(64) }); check('伪造 token 401', r.status===401); }
   { const r = await api('me'); check('无 token 401', r.status===401); }
 
-  console.log('== 进度同步 ==');
-  { const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:JSON.stringify(S1), updated_at:new Date().toISOString(), device:'test' } });
-    check('上传进度成功', r.status===200 && r.j.ok, JSON.stringify(r.j));
-    check('返回 server_at', !!r.j.server_at); }
+  console.log('== 进度同步（乐观并发） ==');
+  let sA1;   // A 用户 b1 的当前云端版本号
+  { const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:JSON.stringify(S1), updated_at:new Date().toISOString(), device:'test', base_server_at:null } });
+    check('首次上传成功(base=null)', r.status===200 && r.j.ok, JSON.stringify(r.j));
+    check('返回 server_at', !!r.j.server_at);
+    sA1 = r.j.server_at; }
   { const r = await api('sync?book=b1', { token:uA.token });
     check('拉取进度成功', r.status===200 && r.j.exists);
     const d = JSON.parse(r.j.data); check('数据完整往返', d.xp===120 && d.w['B01:0'].b===2); }
   { const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:JSON.stringify(S2) } });
-    check('覆盖更新成功', r.status===200); }
+    check('缺 base 覆盖已有数据被拒 409', r.status===409, String(r.status));
+    check('409 附带冲突数据', r.j.conflict===true && !!r.j.data && !!r.j.server_at); }
+  { const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:JSON.stringify(S2), base_server_at:'2020-01-01T00:00:00.000Z' } });
+    check('过期 base 被拒 409', r.status===409); }
+  { const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:JSON.stringify(S2), base_server_at:sA1 } });
+    check('正确 base 覆盖成功', r.status===200, JSON.stringify(r.j));
+    sA1 = r.j.server_at; }
   { const r = await api('sync?book=b1', { token:uA.token });
     const d = JSON.parse(r.j.data); check('更新后取回新数据', d.xp===500 && Object.keys(d.w).length===2); }
+  { const empty = JSON.stringify({ ...S1, w:{}, xp:0, ck:{} });
+    const r = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b1', data:empty, base_server_at:sA1 } });
+    check('空词态档覆盖非空云档被拒 422', r.status===422, String(r.status)); }
   { const r = await api('sync?book=b3000', { token:uA.token });
     check('未同步过的书 exists=false', r.status===200 && r.j.exists===false); }
   { const r = await api('sync-meta', { token:uA.token });
@@ -116,6 +127,12 @@ const S2 = { ...S1, xp: 500, w:{ 'B01:0':{b:3,due:'2026-07-22',s:1,ng:0,cs:2}, '
     check('未登录上传被拒', r.status===401); }
   { const r = await api('sync?book=b1', { token: tokenB2 });
     check('用户隔离：B 看不到 A 的进度', r.status===200 && r.j.exists===false); }
+
+  console.log('== 账号名大小写不敏感 ==');
+  { const r = await api('login', { method:'POST', body:{ username:'STUDENT_B', password:'pass123456' } });
+    check('大写账号名可登录', r.status===200 && r.j.ok, String(r.status)); }
+  { const r = await api('register', { method:'POST', body:{ nickname:'大小写抢注', username:'Student_B', password:'x1234567' } });
+    check('不同大小写的重复账号被拒 409', r.status===409, String(r.status)); }
 
   console.log('== 补设账号密码 ==');
   { const r = await api('set-credentials', { method:'POST', token: tokenA2, body:{ username:'student_a', password:'apass12345' } });
@@ -142,7 +159,8 @@ const S2 = { ...S1, xp: 500, w:{ 'B01:0':{b:3,due:'2026-07-22',s:1,ng:0,cs:2}, '
       const r2 = await api('admin/user?id=' + a.id, { admin: ADMIN });
       check('学生详情成功', r2.status===200 && r2.j.user?.nickname==='测试学生A');
       const b1 = (r2.j.books||[]).find(b=>b.book_id==='b1');
-      check('详情统计正确(已学2/XP500)', b1 && b1.stat?.seen===2 && b1.stat?.xp===500, JSON.stringify(b1?.stat)); } }
+      check('详情统计正确(已学2/XP500)', b1 && b1.stat?.seen===2 && b1.stat?.xp===500, JSON.stringify(b1?.stat));
+      check('保留上一版数据(prev_data, xp=120)', b1 && b1.prev_data && JSON.parse(b1.prev_data).xp===120, b1 && b1.prev_data ? 'has' : 'missing'); } }
   { const r = await api('admin/user?id=999999', { admin: ADMIN }); check('不存在学生 404', r.status===404); }
 
   console.log('== 登录限流 ==');

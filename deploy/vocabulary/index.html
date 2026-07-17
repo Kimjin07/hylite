@@ -566,8 +566,11 @@ function normalize(s){
   const out={v:3};
   const w=(s.w&&typeof s.w==='object')?s.w:{};
   out.w={};
+  // 词书数据未就绪时(拆分构建加载失败/未完成) WIDX 为空，此时不做词表过滤，
+  // 仅做格式清洗——否则会把整份词态误删成空档（再被云同步扩散就是灾难）
+  const widxReady = TOTAL > 0 || Object.keys(WIDX).length > 0;
   for (const k in w){
-    if (!(k in WIDX)) continue;
+    if (widxReady ? !(k in WIDX) : !/^[A-Za-z0-9]+:\d+$/.test(k)) continue;
     const e=w[k];
     if (!e || typeof e!=='object' || Array.isArray(e)) continue;
     const x={ b:Math.min(MAXB,Math.max(0,Math.floor(Number(e.b)||0))),
@@ -1526,6 +1529,581 @@ document.addEventListener('keydown', e=>{
 });
 
 'use strict';
+/* ================= 云同步（可选功能，未登录时完全不影响原有使用） =================
+ * 账号体系：同步码 HY-XXXX-XXXX 为根凭证（注册即得、可直接登录、忘记密码的找回钥匙）；
+ *          账号名+密码为可选的第二种登录方式。
+ * 同步策略：离线优先。本地 localStorage 永远是主副本，云端是镜像备份；
+ *          同步失败静默重试，绝不打断学习。
+ * 安全底线（对抗审查后加固）：
+ *  - 任何"应用云端数据"前：先做结构校验，再把本地旧档存入带时间戳的备份槽（可在界面恢复）
+ *  - 首次登录/换账号（本地无同步记录）且本地有进度时，一律走"进度多者胜"的冲突合并，绝不盲替换
+ *  - 推送走乐观并发（base_server_at），云端被别的设备先写会返回 409，走冲突合并后重试
+ *  - "疑似损坏档"（词态为空但 XP/打卡非零、或当前词书数据尚未加载）绝不推送
+ *  - dirty 标记落盘，关页/杀进程后下次打开会补传
+ *  - 训练中（背词/速刷/连连看或任何弹层界面）不替换当前进度
+ * 注：顶层状态用 var（无 TDZ），杜绝构建拼接顺序引发的初始化崩溃。
+ */
+
+var SYNC_AUTH_KEY = 'hylite_sync_auth';
+var SYNC_META_KEY = 'hylite_sync_meta';
+var SYNC_BACKUP_PREFIX = 'hylite_sync_backup__';
+
+var syncAuth = null;      // {token, user:{sync_code, username, nickname}}
+var syncMeta = {};        // { bookId: {serverAt, pushedAt, dirty, seq, lastPushTs} }
+var syncBusy = false;
+var syncApplying = false; // 应用云端数据时不把 save() 记为脏
+var syncLastOk = null, syncLastErr = null;
+var syncPushT = null;
+var syncUiBusy = false;   // 表单防重复提交
+
+/* ---------------- 本地状态 ---------------- */
+function syncLoadLocal(){
+  try { syncAuth = JSON.parse(store() && store().getItem(SYNC_AUTH_KEY)) || null; } catch(e){ syncAuth = null; }
+  try { syncMeta = JSON.parse(store() && store().getItem(SYNC_META_KEY)) || {}; } catch(e){ syncMeta = {}; }
+  if (syncAuth && (!syncAuth.token || !syncAuth.user)) syncAuth = null;
+}
+function syncSaveLocal(){
+  try { const st = store(); if (!st) return;
+    if (syncAuth) st.setItem(SYNC_AUTH_KEY, JSON.stringify(syncAuth)); else st.removeItem(SYNC_AUTH_KEY);
+    st.setItem(SYNC_META_KEY, JSON.stringify(syncMeta));
+  } catch(e){}
+}
+function syncUser(){ return (syncAuth && syncAuth.user) || null; }
+function syncDevice(){
+  try { const ua = navigator.userAgent;
+    const os = /iPhone|iPad/.test(ua) ? 'iOS' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac/.test(ua) ? 'Mac' : '其他';
+    return os + (/(MicroMessenger)/.test(ua) ? '·微信' : '');
+  } catch(e){ return '未知'; }
+}
+
+/* ---------------- API（带 15 秒超时） ---------------- */
+async function syncApi(path, opts){
+  opts = opts || {};
+  const headers = { 'Content-Type': 'application/json' };
+  if (syncAuth && syncAuth.token) headers['Authorization'] = 'Bearer ' + syncAuth.token;
+  let ctrl = null, timer = null;
+  try { ctrl = new AbortController(); timer = setTimeout(()=>ctrl.abort(), 15000); } catch(e){}
+  let res;
+  try {
+    res = await fetch('/api/' + path, {
+      method: opts.method || 'GET',
+      headers,
+      body: opts.body ? JSON.stringify(opts.body) : undefined,
+      keepalive: !!opts.keepalive,
+      signal: ctrl ? ctrl.signal : undefined,
+    });
+  } catch(e){
+    if (timer) clearTimeout(timer);
+    syncLastErr = '网络连不上';
+    return { ok:false, error:'网络连不上', _net:true };
+  }
+  if (timer) clearTimeout(timer);
+  let j; try { j = await res.json(); } catch(e){ j = { ok:false, error:'服务响应异常' }; }
+  j._status = res.status;
+  if (res.status === 401 && syncAuth && path !== 'logout' && !path.startsWith('login')){
+    // 会话失效：清除登录态但绝不动本地进度
+    syncAuth = null; syncSaveLocal();
+    try { toast('云同步登录已过期，请重新登录'); } catch(e){}
+    if (!screen) try { render(); } catch(e){}
+  }
+  return j;
+}
+
+/* ---------------- 进度读取 / 档案体检 ---------------- */
+function syncBookRaw(id){
+  if (id === curBookId){
+    // 当前词书数据未加载完成时，内存 S 可能是被 normalize 掏空的档 → 用 localStorage 里的原档
+    if (typeof TOTAL !== 'undefined' && TOTAL === 0){
+      try { return (store() && store().getItem(KEY_BASE + '__' + id)) || null; } catch(e){ return null; }
+    }
+    try { return JSON.stringify(S); } catch(e){ return null; }
+  }
+  try { return (store() && store().getItem(KEY_BASE + '__' + id)) || null; } catch(e){ return null; }
+}
+function syncParse(raw){
+  if (!raw) return null;
+  try { const d = JSON.parse(raw); return (d && typeof d === 'object' && !Array.isArray(d)) ? d : null; } catch(e){ return null; }
+}
+function syncIsEmpty(raw){
+  const d = syncParse(raw);
+  if (!d) return true;
+  return Object.keys(d.w || {}).length === 0 && !(d.xp > 0) && Object.keys(d.ck || {}).length === 0;
+}
+function syncValidArchive(d){
+  return !!(d && typeof d === 'object' && !Array.isArray(d) && d.w && typeof d.w === 'object' && !Array.isArray(d.w));
+}
+// 疑似损坏档：词态空但 XP/打卡非零（多半是词书数据没加载时被清洗过的档）→ 禁止外传
+function syncLooksPoisoned(d){
+  return syncValidArchive(d) && Object.keys(d.w).length === 0 && ((d.xp|0) > 0 || Object.keys(d.ck || {}).length > 0);
+}
+// 可安全推送的档：结构合法、非空、非疑似损坏、体积合规；否则返回 null
+function syncPushableRaw(id){
+  const raw = syncBookRaw(id);
+  if (!raw) return null;
+  if (raw.length > 1200000){ syncLastErr = '进度体积超限，暂无法同步'; return null; }
+  const d = syncParse(raw);
+  if (!syncValidArchive(d)) return null;
+  if (syncLooksPoisoned(d)) return null;
+  if (Object.keys(d.w).length === 0 && !(d.xp > 0) && Object.keys(d.ck || {}).length === 0) return null; // 纯空档不推
+  return raw;
+}
+function syncScore(d){ // 冲突时比较"谁的进度多"：XP 为主，已学词数为辅
+  let seen = 0; for (const k in (d.w || {})){ const st = d.w[k]; if (st && (st.s > 0 || st.z)) seen++; }
+  return (d.xp|0) * 1000000 + seen;
+}
+
+/* ---------------- 备份槽（带时间戳，每本书保留最近 2 份，可在界面恢复） ---------------- */
+function syncBackup(id, raw, why){
+  try {
+    const st = store(); if (!st) return;
+    st.setItem(SYNC_BACKUP_PREFIX + id + '__' + Date.now() + '__' + why, raw);
+    // 修剪：每本书最多留 2 份
+    const keys = [];
+    for (let i = 0; i < st.length; i++){ const k = st.key(i); if (k && k.indexOf(SYNC_BACKUP_PREFIX + id + '__') === 0) keys.push(k); }
+    keys.sort();
+    while (keys.length > 2) st.removeItem(keys.shift());
+  } catch(e){}
+}
+function syncListBackups(){
+  const out = [];
+  try {
+    const st = store(); if (!st) return out;
+    for (let i = 0; i < st.length; i++){
+      const k = st.key(i);
+      if (!k || k.indexOf(SYNC_BACKUP_PREFIX) !== 0) continue;
+      const rest = k.slice(SYNC_BACKUP_PREFIX.length).split('__');   // id, ts, why
+      if (rest.length < 3) continue;
+      out.push({ key: k, book: rest[0], ts: Number(rest[1]) || 0, why: rest[2] });
+    }
+  } catch(e){}
+  out.sort((a, b) => b.ts - a.ts);
+  return out;
+}
+function syncRestoreBackup(key){
+  try {
+    const st = store(); if (!st) return;
+    const raw = st.getItem(key); if (!raw) { toast('备份不存在'); return; }
+    const d = syncParse(raw);
+    if (!syncValidArchive(d)){ toast('备份数据损坏，无法恢复'); return; }
+    const book = key.slice(SYNC_BACKUP_PREFIX.length).split('__')[0];
+    ask('用这份备份覆盖《' + ((BOOKS.find(b=>b.id===book)||{}).name || book) + '》当前进度吗？\n覆盖前会把当前进度存为新备份。', ()=>{
+      const cur = syncBookRaw(book);
+      if (cur && !syncIsEmpty(cur)) syncBackup(book, cur, 'beforerestore');
+      syncApplying = true;
+      try {
+        st.setItem(KEY_BASE + '__' + book, raw);
+        if (book === curBookId){ S = load(); todayPlan(); applyTheme(); }
+      } finally { syncApplying = false; }
+      const m = syncMeta[book] || (syncMeta[book] = {});
+      m.dirty = true; m.seq = (m.seq||0) + 1; syncSaveLocal();
+      toast('✔ 已恢复备份' + (syncAuth ? '，稍后自动同步到云端' : ''));
+      if (syncAuth) syncSchedulePush();
+      closeModal(); if (!screen) render();
+    }, '恢 复', true);
+  } catch(e){ toast('恢复失败'); }
+}
+
+/* ---------------- 推送（乐观并发 + 409 冲突合并） ---------------- */
+async function syncPushBook(id, isRetry){
+  if (!syncAuth) return false;
+  const m = syncMeta[id] || (syncMeta[id] = {});
+  const raw = syncPushableRaw(id);
+  if (!raw){ m.dirty = false; syncSaveLocal(); return false; }   // 不可推送(空/损坏/超限) → 放弃这次，不再空转
+  const seq0 = m.seq || 0;
+  const r = await syncApi('sync', { method:'POST', body:{
+    book_id: id, data: raw,
+    updated_at: new Date().toISOString(),
+    base_server_at: m.serverAt || null,
+    device: syncDevice(),
+  }});
+  if (r.ok){
+    m.serverAt = r.server_at; m.pushedAt = r.updated_at; m.lastPushTs = Date.now();
+    if ((m.seq || 0) === seq0) m.dirty = false;    // 请求在途期间又有新改动则保持脏
+    syncLastOk = Date.now(); syncLastErr = null; syncSaveLocal();
+    return true;
+  }
+  if (r._status === 409 && r.conflict && !isRetry){
+    // 云端被别的设备先写：进度多者胜
+    const cloudD = syncParse(r.data), localD = syncParse(raw);
+    if (cloudD && localD && syncValidArchive(cloudD)){
+      if (syncScore(cloudD) > syncScore(localD)){
+        syncBackup(id, raw, 'conflictlocal');
+        const applied = await syncApplyCloud(id, { data: r.data, server_at: r.server_at, updated_at: r.server_at });
+        if (applied) try { toast('检测到另一台设备的更新，已采用进度较多的一份'); } catch(e){}
+        return applied;
+      }
+      syncBackup(id, r.data, 'conflictcloud');
+      m.serverAt = r.server_at; syncSaveLocal();   // 接受新 base 再推一次
+      return syncPushBook(id, true);
+    }
+  }
+  if (!r._net) syncLastErr = r.error || '同步失败';
+  return false;
+}
+async function syncPushDirty(){
+  if (!syncAuth || syncBusy) return;
+  syncBusy = true;
+  try {
+    for (const id of Object.keys(syncMeta)){
+      const m = syncMeta[id];
+      if (!m || !m.dirty) continue;
+      if (m.lastPushTs && Date.now() - m.lastPushTs < 20000 && !m.force) continue;   // 每本书至少间隔 20 秒
+      delete m.force;
+      await syncPushBook(id);
+    }
+  } finally { syncBusy = false; }
+  syncRefreshCard();
+}
+function syncSchedulePush(){
+  clearTimeout(syncPushT);
+  syncPushT = setTimeout(()=>{ syncPushDirty(); }, 10000);
+}
+
+/* ---------------- 应用云端数据（结构校验 + 备份 + 经 normalize 落地） ---------------- */
+async function syncApplyCloud(id, r){
+  const cloud = syncParse(r.data);
+  if (!syncValidArchive(cloud)) return false;
+  if (id === curBookId){
+    // 训练或任何弹层界面中不替换当前进度；词书数据没加载好也不替换
+    if ((typeof SES !== 'undefined' && SES) || (typeof FL !== 'undefined' && FL) ||
+        (typeof ML !== 'undefined' && ML) || screen) return false;
+    if (typeof TOTAL !== 'undefined' && TOTAL === 0) return false;
+  }
+  const oldRaw = syncBookRaw(id);
+  if (oldRaw && !syncIsEmpty(oldRaw)) syncBackup(id, oldRaw, 'replaced');
+  syncApplying = true;
+  try {
+    const st = store(); if (!st) return false;
+    st.setItem(KEY_BASE + '__' + id, r.data);
+    if (id === curBookId){
+      S = load();          // 经 load()→normalize() 清洗落地，畸形字段在这里被修正
+      todayPlan(); applyTheme();
+      try { updateChrome(); } catch(e){}
+      if (!screen) try { render(); } catch(e){}
+    }
+  } catch(e){ return false; }
+  finally { syncApplying = false; }
+  syncMeta[id] = { serverAt: r.server_at, pushedAt: r.updated_at, dirty: false, seq: (syncMeta[id]||{}).seq || 0 };
+  syncSaveLocal();
+  return true;
+}
+
+/* ---------------- 全量核对（拉取 + 冲突合并 + 云端缺的书补传） ---------------- */
+async function syncPullCheck(){
+  if (!syncAuth || syncBusy) return;
+  syncBusy = true;
+  let metaOk = false;
+  try {
+    const meta = await syncApi('sync-meta');
+    if (!meta.ok){ if (!meta._net) syncLastErr = meta.error; return; }
+    metaOk = true;
+    const cloudBooks = {};
+    for (const b of (meta.books || [])) cloudBooks[b.book_id] = b;
+
+    for (const bid of Object.keys(cloudBooks)){
+      const cb = cloudBooks[bid];
+      const m = syncMeta[bid];
+      const known = (m || {}).serverAt;
+      const dirty = !!(m || {}).dirty;
+      const raw = syncBookRaw(bid);
+      const localHasData = !syncIsEmpty(raw);
+      const cloudNew = cb.server_at !== known;
+      const firstContact = !m || !m.serverAt;    // 本机对这本书没有任何同步记录（首次登录/换账号/清过缓存）
+
+      if (!cloudNew && !dirty) continue;
+      if (!cloudNew && dirty){ await syncPushBook(bid); continue; }
+
+      // 云端有本机未见过的版本
+      const r = await syncApi('sync?book=' + bid);
+      if (!r.ok || !r.exists) continue;
+
+      if (!localHasData){ await syncApplyCloud(bid, r); continue; }
+
+      if (firstContact || dirty){
+        // 首次接触 或 双边都有改动 → 进度多者胜，落败方备份
+        const cloudD = syncParse(r.data), localD = syncParse(raw);
+        if (!cloudD || !localD || !syncValidArchive(cloudD)){ if (dirty) await syncPushBook(bid); continue; }
+        if (syncScore(cloudD) > syncScore(localD)){
+          syncBackup(bid, raw, firstContact ? 'loginlocal' : 'conflictlocal');
+          const applied = await syncApplyCloud(bid, r);
+          if (applied) try { toast('《' + ((BOOKS.find(b=>b.id===bid)||{}).name||bid) + '》已采用云端较多的进度，本机原进度已备份'); } catch(e){}
+        } else {
+          syncBackup(bid, r.data, firstContact ? 'logincloud' : 'conflictcloud');
+          const mm = syncMeta[bid] || (syncMeta[bid] = {});
+          mm.serverAt = r.server_at;             // 以云端当前版本为 base 覆盖推送
+          mm.dirty = true; mm.seq = (mm.seq||0) + 1;
+          await syncPushBook(bid);
+        }
+        continue;
+      }
+
+      // 本机干净、云端更新（典型：另一台设备学习了）→ 采用云端
+      await syncApplyCloud(bid, r);
+    }
+
+    // 云端没有、本机有实际进度的书 → 补传（仅在 meta 拉取成功后才做，防止盲推覆盖）
+    for (const b of BOOKS){
+      if (cloudBooks[b.id]) continue;
+      const raw = syncPushableRaw(b.id);
+      if (raw){
+        const mm = syncMeta[b.id] || (syncMeta[b.id] = {});
+        mm.serverAt = null; mm.dirty = true; mm.seq = (mm.seq||0) + 1;
+        await syncPushBook(b.id);
+      }
+    }
+    syncLastOk = Date.now(); syncLastErr = null; syncSaveLocal();
+  } finally {
+    syncBusy = false;
+    syncRefreshCard();
+  }
+  return metaOk;
+}
+
+/* ---------------- 存档/切书钩子（bc-core 调用） ---------------- */
+function syncOnSave(){
+  if (!syncAuth || syncApplying) return;
+  const m = syncMeta[curBookId] || (syncMeta[curBookId] = {});
+  m.dirty = true; m.seq = (m.seq || 0) + 1;
+  syncSaveLocal();                                   // 脏标记落盘：关页/杀进程后下次打开补传
+  syncSchedulePush();
+}
+function syncOnBookSwitch(){
+  if (!syncAuth) return;
+  setTimeout(()=>{ syncPullCheck(); }, 400);
+}
+
+/* ---------------- 手动操作 ---------------- */
+async function syncNow(){
+  if (!syncAuth){ try { toast('请先登录云同步'); } catch(e){} return; }
+  if (syncBusy){ try { toast('正在同步中…'); } catch(e){} return; }
+  try { toast('同步中…'); } catch(e){}
+  const m = syncMeta[curBookId] || (syncMeta[curBookId] = {});
+  m.dirty = true; m.seq = (m.seq || 0) + 1; m.force = true;
+  await syncPushDirty();
+  const pulled = await syncPullCheck();
+  try { toast(syncLastErr ? ('⚠ ' + syncLastErr) : (pulled === false || pulled === undefined) && !syncLastOk ? '⚠ 同步未完成，请稍后再试' : '✔ 同步完成'); } catch(e){}
+  if (!screen && tab === 4) render();
+}
+
+/* ---------------- 登录/注册/退出 ---------------- */
+async function syncDoRegister(){
+  if (syncUiBusy) return; syncUiBusy = true;
+  try {
+    const nick = ($('#syncNick') || {}).value || '';
+    const user = (($('#syncUser') || {}).value || '').trim();
+    const pass = ($('#syncPass') || {}).value || '';
+    if (!nick.trim()){ toast('请填写姓名'); return; }
+    if ((user && !pass) || (!user && pass)){ toast('账号和密码要一起填（也可以都不填，只用同步码）'); return; }
+    const body = { nickname: nick.trim() };
+    if (user){ body.username = user; body.password = pass; }
+    const r = await syncApi('register', { method:'POST', body });
+    if (!r.ok){ toast('⚠ ' + (r.error || '注册失败')); return; }
+    syncAuth = { token: r.token, user: r.user };
+    syncMeta = {}; syncSaveLocal();
+    closeModal();
+    // 展示同步码（关键凭证，引导保存）
+    $('#sheet').innerHTML = `<div class="grab"></div>
+      <div class="dw" style="font-size:22px;margin-bottom:6px">✔ 注册成功</div>
+      <div class="muted" style="margin-bottom:14px">这是你的<b>同步码</b>，换设备或忘记密码时凭它找回全部进度。<b>请立即截图保存！</b></div>
+      <div class="card" style="text-align:center"><div class="num" style="font-size:30px;font-weight:900;letter-spacing:2px">${esc(r.user.sync_code)}</div></div>
+      <button class="b3d" onclick="syncCopyCode()">复制同步码</button>
+      <button class="b3d ghost" onclick="closeModal();go(4)">我已保存，完成</button>`;
+    $('#modal').classList.add('show');
+    await syncPullCheck();     // 全新账号云端为空 → 此调用会把本机已有进度全部补传
+  } finally { syncUiBusy = false; }
+}
+async function syncDoLogin(){
+  if (syncUiBusy) return; syncUiBusy = true;
+  try {
+    const user = (($('#syncUser') || {}).value || '').trim();
+    const pass = ($('#syncPass') || {}).value || '';
+    if (!user || !pass){ toast('请输入账号和密码'); return; }
+    const r = await syncApi('login', { method:'POST', body:{ username:user, password:pass } });
+    if (!r.ok){ toast('⚠ ' + (r.error || '登录失败')); return; }
+    await syncAfterLogin(r);
+  } finally { syncUiBusy = false; }
+}
+async function syncDoLoginCode(){
+  if (syncUiBusy) return; syncUiBusy = true;
+  try {
+    const code = (($('#syncCode') || {}).value || '').trim();
+    if (!code){ toast('请输入同步码'); return; }
+    const r = await syncApi('login-code', { method:'POST', body:{ sync_code:code } });
+    if (!r.ok){ toast('⚠ ' + (r.error || '登录失败')); return; }
+    await syncAfterLogin(r);
+  } finally { syncUiBusy = false; }
+}
+async function syncAfterLogin(r){
+  syncAuth = { token: r.token, user: r.user };
+  syncMeta = {}; syncSaveLocal();
+  closeModal();
+  toast('✔ 已登录，正在同步…');
+  const okPull = await syncPullCheck();   // 首次接触：内部走"进度多者胜"合并，云端缺的书自动补传
+  toast(okPull ? '✔ 同步完成' : '⚠ 已登录，但同步未完成，稍后会自动重试');
+  go(4);
+}
+function syncLogoutAsk(){
+  ask('退出云同步登录？\n本机进度不受影响，只是不再自动同步。', async ()=>{
+    await syncApi('logout', { method:'POST' });
+    syncAuth = null; syncMeta = {}; syncSaveLocal();
+    toast('已退出云同步'); render();
+  }, '退 出');
+}
+async function syncSetCred(){
+  if (syncUiBusy) return; syncUiBusy = true;
+  try {
+    const user = (($('#syncUser') || {}).value || '').trim();
+    const pass = ($('#syncPass') || {}).value || '';
+    if (!user || !pass){ toast('请输入账号和密码'); return; }
+    const r = await syncApi('set-credentials', { method:'POST', body:{ username:user, password:pass } });
+    if (!r.ok){ toast('⚠ ' + (r.error || '设置失败')); return; }
+    syncAuth.user = r.user; syncSaveLocal();
+    closeModal(); toast('✔ 账号密码已设置'); render();
+  } finally { syncUiBusy = false; }
+}
+function syncCopyCode(){
+  const u = syncUser(); if (!u) return;
+  try {
+    navigator.clipboard.writeText(u.sync_code)
+      .then(()=>toast('已复制同步码'))
+      .catch(()=>{ try { window.prompt('自动复制失败，请长按选中复制：', u.sync_code); } catch(e){ toast(u.sync_code); } });
+  } catch(e){ try { window.prompt('请长按选中复制：', u.sync_code); } catch(_){ toast(u.sync_code); } }
+}
+
+/* ---------------- UI ---------------- */
+function syncOpenPanel(mode){
+  modalK = null;
+  const attrs = 'autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"';
+  let h = `<div class="grab"></div>`;
+  if (mode === 'reg'){
+    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">注册云同步</div>
+      <div class="muted" style="margin-bottom:12px">注册后进度自动存到云端，换手机、换电脑输同步码就能接着学。</div>
+      <div class="card">
+        <div class="st1" style="margin-bottom:6px">姓名（必填，老师用来认人）</div>
+        <input id="syncNick" class="search" style="width:100%" maxlength="24" placeholder="例如：张小明">
+        <div class="st1" style="margin:12px 0 6px">账号名（选填）</div>
+        <input id="syncUser" class="search" style="width:100%" maxlength="24" ${attrs} placeholder="建议用手机号，方便记">
+        <div class="st1" style="margin:12px 0 6px">密码（选填，填了账号就必填）</div>
+        <input id="syncPass" class="search" type="password" style="width:100%" maxlength="64" placeholder="至少 6 位">
+        <div class="muted" style="font-size:12px;margin-top:8px">不填账号密码也行——注册会发你一个同步码，凭码登录。</div>
+      </div>
+      <button class="b3d" onclick="syncDoRegister()">注 册</button>
+      <button class="b3d ghost" onclick="syncOpenPanel('login')">已有账号？去登录</button>`;
+  } else if (mode === 'cred'){
+    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">设置账号密码</div>
+      <div class="muted" style="margin-bottom:12px">给当前账号补一个账号名和密码，以后可以不用同步码登录。</div>
+      <div class="card">
+        <div class="st1" style="margin-bottom:6px">账号名</div>
+        <input id="syncUser" class="search" style="width:100%" maxlength="24" ${attrs} placeholder="建议用手机号">
+        <div class="st1" style="margin:12px 0 6px">密码</div>
+        <input id="syncPass" class="search" type="password" style="width:100%" maxlength="64" placeholder="至少 6 位">
+      </div>
+      <button class="b3d" onclick="syncSetCred()">保 存</button>
+      <button class="b3d ghost" onclick="closeModal()">取 消</button>`;
+  } else if (mode === 'backup'){
+    const list = syncListBackups();
+    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">本机备份</div>
+      <div class="muted" style="margin-bottom:12px">同步在覆盖本机进度前会自动留底。选一份可恢复（当前进度也会先备份，不怕点错）。</div>`;
+    if (!list.length) h += `<div class="card"><span class="muted">暂无备份。备份会在云端与本机进度合并时自动产生。</span></div>`;
+    for (const b of list.slice(0, 8)){
+      const bn = (BOOKS.find(x=>x.id===b.book)||{}).name || b.book;
+      const t = new Date(b.ts);
+      const why = { replaced:'被云端覆盖前', loginlocal:'登录合并前(本机)', logincloud:'登录合并时(云端)', conflictlocal:'冲突落败(本机)', conflictcloud:'冲突落败(云端)', beforerestore:'恢复操作前' }[b.why] || b.why;
+      h += `<button class="bookopt" onclick="syncRestoreBackup('${esc(b.key)}')">
+        <div class="spread"><b>${esc(bn)}</b><span class="muted">${t.getMonth()+1}/${t.getDate()} ${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')}</span></div>
+        <div class="muted" style="font-size:12px;margin-top:2px">${esc(why)}</div></button>`;
+    }
+    h += `<button class="b3d ghost" style="margin-top:10px" onclick="closeModal()">关 闭</button>`;
+  } else {
+    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">登录云同步</div>
+      <div class="card">
+        <div class="st1" style="margin-bottom:6px">方式一：同步码</div>
+        <input id="syncCode" class="search" style="width:100%;text-transform:uppercase" maxlength="20" ${attrs} placeholder="HY-XXXX-XXXX">
+        <button class="b3d" style="margin-top:10px" onclick="syncDoLoginCode()">用同步码登录</button>
+      </div>
+      <div class="card">
+        <div class="st1" style="margin-bottom:6px">方式二：账号密码</div>
+        <input id="syncUser" class="search" style="width:100%" maxlength="24" ${attrs} placeholder="账号名">
+        <input id="syncPass" class="search" type="password" style="width:100%;margin-top:8px" maxlength="64" placeholder="密码">
+        <button class="b3d" style="margin-top:10px" onclick="syncDoLogin()">登 录</button>
+        <div class="muted" style="font-size:12px;margin-top:8px">忘记密码？用同步码登录后可重设。</div>
+      </div>
+      <button class="b3d ghost" onclick="syncOpenPanel('reg')">没有账号？去注册</button>`;
+  }
+  $('#sheet').innerHTML = h;
+  $('#modal').classList.add('show');
+}
+function syncCardHtml(){
+  const u = syncUser();
+  if (!u){
+    return `<div class="sec">云同步</div><div class="card">
+      <div class="setrow" style="border:none;padding-top:0"><div><div class="st1">进度云同步</div><div class="st2">注册后自动备份到云端，换设备登录即恢复</div></div></div>
+      <div class="row2" style="margin-top:8px">
+        <button class="b3d" onclick="syncOpenPanel('reg')">注 册</button>
+        <button class="b3d sec" onclick="syncOpenPanel('login')">登 录</button>
+      </div></div>`;
+  }
+  const t = syncLastOk ? new Date(syncLastOk) : null;
+  const timeStr = t ? (t.getHours()+':'+String(t.getMinutes()).padStart(2,'0')) : '—';
+  const st = syncLastErr ? `<span style="color:var(--red)">⚠ ${esc(syncLastErr)}</span>` : `上次同步 ${timeStr}`;
+  const hasBackups = syncListBackups().length > 0;
+  return `<div class="sec">云同步</div><div class="card" id="syncCard">
+    <div class="setrow" style="border:none;padding-top:0"><div>
+      <div class="st1">${esc(u.nickname)}${u.username ? ' · ' + esc(u.username) : ''}</div>
+      <div class="st2">同步码 <b class="num">${esc(u.sync_code)}</b> · <span id="syncStatus">${st}</span></div>
+    </div></div>
+    <div class="row2" style="margin-top:8px">
+      <button class="b3d sec" onclick="syncNow()">立即同步</button>
+      <button class="b3d ghost" onclick="syncCopyCode()">复制同步码</button>
+    </div>
+    ${u.username ? '' : `<button class="b3d ghost" style="margin-top:8px" onclick="syncOpenPanel('cred')">设置账号密码（可选）</button>`}
+    ${hasBackups ? `<button class="b3d ghost" style="margin-top:8px" onclick="syncOpenPanel('backup')">本机备份恢复</button>` : ''}
+    <button class="b3d ghost" style="margin-top:8px" onclick="syncLogoutAsk()">退出登录</button>
+  </div>`;
+}
+function syncRefreshCard(){
+  const el = document.getElementById('syncStatus');
+  if (!el) return;
+  const t = syncLastOk ? new Date(syncLastOk) : null;
+  const timeStr = t ? (t.getHours()+':'+String(t.getMinutes()).padStart(2,'0')) : '—';
+  el.innerHTML = syncLastErr ? `<span style="color:var(--red)">⚠ ${esc(syncLastErr)}</span>` : `上次同步 ${timeStr}`;
+}
+
+/* ---------------- 启动与周期任务 ---------------- */
+function syncBoot(){
+  syncLoadLocal();
+  if (syncAuth){
+    // 等词书数据就绪后做一次全量核对（含上次没传完的脏数据补传）
+    const tryStart = (n)=>{
+      if (typeof TOTAL !== 'undefined' && TOTAL > 0){ syncPullCheck(); return; }
+      if (n < 30) setTimeout(()=>tryStart(n+1), 500);
+    };
+    tryStart(0);
+  }
+  setInterval(()=>{ syncPushDirty(); }, 60 * 1000);
+  setInterval(()=>{ if (typeof SES === 'undefined' || !SES) syncPullCheck(); }, 8 * 60 * 1000);
+  document.addEventListener('visibilitychange', ()=>{
+    if (document.visibilityState === 'hidden'){
+      // 离开页面前尽力推送。keepalive 有 64KB 体积上限，大档跳过——
+      // 脏标记已落盘，下次打开会自动补传，不会丢。
+      if (!syncAuth) return;
+      for (const id of Object.keys(syncMeta)){
+        if (!syncMeta[id] || !syncMeta[id].dirty) continue;
+        const raw = syncPushableRaw(id);
+        if (raw && raw.length < 55000){
+          syncApi('sync', { method:'POST', keepalive:true, body:{
+            book_id:id, data:raw, updated_at:new Date().toISOString(),
+            base_server_at:(syncMeta[id]||{}).serverAt || null, device:syncDevice() } });
+        }
+      }
+    } else if (document.visibilityState === 'visible'){
+      if (syncAuth && (typeof SES === 'undefined' || !SES)) setTimeout(()=>syncPullCheck(), 800);
+    }
+  });
+}
+setTimeout(syncBoot, 600);
+
+'use strict';
 /* ================= 路由 ================= */
 let tab=0, screen=null, calOff=0, libQ='', libF='all';
 
@@ -2007,12 +2585,14 @@ function doImport(d){
     else throw 0;
     const cNow=counts();
     const cNew=(()=>{ let seen=0; for(const k in next.w){ if(next.w[k].s>0&&!next.w[k].z) seen++; } return seen; })();
-    ask(`导入将覆盖《${curBook().name}》当前进度：\n当前：已学 ${cNow.seen} 词 · 打卡 ${Object.keys(S.ck).length} 天\n文件：已学 ${cNew} 词 · 打卡 ${Object.keys(next.ck).length} 天\n\n确定用文件覆盖吗？`,
+    const cloudNote2 = (typeof syncUser==='function' && syncUser()) ? '\n⚠ 云同步已开启：导入的进度也会同步到云端和其他设备。' : '';
+    ask(`导入将覆盖《${curBook().name}》当前进度：\n当前：已学 ${cNow.seen} 词 · 打卡 ${Object.keys(S.ck).length} 天\n文件：已学 ${cNew} 词 · 打卡 ${Object.keys(next.ck).length} 天\n\n确定用文件覆盖吗？`+cloudNote2,
       ()=>{ S=next; save(); applyTheme(); toast('导入成功'); go(0); }, '覆 盖', true);
   } catch(e){ toast('文件格式不对，导入失败'); }
 }
 function resetAll(){
-  ask('清空全部进度？\n词态、错词本、打卡、经验、成就都会删除，此操作不可撤销。',
+  const cloudNote = (typeof syncUser==='function' && syncUser()) ? '\n⚠ 云同步已开启：继续学习后，云端备份和其他设备也会被新进度覆盖。' : '';
+  ask('清空全部进度？\n词态、错词本、打卡、经验、成就都会删除，此操作不可撤销。'+cloudNote,
     ()=>{ S=fresh(S.cfg); save(); toast('已全部重置'); go(0); }, '清 空', true);
 }
 
@@ -2123,394 +2703,6 @@ useBook(loadBookChoice(), true, ()=>{
   render();
   checkAch();
 });
-
-'use strict';
-/* ================= 云同步（可选功能，未登录时完全不影响原有使用） =================
- * 账号体系：同步码 HY-XXXX-XXXX 为根凭证（注册即得、可直接登录、忘记密码的找回钥匙）；
- *          账号名+密码为可选的第二种登录方式。
- * 同步策略：离线优先。本地 localStorage 永远是主副本，云端是镜像备份；
- *          同步失败静默重试，绝不打断学习；应用云端数据前先把本地旧档备份到 localStorage。
- */
-
-const SYNC_AUTH_KEY = 'hylite_sync_auth';
-const SYNC_META_KEY = 'hylite_sync_meta';
-
-let syncAuth = null;      // {token, user:{sync_code, username, nickname}}
-let syncMeta = {};        // { bookId: {serverAt, pushedAt, dirty} }
-let syncBusy = false;
-let syncApplying = false; // 应用云端数据时不把 save() 记为脏
-let syncLastOk = null, syncLastErr = null;
-let syncPushT = null;
-
-/* ---------------- 本地状态 ---------------- */
-function syncLoadLocal(){
-  try { syncAuth = JSON.parse(store() && store().getItem(SYNC_AUTH_KEY)) || null; } catch(e){ syncAuth = null; }
-  try { syncMeta = JSON.parse(store() && store().getItem(SYNC_META_KEY)) || {}; } catch(e){ syncMeta = {}; }
-  if (syncAuth && (!syncAuth.token || !syncAuth.user)) syncAuth = null;
-}
-function syncSaveLocal(){
-  try { const st = store(); if (!st) return;
-    if (syncAuth) st.setItem(SYNC_AUTH_KEY, JSON.stringify(syncAuth)); else st.removeItem(SYNC_AUTH_KEY);
-    st.setItem(SYNC_META_KEY, JSON.stringify(syncMeta));
-  } catch(e){}
-}
-function syncUser(){ return (syncAuth && syncAuth.user) || null; }
-function syncDevice(){
-  try { const ua = navigator.userAgent;
-    const os = /iPhone|iPad/.test(ua) ? 'iOS' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac/.test(ua) ? 'Mac' : '其他';
-    return os + (/(MicroMessenger)/.test(ua) ? '·微信' : '');
-  } catch(e){ return '未知'; }
-}
-
-/* ---------------- API ---------------- */
-async function syncApi(path, opts){
-  opts = opts || {};
-  const headers = { 'Content-Type': 'application/json' };
-  if (syncAuth && syncAuth.token) headers['Authorization'] = 'Bearer ' + syncAuth.token;
-  let res;
-  try {
-    res = await fetch('/api/' + path, {
-      method: opts.method || 'GET',
-      headers,
-      body: opts.body ? JSON.stringify(opts.body) : undefined,
-      keepalive: !!opts.keepalive,
-    });
-  } catch(e){ return { ok:false, error:'网络连不上', _net:true }; }
-  let j; try { j = await res.json(); } catch(e){ j = { ok:false, error:'服务响应异常' }; }
-  if (res.status === 401 && syncAuth && path !== 'logout' && !path.startsWith('login')){
-    // 会话失效：清除登录态但绝不动本地进度
-    syncAuth = null; syncSaveLocal();
-    try { toast('云同步登录已过期，请重新登录'); } catch(e){}
-    if (!screen) try { render(); } catch(e){}
-  }
-  return j;
-}
-
-/* ---------------- 进度读写与判空 ---------------- */
-function syncBookRaw(id){
-  if (id === curBookId) { try { return JSON.stringify(S); } catch(e){ return null; } }
-  try { return (store() && store().getItem(KEY_BASE + '__' + id)) || null; } catch(e){ return null; }
-}
-function syncIsEmpty(raw){
-  if (!raw) return true;
-  try {
-    const d = JSON.parse(raw);
-    if (!d || typeof d !== 'object') return true;
-    return Object.keys(d.w || {}).length === 0 && !(d.xp > 0) && Object.keys(d.ck || {}).length === 0;
-  } catch(e){ return true; }
-}
-function syncScore(d){ // 冲突时比较"谁的进度多"：XP 为主，已学词数为辅
-  let seen = 0; for (const k in (d.w || {})){ const st = d.w[k]; if (st && (st.s > 0 || st.z)) seen++; }
-  return (d.xp|0) * 1000000 + seen;
-}
-function syncBackup(id, raw, why){
-  try { store() && store().setItem('hylite_sync_backup__' + id + '__' + why, raw); } catch(e){}
-}
-
-/* ---------------- 推送 ---------------- */
-async function syncPushBook(id){
-  if (!syncAuth) return false;
-  const raw = syncBookRaw(id);
-  if (!raw || syncIsEmpty(raw)) { if (syncMeta[id]) { syncMeta[id].dirty = false; syncSaveLocal(); } return false; }
-  const r = await syncApi('sync', { method:'POST', body:{ book_id:id, data:raw, updated_at:new Date().toISOString(), device:syncDevice() } });
-  if (r.ok){
-    syncMeta[id] = { serverAt: r.server_at, pushedAt: r.updated_at, dirty: false };
-    syncLastOk = Date.now(); syncLastErr = null; syncSaveLocal();
-    return true;
-  }
-  if (!r._net) syncLastErr = r.error || '同步失败';
-  return false;
-}
-async function syncPushDirty(){
-  if (!syncAuth || syncBusy) return;
-  syncBusy = true;
-  try {
-    for (const id of Object.keys(syncMeta)){
-      if (syncMeta[id] && syncMeta[id].dirty) await syncPushBook(id);
-    }
-  } finally { syncBusy = false; }
-  syncRefreshCard();
-}
-async function syncPushAllLocal(){ // 注册/登录后：把本地已有进度的书全部传上去（云端没有的）
-  for (const b of BOOKS){
-    const raw = syncBookRaw(b.id);
-    if (raw && !syncIsEmpty(raw) && !(syncMeta[b.id] && syncMeta[b.id].serverAt)) await syncPushBook(b.id);
-  }
-}
-
-/* ---------------- 拉取与冲突处理 ---------------- */
-async function syncApplyCloud(id, r){
-  let cloud; try { cloud = JSON.parse(r.data); } catch(e){ return false; }
-  if (!cloud || typeof cloud !== 'object' || !cloud.w) return false;
-  if (typeof SES !== 'undefined' && SES) return false;   // 训练会话中绝不替换存档
-  const oldRaw = syncBookRaw(id);
-  if (oldRaw && !syncIsEmpty(oldRaw)) syncBackup(id, oldRaw, 'replaced');
-  syncApplying = true;
-  try {
-    if (id === curBookId){
-      S = cloud; save(); todayPlan();
-      if (!screen) try { render(); } catch(e){}
-    } else {
-      try { store() && store().setItem(KEY_BASE + '__' + id, JSON.stringify(cloud)); } catch(e){}
-    }
-  } finally { syncApplying = false; }
-  syncMeta[id] = { serverAt: r.server_at, pushedAt: r.updated_at, dirty: false };
-  syncSaveLocal();
-  return true;
-}
-async function syncPullCheck(){
-  if (!syncAuth || syncBusy) return;
-  syncBusy = true;
-  try {
-    const meta = await syncApi('sync-meta');
-    if (!meta.ok){ if (!meta._net) syncLastErr = meta.error; return; }
-    const cloudBooks = {};
-    for (const b of (meta.books || [])) cloudBooks[b.book_id] = b;
-
-    for (const bid of Object.keys(cloudBooks)){
-      const cb = cloudBooks[bid];
-      const known = (syncMeta[bid] || {}).serverAt;
-      const dirty = !!(syncMeta[bid] || {}).dirty;
-      const raw = syncBookRaw(bid);
-      const cloudNew = cb.server_at !== known;
-
-      if (!cloudNew && !dirty) continue;
-      if (!cloudNew && dirty){ await syncPushBook(bid); continue; }
-
-      // 云端有新数据
-      const r = await syncApi('sync?book=' + bid);
-      if (!r.ok || !r.exists) continue;
-
-      if (syncIsEmpty(raw) || !dirty){ await syncApplyCloud(bid, r); continue; }
-
-      // 双边都有新改动 → 保留进度多的一方，另一方备份
-      let cloudD = null, localD = null;
-      try { cloudD = JSON.parse(r.data); localD = JSON.parse(raw); } catch(e){}
-      if (!cloudD || !localD){ await syncPushBook(bid); continue; }
-      if (syncScore(cloudD) > syncScore(localD)){
-        syncBackup(bid, raw, 'conflict-local');
-        const applied = await syncApplyCloud(bid, r);
-        if (applied) try { toast('检测到另一台设备的更新，已采用进度较多的一份'); } catch(e){}
-      } else {
-        syncBackup(bid, r.data, 'conflict-cloud');
-        await syncPushBook(bid);
-      }
-    }
-    syncLastOk = Date.now(); syncLastErr = null; syncSaveLocal();
-  } finally { syncBusy = false; }
-  syncRefreshCard();
-}
-
-/* ---------------- 存档/切书钩子（bc-core 调用） ---------------- */
-function syncOnSave(){
-  if (!syncAuth || syncApplying) return;
-  const m = syncMeta[curBookId] || (syncMeta[curBookId] = {});
-  m.dirty = true;
-  clearTimeout(syncPushT);
-  syncPushT = setTimeout(()=>{ syncPushDirty(); }, 6000);   // 改动后 6 秒静默推送
-}
-function syncOnBookSwitch(){
-  if (!syncAuth) return;
-  setTimeout(()=>{ syncPullCheck(); }, 400);
-}
-
-/* ---------------- 手动操作 ---------------- */
-async function syncNow(){
-  if (!syncAuth){ try { toast('请先登录云同步'); } catch(e){} return; }
-  try { toast('同步中…'); } catch(e){}
-  const m = syncMeta[curBookId] || (syncMeta[curBookId] = {});
-  m.dirty = true;
-  await syncPushDirty();
-  await syncPullCheck();
-  try { toast(syncLastErr ? ('⚠ ' + syncLastErr) : '✔ 同步完成'); } catch(e){}
-  if (!screen && tab === 4) render();
-}
-
-/* ---------------- 登录/注册/退出 ---------------- */
-async function syncDoRegister(){
-  const nick = ($('#syncNick') || {}).value || '';
-  const user = (($('#syncUser') || {}).value || '').trim();
-  const pass = ($('#syncPass') || {}).value || '';
-  if (!nick.trim()){ toast('请填写姓名'); return; }
-  if ((user && !pass) || (!user && pass)){ toast('账号和密码要一起填（也可以都不填，只用同步码）'); return; }
-  const body = { nickname: nick.trim() };
-  if (user){ body.username = user; body.password = pass; }
-  const r = await syncApi('register', { method:'POST', body });
-  if (!r.ok){ toast('⚠ ' + (r.error || '注册失败')); return; }
-  syncAuth = { token: r.token, user: r.user };
-  syncMeta = {}; syncSaveLocal();
-  closeModal();
-  // 展示同步码（关键凭证，引导保存）
-  $('#sheet').innerHTML = `<div class="grab"></div>
-    <div class="dw" style="font-size:22px;margin-bottom:6px">✔ 注册成功</div>
-    <div class="muted" style="margin-bottom:14px">这是你的<b>同步码</b>，换设备或忘记密码时凭它找回全部进度。<b>请立即截图保存！</b></div>
-    <div class="card" style="text-align:center"><div class="num" style="font-size:30px;font-weight:900;letter-spacing:2px" id="syncCodeShow">${esc(r.user.sync_code)}</div></div>
-    <button class="b3d" onclick="syncCopyCode()">复制同步码</button>
-    <button class="b3d ghost" onclick="closeModal();go(4)">我已保存，完成</button>`;
-  $('#modal').classList.add('show');
-  await syncPushAllLocal();            // 把本机已有进度全部传上云
-  await syncPullCheck();
-}
-async function syncDoLogin(){
-  const user = (($('#syncUser') || {}).value || '').trim();
-  const pass = ($('#syncPass') || {}).value || '';
-  if (!user || !pass){ toast('请输入账号和密码'); return; }
-  const r = await syncApi('login', { method:'POST', body:{ username:user, password:pass } });
-  if (!r.ok){ toast('⚠ ' + (r.error || '登录失败')); return; }
-  await syncAfterLogin(r);
-}
-async function syncDoLoginCode(){
-  const code = (($('#syncCode') || {}).value || '').trim();
-  if (!code){ toast('请输入同步码'); return; }
-  const r = await syncApi('login-code', { method:'POST', body:{ sync_code:code } });
-  if (!r.ok){ toast('⚠ ' + (r.error || '登录失败')); return; }
-  await syncAfterLogin(r);
-}
-async function syncAfterLogin(r){
-  syncAuth = { token: r.token, user: r.user };
-  syncMeta = {}; syncSaveLocal();
-  closeModal();
-  toast('✔ 已登录，正在同步…');
-  await syncPullCheck();       // 先拉云端（新设备恢复的主路径）
-  await syncPushAllLocal();    // 再把本机独有的书传上去
-  toast('✔ 同步完成');
-  go(4);
-}
-function syncLogoutAsk(){
-  ask('退出云同步登录？\n本机进度不受影响，只是不再自动同步。', async ()=>{
-    await syncApi('logout', { method:'POST' });
-    syncAuth = null; syncMeta = {}; syncSaveLocal();
-    toast('已退出云同步'); render();
-  }, '退 出');
-}
-async function syncSetCred(){
-  const user = (($('#syncUser') || {}).value || '').trim();
-  const pass = ($('#syncPass') || {}).value || '';
-  if (!user || !pass){ toast('请输入账号和密码'); return; }
-  const r = await syncApi('set-credentials', { method:'POST', body:{ username:user, password:pass } });
-  if (!r.ok){ toast('⚠ ' + (r.error || '设置失败')); return; }
-  syncAuth.user = r.user; syncSaveLocal();
-  closeModal(); toast('✔ 账号密码已设置'); render();
-}
-function syncCopyCode(){
-  const u = syncUser(); if (!u) return;
-  try { navigator.clipboard.writeText(u.sync_code).then(()=>toast('已复制同步码')); }
-  catch(e){ toast(u.sync_code); }
-}
-
-/* ---------------- UI ---------------- */
-function syncOpenPanel(mode){
-  modalK = null;
-  let h = `<div class="grab"></div>`;
-  if (mode === 'reg'){
-    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">注册云同步</div>
-      <div class="muted" style="margin-bottom:12px">注册后进度自动存到云端，换手机、换电脑输同步码就能接着学。</div>
-      <div class="card">
-        <div class="st1" style="margin-bottom:6px">姓名（必填，老师用来认人）</div>
-        <input id="syncNick" class="search" style="width:100%" maxlength="24" placeholder="例如：张小明">
-        <div class="st1" style="margin:12px 0 6px">账号名（选填）</div>
-        <input id="syncUser" class="search" style="width:100%" maxlength="24" placeholder="建议用手机号，方便记">
-        <div class="st1" style="margin:12px 0 6px">密码（选填，填了账号就必填）</div>
-        <input id="syncPass" class="search" type="password" style="width:100%" maxlength="64" placeholder="至少 6 位">
-        <div class="muted" style="font-size:12px;margin-top:8px">不填账号密码也行——注册会发你一个同步码，凭码登录。</div>
-      </div>
-      <button class="b3d" onclick="syncDoRegister()">注 册</button>
-      <button class="b3d ghost" onclick="syncOpenPanel('login')">已有账号？去登录</button>`;
-  } else if (mode === 'cred'){
-    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">设置账号密码</div>
-      <div class="muted" style="margin-bottom:12px">给当前账号补一个账号名和密码，以后可以不用同步码登录。</div>
-      <div class="card">
-        <div class="st1" style="margin-bottom:6px">账号名</div>
-        <input id="syncUser" class="search" style="width:100%" maxlength="24" placeholder="建议用手机号">
-        <div class="st1" style="margin:12px 0 6px">密码</div>
-        <input id="syncPass" class="search" type="password" style="width:100%" maxlength="64" placeholder="至少 6 位">
-      </div>
-      <button class="b3d" onclick="syncSetCred()">保 存</button>
-      <button class="b3d ghost" onclick="closeModal()">取 消</button>`;
-  } else {
-    h += `<div class="dw" style="font-size:22px;margin-bottom:4px">登录云同步</div>
-      <div class="card">
-        <div class="st1" style="margin-bottom:6px">方式一：同步码</div>
-        <input id="syncCode" class="search" style="width:100%;text-transform:uppercase" maxlength="14" placeholder="HY-XXXX-XXXX">
-        <button class="b3d" style="margin-top:10px" onclick="syncDoLoginCode()">用同步码登录</button>
-      </div>
-      <div class="card">
-        <div class="st1" style="margin-bottom:6px">方式二：账号密码</div>
-        <input id="syncUser" class="search" style="width:100%" maxlength="24" placeholder="账号名">
-        <input id="syncPass" class="search" type="password" style="width:100%;margin-top:8px" maxlength="64" placeholder="密码">
-        <button class="b3d" style="margin-top:10px" onclick="syncDoLogin()">登 录</button>
-        <div class="muted" style="font-size:12px;margin-top:8px">忘记密码？用同步码登录后可重设。</div>
-      </div>
-      <button class="b3d ghost" onclick="syncOpenPanel('reg')">没有账号？去注册</button>`;
-  }
-  $('#sheet').innerHTML = h;
-  $('#modal').classList.add('show');
-}
-function syncCardHtml(){
-  const u = syncUser();
-  if (!u){
-    return `<div class="sec">云同步</div><div class="card">
-      <div class="setrow" style="border:none;padding-top:0"><div><div class="st1">进度云同步</div><div class="st2">注册后自动备份到云端，换设备扫码即恢复，不怕清缓存</div></div></div>
-      <div class="row2" style="margin-top:8px">
-        <button class="b3d" onclick="syncOpenPanel('reg')">注 册</button>
-        <button class="b3d sec" onclick="syncOpenPanel('login')">登 录</button>
-      </div></div>`;
-  }
-  const t = syncLastOk ? new Date(syncLastOk) : null;
-  const timeStr = t ? (t.getHours()+':'+String(t.getMinutes()).padStart(2,'0')) : '—';
-  const st = syncLastErr ? `<span style="color:var(--red)">⚠ ${esc(syncLastErr)}</span>` : `上次同步 ${timeStr}`;
-  return `<div class="sec">云同步</div><div class="card" id="syncCard">
-    <div class="setrow" style="border:none;padding-top:0"><div>
-      <div class="st1">${esc(u.nickname)}${u.username ? ' · ' + esc(u.username) : ''}</div>
-      <div class="st2">同步码 <b class="num">${esc(u.sync_code)}</b> · <span id="syncStatus">${st}</span></div>
-    </div></div>
-    <div class="row2" style="margin-top:8px">
-      <button class="b3d sec" onclick="syncNow()">立即同步</button>
-      <button class="b3d ghost" onclick="syncCopyCode()">复制同步码</button>
-    </div>
-    ${u.username ? '' : `<button class="b3d ghost" style="margin-top:8px" onclick="syncOpenPanel('cred')">设置账号密码（可选）</button>`}
-    <button class="b3d ghost" style="margin-top:8px" onclick="syncLogoutAsk()">退出登录</button>
-  </div>`;
-}
-function syncRefreshCard(){
-  const el = document.getElementById('syncStatus');
-  if (!el) return;
-  const t = syncLastOk ? new Date(syncLastOk) : null;
-  const timeStr = t ? (t.getHours()+':'+String(t.getMinutes()).padStart(2,'0')) : '—';
-  el.innerHTML = syncLastErr ? `<span style="color:var(--red)">⚠ ${esc(syncLastErr)}</span>` : `上次同步 ${timeStr}`;
-}
-
-/* ---------------- 启动与周期任务 ---------------- */
-function syncBoot(){
-  syncLoadLocal();
-  if (syncAuth){
-    // 等词书数据就绪后做一次全量核对
-    const tryStart = (n)=>{
-      if (typeof TOTAL !== 'undefined' && TOTAL > 0){ syncPullCheck(); return; }
-      if (n < 20) setTimeout(()=>tryStart(n+1), 500);
-    };
-    tryStart(0);
-  }
-  setInterval(()=>{ syncPushDirty(); }, 45 * 1000);
-  setInterval(()=>{ if (!SES) syncPullCheck(); }, 8 * 60 * 1000);
-  document.addEventListener('visibilitychange', ()=>{
-    if (document.visibilityState === 'hidden'){
-      // 离开页面前尽力推送（keepalive 保证请求存活）
-      if (!syncAuth) return;
-      for (const id of Object.keys(syncMeta)){
-        if (syncMeta[id] && syncMeta[id].dirty){
-          const raw = syncBookRaw(id);
-          if (raw && !syncIsEmpty(raw)){
-            syncApi('sync', { method:'POST', keepalive:true, body:{ book_id:id, data:raw, updated_at:new Date().toISOString(), device:syncDevice() } });
-          }
-        }
-      }
-    } else if (document.visibilityState === 'visible'){
-      if (syncAuth && !SES) setTimeout(()=>syncPullCheck(), 800);
-    }
-  });
-}
-setTimeout(syncBoot, 600);
 </script>
 </body>
 </html>

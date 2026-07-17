@@ -28,6 +28,8 @@ CREATE TABLE IF NOT EXISTS progress (
   updated_at TEXT NOT NULL,                -- 客户端提交时间(ISO)
   server_at TEXT NOT NULL DEFAULT (datetime('now')),  -- 服务端落库时间
   device TEXT,                             -- 设备标识（诊断用）
+  prev_data TEXT,                          -- 被覆盖前的上一版数据（一层历史，误覆盖保底）
+  prev_server_at TEXT,                     -- 上一版的落库时间
   PRIMARY KEY (user_id, book_id),
   FOREIGN KEY (user_id) REFERENCES users(id)
 );

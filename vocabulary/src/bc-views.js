@@ -480,12 +480,14 @@ function doImport(d){
     else throw 0;
     const cNow=counts();
     const cNew=(()=>{ let seen=0; for(const k in next.w){ if(next.w[k].s>0&&!next.w[k].z) seen++; } return seen; })();
-    ask(`导入将覆盖《${curBook().name}》当前进度：\n当前：已学 ${cNow.seen} 词 · 打卡 ${Object.keys(S.ck).length} 天\n文件：已学 ${cNew} 词 · 打卡 ${Object.keys(next.ck).length} 天\n\n确定用文件覆盖吗？`,
+    const cloudNote2 = (typeof syncUser==='function' && syncUser()) ? '\n⚠ 云同步已开启：导入的进度也会同步到云端和其他设备。' : '';
+    ask(`导入将覆盖《${curBook().name}》当前进度：\n当前：已学 ${cNow.seen} 词 · 打卡 ${Object.keys(S.ck).length} 天\n文件：已学 ${cNew} 词 · 打卡 ${Object.keys(next.ck).length} 天\n\n确定用文件覆盖吗？`+cloudNote2,
       ()=>{ S=next; save(); applyTheme(); toast('导入成功'); go(0); }, '覆 盖', true);
   } catch(e){ toast('文件格式不对，导入失败'); }
 }
 function resetAll(){
-  ask('清空全部进度？\n词态、错词本、打卡、经验、成就都会删除，此操作不可撤销。',
+  const cloudNote = (typeof syncUser==='function' && syncUser()) ? '\n⚠ 云同步已开启：继续学习后，云端备份和其他设备也会被新进度覆盖。' : '';
+  ask('清空全部进度？\n词态、错词本、打卡、经验、成就都会删除，此操作不可撤销。'+cloudNote,
     ()=>{ S=fresh(S.cfg); save(); toast('已全部重置'); go(0); }, '清 空', true);
 }
 
