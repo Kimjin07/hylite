@@ -1,0 +1,9 @@
+# 压缩包备份与废弃文件
+*.zip
+旧版本(可忽略)
+.wrangler/
+
+# 系统与临时文件
+Thumbs.db
+Desktop.ini
+~$*

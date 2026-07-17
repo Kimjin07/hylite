@@ -1,0 +1,26 @@
+<header>
+  <div class="brand"><span id="brandName">必会 3000</span><small>HY-LITE · 环亚国际教育</small></div>
+  <div class="hspace"></div>
+  <span class="chip"><span class="flame">♦</span> 连 <b class="num" id="hStreak">0</b> 天</span>
+  <span class="chip"><span class="lv">Lv</span><b class="num" id="hLv">1</b> <span id="hTitle">初入词场</span></span>
+</header>
+<div class="xpwrap">
+  <div class="xpbar"><i id="xpFill" style="width:0%"></i></div>
+  <div class="xpcap"><span id="xpNow" class="num"></span><span id="xpNext" class="num"></span></div>
+</div>
+<main id="app"></main>
+<nav aria-label="页面导航">
+  <button id="nav0" class="on" onclick="go(0)"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/></svg>今日<b class="nbadge num" id="bToday"></b></button>
+  <button id="nav1" onclick="go(1)"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>训练<b class="nbadge num" id="bTrain"></b></button>
+  <button id="nav2" onclick="go(2)"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15.5H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg>词库</button>
+  <button id="nav3" onclick="go(3)"><svg viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg>统计</button>
+  <button id="nav4" onclick="go(4)"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-3.5 4.5-5 8-5s6.5 1.5 8 5"/></svg>我的</button>
+</nav>
+<div id="modal" onclick="if(event.target===this)closeModal()"><div class="sheet" id="sheet"></div></div>
+<div id="ask" onclick="if(event.target===this)askClose(false)"><div class="askbox">
+  <p id="askMsg"></p>
+  <div class="row2"><button class="b3d ghost" id="askNo" onclick="askClose(false)">取 消</button>
+  <button class="b3d" id="askYes" onclick="askClose(true)">确 定</button></div>
+</div></div>
+<div id="toasts"></div>
+<canvas id="fx"></canvas>
