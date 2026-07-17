@@ -199,6 +199,39 @@ async function pushNow(ctx){
     check('恢复备份后进度被替换且标脏', vm.runInContext('syncMeta["' + firstKey.book + '"].dirty', d4) === true);
   } else { check('恢复备份后进度被替换且标脏', false, '无备份可测'); }
 
+  /* ===== 场景11: 同数据快进(keepalive 记账缺失的自愈) ===== */
+  console.log('== 场景11: 云端与本机同数据 → 快进不自我冲突 ==');
+  // d3 与云端一致(刚推过 3000)；人为把 serverAt 弄陈旧并标脏，模拟 keepalive 已推成功但没记账
+  vm.runInContext('syncMeta.b3000.serverAt = "2020-01-01T00:00:00.000Z"; syncMeta.b3000.dirty = true;', d3);
+  const backupsBefore = vm.runInContext('syncListBackups().length', d3);
+  await d3.syncPullCheck();
+  check('同数据快进后版本号对齐且不再脏', vm.runInContext('syncMeta.b3000.dirty', d3) === false);
+  const backupsAfter = vm.runInContext('syncListBackups().length', d3);
+  check('未产生垃圾备份', backupsAfter === backupsBefore, backupsAfter - backupsBefore);
+  const c11 = await cloudBook(acct.token);
+  check('云端数据未被动过(xp=3000)', c11 && c11.xp === 3000, c11 && c11.xp);
+
+  /* ===== 场景12: 恢复备份是显式意图 → 直推云端不被分数合并撤销 ===== */
+  console.log('== 场景12: 恢复备份直推云端 ==');
+  const d3backs = JSON.parse(vm.runInContext('JSON.stringify(syncListBackups())', d3));
+  const restoreKey = d3backs.find(b => b.book === 'b3000');
+  if (restoreKey){
+    await vm.runInContext(`syncRestoreBackup('${restoreKey.key}')`, d3);   // ask 桩自动确认; 内部 await syncPushIntent
+    await new Promise(r => setTimeout(r, 1500));                            // 等意图推送完成
+    const c12 = await cloudBook(acct.token);
+    const localXp = d3.S.xp;
+    check('云端已变为恢复后的进度(即使分数更低)', c12 && c12.xp === localXp, JSON.stringify({cloud: c12 && c12.xp, local: localXp}));
+  } else { check('云端已变为恢复后的进度(即使分数更低)', false, '无备份可恢复'); }
+
+  /* ===== 场景13: 退出登录前冲刷未同步进度 ===== */
+  console.log('== 场景13: 退出登录先传完最后的进度 ==');
+  d3.S.xp = d3.S.xp + 111; d3.save();                     // 有新改动未推
+  vm.runInContext('syncLogoutAsk()', d3);                  // ask 桩自动确认
+  await new Promise(r => setTimeout(r, 2000));
+  const c13 = await cloudBook(acct.token);
+  check('退出前进度已上云', c13 && c13.xp === d3.S.xp, JSON.stringify({cloud: c13 && c13.xp, local: d3.S.xp}));
+  check('已退出登录', vm.runInContext('syncAuth', d3) === null);
+
   console.log('\n========== 结果: ' + pass + ' 通过, ' + fail + ' 失败 ==========');
   if (failures.length){ console.log('失败项:'); failures.forEach(f => console.log('  - ' + f)); process.exit(1); }
   process.exit(0);

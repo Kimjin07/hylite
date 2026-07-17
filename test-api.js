@@ -145,7 +145,9 @@ const S2 = { ...S1, xp: 500, w:{ 'B01:0':{b:3,due:'2026-07-22',s:1,ng:0,cs:2}, '
   console.log('== 登出 ==');
   { const r = await api('logout', { method:'POST', token: tokenA2 }); check('登出成功', r.status===200); }
   { const r = await api('me', { token: tokenA2 }); check('登出后 token 失效', r.status===401); }
-  { const r = await api('me', { token: uA.token }); check('其他会话不受影响', r.status===200); }
+  { const r = await api('me', { token: uA.token }); check('补设密码已吊销注册会话(新语义)', r.status===401); }
+  { const r = await api('login', { method:'POST', body:{ username:'student_a', password:'apass12345' } });
+    check('重新登录获取新会话', r.status===200); uA.token = r.j.token; }
 
   console.log('== 管理员接口 ==');
   { const r = await api('admin/users'); check('无密钥 401', r.status===401); }
@@ -163,12 +165,61 @@ const S2 = { ...S1, xp: 500, w:{ 'B01:0':{b:3,due:'2026-07-22',s:1,ng:0,cs:2}, '
       check('保留上一版数据(prev_data, xp=120)', b1 && b1.prev_data && JSON.parse(b1.prev_data).xp===120, b1 && b1.prev_data ? 'has' : 'missing'); } }
   { const r = await api('admin/user?id=999999', { admin: ADMIN }); check('不存在学生 404', r.status===404); }
 
+  console.log('== 同数据短路(保住 prev_data) ==');
+  { const r1 = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b2', data:JSON.stringify(S1), base_server_at:null } });
+    check('b2 首推成功', r1.status===200);
+    const r2 = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b2', data:JSON.stringify(S2), base_server_at:r1.j.server_at } });
+    check('b2 更新成功(prev=S1)', r2.status===200);
+    const r3 = await api('sync', { method:'POST', token:uA.token, body:{ book_id:'b2', data:JSON.stringify(S2), base_server_at:r2.j.server_at } });
+    check('同数据重推返回 unchanged', r3.status===200 && r3.j.unchanged===true, JSON.stringify(r3.j));
+    check('同数据重推 server_at 不变', r3.j.server_at===r2.j.server_at);
+    const admin1 = await api('admin/users', { admin: ADMIN });
+    const aid = (admin1.j.users||[]).find(u=>u.nickname==='测试学生A');
+    const det = await api('admin/user?id=' + aid.id, { admin: ADMIN });
+    const b2row = (det.j.books||[]).find(b=>b.book_id==='b2');
+    check('prev_data 仍是 S1(未被同数据轮换)', b2row && b2row.prev_data && JSON.parse(b2row.prev_data).xp===120, b2row && b2row.prev_data ? JSON.parse(b2row.prev_data).xp : 'missing'); }
+
+  console.log('== 更换同步码 ==');
+  { const rOld = uA.user.sync_code;
+    // 建立第二个会话(模拟另一台设备)
+    const s2 = await api('login-code', { method:'POST', body:{ sync_code: rOld } });
+    check('第二会话建立', s2.status===200);
+    const rot = await api('rotate-code', { method:'POST', token: uA.token });
+    check('更换同步码成功', rot.status===200 && rot.j.user.sync_code !== rOld, JSON.stringify(rot.j));
+    const oldLogin = await api('login-code', { method:'POST', body:{ sync_code: rOld } });
+    check('旧同步码失效', oldLogin.status===401);
+    const newLogin = await api('login-code', { method:'POST', body:{ sync_code: rot.j.user.sync_code } });
+    check('新同步码可登录', newLogin.status===200);
+    const s2check = await api('me', { token: s2.j.token });
+    check('其他设备会话已被吊销', s2check.status===401);
+    const selfCheck = await api('me', { token: uA.token });
+    check('当前会话保留', selfCheck.status===200); }
+
+  console.log('== 改密吊销其他会话 ==');
+  { const sX = await api('login', { method:'POST', body:{ username:'student_b', password:'pass123456' } });
+    const sY = await api('login', { method:'POST', body:{ username:'student_b', password:'pass123456' } });
+    const chg = await api('set-credentials', { method:'POST', token: sX.j.token, body:{ username:'student_b', password:'newpass789' } });
+    check('改密成功', chg.status===200, JSON.stringify(chg.j));
+    const yCheck = await api('me', { token: sY.j.token });
+    check('其他会话被吊销', yCheck.status===401);
+    const xCheck = await api('me', { token: sX.j.token });
+    check('操作会话保留', xCheck.status===200); }
+
+  console.log('== 恶意昵称 ==');
+  { const r = await api('register', { method:'POST', body:{ nickname:'张‮三' } });
+    check('含双向覆盖符的昵称被拒', r.status===400, String(r.status)); }
+
   console.log('== 登录限流 ==');
   { let got429 = false;
     for (let i=0;i<12;i++){
       const r = await api('login', { method:'POST', body:{ username:'ratelimit_probe', password:'wrong'+i+'123' } });
       if (r.status===429){ got429=true; break; } }
     check('连续错误登录触发 429', got429); }
+
+  console.log('== 管理密钥爆破阻断(最后跑,会锁本IP管理接口10分钟) ==');
+  { for (let i=0;i<11;i++){ await api('admin/users', { admin:'brute-'+i }); }
+    const r = await api('admin/users', { admin: ADMIN });
+    check('超限后正确密钥也被 429 阻断', r.status===429, String(r.status)); }
 
   console.log('\n========== 结果: ' + pass + ' 通过, ' + fail + ' 失败 ==========');
   if (failures.length){ console.log('失败项:'); failures.forEach(f=>console.log('  - '+f)); process.exit(1); }

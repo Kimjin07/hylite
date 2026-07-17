@@ -482,7 +482,9 @@ function doImport(d){
     const cNew=(()=>{ let seen=0; for(const k in next.w){ if(next.w[k].s>0&&!next.w[k].z) seen++; } return seen; })();
     const cloudNote2 = (typeof syncUser==='function' && syncUser()) ? '\n⚠ 云同步已开启：导入的进度也会同步到云端和其他设备。' : '';
     ask(`导入将覆盖《${curBook().name}》当前进度：\n当前：已学 ${cNow.seen} 词 · 打卡 ${Object.keys(S.ck).length} 天\n文件：已学 ${cNew} 词 · 打卡 ${Object.keys(next.ck).length} 天\n\n确定用文件覆盖吗？`+cloudNote2,
-      ()=>{ S=next; save(); applyTheme(); toast('导入成功'); go(0); }, '覆 盖', true);
+      ()=>{ S=next; save(); applyTheme(); toast('导入成功');
+        try { if (typeof syncPushIntent==='function' && typeof syncUser==='function' && syncUser()) syncPushIntent(curBookId); } catch(e){}  // 导入是显式意图，直推云端不参与分数合并
+        go(0); }, '覆 盖', true);
   } catch(e){ toast('文件格式不对，导入失败'); }
 }
 function resetAll(){
