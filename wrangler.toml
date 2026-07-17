@@ -1,0 +1,8 @@
+name = "hylite"
+compatibility_date = "2026-07-01"
+pages_build_output_dir = "deploy"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hylite-sync"
+database_id = "a2b7aef6-0aae-4a58-ba23-f907b43b6d85"

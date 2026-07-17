@@ -3,6 +3,9 @@
 旧版本(可忽略)
 .wrangler/
 
+# 本地密钥与开发缓存
+.dev.vars
+
 # 系统与临时文件
 Thumbs.db
 Desktop.ini

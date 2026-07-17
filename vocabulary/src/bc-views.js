@@ -46,7 +46,10 @@ function render(){
 }
 const ICP_BEIAN = '';   // ICP 备案通过后填入，如 '苏ICP备2026XXXXXX号'，页脚自动显示
 function footer(){
-  return `<footer>环亚国际教育 HY-LITE EDUCATION · 当前词书《${esc(curBook().name)}》<br>进度保存在本机浏览器 · 换设备请先导出备份${
+  const synced = (typeof syncUser==='function' && syncUser());
+  return `<footer>环亚国际教育 HY-LITE EDUCATION · 当前词书《${esc(curBook().name)}》<br>${
+    synced ? '云同步已开启 · 进度自动备份' : '进度保存在本机浏览器 · 换设备请登录云同步'
+  }${
     ICP_BEIAN?`<br><a href="https://beian.miit.gov.cn" target="_blank" rel="noopener" style="color:inherit">${esc(ICP_BEIAN)}</a>`:''
   }</footer>`;
 }
@@ -397,7 +400,8 @@ function loadHtml(){
 function rMe(){
   const c=S.cfg;
   const unitMode=S.plan.mode==='unit';
-  let h=`<div class="sec">学习计划</div><div class="card">
+  let h=(typeof syncCardHtml==='function'?syncCardHtml():'');
+  h+=`<div class="sec">学习计划</div><div class="card">
     <div class="setrow" style="border:none;padding-top:0"><div><div class="st1">每日进度模式</div><div class="st2">按固定词数，或按教材单元推进</div></div>
       <div class="seg" style="width:170px"><button class="${!unitMode?'on':''}" onclick="setPlanMode('count')">按词数</button><button class="${unitMode?'on':''}" onclick="setPlanMode('unit')">按单元</button></div></div>
     ${unitMode

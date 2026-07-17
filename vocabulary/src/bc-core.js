@@ -217,6 +217,7 @@ function useBook(id, initial, cb){
     screen=null; tab=0;
     applyTheme(); todayPlan(); render(); window.scrollTo(0,0); checkAch();
     toast('已切换到《'+b.name+'》');
+    try { if (typeof syncOnBookSwitch==='function') syncOnBookSwitch(); } catch(e){}   // 云同步钩子
   }
   if (cb) cb();
 }
@@ -229,6 +230,7 @@ let saveFailed=false;
 function save(){
   try { const st=store(); if(!st) throw 0; st.setItem(KEY, JSON.stringify(S)); }
   catch(e){ if(!saveFailed){ saveFailed=true; try{ toast('⚠ 进度无法保存到本机，请到「我的」及时导出备份'); }catch(_){} } }
+  try { if (typeof syncOnSave==='function') syncOnSave(); } catch(e){}   // 云同步钩子（未启用时无操作）
 }
 function ws(k){ return S.w[k] || (S.w[k]={b:0,due:null,s:0,ng:0,cs:0}); }
 function wsPeek(k){ return S.w[k]; }

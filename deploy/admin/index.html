@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>学生数据后台 | HY-LITE</title>
+<style>
+:root{ --bg:#EFF6F3; --card:#fff; --ink:#122B26; --sub:#4C6A64; --line:#D8E6E1; --mint:#128663; --red:#C93A3F; }
+*{ box-sizing:border-box; }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:'MiSans','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif; }
+.wrap{ max-width:1080px; margin:0 auto; padding:24px 16px 60px; }
+h1{ font-size:22px; margin:6px 0 2px; } .sub{ color:var(--sub); font-size:13px; margin-bottom:20px; }
+.card{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:14px; }
+input,button{ font:inherit; }
+input{ padding:10px 14px; border:1.5px solid var(--line); border-radius:10px; width:320px; max-width:100%; }
+button{ padding:10px 18px; border:none; border-radius:10px; background:var(--mint); color:#fff; font-weight:700; cursor:pointer; }
+button.ghost{ background:none; border:1.5px solid var(--line); color:var(--sub); }
+table{ width:100%; border-collapse:collapse; font-size:14px; }
+th,td{ text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); white-space:nowrap; }
+th{ color:var(--sub); font-size:12px; letter-spacing:1px; }
+tr.u:hover{ background:#F3FAF7; cursor:pointer; }
+.pill{ display:inline-block; padding:2px 9px; border-radius:20px; font-size:12px; background:rgba(18,134,99,.12); color:var(--mint); }
+.err{ color:var(--red); font-weight:700; }
+.num{ font-variant-numeric:tabular-nums; }
+.muted{ color:var(--sub); }
+#detail h2{ font-size:18px; margin:2px 0 10px; }
+.bookrow{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; padding:10px 0; border-bottom:1px solid var(--line); }
+.bookrow b{ min-width:88px; }
+@media (max-width:640px){ th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6){ display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>学生数据后台</h1>
+  <div class="sub">HY-LITE 环亚国际教育 · 云同步管理</div>
+
+  <div class="card" id="loginCard">
+    <div style="margin-bottom:10px;font-weight:700">管理员密钥</div>
+    <input id="key" type="password" placeholder="输入管理员密钥" onkeydown="if(event.key==='Enter')enter()">
+    <button onclick="enter()">进 入</button>
+    <div id="loginMsg" class="err" style="margin-top:8px"></div>
+  </div>
+
+  <div id="panel" style="display:none">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+        <div><b id="count">0</b> 名学生 <span class="muted" id="refreshTime"></span></div>
+        <div>
+          <input id="q" placeholder="搜姓名/账号/同步码" style="width:220px" oninput="renderUsers()">
+          <button class="ghost" onclick="loadUsers()">刷新</button>
+          <button class="ghost" onclick="logout()">退出</button>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="overflow-x:auto">
+      <table>
+        <thead><tr><th>姓名</th><th>账号</th><th>同步码</th><th>词书数</th><th>注册时间</th><th>最近活跃</th><th>最近同步</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="card" id="detail" style="display:none"></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+const BOOK_NAMES = { b3000:'必会3000', prep:'预备词汇', basic:'基础词汇', core:'核心词汇', green:'绿皮书', a2:'A2', b1:'B1', b1p:'B1+', b2:'B2' };
+let KEY = sessionStorage.getItem('hy_admin_key') || '';
+let USERS = [];
+const esc = s => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const fmtT = s => s ? String(s).replace('T',' ').slice(0,16) : '—';
+
+async function api(path){
+  const r = await fetch('/api/admin/' + path, { headers: { 'X-Admin-Key': KEY } });
+  return r.json().catch(()=>({ok:false,error:'响应异常'}));
+}
+async function enter(){
+  KEY = document.getElementById('key').value.trim();
+  if (!KEY){ return; }
+  const r = await api('users');
+  if (!r.ok){ document.getElementById('loginMsg').textContent = r.error || '密钥不对'; return; }
+  sessionStorage.setItem('hy_admin_key', KEY);
+  USERS = r.users || [];
+  show();
+}
+function show(){
+  document.getElementById('loginCard').style.display = 'none';
+  document.getElementById('panel').style.display = '';
+  renderUsers();
+}
+function logout(){ sessionStorage.removeItem('hy_admin_key'); location.reload(); }
+async function loadUsers(){
+  const r = await api('users');
+  if (r.ok){ USERS = r.users || []; renderUsers(); }
+}
+function renderUsers(){
+  const q = (document.getElementById('q').value || '').trim().toLowerCase();
+  const list = USERS.filter(u => !q ||
+    (u.nickname||'').toLowerCase().includes(q) ||
+    (u.username||'').toLowerCase().includes(q) ||
+    (u.sync_code||'').toLowerCase().includes(q));
+  document.getElementById('count').textContent = USERS.length;
+  document.getElementById('refreshTime').textContent = '· ' + new Date().toTimeString().slice(0,5);
+  document.getElementById('rows').innerHTML = list.map(u => `
+    <tr class="u" onclick="openUser(${u.id})">
+      <td><b>${esc(u.nickname)}</b></td>
+      <td>${esc(u.username || '—')}</td>
+      <td class="num">${esc(u.sync_code)}</td>
+      <td class="num">${u.books || 0}</td>
+      <td class="num muted">${fmtT(u.created_at)}</td>
+      <td class="num muted">${fmtT(u.last_seen)}</td>
+      <td class="num muted">${fmtT(u.last_sync)}</td>
+    </tr>`).join('') || '<tr><td colspan="7" class="muted">没有匹配的学生</td></tr>';
+}
+async function openUser(id){
+  const box = document.getElementById('detail');
+  box.style.display = ''; box.innerHTML = '<span class="muted">加载中…</span>';
+  const r = await api('user?id=' + id);
+  if (!r.ok){ box.innerHTML = '<span class="err">' + esc(r.error) + '</span>'; return; }
+  const u = r.user;
+  let h = `<h2>${esc(u.nickname)} <span class="pill num">${esc(u.sync_code)}</span></h2>
+    <div class="muted" style="font-size:13px;margin-bottom:10px">
+      账号 ${esc(u.username || '—')} · 注册 ${fmtT(u.created_at)} · 最近活跃 ${fmtT(u.last_seen)}</div>`;
+  if (!r.books.length) h += '<div class="muted">还没有同步过任何词书进度。</div>';
+  for (const b of r.books){
+    const s = b.stat || {};
+    h += `<div class="bookrow">
+      <b>${esc(BOOK_NAMES[b.book_id] || b.book_id)}</b>
+      <span class="num">已学 ${s.seen ?? '?'}</span>
+      <span class="num">掌握 ${s.master ?? '?'}</span>
+      <span class="num">已斩 ${s.zhan ?? '?'}</span>
+      <span class="num">XP ${s.xp ?? '?'}</span>
+      <span class="num">打卡 ${s.checkins ?? '?'} 天</span>
+      <span class="muted num">同步于 ${fmtT(b.server_at)}${b.device ? ' · ' + esc(b.device) : ''}</span>
+      <button class="ghost" style="padding:4px 12px;font-size:12px" onclick="event.stopPropagation();dl('${esc(u.sync_code)}','${b.book_id}', ${u.id})">下载备份</button>
+    </div>`;
+  }
+  box.innerHTML = h;
+  box.scrollIntoView({ behavior:'smooth' });
+  window.__detail = r;
+}
+function dl(code, bookId, id){
+  const b = (window.__detail && window.__detail.books || []).find(x => x.book_id === bookId);
+  if (!b) return;
+  const blob = new Blob([b.data], { type:'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'hylite-' + code + '-' + bookId + '.json';
+  a.click();
+}
+if (KEY){ enter(); }
+</script>
+</body>
+</html>
