@@ -526,13 +526,15 @@ function openBookPicker(){
     <div class="muted" style="margin-bottom:6px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
   let lastCat=null;
   BOOKS.forEach(b=>{
+    if (b.variantOf) return;                              // 乱序变体不单列，挂在本体行内
     if (b.cat!==lastCat){ h+=`<div class="sec" style="margin-top:14px">${esc(b.cat||'词书')}</div>`; lastCat=b.cat; }
-    const p=bookProgress(b), cur=b.id===curBookId;
+    const p=bookProgress(b), cur=b.id===curBookId, curR=curBookId===b.id+'_r';
     const pct=p.total?Math.round(p.master/p.total*100):0;
-    h+=`<button class="bookopt ${cur?'on':''}" onclick="pickBook('${b.id}')">
-      <div class="spread"><b>${esc(b.name)}${b.listen?' <span class="pill">🎧 听力</span>':''}${cur?' <span class="pill">当前</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
+    h+=`<button class="bookopt ${(cur||curR)?'on':''}" onclick="pickBook('${b.id}')">
+      <div class="spread"><b>${esc(b.name)}${b.listen?' <span class="pill">🎧 听力</span>':''}${cur?' <span class="pill">当前</span>':''}${curR?' <span class="pill">当前 · 乱序</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
       <div class="muted" style="font-size:12px;margin:2px 0 8px">${esc(b.sub)} · ${bookStat(b).units} 单元 · ${p.total} 词</div>
       <div class="gbar"><i class="g1" style="width:${pct}%"></i><i class="g2" style="width:${p.total?Math.round((p.seen-p.master)/p.total*100):0}%"></i></div>
+      <div style="margin-top:8px;text-align:right"><span class="pill" style="${curR?'':'background:var(--card2);color:var(--sub);'}cursor:pointer" onclick="event.stopPropagation();pickBook('${b.id}_r')">🔀 乱序版${curR?' ✓':''}</span></div>
     </button>`;
   });
   h+=`<button class="b3d ghost" style="margin-top:14px" onclick="closeModal()">关 闭</button>`;

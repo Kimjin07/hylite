@@ -66,6 +66,7 @@ tr.u:hover{ background:#F3FAF7; cursor:pointer; }
 <script>
 'use strict';
 const BOOK_NAMES = { b3000:'必会3000', prep:'预备词汇', basic:'基础词汇', core:'核心词汇', green:'绿皮书', oxford:'牛津3000+5000', a1:'A1', a2:'A2', b1:'B1', b1p:'B1+', b2:'B2', lis18:'18天听力', liscene:'听力场景', sat:'SAT核心' };
+const bookName = id => BOOK_NAMES[id] || (String(id).endsWith('_r') ? (BOOK_NAMES[String(id).slice(0,-2)] || id) + ' 乱序' : id);
 let KEY = sessionStorage.getItem('hy_admin_key') || '';
 let USERS = [];
 const esc = s => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/`/g,'&#96;');
@@ -169,7 +170,7 @@ async function openUser(id){
   for (const b of r.books){
     const s = b.stat || {};
     h += `<div class="bookrow">
-      <b>${esc(BOOK_NAMES[b.book_id] || b.book_id)}</b>
+      <b>${esc(bookName(b.book_id))}</b>
       <span class="num">已学 ${s.seen ?? '?'}</span>
       <span class="num">掌握 ${s.master ?? '?'}</span>
       <span class="num">已斩 ${s.zhan ?? '?'}</span>
