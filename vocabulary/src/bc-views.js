@@ -114,6 +114,18 @@ function rHome(){
     <div class="ckline">${ckd?'<span class="ok">✔ 今日已打卡</span>':'完成今日新词即可打卡'} · 连续 <b class="num">${streak()}</b> 天</div>
   </div>`;
 
+  if (bk.listen){
+    const c00=counts(); const hasLearned=(c00.learn+c00.master)>0;
+    h+=`<div class="sec">🎧 听力特训</div><div class="card">
+      <div class="muted" style="margin-bottom:10px;line-height:1.7">听力词汇的目标是<b>听到就懂</b>：每天学完新词会自动进入两关听力练习；平时也可以随时单独刷。</div>
+      <div class="row2">
+        <button class="b3d" ${hasLearned?'':'disabled'} onclick="startMode('ls')">🔊 听音辨义</button>
+        <button class="b3d line" ${hasLearned?'':'disabled'} onclick="startMode('dt')">✍️ 听音拼写</button>
+      </div>
+      ${hasLearned?'':'<div class="muted" style="text-align:center;margin-top:8px;font-size:12px">先学几个新词就能开练</div>'}
+    </div>`;
+  }
+
   h+=`<div class="sec">今日战报</div><div class="card"><div class="report">
     <div><div class="n num">${L.n||0}</div><div class="l">新学</div></div>
     <div><div class="n num">${L.q||0}</div><div class="l">提取</div></div>
@@ -513,12 +525,14 @@ function bookProgress(b){
 function openBookPicker(){
   modalK=null;
   let h=`<div class="grab"></div><div class="dw" style="font-size:22px;margin-bottom:4px">选择词书</div>
-    <div class="muted" style="margin-bottom:14px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
+    <div class="muted" style="margin-bottom:6px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
+  let lastCat=null;
   BOOKS.forEach(b=>{
+    if (b.cat!==lastCat){ h+=`<div class="sec" style="margin-top:14px">${esc(b.cat||'词书')}</div>`; lastCat=b.cat; }
     const p=bookProgress(b), cur=b.id===curBookId;
     const pct=p.total?Math.round(p.master/p.total*100):0;
     h+=`<button class="bookopt ${cur?'on':''}" onclick="pickBook('${b.id}')">
-      <div class="spread"><b>${esc(b.name)}${cur?' <span class="pill">当前</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
+      <div class="spread"><b>${esc(b.name)}${b.listen?' <span class="pill">🎧 听力</span>':''}${cur?' <span class="pill">当前</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
       <div class="muted" style="font-size:12px;margin:2px 0 8px">${esc(b.sub)} · ${bookStat(b).units} 单元 · ${p.total} 词</div>
       <div class="gbar"><i class="g1" style="width:${pct}%"></i><i class="g2" style="width:${p.total?Math.round((p.seen-p.master)/p.total*100):0}%"></i></div>
     </button>`;

@@ -12,6 +12,7 @@ const BOOK_MAP = {
   b3000: 'BOOK3000', prep: 'PREP_UNITS', basic: 'BASIC_UNITS',
   core: 'CORE_UNITS', green: 'GREEN_UNITS', a2: 'A2_UNITS',
   b1: 'B1_UNITS', b1p: 'B1P_UNITS', b2: 'B2_UNITS',
+  lis18: 'LIS18_UNITS', liscene: 'LISCENE_UNITS', sat: 'SAT_UNITS',
 };
 
 // 1) 从数据源文件提取每个常量的 JSON

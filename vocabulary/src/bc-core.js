@@ -21,16 +21,23 @@ try{ __reg('a2',    A2_UNITS); }catch(e){}
 try{ __reg('b1',    B1_UNITS); }catch(e){}
 try{ __reg('b1p',   B1P_UNITS); }catch(e){}
 try{ __reg('b2',    B2_UNITS); }catch(e){}
+try{ __reg('lis18', LIS18_UNITS); }catch(e){}
+try{ __reg('liscene', LISCENE_UNITS); }catch(e){}
+try{ __reg('sat',   SAT_UNITS); }catch(e){}
+// cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BOOKS = [
-  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表', grouped:true,  plan:{mode:'count', quota:50}},
-  {id:'prep',  name:'预备词汇',   sub:'通用预备词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'basic', name:'基础词汇',   sub:'通用基础词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'core',  name:'核心词汇',   sub:'通用核心词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'green', name:'绿皮书',     sub:'新版核心词汇',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'a2',    name:'A2',        sub:'教材同步 · 基础',        grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b1',    name:'B1',        sub:'教材同步词汇',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',        grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',        grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库 · 由易到难', grouped:true,  plan:{mode:'count', quota:50}},
+  {id:'prep',  name:'预备词汇',   sub:'入门起步',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'lis18', name:'18天听力',   sub:'听力高频 · 每天一个 Day', cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'liscene',name:'听力场景',  sub:'雅思听力场景词汇',        cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:30}},
 ];
 // 词书规模（未加载时用拆分构建注入的 BOOK_STATS 清单；已加载用真实数据）
 function bookStat(b){

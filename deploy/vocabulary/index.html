@@ -443,7 +443,7 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
 <canvas id="fx"></canvas>
 
 <script>
-const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565}};
+const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565},"lis18":{"units":18,"words":1336},"liscene":{"units":10,"words":1389},"sat":{"units":25,"words":991}};
 'use strict';
 /* ================= 数据与常量 ================= */
 const BOX_GAP = [0,1,2,4,7,15,30,60];      // 各强度等级到下次复习的天数
@@ -467,16 +467,23 @@ try{ __reg('a2',    A2_UNITS); }catch(e){}
 try{ __reg('b1',    B1_UNITS); }catch(e){}
 try{ __reg('b1p',   B1P_UNITS); }catch(e){}
 try{ __reg('b2',    B2_UNITS); }catch(e){}
+try{ __reg('lis18', LIS18_UNITS); }catch(e){}
+try{ __reg('liscene', LISCENE_UNITS); }catch(e){}
+try{ __reg('sat',   SAT_UNITS); }catch(e){}
+// cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BOOKS = [
-  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表', grouped:true,  plan:{mode:'count', quota:50}},
-  {id:'prep',  name:'预备词汇',   sub:'通用预备词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'basic', name:'基础词汇',   sub:'通用基础词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'core',  name:'核心词汇',   sub:'通用核心词表',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'green', name:'绿皮书',     sub:'新版核心词汇',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'a2',    name:'A2',        sub:'教材同步 · 基础',        grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b1',    name:'B1',        sub:'教材同步词汇',          grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',        grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',        grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库 · 由易到难', grouped:true,  plan:{mode:'count', quota:50}},
+  {id:'prep',  name:'预备词汇',   sub:'入门起步',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'lis18', name:'18天听力',   sub:'听力高频 · 每天一个 Day', cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'liscene',name:'听力场景',  sub:'雅思听力场景词汇',        cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:30}},
 ];
 // 词书规模（未加载时用拆分构建注入的 BOOK_STATS 清单；已加载用真实数据）
 function bookStat(b){
@@ -1034,8 +1041,21 @@ let SES=null, FL=null, ML=null, advT=null;
 const SPK='<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path fill="currentColor" stroke="none" d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M15.5 8.5a5 5 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 
 function typeByBox(b){ return b<=1 ? 'ec' : b===2 ? 'ce' : b===3 ? 'ls' : 'sp'; }
+// 听力词书：复习题型也向"听到就懂"倾斜——低强度听音辨义，高强度直接听写
+function typeByBoxListen(b){ return b<=2 ? 'ls' : 'dt'; }
+function pickType(b){ return curBook().listen ? typeByBoxListen(b) : typeByBox(b); }
 function typeName(t){ return {ec:'看词选义', ce:'看义选词', ls:'听音辨义', sp:'看义拼写', dt:'听音拼写'}[t]; }
-function endDest(kind){ return kind==='task' ? 0 : kind==='unit' ? 2 : 1; }
+function endDest(kind){ return kind==='task'||kind==='lis1'||kind==='lis2' ? 0 : kind==='unit' ? 2 : 1; }
+
+/* ---------- 听力特训链：任务完成 → 听音辨义 → 听音拼写 ---------- */
+var lisChainKs=null;
+function startLisChain(stage, ks){
+  clearTimeout(advT);
+  ks=(ks||[]).filter(k=>k in WIDX);
+  if (!ks.length){ SES=null; screen=null; go(0); return; }
+  lisChainKs=ks;
+  beginSession(stage===2?'lis2':'lis1', shuffle(ks.slice()).map(k=>({k, t:stage===2?'dt':'ls'})));
+}
 
 function startTask(){
   const tp=todayPlan();
@@ -1054,7 +1074,7 @@ function buildTask(){
   const steps=[];
   newKs.forEach(k=>steps.push({k, t:'ec', nw:1}));
   newKs.forEach(k=>steps.push({k, t:'ce', drill:1, second:1}));
-  dueList().forEach(W=>steps.push({k:W.k, t:typeByBox(wsPeek(W.k).b)}));
+  dueList().forEach(W=>steps.push({k:W.k, t:pickType(wsPeek(W.k).b)}));
   if (!steps.length){ toast('今天的任务都完成了'); return; }
   beginSession('task', steps);
 }
@@ -1101,7 +1121,7 @@ function startReview(){
   const dues=dueList();
   const pool = dues.length ? dues : aheadList(50);   // 有到期先清到期，否则提前复习
   if (!pool.length){ toast('还没有可复习的词，先学新词吧'); return; }
-  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:typeByBox(wsPeek(W.k).b)})));
+  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:pickType(wsPeek(W.k).b)})));
 }
 function startMode(t){
   const pool=reviewPool(20);
@@ -1116,7 +1136,7 @@ function startWrongs(){
 function startStars(){
   const pool=shuffle(starList().slice()).slice(0,20);
   if (!pool.length){ toast('生词本是空的，先去收藏几个词'); return; }
-  beginSession('stars', pool.map(W=>({k:W.k, t:typeByBox((wsPeek(W.k)||{}).b||0)})));
+  beginSession('stars', pool.map(W=>({k:W.k, t:pickType((wsPeek(W.k)||{}).b||0)})));
 }
 function startUnitLearn(id){
   const u=UNITS.find(x=>x.id===id); const ks=[];
@@ -1130,7 +1150,7 @@ function startUnitQuiz(id){
   const u=UNITS.find(x=>x.id===id); const pool=[];
   u.words.forEach((w,i)=>{ const k=id+':'+i; const st=wsPeek(k); if (st&&st.s>0&&!st.z) pool.push(k); });
   if (!pool.length){ toast('本单元还没学过的词，先学新词'); return; }
-  beginSession('unit', shuffle(pool).map(k=>({k, t:typeByBox(wsPeek(k).b)})));
+  beginSession('unit', shuffle(pool).map(k=>({k, t:pickType(wsPeek(k).b)})));
 }
 function beginSession(kind, steps){
   steps=steps.filter(s=>s.k in WIDX);
@@ -1348,6 +1368,26 @@ function rSessionEnd(){
   }
   if (q.kind==='wrongs' && wbList().length) h+=`<button class="b3d red" onclick="startWrongs()">再抽一批错词 · ${Math.min(20,wbList().length)} 词</button>`;
   if (q.kind==='mode' && q.steps.length) h+=`<button class="b3d line" onclick="startMode('${q.steps[0].t}')">再来一组</button>`;
+
+  // 听力词书：任务完成后自动进入听力特训两关（听音辨义 → 听音拼写）
+  const lisNext = curBook().listen ? (q.kind==='task' ? 1 : q.kind==='lis1' ? 2 : 0) : 0;
+  if (lisNext){
+    const ks = q.kind==='task' ? shuffle([...new Set(q.steps.map(s=>s.k))]).slice(0,20) : lisChainKs;
+    if (ks && ks.length){
+      lisChainKs = ks;
+      h+=`<div class="card" style="text-align:center;margin-top:12px">
+        <div style="font-weight:800;letter-spacing:1px">🎧 听力特训 第${lisNext}关</div>
+        <div class="muted" style="margin-top:4px">${lisNext===1?'听音辨义 · 听到就要认出意思':'听音拼写 · 真听写收尾'}，3 秒后自动开始</div></div>
+        <button class="b3d" onclick="startLisChain(${lisNext}, lisChainKs)">立即开始</button>
+        <button class="b3d ghost" onclick="clearTimeout(advT);SES=null;screen=null;go(0)">今天先到这，跳过</button>`;
+      $('#app').innerHTML=h;
+      tryCheckin(); checkAch();
+      advT=setTimeout(()=>{ startLisChain(lisNext, lisChainKs); }, 3000);
+      return;
+    }
+  }
+  if (q.kind==='lis2') h=h.replace('训练完成','🎧 听力特训完成');
+
   h+=`<button class="b3d" onclick="SES=null;screen=null;go(${endDest(q.kind)})">完 成</button>`;
   $('#app').innerHTML=h;
   tryCheckin(); checkAch();
@@ -2318,6 +2358,18 @@ function rHome(){
     <div class="ckline">${ckd?'<span class="ok">✔ 今日已打卡</span>':'完成今日新词即可打卡'} · 连续 <b class="num">${streak()}</b> 天</div>
   </div>`;
 
+  if (bk.listen){
+    const c00=counts(); const hasLearned=(c00.learn+c00.master)>0;
+    h+=`<div class="sec">🎧 听力特训</div><div class="card">
+      <div class="muted" style="margin-bottom:10px;line-height:1.7">听力词汇的目标是<b>听到就懂</b>：每天学完新词会自动进入两关听力练习；平时也可以随时单独刷。</div>
+      <div class="row2">
+        <button class="b3d" ${hasLearned?'':'disabled'} onclick="startMode('ls')">🔊 听音辨义</button>
+        <button class="b3d line" ${hasLearned?'':'disabled'} onclick="startMode('dt')">✍️ 听音拼写</button>
+      </div>
+      ${hasLearned?'':'<div class="muted" style="text-align:center;margin-top:8px;font-size:12px">先学几个新词就能开练</div>'}
+    </div>`;
+  }
+
   h+=`<div class="sec">今日战报</div><div class="card"><div class="report">
     <div><div class="n num">${L.n||0}</div><div class="l">新学</div></div>
     <div><div class="n num">${L.q||0}</div><div class="l">提取</div></div>
@@ -2717,12 +2769,14 @@ function bookProgress(b){
 function openBookPicker(){
   modalK=null;
   let h=`<div class="grab"></div><div class="dw" style="font-size:22px;margin-bottom:4px">选择词书</div>
-    <div class="muted" style="margin-bottom:14px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
+    <div class="muted" style="margin-bottom:6px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
+  let lastCat=null;
   BOOKS.forEach(b=>{
+    if (b.cat!==lastCat){ h+=`<div class="sec" style="margin-top:14px">${esc(b.cat||'词书')}</div>`; lastCat=b.cat; }
     const p=bookProgress(b), cur=b.id===curBookId;
     const pct=p.total?Math.round(p.master/p.total*100):0;
     h+=`<button class="bookopt ${cur?'on':''}" onclick="pickBook('${b.id}')">
-      <div class="spread"><b>${esc(b.name)}${cur?' <span class="pill">当前</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
+      <div class="spread"><b>${esc(b.name)}${b.listen?' <span class="pill">🎧 听力</span>':''}${cur?' <span class="pill">当前</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
       <div class="muted" style="font-size:12px;margin:2px 0 8px">${esc(b.sub)} · ${bookStat(b).units} 单元 · ${p.total} 词</div>
       <div class="gbar"><i class="g1" style="width:${pct}%"></i><i class="g2" style="width:${p.total?Math.round((p.seen-p.master)/p.total*100):0}%"></i></div>
     </button>`;

@@ -4,8 +4,21 @@ let SES=null, FL=null, ML=null, advT=null;
 const SPK='<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path fill="currentColor" stroke="none" d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M15.5 8.5a5 5 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 
 function typeByBox(b){ return b<=1 ? 'ec' : b===2 ? 'ce' : b===3 ? 'ls' : 'sp'; }
+// 听力词书：复习题型也向"听到就懂"倾斜——低强度听音辨义，高强度直接听写
+function typeByBoxListen(b){ return b<=2 ? 'ls' : 'dt'; }
+function pickType(b){ return curBook().listen ? typeByBoxListen(b) : typeByBox(b); }
 function typeName(t){ return {ec:'看词选义', ce:'看义选词', ls:'听音辨义', sp:'看义拼写', dt:'听音拼写'}[t]; }
-function endDest(kind){ return kind==='task' ? 0 : kind==='unit' ? 2 : 1; }
+function endDest(kind){ return kind==='task'||kind==='lis1'||kind==='lis2' ? 0 : kind==='unit' ? 2 : 1; }
+
+/* ---------- 听力特训链：任务完成 → 听音辨义 → 听音拼写 ---------- */
+var lisChainKs=null;
+function startLisChain(stage, ks){
+  clearTimeout(advT);
+  ks=(ks||[]).filter(k=>k in WIDX);
+  if (!ks.length){ SES=null; screen=null; go(0); return; }
+  lisChainKs=ks;
+  beginSession(stage===2?'lis2':'lis1', shuffle(ks.slice()).map(k=>({k, t:stage===2?'dt':'ls'})));
+}
 
 function startTask(){
   const tp=todayPlan();
@@ -24,7 +37,7 @@ function buildTask(){
   const steps=[];
   newKs.forEach(k=>steps.push({k, t:'ec', nw:1}));
   newKs.forEach(k=>steps.push({k, t:'ce', drill:1, second:1}));
-  dueList().forEach(W=>steps.push({k:W.k, t:typeByBox(wsPeek(W.k).b)}));
+  dueList().forEach(W=>steps.push({k:W.k, t:pickType(wsPeek(W.k).b)}));
   if (!steps.length){ toast('今天的任务都完成了'); return; }
   beginSession('task', steps);
 }
@@ -71,7 +84,7 @@ function startReview(){
   const dues=dueList();
   const pool = dues.length ? dues : aheadList(50);   // 有到期先清到期，否则提前复习
   if (!pool.length){ toast('还没有可复习的词，先学新词吧'); return; }
-  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:typeByBox(wsPeek(W.k).b)})));
+  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:pickType(wsPeek(W.k).b)})));
 }
 function startMode(t){
   const pool=reviewPool(20);
@@ -86,7 +99,7 @@ function startWrongs(){
 function startStars(){
   const pool=shuffle(starList().slice()).slice(0,20);
   if (!pool.length){ toast('生词本是空的，先去收藏几个词'); return; }
-  beginSession('stars', pool.map(W=>({k:W.k, t:typeByBox((wsPeek(W.k)||{}).b||0)})));
+  beginSession('stars', pool.map(W=>({k:W.k, t:pickType((wsPeek(W.k)||{}).b||0)})));
 }
 function startUnitLearn(id){
   const u=UNITS.find(x=>x.id===id); const ks=[];
@@ -100,7 +113,7 @@ function startUnitQuiz(id){
   const u=UNITS.find(x=>x.id===id); const pool=[];
   u.words.forEach((w,i)=>{ const k=id+':'+i; const st=wsPeek(k); if (st&&st.s>0&&!st.z) pool.push(k); });
   if (!pool.length){ toast('本单元还没学过的词，先学新词'); return; }
-  beginSession('unit', shuffle(pool).map(k=>({k, t:typeByBox(wsPeek(k).b)})));
+  beginSession('unit', shuffle(pool).map(k=>({k, t:pickType(wsPeek(k).b)})));
 }
 function beginSession(kind, steps){
   steps=steps.filter(s=>s.k in WIDX);
@@ -318,6 +331,26 @@ function rSessionEnd(){
   }
   if (q.kind==='wrongs' && wbList().length) h+=`<button class="b3d red" onclick="startWrongs()">再抽一批错词 · ${Math.min(20,wbList().length)} 词</button>`;
   if (q.kind==='mode' && q.steps.length) h+=`<button class="b3d line" onclick="startMode('${q.steps[0].t}')">再来一组</button>`;
+
+  // 听力词书：任务完成后自动进入听力特训两关（听音辨义 → 听音拼写）
+  const lisNext = curBook().listen ? (q.kind==='task' ? 1 : q.kind==='lis1' ? 2 : 0) : 0;
+  if (lisNext){
+    const ks = q.kind==='task' ? shuffle([...new Set(q.steps.map(s=>s.k))]).slice(0,20) : lisChainKs;
+    if (ks && ks.length){
+      lisChainKs = ks;
+      h+=`<div class="card" style="text-align:center;margin-top:12px">
+        <div style="font-weight:800;letter-spacing:1px">🎧 听力特训 第${lisNext}关</div>
+        <div class="muted" style="margin-top:4px">${lisNext===1?'听音辨义 · 听到就要认出意思':'听音拼写 · 真听写收尾'}，3 秒后自动开始</div></div>
+        <button class="b3d" onclick="startLisChain(${lisNext}, lisChainKs)">立即开始</button>
+        <button class="b3d ghost" onclick="clearTimeout(advT);SES=null;screen=null;go(0)">今天先到这，跳过</button>`;
+      $('#app').innerHTML=h;
+      tryCheckin(); checkAch();
+      advT=setTimeout(()=>{ startLisChain(lisNext, lisChainKs); }, 3000);
+      return;
+    }
+  }
+  if (q.kind==='lis2') h=h.replace('训练完成','🎧 听力特训完成');
+
   h+=`<button class="b3d" onclick="SES=null;screen=null;go(${endDest(q.kind)})">完 成</button>`;
   $('#app').innerHTML=h;
   tryCheckin(); checkAch();
