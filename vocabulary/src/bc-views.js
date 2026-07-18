@@ -115,14 +115,12 @@ function rHome(){
   </div>`;
 
   if (bk.listen){
-    const c00=counts(); const hasLearned=(c00.learn+c00.master)>0;
     h+=`<div class="sec">🎧 听力特训</div><div class="card">
-      <div class="muted" style="margin-bottom:10px;line-height:1.7">听力词汇的目标是<b>听到就懂</b>：每天学完新词会自动进入两关听力练习；平时也可以随时单独刷。</div>
+      <div class="muted" style="margin-bottom:10px;line-height:1.7">听力词汇的目标是<b>听到就懂</b>：随时点开就能练，学过的词优先出题、不足时自动用新词磨耳朵；每天学完新词还会自动进入两关特训。</div>
       <div class="row2">
-        <button class="b3d" ${hasLearned?'':'disabled'} onclick="startMode('ls', 0)">🔊 听音辨义</button>
-        <button class="b3d line" ${hasLearned?'':'disabled'} onclick="startMode('dt', 0)">✍️ 听音拼写</button>
+        <button class="b3d" onclick="startMode('ls', 0)">🔊 听音辨义</button>
+        <button class="b3d line" onclick="startMode('dt', 0)">✍️ 听音拼写</button>
       </div>
-      ${hasLearned?'':'<div class="muted" style="text-align:center;margin-top:8px;font-size:12px">先学几个新词就能开练</div>'}
     </div>`;
   }
 

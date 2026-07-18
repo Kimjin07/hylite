@@ -94,14 +94,28 @@ function startReview(){
   beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:pickType(wsPeek(W.k).b, W.w)})));
 }
 function startMode(t, dest){
+  const listenDrill = curBook().listen && (t==='ls'||t==='dt');
   let pool=reviewPool(20);
   if ((t==='dt'||t==='sp')){
     const sp=pool.filter(W=>spellable(W.w));
     if (sp.length) pool=sp;          // 优先可拼写的词；全是短语类则退回原池（sp题看着拼还行）
-    else if (t==='dt'){ toast('学过的词里暂时没有适合听写的，先练听音辨义吧'); return; }
+    else if (t==='dt' && !listenDrill){ toast('学过的词里暂时没有适合听写的，先练听音辨义吧'); return; }
+    else if (t==='dt') pool=[];      // 听力书：交给下面的未学词补足
   }
-  if (!pool.length){ toast('还没有学过的词，先学新词吧'); return; }
-  beginSession('mode', pool.map(W=>({k:W.k, t})), dest);
+  let steps=pool.map(W=>({k:W.k, t}));
+  // 听力书拿起来就能听：学过的词不足 20 个时，用未学的词按书序补足（预习模式，不动记忆曲线）
+  if (listenDrill && steps.length<20){
+    const have=new Set(pool.map(W=>W.k));
+    for (const W of WORDS){
+      if (steps.length>=20) break;
+      const st=wsPeek(W.k);
+      if (have.has(W.k) || (st&&(st.s>0||st.z))) continue;
+      if (t==='dt' && !spellable(W.w)) continue;
+      steps.push({k:W.k, t, light:1});
+    }
+  }
+  if (!steps.length){ toast(t==='dt'?'这本书暂时没有适合听写的词':'还没有可练的词，先学新词吧'); return; }
+  beginSession('mode', steps, dest);
 }
 function startWrongs(){
   const pool=shuffle(wbList().slice()).slice(0,20);
