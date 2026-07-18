@@ -524,24 +524,44 @@ function openBookPicker(){
   modalK=null;
   let h=`<div class="grab"></div><div class="dw" style="font-size:22px;margin-bottom:4px">选择词书</div>
     <div class="muted" style="margin-bottom:6px">不同班用不同词书，各自的进度、打卡、错词本完全独立，随时切回不丢。</div>`;
+  loadVariantPref();
+  if (String(curBookId).endsWith('_r')) variantPref[curBookId.slice(0,-2)]=true;   // 勾选状态与实际一致
   let lastCat=null;
   BOOKS.forEach(b=>{
     if (b.variantOf) return;                              // 乱序变体不单列，挂在本体行内
     if (b.cat!==lastCat){ h+=`<div class="sec" style="margin-top:14px">${esc(b.cat||'词书')}</div>`; lastCat=b.cat; }
-    const p=bookProgress(b), cur=b.id===curBookId, curR=curBookId===b.id+'_r';
+    const useR=!!variantPref[b.id];
+    const target=useR ? BOOKS.find(x=>x.id===b.id+'_r') : b;    // 行的进度/单元数按将要打开的版本显示
+    const p=bookProgress(target), cur=b.id===curBookId, curR=curBookId===b.id+'_r';
     const pct=p.total?Math.round(p.master/p.total*100):0;
-    h+=`<button class="bookopt ${(cur||curR)?'on':''}" onclick="pickBook('${b.id}')">
+    h+=`<button class="bookopt ${(cur||curR)?'on':''}" onclick="pickBook('${useR?b.id+'_r':b.id}')">
       <div class="spread"><b>${esc(b.name)}${b.listen?' <span class="pill">🎧 听力</span>':''}${cur?' <span class="pill">当前</span>':''}${curR?' <span class="pill">当前 · 乱序</span>':''}</b><span class="muted num">${p.master}/${p.total} 掌握</span></div>
-      <div class="muted" style="font-size:12px;margin:2px 0 8px">${esc(b.sub)} · ${bookStat(b).units} 单元 · ${p.total} 词</div>
+      <div class="muted" style="font-size:12px;margin:2px 0 8px">${esc(b.sub)} · ${bookStat(target).units} 单元 · ${p.total} 词${useR?' · <b style="color:var(--mint)">将以乱序打开</b>':''}</div>
       <div class="gbar"><i class="g1" style="width:${pct}%"></i><i class="g2" style="width:${p.total?Math.round((p.seen-p.master)/p.total*100):0}%"></i></div>
-      <div style="margin-top:8px;text-align:right"><span class="pill" style="${curR?'':'background:var(--card2);color:var(--sub);'}cursor:pointer" onclick="event.stopPropagation();pickBook('${b.id}_r')">🔀 乱序版${curR?' ✓':''}</span></div>
+      <div style="margin-top:10px;display:flex;justify-content:flex-end">
+        <span onclick="event.stopPropagation();toggleVariant('${b.id}')"
+          style="cursor:pointer;padding:7px 16px;border-radius:20px;font-size:13.5px;font-weight:800;letter-spacing:1px;${useR?'background:var(--mint);color:var(--onbtn);border:1.5px solid var(--mint);':'background:none;color:var(--sub);border:1.5px solid var(--line);'}">🔀 乱序版${useR?' ✓':''}</span>
+      </div>
     </button>`;
   });
   h+=`<button class="b3d ghost" style="margin-top:14px" onclick="closeModal()">关 闭</button>`;
   $('#sheet').innerHTML=h;
   $('#modal').classList.add('show');
 }
+/* 乱序偏好：记住每本书勾没勾"乱序版"（点勾只切换偏好并留在选书页，点书才真正切换） */
+let variantPref={};
+function loadVariantPref(){ try{ variantPref=JSON.parse(store()&&store().getItem('hylite_bcz_variant_pref'))||{}; }catch(e){ variantPref={}; } return variantPref; }
+function saveVariantPref(){ try{ store()&&store().setItem('hylite_bcz_variant_pref', JSON.stringify(variantPref||{})); }catch(e){} }
+function toggleVariant(baseId){
+  loadVariantPref();
+  variantPref[baseId]=!variantPref[baseId];
+  saveVariantPref();
+  openBookPicker();          // 原地刷新选书器，不切换、不关弹层
+}
 function pickBook(id){
+  loadVariantPref();
+  const baseId=String(id).endsWith('_r')?id.slice(0,-2):id;
+  variantPref[baseId]=String(id).endsWith('_r'); saveVariantPref();
   $('#modal').classList.remove('show');
   if (id===curBookId){ return; }
   useBook(id);
