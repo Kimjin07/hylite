@@ -192,7 +192,7 @@ function sAnswer(oi){
   gradeStep(st, W, ok);
   if (st.t!=='ec' || !ok) say(W.w);
   render();
-  if (ok && !needDetail(st)) advT=setTimeout(sNext, 800);
+  if (ok && !needDetail(st)) advT=setTimeout(sNext, 550);
 }
 function gradeStep(st, W, ok){
   if (st.light){
@@ -217,7 +217,7 @@ function gradeStep(st, W, ok){
   sfx(ok?'ok':'ng');
   checkAch();
 }
-function needDetail(st){ return !!(st.nw || st.ok===false); }
+function needDetail(st){ return st.ok===false; }   // 只有答错才停下纠正；答对一律直接走
 
 /* ---------- 拼写 ---------- */
 function spCheck(){
@@ -239,7 +239,7 @@ function spCheck(){
       S.best.spell=Math.max(S.best.spell||0, S.best.spellCur);
     }
     gradeStep(st, W, true); say(W.w); render();
-    if (!needDetail(st)) advT=setTimeout(sNext, 900);
+    if (!needDetail(st)) advT=setTimeout(sNext, 600);
   } else if (st.tries>=2){
     st.ans=1; st.ok=false; if (!st.drill) S.best.spellCur=0;
     gradeStep(st, W, false); say(W.w); render();
@@ -311,7 +311,7 @@ function rSession(){
   }
 
   if (answered && needDetail(st)) h+=rDetail(W);
-  if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d" onclick="sNext()">下一词</button>`;
+  if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d snext" onclick="sNext()">下一词</button>`;
   const kh = (st.t==='sp'||st.t==='dt')
     ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
     : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;

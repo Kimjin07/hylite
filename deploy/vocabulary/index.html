@@ -412,6 +412,26 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;paddi
 footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;padding:26px 12px 10px;line-height:2;opacity:.8}
 .back{display:inline-flex;align-items:center;gap:5px;font-size:13.5px;font-weight:800;color:var(--sub);padding:4px 2px;margin-bottom:8px}
 .back svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+
+/* ===== 训练界面自适应（小屏一屏放下，减少翻页） ===== */
+.b3d.snext{position:sticky;bottom:10px;z-index:5}
+@media (max-height:820px){
+  .qword{padding:10px 8px 0;font-size:clamp(30px,9vw,40px)}
+  .qask{margin:4px 0 8px}
+  .bigsay{width:82px;height:82px;margin:12px auto 6px}
+  .bigsay svg{width:36px;height:36px}
+  .opts{gap:8px;margin-top:10px}
+  .opt{padding:11px 13px 11px 42px;font-size:15px}
+  .gmeaning{padding:12px 12px 0;font-size:17px}
+  .detail{padding:12px;margin-top:10px}
+  .detail .dw{font-size:22px}
+}
+@media (max-height:700px){
+  .qword{font-size:clamp(26px,8vw,34px);padding:6px 8px 0}
+  .bigsay{width:70px;height:70px;margin:8px auto 4px}
+  .opts{gap:6px;margin-top:8px}
+  .opt{padding:9px 12px 9px 40px;font-size:14.5px}
+}
 </style>
 </head>
 <body>
@@ -1250,7 +1270,7 @@ function sAnswer(oi){
   gradeStep(st, W, ok);
   if (st.t!=='ec' || !ok) say(W.w);
   render();
-  if (ok && !needDetail(st)) advT=setTimeout(sNext, 800);
+  if (ok && !needDetail(st)) advT=setTimeout(sNext, 550);
 }
 function gradeStep(st, W, ok){
   if (st.light){
@@ -1275,7 +1295,7 @@ function gradeStep(st, W, ok){
   sfx(ok?'ok':'ng');
   checkAch();
 }
-function needDetail(st){ return !!(st.nw || st.ok===false); }
+function needDetail(st){ return st.ok===false; }   // 只有答错才停下纠正；答对一律直接走
 
 /* ---------- 拼写 ---------- */
 function spCheck(){
@@ -1297,7 +1317,7 @@ function spCheck(){
       S.best.spell=Math.max(S.best.spell||0, S.best.spellCur);
     }
     gradeStep(st, W, true); say(W.w); render();
-    if (!needDetail(st)) advT=setTimeout(sNext, 900);
+    if (!needDetail(st)) advT=setTimeout(sNext, 600);
   } else if (st.tries>=2){
     st.ans=1; st.ok=false; if (!st.drill) S.best.spellCur=0;
     gradeStep(st, W, false); say(W.w); render();
@@ -1369,7 +1389,7 @@ function rSession(){
   }
 
   if (answered && needDetail(st)) h+=rDetail(W);
-  if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d" onclick="sNext()">下一词</button>`;
+  if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d snext" onclick="sNext()">下一词</button>`;
   const kh = (st.t==='sp'||st.t==='dt')
     ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
     : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;

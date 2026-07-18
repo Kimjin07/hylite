@@ -123,6 +123,49 @@ async function openUser(id){
     <div class="muted" style="font-size:13px;margin-bottom:10px">
       账号 ${esc(u.username || '—')} · 注册 ${fmtT(u.created_at)} · 最近活跃 ${fmtT(u.last_seen)}</div>`;
   if (!r.books.length) h += '<div class="muted">还没有同步过任何词书进度。</div>';
+
+  // ===== 学习量统计（合并所有词书的每日日志） =====
+  const daily = {};   // date -> {n:新学, q:答题}
+  let totalSeen = 0;
+  for (const b of r.books){
+    try {
+      const d = JSON.parse(b.data);
+      for (const day in (d.log || {})){
+        const L = d.log[day] || {};
+        (daily[day] = daily[day] || { n:0, q:0 });
+        daily[day].n += Number(L.n) || 0;
+        daily[day].q += Number(L.q) || 0;
+      }
+      if (b.stat) totalSeen += b.stat.seen || 0;
+    } catch(e){}
+  }
+  const iso = dt => dt.getFullYear() + '-' + String(dt.getMonth()+1).padStart(2,'0') + '-' + String(dt.getDate()).padStart(2,'0');
+  const now = new Date(); const todayS = iso(now);
+  const sumSince = days => {
+    let n = 0, q = 0;
+    for (let i = 0; i < days; i++){
+      const d = new Date(now); d.setDate(d.getDate() - i);
+      const L = daily[iso(d)]; if (L){ n += L.n; q += L.q; }
+    }
+    return { n, q };
+  };
+  const t1 = daily[todayS] || { n:0, q:0 }, t7 = sumSince(7), t30 = sumSince(30);
+  const tAll = Object.values(daily).reduce((a, L) => ({ n:a.n+L.n, q:a.q+L.q }), { n:0, q:0 });
+  h += `<div style="display:flex;gap:20px;flex-wrap:wrap;margin:6px 0 12px">
+    ${[['今日',t1],['近7天',t7],['近30天',t30],['累计',tAll]].map(([lab,v]) =>
+      `<div><div style="font-size:22px;font-weight:900" class="num">${v.n}</div>
+       <div class="muted" style="font-size:12px">${lab}新学 · 答题${v.q}</div></div>`).join('')}
+    <div><div style="font-size:22px;font-weight:900" class="num">${totalSeen}</div>
+       <div class="muted" style="font-size:12px">当前已学词量</div></div>
+  </div>`;
+  const days14 = Object.keys(daily).sort().reverse().slice(0, 14);
+  if (days14.length){
+    h += `<div style="overflow-x:auto;margin-bottom:12px"><table style="font-size:13px"><thead>
+      <tr><th>日期</th>${days14.map(d=>`<th class="num">${d.slice(5)}</th>`).join('')}</tr></thead><tbody>
+      <tr><td class="muted">新学</td>${days14.map(d=>`<td class="num"><b>${daily[d].n}</b></td>`).join('')}</tr>
+      <tr><td class="muted">答题</td>${days14.map(d=>`<td class="num muted">${daily[d].q}</td>`).join('')}</tr>
+    </tbody></table></div>`;
+  }
   for (const b of r.books){
     const s = b.stat || {};
     h += `<div class="bookrow">
