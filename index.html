@@ -486,11 +486,11 @@ try{ __reg('liscene', LISCENE_UNITS); }catch(e){}
 try{ __reg('sat',   SAT_UNITS); }catch(e){}
 // cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BOOKS = [
-  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库 · 由易到难', grouped:true,  plan:{mode:'count', quota:50}},
-  {id:'prep',  name:'预备词汇',   sub:'入门起步',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库', grouped:true,  plan:{mode:'count', quota:50}},
+  {id:'prep',  name:'预备词汇',   sub:'入门起步',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a1',    name:'A1',        sub:'教材同步 · 入门',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
