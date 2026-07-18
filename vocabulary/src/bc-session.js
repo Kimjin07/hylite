@@ -4,9 +4,13 @@ let SES=null, FL=null, ML=null, advT=null;
 const SPK='<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path fill="currentColor" stroke="none" d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M15.5 8.5a5 5 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 
 function typeByBox(b){ return b<=1 ? 'ec' : b===2 ? 'ce' : b===3 ? 'ls' : 'sp'; }
-// 听力词书：复习题型也向"听到就懂"倾斜——低强度听音辨义，高强度直接听写
-function typeByBoxListen(b){ return b<=2 ? 'ls' : 'dt'; }
-function pickType(b){ return curBook().listen ? typeByBoxListen(b) : typeByBox(b); }
+// 适合听写的词：纯字母/空格/撇号/连字符，且别太长（带括号斜杠的用法标注短语拼不了）
+function spellable(w){ return /^[A-Za-z][A-Za-z '\-]*$/.test(w) && w.length<=20; }
+// 听力词书：复习题型也向"听到就懂"倾斜——低强度听音辨义，高强度听写(拼不了的仍用辨义)
+function pickType(b, wstr){
+  if (!curBook().listen) return typeByBox(b);
+  return (b<=2 || (wstr!=null && !spellable(wstr))) ? 'ls' : 'dt';
+}
 function typeName(t){ return {ec:'看词选义', ce:'看义选词', ls:'听音辨义', sp:'看义拼写', dt:'听音拼写'}[t]; }
 function endDest(kind){ return kind==='task'||kind==='lis1'||kind==='lis2' ? 0 : kind==='unit' ? 2 : 1; }
 
@@ -16,8 +20,11 @@ function startLisChain(stage, ks){
   clearTimeout(advT);
   ks=(ks||[]).filter(k=>k in WIDX);
   if (!ks.length){ SES=null; screen=null; go(0); return; }
+  ks=ks.filter(k=>!((wsPeek(k)||{}).z));                     // 斩掉的词不进特训
+  if (!ks.length){ SES=null; screen=null; go(0); return; }
   lisChainKs=ks;
-  beginSession(stage===2?'lis2':'lis1', shuffle(ks.slice()).map(k=>({k, t:stage===2?'dt':'ls'})));
+  // light:1 = 巩固练习：只记经验/连击，不动记忆曲线和错词本（当天不重复升级强度）
+  beginSession(stage===2?'lis2':'lis1', shuffle(ks.slice()).map(k=>({k, t: stage===2 && spellable(WORDS[WIDX[k]].w) ? 'dt' : 'ls', light:1})));
 }
 
 function startTask(){
@@ -37,7 +44,7 @@ function buildTask(){
   const steps=[];
   newKs.forEach(k=>steps.push({k, t:'ec', nw:1}));
   newKs.forEach(k=>steps.push({k, t:'ce', drill:1, second:1}));
-  dueList().forEach(W=>steps.push({k:W.k, t:pickType(wsPeek(W.k).b)}));
+  dueList().forEach(W=>steps.push({k:W.k, t:pickType(wsPeek(W.k).b, W.w)}));
   if (!steps.length){ toast('今天的任务都完成了'); return; }
   beginSession('task', steps);
 }
@@ -84,22 +91,28 @@ function startReview(){
   const dues=dueList();
   const pool = dues.length ? dues : aheadList(50);   // 有到期先清到期，否则提前复习
   if (!pool.length){ toast('还没有可复习的词，先学新词吧'); return; }
-  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:pickType(wsPeek(W.k).b)})));
+  beginSession('review', shuffle(pool.slice()).slice(0,50).map(W=>({k:W.k, t:pickType(wsPeek(W.k).b, W.w)})));
 }
-function startMode(t){
-  const pool=reviewPool(20);
+function startMode(t, dest){
+  let pool=reviewPool(20);
+  if ((t==='dt'||t==='sp')){
+    const sp=pool.filter(W=>spellable(W.w));
+    if (sp.length) pool=sp;          // 优先可拼写的词；全是短语类则退回原池（sp题看着拼还行）
+    else if (t==='dt'){ toast('学过的词里暂时没有适合听写的，先练听音辨义吧'); return; }
+  }
   if (!pool.length){ toast('还没有学过的词，先学新词吧'); return; }
-  beginSession('mode', pool.map(W=>({k:W.k, t})));
+  beginSession('mode', pool.map(W=>({k:W.k, t})), dest);
 }
 function startWrongs(){
   const pool=shuffle(wbList().slice()).slice(0,20);
   if (!pool.length){ toast('错词本是空的，很棒'); return; }
-  beginSession('wrongs', pool.map(W=>({k:W.k, t:'ec'})));
+  // 听力词书的错词复练仍走听音题——测的就是"听到没懂"那条通路
+  beginSession('wrongs', pool.map(W=>({k:W.k, t: curBook().listen ? pickType((wsPeek(W.k)||{}).b||0, W.w) : 'ec'})));
 }
 function startStars(){
   const pool=shuffle(starList().slice()).slice(0,20);
   if (!pool.length){ toast('生词本是空的，先去收藏几个词'); return; }
-  beginSession('stars', pool.map(W=>({k:W.k, t:pickType((wsPeek(W.k)||{}).b||0)})));
+  beginSession('stars', pool.map(W=>({k:W.k, t:pickType((wsPeek(W.k)||{}).b||0, W.w)})));
 }
 function startUnitLearn(id){
   const u=UNITS.find(x=>x.id===id); const ks=[];
@@ -113,12 +126,12 @@ function startUnitQuiz(id){
   const u=UNITS.find(x=>x.id===id); const pool=[];
   u.words.forEach((w,i)=>{ const k=id+':'+i; const st=wsPeek(k); if (st&&st.s>0&&!st.z) pool.push(k); });
   if (!pool.length){ toast('本单元还没学过的词，先学新词'); return; }
-  beginSession('unit', shuffle(pool).map(k=>({k, t:pickType(wsPeek(k).b)})));
+  beginSession('unit', shuffle(pool).map(k=>({k, t:pickType(wsPeek(k).b, WORDS[WIDX[k]].w)})));
 }
-function beginSession(kind, steps){
+function beginSession(kind, steps, dest){
   steps=steps.filter(s=>s.k in WIDX);
   if (!steps.length){ toast('没有可练的词'); return; }
-  SES={kind, steps, pos:0, ok:0, ng:0, newN:0, combo:0, maxCombo:0, rq:{}, xp0:S.xp};
+  SES={kind, steps, pos:0, ok:0, ng:0, newN:0, combo:0, maxCombo:0, rq:{}, xp0:S.xp, dest:(dest!=null?dest:null)};
   screen={type:'session'}; render(); window.scrollTo(0,0);
 }
 function starCur(){
@@ -132,9 +145,12 @@ function zhanCur(){
   w.z=1; if (w.s===0) w.s=1; save();
   toast('⚔ 已斩 · 此词不再出现（可在「已斩词」恢复）'); sfx('ok'); checkAch();
   q.steps=q.steps.filter((s,i)=>i<=q.pos || s.k!==k);
+  if (lisChainKs) lisChainKs=lisChainKs.filter(x=>x!==k);   // 特训池同步剔除
   sNext();
 }
 function requeue(st){
+  // 听力词书的听音题：错了不当场重出，看完正确答案就往下走——巩固交给遗忘曲线，下次复习自动再现
+  if (curBook().listen && (st.t==='ls'||st.t==='dt')) return;
   const q=SES; q.rq[st.k]=(q.rq[st.k]||0)+1;
   if (q.rq[st.k]<=2) q.steps.push({k:st.k, t:st.t, drill:1});
 }
@@ -146,7 +162,7 @@ function exitSession(){
   doExitSession();
 }
 function doExitSession(){
-  clearTimeout(advT); SES=null; screen=null; render(); window.scrollTo(0,0);
+  clearTimeout(advT); SES=null; screen=null; lisChainKs=null; render(); window.scrollTo(0,0);
 }
 function sNext(){
   clearTimeout(advT);
@@ -165,6 +181,13 @@ function sAnswer(oi){
   if (ok && !needDetail(st)) advT=setTimeout(sNext, 800);
 }
 function gradeStep(st, W, ok){
+  if (st.light){
+    // 听力特训巩固步：不动 SRS/错词本，只给少量经验和连击反馈
+    if (ok){ SES.ok++; SES.combo++; SES.maxCombo=Math.max(SES.maxCombo,SES.combo); addXp(1); }
+    else { SES.ng++; SES.combo=0; }
+    save(); sfx(ok?'ok':'ng');
+    return;
+  }
   if (!st.drill){
     applyAnswer(W.k, ok);
     if (st.nw) SES.newN++;
@@ -188,9 +211,11 @@ function spCheck(){
   const st=q.steps[q.pos]; if (st.ans!=null) return;
   const W=WORDS[WIDX[st.k]];
   const inp=$('#spin'); if (!inp) return;
-  const val=inp.value.trim().toLowerCase();
+  // 判定前归一化：弯撇号→直撇号、连续空格合一（iOS 智能标点/多敲空格不冤枉人）
+  const spNorm=s=>String(s).replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim().toLowerCase();
+  const val=spNorm(inp.value);
   if (!val) return;
-  const ok = val===W.w.toLowerCase();
+  const ok = val===spNorm(W.w);
   st.tries=(st.tries||0)+1;
   st.typed=val;
   if (ok){
@@ -208,6 +233,7 @@ function spCheck(){
     if (!st.drill) S.best.spellCur=0;
     save();
     sfx('ng'); render();
+    if (st.t==='dt') say(W.w);          // 听写第一次拼错多半是没听清，自动重播一遍
     const i2=$('#spin'); if (i2){ i2.value=''; i2.focus(); }
   }
 }
@@ -246,7 +272,7 @@ function rSession(){
     h+=rOpts(st, W, 'w');
   } else if (st.t==='ls'){
     if (!answered) h+=`<button class="bigsay" data-say="${A(W.w)}" aria-label="播放发音"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor" stroke="none"/><path d="M15.5 7a6.5 6.5 0 0 1 0 10M18 4.5a10 10 0 0 1 0 15"/></svg></button>
-      <div class="muted" style="text-align:center">听发音，选出词义（可再点一次重播）</div>`;
+      <div class="muted" style="text-align:center">听发音，选出词义 · 没听到就点大喇叭</div>`;
     else h+=`<div class="qword reveal" data-say="${A(W.w)}">${esc(W.w)}</div><div class="qphon">${W.p?'/'+esc(W.p)+'/':''}</div>`;
     h+=rOpts(st, W, 'g');
   } else if (st.t==='sp' || st.t==='dt'){
@@ -255,13 +281,13 @@ function rSession(){
           <div class="qphon" style="margin-top:6px">${W.p?'/'+esc(W.p)+'/':''}</div>`;
     } else {
       h+=`<button class="bigsay" data-say="${A(W.w)}" aria-label="播放发音" style="margin-top:14px"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor" stroke="none"/><path d="M15.5 7a6.5 6.5 0 0 1 0 10M18 4.5a10 10 0 0 1 0 15"/></svg></button>`;
-      if (!answered) h+=`<div class="muted" style="text-align:center">听发音，拼出这个单词${st.tries?'':'（可再点一次重播）'}</div>`;
+      if (!answered) h+=`<div class="muted" style="text-align:center">听发音，拼出这个单词 · 没听到就点大喇叭</div>`;
       if (st.tries && !answered) h+=`<div class="gmeaning reveal" style="font-size:15px;padding-top:8px">${esc(W.g)}</div>`;
     }
     if (!answered){
       h+=spSlots(W, '', false);
-      h+=`<input id="spin" class="spellin" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="拼出这个单词" onkeydown="if(event.key==='Enter'&&!event.repeat)spCheck()">`;
-      if (st.tries) h+=`<div class="muted" style="text-align:center;margin-top:8px">再试一次 · 首字母 <b>${esc(W.w[0])}</b> · 共 ${W.w.length} 个字母</div>`;
+      h+=`<input id="spin" class="spellin" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="拼出这个单词" onkeydown="if(event.key==='Enter'&&!event.repeat)spCheck()">`;
+      if (st.tries) h+=`<div class="muted" style="text-align:center;margin-top:8px">再试一次 · 首字母 <b>${esc(W.w[0])}</b> · 共 ${W.w.replace(/[^A-Za-z]/g,'').length} 个字母${W.w.includes(' ')?` · ${W.w.trim().split(/\s+/).length} 个词`:''}</div>`;
       h+=`<button class="b3d" onclick="spCheck()">检 查</button>`;
     } else {
       if (st.t==='dt') h+=`<div class="gmeaning" style="padding-top:6px;font-size:15px">${esc(W.g)}</div>`;
@@ -272,7 +298,10 @@ function rSession(){
 
   if (answered && needDetail(st)) h+=rDetail(W);
   if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d" onclick="sNext()">下一词</button>`;
-  h+=`<div class="khint"><kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续</div>`;
+  const kh = (st.t==='sp'||st.t==='dt')
+    ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
+    : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;
+  h+=`<div class="khint">${kh}</div>`;
   $('#app').innerHTML=h;
   const inp=$('#spin'); if (inp) inp.focus();
   if (!answered){
@@ -323,44 +352,59 @@ function rSessionEnd(){
       <div><div class="n am num">×${q.maxCombo}</div><div class="l">最高连击</div></div>
       <div><div class="n num">+${gained}</div><div class="l">经验</div></div>
     </div></div>`;
-  const wrongs=[...new Set(q.steps.filter(s=>!s.drill&&s.ok===false).map(s=>s.k))];
+  const wrongs=[...new Set(q.steps.filter(s=>!s.drill&&!s.light&&s.ok===false).map(s=>s.k))];
+  const lisWrongs=[...new Set(q.steps.filter(s=>s.light&&s.ok===false).map(s=>s.k))];
+  if (lisWrongs.length){
+    h+=`<div class="sec">没听出来的词 · 建议点开再听几遍</div><div class="card">`;
+    lisWrongs.forEach(k=>{ const W=WORDS[WIDX[k]]; h+=wRow(W); });
+    h+=`</div>`;
+  }
   if (wrongs.length){
     h+=`<div class="sec">本轮错词 · 已进错词本</div><div class="card">`;
     wrongs.forEach(k=>{ const W=WORDS[WIDX[k]]; h+=wRow(W); });
     h+=`</div>`;
   }
   if (q.kind==='wrongs' && wbList().length) h+=`<button class="b3d red" onclick="startWrongs()">再抽一批错词 · ${Math.min(20,wbList().length)} 词</button>`;
-  if (q.kind==='mode' && q.steps.length) h+=`<button class="b3d line" onclick="startMode('${q.steps[0].t}')">再来一组</button>`;
+  if (q.kind==='mode' && q.steps.length) h+=`<button class="b3d line" onclick="startMode('${q.steps[0].t}', ${q.dest!=null?q.dest:'null'})">再来一组</button>`;
 
   // 听力词书：任务完成后自动进入听力特训两关（听音辨义 → 听音拼写）
   const lisNext = curBook().listen ? (q.kind==='task' ? 1 : q.kind==='lis1' ? 2 : 0) : 0;
   if (lisNext){
-    const ks = q.kind==='task' ? shuffle([...new Set(q.steps.map(s=>s.k))]).slice(0,20) : lisChainKs;
+    // 练习池只算一次并固定（点星标等重渲染不再重洗牌）：今天学过的全部词 ∪ 刚才会话的词
+    if (!q.lisKs){
+      const doneToday = (S.today && S.today.d===today() && S.today.done) || [];
+      q.lisKs = q.kind==='task'
+        ? shuffle([...new Set([...doneToday, ...q.steps.map(s=>s.k)])]).slice(0,30)
+        : (lisChainKs || []);
+    }
+    const ks = q.lisKs;
     if (ks && ks.length){
       lisChainKs = ks;
       h+=`<div class="card" style="text-align:center;margin-top:12px">
         <div style="font-weight:800;letter-spacing:1px">🎧 听力特训 第${lisNext}关</div>
-        <div class="muted" style="margin-top:4px">${lisNext===1?'听音辨义 · 听到就要认出意思':'听音拼写 · 真听写收尾'}，3 秒后自动开始</div></div>
+        <div class="muted" style="margin-top:4px">${lisNext===1?'听音辨义 · 听到就要认出意思':'听音拼写为主 · 拼不了的短语出辨义'}，3 秒后自动开始</div></div>
         <button class="b3d" onclick="startLisChain(${lisNext}, lisChainKs)">立即开始</button>
-        <button class="b3d ghost" onclick="clearTimeout(advT);SES=null;screen=null;go(0)">今天先到这，跳过</button>`;
+        <button class="b3d ghost" onclick="clearTimeout(advT);SES=null;screen=null;lisChainKs=null;go(0)">今天先到这，跳过</button>`;
       $('#app').innerHTML=h;
       tryCheckin(); checkAch();
-      advT=setTimeout(()=>{ startLisChain(lisNext, lisChainKs); }, 3000);
+      // 词卡弹层打开时暂停倒计时（关闭弹层重渲染时会重新计时）
+      let modalOpen=false; try { modalOpen=$('#modal').classList.contains('show'); } catch(e){}
+      if (!modalOpen) advT=setTimeout(()=>{ startLisChain(lisNext, lisChainKs); }, 3000);
       return;
     }
   }
-  if (q.kind==='lis2') h=h.replace('训练完成','🎧 听力特训完成');
+  if (q.kind==='lis2'){ h=h.replace('训练完成','🎧 听力特训完成'); lisChainKs=null; }
 
-  h+=`<button class="b3d" onclick="SES=null;screen=null;go(${endDest(q.kind)})">完 成</button>`;
+  h+=`<button class="b3d" onclick="SES=null;screen=null;go(${q.dest!=null?q.dest:endDest(q.kind)})">完 成</button>`;
   $('#app').innerHTML=h;
   tryCheckin(); checkAch();
 }
 
 /* ================= 速刷 ================= */
-function startFlash(){
+function startFlash(dest){
   const pool=reviewPool(30);
   if (!pool.length){ toast('还没有学过的词，先学新词吧'); return; }
-  FL={cards:shuffle(pool.slice()), pos:0, showG:false, hist:[], ok:0, ng:0, xp0:S.xp};
+  FL={cards:shuffle(pool.slice()), pos:0, showG:false, hist:[], ok:0, ng:0, xp0:S.xp, dest:(dest!=null?dest:1)};
   screen={type:'flash'}; render(); window.scrollTo(0,0);
 }
 function flAnswer(ok){
@@ -408,7 +452,7 @@ function rFlash(){
         <div><div class="n rd num">${q.ng}</div><div class="l">不认识</div></div>
         <div><div class="n num">${q.ok+q.ng}</div><div class="l">总量</div></div>
         <div><div class="n num">+${S.xp-q.xp0}</div><div class="l">经验</div></div></div>
-      <button class="b3d" onclick="FL=null;screen=null;go(1)">完 成</button></div>`;
+      <button class="b3d" onclick="const _d=FL.dest;FL=null;screen=null;go(_d)">完 成</button></div>`;
     tryCheckin(); checkAch(); return;
   }
   const W=q.cards[q.pos];
@@ -437,7 +481,7 @@ function rFlash(){
 }
 
 /* ================= 连连看 ================= */
-function startMatch(){
+function startMatch(dest){
   const pool=WORDS.filter(W=>{ const st=wsPeek(W.k); return st&&st.s>0&&!st.z; });
   if (pool.length<5){ toast('学过 5 个词后开放连连看'); return; }
   const seenG=new Set(); const pairs=[];
@@ -447,7 +491,7 @@ function startMatch(){
     if (pairs.length>=5) break;
   }
   if (pairs.length<5){ toast('可用词不足 5 个'); return; }
-  ML={pairs, ws:shuffle(pairs.slice()), gs:shuffle(pairs.slice()), sel:null,
+  ML={dest:(dest!=null?dest:1), pairs, ws:shuffle(pairs.slice()), gs:shuffle(pairs.slice()), sel:null,
       done:new Set(), miss:0, t0:performance.now(), fin:0};
   screen={type:'match'}; render(); window.scrollTo(0,0);
   mTick();
@@ -494,7 +538,7 @@ function rMatch(){
       <h2 class="num">${q.time}s</h2>
       <div class="sub">失误 ${q.miss} 次 · 最佳 ${S.best.llk||q.time}s${S.best.llkClean?' · 零失误最佳 '+S.best.llkClean+'s':''}</div>
       <div class="row2"><button class="b3d" onclick="startMatch()">再来一局</button>
-      <button class="b3d line" onclick="ML=null;screen=null;go(1)">返 回</button></div></div>`;
+      <button class="b3d line" onclick="const _d=ML.dest;ML=null;screen=null;go(_d)">返 回</button></div></div>`;
     $('#app').innerHTML=h; return;
   }
   h+=`<div class="muted" style="text-align:center;margin-top:4px">把单词和释义连成对</div><div class="mgrid">`;

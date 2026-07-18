@@ -17,6 +17,7 @@ try{ __reg('prep',  PREP_UNITS); }catch(e){}
 try{ __reg('basic', BASIC_UNITS); }catch(e){}
 try{ __reg('core',  CORE_UNITS); }catch(e){}
 try{ __reg('green', GREEN_UNITS); }catch(e){}
+try{ __reg('oxford', OXFORD_UNITS); }catch(e){}
 try{ __reg('a1',    A1_UNITS); }catch(e){}
 try{ __reg('a2',    A2_UNITS); }catch(e){}
 try{ __reg('b1',    B1_UNITS); }catch(e){}
@@ -32,6 +33,7 @@ const BOOKS = [
   {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'oxford', name:'牛津3000+5000', sub:'Oxford CEFR 分级 A1-C1', cat:'通用词库', grouped:false, plan:{mode:'count', quota:50}},
   {id:'a1',    name:'A1',        sub:'教材同步 · 入门',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
@@ -226,6 +228,8 @@ function useBook(id, initial, cb){
   } catch(e){}
   if (!initial){
     if (typeof SES!=='undefined'){ SES=null; FL=null; ML=null; }
+    try { if (typeof advT!=='undefined') clearTimeout(advT); } catch(e){}       // 清掉残留的自动跳转倒计时
+    try { if (typeof lisChainKs!=='undefined') lisChainKs=null; } catch(e){}    // 听力链词池不跨书
     screen=null; tab=0;
     applyTheme(); todayPlan(); render(); window.scrollTo(0,0); checkAch();
     toast('已切换到《'+b.name+'》');
@@ -447,7 +451,17 @@ function stopSpeak(){                                          // 打断上一�
   try { if (curAudio){ curAudio.pause(); curAudio=null; } } catch(e){}
   try { if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch(e){}
 }
+// 朗读文本清洗：去掉用法标注（括号/方括号），斜杠多变体取第一个——
+// "turn (to the) left / right" 只读 "turn left"，避免把标点读出来
+function speakText(w){
+  const t = String(w)
+    .replace(/（[^）]*）|\([^)]*\)|\[[^\]]*\]/g, ' ')
+    .split('/')[0]
+    .replace(/\s+/g, ' ').trim();
+  return t || String(w);
+}
 function say(w, voice){
+  w = speakText(w);
   const v = voice || S.cfg.voice || 1;
   stopSpeak();
   try {
@@ -566,9 +580,14 @@ function confetti(){
 function optionsFor(W, kind){ // kind 'g': 选释义；'w': 选单词
   const p=posOf(W.g);
   const picked=[]; const seenK=new Set([W.k]); const seenT=new Set([kind==='g'?W.g:W.w.toLowerCase()]);
+  // 听力词书选释义时排除近义干扰项(场景书里"在左边/在左侧"这类同屏必误判)：
+  // 归一化释义(去词性前缀/标点)后，与正确项前两字相同的候选跳过
+  const normG = s=>String(s).replace(/^[a-zA-Z\.,;&()\s]+/, '').replace(/^[，。、；]+/, '').slice(0,2);
+  const corr2 = (kind==='g' && curBook().listen) ? (normG(W.g).length>=2 ? normG(W.g) : null) : null;
   const take=x=>{
     const t = kind==='g'?x.g:x.w.toLowerCase();
     if (seenK.has(x.k)||seenT.has(t)) return;
+    if (corr2 && normG(x.g)===corr2) return;
     seenK.add(x.k); seenT.add(t); picked.push(x);
   };
   const tiers=[

@@ -31,7 +31,7 @@ function makeDevice(name){
     store: () => storeObj,
     KEY_BASE: 'hylite_bcz_v3',
     curBookId: 'b3000',
-    BOOKS: [{id:'b3000',name:'必会3000'},{id:'prep'},{id:'basic'},{id:'core'},{id:'green'},{id:'a2'},{id:'b1'},{id:'b1p'},{id:'b2'},{id:'lis18'},{id:'liscene'},{id:'sat'}],
+    BOOKS: [{id:'b3000',name:'必会3000'},{id:'prep'},{id:'basic'},{id:'core'},{id:'green'},{id:'oxford'},{id:'a2'},{id:'b1'},{id:'b1p'},{id:'b2'},{id:'lis18'},{id:'liscene'},{id:'sat'}],
     SES: null, FL: null, ML: null, screen: null, tab: 4, modalK: null, TOTAL: 100,
     S: null,
     todayPlan: () => {}, render: () => {}, closeModal: () => {}, go: () => {},

@@ -119,8 +119,8 @@ function rHome(){
     h+=`<div class="sec">🎧 听力特训</div><div class="card">
       <div class="muted" style="margin-bottom:10px;line-height:1.7">听力词汇的目标是<b>听到就懂</b>：每天学完新词会自动进入两关听力练习；平时也可以随时单独刷。</div>
       <div class="row2">
-        <button class="b3d" ${hasLearned?'':'disabled'} onclick="startMode('ls')">🔊 听音辨义</button>
-        <button class="b3d line" ${hasLearned?'':'disabled'} onclick="startMode('dt')">✍️ 听音拼写</button>
+        <button class="b3d" ${hasLearned?'':'disabled'} onclick="startMode('ls', 0)">🔊 听音辨义</button>
+        <button class="b3d line" ${hasLearned?'':'disabled'} onclick="startMode('dt', 0)">✍️ 听音拼写</button>
       </div>
       ${hasLearned?'':'<div class="muted" style="text-align:center;margin-top:8px;font-size:12px">先学几个新词就能开练</div>'}
     </div>`;
@@ -134,10 +134,10 @@ function rHome(){
   </div></div>`;
 
   h+=`<div class="sec">快捷训练</div><div class="quick">
-    <button onclick="startFlash()"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5z"/></svg>速刷</button>
-    <button onclick="startMode('ls')"><svg viewBox="0 0 24 24"><path d="M3 10v4h4l5 4V6l-5 4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg>听音</button>
-    <button onclick="startMode('sp')"><svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="m6 16 10.5-10.5a2.1 2.1 0 0 1 3 3L9 19l-4 1z"/></svg>拼写</button>
-    <button onclick="startMatch()"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/><path d="M13 7h4M7 13v4"/></svg>连连看</button>
+    <button onclick="startFlash(0)"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5z"/></svg>速刷</button>
+    <button onclick="startMode('ls', 0)"><svg viewBox="0 0 24 24"><path d="M3 10v4h4l5 4V6l-5 4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg>听音</button>
+    <button onclick="startMode('sp', 0)"><svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="m6 16 10.5-10.5a2.1 2.1 0 0 1 3 3L9 19l-4 1z"/></svg>拼写</button>
+    <button onclick="startMatch(0)"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/><path d="M13 7h4M7 13v4"/></svg>连连看</button>
   </div>`;
 
   const donePct=Math.round((c.master+c.zhan)/TOTAL*100);
@@ -550,6 +550,7 @@ function pickBook(id){
 /* ================= 词卡弹层 ================= */
 let modalK=null;
 function openWord(k){
+  clearTimeout(advT);      // 词卡弹层打开时暂停自动跳转倒计时（关闭后重渲染会重新计时）
   modalK=k;
   const W=WORDS[WIDX[k]]; const st=wsPeek(k)||{b:0,s:0,ng:0};
   const stName=st.z?'已斩':st.s===0?'未学':st.b>=MASTER?'已掌握':'学习中';

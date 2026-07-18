@@ -14,9 +14,10 @@ for (const raw of lines) {
   const line = raw.trim();
   if (!line) continue;
   if (/^[=═─—-]+$/.test(line)) continue;                       // 分隔线
-  // 章节标题: "Day N" 或 "N. 中文场景名"
-  if (/^Day\s*\d+$/i.test(line) || /^\d+\.\s*\S+/.test(line) && !line.includes('[')) {
-    cur = { id: 'U' + units.length, name: line, words: [] };
+  // 章节标题: "Day N" / "N. 中文场景名" / "A1 级（入门） 共 900 词"(CEFR等级)
+  if (/^Day\s*\d+$/i.test(line) || (/^\d+\.\s*\S+/.test(line) && !line.includes('[')) || /^[A-C][12]\s*级/.test(line)) {
+    const name = line.replace(/\s*共\s*\d+\s*词\s*$/, '').trim();
+    cur = { id: 'U' + units.length, name, words: [] };
     units.push(cur);
     continue;
   }
