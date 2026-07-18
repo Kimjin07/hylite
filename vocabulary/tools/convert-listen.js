@@ -14,9 +14,15 @@ for (const raw of lines) {
   const line = raw.trim();
   if (!line) continue;
   if (/^[=═─—-]+$/.test(line)) continue;                       // 分隔线
-  // 章节标题: "Day N" / "N. 中文场景名" / "A1 级（入门） 共 900 词"(CEFR等级)
-  if (/^Day\s*\d+$/i.test(line) || (/^\d+\.\s*\S+/.test(line) && !line.includes('[')) || /^[A-C][12]\s*级/.test(line)) {
-    const name = line.replace(/\s*共\s*\d+\s*词\s*$/, '').trim();
+  // 章节标题: "Day N" / "N. 中文场景名" / "A1 级（入门） 共 900 词" / "Unit 01 ｜ A1（入门）· 第1/9组 ｜ 100词 ｜ a – bread"
+  if (/^Day\s*\d+$/i.test(line) || (/^\d+\.\s*\S+/.test(line) && !line.includes('[')) || /^[A-C][12]\s*级/.test(line) || /^Unit\s*\d+/i.test(line)) {
+    let name = line.replace(/\s*共\s*\d+\s*词\s*$/, '').trim();
+    if (name.includes('｜')) {   // 压缩长标题: "Unit 01 · A1 · a–bread"
+      const p = name.split('｜').map(s => s.trim());
+      const lv = (p[1] || '').split('·')[0].trim().replace(/（[^）]*）/, '');
+      const range = (p[3] || '').replace(/\s*–\s*/, '–').replace(/,\s*(?=–|$)/g, '').trim();
+      name = [p[0], lv, range].filter(Boolean).join(' · ');
+    }
     cur = { id: 'U' + units.length, name, words: [] };
     units.push(cur);
     continue;
