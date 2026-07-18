@@ -443,7 +443,7 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
 <canvas id="fx"></canvas>
 
 <script>
-const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565},"lis18":{"units":18,"words":1336},"liscene":{"units":10,"words":1389},"sat":{"units":25,"words":991}};
+const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"a1":{"units":12,"words":601},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565},"lis18":{"units":18,"words":1336},"liscene":{"units":10,"words":1389},"sat":{"units":25,"words":991}};
 'use strict';
 /* ================= 数据与常量 ================= */
 const BOX_GAP = [0,1,2,4,7,15,30,60];      // 各强度等级到下次复习的天数
@@ -463,6 +463,7 @@ try{ __reg('prep',  PREP_UNITS); }catch(e){}
 try{ __reg('basic', BASIC_UNITS); }catch(e){}
 try{ __reg('core',  CORE_UNITS); }catch(e){}
 try{ __reg('green', GREEN_UNITS); }catch(e){}
+try{ __reg('a1',    A1_UNITS); }catch(e){}
 try{ __reg('a2',    A2_UNITS); }catch(e){}
 try{ __reg('b1',    B1_UNITS); }catch(e){}
 try{ __reg('b1p',   B1P_UNITS); }catch(e){}
@@ -477,6 +478,7 @@ const BOOKS = [
   {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'a1',    name:'A1',        sub:'教材同步 · 入门',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},

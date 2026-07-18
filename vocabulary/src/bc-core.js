@@ -17,6 +17,7 @@ try{ __reg('prep',  PREP_UNITS); }catch(e){}
 try{ __reg('basic', BASIC_UNITS); }catch(e){}
 try{ __reg('core',  CORE_UNITS); }catch(e){}
 try{ __reg('green', GREEN_UNITS); }catch(e){}
+try{ __reg('a1',    A1_UNITS); }catch(e){}
 try{ __reg('a2',    A2_UNITS); }catch(e){}
 try{ __reg('b1',    B1_UNITS); }catch(e){}
 try{ __reg('b1p',   B1P_UNITS); }catch(e){}
@@ -31,6 +32,7 @@ const BOOKS = [
   {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库 · 由易到难', grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'a1',    name:'A1',        sub:'教材同步 · 入门',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1p',   name:'B1+',       sub:'教材同步 · 进阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
