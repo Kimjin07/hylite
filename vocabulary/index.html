@@ -432,6 +432,20 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
   .opts{gap:6px;margin-top:8px}
   .opt{padding:9px 12px 9px 40px;font-size:14.5px}
 }
+
+/* ===== 对/错反馈固定色（不随主题/配色/深浅模式变化：对=绿 错=红） ===== */
+:root{ --okG:#1FA46B; --okGT:rgba(31,164,107,.16); --ngR:#E0433E; --ngRT:rgba(224,67,62,.14) }
+[data-theme="dark"], :root[data-theme="dark"]{ --okG:#2ECC85; --okGT:rgba(46,204,133,.20); --ngR:#FF6B64; --ngRT:rgba(255,107,100,.18) }
+.opt.right{border-color:var(--okG) !important;background:var(--okGT) !important}
+.opt.right .kno{background:var(--okG) !important;color:#fff !important}
+.opt.right::after{content:"✓ 正确";position:absolute;right:12px;top:50%;transform:translateY(-50%);
+  color:var(--okG);font-weight:900;font-size:13px;letter-spacing:1px}
+.opt.wrong{border-color:var(--ngR) !important;background:var(--ngRT) !important}
+.opt.wrong .kno{background:var(--ngR) !important;color:#fff !important}
+.opt.wrong::after{content:"✕";position:absolute;right:14px;top:50%;transform:translateY(-50%);
+  color:var(--ngR);font-weight:900;font-size:15px}
+.slot.hit{border-color:var(--okG) !important;color:var(--okG) !important}
+.slot.miss{border-color:var(--ngR) !important;color:var(--ngR) !important}
 </style>
 </head>
 <body>
