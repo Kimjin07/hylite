@@ -599,7 +599,7 @@ function syncCardHtml(){
       <div class="setrow" style="border:none;padding-top:0"><div><div class="st1">进度云同步</div><div class="st2">注册后自动备份到云端，换设备登录即恢复</div></div></div>
       <div class="row2" style="margin-top:8px">
         <button class="b3d" onclick="syncOpenPanel('reg')">注 册</button>
-        <button class="b3d sec" onclick="syncOpenPanel('login')">登 录</button>
+        <button class="b3d line" onclick="syncOpenPanel('login')">登 录</button>
       </div></div>`;
   }
   const t = syncLastOk ? new Date(syncLastOk) : null;
@@ -612,7 +612,7 @@ function syncCardHtml(){
       <div class="st2">同步码 <b class="num">${esc(u.sync_code)}</b> · <span id="syncStatus">${st}</span></div>
     </div></div>
     <div class="row2" style="margin-top:8px">
-      <button class="b3d sec" onclick="syncNow()">立即同步</button>
+      <button class="b3d line" onclick="syncNow()">立即同步</button>
       <button class="b3d ghost" onclick="syncCopyCode()">复制同步码</button>
     </div>
     ${u.username ? '' : `<button class="b3d ghost" style="margin-top:8px" onclick="syncOpenPanel('cred')">设置账号密码（可选）</button>`}

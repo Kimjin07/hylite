@@ -443,7 +443,7 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
 <canvas id="fx"></canvas>
 
 <script>
-const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":420},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565}};
+const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565}};
 'use strict';
 /* ================= 数据与常量 ================= */
 const BOX_GAP = [0,1,2,4,7,15,30,60];      // 各强度等级到下次复习的天数
@@ -2129,7 +2129,7 @@ function syncCardHtml(){
       <div class="setrow" style="border:none;padding-top:0"><div><div class="st1">进度云同步</div><div class="st2">注册后自动备份到云端，换设备登录即恢复</div></div></div>
       <div class="row2" style="margin-top:8px">
         <button class="b3d" onclick="syncOpenPanel('reg')">注 册</button>
-        <button class="b3d sec" onclick="syncOpenPanel('login')">登 录</button>
+        <button class="b3d line" onclick="syncOpenPanel('login')">登 录</button>
       </div></div>`;
   }
   const t = syncLastOk ? new Date(syncLastOk) : null;
@@ -2142,7 +2142,7 @@ function syncCardHtml(){
       <div class="st2">同步码 <b class="num">${esc(u.sync_code)}</b> · <span id="syncStatus">${st}</span></div>
     </div></div>
     <div class="row2" style="margin-top:8px">
-      <button class="b3d sec" onclick="syncNow()">立即同步</button>
+      <button class="b3d line" onclick="syncNow()">立即同步</button>
       <button class="b3d ghost" onclick="syncCopyCode()">复制同步码</button>
     </div>
     ${u.username ? '' : `<button class="b3d ghost" style="margin-top:8px" onclick="syncOpenPanel('cred')">设置账号密码（可选）</button>`}

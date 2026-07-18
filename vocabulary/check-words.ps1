@@ -30,8 +30,8 @@ foreach ($f in $files) {
           if ($fv -match [char]0xFFFD) { $issues.Add("$loc ${fn} contains replacement char (mojibake): $fv") }
           if ($fv -match '[\x00-\x08\x0B\x0C\x0E-\x1F]') { $issues.Add("$loc ${fn} contains control chars") }
         }
-        # 2) word field sanity: expect English letters plus space - ' . & / ( ) = (=用于同义词组)
-        if ($word -notmatch "^[A-Za-z(][A-Za-z0-9 '\-\.&/()=]*$") { $issues.Add("$loc word field suspicious: '$word'") }
+        # 2) word field sanity: expect English letters plus space - ' . & / ( ) = [ ] , (=同义词组 []教学标注)
+        if ($word -notmatch "^[A-Za-z(\[][A-Za-z0-9 '\-\.&/()=\[\],]*$") { $issues.Add("$loc word field suspicious: '$word'") }
         # 3) full-width quotes between ASCII letters (apostrophe bug)
         $lq=[char]0x2018; $rq=[char]0x2019
         if ($word -match "(?<=[A-Za-z])[$lq$rq](?=[A-Za-z])") { $issues.Add("$loc word has fullwidth apostrophe: $word") }
