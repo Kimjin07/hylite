@@ -28,6 +28,7 @@ var PET_SPECIES = [
 ];
 function petSpecies(){ return PET_SPECIES.find(s=>s.id===petState.species) || PET_SPECIES[0]; }
 function petSlots(){ return petSpecies().emotes.length; }   // 当前物种表情总数(不再固定 6)
+function petSlotsOf(id){ const s = PET_SPECIES.find(x=>x.id===id); return s ? s.emotes.length : 0; }
 // 预览：url 带 ?petall=1 全部解锁+免登录看；?pet=1 只是提前开启功能(仍需登录)
 function petPreviewAll(){ try { return /[?&]petall=1/.test(location.search); } catch(e){ return false; } }
 function petPreviewOn(){ try { return PET_LIVE || /[?&]pet(all)?=1/.test(location.search); } catch(e){ return PET_LIVE; } }
@@ -37,11 +38,11 @@ function petVisible(){ if (petPreviewAll()) return true; if (!petPreviewOn()) re
 function petLoad(){
   try { petState = JSON.parse(store() && store().getItem(PET_KEY)); } catch(e){ petState = null; }
   if (!petState || typeof petState !== 'object'){
-    // 首次：用已学词数折算已解锁数(每20词1个)，老用户不空手
+    // 首次：用已学词数折算"解锁券"(每20词1张)，老用户不空手；券由学生自己点亮任意表情
     let seed = 0;
     try { if (typeof counts==='function'){ const c=counts(); seed = c.seen||0; } } catch(e){}
-    petState = { name:'旺仔', learned:seed, wordGranted:Math.floor(seed/PET_STEP), dex:{}, lastClaim:'', lastSeen: today(), species:'cat', pick:0 };
-    petState.dex.cat = petState.wordGranted;
+    petState = { v:2, name:'旺仔', learned:seed, wordGranted:Math.floor(seed/PET_STEP), dex:{}, unl:{}, lastClaim:'', lastSeen: today(), species:'cat', pick:0, still:false };
+    petState.dex.cat = Math.min(petSlotsOf('cat'), petState.wordGranted);   // 起始券(未点亮，待选)
     petSave();
   }
   if (typeof petState.learned !== 'number') petState.learned = 0;
@@ -51,6 +52,24 @@ function petLoad(){
   if (!petState.species || !PET_SPECIES.some(s=>s.id===petState.species)) petState.species = PET_SPECIES[0].id;
   if (typeof petState.pick !== 'number') petState.pick = 0;
   if (typeof petState.still !== 'boolean') petState.still = false;   // 静止/动图偏好
+  // —— 解锁券模型（dex[种]=已赚券数；unl[种]=学生已点亮的表情id）——
+  if (!petState.unl || typeof petState.unl !== 'object') petState.unl = {};
+  if (petState.v !== 2){
+    // 旧版按顺序自动解锁：把前 N 个补进 unl，保持他们已看到的表情不变
+    for (const sp in petState.dex){
+      const cap = petSlotsOf(sp), n = Math.min(cap, Math.max(0, petState.dex[sp]|0));
+      const a = []; for (let i=1;i<=n;i++) a.push(i);
+      if (!Array.isArray(petState.unl[sp])) petState.unl[sp] = a;
+    }
+    petState.v = 2;
+  }
+  // 规整：dex 不超过槽位；unl 去重合法；赚的券至少覆盖已点亮数
+  for (const sp in petState.dex) petState.dex[sp] = Math.min(petSlotsOf(sp), Math.max(0, petState.dex[sp]|0));
+  for (const sp in petState.unl){
+    const cap = petSlotsOf(sp);
+    petState.unl[sp] = [...new Set((Array.isArray(petState.unl[sp])?petState.unl[sp]:[]).filter(x=>Number.isInteger(x)&&x>=1&&x<=cap))];
+    petState.dex[sp] = Math.max(petState.dex[sp]||0, petState.unl[sp].length);
+  }
   return petState;
 }
 var petPushT = null, petPulled = false;
@@ -71,6 +90,14 @@ function petMergeInto(cloud){
   const dex = petState.dex||{}; const cd = cloud.dex||{};
   for (const k in cd) dex[k] = Math.max(dex[k]||0, cd[k]||0);
   petState.dex = dex;
+  // 已点亮集合取并集（两设备各自点亮的都保留）；赚的券数至少覆盖已点亮
+  const unl = petState.unl||{}; const cu = cloud.unl||{};
+  for (const k in cu){
+    const cap = petSlotsOf(k);
+    unl[k] = [...new Set((unl[k]||[]).concat(Array.isArray(cu[k])?cu[k]:[]))].filter(x=>Number.isInteger(x)&&x>=1&&x<=cap);
+  }
+  petState.unl = unl;
+  for (const k in unl) petState.dex[k] = Math.max(petState.dex[k]||0, unl[k].length);
   if ((cloud.lastClaim||'') > (petState.lastClaim||'')) petState.lastClaim = cloud.lastClaim;
   if (cloudScore > localScore){   // 云端更"资深"，沿用它的身份/展示设置
     if (cloud.name) petState.name = cloud.name;
@@ -108,29 +135,49 @@ function petSchedulePush(){
   petPushT = setTimeout(()=>{ petCloudPush(); }, 8000);
 }
 
-/* ---------- 解锁进度（按已解锁"数量"推进：背词 + 每日领取都 +1；每套独立） ---------- */
-function petUnlockedCount(){ if (petPreviewAll()) return petSlots(); return Math.min(petSlots(), petState.dex[petState.species] || 0); }
-function petIsUnlocked(e){ return e.id <= petUnlockedCount(); }
+/* ---------- 解锁：背词/签到攒"解锁券"，学生自己点亮任意表情（每套独立） ---------- */
+function petUnlOf(sp){ return (petState.unl && petState.unl[sp]) || []; }
+// 已点亮数量（学生实际选亮的）；预览模式全亮
+function petUnlockedCount(){ if (petPreviewAll()) return petSlots(); return Math.min(petSlots(), petUnlOf(petState.species).length); }
+// 当前物种手里还有几张没花的解锁券 = 赚的券 - 已点亮
+function petCredits(){ if (petPreviewAll()) return 0; const sp = petState.species; return Math.max(0, (petState.dex[sp]||0) - petUnlOf(sp).length); }
+function petIsUnlocked(e){ if (petPreviewAll()) return true; return petUnlOf(petState.species).indexOf(e.id) >= 0; }
 function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file; }        // 动图（图鉴/预览恒用）
 function petStillSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file.replace(/\.gif$/, '-s.gif'); }  // 静止首帧
 // 主图/答题挂件按学生偏好：静止模式给首帧，否则给动图
 function petShowSrc(e){ return (petState && petState.still) ? petStillSrc(e) : petEmoteSrc(e); }
-// 给当前物种解锁下一个表情；reason 用于台词/提示
+// 赚一张解锁券（背够词/签到调用）；不再自动点亮，交给学生自选
 function petGrantOne(reason){
   const sp = petState.species, cur = petState.dex[sp] || 0;
-  if (cur >= petSlots()) return false;
+  if (cur >= petSlots()) return false;   // 这套的券已赚满
   petState.dex[sp] = cur + 1;
-  petState._justUnlocked = cur + 1;
-  petPending = 'unlock';
-  try { toast('🎁 ' + (reason==='daily'?'今日签到，':'') + '解锁新表情：' + petSpecies().emotes[cur].name + '！'); sfx('ck'); confetti(); } catch(e){}
+  petPending = 'credit';
+  try { toast('🎁 ' + (reason==='daily'?'今日签到，':'') + '获得 1 张解锁券！去图鉴点亮你喜欢的表情'); sfx('ck'); } catch(e){}
   return true;
+}
+// 花一张券点亮指定表情（学生自选）
+function petUnlockPick(id){
+  if (!petState) petLoad();
+  const sp = petState.species, cap = petSlots();
+  if (!Number.isInteger(id) || id < 1 || id > cap) return;
+  const arr = petUnlOf(sp);
+  if (arr.indexOf(id) >= 0) return;   // 已点亮
+  if (petCredits() <= 0){ try{ toast('还没有解锁券哦～背 '+PET_STEP+' 个词或每天签到攒一张'); }catch(e){} return; }
+  arr.push(id);
+  if (!petState.unl) petState.unl = {};
+  petState.unl[sp] = arr;
+  petState._justUnlocked = id; petPending = 'unlock';
+  petSave();
+  try { toast('✨ 点亮「' + petSpecies().emotes[id-1].name + '」！'); sfx('ck'); confetti(); } catch(e){}
+  closeModal();
+  if (typeof render==='function' && !screen) render();
 }
 // 今日能否领取（登录且当前物种没集满且今天没领过）
 function petCanClaim(){ return petState && petState.lastClaim !== today() && (petState.dex[petState.species]||0) < petSlots(); }
 function petClaim(){
   if (!petState) petLoad();
   if (petState.lastClaim === today()){ try{ toast('今天已经领过啦，明天再来～'); }catch(e){} return; }
-  if ((petState.dex[petState.species]||0) >= petSlots()){ try{ toast('这只已经集齐啦，换个伙伴继续收集吧！'); }catch(e){} return; }
+  if ((petState.dex[petState.species]||0) >= petSlots()){ try{ toast(petCredits()>0?'这套的解锁券都领满啦，先去点亮吧！':'这套已集齐啦，换个伙伴继续收集吧！'); }catch(e){} return; }
   petState.lastClaim = today();
   petGrantOne('daily');
   petSave();
@@ -277,7 +324,11 @@ function petLine(){
     if (b === 'cry') return petFill(petMoodLine('cry'));
     if (b) return petFill(petPick(b));
   }
-  if (petUnlockedCount()===0) return '背满 20 个词、或每天签到，就能领到第一个我！';
+  if (petUnlockedCount()===0){
+    return petCredits()>0
+      ? '我有 '+petCredits()+' 张解锁券啦，快点下面挑一个表情点亮我吧！'
+      : '背满 20 个词、或每天签到，攒张解锁券就能点亮第一个我！';
+  }
   if (petDaysSince(petState.lastSeen)>=2) return petFill(petPick('comeback'));
   return petFill(petMoodLine(petMoodNow()));
 }
@@ -287,9 +338,10 @@ function petCardHtml(){
   if (!petState) petLoad();
   const sp = petSpecies();
   const unlockedN = petUnlockedCount();
+  const credits = petCredits();          // 手里没花的解锁券
   const line = petLine();
   const cur = petCurrentEmote();
-  const toNext = PET_STEP - (petState.learned % PET_STEP);   // 距下一个"背词解锁"还差几个
+  const toNext = PET_STEP - (petState.learned % PET_STEP);   // 距下一张"背词券"还差几个词
 
   const big = cur ? `<img src="${petShowSrc(cur)}" alt="${esc(petState.name)}" draggable="false">` : `<div class="petq">?</div>`;
 
@@ -297,20 +349,23 @@ function petCardHtml(){
   for (const e of sp.emotes){
     const on = petIsUnlocked(e);
     const chosen = petState.pick===e.id && on;
-    // 全部可点开放大预览；未解锁显示为黑色剪影
-    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):'未解锁'}"><img src="${petEmoteSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
+    const can = !on && credits>0;   // 有券可点亮 → 高亮提示
+    // 全部可点开放大预览；未点亮显示为黑色剪影，有券时黑影发光提示可点亮
+    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}${can?' can':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):(can?'用券点亮':'未点亮')}"><img src="${petEmoteSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
   }
   dex += '</div>';
 
   const slots = petSlots();
   const full = unlockedN >= slots;
   const sub = full ? `图鉴已集齐 ${slots}/${slots} 🎉`
-                   : `已收集 ${unlockedN}/${slots} · 再背 <b>${toNext}</b> 个词解锁一个`;
+    : (credits>0
+        ? `已点亮 ${unlockedN}/${slots} · <b>有 ${credits} 张解锁券</b>，点下面亮着圈的表情选你喜欢的点亮`
+        : `已点亮 ${unlockedN}/${slots} · 再背 <b>${toNext}</b> 个词攒一张解锁券`);
   const switcher = PET_SPECIES.length>1 ? `<span class="petsw" onclick="petOpenSpecies()">换伙伴 ⇄</span>` : '';
   const stillBtn = `<span class="petsw" onclick="petToggleStill()">${petState.still?'▶ 动图':'⏸ 静止'}</span>`;
   const claim = petCanClaim()
-    ? `<button class="b3d" style="margin-top:10px;padding:10px" onclick="petClaim()">🎁 今日签到 · 领取一个表情</button>`
-    : (!full ? `<div class="muted" style="font-size:11px;margin-top:8px;text-align:center">✔ 今日已领取，明天再来领一个</div>` : '');
+    ? `<button class="b3d" style="margin-top:10px;padding:10px" onclick="petClaim()">🎁 今日签到 · 领 1 张解锁券</button>`
+    : (!full ? `<div class="muted" style="font-size:11px;margin-top:8px;text-align:center">✔ 今日已领取，明天再来领一张券</div>` : '');
 
   return `<div class="petcard">
     <div class="pettop">
@@ -319,7 +374,7 @@ function petCardHtml(){
       <div class="petinfo">
         <div class="petname"><span onclick="petRename()">${esc(petState.name)} <span class="muted" style="font-size:11px">✎</span></span> ${switcher} ${stillBtn}</div>
         <div class="muted" style="font-size:12px;margin-top:2px">${sub}</div>
-        ${unlockedN?'<div class="muted" style="font-size:11px;margin-top:2px">点下面已解锁的表情，选一个挂到答题页</div>':''}
+        ${unlockedN?'<div class="muted" style="font-size:11px;margin-top:2px">点已点亮的表情可选一个挂到答题页</div>':''}
       </div>
     </div>
     ${dex}
@@ -344,14 +399,21 @@ function petPreview(id){
   const e = petSpecies().emotes.find(x=>x.id===id); if (!e) return;
   const on = petIsUnlocked(e);
   const chosen = petState.pick===id;
+  const credits = petCredits();
+  // 点开放大：无论解没解锁都看清真容（图鉴里才是黑影），看中了再用券点亮
   let h = `<div class="grab"></div>
-    <div class="petprev ${on?'':'lock'}"><img src="${petEmoteSrc(e)}" alt="${esc(e.name)}"></div>`;
+    <div class="petprev"><img src="${petEmoteSrc(e)}" alt="${esc(e.name)}"></div>
+    <div class="dw" style="font-size:16px;text-align:center;margin:2px 0">${esc(e.name)}</div>`;
   if (on){
     h += `<div class="petprev-line">${esc(petSayLine())}</div>
       <button class="b3d" onclick="petSetPick(${id})">${chosen?'✓ 正在展示 · 取消':'设为展示表情'}</button>
       <button class="b3d ghost" onclick="closeModal()">关 闭</button>`;
+  } else if (credits>0){
+    h += `<div class="petprev-line">喜欢它就点亮吧～你有 <b>${credits}</b> 张解锁券</div>
+      <button class="b3d" onclick="petUnlockPick(${id})">🎁 用 1 张券点亮它</button>
+      <button class="b3d ghost" onclick="closeModal()">再看看别的</button>`;
   } else {
-    h += `<div class="petprev-line muted">还没解锁哦～背 ${PET_STEP} 个词或每天签到，就能领到它。</div>
+    h += `<div class="petprev-line muted">还没有解锁券～背 ${PET_STEP} 个词或每天签到攒一张，就能点亮它。</div>
       <button class="b3d ghost" onclick="closeModal()">关 闭</button>`;
   }
   $('#sheet').innerHTML = h; $('#modal').classList.add('show');

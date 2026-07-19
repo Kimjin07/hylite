@@ -57,6 +57,13 @@ const sleep = ms=>new Promise(r=>setTimeout(r,ms));
   ck('云端更资深→沿用其名字', petState.name==='云宝');
   ck('云端更资深→沿用其当前物种', petState.species==='rat');
 
+  // 2b. 点亮集合(unl)跨设备取并集：本机点亮 rat[1]，云端点亮 rat[3] → 合并后都在
+  petState.species='rat'; petState.unl={ rat:[1] }; petState.dex.rat=Math.max(petState.dex.rat||0,1);
+  cloud = JSON.stringify({ learned: 500, wordGranted:500, dex:{ rat:5 }, unl:{ rat:[3] }, species:'rat', name:'云宝' });
+  await petCloudPull();
+  await sleep(10);
+  ck('unl 跨设备取并集(rat 含1和3)', petState.unl.rat.indexOf(1)>=0 && petState.unl.rat.indexOf(3)>=0);
+
   // 3. 本机分更高 → push 后云端被本机覆盖，名字不被云端拉回
   petState.learned = 9999; petState.name='本机宝'; petState.species='cat';
   await petCloudPush();

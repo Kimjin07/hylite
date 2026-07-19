@@ -18,26 +18,38 @@ geval(src);
 let pass=0, fail=0;
 const ck=(n,c)=>{ if(c){pass++;console.log('  ✔ '+n);}else{fail++;console.log('  ✘ '+n);} };
 ck('默认物种月薪喵(9表情)', petSpecies().id==='cat' && petSlots()===9);
-ck('初始已解锁 0', petUnlockedCount()===0);
+ck('初始点亮0、无券', petUnlockedCount()===0 && petCredits()===0);
 for(let i=0;i<20;i++) petFeed('learn');
-ck('背20词解锁1', petUnlockedCount()===1);
+ck('背20词=得1张券(不自动点亮)', petCredits()===1 && petUnlockedCount()===0);
+petUnlockPick(5);   // 自选第5个(非顺序)
+ck('用券点亮第5个(非顺序)', petIsUnlocked({id:5}) && petUnlockedCount()===1);
+ck('第1个仍未点亮(没被自动解锁)', petIsUnlocked({id:1})===false);
+ck('点亮后券花光', petCredits()===0);
+petUnlockPick(2);
+ck('没券时点亮无效', petUnlockedCount()===1 && petIsUnlocked({id:2})===false);
 ck('今日可领取', petCanClaim()===true);
 petClaim();
-ck('签到后解锁2', petUnlockedCount()===2);
+ck('签到再得1张券', petCredits()===1 && petUnlockedCount()===1);
 ck('领取后今日不可再领', petCanClaim()===false);
+petUnlockPick(2);
+ck('券点亮第2个', petIsUnlocked({id:2}) && petUnlockedCount()===2);
+petUnlockPick(2);
+ck('已点亮的不能重复点', petUnlockedCount()===2);
 for(let i=0;i<400;i++) petFeed('learn');
-ck('狂背封顶=物种总数9', petUnlockedCount()===9);
+ck('狂背券封顶=物种总数9', petState.dex.cat===9 && petCredits()===7);
+for(const e of petSpecies().emotes){ if(!petIsUnlocked(e)) petUnlockPick(e.id); }   // 剩余券全点亮
+ck('全部点亮=9', petUnlockedCount()===9 && petCredits()===0);
 ck('猫集满后不可领取', petCanClaim()===false);
-// 换到大鼠(5表情)：另一套独立收集
+// 换到大鼠(5表情)：另一套独立
 petChooseSpecies('rat');
 ck('切到大鼠', petSpecies().id==='rat' && petSlots()===5);
-ck('大鼠独立收集从0开始', petUnlockedCount()===0);
+ck('大鼠独立从0开始', petUnlockedCount()===0 && petCredits()===0);
 petState.lastClaim='';   // 允许再领(测试)
 ck('大鼠可领取', petCanClaim()===true);
 petChooseSpecies('linedog');
 ck('切到线条小狗(8表情)', petSlots()===8);
 petChooseSpecies('cat');
-ck('切回猫仍集满9', petUnlockedCount()===9);
+ck('切回猫仍全点亮9', petUnlockedCount()===9);
 // 选展示表情 + 预览
 petSetPick(3);
 ck('选中表情3', petState.pick===3);
@@ -57,6 +69,12 @@ ck('静止模式主图用 -s.gif', /p1-s\.gif$/.test(petShowSrc(petSpecies().emo
 ck('图鉴/预览恒用动图', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
 petToggleStill();
 ck('再切回动图', petState.still===false);
+// —— 旧版存档迁移：老用户按顺序解锁的前 N 个要原样保留 ——
+st.d[PET_KEY] = JSON.stringify({ name:'旧', learned:60, wordGranted:3, dex:{cat:3}, lastClaim:'', species:'cat', pick:0 });  // 无 v/unl = 旧版
+petLoad();
+ck('旧存档迁移: dex3→保留点亮前3个', petUnlockedCount()===3 && petIsUnlocked({id:1}) && petIsUnlocked({id:3}) && !petIsUnlocked({id:4}));
+ck('旧存档迁移后标记 v=2', petState.v===2);
+ck('迁移后无凭空多出的券', petCredits()===0);
 
 console.log('\n结果: '+pass+' 通过, '+fail+' 失败');
 process.exit(fail?1:0);
