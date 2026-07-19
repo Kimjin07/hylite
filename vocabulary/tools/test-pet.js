@@ -48,6 +48,15 @@ global.document = { getElementById:()=>({classList:{add(){},contains(){return fa
 petPreview(1); ck('点开预览不报错', true);
 petSetPick(3);
 ck('再点取消选中', petState.pick===0);
+// 静止/动图开关
+ck('默认动图', petState.still===false);
+ck('动图模式主图用 .gif', /p1\.gif$/.test(petShowSrc(petSpecies().emotes[0])));
+petToggleStill();
+ck('切到静止', petState.still===true);
+ck('静止模式主图用 -s.gif', /p1-s\.gif$/.test(petShowSrc(petSpecies().emotes[0])));
+ck('图鉴/预览恒用动图', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
+petToggleStill();
+ck('再切回动图', petState.still===false);
 
 console.log('\n结果: '+pass+' 通过, '+fail+' 失败');
 process.exit(fail?1:0);

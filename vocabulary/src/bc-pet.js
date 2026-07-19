@@ -50,6 +50,7 @@ function petLoad(){
   if (!petState.name) petState.name = '旺仔';
   if (!petState.species || !PET_SPECIES.some(s=>s.id===petState.species)) petState.species = PET_SPECIES[0].id;
   if (typeof petState.pick !== 'number') petState.pick = 0;
+  if (typeof petState.still !== 'boolean') petState.still = false;   // 静止/动图偏好
   return petState;
 }
 var petPushT = null, petPulled = false;
@@ -71,10 +72,11 @@ function petMergeInto(cloud){
   for (const k in cd) dex[k] = Math.max(dex[k]||0, cd[k]||0);
   petState.dex = dex;
   if ((cloud.lastClaim||'') > (petState.lastClaim||'')) petState.lastClaim = cloud.lastClaim;
-  if (cloudScore > localScore){   // 云端更"资深"，沿用它的身份设置
+  if (cloudScore > localScore){   // 云端更"资深"，沿用它的身份/展示设置
     if (cloud.name) petState.name = cloud.name;
     if (cloud.species) petState.species = cloud.species;
     if (typeof cloud.pick==='number') petState.pick = cloud.pick;
+    if (typeof cloud.still==='boolean') petState.still = cloud.still;
   }
 }
 async function petCloudPull(){
@@ -109,7 +111,10 @@ function petSchedulePush(){
 /* ---------- 解锁进度（按已解锁"数量"推进：背词 + 每日领取都 +1；每套独立） ---------- */
 function petUnlockedCount(){ if (petPreviewAll()) return petSlots(); return Math.min(petSlots(), petState.dex[petState.species] || 0); }
 function petIsUnlocked(e){ return e.id <= petUnlockedCount(); }
-function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file; }
+function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file; }        // 动图（图鉴/预览恒用）
+function petStillSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file.replace(/\.gif$/, '-s.gif'); }  // 静止首帧
+// 主图/答题挂件按学生偏好：静止模式给首帧，否则给动图
+function petShowSrc(e){ return (petState && petState.still) ? petStillSrc(e) : petEmoteSrc(e); }
 // 给当前物种解锁下一个表情；reason 用于台词/提示
 function petGrantOne(reason){
   const sp = petState.species, cur = petState.dex[sp] || 0;
@@ -286,7 +291,7 @@ function petCardHtml(){
   const cur = petCurrentEmote();
   const toNext = PET_STEP - (petState.learned % PET_STEP);   // 距下一个"背词解锁"还差几个
 
-  const big = cur ? `<img src="${petEmoteSrc(cur)}" alt="${esc(petState.name)}" draggable="false">` : `<div class="petq">?</div>`;
+  const big = cur ? `<img src="${petShowSrc(cur)}" alt="${esc(petState.name)}" draggable="false">` : `<div class="petq">?</div>`;
 
   let dex = '<div class="petdex">';
   for (const e of sp.emotes){
@@ -302,6 +307,7 @@ function petCardHtml(){
   const sub = full ? `图鉴已集齐 ${slots}/${slots} 🎉`
                    : `已收集 ${unlockedN}/${slots} · 再背 <b>${toNext}</b> 个词解锁一个`;
   const switcher = PET_SPECIES.length>1 ? `<span class="petsw" onclick="petOpenSpecies()">换伙伴 ⇄</span>` : '';
+  const stillBtn = `<span class="petsw" onclick="petToggleStill()">${petState.still?'▶ 动图':'⏸ 静止'}</span>`;
   const claim = petCanClaim()
     ? `<button class="b3d" style="margin-top:10px;padding:10px" onclick="petClaim()">🎁 今日签到 · 领取一个表情</button>`
     : (!full ? `<div class="muted" style="font-size:11px;margin-top:8px;text-align:center">✔ 今日已领取，明天再来领一个</div>` : '');
@@ -311,7 +317,7 @@ function petCardHtml(){
       <div class="petbubble">${esc(line)}</div>
       <button class="petbig" onclick="petPat()" aria-label="摸摸${esc(petState.name)}">${big}</button>
       <div class="petinfo">
-        <div class="petname" onclick="petRename()">${esc(petState.name)} <span class="muted" style="font-size:11px">✎</span> ${switcher}</div>
+        <div class="petname"><span onclick="petRename()">${esc(petState.name)} <span class="muted" style="font-size:11px">✎</span></span> ${switcher} ${stillBtn}</div>
         <div class="muted" style="font-size:12px;margin-top:2px">${sub}</div>
         ${unlockedN?'<div class="muted" style="font-size:11px;margin-top:2px">点下面已解锁的表情，选一个挂到答题页</div>':''}
       </div>
@@ -328,7 +334,7 @@ function petCornerHtml(){
     if (!petState.pick) return '';
     const e = petSpecies().emotes.find(x=>x.id===petState.pick);
     if (!e || !petIsUnlocked(e)) return '';
-    return `<img class="petcorner" src="${petEmoteSrc(e)}" alt="" draggable="false">`;
+    return `<img class="petcorner" src="${petShowSrc(e)}" alt="" draggable="false">`;
   } catch(e){ return ''; }
 }
 // 点开放大预览：已解锁可"设为展示"，未解锁显示黑剪影+解锁提示
@@ -355,6 +361,13 @@ function petSetPick(id){
   petState.pick = (petState.pick===id ? 0 : id);   // 再点一次取消
   petSave();
   closeModal();
+  if (typeof render==='function' && !screen) render();
+}
+function petToggleStill(){
+  if (!petState) petLoad();
+  petState.still = !petState.still;
+  petSave();
+  try { toast(petState.still ? '已切静止（表情不再动）' : '已切动图'); } catch(e){}
   if (typeof render==='function' && !screen) render();
 }
 function petOpenSpecies(){
