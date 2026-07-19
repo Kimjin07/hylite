@@ -146,6 +146,7 @@ function beginSession(kind, steps, dest){
   steps=steps.filter(s=>s.k in WIDX);
   if (!steps.length){ toast('没有可练的词'); return; }
   SES={kind, steps, pos:0, ok:0, ng:0, newN:0, combo:0, maxCombo:0, rq:{}, xp0:S.xp, dest:(dest!=null?dest:null)};
+  if (typeof petRndId !== 'undefined') petRndId = 0;   // 每场会话重掷一次随机露脸表情
   screen={type:'session'}; render(); window.scrollTo(0,0);
 }
 function starCur(){

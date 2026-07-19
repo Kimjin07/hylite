@@ -69,12 +69,31 @@ ck('静止模式主图用 -s.gif', /p1-s\.gif$/.test(petShowSrc(petSpecies().emo
 ck('图鉴/预览恒用动图', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
 petToggleStill();
 ck('再切回动图', petState.still===false);
+// 做题露脸开关 + 未指定时随机取一个已点亮的
+ck('默认做题露脸开', petState.quiz===true);
+petState.pick=0;
+ck('未选时做题随机取一个已点亮的', petCornerHtml().indexOf('petcorner')>=0);
+petToggleQuiz();
+ck('关掉后做题不露脸(角落空)', petState.quiz===false && petCornerHtml()==='');
+petToggleQuiz();
+ck('再开做题露脸', petState.quiz===true && petCornerHtml().indexOf('petcorner')>=0);
 // —— 旧版存档迁移：老用户按顺序解锁的前 N 个要原样保留 ——
 st.d[PET_KEY] = JSON.stringify({ name:'旧', learned:60, wordGranted:3, dex:{cat:3}, lastClaim:'', species:'cat', pick:0 });  // 无 v/unl = 旧版
 petLoad();
 ck('旧存档迁移: dex3→保留点亮前3个', petUnlockedCount()===3 && petIsUnlocked({id:1}) && petIsUnlocked({id:3}) && !petIsUnlocked({id:4}));
 ck('旧存档迁移后标记 v=2', petState.v===2);
 ck('迁移后无凭空多出的券', petCredits()===0);
+// —— 每日签到提醒弹窗：没领弹一次、领了不弹 ——
+petDayPrompted=false; petState.lastClaim='';
+petMaybeDailyPrompt();
+ck('没领当日→弹签到提醒', petDayPrompted===true);
+petDayPrompted=false; petState.lastClaim=today();   // 已领
+petMaybeDailyPrompt();
+ck('已领当日→不弹', petDayPrompted===false);
+petState.lastClaim='';
+const dexBefore=petState.dex.cat;
+petClaimFromPrompt();
+ck('弹窗领取=赚1张券+记当日', petState.dex.cat===dexBefore+1 && petState.lastClaim===today());
 
 console.log('\n结果: '+pass+' 通过, '+fail+' 失败');
 process.exit(fail?1:0);

@@ -151,6 +151,8 @@ function rHome(){
     <div class="muted" style="margin-top:8px">掌握 ${c.master} · 学习中 ${c.learn} · 已斩 ${c.zhan} · 未学 ${c.fresh}</div>
   </div>`;
   $('#app').innerHTML=h+footer();
+  // 还没领当天签到礼 → 弹一次提醒（本会话仅一次；领了就不再弹）
+  if (typeof petMaybeDailyPrompt==='function') setTimeout(petMaybeDailyPrompt, 500);
 }
 function setPlanMode(m){
   if (S.plan.mode===m) return;

@@ -52,6 +52,7 @@ function petLoad(){
   if (!petState.species || !PET_SPECIES.some(s=>s.id===petState.species)) petState.species = PET_SPECIES[0].id;
   if (typeof petState.pick !== 'number') petState.pick = 0;
   if (typeof petState.still !== 'boolean') petState.still = false;   // 静止/动图偏好
+  if (typeof petState.quiz !== 'boolean') petState.quiz = true;      // 做题中是否露脸（默认开）
   // —— 解锁券模型（dex[种]=已赚券数；unl[种]=学生已点亮的表情id）——
   if (!petState.unl || typeof petState.unl !== 'object') petState.unl = {};
   if (petState.v !== 2){
@@ -73,6 +74,7 @@ function petLoad(){
   return petState;
 }
 var petPushT = null, petPulled = false;
+var petRndId = 0;   // 未指定展示表情时，做题界面随机取一个已点亮的（每场会话稳定，不逐题闪动）
 function petSave(){
   try { store() && store().setItem(PET_KEY, JSON.stringify(petState)); } catch(e){}
   petSchedulePush();
@@ -104,6 +106,7 @@ function petMergeInto(cloud){
     if (cloud.species) petState.species = cloud.species;
     if (typeof cloud.pick==='number') petState.pick = cloud.pick;
     if (typeof cloud.still==='boolean') petState.still = cloud.still;
+    if (typeof cloud.quiz==='boolean') petState.quiz = cloud.quiz;
   }
 }
 async function petCloudPull(){
@@ -182,6 +185,36 @@ function petClaim(){
   petGrantOne('daily');
   petSave();
   if (typeof render==='function' && !screen) render();
+}
+
+/* ---------- 每日签到提醒弹窗（还没领当天的就提醒，领了当天不再弹） ---------- */
+var petDayPrompted = false;   // 本次会话是否已弹过（避免同一次使用反复弹）
+function petMaybeDailyPrompt(){
+  try {
+    if (petDayPrompted) return;
+    if (!petVisible()) return;
+    if (!petState) petLoad();
+    if (!petCanClaim()) return;        // 已领 / 这套券已满 → 不弹
+    petDayPrompted = true;
+    petShowDailyPrompt();
+  } catch(e){}
+}
+function petShowDailyPrompt(){
+  try {
+    modalK = null;
+    const h = `<div class="grab"></div>
+      <div class="dw" style="font-size:22px;margin-bottom:6px">🎁 今日签到礼</div>
+      <div class="muted" style="margin-bottom:14px;line-height:1.75">今天还没领<b>解锁券</b>哦～领了就能自己挑一个喜欢的表情点亮。<br>你的学习伙伴在<b>主页往下滑「学习伙伴」</b>里，随时能来收集。</div>
+      <button class="b3d" onclick="petClaimFromPrompt()">🎁 立即领取</button>
+      <button class="b3d ghost" onclick="closeModal()">待会儿再说</button>`;
+    $('#sheet').innerHTML = h; $('#modal').classList.add('show');
+  } catch(e){}
+}
+function petClaimFromPrompt(){
+  try { closeModal(); } catch(e){}
+  petClaim();
+  // 领完带他到宠物卡片，顺便"告知位置"
+  try { setTimeout(()=>{ const el=document.querySelector('.petcard'); if (el && el.scrollIntoView) el.scrollIntoView({behavior:'smooth', block:'center'}); }, 80); } catch(e){}
 }
 
 /* ---------- 心情 + 当前该露脸的表情 ---------- */
@@ -363,6 +396,7 @@ function petCardHtml(){
         : `已点亮 ${unlockedN}/${slots} · 再背 <b>${toNext}</b> 个词攒一张解锁券`);
   const switcher = PET_SPECIES.length>1 ? `<span class="petsw" onclick="petOpenSpecies()">换伙伴 ⇄</span>` : '';
   const stillBtn = `<span class="petsw" onclick="petToggleStill()">${petState.still?'▶ 动图':'⏸ 静止'}</span>`;
+  const quizBtn = `<span class="petsw" onclick="petToggleQuiz()">${petState.quiz===false?'🙈 做题隐藏':'👀 做题露脸'}</span>`;
   const claim = petCanClaim()
     ? `<button class="b3d" style="margin-top:10px;padding:10px" onclick="petClaim()">🎁 今日签到 · 领 1 张解锁券</button>`
     : (!full ? `<div class="muted" style="font-size:11px;margin-top:8px;text-align:center">✔ 今日已领取，明天再来领一张券</div>` : '');
@@ -372,7 +406,7 @@ function petCardHtml(){
       <div class="petbubble">${esc(line)}</div>
       <button class="petbig" onclick="petPat()" aria-label="摸摸${esc(petState.name)}">${big}</button>
       <div class="petinfo">
-        <div class="petname"><span onclick="petRename()">${esc(petState.name)} <span class="muted" style="font-size:11px">✎</span></span> ${switcher} ${stillBtn}</div>
+        <div class="petname"><span onclick="petRename()">${esc(petState.name)} <span class="muted" style="font-size:11px">✎</span></span> ${switcher} ${stillBtn} ${quizBtn}</div>
         <div class="muted" style="font-size:12px;margin-top:2px">${sub}</div>
         ${unlockedN?'<div class="muted" style="font-size:11px;margin-top:2px">点已点亮的表情可选一个挂到答题页</div>':''}
       </div>
@@ -381,14 +415,24 @@ function petCardHtml(){
     ${claim}
   </div>`;
 }
-// 答题右下角的小挂件（学生选中的表情；未选或未解锁则不显示）
+// 随机取一个已点亮的表情（每场会话稳定：petRndId 缓存，失效才重取）
+function petCornerRandom(){
+  const un = petSpecies().emotes.filter(petIsUnlocked);
+  if (!un.length) return null;
+  let e = un.find(x=>x.id===petRndId);
+  if (!e){ e = un[Math.floor(Math.random()*un.length)]; petRndId = e.id; }
+  return e;
+}
+// 答题右下角的小挂件：学生关了"做题露脸"则不显示；有指定展示表情用它，否则随机一个已点亮的
 function petCornerHtml(){
   try {
     if (!petVisible()) return '';
     if (!petState) petLoad();
-    if (!petState.pick) return '';
-    const e = petSpecies().emotes.find(x=>x.id===petState.pick);
-    if (!e || !petIsUnlocked(e)) return '';
+    if (petState.quiz === false) return '';
+    let e = null;
+    if (petState.pick){ e = petSpecies().emotes.find(x=>x.id===petState.pick); if (e && !petIsUnlocked(e)) e = null; }
+    if (!e) e = petCornerRandom();
+    if (!e) return '';
     return `<img class="petcorner" src="${petShowSrc(e)}" alt="" draggable="false">`;
   } catch(e){ return ''; }
 }
@@ -430,6 +474,13 @@ function petToggleStill(){
   petState.still = !petState.still;
   petSave();
   try { toast(petState.still ? '已切静止（表情不再动）' : '已切动图'); } catch(e){}
+  if (typeof render==='function' && !screen) render();
+}
+function petToggleQuiz(){
+  if (!petState) petLoad();
+  petState.quiz = !petState.quiz;
+  petSave();
+  try { toast(petState.quiz ? '做题时会露脸啦' : '做题时先不露脸'); } catch(e){}
   if (typeof render==='function' && !screen) render();
 }
 function petOpenSpecies(){
