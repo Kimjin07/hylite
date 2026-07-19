@@ -12,7 +12,8 @@ var petPending = null;
 
 // 每个表情槽的默认属性（解锁门槛 / 情绪 / 名字）。各物种默认复用这套映射，特殊的可在物种里覆盖。
 // 功能总开关：false = 只有预览(?pet=1/?petall=1)能看到，普通学生看不到；确认上线后改 true 对所有登录用户开放
-var PET_LIVE = false;
+// 2026-07-19 用户确认正式开放：所有登录学生可见表情图鉴/答题挂件/收集解锁
+var PET_LIVE = true;
 var PET_STEP = 20;   // 每背 20 词解锁一个
 // 用 [情绪, 名字] 列表定义每套表情（顺序 = p1,p2,...）。情绪决定什么场景自动露脸：
 //   idle待机 / start开学 / happy高兴 / angry催学 / cry委屈 / tired摸鱼 / play互动 / confused懵 / neutral日常
