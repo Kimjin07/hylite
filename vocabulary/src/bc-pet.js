@@ -12,12 +12,18 @@ var petPending = null;   // 下次主页渲染要说的"事件台词"桶（学�
 function petLoad(){
   try { petState = JSON.parse(store() && store().getItem(PET_KEY)); } catch(e){ petState = null; }
   if (!petState || typeof petState !== 'object'){
-    petState = { name:'斩宝', exp:0, born: today(), lastSeen: today(), stage:0 };
+    // 首次出现：若本机（同步过来的）已有掌握词，按掌握量补偿初始经验，
+    // 老用户换设备不会看到一颗蛋（掉在飞鸟前一档，留点成长空间）
+    let seed = 0;
+    try { if (typeof counts==='function'){ const c=counts(); seed = Math.min(380, (c.master||0)*4 + (c.learn||0)); } } catch(e){}
+    petState = { name:'斩宝', exp:seed, born: today(), lastSeen: today(), stage:0 };
+    try { if (store()) petSaveRaw(); } catch(e){}
   }
   if (typeof petState.exp !== 'number') petState.exp = 0;
   if (!petState.name) petState.name = '斩宝';
   return petState;
 }
+function petSaveRaw(){ try { store() && store().setItem(PET_KEY, JSON.stringify(petState)); } catch(e){} }
 function petSave(){ try { store() && store().setItem(PET_KEY, JSON.stringify(petState)); } catch(e){} }
 
 /* ---------- 进化阶段（按累计经验） ---------- */
@@ -49,11 +55,13 @@ function petMood(){
   return 'chill';
 }
 
-/* ---------- 喂养（学习事件触发） ---------- */
+/* ---------- 喂养（学习事件触发） ----------
+ * 返回本次实际加的经验（供速刷"撤销"回滚，避免答→撤销反复刷经验）。
+ * 注：master 语义为"每次达到掌握就给一次成就感"，一个词若掉级后再掌握会再喂一次，属有意设计。 */
 function petFeed(kind){
   if (!petState) petLoad();
-  const add = { learn:3, master:5, checkin:30, combo:1 }[kind] || 0;
-  if (!add) return;
+  const add = { learn:3, master:5, checkin:30, combo:2 }[kind] || 0;
+  if (!add) return 0;
   const before = petStageOf(petState.exp);
   petState.exp += add;
   petState.lastSeen = today();
@@ -65,6 +73,13 @@ function petFeed(kind){
   } else if (kind==='checkin' && !petPending){
     petPending = 'checkin';
   }
+  petSave();
+  return add;
+}
+// 回滚一次喂养（速刷撤销用）
+function petUnfeed(amount){
+  if (!petState || !amount) return;
+  petState.exp = Math.max(0, petState.exp - amount);
   petSave();
 }
 // 学习会话结束时按表现补一句评语
@@ -175,9 +190,9 @@ function petSVG(stage, mood){
 function petCardHtml(){
   if (!petState) petLoad();
   const st = petStage();
-  const line = petLine();
+  const mood = petMood();          // 必须在 petLine() 之前取——petLine 会清空 petPending，
+  const line = petLine();          // 否则进化时的"星星眼"表情读不到 pending 就丢了
   const pct = Math.round(petProgress()*100);
-  const mood = petMood();
   return `<div class="petcard">
     <div class="petbubble">${esc(line)}</div>
     <div class="petstage-wrap">

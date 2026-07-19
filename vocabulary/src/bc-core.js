@@ -419,7 +419,7 @@ function applyAnswer(k, ok){
   const st=ws(k); const wasNew = st.s===0;
   const wasMaster=(st.b||0)>=MASTER;
   try {
-    if (typeof petFeed==='function'){
+    if (typeof petFeed==='function' && !window._noPet){     // 速刷路径不喂宠物(可撤销，避免刷经验)
       if (wasNew) petFeed('learn');                         // 学新词=喂宠物
       if (ok && !wasMaster && (st.b||0)+1>=MASTER) petFeed('master');   // 刚掌握
     }

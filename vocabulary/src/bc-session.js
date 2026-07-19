@@ -210,6 +210,7 @@ function gradeStep(st, W, ok){
       if (SES.combo>(S.best.combo||0)) S.best.combo=SES.combo;
       const L=S.log[today()]; if (L) L.cb=Math.max(L.cb||0, SES.combo);   // 当日最高连击
       addXp(2 + (SES.combo>0 && SES.combo%10===0 ? 5 : 0));
+      if (SES.combo>0 && SES.combo%10===0){ try { if (typeof petFeed==='function') petFeed('combo'); } catch(e){} }  // 每 10 连击也喂宠物
     } else { SES.ng++; SES.combo=0; addXp(1); }
     save();
   }
@@ -430,7 +431,7 @@ function flAnswer(ok){
   const wasMaster = !!prev && (prev.b||0)>=MASTER;
   const h={k:W.k, prev, ok, wasNew, pos:q.pos, d:today()};
   q.hist.push(h);
-  applyAnswer(W.k, ok);
+  window._noPet=1; applyAnswer(W.k, ok); window._noPet=0;   // 速刷可撤销，不喂宠物防刷经验
   h.md = ((S.w[W.k].b>=MASTER)?1:0) - (wasMaster?1:0);   // 熟练量净变化，撤销时反向冲销
   if (ok){ q.ok++; addXp(2); } else { q.ng++; addXp(1); }
   save(); sfx(ok?'ok':'ng');
