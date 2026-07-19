@@ -317,6 +317,7 @@ function rSession(){
     ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
     : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;
   h+=`<div class="khint">${kh}</div>`;
+  if (typeof petCornerHtml==='function'){ try { h+=petCornerHtml(); } catch(e){} }   // 右下角小表情挂件
   $('#app').innerHTML=h;
   const inp=$('#spin'); if (inp) inp.focus();
   if (!answered){
