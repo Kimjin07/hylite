@@ -102,7 +102,8 @@ async function petCloudPush(){
 function petSchedulePush(){
   if (!petCloudOn()) return;
   clearTimeout(petPushT);
-  petPushT = setTimeout(()=>{ petCloudPush(); }, 4000);
+  // 8s 防抖：连续背词时定时器不断重置，只在停顿后推一次，既省请求又避开 60/600s 限流
+  petPushT = setTimeout(()=>{ petCloudPush(); }, 8000);
 }
 
 /* ---------- 解锁进度（按已解锁"数量"推进：背词 + 每日领取都 +1；每套独立） ---------- */

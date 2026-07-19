@@ -2237,6 +2237,7 @@ async function syncAfterLogin(r){
 function syncLogoutAsk(){
   ask('退出云同步登录？\n本机进度不受影响，只是不再自动同步。', async ()=>{
     // 退出前把最后的改动传完，否则最近几十秒的学习就永远留在本机了
+    try { if (typeof petPushT!=='undefined') clearTimeout(petPushT); if (typeof petCloudPush==='function') await petCloudPush(); } catch(e){}   // 宠物最后一次改动也趁还登录着刷上云
     const hasDirty = Object.keys(syncMeta).some(id => syncMeta[id] && syncMeta[id].dirty);
     if (hasDirty){
       try { toast('正在保存最后的进度…'); } catch(e){}
@@ -2540,7 +2541,8 @@ async function petCloudPush(){
 function petSchedulePush(){
   if (!petCloudOn()) return;
   clearTimeout(petPushT);
-  petPushT = setTimeout(()=>{ petCloudPush(); }, 4000);
+  // 8s 防抖：连续背词时定时器不断重置，只在停顿后推一次，既省请求又避开 60/600s 限流
+  petPushT = setTimeout(()=>{ petCloudPush(); }, 8000);
 }
 
 /* ---------- 解锁进度（按已解锁"数量"推进：背词 + 每日领取都 +1；每套独立） ---------- */
