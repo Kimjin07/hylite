@@ -355,6 +355,7 @@ function rSessionEnd(){
   clearTimeout(advT);
   const q=SES;
   const acc = (q.ok+q.ng) ? Math.round(q.ok/(q.ok+q.ng)*100) : 100;
+  try { if (typeof petAfterSession==='function' && !q._petDone){ q._petDone=1; petAfterSession(acc, q.newN); } } catch(e){}
   const gained = S.xp-q.xp0;
   let h=`<div class="endwrap">
     <div style="font-size:52px;line-height:1">${acc>=90?'🏆':acc>=70?'💪':'📖'}</div>

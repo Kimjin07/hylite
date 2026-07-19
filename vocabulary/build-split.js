@@ -35,7 +35,7 @@ const html = shell
   .replace('{{CSS}}', SRC('bc.css'))
   .replace('{{BODY}}', SRC('bc-body.html'))
   .replace('{{DATA}}', 'const BOOK_STATS = ' + JSON.stringify(stats) + ';')
-  .replace('{{JS}}', SRC('bc-core.js') + '\n' + SRC('bc-session.js') + '\n' + SRC('bc-sync.js') + '\n' + SRC('bc-views.js'));
+  .replace('{{JS}}', SRC('bc-core.js') + '\n' + SRC('bc-session.js') + '\n' + SRC('bc-sync.js') + '\n' + SRC('bc-pet.js') + '\n' + SRC('bc-views.js'));
 fs.writeFileSync(path.join(OUT, 'index.html'), html, 'utf8');
 
 const kb = n => Math.round(n / 1024) + ' KB';

@@ -12,6 +12,7 @@ $data  = ([IO.File]::ReadAllText("$root\src\units-data.js", $u8) + "`n" +
 $js    = ([IO.File]::ReadAllText("$root\src\bc-core.js", $u8) + "`n" +
           [IO.File]::ReadAllText("$root\src\bc-session.js", $u8) + "`n" +
           [IO.File]::ReadAllText("$root\src\bc-sync.js", $u8) + "`n" +
+          [IO.File]::ReadAllText("$root\src\bc-pet.js", $u8) + "`n" +
           [IO.File]::ReadAllText("$root\src\bc-views.js", $u8))
 $html = $shell.Replace('{{CSS}}', $css).Replace('{{BODY}}', $body).Replace('{{DATA}}', $data).Replace('{{JS}}', $js)
 [IO.File]::WriteAllText("$root\index.html", $html, $enc)

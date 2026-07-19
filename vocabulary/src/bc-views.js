@@ -96,6 +96,7 @@ function rHome(){
     <span class="bk-tt"><s>当前词书</s><b>${esc(bk.name)}</b></span>
     <span class="bk-sw">切换词书 <svg viewBox="0 0 24 24"><path d="M8 9l4-4 4 4M8 15l4 4 4-4"/></svg></span>
   </button>`;
+  if (typeof petCardHtml==='function'){ try { h+=petCardHtml(); } catch(e){} }
   h+=`<div class="card"><div class="plan">
     <div class="ring"><svg width="88" height="88" viewBox="0 0 88 88">
       <circle cx="44" cy="44" r="38" fill="none" stroke="var(--card2)" stroke-width="9"/>

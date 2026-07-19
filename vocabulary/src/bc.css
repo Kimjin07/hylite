@@ -438,3 +438,22 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
   color:var(--ngR);font-weight:900;font-size:15px}
 .slot.hit{border-color:var(--okG) !important;color:var(--okG) !important}
 .slot.miss{border-color:var(--ngR) !important;color:var(--ngR) !important}
+
+/* ================= 学习宠物「斩宝」 ================= */
+.petcard{position:relative;background:linear-gradient(160deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:20px;padding:14px 16px;margin-bottom:12px;display:flex;align-items:center;gap:14px;overflow:visible}
+.petstage-wrap{flex-shrink:0;width:88px;height:88px;display:flex;align-items:flex-end;justify-content:center}
+.petbody{background:none;border:none;padding:0;cursor:pointer;width:88px;height:88px;-webkit-tap-highlight-color:transparent}
+.petbody svg{width:88px;height:88px;display:block;filter:drop-shadow(0 4px 6px rgba(0,0,0,.12))}
+.petbob{animation:petbob 2.6s ease-in-out infinite}
+@keyframes petbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.peteye{animation:petblink 4.2s infinite}
+@keyframes petblink{0%,94%,100%{opacity:1}96%,98%{opacity:.15}}
+.petwiggle{animation:petwiggle .45s ease}
+@keyframes petwiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg)}75%{transform:rotate(9deg)}}
+.petmeta{flex:1;min-width:0}
+.petname{font-weight:900;font-size:16px;cursor:pointer;display:inline-block}
+.petbar{height:6px;background:var(--line);border-radius:6px;margin-top:7px;overflow:hidden}
+.petbar i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),var(--mint));border-radius:6px;transition:width .5s ease}
+.petbubble{position:absolute;left:14px;top:-14px;max-width:64%;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:7px 12px;font-size:13px;font-weight:600;line-height:1.4;box-shadow:var(--shadow);z-index:2}
+.petbubble::after{content:"";position:absolute;left:26px;bottom:-7px;width:12px;height:12px;background:var(--card);border-right:1.5px solid var(--line);border-bottom:1.5px solid var(--line);transform:rotate(45deg)}
+@media (max-width:380px){.petbubble{max-width:58%;font-size:12px}}

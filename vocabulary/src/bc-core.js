@@ -402,6 +402,7 @@ function tryCheckin(){
   if (planDone && active){
     S.ck[t]=1; addXp(20); save();
     toast('🎉 打卡成功 · 连续 '+streak()+' 天'); sfx('ck'); confetti();
+    try { if (typeof petFeed==='function') petFeed('checkin'); } catch(e){}
     checkAch(); return true;
   }
   return false;
@@ -417,6 +418,12 @@ function streak(){
 function applyAnswer(k, ok){
   const st=ws(k); const wasNew = st.s===0;
   const wasMaster=(st.b||0)>=MASTER;
+  try {
+    if (typeof petFeed==='function'){
+      if (wasNew) petFeed('learn');                         // 学新词=喂宠物
+      if (ok && !wasMaster && (st.b||0)+1>=MASTER) petFeed('master');   // 刚掌握
+    }
+  } catch(e){}
   st.s++;
   bump('q',1);
   if (wasNew) bump('n',1);
