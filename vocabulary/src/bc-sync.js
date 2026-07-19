@@ -439,6 +439,7 @@ async function syncDoRegister(){
       <button class="b3d ghost" onclick="closeModal();go(4)">我已保存，完成</button>`;
     $('#modal').classList.add('show');
     await syncPullCheck();     // 全新账号云端为空 → 此调用会把本机已有进度全部补传
+    try { if (typeof petCloudPull==='function') petCloudPull(); } catch(e){}   // 本机宠物也补传到新账号
   } finally { syncUiBusy = false; }
 }
 async function syncDoLogin(){
@@ -468,6 +469,7 @@ async function syncAfterLogin(r){
   closeModal();
   toast('✔ 已登录，正在同步…');
   const okPull = await syncPullCheck();   // 首次接触：内部走"进度多者胜"合并，云端缺的书自动补传
+  try { if (typeof petCloudPull==='function') petCloudPull(); } catch(e){}   // 宠物图鉴也跟随账号
   toast(okPull ? '✔ 同步完成' : '⚠ 已登录，但同步未完成，稍后会自动重试');
   go(4);
 }
@@ -633,6 +635,7 @@ function syncRefreshCard(){
 function syncBoot(){
   syncLoadLocal();
   if (syncAuth){
+    try { if (typeof petCloudPull==='function') setTimeout(()=>petCloudPull(), 1200); } catch(e){}   // 启动拉宠物
     // 等词书数据就绪后做一次全量核对（含上次没传完的脏数据补传）
     const tryStart = (n)=>{
       if (typeof TOTAL !== 'undefined' && TOTAL > 0){ syncPullCheck(); return; }

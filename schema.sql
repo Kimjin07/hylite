@@ -9,7 +9,9 @@ CREATE TABLE IF NOT EXISTS users (
   pass_salt TEXT,                          -- 16字节盐 十六进制
   nickname TEXT NOT NULL,                  -- 学生姓名（管理后台识别用）
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
-  last_seen TEXT
+  last_seen TEXT,
+  pet_data TEXT,                           -- 学习伙伴/表情图鉴 JSON（全局一份，不分词书）
+  pet_at TEXT                              -- 宠物数据落库时间
 );
 
 CREATE TABLE IF NOT EXISTS sessions (

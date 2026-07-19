@@ -51,7 +51,58 @@ function petLoad(){
   if (typeof petState.pick !== 'number') petState.pick = 0;
   return petState;
 }
-function petSave(){ try { store() && store().setItem(PET_KEY, JSON.stringify(petState)); } catch(e){} }
+var petPushT = null, petPulled = false;
+function petSave(){
+  try { store() && store().setItem(PET_KEY, JSON.stringify(petState)); } catch(e){}
+  petSchedulePush();
+}
+
+/* ---------- 云同步（跟随账号；宠物全局一份，冲突取收集更多的一方） ---------- */
+function petCloudOn(){ try { return typeof syncUser==='function' && !!syncUser() && typeof syncApi==='function'; } catch(e){ return false; } }
+function petScore(p){ let s=Math.max(0,Number(p&&p.learned)||0); if(p&&p.dex) for(const k in p.dex) s+=Math.max(0,Number(p.dex[k])||0)*5; return s; }
+function petMergeInto(cloud){
+  // 把云端合进本地：learned 取大、每套 dex 取大、签到日期取晚、名字/当前物种/展示以"分高的一方"为准
+  if (!cloud || typeof cloud!=='object') return;
+  const localScore = petScore(petState), cloudScore = petScore(cloud);
+  petState.learned = Math.max(petState.learned||0, cloud.learned||0);
+  petState.wordGranted = Math.max(petState.wordGranted||0, cloud.wordGranted||0);
+  const dex = petState.dex||{}; const cd = cloud.dex||{};
+  for (const k in cd) dex[k] = Math.max(dex[k]||0, cd[k]||0);
+  petState.dex = dex;
+  if ((cloud.lastClaim||'') > (petState.lastClaim||'')) petState.lastClaim = cloud.lastClaim;
+  if (cloudScore > localScore){   // 云端更"资深"，沿用它的身份设置
+    if (cloud.name) petState.name = cloud.name;
+    if (cloud.species) petState.species = cloud.species;
+    if (typeof cloud.pick==='number') petState.pick = cloud.pick;
+  }
+}
+async function petCloudPull(){
+  if (!petCloudOn()) return;
+  if (!petState) petLoad();
+  try {
+    const r = await syncApi('pet');
+    if (r && r.ok && r.exists && r.data){
+      let cloud; try { cloud = JSON.parse(r.data); } catch(e){ cloud=null; }
+      if (cloud){ petMergeInto(cloud); try{ store()&&store().setItem(PET_KEY, JSON.stringify(petState)); }catch(e){}
+        if (typeof render==='function' && !screen && petVisible()) render(); }
+    }
+    petPulled = true;
+    petCloudPush();   // 合并后把结果推回，保证云端也是合并态
+  } catch(e){}
+}
+async function petCloudPush(){
+  if (!petCloudOn() || !petState) return;
+  try {
+    const r = await syncApi('pet', { method:'POST', body:{ data: JSON.stringify(petState) } });
+    // 服务端可能返回"分更高的云端版本"，据此对齐本地，避免来回覆盖
+    if (r && r.ok && r.data){ try { const back=JSON.parse(r.data); if (petScore(back)>petScore(petState)){ petMergeInto(back); store()&&store().setItem(PET_KEY, JSON.stringify(petState)); if(typeof render==='function'&&!screen&&petVisible()) render(); } } catch(e){} }
+  } catch(e){}
+}
+function petSchedulePush(){
+  if (!petCloudOn()) return;
+  clearTimeout(petPushT);
+  petPushT = setTimeout(()=>{ petCloudPush(); }, 4000);
+}
 
 /* ---------- 解锁进度（按已解锁"数量"推进：背词 + 每日领取都 +1；每套独立） ---------- */
 function petUnlockedCount(){ if (petPreviewAll()) return petSlots(); return Math.min(petSlots(), petState.dex[petState.species] || 0); }
