@@ -7,6 +7,7 @@
  */
 
 var PET_KEY = 'hylite_petdex_v1';
+var PET_ASSET_V = 'df1';   // 表情资源版本；改了 GIF(如去闪)就 +1，强制刷新 CDN/浏览器缓存
 var petState = null;
 var petPending = null;
 
@@ -145,8 +146,8 @@ function petUnlockedCount(){ if (petPreviewAll()) return petSlots(); return Math
 // 当前物种手里还有几张没花的解锁券 = 赚的券 - 已点亮
 function petCredits(){ if (petPreviewAll()) return 0; const sp = petState.species; return Math.max(0, (petState.dex[sp]||0) - petUnlOf(sp).length); }
 function petIsUnlocked(e){ if (petPreviewAll()) return true; return petUnlOf(petState.species).indexOf(e.id) >= 0; }
-function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file; }        // 动图（图鉴/预览恒用）
-function petStillSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file.replace(/\.gif$/, '-s.gif'); }  // 静止首帧
+function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file + '?v=' + PET_ASSET_V; }        // 动图（放大预览用）
+function petStillSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file.replace(/\.gif$/, '-s.gif') + '?v=' + PET_ASSET_V; }  // 静止首帧（缩略图/角落/主图静止）
 // 主图/答题挂件按学生偏好：静止模式给首帧，否则给动图
 function petShowSrc(e){ return (petState && petState.still) ? petStillSrc(e) : petEmoteSrc(e); }
 // 赚一张解锁券（背够词/签到调用）；不再自动点亮，交给学生自选

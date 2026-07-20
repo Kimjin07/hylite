@@ -63,12 +63,12 @@ petSetPick(3);
 ck('再点取消选中', petState.pick===0);
 // 静止/动图开关
 ck('默认动图', petState.still===false);
-ck('动图模式主图用 .gif', /p1\.gif$/.test(petShowSrc(petSpecies().emotes[0])));
+ck('动图模式主图用 .gif', petShowSrc(petSpecies().emotes[0]).indexOf('p1.gif')>=0);
 petToggleStill();
 ck('切到静止', petState.still===true);
-ck('静止模式主图用 -s.gif', /p1-s\.gif$/.test(petShowSrc(petSpecies().emotes[0])));
-ck('放大预览恒用动图(petEmoteSrc)', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
-ck('缩略图恒用静止帧(petStillSrc)', /p1-s\.gif$/.test(petStillSrc(petSpecies().emotes[0])));
+ck('静止模式主图用 -s.gif', petShowSrc(petSpecies().emotes[0]).indexOf('p1-s.gif')>=0);
+ck('放大预览恒用动图(petEmoteSrc)', petEmoteSrc(petSpecies().emotes[0]).indexOf('p1.gif')>=0);
+ck('缩略图恒用静止帧(petStillSrc)', petStillSrc(petSpecies().emotes[0]).indexOf('p1-s.gif')>=0);
 petToggleStill();
 ck('再切回动图', petState.still===false);
 // 做题露脸开关 + 未指定时随机取一个已点亮的
