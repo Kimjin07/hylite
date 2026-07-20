@@ -148,7 +148,7 @@ function petCredits(){ if (petPreviewAll()) return 0; const sp = petState.specie
 function petIsUnlocked(e){ if (petPreviewAll()) return true; return petUnlOf(petState.species).indexOf(e.id) >= 0; }
 function petEmoteSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file + '?v=' + PET_ASSET_V; }        // 动图（放大预览用）
 function petStillSrc(e){ return 'pet/' + petSpecies().folder + '/' + e.file.replace(/\.gif$/, '-s.gif') + '?v=' + PET_ASSET_V; }  // 静止首帧（缩略图/角落/主图静止）
-// 主图/答题挂件按学生偏好：静止模式给首帧，否则给动图
+// 主图/图鉴缩略图/答题挂件统一按"静止/动图"开关：静止给首帧，动图给(已去闪的)动图。放大预览除外(恒动图)
 function petShowSrc(e){ return (petState && petState.still) ? petStillSrc(e) : petEmoteSrc(e); }
 // 赚一张解锁券（背够词/签到调用）；不再自动点亮，交给学生自选
 function petGrantOne(reason){
@@ -384,8 +384,8 @@ function petCardHtml(){
     const on = petIsUnlocked(e);
     const chosen = petState.pick===e.id && on;
     const can = !on && credits>0;   // 有券可点亮 → 高亮提示
-    // 缩略图用静止帧(避免一屏好几个动图忽闪晃眼)；点开放大才播放动画。未点亮=黑剪影，有券时发光
-    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}${can?' can':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):(can?'用券点亮':'未点亮')}"><img src="${petStillSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
+    // 缩略图跟随"静止/动图"开关(动图已去闪，平滑不晃)；未点亮=黑剪影，有券时发光
+    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}${can?' can':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):(can?'用券点亮':'未点亮')}"><img src="${petShowSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
   }
   dex += '</div>';
 
@@ -434,8 +434,8 @@ function petCornerHtml(){
     if (petState.pick){ e = petSpecies().emotes.find(x=>x.id===petState.pick); if (e && !petIsUnlocked(e)) e = null; }
     if (!e) e = petCornerRandom();
     if (!e) return '';
-    // 做题角落恒用静止帧：答题时视线余光里不该有忽闪动图晃眼
-    return `<img class="petcorner" src="${petStillSrc(e)}" alt="" draggable="false">`;
+    // 做题角落跟随"静止/动图"开关：与主图/图鉴一起切换(动图已去闪，不晃眼)
+    return `<img class="petcorner" src="${petShowSrc(e)}" alt="" draggable="false">`;
   } catch(e){ return ''; }
 }
 // 点开放大预览：已解锁可"设为展示"，未解锁显示黑剪影+解锁提示
