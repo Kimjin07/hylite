@@ -124,6 +124,12 @@ function rHome(){
     </div>`;
   }
 
+  // 学习伙伴（放在今日战报上方；功能开关 PET_LIVE / 预览参数控制；正式开放后仅登录可见）
+  if (typeof petVisible==='function' && petVisible()){ try { h+=`<div class="sec">学习伙伴</div>`+petCardHtml(); } catch(e){} }
+  else if (typeof petPreviewOn==='function' && petPreviewOn() && typeof syncUser==='function' && !syncUser()){
+    h+=`<button class="petlock" onclick="syncOpenPanel('reg')">🐶 登录后解锁「学习伙伴」· 背词收集表情图鉴</button>`;
+  }
+
   h+=`<div class="sec">今日战报</div><div class="card"><div class="report">
     <div><div class="n num">${L.n||0}</div><div class="l">新学</div></div>
     <div><div class="n num">${L.q||0}</div><div class="l">提取</div></div>
@@ -137,12 +143,6 @@ function rHome(){
     <button onclick="startMode('sp', 0)"><svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="m6 16 10.5-10.5a2.1 2.1 0 0 1 3 3L9 19l-4 1z"/></svg>拼写</button>
     <button onclick="startMatch(0)"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/><path d="M13 7h4M7 13v4"/></svg>连连看</button>
   </div>`;
-
-  // 学习伙伴（放主页偏下：功能开关 PET_LIVE / 预览参数控制；正式开放后仅登录可见）
-  if (typeof petVisible==='function' && petVisible()){ try { h+=`<div class="sec">学习伙伴</div>`+petCardHtml(); } catch(e){} }
-  else if (typeof petPreviewOn==='function' && petPreviewOn() && typeof syncUser==='function' && !syncUser()){
-    h+=`<button class="petlock" onclick="syncOpenPanel('reg')">🐶 登录后解锁「学习伙伴」· 背词收集表情图鉴</button>`;
-  }
 
   const donePct=Math.round((c.master+c.zhan)/TOTAL*100);
   h+=`<div class="sec">词库总进度</div><div class="card">
