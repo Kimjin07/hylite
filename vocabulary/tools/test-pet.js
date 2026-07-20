@@ -54,6 +54,7 @@ ck('切回猫仍全点亮9', petUnlockedCount()===9);
 petSetPick(3);
 ck('选中表情3', petState.pick===3);
 ck('答题角落有挂件', petCornerHtml().indexOf('petcorner')>=0);
+ck('答题角落恒用静止帧(不晃眼)', petCornerHtml().indexOf('-s.gif')>=0);
 ck('性格台词存在', typeof petSayLine()==='string' && petSayLine().length>0);
 global.$ = ()=>({ innerHTML:'', classList:{add(){}} });
 global.document = { getElementById:()=>({classList:{add(){},contains(){return false}}}), querySelector:()=>null };
@@ -66,7 +67,8 @@ ck('动图模式主图用 .gif', /p1\.gif$/.test(petShowSrc(petSpecies().emotes[
 petToggleStill();
 ck('切到静止', petState.still===true);
 ck('静止模式主图用 -s.gif', /p1-s\.gif$/.test(petShowSrc(petSpecies().emotes[0])));
-ck('图鉴/预览恒用动图', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
+ck('放大预览恒用动图(petEmoteSrc)', /p1\.gif$/.test(petEmoteSrc(petSpecies().emotes[0])));
+ck('缩略图恒用静止帧(petStillSrc)', /p1-s\.gif$/.test(petStillSrc(petSpecies().emotes[0])));
 petToggleStill();
 ck('再切回动图', petState.still===false);
 // 做题露脸开关 + 未指定时随机取一个已点亮的

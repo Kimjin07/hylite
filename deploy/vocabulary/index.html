@@ -2826,8 +2826,8 @@ function petCardHtml(){
     const on = petIsUnlocked(e);
     const chosen = petState.pick===e.id && on;
     const can = !on && credits>0;   // 有券可点亮 → 高亮提示
-    // 全部可点开放大预览；未点亮显示为黑色剪影，有券时黑影发光提示可点亮
-    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}${can?' can':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):(can?'用券点亮':'未点亮')}"><img src="${petEmoteSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
+    // 缩略图用静止帧(避免一屏好几个动图忽闪晃眼)；点开放大才播放动画。未点亮=黑剪影，有券时发光
+    dex += `<button class="petslot ${on?'on':'lock'}${chosen?' pick':''}${can?' can':''}" onclick="petPreview(${e.id})" title="${on?esc(e.name):(can?'用券点亮':'未点亮')}"><img src="${petStillSrc(e)}" alt="${esc(e.name)}">${chosen?'<i>✓</i>':''}</button>`;
   }
   dex += '</div>';
 
@@ -2876,7 +2876,8 @@ function petCornerHtml(){
     if (petState.pick){ e = petSpecies().emotes.find(x=>x.id===petState.pick); if (e && !petIsUnlocked(e)) e = null; }
     if (!e) e = petCornerRandom();
     if (!e) return '';
-    return `<img class="petcorner" src="${petShowSrc(e)}" alt="" draggable="false">`;
+    // 做题角落恒用静止帧：答题时视线余光里不该有忽闪动图晃眼
+    return `<img class="petcorner" src="${petStillSrc(e)}" alt="" draggable="false">`;
   } catch(e){ return ''; }
 }
 // 点开放大预览：已解锁可"设为展示"，未解锁显示黑剪影+解锁提示
