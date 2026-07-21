@@ -206,7 +206,11 @@ main{padding:8px 16px 0}
 /* ---------- session ---------- */
 .stop{display:flex;align-items:center;gap:12px;margin:2px 0 14px}
 .stop .x{width:42px;height:42px;border-radius:50%;background:var(--card);border:1px solid var(--line);font-size:16px;color:var(--sub);flex:none}
-.stop .x.sback{width:auto;padding:0 12px;border-radius:21px;font-size:13px;font-weight:700;color:var(--mint);border-color:var(--mint);white-space:nowrap}
+.sbackwrap{margin:12px 0 16px;text-align:left}   /* 回看按钮：放在顶栏(✕)下方、隔开一段、左对齐 */
+.sback{display:inline-flex;align-items:center;gap:3px;padding:8px 16px;border-radius:21px;font-size:13px;font-weight:700;color:var(--mint);background:var(--card);border:1px solid var(--mint);cursor:pointer;white-space:nowrap}
+.revtag{flex:1;font-size:14px;font-weight:800;color:var(--mint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.revnav{display:flex;gap:10px;margin:8px 0}
+.revnav .b3d{flex:1;margin:0}
 .sprog{flex:1;height:12px;background:var(--card2);border-radius:6px;overflow:hidden}
 .sprog i{display:block;height:100%;background:var(--mint);border-radius:6px;transition:width .25s ease}
 .combo{font-size:12px;font-weight:900;color:var(--amber);white-space:nowrap;min-width:52px;text-align:right}

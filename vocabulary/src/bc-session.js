@@ -263,46 +263,48 @@ function spSlots(W, typed, final){
   return h+'</div>';
 }
 
-/* ---------- 回看：本轮已经过的词（只读浮层，不影响答题/记忆进度） ---------- */
-function sReview(){
+/* ---------- 回看：直接翻回上一题（已答状态），只看不改进度 ---------- */
+function sReview(){                 // 点"回看"→ 跳到上一题(已做好的样子)
+  const q=SES; if (!q || q.pos<=0) return;
+  clearTimeout(advT);
+  q.rev = q.pos-1; render(); window.scrollTo(0,0);
+}
+function sRevGo(d){                 // 回看模式里前后翻题
+  const q=SES; if (!q || q.rev==null) return;
+  let n=q.rev+d;
+  if (n<0) n=0;
+  if (n>=q.pos){ sRevExit(); return; }   // 翻过最新一题 → 回到当前继续
+  q.rev=n; render(); window.scrollTo(0,0);
+}
+function sRevExit(){                // 返回当前题继续答
   const q=SES; if (!q) return;
-  modalK=null;
-  const seen=new Set(); const rows=[];
-  for (let i=q.pos-1;i>=0;i--){            // 最近的在最上面，按词去重
-    const st=q.steps[i]; if (seen.has(st.k)) continue; seen.add(st.k);
-    const W=WORDS[WIDX[st.k]]; if (!W) continue;
-    const res = st.ok===true?'<span class="pill" style="background:var(--mint);color:#fff">✓</span>'
-              : st.ok===false?'<span class="pill rd">✗</span>':'';
-    rows.push(`<div class="wrow" style="cursor:default">
-      <span class="wt"><b>${esc(W.w)}</b> <span class="ph">${W.p?'/'+esc(W.p)+'/':''}</span> ${res}
-      <span class="g">${esc(W.g)}</span></span>
-      <span class="starbtn" role="button" tabindex="0" data-say="${A(W.w)}" title="发音">${SPK}</span></div>`);
-  }
-  let h=`<div class="grab"></div>
-    <div class="dw" style="font-size:20px;margin-bottom:2px">回看 · 本轮已学 ${rows.length} 词</div>
-    <div class="muted" style="margin-bottom:10px">最近的在上面 · 点 ${SPK} 听发音 · 关掉继续答题</div>`;
-  h += rows.length
-    ? `<div style="max-height:56vh;overflow:auto;margin:0 -4px">${rows.join('')}</div>`
-    : `<div class="muted" style="padding:16px 0;text-align:center">还没有学过的词，先答几个再回看～</div>`;
-  h += `<button class="b3d ghost" style="margin-top:12px" onclick="closeModal()">关 闭 · 继续答题</button>`;
-  $('#sheet').innerHTML=h; $('#modal').classList.add('show');
+  q.rev=null; render(); window.scrollTo(0,0);
 }
 
 /* ---------- 会话渲染 ---------- */
 function rSession(){
   const q=SES;
-  if (q.pos>=q.steps.length) return rSessionEnd();
-  const st=q.steps[q.pos]; const W=WORDS[WIDX[st.k]];
+  const rev = (q.rev!=null && q.rev>=0 && q.rev<q.pos);   // 回看模式：看已答过的第 q.rev 题
+  if (!rev && q.pos>=q.steps.length) return rSessionEnd();
+  const pos = rev ? q.rev : q.pos;
+  const st=q.steps[pos]; const W=WORDS[WIDX[st.k]];
   if (!st.opts && st.t!=='sp' && st.t!=='dt') st.opts=optionsFor(W, st.t==='ce'?'w':'g');
-  const answered=st.ans!=null;
+  const answered = rev ? true : (st.ans!=null);
   const starred=!!(wsPeek(st.k)&&wsPeek(st.k).st);
-  let h=`<div class="stop">
-    <button class="x" onclick="exitSession()" aria-label="退出">✕</button>
-    ${q.pos>0?`<button class="x sback" onclick="sReview()" title="回看本轮学过的词" aria-label="回看">↩ 回看</button>`:''}
-    <div class="sprog"><i style="width:${Math.round(q.pos/q.steps.length*100)}%"></i></div>
-    <span class="combo num">${q.combo>1?'⚡ ×'+q.combo:''}</span>
-    <button class="x" onclick="starCur()" title="标记生难词，收入生词本" aria-label="标记生难词" ${starred?'style="color:var(--amber);border-color:var(--amber)"':''}>${starred?'★':'☆'}</button>
-    <button class="x" onclick="zhanCur()" title="斩掉这个词，不再出现" aria-label="斩掉这个词">⚔</button></div>`;
+  let h;
+  if (rev){
+    h=`<div class="stop">
+      <button class="x" onclick="sRevExit()" title="返回继续答题" aria-label="返回">✕</button>
+      <div class="revtag">↩ 回看 · 第 ${pos+1} / ${q.pos} 题（已做）</div></div>`;
+  } else {
+    h=`<div class="stop">
+      <button class="x" onclick="exitSession()" aria-label="退出">✕</button>
+      <div class="sprog"><i style="width:${Math.round(q.pos/q.steps.length*100)}%"></i></div>
+      <span class="combo num">${q.combo>1?'⚡ ×'+q.combo:''}</span>
+      <button class="x" onclick="starCur()" title="标记生难词，收入生词本" aria-label="标记生难词" ${starred?'style="color:var(--amber);border-color:var(--amber)"':''}>${starred?'★':'☆'}</button>
+      <button class="x" onclick="zhanCur()" title="斩掉这个词，不再出现" aria-label="斩掉这个词">⚔</button></div>`;
+    if (q.pos>0) h+=`<div class="sbackwrap"><button class="sback" onclick="sReview()" title="回看上一题做过的" aria-label="回看">↩ 回看</button></div>`;
+  }
   h+=`<div class="qask">${st.drill?'巩固 · ':''}${st.nw?'新词 · ':''}${typeName(st.t)}</div>`;
 
   if (st.t==='ec'){
@@ -339,11 +341,20 @@ function rSession(){
   }
 
   if (answered && needDetail(st)) h+=rDetail(W);
-  if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d snext" onclick="sNext()">下一词</button>`;
-  const kh = (st.t==='sp'||st.t==='dt')
-    ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
-    : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;
-  h+=`<div class="khint">${kh}</div>`;
+  if (rev){
+    h+=`<div class="revnav">
+      <button class="b3d line" onclick="sRevGo(-1)" ${pos<=0?'disabled':''}>‹ 上一题</button>
+      <button class="b3d line" onclick="sRevGo(1)" ${pos>=q.pos-1?'disabled':''}>下一题 ›</button>
+    </div>
+    <button class="b3d" onclick="sRevExit()">返回 · 继续答题</button>
+    <div class="khint"><kbd>←</kbd> <kbd>→</kbd> 翻题　<kbd>回车</kbd> 返回继续</div>`;
+  } else {
+    if (answered && (st.t==='sp' || needDetail(st) || !st.ok)) h+=`<button class="b3d snext" onclick="sNext()">下一词</button>`;
+    const kh = (st.t==='sp'||st.t==='dt')
+      ? (answered ? `<kbd>回车</kbd> 继续` : `<kbd>回车</kbd> 检查${st.t==='dt'?'　点喇叭重播':''}`)
+      : `<kbd>1</kbd>–<kbd>4</kbd> 选项　<kbd>空格</kbd> 发音　<kbd>回车</kbd> 继续`;
+    h+=`<div class="khint">${kh}</div>`;
+  }
   if (typeof petCornerHtml==='function'){ try { h+=petCornerHtml(); } catch(e){} }   // 右下角小表情挂件
   $('#app').innerHTML=h;
   const inp=$('#spin'); if (inp) inp.focus();
@@ -602,6 +613,13 @@ document.addEventListener('keydown', e=>{
   if (e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
   const k=e.key;
   if (SES && screen && screen.type==='session'){
+    if (SES.rev!=null && SES.rev>=0 && SES.rev<SES.pos){   // 回看模式：←→翻题，回车/Esc 返回
+      if (k==='ArrowLeft'){ e.preventDefault(); sRevGo(-1); return; }
+      if (k==='ArrowRight'){ e.preventDefault(); sRevGo(1); return; }
+      if (k==='Enter'||k==='Escape'){ e.preventDefault(); sRevExit(); return; }
+      if (k===' '){ e.preventDefault(); const rst=SES.steps[SES.rev]; if (rst) say(WORDS[WIDX[rst.k]].w); return; }
+      return;
+    }
     const st=SES.steps[SES.pos];
     if (!st) return;
     if (st.ans==null && st.t!=='sp' && st.t!=='dt' && ['1','2','3','4'].includes(k)){ e.preventDefault(); const i=+k-1; if (st.opts && st.opts[i]) sAnswer(i); return; }
