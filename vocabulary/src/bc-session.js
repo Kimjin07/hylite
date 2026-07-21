@@ -263,6 +263,31 @@ function spSlots(W, typed, final){
   return h+'</div>';
 }
 
+/* ---------- 回看：本轮已经过的词（只读浮层，不影响答题/记忆进度） ---------- */
+function sReview(){
+  const q=SES; if (!q) return;
+  modalK=null;
+  const seen=new Set(); const rows=[];
+  for (let i=q.pos-1;i>=0;i--){            // 最近的在最上面，按词去重
+    const st=q.steps[i]; if (seen.has(st.k)) continue; seen.add(st.k);
+    const W=WORDS[WIDX[st.k]]; if (!W) continue;
+    const res = st.ok===true?'<span class="pill" style="background:var(--mint);color:#fff">✓</span>'
+              : st.ok===false?'<span class="pill rd">✗</span>':'';
+    rows.push(`<div class="wrow" style="cursor:default">
+      <span class="wt"><b>${esc(W.w)}</b> <span class="ph">${W.p?'/'+esc(W.p)+'/':''}</span> ${res}
+      <span class="g">${esc(W.g)}</span></span>
+      <span class="starbtn" role="button" tabindex="0" data-say="${A(W.w)}" title="发音">${SPK}</span></div>`);
+  }
+  let h=`<div class="grab"></div>
+    <div class="dw" style="font-size:20px;margin-bottom:2px">回看 · 本轮已学 ${rows.length} 词</div>
+    <div class="muted" style="margin-bottom:10px">最近的在上面 · 点 ${SPK} 听发音 · 关掉继续答题</div>`;
+  h += rows.length
+    ? `<div style="max-height:56vh;overflow:auto;margin:0 -4px">${rows.join('')}</div>`
+    : `<div class="muted" style="padding:16px 0;text-align:center">还没有学过的词，先答几个再回看～</div>`;
+  h += `<button class="b3d ghost" style="margin-top:12px" onclick="closeModal()">关 闭 · 继续答题</button>`;
+  $('#sheet').innerHTML=h; $('#modal').classList.add('show');
+}
+
 /* ---------- 会话渲染 ---------- */
 function rSession(){
   const q=SES;
@@ -273,6 +298,7 @@ function rSession(){
   const starred=!!(wsPeek(st.k)&&wsPeek(st.k).st);
   let h=`<div class="stop">
     <button class="x" onclick="exitSession()" aria-label="退出">✕</button>
+    ${q.pos>0?`<button class="x sback" onclick="sReview()" title="回看本轮学过的词" aria-label="回看">↩ 回看</button>`:''}
     <div class="sprog"><i style="width:${Math.round(q.pos/q.steps.length*100)}%"></i></div>
     <span class="combo num">${q.combo>1?'⚡ ×'+q.combo:''}</span>
     <button class="x" onclick="starCur()" title="标记生难词，收入生词本" aria-label="标记生难词" ${starred?'style="color:var(--amber);border-color:var(--amber)"':''}>${starred?'★':'☆'}</button>

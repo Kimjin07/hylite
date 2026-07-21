@@ -206,6 +206,7 @@ main{padding:8px 16px 0}
 /* ---------- session ---------- */
 .stop{display:flex;align-items:center;gap:12px;margin:2px 0 14px}
 .stop .x{width:42px;height:42px;border-radius:50%;background:var(--card);border:1px solid var(--line);font-size:16px;color:var(--sub);flex:none}
+.stop .x.sback{width:auto;padding:0 12px;border-radius:21px;font-size:13px;font-weight:700;color:var(--mint);border-color:var(--mint);white-space:nowrap}
 .sprog{flex:1;height:12px;background:var(--card2);border-radius:6px;overflow:hidden}
 .sprog i{display:block;height:100%;background:var(--mint);border-radius:6px;transition:width .25s ease}
 .combo{font-size:12px;font-weight:900;color:var(--amber);white-space:nowrap;min-width:52px;text-align:right}
