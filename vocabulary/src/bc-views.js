@@ -564,6 +564,11 @@ function toggleVariant(baseId){
   loadVariantPref();
   variantPref[baseId]=!variantPref[baseId];
   saveVariantPref();
+  // 勾的是当前正在背的这本书 → 立即切到对应版本（不用再点一次书名）
+  if (curBookId===baseId || curBookId===baseId+'_r'){
+    const target=variantPref[baseId] ? baseId+'_r' : baseId;
+    if (target!==curBookId){ useBook(target, false, openBookPicker); return; }
+  }
   openBookPicker();          // 原地刷新选书器，不切换、不关弹层
 }
 function pickBook(id){
