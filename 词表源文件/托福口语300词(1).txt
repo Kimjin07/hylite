@@ -1,0 +1,300 @@
+heritage	/ˈherɪtɪdʒ/	n. 文化遗产；传统；遗产
+masterpiece	/ˈmæstərpiːs/	n. 杰作；代表作；名著
+aesthetic	/esˈθetɪk/	adj. 审美的；美学的；雅致的 美感；审美观
+folklore	/ˈfoʊklɔːr/	n. 民间传说；民俗；民间故事
+renaissance	/ˈrenəsɑːns/	n. 文艺复兴；复兴；新生 文艺复兴时期的
+craftsmanship	/ˈkræftsmənʃɪp/	n. 手艺；工艺；技艺精湛
+ceremony	/ˈserəmoʊni/	n. 仪式；典礼；礼节
+tradition	/trəˈdɪʃn/	n. 传统；惯例；传承
+innovation	/ˌɪnəˈveɪʃn/	n. 创新；革新；新方法；新事物
+performance	/pərˈfɔːrməns/	n. 表演；演出；表现；业绩
+gallery	/ˈɡæləri/	n. 美术馆；画廊；走廊
+literature	/ˈlɪtrətʃʊr/	n. 文学；文学作品；文献
+melody	/ˈmelədi/	n. 旋律；曲调；美妙的音乐
+sculpture	/ˈskʌlptʃər/	n. 雕塑；雕刻品 雕刻；雕塑
+opera	/ˈɒprə/	n. 歌剧；歌剧院
+costume	/ˈkɑːstuːm/	n. 服装；戏服；民族服饰 给穿服装
+rhythm	/ˈrɪðəm/	n. 节奏；韵律；规律
+civilization	/ˌsɪvələˈzeɪʃn/	文明；文化；开化
+exhibition	/ˌeksɪˈbɪʃn/	n. 展览；展出；展览会
+poetry	/ˈpoʊətri/	n. 诗歌；诗意；诗集
+drama	/ˈdrɑːmə/	n. 戏剧；剧本；戏剧艺术
+antique	/ænˈtiːk/	adj. 古老的；古董的 古董；古物
+composer	/kəmˈpoʊzər/	n. 作曲家；创作者
+painter	/ˈpeɪntər/	画家；油漆匠
+diversity	/daɪˈvɜːrsəti/	n. 多样性；多元化；差异
+symbolize	/ˈsɪmbəlaɪz/	v. 象征；代表；作为 的象征
+ritual	/ˈrɪtʃuəl/	n. 仪式；典礼；惯例 仪式的；例行的
+elegant	/ˈelɪɡənt/	adj. 优雅的；高雅的；精美的
+vibrant	/ˈvaɪbrənt/	adj. 充满活力的；鲜艳的；生机勃勃的
+unique	/juˈniːk/	adj. 独特的；独一无二的；稀罕的
+authentic	/ɔːˈθentɪk/	adj. 真实的；正宗的；原汁原味的
+intangible	/ɪnˈtændʒəbl/	adj. 无形的；触摸不到的；难以形容的
+preserve	/prɪˈzɜːrv/	v. 保护；保存；维护 保护区；果酱
+inherit	/ɪnˈherɪt/	v. 继承；遗传；承袭
+revive	/rɪˈvaɪv/	v. 复兴；复活；使苏醒；重新流行
+appreciate	/əˈpriːʃieɪt/	v. 欣赏；感激；理解；赏识
+creative	/kriˈeɪtɪv/	adj. 创造性的；有创造力的；独创的
+inspiration	/ˌɪnspəˈreɪʃn/	n. 灵感；鼓舞；启发；妙计
+mastery	/ˈmæstəri/	n. 精通；掌握；技艺精湛；控制权
+precious	/ˈpreʃəs/	adj. 珍贵的；宝贵的；珍稀的
+spectacular	/spekˈtækjələr/	adj. 壮观的；惊人的；精彩的 壮观的场面
+tribute	/ˈtrɪbjuːt/	n. 致敬；颂词；贡品 致敬；献礼
+vernacular	/vəˈnækjələr/	adj. 本土的；方言的 方言；土语；本土文化
+versatile	/ˈvɜːrsətl/	adj. 多才多艺的；多功能的；万用的
+vivid	/ˈvɪvɪd/	adj. 生动的；鲜明的；清晰的；栩栩如生的
+classic	/ˈklæsɪk/	adj. 经典的；古典的；优秀的 经典著作；名著
+ethnic	/ˈeθnɪk/	adj. 种族的；民族的；具有民族特色的
+festive	/ˈfestɪv/	adj. 节日的；喜庆的；欢乐的
+harmony	/ˈhɑːrməni/	n. 和谐；融洽；和声；和睦
+illuminate	/ɪˈluːmɪneɪt/	v. 照亮；阐明；启发；使灿烂
+impressive	/ɪmˈpresɪv/	adj. 令人印象深刻的；难忘的；感人的
+ingenious	/ɪnˈdʒiːniəs/	adj. 精巧的；独具匠心的；机灵的
+integrity	/ɪnˈteɡrəti/	n. 完整；完整性；诚信；正直
+ornament	/ˈɔːrnəmənt/	n. 装饰品；装饰；点缀 装饰；点缀
+profound	/prəˈfaʊnd/	adj. 深刻的；深远的；渊博的；深奥的
+radiant	/ˈreɪdiənt/	adj. 辐射的；光芒四射的；灿烂的；喜悦的
+refine	/rɪˈfaɪn/	v. 精炼；提纯；改进；使高雅
+splendid	/ˈsplendɪd/	adj. 辉煌的；灿烂的；极好的；壮丽的
+stunning	/ˈstʌnɪŋ/	adj. 极好的；绝妙的；令人震惊的；极美的
+timeless	/ˈtaɪmləs/	adj. 永恒的；不朽的；不受时间影响的
+extracurricular	/ˌekstrəkəˈrɪkjələ(r)/	adj. 课外的；校外的；业余的
+seminar	/ˈsemɪnɑːr/	n. 研讨会；研讨班；专题讨论会
+presentation	/ˌpriːzenˈteɪʃn/	n. 展示；演讲；报告；演示文稿
+teamwork	/ˈtiːmwɜːrk/	n. 团队合作；协作；配合
+campaign	/kæmˈpeɪn/	n. 活动；运动；战役 发起运动；参加竞选
+club	/klʌb/	n. 俱乐部；社团；会所 用棍棒打
+debate	/dɪˈbeɪt/	n. 辩论；争论；讨论 辩论；争论；思考
+workshop	/ˈwɜːrkʃɑːp/	n. 工作坊；研讨会；讲习班；工场
+competition	/ˌkɑːmpəˈtɪʃn/	n. 比赛；竞争；竞赛；角逐
+assignment	/əˈsaɪnmənt/	n. 作业；任务；分配；指派
+project	/ˈprɑːdʒekt/	n. 项目；工程；课题 计划；投射；展现
+scholarship	/ˈskɑːlərʃɪp/	n. 奖学金；学识；学术研究
+lecture	/ˈlektʃər/	n. 讲座；演讲；讲课 讲课；演讲；训斥
+tutorial	/tuːˈtɔːriəl/	n. 辅导课；教程；辅导材料 辅导的
+revision	/rɪˈvɪʒn/	n. 复习；修订；修改；修订本
+quiz	/kwɪz/	n. 小测验；问答比赛；智力竞赛 盘问；测验
+exam	/ɪɡˈzæm/	n. 考试；测验；检查 缩写形式，全称
+assessment	/əˈsesmənt/	n. 评估；评价；评定；估价
+attendance	/əˈtendəns/	n. 出席；出勤；到场；出席人数
+punctual	/ˈpʌŋktʃuəl/	adj. 准时的；守时的；如期的
+diligent	/ˈdɪlɪdʒənt/	adj. 勤奋的；用功的；认真的
+ambitious	/æmˈbɪʃəs/	adj. 有雄心的；有抱负的；野心勃勃的
+motivated	/ˈmoʊtɪveɪtɪd/	有动机的；有积极性的；自觉的
+cooperate	/koʊˈɑːpəreɪt/	v. 合作；协作；配合；协力
+communicate	/kəˈmjuːnɪkeɪt/	v. 交流；沟通；传达；传播
+participate	/pɑːrˈtɪsɪpeɪt/	v. 参与；参加；分享；分担
+organize	/ˈɔːrɡənaɪz/	v. 组织；安排；整理；创办
+coordinate	/koʊˈɔːrdɪneɪt/	v. 协调；配合；统筹 同等的 坐标
+volunteer	/ˌvɑːlənˈtɪr/	v. 自愿做；志愿 志愿者；志愿兵
+contribute	/kənˈtrɪbjuːt/	v. 贡献；捐献；投稿；促成
+achieve	/əˈtʃiːv/	v. 实现；达到；获得；完成
+accomplish	/əˈkɑːmplɪʃ/	v. 完成；实现；达成；成就
+improve	/ɪmˈpruːv/	v. 提高；改善；增进；变得更好
+enhance	/ɪnˈhæns/	v. 提高；增强；增进；美化
+cultivate	/ˈkʌltɪveɪt/	v. 培养；培育；耕作；陶冶
+develop	/dɪˈveləp/	v. 发展；培养；开发；成长；研制
+excel	/ɪkˈsel/	v. 擅长；胜过；杰出；表现出色
+endeavor	/ɪnˈdevər/	v. 努力；尽力；竭力 努力；尽力；事业
+persevere	/ˌpɜːrsəˈvɪr/	v. 坚持；坚忍；不屈不挠
+concentrate	/ˈkɑːnsntreɪt/	v. 集中；专心；浓缩 浓缩物
+efficient	/ɪˈfɪʃnt/	adj. 高效的；有效率的；能干的
+productive	/prəˈdʌktɪv/	adj. 富有成效的；多产的；有生产力的
+resourceful	/rɪˈsɔːrsfl/	adj. 足智多谋的；机智的；善于利用资源的
+responsible	/rɪˈspɑːnsəbl/	adj. 负责的；有责任的；可靠的；应承担责任的
+conscientious	/ˌkɒnʃiˈenʃəs/	adj. 认真的；尽责的；良心的；一丝不苟的
+enthusiastic	/ɪnˌθuːziˈæstɪk/	adj. 热情的；热心的；狂热的；满腔热忱的
+energetic	/ˌenərˈdʒetɪk/	adj. 精力充沛的；积极的；有力的
+dynamic	/daɪˈnæmɪk/	adj. 动态的；有活力的；动力的 动态；动力
+initiative	/ɪˈnɪʃətɪv/	n. 倡议；主动性；首创精神 主动的；自发的
+aspire	/əˈspaɪər/	v. 渴望；追求；立志；向往
+collaborate	/kəˈlæbəreɪt/	v. 合作；协作；合著；勾结
+mediate	/ˈmiːdieɪt/	v. 调解；调停；斡旋；介导 间接的
+negotiate	/nɪˈɡoʊʃieɪt/	v. 谈判；协商；交涉；顺利通过
+resolve	/rɪˈzɑːlv/	v. 解决；决心；分解；决议 决心；决议
+sacrifice	/ˈsækrɪfaɪs/	n. 牺牲；祭品；奉献 牺牲；献出；献祭
+succeed	/səkˈsiːd/	v. 成功；继承；继任；接替
+talented	/ˈtæləntɪd/	adj. 有天赋的；有才能的；天资聪颖的
+versatility	/ˌvɜːrsəˈtɪləti/	n. 多才多艺；多功能性；多面性
+vigorous	/ˈvɪɡərəs/	adj. 精力充沛的；有力的；朝气蓬勃的；激烈的
+zealous	/ˈzeləs/	adj. 热心的；热情的；狂热的；积极的
+qualification	/ˌkwɑːlɪfɪˈkeɪʃn/	n. 资格；资历；学历；合格证书
+candidate	/ˈkændɪdət/	n. 候选人；申请者；应试者；人选
+application	/ˌæplɪˈkeɪʃn/	n. 申请；申请书；应用；运用
+resume	/ˈrezəmeɪ/	n. 简历；履历；摘要 重新开始；恢复
+certificate	/sərˈtɪfɪkət/	n. 证书；文凭；证明 发给证书；认证
+diploma	/dɪˈploʊmə/	n. 毕业证书；文凭；奖状 发给文凭
+credentials	/krəˈdenʃlz/	n. 资历；凭证；证书；身份证明
+eligibility	/ˌelɪdʒəˈbɪləti/	n. 资格；合格；适宜性
+criterion	/kraɪˈtɪriən/	n. 标准；准则；规范；评判依据
+merit	/ˈmerɪt/	n. 优点；功绩；价值；美德 值得；应得
+achievement	/əˈtʃiːvmənt/	n. 成就；成绩；功绩；完成
+distinction	/dɪˈstɪŋkʃn/	n. 荣誉；优秀；区别；卓越
+commendation	/ˌkɒmənˈdeɪʃn/	n. 表扬；嘉奖；推荐；赞许
+honor	/ˈɑːnər/	n. 荣誉；荣幸；尊敬 尊敬；授予荣誉
+prize	/praɪz/	n. 奖品；奖金；奖赏 珍视；捕获 获奖的
+award	/əˈwɔːrd/	n. 奖项；奖品；奖金 授予；颁发；奖励
+reward	/rɪˈwɔːrd/	n. 奖励；回报；报酬 奖励；报答；酬谢
+nominate	/ˈnɑːmɪneɪt/	v. 提名；推荐；任命；指定
+select	/sɪˈlekt/	v. 选择；挑选；选拔 adj. 精选的；优等的
+elect	/ɪˈlekt/	v. 选举；推选；选择 当选的 当选者
+recruit	/rɪˈkruːt/	v. 招募；招聘；吸收；征募 新兵；新成员
+interview	/ˈɪntərvjuː/	n. 面试；采访；面谈 面试；采访；接见
+assess	/əˈses/	v. 评估；评定；评价；估价
+evaluate	/ɪˈvæljueɪt/	v. 评价；评估；估价；鉴定
+recommend	/ˌrekəˈmend/	v. 推荐；建议；介绍；举荐
+reference	/ˈrefrəns/	n. 参考；推荐信；引用；参照物 引用；参考
+competent	/ˈkɑːmpɪtənt/	adj. 胜任的；有能力的；合格的；能干的
+capable	/ˈkeɪpəbl/	adj. 有能力的；能胜任的；有才干的
+proficient	/prəˈfɪʃnt/	adj. 熟练的；精通的；能手的 能手；专家
+skilled	/skɪld/	adj. 熟练的；有技能的；有技巧的；擅长的
+experienced	/ɪkˈspɪriənst/	adj. 有经验的；老练的；熟练的
+qualified	/ˈkwɑːlɪfaɪd/	adj. 合格的；有资格的；胜任的；有限制的
+outstanding	/aʊtˈstændɪŋ/	adj. 杰出的；优秀的；显著的；未解决的
+exemplary	/ɪɡˈzempləri/	adj. 模范的；典型的；值得效仿的；惩戒性的
+prominent	/ˈprɑːmɪnənt/	adj. 突出的；显著的；杰出的；重要的
+remarkable	/rɪˈmɑːrkəbl/	adj. 显著的；非凡的；卓越的；值得注意的
+exceptional	/ɪkˈsepʃənl/	adj. 杰出的；优秀的；例外的；罕见的
+superior	/suːˈpɪriər/	adj. 优秀的；上级的；出众的 上级；优胜者
+distinguished	/dɪˈstɪŋɡwɪʃt/	adj. 卓越的；著名的；杰出的；高贵的
+potential	/pəˈtenʃl/	adj. 潜在的；可能的 潜力；潜能
+ambition	/æmˈbɪʃn/	n. 抱负；雄心；野心；志向
+dedication	/ˌdedɪˈkeɪʃn/	n. 奉献；献身；忠诚；热爱
+commitment	/kəˈmɪtmənt/	n. 承诺；献身；投入；承担义务
+persistence	/pərˈsɪstəns/	n. 坚持；毅力；固执；持续存在
+diligence	/ˈdɪlɪdʒəns/	n. 勤奋；用功；细心；认真
+endurance	/ɪnˈdʊrəns/	n. 耐力；忍耐力；持久力；耐久性
+deadline	/ˈdedlaɪn/	n. 截止日期；最后期限
+document	/ˈdɑːkjumənt/	n. 文件；公文；文档；证件 记录；记载
+verification	/ˌverɪfɪˈkeɪʃn/	n. 验证；核实；证明；确认
+confirmation	/ˌkɑːnfərˈmeɪʃn/	n. 确认；证实；证明；批准
+ratification	/ˌrætɪfɪˈkeɪʃn/	n. 批准；认可；正式承认
+nomination	/ˌnɑːmɪˈneɪʃn/	n. 提名；任命；推荐；候选资格
+shortlist	/ˈʃɔːrtlɪst/	n. 候选名单；入围名单 把列入候选名单
+finalist	/ˈfaɪnəlɪst/	n. 决赛选手；入围者
+champion	/ˈtʃæmpiən/	n. 冠军；优胜者；拥护者 拥护；支持
+runner-up	/ˌrʌnər ˈʌp/	n. 亚军；第二名；候补者
+honorable	/ˈɑːnərəbl/	adj. 荣誉的；光荣的；可敬的；正直的
+prestigious	/preˈstɪdʒəs/	adj. 有声望的；受尊敬的；显赫的
+renowned	/rɪˈnaʊnd/	adj. 著名的；有声望的；闻名的
+accolade	/ˈækəleɪd/	n. 荣誉；嘉奖；赞许；表彰
+volunteerism	/ˌvɑːlənˈtɪrɪzəm/	n. 志愿服务精神；志愿主义；义务工作理念
+charity	/ˈtʃærəti/	n. 慈善；慈善机构；施舍；仁爱
+donation	/doʊˈneɪʃn/	n. 捐赠；捐献；捐赠物；捐款
+contribution	/ˌkɑːntrɪˈbjuːʃn/	n. 贡献；捐献；投稿；促成因素
+philanthropy	/fɪˈlænθrəpi/	n. 慈善事业；博爱；慈善行为
+benevolence	/bəˈnevələns/	n. 仁慈；善意；善行；仁爱
+altruism	/ˈæltruɪzəm/	n. 利他主义；无私；利他行为
+compassion	/kəmˈpæʃn/	n. 同情；怜悯；恻隐之心
+empathy	/ˈempəθi/	n. 同感；共鸣；共情；移情作用
+sympathy	/ˈsɪmpəθi/	n. 同情；慰问；赞同；同感
+assistance	/əˈsɪstəns/	n. 援助；帮助；支持；协助
+support	/səˈpɔːrt/	v. 支持；支撑；资助；拥护 支持；支撑；援助
+aid	/eɪd/	n. 援助；帮助；救护；助手 援助；帮助；接济
+relief	/rɪˈliːf/	n. 救济；减轻；解除；安慰
+welfare	/ˈwelfer/	n. 福利；福祉；幸福；福利事业
+community	/kəˈmjuːnəti/	社区；群落；共同体；团体
+neighborhood	/ˈneɪbəhʊd/	n. 邻里；社区；附近；街坊
+outreach	/ˈaʊtriːtʃ/	n. 外展服务；拓展；延伸 伸出；拓展；延伸
+campaign	/kæmˈpeɪn/	n. 运动；活动；战役 发起运动；参加竞选
+initiative	/ɪˈnɪʃətɪv/	n. 倡议；主动性；首创精神 主动的；自发的
+project	/ˈprɑːdʒekt/	n. 项目；工程；课题 计划；投射；展现
+program	/ˈproʊɡræm/	n. 项目；计划；节目；程序 编程；规划
+assignment	/əˈsaɪnmənt/	n. 任务；分配；指派；作业
+mission	/ˈmɪʃn/	n. 使命；任务；使团；天职 派遣；执行任务
+task	/tɑːsk/	n. 任务；工作；作业 派给任务；使辛劳
+collaborate	/kəˈlæbəreɪt/	v. 合作；协作；合著；勾结
+cooperate	/koʊˈɑːpəreɪt/	v. 合作；协作；配合；协力
+mobilize	/ˈmoʊbəlaɪz/	v. 动员；调动；组织；使流通
+organize	/ˈɔːrɡənaɪz/	v. 组织；安排；整理；创办
+coordinate	/koʊˈɔːrdɪneɪt/	v. 协调；配合；统筹 同等的 坐标
+participate	/pɑːrˈtɪsɪpeɪt/	v. 参与；参加；分享；分担
+engage	/ɪnˈɡeɪdʒ/	v. 参与；从事；吸引；聘用
+devote	/dɪˈvoʊt/	v. 致力于；奉献；献身；专心于
+dedicate	/ˈdedɪkeɪt/	v. 奉献；致力于；献身；题献
+commit	/kəˈmɪt/	v. 承诺；承担义务；致力于；犯罪
+sacrifice	/ˈsækrɪfaɪs/	n. 牺牲；祭品；奉献 牺牲；献出；献祭
+contribute	/kənˈtrɪbjuːt/	v. 贡献；捐献；投稿；促成
+donate	/doʊˈneɪt/	v. 捐赠；捐献；赠予；献出
+sponsor	/ˈspɑːnsər/	n. 赞助商；赞助人；发起人 赞助；发起；主办
+fundraise	/ˈfʌndreɪz/	v. 筹款；募捐；筹集资金
+advocate	/ˈædvəkeɪt/	v. 倡导；拥护；主张；提倡 倡导者；支持者
+promote	/prəˈmoʊt/	v. 促进；推动；提升；推广
+raise	/reɪz/	v. 筹集；提高；养育；升起 上升；高地
+awareness	/əˈwerənəs/	n. 意识；认识；知道；了解
+empower	/ɪmˈpaʊər/	v. 授权；赋能；使能够；增强信心
+enrich	/ɪnˈrɪtʃ/	v. 丰富；充实；使富足；使肥沃
+transform	/trænsˈfɔːrm/	v. 改变；使改观；转换；转化
+impact	/ˈɪmpækt/	n. 影响；冲击；效果；碰撞 影响；冲击；碰撞
+legacy	/ˈleɡəsi/	n. 遗产；遗赠；遗留物；传统
+gratitude	/ˈɡrætɪtuːd/	n. 感激；感谢；感恩之情
+appreciation	/əˌpriːʃiˈeɪʃn/	n. 欣赏；感激；赏识；理解
+recognition	/ˌrekəɡˈnɪʃn/	n. 认可；承认；表彰；识别
+reward	/rɪˈwɔːrd/	n. 奖励；回报；报酬 奖励；报答；酬谢
+fulfillment	/fʊlˈfɪlmənt/	n. 满足感；成就感；履行；实现
+satisfaction	/ˌsætɪsˈfækʃn/	n. 满意；满足；欣慰；赔偿
+pride	/praɪd/	n. 自豪；骄傲；自尊心；得意 使自豪
+dignity	/ˈdɪɡnəti/	n. 尊严；庄重；高贵；自尊
+respect	/rɪˈspekt/	n. 尊重；尊敬；方面；敬意 尊重；尊敬；重视
+unity	/ˈjuːnəti/	n. 团结；统一；整体性；联合
+solidarity	/ˌsɑːlɪˈdærəti/	n. 团结；团结一致；休戚与共
+technology	/tekˈnɑːlədʒi/	技术；科技；工艺；技术学
+digital	/ˈdɪdʒɪtl/	adj. 数字的；数码的；电子的 数字；数码
+virtual	/ˈvɜːrtʃuəl/	adj. 虚拟的；有效的；实质上的；模拟的
+online	/ˌɑːnˈlaɪn/	adj. 在线的；联网的；联机的 在线地
+offline	/ˌɔːfˈlaɪn/	adj. 离线的；脱机的；未联网的 离线地
+automation	/ˌɔːtəˈmeɪʃn/	n. 自动化；自动操作；自动控制
+artificial	/ˌɑːrtɪˈfɪʃl/	adj. 人工的；人造的；虚假的；人为的
+intelligence	/ɪnˈtelɪdʒəns/	n. 智力；智能；情报；理解力
+innovation	/ˌɪnəˈveɪʃn/	n. 创新；革新；新方法；新事物
+efficiency	/ɪˈfɪʃnsi/	n. 效率；效能；功效；提高功效的方法
+productivity	/ˌprɑːdʌkˈtɪvəti/	n. 生产力；生产率；生产能力；多产
+convenience	/kənˈviːniəns/	n. 便利；方便；便利设施；适宜
+access	/ˈækses/	n. 通道；机会；使用权；获取 访问；获取；进入
+connectivity	/ˌkəˌnekˈtɪvəti/	n. 连通性；连接性；联网能力
+globalization	/ˌɡloʊbələˈzeɪʃn/	n. 全球化；全球性；全球一体化
+urbanization	/ˌɜːrbənəˈzeɪʃn/	n. 城市化；都市化；城镇化
+competition	/ˌkɑːmpəˈtɪʃn/	n. 竞争；比赛；角逐；竞争者
+pressure	/ˈpreʃər/	n. 压力；压强；压迫；紧张 施压；迫使
+stress	/stres/	n. 压力；紧张；强调；重读 强调；重读；使紧张
+anxiety	/æŋˈzaɪəti/	n. 焦虑；忧虑；渴望；不安
+burnout	/ˈbɜːrnaʊt/	n. 倦怠；精疲力竭；燃尽；烧坏
+balance	/ˈbæləns/	n. 平衡；均衡；余额；天平 平衡；权衡；结算
+well-being	/ˌwel ˈbiːɪŋ/	n. 幸福；健康；福祉；安乐
+lifestyle	/ˈlaɪfstaɪl/	生活方式；生活作风
+sustainable	/səˈsteɪnəbl/	adj. 可以忍受的；足可支撑的养得起的；可持续的
+environmental	/ɪnˌvaɪrənˈmentl/	adj. 环境的；有关环境的；环境保护的
+pollution	/pəˈluːʃn/	n. 污染；污染物；弄脏；玷污
+emission	/iˈmɪʃn/	n. 排放；散发；发出；排放物
+conservation	/ˌkɑːnsərˈveɪʃn/	n. 保护；保存；守恒；节约
+renewable	/rɪˈnuːəbl/	adj. 可更新的；可再生的；可恢复的
+depletion	/dɪˈpliːʃn/	n. 消耗；损耗；用尽；枯竭
+overpopulation	/ˌəʊvəˌpɒpjuˈleɪʃn/	n. 人口过剩；人口过多
+congestion	/kənˈdʒestʃn/	n. 拥挤；拥塞；充血；堵塞
+isolation	/ˌaɪsəˈleɪʃn/	n. 隔离；孤立；与世隔绝；绝缘
+loneliness	/ˈloʊnlinəs/	n. 孤独；寂寞；孤单
+distraction	/dɪˈstrækʃn/	n. 注意力分散；分心；使人分心的事物；消遣
+addiction	/əˈdɪkʃn/	n. 瘾；入迷；嗜好；沉溺
+cyberbullying	/ˈsaɪbəbʊliɪŋ/	n. 网络欺凌；网络霸凌
+privacy	/ˈpraɪvəsi/	n. 隐私；私密；私事；隐私权
+security	/səˈkjʊrəti/	n. 安全；保障；安全感；安全措施
+unemployment	/ˌʌnɪmˈplɔɪmənt/	n. 失业；失业状态；失业率；失业人数
+poverty	/ˈpɑːvərti/	n. 贫穷；贫困；贫乏；短缺
+inequality	/ˌɪnɪˈkwɑːləti/	n. 不平等；不均等；不相同；不等量
+discrimination	/dɪˌskrɪmɪˈneɪʃn/	n. 歧视；区别对待；辨别力；识别力
+prejudice	/ˈpredʒudɪs/	n. 偏见；成见；歧视；损害 使有偏见；损害
+adaptation	/ˌædæpˈteɪʃn/	n. 适应；改编；改写本；适应性变化
+resilience	/rɪˈzɪliəns/	n. 恢复力；弹力；适应力；韧性
+flexibility	/ˌfleksəˈbɪləti/	n. 灵活性；柔韧性；弹性；适应性
+versatility	/ˌvɜːrsəˈtɪləti/	n. 多才多艺；多功能性；多面性；适应性
+efficiency	/ɪˈfɪʃnsi/	n. 效率；效能；功效；提高功效的方法
+prioritize	/praɪˈɔːrətaɪz/	v. 优先处理；按重要性排序；给 优先权
+streamline	/ˈstriːmlaɪn/	v. 使效率更高；使简化；使流线型 流线
+optimize	/ˈɑːptɪmaɪz/	v. 使最优化；充分利用；优化
+collaboration	/kəˌlæbəˈreɪʃn/	n. 合作；协作；合作成果；合著
+communication	/kəˌmjuːnɪˈkeɪʃn/	n. 交流；沟通；通信；信息
+tolerance	/ˈtɑːlərəns/	n. 宽容；容忍；忍耐力；公差
+diversity	/daɪˈvɜːrsəti/	n. 多样性；多元化；差异；多样化
+integration	/ˌɪntɪˈɡreɪʃn/	n. 结合；整合；一体化；融合
+sophistication	/səˌfɪstɪˈkeɪʃn/	n. 复杂；精致；世故；老练
+prosperity	/prɑːˈsperəti/	n. 繁荣；成功；兴旺；昌盛

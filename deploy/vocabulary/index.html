@@ -513,7 +513,7 @@ footer{text-align:center;color:var(--sub);font-size:10.5px;letter-spacing:1.5px;
 <canvas id="fx"></canvas>
 
 <script>
-const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"oxford":{"units":56,"words":5323},"a1":{"units":12,"words":601},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565},"lis18":{"units":18,"words":1336},"liscene":{"units":10,"words":1389},"sat":{"units":25,"words":991}};
+const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":982},"basic":{"units":10,"words":1235},"core":{"units":19,"words":1125},"green":{"units":32,"words":1600},"a2":{"units":12,"words":490},"oxford":{"units":56,"words":5323},"a1":{"units":12,"words":601},"b1":{"units":13,"words":694},"b1p":{"units":13,"words":638},"b2":{"units":13,"words":565},"lis18":{"units":18,"words":1336},"liscene":{"units":10,"words":1389},"sat":{"units":25,"words":991},"tfr":{"units":23,"words":800},"tfl":{"units":16,"words":799},"tfs":{"units":6,"words":300},"tfw":{"units":10,"words":500}};
 'use strict';
 /* ================= 数据与常量 ================= */
 const BOX_GAP = [0,1,2,4,7,15,30,60];      // 各强度等级到下次复习的天数
@@ -542,6 +542,10 @@ try{ __reg('b2',    B2_UNITS); }catch(e){}
 try{ __reg('lis18', LIS18_UNITS); }catch(e){}
 try{ __reg('liscene', LISCENE_UNITS); }catch(e){}
 try{ __reg('sat',   SAT_UNITS); }catch(e){}
+try{ __reg('tfr',   TFR_UNITS); }catch(e){}
+try{ __reg('tfl',   TFL_UNITS); }catch(e){}
+try{ __reg('tfs',   TFS_UNITS); }catch(e){}
+try{ __reg('tfw',   TFW_UNITS); }catch(e){}
 // cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BASE_BOOKS = [
   {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库', grouped:true,  plan:{mode:'count', quota:50}},
@@ -557,6 +561,10 @@ const BASE_BOOKS = [
   {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'lis18', name:'18天听力',   sub:'听力高频 · 每天一个 Day', cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
   {id:'liscene',name:'听力场景',  sub:'雅思听力场景词汇',        cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'tfr',   name:'托福阅读',  sub:'高频 800 · 按学科话题',   cat:'托福备考',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'tfl',   name:'托福听力',  sub:'场景高频 800 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}, listen:true},
+  {id:'tfs',   name:'托福口语',  sub:'口语高频 300 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
+  {id:'tfw',   name:'托福写作',  sub:'写作高频 500 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
   {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:30}},
 ];
 // ===== 乱序分支：每本书自动生成 <id>_r 变体（固定种子洗牌→每50词一单元，进度/同步完全独立）=====

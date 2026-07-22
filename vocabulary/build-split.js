@@ -13,6 +13,7 @@ const BOOK_MAP = {
   core: 'CORE_UNITS', green: 'GREEN_UNITS', a2: 'A2_UNITS',
   oxford: 'OXFORD_UNITS', a1: 'A1_UNITS', b1: 'B1_UNITS', b1p: 'B1P_UNITS', b2: 'B2_UNITS',
   lis18: 'LIS18_UNITS', liscene: 'LISCENE_UNITS', sat: 'SAT_UNITS',
+  tfr: 'TFR_UNITS', tfl: 'TFL_UNITS', tfs: 'TFS_UNITS', tfw: 'TFW_UNITS',
 };
 
 // 1) 从数据源文件提取每个常量的 JSON

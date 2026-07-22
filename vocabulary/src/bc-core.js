@@ -26,6 +26,10 @@ try{ __reg('b2',    B2_UNITS); }catch(e){}
 try{ __reg('lis18', LIS18_UNITS); }catch(e){}
 try{ __reg('liscene', LISCENE_UNITS); }catch(e){}
 try{ __reg('sat',   SAT_UNITS); }catch(e){}
+try{ __reg('tfr',   TFR_UNITS); }catch(e){}
+try{ __reg('tfl',   TFL_UNITS); }catch(e){}
+try{ __reg('tfs',   TFS_UNITS); }catch(e){}
+try{ __reg('tfw',   TFW_UNITS); }catch(e){}
 // cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BASE_BOOKS = [
   {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库', grouped:true,  plan:{mode:'count', quota:50}},
@@ -41,6 +45,10 @@ const BASE_BOOKS = [
   {id:'b2',    name:'B2',        sub:'教材同步 · 高阶',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'lis18', name:'18天听力',   sub:'听力高频 · 每天一个 Day', cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
   {id:'liscene',name:'听力场景',  sub:'雅思听力场景词汇',        cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
+  {id:'tfr',   name:'托福阅读',  sub:'高频 800 · 按学科话题',   cat:'托福备考',           grouped:false, plan:{mode:'unit',  units:1}},
+  {id:'tfl',   name:'托福听力',  sub:'场景高频 800 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}, listen:true},
+  {id:'tfs',   name:'托福口语',  sub:'口语高频 300 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
+  {id:'tfw',   name:'托福写作',  sub:'写作高频 500 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
   {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:30}},
 ];
 // ===== 乱序分支：每本书自动生成 <id>_r 变体（固定种子洗牌→每50词一单元，进度/同步完全独立）=====

@@ -1,0 +1,799 @@
+resume	/ˈrezəmeɪ/	n. 简历
+interview	/ˈɪntəvjuː/	n. & v. 面试
+recruit	/rɪˈkruːt/	v. 招聘；招募
+promote	/prəˈməʊt/	v. 晋升；推广
+resign	/rɪˈzaɪn/	v. 辞职
+salary	/ˈsæləri/	n. 薪水
+bonus	/ˈbəʊnəs/	n. 奖金；红利
+commission	/kəˈmɪʃn/	n. 佣金
+overtime	/ˈəʊvətaɪm/	n. & adj. 加班（的）
+vacation	/veɪˈkeɪʃn/	n. 假期
+leave	/liːv/	n. 休假
+pension	/ˈpenʃn/	n. 退休金
+contract	/ˈkɒntrækt/	n. 合同
+deadline	/ˈdedlaɪn/	n. 截止日期
+project	/ˈprɒdʒekt/	n. 项目
+collaborate	/kəˈlæbəreɪt/	v. 合作
+teamwork	/ˈtiːmwɜːk/	n. 团队合作
+meeting	/ˈmiːtɪŋ/	n. 会议
+conference	/ˈkɒnfərəns/	n. 会议；研讨会
+presentation	/ˌpreznˈteɪʃn/	n. 演示；报告
+negotiate	/nɪˈɡəʊʃieɪt/	v. 谈判；协商
+client	/ˈklaɪənt/	n. 客户
+customer	/ˈkʌstəmə(r)/	n. 顾客
+feedback	/ˈfiːdbæk/	n. 反馈
+complaint	/kəmˈpleɪnt/	n. 投诉
+performance	/pəˈfɔːməns/	n. 表现；业绩
+efficiency	/ɪˈfɪʃnsi/	n. 效率
+productivity	/ˌprɒdʌkˈtɪvəti/	n. 生产力
+responsibility	/rɪˌspɒnsə ˈbɪləti/	n. 责任
+task	/tɑːsk/	n. 任务
+duty	/ˈdjuːti/	n. 职责
+shift	/ʃɪft/	n. 轮班
+supervisor	/ ˈsuːpəvaɪzə(r)/	n. 主管
+colleague	/ˈkɒliːɡ/	n. 同事
+employee	/ɪmˈplɔɪiː/	n. 员工
+employer	/ɪmˈplɔɪə(r)/	n. 雇主
+intern	/ˈɪntɜːn/	n. 实习生
+trainee	/ˌtreɪˈniː/	n. 受训者
+qualification	/ˌkwɒlɪfɪˈkeɪʃn/	n. 资格；学历
+certificate	/səˈtɪfɪkət/	n. 证书
+diploma	/dɪˈpləʊmə/	n. 文凭
+appointment	/əˈpɔɪntmənt/	n. 预约
+schedule	/ˈʃedjuːl/	n. 日程表
+flexible	/ˈfleksəbl/	adj. 灵活的
+remote	/rɪˈməʊt/	adj. 远程的
+telecommute	/ˌtelikəˈmjuːt/	v. 远程办公
+layoff	/ˈleɪɒf/	n. 裁员
+downturn	/ˈdaʊntɜːn/	n. 衰退
+bankruptcy	/ˈbæŋkrʌptsi/	n. 破产
+merger	/ˈmɜːdʒə(r)/	n. 合并
+arrange	/əˈreɪndʒ/	v. 安排
+schedule	/ˈʃedjuːl/	v. 安排
+postpone	/pəˈspəʊn/	v. 推迟
+delay	/dɪˈleɪ/	v. & n. 延迟
+cancel	/ˈkænsl/	v. 取消
+reschedule	/ˌriːˈʃedjuːl/	v. 重新安排
+deadline	/ˈdedlaɪn/	n. 截止日期
+due	/djuː/	adj. 到期的
+punctual	/ˈpʌŋktʃuəl/	adj. 准时的
+prompt	/prɒmpt/	adj. 及时的
+on time	/ɒn taɪm/	短语准时
+in time	/ɪn taɪm/	短语及时
+ahead of time	/əˈhed ɒv taɪm/	短语提前
+in advance	/ɪn əd ˈvɑːns/	短语提前
+last minute	/lɑːst ˈmɪnɪt/	短语最后一刻
+timetable	/ˈtaɪmteɪbl/	n. 时刻表
+agenda	/əˈdʒendə/	n. 议程
+calendar	/ ˈkælɪndə(r)/	n. 日历
+reminder	/rɪ ˈmaɪndə(r)/	n. 提醒
+notify	/ˈnəʊtɪfaɪ/	v. 通知
+inform	/ɪnˈfɔːm/	v. 告知
+confirm	/kənˈfɜːm/	v. 确认
+tentative	/ˈtentətɪv/	adj. 暂定的
+definite	/ˈdefɪnət/	adj. 确定的
+flexible	/ˈfleksəbl/	adj. 灵活的
+overlap	/ˌəʊvəˈlæp/	v. 时间重叠
+conflict	/ˈkɒnflɪkt/	n. 时间冲突
+allocate	/ˈæləkeɪt/	v. 分配
+prioritize	/praɪ ˈɒrətaɪz/	v. 优先处理
+urgent	/ˈɜːdʒənt/	adj. 紧急的
+emergency	/ɪ ˈmɜːdʒənsi/	n. 紧急情况
+routine	/ruːˈtiːn/	n. 日常惯例
+regular	/ˈreɡjələ(r)/	adj. 定期的
+occasional	/əˈkeɪʒənl/	adj. 偶尔的
+frequent	/ˈfriːkwənt/	adj. 频繁的
+duration	/djuˈreɪʃn/	n. 持续时间
+session	/ˈseʃn/	n. 一场；一节
+interval	/ˈɪntəvl/	n. 间隔
+break	/breɪk/	n. 休息时间
+vacation	/veɪˈkeɪʃn/	n. 假期
+acquaintance	/əˈkweɪntəns/	n. 熟人
+colleague	/ˈkɒliːɡ/	n. 同事
+roommate	/ˈruːmmeɪt/	n. 室友
+neighbor	/ˈneɪbə(r)/	n. 邻居
+companion	/kəmˈpænjən/	n. 同伴
+peer	/pɪə(r)/	n. 同龄人
+ally	/ˈælaɪ/	n. 盟友
+rival	/ˈraɪvl/	n. 对手
+stranger	/ˈstreɪndʒə(r)/	n. 陌生人
+introvert	/ˈɪntrəvɜːt/	n. 内向的人
+extrovert	/ˈekstrəvɜːt/	n. 外向的人
+amicable	/ˈæmɪkəbl/	adj. 友好的
+hostile	/ˈhɒstaɪl/	adj. 敌对的
+cordial	/ˈkɔːdiəl/	adj. 热情友好的
+sociable	/ˈsəʊʃəbl/	adj. 好交际的
+reserved	/rɪˈzɜːvd/	adj. 矜持的
+generous	/ˈdʒenərəs/	adj. 慷慨的
+stingy	/ˈstɪndʒi/	adj. 吝啬的
+honest	/ˈɒnɪst/	adj. 诚实的
+sincere	/sɪnˈsɪə(r)/	adj. 真诚的
+deceitful	/dɪˈsiːtfl/	adj. 欺诈的
+reliable	/rɪˈlaɪəbl/	adj. 可靠的
+unreliable	/ˌʌnrɪˈlaɪəbl/	adj. 不可靠的
+trustworthy	/ˈtrʌstwɜːði/	adj. 值得信赖的
+betray	/bɪˈtreɪ/	v. 背叛
+support	/səˈpɔːt/	v. & n. 支持
+encourage	/ɪnˈkʌrɪdʒ/	v. 鼓励
+motivate	/ˈməʊtɪveɪt/	v. 激励
+console	/kənˈsəʊl/	v. 安慰
+sympathize	/ˈsɪmpəθaɪz/	v. 同情
+empathize	/ˈempəθaɪz/	v. 共情
+forgive	/fəˈɡɪv/	v. 原谅
+apologize	/əˈpɒlədʒaɪz/	v. 道歉
+quarrel	/ˈkwɒrəl/	v. & n. 争吵
+argue	/ˈɑːɡjuː/	v. 争论
+negotiate	/nɪˈɡəʊʃieɪt/	v. 协商
+compromise	/ ˈkɒmprəmaɪz/	v. & n. 妥协
+cooperate	/kəʊˈɒpəreɪt/	v. 合作
+collaborate	/kəˈlæbəreɪt/	v. 协作
+gossip	/ˈɡɒsɪp/	v. & n. 八卦
+flatter	/ˈflætə(r)/	v. 奉承
+criticize	/ˈkrɪtɪsaɪz/	v. 批评
+praise	/preɪz/	v. & n. 表扬
+commend	/kəˈmend/	v. 称赞
+grateful	/ˈɡreɪtfl/	adj. 感激的
+entrepreneur	/ˌɒntrəprə ˈnɜː(r)/	n. 企业家
+venture	/ˈventʃə(r)/	n. 风险投资
+startup	/ˈstɑːtʌp/	n. 初创公司
+corporation	/ˌkɔːpəˈreɪʃn/	n. 公司
+firm	/fɜːm/	n. 公司
+enterprise	/ˈentəpraɪz/	n. 企业
+brand	/brænd/	n. 品牌
+marketing	/ˈmɑːkɪtɪŋ/	n. 市场营销
+advertising	/ˈædvətaɪzɪŋ/	n. 广告宣传
+promotion	/prəˈməʊʃn/	n. 促销；晋升
+discount	/ˈdɪskaʊnt/	n. & v. 折扣；打折
+retail	/ˈriːteɪl/	n. 零售
+wholesale	/ˈhəʊlseɪl/	n. 批发
+profit	/ˈprɒfɪt/	n. 利润
+revenue	/ˈrevənjuː/	n. 收入
+budget	/ˈbʌdʒɪt/	n. 预算
+expense	/ɪkˈspens/	n. 开支
+investment	/ɪnˈvestmənt/	n. 投资
+asset	/ˈæset/	n. 资产
+liability	/ˌlaɪəˈbɪləti/	n. 负债
+invoice	/ˈɪnvɔɪs/	n. 发票
+receipt	/rɪˈsiːt/	n. 收据
+contract	/ˈkɒntrækt/	n. 合同
+partnership	/ˈpɑːtnəʃɪp/	n. 合作关系
+franchise	/ˈfræntʃaɪz/	n. 特许经营权
+intellectual property	/ˌɪntəˈlektʃuəl ˈprɒpəti/	n. 知识产权
+patent	/ˈpeɪtnt/	n. 专利
+copyright	/ˈkɒpiraɪt/	n. 版权
+trademark	/ˈtreɪdmɑːk/	n. 商标
+merger	/ˈmɜːdʒə(r)/	n. 合并
+acquisition	/ˌækwɪˈzɪʃn/	n. 收购
+monopoly	/məˈnɒpəli/	n. 垄断
+competition	/ˌkɒmpəˈtɪʃn/	n. 竞争
+customer service	/ˈkʌstəmə ˈsɜːvɪs/	n. 客户服务
+supply chain	/səˈplaɪ tʃeɪn/	n. 供应链
+inventory	/ˈɪnvəntri/	n. 库存
+stock	/stɒk/	n. 库存；股票
+shareholder	/ ˈʃeəhəʊldə(r)/	n. 股东
+board of directors	/bɔːd ɒv daɪ ˈrektəz/	n. 董事会
+CEO	/ˌsiː iː ˈəʊ/	n. 首席执行官
+market research	/ˈmɑːkɪt rɪ ˈsɜːtʃ/	n. 市场调研
+target audience	/ˈtɑːɡɪt ˈɔːdiəns/	n. 目标受众
+e-commerce	/ˈiː kɒmɜːs/	n. 电子商务
+logistics	/ləˈdʒɪstɪks/	n. 物流
+outsourcing	/ˈaʊtsɔːsɪŋ/	n. 外包
+reservation	/ˌrezəˈveɪʃn/	n. 预订
+book	/bʊk/	v. 预订
+check-in	/ˈtʃek ɪn/	n. & v. 办理入住
+check-out	/ˈtʃek aʊt/	n. & v. 办理退房
+front desk	/frʌnt desk/	n. 前台
+receptionist	/rɪˈsepʃənɪst/	n. 接待员
+suite	/swiːt/	n. 套房
+single room	/ˈsɪŋɡl ruːm/	n. 单人间
+double room	/ˈdʌbl ruːm/	n. 双人间
+twin room	/twɪn ruːm/	n. 双床房
+amenities	/əˈmiːnətiz/	n. 便利设施
+buffet	/ˈbʊfeɪ/	n. 自助餐
+room service	/ruːm ˈsɜːvɪs/	n. 客房服务
+laundry service	/ˈlɔːndri ˈsɜːvɪs/	n. 洗衣服务
+dry cleaning	/draɪ ˈkliːnɪŋ/	n. 干洗
+gym	/dʒɪm/	n. 健身房
+swimming pool	/ˈswɪmɪŋ puːl/	n. 游泳池
+sauna	/ˈsɔːnə/	n. 桑拿房
+concierge	/ˌkɒnsiˈeədʒ/	n. 礼宾员
+luggage	/ˈlʌɡɪdʒ/	n. 行李
+bellboy	/ˈbelbɔɪ/	n. 行李员
+wake-up call	/ˈweɪk ʌp kɔːl/	n. 叫醒服务
+occupancy	/ˈɒkjəpənsi/	n. 入住率
+rate	/reɪt/	n. 房价
+discount	/ˈdɪskaʊnt/	n. 折扣
+complimentary	/ˌkɒmplɪ ˈmentri/	adj. 免费的
+lobby	/ˈlɒbi/	n. 大堂
+elevator	/ˈelɪveɪtə(r)/	n. 电梯
+staircase	/ˈsteəkeɪs/	n. 楼梯
+corridor	/ˈkɒrɪdɔː(r)/	n. 走廊
+balcony	/ˈbælkəni/	n. 阳台
+view	/vjuː/	n. 景色
+noise	/nɔɪz/	n. 噪音
+maintenance	/ ˈmeɪntənəns/	n. 维修
+air conditioner	/eə kən ˈdɪʃənə(r)/	n. 空调
+heating	/ˈhiːtɪŋ/	n. 暖气
+towels	/ˈtaʊəlz/	n. 毛巾
+toiletries	/tɔɪˈletriz/	n. 洗漱用品
+shampoo	/ʃæmˈpuː/	n. 洗发水
+soap	/səʊp/	n. 肥皂
+sink	/sɪŋk/	n. 洗手池
+clogged	/klɒɡd/	adj. 堵塞的
+plumber	/ˈplʌmə(r)/	n. 水管工
+fire alarm	/ˈfaɪə əˈlɑːm/	n. 火警报警器
+emergency exit	/ɪˈmɜːdʒənsi ˈeksɪt/	n. 紧急出口
+library card	/ˈlaɪbrəri kɑːd/	n. 借书证
+borrow	/ˈbɒrəʊ/	v. 借阅
+lend	/lend/	v. 借出
+return	/rɪˈtɜːn/	v. 归还
+due date	/djuː deɪ/	n. 到期日
+renew	/rɪˈnjuː/	v. 续借
+fine	/faɪn/	n. 罚款
+overdue	/ˌəʊvəˈdjuː/	adj. 逾期的
+catalog	/ˈkætəlɒɡ/	n. 目录
+database	/ˈdeɪtəbeɪs/	n. 数据库
+search engine	/ˈsɜːtʃ ˈendʒɪn/	n. 搜索引擎
+keyword	/ˈkiːwɜːd/	n. 关键词
+scholarly journal	/ˈskɒləli ˈdʒɜːnl/	n. 学术期刊
+peer- reviewed	/ˌpɪə rɪˈvjuːd/	adj. 同行评审的
+article	/ˈɑːtɪkl/	n. 文章
+book reserve	/bʊk rɪˈzɜːv/	n. 图书预约
+reference book	/ˈrefrəns bʊk/	n. 参考书
+encyclopedia	/ɪnˌsaɪklə ˈpiːdiə/	n. 百科全书
+dictionary	/ˈdɪkʃənri/	n. 词典
+thesis	/ˈθiːsɪs/	n. 论文
+dissertation	/ˌdɪsəˈteɪʃn/	n. 博士论文
+archive	/ˈɑːkaɪv/	n. 档案库
+interlibrary loan	/ˌɪntəˈlaɪbrəri ləʊn/	n. 馆际互借
+librarian	/laɪˈbreəriən/	n. 图书管理员
+study room	/ˈstʌdi ruːm/	n. 自习室
+quiet zone	/ˈkwaɪət zəʊn/	n. 安静区
+copy machine	/ˈkɒpi məˈʃiːn/	n. 复印机
+printer	/ˈprɪntə(r)/	n. 打印机
+scanner	/ˈskænə(r)/	n. 扫描仪
+Wi-Fi	/ˈwaɪ faɪ/	n. 无线网络
+password	/ˈpɑːswɜːd/	n. 密码
+login	/ˈlɒɡɪn/	v. & n. 登录
+username	/ˈjuːzəneɪm/	n. 用户名
+troubleshoot	/ˈtrʌblʃuːt/	v. 排查故障
+malfunction	/ˌmælˈfʌŋkʃn/	v. & n. 故障
+software	/ˈsɒftweə(r)/	n. 软件
+hardware	/ˈhɑːdweə(r)/	n. 硬件
+USB drive	/ˌjuː es ˈbi draɪv/	n. U盘
+cloud storage	/klaʊd ˈstɔːrɪdʒ/	n. 云存储
+citation	/saɪˈteɪʃn/	n. 引用
+plagiarism	/ ˈpleɪdʒərɪzəm/	n. 剽窃
+bank account	/bæŋk ə ˈkaʊnt/	n. 银行账户
+deposit	/dɪˈpɒzɪt/	v. & n. 存款
+withdraw	/wɪðˈdrɔː/	v. 取款
+ATM	/ˌeɪ tiː ˈem/	n. 自动取款机
+debit card	/ˈdebɪt kɑːd/	n. 借记卡
+credit card	/ˈkredɪt kɑːd/	n. 信用卡
+credit limit	/ˈkredɪt ˈlɪmɪt/	n. 信用额度
+statement	/ˈsteɪtmənt/	n. 银行对账单
+balance	/ˈbæləns/	n. 账户余额
+overdraft	/ˈəʊvədraft/	n. 透支
+interest	/ˈɪntrəst/	n. 利息
+savings account	/ˈseɪvɪŋz ə ˈkaʊnt/	n. 储蓄账户
+checking account	/ˈtʃekɪŋ ə ˈkaʊnt/	n. 支票账户
+loan	/ləʊn/	n. & v. 贷款；借出
+mortgage	/ˈmɔːɡɪdʒ/	n. 抵押贷款
+collateral	/kəˈlætərəl/	n. 抵押品
+repay	/rɪˈpeɪ/	v. 偿还
+installment	/ɪnˈstɔːlmənt/	n. 分期付款
+credit score	/ˈkredɪt skɔː(r)/	n. 信用评分
+teller	/ˈtelə(r)/	n. 银行柜员
+manager	/ ˈmænɪdʒə(r)/	n. 银行经理
+currency	/ˈkʌrənsi/	n. 货币
+exchange rate	/ɪksˈtʃeɪndʒ reɪt/	n. 汇率
+transaction	/trænˈzækʃn/	n. 交易
+receipt	/rɪˈsiːt/	n. 交易收据
+password	/ˈpɑːswɜːd/	n. 密码
+pin code	/ˈpɪn kəʊd/	n. 个人识别码
+fraud	/frɔːd/	n. 诈骗
+secure	/sɪˈkjʊə(r)/	adj. 安全的
+online banking	/ˌɒnˈlaɪn ˈbæŋkɪŋ/	n. 网上银行
+mobile banking	/ˈməʊbaɪl ˈbæŋkɪŋ/	n. 手机银行
+transfer	/trænsˈfɜː(r)/	v. & n. 转账
+wire transfer	/ˈwaɪə træns ˈfɜː(r)/	n. 电汇
+bill payment	/bɪl ˈpeɪmənt/	n. 账单支付
+deposit slip	/dɪˈpɒzɪt slɪp/	n. 存款单
+withdrawal slip	/wɪðˈdrɔːəl slɪp/	n. 取款单
+endorsement	/ɪnˈdɔːsmənt/	n. 背书
+ATM fee	/ˌeɪ tiː ˈem fiː/	n. 取款机手续费
+minimum balance	/ˈmɪnɪməm ˈbæləns/	n. 最低余额
+service fee	/ˈsɜːvɪs fiː/	n. 服务费
+registration	/ˌredʒɪ ˈstreɪʃn/	n. 课程注册
+enroll	/ɪnˈrəʊl/	v. 选课；入学
+course	/kɔːs/	n. 课程
+semester	/sɪ ˈmestə(r)/	n. 学期
+quarter	/ˈkwɔːtə(r)/	n. 学季
+credit	/ˈkredɪt/	n. 学分
+credit hour	/ˈkredɪt ˈaʊə(r)/	n. 学分学时
+prerequisite	/ˌpriː ˈrekwəzɪt/	n. 先修课程
+core course	/kɔː(r) kɔːs/	n. 核心课程
+elective	/ɪˈlektɪv/	n. 选修课
+major	/ˈmeɪdʒə(r)/	n. 专业
+minor	/ˈmaɪnə(r)/	n. 辅修专业
+department	/dɪ ˈpɑːtmənt/	n. 院系
+faculty	/ˈfæklti/	n. 教职员工
+professor	/prəˈfesə(r)/	n. 教授
+instructor	/ɪn ˈstrʌktə(r)/	n. 讲师
+syllabus	/ˈsɪləbəs/	n. 课程大纲
+schedule	/ˈʃedjuːl/	n. 课程表
+classroom	/ˈklɑːsruːm/	n. 教室
+lecture hall	/ˈlektʃə hɔːl/	n. 阶梯教室
+lab	/læb/	n. 实验室
+tutorial	/tjuːˈtɔːriəl/	n. 辅导课
+workshop	/ˈwɜːkʃɒp/	n. 研讨班
+waitlist	/ˈweɪtlɪst/	n. 候补名单
+drop	/drɒp/	v. 退课
+add	/æd/	v. 加课
+deadline	/ˈdedlaɪn/	n. 截止日期
+tuition	/tjuːˈɪʃn/	n. 学费
+fee	/fiː/	n. 费用
+scholarship	/ˈskɒləʃɪp/	n. 奖学金
+grant	/ɡrɑːnt/	n. 助学金
+financial aid	/faɪˈnænʃl eɪd/	n. 经济援助
+transcript	/ ˈtrænskrɪpt/	n. 成绩单
+GPA	/ˌdʒiː piː ˈeɪ/	n. 平均绩点
+audit	/ˈɔːdɪt/	v. 旁听
+attendance	/əˈtendəns/	n. 出勤率
+participation	/pɑːˌtɪsɪ ˈpeɪʃn/	n. 课堂参与
+assignment	/ə ˈsaɪnmənt/	n. 作业
+exam	/ɪɡˈzæm/	n. 考试
+final	/ˈfaɪnl/	n. 期末考试
+quiz	/kwɪz/	n. 小测验
+paper	/ˈpeɪpə(r)/	n. 论文
+presentation	/ˌprezn ˈteɪʃn/	n. 课堂展示
+online course	/ˌɒnˈlaɪn kɔːs/	n. 在线课程
+symptom	/ˈsɪmptəm/	n. 症状
+fever	/ˈfiːvə(r)/	n. 发烧
+cough	/kɒf/	v. & n. 咳嗽
+cold	/kəʊld/	n. 感冒
+flu	/fluː/	n. 流感
+headache	/ˈhedeɪk/	n. 头痛
+stomachache	/ ˈstʌməkeɪk/	n. 胃痛
+fatigue	/fəˈtiːɡ/	n. 疲劳
+nausea	/ˈnɔːziə/	n. 恶心
+vomit	/ˈvɒmɪt/	v. & n. 呕吐
+diarrhea	/ˌdaɪəˈriːə/	n. 腹泻
+dehydration	/ˌdiːhaɪ ˈdreɪʃn/	n. 脱水
+dizziness	/ˈdɪzɪnəs/	n. 头晕
+sore throat	/sɔː θrəʊt/	n. 喉咙痛
+runny nose	/ˈrʌni nəʊz/	n. 流鼻涕
+allergies	/ˈælədʒiz/	n. 过敏
+pollen	/ˈpɒlən/	n. 花粉
+rash	/ræʃ/	n. 皮疹
+itchy	/ˈɪtʃi/	adj. 发痒的
+infection	/ɪnˈfekʃn/	n. 感染
+bacteria	/bækˈtɪəriə/	n. 细菌
+virus	/ˈvaɪrəs/	n. 病毒
+antibiotics	/ˌæntibaɪ ˈɒtɪks/	n. 抗生素
+medicine	/ˈmedsn/	n. 药物
+prescription	/prɪˈskrɪpʃn/	n. 处方
+over-the- counter	/ˌəʊvə ðə ˈkaʊntə(r)/	adj. 非处方的
+dosage	/ˈdəʊsɪdʒ/	n. 剂量
+side effect	/saɪd ɪˈfekt/	n. 副作用
+drowsiness	/ˈdraʊzinəs/	n. 困倦
+doctor	/ˈdɒktə(r)/	n. 医生
+physician	/fɪˈzɪʃn/	n. 内科医生
+specialist	/ˈspeʃəlɪst/	n. 专科医生
+dentist	/ˈdentɪst/	n. 牙医
+nurse	/nɜːs/	n. 护士
+clinic	/ˈklɪnɪk/	n. 诊所
+hospital	/ˈhɒspɪtl/	n. 医院
+emergency room	/ɪ ˈmɜːdʒənsi ruːm/	n. 急诊室
+appointment	/ə ˈpɔɪntmənt/	n. 预约
+check-up	/ˈtʃek ʌp/	n. 体检
+vaccine	/ˈvæksiːn/	n. 疫苗
+immunity	/ɪˈmjuːnəti/	n. 免疫力
+diet	/ˈdaɪət/	n. 饮食
+nutrition	/njuːˈtrɪʃn/	n. 营养
+exercise	/ˈeksəsaɪz/	n. & v. 锻炼
+fitness	/ˈfɪtnəs/	n. 健康；健身
+stress	/stres/	n. 压力
+mental health	/ˈmentl helθ/	n. 心理健康
+counseling	/ˈkaʊnslɪŋ/	n. 心理咨询
+sleep	/sliːp/	n. & v. 睡眠
+wellness	/ˈwelnəs/	n. 健康养生
+policy	/ˈpɒləsi/	n. 政策
+regulation	/ˌreɡjuˈleɪʃn/	n. 规章制度
+rule	/ruːl/	n. 规则
+code	/kəʊd/	n. 行为准则
+conduct	/ˈkɒndʌkt/	n. 行为
+disciplinary	/ˈdɪsəplɪnəri/	adj. 纪律的
+violation	/ˌvaɪəˈleɪʃn/	n. 违规
+penalty	/ˈpenəlti/	n. 处罚
+fine	/faɪn/	n. 罚款
+suspension	/səˈspenʃn/	n. 停学
+expulsion	/ɪkˈspʌlʃn/	n. 开除
+probation	/prəˈbeɪʃn/	n. 留校察看
+mandatory	/ˈmændətəri/	adj. 强制性的
+optional	/ˈɒpʃənl/	adj. 可选的
+curfew	/ˈkɜːfjuː/	n. 宵禁
+dormitory	/ˈdɔːmətri/	n. 宿舍
+visitor	/ˈvɪzɪtə(r)/	n. 访客
+paraphernalia	/ˌpærəfə ˈneɪliə/	n. 违禁物品
+inspection	/ɪnˈspekʃn/	n. 检查
+attendance	/əˈtendəns/	n. 考勤
+excused absence	/ɪkˈskjuːzd ˈæbsəns/	n. 请假
+plagiarism	/ ˈpleɪdʒərɪzəm/	n. 剽窃
+academic integrity	/ˌækəˈdemɪk ɪnˈteɡrəti/	n. 学术诚信
+tuition waiver	/tjuːˈɪʃn ˈweɪvə(r)/	n. 学费减免
+scholarship renewal	/ˈskɒləʃɪp rɪ ˈnjuːəl/	n. 奖学金续领
+campus security	/ˈkæmpəs sɪ ˈkjʊərəti/	n. 校园安全
+emergency protocol	/ɪˈmɜːdʒənsi ˈprəʊtəkɒl/	n. 应急规程
+evacuation	/ɪˌvækjuˈeɪʃn/	n. 疏散
+sustainability	/səˌsteɪnə ˈbɪləti/	n. 可持续发展政策
+recycling program	/ˌriːˈsaɪklɪŋ ˈprəʊɡræm/	n. 回收计划
+vehicle registration	/ˈviːəkl ˌredʒɪ ˈstreɪʃn/	n. 车辆登记
+parking permit	/ˈpɑːkɪŋ ˈpɜːmɪt/	n. 停车许可证
+accessibility	/əkˌsesəˈbɪləti/	n. 无障碍设施政策
+disability services	/ˌdɪsəˈbɪləti ˈsɜːvɪsɪz/	n. 残障服务
+pet policy	/pet ˈpɒləsi/	n. 宠物政策
+service animal	/ˈsɜːvɪs ˈænɪml/	n. 服务型动物
+meal plan	/miːl plæn/	n. 餐卡政策
+dining hall	/ˈdaɪnɪŋ hɔːl/	n. 食堂
+graduation requirement	/ˌɡrædʒuˈeɪʃn rɪˈkwaɪəmənt/	n. 毕业要求
+orientation	/ˌɔːriənˈteɪʃn/	n. 新生入学指
+campus tour	/ˈkæmpəs tʊə(r)/	n. 校园参观
+club fair	/klʌb feə(r)/	n. 社团招新大会
+student organization	/ˈstjuːdnt ˌɔːɡənaɪ ˈzeɪʃn/	n. 学生组织
+fraternity	/frəˈtɜːnəti/	n. 兄弟会
+sorority	/səˈrɒrəti/	n. 姐妹会
+fundraiser	/ ˈfʌndreɪzə(r)/	n. 筹款活动
+charity	/ˈtʃærəti/	n. 慈善活动
+bake sale	/beɪk seɪl/	n. 烘焙义卖
+auction	/ˈɔːkʃn/	n. 拍卖会
+concert	/ˈkɒnsət/	n. 音乐会
+performance	/pəˈfɔːməns/	n. 演出
+theater	/ˈθɪətə(r)/	n. 剧院
+exhibition	/ˌeksɪˈbɪʃn/	n. 展览
+gallery	/ˈɡæləri/	n. 画廊
+workshop	/ˈwɜːkʃɒp/	n. 研习会
+seminar	/ˈsemɪnɑː(r)/	n. 研讨会
+lecture series	/ˈlektʃə ˈsɪəriːz/	n. 系列讲座
+guest speaker	/ɡest ˈspiːkə(r)/	n. 客座演讲者
+debate	/dɪˈbeɪt/	n. 辩论赛
+competition	/ˌkɒmpəˈtɪʃn/	n. 竞赛
+sports event	/ˈspɔːts ɪ ˈvent/	n. 体育赛事
+athletics	/æθˈletɪks/	n. 体育运动
+team spirit	/tiːm ˈspɪrɪt/	n. 团队精神
+cheerleading	/ˈtʃɪəliːdɪŋ/	n. 啦啦队活动
+tailgate party	/ˈteɪlɡeɪt ˈpɑːti/	n. 车尾派对
+homecoming	/ ˈhəʊmkʌmɪŋ/	n. 返校节
+parade	/pəˈreɪd/	n. 游行
+dance	/dɑːns/	n. 舞会
+formal	/ˈfɔːml/	adj. 正式的
+prom	/prɒm/	n. 毕业舞会
+catering	/ˈkeɪtərɪŋ/	n. 餐饮服务
+graduation ceremony	/ˌɡrædʒu ˈeɪʃn ˈserəməni/	n. 毕业典礼
+diploma	/dɪˈpləʊmə/	n. 毕业证书
+commencement speech	/kə ˈmensmənt spiːtʃ/	n. 毕业致辞
+alumni	/əˈlʌmnaɪ/	n. 校友
+field trip	/fiːld trɪp/	n. 实地考察
+volunteer activity	/ˌvɒlənˈtɪə ækˈtɪvəti/	n. 志愿活动
+potluck	/ˈpɒtlʌk/	n. 百乐餐
+movie night	/ˈmuːvi naɪt/	n. 电影之夜
+game night	/ɡeɪm naɪt/	n. 游戏之夜
+picnic	/ˈpɪknɪk/	n. 野餐
+cultural festival	/ˈkʌltʃərəl ˈfestɪvl/	n. 文化节
+talent show	/ˈtælənt ʃəʊ/	n. 才艺表演
+karaoke night	/ˌkæriˈəʊki naɪt/	n. 卡拉OK之夜
+psychology	/saɪ ˈkɒlədʒi/	n. 心理学
+cognition	/kɒɡˈnɪʃn/	n. 认知
+perception	/pəˈsepʃn/	n. 感知
+attention	/əˈtenʃn/	n. 注意力
+memory	/ˈmeməri/	n. 记忆
+short-term memory	/ˌʃɔːt tɜːm ˈmeməri/	n. 短时记忆
+long-term memory	/ˌlɒŋ tɜːm ˈmeməri/	n. 长时记忆
+recall	/rɪˈkɔːl/	v. 回忆
+recognition	/ˌrekəɡ ˈnɪʃn/	n. 识别
+learning	/ˈlɜːnɪŋ/	n. 学习
+conditioning	/kən ˈdɪʃənɪŋ/	n. 条件作用
+reinforcement	/ˌriːɪn ˈfɔːsmənt/	n. 强化
+behavior	/bɪ ˈheɪvjə(r)/	n. 行为
+motivation	/ˌməʊtɪ ˈveɪʃn/	n. 动机
+emotion	/ɪˈməʊʃn/	n. 情绪
+mood	/muːd/	n. 心境
+personality	/ˌpɜːsə ˈnæləti/	n. 人格
+extroversion	/ˌekstrə ˈvɜːʃn/	n. 外向性
+introversion	/ˌɪntrə ˈvɜːʃn/	n. 内向性
+intelligence	/ɪn ˈtelɪdʒəns/	n. 智力
+IQ	/ˌaɪ ˈkjuː/	n. 智商
+creativity	/ˌkriːeɪ ˈtɪvəti/	n. 创造力
+problem- solving	/ˈprɒbləm ˌsɒlvɪŋ/	n. 问题解决
+decision- making	/dɪˈsɪʒn ˌmeɪkɪŋ/	n. 决策
+intuition	/ˌɪntjuˈɪʃn/	n. 直觉
+stress	/stres/	n. 压力
+anxiety	/æŋˈzaɪəti/	n. 焦虑
+depression	/dɪˈpreʃn/	n. 抑郁
+therapy	/ˈθerəpi/	n. 治疗
+counseling	/ˈkaʊnslɪŋ/	n. 心理咨询
+empathy	/ˈempəθi/	n. 共情
+sympathy	/ˈsɪmpəθi/	n. 同情
+self-esteem	/ˌself ɪ ˈstiːm/	n. 自尊
+self-efficacy	/ˌself ˈefɪkəsi/	n. 自我效能感
+social psychology	/ˈsəʊʃl saɪ ˈkɒlədʒi/	n. 社会心理学
+conformity	/kən ˈfɔːməti/	n. 从众
+obedience	/əˈbiːdiəns/	n. 服从
+group dynamics	/ɡruːp daɪ ˈnæmɪks/	n. 群体动力学
+prejudice	/ ˈpredʒudɪs/	n. 偏见
+stereotype	/ˈsteriətaɪp/	n. 刻板印象
+attitude	/ˈætɪtjuːd/	n. 态度
+persuasion	/pəˈsweɪʒn/	n. 说服
+altruism	/ ˈæltruɪzəm/	n. 利他主义
+aggression	/əˈɡreʃn/	n. 攻击性
+frustration	/frʌˈstreɪʃn/	n. 挫折感
+art	/ɑːt/	n. 艺术
+painting	/ˈpeɪntɪŋ/	n. 绘画
+sculpture	/ˈskʌlptʃə(r)/	n. 雕塑
+drawing	/ˈdrɔːɪŋ/	n. 素描
+sketch	/sketʃ/	n. 草图
+portrait	/ˈpɔːtreɪt/	n. 肖像画
+landscape	/ˈlændskeɪp/	n. 风景画
+still life	/stɪl laɪf/	n. 静物画
+abstract art	/ˈæbstrækt ɑːt/	n. 抽象艺术
+realism	/ˈriːəlɪzəm/	n. 现实主义
+impressionism	/ɪm ˈpreʃnɪzəm/	n. 印象派
+surrealism	/səˈriːəlɪzəm/	n. 超现实主义
+artist	/ˈɑːtɪst/	n. 艺术家
+gallery	/ˈɡæləri/	n. 画廊
+museum	/mjuˈziːəm/	n. 博物馆
+exhibition	/ˌeksɪˈbɪʃn/	n. 展览
+calligraphy	/kəˈlɪɡrəfi/	n. 书法
+craft	/krɑːft/	n. 手工艺
+pottery	/ˈpɒtəri/	n. 陶器
+textile	/ˈtekstaɪl/	n. 纺织品
+weaving	/ˈwiːvɪŋ/	n. 编织术
+knitting	/ˈnɪtɪŋ/	n. 针织术
+jewelry	/ˈdʒuːəlri/	n. 珠宝
+architecture	/ ˈɑːkɪtektʃə(r)/	n. 建筑艺术
+design	/dɪˈzaɪn/	n. & v. 设计
+aesthetics	/iːsˈθetɪks/	n. 美学
+composition	/ˌkɒmpə ˈzɪʃn/	n. 构图
+color palette	/ˈkʌlə ˈpælət/	n. 调色板；色彩搭配
+texture	/ˈtekstʃə(r)/	n. 质感
+medium	/ˈmiːdiəm/	n. 艺术媒介
+oil painting	/ɔɪl ˈpeɪntɪŋ/	n. 油画
+watercolor	/ ˈwɔːtəkʌlə(r)/	n. 水彩画
+acrylic	/əˈkrɪlɪk/	n. 丙烯画
+printmaking	/ ˈprɪntmeɪkɪŋ/	n. 版画制作
+woodcut	/ˈwʊdkʌt/	n. 木刻版画
+photography	/fəˈtɒɡrəfi/	n. 摄影艺术
+digital art	/ˈdɪdʒɪtl ɑːt/	n. 数字艺术
+animation	/ˌænɪˈmeɪʃn/	n. 动画艺术
+performance art	/pəˈfɔːməns ɑːt/	n. 行为艺术
+installation art	/ˌɪnstəˈleɪʃn ɑːt/	n. 装置艺术
+geology	/dʒiˈɒlədʒi/	n. 地质学
+geologist	/dʒiˈɒlədʒɪst/	n. 地质学家
+earthquake	/ˈɜːθkweɪk/	n. 地震
+tectonic plates	/tekˈtɒnɪk pleɪts/	n. 地壳板块
+volcano	/vɒlˈkeɪnəʊ/	n. 火山
+eruption	/ɪˈrʌpʃn/	n. 火山喷发
+lava	/ˈlɑːvə/	n. 熔岩
+magma	/ˈmæɡmə/	n. 岩浆
+erosion	/ɪˈrəʊʒn/	n. 侵蚀
+weathering	/ˈweðərɪŋ/	n. 风化
+sediment	/ˈsedɪmənt/	n. 沉积物
+fossil	/ˈfɒsl/	n. 化石
+paleontology	/ˌpeɪliɒn ˈtɒlədʒi/	n. 古生物学
+rock	/rɒk/	n. 岩石
+igneous rock	/ˈɪɡniəs rɒk/	n. 火成岩
+sedimentary rock	/ˌsedɪˈmentri rɒk/	n. 沉积岩
+metamorphic rock	/ˌmetəˈmɔːfɪk rɒk/	n. 变质岩
+mineral	/ˈmɪnərəl/	n. 矿物
+crust	/krʌst/	n. 地壳
+mantle	/ˈmæntl/	n. 地幔
+core	/kɔː(r)/	n. 地核
+continental drift	/ˌkɒntɪˈnentl drɪft/	n. 大陆漂移说
+landform	/ˈlændfɔːm/	n. 地形
+mountain range	/ˈmaʊntən reɪndʒ/	n. 山脉
+valley	/ˈvæli/	n. 山谷
+plain	/pleɪn/	n. 平原
+desert	/ˈdezət/	n. 沙漠
+ocean	/ˈəʊʃn/	n. 海洋
+ocean floor	/ˈəʊʃn flɔː(r)/	n. 洋底
+trench	/trentʃ/	n. 海沟
+ridge	/rɪdʒ/	n. 海岭
+tsunami	/tsuːˈnɑːmi/	n. 海啸
+glacier	/ˈɡlæsiə(r)/	n. 冰川
+ice age	/aɪs eɪdʒ/	n. 冰河时代
+landslide	/ˈlændslaɪd/	n. 山体滑坡
+groundwater	/ ˈɡraʊndwɔːtə(r)/	n. 地下水
+aquifer	/ˈækwɪfə(r)/	n. 含水层
+geothermal	/ˌdʒiːəʊˈθɜːml/	adj. 地热的
+fault	/fɔːlt/	n. 断层
+deposition	/ˌdepəˈzɪʃn/	n. 沉积
+delta	/ˈdeltə/	n. 三角洲
+erosional	/ɪˈrəʊʒənl/	adj. 侵蚀的
+topography	/təˈpɒɡrəfi/	n. 地形学
+elevation	/ˌelɪˈveɪʃn/	n. 海拔
+ecology	/iːˈkɒlədʒi/	n. 生态学
+ecosystem	/ˈiːkəʊsɪstəm/	n. 生态系统
+ecologist	/iːˈkɒlədʒɪst/	n. 生态学家
+organism	/ˈɔːɡənɪzəm/	n. 生物；有机
+community	/kəˈmjuːnəti/	n. 生物群落
+population	/ˌpɒpjuˈleɪʃn/	n. 种群
+species	/ˈspiːʃiːz/	n. 物种
+habitat	/ˈhæbɪtæt/	n. 栖息地
+niche	/nɪtʃ/	n. 生态位
+producer	/prəˈdjuːsə(r)/	n. 生产者
+consumer	/kənˈsjuːmə(r)/	n. 消费者
+herbivore	/ˈhɜːbɪvɔː(r)/	n. 食草动物
+carnivore	/ˈkɑːnɪvɔː(r)/	n. 食肉动物
+omnivore	/ˈɒmnɪvɔː(r)/	n. 杂食动物
+decomposer	/ˌdiːkəm ˈpəʊzə(r)/	n. 分解者
+food chain	/fuːd tʃeɪn/	n. 食物链
+food web	/fuːd web/	n. 食物网
+trophic level	/ˈtrɒfɪk ˈlevl/	n. 营养级
+predator	/ˈpredətə(r)/	n. 捕食者
+prey	/preɪ/	n. 猎物
+symbiosis	/ˌsɪmbaɪˈəʊsɪs/	n. 共生
+mutualism	/ ˈmjuːtʃuəlɪzəm/	n. 互利共生
+commensalism	/kə ˈmensəlɪzəm/	n. 偏利共生
+parasitism	/ ˈpærəsaɪtɪzəm/	n. 寄生
+parasite	/ˈpærəsaɪt/	n. 寄生虫
+competition	/ˌkɒmpəˈtɪʃn/	n. 竞争
+resource	/rɪˈsɔːs/	n. 资源
+biodiversity	/ˌbaɪəʊdaɪ ˈvɜːsəti/	n. 生物多样性
+conservation	/ˌkɒnsəˈveɪʃn/	n. 保护
+extinction	/ɪkˈstɪŋkʃn/	n. 灭绝
+endangered	/ɪnˈdeɪndʒəd/	adj. 濒危的
+threatened	/ˈθretnd/	adj. 受威胁的
+pollution	/pəˈluːʃn/	n. 污染
+deforestation	/ˌdiːˌfɒrɪˈsteɪʃn/	n. 森林砍伐
+desertification	/dɪˌzɜːtɪfɪ ˈkeɪʃn/	n. 沙漠化
+eutrophication	/ˌjuːtrəfɪˈkeɪʃn/	n. 富营养化
+algal bloom	/ˈælɡl bluːm/	n. 水华；藻华
+sustainability	/səˌsteɪnə ˈbɪləti/	n. 可持续性
+renewable	/rɪˈnjuːəbl/	adj. 可再生的
+non-renewable	/ˌnɒnrɪˈnjuːəbl/	adj. 不可再生的
+biology	/baɪˈɒlədʒi/	n. 生物学
+cell	/sel/	n. 细胞
+cell membrane	/sel ˈmembreɪn/	n. 细胞膜
+nucleus	/ˈnjuːkliəs/	n. 细胞核
+DNA	/ˌdiː en ˈeɪ/	n. 脱氧核糖核酸
+gene	/dʒiːn/	n. 基因
+chromosome	/ ˈkrəʊməsəʊm/	n. 染色体
+tissue	/ˈtɪʃuː/	n. 组织
+organ	/ˈɔːɡən/	n. 器官
+organ system	/ˈɔːɡən ˈsɪstəm/	n. 器官系统
+metabolism	/mə ˈtæbəlɪzəm/	n. 新陈代谢
+photosynthesis	/ˌfəʊtəʊ ˈsɪnθəsɪs/	n. 光合作用
+respiration	/ˌrespəˈreɪʃn/	n. 呼吸作用
+mitosis	/maɪˈtəʊsɪs/	n. 有丝分裂
+meiosis	/maɪˈəʊsɪs/	n. 减数分裂
+gamete	/ˈɡæmiːt/	n. 配子
+fertilization	/ˌfɜːtəlaɪ ˈzeɪʃn/	n. 受精
+zygote	/ˈzaɪɡəʊt/	n. 受精卵
+embryo	/ˈembriəʊ/	n. 胚胎
+evolution	/ˌiːvəˈluːʃn/	n. 进化
+natural selection	/ˈnætʃrəl sɪ ˈlekʃn/	n. 自然选择
+adaptation	/ˌædæpˈteɪʃn/	n. 适应
+mutation	/mjuːˈteɪʃn/	n. 突变
+species	/ˈspiːʃiːz/	n. 物种
+taxonomy	/tækˈsɒnəmi/	n. 生物分类学
+kingdom	/ˈkɪŋdəm/	n. 界
+vertebrate	/ˈvɜːtɪbrət/	n. 脊椎动物
+invertebrate	/ɪnˈvɜːtɪbrət/	n. 无脊椎动物
+mammal	/ˈmæml/	n. 哺乳动物
+reptile	/ˈreptaɪl/	n. 爬行动物
+amphibian	/æmˈfɪbiən/	n. 两栖动物
+metamorphosis	/ˌmetə ˈmɔːfəsɪs/	n. 变态发育
+fungi	/ˈfʌndʒaɪ/	n. 真菌
+bacteria	/bækˈtɪəriə/	n. 细菌
+virus	/ˈvaɪrəs/	n. 病毒
+immune system	/ɪˈmjuːn ˈsɪstəm/	n. 免疫系统
+antibody	/ˈæntibɒdi/	n. 抗体
+antigen	/ˈæntɪdʒən/	n. 抗原
+homeostasis	/ˌhəʊmiəʊ ˈsteɪsɪs/	n. 稳态
+hormone	/ˈhɔːməʊn/	n. 激素
+enzyme	/ˈenzaɪm/	n. 酶
+protein	/ˈprəʊtiːn/	n. 蛋白质
+carbohydrate	/ˌkɑːbəʊ ˈhaɪdreɪt/	n. 碳水化合物
+lipid	/ˈlɪpɪd/	n. 脂质
+ecology	/iːˈkɒlədʒi/	n. 生态学
+astronomy	/əˈstrɒnəmi/	n. 天文学
+astronomer	/ə ˈstrɒnəmə(r)/	n. 天文学家
+celestial	/səˈlestɪəl/	adj. 天体的
+star	/stɑː(r)/	n. 恒星
+planet	/ˈplænɪt/	n. 行星
+solar system	/ˈsəʊlə ˈsɪstəm/	n. 太阳系
+orbit	/ˈɔːbɪt/	v. & n. 轨道；绕转
+moon	/muːn/	n. 卫星；月球
+satellite	/ˈsætəlaɪt/	n. 卫星
+asteroid	/ˈæstərɔɪd/	n. 小行星
+comet	/ˈkɒmɪt/	n. 彗星
+meteor	/ˈmiːtiə(r)/	n. 流星
+meteorite	/ˈmiːtiəraɪt/	n. 陨石
+galaxy	/ˈɡæləksi/	n. 星系
+Milky Way	/ˈmɪlki weɪ/	n. 银河系
+constellation	/ˌkɒnstə ˈleɪʃn/	n. 星座
+nebula	/ˈnebjələ/	n. 星云
+black hole	/blæk həʊl/	n. 黑洞
+supernova	/ˌsuːpə ˈnəʊvə/	n. 超新星
+pulsar	/ˈpʌlsɑː(r)/	n. 脉冲星
+neutron star	/ˈnjuːtrɒn stɑː(r)/	n. 中子星
+gravity	/ˈɡrævəti/	n. 引力
+cosmos	/ˈkɒzmɒs/	n. 宇宙
+Big Bang	/bɪɡ bæŋ/	n. 宇宙大爆炸
+expansion	/ɪkˈspænʃn/	n. 膨胀
+dark matter	/dɑːk ˈmætə(r)/	n. 暗物质
+dark energy	/dɑːk ˈenədʒi/	n. 暗能量
+telescope	/ˈtelɪskəʊp/	n. 望远镜
+observatory	/əbˈzɜːvətri/	n. 天文台
+light-year	/ˈlaɪt jɪə(r)/	n. 光年
+astronaut	/ˈæstrənɔːt/	n. 宇航员
+spacecraft	/ˈspeɪskrɑːft/	n. 航天器
+orbit	/ˈɔːbɪt/	v. 绕轨道运行
+launch	/lɔːntʃ/	v. 发射
+atmosphere	/ ˈætməsfɪə(r)/	n. 大气层
+radiation	/ˌreɪdiˈeɪʃn/	n. 辐射
+eclipse	/ɪˈklɪps/	n. 日食；月食
+solar eclipse	/ˈsəʊlə ɪ ˈklɪps/	n. 日食
+lunar eclipse	/ˈluːnə ɪ ˈklɪps/	n. 月食
+equinox	/ˈiːkwɪnɒks/	n. 春分；秋分
+solstice	/ˈsɒlstɪs/	n. 夏至；冬至
+history	/ˈhɪstri/	n. 历史
+historian	/hɪˈstɔːriən/	n. 历史学家
+civilization	/ˌsɪvəlaɪ ˈzeɪʃn/	n. 文明
+ancient	/ˈeɪnʃənt/	adj. 古代的
+empire	/ˈempaɪə(r)/	n. 帝国
+dynasty	/ˈdɪnəsti/	n. 朝代
+monarch	/ˈmɒnək/	n. 君主
+king	/kɪŋ/	n. 国王
+queen	/kwiːn/	n. 女王
+pharaoh	/ˈfeərəʊ/	n. 法老
+revolution	/ˌrevəˈluːʃn/	n. 革命
+war	/wɔː(r)/	n. 战争
+battle	/ˈbætl/	n. 战役
+treaty	/ˈtriːti/	n. 条约
+alliance	/əˈlaɪəns/	n. 联盟
+colony	/ˈkɒləni/	n. 殖民地
+independence	/ˌɪndɪ ˈpendəns/	n. 独立
+constitution	/ˌkɒnstɪˈtjuːʃn/	n. 宪法
+democracy	/dɪˈmɒkrəsi/	n. 民主
+dictatorship	/ˌdɪkˈteɪtəʃɪp/	n. 独裁统治
+archaeology	/ˌɑːkiˈɒlədʒi/	n. 考古学
+archaeologist	/ˌɑːki ˈɒlədʒɪst/	n. 考古学家
+artifact	/ˈɑːtɪfækt/	n. 文物
+excavation	/ˌekskəˈveɪʃn/	n. 挖掘
+ruin	/ˈruːɪn/	n. 遗迹
+fossil	/ˈfɒsl/	n. 化石
+manuscript	/ ˈmænjuskrɪpt/	n. 手稿
+document	/ˈdɒkjumənt/	n. 文件
+era	/ˈɪərə/	n. 时代
+period	/ˈpɪəriəd/	n. 时期
+middle ages	/ˈmɪdl eɪdʒɪz/	n. 中世纪
+renaissance	/rɪˈneɪsns/	n. 文艺复兴
+industrial revolution	/ɪnˈdʌstriəl ˌrevəˈluːʃn/	n. 工业革命
+invention	/ɪnˈvenʃn/	n. 发明
+exploration	/ˌekspləˈreɪʃn/	n. 探险
+explorer	/ɪkˈsplɔːrə(r)/	n. 探险家
+migration	/maɪˈɡreɪʃn/	n. 迁徙
+culture	/ˈkʌltʃə(r)/	n. 文化
+tradition	/trəˈdɪʃn/	n. 传统
+heritage	/ˈherɪtɪdʒ/	n. 遗产
+legacy	/ˈleɡəsi/	n. 遗产；遗留物
+reformation	/ˌrefəˈmeɪʃn/	n. 宗教改革
+philosophy	/fəˈlɒsəfi/	n. 哲学
+philosopher	/fəˈlɒsəfə(r)/	n. 哲学家
+religion	/rɪˈlɪdʒən/	n. 宗教
+mythology	/mɪˈθɒlədʒi/	n. 神话
+legend	/ˈledʒənd/	n. 传说
+folklore	/ˈfəʊklɔː(r)/	n. 民间传说
+custom	/ˈkʌstəm/	n. 习俗
+ritual	/ˈrɪtʃuəl/	n. 仪式
+environmental science	/ɪnˌvaɪrən ˈmentl ˈsaɪəns/	n. 环境科学
+climate change	/ˈklaɪmət tʃeɪndʒ/	n. 气候变化
+greenhouse effect	/ ˈɡriːnhaʊs ɪˈfekt/	n. 温室效应
+greenhouse gases	/ ˈɡriːnhaʊs ˈɡæsɪz/	n. 温室气体
+global warming	/ˈɡləʊbl ˈwɔːmɪŋ/	n. 全球变暖
+carbon dioxide	/ˈkɑːbən ˈɒksaɪd/	n. 二氧化碳
+carbon footprint	/ˈkɑːbən ˈfʊtprɪnt/	n. 碳足迹
+conservationist	/ˌkɒnsə ˈveɪʃnɪst/	n. 环保人士；自然资源保护者
+carbon neutral	/ˈkɑːbən ˈnjuːtrəl/	adj. 碳中和的
+environmental protection	/ɪnˌvaɪrən ˈmentl prə ˈtekʃn/	n. 环境保护

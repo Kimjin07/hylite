@@ -65,7 +65,7 @@ tr.u:hover{ background:#F3FAF7; cursor:pointer; }
 
 <script>
 'use strict';
-const BOOK_NAMES = { b3000:'必会3000', prep:'预备词汇', basic:'基础词汇', core:'核心词汇', green:'绿皮书', oxford:'牛津3000+5000', a1:'A1', a2:'A2', b1:'B1', b1p:'B1+', b2:'B2', lis18:'18天听力', liscene:'听力场景', sat:'SAT核心' };
+const BOOK_NAMES = { b3000:'必会3000', prep:'预备词汇', basic:'基础词汇', core:'核心词汇', green:'绿皮书', oxford:'牛津3000+5000', a1:'A1', a2:'A2', b1:'B1', b1p:'B1+', b2:'B2', lis18:'18天听力', liscene:'听力场景', sat:'SAT核心', tfr:'托福阅读', tfl:'托福听力', tfs:'托福口语', tfw:'托福写作' };
 const bookName = id => BOOK_NAMES[id] || (String(id).endsWith('_r') ? (BOOK_NAMES[String(id).slice(0,-2)] || id) + ' 乱序' : id);
 let KEY = sessionStorage.getItem('hy_admin_key') || '';
 let USERS = [];
