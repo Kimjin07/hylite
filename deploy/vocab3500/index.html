@@ -931,6 +931,24 @@ const unitData = {
     "Unit 2": { label: "Unit 2 · Understanding each other", vocabularyData: [] },
     "Unit 3": { label: "Unit 3 · Careers and skills", vocabularyData: [] },
     "Unit 4": { label: "Unit 4 · Never too old to learn", vocabularyData: [] }
+  },
+  "拓展创新学程一": {
+    "Unit 1": { label: "Unit 1 · Our living planet", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Working the land", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · On the move", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Fun with science", vocabularyData: [] }
+  },
+  "拓展创新学程二": {
+    "Unit 1": { label: "Unit 1 · Beware and take care", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Building the future", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Helping people", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Law and order", vocabularyData: [] }
+  },
+  "拓展创新学程三": {
+    "Unit 1": { label: "Unit 1 · Managing yourself", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Thinking out of the box", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Our culture, our treasure", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · What is life?", vocabularyData: [] }
   }
 };
 
@@ -2385,7 +2403,10 @@ async function loadData() {
     "选择性必修一": { "Unit 1": "xb1_u1_data.json", "Unit 2": "xb1_u2_data.json", "Unit 3": "xb1_u3_data.json", "Unit 4": "xb1_u4_data.json" },
     "选择性必修二": { "Unit 1": "xb2_u1_data.json", "Unit 2": "xb2_u2_data.json", "Unit 3": "xb2_u3_data.json", "Unit 4": "xb2_u4_data.json" },
     "选择性必修三": { "Unit 1": "xb3_u1_data.json", "Unit 2": "xb3_u2_data.json", "Unit 3": "xb3_u3_data.json", "Unit 4": "xb3_u4_data.json" },
-    "选择性必修四": { "Unit 1": "xb4_u1_data.json", "Unit 2": "xb4_u2_data.json", "Unit 3": "xb4_u3_data.json", "Unit 4": "xb4_u4_data.json" }
+    "选择性必修四": { "Unit 1": "xb4_u1_data.json", "Unit 2": "xb4_u2_data.json", "Unit 3": "xb4_u3_data.json", "Unit 4": "xb4_u4_data.json" },
+    "拓展创新学程一": { "Unit 1": "cx1_u1_data.json", "Unit 2": "cx1_u2_data.json", "Unit 3": "cx1_u3_data.json", "Unit 4": "cx1_u4_data.json" },
+    "拓展创新学程二": { "Unit 1": "cx2_u1_data.json", "Unit 2": "cx2_u2_data.json", "Unit 3": "cx2_u3_data.json", "Unit 4": "cx2_u4_data.json" },
+    "拓展创新学程三": { "Unit 1": "cx3_u1_data.json", "Unit 2": "cx3_u2_data.json", "Unit 3": "cx3_u3_data.json", "Unit 4": "cx3_u4_data.json" }
   };
 
   // 展平成任务列表，并行加载（原来是 16 个文件串行 await，共 ~11MB，很慢）
