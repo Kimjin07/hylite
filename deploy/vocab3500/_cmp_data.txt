@@ -1,0 +1,175 @@
+==================== skip ====================
+---- collocations (8) ----
+  phrase: skip breakfast / a meal
+  phrase: skip class / school
+  phrase: skip a step / the details
+  phrase: skip over sth.
+  phrase: skip rope
+  phrase: skip a grade / year
+  phrase: skip lunch to do sth.
+  phrase: skip through / skim
+---- synonyms (3) ----
+  syn: miss
+  syn: omit
+  syn: bypass
+---- uncommonMeanings (2) ----
+  [vi.] 蹦蹦跳跳地走;轻快跳跃
+  [vt.] (不辞而别地)溜走;逃避(常 skip town / skip class)
+---- idioms (1) ----
+  idiom: skip a beat
+---- advancedExpressions (3) ----
+  type: 读后续写·因果暗示 | expr: never once suspecting that the very ... she skippe
+  type: 应用文·提醒告诫 | expr: I am writing to remind everyone never to skip ...
+  type: 议论文·反面论证 | expr: those who skip ... often find that no shortcut can
+
+==================== yogurt ====================
+---- collocations (6) ----
+  phrase: plain / natural yogurt
+  phrase: low-fat / fat-free yogurt
+  phrase: a cup / carton / pot of yogurt
+  phrase: frozen yogurt
+  phrase: Greek yogurt
+  phrase: yogurt drink
+---- synonyms (0) ----
+---- uncommonMeanings (0) ----
+---- idioms (0) ----
+---- advancedExpressions (0) ----
+
+==================== faint ====================
+---- collocations (8) ----
+  phrase: faint from hunger / heat / exhaustion
+  phrase: feel faint / dizzy
+  phrase: a faint sound / smell / light
+  phrase: a faint smile
+  phrase: a faint hope / chance
+  phrase: faint with ...
+  phrase: a faint idea / recollection
+  phrase: faintly aware of
+---- synonyms (3) ----
+  syn: pass out
+  syn: collapse
+  syn: dim
+---- uncommonMeanings (2) ----
+  [adj.] 微弱的,隐约的,不清晰的(声音/光线/气味/希望)
+  [adj.] (not have the faintest idea)一点儿也不(知道)
+---- idioms (2) ----
+  idiom: not have the faintest idea
+  idiom: faint heart never won fair lady
+---- advancedExpressions (3) ----
+  type: 读后续写·突发场面 | expr: sb. swayed once, twice, and then fainted ...
+  type: 应用文·警示呼吁 | expr: ..., as one of our own classmates unfortunately di
+  type: 议论文·让步升华 | expr: even the faintest ... can ripple outward in ways w
+
+==================== pass out ====================
+---- collocations (6) ----
+  phrase: pass out from heat / exhaustion / hunger
+  phrase: nearly / almost pass out
+  phrase: pass out cold
+  phrase: pass out and be rushed to hospital
+  phrase: pass out leaflets / copies / sheets
+  phrase: pass out at the sight of
+---- synonyms (3) ----
+  syn: faint
+  syn: black out
+  syn: distribute
+---- uncommonMeanings (2) ----
+  [phr. v.] 分发,派发(给每个人)
+  [phr. v.] (英,尤指军校/警校)结业,毕业
+---- idioms (0) ----
+---- advancedExpressions (3) ----
+  type: 读后续写·突发意外 | expr: just as ..., sb. silently passed out, slumping aga
+  type: 应用文·警示呼吁 | expr: going without ... for too long can cause you to pa
+  type: 议论文·坚毅论证 | expr: those who pushed themselves until they nearly pass
+
+==================== immediately ====================
+---- collocations (7) ----
+  phrase: respond / act immediately
+  phrase: immediately after / before
+  phrase: take effect immediately
+  phrase: immediately recognise / notice
+  phrase: deal with / attend to sth. immediately
+  phrase: immediately available / obvious
+  phrase: immediately in front of / behind
+---- synonyms (4) ----
+  syn: at once
+  syn: instantly
+  syn: promptly
+  syn: right away
+---- uncommonMeanings (2) ----
+  [conj.] (英)一……就……;刚一(引导时间状语从句)
+  [adv.] 紧接着地,紧邻地(位置/时间上)
+---- idioms (0) ----
+---- advancedExpressions (3) ----
+  type: 读后续写·果断行动 | expr: ..., thought giving way entirely to instinct, sb. 
+  type: 应用文·建议指导 | expr: anyone who ... should ... immediately, rather than
+  type: 议论文·防微杜渐 | expr: when a problem is spotted, it ought to be tackled 
+
+==================== concentrate ====================
+---- collocations (8) ----
+  phrase: concentrate on sth.
+  phrase: have trouble / difficulty concentrating
+  phrase: concentrate one's attention / mind on
+  phrase: concentrate one's efforts / energy on
+  phrase: concentrate hard
+  phrase: find it hard to concentrate
+  phrase: concentrate resources / power
+  phrase: power of concentration
+---- synonyms (3) ----
+  syn: focus
+  syn: absorb
+  syn: gather
+---- uncommonMeanings (2) ----
+  [vt.] 使集中,集结,聚集(力量/资源/人)
+  [n.] 浓缩物,浓缩液(如浓缩果汁)
+---- idioms (0) ----
+---- advancedExpressions (3) ----
+  type: 读后续写·因果暗示 | expr: however hard sb. tried to concentrate, ..., for ..
+  type: 应用文·学习建议 | expr: I would advise ... so that we can truly concentrat
+  type: 议论文·能力论证 | expr: the ability to concentrate ... may well be the rar
+
+==================== sex ====================
+---- collocations (7) ----
+  phrase: of both sexes
+  phrase: the same sex
+  phrase: regardless of sex
+  phrase: sex difference(s)
+  phrase: sex ratio
+  phrase: determine the sex of
+  phrase: sex education
+---- synonyms (1) ----
+  syn: gender
+---- uncommonMeanings (1) ----
+  [vt.] 鉴别（动物、雏鸡等）的性别
+---- idioms (2) ----
+  idiom: the opposite sex
+  idiom: the fair sex
+---- advancedExpressions (3) ----
+  type: 读后续写·心理刻画 | expr: regardless of sex or age, no one is immune to ...
+  type: 应用文·倡议建议 | expr: an issue that concerns students of both sexes alik
+  type: 议论文·观点论证 | expr: far from being confined to one sex, ... transcends
+
+==================== extreme ====================
+---- collocations (8) ----
+  phrase: extreme methods / measures
+  phrase: extreme caution
+  phrase: extreme weather / conditions
+  phrase: extreme poverty
+  phrase: extreme sports
+  phrase: at the other extreme
+  phrase: extreme case
+  phrase: an extreme view / opinion
+---- synonyms (3) ----
+  syn: drastic
+  syn: radical
+  syn: intense
+---- uncommonMeanings (1) ----
+  [n.] 极端；极点（常用复数 extremes 指两个极端）
+---- idioms (3) ----
+  idiom: go to extremes
+  idiom: in the extreme
+  idiom: take sth to the extreme
+---- advancedExpressions (3) ----
+  type: 读后续写·情节推进 | expr: driven to such an extreme that ...
+  type: 应用文·劝诫建议 | expr: I would urge you to avoid extremes and instead ...
+  type: 议论文·辩证论证 | expr: neither extreme is the answer; the truth lies in b
+

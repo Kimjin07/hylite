@@ -1,0 +1,25 @@
+collocations count: 15
+  an eye-catching red silk sari
+  an eye-catching design
+  eye-catching colours
+  an eye-catching display
+  an eye-catching headline
+  an eye-catching poster
+  eye-catching packaging
+  an eye-catching outfit
+  an eye‑catching design
+  eye‑catching colours
+  an eye‑catching display
+  an eye‑catching headline
+  an eye‑catching poster
+  eye‑catching packaging
+  an eye‑catching outfit
+advancedExpressions count: 8
+  eye + catching(catch的现在分词) → eye-catching 引人注目的；同类：good-looking / hard-working / time-consuming
+  eye-catching / striking / conspicuous / attractive / noticeable
+  so eye-catching was ... that ...
+  with an eye-catching ..., we can ...
+  eye-catching though ... may be, ...
+  so eye‑catching was ... that ...
+  with an eye‑catching ..., we can ...
+  eye‑catching though ... may be, ...

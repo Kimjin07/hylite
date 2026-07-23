@@ -1,0 +1,14 @@
+FIXCOUNT=13
+wedding.uncommonMeanings: field absent in B1, restored 1 from target
+wedding.idioms: field absent in B1, restored 1 from target
+ceremony.synonyms: field absent in B1, restored 3 from target
+ceremony.uncommonMeanings: field absent in B1, restored 1 from target
+ceremony.idioms: field absent in B1, restored 2 from target
+decorate.synonyms: field absent in B1, restored 3 from target
+decorate.uncommonMeanings: field absent in B1, restored 1 from target
+formal.uncommonMeanings: field absent in B1, restored 1 from target
+tradition.uncommonMeanings: field absent in B1, restored 1 from target
+bride.synonyms: field absent in B1, restored 2 from target
+eye‑catching.collocations: appended 7 missing target entries
+eye‑catching.idioms: field absent in B1, restored 1 from target
+eye‑catching.advancedExpressions: appended 3 missing target entries
