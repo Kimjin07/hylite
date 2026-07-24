@@ -11,9 +11,22 @@
     "sub_section": "",
     "original_sentence": "Covid-19 is caused by a new strain of coronavirus.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a member of a family of viruses that can cause respiratory illness in humans and animals",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers identified the coronavirus in stored samples."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "This coronavirus mainly affects the upper respiratory tract."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Scientists monitor coronaviruses found in wild animals."
+      }
+    ],
     "wordForms": {
       "noun": "coronavirus 冠状病毒；virus 病毒；infection 感染",
       "verb": "",
@@ -42,6 +55,26 @@
         "phrase": "a coronavirus outbreak",
         "translation": "冠状病毒疫情暴发",
         "example": "The coronavirus outbreak changed daily life worldwide. 冠状病毒疫情暴发改变了全球的日常生活。"
+      },
+      {
+        "phrase": "a novel coronavirus",
+        "translation": "新型冠状病毒（novel 强调此前未被识别）",
+        "example": "Scientists began studying a novel coronavirus found in bats. 科学家开始研究一种在蝙蝠中发现的新型冠状病毒。"
+      },
+      {
+        "phrase": "the coronavirus genome",
+        "translation": "冠状病毒基因组",
+        "example": "The team published the coronavirus genome within days. 团队在数日内公布了冠状病毒基因组。"
+      },
+      {
+        "phrase": "human / animal coronaviruses",
+        "translation": "人类/动物冠状病毒（家族总称常用复数）",
+        "example": "Some animal coronaviruses never infect humans. 有些动物冠状病毒从不感染人类。"
+      },
+      {
+        "phrase": "coronavirus infection",
+        "translation": "冠状病毒感染",
+        "example": "Most coronavirus infections in the study were mild. 研究中的多数冠状病毒感染为轻症。"
       }
     ],
     "synonyms": [
@@ -68,13 +101,29 @@
         "type": "同义表达群·疫情话题",
         "expression": "a strain of coronavirus 一种毒株 / a highly infectious disease 高传染性疾病 / carriers and spreaders 携带者与传播者 / preventive measures 预防措施",
         "example": "Covid-19 is a highly infectious disease caused by a new strain of coronavirus. 【课件】新冠肺炎是由一种新型冠状病毒毒株引起的高传染性疾病。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a novel coronavirus / the coronavirus genome / human / animal coronaviruses / coronavirus infection",
+        "example": "Scientists began studying a novel coronavirus found in bats. 科学家开始研究一种在蝙蝠中发现的新型冠状病毒。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Researchers identified the coronavirus in stored samples.",
+        "upgraded": "Researchers identified the coronavirus in stored samples, confirming that it had circulated months earlier.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "This coronavirus mainly affects the upper respiratory tract.",
+        "upgraded": "This coronavirus mainly affects the upper respiratory tract, although severe cases may involve the lungs.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Covid-19 is caused by a new strain of ______ (冠状病毒).",
+        "question": "Covid-19 is caused by a new strain of ____ (冠状病毒).",
         "answer": "coronavirus",
         "note": "课文原句（【课件】）。coronavirus 为可数名词单数，此处 a new strain of + 单数名词。"
       },
@@ -86,7 +135,7 @@
       },
       {
         "type": "选词填空",
-        "question": "用 coronavirus / virus 填空：A computer ______ can destroy your files, while a ______ like the one causing Covid-19 harms your body.",
+        "question": "用 coronavirus / virus 填空：A computer ____ can destroy your files, while a ____ like the one causing Covid-19 harms your body.",
         "answer": "virus; coronavirus",
         "note": "virus 义域宽（含电脑病毒）；coronavirus 专指冠状病毒。第二空由后文 Covid-19 限定。"
       }
@@ -104,7 +153,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to increase greatly in number or amount (2) to reproduce (3) to calculate the product of numbers",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi. & vt.",
@@ -122,7 +171,20 @@
         "example": "If you multiply 3 by 5, the answer is 15. 3 乘以 5 等于 15。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Yeast cells multiplied inside the covered container."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Multiply the width by the height."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Small errors can multiply during repeated calculations."
+      }
+    ],
     "wordForms": {
       "noun": "multiplication 乘法；相乘；繁殖，增多；multiple 倍数",
       "verb": "multiply 使繁殖；使相乘",
@@ -151,6 +213,26 @@
         "phrase": "multiply many times over",
         "translation": "成倍地增加",
         "example": "The risks multiply many times over if you drop your guard. 一旦放松警惕，风险就成倍增加。"
+      },
+      {
+        "phrase": "multiply in number",
+        "translation": "数量增加",
+        "example": "The insects multiply in number during warm months. 昆虫在温暖月份数量增加。"
+      },
+      {
+        "phrase": "problems / risks multiply",
+        "translation": "问题/风险成倍增加（不及物）",
+        "example": "Without clear leadership, small problems quickly multiply. 缺乏明确领导时，小问题会迅速增多。"
+      },
+      {
+        "phrase": "multiply sth by a factor of ...",
+        "translation": "使某物增加……倍",
+        "example": "The new process multiplied output by a factor of four. 新工艺使产量增加到原来的四倍。"
+      },
+      {
+        "phrase": "a multiplying effect",
+        "translation": "倍增效应；不断扩大的影响",
+        "example": "Early investment had a multiplying effect on local employment. 早期投资对当地就业产生了倍增效应。"
       }
     ],
     "synonyms": [
@@ -183,13 +265,29 @@
         "type": "同义表达群·数量剧增",
         "expression": "multiply / increase sharply / grow exponentially / rise dramatically / soar",
         "example": "The number of cases multiplied within days. 病例数在几天内成倍增加。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "multiply in number / problems / risks multiply / multiply sth by a factor of ... / a multiplying effect",
+        "example": "The insects multiply in number during warm months. 昆虫在温暖月份数量增加。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Yeast cells multiplied inside the covered container.",
+        "upgraded": "Yeast cells multiplied inside the covered container, increasing their number several times before morning.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Multiply the width by the height.",
+        "upgraded": "Multiply the width by the height, giving the total area of the panel.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Once entering the body, the virus ______ (multiply) inside the cell quickly and infects neighbouring cells.",
+        "question": "Once entering the body, the virus ____ (multiply) inside the cell quickly and infects neighbouring cells.",
         "answer": "multiplies",
         "note": "课文原句（【课件】）。主语 the virus 第三人称单数，一般现在时描述普遍规律，-y 变 -ies。"
       },
@@ -201,7 +299,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "用 multiply / divide 填空：Bacteria ______ rapidly in warm, moist conditions.",
+        "question": "用 multiply / divide 填空：Bacteria ____ rapidly in warm, moist conditions.",
         "answer": "multiply",
         "note": "此处指细菌‘繁殖、数量激增’，用 multiply；divide 意为‘分开/除’，语义相反。"
       }
@@ -219,7 +317,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to enter a person or organism and cause disease (2) to introduce harmful software into a computer",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -237,7 +335,20 @@
         "example": "Her enthusiasm soon infected the whole class. 她的热情很快感染了全班。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The parasite can infect several bird species."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A malicious file infected the office network."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "People may be infected without feeling ill."
+      }
+    ],
     "wordForms": {
       "noun": "infection 传染，感染；infectiousness 传染性",
       "verb": "infect 传染，使感染",
@@ -266,6 +377,26 @@
         "phrase": "infect a computer with a virus",
         "translation": "使电脑感染病毒",
         "example": "The email infected his computer with a virus. 那封邮件使他的电脑感染了病毒。"
+      },
+      {
+        "phrase": "infect a host / organism",
+        "translation": "感染宿主/生物体",
+        "example": "The fungus can infect a host through damaged tissue. 这种真菌可通过受损组织感染宿主。"
+      },
+      {
+        "phrase": "highly / easily infected",
+        "translation": "极易/容易被感染",
+        "example": "Young plants are easily infected after heavy rain. 幼苗在暴雨后容易受到感染。"
+      },
+      {
+        "phrase": "the infection rate",
+        "translation": "感染率（词族搭配）",
+        "example": "Vaccination lowered the infection rate among staff. 接种疫苗降低了员工感染率。"
+      },
+      {
+        "phrase": "infect sb through contact",
+        "translation": "通过接触感染某人",
+        "example": "The illness can infect people through close contact. 这种疾病可通过密切接触感染人。"
       }
     ],
     "synonyms": [
@@ -298,25 +429,41 @@
         "type": "同义替换·课件标注",
         "expression": "【课件】highly infectious ≈ easily transmitted 高度传染 ≈ 易于传播；infect neighbouring cells ≈ spread to nearby cells 感染邻近细胞",
         "example": "Covid-19 is highly infectious and can be transmitted easily from person to person. 【课件】新冠肺炎传染性极强，能轻易在人际间传播。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "infect a host / organism / highly / easily infected / the infection rate / infect sb through contact",
+        "example": "The fungus can infect a host through damaged tissue. 这种真菌可通过受损组织感染宿主。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The parasite can infect several bird species.",
+        "upgraded": "The parasite can infect several bird species, reducing their ability to migrate safely.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "A malicious file infected the office network.",
+        "upgraded": "A malicious file infected the office network, forcing technicians to isolate every computer.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Infected people who show no symptoms may become unknowing ______ (carry) of the virus.",
+        "question": "Infected people who show no symptoms may become unknowing ____ (carry) of the virus.",
         "answer": "carriers",
         "note": "课文原句（【课件】）。空处需名词‘携带者’，可数复数 carriers 与主语 people 呼应。"
       },
       {
         "type": "辨析选词",
-        "question": "用 infectious / infected 填空：An ______ wound must be cleaned at once; measles is a highly ______ disease.",
+        "question": "用 infectious / infected 填空：An ____ wound must be cleaned at once; measles is a highly ____ disease.",
         "answer": "infected; infectious",
         "note": "infected 表‘已被感染的’（伤口）；infectious 表‘有传染性的’（疾病），句法上都作定语但语义相反。"
       },
       {
         "type": "同义句转换",
-        "question": "The virus can spread easily from person to person. → The virus can be easily ______ from person to person.",
+        "question": "The virus can spread easily from person to person. → The virus can be easily ____ from person to person.",
         "answer": "transmitted",
         "note": "spread from…to… ≈ be transmitted from…to…；此处需被动，用 transmit 更书面（与课文一致）。也可填 passed。"
       }
@@ -334,7 +481,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a physical or mental sign of illness (2) a sign that a wider problem exists",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -347,7 +494,20 @@
         "example": "The strikes are a symptom of deep social unrest. 罢工是社会深度动荡的征兆。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Persistent coughing is a common symptom of the infection."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Falling attendance may be a symptom of deeper dissatisfaction."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She reported mild symptoms after the journey."
+      }
+    ],
     "wordForms": {
       "noun": "symptom 症状，征兆",
       "verb": "",
@@ -376,6 +536,26 @@
         "phrase": "a symptom of a deeper problem",
         "translation": "更深层问题的征兆",
         "example": "Rising prices are just a symptom of a weak economy. 物价上涨只是经济疲软的一个征兆。"
+      },
+      {
+        "phrase": "develop / experience symptoms",
+        "translation": "出现/经历症状",
+        "example": "Several passengers developed symptoms after returning home. 几名乘客回家后出现了症状。"
+      },
+      {
+        "phrase": "symptoms appear / subside",
+        "translation": "症状出现/消退（symptoms 作主语）",
+        "example": "The symptoms usually subside within a week. 症状通常在一周内消退。"
+      },
+      {
+        "phrase": "severe / mild symptoms",
+        "translation": "严重/轻微症状",
+        "example": "People with severe symptoms should seek medical help. 症状严重者应寻求医疗帮助。"
+      },
+      {
+        "phrase": "be symptom-free",
+        "translation": "没有症状（复合形容词作表语）",
+        "example": "He remained symptom-free throughout the observation period. 整个观察期内他都没有症状。"
       }
     ],
     "synonyms": [
@@ -402,13 +582,29 @@
         "type": "同义表达群·健康话题",
         "expression": "show no symptoms 无症状 / develop symptoms 出现症状 / mild / severe symptoms 轻微/严重症状 / symptom-free 无症状的",
         "example": "Some carriers stay symptom-free yet still spread the virus. 有些携带者虽无症状,却仍在传播病毒。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "develop / experience symptoms / symptoms appear / subside / severe / mild symptoms / be symptom-free",
+        "example": "Several passengers developed symptoms after returning home. 几名乘客回家后出现了症状。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Persistent coughing is a common symptom of the infection.",
+        "upgraded": "Persistent coughing is a common symptom of the infection, so patients should seek advice if it worsens.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Falling attendance may be a symptom of deeper dissatisfaction.",
+        "upgraded": "Falling attendance may be a symptom of deeper dissatisfaction, rather than the central problem itself.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "更危险的是，无症状的感染者可能成为无意识的携带者。(show no symptoms) What makes it more dangerous is that infected people who ______ ______ ______ may become unknowing carriers.",
+        "question": "更危险的是，无症状的感染者可能成为无意识的携带者。(show no symptoms) What makes it more dangerous is that infected people who ____ ____ ____ may become unknowing carriers.",
         "answer": "show no symptoms",
         "note": "课文原句（【课件】）。show no symptoms = 不表现出任何症状；symptom 可数,此处用复数。"
       },
@@ -420,7 +616,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "用 symptom / sign 填空：Doctors watch for both the ______ patients describe and the ______ they can see for themselves.",
+        "question": "用 symptom / sign 填空：Doctors watch for both the ____ patients describe and the ____ they can see for themselves.",
         "answer": "symptoms; signs",
         "note": "patients describe → 病人自述用 symptoms；they can see → 医生可观察用 signs。体现二者语义分工。"
       }
@@ -438,7 +634,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to send or pass something, such as a disease, signal, data, heat, or information, from one place or person to another",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -456,7 +652,20 @@
         "example": "Water transmits sound better than air. 水比空气更能传声。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Mosquitoes can transmit several serious diseases."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The antenna transmits data to a ground station."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Metal transmits heat more readily than wood."
+      }
+    ],
     "wordForms": {
       "noun": "transmission 传播；传送，传输；（汽车）变速器；transmitter 发射机，传送者",
       "verb": "transmit 传播；传送",
@@ -485,6 +694,26 @@
         "phrase": "transmit heat/light/sound",
         "translation": "传导热/透光/传声",
         "example": "Metal transmits heat well. 金属导热性好。"
+      },
+      {
+        "phrase": "transmit sth through / via ...",
+        "translation": "通过……传播/传输某物",
+        "example": "The device transmits readings via a secure network. 设备通过安全网络传输读数。"
+      },
+      {
+        "phrase": "transmit between hosts",
+        "translation": "在宿主之间传播（不及物用法）",
+        "example": "The parasite transmits between hosts through insect bites. 这种寄生虫通过昆虫叮咬在宿主间传播。"
+      },
+      {
+        "phrase": "a mode / route of transmission",
+        "translation": "传播方式/途径（词族搭配）",
+        "example": "Researchers identified the main route of transmission. 研究人员确定了主要传播途径。"
+      },
+      {
+        "phrase": "a radio transmitter",
+        "translation": "无线电发射器（词族搭配）",
+        "example": "A radio transmitter sent the emergency signal. 无线电发射器发出了紧急信号。"
       }
     ],
     "synonyms": [
@@ -517,25 +746,41 @@
         "type": "同义替换·课件标注",
         "expression": "【课件】can be transmitted easily ≈ spreads easily / is easily passed on 易于传播；highly infectious 高传染性",
         "example": "Covid-19 can be transmitted easily and swiftly from person to person. 【课件】新冠肺炎能在人际间轻易而迅速地传播。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "transmit sth through / via ... / transmit between hosts / a mode / route of transmission / a radio transmitter",
+        "example": "The device transmits readings via a secure network. 设备通过安全网络传输读数。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Mosquitoes can transmit several serious diseases.",
+        "upgraded": "Mosquitoes can transmit several serious diseases, making effective control measures essential.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The antenna transmits data to a ground station.",
+        "upgraded": "The antenna transmits data to a ground station, allowing engineers to track the satellite.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Covid-19 is a highly infectious disease that can be ______ (transmit) easily and swiftly from person to person.",
+        "question": "Covid-19 is a highly infectious disease that can be ____ (transmit) easily and swiftly from person to person.",
         "answer": "transmitted",
         "note": "课文原句（【课件】）。情态动词 can be + 过去分词构成被动；transmit 末音节重读须双写 t → transmitted。"
       },
       {
         "type": "同义句转换",
-        "question": "Mosquitoes can spread malaria. → Malaria can be ______ by mosquitoes.",
+        "question": "Mosquitoes can spread malaria. → Malaria can be ____ by mosquitoes.",
         "answer": "transmitted",
         "note": "spread → be transmitted，主动变被动；transmit 多用被动，语域更正式。"
       },
       {
         "type": "辨析选词",
-        "question": "用 transmit / convey 填空：The station will ______ the ceremony live, and the anchor will ______ the mood of the crowd to viewers.",
+        "question": "用 transmit / convey 填空：The station will ____ the ceremony live, and the anchor will ____ the mood of the crowd to viewers.",
         "answer": "transmit; convey",
         "note": "播送信号/节目用 transmit；传达情绪/信息用 convey。体现二者分工。"
       }
@@ -553,7 +798,7 @@
     "sub_section": "",
     "original_sentence": "Generally, the flu is a(n) (3) _________________ disease of the respiratory system.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "relating to breathing or to the organs used for breathing",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -561,7 +806,20 @@
         "example": "Doctors monitored her respiratory rate closely. 医生密切监测她的呼吸频率。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Air pollution can worsen respiratory conditions."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The nurse checked the patient's respiratory rate."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Protective equipment reduced respiratory exposure to dust."
+      }
+    ],
     "wordForms": {
       "noun": "respiration 呼吸；respirator 呼吸器，口罩",
       "verb": "respire 呼吸",
@@ -590,6 +848,26 @@
         "phrase": "respiratory tract",
         "translation": "呼吸道",
         "example": "The virus attacks the upper respiratory tract. 该病毒侵袭上呼吸道。"
+      },
+      {
+        "phrase": "respiratory failure",
+        "translation": "呼吸衰竭",
+        "example": "Severe cases may lead to respiratory failure. 重症病例可能导致呼吸衰竭。"
+      },
+      {
+        "phrase": "respiratory droplets",
+        "translation": "呼吸道飞沫",
+        "example": "Respiratory droplets can travel a short distance through the air. 呼吸道飞沫可在空气中短距离传播。"
+      },
+      {
+        "phrase": "acute respiratory illness",
+        "translation": "急性呼吸系统疾病",
+        "example": "The ward treats patients with acute respiratory illness. 该病区收治急性呼吸系统疾病患者。"
+      },
+      {
+        "phrase": "respiratory protection",
+        "translation": "呼吸防护",
+        "example": "Workers need respiratory protection when handling fine powder. 工人处理细粉时需要呼吸防护。"
       }
     ],
     "synonyms": [
@@ -616,13 +894,29 @@
         "type": "同义表达群·健康话题",
         "expression": "respiratory disease 呼吸道疾病 / respiratory system 呼吸系统 / respiratory tract infection 呼吸道感染 / breathing difficulties 呼吸困难",
         "example": "The flu is a respiratory disease that affects the whole respiratory system. 流感是一种影响整个呼吸系统的呼吸道疾病。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "respiratory failure / respiratory droplets / acute respiratory illness / respiratory protection",
+        "example": "Severe cases may lead to respiratory failure. 重症病例可能导致呼吸衰竭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Air pollution can worsen respiratory conditions.",
+        "upgraded": "Air pollution can worsen respiratory conditions, especially among children and older adults.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The nurse checked the patient's respiratory rate.",
+        "upgraded": "The nurse checked the patient's respiratory rate, recording twenty breaths per minute.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Generally, the flu is a ______ (respire) disease of the respiratory system.",
+        "question": "Generally, the flu is a ____ (respire) disease of the respiratory system.",
         "answer": "respiratory",
         "note": "对应课文原句语境。空处需形容词修饰 disease，respire → respiratory。"
       },
@@ -634,7 +928,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "用 respiratory / breathing 填空：In the medical report, the doctor wrote about her ______ system; in daily talk, we just say she has ______ trouble.",
+        "question": "用 respiratory / breathing 填空：In the medical report, the doctor wrote about her ____ system; in daily talk, we just say she has ____ trouble.",
         "answer": "respiratory; breathing",
         "note": "医学/正式语境用 respiratory；日常口语用 breathing。体现语域差异。"
       }
@@ -652,7 +946,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to make water, food, air, soil, or another substance impure or unsafe by adding harmful material",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -665,7 +959,20 @@
         "example": "A tiny error contaminated the whole set of data. 一个小失误使整组数据都失真了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Floodwater contaminated several village wells."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Raw meat can contaminate nearby food."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A leaking tank contaminated the surrounding soil."
+      }
+    ],
     "wordForms": {
       "noun": "contamination（污染，污染物）; contaminant（污染物，致污物）",
       "verb": "contaminate（污染，玷污）",
@@ -694,6 +1001,26 @@
         "phrase": "address the contamination issue",
         "translation": "解决污染问题（contamination 名词形式）",
         "example": "The city is trying to address the contamination issue. 市政府正努力解决污染问题。"
+      },
+      {
+        "phrase": "contaminate a sample",
+        "translation": "污染样本",
+        "example": "A dirty instrument may contaminate the sample. 不洁仪器可能污染样本。"
+      },
+      {
+        "phrase": "cross-contaminate food",
+        "translation": "造成食物交叉污染",
+        "example": "Using one knife can cross-contaminate cooked food. 共用一把刀会使熟食发生交叉污染。"
+      },
+      {
+        "phrase": "a risk / source of contamination",
+        "translation": "污染风险/来源（词族搭配）",
+        "example": "Standing water is a possible source of contamination. 积水可能是污染源。"
+      },
+      {
+        "phrase": "prevent / avoid contamination",
+        "translation": "防止/避免污染",
+        "example": "Seal the container to prevent contamination. 密封容器以防污染。"
       }
     ],
     "synonyms": [
@@ -733,11 +1060,22 @@
         "example": "Plastic waste is contaminating our oceans at an alarming rate. 塑料垃圾正以惊人的速度污染我们的海洋。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Floodwater contaminated several village wells.",
+        "upgraded": "Floodwater contaminated several village wells, leaving residents without a safe local supply.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Raw meat can contaminate nearby food.",
+        "upgraded": "Raw meat can contaminate nearby food, particularly when both are prepared on one board.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The whole batch of milk had to be thrown away because it was ______ (contaminate) with harmful bacteria.",
+        "question": "The whole batch of milk had to be thrown away because it was ____ (contaminate) with harmful bacteria.",
         "answer": "contaminated",
         "note": "be + 过去分词构成被动语态，主语 milk 是动作承受者；『被…污染』固定用 be contaminated with sth。"
       },
@@ -749,7 +1087,7 @@
       },
       {
         "type": "选词填空",
-        "question": "用 contaminate / pollute 的适当形式填空：Factory smoke ______ the air, while dirty needles may ______ the blood supply.",
+        "question": "用 contaminate / pollute 的适当形式填空：Factory smoke ____ the air, while dirty needles may ____ the blood supply.",
         "answer": "pollutes; contaminate",
         "note": "空气排废用 pollute；血液混入病菌用 contaminate。第一空主语 smoke 单数用 pollutes，第二空 may 后用动词原形。"
       }
@@ -767,7 +1105,7 @@
     "sub_section": "",
     "original_sentence": "For instance, it favours cool, dry conditions and crowded indoor spaces with poor ventilation.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the movement of fresh air through a room or building, or the system that provides this movement",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -775,7 +1113,20 @@
         "example": "The patient needed mechanical ventilation to breathe. 病人需要机械通气才能呼吸。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Good ventilation keeps the workshop comfortable."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Engineers inspected the tunnel's ventilation system."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Open windows can improve natural ventilation."
+      }
+    ],
     "wordForms": {
       "noun": "ventilation（通风，通风设备）; ventilator（通风设备，呼吸机）",
       "verb": "ventilate（使通风；给…装通风设备）",
@@ -804,6 +1155,26 @@
         "phrase": "a ventilation system",
         "translation": "一套通风系统",
         "example": "The building has a modern ventilation system. 这栋楼有现代化的通风系统。"
+      },
+      {
+        "phrase": "adequate / effective ventilation",
+        "translation": "充分/有效通风",
+        "example": "The laboratory requires effective ventilation at all times. 实验室始终需要有效通风。"
+      },
+      {
+        "phrase": "natural / mechanical ventilation",
+        "translation": "自然/机械通风",
+        "example": "The design combines natural ventilation with ceiling fans. 该设计把自然通风与吊扇结合起来。"
+      },
+      {
+        "phrase": "the ventilation rate",
+        "translation": "通风率；换气率",
+        "example": "Sensors adjust the ventilation rate according to occupancy. 传感器根据人数调节换气率。"
+      },
+      {
+        "phrase": "ventilate a room / building",
+        "translation": "给房间/建筑通风（词族动词）",
+        "example": "Open both doors to ventilate the room fully. 打开两扇门，让房间充分通风。"
       }
     ],
     "synonyms": [
@@ -830,25 +1201,41 @@
         "type": "构词法·vent 词族",
         "expression": "vent（通风口/发泄）→ ventilate（使通风）→ ventilation（通风）→ ventilator（呼吸机）",
         "example": "During the pandemic, hospitals were short of ventilators. 疫情期间，医院呼吸机短缺。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "adequate / effective ventilation / natural / mechanical ventilation / the ventilation rate / ventilate a room / building",
+        "example": "The laboratory requires effective ventilation at all times. 实验室始终需要有效通风。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Good ventilation keeps the workshop comfortable.",
+        "upgraded": "Good ventilation keeps the workshop comfortable, removing heat and chemical fumes throughout the day.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Engineers inspected the tunnel's ventilation system.",
+        "upgraded": "Engineers inspected the tunnel's ventilation system, confirming that every fan could run during an emergency.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The virus spreads easily in crowded rooms with poor ______ (ventilate).",
+        "question": "The virus spreads easily in crowded rooms with poor ____ (ventilate).",
         "answer": "ventilation",
         "note": "介词 with 后需名词，poor 后接名词 ventilation；ventilate 是动词，此处应转为名词形式。"
       },
       {
         "type": "完成句子",
-        "question": "为了确保充足的通风，请开窗。To ensure ______ ______ (充足的通风), please open the windows.",
+        "question": "为了确保充足的通风，请开窗。To ensure ____ ____ (充足的通风), please open the windows.",
         "answer": "adequate ventilation",
         "note": "ventilation 不可数，前用 adequate 修饰，无需冠词；不定式 To ensure... 作目的状语。"
       },
       {
         "type": "同义句转换",
-        "question": "The room is not well ventilated. → The room has ______ ______.",
+        "question": "The room is not well ventilated. → The room has ____ ____.",
         "answer": "poor ventilation",
         "note": "『通风差』用名词短语 poor ventilation 替换被动的 is not well ventilated；have + 名词结构。"
       }
@@ -866,7 +1253,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a form or version of something that differs in some way from other forms of the same thing",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -879,7 +1266,20 @@
         "example": "Each variant of the gene has a slightly different effect. 该基因的每种变异体作用略有不同。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers detected a rare genetic variant."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The museum displays a regional variant of the design."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Each software variant supports a different device."
+      }
+    ],
     "wordForms": {
       "noun": "variant（变种，变体）; variation（变化，变体）; variety（多样性，种类）; variable（变量）",
       "verb": "vary（变化，不同）",
@@ -908,6 +1308,26 @@
         "phrase": "a highly contagious variant",
         "translation": "一种传染性极强的变种",
         "example": "The new variant is highly contagious. 这种新变种传染性极强。"
+      },
+      {
+        "phrase": "identify / monitor a variant",
+        "translation": "识别/监测变体",
+        "example": "Laboratories monitor each variant for important changes. 实验室监测各变体的重要变化。"
+      },
+      {
+        "phrase": "a dominant / emerging variant",
+        "translation": "占主导的/新出现的变体",
+        "example": "An emerging variant accounted for half of new cases. 一种新出现的变体占新增病例的一半。"
+      },
+      {
+        "phrase": "variants emerge / circulate",
+        "translation": "变体出现/传播（variants 作主语）",
+        "example": "New variants may emerge when transmission remains high. 传播率持续较高时可能出现新变体。"
+      },
+      {
+        "phrase": "differ from the standard variant",
+        "translation": "与标准变体不同",
+        "example": "This regional form differs from the standard variant in spelling. 这种地区形式在拼写上与标准变体不同。"
       }
     ],
     "synonyms": [
@@ -940,19 +1360,35 @@
         "type": "构词法·vary 词族全家桶",
         "expression": "vary（v.）→ variety / variation / variant / variable（n.）→ various / varied / variable / variant（adj.）→ variously（adv.）",
         "example": "Products of this brand vary in a wide variety of styles. 这个牌子的产品有各种各样的款式。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "identify / monitor a variant / a dominant / emerging variant / variants emerge / circulate / differ from the standard variant",
+        "example": "Laboratories monitor each variant for important changes. 实验室监测各变体的重要变化。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Researchers detected a rare genetic variant.",
+        "upgraded": "Researchers detected a rare genetic variant, linking it to the unusual response.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The museum displays a regional variant of the design.",
+        "upgraded": "The museum displays a regional variant of the design, distinguished by its curved wooden handle.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 variant / variety / variation 填空：A new ______ of the flu virus is spreading, showing slight ______ from the original strain.",
+        "question": "用 variant / variety / variation 填空：A new ____ of the flu virus is spreading, showing slight ____ from the original strain.",
         "answer": "variant; variation",
         "note": "第一空指『变种』这一具体个体用 variant；第二空指与原型『差异（程度）』用 variation，搭配 variation from。"
       },
       {
         "type": "单句语法填空",
-        "question": "This dialect is just a regional ______ (vary) of standard Chinese.",
+        "question": "This dialect is just a regional ____ (vary) of standard Chinese.",
         "answer": "variant",
         "note": "冠词 a 后需可数名词单数，指『地区变体』用 variant；vary 是动词需转名词。"
       },
@@ -976,7 +1412,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to cooperate in order to achieve something (2) to bring things together (3) to regain emotional control",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrasal verb",
@@ -989,7 +1425,20 @@
         "example": "It took a week to pull the whole plan together. 花了一周才把整个计划整合起来。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The whole neighbourhood pulled together after the fire."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "She pulled the evidence together into a clear report."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Take a breath and pull yourself together."
+      }
+    ],
     "wordForms": {
       "noun": "",
       "verb": "pull together（齐心协力）; pull（拉，拖）",
@@ -1018,6 +1467,26 @@
         "phrase": "pull sth together",
         "translation": "把（想法/材料）整合到一起",
         "example": "She pulled her notes together into a clear report. 她把笔记整合成一份清晰的报告。"
+      },
+      {
+        "phrase": "pull a team / community together",
+        "translation": "使团队/社区团结起来",
+        "example": "The shared challenge pulled the community together. 共同的挑战使社区团结起来。"
+      },
+      {
+        "phrase": "a crisis pulls people together",
+        "translation": "危机使人团结",
+        "example": "The flood pulled people together across the region. 洪水使全地区的人团结起来。"
+      },
+      {
+        "phrase": "pull ideas / resources together",
+        "translation": "汇集想法/资源",
+        "example": "We pulled our resources together to open the shelter. 我们汇集资源开设了避难所。"
+      },
+      {
+        "phrase": "pull together as a team",
+        "translation": "作为团队齐心协力",
+        "example": "The volunteers pulled together as a team under pressure. 志愿者们在压力下齐心协力。"
       }
     ],
     "synonyms": [
@@ -1050,19 +1519,35 @@
         "type": "短语动词家族·pull",
         "expression": "pull together（齐心协力）/ pull off（成功完成难事）/ pull through（渡过难关，康复）/ pull up（停下）/ pull out（撤出）/ pull sb's leg（开某人玩笑）",
         "example": "With everyone's help, we pulled through the tough times. 在大家帮助下，我们渡过了艰难时期。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "pull a team / community together / a crisis pulls people together / pull ideas / resources together / pull together as a team",
+        "example": "The shared challenge pulled the community together. 共同的挑战使社区团结起来。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The whole neighbourhood pulled together after the fire.",
+        "upgraded": "The whole neighbourhood pulled together after the fire, providing temporary homes for displaced families.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "She pulled the evidence together into a clear report.",
+        "upgraded": "She pulled the evidence together into a clear report, allowing the committee to reach a decision.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "When the flood came, all the villagers ______ ______ to protect their homes.",
+        "question": "When the flood came, all the villagers ____ ____ to protect their homes.",
         "answer": "pulled together",
         "note": "语境为过去的洪水，用一般过去时 pulled；pull together 齐心协力，不及物，后接不定式表目的。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 pull together / pull yourself together：Stop panicking and ______ ______ — we'll figure this out.",
+        "question": "选词填空 pull together / pull yourself together：Stop panicking and ____ ____ — we'll figure this out.",
         "answer": "pull yourself together",
         "note": "此处劝一个人冷静振作，用 pull yourself together（反身代词）；若是群体合作才用 pull together。"
       },
@@ -1086,7 +1571,7 @@
     "sub_section": "",
     "original_sentence": "Ordinary people from all walks of life united in helping those affected by the pandemic.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "an infectious disease that spreads across many countries or continents and affects a large number of people",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1099,7 +1584,20 @@
         "example": "Fake news has become almost pandemic online. 假新闻在网上几乎已泛滥成灾。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The pandemic disrupted routine medical services."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Global cooperation helped contain the pandemic."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Schools adopted new procedures during the pandemic."
+      }
+    ],
     "wordForms": {
       "noun": "pandemic（大流行病）",
       "verb": "",
@@ -1128,6 +1626,26 @@
         "phrase": "fight/contain/end a pandemic",
         "translation": "抗击／遏制／终结大流行病",
         "example": "Vaccines helped contain the pandemic. 疫苗帮助遏制了这场大流行病。"
+      },
+      {
+        "phrase": "declare a pandemic",
+        "translation": "宣布进入大流行状态",
+        "example": "The organization declared a pandemic after sustained global spread. 该组织在病毒持续全球传播后宣布进入大流行。"
+      },
+      {
+        "phrase": "pandemic preparedness",
+        "translation": "大流行病防范准备",
+        "example": "The review called for stronger pandemic preparedness. 审查报告要求加强大流行病防范。"
+      },
+      {
+        "phrase": "a pandemic response / plan",
+        "translation": "大流行病应对/预案",
+        "example": "Hospitals updated their pandemic response plans. 各医院更新了大流行病应对预案。"
+      },
+      {
+        "phrase": "post-pandemic recovery",
+        "translation": "大流行后的复苏",
+        "example": "Small businesses need support during post-pandemic recovery. 小企业在大流行后的复苏期需要支持。"
       }
     ],
     "synonyms": [
@@ -1160,19 +1678,35 @@
         "type": "同义表达群·『疾病流行规模递进』",
         "expression": "outbreak（爆发）→ epidemic（一国流行）→ pandemic（全球大流行）",
         "example": "What started as a local outbreak soon grew into a worldwide pandemic. 起初的局部爆发很快演变成全球大流行。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "declare a pandemic / pandemic preparedness / a pandemic response / plan / post-pandemic recovery",
+        "example": "The organization declared a pandemic after sustained global spread. 该组织在病毒持续全球传播后宣布进入大流行。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The pandemic disrupted routine medical services.",
+        "upgraded": "The pandemic disrupted routine medical services, delaying treatment for many chronic conditions.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Global cooperation helped contain the pandemic.",
+        "upgraded": "Global cooperation helped contain the pandemic, enabling countries to share data and supplies.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 epidemic / pandemic 填空：A flu ______ hit our province, but it did not spread across the globe like the Covid-19 ______.",
+        "question": "用 epidemic / pandemic 填空：A flu ____ hit our province, but it did not spread across the globe like the Covid-19 ____.",
         "answer": "epidemic; pandemic",
         "note": "第一空局限于本省，用 epidemic；第二空全球范围，用 pandemic（Covid-19 为全球大流行）。"
       },
       {
         "type": "单句语法填空",
-        "question": "People from all walks of life united in helping those ______ (affect) by the pandemic.",
+        "question": "People from all walks of life united in helping those ____ (affect) by the pandemic.",
         "answer": "affected",
         "note": "those (people) 与 affect 是被动关系，用过去分词 affected 作后置定语，等于 who were affected；此题保留课文原句结构。"
       },
@@ -1196,7 +1730,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to cooperate with another person or group in order to achieve a shared aim",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -1204,7 +1738,20 @@
         "example": "The allied armies joined forces near the border. 盟军在边境附近会师联合。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Local hospitals joined forces with university researchers."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The charity joined forces with several food suppliers."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Two small firms joined forces with an international partner."
+      }
+    ],
     "wordForms": {
       "noun": "force（力量，武力，军队）; forces（军队，部队，常复数）",
       "verb": "join（连接，加入）; force（强迫）",
@@ -1228,6 +1775,31 @@
         "phrase": "join forces against sb/sth",
         "translation": "联合起来对抗…",
         "example": "Neighbouring countries joined forces against the threat. 邻国联合起来对抗这一威胁。"
+      },
+      {
+        "phrase": "join forces with sb against sth",
+        "translation": "与某人联手对抗某事",
+        "example": "Schools joined forces with police against online fraud. 学校与警方联手打击网络诈骗。"
+      },
+      {
+        "phrase": "join forces across sectors",
+        "translation": "跨行业/部门联手",
+        "example": "Experts joined forces across sectors to improve emergency planning. 专家跨部门合作完善应急规划。"
+      },
+      {
+        "phrase": "decide / agree to join forces",
+        "translation": "决定/同意联手",
+        "example": "The two charities agreed to join forces after the earthquake. 地震后，两家慈善机构同意联手。"
+      },
+      {
+        "phrase": "forces join to do sth",
+        "translation": "各方力量联合做某事（主语换位结构）",
+        "example": "Public and private forces joined to restore the wetland. 公共和私营力量联合修复湿地。"
+      },
+      {
+        "phrase": "a joint effort with sb",
+        "translation": "与某人的共同努力（名词改写）",
+        "example": "The clinic opened in a joint effort with local volunteers. 诊所在与当地志愿者共同努力下开办。"
       }
     ],
     "synonyms": [
@@ -1260,19 +1832,35 @@
         "type": "常用结构·so that 目的状语（源自课件原句）",
         "expression": "join forces with sb so that sth could be done 与某人携手，以便…（可…）",
         "example": "Countries joined forces with each other so that the crisis could be solved in record time. 各国携手合作，使危机得以以最快速度化解。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "join forces across sectors / decide / agree to join forces / forces join to do sth / a joint effort with sb",
+        "example": "Experts joined forces across sectors to improve emergency planning. 专家跨部门合作完善应急规划。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Local hospitals joined forces with university researchers.",
+        "upgraded": "Local hospitals joined forces with university researchers, creating a shared clinical database.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The charity joined forces with several food suppliers.",
+        "upgraded": "The charity joined forces with several food suppliers, delivering weekly parcels to isolated residents.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "各国政府与研究机构携手，以便疫苗能尽快研发出来。Governments ______ ______ ______ research institutes so that vaccines could be developed quickly.",
+        "question": "各国政府与研究机构携手，以便疫苗能尽快研发出来。Governments ____ ____ ____ research institutes so that vaccines could be developed quickly.",
         "answer": "joined forces with",
         "note": "对应课件原句，用一般过去时 joined；固定短语 join forces with sb；so that 引导目的状语从句用 could be developed 被动。"
       },
       {
         "type": "同义句转换",
-        "question": "The two companies worked together to develop the vaccine. → The two companies ______ ______ ______ each other to develop the vaccine.",
+        "question": "The two companies worked together to develop the vaccine. → The two companies ____ ____ ____ each other to develop the vaccine.",
         "answer": "joined forces with",
         "note": "用 join forces with 替换 work together，需补出 with each other；时态与原句一致用过去式 joined。"
       },
@@ -1296,7 +1884,7 @@
     "sub_section": "",
     "original_sentence": "Governments also joined forces with leading research institutes so that vaccines could be developed, produced, distributed and administered in record time.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "faster than has ever been achieved before, or exceptionally quickly",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -1304,7 +1892,20 @@
         "example": "The rescue team arrived in record time. 救援队以创纪录的速度赶到。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The rescue team reached the village in record time."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Engineers repaired the damaged bridge in record time."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The laboratory processed every sample in record time."
+      }
+    ],
     "wordForms": {
       "noun": "record 纪录，记录，唱片",
       "verb": "record 记录，录制",
@@ -1344,6 +1945,21 @@
         "phrase": "break / beat a record",
         "translation": "打破纪录",
         "example": "The runner broke the world record last night. 那名选手昨晚打破了世界纪录。"
+      },
+      {
+        "phrase": "recover / respond in record time",
+        "translation": "以创纪录速度恢复/响应",
+        "example": "The athlete recovered from surgery in record time. 这名运动员以创纪录速度从手术中康复。"
+      },
+      {
+        "phrase": "deliver sth in record time",
+        "translation": "以创纪录速度交付某物",
+        "example": "The factory delivered emergency equipment in record time. 工厂以创纪录速度交付了应急设备。"
+      },
+      {
+        "phrase": "a record-breaking turnaround",
+        "translation": "创纪录的周转/恢复（名词改写）",
+        "example": "The repair represented a record-breaking turnaround. 这次维修实现了创纪录的快速周转。"
       }
     ],
     "synonyms": [
@@ -1356,7 +1972,8 @@
       {
         "synonym": "at record speed",
         "translation": "以创纪录的速度",
-        "example": "The factory turned out the masks at record speed. 工厂以创纪录的速度生产出口罩。"
+        "example": "The factory turned out the masks at record speed. 工厂以创纪录的速度生产出口罩。",
+        "usage": "at record speed 作方式状语，强调动作速度；in record time 作时间状语，强调完成某事所用时间极短。两者常置于句末，但着眼点不同。"
       }
     ],
     "advancedExpressions": [
@@ -1369,19 +1986,35 @@
         "type": "构词法·record 一词多用",
         "expression": "record (n. 纪录/唱片) → record (v. 记录) → record-breaking (adj. 破纪录的) → on record (有记录的)",
         "example": "It was the hottest summer on record. 那是有记录以来最热的夏天。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "break / beat a record / recover / respond in record time / deliver sth in record time / a record-breaking turnaround",
+        "example": "The runner broke the world record last night. 那名选手昨晚打破了世界纪录。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The rescue team reached the village in record time.",
+        "upgraded": "The rescue team reached the village in record time, arriving before the river blocked the final road.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Engineers repaired the damaged bridge in record time.",
+        "upgraded": "Engineers repaired the damaged bridge in record time, restoring the main route within three days.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "多亏了通力合作，疫苗得以以创纪录的速度研发出来。Thanks to their joint efforts, the vaccines were _____________________ (以创纪录的速度研发).",
+        "question": "多亏了通力合作，疫苗得以以创纪录的速度研发出来。Thanks to their joint efforts, the vaccines were ____ (以创纪录的速度研发).",
         "answer": "developed in record time",
         "note": "in record time 作状语修饰 developed；record 在此为名词，读 /ˈrekɔːd/。"
       },
       {
         "type": "单句语法填空",
-        "question": "The workers repaired the power line in _____ (record) time.",
+        "question": "The workers repaired the power line in ____ (record) time.",
         "answer": "record",
         "note": "固定短语 in record time 不变形、不加 the。"
       },
@@ -1405,7 +2038,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to use all of one's harmful power or make the greatest possible effort to cause trouble or damage",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -1413,7 +2046,20 @@
         "example": "Let them do their worst — we won’t give up. 任他们使尽坏招——我们绝不放弃。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The storm did its worst along the northern coast."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Let the critics do their worst."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Winter did its worst, but the old shelter remained standing."
+      }
+    ],
     "wordForms": {
       "noun": "worst（the worst 最糟糕的人/事/情况）",
       "verb": "worst（书面语：击败，胜过，较少用）",
@@ -1458,6 +2104,21 @@
         "phrase": "if the worst comes to the worst",
         "translation": "如果情况糟到极点，万一最坏的情况发生",
         "example": "If the worst comes to the worst, we can cancel the trip. 万一情况最坏，我们可以取消旅行。"
+      },
+      {
+        "phrase": "let nature / fate do its worst",
+        "translation": "任凭大自然/命运施展最大威力",
+        "example": "The shelter was ready to let winter do its worst. 避难所已做好抵御严冬最大威力的准备。"
+      },
+      {
+        "phrase": "the worst of sth",
+        "translation": "某事最严重的阶段",
+        "example": "The town survived the worst of the flooding. 小镇挺过了洪灾最严重的阶段。"
+      },
+      {
+        "phrase": "at worst",
+        "translation": "在最坏的情况下（句子副词）",
+        "example": "At worst, the journey will take an extra hour. 最坏的情况下，行程会多花一小时。"
       }
     ],
     "synonyms": [
@@ -1470,7 +2131,8 @@
       {
         "synonym": "run rampant",
         "translation": "肆虐，猖獗蔓延",
-        "example": "The disease ran rampant in the region. 疾病在该地区肆虐蔓延。"
+        "example": "The disease ran rampant in the region. 疾病在该地区肆虐蔓延。",
+        "usage": "run rampant 是不及物结构，主语多为疾病、暴力或谣言，强调失控蔓延；do one's worst 的主语可为人、自然力或事物，强调施展最大破坏力。"
       }
     ],
     "advancedExpressions": [
@@ -1483,19 +2145,35 @@
         "type": "常用结构·best/worst 对照句",
         "expression": "when ... was doing its worst, ... shone at its brightest（当…肆虐至极时，…最为耀眼）",
         "example": "When the disaster was doing its worst, human kindness shone at its brightest. 当灾难肆虐至极时，人间善意最为耀眼。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "if the worst comes to the worst / let nature / fate do its worst / the worst of sth / at worst",
+        "example": "If the worst comes to the worst, we can cancel the trip. 万一情况最坏，我们可以取消旅行。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The storm did its worst along the northern coast.",
+        "upgraded": "The storm did its worst along the northern coast, destroying roads and cutting power to several towns.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Let the critics do their worst.",
+        "upgraded": "Let the critics do their worst, because the evidence supporting the decision remains strong.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "在新冠肆虐、最黑暗的日子里，人性的光辉最为耀眼。In the darkest days when Covid-19 was ______________ (肆虐/使尽坏招), the human spirit shone at its brightest.",
+        "question": "在新冠肆虐、最黑暗的日子里，人性的光辉最为耀眼。In the darkest days when Covid-19 was ____ (肆虐/使尽坏招), the human spirit shone at its brightest.",
         "answer": "doing its worst",
         "note": "one’s 随主语 Covid-19 变为 its；用进行时呼应 when 从句的持续状态。"
       },
       {
         "type": "辨析选词",
-        "question": "用 do one’s best 或 do one’s worst 填空：Whatever difficulties lie ahead, I will always _____________ to reach my goal.",
+        "question": "用 do one’s best 或 do one’s worst 填空：Whatever difficulties lie ahead, I will always ____ to reach my goal.",
         "answer": "do my best",
         "note": "句意为“尽最大努力”，用 do one’s best；worst 表使坏，与语境相悖。"
       },
@@ -1519,7 +2197,7 @@
     "sub_section": "",
     "original_sentence": "Firstly, maintaining personal hygiene is essential.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "practices and conditions that maintain health and prevent disease, especially through cleanliness",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1527,7 +2205,20 @@
         "example": "Hygiene teaches us how to prevent disease. 卫生学教我们如何预防疾病。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Strict kitchen hygiene prevents many food-borne illnesses."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The campaign teaches basic hygiene in rural schools."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Dental hygiene is essential for healthy gums."
+      }
+    ],
     "wordForms": {
       "noun": "hygiene 卫生；hygienist 卫生学家，（尤指）牙科保健员",
       "verb": "",
@@ -1561,6 +2252,21 @@
         "phrase": "practise good hygiene",
         "translation": "养成良好的卫生习惯",
         "example": "We should practise good hygiene during flu season. 流感季节我们应养成良好卫生习惯。"
+      },
+      {
+        "phrase": "a hygiene routine",
+        "translation": "卫生习惯/程序",
+        "example": "Every kitchen should follow a daily hygiene routine. 每个厨房都应遵循日常卫生程序。"
+      },
+      {
+        "phrase": "poor hygiene",
+        "translation": "卫生状况差",
+        "example": "Poor hygiene increases the risk of infection. 卫生状况差会增加感染风险。"
+      },
+      {
+        "phrase": "hygiene practices / measures",
+        "translation": "卫生做法/措施",
+        "example": "Simple hygiene measures protect vulnerable patients. 简单的卫生措施能保护脆弱患者。"
       }
     ],
     "synonyms": [
@@ -1587,21 +2293,37 @@
         "type": "构词法·hygiene 词族",
         "expression": "hygiene (n.) → hygienic (adj.) → hygienically (adv.) → hygienist (n. 人)",
         "example": "Food must be prepared hygienically. 食物必须以卫生的方式制作。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "practise good hygiene / a hygiene routine / poor hygiene / hygiene practices / measures",
+        "example": "We should practise good hygiene during flu season. 流感季节我们应养成良好卫生习惯。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Strict kitchen hygiene prevents many food-borne illnesses.",
+        "upgraded": "Strict kitchen hygiene prevents many food-borne illnesses, protecting both customers and staff.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The campaign teaches basic hygiene in rural schools.",
+        "upgraded": "The campaign teaches basic hygiene in rural schools, focusing on clean water and handwashing.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "It is essential to keep good _____ (hygiene) to prevent diseases.",
+        "question": "It is essential to keep good ____ (hygiene) to prevent diseases.",
         "answer": "hygiene",
         "note": "hygiene 为不可数名词，此处作 keep 的宾语，不变形。"
       },
       {
-        "type": "词形转换（用所给词的适当形式）",
-        "question": "The kitchen must be kept clean and _____ (hygiene).",
+        "type": "单句语法填空",
+        "question": "The kitchen must be kept clean and ____ (hygiene).",
         "answer": "hygienic",
-        "note": "系动词 be + 形容词作表语，hygiene→hygienic。"
+        "note": "原题型标注：词形转换（用所给词的适当形式）。系动词 be + 形容词作表语，hygiene→hygienic。"
       },
       {
         "type": "汉译英",
@@ -1623,7 +2345,7 @@
     "sub_section": "",
     "original_sentence": "Clean your hands with soap and water thoroughly.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a substance used with water for washing and cleaning, made as a bar, liquid, or powder",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1636,7 +2358,20 @@
         "example": "He soaped his hands and rinsed them. 他给手打上肥皂再冲洗干净。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The clinic supplies unscented soap in every washroom."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Warm water and soap removed the grease."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "This soap is made from vegetable oils."
+      }
+    ],
     "wordForms": {
       "noun": "soap 肥皂（不可数）；soap opera 肥皂剧",
       "verb": "soap 给…擦肥皂",
@@ -1671,6 +2406,26 @@
         "phrase": "liquid / hand soap",
         "translation": "洗手液，液体肥皂",
         "example": "There is hand soap by the sink. 洗手池旁有洗手液。"
+      },
+      {
+        "phrase": "a soap dispenser",
+        "translation": "皂液器",
+        "example": "The sensor activates the soap dispenser automatically. 传感器会自动启动皂液器。"
+      },
+      {
+        "phrase": "mild / antibacterial soap",
+        "translation": "温和/抗菌皂",
+        "example": "Use mild soap on sensitive skin. 敏感皮肤请使用温和肥皂。"
+      },
+      {
+        "phrase": "lather one's hands with soap",
+        "translation": "在手上涂肥皂搓出泡沫",
+        "example": "Lather your hands with soap for at least twenty seconds. 用肥皂搓洗双手至少二十秒。"
+      },
+      {
+        "phrase": "a soap solution",
+        "translation": "肥皂溶液",
+        "example": "A weak soap solution removed insects from the leaves. 稀肥皂液清除了叶片上的昆虫。"
       }
     ],
     "synonyms": [
@@ -1679,6 +2434,12 @@
         "translation": "洗涤剂，去污剂",
         "example": "Add some detergent to wash the dishes. 加些洗涤剂来洗碗。",
         "usage": "detergent 多为化学合成的洗衣/洗碗用清洁剂，可数或不可数；soap 特指用于洗手洗身的肥皂/香皂，作此义不可数。"
+      },
+      {
+        "synonym": "cleanser",
+        "translation": "清洁剂；洁面产品",
+        "example": "Use a gentle cleanser on sensitive skin. 敏感皮肤请使用温和清洁剂。",
+        "usage": "cleanser 是可数或不可数名词，泛指清洁皮肤或表面的产品；soap 通常指由油脂和碱制成、与水合用的肥皂。cleanser 范围更广，并非都含 soap。"
       }
     ],
     "advancedExpressions": [
@@ -1691,21 +2452,37 @@
         "type": "构词法·soap 词族",
         "expression": "soap (n./v.) → soapy (adj.) → soap opera (肥皂剧) → soft-soap (v. 奉承)",
         "example": "The soapy water spilled onto the floor. 肥皂水洒到了地板上。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a soap dispenser / mild / antibacterial soap / lather one's hands with soap / a soap solution",
+        "example": "The sensor activates the soap dispenser automatically. 传感器会自动启动皂液器。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The clinic supplies unscented soap in every washroom.",
+        "upgraded": "The clinic supplies unscented soap in every washroom, reducing irritation among patients with sensitive skin.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Warm water and soap removed the grease.",
+        "upgraded": "Warm water and soap removed the grease, leaving the tools ready for sterilization.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "请用肥皂和清水彻底清洁双手。Please clean your hands ______________ (用肥皂和水) thoroughly.",
+        "question": "请用肥皂和清水彻底清洁双手。Please clean your hands ____ (用肥皂和水) thoroughly.",
         "answer": "with soap and water",
         "note": "with 表方式；soap and water 均为不可数，不加冠词。"
       },
       {
-        "type": "词形转换",
-        "question": "Be careful — the floor is wet and _____ (soap).",
+        "type": "单句语法填空",
+        "question": "Be careful — the floor is wet and ____ (soap).",
         "answer": "soapy",
-        "note": "作表语需形容词，soap→soapy。"
+        "note": "原题型标注：词形转换。作表语需形容词，soap→soapy。"
       }
     ]
   },
@@ -1721,7 +2498,7 @@
     "sub_section": "",
     "original_sentence": "You need to wear a face mask.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a covering for the face, often for protection (2) v. to hide a feeling, smell, sound, or fact",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1734,7 +2511,20 @@
         "example": "The strong smell masked the smell of smoke. 浓烈的气味盖过了烟味。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Workers wore masks while sanding the wood."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Strong spices masked the unpleasant smell."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Her confident reply masked considerable uncertainty."
+      }
+    ],
     "wordForms": {
       "noun": "mask 口罩，面罩，面具，面膜，伪装",
       "verb": "mask 掩饰，遮盖",
@@ -1774,6 +2564,21 @@
         "phrase": "an oxygen / gas mask",
         "translation": "氧气面罩／防毒面具",
         "example": "The firefighters wore gas masks. 消防员们戴着防毒面具。"
+      },
+      {
+        "phrase": "a surgical / cloth mask",
+        "translation": "外科口罩/布口罩",
+        "example": "The clinic provides a surgical mask at the entrance. 诊所在入口处提供外科口罩。"
+      },
+      {
+        "phrase": "a mask fits / covers properly",
+        "translation": "口罩贴合/遮盖到位",
+        "example": "A protective mask must fit closely around the face. 防护口罩必须紧密贴合面部。"
+      },
+      {
+        "phrase": "mask a sound / smell",
+        "translation": "掩盖声音/气味（动词）",
+        "example": "Thick curtains masked the noise from the street. 厚窗帘掩盖了街道噪声。"
       }
     ],
     "synonyms": [
@@ -1800,25 +2605,41 @@
         "type": "构词法·mask 词族与转义",
         "expression": "mask (n. 面罩) → mask (v. 掩饰) → masked (adj. 蒙面的) → unmask (v. 揭露真面目)",
         "example": "The report unmasked the truth behind the scandal. 那篇报道揭露了丑闻背后的真相。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "an oxygen / gas mask / a surgical / cloth mask / a mask fits / covers properly / mask a sound / smell",
+        "example": "The firefighters wore gas masks. 消防员们戴着防毒面具。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Workers wore masks while sanding the wood.",
+        "upgraded": "Workers wore masks while sanding the wood, preventing fine dust from entering their lungs.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Strong spices masked the unpleasant smell.",
+        "upgraded": "Strong spices masked the unpleasant smell, but they did not remove its source.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "进入医院前，你需要戴上口罩。Before entering the hospital, you need to ________________ (戴口罩).",
+        "question": "进入医院前，你需要戴上口罩。Before entering the hospital, you need to ____ (戴口罩).",
         "answer": "wear / put on a face mask",
         "note": "wear 表状态、put on 表动作，此处两者皆可；mask 前用不定冠词 a。"
       },
       {
-        "type": "单句语法填空（一词多义）",
-        "question": "He tried to _____ (mask) his anger, but his trembling hands gave him away.",
+        "type": "单句语法填空",
+        "question": "He tried to ____ (mask) his anger, but his trembling hands gave him away.",
         "answer": "mask",
-        "note": "此处 mask 作动词“掩饰”，try to do 后接动词原形。"
+        "note": "原题型标注：单句语法填空（一词多义）。此处 mask 作动词“掩饰”，try to do 后接动词原形。"
       },
       {
         "type": "同义句转换",
-        "question": "用 mask 改写：She hid her true feelings with a calm smile. → She ________ her true feelings with a calm smile.",
+        "question": "用 mask 改写：She hid her true feelings with a calm smile. → She ____ her true feelings with a calm smile.",
         "answer": "masked",
         "note": "mask 作动词“掩饰”，与 hide 同义；一般过去时用 masked。"
       }
@@ -1836,7 +2657,7 @@
     "sub_section": "",
     "original_sentence": "At first, the flu can appear like the common cold with a dry cough, a runny nose and a sore throat.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) adj. painful, tender, or irritated (2) n. a painful or damaged place on the skin",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1849,7 +2670,20 @@
         "example": "There was a sore on his lip. 他嘴唇上长了个疮。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "My shoulders felt sore after carrying the boxes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The nurse cleaned the sore carefully."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The defeat remains a sore subject for the team."
+      }
+    ],
     "wordForms": {
       "noun": "sore 疮，痛处",
       "verb": "",
@@ -1889,6 +2723,26 @@
         "phrase": "a sore point / spot",
         "translation": "痛处，敏感话题",
         "example": "Don’t mention the exam — it’s a sore point with him. 别提考试——那是他的痛处。"
+      },
+      {
+        "phrase": "become / remain sore",
+        "translation": "变得/仍然疼痛",
+        "example": "The ankle remained sore for several days. 脚踝疼了好几天。"
+      },
+      {
+        "phrase": "sore to the touch",
+        "translation": "一碰就疼（作表语补足说明）",
+        "example": "The skin around the cut was sore to the touch. 伤口周围的皮肤一碰就疼。"
+      },
+      {
+        "phrase": "an open / infected sore",
+        "translation": "开放性/感染性疮口",
+        "example": "Keep the bandage away from an open sore. 避免绷带摩擦开放性疮口。"
+      },
+      {
+        "phrase": "muscle soreness",
+        "translation": "肌肉酸痛（词族名词）",
+        "example": "Gentle movement may ease muscle soreness. 轻柔活动可缓解肌肉酸痛。"
       }
     ],
     "synonyms": [
@@ -1915,13 +2769,29 @@
         "type": "构词法·sore 词族与固定表达",
         "expression": "sore (adj./n.) → sorely (adv. 极度地) → a sight for sore eyes（赏心悦目）→ a sore point（痛处）",
         "example": "Your help is sorely needed right now. 现在非常需要你的帮助。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "become / remain sore / sore to the touch / an open / infected sore / muscle soreness",
+        "example": "The ankle remained sore for several days. 脚踝疼了好几天。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "My shoulders felt sore after carrying the boxes.",
+        "upgraded": "My shoulders felt sore after carrying the boxes, so I rested before moving the final load.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The nurse cleaned the sore carefully.",
+        "upgraded": "The nurse cleaned the sore carefully, then covered it with a sterile dressing.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 sore / sorely 填空：I woke up with a _____ throat and a slight fever.",
+        "question": "用 sore / sorely 填空：I woke up with a ____ throat and a slight fever.",
         "answer": "sore",
         "note": "修饰名词 throat 需形容词 sore；sorely 是副词，不能修饰名词。"
       },
@@ -1932,10 +2802,10 @@
         "note": "sore 作表语描述身体酸痛；feel/be + sore 均可。"
       },
       {
-        "type": "单句语法填空（副词形式）",
-        "question": "Your advice will be _____ (sore) needed in the coming weeks.",
+        "type": "单句语法填空",
+        "question": "Your advice will be ____ (sore) needed in the coming weeks.",
         "answer": "sorely",
-        "note": "修饰过去分词 needed 需副词，sore→sorely，意为“非常，急切地”。"
+        "note": "原题型标注：单句语法填空（副词形式）。修饰过去分词 needed 需副词，sore→sorely，意为“非常，急切地”。"
       }
     ]
   },
@@ -1951,7 +2821,7 @@
     "sub_section": "",
     "original_sentence": "At first, the flu can appear like the common cold with a dry cough, a runny nose and a sore throat.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the passage inside the neck through which air and food move",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1959,7 +2829,20 @@
         "example": "The river narrows into a rocky throat here. 河流在此收窄成一道多岩石的狭口。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Smoke made his throat feel dry."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The doctor examined the child's throat."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She cleared her throat before answering."
+      }
+    ],
     "wordForms": {
       "noun": "throat 咽喉，喉咙",
       "verb": "",
@@ -2009,6 +2892,21 @@
         "phrase": "at the top of one's throat/voice",
         "translation": "扯着嗓子，大声地",
         "example": "The children were shouting at the top of their voices. 孩子们扯着嗓子大喊。"
+      },
+      {
+        "phrase": "a throat infection",
+        "translation": "咽喉感染",
+        "example": "The test confirmed a bacterial throat infection. 检测证实为细菌性咽喉感染。"
+      },
+      {
+        "phrase": "a throat lozenge",
+        "translation": "润喉糖；含片",
+        "example": "A throat lozenge eased the dryness temporarily. 一片润喉糖暂时缓解了干涩。"
+      },
+      {
+        "phrase": "deep in one's throat",
+        "translation": "在喉咙深处",
+        "example": "He felt a sharp pain deep in his throat. 他感到喉咙深处一阵刺痛。"
       }
     ],
     "synonyms": [
@@ -2017,6 +2915,12 @@
         "translation": "n. 食道，咽喉",
         "example": "The fish bone got stuck in his gullet. 鱼刺卡在了他的食道里。",
         "usage": "gullet 更偏医学/口语，多指吞咽通道（食道）；throat 是通用词，指整个咽喉部位，日常描述症状（a sore throat）只用 throat。"
+      },
+      {
+        "synonym": "pharynx",
+        "translation": "咽（解剖学术语）",
+        "example": "The pharynx connects the nasal cavity to the oesophagus and larynx. 咽连接鼻腔与食管、喉。",
+        "usage": "pharynx 是正式解剖学可数名词，只指咽部；throat 是日常词，范围更宽，可笼统指颈内的咽喉区域。普通症状用 sore throat，不说 *sore pharynx。"
       }
     ],
     "advancedExpressions": [
@@ -2029,19 +2933,35 @@
         "type": "短语群·throat 相关习语",
         "expression": "clear one's throat（清嗓）/ have a lump in one's throat（哽咽）/ jump down sb's throat（发火）",
         "example": "He cleared his throat, but a lump in his throat still stopped his words. 他清了清嗓子，可喉咙的哽咽仍让他说不出话。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "at the top of one's throat/voice / a throat infection / a throat lozenge / deep in one's throat",
+        "example": "The children were shouting at the top of their voices. 孩子们扯着嗓子大喊。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Smoke made his throat feel dry.",
+        "upgraded": "Smoke made his throat feel dry, forcing him to leave the crowded room.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The doctor examined the child's throat.",
+        "upgraded": "The doctor examined the child's throat, finding mild redness but no swelling.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The flu can appear like the common cold with a dry cough, a runny nose and a sore ________ (throat).",
+        "question": "The flu can appear like the common cold with a dry cough, a runny nose and a sore ____ (throat).",
         "answer": "throat",
         "note": "名词原形，前有形容词 sore 修饰；throat 为可数名词，此处单数与 a 搭配。"
       },
       {
         "type": "选词填空",
-        "question": "Before giving his speech, he ________ his throat and looked at the audience. (cleared / cut / jumped)",
+        "question": "Before giving his speech, he ____ his throat and looked at the audience. (cleared / cut / jumped)",
         "answer": "cleared",
         "note": "固定搭配 clear one's throat 清嗓子；cut throat、jump down sb's throat 语义不符。"
       },
@@ -2065,7 +2985,7 @@
     "sub_section": "",
     "original_sentence": "However, the flu can (6) _________________ a serious threat to high-risk groups such as the elderly and those with underlying health conditions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "basic, hidden, or not immediately obvious, but important in explaining a situation",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2078,7 +2998,20 @@
         "example": "A strong desire for justice underlies his actions. 强烈的正义感是他行为的根源。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The treatment does not address the underlying cause."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Trust is the underlying principle of the agreement."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Analysts questioned the model's underlying assumptions."
+      }
+    ],
     "wordForms": {
       "noun": "",
       "verb": "underlie 构成……的基础；位于……之下（underlie-underlay-underlain-underlying，注意与 lie/lay 三态易混）",
@@ -2107,6 +3040,26 @@
         "phrase": "an underlying assumption",
         "translation": "潜在的假设，隐含的前提",
         "example": "The plan rests on an underlying assumption that prices will rise. 该计划基于一个潜在假设：价格会上涨。"
+      },
+      {
+        "phrase": "an underlying issue / problem",
+        "translation": "潜在的根本问题",
+        "example": "The argument revealed an underlying issue of trust. 这场争论暴露了潜在的信任问题。"
+      },
+      {
+        "phrase": "the underlying structure",
+        "translation": "底层结构",
+        "example": "The scan shows the underlying structure of the bone. 扫描显示了骨骼的底层结构。"
+      },
+      {
+        "phrase": "an underlying trend / pattern",
+        "translation": "潜在趋势/模式",
+        "example": "Monthly changes can hide the underlying trend. 月度变化可能掩盖潜在趋势。"
+      },
+      {
+        "phrase": "underlie sth",
+        "translation": "构成……的基础；是……的根本原因（词族动词）",
+        "example": "Several social factors underlie the decline. 多项社会因素是下降的根本原因。"
       }
     ],
     "synonyms": [
@@ -2133,25 +3086,41 @@
         "type": "同义表达群·'根本原因'高级替换",
         "expression": "the underlying cause / the root cause / the fundamental reason / what lies at the heart of the problem",
         "example": "We must tackle the root cause, not just the symptoms. 我们必须解决根本原因，而不只是表面症状。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "an underlying issue / problem / the underlying structure / an underlying trend / pattern / underlie sth",
+        "example": "The argument revealed an underlying issue of trust. 这场争论暴露了潜在的信任问题。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The treatment does not address the underlying cause.",
+        "upgraded": "The treatment does not address the underlying cause, so the problem may return within weeks.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Trust is the underlying principle of the agreement.",
+        "upgraded": "Trust is the underlying principle of the agreement, guiding how both sides share information.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The flu can pose a serious threat to the elderly and those with ________ (underlie) health conditions.",
+        "question": "The flu can pose a serious threat to the elderly and those with ____ (underlie) health conditions.",
         "answer": "underlying",
         "note": "underlie 的形容词形式 underlying 作定语修饰 health conditions，意为'潜在的、基础的'。"
       },
       {
         "type": "辨析选词",
-        "question": "Doctors are still searching for the ________ cause of the disease. (underlying / potential)",
+        "question": "Doctors are still searching for the ____ cause of the disease. (underlying / potential)",
         "answer": "underlying",
         "note": "指已存在但隐藏于表面之下的根本原因，用 underlying；potential 指尚未出现的可能因素，语义不符。"
       },
       {
         "type": "完成句子",
-        "question": "诚信是良好关系的根本。Honesty ________ (构成……基础) a good relationship.",
+        "question": "诚信是良好关系的根本。Honesty ____ (构成……基础) a good relationship.",
         "answer": "underlies",
         "note": "underlie 作动词，主语 Honesty 为第三人称单数，谓语用 underlies；underlie sth = 构成……的基础。"
       }
@@ -2169,7 +3138,7 @@
     "sub_section": "",
     "original_sentence": "On the contrary, it was caused by a serious liver infection.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a large organ that processes nutrients, removes harmful substances from the blood, and produces bile",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2177,7 +3146,20 @@
         "example": "We had fried liver and onions for dinner. 晚餐我们吃了炒肝配洋葱。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The liver helps remove toxins from the blood."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Doctors monitored his liver after the treatment."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Severe infection can damage the liver."
+      }
+    ],
     "wordForms": {
       "noun": "liver 肝，肝脏",
       "verb": "",
@@ -2206,27 +3188,81 @@
         "phrase": "chicken/pig's liver",
         "translation": "鸡肝／猪肝（食物）",
         "example": "Liver is rich in iron. 肝脏富含铁。"
+      },
+      {
+        "phrase": "a liver function test",
+        "translation": "肝功能检查",
+        "example": "A liver function test showed no lasting damage. 肝功能检查显示没有持续损伤。"
+      },
+      {
+        "phrase": "liver enzymes",
+        "translation": "肝酶",
+        "example": "The medication can raise liver enzymes temporarily. 这种药物可能暂时升高肝酶。"
+      },
+      {
+        "phrase": "fatty liver disease",
+        "translation": "脂肪性肝病",
+        "example": "Regular exercise can lower the risk of fatty liver disease. 规律运动可降低脂肪性肝病风险。"
+      },
+      {
+        "phrase": "donate part of one's liver",
+        "translation": "捐献部分肝脏",
+        "example": "A healthy adult may donate part of the liver. 健康成年人可以捐献部分肝脏。"
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      {
+        "synonym": "hepatic organ",
+        "translation": "肝脏（描述性医学表达）",
+        "example": "The liver is the body's largest internal hepatic organ. 肝脏是人体最大的内部实质器官。",
+        "usage": "hepatic organ 是描述性医学表达，不是日常固定替换词；hepatic 通常作形容词置于名词前，如 hepatic function/disease。普通英语一律优先用 liver。"
+      },
+      {
+        "synonym": "hepar",
+        "translation": "肝（罕见医学/拉丁来源术语）",
+        "example": "Hepar appears mainly in specialist Latin-derived terminology. Hepar 主要见于拉丁来源的专业术语。",
+        "usage": "hepar 是极罕见的医学或药学名词，不能替代日常 liver；这里只用于识别术语。写作和口语都用 liver，派生形容词用 hepatic。"
+      }
+    ],
     "advancedExpressions": [
       {
         "type": "词块群·人体器官与疾病",
         "expression": "liver damage（肝损伤）/ kidney failure（肾衰竭）/ respiratory problems（呼吸系统疾病）/ a weakened immune system（免疫力下降）",
         "example": "Drug abuse can cause heart problems, kidney failure and liver damage. 滥用药物会引发心脏病、肾衰竭和肝损伤。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a liver function test / liver enzymes / fatty liver disease / donate part of one's liver",
+        "example": "A liver function test showed no lasting damage. 肝功能检查显示没有持续损伤。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a liver function test / liver enzymes / fatty liver disease / donate part of one's liver",
+        "example": "A liver function test showed no lasting damage. 肝功能检查显示没有持续损伤。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The liver helps remove toxins from the blood.",
+        "upgraded": "The liver helps remove toxins from the blood, protecting the rest of the body from harmful substances.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Doctors monitored his liver after the treatment.",
+        "upgraded": "Doctors monitored his liver after the treatment, checking whether the medication affected its function.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "On the contrary, the illness was caused by a serious ________ (肝的) infection.",
+        "question": "On the contrary, the illness was caused by a serious ____ (肝的) infection.",
         "answer": "liver",
         "note": "liver 作名词定语修饰 infection，表示'肝脏的'；此处不加复数。"
       },
       {
         "type": "选词填空",
-        "question": "The most serious health conditions include kidney failure and ________ damage. (liver / live / lively)",
+        "question": "The most serious health conditions include kidney failure and ____ damage. (liver / live / lively)",
         "answer": "liver",
         "note": "liver damage 肝损伤，为固定搭配；live（活的/直播的）、lively（活泼的）语义不符，注意与 liver 拼写区分。"
       },
@@ -2250,7 +3286,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to annoy someone (2) to cause soreness, inflammation, or discomfort in part of the body",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2263,7 +3299,20 @@
         "example": "His rude reply irritated everyone. 他无礼的回答惹恼了所有人。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The chemical fumes irritated her eyes."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Repeated interruptions irritated the speaker."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Rough fabric may irritate sensitive skin."
+      }
+    ],
     "wordForms": {
       "noun": "irritation 恼怒；刺激（物）；发炎发痒；irritability 易怒",
       "verb": "irritate 刺激；使烦恼（irritate-irritated-irritated；现在分词 irritating）",
@@ -2292,6 +3341,26 @@
         "phrase": "be irritated by/at/with sth",
         "translation": "被……惹恼",
         "example": "She was irritated by the constant noise. 她被持续的噪音惹恼了。"
+      },
+      {
+        "phrase": "cause irritation",
+        "translation": "引起刺激/不适（词族名词）",
+        "example": "Strong perfume can cause irritation in the nose. 浓烈香水会刺激鼻腔。"
+      },
+      {
+        "phrase": "an irritating habit / noise",
+        "translation": "恼人的习惯/噪声（-ing 修饰事物）",
+        "example": "The fan produced an irritating high-pitched noise. 风扇发出恼人的高频噪声。"
+      },
+      {
+        "phrase": "become easily irritated",
+        "translation": "变得容易烦躁（-ed 修饰人的感受）",
+        "example": "People may become easily irritated when sleep-deprived. 人在睡眠不足时可能容易烦躁。"
+      },
+      {
+        "phrase": "avoid irritating the skin",
+        "translation": "避免刺激皮肤",
+        "example": "Choose loose clothing to avoid irritating the skin. 选择宽松衣物以免刺激皮肤。"
       }
     ],
     "synonyms": [
@@ -2325,17 +3394,28 @@
         "example": "His irritating remarks left me irritated all day; luckily I'm not usually irritable. 他惹人厌的话让我恼火了一整天；幸好我平时不易怒。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The chemical fumes irritated her eyes.",
+        "upgraded": "The chemical fumes irritated her eyes, making them water for several minutes.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Repeated interruptions irritated the speaker.",
+        "upgraded": "Repeated interruptions irritated the speaker, although he continued answering calmly.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "I had taken too many painkillers, which were ________ (irritate) the lining of my stomach.",
+        "question": "I had taken too many painkillers, which were ____ (irritate) the lining of my stomach.",
         "answer": "irritating",
         "note": "【课件】原句：非限制性定语从句用过去进行时 were + doing，表示'正在刺激'的持续动作，故填现在分词 irritating。"
       },
       {
         "type": "辨析选词",
-        "question": "The children's ________ behaviour made their teacher feel very ________. (irritating / irritated)",
+        "question": "The children's ____ behaviour made their teacher feel very ____. (irritating / irritated)",
         "answer": "irritating; irritated",
         "note": "第一空修饰 behaviour（事物令人恼火）用 irritating；第二空形容 teacher（人被惹恼）用 irritated。"
       },
@@ -2359,7 +3439,7 @@
     "sub_section": "",
     "original_sentence": "As I learnt later from my doctor, I had taken too many painkillers, which were irritating the lining of my stomach.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a layer of material covering the inside surface of something, including an organ, container, or garment",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2372,7 +3452,20 @@
         "example": "She sewed a new lining into the old coat. 她给旧外套缝了新的内衬。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The stomach lining protects deeper tissue from acid."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A removable lining keeps the jacket warm."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Moisture damaged the lining of the old case."
+      }
+    ],
     "wordForms": {
       "noun": "lining （器官）内膜；（衣物）衬里 / liner 内衬物；班轮，客机",
       "verb": "line（v. 给……加衬里；沿……排列成行）→ line-lined-lined；lining 为其现在分词/动名词",
@@ -2402,6 +3495,31 @@
         "phrase": "the lining of the nose/lungs",
         "translation": "鼻腔／肺部内膜",
         "example": "The virus attacks the lining of the lungs. 病毒会侵袭肺部内膜。"
+      },
+      {
+        "phrase": "a protective lining",
+        "translation": "保护性内层/衬里",
+        "example": "The tank has a protective lining against corrosion. 储罐有防腐保护内衬。"
+      },
+      {
+        "phrase": "the inner lining",
+        "translation": "内层；内衬",
+        "example": "The surgeon examined the inner lining of the intestine. 外科医生检查了肠道内壁。"
+      },
+      {
+        "phrase": "the lining becomes inflamed",
+        "translation": "内膜发炎（lining 作主语）",
+        "example": "The lining becomes inflamed after repeated irritation. 内膜在反复刺激后会发炎。"
+      },
+      {
+        "phrase": "lining material",
+        "translation": "衬里材料",
+        "example": "Cotton is used as a soft lining material. 棉布被用作柔软的衬里材料。"
+      },
+      {
+        "phrase": "every cloud has a silver lining",
+        "translation": "黑暗中总有一线光明（习语）",
+        "example": "Every cloud has a silver lining, even after a painful setback. 即使遭遇痛苦挫折，黑暗中也总有一线光明。"
       }
     ],
     "synonyms": [
@@ -2410,6 +3528,12 @@
         "translation": "n.（生物/医学）膜，隔膜",
         "example": "The cell is surrounded by a thin membrane. 细胞被一层薄膜包裹。",
         "usage": "membrane 是专业术语，指生物体内的薄膜结构；lining 更通用，既可指器官内壁（the lining of the stomach），也可指衣物内衬。描述胃、肺等器官内壁，日常/教材多用 lining。"
+      },
+      {
+        "synonym": "inner layer",
+        "translation": "内层；内壁",
+        "example": "The inner layer protects the vessel from corrosion. 内层保护容器免受腐蚀。",
+        "usage": "inner layer 是普通描述性名词短语，可指任何内层；lining 更强调铺衬、覆盖在内部表面的材料或组织，常搭 the lining of the stomach/jacket。"
       }
     ],
     "advancedExpressions": [
@@ -2429,23 +3553,34 @@
         "example": "Try to find the silver lining even in hard times. 即便艰难，也要努力寻得一线希望。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The stomach lining protects deeper tissue from acid.",
+        "upgraded": "The stomach lining protects deeper tissue from acid, renewing itself regularly to maintain that barrier.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "A removable lining keeps the jacket warm.",
+        "upgraded": "A removable lining keeps the jacket warm, while allowing it to be worn in milder weather.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As my doctor said, the painkillers were irritating the ________ (line) of my stomach.",
+        "question": "As my doctor said, the painkillers were irritating the ____ (line) of my stomach.",
         "answer": "lining",
         "note": "【课件】原句：need a noun 表示'胃黏膜'，由动词 line（加衬里）派生的名词 lining；the lining of one's stomach 为固定表达。"
       },
       {
         "type": "选词填空",
-        "question": "She sewed a warm ________ into her old coat to keep out the cold. (lining / line / liner)",
+        "question": "She sewed a warm ____ into her old coat to keep out the cold. (lining / line / liner)",
         "answer": "lining",
         "note": "此处指衣物'内衬'，用名词 lining；line（线/排队）、liner（班轮）语义不符。"
       },
       {
         "type": "完成句子",
-        "question": "别灰心，塞翁失马焉知非福。Don't lose heart; every cloud has a ________ ________. (银色的一线光明)",
+        "question": "别灰心，塞翁失马焉知非福。Don't lose heart; every cloud has a ____ ____. (银色的一线光明)",
         "answer": "silver lining",
         "note": "固定谚语 every cloud has a silver lining，lining 在此指云的'银边'，喻困境中的希望。"
       }
@@ -2463,7 +3598,7 @@
     "sub_section": "",
     "original_sentence": "However, self-medication could have disastrous consequences.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "medicine used to treat or prevent illness, or treatment involving medicine",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2471,7 +3606,20 @@
         "example": "The illness can be controlled by medication. 这种病可以通过药物治疗来控制。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "This medication should be taken with food."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The nurse recorded every change in his medication."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Some patients require long-term medication."
+      }
+    ],
     "wordForms": {
       "noun": "medication 药物；用药 / medicine 药；医学 / medic 医生（口语）",
       "verb": "medicate 用药治疗（medicate-medicated-medicated）",
@@ -2500,6 +3648,26 @@
         "phrase": "medication for sth",
         "translation": "治疗……的药物",
         "example": "This is a common medication for colds. 这是一种常见的感冒药。"
+      },
+      {
+        "phrase": "start / stop medication",
+        "translation": "开始/停止用药",
+        "example": "Never stop medication without medical advice. 切勿在没有医嘱的情况下停药。"
+      },
+      {
+        "phrase": "side effects of medication",
+        "translation": "药物副作用",
+        "example": "The leaflet lists possible side effects of the medication. 说明书列出了药物可能产生的副作用。"
+      },
+      {
+        "phrase": "over-the-counter medication",
+        "translation": "非处方药",
+        "example": "Ask a pharmacist before combining over-the-counter medications. 合用非处方药前请咨询药剂师。"
+      },
+      {
+        "phrase": "a medication error",
+        "translation": "用药错误",
+        "example": "Electronic records can reduce medication errors. 电子病历可减少用药错误。"
       }
     ],
     "synonyms": [
@@ -2533,17 +3701,28 @@
         "example": "She used a medicated cream on medical advice for its medicinal effect. 她遵医嘱使用一种药膏，因其有疗效。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "This medication should be taken with food.",
+        "upgraded": "This medication should be taken with food, reducing the chance of stomach discomfort.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The nurse recorded every change in his medication.",
+        "upgraded": "The nurse recorded every change in his medication, helping the doctor assess possible side effects.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "However, self-________ (medicate) could have disastrous consequences.",
+        "question": "However, self-____ (medicate) could have disastrous consequences.",
         "answer": "medication",
         "note": "self- 后需名词，由动词 medicate 派生 medication，构成 self-medication'自行用药'。"
       },
       {
         "type": "辨析选词",
-        "question": "The doctor put her on ________ for her heart condition. (medication / medical)",
+        "question": "The doctor put her on ____ for her heart condition. (medication / medical)",
         "answer": "medication",
         "note": "be on medication 正在服药，medication 为名词'药物/用药'；medical 是形容词，不能作 on 的宾语。"
       },
@@ -2567,7 +3746,7 @@
     "sub_section": "",
     "original_sentence": "Ensure that you know the answers to the following questions: what is the recommended dose?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a measured amount of medicine or radiation taken or given at one time (2) an amount of an experience or quality",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2585,7 +3764,20 @@
         "example": "She dosed the child with cough syrup. 她给孩子服了止咳糖浆。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The doctor reduced the daily dose."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The technician dosed each sample with the solution."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The documentary offers a dose of optimism."
+      }
+    ],
     "wordForms": {
       "noun": "dose（一剂）; dosage（用量，剂量方案）; overdose（过量）",
       "verb": "dose（给…服药）; overdose（服药过量）",
@@ -2630,6 +3822,21 @@
         "phrase": "in small / large doses",
         "translation": "少量地／大量地",
         "example": "His jokes are funny in small doses. 他的笑话少来点还挺好笑。"
+      },
+      {
+        "phrase": "administer / receive a dose",
+        "translation": "给予/接受一剂",
+        "example": "A nurse administered the first dose at noon. 护士在中午给予了第一剂。"
+      },
+      {
+        "phrase": "miss / double a dose",
+        "translation": "漏服/加倍服用一剂",
+        "example": "Do not double a dose after forgetting one tablet. 漏服一片后不要加倍服药。"
+      },
+      {
+        "phrase": "a dose-dependent effect",
+        "translation": "剂量依赖效应",
+        "example": "The trial found a clear dose-dependent effect. 试验发现了明显的剂量依赖效应。"
       }
     ],
     "synonyms": [
@@ -2656,19 +3863,35 @@
         "type": "同义表达群·“一点点”的地道说法",
         "expression": "a dose of humour = a touch of humour = a hint of humour",
         "example": "She replied with a dose of humour. 她带着几分幽默作答。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "in small / large doses / administer / receive a dose / miss / double a dose / a dose-dependent effect",
+        "example": "His jokes are funny in small doses. 他的笑话少来点还挺好笑。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The doctor reduced the daily dose.",
+        "upgraded": "The doctor reduced the daily dose, responding to the patient's improved condition.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The technician dosed each sample with the solution.",
+        "upgraded": "The technician dosed each sample with the solution, ensuring that all received an equal amount.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Always read the label carefully so that you know the recommended ______ (dose) of the medicine.",
+        "question": "Always read the label carefully so that you know the recommended ____ (dose) of the medicine.",
         "answer": "dose",
         "note": "the recommended dose 建议剂量，课文原句搭配；此处填单数名词。"
       },
       {
         "type": "完成句子",
-        "question": "他因服药过量被送进了医院。He was sent to hospital because he ______ ______ ______ ______ (服药过量) painkillers.",
+        "question": "他因服药过量被送进了医院。He was sent to hospital because he ____ ____ ____ ____ (服药过量) painkillers.",
         "answer": "took an overdose of",
         "note": "take an overdose of sth = 过量服用某物；overdose 此处为名词。"
       },
@@ -2692,7 +3915,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to officially order medicine or treatment for a patient (2) to state that a rule or action must be followed",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2705,7 +3928,20 @@
         "example": "The rules prescribe how the game must be played. 规则规定了比赛必须如何进行。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The physician prescribed antibiotics for the infection."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The code prescribes regular safety inspections."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Doctors should not prescribe unnecessary medication."
+      }
+    ],
     "wordForms": {
       "noun": "prescription（处方；规定）; prescriber（开处方者）",
       "verb": "prescribe（开处方；规定）",
@@ -2734,6 +3970,26 @@
         "phrase": "prescribe that + (should) do",
         "translation": "规定，命令（正式，从句用虚拟）",
         "example": "The law prescribes that drivers (should) wear seat belts. 法律规定司机须系安全带。"
+      },
+      {
+        "phrase": "be prescribed by a doctor",
+        "translation": "由医生开具/处方（被动）",
+        "example": "This medicine must be prescribed by a doctor. 这种药必须由医生开具。"
+      },
+      {
+        "phrase": "prescribe rest / exercise",
+        "translation": "嘱咐休息/运动（不仅限于药物）",
+        "example": "The specialist prescribed gentle exercise after surgery. 专科医生建议术后进行轻柔运动。"
+      },
+      {
+        "phrase": "a prescription-only drug",
+        "translation": "处方药（词族复合形容词）",
+        "example": "The treatment uses a prescription-only drug. 该治疗使用处方药。"
+      },
+      {
+        "phrase": "follow a prescribed treatment",
+        "translation": "遵循规定/开具的治疗方案",
+        "example": "Patients should follow the prescribed treatment carefully. 患者应认真遵循医嘱治疗。"
       }
     ],
     "synonyms": [
@@ -2766,25 +4022,41 @@
         "type": "常用结构·prescribe 的正式规定用法",
         "expression": "The law/rule prescribes that sb (should) do sth",
         "example": "The regulations prescribe that all workers (should) wear helmets. 规章规定所有工人须戴安全帽。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "be prescribed by a doctor / prescribe rest / exercise / a prescription-only drug / follow a prescribed treatment",
+        "example": "This medicine must be prescribed by a doctor. 这种药必须由医生开具。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The physician prescribed antibiotics for the infection.",
+        "upgraded": "The physician prescribed antibiotics for the infection, instructing the patient to complete the full course.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The code prescribes regular safety inspections.",
+        "upgraded": "The code prescribes regular safety inspections, requiring operators to keep written records.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "辨析选词",
-        "question": "选词填空（prescribe / describe）：The doctor ______d some antibiotics and asked me to ______ my symptoms in detail.",
+        "question": "选词填空（prescribe / describe）：The doctor ____d some antibiotics and asked me to ____ my symptoms in detail.",
         "answer": "prescribe(d); describe",
         "note": "prescribe 开药；describe 描述。形近易混，靠语义区分。"
       },
       {
         "type": "单句语法填空",
-        "question": "Only a qualified doctor is allowed to write a ______ (prescribe) for such strong drugs.",
+        "question": "Only a qualified doctor is allowed to write a ____ (prescribe) for such strong drugs.",
         "answer": "prescription",
         "note": "write a + 名词，故用名词 prescription（处方）。"
       },
       {
         "type": "完成句子",
-        "question": "法律规定所有驾驶员必须系安全带。The law ______ ______ all drivers ______ ______ their seat belts.（用 prescribe + 虚拟）",
+        "question": "法律规定所有驾驶员必须系安全带。The law ____ ____ all drivers ____ ____ their seat belts.（用 prescribe + 虚拟）",
         "answer": "prescribes that; (should) wear",
         "note": "prescribe that 从句谓语用 (should) do 的虚拟语气。"
       }
@@ -2802,7 +4074,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "greater than is reasonable, necessary, normal, or acceptable",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2810,7 +4082,20 @@
         "example": "Excessive noise can damage your hearing. 过度的噪音会损害听力。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Excessive noise disturbed nearby residents."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The device shuts down if it detects excessive heat."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Excessive caution can delay urgent action."
+      }
+    ],
     "wordForms": {
       "noun": "excess（过量，超过）; excessiveness（过度）",
       "verb": "exceed（超过，超出）",
@@ -2839,6 +4124,26 @@
         "phrase": "excessive amounts of sth",
         "translation": "过量的…",
         "example": "Avoid excessive amounts of salt. 避免摄入过量的盐。"
+      },
+      {
+        "phrase": "excessive force",
+        "translation": "过度武力",
+        "example": "The inquiry examined whether excessive force was used. 调查审查了是否使用了过度武力。"
+      },
+      {
+        "phrase": "excessive demand / pressure",
+        "translation": "过度需求/压力",
+        "example": "Excessive pressure can damage the delicate valve. 压力过大会损坏精密阀门。"
+      },
+      {
+        "phrase": "excessively high / large",
+        "translation": "过高/过大（副词修饰形容词）",
+        "example": "The initial estimate was excessively high. 最初的估计过高。"
+      },
+      {
+        "phrase": "excess vs excessive",
+        "translation": "excess 作名词/定语；excessive 作形容词，强调超过合理限度",
+        "example": "Excess sugar and excessive consumption both harm health. 过量糖分和过度摄入都会损害健康。"
       }
     ],
     "synonyms": [
@@ -2871,19 +4176,35 @@
         "type": "构词法·exceed / excess / excessive 一家",
         "expression": "exceed (v.) 超过 → excess (n.) 过量 → excessive (adj.) 过度的 → excessively (adv.)",
         "example": "Costs exceeded the budget, and the excess was excessive. 成本超支，而超出的部分过多。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "excessive force / excessive demand / pressure / excessively high / large / excess vs excessive",
+        "example": "The inquiry examined whether excessive force was used. 调查审查了是否使用了过度武力。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Excessive noise disturbed nearby residents.",
+        "upgraded": "Excessive noise disturbed nearby residents, leading the council to limit late-night construction.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The device shuts down if it detects excessive heat.",
+        "upgraded": "The device shuts down if it detects excessive heat, preventing permanent damage to its battery.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Doctors warn that ______ (excess) drinking can seriously damage your health.",
+        "question": "Doctors warn that ____ (excess) drinking can seriously damage your health.",
         "answer": "excessive",
         "note": "修饰名词 drinking 需形容词 excessive；注意别填名词 excess。"
       },
       {
         "type": "选词填空",
-        "question": "用 exceed / excess / excessive 填空：The car's speed ______ed the limit, and such ______ speed is dangerous.",
+        "question": "用 exceed / excess / excessive 填空：The car's speed ____ed the limit, and such ____ speed is dangerous.",
         "answer": "exceed(ed); excessive",
         "note": "第一空作谓语用动词 exceed；第二空修饰 speed 用形容词 excessive。"
       },
@@ -2907,7 +4228,7 @@
     "sub_section": "",
     "original_sentence": "What types of cybercrime are there?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "criminal activity carried out using computers, networks, or the Internet",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2915,7 +4236,20 @@
         "example": "Cybercrime is on the rise worldwide. 网络犯罪在全球呈上升趋势。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The bank created a unit to investigate cybercrime."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Cybercrime can target individuals as well as companies."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "International cooperation is essential against cybercrime."
+      }
+    ],
     "wordForms": {
       "noun": "cybercrime（网络犯罪）; cybercriminal（网络罪犯）; cyberspace（网络空间）; cybersecurity（网络安全）",
       "verb": "-",
@@ -2949,6 +4283,21 @@
         "phrase": "commit (a) cybercrime",
         "translation": "实施网络犯罪",
         "example": "Hackers commit cybercrime for money. 黑客为钱实施网络犯罪。"
+      },
+      {
+        "phrase": "a cybercrime unit / investigator",
+        "translation": "网络犯罪部门/调查员",
+        "example": "A specialist cybercrime unit traced the payment. 专业网络犯罪部门追踪了这笔付款。"
+      },
+      {
+        "phrase": "cybercrime legislation",
+        "translation": "网络犯罪立法",
+        "example": "New cybercrime legislation strengthened reporting duties. 新的网络犯罪立法强化了报告义务。"
+      },
+      {
+        "phrase": "report cybercrime",
+        "translation": "举报网络犯罪",
+        "example": "Victims should report cybercrime as soon as possible. 受害者应尽快举报网络犯罪。"
       }
     ],
     "synonyms": [
@@ -2975,19 +4324,35 @@
         "type": "短语群·cyber- 合成词家族",
         "expression": "cybercrime / cybercriminal / cyberspace / cybersecurity / cyberbullying",
         "example": "Cybersecurity is our best defence against cybercrime. 网络安全是我们抵御网络犯罪的最好防线。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "commit (a) cybercrime / a cybercrime unit / investigator / cybercrime legislation / report cybercrime",
+        "example": "Hackers commit cybercrime for money. 黑客为钱实施网络犯罪。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The bank created a unit to investigate cybercrime.",
+        "upgraded": "The bank created a unit to investigate cybercrime, bringing technical experts and detectives together.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Cybercrime can target individuals as well as companies.",
+        "upgraded": "Cybercrime can target individuals as well as companies, stealing money, identities, or confidential data.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Staying alert online can reduce your chances of falling ______ to cybercrime.",
+        "question": "Staying alert online can reduce your chances of falling ____ to cybercrime.",
         "answer": "victim",
         "note": "fall victim to sth 成为…的受害者，课件同款搭配。"
       },
       {
         "type": "选词填空",
-        "question": "用 cybercrime / cybercriminal 填空：Phishing is a common type of ______, and the ______ tricks you into giving away your money.",
+        "question": "用 cybercrime / cybercriminal 填空：Phishing is a common type of ____, and the ____ tricks you into giving away your money.",
         "answer": "cybercrime; cybercriminal",
         "note": "第一空指“犯罪（行为）”，第二空指“罪犯（人）”，靠语义与构词后缀区分。"
       },
@@ -3011,7 +4376,7 @@
     "sub_section": "",
     "original_sentence": "The Internet has, in a relatively short span of time, completely revolutionized how we communicate with each other, exchange information and conduct business.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. the full length of time or distance between two points (2) v. to extend across or include a range",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3034,7 +4399,20 @@
         "example": "The bridge spans the valley. 这座桥横跨山谷。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The project was completed within a six-month span."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A stone bridge spans the narrow valley."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Her research spans several academic disciplines."
+      }
+    ],
     "wordForms": {
       "noun": "span（跨度，持续时间）; lifespan（寿命）; wingspan（翼展）",
       "verb": "span（横跨，贯穿）",
@@ -3074,6 +4452,21 @@
         "phrase": "span a river / gap",
         "translation": "横跨河流／缺口",
         "example": "A new bridge spans the river. 一座新桥横跨这条河。"
+      },
+      {
+        "phrase": "within a short / long span",
+        "translation": "在短/长时间跨度内",
+        "example": "The district changed greatly within a short span. 该地区在短时间内发生了巨大变化。"
+      },
+      {
+        "phrase": "a career spanning ... years",
+        "translation": "长达……年的职业生涯（现在分词作后置定语）",
+        "example": "She retired after a career spanning forty years. 她在长达四十年的职业生涯后退休。"
+      },
+      {
+        "phrase": "span generations / disciplines",
+        "translation": "跨越世代/学科",
+        "example": "The tradition spans several generations of craftspeople. 这一传统跨越了数代工匠。"
       }
     ],
     "synonyms": [
@@ -3106,25 +4499,41 @@
         "type": "短语群·span 名词合成词",
         "expression": "attention span 注意力时长 / lifespan 寿命 / a span of time 一段时间 / time span 时间跨度",
         "example": "AI evolved fast over a short time span. 人工智能在短时间跨度里迅速演进。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "span a river / gap / within a short / long span / a career spanning ... years / span generations / disciplines",
+        "example": "A new bridge spans the river. 一座新桥横跨这条河。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The project was completed within a six-month span.",
+        "upgraded": "The project was completed within a six-month span, despite delays during the winter.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "A stone bridge spans the narrow valley.",
+        "upgraded": "A stone bridge spans the narrow valley, connecting villages on opposite slopes.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The Internet has, in a relatively short ______ (span) of time, changed the way we communicate.",
+        "question": "The Internet has, in a relatively short ____ (span) of time, changed the way we communicate.",
         "answer": "span",
         "note": "a short span of time 一段短时间，课文原句／课件搭配，名词单数。"
       },
       {
         "type": "完成句子",
-        "question": "这座新桥横跨黄河。The new bridge ______ (横跨) the Yellow River.",
+        "question": "这座新桥横跨黄河。The new bridge ____ (横跨) the Yellow River.",
         "answer": "spans",
         "note": "span 作及物动词，主语第三人称单数加 -s；此为“横跨（空间）”义。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空（span / period / range）：Over a ten-year ______, her research covered a wide ______ of topics, and her results ______ned two continents.",
+        "question": "选词填空（span / period / range）：Over a ten-year ____, her research covered a wide ____ of topics, and her results ____ned two continents.",
         "answer": "period; range; span(ned)",
         "note": "第一空“一段时间”用 period；第二空“范围”用 range；第三空作动词“横跨”只有 span 能用。"
       }
@@ -3142,7 +4551,7 @@
     "sub_section": "",
     "original_sentence": "Phishing is one of the most common types of cybercrime.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the fraudulent attempt to obtain passwords, financial details, or other sensitive information through deceptive electronic messages or websites",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3150,7 +4559,20 @@
         "example": "Phishing tricks people into revealing passwords. 网络钓鱼诱骗人们泄露密码。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The company simulated a phishing attack."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Phishing often relies on urgent language."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Training helps employees recognize phishing."
+      }
+    ],
     "wordForms": {
       "noun": "phishing（网络钓鱼）; phisher（钓鱼诈骗者）",
       "verb": "phish（进行网络钓鱼，较少用）",
@@ -3179,6 +4601,26 @@
         "phrase": "fall for a phishing scam",
         "translation": "上钓鱼骗局的当",
         "example": "Many people fall for phishing scams and lose money. 许多人上钓鱼骗局的当而损失钱财。"
+      },
+      {
+        "phrase": "report / flag phishing",
+        "translation": "举报/标记网络钓鱼",
+        "example": "Employees should flag phishing immediately. 员工应立即标记网络钓鱼信息。"
+      },
+      {
+        "phrase": "a phishing attempt",
+        "translation": "网络钓鱼企图",
+        "example": "The unusual address revealed a phishing attempt. 异常地址暴露了一次网络钓鱼企图。"
+      },
+      {
+        "phrase": "spear phishing",
+        "translation": "鱼叉式网络钓鱼（针对特定个人或组织）",
+        "example": "Spear phishing uses details chosen for a specific target. 鱼叉式网络钓鱼会使用针对特定目标的信息。"
+      },
+      {
+        "phrase": "anti-phishing training / software",
+        "translation": "反网络钓鱼培训/软件",
+        "example": "Anti-phishing training reduced risky clicks. 反网络钓鱼培训减少了危险点击。"
       }
     ],
     "synonyms": [
@@ -3205,19 +4647,35 @@
         "type": "短语群·网络诈骗话题词群",
         "expression": "phishing 网络钓鱼 / scam 骗局 / fraud 欺诈 / malware 恶意软件 / spam 垃圾邮件",
         "example": "Phishing, malware and spam are common online threats. 钓鱼、恶意软件和垃圾邮件是常见的网络威胁。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "report / flag phishing / a phishing attempt / spear phishing / anti-phishing training / software",
+        "example": "Employees should flag phishing immediately. 员工应立即标记网络钓鱼信息。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The company simulated a phishing attack.",
+        "upgraded": "The company simulated a phishing attack, testing whether staff would report the false message.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Phishing often relies on urgent language.",
+        "upgraded": "Phishing often relies on urgent language, pressuring recipients to act before checking the sender.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "______ (Phishing) is one of the most common types of cybercrime, in which criminals trick you into giving away personal data.",
+        "question": "____ (Phishing) is one of the most common types of cybercrime, in which criminals trick you into giving away personal data.",
         "answer": "Phishing",
         "note": "句首首字母大写；phishing 作主语，不可数名词，谓语用 is。"
       },
       {
         "type": "选词填空",
-        "question": "用 phishing / scam 填空：He received a ______ email and, without checking, fell for the ______.",
+        "question": "用 phishing / scam 填空：He received a ____ email and, without checking, fell for the ____.",
         "answer": "phishing; scam",
         "note": "第一空作定语修饰 email 用 phishing；第二空作 fall for 的宾语，泛指“骗局”用 scam。"
       },
@@ -3241,9 +4699,22 @@
     "sub_section": "",
     "original_sentence": "Malware, another form of cybercrime, can cause damage or gain illegal access to a computer or network.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "software designed to damage, disrupt, spy on, or gain unauthorized access to a computer system",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The scanner detected malware in the downloaded file."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Criminals used malware to steal customer passwords."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Regular updates can block known malware."
+      }
+    ],
     "wordForms": {
       "noun": "malware (n. 恶意软件,不可数)",
       "verb": "—(无对应动词形式)",
@@ -3287,6 +4758,11 @@
         "phrase": "protect ... against / from malware",
         "translation": "保护……免受恶意软件侵害",
         "example": "Keeping your system up to date helps protect your devices against malware. （建议信·安全提示）"
+      },
+      {
+        "phrase": "a malware signature",
+        "translation": "恶意软件特征码",
+        "example": "The update added signatures for newly discovered malware. 更新加入了新发现恶意软件的特征码。"
       }
     ],
     "synonyms": [
@@ -3331,7 +4807,18 @@
         "example": "As our lives move online, malware poses a growing threat not only to personal privacy but also to national security. （not only...but also 递进，提升立意）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The scanner detected malware in the downloaded file.",
+        "upgraded": "The scanner detected malware in the downloaded file, preventing it from running on the network.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Criminals used malware to steal customer passwords.",
+        "upgraded": "Criminals used malware to steal customer passwords, then attempted to access online accounts.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -3365,10 +4852,29 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to give something valuable or important to someone else, often reluctantly",
     "uncommonMeanings": [],
-    "posExamples": {},
-    "wordForms": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The collector refused to part with the rare photograph."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Fraudsters persuaded him to part with his password."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "She was unwilling to part with her childhood books."
+      }
+    ],
+    "wordForms": {
+      "noun": "parting 离别；分开",
+      "verb": "part 分开；part with 放弃、交出",
+      "adjective": "parting 离别的；临别的",
+      "adverb": "",
+      "other": "短语动词 part with + 财物/信息，常含不情愿；不能用被动表示物品被放弃。对比 part from sb 与某人分离。"
+    },
     "idioms": [],
     "collocations": [
       {
@@ -3395,6 +4901,21 @@
         "phrase": "hate to part with sth.",
         "translation": "极不情愿放弃某物",
         "example": "He hated to part with the worn notebook, for every page held a memory. （读后续写·惜物）"
+      },
+      {
+        "phrase": "part with personal information",
+        "translation": "交出个人信息（常含不情愿或受骗）",
+        "example": "Never part with personal information in response to a text. 切勿因短信要求而交出个人信息。"
+      },
+      {
+        "phrase": "easily / readily part with sth",
+        "translation": "轻易/爽快地交出某物",
+        "example": "Careful buyers do not readily part with cash. 谨慎的买家不会轻易付钱。"
+      },
+      {
+        "phrase": "cannot bear to part with sth",
+        "translation": "舍不得放弃某物",
+        "example": "He could not bear to part with the family watch. 他舍不得放弃那块传家手表。"
       }
     ],
     "synonyms": [
@@ -3444,7 +4965,18 @@
         "example": "Reluctant to part with the only photograph of her mother, she pressed it to her chest as the floodwater rose around her. （形容词短语作状语 + 动作细节，渲染不舍）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The collector refused to part with the rare photograph.",
+        "upgraded": "The collector refused to part with the rare photograph, despite receiving several generous offers.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Fraudsters persuaded him to part with his password.",
+        "upgraded": "Fraudsters persuaded him to part with his password, gaining access to his private account.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -3478,7 +5010,7 @@
     "sub_section": "",
     "original_sentence": "Cybercriminals trick you into parting with your money, infecting your computer with a virus to steal your personal data, or blocking you from accessing your own data until a ransom is paid.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. money demanded for the release of a captive or locked data (2) v. to obtain release by paying such money",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -3491,7 +5023,20 @@
         "example": "The ransomware locked every file until a ransom was paid. （呼应本单元 ransomware 恶意软件）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The attackers demanded a ransom for the encrypted files."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The family refused to pay the ransom."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The captured official was eventually ransomed."
+      }
+    ],
     "wordForms": {
       "noun": "ransom (n. 赎金)",
       "verb": "ransom (vt. 赎回,交付赎金救出)",
@@ -3541,6 +5086,16 @@
         "phrase": "raise a ransom",
         "translation": "筹措赎金",
         "example": "The desperate family struggled to raise the ransom in time. （读后续写·营救）"
+      },
+      {
+        "phrase": "a ransom payment",
+        "translation": "赎金付款",
+        "example": "Police advised the company against making a ransom payment. 警方建议公司不要支付赎金。"
+      },
+      {
+        "phrase": "kidnap / hold sb for ransom",
+        "translation": "绑架/扣押某人索要赎金",
+        "example": "The gang held the traveller for ransom. 团伙扣押旅行者索要赎金。"
       }
     ],
     "synonyms": [
@@ -3579,7 +5134,18 @@
         "example": "Paying a ransom only emboldens criminals and funds their next attack, which is why experts urge victims never to give in. （动名词主语 + which 小结句，论证'不该付赎金'）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The attackers demanded a ransom for the encrypted files.",
+        "upgraded": "The attackers demanded a ransom for the encrypted files, threatening to delete them within forty-eight hours.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The family refused to pay the ransom.",
+        "upgraded": "The family refused to pay the ransom, following the advice of experienced negotiators.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -3588,10 +5154,10 @@
         "note": "until 引导时间状语从句，ransom 与 pay 是被动关系，用一般现在时被动 is paid；呼应课文原句。"
       },
       {
-        "type": "词性转换",
+        "type": "单句语法填空",
         "question": "用 ransom 的适当形式填空：The gang demanded a huge ____ (n.), and the family had to sell their house to ____ (v.) their kidnapped daughter.",
         "answer": "ransom / ransom",
-        "note": "ransom 既作名词'赎金'(a ransom)，又作及物动词'付赎金赎回'(ransom sb.)。一词两性。"
+        "note": "原题型标注：词性转换。ransom 既作名词'赎金'(a ransom)，又作及物动词'付赎金赎回'(ransom sb.)。一词两性。"
       },
       {
         "type": "汉译英",
@@ -3613,7 +5179,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a computer file sent with a message (2) affection or loyalty towards someone or something (3) a part fixed to a device",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3631,7 +5197,20 @@
         "example": "The young officer was on a three-month attachment to the local police. （on attachment，'暂时隶属'义）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The email attachment contained the signed agreement."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "He developed a deep attachment to the coastal town."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A brush attachment converts the tool into a cleaner."
+      }
+    ],
     "wordForms": {
       "noun": "attachment (n. 附件；依恋；附着物)",
       "verb": "attach (vt. 附上,系上;使依恋)",
@@ -3670,6 +5249,16 @@
         "phrase": "an emotional attachment",
         "translation": "情感依恋",
         "example": "Our emotional attachment to old things often outweighs their real value. （议论文·情感与物品）"
+      },
+      {
+        "phrase": "an attachment size limit",
+        "translation": "附件大小限制",
+        "example": "The mail service has a strict attachment size limit. 邮件服务有严格的附件大小限制。"
+      },
+      {
+        "phrase": "an attachment point",
+        "translation": "连接点；固定点",
+        "example": "Check each attachment point before lifting the load. 起吊前检查每个连接点。"
       }
     ],
     "synonyms": [
@@ -3719,7 +5308,18 @@
         "example": "Her attachment to the crumbling farmhouse ran so deep that no offer of money could ever tempt her to sell. （so...that 结果状语，凸显不舍）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The email attachment contained the signed agreement.",
+        "upgraded": "The email attachment contained the signed agreement, allowing the application to proceed that day.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "He developed a deep attachment to the coastal town.",
+        "upgraded": "He developed a deep attachment to the coastal town, returning there whenever work allowed.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -3753,7 +5353,7 @@
     "sub_section": "",
     "original_sentence": "Turn on your spam blocker to prevent unwanted messages from getting to your inbox.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. unwanted electronic messages sent to many people (2) v. to send such messages repeatedly",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -3766,7 +5366,20 @@
         "example": "Most of the mail in that account is spam. （不可数名词，无复数）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The filter moved the advertisement to spam."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Fake accounts spammed the forum with links."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Never reply to suspicious spam."
+      }
+    ],
     "wordForms": {
       "noun": "spam (n. 垃圾邮件,不可数); spammer (n. 发垃圾邮件者)",
       "verb": "spam (vt. 向……滥发垃圾信息;spammed, spamming)",
@@ -3800,6 +5413,21 @@
         "phrase": "end up in the spam folder",
         "translation": "被归入垃圾邮件文件夹",
         "example": "My application email accidentally ended up in the spam folder. （日常·邮件遗漏）"
+      },
+      {
+        "phrase": "mark / report sth as spam",
+        "translation": "把某物标记/举报为垃圾信息",
+        "example": "Mark the message as spam instead of replying. 请把信息标为垃圾信息，不要回复。"
+      },
+      {
+        "phrase": "a spam campaign",
+        "translation": "垃圾信息群发活动",
+        "example": "The provider blocked a large spam campaign. 服务商拦截了一次大规模垃圾信息群发。"
+      },
+      {
+        "phrase": "send / receive spam",
+        "translation": "发送/收到垃圾信息",
+        "example": "Compromised accounts often send spam automatically. 被盗账户常会自动发送垃圾信息。"
       }
     ],
     "synonyms": [
@@ -3838,7 +5466,18 @@
         "example": "Buried under an avalanche of spam, important messages are all too easily overlooked. （过去分词短语作状语 + 比喻 avalanche，写信息淹没）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The filter moved the advertisement to spam.",
+        "upgraded": "The filter moved the advertisement to spam, keeping the main inbox clear.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Fake accounts spammed the forum with links.",
+        "upgraded": "Fake accounts spammed the forum with links, making genuine discussions difficult to follow.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
@@ -3872,7 +5511,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a small piece used to cover or repair something (2) n. a software update fixing a problem (3) v. to repair",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3895,7 +5534,20 @@
         "example": "Engineers worked overnight to patch the security hole. （作动词'修补/修复'）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The developer released a patch for the security flaw."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "They patched the leaking pipe temporarily."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Wildflowers covered a sunny patch beside the path."
+      }
+    ],
     "wordForms": {
       "noun": "patch (n. 补丁,补块;一小片;修补程序)",
       "verb": "patch (vt. 修补,打补丁)",
@@ -3945,6 +5597,16 @@
         "phrase": "patch up (a quarrel / relationship)",
         "translation": "修补,平息(争吵/关系)",
         "example": "The two friends finally patched up their long quarrel. （读后续写·和解）"
+      },
+      {
+        "phrase": "patch management",
+        "translation": "补丁管理",
+        "example": "Effective patch management keeps older systems secure. 有效的补丁管理能保障旧系统安全。"
+      },
+      {
+        "phrase": "patch a vulnerability",
+        "translation": "修补漏洞",
+        "example": "Developers patched the vulnerability before it was exploited. 开发人员在漏洞被利用前完成了修补。"
       }
     ],
     "synonyms": [
@@ -3994,7 +5656,18 @@
         "example": "Though she was going through the roughest patch of her life, she refused to let despair patch over the flicker of hope in her heart. （though 让步 + patch 双关本义/比喻，情感升华）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The developer released a patch for the security flaw.",
+        "upgraded": "The developer released a patch for the security flaw, closing the route used in recent attacks.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "They patched the leaking pipe temporarily.",
+        "upgraded": "They patched the leaking pipe temporarily, keeping the building open until replacement parts arrived.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -4028,7 +5701,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to stop being cautious or watchful, leaving oneself open to danger, deception, or attack",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -4041,7 +5714,20 @@
         "example": "Among close friends she finally dropped her guard. 在挚友之间她终于卸下了心防。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Do not drop your guard after one safe transaction."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The champion dropped her guard for a moment."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "People often drop their guard around familiar names."
+      }
+    ],
     "wordForms": {
       "noun": "guard（警戒，防备；警卫，卫兵）; guardian（监护人，守护者）; safeguard（保护措施）",
       "verb": "guard（守卫，防范）; safeguard（保护，捍卫）",
@@ -4086,6 +5772,21 @@
         "phrase": "let one's guard down",
         "translation": "放松戒备（drop one's guard 的同义说法）",
         "example": "Don't let your guard down even at home. 即便在家也别松懈警惕。"
+      },
+      {
+        "phrase": "keep one's guard up",
+        "translation": "保持警惕（与 drop one's guard 相反）",
+        "example": "Keep your guard up when a caller requests payment. 来电者要求付款时要保持警惕。"
+      },
+      {
+        "phrase": "drop one's guard around sb",
+        "translation": "在某人面前放松警惕",
+        "example": "She dropped her guard around a familiar colleague. 她在熟悉的同事面前放松了警惕。"
+      },
+      {
+        "phrase": "guard against complacency",
+        "translation": "防止自满松懈（guard 作动词）",
+        "example": "Regular drills guard against complacency. 定期演练能防止自满松懈。"
       }
     ],
     "synonyms": [
@@ -4118,25 +5819,41 @@
         "type": "同义表达群·“保持/放松警惕”写作句",
         "expression": "remain vigilant / never relax our vigilance / stay alert at all times = never drop our guard",
         "example": "Only by staying alert at all times can we avoid falling victim to scams. 唯有时刻保持警觉，才能不落入骗局。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "let one's guard down / keep one's guard up / drop one's guard around sb / guard against complacency",
+        "example": "Don't let your guard down even at home. 即便在家也别松懈警惕。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Do not drop your guard after one safe transaction.",
+        "upgraded": "Do not drop your guard after one safe transaction, because later messages may still be fraudulent.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The champion dropped her guard for a moment.",
+        "upgraded": "The champion dropped her guard for a moment, allowing her opponent to score.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "网络罪犯专等你放松警惕。Cybercriminals wait for the moment you ______ ______ ______ (放松警惕).",
+        "question": "网络罪犯专等你放松警惕。Cybercriminals wait for the moment you ____ ____ ____ (放松警惕).",
         "answer": "drop your guard",
         "note": "drop one's guard 放松警惕；主语 you 对应物主代词 your。"
       },
       {
         "type": "单句语法填空",
-        "question": "The sudden phone scam caught the old man off ______ , and he transferred the money at once.",
+        "question": "The sudden phone scam caught the old man off ____ , and he transferred the money at once.",
         "answer": "guard",
         "note": "catch sb off guard 使某人措手不及，固定搭配，off guard 无戒备。"
       },
       {
         "type": "同义句转换",
-        "question": "改写为同义句：You should never let your guard down against online scams. → You should never ______ ______ ______ against online scams.",
+        "question": "改写为同义句：You should never let your guard down against online scams. → You should never ____ ____ ____ against online scams.",
         "answer": "drop your guard",
         "note": "let one's guard down = drop one's guard，均表“放松警惕”。"
       }
@@ -4154,7 +5871,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) an illness or condition affecting normal physical or mental function (2) a state of confusion or lack of order",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4177,7 +5894,20 @@
         "example": "The shock disordered his mind for a while. 这一惊吓一度使他心神错乱。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The clinic treats a range of sleep disorders."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sudden evacuation left the office in disorder."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The medicine is used for a rare blood disorder."
+      }
+    ],
     "wordForms": {
       "noun": "disorder（失调，混乱，骚乱）; order（秩序，顺序）; orderliness（井然有序）",
       "verb": "disorder（使混乱）; order（命令，排序）",
@@ -4222,6 +5952,21 @@
         "phrase": "throw sth into disorder",
         "translation": "使…陷入混乱",
         "example": "The strike threw the airport into disorder. 罢工使机场陷入一片混乱。"
+      },
+      {
+        "phrase": "diagnose / treat a disorder",
+        "translation": "诊断/治疗疾病",
+        "example": "Specialists diagnosed the disorder through genetic testing. 专家通过基因检测诊断了这种疾病。"
+      },
+      {
+        "phrase": "a disorder affects sth",
+        "translation": "某种疾病影响某功能/器官",
+        "example": "The disorder affects the body's ability to process iron. 这种疾病影响人体处理铁的能力。"
+      },
+      {
+        "phrase": "restore order",
+        "translation": "恢复秩序（与 in disorder 对举）",
+        "example": "Staff restored order after the alarm ended. 警报结束后，员工恢复了秩序。"
       }
     ],
     "synonyms": [
@@ -4254,19 +5999,35 @@
         "type": "构词法·order 正反一族",
         "expression": "order 秩序 → disorder 混乱（dis- 否定）→ disorderly 妨害治安的 ↔ orderly 有序的",
         "example": "He was fined for disorderly conduct in a public place. 他因在公共场所妨害治安被罚款。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "throw sth into disorder / diagnose / treat a disorder / a disorder affects sth / restore order",
+        "example": "The strike threw the airport into disorder. 罢工使机场陷入一片混乱。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The clinic treats a range of sleep disorders.",
+        "upgraded": "The clinic treats a range of sleep disorders, helping patients establish healthier routines.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The sudden evacuation left the office in disorder.",
+        "upgraded": "The sudden evacuation left the office in disorder, with papers and equipment scattered everywhere.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "After the party, the whole flat was left in complete ______ (order).",
+        "question": "After the party, the whole flat was left in complete ____ (order).",
         "answer": "disorder",
         "note": "in disorder 一片混乱；由 order 加否定前缀 dis- 构成名词 disorder。"
       },
       {
         "type": "选词填空",
-        "question": "用 disease / disorder 填空：Doctors say that anxiety is a mental ______ , while flu is an infectious ______ of the respiratory system.",
+        "question": "用 disease / disorder 填空：Doctors say that anxiety is a mental ____ , while flu is an infectious ____ of the respiratory system.",
         "answer": "disorder; disease",
         "note": "精神类“失调”搭 disorder；有明确病理/传染的“病”搭 disease。"
       },
@@ -4290,7 +6051,7 @@
     "sub_section": "",
     "original_sentence": "The most serious health conditions associated with drug abuse include heart problems, respiratory problems, kidney failure, liver damage and a weakened immune system, increasing the risk of illness and infection.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "either of the two organs that remove waste and excess water from the blood to produce urine",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4303,7 +6064,20 @@
         "example": "We had steak and kidney pie for dinner. 晚餐我们吃了牛排腰子派。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Each kidney filters waste from the blood."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The scan revealed a small kidney stone."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Long-term dehydration can affect kidney function."
+      }
+    ],
     "wordForms": {
       "noun": "kidney（肾脏）; kidneys（复数：两个肾）",
       "verb": "-",
@@ -4337,6 +6111,21 @@
         "phrase": "a kidney stone",
         "translation": "肾结石",
         "example": "Kidney stones can be extremely painful. 肾结石可能极其疼痛。"
+      },
+      {
+        "phrase": "kidney function",
+        "translation": "肾功能",
+        "example": "Blood tests showed normal kidney function. 血液检查显示肾功能正常。"
+      },
+      {
+        "phrase": "a kidney donor",
+        "translation": "肾脏捐献者",
+        "example": "The patient waited months for a suitable kidney donor. 患者等待合适的肾脏捐献者数月。"
+      },
+      {
+        "phrase": "kidney dialysis",
+        "translation": "肾透析",
+        "example": "Advanced kidney failure may require dialysis. 晚期肾衰竭可能需要透析。"
       }
     ],
     "synonyms": [
@@ -4363,25 +6152,41 @@
         "type": "短语群·人体器官词群（成组记）",
         "expression": "heart 心脏 / lung 肺 / liver 肝 / kidney 肾 / stomach 胃 / intestine 肠",
         "example": "Alcohol harms the liver, while smoking damages the lungs. 酒精伤肝，吸烟伤肺。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a kidney stone / kidney function / a kidney donor / kidney dialysis",
+        "example": "Kidney stones can be extremely painful. 肾结石可能极其疼痛。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Each kidney filters waste from the blood.",
+        "upgraded": "Each kidney filters waste from the blood, helping the body maintain a stable chemical balance.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The scan revealed a small kidney stone.",
+        "upgraded": "The scan revealed a small kidney stone, explaining the severe pain in his side.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Long-term drug abuse may lead to kidney ______ (fail) and serious liver damage.",
+        "question": "Long-term drug abuse may lead to kidney ____ (fail) and serious liver damage.",
         "answer": "failure",
         "note": "kidney failure 肾衰竭，课文原句搭配；此处需名词 failure。"
       },
       {
         "type": "完成句子",
-        "question": "他捐了一个肾给他的弟弟。He ______ ______ ______ (捐了一个肾) to his younger brother.",
+        "question": "他捐了一个肾给他的弟弟。He ____ ____ ____ (捐了一个肾) to his younger brother.",
         "answer": "donated a kidney",
         "note": "donate a kidney 捐献一个肾；kidney 为可数名词，单数用 a。"
       },
       {
         "type": "选词填空",
-        "question": "用 kidney / liver 填空：The ______ filters waste from the blood, while the ______ helps break down alcohol.",
+        "question": "用 kidney / liver 填空：The ____ filters waste from the blood, while the ____ helps break down alcohol.",
         "answer": "kidney(s); liver",
         "note": "肾脏过滤血液废物 → kidney；肝脏分解酒精 → liver。器官功能辨析。"
       }
@@ -4399,7 +6204,7 @@
     "sub_section": "",
     "original_sentence": "Moreover, drugs interfere with a person’s ability to make sensible decisions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to prevent something from working effectively (2) to become involved in a situation where involvement is unwanted",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -4417,7 +6222,20 @@
         "example": "The two radio signals interfered with each other. 两个无线电信号相互干扰。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Bright light can interfere with sleep."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "She refused to interfere in their private dispute."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Radio signals interfered with the medical equipment."
+      }
+    ],
     "wordForms": {
       "noun": "interference（干扰，干涉；（信号）干扰）",
       "verb": "interfere（干扰，干涉）",
@@ -4446,6 +6264,26 @@
         "phrase": "interfere with natural processes",
         "translation": "干扰自然进程（课件·U2范文句同款搭配）",
         "example": "Rising sea levels interfere with some islands' natural reshaping processes. 上升的海平面干扰了一些岛屿的自然重塑过程。【课件】"
+      },
+      {
+        "phrase": "interfere directly / unnecessarily",
+        "translation": "直接/不必要地干涉",
+        "example": "Officials promised not to interfere unnecessarily in the inquiry. 官员承诺不会不必要地干涉调查。"
+      },
+      {
+        "phrase": "electrical / radio interference",
+        "translation": "电气/无线电干扰（词族名词）",
+        "example": "Radio interference weakened the navigation signal. 无线电干扰削弱了导航信号。"
+      },
+      {
+        "phrase": "external interference",
+        "translation": "外部干涉",
+        "example": "The panel must be free from external interference. 委员会必须不受外部干涉。"
+      },
+      {
+        "phrase": "a policy of non-interference",
+        "translation": "不干涉政策",
+        "example": "The organization follows a policy of non-interference. 该组织奉行不干涉政策。"
       }
     ],
     "synonyms": [
@@ -4485,23 +6323,34 @@
         "example": "Nothing should get in the way of / interfere with your dreams. 任何事都不该妨碍你的梦想。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Bright light can interfere with sleep.",
+        "upgraded": "Bright light can interfere with sleep, delaying the body's normal night-time response.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "She refused to interfere in their private dispute.",
+        "upgraded": "She refused to interfere in their private dispute, believing that both sides should speak directly.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Moreover, drugs interfere ______ a person's ability to make sensible decisions.",
+        "question": "Moreover, drugs interfere ____ a person's ability to make sensible decisions.",
         "answer": "with",
         "note": "interfere with sth 妨碍/干扰某事物，课文原句、课件讲点搭配。"
       },
       {
         "type": "辨析选词",
-        "question": "用介词 with / in 填空：You shouldn't interfere ______ other people's private affairs, nor let gossip interfere ______ your friendship.",
+        "question": "用介词 with / in 填空：You shouldn't interfere ____ other people's private affairs, nor let gossip interfere ____ your friendship.",
         "answer": "in; with",
         "note": "interfere in 插手（他人事务）；interfere with 妨碍（friendship 的运作）。"
       },
       {
         "type": "单句语法填空",
-        "question": "Constant ______ (interfere) from her parents made her feel she had no freedom at all.",
+        "question": "Constant ____ (interfere) from her parents made her feel she had no freedom at all.",
         "answer": "interference",
         "note": "介词 from 后需名词，interfere 的名词形式为 interference（干涉）。"
       }
@@ -4519,7 +6368,7 @@
     "sub_section": "",
     "original_sentence": "Under the influence of drugs, drug users may exhibit violent behaviour and sometimes even commit criminal acts, threatening public safety.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to show a quality, sign, or object publicly (2) n. an object displayed for public viewing",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -4542,7 +6391,20 @@
         "example": "The knife was presented as Exhibit A in court. 那把刀作为一号证物在法庭出示。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Several patients exhibited similar symptoms."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The gallery exhibits work by local artists."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The fossil is the museum's oldest exhibit."
+      }
+    ],
     "wordForms": {
       "noun": "exhibit（展品；证物）; exhibition（展览，展览会）; exhibitor（参展者）",
       "verb": "exhibit（表现；展出）",
@@ -4576,6 +6438,21 @@
         "phrase": "a museum exhibit",
         "translation": "博物馆的一件展品",
         "example": "This exhibit dates back 2,000 years. 这件展品可追溯至两千年前。"
+      },
+      {
+        "phrase": "exhibit a quality / characteristic",
+        "translation": "表现出某种品质/特征",
+        "example": "The material exhibits unusual resistance to heat. 这种材料表现出异常的耐热性。"
+      },
+      {
+        "phrase": "an exhibition space / hall",
+        "translation": "展览空间/展厅（词族搭配）",
+        "example": "The factory became a temporary exhibition space. 工厂变成了临时展览空间。"
+      },
+      {
+        "phrase": "an exhibitor at a fair",
+        "translation": "展会参展商（词族名词）",
+        "example": "Each exhibitor received a numbered booth. 每位参展商都获得了编号展位。"
       }
     ],
     "synonyms": [
@@ -4615,23 +6492,34 @@
         "example": "The exhibition prohibits flash photography. 展览会禁止使用闪光灯拍照。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Several patients exhibited similar symptoms.",
+        "upgraded": "Several patients exhibited similar symptoms, helping doctors identify the likely cause.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The gallery exhibits work by local artists.",
+        "upgraded": "The gallery exhibits work by local artists, giving emerging painters wider recognition.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Under the influence of drugs, users may ______ (exhibit) violent behaviour and even commit crimes.",
+        "question": "Under the influence of drugs, users may ____ (exhibit) violent behaviour and even commit crimes.",
         "answer": "exhibit",
         "note": "情态动词 may 后接动词原形；exhibit violent behaviour 为课文原句搭配。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空（exhibit / exhibition）：His paintings are now on ______ at an international art ______ in Paris.",
+        "question": "选词填空（exhibit / exhibition）：His paintings are now on ____ at an international art ____ in Paris.",
         "answer": "exhibit; exhibition",
         "note": "on exhibit 在展出（状态）；an art exhibition 一场艺术展览（活动）。"
       },
       {
         "type": "同义句转换",
-        "question": "改写为更正式的表达：The patient showed clear symptoms of the flu. → The patient ______ clear symptoms of the flu.",
+        "question": "改写为更正式的表达：The patient showed clear symptoms of the flu. → The patient ____ clear symptoms of the flu.",
         "answer": "exhibited",
         "note": "exhibit 可正式替换 show，表“显出（症状/品质）”，此处用过去式 exhibited。"
       }
@@ -4649,7 +6537,7 @@
     "sub_section": "",
     "original_sentence": "Also, because drug users need a regular supply of drugs, the criminal underworld quickly develops, eating away at the fabric of society.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the hidden world of organized crime and criminals (2) in mythology, the world of the dead",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4662,7 +6550,20 @@
         "example": "In Greek myth, Hades rules the underworld. 在希腊神话中，哈迪斯统治着冥界。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The investigation exposed links to the criminal underworld."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The novel follows a reporter into the city's underworld."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Ancient myths describe journeys to the underworld."
+      }
+    ],
     "wordForms": {
       "noun": "underworld（黑社会；冥界）",
       "verb": "-",
@@ -4691,6 +6592,26 @@
         "phrase": "the London / Shanghai underworld",
         "translation": "（某地的）黑社会",
         "example": "The novel is set in the London underworld of the 1930s. 小说以20世纪30年代伦敦的黑社会为背景。"
+      },
+      {
+        "phrase": "an underworld figure / boss",
+        "translation": "黑社会人物/头目",
+        "example": "The witness described meetings with an underworld figure. 证人描述了与一名黑社会人物的会面。"
+      },
+      {
+        "phrase": "enter / penetrate the underworld",
+        "translation": "进入/打入地下犯罪世界",
+        "example": "An undercover officer penetrated the underworld network. 一名卧底警员打入了地下犯罪网络。"
+      },
+      {
+        "phrase": "the mythological underworld",
+        "translation": "神话中的冥界",
+        "example": "The hero travels through the mythological underworld. 英雄穿越神话中的冥界。"
+      },
+      {
+        "phrase": "underworld connections",
+        "translation": "黑社会关系",
+        "example": "The inquiry uncovered the businessman's underworld connections. 调查揭露了这名商人的黑社会关系。"
       }
     ],
     "synonyms": [
@@ -4723,13 +6644,29 @@
         "type": "构词法·under- 合成词家族",
         "expression": "underworld 黑社会/冥界 / underground 地下的 / undercover 卧底的 / underlying 潜在的 / underestimate 低估",
         "example": "An undercover officer infiltrated the underworld. 一名卧底警官打入了黑社会。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "an underworld figure / boss / enter / penetrate the underworld / the mythological underworld / underworld connections",
+        "example": "The witness described meetings with an underworld figure. 证人描述了与一名黑社会人物的会面。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The investigation exposed links to the criminal underworld.",
+        "upgraded": "The investigation exposed links to the criminal underworld, leading to arrests in three cities.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "The novel follows a reporter into the city's underworld.",
+        "upgraded": "The novel follows a reporter into the city's underworld, revealing networks hidden from ordinary residents.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Because drug users need a regular supply, the criminal ______ (world) quickly develops.",
+        "question": "Because drug users need a regular supply, the criminal ____ (world) quickly develops.",
         "answer": "underworld",
         "note": "the criminal underworld 犯罪集团/黑社会，课文原句、课件讲点搭配；under+world 合成。"
       },
@@ -4741,7 +6678,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "选词填空（underworld / gang）：A local ______ of five members was arrested; the police believe it has links to the wider criminal ______.",
+        "question": "选词填空（underworld / gang）：A local ____ of five members was arrested; the police believe it has links to the wider criminal ____.",
         "answer": "gang; underworld",
         "note": "具体“一伙人”用 gang（可数 a gang）；抽象“黑社会圈子”用 the underworld。"
       }
@@ -4759,7 +6696,7 @@
     "sub_section": "",
     "original_sentence": "If left untreated, HIV can cause AIDS, the late stage of HIV infection, meaning that the body’s immune system has become so weak that it cannot fight off certain kinds of infections.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to resist or defeat an attack, illness, feeling, or unwanted influence",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phr. v.",
@@ -4777,7 +6714,20 @@
         "example": "The company fought off three takeover bids. 这家公司顶住了三次收购要约。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "A healthy immune system can fight off minor infections."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "She fought off sleep during the overnight journey."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The guards fought off the attackers."
+      }
+    ],
     "wordForms": {
       "noun": "fight 打斗，斗争；搏斗；fighter 斗士，战斗机",
       "verb": "fight (fought, fought) 打斗，搏斗，斗争",
@@ -4806,6 +6756,26 @@
         "phrase": "fight off sleep / tiredness / the urge to do sth",
         "translation": "强忍睡意/疲倦/强压做某事的冲动",
         "example": "She fought off sleep to finish the report. 她强忍睡意写完了报告。"
+      },
+      {
+        "phrase": "help the body fight off sth",
+        "translation": "帮助身体抵御某物",
+        "example": "Adequate sleep helps the body fight off disease. 充足睡眠有助于身体抵御疾病。"
+      },
+      {
+        "phrase": "successfully fight off sth",
+        "translation": "成功击退/抵抗某物",
+        "example": "The village successfully fought off the invading insects. 村庄成功控制了入侵昆虫。"
+      },
+      {
+        "phrase": "fight off temptation / fear",
+        "translation": "抵制诱惑/克服恐惧",
+        "example": "She fought off the temptation to check her phone. 她忍住了查看手机的冲动。"
+      },
+      {
+        "phrase": "fight off competition",
+        "translation": "击退竞争；战胜竞争者",
+        "example": "The firm cut prices to fight off new competition. 公司降价以应对新的竞争。"
       }
     ],
     "synonyms": [
@@ -4838,31 +6808,47 @@
         "type": "同义表达群·抵御疾病话题",
         "expression": "the immune system 免疫系统 / build up immunity 增强免疫力 / boost one's defences 增强防御力 / be resistant to 对……有抵抗力 / fall victim to 沦为……的受害者",
         "example": "A strong immune system can fight off infections and stops you falling victim to disease. 强健的免疫系统能抵抗感染，使你不致患病。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "help the body fight off sth / successfully fight off sth / fight off temptation / fear / fight off competition",
+        "example": "Adequate sleep helps the body fight off disease. 充足睡眠有助于身体抵御疾病。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A healthy immune system can fight off minor infections.",
+        "upgraded": "A healthy immune system can fight off minor infections, preventing them from becoming more serious.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "She fought off sleep during the overnight journey.",
+        "upgraded": "She fought off sleep during the overnight journey, checking the route whenever the bus stopped.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "免疫系统太弱，无法抵抗某些感染。The immune system is so weak that it cannot ______ ______ certain kinds of infections.",
+        "question": "免疫系统太弱，无法抵抗某些感染。The immune system is so weak that it cannot ____ ____ certain kinds of infections.",
         "answer": "fight off",
         "note": "课文原句结构 so...that... + cannot fight off sth；fight off 后接名词宾语。"
       },
       {
         "type": "单句语法填空",
-        "question": "Feeling sleepy in class, Tom struggled to fight ______ his tiredness.",
+        "question": "Feeling sleepy in class, Tom struggled to fight ____ his tiredness.",
         "answer": "off",
         "note": "fight off 强忍/压下（睡意、疲倦）；固定副词搭配 off。"
       },
       {
         "type": "短语填空",
-        "question": "用 fight off 的正确形式填空：Last winter she ______ several colds thanks to her healthy lifestyle.",
+        "question": "用 fight off 的正确形式填空：Last winter she ____ several colds thanks to her healthy lifestyle.",
         "answer": "fought off",
         "note": "过去时叙事，fight 三态 fight-fought-fought。"
       },
       {
         "type": "辨析选词",
-        "question": "用 fight / ward + off 填空（注意代词位置）：Regular exercise can ______ off illness before it even starts; but once you catch a virus, your body must ______ it ______.",
+        "question": "用 fight / ward + off 填空（注意代词位置）：Regular exercise can ____ off illness before it even starts; but once you catch a virus, your body must ____ it ____.",
         "answer": "ward; fight; off",
         "note": "ward off 防患未然（尚未发生）；fight off 已发病后搏斗并击退。第一空宾语 illness 为名词，可说 ward off illness；末句宾语 it 为代词，须置于 off 前，即 fight it off，故填 fight...off 把代词夹在中间。"
       }
@@ -4880,7 +6866,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a feeling of cold or sudden fear (2) v. to make or become cold (3) v. informal, to relax",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4908,7 +6894,20 @@
         "example": "We just chilled at home all weekend. 我们整个周末就在家里放松。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A sudden chill ran through the empty hall."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Chill the mixture before serving it."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "We chilled by the lake after the long walk."
+      }
+    ],
     "wordForms": {
       "noun": "chill 寒冷；着凉；chilliness 寒冷，寒意",
       "verb": "chill 使变冷，冷藏；放松",
@@ -4937,6 +6936,26 @@
         "phrase": "chill (out)",
         "translation": "（口语）放松，冷静",
         "example": "Just chill out and stop worrying. 放松点，别再担心了。"
+      },
+      {
+        "phrase": "a chill runs through sb",
+        "translation": "某人感到一阵寒意/恐惧",
+        "example": "A chill ran through him when the lights failed. 灯熄灭时，他感到一阵寒意。"
+      },
+      {
+        "phrase": "wind chill",
+        "translation": "风寒；风寒指数",
+        "example": "Wind chill made the temperature feel much lower. 风寒使体感温度低得多。"
+      },
+      {
+        "phrase": "keep food chilled",
+        "translation": "使食物保持冷藏",
+        "example": "Keep the medicine chilled during transport. 运输过程中保持药品冷藏。"
+      },
+      {
+        "phrase": "chilled to the bone",
+        "translation": "冷得刺骨",
+        "example": "The soaked hikers returned chilled to the bone. 浑身湿透的徒步者回来时冷得刺骨。"
       }
     ],
     "synonyms": [
@@ -4969,25 +6988,41 @@
         "type": "构词法·chill 词族",
         "expression": "chill (n./v.) → chilly (adj. 寒冷的/冷淡的) → chilling (adj. 令人胆寒的) → chilled (adj. 冰镇的) → chillingly (adv.)",
         "example": "The chilling news gave everyone a chill. 那个令人胆寒的消息让每个人都不寒而栗。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a chill runs through sb / wind chill / keep food chilled / chilled to the bone",
+        "example": "A chill ran through him when the lights failed. 灯熄灭时，他感到一阵寒意。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A sudden chill ran through the empty hall.",
+        "upgraded": "A sudden chill ran through the empty hall, making everyone turn towards the open door.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "Chill the mixture before serving it.",
+        "upgraded": "Chill the mixture before serving it, giving it enough time to become firm.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 chill 的适当形式填空：Don't go out with wet hair, or you may ______ a ______.",
+        "question": "用 chill 的适当形式填空：Don't go out with wet hair, or you may ____ a ____.",
         "answer": "catch; chill",
         "note": "catch a chill 固定搭配，意为‘着凉’；此处 chill 为可数名词。"
       },
       {
         "type": "单句语法填空",
-        "question": "The horror film sent a ______ (chill) down my spine.",
+        "question": "The horror film sent a ____ (chill) down my spine.",
         "answer": "chill",
         "note": "send a chill down one's spine 令人脊背发凉；chill 此处作名词，原形不变。"
       },
       {
         "type": "辨析选词",
-        "question": "用 chilly / chilling / chilled 填空：It was a ______ evening, so we drank ______ juice while listening to a ______ ghost story.",
+        "question": "用 chilly / chilling / chilled 填空：It was a ____ evening, so we drank ____ juice while listening to a ____ ghost story.",
         "answer": "chilly; chilled; chilling",
         "note": "chilly 天气冷；chilled 被冷藏的（果汁）；chilling 令人胆寒的（鬼故事）。三个派生形容词义项须区分。"
       },
@@ -5011,7 +7046,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. an area of red, irritated skin (2) adj. acting without enough thought about possible consequences",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -5029,7 +7064,20 @@
         "example": "There has been a rash of robberies in the area. 该地区接连发生了一连串抢劫案。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The cream reduced the itchy rash."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "It would be rash to ignore the warning."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A rash promise can create lasting problems."
+      }
+    ],
     "wordForms": {
       "noun": "rash 皮疹；一连串（坏事）；rashness 轻率，鲁莽",
       "verb": "",
@@ -5058,6 +7106,26 @@
         "phrase": "be rash to do sth",
         "translation": "做某事太轻率/鲁莽",
         "example": "It was rash of him to quit without a plan. 他没有计划就辞职，太鲁莽了。"
+      },
+      {
+        "phrase": "a rash appears / spreads",
+        "translation": "皮疹出现/扩散（rash 作主语）",
+        "example": "The rash spread across both arms overnight. 皮疹一夜间扩散到两条手臂。"
+      },
+      {
+        "phrase": "heat / diaper rash",
+        "translation": "痱子/尿布疹",
+        "example": "Loose clothing can help prevent heat rash. 宽松衣物有助于预防痱子。"
+      },
+      {
+        "phrase": "rash action / behaviour",
+        "translation": "鲁莽的行动/行为",
+        "example": "One rash action placed the entire team at risk. 一次鲁莽行动让整个团队陷入风险。"
+      },
+      {
+        "phrase": "act rashly / with rashness",
+        "translation": "鲁莽行事（词族副词/名词）",
+        "example": "Do not act rashly when the facts remain unclear. 事实尚不清楚时不要鲁莽行事。"
       }
     ],
     "synonyms": [
@@ -5090,25 +7158,41 @@
         "type": "构词法·rash 词族与一词多义",
         "expression": "rash (n. 皮疹 / adj. 轻率的) → rashly (adv. 轻率地) → rashness (n. 轻率)；固定搭配 a rash of + 复数名词 = 一连串（坏事）",
         "example": "He acted rashly, and his rashness led to a rash of complaints. 他行事鲁莽，其轻率招致了一连串投诉。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a rash appears / spreads / heat / diaper rash / rash action / behaviour / act rashly / with rashness",
+        "example": "The rash spread across both arms overnight. 皮疹一夜间扩散到两条手臂。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The cream reduced the itchy rash.",
+        "upgraded": "The cream reduced the itchy rash, allowing the child to sleep comfortably.",
+        "techniques": "保留原句主体、动作与语境，补充直接结果，使因果链更清楚。"
+      },
+      {
+        "original": "It would be rash to ignore the warning.",
+        "upgraded": "It would be rash to ignore the warning, given the rapidly changing weather.",
+        "techniques": "保留原句事实和场景，追加后续影响或让步信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 rash 填空（名词义）：After the injection, a red ______ appeared on the child's arm.",
+        "question": "用 rash 填空（名词义）：After the injection, a red ____ appeared on the child's arm.",
         "answer": "rash",
         "note": "此处 rash 作名词‘皮疹’，可数，前有 a red 修饰。"
       },
       {
         "type": "单句语法填空",
-        "question": "He later regretted his ______ (rash) decision to drop out of school.",
+        "question": "He later regretted his ____ (rash) decision to drop out of school.",
         "answer": "rash",
         "note": "此处需形容词作定语修饰 decision，rash 形容词义‘轻率的’，形式不变。"
       },
       {
         "type": "同义句转换",
-        "question": "改写：He made a decision too quickly and without thinking. → He ______ ______ a decision. (用 rashly)",
+        "question": "改写：He made a decision too quickly and without thinking. → He ____ ____ a decision. (用 rashly)",
         "answer": "rashly made",
         "note": "副词 rashly 修饰动词 made，置于实义动词前；rashly = too quickly and without thinking。"
       },

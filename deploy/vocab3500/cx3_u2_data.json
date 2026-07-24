@@ -22,15 +22,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Designers use a cork to keep the model afloat."
+        "sentence": "A natural cork sealed the bottle tightly."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A bottle cork kept the wine fresh."
+        "sentence": "The noticeboard is covered with cork."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "Please remove the cork carefully."
+        "partOfSpeech": "vt.",
+        "sentence": "Workers corked each jar by hand."
       }
     ],
     "wordForms": {
@@ -116,14 +116,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We found a new use for the stopper.",
-        "upgraded": "Designers use a cork to keep the model afloat.",
-        "techniques": "用 use a cork 替换笼统表达。"
+        "original": "A natural cork sealed the bottle tightly.",
+        "upgraded": "A natural cork sealed the bottle tightly, keeping the contents fresh during storage.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The material is suitable for the floor.",
-        "upgraded": "Natural cork is light and waterproof.",
-        "techniques": "用 natural cork 提升准确度。"
+        "original": "The noticeboard is covered with cork.",
+        "upgraded": "The noticeboard is covered with cork, allowing students to pin up their designs.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -170,15 +170,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A beam of light entered through the window."
+        "sentence": "A steel beam supports the upper floor."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A laser beam cut through the thin metal."
+        "sentence": "A narrow beam of sunlight crossed the room."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "The torch produced a narrow beam."
+        "partOfSpeech": "vi.",
+        "sentence": "His face beamed when the model finally worked."
       }
     ],
     "wordForms": {
@@ -270,14 +270,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Light came through the window.",
-        "upgraded": "A beam of light entered through the window.",
-        "techniques": "用 a beam of light 替换笼统表达。"
+        "original": "A steel beam supports the upper floor.",
+        "upgraded": "A steel beam supports the upper floor, carrying the load across the open hall.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "She looked extremely happy.",
-        "upgraded": "A wooden beam supports the roof.",
-        "techniques": "用 a wooden beam 提升准确度。"
+        "original": "A narrow beam of sunlight crossed the room.",
+        "upgraded": "A narrow beam of sunlight crossed the room, illuminating dust above the desk.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -318,15 +318,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "The experiment creates an electromagnetic field."
+        "sentence": "Electromagnetic waves carry the wireless signal."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "Radio signals travel as electromagnetic waves."
+        "sentence": "Engineers isolated the sensor from nearby electromagnetic noise."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "Visible light is electromagnetic radiation."
+        "sentence": "Visible light belongs to the electromagnetic spectrum."
       }
     ],
     "wordForms": {
@@ -412,14 +412,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The device creates a field.",
-        "upgraded": "The experiment creates an electromagnetic field.",
-        "techniques": "用 an electromagnetic field 替换笼统表达。"
+        "original": "Electromagnetic waves carry the wireless signal.",
+        "upgraded": "Electromagnetic waves carry the wireless signal, transmitting data across the valley.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The shield prevents unwanted signals.",
-        "upgraded": "The antenna converts electromagnetic energy.",
-        "techniques": "用 electromagnetic energy 提升准确度。"
+        "original": "Engineers isolated the sensor from nearby electromagnetic noise.",
+        "upgraded": "Engineers isolated the sensor from nearby electromagnetic noise, protecting the sensitive measuring equipment.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -466,15 +466,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "Intuitive thinking helped him imagine the result."
+        "sentence": "The controls are intuitive for first-time users."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "She has an intuitive understanding of colour."
+        "sentence": "She reached an intuitive understanding of the pattern."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "An intuitive response can sometimes prove correct."
+        "sentence": "An intuitive layout reduces common mistakes."
       }
     ],
     "wordForms": {
@@ -566,14 +566,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "His idea came without detailed reasoning.",
-        "upgraded": "Intuitive thinking helped him imagine the result.",
-        "techniques": "用 intuitive thinking 替换笼统表达。"
+        "original": "The controls are intuitive for first-time users.",
+        "upgraded": "The controls are intuitive for first-time users, requiring almost no formal instruction.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The software is easy to operate.",
-        "upgraded": "Intuitive design reduces training time.",
-        "techniques": "用 intuitive design 提升准确度。"
+        "original": "She reached an intuitive understanding of the pattern.",
+        "upgraded": "She reached an intuitive understanding of the pattern, recognizing the answer before proving it.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -620,15 +620,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "A hypothetical situation lets us test an idea safely."
+        "sentence": "Economists tested a hypothetical market with no taxes."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "The teacher posed a hypothetical question."
+        "sentence": "Researchers modelled a hypothetical planet."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "Consider a hypothetical example."
+        "sentence": "That risk remains purely hypothetical."
       }
     ],
     "wordForms": {
@@ -720,14 +720,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We imagined a possible case.",
-        "upgraded": "A hypothetical situation lets us test an idea safely.",
-        "techniques": "用 hypothetical situation 替换笼统表达。"
+        "original": "Economists tested a hypothetical market with no taxes.",
+        "upgraded": "Economists tested a hypothetical market with no taxes, comparing its behaviour with the current system.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The risk has not become real.",
-        "upgraded": "The danger remains purely hypothetical.",
-        "techniques": "用 purely hypothetical 提升准确度。"
+        "original": "Researchers modelled a hypothetical planet.",
+        "upgraded": "Researchers modelled a hypothetical planet, examining whether liquid water could exist there.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -773,16 +773,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Researchers trace the history of spectacles."
+        "partOfSpeech": "vt.",
+        "sentence": "Investigators traced the call to a public phone."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Scientists trace the origin of the idea."
+        "partOfSpeech": "n.",
+        "sentence": "The test found a trace of metal in the water."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Police trace a route through camera records."
+        "partOfSpeech": "vt.",
+        "sentence": "She traced the pattern onto thin paper."
       }
     ],
     "wordForms": {
@@ -874,14 +874,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The book tells us where the design began.",
-        "upgraded": "Researchers trace the history of spectacles.",
-        "techniques": "用 trace the history of 替换笼统表达。"
+        "original": "Investigators traced the call to a public phone.",
+        "upgraded": "Investigators traced the call to a public phone, narrowing the search to one neighbourhood.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The signal disappeared completely.",
-        "upgraded": "We can trace the design back to Italy.",
-        "techniques": "用 trace sth back to 提升准确度。"
+        "original": "The test found a trace of metal in the water.",
+        "upgraded": "The test found a trace of metal in the water, prompting a second laboratory analysis.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -922,15 +922,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "New evidence may disprove a theory."
+        "sentence": "Later evidence disproved the original claim."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "The records disprove a claim made online."
+        "sentence": "One counterexample can disprove a universal statement."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "One experiment can disprove a hypothesis."
+        "sentence": "The experiment failed to disprove the theory."
       }
     ],
     "wordForms": {
@@ -1016,14 +1016,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The evidence showed that the idea was wrong.",
-        "upgraded": "New evidence may disprove a theory.",
-        "techniques": "用 disprove a theory 替换笼统表达。"
+        "original": "Later evidence disproved the original claim.",
+        "upgraded": "Later evidence disproved the original claim, forcing the authors to withdraw it.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The result settled the question completely.",
-        "upgraded": "Scientists attempt to disprove their own ideas.",
-        "techniques": "用 attempt to disprove 提升准确度。"
+        "original": "One counterexample can disprove a universal statement.",
+        "upgraded": "One counterexample can disprove a universal statement, even when many examples support it.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1070,15 +1070,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Careful reasoning can expose the paradox."
+        "sentence": "The policy creates a curious paradox."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The class discussed a famous paradox."
+        "sentence": "The twins explained the time-travel paradox."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "An apparent paradox puzzled the researchers."
+        "sentence": "It is a paradox that efficiency can increase waste."
       }
     ],
     "wordForms": {
@@ -1170,14 +1170,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The situation seemed self-contradictory.",
-        "upgraded": "Careful reasoning can expose the paradox.",
-        "techniques": "用 expose the paradox 替换笼统表达。"
+        "original": "The policy creates a curious paradox.",
+        "upgraded": "The policy creates a curious paradox, increasing choice while reducing diversity.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Scientists finally explained the puzzle.",
-        "upgraded": "The two rules create a paradox.",
-        "techniques": "用 create a paradox 提升准确度。"
+        "original": "The twins explained the time-travel paradox.",
+        "upgraded": "The twins explained the time-travel paradox, showing where the logic contradicts itself.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1224,15 +1224,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "The discovery may spark a debate."
+        "sentence": "The discovery sparked a lively debate."
       },
       {
-        "partOfSpeech": "vt.",
-        "sentence": "The experiment can spark interest in physics."
+        "partOfSpeech": "n.",
+        "sentence": "A loose cable produced a bright spark."
       },
       {
-        "partOfSpeech": "vt.",
-        "sentence": "The proposal could spark controversy."
+        "partOfSpeech": "n.",
+        "sentence": "Her question provided the spark for the project."
       }
     ],
     "wordForms": {
@@ -1324,14 +1324,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The question started a discussion.",
-        "upgraded": "The discovery may spark a debate.",
-        "techniques": "用 spark a debate 替换笼统表达。"
+        "original": "The discovery sparked a lively debate.",
+        "upgraded": "The discovery sparked a lively debate, drawing comments from researchers worldwide.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The workshop encouraged new ideas.",
-        "upgraded": "A simple question sparked an idea.",
-        "techniques": "用 spark an idea 提升准确度。"
+        "original": "A loose cable produced a bright spark.",
+        "upgraded": "A loose cable produced a bright spark, causing the safety system to shut down.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1372,15 +1372,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A given hypothesis should lead to a testable prediction."
+        "sentence": "The data supports the working hypothesis."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Students form a hypothesis before the experiment."
+        "sentence": "Students formulated a hypothesis about plant growth."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Researchers test a hypothesis with evidence."
+        "sentence": "No observation has confirmed the hypothesis yet."
       }
     ],
     "wordForms": {
@@ -1472,14 +1472,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We began with a possible explanation.",
-        "upgraded": "A given hypothesis should lead to a testable prediction.",
-        "techniques": "用 a given hypothesis 替换笼统表达。"
+        "original": "The data supports the working hypothesis.",
+        "upgraded": "The data supports the working hypothesis, although further trials are still required.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The data did not agree with our prediction.",
-        "upgraded": "The evidence forced us to reject the hypothesis.",
-        "techniques": "用 reject a hypothesis 提升准确度。"
+        "original": "Students formulated a hypothesis about plant growth.",
+        "upgraded": "Students formulated a hypothesis about plant growth, then designed a controlled experiment.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1526,15 +1526,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Without gravity, the cannonball would go in a straight line."
+        "sentence": "Divers recovered an iron cannonball from the wreck."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Soldiers fire a cannonball from the old cannon."
+        "sentence": "The cannonball struck the outer wall."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A heavy cannonball lay beside the cannon."
+        "sentence": "The child jumped into the pool with a cannonball."
       }
     ],
     "wordForms": {
@@ -1620,14 +1620,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Without gravity, the ball would move straight ahead.",
-        "upgraded": "Without gravity, the cannonball would go in a straight line.",
-        "techniques": "用 the cannonball would go in a straight line 替换笼统表达。"
+        "original": "Divers recovered an iron cannonball from the wreck.",
+        "upgraded": "Divers recovered an iron cannonball from the wreck, preserving it in fresh water before treatment.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Gravity changes how the projectile moves.",
-        "upgraded": "A falling cannonball accelerates towards Earth.",
-        "techniques": "用 a falling cannonball 提升准确度。"
+        "original": "The cannonball struck the outer wall.",
+        "upgraded": "The cannonball struck the outer wall, leaving a deep circular mark in the stone.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1674,15 +1674,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Under gravity, the cannonball will travel in a curve."
+        "sentence": "The road follows a gentle curve around the lake."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The path curves sharply beyond the gate."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The graph shows a smooth curve."
-      },
-      {
-        "partOfSpeech": "n.",
-        "sentence": "The road has a sharp curve."
+        "sentence": "The artist drew a curve across the lower corner."
       }
     ],
     "wordForms": {
@@ -1774,14 +1774,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Gravity makes the path bend.",
-        "upgraded": "Under gravity, the cannonball will travel in a curve.",
-        "techniques": "用 travel in a curve 替换笼统表达。"
+        "original": "The road follows a gentle curve around the lake.",
+        "upgraded": "The road follows a gentle curve around the lake, keeping vehicles away from the steep shore.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "It takes time to master the new tool.",
-        "upgraded": "The railway follows a curve around the hill.",
-        "techniques": "用 follow a curve 提升准确度。"
+        "original": "The path curves sharply beyond the gate.",
+        "upgraded": "The path curves sharply beyond the gate, disappearing behind a row of trees.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1822,15 +1822,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Makerspace equipment ranges from hand tools to 3-D printers."
+        "sentence": "The library opened a makerspace for local teenagers."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A school makerspace encourages practical learning."
+        "sentence": "Students tested their robot in the makerspace."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Students set up a makerspace in the library."
+        "sentence": "Safety training is required in the makerspace."
       }
     ],
     "wordForms": {
@@ -1916,14 +1916,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The room contains many useful tools.",
-        "upgraded": "Makerspace equipment ranges from hand tools to 3-D printers.",
-        "techniques": "用 makerspace equipment 替换笼统表达。"
+        "original": "The library opened a makerspace for local teenagers.",
+        "upgraded": "The library opened a makerspace for local teenagers, giving them access to tools and mentors.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The activities help students solve problems.",
-        "upgraded": "A community makerspace offers shared tools.",
-        "techniques": "用 a community makerspace 提升准确度。"
+        "original": "Students tested their robot in the makerspace.",
+        "upgraded": "Students tested their robot in the makerspace, correcting its balance before the competition.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -1964,15 +1964,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A wooden workbench stands by the wall."
+        "sentence": "A heavy workbench stood beside the window."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Students assemble the model at the workbench."
+        "sentence": "She organized the tools above her workbench."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Tools lie neatly on the workbench."
+        "sentence": "The carpenter built a custom workbench."
       }
     ],
     "wordForms": {
@@ -2058,14 +2058,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Students built the model on a strong table.",
-        "upgraded": "A wooden workbench stands by the wall.",
-        "techniques": "用 a wooden workbench 替换笼统表达。"
+        "original": "A heavy workbench stood beside the window.",
+        "upgraded": "A heavy workbench stood beside the window, providing a stable surface for repairs.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "We put every tool away after class.",
-        "upgraded": "The class will build a workbench from recycled wood.",
-        "techniques": "用 build a workbench 提升准确度。"
+        "original": "She organized the tools above her workbench.",
+        "upgraded": "She organized the tools above her workbench, placing the most-used items within reach.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2111,16 +2111,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Staff stock the shelves with art supplies."
+        "partOfSpeech": "n.",
+        "sentence": "The shop keeps spare batteries in stock."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Teachers stock a makerspace with tools."
+        "partOfSpeech": "vt.",
+        "sentence": "The clinic stocks several basic medicines."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Shops keep safety glasses in stock."
+        "partOfSpeech": "n.",
+        "sentence": "Technology stocks fell in early trading."
       }
     ],
     "wordForms": {
@@ -2212,14 +2212,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Staff put supplies on the shelves.",
-        "upgraded": "Staff stock the shelves with art supplies.",
-        "techniques": "用 stock the shelves 替换笼统表达。"
+        "original": "The shop keeps spare batteries in stock.",
+        "upgraded": "The shop keeps spare batteries in stock, allowing urgent orders to leave the same day.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The team checked all available resources.",
-        "upgraded": "We maintain a stock of materials.",
-        "techniques": "用 a stock of materials 提升准确度。"
+        "original": "The clinic stocks several basic medicines.",
+        "upgraded": "The clinic stocks several basic medicines, preparing for disruptions during winter.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2266,15 +2266,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A storage bin holds the plastic pieces."
+        "sentence": "Place broken glass in the marked bin."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The editor binned the weakest draft."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A recycling bin stands near the door."
-      },
-      {
-        "partOfSpeech": "n.",
-        "sentence": "Please put the waste in a rubbish bin."
+        "sentence": "A storage bin fits beneath the bench."
       }
     ],
     "wordForms": {
@@ -2366,14 +2366,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We stored the pieces in a large container.",
-        "upgraded": "A storage bin holds the plastic pieces.",
-        "techniques": "用 a storage bin 替换笼统表达。"
+        "original": "Place broken glass in the marked bin.",
+        "upgraded": "Place broken glass in the marked bin, keeping it separate from ordinary waste.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Students separated the materials by type.",
-        "upgraded": "Students empty the bin every Friday.",
-        "techniques": "用 empty the bin 提升准确度。"
+        "original": "The editor binned the weakest draft.",
+        "upgraded": "The editor binned the weakest draft, choosing to develop a clearer alternative.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2420,15 +2420,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Laser cutters shape wood with great precision."
+        "sentence": "A laser measured the distance between the walls."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A laser beam travels in a narrow line."
+        "sentence": "The surgeon used a laser during the procedure."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Laser technology has many medical uses."
+        "sentence": "Never look directly into a laser beam."
       }
     ],
     "wordForms": {
@@ -2520,14 +2520,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The machine cuts wood very accurately.",
-        "upgraded": "Laser cutters shape wood with great precision.",
-        "techniques": "用 laser cutters 替换笼统表达。"
+        "original": "A laser measured the distance between the walls.",
+        "upgraded": "A laser measured the distance between the walls, producing an accurate digital floor plan.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The method creates a detailed pattern.",
-        "upgraded": "A powerful laser cuts the metal.",
-        "techniques": "用 a powerful laser 提升准确度。"
+        "original": "The surgeon used a laser during the procedure.",
+        "upgraded": "The surgeon used a laser during the procedure, targeting damaged tissue with precision.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2573,16 +2573,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "n.",
-        "sentence": "Traditional crafts preserve local culture."
+        "partOfSpeech": "vt.",
+        "sentence": "The team crafted a careful response."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Arts and crafts develop fine motor skills."
+        "sentence": "Pottery is a demanding traditional craft."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "Young makers learn a craft from experts."
+        "partOfSpeech": "vt.",
+        "sentence": "She crafted the bowl from local clay."
       }
     ],
     "wordForms": {
@@ -2674,14 +2674,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Local people make objects by hand.",
-        "upgraded": "Traditional crafts preserve local culture.",
-        "techniques": "用 traditional crafts 替换笼统表达。"
+        "original": "The team crafted a careful response.",
+        "upgraded": "The team crafted a careful response, addressing each concern without sounding defensive.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The team designed a careful answer.",
-        "upgraded": "The team crafted a solution from simple materials.",
-        "techniques": "用 craft a solution 提升准确度。"
+        "original": "Pottery is a demanding traditional craft.",
+        "upgraded": "Pottery is a demanding traditional craft, requiring patience and precise hand control.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2721,16 +2721,16 @@
     "uncommonMeanings": [],
     "posExamples": [
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Why not be an eager beaver and start building?"
+        "partOfSpeech": "n.",
+        "sentence": "Our new assistant is an eager beaver."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Mia is a real eager beaver in the workshop."
+        "partOfSpeech": "n.",
+        "sentence": "The eager beaver arrived an hour early."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "The office eager beaver arrived first again."
+        "partOfSpeech": "n.",
+        "sentence": "Do not mock an eager beaver for showing enthusiasm."
       }
     ],
     "wordForms": {
@@ -2822,14 +2822,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "He was very keen to begin the work.",
-        "upgraded": "Why not be an eager beaver and start building?",
-        "techniques": "用 be an eager beaver 替换笼统表达。"
+        "original": "Our new assistant is an eager beaver.",
+        "upgraded": "Our new assistant is an eager beaver, finishing routine tasks before anyone asks.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Her energy encouraged the whole team.",
-        "upgraded": "You sound like an eager beaver today.",
-        "techniques": "用 sound like an eager beaver 提升准确度。"
+        "original": "The eager beaver arrived an hour early.",
+        "upgraded": "The eager beaver arrived an hour early, hoping to prepare every display alone.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -2870,15 +2870,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "She had great fun designing and making the bracelet."
+        "sentence": "She wore a silver bracelet on her left wrist."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "She likes to wear a bracelet on her left wrist."
+        "sentence": "The museum displayed an ancient bronze bracelet."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A silver bracelet lay in the box."
+        "sentence": "He made a bracelet from coloured thread."
       }
     ],
     "wordForms": {
@@ -2964,14 +2964,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Students made a piece of jewellery.",
-        "upgraded": "She had great fun designing and making the bracelet.",
-        "techniques": "用 designing and making the bracelet 替换笼统表达。"
+        "original": "She wore a silver bracelet on her left wrist.",
+        "upgraded": "She wore a silver bracelet on her left wrist, matching it with a simple grey dress.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "She sold an object made by hand.",
-        "upgraded": "He helped her fasten a bracelet.",
-        "techniques": "用 fasten a bracelet 提升准确度。"
+        "original": "The museum displayed an ancient bronze bracelet.",
+        "upgraded": "The museum displayed an ancient bronze bracelet, dating it to the early settlement.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3017,16 +3017,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "n., vt. & vi.",
-        "sentence": "Do not scratch the surface of the lens."
+        "partOfSpeech": "vt.",
+        "sentence": "The branch scratched the car door."
       },
       {
-        "partOfSpeech": "n., vt. & vi.",
-        "sentence": "Students scratch their heads over the puzzle."
+        "partOfSpeech": "n.",
+        "sentence": "A shallow scratch marked the lens."
       },
       {
-        "partOfSpeech": "n., vt. & vi.",
-        "sentence": "A deep scratch damaged the frame."
+        "partOfSpeech": "vt.",
+        "sentence": "The cat scratched at the closed window."
       }
     ],
     "wordForms": {
@@ -3118,14 +3118,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The sharp edge damaged the surface.",
-        "upgraded": "Do not scratch the surface of the lens.",
-        "techniques": "用 scratch the surface 替换笼统表达。"
+        "original": "The branch scratched the car door.",
+        "upgraded": "The branch scratched the car door, leaving a thin white line in the paint.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The model was completely undamaged.",
-        "upgraded": "Try not to scratch an itch too hard.",
-        "techniques": "用 scratch an itch 提升准确度。"
+        "original": "A shallow scratch marked the lens.",
+        "upgraded": "A shallow scratch marked the lens, slightly blurring photographs taken at night.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3166,15 +3166,15 @@
     "posExamples": [
       {
         "partOfSpeech": "phrase",
-        "sentence": "Students build a robot from scratch."
+        "sentence": "They built the website from scratch."
       },
       {
         "partOfSpeech": "phrase",
-        "sentence": "After the failure, we start from scratch."
+        "sentence": "She cooked the entire meal from scratch."
       },
       {
         "partOfSpeech": "phrase",
-        "sentence": "They make the bracelet from scratch."
+        "sentence": "Learning a language from scratch takes patience."
       }
     ],
     "wordForms": {
@@ -3266,14 +3266,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Students built the robot without prepared parts.",
-        "upgraded": "Students build a robot from scratch.",
-        "techniques": "用 build a robot from scratch 替换笼统表达。"
+        "original": "They built the website from scratch.",
+        "upgraded": "They built the website from scratch, writing every component for their specific needs.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The team created every part itself.",
-        "upgraded": "She learned electronics from scratch.",
-        "techniques": "用 learn sth from scratch 提升准确度。"
+        "original": "She cooked the entire meal from scratch.",
+        "upgraded": "She cooked the entire meal from scratch, using vegetables gathered that morning.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3314,15 +3314,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A growth mindset treats mistakes as opportunities."
+        "sentence": "A growth mindset encourages steady improvement."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A fixed mindset can limit progress."
+        "sentence": "The crisis changed the team's mindset."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Experience can change one's mindset."
+        "sentence": "Success requires a flexible mindset."
       }
     ],
     "wordForms": {
@@ -3414,14 +3414,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Students learned to see mistakes differently.",
-        "upgraded": "A growth mindset treats mistakes as opportunities.",
-        "techniques": "用 a growth mindset 替换笼统表达。"
+        "original": "A growth mindset encourages steady improvement.",
+        "upgraded": "A growth mindset encourages steady improvement, turning mistakes into useful feedback.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Innovation needs a suitable way of thinking.",
-        "upgraded": "The course builds an entrepreneurial mindset.",
-        "techniques": "用 an entrepreneurial mindset 提升准确度。"
+        "original": "The crisis changed the team's mindset.",
+        "upgraded": "The crisis changed the team's mindset, shifting attention from speed to resilience.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3468,15 +3468,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A light bulb moment gave her the final design."
+        "sentence": "A low-energy light bulb brightened the stairwell."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Always switch off the power before you change a light bulb."
+        "sentence": "The technician replaced the broken light bulb."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A broken light bulb lay on the workbench."
+        "sentence": "The light bulb became a symbol of invention."
       }
     ],
     "wordForms": {
@@ -3568,14 +3568,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "She suddenly had a good idea.",
-        "upgraded": "A light bulb moment gave her the final design.",
-        "techniques": "用 light bulb moment 替换笼统表达。"
+        "original": "A low-energy light bulb brightened the stairwell.",
+        "upgraded": "A low-energy light bulb brightened the stairwell, using far less electricity than the old lamp.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The new device used less electricity.",
-        "upgraded": "He carefully screwed in a light bulb.",
-        "techniques": "用 screw in a light bulb 提升准确度。"
+        "original": "The technician replaced the broken light bulb.",
+        "upgraded": "The technician replaced the broken light bulb, restoring the warning signal above the door.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3616,15 +3616,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A successful entrepreneur solves a real problem."
+        "sentence": "A young entrepreneur opened the repair service."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "An aspiring entrepreneur joined the workshop."
+        "sentence": "The entrepreneur tested her idea with local customers."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A young entrepreneur launched the product."
+        "sentence": "Every entrepreneur must understand basic cash flow."
       }
     ],
     "wordForms": {
@@ -3716,14 +3716,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "A business founder solved a real problem.",
-        "upgraded": "A successful entrepreneur solves a real problem.",
-        "techniques": "用 a successful entrepreneur 替换笼统表达。"
+        "original": "A young entrepreneur opened the repair service.",
+        "upgraded": "A young entrepreneur opened the repair service, creating five apprenticeships in the town.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The programme helps people who start companies.",
-        "upgraded": "A social entrepreneur seeks both impact and income.",
-        "techniques": "用 a social entrepreneur 提升准确度。"
+        "original": "The entrepreneur tested her idea with local customers.",
+        "upgraded": "The entrepreneur tested her idea with local customers, revising the product before seeking investment.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3770,15 +3770,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Modern electronics transformed communication."
+        "sentence": "Moisture damaged the boat's electronics."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Consumer electronics include phones and tablets."
+        "sentence": "He studied electronics at technical college."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The electronics industry changes rapidly."
+        "sentence": "Consumer electronics are becoming easier to recycle."
       }
     ],
     "wordForms": {
@@ -3864,14 +3864,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "New electronic devices changed communication.",
-        "upgraded": "Modern electronics transformed communication.",
-        "techniques": "用 modern electronics 替换笼统表达。"
+        "original": "Moisture damaged the boat's electronics.",
+        "upgraded": "Moisture damaged the boat's electronics, disabling its navigation display.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The robot contains complex parts and circuits.",
-        "upgraded": "Keep liquids away from electronics equipment.",
-        "techniques": "用 electronics equipment 提升准确度。"
+        "original": "He studied electronics at technical college.",
+        "upgraded": "He studied electronics at technical college, learning to diagnose complex circuit faults.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -3918,15 +3918,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A camera lens focuses light on the sensor."
+        "sentence": "The camera lens gathered light from the distant star."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A corrective lens improves vision."
+        "sentence": "Dust on the lens spoiled several photographs."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A convex lens makes nearby objects look larger."
+        "sentence": "The essay examines history through an economic lens."
       }
     ],
     "wordForms": {
@@ -4018,14 +4018,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The camera part focuses light.",
-        "upgraded": "A camera lens focuses light on the sensor.",
-        "techniques": "用 a camera lens 替换笼统表达。"
+        "original": "The camera lens gathered light from the distant star.",
+        "upgraded": "The camera lens gathered light from the distant star, forming a sharp image on the sensor.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "A soft cloth keeps the optical surface clear.",
-        "upgraded": "Scientists look through a lens at the sample.",
-        "techniques": "用 look through a lens 提升准确度。"
+        "original": "Dust on the lens spoiled several photographs.",
+        "upgraded": "Dust on the lens spoiled several photographs, creating a dark mark in each frame.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4065,16 +4065,16 @@
     "uncommonMeanings": [],
     "posExamples": [
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Many athletes wear contact lenses."
+        "partOfSpeech": "n.",
+        "sentence": "She removed each contact lens before sleeping."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Wash your hands before you remove a contact lens."
+        "partOfSpeech": "n.",
+        "sentence": "A soft contact lens corrected his short sight."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "A soft contact lens bends easily."
+        "partOfSpeech": "n.",
+        "sentence": "Never rinse a contact lens with tap water."
       }
     ],
     "wordForms": {
@@ -4160,14 +4160,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Athletes often choose lenses worn on the eye.",
-        "upgraded": "Many athletes wear contact lenses.",
-        "techniques": "用 wear contact lenses 替换笼统表达。"
+        "original": "She removed each contact lens before sleeping.",
+        "upgraded": "She removed each contact lens before sleeping, reducing the risk of eye irritation.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The small case must stay clean.",
-        "upgraded": "Use fresh solution to clean contact lenses.",
-        "techniques": "用 clean contact lenses 提升准确度。"
+        "original": "A soft contact lens corrected his short sight.",
+        "upgraded": "A soft contact lens corrected his short sight, allowing him to play without spectacles.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4214,15 +4214,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A magnificent spectacle filled the night sky."
+        "sentence": "The fireworks created a magnificent spectacle."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The argument became a public spectacle."
+        "sentence": "His broken spectacles lay beside the chair."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Try not to make a spectacle of oneself."
+        "sentence": "Migrating birds created an unforgettable spectacle above the bay."
       }
     ],
     "wordForms": {
@@ -4314,14 +4314,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The event was an impressive sight.",
-        "upgraded": "A magnificent spectacle filled the night sky.",
-        "techniques": "用 a magnificent spectacle 替换笼统表达。"
+        "original": "The fireworks created a magnificent spectacle.",
+        "upgraded": "The fireworks created a magnificent spectacle, drawing thousands of people to the riverbank.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Early readers used glasses to see clearly.",
-        "upgraded": "Many early readers had to wear spectacles.",
-        "techniques": "用 wear spectacles 提升准确度。"
+        "original": "His broken spectacles lay beside the chair.",
+        "upgraded": "His broken spectacles lay beside the chair, explaining why he could not read the note.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4368,15 +4368,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Curved glass can magnify an image."
+        "sentence": "This lens magnifies the image ten times."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "This lens can magnify small objects."
+        "sentence": "Social media can magnify a minor disagreement."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "Poor communication may magnify a problem."
+        "sentence": "The microscope magnified each cell clearly."
       }
     ],
     "wordForms": {
@@ -4468,14 +4468,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The curved glass made the picture look bigger.",
-        "upgraded": "Curved glass can magnify an image.",
-        "techniques": "用 magnify an image 替换笼统表达。"
+        "original": "This lens magnifies the image ten times.",
+        "upgraded": "This lens magnifies the image ten times, revealing fine cracks along the edge.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Stress made the small error seem more serious.",
-        "upgraded": "The lens can magnify by ten times.",
-        "techniques": "用 magnify by ten times 提升准确度。"
+        "original": "Social media can magnify a minor disagreement.",
+        "upgraded": "Social media can magnify a minor disagreement, spreading it far beyond those involved.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4522,15 +4522,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Spectacle frames changed greatly over time."
+        "sentence": "A wooden frame supports the glass panel."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "A metal frame holds the lenses."
+        "partOfSpeech": "vt.",
+        "sentence": "The lawyer framed the question carefully."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "The frame of the glasses pinched his nose."
+        "partOfSpeech": "vt.",
+        "sentence": "Tall trees frame the view of the lake."
       }
     ],
     "wordForms": {
@@ -4622,14 +4622,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The metal structure held both lenses.",
-        "upgraded": "Spectacle frames changed greatly over time.",
-        "techniques": "用 spectacle frames 替换笼统表达。"
+        "original": "A wooden frame supports the glass panel.",
+        "upgraded": "A wooden frame supports the glass panel, preventing it from bending under pressure.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The writer expressed the question carefully.",
-        "upgraded": "Try to frame a question clearly.",
-        "techniques": "用 frame a question 提升准确度。"
+        "original": "The lawyer framed the question carefully.",
+        "upgraded": "The lawyer framed the question carefully, focusing attention on the missing evidence.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4670,15 +4670,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "Anonymous glassmakers improved early spectacles."
+        "sentence": "An anonymous donor funded the new laboratory."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "The inventor chose to remain anonymous."
+        "sentence": "The survey keeps every response anonymous."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "An anonymous source provided the document."
+        "sentence": "Police received an anonymous warning."
       }
     ],
     "wordForms": {
@@ -4770,14 +4770,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Nobody knows the glassmaker's name.",
-        "upgraded": "Anonymous glassmakers improved early spectacles.",
-        "techniques": "用 anonymous glassmakers 替换笼统表达。"
+        "original": "An anonymous donor funded the new laboratory.",
+        "upgraded": "An anonymous donor funded the new laboratory, requesting no public recognition.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The person who gave the money hid their identity.",
-        "upgraded": "The editor received an anonymous letter.",
-        "techniques": "用 an anonymous letter 提升准确度。"
+        "original": "The survey keeps every response anonymous.",
+        "upgraded": "The survey keeps every response anonymous, helping participants answer honestly.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4824,15 +4824,15 @@
     "posExamples": [
       {
         "partOfSpeech": "phrase",
-        "sentence": "Most students catch on quickly."
+        "sentence": "The new payment method caught on quickly."
       },
       {
         "partOfSpeech": "phrase",
-        "sentence": "The new frame may catch on with the public."
+        "sentence": "It took me a moment to catch on."
       },
       {
         "partOfSpeech": "phrase",
-        "sentence": "Lightweight spectacles began to catch on."
+        "sentence": "Reusable bottles are beginning to catch on."
       }
     ],
     "wordForms": {
@@ -4918,14 +4918,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The new design became popular.",
-        "upgraded": "Most students catch on quickly.",
-        "techniques": "用 catch on quickly 替换笼统表达。"
+        "original": "The new payment method caught on quickly.",
+        "upgraded": "The new payment method caught on quickly, spreading from city shops to rural markets.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Students understood the method rapidly.",
-        "upgraded": "The complicated design never caught on.",
-        "techniques": "用 never catch on 提升准确度。"
+        "original": "It took me a moment to catch on.",
+        "upgraded": "It took me a moment to catch on, but the final clue made the joke clear.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -4972,15 +4972,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Spectacles became a fashion accessory."
+        "sentence": "The tablet accepts several specialist accessories."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A phone accessory can protect or support the device."
+        "sentence": "Police charged him as an accessory to the robbery."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A lens cap is a useful accessory."
+        "sentence": "A bright scarf can be a useful accessory."
       }
     ],
     "wordForms": {
@@ -5066,14 +5066,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Spectacles became something people wore for style.",
-        "upgraded": "Spectacles became a fashion accessory.",
-        "techniques": "用 a fashion accessory 替换笼统表达。"
+        "original": "The tablet accepts several specialist accessories.",
+        "upgraded": "The tablet accepts several specialist accessories, expanding its use in classrooms and workshops.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The extra part improved the camera.",
-        "upgraded": "She likes to wear accessories made by hand.",
-        "techniques": "用 wear accessories 提升准确度。"
+        "original": "Police charged him as an accessory to the robbery.",
+        "upgraded": "Police charged him as an accessory to the robbery, alleging that he hid the stolen vehicle.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5119,16 +5119,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "n., vt.",
-        "sentence": "A length of thread connected the frame to a weight."
+        "partOfSpeech": "n.",
+        "sentence": "A red thread held the fabric together."
       },
       {
-        "partOfSpeech": "n., vt.",
-        "sentence": "She can thread a needle quickly."
+        "partOfSpeech": "vt.",
+        "sentence": "She threaded the cable through the narrow opening."
       },
       {
-        "partOfSpeech": "n., vt.",
-        "sentence": "Students thread beads onto a string."
+        "partOfSpeech": "n.",
+        "sentence": "One theme forms a thread through the novel."
       }
     ],
     "wordForms": {
@@ -5220,14 +5220,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "A piece of string held the weight.",
-        "upgraded": "A length of thread connected the frame to a weight.",
-        "techniques": "用 a length of thread 替换笼统表达。"
+        "original": "A red thread held the fabric together.",
+        "upgraded": "A red thread held the fabric together, running neatly along the inner seam.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Curiosity connects all the stories.",
-        "upgraded": "An interruption made him lose the thread.",
-        "techniques": "用 lose the thread 提升准确度。"
+        "original": "She threaded the cable through the narrow opening.",
+        "upgraded": "She threaded the cable through the narrow opening, pulling it out behind the panel.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5273,16 +5273,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Make a loop at the end of the thread."
+        "partOfSpeech": "n.",
+        "sentence": "The path forms a loop around the wetland."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "Workers loop thread around the frame."
+        "partOfSpeech": "vt.",
+        "sentence": "He looped the rope around the post."
       },
       {
-        "partOfSpeech": "vt., n.",
-        "sentence": "The video plays in a continuous loop."
+        "partOfSpeech": "n.",
+        "sentence": "The program became trapped in an endless loop."
       }
     ],
     "wordForms": {
@@ -5374,14 +5374,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The student formed the thread into a ring.",
-        "upgraded": "Make a loop at the end of the thread.",
-        "techniques": "用 make a loop 替换笼统表达。"
+        "original": "The path forms a loop around the wetland.",
+        "upgraded": "The path forms a loop around the wetland, returning walkers to the visitor centre.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Everyone needs to know about the change.",
-        "upgraded": "A final test helps close the loop.",
-        "techniques": "用 close the loop 提升准确度。"
+        "original": "He looped the rope around the post.",
+        "upgraded": "He looped the rope around the post, securing the boat against the current.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5428,15 +5428,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Threads counterbalance the weight of the glasses."
+        "sentence": "Extra weight counterbalanced the long arm."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Public oversight provides a counterbalance to executive power."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "Exercise can counterbalance the effect of long periods of sitting."
-      },
-      {
-        "partOfSpeech": "vt.",
-        "sentence": "The two forces counterbalance each other."
+        "sentence": "Savings counterbalanced the higher initial cost."
       }
     ],
     "wordForms": {
@@ -5522,14 +5522,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The threads balanced the weight of the glasses.",
-        "upgraded": "Threads counterbalance the weight of the glasses.",
-        "techniques": "用 counterbalance the weight of 替换笼统表达。"
+        "original": "Extra weight counterbalanced the long arm.",
+        "upgraded": "Extra weight counterbalanced the long arm, keeping the crane stable during the lift.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "A spring balanced the extra load.",
-        "upgraded": "Designers carefully counterbalance the two sides.",
-        "techniques": "用 carefully counterbalance 提升准确度。"
+        "original": "Public oversight provides a counterbalance to executive power.",
+        "upgraded": "Public oversight provides a counterbalance to executive power, limiting decisions made without scrutiny.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5576,15 +5576,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vi.",
-        "sentence": "A small weight may dangle from a thread."
+        "sentence": "A key dangled from the lock."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She dangled the toy above the baby."
       },
       {
         "partOfSpeech": "vi.",
-        "sentence": "The strap began to dangle by one end."
-      },
-      {
-        "partOfSpeech": "vi.",
-        "sentence": "Children dangle their feet over the edge."
+        "sentence": "Loose wires dangled beneath the desk."
       }
     ],
     "wordForms": {
@@ -5676,14 +5676,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "A weight hung loosely from the thread.",
-        "upgraded": "A small weight may dangle from a thread.",
-        "techniques": "用 dangle from a thread 替换笼统表达。"
+        "original": "A key dangled from the lock.",
+        "upgraded": "A key dangled from the lock, swinging whenever the door moved.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The loose object moved in the air.",
-        "upgraded": "The broken accessory dangled loosely.",
-        "techniques": "用 dangle loosely 提升准确度。"
+        "original": "She dangled the toy above the baby.",
+        "upgraded": "She dangled the toy above the baby, drawing his eyes from side to side.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5730,15 +5730,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "A shoulder strap makes the bag easier to carry."
+        "sentence": "A broad strap secured the bag to the bicycle."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The medic strapped his injured ankle."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A leather strap held the early glasses in place."
-      },
-      {
-        "partOfSpeech": "n.",
-        "sentence": "Please fasten the strap securely."
+        "sentence": "The watch strap needs replacing."
       }
     ],
     "wordForms": {
@@ -5830,14 +5830,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "A narrow strip held the glasses in place.",
-        "upgraded": "A shoulder strap makes the bag easier to carry.",
-        "techniques": "用 a shoulder strap 替换笼统表达。"
+        "original": "A broad strap secured the bag to the bicycle.",
+        "upgraded": "A broad strap secured the bag to the bicycle, stopping it from shifting on rough roads.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The user changed the length for comfort.",
-        "upgraded": "Secure the box with a strap.",
-        "techniques": "用 secure sth with a strap 提升准确度。"
+        "original": "The medic strapped his injured ankle.",
+        "upgraded": "The medic strapped his injured ankle, limiting movement during the journey.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -5884,15 +5884,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vi.",
-        "sentence": "Early spectacles perch on the bridge of the nose."
+        "sentence": "A sparrow perched on the garden fence."
       },
       {
-        "partOfSpeech": "vi.",
-        "sentence": "A tool may perch on the edge of the bench."
+        "partOfSpeech": "n.",
+        "sentence": "The cabin occupies a rocky perch above the sea."
       },
       {
-        "partOfSpeech": "vi.",
-        "sentence": "A small camera can perch atop the screen."
+        "partOfSpeech": "vt.",
+        "sentence": "She perched the box on the shelf edge."
       }
     ],
     "wordForms": {
@@ -5978,14 +5978,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The glasses rested on a narrow part of the nose.",
-        "upgraded": "Early spectacles perch on the bridge of the nose.",
-        "techniques": "用 perch on the bridge of the nose 替换笼统表达。"
+        "original": "A sparrow perched on the garden fence.",
+        "upgraded": "A sparrow perched on the garden fence, watching insects move through the grass.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The cabin stood high above the valley.",
-        "upgraded": "The cabin is perched high above the valley.",
-        "techniques": "用 be perched high above 提升准确度。"
+        "original": "The cabin occupies a rocky perch above the sea.",
+        "upgraded": "The cabin occupies a rocky perch above the sea, offering a clear view of the harbour.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6032,15 +6032,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adv.",
-        "sentence": "The frames perched uneasily on the bridge of the nose."
+        "sentence": "The passengers shifted uneasily in their seats."
       },
       {
         "partOfSpeech": "adv.",
-        "sentence": "The inventor began to shift uneasily."
+        "sentence": "He laughed uneasily at the accusation."
       },
       {
         "partOfSpeech": "adv.",
-        "sentence": "She smiled uneasily at the criticism."
+        "sentence": "The two traditions coexist uneasily."
       }
     ],
     "wordForms": {
@@ -6132,14 +6132,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The frames rested in an unstable way.",
-        "upgraded": "The frames perched uneasily on the bridge of the nose.",
-        "techniques": "用 perched uneasily on 替换笼统表达。"
+        "original": "The passengers shifted uneasily in their seats.",
+        "upgraded": "The passengers shifted uneasily in their seats, listening to the engine's irregular noise.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The decision made many users uncomfortable.",
-        "upgraded": "The team waited uneasily for the result.",
-        "techniques": "用 wait uneasily 提升准确度。"
+        "original": "He laughed uneasily at the accusation.",
+        "upgraded": "He laughed uneasily at the accusation, unsure whether anyone believed his denial.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6186,15 +6186,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Early frames pinch the nose to stay in place."
+        "sentence": "The tight shoe pinched her heel."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Add a pinch of salt to the mixture."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "A tight clip may pinch the skin."
-      },
-      {
-        "partOfSpeech": "vt.",
-        "sentence": "Pinch the thread between finger and thumb."
+        "sentence": "Pinch the tube gently near the end."
       }
     ],
     "wordForms": {
@@ -6286,14 +6286,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The frame pressed both sides of the nose.",
-        "upgraded": "Early frames pinch the nose to stay in place.",
-        "techniques": "用 pinch the nose 替换笼统表达。"
+        "original": "The tight shoe pinched her heel.",
+        "upgraded": "The tight shoe pinched her heel, making every step increasingly painful.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "A paper clip can serve when nothing else is available.",
-        "upgraded": "Take that claim with a pinch of salt.",
-        "techniques": "用 a pinch of salt 提升准确度。"
+        "original": "Add a pinch of salt to the mixture.",
+        "upgraded": "Add a pinch of salt to the mixture, balancing the sweetness without making it salty.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6339,16 +6339,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vi. & vt., n.",
-        "sentence": "The arm pieces clip behind the ears."
+        "partOfSpeech": "vt.",
+        "sentence": "She clipped the badge to her jacket."
       },
       {
-        "partOfSpeech": "vi. & vt., n.",
-        "sentence": "Users clip a strap to the frame."
+        "partOfSpeech": "n.",
+        "sentence": "A short video clip showed the final experiment."
       },
       {
-        "partOfSpeech": "vi. & vt., n.",
-        "sentence": "A metal clip holds the papers together."
+        "partOfSpeech": "vt.",
+        "sentence": "The cyclist clipped the edge of the barrier."
       }
     ],
     "wordForms": {
@@ -6440,14 +6440,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The side pieces fastened behind the ears.",
-        "upgraded": "The arm pieces clip behind the ears.",
-        "techniques": "用 clip behind the ears 替换笼统表达。"
+        "original": "She clipped the badge to her jacket.",
+        "upgraded": "She clipped the badge to her jacket, keeping it visible throughout the event.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The class watched a short recording.",
-        "upgraded": "The class watched a short video clip.",
-        "techniques": "用 a video clip 提升准确度。"
+        "original": "A short video clip showed the final experiment.",
+        "upgraded": "A short video clip showed the final experiment, capturing the moment the model moved.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6494,15 +6494,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "The stem of a glass is narrow and delicate."
+        "sentence": "The flower's stem bent in the wind."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "Early spectacle arms had a short stem."
+        "partOfSpeech": "vi.",
+        "sentence": "Most complaints stem from unclear instructions."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "A flower stem should be cut at an angle."
+        "partOfSpeech": "vt.",
+        "sentence": "New funding stemmed the loss of skilled staff."
       }
     ],
     "wordForms": {
@@ -6594,14 +6594,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The narrow part supported the glass.",
-        "upgraded": "The stem of a glass is narrow and delicate.",
-        "techniques": "用 the stem of a glass 替换笼统表达。"
+        "original": "The flower's stem bent in the wind.",
+        "upgraded": "The flower's stem bent in the wind, but remained firmly rooted in the soil.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Poor planning caused many errors.",
-        "upgraded": "Many errors stem from poor planning.",
-        "techniques": "用 stem from sth 提升准确度。"
+        "original": "Most complaints stem from unclear instructions.",
+        "upgraded": "Most complaints stem from unclear instructions, rather than faults in the equipment.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6647,16 +6647,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vi.",
-        "sentence": "The short stems clamp tightly against the temples."
+        "partOfSpeech": "n.",
+        "sentence": "A metal clamp held the boards together."
       },
       {
-        "partOfSpeech": "vi.",
-        "sentence": "Workers clamp the frame in place."
+        "partOfSpeech": "vt.",
+        "sentence": "Officials clamped down on illegal dumping."
       },
       {
-        "partOfSpeech": "vi.",
-        "sentence": "A metal clamp holds the wood securely."
+        "partOfSpeech": "vt.",
+        "sentence": "Clamp the pipe before cutting it."
       }
     ],
     "wordForms": {
@@ -6748,14 +6748,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The short arms pressed hard against the temples.",
-        "upgraded": "The short stems clamp tightly against the temples.",
-        "techniques": "用 clamp tightly against 替换笼统表达。"
+        "original": "A metal clamp held the boards together.",
+        "upgraded": "A metal clamp held the boards together, keeping their edges aligned while the glue dried.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The tool kept both pieces in one position.",
-        "upgraded": "Clamp two pieces together before drilling.",
-        "techniques": "用 clamp two pieces together 提升准确度。"
+        "original": "Officials clamped down on illegal dumping.",
+        "upgraded": "Officials clamped down on illegal dumping, increasing inspections along rural roads.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6801,16 +6801,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Ouch! The frame is pinching my nose."
+        "partOfSpeech": "interj.",
+        "sentence": "\"Ouch!\" she cried as the needle touched her finger."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "Children may say ouch when the strap pinches."
+        "partOfSpeech": "interj.",
+        "sentence": "\"Ouch, that really hurt,\" he said."
       },
       {
-        "partOfSpeech": "phrase",
-        "sentence": "He began to cry ouch as the clamp tightened."
+        "partOfSpeech": "interj.",
+        "sentence": "Ouch! The pan is still hot."
       }
     ],
     "wordForms": {
@@ -6896,14 +6896,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The tight frame hurt his temples.",
-        "upgraded": "Ouch! The frame is pinching my nose.",
-        "techniques": "用 Ouch! 替换笼统表达。"
+        "original": "\"Ouch!\" she cried as the needle touched her finger.",
+        "upgraded": "\"Ouch!\" she cried as the needle touched her finger, pulling her hand away at once.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The sharp edge caused a sudden painful reaction.",
-        "upgraded": "The failed test was an ouch moment.",
-        "techniques": "用 an ouch moment 提升准确度。"
+        "original": "\"Ouch, that really hurt,\" he said.",
+        "upgraded": "\"Ouch, that really hurt,\" he said, rubbing the spot where the ball had struck.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -6949,16 +6949,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "n.",
-        "sentence": "Modern spectacles are a technological marvel."
+        "partOfSpeech": "vi.",
+        "sentence": "Visitors marvelled at the bridge's elegant design."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The tiny sensor is a marvel of engineering."
+        "sentence": "The restored clock is a mechanical marvel."
       },
       {
-        "partOfSpeech": "n.",
-        "sentence": "The laser cutter is a modern marvel."
+        "partOfSpeech": "vi.",
+        "sentence": "We marvelled at how quickly the forest recovered."
       }
     ],
     "wordForms": {
@@ -7050,14 +7050,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The device was astonishingly well designed.",
-        "upgraded": "Modern spectacles are a technological marvel.",
-        "techniques": "用 a technological marvel 替换笼统表达。"
+        "original": "Visitors marvelled at the bridge's elegant design.",
+        "upgraded": "Visitors marvelled at the bridge's elegant design, wondering how it carried such heavy loads.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Visitors admired the delicate mechanism.",
-        "upgraded": "We marvel that such a simple idea took centuries.",
-        "techniques": "用 marvel that 提升准确度。"
+        "original": "The restored clock is a mechanical marvel.",
+        "upgraded": "The restored clock is a mechanical marvel, combining hundreds of moving parts in a small case.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -7098,15 +7098,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Corrective lenses help us read about the controversy."
+        "sentence": "Controversy surrounded the proposed redevelopment."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "The claim may spark controversy."
+        "sentence": "Fresh evidence revived the scientific controversy."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A heated controversy followed the report."
+        "sentence": "The minister resigned amid controversy."
       }
     ],
     "wordForms": {
@@ -7198,14 +7198,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "People publicly disagreed about the inventor.",
-        "upgraded": "Corrective lenses help us read about the controversy.",
-        "techniques": "用 read about the controversy 替换笼统表达。"
+        "original": "Controversy surrounded the proposed redevelopment.",
+        "upgraded": "Controversy surrounded the proposed redevelopment, dividing residents over the site's future.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The claim started a strong public argument.",
-        "upgraded": "The company is at the centre of controversy.",
-        "techniques": "用 be at the centre of controversy 提升准确度。"
+        "original": "Fresh evidence revived the scientific controversy.",
+        "upgraded": "Fresh evidence revived the scientific controversy, prompting both sides to recheck their data.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -7252,15 +7252,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Artists engrave a name on each bracelet."
+        "sentence": "The artist engraved a date inside the ring."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "Makers engrave the frame with a pattern."
+        "sentence": "The award was engraved with the winner's name."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "Students laser-engrave a design on wood."
+        "sentence": "Traditional tools engrave fine lines in metal."
       }
     ],
     "wordForms": {
@@ -7352,14 +7352,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The artist cut a name into the surface.",
-        "upgraded": "Artists engrave a name on each bracelet.",
-        "techniques": "用 engrave a name on each bracelet 替换笼统表达。"
+        "original": "The artist engraved a date inside the ring.",
+        "upgraded": "The artist engraved a date inside the ring, turning it into a personal anniversary gift.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The first success remained unforgettable.",
-        "upgraded": "She engraved a message inside the bracelet.",
-        "techniques": "用 engrave a message 提升准确度。"
+        "original": "The award was engraved with the winner's name.",
+        "upgraded": "The award was engraved with the winner's name, creating a permanent record of the achievement.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -7405,16 +7405,16 @@
     ],
     "posExamples": [
       {
-        "partOfSpeech": "vt. & vi.",
-        "sentence": "Technicians disassemble a device before repair."
+        "partOfSpeech": "vt.",
+        "sentence": "Technicians disassembled the damaged motor."
       },
       {
-        "partOfSpeech": "vt. & vi.",
-        "sentence": "Students disassemble a machine to study its parts."
+        "partOfSpeech": "vt.",
+        "sentence": "The shelf can be disassembled for transport."
       },
       {
-        "partOfSpeech": "vt. & vi.",
-        "sentence": "Always carefully disassemble the laser cutter."
+        "partOfSpeech": "vt.",
+        "sentence": "Students learned to disassemble the simple robot."
       }
     ],
     "wordForms": {
@@ -7506,14 +7506,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Technicians took the device into separate pieces.",
-        "upgraded": "Technicians disassemble a device before repair.",
-        "techniques": "用 disassemble a device 替换笼统表达。"
+        "original": "Technicians disassembled the damaged motor.",
+        "upgraded": "Technicians disassembled the damaged motor, laying each component in inspection order.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "The design allows easy repair.",
-        "upgraded": "The frame is easy to disassemble.",
-        "techniques": "用 be easy to disassemble 提升准确度。"
+        "original": "The shelf can be disassembled for transport.",
+        "upgraded": "The shelf can be disassembled for transport, fitting easily into a small car.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [
@@ -7560,15 +7560,15 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Basic literacy opens access to education."
+        "sentence": "The programme improves adult literacy in remote villages."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Digital literacy helps users judge online information."
+        "sentence": "Digital literacy is essential in modern workplaces."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "Thought experiments can strengthen scientific literacy."
+        "sentence": "Financial literacy supports better household decisions."
       }
     ],
     "wordForms": {
@@ -7654,14 +7654,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "People need the ability to read and write.",
-        "upgraded": "Basic literacy opens access to education.",
-        "techniques": "用 basic literacy 替换笼统表达。"
+        "original": "The programme improves adult literacy in remote villages.",
+        "upgraded": "The programme improves adult literacy in remote villages, helping learners read forms and instructions independently.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       },
       {
-        "original": "Students must judge information on screens carefully.",
-        "upgraded": "Media literacy helps students identify false claims.",
-        "techniques": "用 media literacy 提升准确度。"
+        "original": "Digital literacy is essential in modern workplaces.",
+        "upgraded": "Digital literacy is essential in modern workplaces, enabling staff to judge online information safely.",
+        "techniques": "保留原句主体、事实与场景，补充同一事件的结果或影响。"
       }
     ],
     "classPractice": [

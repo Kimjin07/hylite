@@ -1335,7 +1335,10 @@ function collectSearchableParts(v) {
   // synonyms: word only
   (Array.isArray(v.synonyms) ? v.synonyms : []).forEach(s => {
     if (typeof s === 'string') parts.push(s);
-    else if (s && typeof s === 'object' && s.word) parts.push(s.word);
+    else if (s && typeof s === 'object') {
+      if (s.synonym) parts.push(s.synonym);
+      else if (s.word) parts.push(s.word);
+    }
   });
 
   // uncommonMeanings: meaning/translation only
@@ -1779,6 +1782,9 @@ function buildVocabCard(v) {
 
   // ---- 课文原句 ----
   const readEx = Array.isArray(v.readingExamples) ? v.readingExamples.filter(s=>s&&s.trim()!=='') : [];
+  if (readEx.length === 0 && typeof v.original_sentence === 'string' && v.original_sentence.trim() !== '') {
+    readEx.push(v.original_sentence.trim());
+  }
   let readingHtml = '';
   if (readEx.length>0) {
     readingHtml = '<div class="reading-block"><div class="sec-title">📖 课文原句</div>';

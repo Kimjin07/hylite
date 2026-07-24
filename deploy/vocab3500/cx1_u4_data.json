@@ -11,7 +11,7 @@
     "sub_section": "",
     "original_sentence": "Why do stars twinkle?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to shine with a light that repeatedly grows brighter and fainter (2) n. a small bright light or lively expression",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -39,7 +39,20 @@
         "example": "In the twinkling of an eye, he was gone. 一眨眼他就不见了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Tiny lights twinkled across the harbour."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Her eyes twinkled with quiet amusement."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A playful twinkle appeared in his eyes."
+      }
+    ],
     "wordForms": {
       "noun": "twinkle 闪烁；（眼中的）亮光；twinkling 闪烁；瞬间（in the twinkling of an eye 一眨眼间）",
       "verb": "twinkle（twinkled, twinkled）闪烁；（眼睛）发亮",
@@ -84,6 +97,26 @@
         "phrase": "twinkling lights",
         "translation": "闪烁的灯光",
         "example": "The city's twinkling lights looked like stars. 城市闪烁的灯光看起来像星星。"
+      },
+      {
+        "phrase": "twinkle faintly / brightly",
+        "translation": "微弱地/明亮地闪烁（副词修饰）",
+        "example": "A distant beacon twinkled faintly through the mist. 远处的信标透过薄雾微微闪烁。"
+      },
+      {
+        "phrase": "twinkle with amusement / joy",
+        "translation": "因觉得有趣/喜悦而眼睛发亮（with 接情绪）",
+        "example": "His eyes twinkled with amusement at the answer. 听到答案，他眼中闪着笑意。"
+      },
+      {
+        "phrase": "the twinkle of distant stars",
+        "translation": "远处星星的闪光（名词结构）",
+        "example": "We watched the twinkle of distant stars. 我们望着远处星星的闪光。"
+      },
+      {
+        "phrase": "in the twinkling of an eye",
+        "translation": "转瞬之间；一眨眼工夫（固定习语）",
+        "example": "The bird vanished in the twinkling of an eye. 那只鸟一眨眼便消失了。"
       }
     ],
     "synonyms": [
@@ -129,7 +162,18 @@
         "example": "The little star will twinkle all night long. 那颗小星星会闪烁整夜。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Tiny lights twinkled across the harbour.",
+        "upgraded": "Tiny lights twinkled across the harbour, guiding the last fishing boat towards the shore.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Her eyes twinkled with quiet amusement.",
+        "upgraded": "Her eyes twinkled with quiet amusement, revealing that she understood the private joke.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -139,7 +183,7 @@
       },
       {
         "type": "汉译英",
-        "question": "星星为什么会闪烁？",
+        "question": "星星为什么会闪烁？（答案：____）",
         "answer": "Why do stars twinkle?",
         "note": "课文原句回译；twinkle 作不及物动词，一般现在时表普遍事实。"
       },
@@ -151,7 +195,7 @@
       },
       {
         "type": "完成句子",
-        "question": "一眨眼的工夫，那颗流星就消失了。The shooting star vanished ____________________ (一眨眼间).",
+        "question": "一眨眼的工夫，那颗流星就消失了。The shooting star vanished ____ (一眨眼间).",
         "answer": "in the twinkling of an eye",
         "note": "固定短语 in the twinkling of an eye \"转瞬之间\"，twinkling 为名词。"
       }
@@ -169,7 +213,7 @@
     "sub_section": "",
     "original_sentence": "When a star shines its steady light down on us through our atmosphere, the air bends the light.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "firm, regular, and unlikely to change, shake, or fail",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -197,7 +241,20 @@
         "example": "Steady on! You'll fall if you rush. 稳着点！你这么急会摔的。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The nurse kept a steady hand during the procedure."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Sales showed steady growth throughout the year."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "She steadied the ladder before he climbed it."
+      }
+    ],
     "wordForms": {
       "noun": "steadiness 稳定，平稳，沉着",
       "verb": "steady（steadied, steadied）（使）稳定；稳住（steady oneself 站稳，steady one's nerves 稳住情绪）",
@@ -252,6 +309,26 @@
         "phrase": "a steady job/income",
         "translation": "稳定的工作/收入",
         "example": "He finally found a steady job. 他终于找到了一份稳定的工作。"
+      },
+      {
+        "phrase": "a steady stream / flow of sth",
+        "translation": "源源不断的……（可数名词用 stream，不可数流体用 flow）",
+        "example": "A steady stream of visitors entered the gallery. 参观者源源不断地进入展厅。"
+      },
+      {
+        "phrase": "steady progress",
+        "translation": "稳步进展（不可数 progress）",
+        "example": "The restoration project is making steady progress. 修复工程正在稳步推进。"
+      },
+      {
+        "phrase": "steady oneself / one's nerves",
+        "translation": "稳住身体/情绪（steady 作动词）",
+        "example": "She paused to steady her nerves before speaking. 她发言前停下来稳定情绪。"
+      },
+      {
+        "phrase": "remain / stay steady",
+        "translation": "保持稳定（steady 作表语）",
+        "example": "Fuel prices remained steady throughout May. 五月燃油价格保持稳定。"
       }
     ],
     "synonyms": [
@@ -302,7 +379,18 @@
         "example": "She walked steadily along the icy path. 她在结冰的小路上稳稳地走着。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The nurse kept a steady hand during the procedure.",
+        "upgraded": "The nurse kept a steady hand during the procedure, helping the anxious patient remain calm.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Sales showed steady growth throughout the year.",
+        "upgraded": "Sales showed steady growth throughout the year, allowing the shop to hire two assistants.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -318,7 +406,7 @@
       },
       {
         "type": "汉译英",
-        "question": "当一颗星星把它稳定的光透过大气洒向我们时，空气会使光线弯曲。",
+        "question": "当一颗星星把它稳定的光透过大气洒向我们时，空气会使光线弯曲。（答案：____）",
         "answer": "When a star shines its steady light down on us through our atmosphere, the air bends the light.",
         "note": "课文原句回译；steady 作定语修饰 light，注意 shine sth down on sb 结构。"
       },
@@ -342,7 +430,7 @@
     "sub_section": "",
     "original_sentence": "As the air moves, its temperature and density change, affecting the way the light bends.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the amount of matter in a particular volume (2) the degree to which people or things are crowded together",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [U/C]",
@@ -360,7 +448,20 @@
         "example": "The essay has a high density of technical terms. 这篇文章专业术语密度很高。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Scientists measured the density of the volcanic rock."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Housing density is highest near the station."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Bone density often decreases with age."
+      }
+    ],
     "wordForms": {
       "noun": "density 密度，稠密（复数 densities，指不同种类/数值的密度）",
       "verb": "densify 使变稠密（较专业）；condense 使浓缩，使凝结（同根 -dens-）",
@@ -394,6 +495,26 @@
         "phrase": "bone/traffic density",
         "translation": "骨密度／车流密度",
         "example": "Exercise helps increase bone density. 运动有助于增加骨密度。"
+      },
+      {
+        "phrase": "air density",
+        "translation": "空气密度（科学术语）",
+        "example": "Air density decreases at higher altitudes. 海拔越高，空气密度越低。"
+      },
+      {
+        "phrase": "housing density",
+        "translation": "住宅密度（城市规划用语）",
+        "example": "The plan increases housing density near stations. 该规划提高车站附近的住宅密度。"
+      },
+      {
+        "phrase": "a density of + number",
+        "translation": "每单位面积/体积有……的密度",
+        "example": "The forest has a density of 600 trees per hectare. 这片森林每公顷约有600棵树。"
+      },
+      {
+        "phrase": "reduce / increase density",
+        "translation": "降低/提高密度",
+        "example": "Adding foam reduces the material's density. 加入泡沫会降低材料密度。"
       }
     ],
     "synonyms": [
@@ -433,7 +554,18 @@
         "example": "As altitude rises, air density falls. 随着海拔升高，空气密度下降。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Scientists measured the density of the volcanic rock.",
+        "upgraded": "Scientists measured the density of the volcanic rock, identifying the minerals most likely to be present.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Housing density is highest near the station.",
+        "upgraded": "Housing density is highest near the station, where several apartment towers share a small area.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -449,7 +581,7 @@
       },
       {
         "type": "汉译英",
-        "question": "水的密度比空气大得多。",
+        "question": "水的密度比空气大得多。（答案：____）",
         "answer": "The density of water is much greater than that of air. / Water has a much greater density than air.",
         "note": "the density of sth 固定搭配；比较时用 that of 替代 the density of，避免重复。"
       },
@@ -473,7 +605,7 @@
     "sub_section": "",
     "original_sentence": "Between us and the stars closer to the horizon, there is a lot more air, so they appear to twinkle more than those stars higher in the sky.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the line where the earth or sea seems to meet the sky (2) the limit of a person's knowledge or experience",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [C, usu. sing.]",
@@ -491,7 +623,20 @@
         "example": "Big changes are on the horizon. 重大变化即将到来。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A dark cloud appeared on the western horizon."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Studying abroad broadened Maya's horizons."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sun sank slowly below the horizon."
+      }
+    ],
     "wordForms": {
       "noun": "horizon 地平线；眼界（表\"地平线\"时常用单数 the horizon；表\"眼界\"时常用复数 horizons）",
       "verb": "—",
@@ -536,6 +681,26 @@
         "phrase": "beyond one's horizons",
         "translation": "超出某人的认知范围",
         "example": "Such ideas were beyond his horizons then. 那时这些想法超出了他的认知。"
+      },
+      {
+        "phrase": "the distant horizon",
+        "translation": "遥远的地平线（通常与 the 连用）",
+        "example": "Mountains rose above the distant horizon. 群山耸立在遥远的地平线上。"
+      },
+      {
+        "phrase": "disappear over the horizon",
+        "translation": "消失在地平线外",
+        "example": "The ship disappeared over the horizon. 船消失在地平线外。"
+      },
+      {
+        "phrase": "a new horizon / new horizons",
+        "translation": "新的前景/新的领域（常用复数表发展空间）",
+        "example": "Space research opened new horizons for medicine. 太空研究为医学开辟了新领域。"
+      },
+      {
+        "phrase": "the horizon of knowledge",
+        "translation": "知识的边界/范围（抽象用法）",
+        "example": "The discovery expanded the horizon of human knowledge. 这一发现拓展了人类知识的边界。"
       }
     ],
     "synonyms": [
@@ -580,7 +745,18 @@
         "example": "Draw a horizontal line along the horizon. 沿着地平线画一条水平线。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A dark cloud appeared on the western horizon.",
+        "upgraded": "A dark cloud appeared on the western horizon, warning the sailors that a storm was approaching.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Studying abroad broadened Maya's horizons.",
+        "upgraded": "Studying abroad broadened Maya's horizons, introducing her to unfamiliar customs and ideas.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -596,13 +772,13 @@
       },
       {
         "type": "汉译英",
-        "question": "更靠近地平线的星星看起来比天空高处的星星闪烁得更厉害。",
+        "question": "更靠近地平线的星星看起来比天空高处的星星闪烁得更厉害。（答案：____）",
         "answer": "Stars closer to the horizon appear to twinkle more than those higher in the sky.",
         "note": "呼应课文；closer to the horizon 作后置定语，appear to do 表\"看起来……\"。"
       },
       {
         "type": "同义句转换",
-        "question": "把 Travelling helps us learn about new cultures. 用 horizons 改写，使意为\"旅行开阔我们的眼界\"。",
+        "question": "把 Travelling helps us learn about new cultures. 用 horizons 改写，使意为\"旅行开阔我们的眼界\"。（答案：____）",
         "answer": "Travelling broadens/widens our horizons.",
         "note": "固定搭配 broaden/widen one's horizons \"开阔眼界\"，horizons 必须用复数。"
       }
@@ -620,7 +796,7 @@
     "sub_section": "",
     "original_sentence": "Why are flowers fragrant?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "having a pleasant, sweet smell",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -628,7 +804,20 @@
         "example": "The air was fragrant with the smell of roses. 空气中弥漫着玫瑰的芳香。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Fragrant herbs filled the kitchen with a fresh scent."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The garden becomes fragrant after summer rain."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Dried lavender kept the linen drawer fragrant."
+      }
+    ],
     "wordForms": {
       "noun": "fragrance 芳香，香味；香水（a sweet fragrance 一股芬芳）",
       "verb": "—",
@@ -657,6 +846,26 @@
         "phrase": "fragrant tea/coffee",
         "translation": "香气扑鼻的茶/咖啡",
         "example": "She poured a cup of fragrant tea. 她倒了一杯香气扑鼻的茶。"
+      },
+      {
+        "phrase": "fragrant with sth",
+        "translation": "弥漫着……的香气（作表语，接 with）",
+        "example": "The room was fragrant with fresh bread. 房间里弥漫着新鲜面包的香味。"
+      },
+      {
+        "phrase": "a fragrant garden",
+        "translation": "芳香四溢的花园",
+        "example": "They rested in a fragrant garden at noon. 中午他们在芳香四溢的花园休息。"
+      },
+      {
+        "phrase": "fragrant herbs / spices",
+        "translation": "芳香的香草/香料",
+        "example": "Fragrant herbs added depth to the soup. 芳香的香草使汤更有层次。"
+      },
+      {
+        "phrase": "a fragrant oil",
+        "translation": "芳香油；香精油",
+        "example": "The soap contains a mild fragrant oil. 这种肥皂含有温和的芳香油。"
       }
     ],
     "synonyms": [
@@ -707,7 +916,18 @@
         "example": "The most fragrant flowers often attract the most bees. 最香的花往往招来最多蜜蜂。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Fragrant herbs filled the kitchen with a fresh scent.",
+        "upgraded": "Fragrant herbs filled the kitchen with a fresh scent, making the simple meal especially inviting.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The garden becomes fragrant after summer rain.",
+        "upgraded": "The garden becomes fragrant after summer rain, as damp roses release their perfume.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -723,7 +943,7 @@
       },
       {
         "type": "汉译英",
-        "question": "花为什么是香的？",
+        "question": "花为什么是香的？（答案：____）",
         "answer": "Why are flowers fragrant?",
         "note": "课文原句回译；fragrant 作表语，注意 flowers 复数、系动词 are。"
       },
@@ -747,7 +967,7 @@
     "sub_section": "",
     "original_sentence": "Each flower’s fragrance is unique, attracting particular insects to the flower, which help spread its pollen so that seeds can be produced.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a fine powder produced by flowers and seed plants that carries male reproductive cells",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [U]",
@@ -755,7 +975,20 @@
         "example": "The wind carries pollen over long distances. 风把花粉带到很远的地方。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Bees carried pollen between the apple blossoms."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Heavy rain washed pollen from the windows."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The laboratory examined pollen under a microscope."
+      }
+    ],
     "wordForms": {
       "noun": "pollen 花粉（不可数）；pollination 授粉，传粉（cross-pollination 异花授粉）",
       "verb": "pollinate 给……授粉，传粉（Bees pollinate the flowers.）",
@@ -789,6 +1022,26 @@
         "phrase": "pollen grains",
         "translation": "花粉粒",
         "example": "Pollen grains are too small to see clearly. 花粉粒太小，看不清楚。"
+      },
+      {
+        "phrase": "release / produce pollen",
+        "translation": "释放/产生花粉",
+        "example": "Pine trees release large amounts of pollen in spring. 松树春季释放大量花粉。"
+      },
+      {
+        "phrase": "collect pollen",
+        "translation": "采集花粉（昆虫或研究人员）",
+        "example": "Worker bees collect pollen for the colony. 工蜂为蜂群采集花粉。"
+      },
+      {
+        "phrase": "airborne pollen",
+        "translation": "空气传播的花粉",
+        "example": "Airborne pollen can trigger seasonal allergies. 空气中的花粉会引发季节性过敏。"
+      },
+      {
+        "phrase": "pollen allergy",
+        "translation": "花粉过敏（名词作定语）",
+        "example": "Her pollen allergy is worst in April. 她的花粉过敏在四月最严重。"
       }
     ],
     "synonyms": [
@@ -797,6 +1050,12 @@
         "translation": "孢子",
         "example": "Ferns reproduce by spores, not pollen. 蕨类靠孢子繁殖，而非花粉。",
         "usage": "spore 是蕨类、真菌等的\"孢子\"，靠孢子繁殖；pollen 是种子植物（开花植物）的\"花粉\"，参与授粉。二者都是繁殖用的微小颗粒，但生物类别不同，不可混用。"
+      },
+      {
+        "synonym": "nectar",
+        "translation": "n. 花蜜（相关术语，非同义词）",
+        "example": "Bees collect both nectar and pollen from flowers. 蜜蜂从花中采集花蜜和花粉。",
+        "usage": "nectar 是花朵分泌的含糖液体，为传粉者提供食物；pollen 是携带植物雄性生殖细胞的粉末。二者常被蜜蜂同时采集，但物质形态和生物功能不同，不能互换。"
       }
     ],
     "advancedExpressions": [
@@ -816,11 +1075,22 @@
         "example": "Insects help spread pollen so that new plants can grow. 昆虫帮助传播花粉，以便新植物得以生长。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Bees carried pollen between the apple blossoms.",
+        "upgraded": "Bees carried pollen between the apple blossoms, enabling the trees to produce fruit.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Heavy rain washed pollen from the windows.",
+        "upgraded": "Heavy rain washed pollen from the windows, leaving the glass clear again.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "汉译英",
-        "question": "每朵花的香气都独一无二，吸引特定昆虫，帮助传播花粉，从而结出种子。",
+        "question": "每朵花的香气都独一无二，吸引特定昆虫，帮助传播花粉，从而结出种子。（答案：____）",
         "answer": "Each flower's fragrance is unique, attracting particular insects to the flower, which help spread its pollen so that seeds can be produced.",
         "note": "课文原句回译；attracting 为现在分词状语，which 引导非限定性定语从句，so that 引导目的状语。"
       },
@@ -850,7 +1120,7 @@
     "sub_section": "",
     "original_sentence": "B2 The blog post asks and answers a question to introduce the topic of the human microbiome.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the complete community of microorganisms living in a particular environment, especially the human body",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -863,13 +1133,26 @@
         "example": "Researchers are mapping the soil microbiome to improve crops."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Diet can alter the gut microbiome within days."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers compared the skin microbiome of healthy volunteers."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Every environment supports a distinctive microbiome."
+      }
+    ],
     "wordForms": {
       "noun": "microbiome 微生物组；microbe 微生物；microorganism 微生物；microbiology 微生物学；microbiologist 微生物学家",
       "adjective": "microbial /maɪˈkrəʊbiəl/ 微生物的 — microbial life 微生物；microscopic 微观的，极小的",
       "other": "构词：micro-（微小）+ bio（生命）+ -ome（“组、总体”，仿 genome 基因组、biome 生物群系而造）。同族 micro- 词：microscope 显微镜、microwave 微波炉、microphone 麦克风。重音 /ˌmaɪkrəʊˈbaɪəʊm/ 在 bi 音节。",
-      "verb": null,
-      "adverb": null
+      "verb": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -892,6 +1175,26 @@
         "phrase": "the balance/composition of the microbiome",
         "translation": "微生物组的平衡/构成",
         "example": "Antibiotics can upset the balance of the microbiome. 抗生素会打乱微生物组的平衡。"
+      },
+      {
+        "phrase": "a diverse / healthy microbiome",
+        "translation": "多样化的/健康的微生物组",
+        "example": "A varied diet may support a diverse microbiome. 多样化饮食可能有助于微生物组保持多样性。"
+      },
+      {
+        "phrase": "alter / disrupt the microbiome",
+        "translation": "改变/扰乱微生物组",
+        "example": "Antibiotics can temporarily disrupt the microbiome. 抗生素会暂时扰乱微生物组。"
+      },
+      {
+        "phrase": "restore the microbiome",
+        "translation": "恢复微生物组",
+        "example": "Researchers are testing ways to restore the microbiome. 研究人员正测试恢复微生物组的方法。"
+      },
+      {
+        "phrase": "microbiome research",
+        "translation": "微生物组研究（学术话题词块）",
+        "example": "Microbiome research links diet with immune health. 微生物组研究把饮食与免疫健康联系起来。"
       }
     ],
     "synonyms": [
@@ -925,23 +1228,34 @@
         "example": "The microbiome is an invisible world of tiny creatures living in and on our body. 微生物组是一个生活在我们体内和体表的、看不见的微小生物世界。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Diet can alter the gut microbiome within days.",
+        "upgraded": "Diet can alter the gut microbiome within days, changing which microorganisms become most abundant.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Researchers compared the skin microbiome of healthy volunteers.",
+        "upgraded": "Researchers compared the skin microbiome of healthy volunteers, looking for patterns linked to age.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The human ______ (microbe) is made up of trillions of tiny living things.",
+        "question": "The human ____ (microbe) is made up of trillions of tiny living things.",
         "answer": "microbiome",
         "note": "空前有 the human 修饰、句义为“整个微生物组”，用名词 microbiome；microbe 指单个微生物，此处不合。"
       },
       {
         "type": "汉译英",
-        "question": "肠道菌群会影响我们的免疫系统。（gut microbiome / immune system）",
+        "question": "肠道菌群会影响我们的免疫系统。（gut microbiome / immune system）（答案：____）",
         "answer": "The gut microbiome affects our immune system.",
         "note": "microbiome 作主语视为单数集合名词，谓语用第三人称单数 affects。"
       },
       {
         "type": "辨析选词",
-        "question": "用 microbiome / bacteria 填空：① Our ______ includes bacteria, viruses and fungi. ② Some ______ in yoghurt are good for the gut.",
+        "question": "用 microbiome / bacteria 填空：① Our ____ includes bacteria, viruses and fungi. ② Some ____ in yoghurt are good for the gut.",
         "answer": "① microbiome ② bacteria",
         "note": "①指“全体微生物这一总称”，单数 microbiome；②指具体的“一些细菌”，可数复数 bacteria，谓语用 are。"
       }
@@ -959,7 +1273,7 @@
     "sub_section": "",
     "original_sentence": "What organisms live with us, make up about two per cent of an adult’s body mass, yet are invisible to the naked eye?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) without clothes or a covering (2) not hidden, protected, or disguised",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -982,13 +1296,26 @@
         "example": "There was naked fear in his eyes."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The wire must never be touched with naked hands."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The report revealed the naked truth about the scheme."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Never place paper near a naked flame."
+      }
+    ],
     "wordForms": {
       "noun": "nakedness 裸露；赤裸；坦露",
       "adjective": "naked 裸露的，无遮盖的",
       "adverb": "nakedly 赤裸地；露骨地",
       "other": "发音提醒：naked 读 /ˈneɪkɪd/，词尾 -ed 单独发 /ɪd/ 为两个音节（对比 baked /beɪkt/ 只一个音节）；同类特殊 -ed 形容词还有 wicked /ˈwɪkɪd/、rugged /ˈrʌɡɪd/、learned /ˈlɜːnɪd/。",
-      "verb": null
+      "verb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -1016,6 +1343,26 @@
         "phrase": "naked wire/light bulb",
         "translation": "裸露的电线／没有灯罩的灯泡",
         "example": "Don't touch that naked wire — it's dangerous. 别碰那根裸露的电线，很危险。"
+      },
+      {
+        "phrase": "naked aggression / greed",
+        "translation": "赤裸裸的侵略/贪婪（抽象比喻义）",
+        "example": "The speech exposed the policy as naked aggression. 演讲揭露了该政策赤裸裸的侵略性。"
+      },
+      {
+        "phrase": "a naked sword / blade",
+        "translation": "出鞘的剑/裸露的刀刃",
+        "example": "The guard carried a naked sword. 卫兵拿着一把出鞘的剑。"
+      },
+      {
+        "phrase": "the naked facts",
+        "translation": "不加掩饰的事实；纯事实",
+        "example": "The report presents the naked facts without comment. 报告不加评论地陈述纯事实。"
+      },
+      {
+        "phrase": "naked and exposed",
+        "translation": "无遮蔽且暴露在外（并列形容词）",
+        "example": "After the fire, the hillside lay naked and exposed. 大火后，山坡光秃裸露。"
       }
     ],
     "synonyms": [
@@ -1055,23 +1402,34 @@
         "example": "这几个形容词词尾 -ed 都独立成音节读 /ɪd/，注意别读成 /t/ 或 /d/。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The wire must never be touched with naked hands.",
+        "upgraded": "The wire must never be touched with naked hands, because its damaged covering exposes a serious hazard.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The report revealed the naked truth about the scheme.",
+        "upgraded": "The report revealed the naked truth about the scheme, leaving officials unable to deny the losses.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "这些微生物用肉眼看不见。（invisible）These microorganisms are ______ ______ the naked eye.",
+        "question": "这些微生物用肉眼看不见。（invisible）These microorganisms are ____ ____ the naked eye.",
         "answer": "invisible to",
         "note": "固定搭配 (in)visible to the naked eye，介词用 to。"
       },
       {
         "type": "辨析选词",
-        "question": "用 naked / bare 填空：① Please don't walk around in ______ feet. ② Never look at the sun directly with the ______ eye.",
+        "question": "用 naked / bare 填空：① Please don't walk around in ____ feet. ② Never look at the sun directly with the ____ eye.",
         "answer": "① bare ② naked",
         "note": "bare feet 光脚（身体局部无覆盖）；the naked eye 为固定搭配，不能换成 bare。"
       },
       {
         "type": "单句语法填空",
-        "question": "Some distant galaxies cannot be seen with the ______ (nake) eye.",
+        "question": "Some distant galaxies cannot be seen with the ____ (nake) eye.",
         "answer": "naked",
         "note": "词本身即形容词 naked（读 /ˈneɪkɪd/，-ed 发 /ɪd/），the naked eye 肉眼。"
       }
@@ -1089,7 +1447,7 @@
     "sub_section": "",
     "original_sentence": "What organisms live with us, make up about two per cent of an adult’s body mass, yet are invisible to the naked eye?",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "normal human vision without a microscope, telescope, or other optical aid",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. phr.",
@@ -1097,13 +1455,26 @@
         "example": "Bacteria are too small to be seen by the naked eye."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Without magnification, the naked eye misses microscopic cracks in the surface."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Five planets can be seen with the naked eye."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "To the naked eye, both samples look identical."
+      }
+    ],
     "wordForms": {
       "other": "这是固定短语，须带定冠词 the：the naked eye。常见搭配框架：(in)visible to the naked eye（肉眼可见/不可见）、with the naked eye（用肉眼）、to the naked eye（在肉眼看来）。介词 to 更常与形容词 visible/invisible 连用，with 更常与 see 连用。",
-      "verb": null,
-      "noun": null,
-      "adjective": null,
-      "adverb": null
+      "verb": "—",
+      "noun": "—",
+      "adjective": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -1126,6 +1497,26 @@
         "phrase": "to the naked eye, sth looks/appears...",
         "translation": "在肉眼看来，……显得……",
         "example": "To the naked eye, the two stars appear as one. 在肉眼看来，这两颗星像是一颗。"
+      },
+      {
+        "phrase": "barely visible to the naked eye",
+        "translation": "肉眼几乎看不见（barely 表几乎不）",
+        "example": "The scratch is barely visible to the naked eye. 这道划痕肉眼几乎看不见。"
+      },
+      {
+        "phrase": "undetectable by the naked eye",
+        "translation": "肉眼无法察觉（by 强调检测手段）",
+        "example": "Early damage may be undetectable by the naked eye. 早期损伤肉眼可能无法察觉。"
+      },
+      {
+        "phrase": "observe sth with the naked eye",
+        "translation": "用肉眼观察某物",
+        "example": "Students observed the eclipse with the naked eye only through filters. 学生只通过滤光片用肉眼观察日食。"
+      },
+      {
+        "phrase": "beyond the range of the naked eye",
+        "translation": "超出肉眼可见范围",
+        "example": "Ultraviolet light lies beyond the range of the naked eye. 紫外线超出肉眼可见范围。"
       }
     ],
     "synonyms": [
@@ -1134,6 +1525,12 @@
         "translation": "肉眼（不借助工具的眼睛）",
         "example": "The comet was visible to the unaided eye. 这颗彗星肉眼可见。",
         "usage": "unaided eye 与 the naked eye 完全同义、更正式；口语和课文中 the naked eye 更常见。反面常对照 under a microscope（在显微镜下）。"
+      },
+      {
+        "synonym": "the human eye",
+        "translation": "人眼（相关表达，非完全同义）",
+        "example": "The human eye adapts gradually to darkness. 人眼会逐渐适应黑暗。",
+        "usage": "the human eye 泛指人眼这一器官或人的视觉能力；the naked eye 专指不借助显微镜、望远镜等光学仪器的肉眼观察。只有强调“无仪器辅助”时才可近义使用。"
       }
     ],
     "advancedExpressions": [
@@ -1146,25 +1543,41 @@
         "type": "写作范句·科普描写",
         "expression": "too small to be seen with the naked eye",
         "example": "Countless microorganisms, too small to be seen with the naked eye, live on our skin. 无数肉眼看不见的微小生物栖居在我们的皮肤上。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "barely visible to the naked eye / undetectable by the naked eye / observe sth with the naked eye / beyond the range of the naked eye",
+        "example": "The scratch is barely visible to the naked eye. 这道划痕肉眼几乎看不见。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Without magnification, the naked eye misses microscopic cracks in the surface.",
+        "upgraded": "Without magnification, the naked eye misses microscopic cracks in the surface, so inspectors use a powerful lens.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Five planets can be seen with the naked eye.",
+        "upgraded": "Five planets can be seen with the naked eye, provided the sky is sufficiently clear.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "这些细菌太小了，用肉眼看不见。The bacteria are too small to be seen ______ the naked eye.",
+        "question": "这些细菌太小了，用肉眼看不见。The bacteria are too small to be seen ____ the naked eye.",
         "answer": "with",
         "note": "see sth with the naked eye，用肉眼“看”动作搭配介词 with。"
       },
       {
         "type": "单句语法填空",
-        "question": "On a clear night, many stars are visible ______ the naked eye.",
+        "question": "On a clear night, many stars are visible ____ the naked eye.",
         "answer": "to",
         "note": "(in)visible to the naked eye 为固定搭配，形容词 visible 后接介词 to。"
       },
       {
         "type": "汉译英",
-        "question": "这些微生物肉眼看不见。（invisible）",
+        "question": "这些微生物肉眼看不见。（invisible）（答案：____）",
         "answer": "These microorganisms are invisible to the naked eye.",
         "note": "invisible to the naked eye；注意 the 不可省，介词用 to。"
       }
@@ -1182,7 +1595,7 @@
     "sub_section": "",
     "original_sentence": "They are the estimated 39 trillion microorganisms living in and on our body, like bacteria and viruses, which compose the human microbiome!",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the number 1,000,000,000,000; an extremely large number or amount",
     "uncommonMeanings": [
       {
         "partOfSpeech": "num.",
@@ -1195,13 +1608,26 @@
         "example": "Trillions of tiny creatures live in the soil."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The economy produced goods worth two trillion dollars."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Trillions of cells cooperate inside the human body."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "One trillion has twelve zeros."
+      }
+    ],
     "wordForms": {
       "other": "数词家族与用法规律：hundred / thousand / million / billion / trillion。核心规则——① 前有确切数字时一律用单数、不加 of：three hundred, five million, 39 trillion；② 表“成百上千/数以万亿计”的模糊大量时加 -s 加 of：hundreds of, millions of, trillions of。构词 tri-（三）+ -illion，仿 million/billion 而来。重音在首音节 /ˈtrɪljən/。",
-      "verb": null,
-      "noun": null,
-      "adjective": null,
-      "adverb": null
+      "verb": "—",
+      "noun": "—",
+      "adjective": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -1224,6 +1650,26 @@
         "phrase": "a/one trillion",
         "translation": "一万亿（= 1,000,000,000,000，即10的12次方）",
         "example": "One trillion is a thousand billion. 一万亿等于一千个十亿。"
+      },
+      {
+        "phrase": "half a trillion",
+        "translation": "五千亿（trillion 前有确切数不加 -s）",
+        "example": "The fund manages half a trillion dollars. 该基金管理着五千亿美元。"
+      },
+      {
+        "phrase": "a trillion-dollar industry",
+        "translation": "万亿美元产业（复合形容词用单数 trillion）",
+        "example": "Tourism has become a trillion-dollar industry. 旅游业已成为万亿美元产业。"
+      },
+      {
+        "phrase": "one part per trillion",
+        "translation": "万亿分之一（测量微量物质）",
+        "example": "The sensor detects one part per trillion. 该传感器能检测万亿分之一的含量。"
+      },
+      {
+        "phrase": "hundreds of trillions of sth",
+        "translation": "数百万亿的……（模糊数量加 -s of）",
+        "example": "Hundreds of trillions of signals pass through the network. 数百万亿个信号通过该网络。"
       }
     ],
     "synonyms": [
@@ -1257,23 +1703,34 @@
         "example": "科普写作中善用量级词与约数词 an estimated / roughly / around 使数据更客观。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The economy produced goods worth two trillion dollars.",
+        "upgraded": "The economy produced goods worth two trillion dollars, setting a new national record.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Trillions of cells cooperate inside the human body.",
+        "upgraded": "Trillions of cells cooperate inside the human body, carrying out specialized tasks every second.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "There are an estimated 39 ______ (trillion) microorganisms living in and on our body.",
+        "question": "There are an estimated 39 ____ (trillion) microorganisms living in and on our body.",
         "answer": "trillion",
         "note": "确切数字 39 之后，trillion 用单数原形，不加 -s。"
       },
       {
         "type": "单句语法填空",
-        "question": "______ (trillion) of tiny creatures live unseen in a single drop of water.",
+        "question": "____ (trillion) of tiny creatures live unseen in a single drop of water.",
         "answer": "Trillions",
         "note": "无确切数字、表“数以万亿计”的模糊大量时加 -s，后接 of。"
       },
       {
         "type": "汉译英",
-        "question": "这家科技公司如今市值超过一万亿美元。（trillion）",
+        "question": "这家科技公司如今市值超过一万亿美元。（trillion）（答案：____）",
         "answer": "The tech company is now worth more than one trillion dollars.",
         "note": "one trillion 后 dollars 用复数，但 trillion 本身不加 -s（前有数词 one）。"
       }
@@ -1291,7 +1748,7 @@
     "sub_section": "",
     "original_sentence": "The make-up and state of our special blend of microorganisms affects us physically, including our immune system, weight and sleep patterns.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a mixture of different things (2) v. to mix or combine smoothly",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1314,13 +1771,26 @@
         "example": "The music blends perfectly with the mood of the film."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The fabric is a blend of wool and cotton."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The extension blends naturally with the old house."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Blend the fruit until the mixture is smooth."
+      }
+    ],
     "wordForms": {
       "noun": "blend 混合物，融合；blender 搅拌机，榨汁机",
       "verb": "blend 混合，融合（过去式/过去分词 blended）",
       "adjective": "blended 混合的 — blended tea 拼配茶；blending 混合（现在分词/动名词）",
       "other": "regular 动词：blend-blended-blended（旧体 blent 现已罕用）。语言学术语 blend word“混成词”，如 smog（smoke+fog）、brunch（breakfast+lunch）。重音单音节 /blend/。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -1348,6 +1818,26 @@
         "phrase": "blend into sth",
         "translation": "融入……而不被察觉",
         "example": "The soldiers' uniforms blend into the forest. 士兵的制服与树林融为一体。"
+      },
+      {
+        "phrase": "a perfect / seamless blend of A and B",
+        "translation": "A与B的完美/无缝融合",
+        "example": "The hall is a seamless blend of old and new. 这座大厅是古今风格的无缝融合。"
+      },
+      {
+        "phrase": "blend smoothly / naturally",
+        "translation": "顺畅地/自然地融合（blend 作不及物动词）",
+        "example": "The colours blend naturally in the evening light. 这些颜色在暮色中自然融合。"
+      },
+      {
+        "phrase": "blend sth into sth",
+        "translation": "把某物调入/融入某物",
+        "example": "Blend the butter into the flour. 把黄油调入面粉中。"
+      },
+      {
+        "phrase": "a coffee / tea blend",
+        "translation": "混合咖啡/拼配茶（可数名词）",
+        "example": "This tea blend has a light floral taste. 这种拼配茶有淡淡花香。"
       }
     ],
     "synonyms": [
@@ -1387,29 +1877,40 @@
         "example": "The city is a seamless blend of ancient culture and modern life. 这座城市是古老文化与现代生活的完美融合。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The fabric is a blend of wool and cotton.",
+        "upgraded": "The fabric is a blend of wool and cotton, combining warmth with easy care.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The extension blends naturally with the old house.",
+        "upgraded": "The extension blends naturally with the old house, preserving the character of the street.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Her cooking is a wonderful ______ (blend) of Eastern and Western flavours.",
+        "question": "Her cooking is a wonderful ____ (blend) of Eastern and Western flavours.",
         "answer": "blend",
         "note": "空前有 a wonderful 修饰，作名词“融合”，a blend of A and B。"
       },
       {
         "type": "短语填空",
-        "question": "用 blend 的短语填空：The camouflaged lizard can ______ ______ with its surroundings.（融入周围环境）",
+        "question": "用 blend 的短语填空：The camouflaged lizard can ____ ____ with its surroundings.（融入周围环境）",
         "answer": "blend in",
         "note": "blend in (with sth) 融入而不显突兀；此处主语 lizard，用原形 blend。"
       },
       {
         "type": "辨析选词",
-        "question": "用 blend / mix 的适当形式填空：① ______ the eggs and sugar until pale and smooth.（强调搅匀融合）② Oil and water don't ______.",
+        "question": "用 blend / mix 的适当形式填空：① ____ the eggs and sugar until pale and smooth.（强调搅匀融合）② Oil and water don't ____.",
         "answer": "① Blend ② mix",
         "note": "①强调搅拌至均匀顺滑用 blend；②仅指“混合到一起”，普通用 mix。"
       },
       {
         "type": "汉译英",
-        "question": "这栋新楼与周围的老建筑融为一体。（blend in with）",
+        "question": "这栋新楼与周围的老建筑融为一体。（blend in with）（答案：____）",
         "answer": "The new building blends in with the old ones around it.",
         "note": "blend in with sth“与……和谐一致”；主语第三人称单数，谓语 blends。"
       }
@@ -1427,7 +1928,7 @@
     "sub_section": "",
     "original_sentence": "Every day, the resident microorganisms in our body compete with the invading ones, preventing them from getting a foothold, thus helping form a strong immune system and keep us healthy.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a secure position for the foot (2) an initial position from which further progress can be made",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1440,13 +1941,26 @@
         "example": "She could find no foothold on the smooth cliff face."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The climber searched for a secure foothold."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The brand gained a foothold in the local market."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "New firms struggle to establish a foothold abroad."
+      }
+    ],
     "wordForms": {
       "noun": "foothold 立足点，踏脚点；footing 立足点，根基（find a firm footing 站稳脚跟）；foothill 山麓小丘",
       "other": "复合词：foot（脚）+ hold（抓握/支撑）→ 脚能踩稳并支撑之处。同族 foot- 复合词：footprint 足迹、footstep 脚步、footpath 人行小道、footnote 脚注。重音在首音节 /ˈfʊthəʊld/。",
-      "verb": null,
-      "adjective": null,
-      "adverb": null
+      "verb": "—",
+      "adjective": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -1474,6 +1988,26 @@
         "phrase": "lose one's foothold",
         "translation": "失足；失去立足之地",
         "example": "He lost his foothold and slipped on the wet steps. 他脚下一滑，在湿台阶上摔倒了。"
+      },
+      {
+        "phrase": "secure a foothold",
+        "translation": "稳固立足点；站稳脚跟",
+        "example": "The company secured a foothold through local partnerships. 公司通过本地合作站稳了脚跟。"
+      },
+      {
+        "phrase": "a firm / secure foothold",
+        "translation": "牢固的立足点（实义或比喻义）",
+        "example": "The climber found a firm foothold above the ledge. 攀登者在岩架上方找到牢固落脚点。"
+      },
+      {
+        "phrase": "gain a foothold in a new field",
+        "translation": "在新领域取得立足点",
+        "example": "She gained a foothold in publishing as an editor. 她以编辑身份在出版业站稳脚跟。"
+      },
+      {
+        "phrase": "prevent sth from gaining a foothold",
+        "translation": "防止……站稳脚跟/蔓延",
+        "example": "Early action prevented the disease from gaining a foothold. 及早行动防止了疾病蔓延。"
       }
     ],
     "synonyms": [
@@ -1513,23 +2047,34 @@
         "example": "By offering lower prices, the start-up managed to gain a foothold in the market. 靠更低的价格，这家初创公司成功在市场中站稳了脚跟。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The climber searched for a secure foothold.",
+        "upgraded": "The climber searched for a secure foothold, testing each narrow ledge before moving higher.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The brand gained a foothold in the local market.",
+        "upgraded": "The brand gained a foothold in the local market, attracting customers through reliable service.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "常驻微生物阻止入侵者站稳脚跟。（课文回填）The resident microorganisms prevent the invading ones from ______ a foothold.",
+        "question": "常驻微生物阻止入侵者站稳脚跟。（课文回填）The resident microorganisms prevent the invading ones from ____ a foothold.",
         "answer": "getting",
         "note": "prevent sb/sth from doing sth，介词 from 后接动名词 getting；get a foothold 站稳脚跟。"
       },
       {
         "type": "汉译英",
-        "question": "这家公司正努力在亚洲市场取得立足点。（gain a foothold）",
+        "question": "这家公司正努力在亚洲市场取得立足点。（gain a foothold）（答案：____）",
         "answer": "The company is trying to gain a foothold in the Asian market.",
         "note": "gain/get a foothold in ...“在……取得立足点”；in 引出领域或市场。"
       },
       {
         "type": "辨析选词",
-        "question": "用 foothold / stronghold 填空：① After years of effort, the party turned the region into its ______. ② The small brand finally got a ______ in the crowded market.",
+        "question": "用 foothold / stronghold 填空：① After years of effort, the party turned the region into its ____. ② The small brand finally got a ____ in the crowded market.",
         "answer": "① stronghold ② foothold",
         "note": "①已牢固掌控的“大本营”用 stronghold；②初步站稳的“立足点”用 foothold。"
       }
@@ -1547,7 +2092,7 @@
     "sub_section": "",
     "original_sentence": "Believe it or not, gut microorganisms affect how well the brain functions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the digestive tract, especially the intestines (2) an instinctive feeling (3) courage, usually in the plural",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1575,7 +2120,20 @@
         "example": "The fire gutted the whole building. 大火把整栋楼的内部烧毁了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The medicine supports healthy bacteria in the gut."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "My gut told me that the offer was risky."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She had the guts to question the decision."
+      }
+    ],
     "wordForms": {
       "noun": "gut 肠道；（pl.）内脏，胆量；the guts 内部构造",
       "verb": "gut（gutted, gutted）取出内脏；烧毁内部",
@@ -1635,6 +2193,26 @@
         "phrase": "have the guts to do sth",
         "translation": "有胆量做某事（复数，指勇气）",
         "example": "She had the guts to speak up in the meeting. 她有胆量在会上直言。"
+      },
+      {
+        "phrase": "gut health",
+        "translation": "肠道健康（健康话题高频词块）",
+        "example": "Fibre is important for gut health. 膳食纤维对肠道健康很重要。"
+      },
+      {
+        "phrase": "the gut-brain axis",
+        "translation": "肠脑轴（连接肠道与大脑的系统）",
+        "example": "Scientists are studying the gut-brain axis. 科学家正研究肠脑轴。"
+      },
+      {
+        "phrase": "trust / follow one's gut",
+        "translation": "相信/听从直觉（口语）",
+        "example": "I trusted my gut and declined the offer. 我相信直觉，拒绝了提议。"
+      },
+      {
+        "phrase": "gut a building",
+        "translation": "烧毁/拆空建筑内部（gut 作及物动词）",
+        "example": "The fire gutted the warehouse overnight. 大火一夜之间烧毁了仓库内部。"
       }
     ],
     "synonyms": [
@@ -1674,17 +2252,28 @@
         "example": "Sleep affects how well the brain works the next day. 睡眠影响第二天大脑的运转情况。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The medicine supports healthy bacteria in the gut.",
+        "upgraded": "The medicine supports healthy bacteria in the gut, improving digestion for many patients.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "My gut told me that the offer was risky.",
+        "upgraded": "My gut told me that the offer was risky, so I examined the contract more carefully.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "汉译英",
-        "question": "信不信由你，肠道微生物会影响大脑的运转好坏。",
+        "question": "信不信由你，肠道微生物会影响大脑的运转好坏。（答案：____）",
         "answer": "Believe it or not, gut microorganisms affect how well the brain functions.",
         "note": "课文原句回译；how well 引导宾语从句，插入语 Believe it or not 逗号隔开。"
       },
       {
         "type": "完成句子",
-        "question": "承认自己错了是需要勇气的。It takes ____________ (勇气) to admit you were wrong.",
+        "question": "承认自己错了是需要勇气的。It takes ____ (勇气) to admit you were wrong.",
         "answer": "guts / courage",
         "note": "表\"勇气\"义时 gut 须用复数 guts；It takes + n. + to do 句型。"
       },
@@ -1714,7 +2303,7 @@
     "sub_section": "",
     "original_sentence": "Fun with science 45 health problems like obesity.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the medical condition of having an excessive amount of body fat",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1722,7 +2311,20 @@
         "example": "Obesity can increase the risk of heart disease. 肥胖会增加患心脏病的风险。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Regular exercise can reduce the risk of obesity."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The study tracked childhood obesity for ten years."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Obesity increases pressure on the heart and joints."
+      }
+    ],
     "wordForms": {
       "noun": "obesity 肥胖（不可数）",
       "verb": "",
@@ -1756,6 +2358,26 @@
         "phrase": "the risk of obesity",
         "translation": "肥胖的风险",
         "example": "Eating too much sugar raises the risk of obesity. 摄入过多糖分会增加肥胖风险。"
+      },
+      {
+        "phrase": "rising rates of obesity",
+        "translation": "不断上升的肥胖率（rate 常用复数）",
+        "example": "The report warns of rising rates of obesity. 报告警告肥胖率不断上升。"
+      },
+      {
+        "phrase": "obesity-related disease",
+        "translation": "肥胖相关疾病（复合形容词）",
+        "example": "Exercise lowers the risk of obesity-related disease. 运动降低肥胖相关疾病风险。"
+      },
+      {
+        "phrase": "the obesity epidemic",
+        "translation": "肥胖流行问题（公共卫生表达）",
+        "example": "Schools can help address the obesity epidemic. 学校可以帮助应对肥胖流行问题。"
+      },
+      {
+        "phrase": "live with obesity",
+        "translation": "患有肥胖症；与肥胖共存（中性医学表达）",
+        "example": "Many adults live with obesity and related conditions. 许多成年人患有肥胖症及相关疾病。"
       }
     ],
     "synonyms": [
@@ -1789,7 +2411,18 @@
         "example": "New technologies may help tackle health issues like obesity. 新技术或许能帮助解决像肥胖这样的健康问题。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Regular exercise can reduce the risk of obesity.",
+        "upgraded": "Regular exercise can reduce the risk of obesity, especially when combined with a balanced diet.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The study tracked childhood obesity for ten years.",
+        "upgraded": "The study tracked childhood obesity for ten years, revealing sharp differences between regions.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -1799,7 +2432,7 @@
       },
       {
         "type": "汉译英",
-        "question": "微生物群失衡可能导致像肥胖这样的健康问题。",
+        "question": "微生物群失衡可能导致像肥胖这样的健康问题。（答案：____）",
         "answer": "An unbalanced microbiome may lead to health problems like obesity.",
         "note": "like 引出举例；obesity 不可数，前不加 a，也无复数。"
       },
@@ -1823,7 +2456,7 @@
     "sub_section": "",
     "original_sentence": "The influence of microorganisms goes beyond physical health to our cognitive and psychological well-being.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "connected with mental processes such as thinking, learning, remembering, and understanding",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1831,7 +2464,20 @@
         "example": "Learning a language boosts cognitive function. 学一门语言能增强认知功能。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Sleep is essential for healthy cognitive development."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The test measures several cognitive skills."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Regular reading may slow cognitive decline."
+      }
+    ],
     "wordForms": {
       "noun": "cognition 认知，认识（过程）；cognitivism 认知主义",
       "verb": "recognize 认出，识别（同源）；cognize〔罕〕认知",
@@ -1865,6 +2511,26 @@
         "phrase": "cognitive skills / process",
         "translation": "认知技能／认知过程",
         "example": "Memory and reasoning are core cognitive skills. 记忆和推理是核心的认知技能。"
+      },
+      {
+        "phrase": "cognitive impairment",
+        "translation": "认知障碍（医学/心理学术语）",
+        "example": "The assessment detected mild cognitive impairment. 评估发现轻度认知障碍。"
+      },
+      {
+        "phrase": "cognitive load",
+        "translation": "认知负荷（学习与心理学术语）",
+        "example": "Clear diagrams reduce unnecessary cognitive load. 清晰图示能降低不必要的认知负荷。"
+      },
+      {
+        "phrase": "cognitive performance",
+        "translation": "认知表现",
+        "example": "Sleep loss can weaken cognitive performance. 睡眠不足会削弱认知表现。"
+      },
+      {
+        "phrase": "cognitive and emotional development",
+        "translation": "认知与情感发展",
+        "example": "Play supports children's cognitive and emotional development. 玩耍有助于儿童认知与情感发展。"
       }
     ],
     "synonyms": [
@@ -1904,7 +2570,18 @@
         "example": "The value of reading goes beyond exams to lifelong growth. 阅读的价值不止于考试，更在于终身成长。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Sleep is essential for healthy cognitive development.",
+        "upgraded": "Sleep is essential for healthy cognitive development, helping children learn and remember new information.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The test measures several cognitive skills.",
+        "upgraded": "The test measures several cognitive skills, including attention, memory, and problem-solving.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -1914,7 +2591,7 @@
       },
       {
         "type": "汉译英",
-        "question": "微生物的影响超越了身体健康，延伸到我们的认知和心理健康。",
+        "question": "微生物的影响超越了身体健康，延伸到我们的认知和心理健康。（答案：____）",
         "answer": "The influence of microorganisms goes beyond physical health to our cognitive and psychological well-being.",
         "note": "课文原句回译；go beyond A to B 结构，cognitive 与 psychological 并列作定语。"
       },
@@ -1938,7 +2615,7 @@
     "sub_section": "",
     "original_sentence": "For example, when the body is stressed, ill or old, some gut microorganisms respond negatively, releasing harmful substances which may enter the brain through the bloodstream.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the blood flowing continuously around the body",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1946,7 +2623,20 @@
         "example": "Alcohol passes into the bloodstream. 酒精进入血液循环。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The drug entered the bloodstream within minutes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Hormones travel through the bloodstream to target organs."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The infection had not spread into her bloodstream."
+      }
+    ],
     "wordForms": {
       "noun": "bloodstream 血流，血液循环；blood 血；bloodshed 流血（冲突）；bloodline 血统",
       "verb": "bleed 流血（bled, bled）",
@@ -1980,6 +2670,26 @@
         "phrase": "absorb into the bloodstream",
         "translation": "被吸收进血液",
         "example": "Nutrients are absorbed into the bloodstream in the gut. 养分在肠道被吸收进血液。"
+      },
+      {
+        "phrase": "circulate in the bloodstream",
+        "translation": "在血液中循环（不及物 circulate）",
+        "example": "The hormone circulates in the bloodstream. 这种激素在血液中循环。"
+      },
+      {
+        "phrase": "remove sth from the bloodstream",
+        "translation": "从血液中清除某物",
+        "example": "The kidneys remove waste from the bloodstream. 肾脏从血液中清除废物。"
+      },
+      {
+        "phrase": "the bloodstream carries sth",
+        "translation": "血液输送某物",
+        "example": "The bloodstream carries oxygen around the body. 血液把氧气输送到全身。"
+      },
+      {
+        "phrase": "spread through the bloodstream",
+        "translation": "经血液扩散",
+        "example": "Some infections spread through the bloodstream. 有些感染经血液扩散。"
       }
     ],
     "synonyms": [
@@ -2013,7 +2723,18 @@
         "example": "The bacteria release toxins which may spread through the bloodstream. 这些细菌释放毒素，毒素可能经血液扩散。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The drug entered the bloodstream within minutes.",
+        "upgraded": "The drug entered the bloodstream within minutes, allowing it to reach the affected tissue quickly.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Hormones travel through the bloodstream to target organs.",
+        "upgraded": "Hormones travel through the bloodstream to target organs, where they help regulate essential processes.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -2023,7 +2744,7 @@
       },
       {
         "type": "汉译英",
-        "question": "腺体把激素释放到血液中。",
+        "question": "腺体把激素释放到血液中。（答案：____）",
         "answer": "The gland releases hormones into the bloodstream.",
         "note": "\"释放进血液\"固定搭配 release ... into the bloodstream；into 表方向。"
       },
@@ -2047,7 +2768,7 @@
     "sub_section": "",
     "original_sentence": "When the immune system attacks these substances, it often kills healthy brain nerve cells.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a fibre carrying messages between the brain and body (2) courage (3) nervous tension, usually in the plural",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2075,7 +2796,20 @@
         "example": "He nerved himself to jump. 他鼓起勇气往下跳。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The injury damaged a nerve in his wrist."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She found the nerve to address the audience."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A short walk helped calm his nerves."
+      }
+    ],
     "wordForms": {
       "noun": "nerve 神经；勇气；(pl.) 紧张；nervousness 紧张，焦虑；the nervous system 神经系统",
       "verb": "nerve（nerve oneself to do）鼓足勇气",
@@ -2145,6 +2879,26 @@
         "phrase": "lose one's nerve / calm one's nerves",
         "translation": "失去勇气／平复紧张情绪",
         "example": "She nearly lost her nerve before the speech. 演讲前她差点失去了勇气。"
+      },
+      {
+        "phrase": "damage / stimulate a nerve",
+        "translation": "损伤/刺激神经",
+        "example": "The injury damaged a nerve near his elbow. 这次受伤损伤了他肘部附近的一条神经。"
+      },
+      {
+        "phrase": "a trapped / pinched nerve",
+        "translation": "受压迫的神经",
+        "example": "A trapped nerve caused pain in her shoulder. 神经受压导致她肩部疼痛。"
+      },
+      {
+        "phrase": "nerves of steel",
+        "translation": "钢铁般的意志；极其镇定",
+        "example": "Pilots need nerves of steel in emergencies. 飞行员在紧急情况中需要极强的定力。"
+      },
+      {
+        "phrase": "a bundle / bag of nerves",
+        "translation": "极度紧张的人（非正式）",
+        "example": "He was a bundle of nerves before the interview. 面试前他紧张极了。"
       }
     ],
     "synonyms": [
@@ -2189,11 +2943,22 @@
         "example": "When stress builds up, it may damage nerve cells over time. 压力累积时，久而久之可能损伤神经细胞。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The injury damaged a nerve in his wrist.",
+        "upgraded": "The injury damaged a nerve in his wrist, reducing the feeling in two fingers.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "She found the nerve to address the audience.",
+        "upgraded": "She found the nerve to address the audience, delivering her argument with unexpected confidence.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "汉译英",
-        "question": "当免疫系统攻击这些物质时，它常常会杀死健康的脑神经细胞。",
+        "question": "当免疫系统攻击这些物质时，它常常会杀死健康的脑神经细胞。（答案：____）",
         "answer": "When the immune system attacks these substances, it often kills healthy brain nerve cells.",
         "note": "课文原句回译；when 引导时间状语从句，nerve cell(s) 固定搭配作\"神经细胞\"。"
       },
@@ -2205,7 +2970,7 @@
       },
       {
         "type": "完成句子",
-        "question": "他竟然有脸当着我的面撒谎。He actually ____________ (有脸) to lie to my face.",
+        "question": "他竟然有脸当着我的面撒谎。He actually ____ (有脸) to lie to my face.",
         "answer": "had the nerve",
         "note": "have the nerve to do sth 表\"竟有脸/有胆量做某事\"，此处含贬义；nerve 用单数。"
       },
@@ -2229,7 +2994,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. an operation or organ moved from one body to another (2) v. to move an organ, tissue, or plant",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2247,7 +3012,20 @@
         "example": "The company was transplanted from London to Dublin. 这家公司从伦敦迁到了都柏林。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The patient received a successful kidney transplant."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Gardeners transplanted the seedlings after the frost."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Surgeons can transplant healthy tissue into the wound."
+      }
+    ],
     "wordForms": {
       "noun": "transplant （器官）移植；移植的器官；transplantation 移植（更正式的过程名词）",
       "verb": "transplant 移植；移栽；使迁移",
@@ -2281,6 +3059,26 @@
         "phrase": "transplant seedlings / trees",
         "translation": "移栽秧苗／树木（原义，用于植物）",
         "example": "The gardener transplanted the seedlings into larger pots. 园丁把幼苗移栽到更大的花盆里。"
+      },
+      {
+        "phrase": "a transplant patient / recipient",
+        "translation": "移植病人/移植受者",
+        "example": "Transplant recipients need regular check-ups. 移植受者需要定期检查。"
+      },
+      {
+        "phrase": "a transplant waiting list",
+        "translation": "移植等待名单",
+        "example": "Her name was added to the transplant waiting list. 她的名字被列入移植等待名单。"
+      },
+      {
+        "phrase": "undergo / receive a transplant",
+        "translation": "接受移植手术",
+        "example": "He underwent a kidney transplant last year. 他去年接受了肾移植。"
+      },
+      {
+        "phrase": "transplant sth from A to B",
+        "translation": "把某物从A处移植到B处",
+        "example": "Gardeners transplanted roses from pots to beds. 园丁把玫瑰从花盆移栽到花坛。"
       }
     ],
     "synonyms": [
@@ -2320,11 +3118,22 @@
         "example": "Scientists hope to transplant healthy microorganisms into patients. 科学家希望把健康的微生物移植到病人体内。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The patient received a successful kidney transplant.",
+        "upgraded": "The patient received a successful kidney transplant, allowing her to return home within weeks.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Gardeners transplanted the seedlings after the frost.",
+        "upgraded": "Gardeners transplanted the seedlings after the frost, giving them more space to grow.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "汉译英",
-        "question": "医生把一颗新心脏移植到病人体内。",
+        "question": "医生把一颗新心脏移植到病人体内。（答案：____）",
         "answer": "Doctors transplanted a new heart into the patient.",
         "note": "transplant 作动词\"移植\"，搭配 into sb；一般过去时 transplanted。"
       },
@@ -2336,7 +3145,7 @@
       },
       {
         "type": "完成句子",
-        "question": "他正在等一次心脏移植手术。He is waiting for a ____________ (心脏移植).",
+        "question": "他正在等一次心脏移植手术。He is waiting for a ____ (心脏移植).",
         "answer": "heart transplant",
         "note": "此处 transplant 作名词，重音在前；heart transplant 为固定搭配\"心脏移植\"。"
       },
@@ -2360,7 +3169,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a substance that prepares the immune system to protect the body against a particular disease",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2368,13 +3177,26 @@
         "example": "The polio vaccine has saved millions of lives."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The new vaccine protects infants against the virus."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers tested the vaccine in a controlled trial."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The clinic stores each vaccine at a safe temperature."
+      }
+    ],
     "wordForms": {
       "noun": "vaccine 疫苗；vaccination 接种疫苗，注射疫苗",
       "verb": "vaccinate 给……接种疫苗 — vaccinate sb against sth 给某人接种抗某病的疫苗",
       "adjective": "vaccinated 已接种的",
       "other": "构词与词源：源自拉丁 vacca（母牛）——首支疫苗由牛痘 cowpox 制成，故得名。重音在第二音节 /ˈvæksiːn/（英）或 /vækˈsiːn/（美）。搭配定式：动词用 vaccinate sb against sth，名词短语用 a vaccine against/for sth。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -2402,6 +3224,26 @@
         "phrase": "a vaccine for sth",
         "translation": "针对（某病）的疫苗",
         "example": "There is still no vaccine for this rare disease. 这种罕见病目前仍无疫苗。"
+      },
+      {
+        "phrase": "administer a vaccine",
+        "translation": "接种/施用疫苗（正式医学用语）",
+        "example": "Nurses administered the vaccine at local clinics. 护士在当地诊所接种疫苗。"
+      },
+      {
+        "phrase": "vaccine safety / effectiveness",
+        "translation": "疫苗安全性/有效性",
+        "example": "The trial assessed vaccine safety and effectiveness. 试验评估了疫苗的安全性和有效性。"
+      },
+      {
+        "phrase": "a dose of vaccine",
+        "translation": "一剂疫苗（dose 为可数名词）",
+        "example": "Each child received one dose of vaccine. 每个孩子接种了一剂疫苗。"
+      },
+      {
+        "phrase": "approve / distribute a vaccine",
+        "translation": "批准/分发疫苗",
+        "example": "Regulators approved the vaccine after a careful review. 监管机构经严格审查后批准了该疫苗。"
       }
     ],
     "synonyms": [
@@ -2435,23 +3277,34 @@
         "example": "记忆锚点：牛痘→cowpox→世界上第一支 vaccine。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The new vaccine protects infants against the virus.",
+        "upgraded": "The new vaccine protects infants against the virus, greatly reducing severe infections.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Researchers tested the vaccine in a controlled trial.",
+        "upgraded": "Researchers tested the vaccine in a controlled trial, monitoring every volunteer for side effects.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In the future, scientists might be capable of developing \"microbiome ______ (vaccinate)\" to fight obesity.",
+        "question": "In the future, scientists might be capable of developing \"microbiome ____ (vaccinate)\" to fight obesity.",
         "answer": "vaccines",
         "note": "此处需名词 vaccine\"疫苗\"，且与引号内复数 vaccines 一致；vaccinate 是动词。"
       },
       {
         "type": "单句语法填空",
-        "question": "All the students were ______ (vaccine) against measles before the new term began.",
+        "question": "All the students were ____ (vaccine) against measles before the new term began.",
         "answer": "vaccinated",
         "note": "be vaccinated against sth\"接种抗某病的疫苗\"，用动词 vaccinate 的过去分词构成被动。"
       },
       {
         "type": "汉译英",
-        "question": "研究人员正在测试一种抗流感的新疫苗。（vaccine）",
+        "question": "研究人员正在测试一种抗流感的新疫苗。（vaccine）（答案：____）",
         "answer": "Researchers are testing a new vaccine against the flu.",
         "note": "a vaccine against sth 固定搭配，介词用 against，不用 of。"
       }
@@ -2469,7 +3322,7 @@
     "sub_section": "",
     "original_sentence": "In the future, we might even be capable of developing “microbiome vaccines” that could get rid of current health issues like obesity and malnutrition.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "poor health caused by receiving too little food or an unsuitable balance of nutrients",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2477,13 +3330,26 @@
         "example": "The doctor said the child was showing signs of malnutrition."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The clinic screens young children for malnutrition."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Conflict has increased malnutrition across the region."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A varied diet helps prevent malnutrition."
+      }
+    ],
     "wordForms": {
       "noun": "malnutrition 营养不良；nutrition 营养，滋养；nutrient 营养物，营养素；nutritionist 营养师",
       "adjective": "malnourished 营养不良的（人）；nutritious 有营养的（食物）；nutritional 营养的（如 nutritional value 营养价值）",
       "other": "构词拆解：前缀 mal-（坏、不良）+ nutrition（营养）→ 营养不良。同 mal- 词族：malfunction（故障）/ maltreat（虐待）/ malpractice（渎职）。注意区分：malnourished 修饰人／身体，nutritious 修饰食物。重音 /ˌmælnjuˈtrɪʃn/ 落在 -tri- 上。",
-      "verb": null,
-      "adverb": null
+      "verb": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -2506,6 +3372,26 @@
         "phrase": "cause / lead to malnutrition",
         "translation": "导致营养不良",
         "example": "An unbalanced diet can lead to malnutrition. 饮食不均衡会导致营养不良。"
+      },
+      {
+        "phrase": "severe / acute malnutrition",
+        "translation": "严重/急性营养不良（医学用语）",
+        "example": "The programme treats children with acute malnutrition. 该项目治疗急性营养不良儿童。"
+      },
+      {
+        "phrase": "prevent / treat malnutrition",
+        "translation": "预防/治疗营养不良",
+        "example": "Fortified food can help prevent malnutrition. 强化食品有助于预防营养不良。"
+      },
+      {
+        "phrase": "rates of malnutrition",
+        "translation": "营养不良率（rate 常用复数）",
+        "example": "Rates of malnutrition fell after the harvest. 收获后营养不良率下降。"
+      },
+      {
+        "phrase": "malnutrition among children",
+        "translation": "儿童中的营养不良",
+        "example": "The survey examined malnutrition among children. 该调查研究儿童中的营养不良。"
       }
     ],
     "synonyms": [
@@ -2539,23 +3425,34 @@
         "example": "The programme aims to combat malnutrition among children in remote villages. 该项目旨在解决偏远村庄儿童的营养不良问题。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The clinic screens young children for malnutrition.",
+        "upgraded": "The clinic screens young children for malnutrition, enabling families to receive support early.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Conflict has increased malnutrition across the region.",
+        "upgraded": "Conflict has increased malnutrition across the region, as food supplies remain severely limited.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "\"微生物组疫苗\"或能消除肥胖和营养不良这样的健康问题。\"Microbiome vaccines\" could get rid of health issues ______ obesity and ______ (营养不良).",
+        "question": "\"微生物组疫苗\"或能消除肥胖和营养不良这样的健康问题。\"Microbiome vaccines\" could get rid of health issues ____ obesity and ____ (营养不良).",
         "answer": "like; malnutrition",
         "note": "like 意为\"像……这样\"举例；营养不良为 malnutrition，不可数名词。"
       },
       {
         "type": "单句语法填空",
-        "question": "A balanced diet is essential; otherwise children may become ______ (malnutrition).",
+        "question": "A balanced diet is essential; otherwise children may become ____ (malnutrition).",
         "answer": "malnourished",
         "note": "修饰人\"营养不良的\"用形容词 malnourished，不用名词 malnutrition。"
       },
       {
         "type": "汉译英",
-        "question": "贫困地区数百万儿童遭受营养不良之苦。（suffer from）",
+        "question": "贫困地区数百万儿童遭受营养不良之苦。（suffer from）（答案：____）",
         "answer": "Millions of children in poor areas suffer from malnutrition.",
         "note": "suffer from + 疾病/困境；malnutrition 不可数，前不加冠词。"
       }
@@ -2573,7 +3470,7 @@
     "sub_section": "",
     "original_sentence": "Studying a water droplet under his microscope, Van Leeuwenhoek observed “little animals” swimming and jumping in it.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a very small drop of liquid",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2581,13 +3478,26 @@
         "example": "Droplets of dew sparkled on the grass at dawn."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A droplet of rain slid down the leaf."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The mask blocks many respiratory droplets."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Oil formed tiny droplets on the water."
+      }
+    ],
     "wordForms": {
       "noun": "droplet 小滴（drop 的小称）；drop 滴，落下",
       "verb": "drop（使）落下，滴下",
       "other": "构词法·-let 小称后缀：drop（滴）+ -let → droplet（小滴）。同后缀词族：booklet（小册子）/ piglet（小猪）/ leaflet（传单）/ streamlet（小溪）。droplet 比 drop 更小、更细，多用于科学（水汽、飞沫）语境。重音在首音节 /ˈdrɒplət/。",
-      "adjective": null,
-      "adverb": null
+      "adjective": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -2610,6 +3520,26 @@
         "phrase": "respiratory droplets",
         "translation": "飞沫，呼吸道飞沫（防疫高频词）",
         "example": "The virus spreads through respiratory droplets. 该病毒通过飞沫传播。"
+      },
+      {
+        "phrase": "a droplet of oil / water",
+        "translation": "一小滴油/水（of 接液体）",
+        "example": "A droplet of oil floated on the soup. 一小滴油浮在汤面上。"
+      },
+      {
+        "phrase": "airborne droplets",
+        "translation": "空气传播的飞沫",
+        "example": "Ventilation helps disperse airborne droplets. 通风有助于驱散空气中的飞沫。"
+      },
+      {
+        "phrase": "droplet transmission",
+        "translation": "飞沫传播（医学词块）",
+        "example": "Masks reduce the risk of droplet transmission. 口罩降低飞沫传播风险。"
+      },
+      {
+        "phrase": "form / produce droplets",
+        "translation": "形成/产生小滴",
+        "example": "Condensation formed droplets on the window. 冷凝在窗户上形成水滴。"
       }
     ],
     "synonyms": [
@@ -2643,23 +3573,34 @@
         "example": "Studying a water droplet under his microscope, the scientist observed countless tiny creatures. 在显微镜下研究一滴水时，科学家观察到无数微小生物。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A droplet of rain slid down the leaf.",
+        "upgraded": "A droplet of rain slid down the leaf, gathering dust before reaching the tip.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The mask blocks many respiratory droplets.",
+        "upgraded": "The mask blocks many respiratory droplets, reducing the spread of infection indoors.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "______ (study) a water droplet under his microscope, Van Leeuwenhoek observed \"little animals\" in it.",
+        "question": "____ (study) a water droplet under his microscope, Van Leeuwenhoek observed \"little animals\" in it.",
         "answer": "Studying",
         "note": "逻辑主语 Van Leeuwenhoek 与 study 是主动关系，用现在分词作时间状语。"
       },
       {
         "type": "单句语法填空",
-        "question": "Fog is made up of countless tiny water ______ (droplet) floating in the air.",
+        "question": "Fog is made up of countless tiny water ____ (droplet) floating in the air.",
         "answer": "droplets",
         "note": "droplet 为可数名词，countless tiny 修饰，用复数。"
       },
       {
         "type": "辨析选词",
-        "question": "用 drop / droplet 填空：① Add a few ______ of oil to the pan. ② The virus travels in tiny respiratory ______ released by a cough.",
+        "question": "用 drop / droplet 填空：① Add a few ____ of oil to the pan. ② The virus travels in tiny respiratory ____ released by a cough.",
         "answer": "① drops ② droplets",
         "note": "普通\"一滴\"用 drop；科学语境\"细小飞沫\"用 droplet。"
       }
@@ -2677,7 +3618,7 @@
     "sub_section": "",
     "original_sentence": "Suspecting that microorganisms caused some sheep to be sick, he grew the microorganisms in isolation from all living things.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the state of being separated from other people, things, or influences",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2690,13 +3631,26 @@
         "example": "Old people who live alone may suffer from isolation."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The patient remained in isolation for five days."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Working alone increased his sense of isolation."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The result should not be considered in isolation."
+      }
+    ],
     "wordForms": {
       "noun": "isolation 隔离；孤立；isolationism 孤立主义（政治）",
       "verb": "isolate 使隔离，使孤立 — isolate sb/sth from ...",
       "adjective": "isolated 孤立的，偏远的；单独的 — an isolated village 偏远村庄；an isolated case 个别案例",
       "other": "构词与词源：源自 island/isle（岛）——\"隔离\"即像孤岛般与外界分开。词根记忆锚点：iso-（相等/独立）+ -late。名词形式 isolation 常用于 in isolation（from）；形容词 isolated 除\"孤立的\"外，还有\"偏远的\"\"个别的\"义。重音 /ˌaɪsəˈleɪʃn/ 落在 -la- 上。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -2724,6 +3678,26 @@
         "phrase": "keep sb in isolation",
         "translation": "将某人隔离（如病人）",
         "example": "The patient was kept in isolation to stop the disease spreading. 病人被隔离以防疾病传播。"
+      },
+      {
+        "phrase": "social isolation",
+        "translation": "社会隔离；社交孤立",
+        "example": "Regular visits can reduce social isolation. 定期探访能减轻社交孤立。"
+      },
+      {
+        "phrase": "self-isolation",
+        "translation": "自我隔离（不可数）",
+        "example": "He remained in self-isolation after the journey. 旅行后他继续自我隔离。"
+      },
+      {
+        "phrase": "complete / total isolation",
+        "translation": "完全隔离/孤立",
+        "example": "The village lived in complete isolation for weeks. 村庄与外界完全隔绝了数周。"
+      },
+      {
+        "phrase": "end / break one's isolation",
+        "translation": "结束/打破孤立状态",
+        "example": "The new road ended the valley's isolation. 新公路结束了山谷的闭塞。"
       }
     ],
     "synonyms": [
@@ -2768,29 +3742,40 @@
         "example": "To ensure accurate results, the factor must be studied in isolation from other variables. 为确保结果准确，该因素必须与其他变量隔离开来研究。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The patient remained in isolation for five days.",
+        "upgraded": "The patient remained in isolation for five days, protecting other residents from infection.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Working alone increased his sense of isolation.",
+        "upgraded": "Working alone increased his sense of isolation, despite regular online meetings with colleagues.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "他在与一切生物隔离的状态下培养这些微生物。He grew the microorganisms ______ ______ ______ all living things.",
+        "question": "他在与一切生物隔离的状态下培养这些微生物。He grew the microorganisms ____ ____ ____ all living things.",
         "answer": "in isolation from",
         "note": "课文原句词块 in isolation from sth\"在与……隔离的状态下\"。"
       },
       {
         "type": "单句语法填空",
-        "question": "During the outbreak, several patients were kept in ______ (isolate) to prevent the spread of the disease.",
+        "question": "During the outbreak, several patients were kept in ____ (isolate) to prevent the spread of the disease.",
         "answer": "isolation",
         "note": "介词 in 后接名词；in isolation\"处于隔离状态\"。"
       },
       {
         "type": "辨析选词",
-        "question": "用 isolated / isolation 填空：① The ______ farmhouse stood far from any town. ② This case should not be judged in ______ from its background.",
+        "question": "用 isolated / isolation 填空：① The ____ farmhouse stood far from any town. ② This case should not be judged in ____ from its background.",
         "answer": "① isolated ② isolation",
         "note": "①修饰名词 farmhouse 用形容词 isolated\"偏远的\"；②介词 in 后用名词 isolation。"
       },
       {
         "type": "汉译英",
-        "question": "独自在国外生活，她常感到深深的孤独。（a sense of isolation）",
+        "question": "独自在国外生活，她常感到深深的孤独。（a sense of isolation）（答案：____）",
         "answer": "Living alone abroad, she often felt a deep sense of isolation.",
         "note": "a sense of isolation\"孤独感\"；Living... 为现在分词作状语，逻辑主语 she。"
       }
@@ -2808,7 +3793,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to put a drug or other substance into something with a needle (2) to add energy, money, or a quality",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2821,13 +3806,26 @@
         "example": "The new manager injected fresh ideas into the company."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The doctor injected medicine into the swollen joint."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The grant injected fresh energy into the project."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Her remarks injected humour into the discussion."
+      }
+    ],
     "wordForms": {
       "noun": "injection 注射；注入（如 a fuel injection 燃油喷射；an injection of funds 资金注入）",
       "verb": "inject 注射；注入",
       "adjective": "injectable 可注射的",
       "other": "构词与词根：in-（向内）+ ject（= throw 投掷）→\"投入内部\"→ 注射／注入。ject 词族：reject（re- 回 + ject → 扔回 → 拒绝）/ project（pro- 向前 + ject → 向前投 → 投射；计划）/ eject（e- 向外 + ject → 弹出）/ inject（向内投 → 注入）。两种句型别混：inject sb WITH sth = inject sth INTO sb。重音在第二音节 /ɪnˈdʒekt/。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -2855,6 +3853,26 @@
         "phrase": "inject humour into sth",
         "translation": "给……增添幽默",
         "example": "She injected a bit of humour into her speech. 她在演讲中增添了几分幽默。"
+      },
+      {
+        "phrase": "inject a dose of sth",
+        "translation": "注射一剂……（dose 可数）",
+        "example": "The vet injected a small dose of medicine. 兽医注射了一小剂药。"
+      },
+      {
+        "phrase": "inject sth directly into sth",
+        "translation": "把某物直接注入……",
+        "example": "The system injects fuel directly into the engine. 该系统把燃料直接喷入发动机。"
+      },
+      {
+        "phrase": "inject confidence / enthusiasm into sth",
+        "translation": "给……注入信心/热情（比喻义）",
+        "example": "The victory injected confidence into the young team. 胜利给年轻球队注入信心。"
+      },
+      {
+        "phrase": "inject capital into a business",
+        "translation": "向企业注入资本",
+        "example": "Investors injected capital into the growing business. 投资者向这家成长中的企业注入资本。"
       }
     ],
     "synonyms": [
@@ -2888,29 +3906,40 @@
         "example": "The volunteers' enthusiasm injected fresh vitality into the whole community. 志愿者的热情为整个社区注入了新的活力。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The doctor injected medicine into the swollen joint.",
+        "upgraded": "The doctor injected medicine into the swollen joint, easing the patient's pain within an hour.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The grant injected fresh energy into the project.",
+        "upgraded": "The grant injected fresh energy into the project, enabling the team to restart fieldwork.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The nurse injected the patient ______ a small dose of the medicine.",
+        "question": "The nurse injected the patient ____ a small dose of the medicine.",
         "answer": "with",
         "note": "inject sb with sth\"给某人注射某物\"，介词用 with。"
       },
       {
         "type": "单句语法填空",
-        "question": "The government's decision to ______ (注入) huge funds ______ the industry brought it back to life.",
+        "question": "The government's decision to ____ (注入) huge funds ____ the industry brought it back to life.",
         "answer": "inject; into",
         "note": "inject sth into sth\"把某物注入……\"，介词用 into；此处为不定式 to inject。"
       },
       {
         "type": "同义句转换",
-        "question": "The nurse injected the child with a vaccine. → The nurse injected a vaccine ______ the child.",
+        "question": "The nurse injected the child with a vaccine. → The nurse injected a vaccine ____ the child.",
         "answer": "into",
         "note": "inject sb with sth = inject sth into sb，人物位置互换，介词由 with 变 into。"
       },
       {
         "type": "汉译英",
-        "question": "年轻队员为球队注入了新的活力。（inject ... into）",
+        "question": "年轻队员为球队注入了新的活力。（inject ... into）（答案：____）",
         "answer": "The young players injected new energy into the team.",
         "note": "熟词僻义 inject new energy/life into sth\"为……注入新活力\"。"
       }
@@ -2928,7 +3957,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a set of related events or things in a particular order (2) v. to determine or arrange an order",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2956,7 +3985,20 @@
         "example": "The chase sequence in the film is thrilling."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The photographs show the sequence of the eclipse."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Scientists sequenced the virus from three samples."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Complete the steps in the correct sequence."
+      }
+    ],
     "wordForms": {
       "noun": "sequence 顺序；一系列；sequencing 测序（基因组测序 genome sequencing）",
       "verb": "sequence 测序；按顺序排列",
@@ -2990,6 +4032,26 @@
         "phrase": "out of sequence",
         "translation": "顺序颠倒，次序错乱",
         "example": "Two pages of the report were printed out of sequence. 报告有两页印错了顺序。"
+      },
+      {
+        "phrase": "a logical / chronological sequence",
+        "translation": "逻辑/时间顺序",
+        "example": "Arrange the evidence in chronological sequence. 按时间顺序排列证据。"
+      },
+      {
+        "phrase": "follow a sequence",
+        "translation": "遵循顺序",
+        "example": "Each machine follows a fixed sequence of actions. 每台机器都遵循固定的动作顺序。"
+      },
+      {
+        "phrase": "the opening / final sequence",
+        "translation": "开场/结尾片段（影视用语）",
+        "example": "The film's opening sequence lasts five minutes. 这部电影的开场片段持续五分钟。"
+      },
+      {
+        "phrase": "DNA / genome sequencing",
+        "translation": "DNA/基因组测序（sequencing 作不可数过程名词）",
+        "example": "Genome sequencing identified the rare mutation. 基因组测序识别出罕见突变。"
       }
     ],
     "synonyms": [
@@ -3029,29 +4091,40 @@
         "example": "By analysing the whole sequence of events, investigators pieced together what had happened. 通过分析整个事件序列，调查人员拼凑出了事情经过。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The photographs show the sequence of the eclipse.",
+        "upgraded": "The photographs show the sequence of the eclipse, recording each stage from beginning to end.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Scientists sequenced the virus from three samples.",
+        "upgraded": "Scientists sequenced the virus from three samples, confirming that all belonged to one strain.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Please arrange these historical photos in ______ (sequence) so that the story is clear.",
+        "question": "Please arrange these historical photos in ____ (sequence) so that the story is clear.",
         "answer": "sequence",
         "note": "in sequence\"按顺序\"为固定短语，sequence 此处作不可数名词，前不加冠词。"
       },
       {
         "type": "单句语法填空",
-        "question": "The steps of the experiment must be carried out in ______ (sequence) order; skipping any one will spoil the result.",
+        "question": "The steps of the experiment must be carried out in ____ (sequence) order; skipping any one will spoil the result.",
         "answer": "sequential",
         "note": "修饰名词 order 用形容词 sequential\"按顺序的\"。"
       },
       {
         "type": "辨析选词",
-        "question": "用 series / sequence 填空：① A ______ of events led to the accident, one triggering the next. ② Scientists carried out a ______ of independent tests.",
+        "question": "用 series / sequence 填空：① A ____ of events led to the accident, one triggering the next. ② Scientists carried out a ____ of independent tests.",
         "answer": "① sequence ② series",
         "note": "①强调\"一个引发下一个\"的先后相继用 sequence；②只是\"一组同类实验\"用 series。"
       },
       {
         "type": "汉译英",
-        "question": "科学家成功测定了整个人类基因组的序列。（sequence 作动词）",
+        "question": "科学家成功测定了整个人类基因组的序列。（sequence 作动词）（答案：____）",
         "answer": "Scientists managed to sequence the whole human genome.",
         "note": "sequence 作及物动词，意为\"测定……的序列\"；manage to do\"设法做成\"。"
       }
@@ -3069,9 +4142,22 @@
     "sub_section": "",
     "original_sentence": "We have the “Snowflake Man” to thank for this amazing insight into the natural world.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a single small crystal or group of ice crystals that falls from a cloud as snow",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A snowflake landed on the child's sleeve."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Each snowflake forms around a tiny particle."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The camera captured a perfectly symmetrical snowflake."
+      }
+    ],
     "wordForms": {
       "noun": "snowflake 雪花；snow 雪；snowfall 降雪(量)；snowstorm 暴风雪；snowman 雪人",
       "verb": "snow 下雪 (it snows)",
@@ -3100,6 +4186,26 @@
         "phrase": "a six-sided snowflake",
         "translation": "六角形的雪花",
         "example": "Every snowflake has a six-sided shape. 每片雪花都呈六角形。"
+      },
+      {
+        "phrase": "a delicate / unique snowflake",
+        "translation": "精致的/独一无二的雪花",
+        "example": "The lens revealed a delicate snowflake. 镜头呈现出一片精致的雪花。"
+      },
+      {
+        "phrase": "snowflake pattern / structure",
+        "translation": "雪花图案/结构",
+        "example": "The window bore a snowflake pattern. 窗户上有雪花图案。"
+      },
+      {
+        "phrase": "snowflakes drift / settle",
+        "translation": "雪花飘落/落下堆积（不及物）",
+        "example": "Snowflakes drifted onto the empty road. 雪花飘落在空旷的道路上。"
+      },
+      {
+        "phrase": "catch a snowflake",
+        "translation": "接住一片雪花",
+        "example": "The child tried to catch a snowflake. 那个孩子试着接住一片雪花。"
       }
     ],
     "synonyms": [
@@ -3108,6 +4214,12 @@
         "translation": "n. 小薄片；一片雪花",
         "example": "Flakes of snow drifted down. 雪片纷纷飘落。",
         "usage": "flake 是上位、更泛的词，可指任何薄片(soap flakes/paint flakes)；作\"雪花\"讲常说 a flake of snow 或直接 snowflake。snowflake 专指雪花，语义更具体、更常见于科普与文学描写。"
+      },
+      {
+        "synonym": "snow crystal",
+        "translation": "雪晶（相关科学术语，非完全同义）",
+        "example": "A snow crystal begins as ice around a tiny particle. 雪晶最初是微粒周围形成的冰。",
+        "usage": "snow crystal 严格指一个单独的冰晶；snowflake 可指单个雪晶，也可指多个雪晶聚成的雪片。科普精确描述晶体结构时用 snow crystal，日常描述飘落的雪花通常用 snowflake。"
       }
     ],
     "advancedExpressions": [
@@ -3120,19 +4232,35 @@
         "type": "同义表达群·独一无二",
         "expression": "Like a snowflake, each ... is one of a kind / unique / no two are alike.",
         "example": "Like snowflakes, no two fingerprints are alike. 像雪花一样，没有两枚指纹是相同的。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "a delicate / unique snowflake / snowflake pattern / structure / snowflakes drift / settle / catch a snowflake",
+        "example": "The lens revealed a delicate snowflake. 镜头呈现出一片精致的雪花。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A snowflake landed on the child's sleeve.",
+        "upgraded": "A snowflake landed on the child's sleeve, keeping its delicate shape for a few seconds.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Each snowflake forms around a tiny particle.",
+        "upgraded": "Each snowflake forms around a tiny particle, developing branches as water freezes onto it.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As they fall, the tiny ________ (snowflake) accumulate more and more water vapour.",
+        "question": "As they fall, the tiny ____ (snowflake) accumulate more and more water vapour.",
         "answer": "snowflakes",
         "note": "tiny 后接可数名词复数；the ... accumulate 谓语用复数，主语须为复数 snowflakes。"
       },
       {
         "type": "汉译英",
-        "question": "科学家说没有两片雪花是完全一样的。（no two ... alike）",
+        "question": "科学家说没有两片雪花是完全一样的。（no two ... alike）（答案：____）",
         "answer": "Scientists say (that) no two snowflakes are exactly alike.",
         "note": "no two + 复数名词 + 复数动词，表\"没有任何两个……是……\"；alike 作表语。"
       }
@@ -3150,7 +4278,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) adj. similar to each other (2) adv. in the same way or to an equal degree",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adv.",
@@ -3158,7 +4286,20 @@
         "example": "Young and old alike enjoyed the show. 老老少少都爱看这场演出。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The two sisters look remarkably alike."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "The rule applies to residents and visitors alike."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "No two fingerprints are exactly alike."
+      }
+    ],
     "wordForms": {
       "noun": "likeness 相似，相像；like 同类的人/物",
       "verb": "liken (to) 把…比作",
@@ -3187,6 +4328,26 @@
         "phrase": "treat / share ... alike",
         "translation": "同样地对待/分享",
         "example": "She treats all her children alike. 她对每个孩子都一视同仁。"
+      },
+      {
+        "phrase": "think / sound alike",
+        "translation": "想法相似/听起来相似（alike 作表语补足语）",
+        "example": "The two names sound alike but have different meanings. 这两个名字听起来相似但含义不同。"
+      },
+      {
+        "phrase": "almost / exactly alike",
+        "translation": "几乎/完全相像（程度副词置前）",
+        "example": "The copies are almost alike in colour. 这些复制品颜色几乎相同。"
+      },
+      {
+        "phrase": "young and old alike",
+        "translation": "老少都一样（A and B alike = both A and B）",
+        "example": "The festival attracts young and old alike. 这个节日老少皆宜。"
+      },
+      {
+        "phrase": "treat everyone alike",
+        "translation": "一视同仁（alike 作方式副词）",
+        "example": "A fair rule treats everyone alike. 公平的规则对所有人一视同仁。"
       }
     ],
     "synonyms": [
@@ -3214,19 +4375,35 @@
         "type": "辨析卡·定语用 similar，表语用 alike",
         "expression": "They are alike. (√表语) / They face similar problems. (√定语，不可说 alike problems)",
         "example": "对比记忆：be alike = be similar (to)，但只有 similar 能修饰名词。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "think / sound alike / almost / exactly alike / young and old alike / treat everyone alike",
+        "example": "The two names sound alike but have different meanings. 这两个名字听起来相似但含义不同。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The two sisters look remarkably alike.",
+        "upgraded": "The two sisters look remarkably alike, although their personalities differ greatly.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The rule applies to residents and visitors alike.",
+        "upgraded": "The rule applies to residents and visitors alike, ensuring that everyone follows the same standard.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "辨析选词",
-        "question": "用 alike / similar 填空：① The two brothers are very ________. ② They have ________ interests.",
+        "question": "用 alike / similar 填空：① The two brothers are very ____. ② They have ____ interests.",
         "answer": "① alike ② similar",
         "note": "①作表语两者皆可，但空后无名词、句尾位置更自然用 alike；②修饰名词 interests，须用定语形容词 similar。"
       },
       {
         "type": "完成句子",
-        "question": "这条新规对老师和学生都适用。The new rule applies to ________ ________ ________ ________.",
+        "question": "这条新规对老师和学生都适用。The new rule applies to ____ ____ ____ ____.",
         "answer": "teachers and students alike",
         "note": "alike 作副词置于并列名词之后，= both teachers and students。"
       }
@@ -3244,7 +4421,7 @@
     "sub_section": "",
     "original_sentence": "The water molecules in an ice crystal always organize themselves into six- sided shapes.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a solid whose atoms form a regular pattern (2) transparent glass of high quality or natural quartz",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3262,7 +4439,20 @@
         "example": "a crystal stream 一条清澈的溪流"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A salt crystal formed as the water evaporated."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The museum displayed a large quartz crystal."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Ice crystals covered the inside of the window."
+      }
+    ],
     "wordForms": {
       "noun": "crystal 晶体，水晶；crystallization 结晶(作用)",
       "verb": "crystallize 使结晶；(使想法/计划) 明确成形",
@@ -3291,6 +4481,26 @@
         "phrase": "crystal clear",
         "translation": "清澈透明的；一清二楚的",
         "example": "The lake water was crystal clear. 湖水清澈见底。"
+      },
+      {
+        "phrase": "a crystal structure / lattice",
+        "translation": "晶体结构/晶格（科学术语）",
+        "example": "Diamond has a strong crystal structure. 钻石具有坚固的晶体结构。"
+      },
+      {
+        "phrase": "crystal growth",
+        "translation": "晶体生长（过程名词）",
+        "example": "Temperature influences crystal growth. 温度会影响晶体生长。"
+      },
+      {
+        "phrase": "a quartz crystal",
+        "translation": "一块石英晶体",
+        "example": "The clock uses a tiny quartz crystal. 这只钟使用一小块石英晶体。"
+      },
+      {
+        "phrase": "crystal-clear water / explanation",
+        "translation": "清澈见底的水/一清二楚的解释（复合形容词）",
+        "example": "The guide gave a crystal-clear explanation. 导游给出了清晰透彻的解释。"
       }
     ],
     "synonyms": [
@@ -3317,19 +4527,35 @@
         "type": "构词法卡·crystal 词族",
         "expression": "crystal(n.) → crystallize(v.) → crystallization(n.) → crystalline(adj.)",
         "example": "Over time, his vague plan crystallized into a clear goal. 渐渐地他模糊的计划明确成了清晰的目标。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "a crystal structure / lattice / crystal growth / a quartz crystal / crystal-clear water / explanation",
+        "example": "Diamond has a strong crystal structure. 钻石具有坚固的晶体结构。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A salt crystal formed as the water evaporated.",
+        "upgraded": "A salt crystal formed as the water evaporated, revealing a neat cubic structure.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The museum displayed a large quartz crystal.",
+        "upgraded": "The museum displayed a large quartz crystal, attracting visitors with its transparent points.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As the temperature drops, ice ________ (crystal) start to form in the cloud.",
+        "question": "As the temperature drops, ice ____ (crystal) start to form in the cloud.",
         "answer": "crystals",
         "note": "此处指一个个可数的冰晶，用复数 crystals；谓语 start 与复数主语一致。"
       },
       {
         "type": "选词填空",
-        "question": "用 crystal 的适当形式填空：His idea gradually ________ into a workable plan.",
+        "question": "用 crystal 的适当形式填空：His idea gradually ____ into a workable plan.",
         "answer": "crystallized",
         "note": "考派生动词 crystallize 的比喻义\"(想法)逐渐清晰成形\"，句意为过去时态。"
       }
@@ -3347,7 +4573,7 @@
     "sub_section": "",
     "original_sentence": "Connections with everyday life 1 Salt can be used to melt ice on the road.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to become liquid through heat or to cause a solid to become liquid",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -3365,7 +4591,20 @@
         "example": "They melted the gold down to make rings. 他们把金子熔了做戒指。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The chocolate melted in the warm kitchen."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Spring sunshine melted the snow on the roof."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The crowd melted away after the concert."
+      }
+    ],
     "wordForms": {
       "noun": "meltdown (核反应堆)熔毁；(情绪/系统)崩溃；the melt 融雪水",
       "verb": "melt (melted, melted) 融化；过去分词 molten 仅作形容词用",
@@ -3400,6 +4639,26 @@
         "phrase": "melting point",
         "translation": "熔点",
         "example": "Ice has a melting point of 0℃. 冰的熔点是0摄氏度。"
+      },
+      {
+        "phrase": "melt at a temperature of ...",
+        "translation": "在……温度熔化（接具体温度）",
+        "example": "Pure ice melts at zero degrees Celsius. 纯冰在零摄氏度融化。"
+      },
+      {
+        "phrase": "melt down metal",
+        "translation": "熔化金属（down 强调彻底熔化）",
+        "example": "Workers melted down the scrap metal. 工人把废金属熔化了。"
+      },
+      {
+        "phrase": "melt into the background",
+        "translation": "融入背景而不显眼（比喻义）",
+        "example": "The grey coat melted into the background. 灰色外套融入背景。"
+      },
+      {
+        "phrase": "melt one's heart",
+        "translation": "融化某人的心；深深打动某人",
+        "example": "The child's thank-you note melted her heart. 孩子的感谢信深深打动了她。"
       }
     ],
     "synonyms": [
@@ -3426,19 +4685,35 @@
         "type": "同义表达群·打动人心",
         "expression": "melt one's heart = touch sb deeply = move sb to tears",
         "example": "The child's smile melted everyone's heart. 那孩子的微笑打动了所有人。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "melt at a temperature of ... / melt down metal / melt into the background / melt one's heart",
+        "example": "Pure ice melts at zero degrees Celsius. 纯冰在零摄氏度融化。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The chocolate melted in the warm kitchen.",
+        "upgraded": "The chocolate melted in the warm kitchen, leaving a dark pool beside the bowl.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Spring sunshine melted the snow on the roof.",
+        "upgraded": "Spring sunshine melted the snow on the roof, sending water through the gutters.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "辨析选词",
-        "question": "用 melt / dissolve 填空：① The sun ________ the snow on the roof. ② Salt ________ quickly in warm water.",
+        "question": "用 melt / dissolve 填空：① The sun ____ the snow on the roof. ② Salt ____ quickly in warm water.",
         "answer": "① melts / melted ② dissolves",
         "note": "①雪受热由固变液，用 melt；②盐溶入水中成溶液，用 dissolve。注意主谓一致，一般现在时第三人称加 -s。"
       },
       {
         "type": "完成句子",
-        "question": "看到那些流浪狗，她的心一下子就软了。The sight of the stray dogs made her heart ________ ________.",
+        "question": "看到那些流浪狗，她的心一下子就软了。The sight of the stray dogs made her heart ____ ____.",
         "answer": "melt away（或仅 melt）",
         "note": "melt 的比喻义\"(心)软化\"；make + 宾语 + 动词原形 melt，此处用原形。"
       }
@@ -3456,7 +4731,7 @@
     "sub_section": "",
     "original_sentence": "He worked in the freezing cold for hours at a time, carefully handling each snowflake with a feather, and photographing it with a 90-second exposure.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "one of the light, flat structures that cover a bird's body",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -3464,7 +4739,20 @@
         "example": "The officials feathered their own nests. 那些官员大肆中饱私囊。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A blue feather lay beside the empty nest."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The artisan decorated the mask with bright feathers."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "One soft feather floated across the open doorway."
+      }
+    ],
     "wordForms": {
       "noun": "feather 羽毛；the feathers / plumage 羽毛(总称)",
       "verb": "feather 用羽毛装饰；使成羽状",
@@ -3504,6 +4792,26 @@
         "phrase": "a feather in one's cap",
         "translation": "值得骄傲的成就，一份荣耀",
         "example": "Winning the prize was a feather in her cap. 获奖是她的一份荣耀。"
+      },
+      {
+        "phrase": "a feathered wing / bird",
+        "translation": "长有羽毛的翅膀/鸟（feathered 作形容词）",
+        "example": "The injured bird stretched one feathered wing. 受伤的鸟伸开一侧长羽毛的翅膀。"
+      },
+      {
+        "phrase": "ruffle one's feathers",
+        "translation": "惹恼某人；使某人不高兴（习语）",
+        "example": "The criticism ruffled a few feathers. 这番批评惹恼了几个人。"
+      },
+      {
+        "phrase": "feather one's nest",
+        "translation": "中饱私囊；为自己谋利（贬义习语）",
+        "example": "The official was accused of feathering his own nest. 该官员被指控中饱私囊。"
+      },
+      {
+        "phrase": "a plume of feathers",
+        "translation": "一簇装饰性羽毛",
+        "example": "A plume of feathers decorated the helmet. 一簇羽毛装饰着头盔。"
       }
     ],
     "synonyms": [
@@ -3512,6 +4820,12 @@
         "translation": "n. (大而显眼的)羽毛，翎",
         "example": "The hat had a long plume on it. 帽子上插着一根长翎。",
         "usage": "plume 多指大而华丽、用作装饰的羽毛(如帽饰、头饰)，较正式/文学；feather 是最通用的\"羽毛\"，泛指鸟身上任何羽毛。日常一律用 feather。"
+      },
+      {
+        "synonym": "down",
+        "translation": "n. 绒羽；羽绒（相关术语，非同义词）",
+        "example": "A layer of down keeps young birds warm. 一层绒羽帮助幼鸟保暖。",
+        "usage": "down 指鸟类贴近皮肤、柔软蓬松并用于保温的绒羽，通常作不可数名词；feather 是羽毛的通称，也包括有硬羽轴的外层正羽，作单根羽毛时可数。"
       }
     ],
     "advancedExpressions": [
@@ -3524,19 +4838,35 @@
         "type": "构词法卡·feathered vs feathery",
         "expression": "feathered friends 长羽毛的朋友(指鸟) / feathery snow 羽毛般轻软的雪",
         "example": "Feathery clouds drifted across the sky. 羽毛似的云飘过天空。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "a feathered wing / bird / ruffle one's feathers / feather one's nest / a plume of feathers",
+        "example": "The injured bird stretched one feathered wing. 受伤的鸟伸开一侧长羽毛的翅膀。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A blue feather lay beside the empty nest.",
+        "upgraded": "A blue feather lay beside the empty nest, suggesting that a jay had visited.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The artisan decorated the mask with bright feathers.",
+        "upgraded": "The artisan decorated the mask with bright feathers, creating a dramatic ceremonial design.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "完成习语：The new contract was a real feather in his ________ (帽子里的一根羽毛=荣耀).",
+        "question": "完成习语：The new contract was a real feather in his ____ (帽子里的一根羽毛=荣耀).",
         "answer": "cap",
         "note": "固定习语 a feather in one's cap，意为\"值得骄傲的成就\"。"
       },
       {
         "type": "汉译英",
-        "question": "这个箱子轻得像羽毛。（as ... as）",
+        "question": "这个箱子轻得像羽毛。（as ... as）（答案：____）",
         "answer": "The box is as light as a feather.",
         "note": "as + 形容词原级 + as a feather，固定比喻结构，feather 前用不定冠词 a。"
       }
@@ -3554,7 +4884,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) an extraordinary event that seems impossible to explain naturally (2) an outstanding example of achievement",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3567,7 +4897,20 @@
         "example": "It will take a miracle to finish on time. 要按时完成得靠奇迹了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Doctors called her rapid recovery a miracle."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The vaccine's rapid development seemed a scientific miracle."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "By a miracle, everyone escaped unharmed."
+      }
+    ],
     "wordForms": {
       "noun": "miracle 奇迹；精品",
       "verb": "",
@@ -3596,6 +4939,26 @@
         "phrase": "it's a miracle (that) ...",
         "translation": "……真是个奇迹",
         "example": "It's a miracle that they survived. 他们能活下来真是奇迹。"
+      },
+      {
+        "phrase": "a medical / economic miracle",
+        "translation": "医学奇迹/经济奇迹",
+        "example": "Doctors described the recovery as a medical miracle. 医生把这次康复称为医学奇迹。"
+      },
+      {
+        "phrase": "a minor / small miracle",
+        "translation": "小小的奇迹；难得的好事",
+        "example": "Finding a seat was a minor miracle. 能找到座位简直是个小奇迹。"
+      },
+      {
+        "phrase": "need / take a miracle",
+        "translation": "需要奇迹才可能发生",
+        "example": "It would take a miracle to finish today. 今天完成恐怕需要奇迹。"
+      },
+      {
+        "phrase": "a miracle of engineering",
+        "translation": "工程学的杰作",
+        "example": "The tunnel is a miracle of engineering. 这条隧道是工程学的杰作。"
       }
     ],
     "synonyms": [
@@ -3622,19 +4985,35 @@
         "type": "构词法卡·mir- 词族(惊奇)",
         "expression": "miracle 奇迹 → miraculous 奇迹般的 → miraculously 奇迹般地；同根 admire / mirror / marvel",
         "example": "Miraculously, she recovered within a week. 奇迹般地，她一周内就康复了。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "a medical / economic miracle / a minor / small miracle / need / take a miracle / a miracle of engineering",
+        "example": "Doctors described the recovery as a medical miracle. 医生把这次康复称为医学奇迹。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Doctors called her rapid recovery a miracle.",
+        "upgraded": "Doctors called her rapid recovery a miracle, since the original injury had been extremely severe.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The vaccine's rapid development seemed a scientific miracle.",
+        "upgraded": "The vaccine's rapid development seemed a scientific miracle, protecting vulnerable communities much sooner than expected.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "________ (miracle), all the passengers escaped from the burning bus.",
+        "question": "____ (miracle), all the passengers escaped from the burning bus.",
         "answer": "Miraculously",
         "note": "句首修饰全句，需用副词 miraculously\"奇迹般地\"；首字母大写。"
       },
       {
         "type": "完成句子",
-        "question": "他们能在这么短时间内完成项目真是个奇迹。It's ________ ________ ________ they finished the project in such a short time.",
+        "question": "他们能在这么短时间内完成项目真是个奇迹。It's ____ ____ ____ they finished the project in such a short time.",
         "answer": "a miracle that",
         "note": "固定句型 It's a miracle that + 从句；miracle 可数，前加不定冠词 a。"
       }
@@ -3652,7 +5031,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) an extremely small piece of matter (2) a very small amount of something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3675,13 +5054,26 @@
         "example": "In the phrasal verb \"give up\", \"up\" is a particle."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Each dust particle reflected the afternoon light."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The filter traps fine particles from the exhaust."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Not one particle of sincerity appeared in his apology."
+      }
+    ],
     "wordForms": {
       "noun": "particle 颗粒，粒子；particulate matter 颗粒物（PM2.5 即 fine particulate matter 细颗粒物）",
       "adjective": "particulate 微粒的，颗粒状的（科技用语）",
       "other": "构词：part（部分）+ -icle（小称后缀）→“小部分”即微粒；同后缀：article（文章）、icicle（小冰柱）、cubicle（小隔间）。重音在首音节 /ˈpɑːtɪkl/。",
-      "verb": null,
-      "adverb": null
+      "verb": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -3709,6 +5101,26 @@
         "phrase": "elementary/subatomic particles",
         "translation": "基本粒子/亚原子粒子（物理）",
         "example": "Physicists use accelerators to study subatomic particles. 物理学家用加速器研究亚原子粒子。"
+      },
+      {
+        "phrase": "a particle of truth / evidence",
+        "translation": "一点真相/证据（常用于否定句）",
+        "example": "There was not a particle of evidence. 没有丝毫证据。"
+      },
+      {
+        "phrase": "particle size",
+        "translation": "粒径；颗粒大小",
+        "example": "The filter removes matter by particle size. 过滤器按粒径去除物质。"
+      },
+      {
+        "phrase": "particle physics",
+        "translation": "粒子物理学（学科名）",
+        "example": "Particle physics examines the basic units of matter. 粒子物理学研究物质的基本单位。"
+      },
+      {
+        "phrase": "emit / release particles",
+        "translation": "排放/释放颗粒",
+        "example": "Old engines release harmful particles. 老旧发动机会释放有害颗粒。"
       }
     ],
     "synonyms": [
@@ -3748,23 +5160,34 @@
         "example": "Fine particles in the air, known as PM2.5, pose a serious threat to health. 空气中的细颗粒物（PM2.5）严重威胁健康。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Each dust particle reflected the afternoon light.",
+        "upgraded": "Each dust particle reflected the afternoon light, making the empty room appear hazy.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The filter traps fine particles from the exhaust.",
+        "upgraded": "The filter traps fine particles from the exhaust, improving the air released by the engine.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The air in the operating room must be kept free of dust ______ (particle).",
+        "question": "The air in the operating room must be kept free of dust ____ (particle).",
         "answer": "particles",
         "note": "particle 为可数名词，泛指微粒用复数。"
       },
       {
         "type": "汉译英",
-        "question": "这个谣言没有一点儿真实性。（particle）",
+        "question": "这个谣言没有一点儿真实性。（particle）（答案：____）",
         "answer": "There is not a particle of truth in the rumour.",
         "note": "not a particle of + 不可数名词，表“毫无”，语气比 no 更强。"
       },
       {
         "type": "辨析选词",
-        "question": "用 particle / fragment 的适当形式填空：① The wind carried tiny dust ______ into the tent. ② The floor was covered with ______ of broken glass.",
+        "question": "用 particle / fragment 的适当形式填空：① The wind carried tiny dust ____ into the tent. ② The floor was covered with ____ of broken glass.",
         "answer": "① particles ② fragments",
         "note": "particle 指本身极小的微粒；fragment 指破碎而成的碎片。"
       }
@@ -3782,7 +5205,7 @@
     "sub_section": "",
     "original_sentence": "As they move through the cloud, the “baby” snowflakes accumulate more and more water vapour.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a mass of very small drops or gas in the air, especially a substance in gaseous form",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3795,13 +5218,26 @@
         "example": "A thin vapour hung over the lake at dawn."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Warm water produced a cloud of vapour."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Water vapour condensed on the cold glass."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The aircraft left a thin vapour trail."
+      }
+    ],
     "wordForms": {
       "noun": "vapour（英）/ vapor（美）蒸气；evaporation 蒸发；vaporization 汽化",
       "verb": "vaporize（使）汽化；evaporate 蒸发（e- 向外 + vapor 汽 → 化汽而出）",
       "adjective": "vaporous 蒸气的；雾气弥漫的",
       "other": "英美拼写：英 vapour / 美 vapor，同类拼写对还有 colour/color、favour/favor、labour/labor。重音在首音节 /ˈveɪpə(r)/。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -3824,6 +5260,26 @@
         "phrase": "vapour trail",
         "translation": "（飞机的）凝结尾迹",
         "example": "The jet left a long white vapour trail across the sky. 喷气式飞机在天空留下长长的白色尾迹。"
+      },
+      {
+        "phrase": "emit / release vapour",
+        "translation": "排放/释放蒸气",
+        "example": "The warm liquid released a sweet-smelling vapour. 温热的液体释放出香甜的蒸气。"
+      },
+      {
+        "phrase": "vapour condenses into droplets",
+        "translation": "蒸气凝结成小水滴（液化过程）",
+        "example": "In cool air, vapour condenses into droplets. 在冷空气中，蒸气凝结成小水滴。"
+      },
+      {
+        "phrase": "a cloud of vapour",
+        "translation": "一团蒸气",
+        "example": "A cloud of vapour rose from the bath. 一团蒸气从浴缸上升起。"
+      },
+      {
+        "phrase": "vapour pressure",
+        "translation": "蒸气压（科学术语）",
+        "example": "Temperature affects a liquid's vapour pressure. 温度会影响液体的蒸气压。"
       }
     ],
     "synonyms": [
@@ -3863,23 +5319,34 @@
         "example": "His confidence evaporated the moment he saw the paper. 一看到试卷，他的信心顿时烟消云散。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Warm water produced a cloud of vapour.",
+        "upgraded": "Warm water produced a cloud of vapour, briefly hiding the mirror above the sink.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Water vapour condensed on the cold glass.",
+        "upgraded": "Water vapour condensed on the cold glass, forming droplets along its outer surface.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "穿过云层时，“雪花宝宝”聚集了越来越多的水汽。（课文回填）As they move through the cloud, the “baby” snowflakes ______ more and more ______ ______.",
+        "question": "穿过云层时，“雪花宝宝”聚集了越来越多的水汽。（课文回填）As they move through the cloud, the “baby” snowflakes ____ more and more ____ ____.",
         "answer": "accumulate; water vapour",
         "note": "水汽 = water vapour，不可数；accumulate 积聚。"
       },
       {
         "type": "单句语法填空",
-        "question": "Water on the road ______ (evaporate) quickly in the hot sun yesterday, turning into vapour.",
+        "question": "Water on the road ____ (evaporate) quickly in the hot sun yesterday, turning into vapour.",
         "answer": "evaporated",
         "note": "yesterday 提示一般过去时；evaporate 与 vapour 同根。"
       },
       {
         "type": "辨析选词",
-        "question": "用 steam / vapour / mist 填空：① ______ rose from the hot soup. ② Clouds consist of tiny water drops or water ______. ③ The hills were hidden in the morning ______.",
+        "question": "用 steam / vapour / mist 填空：① ____ rose from the hot soup. ② Clouds consist of tiny water drops or water ____. ③ The hills were hidden in the morning ____.",
         "answer": "① Steam ② vapour ③ mist",
         "note": "steam 沸腾产生的白汽；vapour 科学用语“水汽”；mist 薄雾。"
       }
@@ -3897,7 +5364,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the smallest unit of a substance that retains its chemical properties, consisting of bonded atoms",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3910,13 +5377,26 @@
         "example": "There isn't a molecule of doubt in her mind."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A water molecule contains two hydrogen atoms."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The enzyme binds to a specific molecule."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Heat makes molecules move more rapidly."
+      }
+    ],
     "wordForms": {
       "noun": "molecule 分子；molecular biology 分子生物学",
       "adjective": "molecular /məˈlekjələ(r)/ 分子的",
       "other": "重音移位：MOlecule /ˈmɒlɪkjuːl/ → moLEcular /məˈlekjələ/（派生后重音后移，类比 ATom → aTOMic）。词源：拉丁 moles（团块）+ -cule（小称后缀）→“小团块”。",
-      "verb": null,
-      "adverb": null
+      "verb": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -3939,6 +5419,26 @@
         "phrase": "oxygen/carbon dioxide molecules",
         "translation": "氧分子/二氧化碳分子",
         "example": "Plants absorb carbon dioxide molecules from the air. 植物从空气中吸收二氧化碳分子。"
+      },
+      {
+        "phrase": "a complex / simple molecule",
+        "translation": "复杂/简单分子",
+        "example": "Proteins are made from complex molecules. 蛋白质由复杂分子构成。"
+      },
+      {
+        "phrase": "a molecule consists of atoms",
+        "translation": "一个分子由原子构成",
+        "example": "A water molecule consists of three atoms. 一个水分子由三个原子构成。"
+      },
+      {
+        "phrase": "molecular structure",
+        "translation": "分子结构（用形容词 molecular）",
+        "example": "Scientists mapped the drug's molecular structure. 科学家绘制了药物的分子结构。"
+      },
+      {
+        "phrase": "molecules bond / interact",
+        "translation": "分子结合/相互作用（科学表述）",
+        "example": "These molecules interact at low temperatures. 这些分子在低温下相互作用。"
       }
     ],
     "synonyms": [
@@ -3965,25 +5465,41 @@
         "type": "概念词群·物质层级",
         "expression": "matter（物质）→ molecule（分子）→ atom（原子）→ electron/proton（电子/质子）",
         "example": "科普类阅读高频词链，注意由大到小的层级关系。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "a complex / simple molecule / a molecule consists of atoms / molecular structure / molecules bond / interact",
+        "example": "Proteins are made from complex molecules. 蛋白质由复杂分子构成。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A water molecule contains two hydrogen atoms.",
+        "upgraded": "A water molecule contains two hydrogen atoms, bonded to a single oxygen atom.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The enzyme binds to a specific molecule.",
+        "upgraded": "The enzyme binds to a specific molecule, triggering a reaction inside the cell.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Water is made up of ______ (molecule), each containing two hydrogen atoms and one oxygen atom.",
+        "question": "Water is made up of ____ (molecule), each containing two hydrogen atoms and one oxygen atom.",
         "answer": "molecules",
         "note": "泛指分子用复数；each containing... 为独立主格结构作补充说明。"
       },
       {
         "type": "汉译英",
-        "question": "一切物质都是由分子构成的。（molecule）",
+        "question": "一切物质都是由分子构成的。（molecule）（答案：____）",
         "answer": "All matter is made up of molecules.",
         "note": "matter“物质”不可数；be made up of = consist of 由……构成。"
       },
       {
         "type": "单句语法填空",
-        "question": "Scientists are studying the ______ (molecule) structure of the new material.",
+        "question": "Scientists are studying the ____ (molecule) structure of the new material.",
         "answer": "molecular",
         "note": "修饰名词 structure 用形容词 molecular，注意重音移到第二音节。"
       }
@@ -4001,7 +5517,7 @@
     "sub_section": "",
     "original_sentence": "As they move through the cloud, the “baby” snowflakes accumulate more and more water vapour.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to collect or increase gradually over a period of time",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -4014,13 +5530,26 @@
         "example": "Dust soon accumulates if you don't clean the room."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Dust accumulated beneath the unused equipment."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She accumulated valuable experience during the internship."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Evidence continued to accumulate throughout the inquiry."
+      }
+    ],
     "wordForms": {
       "noun": "accumulation 积累，积聚 — the accumulation of knowledge 知识的积累",
       "verb": "accumulate 积累（vt. & vi.）",
       "adjective": "cumulative 累积的，渐增的 — the cumulative effect 累积效应",
       "other": "构词：ac-（加强）+ cumul（堆）+ -ate（动词后缀）→“堆积起来”；同根词 cumulus（积云，气象术语，恰合本单元云雪语境）。重音在第二音节 /əˈkjuːmjəleɪt/。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -4043,6 +5572,26 @@
         "phrase": "evidence accumulates that...",
         "translation": "越来越多的证据表明……",
         "example": "Evidence is accumulating that too much screen time affects sleep. 越来越多的证据表明屏幕时间过长影响睡眠。"
+      },
+      {
+        "phrase": "accumulate over time",
+        "translation": "随时间积累（常置于句末）",
+        "example": "Small errors accumulate over time. 小错误会随时间积累。"
+      },
+      {
+        "phrase": "accumulate data / evidence",
+        "translation": "积累数据/证据",
+        "example": "The team accumulated evidence from several trials. 团队从多次试验中积累证据。"
+      },
+      {
+        "phrase": "accumulate in / on sth",
+        "translation": "在某处积聚",
+        "example": "Moisture accumulated inside the container. 水分在容器内积聚。"
+      },
+      {
+        "phrase": "the accumulation of sth",
+        "translation": "……的积累/积聚（名词结构）",
+        "example": "The accumulation of waste blocked the pipe. 废物堆积堵塞了管道。"
       }
     ],
     "synonyms": [
@@ -4088,29 +5637,40 @@
         "example": "He accumulated valuable experience, which paved the way for his later success. 他积累了宝贵经验，为日后的成功铺平了道路。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Dust accumulated beneath the unused equipment.",
+        "upgraded": "Dust accumulated beneath the unused equipment, showing how long the room had been closed.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "She accumulated valuable experience during the internship.",
+        "upgraded": "She accumulated valuable experience during the internship, preparing her for a permanent role.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "穿过云层时，“雪花宝宝”聚集了越来越多的水汽。（课文回填）As they move through the cloud, the “baby” snowflakes ______ more and more water vapour.",
+        "question": "穿过云层时，“雪花宝宝”聚集了越来越多的水汽。（课文回填）As they move through the cloud, the “baby” snowflakes ____ more and more water vapour.",
         "answer": "accumulate",
         "note": "与从句 move 保持一般现在时；主语 snowflakes 为复数，动词用原形。"
       },
       {
         "type": "单句语法填空",
-        "question": "Dust ______ (accumulate) quickly if the windows are left open all day.",
+        "question": "Dust ____ (accumulate) quickly if the windows are left open all day.",
         "answer": "accumulates",
         "note": "vi. 用法“堆积”；主语 dust 不可数，谓语用第三人称单数。"
       },
       {
         "type": "同义句转换",
-        "question": "Over the years, he has built up a large collection of ancient coins. → Over the years, he has ______ a large collection of ancient coins.",
+        "question": "Over the years, he has built up a large collection of ancient coins. → Over the years, he has ____ a large collection of ancient coins.",
         "answer": "accumulated",
         "note": "build up ≈ accumulate，后者更正式，是写作加分替换。"
       },
       {
         "type": "单句语法填空",
-        "question": "The ______ (accumulate) of wealth was never his goal in life.",
+        "question": "The ____ (accumulate) of wealth was never his goal in life.",
         "answer": "accumulation",
         "note": "冠词 the 后接名词；动词加 -ion 变名词。"
       }
@@ -4128,7 +5688,7 @@
     "sub_section": "",
     "original_sentence": "During their downward journey through the Earth’s atmosphere, the shapes of snowflakes are further influenced by temperature and humidity.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the amount of water vapour in the air",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4141,13 +5701,26 @@
         "example": "The humidity made the small room unbearable."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "High humidity made the afternoon feel uncomfortable."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The greenhouse maintains humidity at a stable level."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Humidity drops sharply during the winter."
+      }
+    ],
     "wordForms": {
       "noun": "humidity 湿度；humidifier 加湿器；dehumidifier 除湿机",
       "verb": "humidify 使湿润，给……加湿",
       "adjective": "humid 潮湿的，湿热的 — a humid climate 湿热的气候",
       "other": "重音移位：HUmid /ˈhjuːmɪd/ → huMIdity /hjuːˈmɪdəti/；-ity 名词后缀使重音落在其前一音节（类比 able→ability，curious→curiosity）。",
-      "adverb": null
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -4170,6 +5743,26 @@
         "phrase": "the heat and humidity",
         "translation": "湿热天气，高温潮湿",
         "example": "I can hardly stand the heat and humidity here in July. 我几乎受不了这里七月的湿热。"
+      },
+      {
+        "phrase": "humidity levels",
+        "translation": "湿度水平（常用复数 levels）",
+        "example": "Indoor humidity levels rose overnight. 室内湿度水平一夜间上升。"
+      },
+      {
+        "phrase": "measure / monitor humidity",
+        "translation": "测量/监测湿度",
+        "example": "The sensor monitors humidity continuously. 传感器持续监测湿度。"
+      },
+      {
+        "phrase": "increase / reduce humidity",
+        "translation": "提高/降低湿度",
+        "example": "Opening the window reduced humidity. 开窗降低了湿度。"
+      },
+      {
+        "phrase": "humidity rises / falls",
+        "translation": "湿度上升/下降（不及物）",
+        "example": "Humidity falls when cold air enters. 冷空气进入时湿度下降。"
       }
     ],
     "synonyms": [
@@ -4196,25 +5789,41 @@
         "type": "话题写作·天气描写",
         "expression": "With the temperature climbing and humidity rising, ...",
         "example": "With the temperature climbing and humidity rising, the whole city felt like a steam bath. 气温攀升、湿度加大，整座城市像个蒸笼。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固",
+        "expression": "humidity levels / measure / monitor humidity / increase / reduce humidity / humidity rises / falls",
+        "example": "Indoor humidity levels rose overnight. 室内湿度水平一夜间上升。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "High humidity made the afternoon feel uncomfortable.",
+        "upgraded": "High humidity made the afternoon feel uncomfortable, even though the temperature remained moderate.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The greenhouse maintains humidity at a stable level.",
+        "upgraded": "The greenhouse maintains humidity at a stable level, protecting young plants from drying out.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In summer, the ______ (humid) in this coastal city often reaches 90 per cent.",
+        "question": "In summer, the ____ (humid) in this coastal city often reaches 90 per cent.",
         "answer": "humidity",
         "note": "定冠词 the 后接名词；humid（adj.）→ humidity（n.）。"
       },
       {
         "type": "完成句子",
-        "question": "雪花的形状进一步受温度和湿度的影响。（课文回填）The shapes of snowflakes are further ______ ______ temperature and humidity.",
+        "question": "雪花的形状进一步受温度和湿度的影响。（课文回填）The shapes of snowflakes are further ____ ____ temperature and humidity.",
         "answer": "influenced by",
         "note": "be influenced by 被动语态，“受……影响”。"
       },
       {
         "type": "辨析选词",
-        "question": "用 humid / moist / damp 填空：① Keep the soil ______ but not wet. ② The rainforest has a hot, ______ climate. ③ Don't sleep in ______ clothes after the rain.",
+        "question": "用 humid / moist / damp 填空：① Keep the soil ____ but not wet. ② The rainforest has a hot, ____ climate. ③ Don't sleep in ____ clothes after the rain.",
         "answer": "① moist ② humid ③ damp",
         "note": "moist 微湿（中性/褒义）；humid 形容空气、气候闷湿；damp 潮乎乎（贬义）。"
       }
@@ -4232,7 +5841,7 @@
     "sub_section": "",
     "original_sentence": "Defined as the force that makes it difficult for one object to slide over the surface of another or to move through a liquid or gas, friction has been fascinating scientists for centuries, and it’s hard to resist!",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to oppose or prevent something (2) to remain unaffected by something (3) to stop oneself from doing something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -4250,13 +5859,26 @@
         "example": "The special coating helps the metal resist rust."
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "This coating resists heat and corrosion."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Maya resisted buying another pair of shoes."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Residents resisted the proposed road closure."
+      }
+    ],
     "wordForms": {
       "noun": "resistance 抵抗；阻力；（物理）电阻 — air resistance 空气阻力（正合本单元 friction 摩擦力语境）",
       "adjective": "resistant 抵抗的，抗……的 — be resistant to heat 耐热；water-resistant 防水的；irresistible 不可抗拒的 — an irresistible temptation",
       "other": "构词：re-（反、回）+ sist（= stand 站）→“站着对抗”；-sist 词族：insist 坚持 / assist 协助 / consist 组成 / persist 坚持不懈 / resist 抵抗。重音在第二音节 /rɪˈzɪst/。",
-      "verb": null,
-      "adverb": null
+      "verb": "—",
+      "adverb": "—"
     },
     "idioms": [],
     "collocations": [
@@ -4284,6 +5906,26 @@
         "phrase": "resist heat/corrosion",
         "translation": "耐热/耐腐蚀（熟词僻义：耐受）",
         "example": "This alloy resists corrosion even in sea water. 这种合金在海水中也耐腐蚀。"
+      },
+      {
+        "phrase": "resist pressure / attack",
+        "translation": "抵抗压力/攻击（及物，直接接宾语）",
+        "example": "The outer shell resists pressure at great depth. 外壳能抵抗深水压力。"
+      },
+      {
+        "phrase": "resist doing sth",
+        "translation": "忍住不做某事（后接动名词）",
+        "example": "He resisted checking the answer too soon. 他忍住没有过早查看答案。"
+      },
+      {
+        "phrase": "resist the urge to do sth",
+        "translation": "忍住做某事的冲动",
+        "example": "She resisted the urge to interrupt. 她忍住了插话的冲动。"
+      },
+      {
+        "phrase": "resist being changed / damaged",
+        "translation": "抵抗被改变/损坏（被动动名词）",
+        "example": "The material resists being damaged by salt. 这种材料能抵抗盐分侵蚀。"
       }
     ],
     "synonyms": [
@@ -4328,29 +5970,40 @@
         "example": "Faced with the sweet smell of the bakery, few passers-by could resist the temptation to step inside. 面对面包房的香甜气味，几乎没有路人能抵住进店的诱惑。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "This coating resists heat and corrosion.",
+        "upgraded": "This coating resists heat and corrosion, extending the life of the metal surface.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Maya resisted buying another pair of shoes.",
+        "upgraded": "Maya resisted buying another pair of shoes, keeping enough money for the train home.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "I couldn't resist ______ (taste) the freshly baked bread.",
+        "question": "I couldn't resist ____ (taste) the freshly baked bread.",
         "answer": "tasting",
         "note": "resist 后接动名词，不接不定式；同类：can't help doing。"
       },
       {
         "type": "单句语法填空",
-        "question": "This new fabric is highly ______ (resist) to water and dirt.",
+        "question": "This new fabric is highly ____ (resist) to water and dirt.",
         "answer": "resistant",
         "note": "be resistant to“抗……的”；副词 highly 修饰形容词。"
       },
       {
         "type": "汉译英",
-        "question": "她抵制住了买新手机的诱惑。（resist the temptation）",
+        "question": "她抵制住了买新手机的诱惑。（resist the temptation）（答案：____）",
         "answer": "She resisted the temptation to buy a new phone.",
         "note": "resist the temptation to do sth；temptation 后接不定式作定语。"
       },
       {
         "type": "单句语法填空",
-        "question": "Air ______ (resist) slows the falling leaf, so it drifts gently to the ground.",
+        "question": "Air ____ (resist) slows the falling leaf, so it drifts gently to the ground.",
         "answer": "resistance",
         "note": "air resistance 空气阻力（物理名词），与本单元 friction 语境呼应。"
       }
@@ -4368,7 +6021,7 @@
     "sub_section": "",
     "original_sentence": "He slid objects across different types of surfaces and made the connection between friction amount and its determining factors such as surface texture, even with the limited technological knowledge available then.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the way a surface or substance feels, looks, or behaves because of its physical structure",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4386,7 +6039,20 @@
         "example": "The novel has a rich emotional texture. 这部小说有丰富的情感层次。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The bread has a light, airy texture."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Polishing changed the texture of the wooden surface."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Children compared the textures of several fabrics."
+      }
+    ],
     "wordForms": {
       "noun": "texture 质地，手感",
       "verb": "",
@@ -4420,6 +6086,26 @@
         "phrase": "texture and colour",
         "translation": "质地与色彩",
         "example": "The dish is admired for its texture and colour. 这道菜以其口感和色泽备受称赞。"
+      },
+      {
+        "phrase": "add / create texture",
+        "translation": "增加/营造质感",
+        "example": "Seeds add texture to the bread. 种子增加面包的口感。"
+      },
+      {
+        "phrase": "change / improve the texture",
+        "translation": "改变/改善质地",
+        "example": "Slow cooking improves the texture of the meat. 慢炖能改善肉的口感。"
+      },
+      {
+        "phrase": "a creamy / chewy texture",
+        "translation": "细腻顺滑的/耐嚼的口感",
+        "example": "The dessert has a creamy texture. 这道甜点口感细腻。"
+      },
+      {
+        "phrase": "rough in texture",
+        "translation": "质地粗糙（in texture 作方面状语）",
+        "example": "The outer surface is rough in texture. 外表面质地粗糙。"
       }
     ],
     "synonyms": [
@@ -4453,23 +6139,34 @@
         "example": "The rocks vary in texture from glass-smooth to sandpaper-rough. 这些岩石质地各异，从玻璃般光滑到砂纸般粗糙。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The bread has a light, airy texture.",
+        "upgraded": "The bread has a light, airy texture, making it pleasant to eat while still warm.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Polishing changed the texture of the wooden surface.",
+        "upgraded": "Polishing changed the texture of the wooden surface, leaving it noticeably smoother.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Friction is affected by many factors, one of which is the ______ (texture) of the surface.",
+        "question": "Friction is affected by many factors, one of which is the ____ (texture) of the surface.",
         "answer": "texture",
         "note": "介词 of 后接名词，原形不变；此处泛指“表面质地”作 of 的宾语。"
       },
       {
         "type": "完成句子",
-        "question": "这块丝绸手感光滑。The silk has a ______ ______ (光滑的手感).",
+        "question": "这块丝绸手感光滑。The silk has a ____ ____ (光滑的手感).",
         "answer": "smooth texture",
         "note": "have a + adj. + texture 表“具有某种手感”，形容词 smooth 修饰名词 texture。"
       },
       {
         "type": "汉译英",
-        "question": "这道汤口感顺滑。",
+        "question": "这道汤口感顺滑。（答案：____）",
         "answer": "The soup has a smooth / creamy texture.",
         "note": "指食物“口感”用 texture；have a ... texture 是固定描写结构。"
       }
@@ -4487,7 +6184,7 @@
     "sub_section": "",
     "original_sentence": "In the 20th century, Australian physicist Frank Philip Bowden investigated friction’s relationship with lubrication.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the use or presence of oil or another substance to reduce friction between moving surfaces",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4500,7 +6197,20 @@
         "example": "Apply some lubrication to the chain. 给链条上点润滑油。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Regular lubrication keeps the bicycle chain moving smoothly."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The damaged joint received insufficient lubrication."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Proper lubrication extends the engine's working life."
+      }
+    ],
     "wordForms": {
       "noun": "lubrication 润滑（作用）；lubricant 润滑剂，润滑油；lubricator 润滑装置",
       "verb": "lubricate 给…加润滑油，使润滑",
@@ -4529,18 +6239,40 @@
         "phrase": "engine / joint lubrication",
         "translation": "发动机／关节润滑",
         "example": "Good engine lubrication prevents wear. 良好的发动机润滑可防止磨损。"
+      },
+      {
+        "phrase": "adequate / proper lubrication",
+        "translation": "充分/适当润滑",
+        "example": "The gears require adequate lubrication. 齿轮需要充分润滑。"
+      },
+      {
+        "phrase": "ensure lubrication of sth",
+        "translation": "确保某物得到润滑（of 接部件）",
+        "example": "Regular servicing ensures lubrication of the moving parts. 定期保养确保活动部件得到润滑。"
+      },
+      {
+        "phrase": "improve / maintain lubrication",
+        "translation": "改善/维持润滑状态",
+        "example": "The design maintains lubrication under pressure. 该设计在压力下维持润滑。"
+      },
+      {
+        "phrase": "a lubrication system",
+        "translation": "润滑系统",
+        "example": "The lubrication system protects the engine bearings. 润滑系统保护发动机轴承。"
       }
     ],
     "synonyms": [
       {
         "synonym": "oiling",
         "translation": "n. 上油，加油润滑",
-        "example": "Regular oiling keeps the hinge quiet. 定期上油能让合页不响。"
+        "example": "Regular oiling keeps the hinge quiet. 定期上油能让合页不响。",
+        "usage": "oiling 指给铰链、机器等加液态油这一具体动作，常见于日常维护；lubrication 是更正式的不可数名词，泛指用任何润滑剂降低摩擦的过程或状态。"
       },
       {
         "synonym": "greasing",
         "translation": "n. 涂润滑脂",
-        "example": "Greasing the axle reduces wear. 给车轴涂润滑脂可减少磨损。"
+        "example": "Greasing the axle reduces wear. 给车轴涂润滑脂可减少磨损。",
+        "usage": "greasing 指涂抹较稠的润滑脂 grease，常用于车轴、轴承等重负荷部件；lubrication 是上位概念，可用油、脂或其他物质实现。"
       }
     ],
     "advancedExpressions": [
@@ -4560,23 +6292,34 @@
         "example": "Lubrication plays a key role in reducing friction and heat. 润滑在减少摩擦和发热方面起着关键作用。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Regular lubrication keeps the bicycle chain moving smoothly.",
+        "upgraded": "Regular lubrication keeps the bicycle chain moving smoothly, reducing wear on its metal links.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The damaged joint received insufficient lubrication.",
+        "upgraded": "The damaged joint received insufficient lubrication, causing its surfaces to rub painfully.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "To keep the machine running smoothly, workers ______ (lubrication) its moving parts regularly.",
+        "question": "To keep the machine running smoothly, workers ____ (lubrication) its moving parts regularly.",
         "answer": "lubricate",
         "note": "空处作谓语动词，主语 workers 为复数，用动词原形 lubricate；lubrication 是名词不能作谓语。"
       },
       {
         "type": "选词填空",
-        "question": "用 lubrication / lubricant / lubricate 填空：Oil is a common ______ used to reduce friction.",
+        "question": "用 lubrication / lubricant / lubricate 填空：Oil is a common ____ used to reduce friction.",
         "answer": "lubricant",
         "note": "空处需名词表“润滑剂”（可数，a common ...），lubrication 指“润滑作用”不可数，语义不合。"
       },
       {
         "type": "汉译英",
-        "question": "运动部件需要定期润滑。",
+        "question": "运动部件需要定期润滑。（答案：____）",
         "answer": "Moving parts need regular lubrication.",
         "note": "need + 名词，lubrication 作宾语，不可数；regular 作定语修饰。"
       }
@@ -4594,7 +6337,7 @@
     "sub_section": "",
     "original_sentence": "Consequently, a science known as “bionics” was born.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the study and design of technology based on structures and processes found in living organisms",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4602,7 +6345,20 @@
         "example": "Bionics combines biology and engineering. 仿生学把生物学与工程学结合起来。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Bionics inspired the design of the flexible robotic hand."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The course explores bionics through practical engineering projects."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Bionics combines ideas from biology and technology."
+      }
+    ],
     "wordForms": {
       "noun": "bionics 仿生学；bionic man/woman（口语指“生化改造人”）",
       "verb": "",
@@ -4631,6 +6387,26 @@
         "phrase": "the field of bionics",
         "translation": "仿生学领域",
         "example": "Great progress has been made in the field of bionics. 仿生学领域已取得巨大进展。"
+      },
+      {
+        "phrase": "apply bionics to design",
+        "translation": "把仿生学应用于设计（apply A to B）",
+        "example": "Engineers apply bionics to aircraft design. 工程师把仿生学应用于飞机设计。"
+      },
+      {
+        "phrase": "research in bionics",
+        "translation": "仿生学研究（in 表领域）",
+        "example": "Research in bionics produced a flexible sensor. 仿生学研究产生了一种柔性传感器。"
+      },
+      {
+        "phrase": "the principles of bionics",
+        "translation": "仿生学原理（principles 常用复数）",
+        "example": "The device applies the principles of bionics. 该装置应用了仿生学原理。"
+      },
+      {
+        "phrase": "draw on bionics",
+        "translation": "借鉴仿生学（draw on = 利用）",
+        "example": "The robot's feet draw on bionics. 机器人的脚部设计借鉴了仿生学。"
       }
     ],
     "synonyms": [
@@ -4639,6 +6415,12 @@
         "translation": "n. 仿生（模仿自然），生物模拟",
         "example": "Biomimicry inspires many new designs. 仿生模拟启发了许多新设计。",
         "usage": "biomimicry 强调“模仿自然界的形态/机制”这一过程与方法；bionics 更偏“把生物原理用于工程技术”的学科名。学术写作中 bionics 常与 technology、engineering 搭配。"
+      },
+      {
+        "synonym": "biomechanics",
+        "translation": "n. 生物力学（相关学科，非同义词）",
+        "example": "Biomechanics explains how forces act on human joints. 生物力学解释力如何作用于人体关节。",
+        "usage": "biomechanics 研究力和运动在生物体中的作用；bionics 借鉴生物结构和机制来设计工程技术。前者解释生物运动规律，后者强调把生物原理转化为技术，学科有交叉但不可互换。"
       }
     ],
     "advancedExpressions": [
@@ -4658,23 +6440,34 @@
         "example": "Bionics is the study of how nature's designs can improve technology. 仿生学研究如何用自然界的设计改进技术。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Bionics inspired the design of the flexible robotic hand.",
+        "upgraded": "Bionics inspired the design of the flexible robotic hand, allowing it to grip delicate objects.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The course explores bionics through practical engineering projects.",
+        "upgraded": "The course explores bionics through practical engineering projects, linking biological observation with product design.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Bionics ______ (be) a science that copies nature to improve technology.",
+        "question": "Bionics ____ (be) a science that copies nature to improve technology.",
         "answer": "is",
         "note": "bionics 虽以 -s 结尾，但作学科名意义为单数，谓语用 is；类比 physics is, maths is。"
       },
       {
-        "type": "词形转换",
-        "question": "The engineer designed a ______ (bionics) arm that moves like a real one.",
+        "type": "单句语法填空",
+        "question": "The engineer designed a ____ (bionics) arm that moves like a real one.",
         "answer": "bionic",
-        "note": "空处作定语修饰 arm，需形容词 bionic“仿生的”，而非名词学科名 bionics。"
+        "note": "原题型标注：词形转换。空处作定语修饰 arm，需形容词 bionic“仿生的”，而非名词学科名 bionics。"
       },
       {
         "type": "完成句子",
-        "question": "仿生学诞生了。A science ______ ______ \"bionics\" was born. (为人所知的名称)",
+        "question": "仿生学诞生了。A science ____ ____ \"bionics\" was born. (为人所知的名称)",
         "answer": "known as",
         "note": "known as “被称为”，过去分词短语作后置定语修饰 a science。"
       }
@@ -4692,7 +6485,7 @@
     "sub_section": "",
     "original_sentence": "Bionics: where nature andtechnology intersect Fun with science 53 5 10 15 20 Humans are curious by nature, and about nature.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to cross or meet at a point; to share common features or interests",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -4710,7 +6503,20 @@
         "example": "Their interests intersect in music. 他们的兴趣在音乐上产生交集。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The two hiking paths intersect near the waterfall."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Her research interests intersect with public health."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A narrow lane intersects the main road."
+      }
+    ],
     "wordForms": {
       "noun": "intersection 交叉；十字路口；交集",
       "verb": "intersect 相交，横穿",
@@ -4739,6 +6545,26 @@
         "phrase": "intersect a road / field",
         "translation": "横穿一条路／一片田地",
         "example": "A river intersects the plain. 一条河横贯这片平原。"
+      },
+      {
+        "phrase": "intersect at a point",
+        "translation": "相交于一点（at 接交点）",
+        "example": "The three lines intersect at one point. 三条线相交于一点。"
+      },
+      {
+        "phrase": "intersect at right angles",
+        "translation": "垂直相交",
+        "example": "The two roads intersect at right angles. 两条路垂直相交。"
+      },
+      {
+        "phrase": "intersect with another field",
+        "translation": "与另一领域交叉（抽象用法）",
+        "example": "Economics intersects with environmental science. 经济学与环境科学交叉。"
+      },
+      {
+        "phrase": "intersecting lines / interests",
+        "translation": "相交的线/交集利益（现在分词作定语）",
+        "example": "The diagram marks two intersecting lines. 图中标出了两条相交线。"
       }
     ],
     "synonyms": [
@@ -4772,23 +6598,34 @@
         "example": "The two lines meet and intersect at a single point. 这两条线在一点相遇并相交。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The two hiking paths intersect near the waterfall.",
+        "upgraded": "The two hiking paths intersect near the waterfall, giving walkers a choice of routes.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "Her research interests intersect with public health.",
+        "upgraded": "Her research interests intersect with public health, creating opportunities for joint projects.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The two roads ______ (intersect) at a busy crossroads in the city centre.",
+        "question": "The two roads ____ (intersect) at a busy crossroads in the city centre.",
         "answer": "intersect",
         "note": "陈述一般事实用一般现在时，主语 The two roads 为复数，用原形 intersect。"
       },
       {
-        "type": "词形转换",
-        "question": "Traffic lights are usually set up at every busy ______ (intersect).",
+        "type": "单句语法填空",
+        "question": "Traffic lights are usually set up at every busy ____ (intersect).",
         "answer": "intersection",
-        "note": "空处作介词 at 的宾语，需名词 intersection“十字路口”，动词 intersect 变名词加 -ion。"
+        "note": "原题型标注：词形转换。空处作介词 at 的宾语，需名词 intersection“十字路口”，动词 intersect 变名词加 -ion。"
       },
       {
         "type": "汉译英",
-        "question": "仿生学是自然与技术交汇的地方。",
+        "question": "仿生学是自然与技术交汇的地方。（答案：____）",
         "answer": "Bionics is where nature and technology intersect.",
         "note": "where 引导表语从句，从句主语 nature and technology 为复数，谓语用原形 intersect。"
       }
@@ -4806,7 +6643,7 @@
     "sub_section": "",
     "original_sentence": "It could be said that as far back as 2,500 years ago, Lu Ban, a carpenter in ancient China, was engaged in bionics when he produced a saw by copying the shape of a leaf’s sharp teeth.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a skilled worker who makes and repairs wooden objects and structures",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4814,7 +6651,20 @@
         "example": "The carpenter made a wooden table. 木匠做了一张木桌。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The carpenter repaired the oak staircase."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A master carpenter taught the apprentices to measure accurately."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "We hired a carpenter to build fitted shelves."
+      }
+    ],
     "wordForms": {
       "noun": "carpenter 木匠；carpentry 木工手艺，木工活",
       "verb": "",
@@ -4843,6 +6693,26 @@
         "phrase": "a carpenter's tools / shop",
         "translation": "木匠的工具／木工作坊",
         "example": "The carpenter's tools were neatly arranged. 木匠的工具摆放得整整齐齐。"
+      },
+      {
+        "phrase": "hire / employ a carpenter",
+        "translation": "雇用木匠",
+        "example": "They hired a carpenter to repair the doors. 他们雇了一名木匠修门。"
+      },
+      {
+        "phrase": "train as a carpenter",
+        "translation": "接受木匠职业训练",
+        "example": "He trained as a carpenter after school. 他毕业后接受木匠训练。"
+      },
+      {
+        "phrase": "a carpenter by trade",
+        "translation": "以木匠为业",
+        "example": "Her grandfather was a carpenter by trade. 她祖父以木匠为业。"
+      },
+      {
+        "phrase": "a carpenter's workshop",
+        "translation": "木工作坊",
+        "example": "The table was made in a carpenter's workshop. 这张桌子在木工作坊制成。"
       }
     ],
     "synonyms": [
@@ -4876,23 +6746,34 @@
         "example": "Lu Ban, a carpenter in ancient China, was engaged in bionics. 鲁班——古代中国的一名木匠——从事着仿生学。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The carpenter repaired the oak staircase.",
+        "upgraded": "The carpenter repaired the oak staircase, replacing only the two damaged steps.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "A master carpenter taught the apprentices to measure accurately.",
+        "upgraded": "A master carpenter taught the apprentices to measure accurately, preventing costly mistakes in the workshop.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Lu Ban, a ______ (carpenter) in ancient China, produced the first saw.",
+        "question": "Lu Ban, a ____ (carpenter) in ancient China, produced the first saw.",
         "answer": "carpenter",
         "note": "同位语，说明 Lu Ban 的身份，单数用原形 carpenter，前有冠词 a。"
       },
       {
-        "type": "词形转换",
-        "question": "He learned the skill of ______ (carpenter) from his father.",
+        "type": "单句语法填空",
+        "question": "He learned the skill of ____ (carpenter) from his father.",
         "answer": "carpentry",
-        "note": "the skill of 后需名词表“木工手艺”，用 carpentry；carpenter 指“人”不合语义。"
+        "note": "原题型标注：词形转换。the skill of 后需名词表“木工手艺”，用 carpentry；carpenter 指“人”不合语义。"
       },
       {
         "type": "汉译英",
-        "question": "他做了多年木匠。",
+        "question": "他做了多年木匠。（答案：____）",
         "answer": "He worked as a carpenter for years.",
         "note": "work as a + 职业名词，表“做某职业”；carpenter 可数，前加 a。"
       }
@@ -4910,7 +6791,7 @@
     "sub_section": "",
     "original_sentence": "It could be said that as far back as 2,500 years ago, Lu Ban, a carpenter in ancient China, was engaged in bionics when he produced a saw by copying the shape of a leaf’s sharp teeth.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a tool with a toothed blade for cutting hard material (2) v. to cut with this tool",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4933,7 +6814,20 @@
         "example": "Yesterday I saw a rainbow. 昨天我看见了一道彩虹。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The carpenter selected a fine-toothed saw."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "They sawed the fallen branch into short logs."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He sawed carefully through the metal pipe."
+      }
+    ],
     "wordForms": {
       "noun": "saw 锯；sawdust 锯末；sawmill 锯木厂",
       "verb": "saw 锯（sawed, sawn/sawed）",
@@ -4962,6 +6856,26 @@
         "phrase": "an electric / a hand saw",
         "translation": "电锯／手锯",
         "example": "He cut the board with an electric saw. 他用电锯切割木板。"
+      },
+      {
+        "phrase": "a fine-toothed / circular saw",
+        "translation": "细齿锯/圆锯",
+        "example": "Use a fine-toothed saw on thin wood. 薄木料要用细齿锯。"
+      },
+      {
+        "phrase": "cut sth with a saw",
+        "translation": "用锯切割某物",
+        "example": "He cut the board with a hand saw. 他用手锯切割木板。"
+      },
+      {
+        "phrase": "saw a log into planks",
+        "translation": "把原木锯成木板（into 表结果）",
+        "example": "Workers sawed the log into planks. 工人把原木锯成木板。"
+      },
+      {
+        "phrase": "saw back and forth",
+        "translation": "来回拉锯",
+        "example": "She sawed back and forth across the branch. 她在树枝上来回拉锯。"
       }
     ],
     "synonyms": [
@@ -4995,23 +6909,34 @@
         "example": "The sawmill was covered with sawdust. 锯木厂里到处是锯末。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The carpenter selected a fine-toothed saw.",
+        "upgraded": "The carpenter selected a fine-toothed saw, ensuring a clean edge on the thin board.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "They sawed the fallen branch into short logs.",
+        "upgraded": "They sawed the fallen branch into short logs, making it easier to carry away.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Lu Ban made a saw and then ______ (saw) a big log into planks with it.",
+        "question": "Lu Ban made a saw and then ____ (saw) a big log into planks with it.",
         "answer": "sawed",
         "note": "and then 表示过去先后动作，与前文 made 时态一致，用过去式 sawed。"
       },
       {
         "type": "辨析选词",
-        "question": "用 saw / cut / chop 填空：He used an axe to ______ the firewood.",
+        "question": "用 saw / cut / chop 填空：He used an axe to ____ the firewood.",
         "answer": "chop",
         "note": "用斧头(axe)向下劈柴用 chop；saw 需用锯，cut 太笼统，与工具 axe 最匹配的是 chop。"
       },
       {
         "type": "完成句子",
-        "question": "他们锯掉了那根枯枝。They ______ ______ the dead branch. (锯掉)",
+        "question": "他们锯掉了那根枯枝。They ____ ____ the dead branch. (锯掉)",
         "answer": "sawed off",
         "note": "短语动词 saw off“锯掉”，一般过去时用 sawed；宾语为名词短语可置于 off 后。"
       }
@@ -5029,7 +6954,7 @@
     "sub_section": "",
     "original_sentence": "Thirdly, further exploration is required to determine how the natural solution will fit in with human needs.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to suit, match, or be compatible with a person, plan, system, or surrounding environment",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phr. v.",
@@ -5077,7 +7002,20 @@
         "example": "The jacket is a perfect fit. 这件夹克非常合身。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The revised timetable fits in with our travel plans."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The stone extension fits in with the village."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "His proposal does not fit in with current policy."
+      }
+    ],
     "wordForms": {
       "noun": "fitness 健康，健壮；适合性（physical fitness 身体素质）；fit（衣服的）合身；（疾病、情绪的）发作；fitting 试衣；（常复数）配件，装置",
       "verb": "fit（fitted, fitted；美式表\"合身\"亦作 fit, fit）合身；安装；与……相符",
@@ -5213,7 +7151,18 @@
         "example": "Physical fitness matters more than looks. 身体健康比外表更重要。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The revised timetable fits in with our travel plans.",
+        "upgraded": "The revised timetable fits in with our travel plans, allowing us to attend the morning meeting.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确直接影响。"
+      },
+      {
+        "original": "The stone extension fits in with the village.",
+        "upgraded": "The stone extension fits in with the village, preserving the character of nearby buildings.",
+        "techniques": "完整保留原句主语、事实与场景，追加结果或补充信息，增强逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
@@ -5223,13 +7172,13 @@
       },
       {
         "type": "汉译英",
-        "question": "还需要进一步探索来确定这一自然方案将如何与人类需求相契合。",
+        "question": "还需要进一步探索来确定这一自然方案将如何与人类需求相契合。（答案：____）",
         "answer": "Further exploration is required to determine how the natural solution will fit in with human needs.",
         "note": "课文原句回译；注意 be required 被动语态和 how 引导的宾语从句。"
       },
       {
         "type": "完成句子",
-        "question": "她性格外向，很快就和新同学打成一片。Being outgoing, she soon ____________ her new classmates.",
+        "question": "她性格外向，很快就和新同学打成一片。Being outgoing, she soon ____ her new classmates.",
         "answer": "fitted in with",
         "note": "过去式双写 t → fitted（美式亦可作 fit）；\"与人合得来\"必须带 with。"
       },

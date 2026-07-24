@@ -11,7 +11,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to feel or show deep sadness because someone has died or something valued has been lost",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -24,7 +24,20 @@
         "example": "In some cultures people mourn by wearing white. 在一些文化里人们穿白色服丧。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The town mourned the firefighters who died."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She still mourns the loss of her childhood home."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Families gathered to mourn together."
+      }
+    ],
     "wordForms": {
       "noun": "mourning（哀悼；服丧）; mourner（哀悼者，送葬者）",
       "verb": "mourn（mourned, mourned）",
@@ -58,6 +71,26 @@
         "phrase": "in mourning (for sb)",
         "translation": "（为某人）处于服丧、哀悼期",
         "example": "The country was in mourning for a week. 全国哀悼了一周。"
+      },
+      {
+        "phrase": "mourn a loved one",
+        "translation": "哀悼亲人（mourn 直接接人，不加 for）",
+        "example": "The family gathered to mourn a loved one. 一家人聚在一起哀悼亲人。"
+      },
+      {
+        "phrase": "deeply / publicly mourn",
+        "translation": "深切/公开哀悼（副词修饰）",
+        "example": "The nation publicly mourned the victims. 全国公开悼念遇难者。"
+      },
+      {
+        "phrase": "mourn the end of sth",
+        "translation": "为……的结束而惋惜",
+        "example": "Readers mourned the end of the long-running series. 读者惋惜这部长篇系列的完结。"
+      },
+      {
+        "phrase": "a period / day of mourning",
+        "translation": "哀悼期/哀悼日（mourning 作名词）",
+        "example": "The city declared a day of mourning. 该市宣布一天为哀悼日。"
       }
     ],
     "synonyms": [
@@ -91,29 +124,40 @@
         "example": "As the fragrance of old wooden furniture drifted into my nose, I found myself mourning my lost childhood, when I could relish carefree afternoons with my toys in our old apartment. 当旧木家具的气味飘入鼻中，我不禁开始追念逝去的童年——那时我可以在老公寓里和玩具一起享受无忧无虑的午后。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The town mourned the firefighters who died.",
+        "upgraded": "The town mourned the firefighters who died, holding a silent ceremony in the main square.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She still mourns the loss of her childhood home.",
+        "upgraded": "She still mourns the loss of her childhood home, remembering the summers spent in its garden.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The whole nation was in ______ (mourn) for the victims of the disaster.",
+        "question": "The whole nation was in ____ (mourn) for the victims of the disaster.",
         "answer": "mourning",
         "note": "固定短语 in mourning（服丧、哀悼中），此处需名词形式。"
       },
       {
         "type": "辨析选词",
-        "question": "用 mourn 或 grieve 填空：Families across the globe were ______ing the loss of loved ones.",
+        "question": "用 mourn 或 grieve 填空：Families across the globe were ____ing the loss of loved ones.",
         "answer": "mourn",
         "note": "【课件】mourn/grieve 辨析。mourn 可直接及物跟宾语（the loss of loved ones）；若用 grieve 通常须接介词 for/over。此处对应本单元主题句块，用 mourn。"
       },
       {
         "type": "完成句子",
-        "question": "当那家老书店关门时，我发现自己在追念逝去的童年。When the old bookshop closed, I found ______ ______ my lost childhood.",
+        "question": "当那家老书店关门时，我发现自己在追念逝去的童年。When the old bookshop closed, I found ____ ____ my lost childhood.",
         "answer": "myself mourning",
         "note": "find oneself doing sth 结构；mourn 及物直接跟宾语 my lost childhood。"
       },
       {
         "type": "汉译英",
-        "question": "全国哀悼了一周，人们悼念在灾难中逝去的至亲。",
+        "question": "全国哀悼了一周，人们悼念在灾难中逝去的至亲。（答案：____）",
         "answer": "The whole country was in mourning for a week, mourning the loss of the loved ones who had died in the disaster.",
         "note": "in mourning（服丧期）与动词 mourn the loss of 连用；who 引导定语从句修饰 loved ones。"
       }
@@ -131,7 +175,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to break suddenly into many small pieces (2) to destroy a belief, hope, confidence, or life completely",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -149,7 +193,20 @@
         "example": "I was absolutely shattered after the long journey. 长途跋涉后我累得精疲力竭。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The glass door shattered without warning."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The defeat shattered the team's confidence."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "War can shatter families and communities."
+      }
+    ],
     "wordForms": {
       "noun": "",
       "verb": "shatter（shattered, shattered）",
@@ -183,6 +240,26 @@
         "phrase": "a shattered dream / a shattered team",
         "translation": "破灭的梦想／被击垮的团队",
         "example": "His words left her with a shattered dream. 他的话让她的梦想化为泡影。"
+      },
+      {
+        "phrase": "shatter the silence",
+        "translation": "打破寂静（比 break 更有冲击力）",
+        "example": "A sudden scream shattered the silence. 一声尖叫突然打破了寂静。"
+      },
+      {
+        "phrase": "shatter an illusion / belief",
+        "translation": "粉碎幻想/信念",
+        "example": "The evidence shattered his illusion of safety. 证据粉碎了他的安全幻想。"
+      },
+      {
+        "phrase": "shatter completely / instantly",
+        "translation": "彻底/瞬间粉碎",
+        "example": "The thin pane shattered instantly. 薄玻璃瞬间碎裂。"
+      },
+      {
+        "phrase": "be emotionally shattered",
+        "translation": "精神上遭受重创（常用被动）",
+        "example": "She was emotionally shattered by the loss. 这次失去令她精神崩溃。"
       }
     ],
     "synonyms": [
@@ -229,34 +306,44 @@
     ],
     "sentenceUpgrade": [
       {
+        "original": "The glass door shattered without warning.",
+        "upgraded": "The glass door shattered without warning, scattering sharp fragments across the entrance.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The defeat shattered the team's confidence.",
+        "upgraded": "The defeat shattered the team's confidence, leaving several players staring silently at the floor.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      },
+      {
         "original": "World War II had destroyed people's lives everywhere.",
         "upgraded": "World War II had shattered people's lives everywhere.",
-        "translation": "二战摧毁了各地人们的生活。",
-        "note": "【课件】用 shatter 替换普通的 destroy，更具“瞬间击碎、彻底崩塌”的冲击力与画面感。"
+        "techniques": "【课件】用 shatter 替换普通的 destroy，更具“瞬间击碎、彻底崩塌”的冲击力与画面感。",
+        "translation": "二战摧毁了各地人们的生活。"
       }
     ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The glass slipped from her hand and ______ (shatter) into pieces on the floor.",
+        "question": "The glass slipped from her hand and ____ (shatter) into pieces on the floor.",
         "answer": "shattered",
         "note": "记叙过去，用一般过去时；shatter into pieces 意为“碎成碎片”，此处作不及物动词。"
       },
       {
         "type": "同义句转换",
-        "question": "The bad news destroyed all our hopes. → The bad news ______ all our hopes.",
+        "question": "The bad news destroyed all our hopes. → The bad news ____ all our hopes.",
         "answer": "shattered",
         "note": "shatter one's hopes 表“粉碎希望”，比 destroy 更具情感冲击，语义等价。"
       },
       {
         "type": "完成句子",
-        "question": "一片绝望笼罩着他，击碎了他心中最后一丝希望。A cloud of hopelessness hovered over him, ______ the last thread of hope in his mind.",
+        "question": "一片绝望笼罩着他，击碎了他心中最后一丝希望。A cloud of hopelessness hovered over him, ____ the last thread of hope in his mind.",
         "answer": "shattering",
         "note": "现在分词作结果状语，逻辑主语是前面的 a cloud of hopelessness。"
       },
       {
         "type": "汉译英",
-        "question": "他的话让她的梦想破碎，她精心规划的未来仿佛顷刻间灰飞烟灭。",
+        "question": "他的话让她的梦想破碎，她精心规划的未来仿佛顷刻间灰飞烟灭。（答案：____）",
         "answer": "His words left her with a shattered dream, and the future she had meticulously planned seemed to vanish in an instant.",
         "note": "shattered 作形容词修饰 dream；leave sb with sth 结构；vanish in an instant 表“顷刻消失”。"
       }
@@ -274,7 +361,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the grey powder left after something has burned; in the plural, the remains of a burned object or dead person",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. (pl. ashes)",
@@ -297,7 +384,20 @@
         "example": "The table is made of ash. 这张桌子是白蜡木做的。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Fine ash covered the streets after the eruption."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Only ashes remained after the warehouse fire."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She swept the cold ash from the fireplace."
+      }
+    ],
     "wordForms": {
       "noun": "ash（灰；白蜡树）; ashes（灰烬，废墟；骨灰）",
       "verb": "",
@@ -337,6 +437,26 @@
         "phrase": "cigarette ash / volcanic ash",
         "translation": "烟灰／火山灰",
         "example": "Volcanic ash covered the fields for miles. 火山灰覆盖了绵延数英里的田野。"
+      },
+      {
+        "phrase": "an ash cloud",
+        "translation": "火山灰云（可数 cloud）",
+        "example": "An ash cloud drifted across the coast. 一团火山灰云飘过海岸。"
+      },
+      {
+        "phrase": "ash falls / settles",
+        "translation": "灰烬落下/沉降（ash 作不可数名词）",
+        "example": "Ash settled on every windowsill. 灰烬落在每个窗台上。"
+      },
+      {
+        "phrase": "ash-covered ground",
+        "translation": "被灰烬覆盖的地面（复合形容词）",
+        "example": "Footprints crossed the ash-covered ground. 脚印穿过灰烬覆盖的地面。"
+      },
+      {
+        "phrase": "scatter / preserve sb's ashes",
+        "translation": "撒放/保存某人的骨灰（ashes 用复数）",
+        "example": "The family scattered his ashes at sea. 家人在海上撒放了他的骨灰。"
       }
     ],
     "synonyms": [
@@ -363,25 +483,41 @@
         "type": "构词法·-en/-y 派生形容词",
         "expression": "ash → ashy（灰白的）/ ashen（面色灰白的）",
         "example": "His face turned ashen when he heard the news. 听到这个消息时他脸色变得灰白。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "ash-covered ground",
+        "example": "Footprints crossed the ash-covered ground. 脚印穿过灰烬覆盖的地面。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Fine ash covered the streets after the eruption.",
+        "upgraded": "Fine ash covered the streets after the eruption, forcing residents to remain indoors.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Only ashes remained after the warehouse fire.",
+        "upgraded": "Only ashes remained after the warehouse fire, marking where the wooden roof had stood.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 ash 或 ashes 填空：The forest fire reduced hundreds of homes to ______.",
+        "question": "用 ash 或 ashes 填空：The forest fire reduced hundreds of homes to ____.",
         "answer": "ashes",
         "note": "固定短语 reduce sth to ashes（化为灰烬），此处用复数 ashes。"
       },
       {
         "type": "完成句子",
-        "question": "就在这彻底毁灭的废墟之上，联合国诞生了。______ ______ ______ of this utter destruction rose the United Nations.",
+        "question": "就在这彻底毁灭的废墟之上，联合国诞生了。____ ____ ____ of this utter destruction rose the United Nations.",
         "answer": "From the ashes",
         "note": "还原课文原句词块 from the ashes of...；地点状语置于句首引起主谓倒装 rose the United Nations。"
       },
       {
         "type": "汉译英",
-        "question": "像凤凰一样，这座城市从战争的废墟中重生。",
+        "question": "像凤凰一样，这座城市从战争的废墟中重生。（答案：____）",
         "answer": "Like a phoenix, the city rose from the ashes of the war.",
         "note": "rise from the ashes 浴火重生；the ashes 用复数表“废墟”。"
       }
@@ -399,7 +535,7 @@
     "sub_section": "",
     "original_sentence": "From the ashes of this utter destruction rose the organization that we now know as the United Nations (UN), offering hope to a world desperate for lasting peace and security.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) adj. complete or absolute (2) v. to say something or make a sound",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -412,7 +548,20 @@
         "example": "She left without uttering a word. 她一句话没说就走了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The announcement caused utter confusion in the hall."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He uttered a brief warning before the lights failed."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The proposal was dismissed as utter nonsense."
+      }
+    ],
     "wordForms": {
       "noun": "utterance（言辞，话语；说话，发声）",
       "verb": "utter（uttered, uttered，说出，发出）",
@@ -446,6 +595,26 @@
         "phrase": "utter a word / a sound (v.)",
         "translation": "（动词）说出一个字／发出一点声音",
         "example": "He was too frightened to utter a single word. 他吓得说不出一个字。"
+      },
+      {
+        "phrase": "utter despair / disappointment",
+        "translation": "彻底的绝望/失望（只作前置定语）",
+        "example": "His face showed utter despair. 他脸上写满绝望。"
+      },
+      {
+        "phrase": "utter shock / disbelief",
+        "translation": "无比震惊/完全不信",
+        "example": "She stared at the result in utter disbelief. 她难以置信地盯着结果。"
+      },
+      {
+        "phrase": "utter a cry / warning",
+        "translation": "发出喊声/说出警告（utter 作动词）",
+        "example": "The child uttered a frightened cry. 孩子发出惊恐的叫声。"
+      },
+      {
+        "phrase": "utterly impossible / exhausted",
+        "translation": "完全不可能/筋疲力尽（副词 utterly）",
+        "example": "The original deadline was utterly impossible. 原定截止日期完全不现实。"
       }
     ],
     "synonyms": [
@@ -490,29 +659,40 @@
         "example": "The utter failure nearly tore the team apart. 这场彻底的失败几乎使整个团队分崩离析。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The announcement caused utter confusion in the hall.",
+        "upgraded": "The announcement caused utter confusion in the hall, as everyone searched for the correct exit.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "He uttered a brief warning before the lights failed.",
+        "upgraded": "He uttered a brief warning before the lights failed, prompting the crew to stop the machine.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "辨析选词",
-        "question": "选词：The hall fell into ______ (utter / complete) silence, and no one dared to speak. 哪个更强调死寂到极点？",
+        "question": "选词：The hall fell into ____ (utter / complete) silence, and no one dared to speak. 哪个更强调死寂到极点？",
         "answer": "utter",
         "note": "utter 语气最强、感情色彩浓，且只作定语；此处修饰 silence 表“一片死寂”，比 complete 更传神。"
       },
       {
         "type": "单句语法填空",
-        "question": "To my ______ (utter) amazement, the shy boy won the first prize.",
+        "question": "To my ____ (utter) amazement, the shy boy won the first prize.",
         "answer": "utter",
         "note": "to one's utter amazement 是固定结构，utter 作形容词修饰名词 amazement。"
       },
       {
-        "type": "词性辨析/完成句子",
-        "question": "He was so frightened that he could not ______ a single word. （用 utter 的适当词性填空）",
+        "type": "完成句子",
+        "question": "He was so frightened that he could not ____ a single word. （用 utter 的适当词性填空）",
         "answer": "utter",
-        "note": "此处为动词用法（熟词僻义“说出”）：utter a word 说出一个字；情态动词 could 后用原形。"
+        "note": "原题型标注：词性辨析/完成句子。此处为动词用法（熟词僻义“说出”）：utter a word 说出一个字；情态动词 could 后用原形。"
       },
       {
         "type": "汉译英",
-        "question": "就在这彻底毁灭的废墟之上，一个给世界带来和平希望的组织诞生了。",
+        "question": "就在这彻底毁灭的废墟之上，一个给世界带来和平希望的组织诞生了。（答案：____）",
         "answer": "From the ashes of this utter destruction rose an organization that brought the world hope for peace.",
         "note": "还原课文句式：地点状语 From the ashes of this utter destruction 置于句首引起完全倒装 rose an organization；utter 作定语修饰 destruction。"
       }
@@ -530,7 +710,7 @@
     "sub_section": "",
     "original_sentence": "All of them work together to maintain international peace and security, protect human rights, deliver humanitarian aid, promote sustainable development and uphold international law.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "concerned with reducing human suffering and protecting people's welfare, especially during crises",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -543,7 +723,20 @@
         "example": "He was a soldier and also a humanitarian. 他既是军人，也是一位人道主义者。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The agency delivered humanitarian aid to remote villages."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The conflict created a severe humanitarian crisis."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Several humanitarians spoke at the peace conference."
+      }
+    ],
     "wordForms": {
       "noun": "humanitarian（人道主义者）; humanitarianism（人道主义）; human（人）; humanity（人类；人性；仁慈）",
       "verb": "",
@@ -577,6 +770,26 @@
         "phrase": "a humanitarian (n.)",
         "translation": "（名词）人道主义者，慈善家",
         "example": "She is respected as a great humanitarian. 她作为一位伟大的人道主义者受人敬仰。"
+      },
+      {
+        "phrase": "a humanitarian worker / organization",
+        "translation": "人道工作者/人道主义组织",
+        "example": "Humanitarian workers entered the flooded district. 人道工作者进入洪灾地区。"
+      },
+      {
+        "phrase": "a humanitarian response",
+        "translation": "人道主义响应",
+        "example": "The emergency requires a coordinated humanitarian response. 这场紧急情况需要协调的人道响应。"
+      },
+      {
+        "phrase": "international humanitarian law",
+        "translation": "国际人道法",
+        "example": "The course introduces international humanitarian law. 该课程介绍国际人道法。"
+      },
+      {
+        "phrase": "humanitarian needs / concerns",
+        "translation": "人道主义需求/关切",
+        "example": "The talks focused on urgent humanitarian needs. 会谈聚焦紧迫人道需求。"
       }
     ],
     "synonyms": [
@@ -609,25 +822,41 @@
         "type": "构词法·-itarian 词族",
         "expression": "human → humane → humanitarian → humanitarianism / humanity",
         "example": "Driven by humanity, the humanitarian devoted his life to humanitarian work. 出于仁爱之心，这位人道主义者毕生投身人道事业。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "international humanitarian law",
+        "example": "The course introduces international humanitarian law. 该课程介绍国际人道法。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The agency delivered humanitarian aid to remote villages.",
+        "upgraded": "The agency delivered humanitarian aid to remote villages, supplying food and medicine before winter.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The conflict created a severe humanitarian crisis.",
+        "upgraded": "The conflict created a severe humanitarian crisis, displacing thousands of families within weeks.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "They work together to deliver ______ (humanity) aid to the war-torn regions.",
+        "question": "They work together to deliver ____ (humanity) aid to the war-torn regions.",
         "answer": "humanitarian",
         "note": "此处需形容词修饰 aid，用 humanitarian（人道主义的），humanitarian aid 为固定搭配。"
       },
       {
         "type": "辨析选词",
-        "question": "选词：Animals in the shelter must be treated in a ______ (humane / humanitarian) way.",
+        "question": "选词：Animals in the shelter must be treated in a ____ (humane / humanitarian) way.",
         "answer": "humane",
         "note": "形容“对待方式仁慈、不残忍”用 humane；humanitarian 用于救助苦难的援助/危机，不形容对待方式。"
       },
       {
         "type": "汉译英",
-        "question": "出于人道主义考虑，各国携手向灾区提供人道主义援助。",
+        "question": "出于人道主义考虑，各国携手向灾区提供人道主义援助。（答案：____）",
         "answer": "On humanitarian grounds, countries worked together to deliver humanitarian aid to the disaster-hit areas.",
         "note": "on humanitarian grounds（出于人道主义考虑）；deliver humanitarian aid 提供人道主义援助。"
       }
@@ -645,7 +874,7 @@
     "sub_section": "",
     "original_sentence": "All of them work together to maintain international peace and security, protect human rights, deliver humanitarian aid, promote sustainable development and uphold international law.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to support and maintain a law, principle, or decision (2) for a court to confirm an earlier judgment",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -658,7 +887,20 @@
         "example": "The Court of Appeal upheld the ruling. 上诉法院维持了原裁定。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Judges must uphold the rule of law."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The appeal court upheld the original ruling."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Teachers should uphold high professional standards."
+      }
+    ],
     "wordForms": {
       "noun": "upholder（支持者，维护者）",
       "verb": "uphold（upheld, upheld，维护，维持）",
@@ -687,6 +929,26 @@
         "phrase": "uphold an appeal",
         "translation": "（法庭）受理／支持上诉",
         "example": "The court upheld his appeal. 法院支持了他的上诉。"
+      },
+      {
+        "phrase": "uphold professional standards",
+        "translation": "维护职业标准",
+        "example": "The association upholds professional standards. 协会维护职业标准。"
+      },
+      {
+        "phrase": "uphold a conviction / sentence",
+        "translation": "维持有罪判决/刑罚（法律用语）",
+        "example": "The higher court upheld the conviction. 上级法院维持有罪判决。"
+      },
+      {
+        "phrase": "uphold a commitment",
+        "translation": "履行并坚持承诺",
+        "example": "The laboratory upheld its commitment to transparency. 实验室履行了透明承诺。"
+      },
+      {
+        "phrase": "a duty to uphold sth",
+        "translation": "维护某事的责任（不定式作后置定语）",
+        "example": "Officials have a duty to uphold public trust. 官员有责任维护公众信任。"
       }
     ],
     "synonyms": [
@@ -719,31 +981,47 @@
         "type": "构词法·up- 合成动词群",
         "expression": "uphold（维护）/ upgrade（升级）/ uproot（连根拔起）/ uphill（艰难的）",
         "example": "We must uphold justice even when the road ahead is uphill. 即便前路艰难，我们也必须坚守正义。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "uphold a commitment",
+        "example": "The laboratory upheld its commitment to transparency. 实验室履行了透明承诺。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Judges must uphold the rule of law.",
+        "upgraded": "Judges must uphold the rule of law, protecting citizens from arbitrary decisions.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The appeal court upheld the original ruling.",
+        "upgraded": "The appeal court upheld the original ruling, bringing the long legal dispute to an end.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The higher court ______ (uphold) the original verdict last week.",
+        "question": "The higher court ____ (uphold) the original verdict last week.",
         "answer": "upheld",
         "note": "uphold 为不规则动词，过去式 upheld；此处法庭“维持原判”的熟词僻义。"
       },
       {
         "type": "辨析选词",
-        "question": "选词：It is every citizen's duty to ______ (uphold / defend) the law and social justice.",
+        "question": "选词：It is every citizen's duty to ____ (uphold / defend) the law and social justice.",
         "answer": "uphold",
         "note": "维护抽象的“法律、正义”用 uphold，强调坚守使其不被推翻；defend 多指抵御具体攻击。"
       },
       {
         "type": "完成句子",
-        "question": "各国携手维护国际和平，保护人权，坚守国际法。All of them work together to ______ peace, protect human rights and ______ international law.",
+        "question": "各国携手维护国际和平，保护人权，坚守国际法。All of them work together to ____ peace, protect human rights and ____ international law.",
         "answer": "maintain; uphold",
         "note": "maintain peace 维持和平（使状态持续）；uphold law 坚守法律（不使其被破坏），二者呼应课文原句的搭配差异。"
       },
       {
         "type": "汉译英",
-        "question": "尽管前路艰难，学校仍坚守诚实的悠久传统。",
+        "question": "尽管前路艰难，学校仍坚守诚实的悠久传统。（答案：____）",
         "answer": "Although the road ahead was hard, the school still upheld its long tradition of honesty.",
         "note": "uphold a tradition 坚守传统；upheld 为过去式。"
       }
@@ -761,7 +1039,7 @@
     "sub_section": "",
     "original_sentence": "With regard to poverty, the UN estimates that around 10% of the world’s population, including one in six children, live in extreme poverty, unable to fulfil their most basic needs.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to do what was promised, required, or expected (2) to achieve a hope or develop an ability fully",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -789,7 +1067,20 @@
         "example": "Volunteering makes her feel deeply fulfilled. 志愿服务让她深感充实。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The supplier fulfilled every condition in the contract."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Volunteering helped her fulfil a lifelong ambition."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The new library fulfils an important social function."
+      }
+    ],
     "wordForms": {
       "noun": "fulfilment (英) / fulfillment (美) 实现，履行，成就感",
       "verb": "fulfil (英, -ll-) / fulfill (美)；过去式/过去分词 fulfilled；现在分词 fulfilling",
@@ -828,6 +1119,26 @@
         "phrase": "fulfil a role / function",
         "translation": "起…作用，发挥…职能",
         "example": "The UN fulfils a vital role in world peace. 联合国在世界和平中发挥着重要作用。"
+      },
+      {
+        "phrase": "fulfil an obligation",
+        "translation": "履行义务（正式用语）",
+        "example": "Both parties fulfilled their legal obligations. 双方履行了法律义务。"
+      },
+      {
+        "phrase": "fulfil expectations",
+        "translation": "达到预期",
+        "example": "The programme failed to fulfil expectations. 该项目未能达到预期。"
+      },
+      {
+        "phrase": "feel fulfilled",
+        "translation": "感到充实/有成就感（fulfilled 作表语）",
+        "example": "She feels fulfilled in her teaching role. 她在教学岗位上感到很有成就感。"
+      },
+      {
+        "phrase": "a fulfilling career / experience",
+        "translation": "有成就感的事业/经历（-ing 修饰事物）",
+        "example": "Nursing can be a fulfilling career. 护理可以是很有成就感的事业。"
       }
     ],
     "synonyms": [
@@ -867,29 +1178,40 @@
         "example": "The UN has been committed to fulfilling its ambition of ending extreme poverty. 联合国一直致力于实现消除极端贫困的宏愿。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The supplier fulfilled every condition in the contract.",
+        "upgraded": "The supplier fulfilled every condition in the contract, allowing the partnership to continue.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Volunteering helped her fulfil a lifelong ambition.",
+        "upgraded": "Volunteering helped her fulfil a lifelong ambition, bringing medical care to isolated communities.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The UN has been committed to ______ (fulfil) its ambition of ending poverty.",
+        "question": "The UN has been committed to ____ (fulfil) its ambition of ending poverty.",
         "answer": "fulfilling",
         "note": "be committed to 中 to 为介词，后接动名词；fulfil 现在分词双写 l。"
       },
       {
         "type": "完成句子",
-        "question": "约10%的人口无法满足他们最基本的需求。About 10% of the population are ______ ______ ______ their most basic needs.",
+        "question": "约10%的人口无法满足他们最基本的需求。About 10% of the population are ____ ____ ____ their most basic needs.",
         "answer": "unable to fulfil",
         "note": "be unable to do sth 结构；fulfil one's basic needs 满足基本需求。"
       },
       {
         "type": "汉译英",
-        "question": "志愿服务让她深感充实（有成就感）。",
+        "question": "志愿服务让她深感充实（有成就感）。（答案：____）",
         "answer": "Volunteering makes her feel deeply fulfilled.",
         "note": "『感到满足/有成就感』用形容词 fulfilled（被动含义），不用 fulfilling。make sb do 后接原形 feel。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (fulfil / achieve)：Only those who ______ all the requirements can register for the programme.",
+        "question": "选词填空 (fulfil / achieve)：Only those who ____ all the requirements can register for the programme.",
         "answer": "fulfil",
         "note": "fulfil the requirements 符合要求，为固定搭配；achieve 不接 requirements。"
       }
@@ -907,7 +1229,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a metric unit of liquid volume equal to 1,000 millilitres",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -920,7 +1242,20 @@
         "example": "He drives a two-litre car. 他开一辆两升排量的车。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The aquarium contains nearly two hundred litres of seawater."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The recipe requires three quarters of a litre of coconut milk."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The engine uses six litres of fuel per hour."
+      }
+    ],
     "wordForms": {
       "noun": "litre (英) / liter (美) 升；millilitre/milliliter 毫升；centilitre 厘升",
       "verb": "",
@@ -949,6 +1284,26 @@
         "phrase": "a 1.5-litre bottle",
         "translation": "一个1.5升的瓶子",
         "example": "She bought a 1.5-litre bottle of mineral water. 她买了一瓶1.5升的矿泉水。"
+      },
+      {
+        "phrase": "half a litre",
+        "translation": "半升（half a + 单数单位）",
+        "example": "Add half a litre of stock. 加入半升高汤。"
+      },
+      {
+        "phrase": "litres per 100 kilometres",
+        "translation": "每百公里若干升（油耗单位）",
+        "example": "The car uses five litres per 100 kilometres. 该车百公里耗油五升。"
+      },
+      {
+        "phrase": "a two-litre engine",
+        "translation": "两升发动机（复合形容词用单数 litre）",
+        "example": "The model has a two-litre engine. 该车型配有两升发动机。"
+      },
+      {
+        "phrase": "a capacity of ... litres",
+        "translation": "容量为……升",
+        "example": "The container has a capacity of eighty litres. 该容器容量为八十升。"
       }
     ],
     "synonyms": [
@@ -975,25 +1330,41 @@
         "type": "短语群·数量表达",
         "expression": "a litre of / litres of / per litre / by the litre（按升计）；与排量连用：a 2.0-litre engine",
         "example": "Milk is sold by the litre here. 这里牛奶按升出售。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a two-litre engine",
+        "example": "The model has a two-litre engine. 该车型配有两升发动机。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The aquarium contains nearly two hundred litres of seawater.",
+        "upgraded": "The aquarium contains nearly two hundred litres of seawater, creating enough space for several tropical fish.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The recipe requires three quarters of a litre of coconut milk.",
+        "upgraded": "The recipe requires three quarters of a litre of coconut milk, giving the curry a smooth texture.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "We are advised to drink about two ______ (litre) of water every day.",
+        "question": "We are advised to drink about two ____ (litre) of water every day.",
         "answer": "litres",
         "note": "litre 为可数名词，two 后用复数 litres。"
       },
       {
         "type": "选词填空",
-        "question": "用 litre 的适当形式填空（作定语）：He has just bought a two-______ car. (litre)",
+        "question": "用 litre 的适当形式填空（作定语）：He has just bought a two-____ car. (litre)",
         "answer": "litre",
         "note": "数词+名词作定语（复合形容词）时名词用单数并加连字符：a two-litre car。"
       },
       {
         "type": "汉译英",
-        "question": "汽油价格涨到了每升八元。",
+        "question": "汽油价格涨到了每升八元。（答案：____）",
         "answer": "The price of petrol rose to eight yuan per litre.",
         "note": "per litre 每升；per 后接单数名词。"
       }
@@ -1011,7 +1382,7 @@
     "sub_section": "",
     "original_sentence": "With this end in view, the UN has called for transboundary water cooperation through a legal framework for water resources management.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a basic structure of rules, ideas, or parts supporting a system (2) a supporting physical frame",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1029,7 +1400,20 @@
         "example": "The bridge has a strong iron framework. 这座桥有坚固的铁质构架。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The treaty created a framework for regional cooperation."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Engineers inspected the steel framework of the roof."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The theory provides a useful analytical framework."
+      }
+    ],
     "wordForms": {
       "noun": "framework 框架，机制；frame 框架，画框，体格",
       "verb": "frame vt. 构筑，制定；给…镶框；陷害",
@@ -1063,6 +1447,26 @@
         "phrase": "the steel / wooden framework",
         "translation": "钢／木构架",
         "example": "The building's steel framework was almost complete. 大楼的钢结构框架已近完工。"
+      },
+      {
+        "phrase": "a policy framework",
+        "translation": "政策框架",
+        "example": "The report proposes a policy framework for housing. 报告提出住房政策框架。"
+      },
+      {
+        "phrase": "a framework agreement",
+        "translation": "框架协议",
+        "example": "The two sides signed a framework agreement. 双方签署了框架协议。"
+      },
+      {
+        "phrase": "a framework consists of ...",
+        "translation": "框架由……构成（consist of 不用于被动）",
+        "example": "The framework consists of four principles. 该框架由四项原则构成。"
+      },
+      {
+        "phrase": "fit / integrate sth into a framework",
+        "translation": "把某物纳入框架",
+        "example": "New measures must fit into the existing framework. 新措施必须纳入现有框架。"
       }
     ],
     "synonyms": [
@@ -1095,25 +1499,41 @@
         "type": "构词法·合成名词 -work",
         "expression": "frame+work → framework；同类合成：network(网络)、groundwork(基础)、teamwork(协作)、coursework(课业)",
         "example": "The treaty laid the groundwork and framework for future talks. 该条约为未来会谈奠定了基础和框架。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a framework consists of ...",
+        "example": "The framework consists of four principles. 该框架由四项原则构成。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The treaty created a framework for regional cooperation.",
+        "upgraded": "The treaty created a framework for regional cooperation, giving neighbouring states shared procedures.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Engineers inspected the steel framework of the roof.",
+        "upgraded": "Engineers inspected the steel framework of the roof, finding corrosion near two joints.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "联合国呼吁通过法律框架进行跨界水资源合作。The UN called for transboundary water cooperation through a legal ______ for water resources management.",
+        "question": "联合国呼吁通过法律框架进行跨界水资源合作。The UN called for transboundary water cooperation through a legal ____ for water resources management.",
         "answer": "framework",
         "note": "a legal framework for sth 某事的法律框架；for 引出框架针对的对象。"
       },
       {
         "type": "短语填空",
-        "question": "用介词填空：All decisions were made ______ the framework ______ the agreement.",
+        "question": "用介词填空：All decisions were made ____ the framework ____ the agreement.",
         "answer": "within; of",
         "note": "within the framework of 在…框架内，固定搭配。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (framework / frame)：The photo hangs on the wall in a golden ______.",
+        "question": "选词填空 (framework / frame)：The photo hangs on the wall in a golden ____.",
         "answer": "frame",
         "note": "具体『画框』用 frame；抽象体系框架才用 framework。"
       }
@@ -1131,7 +1551,7 @@
     "sub_section": "",
     "original_sentence": "These figures are both depressing and distressing.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "causing anxiety, sorrow, pain, or emotional suffering",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1144,7 +1564,20 @@
         "example": "The images were distressing viewers across the country. 这些画面正让全国的观众感到痛苦。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The documentary contains several distressing scenes."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "She found the uncertainty deeply distressing."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "It was distressing to hear the animal cry."
+      }
+    ],
     "wordForms": {
       "noun": "distress 痛苦，苦恼；忧虑；危难",
       "verb": "distress vt. 使痛苦，使苦恼",
@@ -1184,6 +1617,26 @@
         "phrase": "find it distressing to do sth",
         "translation": "觉得做某事令人痛苦",
         "example": "Many people find it distressing to watch such scenes. 许多人觉得看这样的场面令人痛苦。"
+      },
+      {
+        "phrase": "a distressing report / image",
+        "translation": "令人痛苦的报告/画面",
+        "example": "The report contains distressing images. 报告含有令人痛苦的画面。"
+      },
+      {
+        "phrase": "increasingly distressing",
+        "translation": "越来越令人苦恼",
+        "example": "The silence became increasingly distressing. 沉默越来越令人不安。"
+      },
+      {
+        "phrase": "distressing news",
+        "translation": "令人痛心的消息",
+        "example": "They received distressing news from home. 他们收到了家里令人痛心的消息。"
+      },
+      {
+        "phrase": "be distressed by / about sth",
+        "translation": "因某事感到痛苦（人作主语用 distressed）",
+        "example": "She was distressed by the sudden change. 突然的变化令她苦恼。"
       }
     ],
     "synonyms": [
@@ -1228,29 +1681,40 @@
         "example": "The distressing news left the whole family distressed. 这令人痛心的消息使全家陷入痛苦。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The documentary contains several distressing scenes.",
+        "upgraded": "The documentary contains several distressing scenes, showing families separated by the disaster.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She found the uncertainty deeply distressing.",
+        "upgraded": "She found the uncertainty deeply distressing, because no one could explain the delay.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "These figures are both depressing and ______ (distress) to everyone who reads the report.",
+        "question": "These figures are both depressing and ____ (distress) to everyone who reads the report.",
         "answer": "distressing",
         "note": "修饰事物（figures 令人痛苦）用 -ing 形容词 distressing。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (distressing / distressed)：The parents were deeply ______ when they heard about the accident.",
+        "question": "选词填空 (distressing / distressed)：The parents were deeply ____ when they heard about the accident.",
         "answer": "distressed",
         "note": "修饰人的感受用 -ed 形容词 distressed；此处 parents 感到痛苦。"
       },
       {
         "type": "同义句转换",
-        "question": "It is very painful to watch such scenes. → It is very ______ to watch such scenes.",
+        "question": "It is very painful to watch such scenes. → It is very ____ to watch such scenes.",
         "answer": "distressing",
         "note": "painful → distressing，均可作 it is + adj. + to do 结构中的表语，修饰『看…这件事』。"
       },
       {
         "type": "汉译英",
-        "question": "她曾困于令人苦恼的自我怀疑循环之中。",
+        "question": "她曾困于令人苦恼的自我怀疑循环之中。（答案：____）",
         "answer": "She had once been trapped in a distressing cycle of self-doubt.",
         "note": "be trapped in 陷于/困于；distressing 作定语修饰 cycle。"
       }
@@ -1268,7 +1732,7 @@
     "sub_section": "",
     "original_sentence": "It is the belief of the UN that education is the most basic building block of every society and the single best investment countries can make to build prosperous, healthy and fair societies.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a basic unit, element, or idea from which something larger and more complex is formed",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1281,7 +1745,20 @@
         "example": "He built a tower out of building blocks. 他用积木搭了一座塔。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Trust is a basic building block of teamwork."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Amino acids are the building blocks of proteins."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Each lesson adds another building block to her knowledge."
+      }
+    ],
     "wordForms": {
       "noun": "building block（复合名词，复数 building blocks）；同义 cornerstone 基石",
       "verb": "",
@@ -1315,6 +1792,26 @@
         "phrase": "play with building blocks",
         "translation": "玩积木",
         "example": "The children love playing with building blocks. 孩子们喜欢玩积木。"
+      },
+      {
+        "phrase": "serve as a building block",
+        "translation": "充当构成要素/基础",
+        "example": "This agreement serves as a building block for peace. 该协议是和平的基础。"
+      },
+      {
+        "phrase": "combine simple building blocks",
+        "translation": "组合简单构成单元",
+        "example": "Chemists combine simple building blocks into new materials. 化学家把简单单元组合成新材料。"
+      },
+      {
+        "phrase": "a biological building block",
+        "translation": "生物学基本组成单元",
+        "example": "DNA carries instructions for each biological building block. DNA携带每个生物组成单元的指令。"
+      },
+      {
+        "phrase": "build on this building block",
+        "translation": "以这一基础进一步发展",
+        "example": "Later lessons build on this building block. 后续课程在此基础上展开。"
       }
     ],
     "synonyms": [
@@ -1347,25 +1844,41 @@
         "type": "构词法·building + 名词复合",
         "expression": "building block(构成要素/积木)；building site(工地)、building material(建材)、stumbling block(绊脚石)",
         "example": "Every stumbling block can become a building block for growth. 每块绊脚石都能成为成长的基石。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a biological building block",
+        "example": "DNA carries instructions for each biological building block. DNA携带每个生物组成单元的指令。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Trust is a basic building block of teamwork.",
+        "upgraded": "Trust is a basic building block of teamwork, enabling colleagues to share responsibility.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Amino acids are the building blocks of proteins.",
+        "upgraded": "Amino acids are the building blocks of proteins, joining in different sequences to form complex molecules.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "联合国相信教育是每个社会最基本的构成要素。The UN believes that education is the most basic building ______ of every society.",
+        "question": "联合国相信教育是每个社会最基本的构成要素。The UN believes that education is the most basic building ____ of every society.",
         "answer": "block",
         "note": "building block 复合名词；此处单数强调『最基本的一块』。"
       },
       {
         "type": "汉译英",
-        "question": "细胞是一切生物的基本组成单位。",
+        "question": "细胞是一切生物的基本组成单位。（答案：____）",
         "answer": "Cells are the building blocks of all living things.",
         "note": "『…的基本组成单位』用 the building blocks of sth，通常用复数。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (building block / cornerstone)：Trust is the ______ of any lasting friendship, the single most important part.",
+        "question": "选词填空 (building block / cornerstone)：Trust is the ____ of any lasting friendship, the single most important part.",
         "answer": "cornerstone",
         "note": "强调『最重要的那一块基石』用 cornerstone（多单数）；building blocks 强调多个构成单位。"
       }
@@ -1383,7 +1896,7 @@
     "sub_section": "",
     "original_sentence": "It is the belief of the UN that education is the most basic building block of every society and the single best investment countries can make to build prosperous, healthy and fair societies.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "successful, wealthy, and economically strong",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1401,7 +1914,20 @@
         "example": "They ran a prosperous farm for years. 他们经营一个成功的农场多年。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The port grew prosperous through international trade."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "They hope to build a peaceful, prosperous society."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her family ran a prosperous farming business."
+      }
+    ],
     "wordForms": {
       "noun": "prosperity 繁荣，兴旺，昌盛",
       "verb": "prosper vi. 繁荣，兴旺，成功；vt. 使成功",
@@ -1441,6 +1967,26 @@
         "phrase": "contribute to a more prosperous society",
         "translation": "【课件·仿写】助力建设更繁荣的社会",
         "example": "Lifelong learning contributes to the building of a more prosperous society. 终身学习有助于建设更繁荣的社会。"
+      },
+      {
+        "phrase": "a prosperous region / community",
+        "translation": "繁荣的地区/社区",
+        "example": "The railway helped create a prosperous region. 铁路帮助形成繁荣地区。"
+      },
+      {
+        "phrase": "economically prosperous",
+        "translation": "经济繁荣的（副词修饰）",
+        "example": "The coastal cities became economically prosperous. 沿海城市经济变得繁荣。"
+      },
+      {
+        "phrase": "a prosperous period / era",
+        "translation": "繁荣时期/时代",
+        "example": "The museum recalls a prosperous era. 博物馆再现了一个繁荣时代。"
+      },
+      {
+        "phrase": "peaceful and prosperous",
+        "translation": "和平繁荣的（并列形容词）",
+        "example": "Citizens want a peaceful and prosperous future. 市民希望拥有和平繁荣的未来。"
       }
     ],
     "synonyms": [
@@ -1480,29 +2026,40 @@
         "example": "As the economy prospers, the country enjoys lasting prosperity. 随着经济繁荣，国家享有持久的昌盛。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The port grew prosperous through international trade.",
+        "upgraded": "The port grew prosperous through international trade, creating jobs throughout the surrounding region.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "They hope to build a peaceful, prosperous society.",
+        "upgraded": "They hope to build a peaceful, prosperous society, where opportunity is shared more fairly.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Education is the best investment countries can make to build ______ (prosper) societies.",
+        "question": "Education is the best investment countries can make to build ____ (prosper) societies.",
         "answer": "prosperous",
         "note": "修饰名词 societies 用形容词形式 prosperous（-ous 后缀）。"
       },
       {
-        "type": "词形转换",
-        "question": "Lifelong learning contributes to the building of a more ______ (prosper) society and lasting ______ (prosper). 分别填形容词与名词。",
+        "type": "单句语法填空",
+        "question": "Lifelong learning contributes to the building of a more ____ (prosper) society and lasting ____ (prosper). 分别填形容词与名词。",
         "answer": "prosperous; prosperity",
-        "note": "第一空修饰 society 用形容词 prosperous；第二空作宾语用名词 prosperity。"
+        "note": "原题型标注：词形转换。第一空修饰 society 用形容词 prosperous；第二空作宾语用名词 prosperity。"
       },
       {
         "type": "汉译英",
-        "question": "改革让这座城镇繁荣起来。",
+        "question": "改革让这座城镇繁荣起来。（答案：____）",
         "answer": "The reforms made the town prosperous. (或 The town grew prosperous through the reforms.)",
         "note": "make sb/sth + adj. 使…变得…；grow/become prosperous 变得繁荣。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (prosperous / wealthy)：Trade turned the small port into a ______ city with a booming economy.",
+        "question": "选词填空 (prosperous / wealthy)：Trade turned the small port into a ____ city with a booming economy.",
         "answer": "prosperous",
         "note": "修饰城市、强调经济繁荣蒸蒸日上用 prosperous；wealthy 侧重个人/家庭钱多。"
       }
@@ -1520,7 +2077,7 @@
     "sub_section": "",
     "original_sentence": "However, due to various circumstances like inadequate learning materials or poor school facilities, learning is often difficult for many children.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) not enough or not good enough for a purpose (2) lacking the ability or confidence to deal with something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1533,7 +2090,20 @@
         "example": "He felt inadequate as a father. 他觉得自己不称职，当不好父亲。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Inadequate drainage caused repeated flooding."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The evidence was inadequate to support the claim."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "He felt inadequate beside his experienced colleagues."
+      }
+    ],
     "wordForms": {
       "noun": "inadequacy 不足，不够；缺陷",
       "verb": "—",
@@ -1567,6 +2137,26 @@
         "phrase": "inadequate supply of sth",
         "translation": "…供应不足",
         "example": "An inadequate supply of clean water threatens the village. 洁净水供应不足威胁着村庄。"
+      },
+      {
+        "phrase": "inadequate access to sth",
+        "translation": "无法充分获得某物",
+        "example": "Rural areas have inadequate access to healthcare. 农村地区医疗服务不足。"
+      },
+      {
+        "phrase": "an inadequate response / explanation",
+        "translation": "不充分的回应/解释",
+        "example": "The minister gave an inadequate explanation. 部长给出的解释不充分。"
+      },
+      {
+        "phrase": "be inadequately equipped",
+        "translation": "装备不足（副词修饰过去分词）",
+        "example": "The clinic was inadequately equipped for surgery. 诊所手术设备不足。"
+      },
+      {
+        "phrase": "wholly / clearly inadequate",
+        "translation": "完全/明显不足（程度副词）",
+        "example": "The original budget was clearly inadequate. 原预算明显不足。"
       }
     ],
     "synonyms": [
@@ -1606,23 +2196,34 @@
         "example": "Due to inadequate funding, many rural schools lack basic equipment. 由于资金不足，许多乡村学校缺乏基本设备。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Inadequate drainage caused repeated flooding.",
+        "upgraded": "Inadequate drainage caused repeated flooding, damaging several homes beside the river.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The evidence was inadequate to support the claim.",
+        "upgraded": "The evidence was inadequate to support the claim, so the committee requested further research.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The government was criticized for its ________ (adequate) response to the flood.",
+        "question": "The government was criticized for its ____ (adequate) response to the flood.",
         "answer": "inadequate",
         "note": "考 in- 否定前缀构形：response 不充分 → inadequate。"
       },
       {
         "type": "完成句子",
-        "question": "由于学习材料不足，许多孩子学习困难。Due to ________ ________ ________, many children find learning difficult.",
+        "question": "由于学习材料不足，许多孩子学习困难。Due to ____ ____ ____, many children find learning difficult.",
         "answer": "inadequate learning materials",
         "note": "还原课文原句词块 inadequate learning materials，due to 后接名词短语。"
       },
       {
         "type": "辨析选词",
-        "question": "用 inadequate / insufficient / deficient 填空：A diet ________ in iron may cause tiredness.",
+        "question": "用 inadequate / insufficient / deficient 填空：A diet ____ in iron may cause tiredness.",
         "answer": "deficient",
         "note": "固定搭配 be deficient in sth（缺乏某成分），故选 deficient 而非 inadequate/insufficient。"
       }
@@ -1640,7 +2241,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a hard protective covering worn on the head",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1653,7 +2254,20 @@
         "example": "The blue helmets were deployed to keep the peace. 蓝盔部队被部署去维持和平。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The cyclist fastened her helmet securely."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A falling stone struck the worker's helmet."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Firefighters wear helmets with protective visors."
+      }
+    ],
     "wordForms": {
       "noun": "helmet 头盔（可数）；复数 helmets",
       "verb": "—",
@@ -1682,6 +2296,26 @@
         "phrase": "take off one's helmet",
         "translation": "摘下头盔",
         "example": "He took off his helmet and wiped the sweat away. 他摘下头盔，擦去汗水。"
+      },
+      {
+        "phrase": "fasten the helmet strap",
+        "translation": "系好头盔带",
+        "example": "Fasten the helmet strap under your chin. 把头盔带系在下巴下。"
+      },
+      {
+        "phrase": "a helmet with a visor",
+        "translation": "带护目面罩的头盔",
+        "example": "The rider wore a helmet with a clear visor. 骑手戴着带透明面罩的头盔。"
+      },
+      {
+        "phrase": "a cycle / climbing helmet",
+        "translation": "骑行/攀岩头盔",
+        "example": "A climbing helmet protects against falling stones. 攀岩头盔防护落石。"
+      },
+      {
+        "phrase": "a helmet fits securely",
+        "translation": "头盔牢固贴合（fit 不用被动）",
+        "example": "Make sure the helmet fits securely. 确保头盔牢固贴合。"
       }
     ],
     "synonyms": [
@@ -1708,19 +2342,35 @@
         "type": "写作场景卡·安全提醒",
         "expression": "For your own safety, be sure to wear a helmet.（祈使句给出安全建议）",
         "example": "For your own safety, be sure to wear a helmet before cycling. 为了自身安全，骑行前务必戴上头盔。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a cycle / climbing helmet",
+        "example": "A climbing helmet protects against falling stones. 攀岩头盔防护落石。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The cyclist fastened her helmet securely.",
+        "upgraded": "The cyclist fastened her helmet securely, checking the strap before joining the road.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "A falling stone struck the worker's helmet.",
+        "upgraded": "A falling stone struck the worker's helmet, leaving him shaken but uninjured.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "All the workers on the site must wear safety ________ (helmet).",
+        "question": "All the workers on the site must wear safety ____ (helmet).",
         "answer": "helmets",
         "note": "all the workers 复数、每人一顶，helmet 用复数 helmets。"
       },
       {
         "type": "汉译英",
-        "question": "骑摩托车时戴头盔能救你的命。",
+        "question": "骑摩托车时戴头盔能救你的命。（答案：____）",
         "answer": "Wearing a helmet when riding a motorcycle can save your life.",
         "note": "动名词短语作主语；固定搭配 wear a helmet。"
       }
@@ -1738,7 +2388,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to position troops or equipment for action (2) to use resources, skills, or technology strategically",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -1756,7 +2406,20 @@
         "example": "The units deployed quickly across the field. 各分队迅速在战场上展开。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The agency deployed rescue teams before the storm."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She deployed her negotiation skills effectively."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The company deployed new software across its offices."
+      }
+    ],
     "wordForms": {
       "noun": "deployment 部署，调度；调用",
       "verb": "deploy 部署，调用（过去式/过去分词 deployed）",
@@ -1790,6 +2453,26 @@
         "phrase": "be deployed in/on sth",
         "translation": "被部署/调用于…",
         "example": "New technology has been deployed in the rescue operation. 新技术已被投入到这次救援行动中。"
+      },
+      {
+        "phrase": "deploy effectively / efficiently",
+        "translation": "有效地/高效地调用",
+        "example": "The manager deployed staff efficiently. 经理高效调配员工。"
+      },
+      {
+        "phrase": "deploy technology / equipment",
+        "translation": "部署技术/设备",
+        "example": "Sensors were deployed along the coast. 传感器被部署在海岸沿线。"
+      },
+      {
+        "phrase": "deploy every available strategy",
+        "translation": "调动一切可用策略",
+        "example": "She deployed every available strategy to solve the crisis. 她调动所有策略解决危机。"
+      },
+      {
+        "phrase": "the deployment of resources",
+        "translation": "资源的调配（名词结构）",
+        "example": "The audit improved the deployment of resources. 审计改善了资源调配。"
       }
     ],
     "synonyms": [
@@ -1828,23 +2511,34 @@
         "example": "It's a job where a variety of professional skills will be deployed. 这是一份需要施展多种专业技能的工作。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The agency deployed rescue teams before the storm.",
+        "upgraded": "The agency deployed rescue teams before the storm, placing trained staff near vulnerable communities.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She deployed her negotiation skills effectively.",
+        "upgraded": "She deployed her negotiation skills effectively, resolving the dispute without further delay.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Thousands of peacekeepers ________ (deploy) to the region to keep the peace last year.",
+        "question": "Thousands of peacekeepers ____ (deploy) to the region to keep the peace last year.",
         "answer": "were deployed",
         "note": "维和人员是被部署的，用被动；last year 提示一般过去时，故 were deployed。"
       },
       {
         "type": "完成句子",
-        "question": "面对落后的局面，队伍沉着地调动一切策略。Confronted with the situation of falling behind, the team calmly ________ ________ ________ ________ (调动一切策略).",
+        "question": "面对落后的局面，队伍沉着地调动一切策略。Confronted with the situation of falling behind, the team calmly ____ ____ ____ ____ (调动一切策略).",
         "answer": "deployed all their strategies",
         "note": "取自课件仿写，deploy 引申义“调动/运用”，一般过去时 deployed。"
       },
       {
         "type": "同义句转换",
-        "question": "把 The firm used its new technology to solve the problem. 用 deploy 改写。",
+        "question": "把 The firm used its new technology to solve the problem. 用 deploy 改写。（答案：____）",
         "answer": "The firm deployed its new technology to solve the problem.",
         "note": "deploy 在“有策略地运用”义上替换 use，语体更正式。"
       }
@@ -1862,7 +2556,7 @@
     "sub_section": "",
     "original_sentence": "These brave peacekeepers, whose service and sacrifice (8) _________________ to the lives of others, clearly deserve our respect.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. the act of giving up something valuable for another person or purpose (2) v. to give something up",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1885,7 +2579,20 @@
         "example": "They sacrificed a lamb on the altar. 他们在祭坛上献祭了一只羊羔。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Their sacrifice gave the younger children a safer future."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Mina sacrificed her weekend to finish the repairs."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Progress sometimes demands personal sacrifice."
+      }
+    ],
     "wordForms": {
       "noun": "sacrifice 牺牲；祭品（可数与不可数皆可）",
       "verb": "sacrifice 牺牲，献出（-ficed, -ficing）",
@@ -1919,6 +2626,26 @@
         "phrase": "sacrifice oneself / lay down one's life",
         "translation": "牺牲自己，献出生命",
         "example": "The soldier sacrificed himself to save his comrades. 那名战士牺牲自己救了战友。"
+      },
+      {
+        "phrase": "a personal / great sacrifice",
+        "translation": "个人/巨大牺牲",
+        "example": "The move required a personal sacrifice. 这次搬迁需要个人作出牺牲。"
+      },
+      {
+        "phrase": "the ultimate sacrifice",
+        "translation": "最大的牺牲；献出生命（委婉表达）",
+        "example": "The memorial honours those who made the ultimate sacrifice. 纪念碑缅怀献出生命者。"
+      },
+      {
+        "phrase": "sacrifice time / comfort",
+        "translation": "牺牲时间/舒适",
+        "example": "Volunteers sacrificed their free time. 志愿者牺牲了空闲时间。"
+      },
+      {
+        "phrase": "without sacrificing sth",
+        "translation": "在不牺牲……的情况下",
+        "example": "We reduced costs without sacrificing quality. 我们在不牺牲质量的情况下降低成本。"
       }
     ],
     "synonyms": [
@@ -1958,23 +2685,34 @@
         "example": "These brave peacekeepers, whose service and sacrifice have saved countless lives, clearly deserve our respect. 这些勇敢的维和人员，其付出与牺牲挽救了无数生命，理应得到我们的尊敬。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Their sacrifice gave the younger children a safer future.",
+        "upgraded": "Their sacrifice gave the younger children a safer future, allowing the school to remain open.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Mina sacrificed her weekend to finish the repairs.",
+        "upgraded": "Mina sacrificed her weekend to finish the repairs, ensuring the centre reopened on Monday.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Parents are willing to make great ________ (sacrifice) for their children's future.",
+        "question": "Parents are willing to make great ____ (sacrifice) for their children's future.",
         "answer": "sacrifices",
         "note": "make sacrifices 做出（多项）牺牲，great 后接可数名词复数。"
       },
       {
         "type": "汉译英",
-        "question": "他为了实现梦想牺牲了一切。",
+        "question": "他为了实现梦想牺牲了一切。（答案：____）",
         "answer": "He sacrificed everything to achieve his dream.",
         "note": "sacrifice 作及物动词，后接直接宾语；不定式表目的。"
       },
       {
         "type": "选词填空",
-        "question": "用 sacrifice / give up 择优填空：Their service and ________ have made a difference to others' lives.",
+        "question": "用 sacrifice / give up 择优填空：Their service and ____ have made a difference to others' lives.",
         "answer": "sacrifice",
         "note": "还原课件原句 service and sacrifice；此处需名词且带奉献色彩，故用 sacrifice。"
       }
@@ -1992,7 +2730,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to force people to leave their homes (2) to replace or move someone or something from its position",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2015,7 +2753,20 @@
         "example": "He was displaced from his post after the scandal. 丑闻后他被免去职务。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The earthquake displaced thousands of coastal residents."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Automation may displace workers in routine jobs."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The impact displaced the metal plate by two centimetres."
+      }
+    ],
     "wordForms": {
       "noun": "displacement 迁移，取代；流离失所；（物理）位移，排水量",
       "verb": "displace 取代，使离开（-placed, -placing）",
@@ -2044,6 +2795,26 @@
         "phrase": "displaced persons/people",
         "translation": "流离失所者，被迫离乡者",
         "example": "Camps were set up for displaced people. 为流离失所者设立了营地。"
+      },
+      {
+        "phrase": "forcibly / internally displaced people",
+        "translation": "被迫/境内流离失所者",
+        "example": "Aid reached internally displaced people. 援助送到了境内流离失所者手中。"
+      },
+      {
+        "phrase": "displace workers / manual labour",
+        "translation": "取代工人/人力劳动",
+        "example": "The technology may displace some manual labour. 该技术可能取代部分人力劳动。"
+      },
+      {
+        "phrase": "displace water / air",
+        "translation": "排开水/空气（科学用法）",
+        "example": "The floating object displaces water. 漂浮物会排开水。"
+      },
+      {
+        "phrase": "be temporarily displaced",
+        "translation": "暂时离开家园/原位（常用被动）",
+        "example": "Hundreds of residents were temporarily displaced. 数百名居民暂时离开家园。"
       }
     ],
     "synonyms": [
@@ -2083,23 +2854,34 @@
         "example": "Although AI enables a more efficient and productive life, there is still something we should be cautious about — the displacement of factory workers has forced many underprivileged families into extreme poverty. 尽管AI让生活更高效多产，但仍有一点须警惕——工厂工人的被取代已把许多弱势家庭推入赤贫。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The earthquake displaced thousands of coastal residents.",
+        "upgraded": "The earthquake displaced thousands of coastal residents, leaving schools to serve as temporary shelters.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Automation may displace workers in routine jobs.",
+        "upgraded": "Automation may displace workers in routine jobs, increasing the need for retraining programmes.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Millions of people ________ (displace) by natural disasters every year.",
+        "question": "Millions of people ____ (displace) by natural disasters every year.",
         "answer": "are displaced",
         "note": "人是“被”迫离家的，用被动；every year 提示一般现在时，主语复数 → are displaced（还原课件预习原句）。"
       },
       {
         "type": "辨析选词",
-        "question": "用 displace / replace 填空：Many factory workers are ________ by intelligent machines and struggle to make a living.",
+        "question": "用 displace / replace 填空：Many factory workers are ____ by intelligent machines and struggle to make a living.",
         "answer": "displaced",
         "note": "取自课件仿写；强调工人被“挤走、逼离岗位”的被动受害义，用 displace 而非中性的 replace。"
       },
       {
         "type": "完成句子",
-        "question": "工人被取代已把许多家庭推入贫困。The ________ (displace 的名词) of workers has forced many families into poverty.",
+        "question": "工人被取代已把许多家庭推入贫困。The ____ (displace 的名词) of workers has forced many families into poverty.",
         "answer": "displacement",
         "note": "空前有 the、后接 of，需名词 displacement（课件仿写句式）。"
       }
@@ -2117,7 +2899,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to escape quickly from a dangerous person, place, or situation",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -2135,7 +2917,20 @@
         "example": "As danger came, all hope seemed to flee. 危险来临时，所有希望仿佛都消逝了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Families fled from the advancing wildfire."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The journalist was forced to flee the country."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The thief fled when the alarm sounded."
+      }
+    ],
     "wordForms": {
       "noun": "—（相关名词 flight 逃离，逃跑；refugee 难民 为话题词）",
       "verb": "flee 逃跑（不规则变化：fled, fled）",
@@ -2164,6 +2959,26 @@
         "phrase": "flee in panic / flee to safety",
         "translation": "惊慌逃窜／逃往安全之地",
         "example": "People fled in panic when the alarm rang. 警报响起时人们惊慌逃窜。"
+      },
+      {
+        "phrase": "flee abroad",
+        "translation": "逃往国外（abroad 作副词，不加 to）",
+        "example": "Several writers were forced to flee abroad. 数名作家被迫逃往国外。"
+      },
+      {
+        "phrase": "flee across / over the border",
+        "translation": "越境逃离",
+        "example": "Thousands fled across the border. 数千人越境逃离。"
+      },
+      {
+        "phrase": "flee persecution / violence",
+        "translation": "逃避迫害/暴力（及物，直接接宾语）",
+        "example": "The family fled political persecution. 这家人逃离政治迫害。"
+      },
+      {
+        "phrase": "be forced to flee",
+        "translation": "被迫逃离",
+        "example": "Villagers were forced to flee their homes. 村民被迫逃离家园。"
       }
     ],
     "synonyms": [
@@ -2203,23 +3018,34 @@
         "example": "Forced to flee their homes, many refugees now live in crowded camps. 被迫逃离家园后，许多难民如今住在拥挤的营地里。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Families fled from the advancing wildfire.",
+        "upgraded": "Families fled from the advancing wildfire, carrying only water and essential documents.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The journalist was forced to flee the country.",
+        "upgraded": "The journalist was forced to flee the country, seeking safety across the border.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "When the war broke out, thousands of families ________ (flee) their homes.",
+        "question": "When the war broke out, thousands of families ____ (flee) their homes.",
         "answer": "fled",
         "note": "flee 不规则动词过去式为 fled；war broke out 提示一般过去时。"
       },
       {
         "type": "选词填空",
-        "question": "用 flee / escape 择优填空：Refugees were forced to ________ from war and famine.",
+        "question": "用 flee / escape 择优填空：Refugees were forced to ____ from war and famine.",
         "answer": "flee",
         "note": "flee 强调因战乱饥荒“慌忙逃离”这一动作，正式且贴合难民话题。"
       },
       {
         "type": "同义句转换",
-        "question": "把 They ran away from the flooded village. 用 flee 的正确形式改写。",
+        "question": "把 They ran away from the flooded village. 用 flee 的正确形式改写。（答案：____）",
         "answer": "They fled from the flooded village.",
         "note": "flee 作 vi. 搭 from，过去式 fled，语体比 run away 更正式。"
       }
@@ -2237,9 +3063,22 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a person forced to leave their country because of war, persecution, or disaster and seek safety elsewhere",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The refugee applied for protection at the border."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Local volunteers welcomed refugee families into the town."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She works in a clinic for refugees."
+      }
+    ],
     "wordForms": {
       "noun": "refugee 难民；refuge 庇护，避难所（不可数）；refugee status 难民身份",
       "verb": "",
@@ -2273,6 +3112,26 @@
         "phrase": "refugees from...",
         "translation": "来自…的难民",
         "example": "Refugees from the conflict zone need food and shelter. 冲突地区的难民需要食物和住所。"
+      },
+      {
+        "phrase": "refugee status",
+        "translation": "难民身份（法律用语）",
+        "example": "She applied for refugee status. 她申请难民身份。"
+      },
+      {
+        "phrase": "a refugee agency / charity",
+        "translation": "难民事务机构/慈善组织",
+        "example": "A refugee agency helped the family register. 难民机构帮助这家人登记。"
+      },
+      {
+        "phrase": "refugee children / families",
+        "translation": "难民儿童/家庭",
+        "example": "Schools welcomed refugee children. 学校接收了难民儿童。"
+      },
+      {
+        "phrase": "grant asylum to a refugee",
+        "translation": "给予难民庇护",
+        "example": "The state granted asylum to the refugee. 国家给予这名难民庇护。"
       }
     ],
     "synonyms": [
@@ -2285,7 +3144,8 @@
       {
         "synonym": "displaced person",
         "translation": "流离失所者",
-        "example": "The flood created thousands of displaced persons. 洪水造成数千名流离失所者。"
+        "example": "The flood created thousands of displaced persons. 洪水造成数千名流离失所者。",
+        "usage": "displaced person 是上位法律/人道术语，指被迫离开住所的人，可能仍在本国境内；refugee 必须跨越国界并因迫害、战争等寻求保护。二者相关但法律身份不同。"
       },
       {
         "synonym": "asylum seeker",
@@ -2304,25 +3164,41 @@
         "type": "话题短语群·公益/救援",
         "expression": "provide shelter for refugees / deliver humanitarian aid to refugees / resettle refugees 为难民提供住所／向难民发放人道主义援助／安置难民",
         "example": "International organizations work together to deliver humanitarian aid to refugees. 国际组织通力合作，向难民发放人道主义援助。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "refugee children / families",
+        "example": "Schools welcomed refugee children. 学校接收了难民儿童。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The refugee applied for protection at the border.",
+        "upgraded": "The refugee applied for protection at the border, presenting documents from an international agency.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Local volunteers welcomed refugee families into the town.",
+        "upgraded": "Local volunteers welcomed refugee families into the town, helping them find schools and housing.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "After the war broke out, thousands of ______ (refuge) fled to the neighbouring country for safety.",
+        "question": "After the war broke out, thousands of ____ (refuge) fled to the neighbouring country for safety.",
         "answer": "refugees",
         "note": "由 thousands of 及句意「逃亡的人」判断需用复数可数名词 refugees（人），不能填 refuge（避难所，不可数）。"
       },
       {
         "type": "选词填空",
-        "question": "用 refuge / refugee 填空：The temple offered a safe ______ where the exhausted ______ could finally rest.",
+        "question": "用 refuge / refugee 填空：The temple offered a safe ____ where the exhausted ____ could finally rest.",
         "answer": "refuge; refugees",
         "note": "第一空表「庇护所（地方）」用 refuge；第二空表「难民（人）」用复数 refugees。辨析地点与人。"
       },
       {
         "type": "汉译英",
-        "question": "把下面句子译成英语：救援人员在边境附近搭建了一座难民营。",
+        "question": "把下面句子译成英语：救援人员在边境附近搭建了一座难民营。（答案：____）",
         "answer": "Aid/Rescue workers set up a refugee camp near the border.",
         "note": "refugee camp 为固定搭配「难民营」；set up 意为「搭建、设立」。"
       }
@@ -2340,7 +3216,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "an extreme and widespread shortage of food that causes severe hunger and death",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2348,7 +3224,20 @@
         "example": "There was a famine of information during the crisis. 危机期间信息极度匮乏。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Drought pushed the region towards famine."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Aid groups delivered grain to famine-stricken villages."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The policy was introduced after a devastating famine."
+      }
+    ],
     "wordForms": {
       "noun": "famine 饥荒；（严重的）匮乏",
       "verb": "",
@@ -2382,6 +3271,26 @@
         "phrase": "die of / in a famine",
         "translation": "死于饥荒",
         "example": "Thousands of people died of famine. 数千人死于饥荒。"
+      },
+      {
+        "phrase": "famine relief",
+        "translation": "饥荒救济（不可数 relief）",
+        "example": "Donations funded famine relief. 捐款资助了饥荒救济。"
+      },
+      {
+        "phrase": "a famine-stricken region",
+        "translation": "饥荒肆虐的地区（复合形容词）",
+        "example": "Aid entered the famine-stricken region. 援助进入饥荒地区。"
+      },
+      {
+        "phrase": "prevent / avert famine",
+        "translation": "防止/避免饥荒",
+        "example": "Early action may avert famine. 及早行动可能避免饥荒。"
+      },
+      {
+        "phrase": "the threat / risk of famine",
+        "translation": "饥荒威胁/风险",
+        "example": "Drought increased the risk of famine. 干旱增加了饥荒风险。"
       }
     ],
     "synonyms": [
@@ -2414,25 +3323,41 @@
         "type": "话题短语群·公益/救灾",
         "expression": "relieve famine / provide famine relief / a famine-stricken area 缓解饥荒／提供饥荒救济／饥荒肆虐的地区",
         "example": "The WFP delivered food to famine-stricken areas. 世界粮食计划署向饥荒肆虐的地区运送了食物。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "prevent / avert famine",
+        "example": "Early action may avert famine. 及早行动可能避免饥荒。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Drought pushed the region towards famine.",
+        "upgraded": "Drought pushed the region towards famine, destroying crops for a third consecutive year.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Aid groups delivered grain to famine-stricken villages.",
+        "upgraded": "Aid groups delivered grain to famine-stricken villages, feeding thousands of vulnerable residents.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "仿照课件句式「…的阴影笼罩着某人」完成：______ ______ war and famine ______ ______ the whole nation. （战争与饥荒的阴影笼罩着整个国家。）",
+        "question": "仿照课件句式「…的阴影笼罩着某人」完成：____ ____ war and famine ____ ____ the whole nation. （战争与饥荒的阴影笼罩着整个国家。）",
         "answer": "Shadows of; hung over",
         "note": "套用课件句式 Shadows of + n. + hung over sb；hang 的过去式为 hung，表示「悬、笼罩」义时用 hung-hung。"
       },
       {
         "type": "单句语法填空",
-        "question": "Thousands of people died ______ famine when the crops failed that year.",
+        "question": "Thousands of people died ____ famine when the crops failed that year.",
         "answer": "of",
         "note": "die of famine「死于饥荒」为固定搭配，表死亡的直接原因用 die of。"
       },
       {
         "type": "同义句转换",
-        "question": "改写句子，用 famine 替换划线部分，句意不变：A severe ▁shortage of food▁ hit the region after years of drought. → A severe ______ hit the region after years of drought.",
+        "question": "改写句子，用 famine 替换划线部分，句意不变：A severe ▁shortage of food▁ hit the region after years of drought. → A severe ____ hit the region after years of drought.",
         "answer": "famine",
         "note": "famine 即「粮食严重短缺、饥荒」，可替换 shortage of food，作句子主语，保持 a severe famine 结构。"
       }
@@ -2450,9 +3375,22 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a small round pale seed of a legume, eaten as a vegetable or ground into flour",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She added roasted chickpeas to the salad."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Farmers tested a drought-resistant chickpea variety."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Chickpea flour is common in several regional dishes."
+      }
+    ],
     "wordForms": {
       "noun": "chickpea 鹰嘴豆（可数，复数 chickpeas）",
       "verb": "",
@@ -2481,6 +3419,26 @@
         "phrase": "chickpea flour",
         "translation": "鹰嘴豆粉",
         "example": "This bread is made from chickpea flour. 这种面包是用鹰嘴豆粉做的。"
+      },
+      {
+        "phrase": "canned / dried chickpeas",
+        "translation": "罐装/干鹰嘴豆（通常用复数）",
+        "example": "Rinse the canned chickpeas first. 先把罐装鹰嘴豆冲洗一下。"
+      },
+      {
+        "phrase": "a chickpea crop / variety",
+        "translation": "鹰嘴豆作物/品种",
+        "example": "The new chickpea variety needs less water. 新鹰嘴豆品种需水较少。"
+      },
+      {
+        "phrase": "a chickpea salad / curry",
+        "translation": "鹰嘴豆沙拉/咖喱",
+        "example": "We served a warm chickpea curry. 我们端上温热的鹰嘴豆咖喱。"
+      },
+      {
+        "phrase": "roasted chickpeas",
+        "translation": "烤鹰嘴豆",
+        "example": "Roasted chickpeas make a crisp snack. 烤鹰嘴豆是酥脆小吃。"
       }
     ],
     "synonyms": [
@@ -2502,19 +3460,40 @@
         "type": "话题短语群·干旱地区农业",
         "expression": "drought-resistant crops like chickpeas / a source of protein 像鹰嘴豆这类耐旱作物／蛋白质来源",
         "example": "In arid areas, drought-resistant crops like chickpeas provide a vital source of protein. 在干旱地区，鹰嘴豆这类耐旱作物提供了重要的蛋白质来源。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·2",
+        "expression": "a chickpea crop / variety",
+        "example": "The new chickpea variety needs less water. 新鹰嘴豆品种需水较少。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a chickpea salad / curry",
+        "example": "We served a warm chickpea curry. 我们端上温热的鹰嘴豆咖喱。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "She added roasted chickpeas to the salad.",
+        "upgraded": "She added roasted chickpeas to the salad, giving it extra protein and a crisp texture.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Farmers tested a drought-resistant chickpea variety.",
+        "upgraded": "Farmers tested a drought-resistant chickpea variety, hoping to improve harvests in dry years.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In this dry region, farmers plant drought-resistant ______ (chickpea) as a cheap source of protein.",
+        "question": "In this dry region, farmers plant drought-resistant ____ (chickpea) as a cheap source of protein.",
         "answer": "chickpeas",
         "note": "chickpea 为可数名词，此处泛指多颗、多种植株，用复数 chickpeas。"
       },
       {
         "type": "汉译英",
-        "question": "把句子译成英语：鹰嘴豆富含蛋白质，在干旱的土壤里也能生长。",
+        "question": "把句子译成英语：鹰嘴豆富含蛋白质，在干旱的土壤里也能生长。（答案：____）",
         "answer": "Chickpeas are rich in protein and can grow (well) even in dry/arid soil.",
         "note": "be rich in「富含」；chickpeas 作主语用复数，谓语用 are。"
       }
@@ -2532,7 +3511,7 @@
     "sub_section": "",
     "original_sentence": "Teaching a man to fish Tens of thousands of Sahrawi people from Western Sahara live in extremely harsh conditions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "unpleasantly severe, cruel, rough, or difficult to endure",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2545,7 +3524,20 @@
         "example": "The wine had a harsh taste. 这酒口感很涩。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The expedition faced harsh winter conditions."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her harsh criticism silenced the young musician."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The lamp produced a harsh white light."
+      }
+    ],
     "wordForms": {
       "noun": "harshness 严厉，恶劣，刺耳",
       "verb": "",
@@ -2579,6 +3571,26 @@
         "phrase": "harsh words / criticism / punishment",
         "translation": "严厉的话语／批评／惩罚",
         "example": "His harsh words hurt her deeply. 他刻薄的话深深伤害了她。"
+      },
+      {
+        "phrase": "a harsh truth / fact",
+        "translation": "残酷的真相/事实",
+        "example": "We must accept the harsh truth. 我们必须接受残酷真相。"
+      },
+      {
+        "phrase": "harsh light / sound",
+        "translation": "刺眼的光/刺耳的声音",
+        "example": "Harsh light filled the room. 刺眼的光充满房间。"
+      },
+      {
+        "phrase": "speak / judge harshly",
+        "translation": "严厉地说/评判（用副词）",
+        "example": "Do not judge beginners too harshly. 不要过于严厉地评判初学者。"
+      },
+      {
+        "phrase": "withstand a harsh climate",
+        "translation": "经受恶劣气候",
+        "example": "These plants withstand a harsh climate. 这些植物能经受恶劣气候。"
       }
     ],
     "synonyms": [
@@ -2623,23 +3635,34 @@
         "example": "【课件】Despite the harsh weather conditions, the team pressed on, determined to reach the summit. 尽管天气条件恶劣，队伍仍继续前进，决心登顶。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The expedition faced harsh winter conditions.",
+        "upgraded": "The expedition faced harsh winter conditions, pressing on despite biting wind and poor visibility.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Her harsh criticism silenced the young musician.",
+        "upgraded": "Her harsh criticism silenced the young musician, whose hands tightened around the violin.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The explorers had to survive in extremely ______ (harsh) conditions, with little food and freezing temperatures.",
+        "question": "The explorers had to survive in extremely ____ (harsh) conditions, with little food and freezing temperatures.",
         "answer": "harsh",
         "note": "此处修饰名词 conditions，用形容词原级 harsh 作定语，对齐课文原句 harsh conditions。"
       },
       {
         "type": "选词填空",
-        "question": "用 harsh 的适当形式填空：However hard she tried, she was judged too ______ by the strict coach, who spoke to her ______ in front of everyone.",
+        "question": "用 harsh 的适当形式填空：However hard she tried, she was judged too ____ by the strict coach, who spoke to her ____ in front of everyone.",
         "answer": "harshly; harshly",
         "note": "第一空 be judged 后作状语修饰动词，用副词 harshly「苛刻地」；第二空 spoke 后同样用副词 harshly「严厉地」。考查 harsh→harshly 的副词转换及句法位置。"
       },
       {
         "type": "汉译英",
-        "question": "仿课件用 the harsh reality 译：无论她多么抗拒，残酷的现实依然如故。",
+        "question": "仿课件用 the harsh reality 译：无论她多么抗拒，残酷的现实依然如故。（答案：____）",
         "answer": "However much she resisted, the harsh reality remained (unchanged).",
         "note": "however much + 主谓「无论多么…」引导让步状语从句；the harsh reality remained 为课件仿写母句结构。"
       }
@@ -2657,7 +3680,7 @@
     "sub_section": "",
     "original_sentence": "As the desert’s arid climate makes it difficult to grow crops, goats serve as their main source of food.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) extremely dry and receiving little rain (2) uninteresting and lacking new ideas",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2665,7 +3688,20 @@
         "example": "The lecture was long and arid. 那场讲座又长又枯燥。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Few crops survive in this arid landscape."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The lecture became an arid list of dates."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Irrigation transformed the arid valley."
+      }
+    ],
     "wordForms": {
       "noun": "aridity 干旱，干燥；乏味",
       "verb": "",
@@ -2694,6 +3730,26 @@
         "phrase": "hot and arid",
         "translation": "炎热又干旱的",
         "example": "The climate there is hot and arid all year round. 那里终年炎热干旱。"
+      },
+      {
+        "phrase": "arid conditions",
+        "translation": "干旱条件",
+        "example": "Only hardy plants survive arid conditions. 只有耐旱植物能在干旱条件下生存。"
+      },
+      {
+        "phrase": "arid and barren",
+        "translation": "干旱贫瘠的（并列形容词）",
+        "example": "The plateau is arid and barren. 高原干旱贫瘠。"
+      },
+      {
+        "phrase": "become increasingly arid",
+        "translation": "变得越来越干旱（作表语）",
+        "example": "The interior has become increasingly arid. 内陆变得日益干旱。"
+      },
+      {
+        "phrase": "arid prose / discussion",
+        "translation": "枯燥的文章/讨论（比喻义）",
+        "example": "The lively examples rescued an arid discussion. 生动例子挽救了枯燥讨论。"
       }
     ],
     "synonyms": [
@@ -2726,25 +3782,41 @@
         "type": "一词多义提示卡",
         "expression": "arid climate（干旱的气候，本义）↔ an arid discussion（枯燥乏味的讨论，喻义）",
         "example": "After an arid two-hour meeting, no useful idea came out of the arid room. 经过枯燥乏味的两小时会议，那间干燥的房间里没产生一个有用的想法。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "become increasingly arid",
+        "example": "The interior has become increasingly arid. 内陆变得日益干旱。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Few crops survive in this arid landscape.",
+        "upgraded": "Few crops survive in this arid landscape, where annual rainfall is extremely low.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The lecture became an arid list of dates.",
+        "upgraded": "The lecture became an arid list of dates, offering no explanation of their importance.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As the desert's ______ (arid) climate makes it hard to grow crops, herding goats becomes the main way of living.",
+        "question": "As the desert's ____ (arid) climate makes it hard to grow crops, herding goats becomes the main way of living.",
         "answer": "arid",
         "note": "修饰名词 climate，用形容词 arid 作定语，对齐课文原句 arid climate。"
       },
       {
         "type": "选词填空",
-        "question": "用 arid / barren 填空：The ______ climate brings almost no rain, leaving the ______ land where nothing can grow.",
+        "question": "用 arid / barren 填空：The ____ climate brings almost no rain, leaving the ____ land where nothing can grow.",
         "answer": "arid; barren",
         "note": "第一空修饰 climate 表「干旱（缺水）」用 arid；第二空修饰 land 表「贫瘠、不长作物」用 barren，考查病因（arid 缺水）与结果（barren 贫瘠）的辨析。"
       },
       {
         "type": "辨析选词",
-        "question": "选出更贴切的词：The two-hour report was so (dry / arid) and repetitive that half the audience fell asleep.",
+        "question": "选出更贴切的词：The two-hour report was so (dry / arid) and repetitive that half the audience fell asleep.（答案：____）",
         "answer": "arid",
         "note": "此处取 arid 的引申义「枯燥乏味、毫无新意」，比中性的 dry 更能表达内容空洞乏味；考查 arid 的熟词僻义。"
       }
@@ -2762,7 +3834,7 @@
     "sub_section": "",
     "original_sentence": "This also takes its toll on people, as the quality of goat milk and meat may be negatively impacted.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a fee for using a road or bridge (2) the number of deaths or amount of damage (3) a slow bell sound",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2780,7 +3852,20 @@
         "example": "The church bell tolled for the dead. 教堂的钟为逝者缓缓敲响。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Drivers pay a toll before entering the tunnel."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Officials confirmed that the death toll had risen."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Church bells tolled across the silent town."
+      }
+    ],
     "wordForms": {
       "noun": "toll （通行费）；（伤亡）人数；钟声",
       "verb": "toll （钟）缓慢鸣响",
@@ -2815,6 +3900,26 @@
         "phrase": "pay a toll / a toll road",
         "translation": "缴纳通行费／收费公路",
         "example": "Drivers have to pay a toll to cross the bridge. 司机过桥须缴通行费。"
+      },
+      {
+        "phrase": "a toll booth / plaza",
+        "translation": "收费亭/收费广场",
+        "example": "Traffic queued at the toll booth. 车辆在收费亭排队。"
+      },
+      {
+        "phrase": "toll revenue",
+        "translation": "通行费收入",
+        "example": "Toll revenue funds bridge repairs. 通行费收入资助桥梁维修。"
+      },
+      {
+        "phrase": "a toll-free number",
+        "translation": "免费电话号码",
+        "example": "Call the toll-free number for assistance. 拨打免费电话寻求帮助。"
+      },
+      {
+        "phrase": "the bell tolls",
+        "translation": "钟缓慢鸣响（toll 作动词）",
+        "example": "The bell tolled at midnight. 钟在午夜敲响。"
       }
     ],
     "synonyms": [
@@ -2847,25 +3952,41 @@
         "type": "熟词僻义提示卡",
         "expression": "toll 三义群：a toll road 收费公路 / the death toll 死亡人数 / the bell tolls 钟声鸣响",
         "example": "As the death toll rose, the church bell tolled and drivers stopped paying the toll to mourn. 随着死亡人数上升，教堂钟声鸣响，司机们停下不再缴纳通行费，以示哀悼。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a toll-free number",
+        "example": "Call the toll-free number for assistance. 拨打免费电话寻求帮助。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Drivers pay a toll before entering the tunnel.",
+        "upgraded": "Drivers pay a toll before entering the tunnel, helping fund its continued maintenance.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Officials confirmed that the death toll had risen.",
+        "upgraded": "Officials confirmed that the death toll had risen, as rescue teams reached isolated areas.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "根据课文填空：Overgrazing damages the grassland, and this also ______ ______ ______ ______ people, as the quality of goat products drops.",
+        "question": "根据课文填空：Overgrazing damages the grassland, and this also ____ ____ ____ ____ people, as the quality of goat products drops.",
         "answer": "takes its toll on",
         "note": "对齐课文原句 take its toll on sb「对某人造成损害」；主语为第三人称单数 this，故用 takes。"
       },
       {
         "type": "单句语法填空",
-        "question": "The rescue teams are still searching, and the death ______ from the flood has risen to over 100.",
+        "question": "The rescue teams are still searching, and the death ____ from the flood has risen to over 100.",
         "answer": "toll",
         "note": "death toll 为固定搭配「死亡人数」，此处取 toll 的「伤亡人数」义。"
       },
       {
         "type": "汉译英",
-        "question": "把句子译成英语（用 take a ... toll on）：多年的辛劳损害了他的健康。",
+        "question": "把句子译成英语（用 take a ... toll on）：多年的辛劳损害了他的健康。（答案：____）",
         "answer": "Years of hard work took a/their toll on his health.",
         "note": "take a/its toll on sth「对…造成损害」，主语为复数 years 时可用 took their toll；强调「沉重」可加 heavy。"
       }
@@ -2883,7 +4004,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to cause serious, often gradual, damage, suffering, or exhaustion to someone or something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -2896,7 +4017,20 @@
         "example": "The earthquake took a terrible toll on the small town. 地震给这座小镇带来惨重伤亡。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Months of uncertainty took their toll on the staff."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Salt water has taken its toll on the old bridge."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Night shifts can take their toll on family life."
+      }
+    ],
     "wordForms": {
       "noun": "toll （道路/桥梁的）通行费；伤亡人数；损失；death toll 死亡人数",
       "verb": "toll vi. & vt.（缓慢地）鸣（钟）",
@@ -2931,6 +4065,26 @@
         "phrase": "take its toll (on)（可省略 its，用 a/the toll）",
         "translation": "（长期地）造成损害/带来恶果",
         "example": "Stress gradually takes its toll. 压力会渐渐损害人。"
+      },
+      {
+        "phrase": "take a growing toll on sth",
+        "translation": "给……造成日益严重的损害",
+        "example": "Heat is taking a growing toll on crops. 高温给作物造成日益严重的损害。"
+      },
+      {
+        "phrase": "take an emotional toll on sb",
+        "translation": "给某人造成情感消耗",
+        "example": "The trial took an emotional toll on the family. 审判令家人情感受创。"
+      },
+      {
+        "phrase": "take a physical toll on sb",
+        "translation": "损害某人身体",
+        "example": "Long shifts took a physical toll on nurses. 长班损害护士身体。"
+      },
+      {
+        "phrase": "begin to take its toll",
+        "translation": "开始显现损害",
+        "example": "Lack of sleep began to take its toll. 睡眠不足开始造成影响。"
       }
     ],
     "synonyms": [
@@ -2970,23 +4124,34 @@
         "example": "The endless arguments took their toll on the family. 无休止的争吵损害了这个家庭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Months of uncertainty took their toll on the staff.",
+        "upgraded": "Months of uncertainty took their toll on the staff, leaving many exhausted and anxious.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Salt water has taken its toll on the old bridge.",
+        "upgraded": "Salt water has taken its toll on the old bridge, weakening several exposed supports.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "用介词填空：The poor climate also takes its toll ______ the quality of goat milk and meat.",
+        "question": "用介词填空：The poor climate also takes its toll ____ the quality of goat milk and meat.",
         "answer": "on",
         "note": "take its toll on sb/sth 为固定搭配，介词只能用 on 引出受损对象。"
       },
       {
         "type": "汉译英",
-        "question": "多年的过度劳累损害了他的健康。",
+        "question": "多年的过度劳累损害了他的健康。（答案：____）",
         "answer": "Years of overwork took its toll on his health.",
         "note": "take its toll on sth 造成损害；主语 years of overwork 视作一个整体，谓语用 took，its 呼应该整体。"
       },
       {
         "type": "同义句转换",
-        "question": "The war had a serious negative impact on the country's economy. → The war ______ ______ heavy ______ ______ the country's economy.",
+        "question": "The war had a serious negative impact on the country's economy. → The war ____ ____ heavy ____ ____ the country's economy.",
         "answer": "took a; toll on",
         "note": "have a negative impact on → take a heavy toll on，两者都以 on 引出受损对象。"
       }
@@ -3004,7 +4169,7 @@
     "sub_section": "",
     "original_sentence": "The technique behind this amazing achievement is hydroponics.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the method of growing plants in nutrient-rich water rather than soil",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3012,7 +4177,20 @@
         "example": "Hydroponics allows plants to grow faster and use less water. 水培让植物长得更快，用水更少。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Hydroponics allows vegetables to grow inside warehouses."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The school uses hydroponics in its science programme."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Hydroponics requires careful control of water quality."
+      }
+    ],
     "wordForms": {
       "noun": "hydroponics 水培（技术/学科，不可数）；hydroponic gardening 水培园艺",
       "verb": "",
@@ -3041,6 +4219,26 @@
         "phrase": "grow plants without soil",
         "translation": "无土栽培（水培的定义式表达）",
         "example": "Hydroponics is a way of growing plants without soil, in water full of nutrients. 水培是一种不用土壤、在富含养分的水中培育植物的方法。"
+      },
+      {
+        "phrase": "a hydroponic system",
+        "translation": "水培系统（形容词用 hydroponic）",
+        "example": "The farm installed a hydroponic system. 农场安装了水培系统。"
+      },
+      {
+        "phrase": "grow sth hydroponically",
+        "translation": "用水培法种植某物（副词）",
+        "example": "They grow lettuce hydroponically. 他们用水培法种生菜。"
+      },
+      {
+        "phrase": "commercial / indoor hydroponics",
+        "translation": "商业/室内水培",
+        "example": "Indoor hydroponics saves space. 室内水培节省空间。"
+      },
+      {
+        "phrase": "use nutrient-rich water",
+        "translation": "使用富含养分的水（水培核心方法）",
+        "example": "Hydroponic farms use nutrient-rich water. 水培农场使用富含养分的水。"
       }
     ],
     "synonyms": [
@@ -3074,23 +4272,34 @@
         "example": "Using hydroponics, they grow lettuce in nutrient-rich water without any soil. 借助水培，他们不用任何土壤，在富含养分的水中种植生菜。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Hydroponics allows vegetables to grow inside warehouses.",
+        "upgraded": "Hydroponics allows vegetables to grow inside warehouses, providing fresh produce close to urban customers.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The school uses hydroponics in its science programme.",
+        "upgraded": "The school uses hydroponics in its science programme, letting students monitor roots and nutrients directly.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The technique behind this amazing achievement ______ (be) hydroponics, a way of growing plants without soil.",
+        "question": "The technique behind this amazing achievement ____ (be) hydroponics, a way of growing plants without soil.",
         "answer": "is",
         "note": "主语 the technique 为单数，且 hydroponics 作表语；-ics 学科名亦视作单数，故用 is。"
       },
       {
-        "type": "词形转换",
-        "question": "They grow tomatoes in a ______ (hydroponics) greenhouse where no soil is used.",
+        "type": "单句语法填空",
+        "question": "They grow tomatoes in a ____ (hydroponics) greenhouse where no soil is used.",
         "answer": "hydroponic",
-        "note": "修饰名词 greenhouse 作定语，用形容词形式 hydroponic（去掉 -s）。"
+        "note": "原题型标注：词形转换。修饰名词 greenhouse 作定语，用形容词形式 hydroponic（去掉 -s）。"
       },
       {
         "type": "汉译英",
-        "question": "水培让农民即使在沙漠里也能种出新鲜蔬菜。",
+        "question": "水培让农民即使在沙漠里也能种出新鲜蔬菜。（答案：____）",
         "answer": "Hydroponics allows farmers to grow fresh vegetables even in the desert.",
         "note": "hydroponics 作主语视作单数，谓语用 allows；allow sb to do sth 允许/使某人能做某事。"
       }
@@ -3108,7 +4317,7 @@
     "sub_section": "",
     "original_sentence": "Consequently, not only is cheaper and better food provided for livestock, but any extra food can be sold in the market to generate additional income.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "farm animals such as cattle, sheep, or goats kept for food, materials, or profit",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3116,7 +4325,20 @@
         "example": "The disease spread quickly among the livestock. 这种疾病在牲畜中迅速传播。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The farmers moved their livestock to higher ground."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Veterinarians examined the livestock for signs of disease."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Drought has reduced the available feed for livestock."
+      }
+    ],
     "wordForms": {
       "noun": "livestock 牲畜，家畜（集合名词，不加 -s）；stock 存货，家畜；cattle 牛（群）",
       "verb": "",
@@ -3150,6 +4372,26 @@
         "phrase": "livestock are ...（谓语用复数）",
         "translation": "牲畜（作集合名词，谓语常用复数）",
         "example": "The livestock were moved to higher ground before the flood. 洪水来临前牲畜被转移到高地。"
+      },
+      {
+        "phrase": "livestock production",
+        "translation": "畜牧生产",
+        "example": "Heat reduced livestock production. 高温降低了畜牧产量。"
+      },
+      {
+        "phrase": "livestock feed",
+        "translation": "牲畜饲料",
+        "example": "The project provides affordable livestock feed. 该项目提供平价牲畜饲料。"
+      },
+      {
+        "phrase": "a herd / head of livestock",
+        "translation": "一群/若干头牲畜（数量用 head）",
+        "example": "The farm keeps 300 head of livestock. 农场饲养300头牲畜。"
+      },
+      {
+        "phrase": "protect livestock from disease",
+        "translation": "保护牲畜免受疾病侵害",
+        "example": "Vaccination protects livestock from disease. 疫苗接种保护牲畜免受疾病侵害。"
       }
     ],
     "synonyms": [
@@ -3189,23 +4431,34 @@
         "example": "Domestic animals such as cattle and other livestock provide milk, meat and labour. 牛等家畜提供奶、肉和劳力。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The farmers moved their livestock to higher ground.",
+        "upgraded": "The farmers moved their livestock to higher ground, protecting the animals from rising floodwater.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Veterinarians examined the livestock for signs of disease.",
+        "upgraded": "Veterinarians examined the livestock for signs of disease, preventing an outbreak across nearby farms.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In this arid region, the livestock ______ (be) the main source of food for local families.",
+        "question": "In this arid region, the livestock ____ (be) the main source of food for local families.",
         "answer": "are",
         "note": "livestock 为集合名词，作主语时谓语通常用复数 are。"
       },
       {
         "type": "汉译英",
-        "question": "村里许多家庭靠饲养牲畜谋生。",
+        "question": "村里许多家庭靠饲养牲畜谋生。（答案：____）",
         "answer": "Many families in the village raise livestock for a living.",
         "note": "raise livestock 饲养牲畜；livestock 无复数形式，不加 -s；for a living 谋生。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (livestock / farm animals)：They keep 200 head of ______ on the mountain pasture.",
+        "question": "选词填空 (livestock / farm animals)：They keep 200 head of ____ on the mountain pasture.",
         "answer": "livestock",
         "note": "head of 后接集合名词 livestock（不加 -s）；farm animals 不用 head of 计数。"
       }
@@ -3223,7 +4476,7 @@
     "sub_section": "",
     "original_sentence": "Types of volunteering Benefits of volunteering “Life’s most persistent and urgent question is, ‘What are you doing for others?’” asked Martin Luther King, Jr., a great advocate for social justice.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) continuing for a long time or repeatedly (2) determined to continue despite difficulty",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -3241,7 +4494,20 @@
         "example": "He was so persistent that I finally agreed. 他缠个不停，我最后只好答应。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Persistent rain delayed the rescue operation."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her persistent questioning exposed the accounting error."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "He remained persistent despite repeated rejection."
+      }
+    ],
     "wordForms": {
       "noun": "persistence 坚持，执着；持续，存留",
       "verb": "persist vi. 坚持（persist in doing sth）；持续存在",
@@ -3275,6 +4541,26 @@
         "phrase": "be persistent in (doing) sth",
         "translation": "在（做）某事上坚持不懈",
         "example": "She is persistent in pursuing her dream. 她坚持不懈地追求梦想。"
+      },
+      {
+        "phrase": "a persistent problem / threat",
+        "translation": "持续存在的问题/威胁",
+        "example": "Pollution remains a persistent problem. 污染仍是持续问题。"
+      },
+      {
+        "phrase": "persistent symptoms",
+        "translation": "持续症状（医学用语）",
+        "example": "Seek advice for persistent symptoms. 症状持续应咨询医生。"
+      },
+      {
+        "phrase": "a persistent attempt / campaign",
+        "translation": "坚持不懈的尝试/行动",
+        "example": "A persistent campaign changed the policy. 持续行动改变了政策。"
+      },
+      {
+        "phrase": "persist despite sth",
+        "translation": "尽管……仍坚持（动词结构）",
+        "example": "They persisted despite repeated setbacks. 尽管屡遭挫折，他们仍坚持。"
       }
     ],
     "synonyms": [
@@ -3314,29 +4600,40 @@
         "example": "She persisted in her studies; her persistence and persistent hard work brought success. 她坚持学业；她的执着和不懈努力带来了成功。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Persistent rain delayed the rescue operation.",
+        "upgraded": "Persistent rain delayed the rescue operation, making the mountain paths unsafe.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Her persistent questioning exposed the accounting error.",
+        "upgraded": "Her persistent questioning exposed the accounting error, prompting an independent review.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Martin Luther King, Jr. once asked life's most ______ (persist) and urgent question about serving others.",
+        "question": "Martin Luther King, Jr. once asked life's most ____ (persist) and urgent question about serving others.",
         "answer": "persistent",
         "note": "修饰名词 question，用形容词 persistent（-ent 后缀）。"
       },
       {
-        "type": "词形转换",
-        "question": "If you ______ (persist) in your efforts, such ______ (persist) will surely be rewarded. 分别填动词与名词。",
+        "type": "单句语法填空",
+        "question": "If you ____ (persist) in your efforts, such ____ (persist) will surely be rewarded. 分别填动词与名词。",
         "answer": "persist; persistence",
-        "note": "第一空 If you 后作谓语用动词原形 persist（persist in doing）；第二空作主语用名词 persistence。"
+        "note": "原题型标注：词形转换。第一空 If you 后作谓语用动词原形 persist（persist in doing）；第二空作主语用名词 persistence。"
       },
       {
         "type": "完成句子",
-        "question": "正是她坚持不懈的努力最终改变了整个村庄。It was her ______ efforts that finally changed the whole village.",
+        "question": "正是她坚持不懈的努力最终改变了整个村庄。It was her ____ efforts that finally changed the whole village.",
         "answer": "persistent",
         "note": "persistent efforts 坚持不懈的努力；此处为 It was ... that ... 强调句，形容词作定语。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (persistent / determined)：The ______ rain went on for days, making the roads impassable.",
+        "question": "选词填空 (persistent / determined)：The ____ rain went on for days, making the roads impassable.",
         "answer": "persistent",
         "note": "修饰 rain（连绵不断的雨）用 persistent；determined 只用于修饰人的决心。"
       }
@@ -3354,7 +4651,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a powered blade that moves across a vehicle's front window to clear rain, snow, or dirt",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3362,7 +4659,20 @@
         "example": "One of the windscreen wipers had stopped working. 有一个雨刮器停止工作了。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "One windscreen wiper stopped during the downpour."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She replaced the worn windscreen wipers before winter."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Ice had frozen the windscreen wiper in place."
+      }
+    ],
     "wordForms": {
       "noun": "windscreen wiper（英）/ windshield wiper（美）雨刮器；windscreen（英）/ windshield（美）挡风玻璃；wiper 刮水器",
       "verb": "wipe vt. 擦，抹，拭",
@@ -3391,6 +4701,26 @@
         "phrase": "windscreen wipers work / go back and forth",
         "translation": "雨刮器来回摆动工作",
         "example": "The wipers went back and forth across the windscreen. 雨刮器在挡风玻璃上来回摆动。"
+      },
+      {
+        "phrase": "replace a windscreen wiper blade",
+        "translation": "更换雨刮片",
+        "example": "Replace the windscreen wiper blade each year. 每年更换雨刮片。"
+      },
+      {
+        "phrase": "a faulty / worn windscreen wiper",
+        "translation": "故障/磨损的雨刮器",
+        "example": "A worn windscreen wiper left streaks. 磨损雨刮留下条纹。"
+      },
+      {
+        "phrase": "windscreen wiper speed",
+        "translation": "雨刮速度",
+        "example": "Increase the windscreen wiper speed in heavy rain. 大雨中提高雨刮速度。"
+      },
+      {
+        "phrase": "the wiper sweeps across the windscreen",
+        "translation": "雨刮扫过挡风玻璃",
+        "example": "The wiper swept across the windscreen. 雨刮扫过挡风玻璃。"
       }
     ],
     "synonyms": [
@@ -3417,25 +4747,41 @@
         "type": "构词法·wind-/wipe- 合成与英美差异",
         "expression": "windscreen(英)=windshield(美) 挡风玻璃；wipe→wiper 刮水器；同类车辆部件：steering wheel 方向盘、rear-view mirror 后视镜、tyre(英)/tire(美) 轮胎",
         "example": "Behind the steering wheel, he watched the windscreen wipers battle the rain. 他握着方向盘，看着雨刮器与雨水搏斗。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "windscreen wiper speed",
+        "example": "Increase the windscreen wiper speed in heavy rain. 大雨中提高雨刮速度。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "One windscreen wiper stopped during the downpour.",
+        "upgraded": "One windscreen wiper stopped during the downpour, leaving the driver with dangerously limited vision.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She replaced the worn windscreen wipers before winter.",
+        "upgraded": "She replaced the worn windscreen wipers before winter, ensuring they cleared the glass evenly.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "雨刮器猛烈地摆动，想清除玻璃上的雨水。The windscreen ______ worked furiously to clear the glass.",
+        "question": "雨刮器猛烈地摆动，想清除玻璃上的雨水。The windscreen ____ worked furiously to clear the glass.",
         "answer": "wipers",
         "note": "windscreen wiper 为可数名词，车上通常有两个雨刮器，故用复数 wipers（谓语 worked）。"
       },
       {
         "type": "汉译英",
-        "question": "雨越下越大，她打开了雨刮器。",
+        "question": "雨越下越大，她打开了雨刮器。（答案：____）",
         "answer": "As the rain grew heavier, she turned on the windscreen wipers.",
         "note": "turn on the windscreen wipers 打开雨刮器；wipers 用复数。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (windscreen / windshield)：This British car manual refers to the front glass as the ______.",
+        "question": "选词填空 (windscreen / windshield)：This British car manual refers to the front glass as the ____.",
         "answer": "windscreen",
         "note": "英式英语（本册教材）用 windscreen；windshield 为美式说法。"
       }
@@ -3453,7 +4799,7 @@
     "sub_section": "",
     "original_sentence": "The windscreen wipers worked furiously to clear the glass, but they were not doing much good.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) in an extremely angry way (2) with great speed, energy, or violence",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adv.",
@@ -3466,7 +4812,20 @@
         "example": "\"How dare you!\" she said furiously. “你竟敢！”她怒气冲冲地说。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "She typed furiously as the deadline approached."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "He argued furiously with the unfair referee."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Rain beat furiously against the windows."
+      }
+    ],
     "wordForms": {
       "noun": "fury 狂怒，暴怒；狂暴，猛烈",
       "verb": "",
@@ -3501,6 +4860,26 @@
         "phrase": "rain / blow furiously",
         "translation": "（雨）倾盆而下／（风）狂吹",
         "example": "The wind blew furiously all night long. 大风整夜狂吹。"
+      },
+      {
+        "phrase": "shake / pound furiously",
+        "translation": "猛烈摇晃/猛击",
+        "example": "Waves pounded furiously against the wall. 海浪猛烈拍打墙面。"
+      },
+      {
+        "phrase": "react furiously",
+        "translation": "作出愤怒反应",
+        "example": "Residents reacted furiously to the closure. 居民对关闭措施反应愤怒。"
+      },
+      {
+        "phrase": "pedal / row furiously",
+        "translation": "拼命蹬车/划船（强调快速用力）",
+        "example": "The cyclists pedalled furiously towards the finish. 骑手们拼命蹬向终点。"
+      },
+      {
+        "phrase": "work at a furious pace",
+        "translation": "以极快速度工作（形容词结构）",
+        "example": "The team worked at a furious pace. 团队以极快速度工作。"
       }
     ],
     "synonyms": [
@@ -3540,29 +4919,40 @@
         "example": "The wipers worked furiously, yet the rain fell just as furiously. 雨刮器拼命摆动，雨却下得同样猛烈。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "She typed furiously as the deadline approached.",
+        "upgraded": "She typed furiously as the deadline approached, finishing the final paragraph seconds before submission.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "He argued furiously with the unfair referee.",
+        "upgraded": "He argued furiously with the unfair referee, struggling to keep his voice under control.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The windscreen wipers worked ______ (furious) to clear the glass, but they were not doing much good.",
+        "question": "The windscreen wipers worked ____ (furious) to clear the glass, but they were not doing much good.",
         "answer": "furiously",
         "note": "修饰动词 worked，用副词 furiously（形容词 furious 加 -ly）。"
       },
       {
-        "type": "词形转换",
-        "question": "He was ______ (fury) when he found out, and he shouted ______ (fury) at everyone. 分别填形容词与副词。",
+        "type": "单句语法填空",
+        "question": "He was ____ (fury) when he found out, and he shouted ____ (fury) at everyone. 分别填形容词与副词。",
         "answer": "furious; furiously",
-        "note": "第一空作表语修饰人（was + adj.）用 furious；第二空修饰动词 shouted 用副词 furiously。"
+        "note": "原题型标注：词形转换。第一空作表语修饰人（was + adj.）用 furious；第二空修饰动词 shouted 用副词 furiously。"
       },
       {
         "type": "汉译英",
-        "question": "学生们飞快地书写，想在铃响前写完。",
+        "question": "学生们飞快地书写，想在铃响前写完。（答案：____）",
         "answer": "The students wrote furiously to finish before the bell (rang).",
         "note": "furiously 修饰 wrote，表『飞快/拼命地』；to finish 表目的。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (furiously / angrily)：The heavy rain beat ______ against the windscreen all the way home.",
+        "question": "选词填空 (furiously / angrily)：The heavy rain beat ____ against the windscreen all the way home.",
         "answer": "furiously",
         "note": "形容雨『猛烈地』拍打用 furiously；angrily 只表『生气地』，不能形容雨。"
       }
@@ -3580,9 +4970,22 @@
     "sub_section": "",
     "original_sentence": "Tom glanced in his rear-view mirror.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a mirror inside a vehicle that allows the driver to see the road and traffic behind",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A motorcycle appeared suddenly in the rear-view mirror."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The driver adjusted the rear-view mirror before reversing."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Rain blurred the image in the rear-view mirror."
+      }
+    ],
     "wordForms": {
       "noun": "rear-view mirror 后视镜；wing/side mirror 侧后视镜",
       "verb": "",
@@ -3611,9 +5014,42 @@
         "phrase": "adjust the rear-view mirror",
         "translation": "调整后视镜",
         "example": "He adjusted the rear-view mirror before setting off. 他出发前调好了后视镜。"
+      },
+      {
+        "phrase": "see sth in the rear-view mirror",
+        "translation": "从后视镜里看到某物",
+        "example": "She saw flashing lights in the rear-view mirror. 她从后视镜看到闪光。"
+      },
+      {
+        "phrase": "the interior rear-view mirror",
+        "translation": "车内后视镜（区别于侧后视镜）",
+        "example": "The interior rear-view mirror showed the back seat. 车内后视镜映出后座。"
+      },
+      {
+        "phrase": "a clear view in the rear-view mirror",
+        "translation": "后视镜中的清晰视野",
+        "example": "Dirt blocked the view in the rear-view mirror. 污垢挡住后视镜视野。"
+      },
+      {
+        "phrase": "rear-view mirror adjustment",
+        "translation": "后视镜调节",
+        "example": "Correct rear-view mirror adjustment reduces blind spots. 正确调节后视镜能减少盲区。"
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      {
+        "synonym": "side mirror",
+        "translation": "n. 侧后视镜（相关部件，非同义词）",
+        "example": "The cyclist disappeared briefly from the side mirror. 骑车人短暂地从侧后视镜中消失。",
+        "usage": "side mirror 安装在车身两侧，显示车辆侧后方；rear-view mirror 通常指车内中央后视镜，显示正后方。二者共同减少盲区，但位置和视野不同，不能互换。"
+      },
+      {
+        "synonym": "blind-spot mirror",
+        "translation": "n. 盲区镜（相关部件，非同义词）",
+        "example": "A blind-spot mirror gives a wider side view. 盲区镜提供更宽的侧方视野。",
+        "usage": "blind-spot mirror 是附加的小型广角镜，专门扩大侧后方盲区视野；rear-view mirror 是车辆标准后视镜。前者通常附着在 side mirror 上，不是中央后视镜的同义词。"
+      }
+    ],
     "advancedExpressions": [
       {
         "type": "短语群·车内部件",
@@ -3624,25 +5060,41 @@
         "type": "同义表达群·看车后",
         "expression": "glance in the mirror / check one's blind spot / look over one's shoulder",
         "example": "Before changing lanes, glance in the mirror and check your blind spot. 变道前，瞟一眼后视镜并查看盲区。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a clear view in the rear-view mirror",
+        "example": "Dirt blocked the view in the rear-view mirror. 污垢挡住后视镜视野。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A motorcycle appeared suddenly in the rear-view mirror.",
+        "upgraded": "A motorcycle appeared suddenly in the rear-view mirror, warning Lena not to change lanes.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The driver adjusted the rear-view mirror before reversing.",
+        "upgraded": "The driver adjusted the rear-view mirror before reversing, bringing the narrow gate into view.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "转弯前，汤姆瞟了一眼他的后视镜。Before turning, Tom ________ ________ his rear-view mirror.",
+        "question": "转弯前，汤姆瞟了一眼他的后视镜。Before turning, Tom ____ ____ his rear-view mirror.",
         "answer": "glanced in",
         "note": "固定搭配 glance in the rear-view mirror；glance 后接 in/at 表示朝某处瞥一眼。"
       },
       {
         "type": "单句语法填空",
-        "question": "The driver looked ________ the rear-view mirror before reversing the car.",
+        "question": "The driver looked ____ the rear-view mirror before reversing the car.",
         "answer": "in",
         "note": "look in the rear-view mirror「看后视镜（镜面里）」用介词 in；look at 强调注视物体本身。"
       },
       {
         "type": "汉译英",
-        "question": "出发前，他调好了后视镜和方向盘。",
+        "question": "出发前，他调好了后视镜和方向盘。（答案：____）",
         "answer": "Before setting off, he adjusted the rear-view mirror and the steering wheel.",
         "note": "adjust the rear-view mirror 调后视镜；set off 出发。考查车部件复合名词与固定动宾搭配。"
       }
@@ -3660,7 +5112,7 @@
     "sub_section": "",
     "original_sentence": "He could feel a familiar wave of despair start to wash over him.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. the complete loss of hope (2) v. to lose all hope that something will improve or happen",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3668,7 +5120,20 @@
         "example": "His laziness was the despair of his teachers. 他的懒惰让老师们大失所望（是老师们头疼的根源）。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A wave of despair swept over the stranded hikers."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "She refused to despair after the first rejection."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "His voice was heavy with despair."
+      }
+    ],
     "wordForms": {
       "noun": "despair 绝望（不可数）",
       "verb": "despair (of) 绝望，失去信心（vi.）",
@@ -3702,6 +5167,26 @@
         "phrase": "drive sb to despair",
         "translation": "使某人陷入绝望",
         "example": "The endless failures drove him to despair. 无休止的失败使他陷入绝望。"
+      },
+      {
+        "phrase": "sink / fall into despair",
+        "translation": "陷入绝望",
+        "example": "He sank into despair after the search ended. 搜寻结束后他陷入绝望。"
+      },
+      {
+        "phrase": "be overcome / gripped by despair",
+        "translation": "被绝望压倒/攫住",
+        "example": "She was briefly overcome by despair. 她一度被绝望压倒。"
+      },
+      {
+        "phrase": "pull oneself out of despair",
+        "translation": "使自己走出绝望",
+        "example": "Friends helped him pull himself out of despair. 朋友帮助他走出绝望。"
+      },
+      {
+        "phrase": "a cry / feeling of despair",
+        "translation": "绝望的呼喊/感觉",
+        "example": "A cry of despair came from the crowd. 人群中传来绝望的呼喊。"
       }
     ],
     "synonyms": [
@@ -3714,7 +5199,8 @@
       {
         "synonym": "desperation",
         "translation": "n. 绝望，走投无路（进而铤而走险）",
-        "example": "In desperation, she called the police. 走投无路之下，她报了警。"
+        "example": "In desperation, she called the police. 走投无路之下，她报了警。",
+        "usage": "desperation 是因绝望而产生的孤注一掷状态，常用于 in desperation；despair 是希望完全丧失的情绪或状态，可作不可数名词，也可作不及物动词 despair of doing。"
       }
     ],
     "advancedExpressions": [
@@ -3744,29 +5230,40 @@
         "example": "He refused to sink into despair and fought on. 他拒绝陷入绝望，继续奋战。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A wave of despair swept over the stranded hikers.",
+        "upgraded": "A wave of despair swept over the stranded hikers, as darkness closed in around them.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She refused to despair after the first rejection.",
+        "upgraded": "She refused to despair after the first rejection, submitting a stronger application the next week.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "He could feel a familiar wave of ________ (despair) start to wash over him as the car broke down again.",
+        "question": "He could feel a familiar wave of ____ (despair) start to wash over him as the car broke down again.",
         "answer": "despair",
         "note": "此处作名词「绝望」，a wave of despair 一阵绝望，为课文原句结构；despair 名词不可数，无复数。"
       },
       {
         "type": "辨析选词",
-        "question": "用 despair / desperate / desperately 填空：In ________ ________ (拼命的努力) to escape, he broke the window. / She was ________ (绝望的) after the news.",
+        "question": "用 despair / desperate / desperately 填空：In ____ ____ (拼命的努力) to escape, he broke the window. / She was ____ (绝望的) after the news.",
         "answer": "a desperate; desperate",
         "note": "desperate 形容词「不顾一切的/绝望的」；desperately 副词。空一需形容词修饰 effort，空二作系动词表语。"
       },
       {
         "type": "汉译英",
-        "question": "生活教会我们即使在最黑暗的时刻也不要绝望。",
+        "question": "生活教会我们即使在最黑暗的时刻也不要绝望。（答案：____）",
         "answer": "Life teaches us not to despair even in the darkest moment.",
         "note": "此处 despair 作不及物动词「绝望」，not to despair 不定式否定式；对齐仿写课件范句。"
       },
       {
         "type": "同义句转换",
-        "question": "They lost all hope of ever finding a way out. → They ________ ________ ever finding a way out.",
+        "question": "They lost all hope of ever finding a way out. → They ____ ____ ever finding a way out.",
         "answer": "despaired of",
         "note": "despair of (doing) sth = lose all hope of，对…绝望；of 后接名词或动名词。"
       }
@@ -3784,7 +5281,7 @@
     "sub_section": "",
     "original_sentence": "The rain was still pounding on the roof of the car and he felt as if he had been trapped inside a drum.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a percussion instrument or cylindrical container (2) v. to beat repeatedly with a rhythmic sound",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3797,7 +5294,20 @@
         "example": "The rules were drummed into us at school. 这些规矩在学校被反复灌输给我们。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Rain drummed steadily on the metal roof."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A large drum stood at the centre of the stage."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The coach drummed a rhythm on the wooden bench."
+      }
+    ],
     "wordForms": {
       "noun": "drum 鼓；圆桶；drummer 鼓手；drumbeat 鼓声，鼓点",
       "verb": "drum 打鼓；咚咚敲（drummed, drummed, drumming）",
@@ -3826,6 +5336,26 @@
         "phrase": "drum one's fingers (on the table)",
         "translation": "（不耐烦地）用手指敲桌子",
         "example": "He drummed his fingers on the desk, waiting anxiously. 他敲着桌子，焦急地等着。"
+      },
+      {
+        "phrase": "drum up support / business",
+        "translation": "争取支持/招揽生意（短语动词）",
+        "example": "Volunteers drummed up support for the appeal. 志愿者为呼吁争取支持。"
+      },
+      {
+        "phrase": "drum sth into sb",
+        "translation": "反复向某人灌输某事",
+        "example": "Coaches drum safety rules into beginners. 教练反复向初学者强调安全规则。"
+      },
+      {
+        "phrase": "a steady drumbeat / drum roll",
+        "translation": "稳定鼓点/鼓声滚奏",
+        "example": "A drum roll announced the winner. 一阵鼓声宣布获胜者。"
+      },
+      {
+        "phrase": "a metal / oil drum",
+        "translation": "金属桶/油桶（容器义）",
+        "example": "Rainwater filled the metal drum. 雨水装满了金属桶。"
       }
     ],
     "synonyms": [
@@ -3838,7 +5368,8 @@
       {
         "synonym": "tap",
         "translation": "v. 轻叩，轻敲",
-        "example": "She tapped her pen on the notebook. 她用笔轻叩笔记本。"
+        "example": "She tapped her pen on the notebook. 她用笔轻叩笔记本。",
+        "usage": "tap 指轻而短促地敲，通常一次或数次，作及物/不及物动词；drum 指像鼓点般持续、有节奏地敲，常搭 drum on/against sth 或 drum one's fingers。"
       }
     ],
     "advancedExpressions": [
@@ -3851,25 +5382,41 @@
         "type": "构词法·拟声+双写",
         "expression": "drum → drummed / drumming / drummer / drumbeat",
         "example": "The drummer's steady drumbeat kept the whole band together. 鼓手稳定的鼓点让整个乐队保持一致。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a steady drumbeat / drum roll",
+        "example": "A drum roll announced the winner. 一阵鼓声宣布获胜者。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Rain drummed steadily on the metal roof.",
+        "upgraded": "Rain drummed steadily on the metal roof, filling the cabin with a restless rhythm.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "A large drum stood at the centre of the stage.",
+        "upgraded": "A large drum stood at the centre of the stage, waiting for the opening performance.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The rain was still ________ (drum) on the roof of the car all through the night.",
+        "question": "The rain was still ____ (drum) on the roof of the car all through the night.",
         "answer": "drumming",
         "note": "be + V-ing 过去进行；drum 以单元音+m 结尾，加 -ing 双写 m 为 drumming。此处 drum on 咚咚打在…上。"
       },
       {
         "type": "选词填空",
-        "question": "用 drum 的适当形式：Waiting for the results, he nervously ________ his fingers on the table.",
+        "question": "用 drum 的适当形式：Waiting for the results, he nervously ____ his fingers on the table.",
         "answer": "drummed",
         "note": "drum one's fingers 不耐烦地敲手指；一般过去时，双写 m 为 drummed。"
       },
       {
         "type": "完成句子",
-        "question": "雨声太响，他感觉自己仿佛被困在了一面鼓里。The rain was so loud that he felt as if he had been ________ inside a ________.",
+        "question": "雨声太响，他感觉自己仿佛被困在了一面鼓里。The rain was so loud that he felt as if he had been ____ inside a ____.",
         "answer": "trapped; drum",
         "note": "对齐课文原句 trapped inside a drum；as if 从句用过去完成表非真实比拟。drum 此处作名词「鼓」。"
       }
@@ -3887,7 +5434,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to take a sudden short breath from pain, surprise, or lack of air (2) to say something while breathing with difficulty",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3900,7 +5447,20 @@
         "example": "\"Help me!\" he gasped out. \"救救我！\"他气喘吁吁地说。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The runner gasped for breath at the finish."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "We gasped at the damage inside the house."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He gasped a warning before collapsing."
+      }
+    ],
     "wordForms": {
       "noun": "gasp 喘息，倒抽气（a gasp; gasps）",
       "verb": "gasp 喘气；倒抽气（gasped, gasped, gasping）",
@@ -3934,6 +5494,26 @@
         "phrase": "be gasping for sth",
         "translation": "（口语）极想要，渴望（尤指饮料）",
         "example": "I'm gasping for a cup of tea. 我特别想喝杯茶。"
+      },
+      {
+        "phrase": "let out a gasp",
+        "translation": "倒抽一口气/发出喘息",
+        "example": "She let out a gasp of surprise. 她惊讶地倒吸一口气。"
+      },
+      {
+        "phrase": "gasp out a reply",
+        "translation": "喘着气说出回答",
+        "example": "He gasped out a reply between coughs. 他在咳嗽间喘着气回答。"
+      },
+      {
+        "phrase": "gasp in disbelief",
+        "translation": "难以置信地倒抽气",
+        "example": "The audience gasped in disbelief. 观众难以置信地倒吸气。"
+      },
+      {
+        "phrase": "the last gasp",
+        "translation": "最后一刻；临终喘息（固定表达）",
+        "example": "They scored at the last gasp. 他们在最后一刻得分。"
       }
     ],
     "synonyms": [
@@ -3946,7 +5526,8 @@
       {
         "synonym": "gulp",
         "translation": "v. 大口吞咽；（因紧张）倒抽气",
-        "example": "She gulped in shock at the news. 听到消息她惊得倒吸一口气。"
+        "example": "She gulped in shock at the news. 听到消息她惊得倒吸一口气。",
+        "usage": "gulp 本义是大口吞咽，gulp in air 表急促吸气，常因紧张；gasp 强调因缺氧、疼痛或惊讶突然短促吸气，常搭 gasp for breath / gasp at sth，不能一律互换。"
       }
     ],
     "advancedExpressions": [
@@ -3971,29 +5552,40 @@
         "example": "He reached the top and gasped for breath, unable to catch his breath. 他登顶后大口喘气，一时缓不过来。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The runner gasped for breath at the finish.",
+        "upgraded": "The runner gasped for breath at the finish, bending forward with both hands on her knees.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "We gasped at the damage inside the house.",
+        "upgraded": "We gasped at the damage inside the house, unable to look away from the shattered furniture.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As the world outside began to close in on him, Tom ________ (gasp) for breath.",
+        "question": "As the world outside began to close in on him, Tom ____ (gasp) for breath.",
         "answer": "gasped",
         "note": "记叙文一般过去时；gasp for breath 喘不上气，为课件原句。gasp 规则变化 gasped。"
       },
       {
         "type": "辨析选词",
-        "question": "用 gasp / pant 填空：After the long climb she ________ heavily; then she ________ in surprise at the stunning view.",
+        "question": "用 gasp / pant 填空：After the long climb she ____ heavily; then she ____ in surprise at the stunning view.",
         "answer": "panted; gasped",
         "note": "pant 指劳累后持续喘气；gasp 指因惊叹而一次性倒抽气（gasp in surprise），符合语境切换。"
       },
       {
         "type": "完成句子",
-        "question": "看到破碎的花瓶，我倒抽了一口气。I ________ ________ the sight of the shattered vase.",
+        "question": "看到破碎的花瓶，我倒抽了一口气。I ____ ____ the sight of the shattered vase.",
         "answer": "gasped at",
         "note": "gasp at sth 因吃惊倒抽气/惊呼；对齐仿写课件范句。"
       },
       {
         "type": "短语填空",
-        "question": "The team scored a goal at the last ________, winning the match in the final second.",
+        "question": "The team scored a goal at the last ____, winning the match in the final second.",
         "answer": "gasp",
         "note": "at the last gasp 在最后一刻/垂死之际，固定名词短语，此处作名词。"
       }
@@ -4011,7 +5603,7 @@
     "sub_section": "",
     "original_sentence": "Suddenly, a loud noise shook Tom out of his moment of hopelessness as the car began to bump down the road.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to hit something or move unevenly (2) n. a light collision, raised area, or swelling",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4029,7 +5621,20 @@
         "example": "They bumped up the price during the holidays. 假期里他们抬高了价格。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Lina bumped her elbow against the doorway."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The cart bumped slowly across the field."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A small bump appeared above his eyebrow."
+      }
+    ],
     "wordForms": {
       "noun": "bump 碰撞（声）；肿块，凸包；bumper 保险杠",
       "verb": "bump 颠簸；碰，撞（bumped, bumped, bumping）",
@@ -4063,6 +5668,26 @@
         "phrase": "with a bump",
         "translation": "砰的一声，猛地一撞",
         "example": "The plane landed with a bump. 飞机砰地一声着陆。"
+      },
+      {
+        "phrase": "bump against / on sth",
+        "translation": "撞到某物上（身体部位常用 on）",
+        "example": "I bumped my knee on the table. 我的膝盖撞到桌子。"
+      },
+      {
+        "phrase": "bump into an old friend",
+        "translation": "偶遇老朋友（非正式）",
+        "example": "She bumped into an old friend downtown. 她在市中心偶遇老友。"
+      },
+      {
+        "phrase": "a bumpy ride / start",
+        "translation": "颠簸旅程/坎坷开局（派生形容词）",
+        "example": "The project had a bumpy start. 项目开局坎坷。"
+      },
+      {
+        "phrase": "bump up prices / production",
+        "translation": "提高价格/产量（短语动词）",
+        "example": "The shortage bumped up prices. 短缺推高了价格。"
       }
     ],
     "synonyms": [
@@ -4075,12 +5700,14 @@
       {
         "synonym": "collide",
         "translation": "v. （两物）猛烈相撞",
-        "example": "The two cars collided at the corner. 两车在拐角处相撞。"
+        "example": "The two cars collided at the corner. 两车在拐角处相撞。",
+        "usage": "collide 通常是不及物动词，表示车辆等猛烈相撞，搭 collide with；bump 可及物或不及物，多指较轻的碰撞，也可表颠簸或偶遇，语气和句法范围更广。"
       },
       {
         "synonym": "run into",
         "translation": "撞上；偶遇（=bump into）",
-        "example": "I ran into an old classmate at the mall. 我在商场偶遇了一位老同学。"
+        "example": "I ran into an old classmate at the mall. 我在商场偶遇了一位老同学。",
+        "usage": "run into 与 bump into 在“偶遇某人”时可互换，均为非正式短语动词；run into 还可表示遭遇问题，bump 本身可直接接身体部位或作名词，句法范围不同。"
       }
     ],
     "advancedExpressions": [
@@ -4105,29 +5732,40 @@
         "example": "The car's bumper was dented after the bumpy ride. 一路颠簸后，汽车保险杠被撞凹了。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Lina bumped her elbow against the doorway.",
+        "upgraded": "Lina bumped her elbow against the doorway, letting out a sharp gasp of pain.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The cart bumped slowly across the field.",
+        "upgraded": "The cart bumped slowly across the field, shaking every box on its wooden platform.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Suddenly, a loud noise shook Tom as the car began to ________ (bump) down the road.",
+        "question": "Suddenly, a loud noise shook Tom as the car began to ____ (bump) down the road.",
         "answer": "bump",
         "note": "begin to do 后接动词原形；bump down the road 颠簸着沿路行进，为课文原句。"
       },
       {
         "type": "选词填空",
-        "question": "用 bump 的适当形式：Yesterday I ________ into an old friend on my way home—what a coincidence!",
+        "question": "用 bump 的适当形式：Yesterday I ____ into an old friend on my way home—what a coincidence!",
         "answer": "bumped",
         "note": "bump into sb 偶遇某人；一般过去时 bumped。对齐仿写课件用法。"
       },
       {
         "type": "辨析选词",
-        "question": "用 bump / knock / collide 填空：The two ships ________ in the fog. / I ________ my knee on the desk. / I ________ into an old teacher yesterday.",
+        "question": "用 bump / knock / collide 填空：The two ships ____ in the fog. / I ____ my knee on the desk. / I ____ into an old teacher yesterday.",
         "answer": "collided; knocked; bumped",
         "note": "collide 两物猛撞；knock 敲/碰（及物）；bump into 偶遇/无意撞上。三词按语义与搭配区分。"
       },
       {
         "type": "汉译英",
-        "question": "经历了颠簸的开局后，团队终于走上了正轨。",
+        "question": "经历了颠簸的开局后，团队终于走上了正轨。（答案：____）",
         "answer": "After a bumpy start, the team finally got on track.",
         "note": "bumpy 形容词「颠簸的/坎坷的」，由 bump 派生，喻指艰难；get on track 步入正轨。"
       }
@@ -4145,9 +5783,22 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a thick rubber covering fitted around a wheel and filled with air or solid material",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A sharp stone punctured the front tyre."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The mechanic checked each tyre for uneven wear."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Correct tyre pressure improves fuel efficiency."
+      }
+    ],
     "wordForms": {
       "noun": "tyre（英）/ tire（美）轮胎；spare tyre 备胎",
       "verb": "",
@@ -4176,6 +5827,26 @@
         "phrase": "pump up / inflate a tyre",
         "translation": "给轮胎打气",
         "example": "Remember to pump up the tyres before the trip. 出行前记得给轮胎打气。"
+      },
+      {
+        "phrase": "tyre pressure",
+        "translation": "轮胎气压（不可数 pressure）",
+        "example": "Check the tyre pressure monthly. 每月检查轮胎气压。"
+      },
+      {
+        "phrase": "tyre tread / wear",
+        "translation": "轮胎胎纹/磨损",
+        "example": "The mechanic examined the tyre tread. 机械师检查了轮胎胎纹。"
+      },
+      {
+        "phrase": "a spare tyre",
+        "translation": "备用轮胎",
+        "example": "A spare tyre lay beneath the boot. 后备箱下放着备胎。"
+      },
+      {
+        "phrase": "a tyre blows / bursts",
+        "translation": "轮胎爆裂（不及物）",
+        "example": "A rear tyre burst on the motorway. 一只后轮胎在高速公路爆裂。"
       }
     ],
     "synonyms": [
@@ -4188,7 +5859,8 @@
       {
         "synonym": "wheel",
         "translation": "n. 车轮（含轮毂与轮胎的整体）",
-        "example": "The front wheel came off. 前轮脱落了。"
+        "example": "The front wheel came off. 前轮脱落了。",
+        "usage": "wheel 指轮胎、轮毂等组成的整个车轮；tyre 只指包在轮毂外的橡胶部分。说换瘪胎用 change a tyre，说车轮脱落用 a wheel came off，不能混用。"
       }
     ],
     "advancedExpressions": [
@@ -4201,25 +5873,41 @@
         "type": "构词法·英美拼写对照",
         "expression": "tyre（英）= tire（美）；类比 colour/color, centre/center 的英美差异",
         "example": "In British English we write \"tyre\", but Americans write \"tire\". 英式英语写 tyre，美式写 tire。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a spare tyre",
+        "example": "A spare tyre lay beneath the boot. 后备箱下放着备胎。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A sharp stone punctured the front tyre.",
+        "upgraded": "A sharp stone punctured the front tyre, forcing us to stop beside the road.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The mechanic checked each tyre for uneven wear.",
+        "upgraded": "The mechanic checked each tyre for uneven wear, identifying a problem with the wheel alignment.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "在高速公路上我们爆了胎，只好停下来换备胎。We had a ________ ________ on the motorway and had to stop to change the ________ tyre.",
+        "question": "在高速公路上我们爆了胎，只好停下来换备胎。We had a ____ ____ on the motorway and had to stop to change the ____ tyre.",
         "answer": "flat tyre; spare",
         "note": "a flat tyre 瘪胎；spare tyre 备胎。考查轮胎相关固定搭配与英式拼写 tyre。"
       },
       {
         "type": "单句语法填空",
-        "question": "Before the long trip, Dad checked the engine and pumped up all four ________ (tyre).",
+        "question": "Before the long trip, Dad checked the engine and pumped up all four ____ (tyre).",
         "answer": "tyres",
         "note": "tyre 为可数名词，four 后用复数 tyres。pump up a tyre 给轮胎打气。"
       },
       {
         "type": "辨析选词",
-        "question": "英式英语中「轮胎」拼作 ________，美式英语中拼作 ________。",
+        "question": "英式英语中「轮胎」拼作 ____，美式英语中拼作 ____。",
         "answer": "tyre; tire",
         "note": "考查英美拼写差异；注意 tire 在美式还兼作动词「使疲倦」，作名词时才等于 tyre。"
       }
@@ -4237,9 +5925,22 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the circular control a driver turns to change a vehicle's direction",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Tom gripped the steering wheel during the storm."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She turned the steering wheel gently to the left."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The steering wheel vibrated at high speed."
+      }
+    ],
     "wordForms": {
       "noun": "steering wheel 方向盘；steering 转向（系统）；wheel 车轮，轮子",
       "verb": "steer vt./vi. 驾驶，掌舵；引导",
@@ -4268,9 +5969,42 @@
         "phrase": "at the (steering) wheel",
         "translation": "在驾驶座上；掌控局面",
         "example": "With a calm driver at the wheel, we felt safe. 有位沉稳的司机开车，我们很安心。"
+      },
+      {
+        "phrase": "centre / straighten the steering wheel",
+        "translation": "回正方向盘",
+        "example": "Straighten the steering wheel after the turn. 转弯后回正方向盘。"
+      },
+      {
+        "phrase": "a heated steering wheel",
+        "translation": "加热方向盘",
+        "example": "The car has a heated steering wheel. 这辆车有加热方向盘。"
+      },
+      {
+        "phrase": "a steering wheel cover",
+        "translation": "方向盘套",
+        "example": "The leather steering wheel cover improves grip. 皮质方向盘套增强握持。"
+      },
+      {
+        "phrase": "steering-wheel-mounted controls",
+        "translation": "方向盘安装式控制键（复合形容词）",
+        "example": "Steering-wheel-mounted controls adjust the volume. 方向盘控制键调节音量。"
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      {
+        "synonym": "handlebars",
+        "translation": "n.（自行车/摩托车）车把（相关操纵部件，非同义词）",
+        "example": "The cyclist held the handlebars firmly. 骑车人牢牢握住车把。",
+        "usage": "handlebars 用于自行车、摩托车等两轮车辆，左右转动车把控制方向；steering wheel 是汽车等车辆的圆形方向盘。功能相关，但适用车辆和形状不同，不能互换。"
+      },
+      {
+        "synonym": "tiller",
+        "translation": "n. 舵柄（相关操纵装置，非同义词）",
+        "example": "The sailor pushed the tiller to change course. 水手推动舵柄改变航向。",
+        "usage": "tiller 是小船上直接带动舵的舵柄；steering wheel 是车辆或某些船只的轮式操纵装置。二者都控制方向，但机械结构与典型使用场景不同。"
+      }
+    ],
     "advancedExpressions": [
       {
         "type": "短语群·汽车驾驶场景",
@@ -4281,25 +6015,41 @@
         "type": "同义表达群·掌控（比喻）",
         "expression": "be at the wheel = be in control / take the wheel = take charge",
         "example": "In the crisis, she took the wheel and steered the team to safety. 危机中，她挺身掌舵，带团队脱险。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a steering wheel cover",
+        "example": "The leather steering wheel cover improves grip. 皮质方向盘套增强握持。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Tom gripped the steering wheel during the storm.",
+        "upgraded": "Tom gripped the steering wheel during the storm, trying to keep the car on the narrow road.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She turned the steering wheel gently to the left.",
+        "upgraded": "She turned the steering wheel gently to the left, guiding the vehicle around the fallen branch.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "暴风雨中，他双手紧握方向盘。In the storm, he ________ the steering wheel ________ both hands.",
+        "question": "暴风雨中，他双手紧握方向盘。In the storm, he ____ the steering wheel ____ both hands.",
         "answer": "gripped; with",
         "note": "grip the steering wheel 握方向盘；with both hands 用双手。"
       },
       {
         "type": "选词填空",
-        "question": "用 steering wheel / rear-view mirror 填空：Tom glanced in his ________ to check the traffic behind, then turned the ________.",
+        "question": "用 steering wheel / rear-view mirror 填空：Tom glanced in his ____ to check the traffic behind, then turned the ____.",
         "answer": "rear-view mirror; steering wheel",
         "note": "后视镜看后方 rear-view mirror；转方向盘 turn the steering wheel。"
       },
       {
         "type": "汉译英",
-        "question": "他开车时不应该看手机。（用 behind the wheel）",
+        "question": "他开车时不应该看手机。（用 behind the wheel）（答案：____）",
         "answer": "He shouldn't look at his phone behind the wheel.",
         "note": "behind the wheel = 在开车/在驾驶座上，固定搭配。"
       }
@@ -4317,7 +6067,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to look closely or with difficulty (2) n. a person of the same age, status, or ability",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -4335,7 +6085,20 @@
         "example": "He was made a peer for his service to the country. 他因效力国家而被封为贵族。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Maya peered through the mist at the distant gate."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Teenagers often compare themselves with their peers."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "He peered inquiringly at the faded label."
+      }
+    ],
     "wordForms": {
       "noun": "peer 同辈，贵族；peerage 贵族身份/贵族阶层",
       "verb": "peer vi. 仔细看",
@@ -4374,6 +6137,26 @@
         "phrase": "peer pressure / peer comparison",
         "translation": "同辈压力／同辈攀比",
         "example": "Many students give in to peer pressure. 很多学生屈从于同辈压力。"
+      },
+      {
+        "phrase": "peer over / around sth",
+        "translation": "越过/绕过某物仔细看",
+        "example": "She peered over the garden wall. 她越过花园墙细看。"
+      },
+      {
+        "phrase": "peer closely / anxiously",
+        "translation": "仔细地/焦急地看",
+        "example": "He peered anxiously into the darkness. 他焦急地凝视黑暗。"
+      },
+      {
+        "phrase": "peer review",
+        "translation": "同行评审（名词作定语）",
+        "example": "The paper passed peer review. 论文通过了同行评审。"
+      },
+      {
+        "phrase": "a peer group",
+        "translation": "同龄/同辈群体",
+        "example": "Teenagers value approval from their peer group. 青少年重视同辈群体认可。"
       }
     ],
     "synonyms": [
@@ -4425,23 +6208,34 @@
         "example": "Teenagers are often subject to the invisible trend of peer comparison. 青少年常受无形的同辈攀比之风影响。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Maya peered through the mist at the distant gate.",
+        "upgraded": "Maya peered through the mist at the distant gate, straining her eyes to identify the waiting figure.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Teenagers often compare themselves with their peers.",
+        "upgraded": "Teenagers often compare themselves with their peers, especially when social media highlights success.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In the dim light, he ________ (peer) at the old photo, trying to make out the faces.",
+        "question": "In the dim light, he ____ (peer) at the old photo, trying to make out the faces.",
         "answer": "peered",
         "note": "叙述过去，用一般过去时；peer at 端详。"
       },
       {
         "type": "辨析选词",
-        "question": "用 peer / glance / glare 填空：In the dim room he had to ________ at the label to read the tiny words, while an angry man ________ at him from the corner.",
+        "question": "用 peer / glance / glare 填空：In the dim room he had to ____ at the label to read the tiny words, while an angry man ____ at him from the corner.",
         "answer": "peer; glared",
         "note": "第一空：光线暗、字小，需凑近费力细看，用 peer（不及物，后接 at）；第二空：angry 提示怒视，用 glare 的过去式 glared。glance 是匆匆一瞥，此处均不合。"
       },
       {
         "type": "完成句子",
-        "question": "很多学生屈从于同辈压力。Many students give in to ________ ________.",
+        "question": "很多学生屈从于同辈压力。Many students give in to ____ ____.",
         "answer": "peer pressure",
         "note": "peer 作名词=同辈；peer pressure 同辈压力，固定搭配。"
       }
@@ -4459,7 +6253,7 @@
     "sub_section": "",
     "original_sentence": "As he got closer, he could see a long driveway leading to a solitary house.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) alone and without companions (2) being the only one of its kind",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -4477,7 +6271,20 @@
         "example": "The old solitary lived alone in a cabin. 那位隐士独自住在一间小木屋里。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A solitary figure waited beside the empty road."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "One solitary tree survived the wildfire."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "He led a quiet, solitary life by the sea."
+      }
+    ],
     "wordForms": {
       "noun": "solitude 孤独，独处；solitariness 孤单",
       "verb": "",
@@ -4511,6 +6318,26 @@
         "phrase": "not a solitary + n.",
         "translation": "连一个…也没有（加强否定）",
         "example": "There wasn't a solitary sound in the empty hall. 空荡的大厅里连一点声响都没有。"
+      },
+      {
+        "phrase": "a solitary activity / walk",
+        "translation": "独自进行的活动/散步",
+        "example": "Reading is often a solitary activity. 阅读常是独自活动。"
+      },
+      {
+        "phrase": "remain solitary",
+        "translation": "保持独处/孤立（作表语）",
+        "example": "The animal remains solitary outside breeding season. 这种动物繁殖季外独居。"
+      },
+      {
+        "phrase": "a solitary exception",
+        "translation": "唯一的例外",
+        "example": "There was one solitary exception. 只有一个例外。"
+      },
+      {
+        "phrase": "seek solitude",
+        "translation": "寻求独处（相关名词 solitude）",
+        "example": "She went to the coast to seek solitude. 她去海边寻求独处。"
       }
     ],
     "synonyms": [
@@ -4549,25 +6376,41 @@
         "type": "构词法·词根 sol- (alone)",
         "expression": "solitary 孤单的 → solitude 独处 → sole 唯一的 → solo 独奏 → desolate 荒凉的",
         "example": "In solitude he found peace, no longer feeling the sting of loneliness. 在独处中他寻得平静，不再感到寂寞的刺痛。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "a solitary exception",
+        "example": "There was one solitary exception. 只有一个例外。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A solitary figure waited beside the empty road.",
+        "upgraded": "A solitary figure waited beside the empty road, barely visible beneath the weak streetlight.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "One solitary tree survived the wildfire.",
+        "upgraded": "One solitary tree survived the wildfire, standing green against the blackened hillside.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "A long driveway led to a ________ (solitude) house standing alone on the hill.",
+        "question": "A long driveway led to a ____ (solitude) house standing alone on the hill.",
         "answer": "solitary",
         "note": "修饰名词 house 需形容词形式 solitary；名词 solitude 不能作定语。"
       },
       {
         "type": "辨析选词",
-        "question": "用 solitary / lonely 填空：He is a ________ person by nature, but he never feels ________.",
+        "question": "用 solitary / lonely 填空：He is a ____ person by nature, but he never feels ____.",
         "answer": "solitary; lonely",
         "note": "第一空客观描述‘喜欢独处’用 solitary；第二空主观情感‘寂寞’用 lonely。"
       },
       {
         "type": "汉译英",
-        "question": "广袤的平原上仅有一棵孤树。（用 solitary）",
+        "question": "广袤的平原上仅有一棵孤树。（用 solitary）（答案：____）",
         "answer": "A solitary tree stood on the vast plain.",
         "note": "solitary 此处取‘唯一的、仅有的’义，作定语。"
       }
@@ -4585,7 +6428,7 @@
     "sub_section": "",
     "original_sentence": "Tom explained the problem and added, “I need help because my legs are paralysed.” The words came out flat.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) unable to move part or all of the body (2) unable to act or function because of fear or disruption",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -4598,7 +6441,20 @@
         "example": "The strike paralysed public transport. 罢工使公共交通陷入瘫痪。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A spinal infection left his right leg paralysed."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "She stood paralysed with fear in the doorway."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Heavy snow left the transport network paralysed."
+      }
+    ],
     "wordForms": {
       "noun": "paralysis /pəˈrælə sɪs/ 瘫痪，麻痺；停顿",
       "verb": "paralyse (英) / paralyze (美) vt. 使瘫痪",
@@ -4627,6 +6483,26 @@
         "phrase": "paralyse the traffic / economy",
         "translation": "使交通/经济陷入瘫痪",
         "example": "The heavy snow paralysed the whole city. 大雪使整座城市陷入瘫痪。"
+      },
+      {
+        "phrase": "partially / completely paralysed",
+        "translation": "部分/完全瘫痪",
+        "example": "The injury left one arm partially paralysed. 受伤使一只手臂部分瘫痪。"
+      },
+      {
+        "phrase": "paralysed by indecision / shock",
+        "translation": "因犹豫/震惊而无法行动（比喻义）",
+        "example": "The committee was paralysed by indecision. 委员会因犹豫而停摆。"
+      },
+      {
+        "phrase": "leave sth paralysed",
+        "translation": "使……陷入瘫痪",
+        "example": "The strike left transport paralysed. 罢工使交通瘫痪。"
+      },
+      {
+        "phrase": "suffer from paralysis",
+        "translation": "患有瘫痪（名词 paralysis）",
+        "example": "He suffered from temporary paralysis. 他出现暂时性瘫痪。"
       }
     ],
     "synonyms": [
@@ -4659,25 +6535,41 @@
         "type": "构词法·词根 -lys-/-lyse (松开·瓦解)",
         "expression": "paralyse 使瘫痪 → paralysis 瘫痪 → analyse 分析 → analysis 分析（把整体‘拆开’）",
         "example": "Fear can paralyse the mind just as illness paralyses the body. 恐惧能使心智瘫痪，正如疾病使身体瘫痪。"
+      },
+      {
+        "type": "课堂结构·核心搭配巩固·3",
+        "expression": "leave sth paralysed",
+        "example": "The strike left transport paralysed. 罢工使交通瘫痪。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A spinal infection left his right leg paralysed.",
+        "upgraded": "A spinal infection left his right leg paralysed, requiring major changes to his home.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She stood paralysed with fear in the doorway.",
+        "upgraded": "She stood paralysed with fear in the doorway, unable to call out or step backwards.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The terrible accident left him ________ (paralyse) from the waist down.",
+        "question": "The terrible accident left him ____ (paralyse) from the waist down.",
         "answer": "paralysed",
         "note": "leave sb + 过去分词作宾补，表‘使处于…状态’；用 paralysed。"
       },
       {
         "type": "完成句子",
-        "question": "她吓得动弹不得。She was ________ ________ fear and couldn't move.",
+        "question": "她吓得动弹不得。She was ____ ____ fear and couldn't move.",
         "answer": "paralysed with",
         "note": "be paralysed with fear = 因恐惧而僵住，固定搭配。"
       },
       {
         "type": "汉译英",
-        "question": "大雪使整座城市陷入瘫痪。（用 paralyse 的动词形式）",
+        "question": "大雪使整座城市陷入瘫痪。（用 paralyse 的动词形式）（答案：____）",
         "answer": "The heavy snow paralysed the whole city.",
         "note": "此处 paralyse 作及物动词，宾语为 the whole city；一般过去时。"
       }
@@ -4695,7 +6587,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to rest against something or bend from a straight position (2) adj. thin or containing little fat",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -4718,7 +6610,20 @@
         "example": "The company survived several lean years. 公司熬过了几个不景气的年头。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The exhausted traveller leaned against the wall."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "She leaned forward to hear the quiet reply."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The recipe uses lean meat and fresh vegetables."
+      }
+    ],
     "wordForms": {
       "noun": "lean 倾斜（度）；leaning 倾向，偏好",
       "verb": "lean (leaned, leaned; 英式亦作 leant, leant) vi./vt. 倾斜，倚靠",
@@ -4752,6 +6657,26 @@
         "phrase": "lean on sb (for support)",
         "translation": "依靠某人（获得支持）",
         "example": "You can always lean on your family in hard times. 困难时你总能依靠家人。"
+      },
+      {
+        "phrase": "lean towards sth / doing sth",
+        "translation": "倾向于某事/做某事（观点义）",
+        "example": "I lean towards accepting the offer. 我倾向于接受提议。"
+      },
+      {
+        "phrase": "lean heavily on sb",
+        "translation": "严重依赖某人（实义或比喻义）",
+        "example": "The project leans heavily on volunteers. 该项目严重依赖志愿者。"
+      },
+      {
+        "phrase": "lean meat / protein",
+        "translation": "瘦肉/低脂蛋白质（形容词义）",
+        "example": "Choose lean protein for the meal. 这顿饭选择低脂蛋白质。"
+      },
+      {
+        "phrase": "lean over the railing",
+        "translation": "俯身越过栏杆",
+        "example": "Do not lean over the railing. 不要俯身越过栏杆。"
       }
     ],
     "synonyms": [
@@ -4797,23 +6722,34 @@
         "example": "The lean runner leaned against the tree, catching his breath. 那位精瘦的跑者靠着树，喘着气。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The exhausted traveller leaned against the wall.",
+        "upgraded": "The exhausted traveller leaned against the wall, closing his eyes for a brief rest.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "She leaned forward to hear the quiet reply.",
+        "upgraded": "She leaned forward to hear the quiet reply, watching the speaker's face carefully.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Too tired to stand, the old man ________ (lean) against the wall and sighed.",
+        "question": "Too tired to stand, the old man ____ (lean) against the wall and sighed.",
         "answer": "leaned (或 leant)",
         "note": "叙述过去用过去式；lean 过去式 leaned/leant 均可。lean against 倚靠。"
       },
       {
         "type": "选词填空",
-        "question": "用 lean 的恰当形式/义项填空：Choose ________ meat with little fat, and ________ forward to read the label.",
+        "question": "用 lean 的恰当形式/义项填空：Choose ____ meat with little fat, and ____ forward to read the label.",
         "answer": "lean; lean",
         "note": "第一空 lean 作形容词=瘦的；第二空 lean forward=身体前倾。同形不同义。"
       },
       {
         "type": "汉译英",
-        "question": "困难时你总能依靠家人。（用 lean on）",
+        "question": "困难时你总能依靠家人。（用 lean on）（答案：____）",
         "answer": "You can always lean on your family in hard times.",
         "note": "lean on sb = 依靠某人（比喻义），介词 on 不可省。"
       }
@@ -4831,7 +6767,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to make or become completely wet (2) to leave something in liquid (3) to absorb liquid, information, or an experience",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -4854,7 +6790,20 @@
         "example": "Give the clothes a good soak before washing. 洗之前把衣服好好泡一泡。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The sudden downpour soaked our clothes."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Soak the beans overnight before cooking them."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "We sat outside to soak up the sunshine."
+      }
+    ],
     "wordForms": {
       "noun": "soak 浸泡；soaking 湿透（也作形容词/副词，如 soaking wet）",
       "verb": "soak vt./vi. 浸泡，使湿透",
@@ -4888,6 +6837,26 @@
         "phrase": "soak into / through",
         "translation": "渗入／渗透",
         "example": "The water soaked into the dry soil. 水渗进了干土里。"
+      },
+      {
+        "phrase": "soak overnight / for an hour",
+        "translation": "浸泡过夜/一小时（时长置后）",
+        "example": "Soak the rice for an hour. 把米浸泡一小时。"
+      },
+      {
+        "phrase": "soak up information / knowledge",
+        "translation": "吸收信息/知识（比喻义）",
+        "example": "Children soak up new languages quickly. 儿童很快吸收新语言。"
+      },
+      {
+        "phrase": "be soaked with sweat / rain",
+        "translation": "被汗水/雨水浸透",
+        "example": "His shirt was soaked with sweat. 他的衬衫被汗水浸透。"
+      },
+      {
+        "phrase": "soak into the ground",
+        "translation": "渗入地面",
+        "example": "Rainwater soaked into the dry ground. 雨水渗入干地。"
       }
     ],
     "synonyms": [
@@ -4933,29 +6902,40 @@
         "example": "The afterglow of sunset bathed the twin brothers' sweat-soaked clothes, yet the carefree smiles remained. 落日余晖洒在这对双胞胎被汗浸透的衣服上，脸上无忧的笑容依旧。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The sudden downpour soaked our clothes.",
+        "upgraded": "The sudden downpour soaked our clothes, leaving us shivering beside the locked cabin.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "Soak the beans overnight before cooking them.",
+        "upgraded": "Soak the beans overnight before cooking them, reducing the time they need to soften.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The rain kept falling, and before long we were ________ (soak) to the skin.",
+        "question": "The rain kept falling, and before long we were ____ (soak) to the skin.",
         "answer": "soaked",
         "note": "be soaked to the skin 湿透（被动/系表结构）；过去分词作表语。"
       },
       {
         "type": "短语填空",
-        "question": "用 soak 的短语填空：Sitting in the sun, she ________ ________ the warmth and relaxed completely.",
+        "question": "用 soak 的短语填空：Sitting in the sun, she ____ ____ the warmth and relaxed completely.",
         "answer": "soaked up",
         "note": "soak up=吸收/尽情享受（阳光、气氛）；叙述过去用过去式。"
       },
       {
         "type": "汉译英",
-        "question": "洗之前先把这些豆子在水里泡一夜。（用 soak）",
+        "question": "洗之前先把这些豆子在水里泡一夜。（用 soak）（答案：____）",
         "answer": "Soak the beans in water overnight before washing them.",
         "note": "soak sth in water=把某物泡在水里；此处用祈使句原形 soak。"
       },
       {
         "type": "同义句转换",
-        "question": "A sudden downpour drenched us. → A sudden downpour ________ us ________ ________ ________ ________.",
+        "question": "A sudden downpour drenched us. → A sudden downpour ____ us ____ ____ ____ ____.",
         "answer": "left us soaked to the skin（或 soaked us to the skin）",
         "note": "drench 与 be soaked to the skin 都表‘淋透’；leave sb + 过去分词 soaked 作宾补。"
       }
@@ -4973,7 +6953,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to trip or walk unsteadily (2) to speak hesitantly (3) to discover or become involved by chance",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -5001,7 +6981,20 @@
         "example": "After a brief stumble, she found her footing. 短暂踉跄之后，她站稳了脚跟。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The injured hiker stumbled along the muddy track."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "During the interview, he stumbled over several simple questions."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "We stumbled across a hidden waterfall during the hike."
+      }
+    ],
     "wordForms": {
       "noun": "stumble（绊倒；失误）；stumbling block（绊脚石，障碍）",
       "verb": "stumble (stumbled, stumbled, stumbling)",
@@ -5046,6 +7039,26 @@
         "phrase": "stumble to one's feet",
         "translation": "踉踉跄跄地站起来",
         "example": "The old man stumbled to his feet. 老人踉跄着站了起来。"
+      },
+      {
+        "phrase": "stumble badly / blindly",
+        "translation": "重重绊倒/摸索着跌撞",
+        "example": "She stumbled badly on the broken step. 她在破台阶上重重绊了一下。"
+      },
+      {
+        "phrase": "stumble backwards / forwards",
+        "translation": "踉跄后退/向前",
+        "example": "The impact sent him stumbling backwards. 撞击使他踉跄后退。"
+      },
+      {
+        "phrase": "a stumbling block",
+        "translation": "绊脚石；障碍（固定复合词）",
+        "example": "Cost remains a major stumbling block. 成本仍是主要障碍。"
+      },
+      {
+        "phrase": "stumble into a situation",
+        "translation": "无意中陷入某种处境",
+        "example": "He stumbled into a leadership role. 他无意中承担了领导角色。"
       }
     ],
     "synonyms": [
@@ -5104,35 +7117,46 @@
         "example": "记 stumble 时联想 tremble（发抖）、mumble（咕哝）：都是‘一顿一顿’的动作，便于成组记忆。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The injured hiker stumbled along the muddy track.",
+        "upgraded": "The injured hiker stumbled along the muddy track, dragging one foot through the freezing rain.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "During the interview, he stumbled over several simple questions.",
+        "upgraded": "During the interview, he stumbled over several simple questions, avoiding the interviewer's steady gaze.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Exhausted and cold, the traveller ______ (stumble) along the muddy path in the storm.",
+        "question": "Exhausted and cold, the traveller ____ (stumble) along the muddy path in the storm.",
         "answer": "stumbled",
         "note": "记叙背景，主句一般过去时；stumble along=跌跌撞撞地走。"
       },
       {
-        "type": "选词填空（stumble / stagger / trudge / shuffle）",
-        "question": "So nervous was he that he ______ over every word during the speech.",
+        "type": "选词填空",
+        "question": "So nervous was he that he ____ over every word during the speech.",
         "answer": "stumbled",
-        "note": "‘说话卡壳、磕巴’只能用 stumble（over words）；stagger/trudge/shuffle 都只指走路。"
+        "note": "原题型标注：选词填空（stumble / stagger / trudge / shuffle）。‘说话卡壳、磕巴’只能用 stumble（over words）；stagger/trudge/shuffle 都只指走路。"
       },
       {
         "type": "完成句子",
-        "question": "他只是无助地比划着，结结巴巴地把事情解释了一通。He just gestured helplessly as he ______ ______ an explanation.",
+        "question": "他只是无助地比划着，结结巴巴地把事情解释了一通。He just gestured helplessly as he ____ ____ an explanation.",
         "answer": "stumbled through",
         "note": "【课件】slide 34 句式；stumble through sth=不顺畅地把（话/内容）说/读/弹完。"
       },
       {
-        "type": "辨析选词（stumble / trip）",
-        "question": "She ______ over a loose stone but caught herself in time.",
+        "type": "辨析选词",
+        "question": "She ____ over a loose stone but caught herself in time.",
         "answer": "stumbled（trip 亦可，但此处强调绊后踉跄几步，stumble 更贴切）",
-        "note": "trip 侧重被绊那一瞬，stumble 含绊后踉跄的持续感。"
+        "note": "原题型标注：辨析选词（stumble / trip）。trip 侧重被绊那一瞬，stumble 含绊后踉跄的持续感。"
       },
       {
         "type": "汉译英",
-        "question": "我在旧书店里偶然翻到一本初版诗集。（用 stumble）",
+        "question": "我在旧书店里偶然翻到一本初版诗集。（用 stumble）（答案：____）",
         "answer": "I stumbled on/upon/across a first edition of the poems in the old bookshop.",
         "note": "‘偶然发现’用 stumble on/upon/across，不加 over。"
       }
@@ -5150,7 +7174,7 @@
     "sub_section": "",
     "original_sentence": "He looked at the wheelchair ramp that led to his front door.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a sloping surface connecting different levels (2) v. to increase or decrease an activity sharply",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -5173,7 +7197,20 @@
         "example": "The factory ramped up production before the holiday. 工厂在假期前大幅提高了产量。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Workers installed a ramp beside the library steps."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The van reversed slowly down the loading ramp."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The factory ramped up production before the holiday."
+      }
+    ],
     "wordForms": {
       "noun": "ramp（坡道；匝道；活动梯）",
       "verb": "ramp（ramp up/down 增加/减少）",
@@ -5223,6 +7260,26 @@
         "phrase": "a slip road / ramp（英式）",
         "translation": "（高速公路的）匝道，支路",
         "example": "He slowed down on the ramp before merging. 汇入前他在匝道上减了速。"
+      },
+      {
+        "phrase": "wheelchair access via a ramp",
+        "translation": "通过坡道实现轮椅通行",
+        "example": "The entrance provides wheelchair access via a ramp. 入口通过坡道提供轮椅通行。"
+      },
+      {
+        "phrase": "walk / roll up a ramp",
+        "translation": "走上/滚上坡道",
+        "example": "The wheelchair rolled slowly up the ramp. 轮椅缓缓上坡道。"
+      },
+      {
+        "phrase": "a steep / gentle ramp",
+        "translation": "陡峭/平缓的坡道",
+        "example": "A gentle ramp links the two levels. 平缓坡道连接两层。"
+      },
+      {
+        "phrase": "ramp down operations",
+        "translation": "逐步缩减运营（短语动词）",
+        "example": "The plant ramped down operations in winter. 工厂冬季缩减运营。"
       }
     ],
     "synonyms": [
@@ -5262,29 +7319,40 @@
         "example": "拼写只差一个字母，考试易混，记牢 ramp 的两个 m 后接 p。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Workers installed a ramp beside the library steps.",
+        "upgraded": "Workers installed a ramp beside the library steps, giving wheelchair users an accessible entrance.",
+        "techniques": "完整保留原句主语、事实与场景，追加现在分词结果状语，明确动作后的直接影响。"
+      },
+      {
+        "original": "The van reversed slowly down the loading ramp.",
+        "upgraded": "The van reversed slowly down the loading ramp, stopping beside a stack of wooden crates.",
+        "techniques": "完整保留原句主语、事实与场景，补充后续动作或影响，增强情绪与逻辑层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "他望着通向自家前门的那条轮椅坡道。He looked at the wheelchair ______ that led to his front door.",
+        "question": "他望着通向自家前门的那条轮椅坡道。He looked at the wheelchair ____ that led to his front door.",
         "answer": "ramp",
         "note": "课文原句；wheelchair ramp=轮椅坡道。"
       },
       {
-        "type": "选词填空（ramp / slope）",
-        "question": "The school built a ______ at the entrance so that wheelchair users could get in easily.",
+        "type": "选词填空",
+        "question": "The school built a ____ at the entrance so that wheelchair users could get in easily.",
         "answer": "ramp",
-        "note": "‘人工修的、供轮椅通行的坡道’用 ramp；自然斜坡才用 slope。"
+        "note": "原题型标注：选词填空（ramp / slope）。‘人工修的、供轮椅通行的坡道’用 ramp；自然斜坡才用 slope。"
       },
       {
-        "type": "短语填空（ramp up / ramp down）",
-        "question": "To meet the surging demand, the factory decided to ______ ______ production.",
+        "type": "短语填空",
+        "question": "To meet the surging demand, the factory decided to ____ ____ production.",
         "answer": "ramp up",
-        "note": "ramp up=大幅提高、加快；ramp down 则为缩减。"
+        "note": "原题型标注：短语填空（ramp up / ramp down）。ramp up=大幅提高、加快；ramp down 则为缩减。"
       },
       {
         "type": "汉译英",
-        "question": "汽车沿着匝道冲上了高速公路。",
+        "question": "汽车沿着匝道冲上了高速公路。（答案：____）",
         "answer": "The car sped down the ramp onto the motorway.",
         "note": "‘高速公路匝道’美式/中性用 ramp，英式亦作 slip road。"
       }

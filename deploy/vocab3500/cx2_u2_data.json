@@ -11,7 +11,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to eat grass growing in a field (2) v. to put animals in a field to feed (3) v. to touch something lightly while passing or to scrape the skin",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -34,7 +34,20 @@
         "example": "It's just a graze, nothing serious. 只是擦伤，不严重。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Horses grazed peacefully beside the river."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The family grazes cattle on common land."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A branch grazed his cheek as he ran past."
+      }
+    ],
     "wordForms": {
       "noun": "graze（擦伤处）；grazing（放牧，草场）；grazer（吃草的动物）",
       "verb": "graze（原形）；grazed（过去式/过去分词）；grazing（现在分词）",
@@ -63,6 +76,26 @@
         "phrase": "grazing land / pasture",
         "translation": "牧场，放牧地",
         "example": "The valley provides rich grazing land for the herds. 这片山谷为畜群提供了肥沃的牧场。"
+      },
+      {
+        "phrase": "graze freely",
+        "translation": "自由放牧/吃草",
+        "example": "The sheep graze freely during daylight."
+      },
+      {
+        "phrase": "overgraze the land",
+        "translation": "过度放牧土地",
+        "example": "Too many animals can overgraze the land."
+      },
+      {
+        "phrase": "a grazing herd",
+        "translation": "正在放牧的畜群",
+        "example": "A grazing herd moved across the plain."
+      },
+      {
+        "phrase": "graze lightly against",
+        "translation": "轻轻擦过",
+        "example": "The boat grazed lightly against the wall."
       }
     ],
     "synonyms": [
@@ -89,25 +122,41 @@
         "type": "短语群·擦伤",
         "expression": "graze one's knee / suffer a graze / a nasty graze（严重的擦伤）",
         "example": "He got away with only a few grazes after the fall. 摔了一跤后他只受了几处擦伤。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "graze on the grass / graze cattle / sheep / graze one's knee / elbow / grazing land / pasture",
+        "example": "Cattle were quietly grazing on the hillside. 牛群正在山坡上静静地吃草。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Horses grazed peacefully beside the river.",
+        "upgraded": "Horses grazed peacefully beside the river, moving slowly through grass silvered by morning dew.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The family grazes cattle on common land.",
+        "upgraded": "The family grazes cattle on common land, preserving the pasture through careful rotation.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "A flock of sheep ______ (graze) quietly on the hillside when the storm suddenly broke.",
+        "question": "A flock of sheep ____ (graze) quietly on the hillside when the storm suddenly broke.",
         "answer": "was grazing",
         "note": "when 引导的突发动作用一般过去时，主句表当时正在进行的动作用过去进行时；A flock of sheep 作主语视为整体，谓语用单数 was grazing。"
       },
       {
         "type": "辨析选词",
-        "question": "用 graze 或 feed 填空：Deer usually ______ on tender grass, while a shepherd ______ his sheep on the mountain pasture.",
+        "question": "用 graze 或 feed 填空：Deer usually ____ on tender grass, while a shepherd ____ his sheep on the mountain pasture.",
         "answer": "feed; grazes",
         "note": "第一空泛指以…为食用 feed on；第二空“放羊”是及物用法，只能用 graze（graze his sheep）。"
       },
       {
         "type": "汉译英",
-        "question": "他从自行车上摔下来，擦破了膝盖。",
+        "question": "他从自行车上摔下来，擦破了膝盖。（答案：____）",
         "answer": "He fell off his bike and grazed his knee.",
         "note": "此处取 graze“擦伤”及物义，宾语为身体部位 his knee。"
       }
@@ -125,7 +174,7 @@
     "sub_section": "",
     "original_sentence": "Then coal was discovered, and soon titanic-sized earth-digging machines circled the village.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "extremely large in physical size, on a scale compared with the legendary Titans",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -133,7 +182,20 @@
         "example": "The company built titanic-sized cargo ships. 这家公司造出了巨型货轮。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A titanic-sized crane dominated the construction site."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The mine used titanic-sized trucks to move rock."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Engineers faced a titanic-sized challenge beneath the mountain."
+      }
+    ],
     "wordForms": {
       "noun": "Titan（希腊神话中的泰坦巨神，词源）；titan（大力士，巨人，巨头）",
       "verb": "",
@@ -157,6 +219,31 @@
         "phrase": "a titanic effort / struggle",
         "translation": "巨大的努力／斗争（titanic 单独用）",
         "example": "It took a titanic effort to finish the marathon. 完成马拉松需要付出巨大努力。"
+      },
+      {
+        "phrase": "on a titanic scale",
+        "translation": "规模极其庞大",
+        "example": "Mining reshaped the landscape on a titanic scale."
+      },
+      {
+        "phrase": "of titanic proportions",
+        "translation": "规模惊人的",
+        "example": "The clean-up became a task of titanic proportions."
+      },
+      {
+        "phrase": "a mammoth undertaking",
+        "translation": "庞大的工程（同义升级）",
+        "example": "Building the grid was a mammoth undertaking."
+      },
+      {
+        "phrase": "dwarf nearby structures",
+        "translation": "使附近建筑显得渺小",
+        "example": "The new machine dwarfs nearby structures."
+      },
+      {
+        "phrase": "titanic strength",
+        "translation": "惊人的力量",
+        "example": "The turbine withstands pressure of titanic strength."
       }
     ],
     "synonyms": [
@@ -183,25 +270,41 @@
         "type": "同义表达群·形容巨大",
         "expression": "titanic-sized / gigantic / colossal / enormous / mammoth（庞大的）machines",
         "example": "Mammoth, titanic-sized machines tore into the once peaceful land. 庞大巨型的机器啃食着这片曾经宁静的土地。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "titanic-sized earth-digging machines / a titanic-sized project / structure / a titanic effort / struggle / on a titanic scale",
+        "example": "Titanic-sized earth-digging machines circled the village. 巨型挖土机围住了村庄。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A titanic-sized crane dominated the construction site.",
+        "upgraded": "A titanic-sized crane dominated the construction site, making nearby buildings look like toys.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The mine used titanic-sized trucks to move rock.",
+        "upgraded": "The mine used titanic-sized trucks to move rock, carrying loads that ordinary vehicles could not manage.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "根据汉语完成句子：不久，______（巨型挖土机）circled the village. (titanic-sized)",
+        "question": "根据汉语完成句子：不久，____（巨型挖土机）circled the village. (titanic-sized)",
         "answer": "titanic-sized earth-digging machines",
         "note": "还原课文原句词块，titanic-sized 作定语修饰复合名词 earth-digging machines。"
       },
       {
         "type": "选词填空",
-        "question": "用 -sized 合成词填空（titanic / medium / life）：The museum displayed a ______ statue of the ancient king, so lifelike that visitors gasped.",
+        "question": "用 -sized 合成词填空（titanic / medium / life）：The museum displayed a ____ statue of the ancient king, so lifelike that visitors gasped.",
         "answer": "life-sized",
         "note": "语境是“与真人一样大”的雕像，选 life-sized；若填 titanic-sized 则语义过大，与 statue 和后文“逼真”不符。"
       },
       {
         "type": "汉译英",
-        "question": "他们建造了巨型货轮来运输煤炭。",
+        "question": "他们建造了巨型货轮来运输煤炭。（答案：____）",
         "answer": "They built titanic-sized cargo ships to transport coal.",
         "note": "titanic-sized 作定语修饰 cargo ships，注意合成形容词中间的连字符。"
       }
@@ -219,7 +322,7 @@
     "sub_section": "",
     "original_sentence": "The scenario is tragic, but it only partly describes the damaging effects fossil fuels have on the environment when they are mined.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a description of a possible future situation (2) a particular situation being discussed (3) an outline of a film or play",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -232,7 +335,20 @@
         "example": "The director outlined the scenario for his new film. 导演勾勒了新片的剧情梗概。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The report examines several future energy scenarios."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Under this scenario, demand falls by a third."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The director revised the scenario before filming began."
+      }
+    ],
     "wordForms": {
       "noun": "scenario（单数）；scenarios（复数，直接加 s）；scene（场景，景象）；scenery（风景，布景，不可数）",
       "verb": "",
@@ -266,6 +382,21 @@
         "phrase": "picture / imagine a scenario",
         "translation": "设想一种情景",
         "example": "Picture a scenario where robots do all the housework. 设想一下机器人包揽所有家务的情景。"
+      },
+      {
+        "phrase": "develop a scenario",
+        "translation": "构建设想",
+        "example": "Analysts developed a low-emission scenario."
+      },
+      {
+        "phrase": "test different scenarios",
+        "translation": "测试不同情景",
+        "example": "The model tests different climate scenarios."
+      },
+      {
+        "phrase": "a future scenario",
+        "translation": "未来情景",
+        "example": "This future scenario assumes cheaper storage."
       }
     ],
     "synonyms": [
@@ -292,25 +423,41 @@
         "type": "常用结构·定语从句嵌套",
         "expression": "a scenario in which + 从句 / a scenario where + 从句（描绘某种情景）",
         "example": "The report paints a scenario where clean energy powers every home. 报告描绘了清洁能源为每家供电的情景。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "The scenario is tragic / a worst-case scenario / a likely / possible scenario / in this / that scenario",
+        "example": "The scenario is tragic, but it only partly describes the damage. 这一情景是悲惨的，但它只描述了部分损害。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The report examines several future energy scenarios.",
+        "upgraded": "The report examines several future energy scenarios, comparing likely outcomes under different policies.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Under this scenario, demand falls by a third.",
+        "upgraded": "Under this scenario, demand falls by a third, forcing planners to reconsider the original target.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The report describes a frightening ______ (scene) in which sea levels rise by two metres.",
+        "question": "The report describes a frightening ____ (scene) in which sea levels rise by two metres.",
         "answer": "scenario",
         "note": "语境是“推演出来的、可能发生的情形”且后接 in which 定语从句，应填 scenario 而非 scene/scenery；意为“设想，情景”。"
       },
       {
         "type": "选词填空",
-        "question": "用 scenario / scenery / scene 填空：Standing on the hilltop, we were amazed by the beautiful ______ around us.",
+        "question": "用 scenario / scenery / scene 填空：Standing on the hilltop, we were amazed by the beautiful ____ around us.",
         "answer": "scenery",
         "note": "指眼前“自然风景”用不可数名词 scenery；scenario 是“设想的情形”，scene 是“具体场景”，均不合此语境。"
       },
       {
         "type": "汉译英",
-        "question": "我们必须为最坏的情况做好准备。",
+        "question": "我们必须为最坏的情况做好准备。（答案：____）",
         "answer": "We must prepare for the worst-case scenario.",
         "note": "固定搭配 worst-case scenario“最坏的情况”，只能用 scenario。"
       }
@@ -328,7 +475,7 @@
     "sub_section": "",
     "original_sentence": "Besides, fossil fuels are non- renewable, whose reserves are estimated to dry up one day in the future.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the preserved remains or impression of a prehistoric organism (2) an old-fashioned person or thing (3) adj. preserved from an earlier geological age",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -346,7 +493,20 @@
         "example": "He called the old rules a fossil from the past. 他把那些旧规矩称作过去的老古董。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The child found a shell fossil in the cliff."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Fossil energy still powers many industries."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "His colleagues jokingly called the old machine a fossil."
+      }
+    ],
     "wordForms": {
       "noun": "fossil（化石）；fossilization / fossilisation（石化，僵化）",
       "verb": "fossilize / fossilise（使石化；使僵化）",
@@ -375,6 +535,26 @@
         "phrase": "fossil record",
         "translation": "化石记录（地质学术语）",
         "example": "The fossil record shows how life evolved over millions of years. 化石记录展示了生命如何在数百万年间演化。"
+      },
+      {
+        "phrase": "fossil evidence",
+        "translation": "化石证据",
+        "example": "Fossil evidence supports the theory."
+      },
+      {
+        "phrase": "fossilized remains",
+        "translation": "石化遗骸",
+        "example": "Fossilized remains were preserved in limestone."
+      },
+      {
+        "phrase": "a living fossil",
+        "translation": "活化石",
+        "example": "The ancient tree is often called a living fossil."
+      },
+      {
+        "phrase": "a fossil hunter",
+        "translation": "化石猎人",
+        "example": "A fossil hunter examined the exposed rock."
       }
     ],
     "synonyms": [
@@ -401,25 +581,41 @@
         "type": "同义表达群·远古遗存",
         "expression": "a fossil / prehistoric remains / an ancient relic / a preserved specimen（保存下来的标本）",
         "example": "The well-preserved fossil offers a rare glimpse into prehistoric life. 这具保存完好的化石让我们难得一窥史前生命。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "fossil fuels / burn / rely on fossil fuels / a dinosaur / plant fossil / fossil record",
+        "example": "Fossil fuels are non-renewable and will dry up one day. 化石燃料不可再生，终有一天会枯竭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The child found a shell fossil in the cliff.",
+        "upgraded": "The child found a shell fossil in the cliff, revealing that the valley once lay beneath the sea.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Fossil energy still powers many industries.",
+        "upgraded": "Fossil energy still powers many industries, despite the rapid growth of renewable alternatives.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 fossil 的适当形式填空：Coal, oil and gas are known as ______ fuels because they formed from the ______ (石化) remains of ancient plants and animals.",
+        "question": "用 fossil 的适当形式填空：Coal, oil and gas are known as ____ fuels because they formed from the ____ (石化) remains of ancient plants and animals.",
         "answer": "fossil; fossilized (fossilised)",
         "note": "第一空 fossil 作定语构成词块 fossil fuels；第二空需形容词“石化了的”，用过去分词形式 fossilized 修饰 remains。"
       },
       {
         "type": "汉译英",
-        "question": "化石燃料不可再生，其储量预计终有一天会枯竭。",
+        "question": "化石燃料不可再生，其储量预计终有一天会枯竭。（答案：____）",
         "answer": "Fossil fuels are non-renewable, and their reserves are estimated to dry up one day.",
         "note": "还原课文语境，fossil fuels 作主语，dry up 意为“枯竭”。"
       },
       {
         "type": "完成句子",
-        "question": "根据汉语完成句子：博物馆展出了一具完整的恐龙化石。The museum displays ______ (一具完整的恐龙化石).",
+        "question": "根据汉语完成句子：博物馆展出了一具完整的恐龙化石。The museum displays ____ (一具完整的恐龙化石).",
         "answer": "a complete dinosaur fossil",
         "note": "fossil 此处取本义“化石”，作可数名词，前加不定冠词 a 和定语 complete dinosaur。"
       }
@@ -437,7 +633,7 @@
     "sub_section": "",
     "original_sentence": "One of the reasons is that their carbon dioxide emissions tend to be lower.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a chemical compound containing two oxygen atoms combined with one atom of another element",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -445,7 +641,20 @@
         "example": "Carbon dioxide is a greenhouse gas that traps heat. 二氧化碳是一种吸热的温室气体。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Nitrogen dioxide contributes to urban air pollution."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Carbon dioxide dissolves in ocean water."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sensor measured sulphur dioxide near the factory."
+      }
+    ],
     "wordForms": {
       "noun": "dioxide（二氧化物）；monoxide（一氧化物，如 carbon monoxide 一氧化碳）；oxide（氧化物）；oxygen（氧气）",
       "verb": "oxidize / oxidise（使氧化）",
@@ -474,6 +683,26 @@
         "phrase": "sulphur dioxide (SO2)",
         "translation": "二氧化硫（-dioxide 家族的另一成员）",
         "example": "Factories should reduce sulphur dioxide pollution. 工厂应减少二氧化硫污染。"
+      },
+      {
+        "phrase": "nitrogen dioxide",
+        "translation": "二氧化氮",
+        "example": "Traffic is a major source of nitrogen dioxide."
+      },
+      {
+        "phrase": "dissolved carbon dioxide",
+        "translation": "溶解的二氧化碳",
+        "example": "Dissolved carbon dioxide makes water more acidic."
+      },
+      {
+        "phrase": "capture carbon dioxide",
+        "translation": "捕集二氧化碳",
+        "example": "The plant aims to capture carbon dioxide underground."
+      },
+      {
+        "phrase": "carbon dioxide concentration",
+        "translation": "二氧化碳浓度",
+        "example": "The monitor records carbon dioxide concentration."
       }
     ],
     "synonyms": [
@@ -482,6 +711,12 @@
         "translation": "二氧化碳（化学式缩写）",
         "example": "Rising CO2 levels are warming the planet. 二氧化碳浓度上升正使地球变暖。",
         "usage": "dioxide 是化学“二氧化物”的通名，须与前面的元素名连用（carbon/sulphur dioxide）；单独口语或图表中常用化学式 CO2 指代二氧化碳。dioxide 为不可数名词，作主语谓语用单数。"
+      },
+      {
+        "synonym": "two-oxygen compound",
+        "translation": "含两个氧原子的化合物（解释性表达）",
+        "example": "A dioxide contains two oxygen atoms in each molecule.",
+        "usage": "这是构词释义，不是特定物质名；dioxide 必须与元素名连用，如 carbon dioxide、sulphur dioxide。"
       }
     ],
     "advancedExpressions": [
@@ -501,23 +736,34 @@
         "example": "They produce a large quantity of carbon dioxide, which in turn traps heat and causes global warming. 它们产生大量二氧化碳，这继而吸收热量并导致全球变暖。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Nitrogen dioxide contributes to urban air pollution.",
+        "upgraded": "Nitrogen dioxide contributes to urban air pollution, irritating lungs and helping form harmful smog.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Carbon dioxide dissolves in ocean water.",
+        "upgraded": "Carbon dioxide dissolves in ocean water, gradually changing the chemistry of the water.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 dioxide / monoxide 填空：Burning fossil fuels releases carbon ______, a greenhouse gas that traps heat; incomplete burning also gives off poisonous carbon ______.",
+        "question": "用 dioxide / monoxide 填空：Burning fossil fuels releases carbon ____, a greenhouse gas that traps heat; incomplete burning also gives off poisonous carbon ____.",
         "answer": "dioxide; monoxide",
         "note": "第一空温室气体“二氧化碳”用 dioxide（di- 二）；第二空有毒气体“一氧化碳”用 monoxide（mono- 一），靠前缀数词区分。"
       },
       {
         "type": "单句语法填空",
-        "question": "Renewable energy sources emit far less carbon dioxide, ______ in turn slows down global warming.",
+        "question": "Renewable energy sources emit far less carbon dioxide, ____ in turn slows down global warming.",
         "answer": "which",
         "note": "非限制性定语从句修饰前面整句内容，用关系代词 which 引导；配合课件结构 which in turn“这继而…”。"
       },
       {
         "type": "汉译英",
-        "question": "使用清洁能源的一个原因是它们的二氧化碳排放量往往更低。",
+        "question": "使用清洁能源的一个原因是它们的二氧化碳排放量往往更低。（答案：____）",
         "answer": "One of the reasons is that their carbon dioxide emissions tend to be lower.",
         "note": "还原课文原句，核心词块 carbon dioxide emissions“二氧化碳排放量”。"
       }
@@ -535,7 +781,7 @@
     "sub_section": "",
     "original_sentence": "Humans are clearly facing a critical moment, so a move towards clean, renewable energy is inevitable.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "certain to happen and impossible to avoid or prevent",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -553,7 +799,20 @@
         "example": "Sometimes we just have to accept the inevitable. 有时我们只能接受不可避免的事。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Some change is inevitable when resources become scarce."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "After months without rain, crop losses seemed inevitable."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The team accepted the inevitable and redesigned the system."
+      }
+    ],
     "wordForms": {
       "noun": "inevitability（必然性）；the inevitable（不可避免之事）",
       "verb": "",
@@ -582,6 +841,26 @@
         "phrase": "the inevitable + n.",
         "translation": "不可避免之事（the + adj. 表事物）",
         "example": "We must accept the inevitable and move on. 我们必须接受不可避免的事实并继续前行。"
+      },
+      {
+        "phrase": "make sth inevitable",
+        "translation": "使某事不可避免",
+        "example": "Delay may make stricter measures inevitable."
+      },
+      {
+        "phrase": "seem inevitable",
+        "translation": "似乎不可避免",
+        "example": "A temporary shortage seemed inevitable."
+      },
+      {
+        "phrase": "inevitable decline",
+        "translation": "必然衰退",
+        "example": "Poor maintenance led to inevitable decline."
+      },
+      {
+        "phrase": "almost inevitable",
+        "translation": "几乎不可避免",
+        "example": "Some disruption is almost inevitable."
       }
     ],
     "synonyms": [
@@ -621,23 +900,34 @@
         "example": "Few people question the inevitability of climate action. 很少有人质疑采取气候行动的必然性。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Some change is inevitable when resources become scarce.",
+        "upgraded": "Some change is inevitable when resources become scarce, but its speed and direction can still be influenced.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "After months without rain, crop losses seemed inevitable.",
+        "upgraded": "After months without rain, crop losses seemed inevitable, threatening the livelihoods of nearby farmers.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Facing a critical moment, humans find a move towards clean energy ______ (inevitable). It will ______ (inevitable) reshape our future.",
+        "question": "Facing a critical moment, humans find a move towards clean energy ____ (inevitable). It will ____ (inevitable) reshape our future.",
         "answer": "inevitable; inevitably",
         "note": "第一空作宾语补足语，用形容词 inevitable；第二空修饰动词 reshape，需副词 inevitably。"
       },
       {
         "type": "同义句转换",
-        "question": "改写为 It is inevitable that 句型：A shift to renewable energy cannot be avoided.",
+        "question": "改写为 It is inevitable that 句型：A shift to renewable energy cannot be avoided.（答案：____）",
         "answer": "It is inevitable that we (will) shift to renewable energy.",
         "note": "用形式主语 It is inevitable that + 从句表达“…不可避免”，与原句 cannot be avoided 同义。"
       },
       {
         "type": "汉译英",
-        "question": "人类显然正面临关键时刻，因此转向清洁的可再生能源是不可避免的。",
+        "question": "人类显然正面临关键时刻，因此转向清洁的可再生能源是不可避免的。（答案：____）",
         "answer": "Humans are clearly facing a critical moment, so a move towards clean, renewable energy is inevitable.",
         "note": "还原课文原句，inevitable 作表语；也可用 is bound to happen 替换以练习同义表达。"
       }
@@ -655,9 +945,22 @@
     "sub_section": "",
     "original_sentence": "Renewable energy sources, which include solar, wind, hydroelectric, tidal, biomass and geothermal energy, are perfect alternatives to fossil fuels.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "relating to electricity generated by the force of moving or falling water",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A hydroelectric station supplies power to the valley."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Hydroelectric generation rises during the wet season."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The river has considerable hydroelectric potential."
+      }
+    ],
     "wordForms": {
       "noun": "hydroelectricity 水力发电（电力）；hydropower 水电",
       "verb": "—",
@@ -691,6 +994,21 @@
         "phrase": "generate electricity from hydroelectric sources",
         "translation": "用水力资源发电",
         "example": "We can generate clean electricity from hydroelectric sources. 我们可以用水力资源发出清洁电力。"
+      },
+      {
+        "phrase": "hydroelectric capacity",
+        "translation": "水电装机容量",
+        "example": "The country expanded its hydroelectric capacity."
+      },
+      {
+        "phrase": "hydroelectric generation",
+        "translation": "水力发电",
+        "example": "Hydroelectric generation varies with rainfall."
+      },
+      {
+        "phrase": "a hydroelectric project",
+        "translation": "水电项目",
+        "example": "The hydroelectric project includes fish passages."
       }
     ],
     "synonyms": [
@@ -703,7 +1021,8 @@
       {
         "synonym": "waterpower (n.)",
         "translation": "n. 水力（用于发电的水的动力）",
-        "example": "Waterpower has been used for centuries to turn mills. 水力用于带动磨坊已有几个世纪。"
+        "example": "Waterpower has been used for centuries to turn mills. 水力用于带动磨坊已有几个世纪。",
+        "usage": "waterpower 是不可数名词，作主语或介词宾语，表示可利用的水力；hydroelectric 是形容词，只作定语修饰 power/station/dam 等，强调水力用于发电。"
       }
     ],
     "advancedExpressions": [
@@ -716,25 +1035,41 @@
         "type": "同义表达群·清洁能源",
         "expression": "hydroelectric power = water-generated electricity = clean, renewable energy from flowing water",
         "example": "Hydroelectric power is a clean, renewable form of energy. 水力发电是一种清洁、可再生的能源。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "solar, wind, hydroelectric, tidal, biomass and geothermal energy / hydroelectric power / a hydroelectric power station / plant / a hydroelectric dam",
+        "example": "Renewable sources include solar, wind and hydroelectric energy. 可再生能源包括太阳能、风能和水能。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A hydroelectric station supplies power to the valley.",
+        "upgraded": "A hydroelectric station supplies power to the valley, using water stored behind a mountain dam.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Hydroelectric generation rises during the wet season.",
+        "upgraded": "Hydroelectric generation rises during the wet season, when reservoirs and river flows are at their highest.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The dam produces cheap _____ (hydroelectricity) for the whole region.",
+        "question": "The dam produces cheap ____ (hydroelectricity) for the whole region.",
         "answer": "hydroelectricity",
         "note": "此处需名词作 produces 的宾语，形容词 hydroelectric 不能单独作宾语。"
       },
       {
         "type": "完成句子",
-        "question": "这座水电站每年发出大量清洁电力。The _____ _____ station generates a lot of clean electricity every year.",
+        "question": "这座水电站每年发出大量清洁电力。The ____ ____ station generates a lot of clean electricity every year.",
         "answer": "hydroelectric power",
         "note": "hydroelectric 作定语修饰 power station，固定搭配 hydroelectric power station。"
       },
       {
         "type": "汉译英",
-        "question": "水能是一种清洁、可再生的能源。",
+        "question": "水能是一种清洁、可再生的能源。（答案：____）",
         "answer": "Hydroelectric energy / power is a clean and renewable source of energy.",
         "note": "hydroelectric 作定语修饰 energy/power；表语用 clean and renewable。"
       }
@@ -752,7 +1087,7 @@
     "sub_section": "",
     "original_sentence": "Renewable energy sources, which include solar, wind, hydroelectric, tidal, biomass and geothermal energy, are perfect alternatives to fossil fuels.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) plant and animal material used as fuel (2) the total mass of living organisms in a particular area",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -765,7 +1100,20 @@
         "example": "The total biomass of fish in the lake has fallen sharply. 湖中鱼类的总生物量急剧下降。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The plant turns agricultural waste into biomass fuel."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers estimated the forest's total biomass."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Dry biomass can be stored before it is converted into energy."
+      }
+    ],
     "wordForms": {
       "noun": "biomass 生物质，生物量",
       "verb": "—",
@@ -799,6 +1147,21 @@
         "phrase": "forest / plant biomass",
         "translation": "森林／植物生物量",
         "example": "Scientists measured the plant biomass in the field. 科学家测量了这块地里的植物生物量。"
+      },
+      {
+        "phrase": "a biomass boiler",
+        "translation": "生物质锅炉",
+        "example": "A biomass boiler heats the school."
+      },
+      {
+        "phrase": "biomass feedstock",
+        "translation": "生物质原料",
+        "example": "Straw is a common biomass feedstock."
+      },
+      {
+        "phrase": "burn biomass",
+        "translation": "燃烧生物质",
+        "example": "Modern systems burn biomass more efficiently."
       }
     ],
     "synonyms": [
@@ -825,25 +1188,41 @@
         "type": "同义表达群·可再生能源来源",
         "expression": "energy from biomass = energy from plants, wood and organic waste = a renewable, carbon-neutral source",
         "example": "Biomass provides a renewable source of energy from organic waste. 生物质提供了一种来自有机废料的可再生能源。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "solar, wind, hydroelectric, tidal, biomass and geothermal energy / biomass energy / fuel / biomass power (plant) / convert biomass into energy",
+        "example": "Biomass energy comes from plants and animal waste. 生物质能来自植物和动物废料。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The plant turns agricultural waste into biomass fuel.",
+        "upgraded": "The plant turns agricultural waste into biomass fuel, replacing some fossil fuel with material that would otherwise be discarded.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Researchers estimated the forest's total biomass.",
+        "upgraded": "Researchers estimated the forest's total biomass, allowing them to track carbon stored in vegetation.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 biomass / biofuel 填空：Wood, crops and animal waste are all forms of _____ that can be burnt for energy.",
+        "question": "用 biomass / biofuel 填空：Wood, crops and animal waste are all forms of ____ that can be burnt for energy.",
         "answer": "biomass",
         "note": "空格指“可燃烧发电的有机物质本身”，用 biomass；biofuel 特指加工后的液/气态燃料。"
       },
       {
         "type": "单句语法填空",
-        "question": "The factory uses _____ (bio) energy from crop waste to run its machines.",
+        "question": "The factory uses ____ (bio) energy from crop waste to run its machines.",
         "answer": "biomass",
         "note": "此处需名词 biomass 作定语修饰 energy，构成 biomass energy。"
       },
       {
         "type": "汉译英",
-        "question": "生物质能是一种来自植物和废料的可再生能源。",
+        "question": "生物质能是一种来自植物和废料的可再生能源。（答案：____）",
         "answer": "Biomass energy is a renewable source of energy that comes from plants and waste.",
         "note": "biomass 作定语修饰 energy；不可数名词，前不加冠词。"
       }
@@ -861,9 +1240,22 @@
     "sub_section": "",
     "original_sentence": "Renewable energy sources, which include solar, wind, hydroelectric, tidal, biomass and geothermal energy, are perfect alternatives to fossil fuels.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "relating to heat produced or stored inside the Earth",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Geothermal steam heats many homes in the region."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Engineers drilled a deep geothermal well."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The island has abundant geothermal resources."
+      }
+    ],
     "wordForms": {
       "noun": "geothermics 地热学；(the) geothermal energy 地热能",
       "verb": "—",
@@ -897,6 +1289,21 @@
         "phrase": "tap / harness geothermal heat",
         "translation": "利用地热",
         "example": "Engineers are learning to harness geothermal heat. 工程师们正在学习利用地热。"
+      },
+      {
+        "phrase": "a geothermal reservoir",
+        "translation": "地热储层",
+        "example": "The well reached a geothermal reservoir."
+      },
+      {
+        "phrase": "a geothermal well",
+        "translation": "地热井",
+        "example": "Steam rose from the geothermal well."
+      },
+      {
+        "phrase": "geothermal resources",
+        "translation": "地热资源",
+        "example": "The region is mapping its geothermal resources."
       }
     ],
     "synonyms": [
@@ -923,25 +1330,41 @@
         "type": "同义表达群·地球内部能源",
         "expression": "geothermal energy = heat drawn from beneath the Earth's surface = a clean, renewable underground energy source",
         "example": "Geothermal energy is heat drawn from beneath the Earth's surface. 地热能是从地表以下汲取的热量。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "solar, wind, hydroelectric, tidal, biomass and geothermal energy / geothermal energy / power / a geothermal power plant / station / geothermal heating",
+        "example": "Geothermal energy comes from heat inside the Earth. 地热能来自地球内部的热量。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Geothermal steam heats many homes in the region.",
+        "upgraded": "Geothermal steam heats many homes in the region, reducing the need for imported fuel in winter.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Engineers drilled a deep geothermal well.",
+        "upgraded": "Engineers drilled a deep geothermal well, reaching hot rock far below the surface.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 geothermal / thermal 填空：Power stations that use heat from inside the Earth produce _____ energy.",
+        "question": "用 geothermal / thermal 填空：Power stations that use heat from inside the Earth produce ____ energy.",
         "answer": "geothermal",
         "note": "“来自地球内部的热量”对应 geothermal；thermal 只是泛指“热的”。"
       },
       {
         "type": "完成句子",
-        "question": "冰岛用地热能给房屋供暖。Iceland uses _____ energy to heat its homes.",
+        "question": "冰岛用地热能给房屋供暖。Iceland uses ____ energy to heat its homes.",
         "answer": "geothermal",
         "note": "geothermal 作定语修饰 energy，固定搭配 geothermal energy。"
       },
       {
         "type": "汉译英",
-        "question": "地热能是一种来自地球内部的清洁能源。",
+        "question": "地热能是一种来自地球内部的清洁能源。（答案：____）",
         "answer": "Geothermal energy is a clean source of energy that comes from inside the Earth.",
         "note": "geothermal 作定语修饰 energy；从句解释来源用 come from inside the Earth。"
       }
@@ -959,7 +1382,7 @@
     "sub_section": "",
     "original_sentence": "A study found that renewable energy sources emit about 50g or less of carbon dioxide per kilowatt-hour over their lifetime, compared to about 1,000g for coal.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to send out light, heat, sound, gas, radiation, or another form of energy or matter",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -977,7 +1400,20 @@
         "example": "She emitted a low cry of surprise. 她低声惊呼了一声。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The beacon emits a signal every ten seconds."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Warm soil emits heat after sunset."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The insect emitted a sharp warning sound."
+      }
+    ],
     "wordForms": {
       "noun": "emission 排放（物），散发；emitter 发射器/排放源",
       "verb": "emit 发出，排放（emit-emitted-emitted）",
@@ -1011,6 +1447,21 @@
         "phrase": "reduce / cut carbon emissions",
         "translation": "减少碳排放（名词搭配）",
         "example": "We must cut carbon emissions to slow global warming. 我们必须减少碳排放以减缓全球变暖。"
+      },
+      {
+        "phrase": "emit a signal",
+        "translation": "发出信号",
+        "example": "The sensor emits a signal when pressure falls."
+      },
+      {
+        "phrase": "emit radiation",
+        "translation": "发出辐射",
+        "example": "Hot objects emit infrared radiation."
+      },
+      {
+        "phrase": "emission standards",
+        "translation": "排放标准",
+        "example": "New engines must meet strict emission standards."
       }
     ],
     "synonyms": [
@@ -1050,31 +1501,42 @@
         "example": "China aims to achieve zero carbon emissions by 2060. 中国力争在2060年实现零碳排放。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The beacon emits a signal every ten seconds.",
+        "upgraded": "The beacon emits a signal every ten seconds, enabling rescue teams to track its position.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Warm soil emits heat after sunset.",
+        "upgraded": "Warm soil emits heat after sunset, warming the air close to the ground.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Coal-fired power stations _____ (emit) huge amounts of carbon dioxide every year.",
+        "question": "Coal-fired power stations ____ (emit) huge amounts of carbon dioxide every year.",
         "answer": "emit",
         "note": "主语 power stations 为复数，一般现在时用原形 emit。"
       },
       {
         "type": "单句语法填空",
-        "question": "Last night the old engine _____ (emit) thick black smoke before it broke down.",
+        "question": "Last night the old engine ____ (emit) thick black smoke before it broke down.",
         "answer": "emitted",
         "note": "由 last night 判断为过去时；emit 双写 t 加 -ed → emitted。"
       },
       {
         "type": "同义句转换",
-        "question": "The factory gives off a lot of harmful gas. → The factory _____ a lot of harmful gas.",
+        "question": "The factory gives off a lot of harmful gas. → The factory ____ a lot of harmful gas.",
         "answer": "emits",
         "note": "give off = emit；主语单数第三人称，一般现在时用 emits。"
       },
       {
-        "type": "完成句子（用 emit 的名词形式）",
-        "question": "各国正努力削减碳排放。Countries are trying hard to cut carbon _____.",
+        "type": "单句语法填空",
+        "question": "各国正努力削减碳排放。Countries are trying hard to cut carbon ____.",
         "answer": "emissions",
-        "note": "cut carbon emissions 为固定搭配，名词 emission 常用复数 emissions。"
+        "note": "原题型标注：完成句子（用 emit 的名词形式）。cut carbon emissions 为固定搭配，名词 emission 常用复数 emissions。"
       }
     ]
   },
@@ -1090,9 +1552,22 @@
     "sub_section": "",
     "original_sentence": "A study found that renewable energy sources emit about 50g or less of carbon dioxide per kilowatt-hour over their lifetime, compared to about 1,000g for coal.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a unit of energy equal to the amount used by a device operating at one kilowatt for one hour",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The heater consumes one kilowatt-hour in thirty minutes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Electricity is billed by the kilowatt-hour."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The display shows the cost per kilowatt-hour."
+      }
+    ],
     "wordForms": {
       "noun": "kilowatt-hour 千瓦时（复数 kilowatt-hours）；相关：kilowatt 千瓦、watt 瓦特",
       "verb": "—",
@@ -1121,6 +1596,26 @@
         "phrase": "consume / use ... kilowatt-hours",
         "translation": "消耗……千瓦时",
         "example": "An average home uses several kilowatt-hours a day. 一个普通家庭每天用电几千瓦时。"
+      },
+      {
+        "phrase": "measured in kilowatt-hours",
+        "translation": "以千瓦时计量",
+        "example": "Electricity use is measured in kilowatt-hours."
+      },
+      {
+        "phrase": "cost per kilowatt-hour",
+        "translation": "每千瓦时成本",
+        "example": "Solar power has a falling cost per kilowatt-hour."
+      },
+      {
+        "phrase": "annual kilowatt-hour consumption",
+        "translation": "年度用电量",
+        "example": "The audit records annual kilowatt-hour consumption."
+      },
+      {
+        "phrase": "generate 500 kilowatt-hours",
+        "translation": "发电500千瓦时",
+        "example": "The panels generate 500 kilowatt-hours each month."
       }
     ],
     "synonyms": [
@@ -1147,25 +1642,41 @@
         "type": "常用结构·计量表达",
         "expression": "数字 + kilowatt-hour(s)；per kilowatt-hour（每千瓦时）；用于对比排放/耗电/电价",
         "example": "Renewable energy emits about 50g of CO2 per kilowatt-hour. 可再生能源每千瓦时排放约50克二氧化碳。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "... carbon dioxide per kilowatt-hour / per kilowatt-hour / kilowatt-hours of electricity / consume / use ... kilowatt-hours",
+        "example": "Coal emits about 1,000g of CO2 per kilowatt-hour. 煤每千瓦时排放约1000克二氧化碳。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The heater consumes one kilowatt-hour in thirty minutes.",
+        "upgraded": "The heater consumes one kilowatt-hour in thirty minutes, a rate that helps households compare appliances.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Electricity is billed by the kilowatt-hour.",
+        "upgraded": "Electricity is billed by the kilowatt-hour, including taxes and network charges.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The wind farm generates thousands of kilowatt-_____ (hour) of clean electricity each day.",
+        "question": "The wind farm generates thousands of kilowatt-____ (hour) of clean electricity each day.",
         "answer": "hours",
         "note": "thousands of 后接可数名词复数，复合词复数在 hour 上加 s → kilowatt-hours。"
       },
       {
         "type": "完成句子",
-        "question": "煤每千瓦时排放约1000克二氧化碳。Coal emits about 1,000 grams of carbon dioxide _____ kilowatt-hour.",
+        "question": "煤每千瓦时排放约1000克二氧化碳。Coal emits about 1,000 grams of carbon dioxide ____ kilowatt-hour.",
         "answer": "per",
         "note": "“每千瓦时”用介词 per，per 后接单数名词 kilowatt-hour。"
       },
       {
         "type": "汉译英",
-        "question": "这个电厂每年发出数百万千瓦时的电。",
+        "question": "这个电厂每年发出数百万千瓦时的电。（答案：____）",
         "answer": "The power plant produces millions of kilowatt-hours of electricity every year.",
         "note": "millions of 后接复数 kilowatt-hours；electricity 不可数不加 s。"
       }
@@ -1183,7 +1694,7 @@
     "sub_section": "",
     "original_sentence": "Besides, fossil fuels are non- renewable, whose reserves are estimated to dry up one day in the future.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to become completely dry (2) to become unavailable or exhausted (3) to stop speaking because one can think of nothing to say",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrasal v. (vi.)",
@@ -1206,7 +1717,20 @@
         "example": "I'll wash and you dry up. 我来洗，你来擦干。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The shallow pond dried up during the drought."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Donations dried up after the first month."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The conversation dried up when the manager entered."
+      }
+    ],
     "wordForms": {
       "noun": "—",
       "verb": "dry up（短语动词，dry-dried-dried；三单 dries up）",
@@ -1235,6 +1759,26 @@
         "phrase": "dry up the dishes / dry the dishes up",
         "translation": "（英式）把碗碟擦干",
         "example": "Could you dry up the dishes for me? 你能帮我把碗碟擦干吗？"
+      },
+      {
+        "phrase": "a dried-up riverbed",
+        "translation": "干涸的河床",
+        "example": "Children crossed the dried-up riverbed."
+      },
+      {
+        "phrase": "talk dries up",
+        "translation": "谈话中断",
+        "example": "Talk dried up as soon as prices were mentioned."
+      },
+      {
+        "phrase": "creativity dries up",
+        "translation": "创造力枯竭",
+        "example": "Creativity dries up under constant fear."
+      },
+      {
+        "phrase": "dry up completely",
+        "translation": "彻底干涸/枯竭",
+        "example": "Several wells may dry up completely."
       }
     ],
     "synonyms": [
@@ -1274,23 +1818,34 @@
         "example": "The particle 'up' often stresses that an action is complete. 小品词 up 常强调动作“彻底完成”。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The shallow pond dried up during the drought.",
+        "upgraded": "The shallow pond dried up during the drought, leaving cracked mud where fish had once swum.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Donations dried up after the first month.",
+        "upgraded": "Donations dried up after the first month, forcing the charity to suspend its work.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "用 dry up 的适当形式填空：The stream _____ _____ every summer when there is little rain. (一般现在时)",
+        "question": "用 dry up 的适当形式填空：The stream ____ ____ every summer when there is little rain. (一般现在时)",
         "answer": "dries up",
         "note": "主语 the stream 单数第三人称，一般现在时；dry 去 y 加 ies → dries up。"
       },
       {
         "type": "辨析选词",
-        "question": "用 dry up / run out of 填空：Fossil fuels are non-renewable, and their reserves will one day _____ _____.",
+        "question": "用 dry up / run out of 填空：Fossil fuels are non-renewable, and their reserves will one day ____ ____.",
         "answer": "dry up",
         "note": "主语 reserves 本身枯竭，用不及物 dry up；run out 需 run out of sth，主语应为“人/机构”。"
       },
       {
         "type": "汉译英",
-        "question": "如果资金枯竭，这个项目就得停下来。",
+        "question": "如果资金枯竭，这个项目就得停下来。（答案：____）",
         "answer": "If the funds dry up, the project will have to stop.",
         "note": "dry up 作“资金枯竭”不及物；条件从句一般现在时，主句一般将来时。"
       }
@@ -1308,7 +1863,7 @@
     "sub_section": "",
     "original_sentence": "In contrast, renewable energy sources are basically inexhaustible and will be available to us for a few billion more years if our planet remains safe and healthy.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "unable to be used up; existing in such great quantity that it seems endless",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1321,7 +1876,20 @@
         "example": "He has an inexhaustible supply of energy and never seems tired. 他精力无穷，似乎从不知疲倦。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Sunlight is effectively inexhaustible on a human timescale."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The guide showed inexhaustible patience with the children."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her inexhaustible curiosity drove years of research."
+      }
+    ],
     "wordForms": {
       "noun": "inexhaustibility 用之不竭；exhaustion 耗尽，精疲力竭",
       "verb": "exhaust 耗尽，使精疲力竭",
@@ -1355,6 +1923,21 @@
         "phrase": "inexhaustible patience/enthusiasm",
         "translation": "无穷的耐心／热情（喻指精力、品质）",
         "example": "She showed inexhaustible patience with her students. 她对学生表现出无穷的耐心。"
+      },
+      {
+        "phrase": "seem inexhaustible",
+        "translation": "似乎取之不尽",
+        "example": "The wind offshore seems inexhaustible."
+      },
+      {
+        "phrase": "virtually inexhaustible",
+        "translation": "几乎用之不竭",
+        "example": "Geothermal heat is virtually inexhaustible."
+      },
+      {
+        "phrase": "inexhaustible curiosity",
+        "translation": "无尽的好奇心",
+        "example": "Her inexhaustible curiosity inspired the class."
       }
     ],
     "synonyms": [
@@ -1394,23 +1977,34 @@
         "example": "Non-renewables will dry up; in contrast, wind and solar are inexhaustible. 不可再生能源终将枯竭；相比之下，风能和太阳能用之不竭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Sunlight is effectively inexhaustible on a human timescale.",
+        "upgraded": "Sunlight is effectively inexhaustible on a human timescale, although access still depends on weather and technology.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The guide showed inexhaustible patience with the children.",
+        "upgraded": "The guide showed inexhaustible patience with the children, answering every repeated question without irritation.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "In contrast, renewable energy sources are basically ______ (exhaust) and will last for billions of years.",
+        "question": "In contrast, renewable energy sources are basically ____ (exhaust) and will last for billions of years.",
         "answer": "inexhaustible",
         "note": "由 exhaust 加前缀 in- 与后缀 -ible 构成形容词，表“用之不竭的”；系动词 are 后作表语。"
       },
       {
         "type": "汉译英",
-        "question": "太阳是一种取之不尽的清洁能源来源。",
+        "question": "太阳是一种取之不尽的清洁能源来源。（答案：____）",
         "answer": "The sun is an inexhaustible source of clean energy.",
         "note": "固定搭配 an inexhaustible source of。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空（inexhaustible / unlimited）：Fossil fuels are limited, but solar power is virtually ______.",
+        "question": "选词填空（inexhaustible / unlimited）：Fossil fuels are limited, but solar power is virtually ____.",
         "answer": "inexhaustible",
         "note": "此处强调“怎么用都用不完、不会枯竭”，与前文 limited 形成对比，用 inexhaustible 最贴切。"
       }
@@ -1428,7 +2022,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the basic physical and organizational systems, such as transport, energy, water, and communications, needed for a society or organization to operate",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1441,7 +2035,20 @@
         "example": "The company upgraded its IT infrastructure. 公司升级了信息技术底层架构。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Reliable infrastructure supports every modern city."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The storm damaged roads and water infrastructure."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Digital infrastructure connects remote schools."
+      }
+    ],
     "wordForms": {
       "noun": "infrastructure 基础设施（通常不可数）；structure 结构，构造",
       "verb": "structure 构建，组织；construct 建造",
@@ -1475,6 +2082,21 @@
         "phrase": "existing infrastructure",
         "translation": "现有的基础设施",
         "example": "New turbines can be added to the existing infrastructure. 新涡轮机可以接入现有基础设施。"
+      },
+      {
+        "phrase": "digital infrastructure",
+        "translation": "数字基础设施",
+        "example": "Digital infrastructure supports remote work."
+      },
+      {
+        "phrase": "critical infrastructure",
+        "translation": "关键基础设施",
+        "example": "Hospitals are part of critical infrastructure."
+      },
+      {
+        "phrase": "an infrastructure project",
+        "translation": "基础设施项目",
+        "example": "The bridge is a major infrastructure project."
       }
     ],
     "synonyms": [
@@ -1514,23 +2136,34 @@
         "example": "Without adequate infrastructure, clean energy cannot reach ordinary households. 没有充足的基础设施，清洁能源就无法进入普通家庭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Reliable infrastructure supports every modern city.",
+        "upgraded": "Reliable infrastructure supports every modern city, quietly enabling transport, health care, and communication.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The storm damaged roads and water infrastructure.",
+        "upgraded": "The storm damaged roads and water infrastructure, leaving several villages without clean water.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The government has invested billions in ______ (infrastructure/adj.?) such as roads and power grids.",
+        "question": "The government has invested billions in ____ (infrastructure/adj.?) such as roads and power grids.",
         "answer": "infrastructure",
         "note": "此处需名词作 in 的宾语，指“道路、电网等基础设施”，用不可数名词 infrastructure，不加 s。"
       },
       {
         "type": "完成句子",
-        "question": "在转向清洁能源之前，我们必须升级现有的能源基础设施。Before switching to clean energy, we must ______ ______ ______ energy ______ (升级现有的……基础设施).",
+        "question": "在转向清洁能源之前，我们必须升级现有的能源基础设施。Before switching to clean energy, we must ____ ____ ____ energy ____ (升级现有的……基础设施).",
         "answer": "upgrade the existing / infrastructure",
         "note": "upgrade the existing energy infrastructure；infrastructure 不可数。"
       },
       {
         "type": "汉译英",
-        "question": "落后的基础设施阻碍了偏远地区的发展。",
+        "question": "落后的基础设施阻碍了偏远地区的发展。（答案：____）",
         "answer": "Poor infrastructure holds back the development of remote areas.",
         "note": "infrastructure 作主语时视为不可数，谓语用单数 holds。"
       }
@@ -1548,7 +2181,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a machine with blades turned by a moving fluid such as water, steam, gas, or air, used to produce power",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1556,7 +2189,20 @@
         "example": "The turbine converts wind energy into electricity. 涡轮机把风能转化为电能。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The turbine converted moving water into mechanical energy."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A cracked turbine blade forced the plant to close."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Technicians monitored the turbine throughout the night."
+      }
+    ],
     "wordForms": {
       "noun": "turbine 涡轮机；turbo 涡轮增压（装置，口语/合成词前缀）",
       "verb": "—（无常见动词形式）",
@@ -1590,6 +2236,21 @@
         "phrase": "install wind turbines",
         "translation": "安装风力涡轮机",
         "example": "They installed dozens of wind turbines offshore. 他们在近海安装了数十台风力涡轮机。"
+      },
+      {
+        "phrase": "a turbine blade",
+        "translation": "涡轮叶片",
+        "example": "Ice damaged a turbine blade."
+      },
+      {
+        "phrase": "a turbine generator",
+        "translation": "涡轮发电机",
+        "example": "The turbine generator supplies the factory."
+      },
+      {
+        "phrase": "turbine efficiency",
+        "translation": "涡轮效率",
+        "example": "New materials improve turbine efficiency."
       }
     ],
     "synonyms": [
@@ -1616,25 +2277,41 @@
         "type": "写作亮点·能源说明句",
         "expression": "As the blades of a wind turbine spin, kinetic energy is converted into electricity.",
         "example": "Wind turbines convert the movement of air into a steady supply of electricity. 风力涡轮机把空气流动转化为稳定的电力供应。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "wind turbine / steam/gas turbine / the turbine spins/rotates / drive/turn a turbine",
+        "example": "A single wind turbine can power hundreds of homes. 一台风力涡轮机就能为数百户家庭供电。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The turbine converted moving water into mechanical energy.",
+        "upgraded": "The turbine converted moving water into mechanical energy, driving a generator that supplied the nearby community.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "A cracked turbine blade forced the plant to close.",
+        "upgraded": "A cracked turbine blade forced the plant to close, preventing further damage to the machine.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "As the wind blows, the ______ (turbine) spins and generates electricity.",
+        "question": "As the wind blows, the ____ (turbine) spins and generates electricity.",
         "answer": "turbine",
         "note": "句中一台涡轮机作主语，用单数 turbine；若泛指多台则用复数 turbines 并搭配 spin。"
       },
       {
         "type": "选词填空",
-        "question": "选词填空（turbine / generator）：Flowing water turns the ______, which in turn drives a ______ to produce power.",
+        "question": "选词填空（turbine / generator）：Flowing water turns the ____, which in turn drives a ____ to produce power.",
         "answer": "turbine; generator",
         "note": "水流先带动 turbine 旋转，涡轮机再驱动 generator 发电，顺序不能颠倒。"
       },
       {
         "type": "汉译英",
-        "question": "一台风力涡轮机就能为数百户家庭供电。",
+        "question": "一台风力涡轮机就能为数百户家庭供电。（答案：____）",
         "answer": "A single wind turbine can power hundreds of homes.",
         "note": "wind turbine 复合名词；power 此处作动词，意为“为……供电”。"
       }
@@ -1652,7 +2329,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a network that distributes electricity, gas, or other services (2) a pattern of crossing lines forming squares (3) a numbered reference system on a map",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1675,7 +2352,20 @@
         "example": "The champion started from the front of the grid. 冠军从发车格最前排起跑。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The solar farm sends electricity to the national grid."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She drew the design on a square grid."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The hikers located the shelter using a grid reference."
+      }
+    ],
     "wordForms": {
       "noun": "grid 电网／网格／格栅；gridlock 交通完全堵塞",
       "verb": "—（作动词少见）",
@@ -1709,6 +2399,21 @@
         "phrase": "map grid / grid reference",
         "translation": "地图方格／坐标格",
         "example": "Find the town using the grid reference on the map. 用地图上的坐标格找到那个镇。"
+      },
+      {
+        "phrase": "a smart grid",
+        "translation": "智能电网",
+        "example": "A smart grid balances variable renewable power."
+      },
+      {
+        "phrase": "grid capacity",
+        "translation": "电网容量",
+        "example": "More grid capacity is needed offshore."
+      },
+      {
+        "phrase": "grid stability",
+        "translation": "电网稳定性",
+        "example": "Storage improves grid stability."
       }
     ],
     "synonyms": [
@@ -1735,25 +2440,41 @@
         "type": "一词多义卡·grid 四义速记",
         "expression": "① 电网 the power grid ② 网格/坐标格 a map grid ③ 格栅 a metal grid ④ 赛车发车格 the starting grid",
         "example": "On the map, each grid square stands for one kilometre. 地图上每个方格代表一公里。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "the (national) power/electricity grid / connect to / feed into the grid / off the grid / a grid of streets/lines",
+        "example": "Solar panels feed extra power into the national grid. 太阳能板把多余的电送入国家电网。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The solar farm sends electricity to the national grid.",
+        "upgraded": "The solar farm sends electricity to the national grid, balancing local demand with output from other regions.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "She drew the design on a square grid.",
+        "upgraded": "She drew the design on a square grid, allowing each component to be placed precisely.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "选词填空（grid / grip）：Extra electricity from the solar farm is fed into the national ______.",
+        "question": "选词填空（grid / grip）：Extra electricity from the solar farm is fed into the national ____.",
         "answer": "grid",
         "note": "the national grid 指“国家电网”，与供电语境搭配；grip（抓握）义不符。"
       },
       {
         "type": "短语填空",
-        "question": "The remote cabin generates its own power and runs ______ ______ ______ (脱离公共电网).",
+        "question": "The remote cabin generates its own power and runs ____ ____ ____ (脱离公共电网).",
         "answer": "off the grid",
         "note": "固定短语 off the grid，表“不依赖公共电网、独立供电”。"
       },
       {
         "type": "汉译英",
-        "question": "画地图之前先在纸上打好方格。",
+        "question": "画地图之前先在纸上打好方格。（答案：____）",
         "answer": "Draw a grid on the paper before you sketch the map.",
         "note": "此处 grid 取“网格、方格”义，可数，加不定冠词 a。"
       }
@@ -1771,7 +2492,7 @@
     "sub_section": "",
     "original_sentence": "Looking forward, we should invest in new technologies and innovative thinking that open the door to a whole new world where we decrease reliance on fossil fuels.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to create an opportunity for something to happen or make a new development possible",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -1784,7 +2505,20 @@
         "example": "Careless spending can open the door to serious debt. 乱花钱可能为严重负债埋下隐患。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Affordable storage could open the door to reliable clean power."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The scholarship opened the door to further study."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Shared data opens the door to closer scientific cooperation."
+      }
+    ],
     "wordForms": {
       "noun": "door 门；doorway 门口，门道；opening 开口，机会",
       "verb": "open 打开",
@@ -1813,6 +2547,26 @@
         "phrase": "close the door on/to (反义)",
         "translation": "对……关上大门，断绝……的可能",
         "example": "One failure should not close the door on your dreams. 一次失败不该关上你梦想的大门。"
+      },
+      {
+        "phrase": "open doors for sb",
+        "translation": "为某人创造机会",
+        "example": "Training opened doors for young technicians."
+      },
+      {
+        "phrase": "a gateway to",
+        "translation": "通往……的途径",
+        "example": "Education is a gateway to opportunity."
+      },
+      {
+        "phrase": "create an opportunity for",
+        "translation": "为……创造机会",
+        "example": "Cheap sensors create an opportunity for local innovation."
+      },
+      {
+        "phrase": "leave the door open to",
+        "translation": "给……保留可能性",
+        "example": "The agreement leaves the door open to further talks."
       }
     ],
     "synonyms": [
@@ -1845,25 +2599,41 @@
         "type": "常用结构·门的隐喻家族",
         "expression": "open the door to（打开机会）↔ close the door on（关闭可能）；a golden opportunity；a window of opportunity（机会之窗）",
         "example": "This breakthrough opens the door to cheaper solar power for everyone. 这一突破为人人享有更廉价的太阳能打开了大门。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "open the door to a whole new world / open the door to + n./doing / open the door to success/change / close the door on/to (反义)",
+        "example": "New technologies open the door to a whole new world of clean energy. 新技术为通向一个全新的清洁能源世界创造了机会。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Affordable storage could open the door to reliable clean power.",
+        "upgraded": "Affordable storage could open the door to reliable clean power, even when wind and sunlight vary from hour to hour.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The scholarship opened the door to further study.",
+        "upgraded": "The scholarship opened the door to further study, which had once seemed financially impossible.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "We should invest in new technologies that open the door ______ a whole new world.",
+        "question": "We should invest in new technologies that open the door ____ a whole new world.",
         "answer": "to",
         "note": "固定搭配 open the door to，介词用 to，不用 for。"
       },
       {
         "type": "汉译英",
-        "question": "良好的教育为更多机会打开了大门。",
+        "question": "良好的教育为更多机会打开了大门。（答案：____）",
         "answer": "A good education opens the door to more opportunities.",
         "note": "open the door to + 名词；主语第三人称单数，谓语用 opens。"
       },
       {
         "type": "同义句转换",
-        "question": "用 open the door to 改写：Investing in clean energy paves the way for a greener future.",
+        "question": "用 open the door to 改写：Investing in clean energy paves the way for a greener future.（答案：____）",
         "answer": "Investing in clean energy opens the door to a greener future.",
         "note": "pave the way for 与 open the door to 均后接名词，语义相近，可互换。"
       }
@@ -1881,7 +2651,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to reduce the amount of a resource, supply, or substance severely, often until little remains",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -1894,7 +2664,20 @@
         "example": "The illness depleted her of iron. 这场病使她体内铁质大量流失。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Overpumping can deplete underground water reserves."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The long climb depleted the hikers' strength."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Repeated harvests depleted nutrients in the soil."
+      }
+    ],
     "wordForms": {
       "noun": "depletion 耗尽，枯竭（如 ozone depletion 臭氧层损耗）",
       "verb": "deplete 耗尽，使枯竭",
@@ -1923,6 +2706,26 @@
         "phrase": "deplete supplies/reserves/energy",
         "translation": "耗尽储备／储量／精力",
         "example": "The long march depleted the soldiers' energy. 长途行军耗尽了士兵的体力。"
+      },
+      {
+        "phrase": "deplete groundwater",
+        "translation": "耗竭地下水",
+        "example": "Uncontrolled pumping depletes groundwater."
+      },
+      {
+        "phrase": "nutrient-depleted soil",
+        "translation": "养分耗尽的土壤",
+        "example": "Compost restores nutrient-depleted soil."
+      },
+      {
+        "phrase": "a depleted stock",
+        "translation": "枯竭的储量",
+        "example": "Fishing was banned to rebuild the depleted stock."
+      },
+      {
+        "phrase": "deplete sb's strength",
+        "translation": "耗尽某人体力",
+        "example": "The heat depleted the runners' strength."
       }
     ],
     "synonyms": [
@@ -1962,23 +2765,34 @@
         "example": "Overuse of fossil fuels rapidly depletes finite resources and worsens climate change. 过度使用化石燃料迅速耗尽有限资源，并加剧气候变化。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Overpumping can deplete underground water reserves.",
+        "upgraded": "Overpumping can deplete underground water reserves, lowering the water table year after year.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The long climb depleted the hikers' strength.",
+        "upgraded": "The long climb depleted the hikers' strength, until even simple decisions became difficult.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Overfishing has seriously ______ (deplete) fish stocks in these waters.",
+        "question": "Overfishing has seriously ____ (deplete) fish stocks in these waters.",
         "answer": "depleted",
         "note": "现在完成时 has + 过去分词，deplete 为规则动词，过去分词 depleted。"
       },
       {
         "type": "完成句子",
-        "question": "传统设计导致地球自然资源的枯竭。Traditional designs contribute to ______ (deplete) the Earth's natural ______ (resource).",
+        "question": "传统设计导致地球自然资源的枯竭。Traditional designs contribute to ____ (deplete) the Earth's natural ____ (resource).",
         "answer": "depleting / resources",
         "note": "contribute to 的 to 是介词，后接动名词 depleting；resource 此处指“资源”，用可数复数 resources。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空（deplete / replenish）：If we keep wasting water, we will ______ underground reserves faster than they can be refilled.",
+        "question": "选词填空（deplete / replenish）：If we keep wasting water, we will ____ underground reserves faster than they can be refilled.",
         "answer": "deplete",
         "note": "语境是“浪费导致储量减少”，用 deplete（耗尽）；replenish 意为“补足”，与句意相反。"
       }
@@ -1996,7 +2810,7 @@
     "sub_section": "",
     "original_sentence": "Unfortunately, however, rising waves accelerate the process, and this certainly causes problems for anyone living on the side that is being washed away.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to make something happen faster or to begin moving or developing more quickly",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2009,7 +2823,20 @@
         "example": "The car accelerated smoothly onto the highway. 汽车平稳加速驶上高速公路。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Better batteries could accelerate the energy transition."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The car accelerated smoothly onto the highway."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Warm conditions accelerate chemical reactions."
+      }
+    ],
     "wordForms": {
       "noun": "acceleration（加速，加速度）；accelerator（加速器；油门踏板）",
       "verb": "accelerate",
@@ -2043,6 +2870,21 @@
         "phrase": "at an accelerated rate",
         "translation": "以加快的速度",
         "example": "Ice is melting at an accelerated rate. 冰正在以加快的速度融化。"
+      },
+      {
+        "phrase": "accelerate the transition",
+        "translation": "加速转型",
+        "example": "Investment can accelerate the transition to clean energy."
+      },
+      {
+        "phrase": "accelerate learning",
+        "translation": "加快学习",
+        "example": "Immediate feedback accelerates learning."
+      },
+      {
+        "phrase": "accelerate sharply",
+        "translation": "急剧加速",
+        "example": "The vehicle accelerated sharply."
       }
     ],
     "synonyms": [
@@ -2082,23 +2924,34 @@
         "example": "Burning fossil fuels traps heat, which in turn accelerates global warming. 燃烧化石燃料锁住热量，这又反过来加速全球变暖。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Better batteries could accelerate the energy transition.",
+        "upgraded": "Better batteries could accelerate the energy transition, bringing low-carbon technologies into everyday use sooner.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The car accelerated smoothly onto the highway.",
+        "upgraded": "The car accelerated smoothly onto the highway, joining faster traffic without sudden braking.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Cutting down forests releases carbon dioxide, which in turn ______ (accelerate) global warming.",
+        "question": "Cutting down forests releases carbon dioxide, which in turn ____ (accelerate) global warming.",
         "answer": "accelerates",
         "note": "which 引导非限制性定语从句，指代前面整件事，作单数主语，故用第三人称单数 accelerates。"
       },
       {
         "type": "完成句子",
-        "question": "上涨的海浪加快了这一进程。Rising waves ______ ______ ______ (加快这一进程).",
+        "question": "上涨的海浪加快了这一进程。Rising waves ____ ____ ____ (加快这一进程).",
         "answer": "accelerate the process",
         "note": "accelerate 作及物动词，直接接宾语 the process，无需介词。"
       },
       {
         "type": "同义句转换",
-        "question": "New technology has sped up the whole procedure. → New technology has ______ the whole procedure.",
+        "question": "New technology has sped up the whole procedure. → New technology has ____ the whole procedure.",
         "answer": "accelerated",
         "note": "speed up = accelerate；此处 has 后用过去分词 accelerated 构成现在完成时。"
       }
@@ -2116,7 +2969,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to make a system, design, process, or use of resources as effective as possible",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2129,7 +2982,20 @@
         "example": "Engineers optimized the algorithm for speed. 工程师为提速优化了算法。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Engineers optimized the roof for winter sunlight."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The software optimizes delivery routes automatically."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Farmers optimized water use through precise irrigation."
+      }
+    ],
     "wordForms": {
       "noun": "optimization（优化，最优化）；optimum（最佳值，最适条件）",
       "verb": "optimize（英式亦作 optimise）",
@@ -2158,6 +3024,26 @@
         "phrase": "optimize energy efficiency",
         "translation": "优化能效",
         "example": "New buildings are designed to optimize energy efficiency. 新建筑旨在优化能效。"
+      },
+      {
+        "phrase": "optimize a design",
+        "translation": "优化设计",
+        "example": "Architects optimized the design for shade."
+      },
+      {
+        "phrase": "optimize an algorithm",
+        "translation": "优化算法",
+        "example": "The team optimized the algorithm for speed."
+      },
+      {
+        "phrase": "search engine optimization",
+        "translation": "搜索引擎优化",
+        "example": "The course introduces search engine optimization."
+      },
+      {
+        "phrase": "an optimization problem",
+        "translation": "优化问题",
+        "example": "Scheduling is a complex optimization problem."
       }
     ],
     "synonyms": [
@@ -2197,23 +3083,34 @@
         "example": "The design optimizes natural ventilation to reduce reliance on air conditioning. 该设计优化自然通风，以减少对空调的依赖。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Engineers optimized the roof for winter sunlight.",
+        "upgraded": "Engineers optimized the roof for winter sunlight, reducing heating demand without sacrificing daylight.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The software optimizes delivery routes automatically.",
+        "upgraded": "The software optimizes delivery routes automatically, saving both fuel and delivery time.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The new eco-friendly design ______ (optimize) sunlight and cuts energy use.",
+        "question": "The new eco-friendly design ____ (optimize) sunlight and cuts energy use.",
         "answer": "optimizes",
         "note": "主语 design 为单数第三人称，一般现在时用 optimizes；与后文 cuts 时态、单复数保持一致。"
       },
       {
         "type": "选词填空",
-        "question": "用 optimize / maximize 填空：Rather than simply ______ profits, the company chose to ______ the use of its limited water resources.",
+        "question": "用 optimize / maximize 填空：Rather than simply ____ profits, the company chose to ____ the use of its limited water resources.",
         "answer": "maximizing; optimize",
         "note": "第一空 Rather than 后与 chose 平行，用动名词 maximizing 表\"使利润最大化\"；第二空 chose to 后接动词原形 optimize，表在有限条件下\"优化使用\"。"
       },
       {
         "type": "汉译英",
-        "question": "把\"我们应该充分利用每一寸空间\"译成英文（用 optimize）。",
+        "question": "把\"我们应该充分利用每一寸空间\"译成英文（用 optimize）。（答案：____）",
         "answer": "We should optimize the use of every inch of space.",
         "note": "optimize 及物，常搭 optimize the use of sth；every inch of space 表\"每一寸空间\"。"
       }
@@ -2231,7 +3128,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a metric unit of mass equal to 1,000 kilograms",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2244,7 +3141,20 @@
         "example": "There were tonnes of people at the concert. 演唱会上人山人海。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The small truck can carry one tonne."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The factory reduced waste by several tonnes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A tonne contains exactly one thousand kilograms."
+      }
+    ],
     "wordForms": {
       "noun": "tonne（复数 tonnes）",
       "verb": "",
@@ -2273,6 +3183,26 @@
         "phrase": "tonnes of (口语)",
         "translation": "大量的，很多的",
         "example": "I've got tonnes of homework tonight. 我今晚有一大堆作业。"
+      },
+      {
+        "phrase": "a metric tonne",
+        "translation": "公吨",
+        "example": "One metric tonne equals 1,000 kilograms."
+      },
+      {
+        "phrase": "a ten-tonne truck",
+        "translation": "十吨卡车（复合定语单数）",
+        "example": "A ten-tonne truck delivered the equipment."
+      },
+      {
+        "phrase": "tonnes per year",
+        "translation": "每年若干吨",
+        "example": "The plant processes 5,000 tonnes per year."
+      },
+      {
+        "phrase": "tonne equivalent",
+        "translation": "吨当量",
+        "example": "Energy use is expressed in tonnes of oil equivalent."
       }
     ],
     "synonyms": [
@@ -2299,19 +3229,35 @@
         "type": "常用结构·数量+of",
         "expression": "数词/millions of + tonnes of + 物质名词",
         "example": "Every year millions of tonnes of plastic end up in the ocean. 每年数百万吨塑料最终流入海洋。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "a tonne of CO2 / millions of tonnes of / per tonne / tonnes of (口语)",
+        "example": "Coal power emits about a tonne of CO2 per household each year. 燃煤发电每户每年约排放一吨二氧化碳。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The small truck can carry one tonne.",
+        "upgraded": "The small truck can carry one tonne, enough material to fill dozens of household bins.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The factory reduced waste by several tonnes.",
+        "upgraded": "The factory reduced waste by several tonnes, following a programme of reuse and careful sorting.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The plant produces millions of ______ (tonne) of steel annually.",
+        "question": "The plant produces millions of ____ (tonne) of steel annually.",
         "answer": "tonnes",
         "note": "millions of 后接可数名词复数，tonne 变复数 tonnes。"
       },
       {
         "type": "辨析选词",
-        "question": "用 tonne / ton 填空（公制，1000 公斤）：One ______ is exactly equal to 1,000 kilograms.",
+        "question": "用 tonne / ton 填空（公制，1000 公斤）：One ____ is exactly equal to 1,000 kilograms.",
         "answer": "tonne",
         "note": "严格等于 1000 kg 的公制吨用 tonne（=metric ton）；ton 为英/美制，重量略有出入。"
       }
@@ -2329,7 +3275,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to put a decision, plan, policy, or system into effect",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2342,7 +3288,20 @@
         "example": "Farmers used simple iron implements to work the land. 农民用简单的铁制农具耕作。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The council implemented a new recycling policy."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Schools must implement the safety measures immediately."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The team implemented the design in three stages."
+      }
+    ],
     "wordForms": {
       "noun": "implementation（实施，执行，贯彻）；implement（工具，器具）",
       "verb": "implement",
@@ -2371,6 +3330,26 @@
         "phrase": "implement a decision / an agreement",
         "translation": "执行决定/落实协议",
         "example": "Both sides agreed to implement the agreement fully. 双方同意全面落实协议。"
+      },
+      {
+        "phrase": "fully implement",
+        "translation": "全面实施",
+        "example": "The agency will fully implement the standards."
+      },
+      {
+        "phrase": "the implementation phase",
+        "translation": "实施阶段",
+        "example": "Training begins in the implementation phase."
+      },
+      {
+        "phrase": "implementation of a policy",
+        "translation": "政策的实施",
+        "example": "Implementation of the policy starts next month."
+      },
+      {
+        "phrase": "implementation costs",
+        "translation": "实施成本",
+        "example": "The budget includes implementation costs."
       }
     ],
     "synonyms": [
@@ -2410,23 +3389,34 @@
         "example": "China is implementing policies to phase out energy-inefficient buildings. 中国正实施政策以淘汰高能耗建筑。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The council implemented a new recycling policy.",
+        "upgraded": "The council implemented a new recycling policy, turning months of consultation into practical action.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Schools must implement the safety measures immediately.",
+        "upgraded": "Schools must implement the safety measures immediately, with clear responsibilities for every department.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The government is ______ (implement) a series of plans to cut carbon emissions.",
+        "question": "The government is ____ (implement) a series of plans to cut carbon emissions.",
         "answer": "implementing",
         "note": "is 后用现在进行时 be doing，故填 implementing，表\"正在实施\"。"
       },
       {
         "type": "选词填空",
-        "question": "用 implement / implementation 填空：The ______ of the new rules will begin next month, and every school must ______ them fully.",
+        "question": "用 implement / implementation 填空：The ____ of the new rules will begin next month, and every school must ____ them fully.",
         "answer": "implementation; implement",
         "note": "第一空作主语，用名词 implementation；第二空 must 后接动词原形 implement。"
       },
       {
         "type": "同义句转换",
-        "question": "The school put the safety rules into practice last year. → The school ______ the safety rules last year.",
+        "question": "The school put the safety rules into practice last year. → The school ____ the safety rules last year.",
         "answer": "implemented",
         "note": "put ... into practice = implement；last year 为过去时间，用过去式 implemented。"
       }
@@ -2444,7 +3434,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the process by which dead material or waste breaks down (2) the process of separating something into simpler parts",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2457,7 +3447,20 @@
         "example": "The decomposition of water gives hydrogen and oxygen. 水的分解产生氢和氧。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Warm, wet conditions speed up leaf decomposition."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The experiment measured the decomposition of food waste."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Thermal decomposition produced several simpler compounds."
+      }
+    ],
     "wordForms": {
       "noun": "decomposition（分解，腐烂）",
       "verb": "decompose（（使）分解，（使）腐烂）",
@@ -2486,6 +3489,26 @@
         "phrase": "resist decomposition",
         "translation": "抗分解，难以降解",
         "example": "Plastic can resist decomposition for hundreds of years. 塑料可数百年不降解。"
+      },
+      {
+        "phrase": "decomposition rate",
+        "translation": "分解速率",
+        "example": "Moisture affects the decomposition rate."
+      },
+      {
+        "phrase": "microbial decomposition",
+        "translation": "微生物分解",
+        "example": "Microbial decomposition releases nutrients."
+      },
+      {
+        "phrase": "thermal decomposition",
+        "translation": "热分解",
+        "example": "Thermal decomposition occurs at high temperatures."
+      },
+      {
+        "phrase": "decomposition products",
+        "translation": "分解产物",
+        "example": "Scientists analysed the decomposition products."
       }
     ],
     "synonyms": [
@@ -2525,17 +3548,28 @@
         "example": "The decomposition of food waste produces methane, a powerful greenhouse gas. 食物垃圾的分解产生甲烷这种强效温室气体。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Warm, wet conditions speed up leaf decomposition.",
+        "upgraded": "Warm, wet conditions speed up leaf decomposition, allowing nutrients to return rapidly to the soil.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The experiment measured the decomposition of food waste.",
+        "upgraded": "The experiment measured the decomposition of food waste, helping researchers compare different materials.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Warm and wet conditions speed up the ______ (decompose) of dead leaves.",
+        "question": "Warm and wet conditions speed up the ____ (decompose) of dead leaves.",
         "answer": "decomposition",
         "note": "空前有 the、空后接 of，需要名词，decompose 的名词形式为 decomposition。"
       },
       {
         "type": "选词填空",
-        "question": "用 decompose / decomposition 填空：Plastic bags do not easily ______, so their slow ______ pollutes the soil for years.",
+        "question": "用 decompose / decomposition 填空：Plastic bags do not easily ____, so their slow ____ pollutes the soil for years.",
         "answer": "decompose; decomposition",
         "note": "第一空 do not 后接动词原形 decompose；第二空 their slow ___ 需名词 decomposition 作主语。"
       }
@@ -2553,7 +3587,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to reduce quality, value, or condition (2) to damage an environment (3) to break down chemically or biologically (4) to treat someone without respect",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2571,7 +3605,20 @@
         "example": "Such comments degrade women. 这类言论侮辱了女性。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Heavy traffic can degrade urban air quality."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "This packaging degrades naturally in soil."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The official refused to degrade prisoners with cruel treatment."
+      }
+    ],
     "wordForms": {
       "noun": "degradation（退化，降解；堕落，屈辱）",
       "verb": "degrade",
@@ -2600,6 +3647,26 @@
         "phrase": "degrade oneself / sb",
         "translation": "贬低自己/某人，使受屈辱",
         "example": "He refused to degrade himself by lying. 他不愿撒谎自贬人格。"
+      },
+      {
+        "phrase": "degrade soil",
+        "translation": "使土壤退化",
+        "example": "Overgrazing can degrade soil."
+      },
+      {
+        "phrase": "degrade quality",
+        "translation": "降低质量",
+        "example": "Poor storage degrades food quality."
+      },
+      {
+        "phrase": "biodegradable material",
+        "translation": "可生物降解材料",
+        "example": "The spoon is made from biodegradable material."
+      },
+      {
+        "phrase": "degradation rate",
+        "translation": "降解速率",
+        "example": "Temperature changes the degradation rate."
       }
     ],
     "synonyms": [
@@ -2644,23 +3711,34 @@
         "example": "Soil quality is degraded by the overuse of chemical fertilizers. 土质因化肥过度使用而变差。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Heavy traffic can degrade urban air quality.",
+        "upgraded": "Heavy traffic can degrade urban air quality, making respiratory illness more likely.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "This packaging degrades naturally in soil.",
+        "upgraded": "This packaging degrades naturally in soil, leaving no persistent plastic fragments.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Water quality ______ (degrade) by contamination if factories keep dumping waste into rivers.",
+        "question": "Water quality ____ (degrade) by contamination if factories keep dumping waste into rivers.",
         "answer": "is degraded",
         "note": "water quality 是动作承受者，用被动语态；主句陈述客观规律，一般现在时，主语单数，故 is degraded。"
       },
       {
         "type": "选词填空",
-        "question": "用 degrade / degradable 填空：These bags are fully ______, so they will completely ______ within a year.",
+        "question": "用 degrade / degradable 填空：These bags are fully ____, so they will completely ____ within a year.",
         "answer": "degradable; degrade",
         "note": "第一空 are 后作表语用形容词 degradable；第二空 will 后接动词原形 degrade。"
       },
       {
         "type": "汉译英",
-        "question": "把\"塑料需要数百年才能降解\"译成英文（用 degrade）。",
+        "question": "把\"塑料需要数百年才能降解\"译成英文（用 degrade）。（答案：____）",
         "answer": "Plastic takes hundreds of years to degrade.",
         "note": "此处 degrade 作不及物动词表\"降解\"；sth takes ... to do 表\"某物花……做某事\"。"
       }
@@ -2678,7 +3756,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to take food, drink, medicine, or another substance into the body by swallowing (2) to import and process data in a computer system",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2691,7 +3769,20 @@
         "example": "The database ingests logs from thousands of servers.（该数据库读入来自数千台服务器的日志。）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Seabirds may ingest plastic fragments with their food."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Always check the label before ingesting a medicine."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The platform ingests data from thousands of sensors."
+      }
+    ],
     "wordForms": {
       "noun": "ingestion（摄入，食入）",
       "verb": "ingest（摄入）",
@@ -2720,6 +3811,26 @@
         "phrase": "accidentally ingest sth",
         "translation": "误食某物",
         "example": "Children may accidentally ingest small toy parts.（儿童可能误食玩具小零件。）"
+      },
+      {
+        "phrase": "ingestion of microplastics",
+        "translation": "微塑料的摄入",
+        "example": "Ingestion of microplastics can harm marine animals."
+      },
+      {
+        "phrase": "be toxic if ingested",
+        "translation": "吞食后有毒",
+        "example": "The chemical is toxic if ingested."
+      },
+      {
+        "phrase": "ingest through the food chain",
+        "translation": "通过食物链摄入",
+        "example": "Predators ingest pollutants through the food chain."
+      },
+      {
+        "phrase": "data ingestion",
+        "translation": "数据摄取",
+        "example": "Data ingestion begins when sensors connect."
       }
     ],
     "synonyms": [
@@ -2759,23 +3870,34 @@
         "example": "As plastic breaks down into tiny pieces, marine animals ingest them by mistake, and the toxins ultimately end up on our own plates.（当塑料分解成微小碎片，海洋动物会误食它们，毒素最终又回到我们自己的餐盘上。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Seabirds may ingest plastic fragments with their food.",
+        "upgraded": "Seabirds may ingest plastic fragments with their food, mistaking them for fish or seeds.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Always check the label before ingesting a medicine.",
+        "upgraded": "Always check the label before ingesting a medicine, since the wrong dose could cause serious harm.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Scientists warn that fish can ______ (ingest) microplastics without knowing it.",
+        "question": "Scientists warn that fish can ____ (ingest) microplastics without knowing it.",
         "answer": "ingest",
         "note": "情态动词 can 后用动词原形，主动语态，鱼是摄入动作的发出者。"
       },
       {
         "type": "汉译英",
-        "question": "请勿食入这种液体，它对人体有害。（用 ingest）",
+        "question": "请勿食入这种液体，它对人体有害。（用 ingest）（答案：____）",
         "answer": "Do not ingest this liquid; it is harmful to the human body.",
         "note": "祈使句否定式 Do not + 动词原形；ingest 为及物动词直接接宾语 this liquid。"
       },
       {
         "type": "同义句转换",
-        "question": "The animals swallowed the poison by accident. → The animals ______ ______ the poison.（用 ingest 的正确形式改写，把 by accident 换成对应副词）",
+        "question": "The animals swallowed the poison by accident. → The animals ____ ____ the poison.（用 ingest 的正确形式改写，把 by accident 换成对应副词）",
         "answer": "accidentally ingested",
         "note": "过去时态需用 ingested；by accident = accidentally，用副词替换以贴合原句语气，ingest 后直接接宾语 the poison。"
       }
@@ -2793,7 +3915,7 @@
     "sub_section": "",
     "original_sentence": "These single-use plastic items wind up in landfills.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to finally arrive in a place or situation (2) to finish an activity or close an organization (3) to tighten a spring mechanism (4) to tease or annoy someone",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrasal v. (vi.)",
@@ -2821,7 +3943,20 @@
         "example": "Stop winding your brother up!（别再故意气你弟弟了！）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The bottle may wind up on a distant beach."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "We wound up discussing food waste until midnight."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "She wound up the clock before going to bed."
+      }
+    ],
     "wordForms": {
       "noun": "wind-up（收尾，结束；<英>逗弄，恶作剧，作名词时连字符）",
       "verb": "wind up（过去式/过去分词 wound up /waʊnd/）",
@@ -2861,6 +3996,21 @@
         "phrase": "wind up a clock / toy",
         "translation": "给钟表／玩具上发条",
         "example": "He wound up the old clock every night.（他每晚都给那台老钟上发条。）"
+      },
+      {
+        "phrase": "wind sb up",
+        "translation": "戏弄/惹恼某人",
+        "example": "Ignore him; he is only winding you up."
+      },
+      {
+        "phrase": "be wound up",
+        "translation": "紧张焦虑",
+        "example": "She was too wound up to sleep."
+      },
+      {
+        "phrase": "a wind-up mechanism",
+        "translation": "发条装置",
+        "example": "The toy has a simple wind-up mechanism."
       }
     ],
     "synonyms": [
@@ -2900,23 +4050,34 @@
         "example": "If we keep relying on disposable products, mountains of plastic will wind up in landfills, silently threatening the health of both the soil and ourselves.（如果我们继续依赖一次性产品，堆积如山的塑料终将被送进填埋场，无声地威胁着土壤与人类自身的健康。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The bottle may wind up on a distant beach.",
+        "upgraded": "The bottle may wind up on a distant beach, carried there by currents and seasonal storms.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "We wound up discussing food waste until midnight.",
+        "upgraded": "We wound up discussing food waste until midnight, discovering links between household choices and climate.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "如果不加以处理，这些塑料垃圾最终会被送进垃圾填埋场。If they are not dealt with, these plastic items will ______ ______ in landfills.",
+        "question": "如果不加以处理，这些塑料垃圾最终会被送进垃圾填埋场。If they are not dealt with, these plastic items will ____ ____ in landfills.",
         "answer": "wind up",
         "note": "呼应课文原句 These single-use plastic items wind up in landfills；will 后用动词原形 wind up，后接 in + 地点。"
       },
       {
         "type": "单句语法填空",
-        "question": "After hours of arguing, they ______ (wind) up agreeing on nothing.",
+        "question": "After hours of arguing, they ____ (wind) up agreeing on nothing.",
         "answer": "wound",
         "note": "句意为过去『最终落得』，wind up 过去式为 wound up；wound 读 /waʊnd/，后接动词-ing 形式 agreeing。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (wind up / conclude)：The professor ______ his lecture by reminding us to recycle. 语境为正式演讲收尾。",
+        "question": "选词填空 (wind up / conclude)：The professor ____ his lecture by reminding us to recycle. 语境为正式演讲收尾。",
         "answer": "concluded (wound up 亦可，但正式语域首选 concluded)",
         "note": "正式书面语境优先 conclude（及物，接 his lecture）；口语场合可用 wound up。此处过去时，故用 concluded / wound up。"
       }
@@ -2934,7 +4095,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a place where waste is buried (2) the practice of disposing of waste by burying it (3) waste material placed in such a site",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [C]",
@@ -2947,7 +4108,20 @@
         "example": "Too much plastic ends up as landfill.（太多塑料最终成了填埋垃圾。）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The city plans to close its oldest landfill."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Too much recyclable material still goes to landfill."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Landfill produces methane as organic waste breaks down."
+      }
+    ],
     "wordForms": {
       "noun": "landfill（填埋场／填埋）；landfilling（填埋作业）",
       "verb": "landfill（vt. 把…填埋，较少用：landfill the waste）",
@@ -2981,6 +4155,21 @@
         "phrase": "landfill gas",
         "translation": "填埋场沼气（甲烷）",
         "example": "Landfill gas can be captured to generate electricity.（填埋场沼气可被收集用于发电。）"
+      },
+      {
+        "phrase": "a sanitary landfill",
+        "translation": "卫生填埋场",
+        "example": "A sanitary landfill controls leakage and gas."
+      },
+      {
+        "phrase": "landfill capacity",
+        "translation": "填埋容量",
+        "example": "The region is running out of landfill capacity."
+      },
+      {
+        "phrase": "landfill diversion",
+        "translation": "垃圾填埋转移率",
+        "example": "Composting improves landfill diversion."
       }
     ],
     "synonyms": [
@@ -3020,23 +4209,34 @@
         "example": "Mountains of single-use plastic that wind up in landfills take centuries to break down, silently poisoning the soil beneath our feet.（堆积如山、最终被填埋的一次性塑料需数百年才能分解，无声地毒害着我们脚下的土壤。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The city plans to close its oldest landfill.",
+        "upgraded": "The city plans to close its oldest landfill, after years of complaints about odour and leakage.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Too much recyclable material still goes to landfill.",
+        "upgraded": "Too much recyclable material still goes to landfill, even when collection systems are available.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "选词填空 (landfill / landfills)：Almost half of the country's rubbish still goes to ______ each year.",
+        "question": "选词填空 (landfill / landfills)：Almost half of the country's rubbish still goes to ____ each year.",
         "answer": "landfill",
         "note": "go to landfill 表『被填埋处理』这一方式，为不可数用法，不加复数、不加冠词。"
       },
       {
         "type": "汉译英",
-        "question": "回收利用能减少最终进入垃圾填埋场的塑料量。（用 wind up / landfill）",
+        "question": "回收利用能减少最终进入垃圾填埋场的塑料量。（用 wind up / landfill）（答案：____）",
         "answer": "Recycling can reduce the amount of plastic that winds up in landfills.",
         "note": "定语从句 that winds up 中先行词 plastic 为单数第三人称，谓语 wind up 用 winds up；in landfills 用可数复数指多处填埋场，语法均正确。"
       },
       {
         "type": "短语填空",
-        "question": "用适当介词填空：To protect the soil, we must keep as much waste as possible ______ ______ landfill.",
+        "question": "用适当介词填空：To protect the soil, we must keep as much waste as possible ____ ____ landfill.",
         "answer": "out of",
         "note": "keep sth out of landfill = 使某物不进填埋场；out of 表『在…之外／脱离』，landfill 此处不可数不加冠词。"
       }
@@ -3054,7 +4254,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) decayed organic material used to improve soil (2) v. to turn food or plant waste into compost",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [U]",
@@ -3067,7 +4267,20 @@
         "example": "You can compost leaves and grass.（你可以把落叶和青草制成堆肥。）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Rich compost improved the garden soil."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The restaurant composts vegetable peelings."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Students added dry leaves to the compost."
+      }
+    ],
     "wordForms": {
       "noun": "compost（堆肥）；composting（堆肥处理）",
       "verb": "compost（vt. 制成堆肥）",
@@ -3096,6 +4309,26 @@
         "phrase": "spread compost on the soil",
         "translation": "把堆肥施在土壤上",
         "example": "The farmer spread compost on the fields.（农民把堆肥撒在田里。）"
+      },
+      {
+        "phrase": "mature compost",
+        "translation": "腐熟堆肥",
+        "example": "Mature compost has a dark, crumbly texture."
+      },
+      {
+        "phrase": "compostable packaging",
+        "translation": "可堆肥包装",
+        "example": "The cafe switched to compostable packaging."
+      },
+      {
+        "phrase": "a composting facility",
+        "translation": "堆肥处理设施",
+        "example": "Food scraps go to a composting facility."
+      },
+      {
+        "phrase": "home composting",
+        "translation": "家庭堆肥",
+        "example": "Home composting reduces household waste."
       }
     ],
     "synonyms": [
@@ -3122,19 +4355,35 @@
         "type": "仿写范句·环保话题",
         "expression": "Rather than letting food scraps wind up in landfills, we can compost them at home, turning yesterday's waste into today's rich soil.",
         "example": "Rather than letting food scraps wind up in landfills, we can compost them at home, turning yesterday's waste into today's rich soil.（与其让厨余最终进填埋场，我们不如在家把它们堆肥，把昨日之废变成今日之沃土。）"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "turn / make ... into compost / a compost heap / pile / bin / compost food waste / spread compost on the soil",
+        "example": "We turn kitchen waste into compost.（我们把厨余垃圾制成堆肥。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Rich compost improved the garden soil.",
+        "upgraded": "Rich compost improved the garden soil, helping the beds retain water and nutrients.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The restaurant composts vegetable peelings.",
+        "upgraded": "The restaurant composts vegetable peelings, reducing the amount sent for disposal.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Many families now ______ (compost) their kitchen waste instead of throwing it away.",
+        "question": "Many families now ____ (compost) their kitchen waste instead of throwing it away.",
         "answer": "compost",
         "note": "主语 Many families 复数，一般现在时用动词原形；此处 compost 作及物动词『把…制成堆肥』。"
       },
       {
         "type": "汉译英",
-        "question": "落叶和青草可以制成有用的堆肥。（用 compost，含名词与动词各一处思路，此处用被动）",
+        "question": "落叶和青草可以制成有用的堆肥。（用 compost，含名词与动词各一处思路，此处用被动）（答案：____）",
         "answer": "Leaves and grass can be made into useful compost.",
         "note": "can 后接被动 be made into；compost 此处作不可数名词，前用形容词 useful 修饰，无需冠词。"
       }
@@ -3152,7 +4401,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a thick mixture of flour and liquid, often with other ingredients, that is shaped and baked into bread or pastry",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [U]",
@@ -3165,7 +4414,20 @@
         "example": "He made a lot of dough selling bread.（他卖面包赚了不少钱。）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The baker shaped the soft dough into small rolls."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Cold weather slowed the dough's rise."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The machine mixed the dough until it was smooth."
+      }
+    ],
     "wordForms": {
       "noun": "dough（面团）；doughnut（甜甜圈，美式亦拼 donut）",
       "verb": "",
@@ -3194,6 +4456,26 @@
         "phrase": "bake the dough in the oven",
         "translation": "把面团放进烤箱烤",
         "example": "Bake the dough in the oven until golden.（把面团放进烤箱烤至金黄。）"
+      },
+      {
+        "phrase": "bread dough",
+        "translation": "面包面团",
+        "example": "Bread dough needs time to ferment."
+      },
+      {
+        "phrase": "pizza dough",
+        "translation": "披萨面团",
+        "example": "She stretched the pizza dough by hand."
+      },
+      {
+        "phrase": "a dough hook",
+        "translation": "和面钩",
+        "example": "The mixer uses a dough hook."
+      },
+      {
+        "phrase": "dough consistency",
+        "translation": "面团稠度",
+        "example": "Add water until the dough consistency is right."
       }
     ],
     "synonyms": [
@@ -3220,19 +4502,35 @@
         "type": "熟词僻义卡",
         "expression": "dough（俚）= money 钱；big dough 大钱",
         "example": "That job brings in serious dough.（那份工作能赚大钱。）"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "knead / make dough / roll out the dough / let the dough rise / bake the dough in the oven",
+        "example": "She kneaded the dough for ten minutes.（她把面团揉了十分钟。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The baker shaped the soft dough into small rolls.",
+        "upgraded": "The baker shaped the soft dough into small rolls, sealing each piece carefully around the filling.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Cold weather slowed the dough's rise.",
+        "upgraded": "Cold weather slowed the dough's rise, requiring a longer period in a warm place.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "选词填空 (dough / batter)：To make bread, first mix flour and water into a soft ______, then knead it well.",
+        "question": "选词填空 (dough / batter)：To make bread, first mix flour and water into a soft ____, then knead it well.",
         "answer": "dough",
         "note": "可揉（knead）成团的是 dough 面团；batter 太稀无法揉。做面包用 dough。"
       },
       {
         "type": "完成句子",
-        "question": "把面团擀开后，放进烤箱烤二十分钟。After you ______ ______ the dough, bake it in the oven for twenty minutes.",
+        "question": "把面团擀开后，放进烤箱烤二十分钟。After you ____ ____ the dough, bake it in the oven for twenty minutes.",
         "answer": "roll out",
         "note": "roll out the dough = 把面团擀开；此处用原形因前有 you 引导的时间状语从句一般现在时。"
       }
@@ -3250,7 +4548,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "an enclosed heated appliance or chamber used for cooking, baking, or industrial heating",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n. [C]",
@@ -3263,7 +4561,20 @@
         "example": "The room was like an oven in summer.（夏天这房间热得像个烤箱。）"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The bread baked evenly in the oven."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A solar oven cooked the meal without fuel."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The factory uses a large industrial oven."
+      }
+    ],
     "wordForms": {
       "noun": "oven（烤箱）；ovenware（耐热烤盘器皿）",
       "verb": "",
@@ -3292,6 +4603,26 @@
         "phrase": "a hot / warm oven",
         "translation": "热烤箱",
         "example": "Bake in a hot oven until crisp.（放进高温烤箱烤至酥脆。）"
+      },
+      {
+        "phrase": "a microwave oven",
+        "translation": "微波炉",
+        "example": "A microwave oven reheats food quickly."
+      },
+      {
+        "phrase": "a conventional oven",
+        "translation": "传统烤箱",
+        "example": "The recipe uses a conventional oven."
+      },
+      {
+        "phrase": "oven temperature",
+        "translation": "烤箱温度",
+        "example": "Check the oven temperature with a thermometer."
+      },
+      {
+        "phrase": "an ovenproof dish",
+        "translation": "耐烤盘",
+        "example": "Pour the mixture into an ovenproof dish."
       }
     ],
     "synonyms": [
@@ -3318,19 +4649,35 @@
         "type": "熟词僻义卡",
         "expression": "like an oven = 闷热如蒸笼（比喻）; oven-fresh = 刚出炉、新鲜的",
         "example": "The bakery smelled of oven-fresh bread.（面包店里弥漫着刚出炉面包的香味。）"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "in / into the oven / preheat the oven / take ... out of the oven / a hot / warm oven",
+        "example": "Put the cake in the oven for 30 minutes.（把蛋糕放进烤箱烤30分钟。）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The bread baked evenly in the oven.",
+        "upgraded": "The bread baked evenly in the oven, filling the kitchen with a warm yeasty smell.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "A solar oven cooked the meal without fuel.",
+        "upgraded": "A solar oven cooked the meal without fuel, using only reflected sunlight on a clear day.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "用适当介词填空：Remember to take the pizza ______ ______ the oven before it burns.",
+        "question": "用适当介词填空：Remember to take the pizza ____ ____ the oven before it burns.",
         "answer": "out of",
         "note": "take sth out of the oven = 把某物从烤箱取出；out of 表『从…里出来』，与放入 into 相对。"
       },
       {
         "type": "辨析选词",
-        "question": "选词填空 (oven / stove)：She baked the bread in the ______, while the soup was boiling on the ______.",
+        "question": "选词填空 (oven / stove)：She baked the bread in the ____, while the soup was boiling on the ____.",
         "answer": "oven; stove",
         "note": "烘烤面包用封闭的 oven（in the oven）；灶台上煮汤用 stove（on the stove）。介词与器具须对应。"
       }
@@ -3348,7 +4695,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a long-handled gardening tool with a flat blade (2) v. to break up soil or remove weeds with a hoe",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -3361,7 +4708,20 @@
         "example": "Pass me the hoe over there. 把那边的锄头递给我。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She hoed the soil between the vegetable rows."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The gardener leaned the hoe against the shed."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "They hoed for an hour before the heat became intense."
+      }
+    ],
     "wordForms": {
       "noun": "hoe（锄头）",
       "verb": "hoe（原形，锄）；hoed（过去式/过去分词）；hoeing（现在分词，注意保留 e）",
@@ -3390,6 +4750,26 @@
         "phrase": "a hard row to hoe",
         "translation": "难做的差事，艰巨的任务（习语）",
         "example": "Starting a business from scratch is a hard row to hoe. 白手起家创业是件苦差事。"
+      },
+      {
+        "phrase": "hoe between the rows",
+        "translation": "在作物行间锄地",
+        "example": "Farmers hoe between the rows after rain."
+      },
+      {
+        "phrase": "a hoe handle",
+        "translation": "锄柄",
+        "example": "The wooden hoe handle had split."
+      },
+      {
+        "phrase": "a rotary hoe",
+        "translation": "旋转锄",
+        "example": "A rotary hoe loosens the topsoil."
+      },
+      {
+        "phrase": "hoe regularly",
+        "translation": "定期锄草",
+        "example": "Hoe regularly to control young weeds."
       }
     ],
     "synonyms": [
@@ -3416,25 +4796,41 @@
         "type": "习语卡·比喻",
         "expression": "a hard / tough row to hoe（一垄难锄的地→棘手的任务、艰难的处境）",
         "example": "As a first-generation college student, she knew she had a hard row to hoe. 作为家里第一个大学生，她知道自己前路艰难。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "hoe the field / garden / hoe up the weeds / a garden hoe / a hard row to hoe",
+        "example": "The farmers were hoeing the field under the hot sun. 农民们顶着烈日在田里锄地。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "She hoed the soil between the vegetable rows.",
+        "upgraded": "She hoed the soil between the vegetable rows, cutting young weeds before they could spread.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The gardener leaned the hoe against the shed.",
+        "upgraded": "The gardener leaned the hoe against the shed, ready for another early start the next morning.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The old farmer was still ______ (hoe) his vegetable garden when it began to rain.",
+        "question": "The old farmer was still ____ (hoe) his vegetable garden when it began to rain.",
         "answer": "hoeing",
         "note": "was + doing 构成过去进行时；hoe 的现在分词保留词尾 e，写作 hoeing，不可写成 hoing。"
       },
       {
         "type": "选词填空",
-        "question": "用 hoe / weed 填空：He picked up the ______ from the shed and began to ______ the weeds between the rows.",
+        "question": "用 hoe / weed 填空：He picked up the ____ from the shed and began to ____ the weeds between the rows.",
         "answer": "hoe; weed",
         "note": "第一空指工具“锄头”用名词 hoe；第二空“除草”作动词，此处宾语是 weeds，用 weed 更自然（weed the weeds 亦可用 hoe up the weeds）。"
       },
       {
         "type": "汉译英",
-        "question": "农民们整个上午都在田里锄地除草。",
+        "question": "农民们整个上午都在田里锄地除草。（答案：____）",
         "answer": "The farmers spent the whole morning hoeing the field and clearing the weeds.",
         "note": "spend time (in) doing 结构，hoe 作及物动词接 the field；注意现在分词 hoeing 的拼写。"
       }
@@ -3452,7 +4848,7 @@
     "sub_section": "",
     "original_sentence": "In April 2021, the Law of the People’s Republic of China on Food Waste took effect, which aims to prevent food waste, safeguard food security and promote the traditional virtues of the Chinese nation.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to protect someone or something from harm or loss (2) n. a measure designed to provide protection",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -3465,7 +4861,20 @@
         "example": "The password acts as a safeguard against unauthorized access. 密码是防止未授权访问的一道防护。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Strong laws safeguard the public's right to clean water."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Independent review provides an important safeguard."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The campaign safeguards food supplies by reducing waste."
+      }
+    ],
     "wordForms": {
       "noun": "safeguard（保护措施，保障）；safety（安全）；safeness（安全性，较少用）",
       "verb": "safeguard（原形）；safeguarded（过去式/过去分词）；safeguarding（现在分词）",
@@ -3499,6 +4908,21 @@
         "phrase": "a safeguard against ...",
         "translation": "防范…的措施／保障（n. 用法）",
         "example": "Backups are a safeguard against data loss. 备份是防止数据丢失的一道保障。"
+      },
+      {
+        "phrase": "a legal safeguard",
+        "translation": "法律保障",
+        "example": "The appeal process is a legal safeguard."
+      },
+      {
+        "phrase": "put safeguards in place",
+        "translation": "建立保障措施",
+        "example": "The agency put safeguards in place."
+      },
+      {
+        "phrase": "without adequate safeguards",
+        "translation": "没有充分保障",
+        "example": "Data should not be shared without adequate safeguards."
       }
     ],
     "synonyms": [
@@ -3538,23 +4962,34 @@
         "example": "The campaign aims to prevent food waste, safeguard food security and promote the traditional virtues of the Chinese nation. 这项运动旨在防止食物浪费、保障粮食安全、弘扬中华民族的传统美德。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Strong laws safeguard the public's right to clean water.",
+        "upgraded": "Strong laws safeguard the public's right to clean water, preventing private interests from weakening environmental standards.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Independent review provides an important safeguard.",
+        "upgraded": "Independent review provides an important safeguard, especially when decisions affect vulnerable groups.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "新法律的出台是为了保障粮食安全、防止浪费。The new law was introduced ______ ______ (为了保障) food security and prevent waste.",
+        "question": "新法律的出台是为了保障粮食安全、防止浪费。The new law was introduced ____ ____ (为了保障) food security and prevent waste.",
         "answer": "to safeguard",
         "note": "空处用不定式作目的状语 to safeguard；safeguard 及物直接接宾语 food security，无需介词。"
       },
       {
         "type": "单句语法填空",
-        "question": "Regular backups are the best ______ (safe) against sudden data loss.",
+        "question": "Regular backups are the best ____ (safe) against sudden data loss.",
         "answer": "safeguard",
         "note": "the best ___ 后接名词，且与 against 搭配，故填名词 safeguard（a safeguard against sth 防范…的保障）。"
       },
       {
         "type": "同义句转换",
-        "question": "These measures protect the workers from injury. → These measures ______ the workers ______ injury.",
+        "question": "These measures protect the workers from injury. → These measures ____ the workers ____ injury.",
         "answer": "safeguard; against",
         "note": "safeguard sb against sth 相当于 protect sb from sth；此处 from 转为 against（safeguard 也可接 from）。"
       }
@@ -3572,7 +5007,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. food or material remaining after the rest has been used (2) adj. remaining and not yet used",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3590,7 +5025,20 @@
         "example": "She used the leftover paint to touch up the wall. 她用剩下的油漆修补了墙面。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Leftover rice can be stored safely for another meal."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She turned the leftovers into soup."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The workshop reused leftover wood from the project."
+      }
+    ],
     "wordForms": {
       "noun": "leftover / leftovers（剩饭剩菜，遗留物）",
       "verb": "",
@@ -3619,6 +5067,26 @@
         "phrase": "reduce food waste by using leftovers",
         "translation": "通过利用剩余食物减少浪费",
         "example": "We can reduce food waste by turning leftovers into new dishes. 我们可以把剩菜做成新菜来减少食物浪费。"
+      },
+      {
+        "phrase": "leftover ingredients",
+        "translation": "剩余食材",
+        "example": "The chef created lunch from leftover ingredients."
+      },
+      {
+        "phrase": "use up leftovers",
+        "translation": "吃完/用完剩余食物",
+        "example": "Plan a meal to use up leftovers."
+      },
+      {
+        "phrase": "store leftovers safely",
+        "translation": "安全储存剩饭",
+        "example": "Store leftovers safely in the fridge."
+      },
+      {
+        "phrase": "turn leftovers into",
+        "translation": "把剩余食物变成……",
+        "example": "Turn leftovers into a vegetable pie."
       }
     ],
     "synonyms": [
@@ -3645,25 +5113,41 @@
         "type": "辨析卡·合写与分写",
         "expression": "leftover(s)（名词/形容词，一个词）vs. be left over（动词短语，分开写）",
         "example": "Whatever food is left over becomes tomorrow's leftovers. 剩下的任何食物都成了明天的剩饭。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "eat / heat up the leftovers / leftover food / leftover material / money / reduce food waste by using leftovers",
+        "example": "We had the leftovers from last night for lunch. 午饭我们吃了昨晚的剩菜。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Leftover rice can be stored safely for another meal.",
+        "upgraded": "Leftover rice can be stored safely for another meal, provided it is cooled promptly and reheated thoroughly.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "She turned the leftovers into soup.",
+        "upgraded": "She turned the leftovers into soup, creating a nourishing meal instead of waste.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Instead of throwing away the ______ (leave) food, she turned it into a delicious soup.",
+        "question": "Instead of throwing away the ____ (leave) food, she turned it into a delicious soup.",
         "answer": "leftover",
         "note": "此处修饰 food 作定语，需用形容词 leftover（由 leave over 复合而来），不能填 left；leftover food = 剩下的食物。"
       },
       {
         "type": "辨析选词",
-        "question": "用 leftovers / remains 填空：After the picnic, we packed up the ______ so that no food would be wasted.",
+        "question": "用 leftovers / remains 填空：After the picnic, we packed up the ____ so that no food would be wasted.",
         "answer": "leftovers",
         "note": "指“吃剩、可再吃的食物”用 leftovers；remains 偏“残余物/遗骸”，语境不合。"
       },
       {
         "type": "汉译英",
-        "question": "把剩菜做成新的菜肴是减少食物浪费的好方法。",
+        "question": "把剩菜做成新的菜肴是减少食物浪费的好方法。（答案：____）",
         "answer": "Turning leftovers into new dishes is a good way to reduce food waste.",
         "note": "leftovers 作名词用复数表“剩饭剩菜”；动名词短语作主语，谓语用单数 is。"
       }
@@ -3681,7 +5165,7 @@
     "sub_section": "",
     "original_sentence": "No matter what solutions the islanders develop, their islands are still in hot water.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "in trouble or facing criticism because of something one has done",
     "uncommonMeanings": [
       {
         "partOfSpeech": "习语",
@@ -3689,7 +5173,20 @@
         "example": "The company found itself in hot water after the scandal. 丑闻曝光后公司陷入了困境。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The company found itself in hot water over false claims."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "He landed in hot water after ignoring the safety rule."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "A quick apology kept the team out of hot water."
+      }
+    ],
     "wordForms": {
       "noun": "",
       "verb": "",
@@ -3713,6 +5210,31 @@
         "phrase": "land sb in hot water",
         "translation": "使某人陷入麻烦",
         "example": "One careless remark landed her in hot water. 一句不慎的话让她惹上了麻烦。"
+      },
+      {
+        "phrase": "get out of hot water",
+        "translation": "摆脱困境",
+        "example": "Clear evidence helped the firm get out of hot water."
+      },
+      {
+        "phrase": "be in serious trouble",
+        "translation": "陷入严重麻烦（同义）",
+        "example": "The operator was in serious trouble after the spill."
+      },
+      {
+        "phrase": "keep sb out of hot water",
+        "translation": "使某人免陷麻烦",
+        "example": "Accurate records keep managers out of hot water."
+      },
+      {
+        "phrase": "find oneself in hot water",
+        "translation": "发现自己陷入困境",
+        "example": "The supplier found itself in hot water."
+      },
+      {
+        "phrase": "put sb in hot water",
+        "translation": "使某人陷入困境",
+        "example": "The false report put the director in hot water."
       }
     ],
     "synonyms": [
@@ -3739,19 +5261,35 @@
         "type": "同义表达群·处境艰难（写作升级）",
         "expression": "be in hot water / face a tough situation / be caught in a dilemma / struggle to stay afloat（勉力支撑）",
         "example": "With sea levels rising, the low-lying islands are in hot water, struggling to stay afloat. 随着海平面上升，这些低洼岛屿身陷困境，苦苦支撑。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "be / still in hot water / get into hot water / land sb in hot water / get out of hot water",
+        "example": "No matter what solutions they develop, their islands are still in hot water. 无论他们想出什么办法，这些岛屿仍身陷困境。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The company found itself in hot water over false claims.",
+        "upgraded": "The company found itself in hot water over false claims, prompting regulators to demand evidence.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "He landed in hot water after ignoring the safety rule.",
+        "upgraded": "He landed in hot water after ignoring the safety rule, despite several earlier warnings.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "由于污染问题，这家工厂陷入了困境。The factory found itself ______ ______ ______ (陷入困境) because of the pollution problem.",
+        "question": "由于污染问题，这家工厂陷入了困境。The factory found itself ____ ____ ____ (陷入困境) because of the pollution problem.",
         "answer": "in hot water",
         "note": "固定习语 in hot water，water 不加复数、不加冠词；作 find oneself 的宾语补足语，表“身陷麻烦”。"
       },
       {
         "type": "同义句转换",
-        "question": "He got into trouble for telling a lie. → He got into ______ ______ for telling a lie.",
+        "question": "He got into trouble for telling a lie. → He got into ____ ____ for telling a lie.",
         "answer": "hot water",
         "note": "get into trouble = get into hot water（惹上麻烦）；习语 hot water 前不加冠词。"
       }
@@ -3769,7 +5307,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to throw or spread things over an area (2) to move quickly in different directions (3) to exist or occur at widely separated points",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -3787,7 +5325,20 @@
         "example": "The birds scattered at the sound of the gun. 枪声一响，鸟儿四散飞走。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The farmer scattered wildflower seeds along the field edge."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The birds scattered when the door opened."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Clouds scatter sunlight in the atmosphere."
+      }
+    ],
     "wordForms": {
       "noun": "scattering（少量分散的东西，散布）",
       "verb": "scatter（原形）；scattered（过去式/过去分词）；scattering（现在分词）",
@@ -3816,6 +5367,26 @@
         "phrase": "be scattered around / all over the floor",
         "translation": "散落一地",
         "example": "Toys were scattered all over the floor. 玩具散落了一地。"
+      },
+      {
+        "phrase": "scatter light",
+        "translation": "散射光",
+        "example": "Tiny particles scatter blue light."
+      },
+      {
+        "phrase": "scatter a crowd",
+        "translation": "驱散人群",
+        "example": "Heavy rain scattered the crowd."
+      },
+      {
+        "phrase": "scatter ashes",
+        "translation": "撒骨灰",
+        "example": "The family scattered the ashes at sea."
+      },
+      {
+        "phrase": "scattered showers",
+        "translation": "零星阵雨",
+        "example": "Scattered showers are expected tonight."
       }
     ],
     "synonyms": [
@@ -3854,23 +5425,34 @@
         "example": "Startled by the noise, the pigeons scattered in all directions. 被响声惊到，鸽子四散飞开。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The farmer scattered wildflower seeds along the field edge.",
+        "upgraded": "The farmer scattered wildflower seeds along the field edge, creating habitat for bees and other pollinators.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The birds scattered when the door opened.",
+        "upgraded": "The birds scattered when the door opened, filling the air with a sudden beat of wings.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "______ (scatter) across the valley are hundreds of tiny villages, half hidden by the morning mist.",
+        "question": "____ (scatter) across the valley are hundreds of tiny villages, half hidden by the morning mist.",
         "answer": "Scattered",
         "note": "表语（过去分词）置于句首引起完全倒装，谓语 are 在主语 villages 之前；scatter 与 villages 是被动关系，用过去分词 Scattered，此处句首首字母大写。"
       },
       {
         "type": "辨析选词",
-        "question": "用 scatter / disperse 填空：The gardener ______ the seeds over the soil, while the strong wind soon ______ the thick fog.",
+        "question": "用 scatter / disperse 填空：The gardener ____ the seeds over the soil, while the strong wind soon ____ the thick fog.",
         "answer": "scattered; dispersed",
         "note": "撒种子只能用 scatter；驱散/使消散浓雾多用 disperse（较正式）。两句均为一般过去时。"
       },
       {
         "type": "完成句子",
-        "question": "枪声一响，鸟儿便四散飞走。At the sound of the gun, the birds ______ ______ ______ ______ (向四面八方四散).",
+        "question": "枪声一响，鸟儿便四散飞走。At the sound of the gun, the birds ____ ____ ____ ____ (向四面八方四散).",
         "answer": "scattered in all directions",
         "note": "scatter 此处作不及物动词表“四散”，一般过去时 scattered；in all directions 意为“向四面八方”。"
       }
@@ -3888,7 +5470,7 @@
     "sub_section": "",
     "original_sentence": "On the Pacific Islands, the most obvious sign of rising sea levels is that at high tide, water moves further inland to flow into houses and over roads.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) the regular rise and fall of the sea (2) a strong movement or trend in events or feelings (3) a large flow or surge",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3906,7 +5488,20 @@
         "example": "A tide of anger swept through the crowd. 一股怒潮席卷人群。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The boat returned to harbour on the rising tide."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Public action helped turn the tide against food waste."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A tide of relief swept through the island community."
+      }
+    ],
     "wordForms": {
       "noun": "tide（潮汐，潮流）",
       "verb": "tide（原形，罕用，多见于短语 tide sb over 帮某人渡过难关）；tided；tiding",
@@ -3940,6 +5535,21 @@
         "phrase": "turn the tide",
         "translation": "扭转局势，扭转趋势",
         "example": "The new strategy helped turn the tide of the game. 新策略帮助扭转了比赛的局势。"
+      },
+      {
+        "phrase": "tidal range",
+        "translation": "潮差",
+        "example": "The bay has a large tidal range."
+      },
+      {
+        "phrase": "an ebb tide",
+        "translation": "退潮",
+        "example": "The boat grounded on the ebb tide."
+      },
+      {
+        "phrase": "stem the tide of",
+        "translation": "遏制……潮流",
+        "example": "Education can stem the tide of waste."
       }
     ],
     "synonyms": [
@@ -3973,23 +5583,34 @@
         "example": "A small loan tided the family over the hardest months. 一小笔贷款帮这家人渡过了最艰难的几个月。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The boat returned to harbour on the rising tide.",
+        "upgraded": "The boat returned to harbour on the rising tide, using the incoming water to cross the shallow channel.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Public action helped turn the tide against food waste.",
+        "upgraded": "Public action helped turn the tide against food waste, as recycling became an everyday habit.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "At high ______ (tide), seawater flows inland and floods the low-lying roads.",
+        "question": "At high ____ (tide), seawater flows inland and floods the low-lying roads.",
         "answer": "tide",
         "note": "at high tide 是固定搭配“涨潮时”，tide 作名词，此处保持原形单数；类似 at low tide。"
       },
       {
         "type": "选词填空",
-        "question": "用 tide / trend / current 填空：The new policy helped to ______ (扭转) the tide of falling sales.",
+        "question": "用 tide / trend / current 填空：The new policy helped to ____ (扭转) the tide of falling sales.",
         "answer": "turn",
         "note": "考查搭配 turn the tide（扭转局势/趋势）；此处 tide 已给出，动词填 turn。turn the tide 是固定表达。"
       },
       {
         "type": "汉译英",
-        "question": "面对日益高涨的批评浪潮，他没有随波逐流。",
+        "question": "面对日益高涨的批评浪潮，他没有随波逐流。（答案：____）",
         "answer": "Faced with a rising tide of criticism, he refused to go with the tide.",
         "note": "a rising tide of ... 表“日益高涨的…”，go with the tide 表“随波逐流”；Faced with 作状语（过去分词短语）。"
       }
@@ -4007,7 +5628,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to disappear suddenly or completely, or to stop existing",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -4025,7 +5646,20 @@
         "example": "His confidence vanished the moment he saw the exam paper. 一看到试卷，他的信心顿时荡然无存。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The narrow beach vanished after the storm."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Her doubts vanished when the test succeeded."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Several local traditions have nearly vanished."
+      }
+    ],
     "wordForms": {
       "noun": "vanishment（消失，罕用）；the vanishing point（透视中的消失点）",
       "verb": "vanish（原形）；vanished（过去式/过去分词）；vanishing（现在分词）",
@@ -4059,6 +5693,21 @@
         "phrase": "a vanishing species / world",
         "translation": "正在消失的物种／世界（现在分词作定语）",
         "example": "The panda was once a vanishing species. 熊猫曾是濒临消失的物种。"
+      },
+      {
+        "phrase": "vanish overnight",
+        "translation": "一夜之间消失",
+        "example": "The lake did not vanish overnight."
+      },
+      {
+        "phrase": "all hope vanishes",
+        "translation": "所有希望破灭",
+        "example": "All hope vanished after the final message."
+      },
+      {
+        "phrase": "a vanishing point",
+        "translation": "消失点",
+        "example": "Parallel lines meet at a vanishing point in the drawing."
       }
     ],
     "synonyms": [
@@ -4098,23 +5747,34 @@
         "example": "If we fail to act, entire islands could vanish beneath the waves, taking whole cultures with them. 若我们不采取行动，整座整座的岛屿可能会消失在海浪之下，连同整个整个的文明一起湮灭。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The narrow beach vanished after the storm.",
+        "upgraded": "The narrow beach vanished after the storm, leaving homes exposed to the next high tide.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Her doubts vanished when the test succeeded.",
+        "upgraded": "Her doubts vanished when the test succeeded, confirming that the new material worked as intended.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Five of the islands have already ______ (vanish) beneath the waves, and more are at risk.",
+        "question": "Five of the islands have already ____ (vanish) beneath the waves, and more are at risk.",
         "answer": "vanished",
         "note": "have already + 过去分词构成现在完成时，表示到现在为止已经发生并对现状有影响；vanish 为规则动词，过去分词 vanished。此句取自选修二U2 Ext 课件原句。"
       },
       {
         "type": "辨析选词",
-        "question": "用 vanish 或 fade 的适当形式填空：The old photograph had slowly ______ over the years, while the ship had suddenly ______ into the fog.",
+        "question": "用 vanish 或 fade 的适当形式填空：The old photograph had slowly ____ over the years, while the ship had suddenly ____ into the fog.",
         "answer": "faded; vanished",
         "note": "照片颜色是“逐渐”变淡，用 fade；船是“突然”消失在雾中，用 vanish。两处均用过去完成时 had+过去分词，与主句时间背景一致。"
       },
       {
         "type": "汉译英",
-        "question": "话音刚落，他就消失在人群中，无影无踪。",
+        "question": "话音刚落，他就消失在人群中，无影无踪。（答案：____）",
         "answer": "The moment he finished speaking, he vanished into the crowd without a trace.",
         "note": "vanish 为不及物动词，后不接宾语，用 into the crowd 表方向；固定搭配 without a trace“无影无踪”。The moment 引导时间状语从句表“一…就…”。"
       }
@@ -4132,7 +5792,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) to flow slowly through small holes or spaces (2) to spread or become known gradually",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -4150,7 +5810,20 @@
         "example": "Doubt began to seep into her mind. 怀疑开始悄悄渗入她的脑海。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Rainwater seeped through the damaged roof."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Oil seeped slowly into the surrounding soil."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "News of the decision seeped into the village."
+      }
+    ],
     "wordForms": {
       "noun": "seepage（渗漏，渗流；渗出物）",
       "verb": "seep（原形）；seeped（过去式/过去分词）；seeping（现在分词）",
@@ -4179,6 +5852,26 @@
         "phrase": "seep away",
         "translation": "渐渐渗漏光；（力量、信心等）慢慢消失（引申义）",
         "example": "She felt her strength slowly seeping away. 她感到自己的力气正一点点消失。"
+      },
+      {
+        "phrase": "seep into public awareness",
+        "translation": "逐渐进入公众意识",
+        "example": "The facts slowly seeped into public awareness."
+      },
+      {
+        "phrase": "an oil seep",
+        "translation": "油气渗出点",
+        "example": "Scientists sampled water near an oil seep."
+      },
+      {
+        "phrase": "seepage rate",
+        "translation": "渗漏速率",
+        "example": "Engineers measured the seepage rate."
+      },
+      {
+        "phrase": "seep downwards",
+        "translation": "向下渗透",
+        "example": "Rainwater seeps downwards through sand."
       }
     ],
     "synonyms": [
@@ -4218,23 +5911,34 @@
         "example": "As sea levels climb, salt water seeps into farmland, ruining the crops on which islanders depend. 随着海平面攀升，海水渗入农田，毁掉了岛民赖以生存的庄稼。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Rainwater seeped through the damaged roof.",
+        "upgraded": "Rainwater seeped through the damaged roof, staining the ceiling and weakening the wood.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Oil seeped slowly into the surrounding soil.",
+        "upgraded": "Oil seeped slowly into the surrounding soil, threatening crops and underground water.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "During the flood, water slowly ______ (seep) into the houses through the cracks in the walls.",
+        "question": "During the flood, water slowly ____ (seep) into the houses through the cracks in the walls.",
         "answer": "seeped",
         "note": "During the flood 提示动作发生在过去，用一般过去时；seep 为规则动词，过去式 seeped。搭配 seep into 表“渗入”。"
       },
       {
         "type": "选词填空",
-        "question": "用 seep / leak / trickle 的适当形式填空（每词限用一次）：Sea water ______ into the soil through tiny holes; gas ______ from the broken pipe; a stream of tears ______ down her face.",
+        "question": "用 seep / leak / trickle 的适当形式填空（每词限用一次）：Sea water ____ into the soil through tiny holes; gas ____ from the broken pipe; a stream of tears ____ down her face.",
         "answer": "seeps; leaks; trickles",
         "note": "经孔隙缓慢渗透用 seep；从破损处漏出气体用 leak；成细流流下用 trickle。三句均为一般现在时，主语为第三人称单数，动词加 s。"
       },
       {
         "type": "完成句子",
-        "question": "冷空气从门缝下慢慢渗了进来。Cold air ______ ______ ______ the door. (seep)",
+        "question": "冷空气从门缝下慢慢渗了进来。Cold air ____ ____ ____ the door. (seep)",
         "answer": "seeped in under",
         "note": "三空为 seeped / in / under；后接 the door。seep in 表“渗进来”，under the door 表“从门下”方向。During/慢慢渗指过去动作，用一般过去时 seeped（规则动词，加 -ed）。"
       }
@@ -4252,7 +5956,7 @@
     "sub_section": "",
     "original_sentence": "Usually, waves gradually remove sand from one side of an island and dump new sand on the other side.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to leave waste in an unsuitable place (2) v. to put something down carelessly or abandon someone (3) n. a waste site or untidy pile (4) n. a large transfer of computer data",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -4280,7 +5984,20 @@
         "example": "They took the broken furniture to the local dump. 他们把破家具送到了当地垃圾场。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The truck dumped sand beside the damaged road."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Volunteers cleared an illegal rubbish dump."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The program dumped its memory contents into a file."
+      }
+    ],
     "wordForms": {
       "noun": "dump（垃圾场，废物堆）；dumping（倾倒；倾销，如 waste dumping / price dumping）；dumper（倾卸车，dumper truck）",
       "verb": "dump（原形）；dumped（过去式/过去分词）；dumping（现在分词）",
@@ -4320,6 +6037,21 @@
         "phrase": "dump sb",
         "translation": "抛弃某人，甩掉（口语，尤指恋人）",
         "example": "She dumped her boyfriend last week. 她上周把男朋友甩了。"
+      },
+      {
+        "phrase": "illegal dumping",
+        "translation": "非法倾倒",
+        "example": "Cameras helped prevent illegal dumping."
+      },
+      {
+        "phrase": "a dump truck",
+        "translation": "自卸卡车",
+        "example": "A dump truck delivered clean sand."
+      },
+      {
+        "phrase": "a data dump",
+        "translation": "数据转储",
+        "example": "The engineer examined a data dump after the crash."
       }
     ],
     "synonyms": [
@@ -4359,23 +6091,34 @@
         "example": "Anti-dumping duties were imposed to protect local producers. 政府征收反倾销税以保护本地生产者。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The truck dumped sand beside the damaged road.",
+        "upgraded": "The truck dumped sand beside the damaged road, giving repair crews enough material to rebuild the bank.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Volunteers cleared an illegal rubbish dump.",
+        "upgraded": "Volunteers cleared an illegal rubbish dump, uncovering waste that had accumulated for years.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Every day the waves ______ (dump) fresh sand on one side of the island while washing it away from the other.",
+        "question": "Every day the waves ____ (dump) fresh sand on one side of the island while washing it away from the other.",
         "answer": "dump",
         "note": "Every day 表示反复发生的习惯性动作，用一般现在时；主语 the waves 为复数，动词用原形 dump。此句化用课文关于岛屿沙子搬运的原句。"
       },
       {
         "type": "选词填空",
-        "question": "用 dump / discard / abandon 的适当形式填空：It is illegal to ______ waste into rivers; please ______ used batteries in special bins; the sailors had to ______ the sinking ship.",
+        "question": "用 dump / discard / abandon 的适当形式填空：It is illegal to ____ waste into rivers; please ____ used batteries in special bins; the sailors had to ____ the sinking ship.",
         "answer": "dump; discard; abandon",
         "note": "往河里“乱倒”废物用 dump；把废电池“丢弃”到专用箱用 discard；弃“下沉的船”用 abandon（弃船逃生）。第一、二空为不定式/祈使句用原形，第三空 had to+原形。"
       },
       {
         "type": "汉译英",
-        "question": "你不能把所有的责任都推到我一个人身上。",
+        "question": "你不能把所有的责任都推到我一个人身上。（答案：____）",
         "answer": "You can't dump all the responsibility on me.",
         "note": "此处取 dump 的口语引申义“把（负担）甩给某人”，固定结构 dump sth on sb。can't 后接动词原形。"
       }
@@ -4393,7 +6136,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "relating to, occurring in, or typical of the hot regions around the equator",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -4411,7 +6154,20 @@
         "example": "It was almost tropical in the city that August. 那年八月城里几乎像热带一样闷热。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Tropical heat made afternoon work exhausting."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The island exports several tropical fruits."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A tropical disease threatened the coastal community."
+      }
+    ],
     "wordForms": {
       "noun": "tropic（回归线）；the tropics（热带地区，恒用复数加 the）",
       "verb": "",
@@ -4445,6 +6201,21 @@
         "phrase": "tropical fruit / plants",
         "translation": "热带水果／植物",
         "example": "Mangoes and pineapples are typical tropical fruit. 芒果和菠萝是典型的热带水果。"
+      },
+      {
+        "phrase": "a tropical disease",
+        "translation": "热带疾病",
+        "example": "Mosquitoes spread the tropical disease."
+      },
+      {
+        "phrase": "the tropical zone",
+        "translation": "热带地区",
+        "example": "The islands lie within the tropical zone."
+      },
+      {
+        "phrase": "tropical heat",
+        "translation": "热带高温",
+        "example": "Tropical heat slowed the rescue work."
       }
     ],
     "synonyms": [
@@ -4478,23 +6249,34 @@
         "example": "Rising temperatures make tropical cyclones stronger and more frequent, putting coastal communities at risk. 气温上升使热带气旋更强、更频繁，令沿海社区面临险境。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Tropical heat made afternoon work exhausting.",
+        "upgraded": "Tropical heat made afternoon work exhausting, forcing workers to rest in the shade.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "The island exports several tropical fruits.",
+        "upgraded": "The island exports several tropical fruits, bringing valuable income during the dry season.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The Pacific islands lie in the ______ (tropic) zone, where cyclones are common.",
+        "question": "The Pacific islands lie in the ____ (tropic) zone, where cyclones are common.",
         "answer": "tropical",
         "note": "空格修饰名词 zone 作定语，应用形容词形式 tropical（热带的）；名词 tropic 加 -al 变形容词。"
       },
       {
         "type": "选词填空",
-        "question": "用 tropical / subtropical / polar 填空：Penguins live in ______ regions, coconuts grow in ______ areas, and Florida has a mild ______ climate.",
+        "question": "用 tropical / subtropical / polar 填空：Penguins live in ____ regions, coconuts grow in ____ areas, and Florida has a mild ____ climate.",
         "answer": "polar; tropical; subtropical",
         "note": "企鹅住极地 polar；椰子长在热带 tropical；佛罗里达属温和的亚热带 subtropical。三词均作定语修饰后面的名词。"
       },
       {
         "type": "汉译英",
-        "question": "这些热带岛屿以美丽的海滩和热带水果闻名。",
+        "question": "这些热带岛屿以美丽的海滩和热带水果闻名。（答案：____）",
         "answer": "These tropical islands are famous for their beautiful beaches and tropical fruit.",
         "note": "tropical 作定语修饰 islands 与 fruit；be famous for 表“以…闻名”，fruit 作“水果（总称）”时为不可数名词，不加 s。"
       }
@@ -4512,7 +6294,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a large violent storm in which winds rotate around a low-pressure centre, especially in tropical regions",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4525,7 +6307,20 @@
         "example": "The house was torn apart by the cyclone. 房子被旋风撕成了碎片。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The cyclone changed direction before reaching land."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Families moved into shelters ahead of the cyclone."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Satellite images showed the cyclone's clear eye."
+      }
+    ],
     "wordForms": {
       "noun": "cyclone（气旋，旋风）",
       "verb": "",
@@ -4554,6 +6349,26 @@
         "phrase": "be hit by a cyclone",
         "translation": "遭到气旋袭击",
         "example": "The low-lying islands are often hit by cyclones. 这些低洼岛屿常遭气旋袭击。"
+      },
+      {
+        "phrase": "a cyclone warning",
+        "translation": "气旋预警",
+        "example": "The radio broadcast a cyclone warning."
+      },
+      {
+        "phrase": "cyclone season",
+        "translation": "气旋季",
+        "example": "Schools review their plans before cyclone season."
+      },
+      {
+        "phrase": "a cyclone shelter",
+        "translation": "气旋避难所",
+        "example": "Families gathered in the cyclone shelter."
+      },
+      {
+        "phrase": "the eye of a cyclone",
+        "translation": "气旋眼",
+        "example": "Conditions briefly calmed in the eye of the cyclone."
       }
     ],
     "synonyms": [
@@ -4593,23 +6408,34 @@
         "example": "As the ocean warms, cyclones are growing stronger, threatening the very survival of low-lying islands. 随着海洋变暖，气旋日益增强，威胁着低洼岛屿的生存本身。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The cyclone changed direction before reaching land.",
+        "upgraded": "The cyclone changed direction before reaching land, giving coastal residents more time to prepare.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Families moved into shelters ahead of the cyclone.",
+        "upgraded": "Families moved into shelters ahead of the cyclone, carrying water, food, and essential medicine.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 cyclone / typhoon / hurricane 填空（按地区）：A ______ struck the coast of Bangladesh in the Indian Ocean, a ______ hit southern China, and a ______ swept across Florida.",
+        "question": "用 cyclone / typhoon / hurricane 填空（按地区）：A ____ struck the coast of Bangladesh in the Indian Ocean, a ____ hit southern China, and a ____ swept across Florida.",
         "answer": "cyclone; typhoon; hurricane",
         "note": "印度洋一带用 cyclone；中国东南沿海用 typhoon；美国佛罗里达（大西洋沿岸）用 hurricane。三者为同类风暴的不同地区叫法。"
       },
       {
         "type": "单句语法填空",
-        "question": "The islands are frequently hit by tropical ______ (cyclone), which destroy homes and crops.",
+        "question": "The islands are frequently hit by tropical ____ (cyclone), which destroy homes and crops.",
         "answer": "cyclones",
         "note": "由后面的 which destroy（复数动词）及 frequently 可知需用复数；cyclone 为可数名词，复数加 s。"
       },
       {
         "type": "汉译英",
-        "question": "气旋来袭时，村民们已经转移到了更高的地方。",
+        "question": "气旋来袭时，村民们已经转移到了更高的地方。（答案：____）",
         "answer": "When the cyclone struck, the villagers had already moved to higher ground.",
         "note": "两个过去动作有先后：转移在前用过去完成时 had moved，气旋来袭在后用一般过去时 struck；higher ground 指“更高的地势”。"
       }
@@ -4627,7 +6453,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a sudden powerful forward or upward movement (2) n. a sudden large increase or strong feeling (3) v. to move or increase suddenly and powerfully",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4660,7 +6486,20 @@
         "example": "A power surge damaged the computer. 一次电涌损坏了电脑。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Electricity demand surged during the heatwave."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A sudden surge pushed seawater over the wall."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Relief surged through the crowd when the warning ended."
+      }
+    ],
     "wordForms": {
       "noun": "surge（奔涌，激增，浪涌）",
       "verb": "surge（原形）；surged（过去式/过去分词）；surging（现在分词）",
@@ -4694,6 +6533,21 @@
         "phrase": "prices / numbers surge",
         "translation": "价格／数字飞涨、激增（vi.）",
         "example": "Oil prices surged after the news. 消息传出后油价飞涨。"
+      },
+      {
+        "phrase": "a power surge",
+        "translation": "电涌",
+        "example": "A power surge damaged the controller."
+      },
+      {
+        "phrase": "surge to a record high",
+        "translation": "激增至历史新高",
+        "example": "Demand surged to a record high."
+      },
+      {
+        "phrase": "a surge protector",
+        "translation": "浪涌保护器",
+        "example": "A surge protector guards the computer."
       }
     ],
     "synonyms": [
@@ -4738,23 +6592,34 @@
         "example": "A surge of determination welled up in her, driving away every trace of doubt. 一股决心在她心中涌起，驱散了所有的疑虑。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Electricity demand surged during the heatwave.",
+        "upgraded": "Electricity demand surged during the heatwave, placing unexpected strain on the power grid.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "A sudden surge pushed seawater over the wall.",
+        "upgraded": "A sudden surge pushed seawater over the wall, flooding the lowest streets within minutes.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "读到那条消息时，一阵愤怒涌上他的心头。A ______ ______ ______ washed over him when he read the message. (surge)",
+        "question": "读到那条消息时，一阵愤怒涌上他的心头。A ____ ____ ____ washed over him when he read the message. (surge)",
         "answer": "surge of anger",
         "note": "三空为 surge / of / anger；名词结构 a surge of + 情感表“一阵…”，wash over sb 表“（情绪）涌上心头”。仿照仿写课件 a surge of irritation washed over me 句式。"
       },
       {
         "type": "单句语法填空",
-        "question": "During the storm, huge waves ______ (surge) over the sea wall and flooded the streets.",
+        "question": "During the storm, huge waves ____ (surge) over the sea wall and flooded the streets.",
         "answer": "surged",
         "note": "During the storm 表过去，用一般过去时；surge 作不及物动词，规则变化过去式 surged，表“（海浪）奔涌漫过”。"
       },
       {
         "type": "同义句转换",
-        "question": "The number of tourists rose sharply last year. → There was a ______ ______ tourist numbers last year.",
+        "question": "The number of tourists rose sharply last year. → There was a ____ ____ tourist numbers last year.",
         "answer": "surge in",
         "note": "把“急剧上升”名词化为 a surge，表“数量激增”时固定搭配用 a surge in + 数量；in 表示“在…方面”的增长。"
       }
@@ -4772,7 +6637,7 @@
     "sub_section": "",
     "original_sentence": "They are also planting mangrove trees to protect the coastal areas.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a tropical tree or shrub that grows in salty coastal water, often forming dense forests that protect shorelines",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4785,7 +6650,20 @@
         "example": "The mangrove ecosystem shelters countless fish and birds. 红树林生态系统庇护着无数鱼类和鸟类。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Mangrove roots trap sediment along the shore."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Young fish shelter in the mangrove forest."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The community planted mangroves after the cyclone."
+      }
+    ],
     "wordForms": {
       "noun": "mangrove（红树；复数 mangroves）；mangrove forest / mangrove swamp（红树林）",
       "verb": "",
@@ -4814,6 +6692,26 @@
         "phrase": "restore / conserve mangroves",
         "translation": "修复 / 保护红树林",
         "example": "Local people are working hard to restore mangroves along the shore. 当地人正努力修复海岸沿线的红树林。"
+      },
+      {
+        "phrase": "mangrove roots",
+        "translation": "红树根系",
+        "example": "Mangrove roots hold soft sediment."
+      },
+      {
+        "phrase": "a mangrove ecosystem",
+        "translation": "红树林生态系统",
+        "example": "The mangrove ecosystem supports rich wildlife."
+      },
+      {
+        "phrase": "a mangrove belt",
+        "translation": "红树林带",
+        "example": "A mangrove belt reduces wave energy."
+      },
+      {
+        "phrase": "mangrove restoration",
+        "translation": "红树林修复",
+        "example": "Residents joined a mangrove restoration project."
       }
     ],
     "synonyms": [
@@ -4840,25 +6738,41 @@
         "type": "写作亮点句·环保治理",
         "expression": "plant mangrove trees to protect ...（种植红树以保护……）",
         "example": "The islanders are planting mangrove trees to protect their villages from rising seas. 岛民们正种植红树，保护村庄免受海平面上升之害。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "plant mangrove trees / mangrove forest / swamp / protect the coastal areas / restore / conserve mangroves",
+        "example": "They are planting mangrove trees to protect the coastal areas. 他们正种植红树来保护沿海地区。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Mangrove roots trap sediment along the shore.",
+        "upgraded": "Mangrove roots trap sediment along the shore, slowing waves and building new coastal land.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Young fish shelter in the mangrove forest.",
+        "upgraded": "Young fish shelter in the mangrove forest, where they are protected from larger predators.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "他们正种植红树来保护沿海地区。They are ______ ______ ______ to protect the coastal areas.",
+        "question": "他们正种植红树来保护沿海地区。They are ____ ____ ____ to protect the coastal areas.",
         "answer": "planting mangrove trees",
         "note": "are 后用现在进行时 be doing，故 plant 变 planting；mangrove 作定语修饰 trees，用单数 mangrove trees。"
       },
       {
         "type": "单句语法填空",
-        "question": "Dense ______ (mangrove) grow along the muddy tropical coast, sheltering fish and birds.",
+        "question": "Dense ____ (mangrove) grow along the muddy tropical coast, sheltering fish and birds.",
         "answer": "mangroves",
         "note": "此处 mangrove 作句子主语且指成片的多株红树，谓语用复数 grow，故名词用复数 mangroves。"
       },
       {
         "type": "汉译英",
-        "question": "把\"红树林保护沿海地区免受风暴潮侵袭\"译成英文（用 mangroves, protect ... from）。",
+        "question": "把\"红树林保护沿海地区免受风暴潮侵袭\"译成英文（用 mangroves, protect ... from）。（答案：____）",
         "answer": "Mangroves protect the coastal areas from storm surges.",
         "note": "protect ... from ... 表\"保护……免受……\"；泛指红树林用复数 mangroves，谓语用原形 protect。"
       }
@@ -4876,7 +6790,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a large tropical fruit with sweet yellow flesh and a rough skin, or the plant that produces it",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4889,7 +6803,20 @@
         "example": "This yoghurt tastes of pineapple. 这款酸奶有菠萝味。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The farmer cut a ripe pineapple from the plant."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Fresh pineapple gave the salad a sweet flavour."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Pineapple leaves can provide strong natural fibres."
+      }
+    ],
     "wordForms": {
       "noun": "pineapple（菠萝；复数 pineapples）",
       "verb": "",
@@ -4918,6 +6845,26 @@
         "phrase": "tinned / canned pineapple",
         "translation": "菠萝罐头",
         "example": "We opened a tin of pineapple for dessert. 我们开了一罐菠萝当甜点。"
+      },
+      {
+        "phrase": "a pineapple plantation",
+        "translation": "菠萝种植园",
+        "example": "The family works on a pineapple plantation."
+      },
+      {
+        "phrase": "fresh pineapple",
+        "translation": "新鲜菠萝",
+        "example": "Fresh pineapple contains useful enzymes."
+      },
+      {
+        "phrase": "pineapple leaves",
+        "translation": "菠萝叶",
+        "example": "Pineapple leaves are processed into fibre."
+      },
+      {
+        "phrase": "pineapple fibre",
+        "translation": "菠萝纤维",
+        "example": "Designers tested pineapple fibre in cloth."
       }
     ],
     "synonyms": [
@@ -4944,25 +6891,41 @@
         "type": "构词法·合成词",
         "expression": "pine(松)+apple(苹果)=pineapple，同类\"名词+名词\"合成水果/食物词：strawberry, grapefruit, watermelon",
         "example": "Like grapefruit and watermelon, pineapple is a compound word. 和 grapefruit、watermelon 一样，pineapple 是个合成词。"
+      },
+      {
+        "type": "短语群·核心搭配",
+        "expression": "grow / plant pineapples / a slice / piece of pineapple / pineapple juice / tinned / canned pineapple",
+        "example": "Farmers on the island grow pineapples for a living. 岛上的农民靠种菠萝谋生。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The farmer cut a ripe pineapple from the plant.",
+        "upgraded": "The farmer cut a ripe pineapple from the plant, judging its maturity from colour and scent.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Fresh pineapple gave the salad a sweet flavour.",
+        "upgraded": "Fresh pineapple gave the salad a sweet flavour, balancing the sharper taste of mint.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The farmers grow ______ (pineapple) and mangoes on the tropical island.",
+        "question": "The farmers grow ____ (pineapple) and mangoes on the tropical island.",
         "answer": "pineapples",
         "note": "grow 的宾语指多个整颗水果，pineapple 是可数名词，此处用复数 pineapples，与并列的 mangoes 保持一致。"
       },
       {
         "type": "选词填空",
-        "question": "用 a slice of / a glass of 填空：She had ______ pineapple with breakfast and ______ pineapple juice afterwards.",
+        "question": "用 a slice of / a glass of 填空：She had ____ pineapple with breakfast and ____ pineapple juice afterwards.",
         "answer": "a slice of; a glass of",
         "note": "第一空修饰\"一片\"菠萝果肉，用 a slice of；第二空修饰液体菠萝汁，用 a glass of。"
       },
       {
         "type": "汉译英",
-        "question": "把\"夏天一杯鲜榨菠萝汁能让你凉快下来\"译成英文（用 pineapple juice, cool ... down）。",
+        "question": "把\"夏天一杯鲜榨菠萝汁能让你凉快下来\"译成英文（用 pineapple juice, cool ... down）。（答案：____）",
         "answer": "A glass of fresh pineapple juice can cool you down in summer.",
         "note": "pineapple juice 作物质名词不可数，用 a glass of 计量；cool sb down 表\"使某人凉快/冷静下来\"。"
       }
@@ -4980,7 +6943,7 @@
     "sub_section": "",
     "original_sentence": "Some miss their old life by the sea, but at least the hills provide refuge from the rising sea, and they are still together.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) protection from danger or difficulty (2) a safe place providing such protection (3) a source of comfort",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4998,7 +6961,20 @@
         "example": "She found refuge in books when life got hard. 生活艰难时她在书中寻得慰藉。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The cave offered refuge during the storm."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Migrating birds found refuge in the wetland."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Music became a refuge from the pressure of daily life."
+      }
+    ],
     "wordForms": {
       "noun": "refuge（庇护，避难所）；refugee（难民，避难者）",
       "verb": "",
@@ -5027,6 +7003,26 @@
         "phrase": "a place of refuge / a safe refuge",
         "translation": "避难所，安全的庇护之处",
         "example": "The temple became a place of refuge for the homeless. 这座寺庙成了无家可归者的避难所。"
+      },
+      {
+        "phrase": "find refuge",
+        "translation": "找到庇护",
+        "example": "The islanders found refuge on higher ground."
+      },
+      {
+        "phrase": "grant refuge",
+        "translation": "给予庇护",
+        "example": "The neighbouring village granted refuge to families."
+      },
+      {
+        "phrase": "a wildlife refuge",
+        "translation": "野生动物保护区",
+        "example": "The wetland became a wildlife refuge."
+      },
+      {
+        "phrase": "offer refuge",
+        "translation": "提供庇护",
+        "example": "Strong buildings offer refuge during storms."
       }
     ],
     "synonyms": [
@@ -5071,29 +7067,40 @@
         "example": "At least the hills provide refuge from the rising sea, and they are still together. 至少群山为他们提供了躲避上涨海水的庇护，而且他们仍在一起。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The cave offered refuge during the storm.",
+        "upgraded": "The cave offered refuge during the storm, protecting the hikers from wind and driving rain.",
+        "techniques": "保留原句主语、事实和场景，增加结果或伴随信息，使画面和逻辑更具体"
+      },
+      {
+        "original": "Migrating birds found refuge in the wetland.",
+        "upgraded": "Migrating birds found refuge in the wetland, where shallow water and reeds provided food and cover.",
+        "techniques": "保留原句主语、事实和场景，增加非限制性说明或结果分句，补充实际意义"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "至少群山为他们提供了躲避上涨海水的庇护。At least the hills ______ ______ ______ the rising sea.",
+        "question": "至少群山为他们提供了躲避上涨海水的庇护。At least the hills ____ ____ ____ the rising sea.",
         "answer": "provide refuge from",
         "note": "固定搭配 provide refuge from sth\"提供躲避……的庇护\"；refuge 此处不可数，前不加冠词。"
       },
       {
         "type": "单句语法填空",
-        "question": "During the storm, the climbers took ______ (refuge) in a small mountain hut.",
+        "question": "During the storm, the climbers took ____ (refuge) in a small mountain hut.",
         "answer": "refuge",
         "note": "take refuge (in ...) 为固定短语，refuge 此处不可数、无复数，直接填原形 refuge。"
       },
       {
         "type": "辨析选词",
-        "question": "用 refuge / refugee 填空：The war forced thousands of people to become ______, desperately seeking ______ in neighbouring countries.",
+        "question": "用 refuge / refugee 填空：The war forced thousands of people to become ____, desperately seeking ____ in neighbouring countries.",
         "answer": "refugees; refuge",
         "note": "第一空指\"避难的人\"，用可数名词复数 refugees；第二空 seek refuge\"寻求避难\"，refuge 不可数不加冠词。"
       },
       {
         "type": "同义句转换",
-        "question": "When it rained, they found shelter under a big tree. → When it rained, they took ______ under a big tree.",
+        "question": "When it rained, they found shelter under a big tree. → When it rained, they took ____ under a big tree.",
         "answer": "refuge",
         "note": "find shelter ≈ take refuge，都表\"躲避（风雨）\"；take refuge 为固定搭配，refuge 不可数。"
       }

@@ -11,7 +11,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "able to be made effective or obeyed, especially by law",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -19,7 +19,20 @@
         "example": "Without a signature, the deal is not enforceable. 没有签名，这笔交易不具强制力。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The written agreement is legally enforceable."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Clear deadlines make the rule enforceable."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The promise was morally important but not enforceable."
+      }
+    ],
     "wordForms": {
       "noun": "enforcement 执行，实施；enforceability 可执行性",
       "verb": "enforce vt. 强制执行，实施（法律等）",
@@ -48,6 +61,26 @@
         "phrase": "make sth enforceable",
         "translation": "使某事具强制力",
         "example": "New penalties make the ban enforceable. 新的处罚使这项禁令得以强制执行。"
+      },
+      {
+        "phrase": "an enforceable obligation",
+        "translation": "可依法执行的义务",
+        "example": "The lease creates an enforceable obligation. 租约产生了可依法执行的义务。"
+      },
+      {
+        "phrase": "enforceable against sb",
+        "translation": "可对某人执行",
+        "example": "The order is enforceable against every supplier. 该命令可对每家供应商执行。"
+      },
+      {
+        "phrase": "remain enforceable",
+        "translation": "仍然有效并可执行",
+        "example": "These clauses remain enforceable after termination. 这些条款在终止后仍可执行。"
+      },
+      {
+        "phrase": "legally binding and enforceable",
+        "translation": "具有法律约束力且可执行",
+        "example": "Both sides signed a binding and enforceable settlement. 双方签署了有约束力且可执行的和解协议。"
       }
     ],
     "synonyms": [
@@ -74,27 +107,43 @@
         "type": "同义表达群·「有法律效力」",
         "expression": "legally enforceable = legally binding = have the force of law",
         "example": "Once signed, the treaty has the force of law and is legally enforceable. 条约一经签署即具法律效力、可强制执行。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "an enforceable obligation / enforceable against sb / remain enforceable / legally binding and enforceable",
+        "example": "The lease creates an enforceable obligation. 租约产生了可依法执行的义务。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The written agreement is legally enforceable.",
+        "upgraded": "The written agreement is legally enforceable, so either party can seek a court remedy.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Clear deadlines make the rule enforceable.",
+        "upgraded": "Clear deadlines make the rule enforceable, giving inspectors an objective standard.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "A promise made in casual conversation is rarely legally ______ (enforce).",
+        "question": "A promise made in casual conversation is rarely legally ____ (enforce).",
         "answer": "enforceable",
         "note": "动词 enforce + -able 构成形容词 enforceable，作表语，意为「可强制执行的」。"
       },
       {
         "type": "同义句转换",
-        "question": "The contract can be enforced by law. → The contract is legally ______.",
+        "question": "The contract can be enforced by law. → The contract is legally ____.",
         "answer": "enforceable",
         "note": "can be enforced = enforceable，把「可被强制执行」的被动结构改写为 -able 形容词。"
       },
       {
-        "type": "选词填空（enforceable / valid）",
-        "question": "The will is ______ in form, but a technical error makes it un______ in court.",
+        "type": "选词填空",
+        "question": "The will is ____ in form, but a technical error makes it un____ in court.",
         "answer": "valid; enforceable",
-        "note": "valid 指形式有效；enforceable 指可强制落实。空二前缀 un- 表否定：unenforceable。"
+        "note": "原题型标注：选词填空（enforceable / valid）。valid 指形式有效；enforceable 指可强制落实。空二前缀 un- 表否定：unenforceable。"
       }
     ]
   },
@@ -110,7 +159,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a serious disagreement (2) v. to question the truth or validity of something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -133,7 +182,20 @@
         "example": "They disputed with each other about the plan. 他们就计划相互争执。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Mediators helped settle the border dispute."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The company disputed the final invoice."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Ownership of the painting remains in dispute."
+      }
+    ],
     "wordForms": {
       "noun": "dispute 争端，纠纷；disputation 辩论，争论；disputant 争论者",
       "verb": "dispute vt. & vi. 质疑，争夺，争论",
@@ -188,6 +250,16 @@
         "phrase": "dispute a claim / decision",
         "translation": "对某主张 / 决定提出质疑",
         "example": "He disputed the referee's decision angrily. 他愤怒地对裁判的判罚提出异议。"
+      },
+      {
+        "phrase": "raise / lodge a dispute",
+        "translation": "提出争议",
+        "example": "A customer lodged a dispute over the charge. 一名顾客对该收费提出争议。"
+      },
+      {
+        "phrase": "a long-running dispute",
+        "translation": "长期争议",
+        "example": "The long-running dispute finally reached arbitration. 这场长期争议最终进入仲裁。"
       }
     ],
     "synonyms": [
@@ -220,27 +292,43 @@
         "type": "同义表达群·「毫无疑问」",
         "expression": "beyond dispute = without doubt = it is undeniable that…",
         "example": "It is undeniable that / Beyond dispute, education changes lives. 无可争辩，教育改变命运。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "beyond dispute / dispute a claim / decision / raise / lodge a dispute / a long-running dispute",
+        "example": "Her talent is beyond dispute. 她的才华无可争辩。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Mediators helped settle the border dispute.",
+        "upgraded": "Mediators helped settle the border dispute, preventing the disagreement from escalating.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The company disputed the final invoice.",
+        "upgraded": "The company disputed the final invoice, presenting records that showed duplicate charges.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The two families have been in ______ (dispute) over the ownership of the field for years.",
+        "question": "The two families have been in ____ (dispute) over the ownership of the field for years.",
         "answer": "dispute",
         "note": "固定短语 in dispute「有争议的，在争论中」，dispute 在此作名词，前不加冠词。"
       },
       {
         "type": "完成句子",
-        "question": "毫无疑问，她是最合格的候选人。______ ______, she is the most qualified candidate.",
+        "question": "毫无疑问，她是最合格的候选人。____ ____, she is the most qualified candidate.",
         "answer": "Beyond dispute",
         "note": "固定表达 beyond dispute「无可争辩地」置于句首作状语。"
       },
       {
-        "type": "词形填空",
-        "question": "It is ______ (dispute) that the Great Wall is a masterpiece of human history. (用否定形容词)",
+        "type": "单句语法填空",
+        "question": "It is ____ (dispute) that the Great Wall is a masterpiece of human history. (用否定形容词)",
         "answer": "indisputable",
-        "note": "in- (否定) + disput + -able → indisputable「无可争辩的」，It is indisputable that… 是常用句型。"
+        "note": "原题型标注：词形填空。in- (否定) + disput + -able → indisputable「无可争辩的」，It is indisputable that… 是常用句型。"
       }
     ]
   },
@@ -256,7 +344,7 @@
     "sub_section": "",
     "original_sentence": "Around 12,000 years ago in the Middle East, small permanent farming communities were established, changing traditional nomadic hunter-gatherer lifestyles.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "moving from place to place rather than living permanently in one location",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -269,7 +357,20 @@
         "example": "As a journalist, she has a rather nomadic career. 作为记者，她的职业相当漂泊不定。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Nomadic herders moved with the changing seasons."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The family maintained a largely nomadic lifestyle."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Some birds have nomadic movement patterns."
+      }
+    ],
     "wordForms": {
       "noun": "nomad 游牧者，流浪者；nomadism 游牧生活（方式）",
       "verb": "—",
@@ -298,6 +399,26 @@
         "phrase": "lead / live a nomadic existence",
         "translation": "过游牧（漂泊）的生活",
         "example": "For years he lived a nomadic existence with no fixed home. 多年来他过着居无定所的漂泊生活。"
+      },
+      {
+        "phrase": "a nomadic community",
+        "translation": "游牧群体",
+        "example": "The survey included a remote nomadic community. 调查涵盖了一个偏远游牧群体。"
+      },
+      {
+        "phrase": "traditionally nomadic",
+        "translation": "传统上过游牧生活",
+        "example": "The people were traditionally nomadic. 这个族群传统上过游牧生活。"
+      },
+      {
+        "phrase": "semi-nomadic",
+        "translation": "半游牧的",
+        "example": "Semi-nomadic families return each winter. 半游牧家庭每年冬天都会返回。"
+      },
+      {
+        "phrase": "nomadic migration routes",
+        "translation": "游牧迁徙路线",
+        "example": "Development blocked several nomadic migration routes. 开发工程阻断了数条游牧迁徙路线。"
       }
     ],
     "synonyms": [
@@ -324,27 +445,43 @@
         "type": "短语群·「生活方式」",
         "expression": "lead / live a nomadic (settled / simple / busy) life；a nomadic existence",
         "example": "After giving up city life, they chose to lead a more nomadic existence. 放弃城市生活后，他们选择过更漂泊的生活。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a nomadic community / traditionally nomadic / semi-nomadic / nomadic migration routes",
+        "example": "The survey included a remote nomadic community. 调查涵盖了一个偏远游牧群体。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Nomadic herders moved with the changing seasons.",
+        "upgraded": "Nomadic herders moved with the changing seasons, following fresh pasture across the plateau.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The family maintained a largely nomadic lifestyle.",
+        "upgraded": "The family maintained a largely nomadic lifestyle, carrying only what could fit in their vehicle.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "About 12,000 years ago, farming gradually replaced the ______ (nomad) hunter-gatherer way of life.",
+        "question": "About 12,000 years ago, farming gradually replaced the ____ (nomad) hunter-gatherer way of life.",
         "answer": "nomadic",
         "note": "修饰名词 way of life 需用形容词，名词 nomad + -ic → nomadic「游牧的」（对齐课文原句）。"
       },
       {
-        "type": "词形填空",
-        "question": "The desert ______ (游牧者) travel from oasis to oasis in search of water.",
+        "type": "单句语法填空",
+        "question": "The desert ____ (游牧者) travel from oasis to oasis in search of water.",
         "answer": "nomads",
-        "note": "此处作主语需名词 nomad「游牧者」，复数加 -s。形容词 nomadic 不能作主语。"
+        "note": "原题型标注：词形填空。此处作主语需名词 nomad「游牧者」，复数加 -s。形容词 nomadic 不能作主语。"
       },
       {
-        "type": "汉译英（完成句子）",
-        "question": "他们过着随季节迁徙的游牧生活。They ______ ______ ______ life, moving with the seasons.",
+        "type": "汉译英",
+        "question": "他们过着随季节迁徙的游牧生活。They ____ ____ ____ life, moving with the seasons.",
         "answer": "led a nomadic",
-        "note": "lead a nomadic life「过游牧生活」，led 为 lead 的过去式；nomadic 作定语修饰 life。"
+        "note": "原题型标注：汉译英（完成句子）。lead a nomadic life「过游牧生活」，led 为 lead 的过去式；nomadic 作定语修饰 life。"
       }
     ]
   },
@@ -360,7 +497,7 @@
     "sub_section": "",
     "original_sentence": "Over time, laws evolve to become more sophisticated and wide-ranging.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) advanced and complex (2) showing refined knowledge or experience",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -378,7 +515,20 @@
         "example": "The restaurant offers sophisticated dishes. 这家餐厅供应精致的菜肴。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The laboratory uses sophisticated imaging equipment."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her argument was sophisticated but easy to follow."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The restaurant attracts a sophisticated audience."
+      }
+    ],
     "wordForms": {
       "noun": "sophistication 复杂精密；老练，世故；sophisticate n. 老于世故的人",
       "verb": "sophisticate vt. 使复杂化；使老练（较少用）",
@@ -412,6 +562,21 @@
         "phrase": "sophisticated tastes",
         "translation": "高雅（老练）的品味",
         "example": "She has sophisticated tastes in art. 她在艺术上品味高雅。"
+      },
+      {
+        "phrase": "highly sophisticated",
+        "translation": "高度先进/老练",
+        "example": "The attack used highly sophisticated methods. 这次攻击采用了高度复杂的方法。"
+      },
+      {
+        "phrase": "technically sophisticated",
+        "translation": "技术上先进复杂",
+        "example": "The device is technically sophisticated but reliable. 该设备技术先进且可靠。"
+      },
+      {
+        "phrase": "become increasingly sophisticated",
+        "translation": "变得日益复杂先进",
+        "example": "Fraud schemes have become increasingly sophisticated. 诈骗手段变得日益复杂。"
       }
     ],
     "synonyms": [
@@ -451,25 +616,36 @@
         "example": "The hospital is equipped with state-of-the-art, sophisticated scanners. 医院配备了最先进、最精密的扫描仪。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The laboratory uses sophisticated imaging equipment.",
+        "upgraded": "The laboratory uses sophisticated imaging equipment, revealing structures too small for ordinary cameras.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Her argument was sophisticated but easy to follow.",
+        "upgraded": "Her argument was sophisticated but easy to follow, combining several theories without losing clarity.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Over time, laws evolve to become more ______ (sophisticate) and wide-ranging.",
+        "question": "Over time, laws evolve to become more ____ (sophisticate) and wide-ranging.",
         "answer": "sophisticated",
         "note": "对齐课文原句，become 后需形容词作表语，动词 sophisticate 的 -ed 形容词形式 sophisticated「复杂精密的」。"
       },
       {
-        "type": "辨析选词（sophisticated / complicated）",
-        "question": "The engineers designed a ______ control system that automatically adjusts to weather changes.",
+        "type": "辨析选词",
+        "question": "The engineers designed a ____ control system that automatically adjusts to weather changes.",
         "answer": "sophisticated",
-        "note": "此处褒义「复杂而精巧、高明」用 sophisticated；若指「繁琐难懂」才用 complicated。"
+        "note": "原题型标注：辨析选词（sophisticated / complicated）。此处褒义「复杂而精巧、高明」用 sophisticated；若指「繁琐难懂」才用 complicated。"
       },
       {
-        "type": "词形填空",
-        "question": "Years of travel gave the diplomat a certain ______ (sophisticated) that impressed everyone.",
+        "type": "单句语法填空",
+        "question": "Years of travel gave the diplomat a certain ____ (sophisticated) that impressed everyone.",
         "answer": "sophistication",
-        "note": "冠词 a certain 后需名词，形容词 sophisticated 的名词形式 sophistication「老练，世故」。"
+        "note": "原题型标注：词形填空。冠词 a certain 后需名词，形容词 sophisticated 的名词形式 sophistication「老练，世故」。"
       }
     ]
   },
@@ -485,7 +661,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to officially end a law, system, practice, or institution",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -493,7 +669,20 @@
         "example": "The two houses of parliament voted to abolish the tax. 议会两院投票废除该税。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Parliament voted to abolish the outdated fee."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The reform abolished several discriminatory rules."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Many campaigners sought to abolish child labour."
+      }
+    ],
     "wordForms": {
       "noun": "abolition 废除，废止；abolitionist 废奴主义者，废除论者",
       "verb": "abolish vt. 废除，废止",
@@ -522,6 +711,26 @@
         "phrase": "abolish taxes / fees",
         "translation": "取消税费",
         "example": "The city abolished parking fees in the old town. 该市取消了老城区的停车费。"
+      },
+      {
+        "phrase": "call for sth to be abolished",
+        "translation": "呼吁废除某物",
+        "example": "Campaigners called for the restriction to be abolished. 活动人士呼吁废除该限制。"
+      },
+      {
+        "phrase": "be formally abolished",
+        "translation": "被正式废除",
+        "example": "The office was formally abolished in 1998. 该机构于1998年正式撤销。"
+      },
+      {
+        "phrase": "the abolition of sth",
+        "translation": "对某物的废除",
+        "example": "The abolition of the tax benefited small firms. 取消该税使小企业受益。"
+      },
+      {
+        "phrase": "abolish discrimination",
+        "translation": "消除制度性歧视",
+        "example": "The policy aims to abolish discrimination in hiring. 该政策旨在消除招聘歧视。"
       }
     ],
     "synonyms": [
@@ -561,25 +770,36 @@
         "example": "Reformers fought for years to do away with / abolish slavery. 改革者奋斗多年以废除奴隶制。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Parliament voted to abolish the outdated fee.",
+        "upgraded": "Parliament voted to abolish the outdated fee, removing a burden on low-income families.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The reform abolished several discriminatory rules.",
+        "upgraded": "The reform abolished several discriminatory rules, giving all applicants equal access.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Outdated laws are ______ (abolish) when they no longer correspond with the values of the current society.",
+        "question": "Outdated laws are ____ (abolish) when they no longer correspond with the values of the current society.",
         "answer": "abolished",
         "note": "对齐课文原句，主语 laws 与 abolish 是被动关系（法律「被废除」），用 be abolished，are 后接过去分词 abolished。"
       },
       {
-        "type": "辨析选词（abolish / cancel）",
-        "question": "The government voted to ______ the outdated tax, which had existed for over a century.",
+        "type": "辨析选词",
+        "question": "The government voted to ____ the outdated tax, which had existed for over a century.",
         "answer": "abolish",
-        "note": "正式「废除（长期存在的税制）」用 abolish；cancel 只指取消一次性安排，不能搭配长期制度。"
+        "note": "原题型标注：辨析选词（abolish / cancel）。正式「废除（长期存在的税制）」用 abolish；cancel 只指取消一次性安排，不能搭配长期制度。"
       },
       {
-        "type": "词形填空",
-        "question": "The ______ (abolish) of slavery was a milestone in human history.",
+        "type": "单句语法填空",
+        "question": "The ____ (abolish) of slavery was a milestone in human history.",
         "answer": "abolition",
-        "note": "定冠词 The 后作主语需名词，abolish 的名词形式 abolition「废除」（注意拼写 -ition）。"
+        "note": "原题型标注：词形填空。定冠词 The 后作主语需名词，abolish 的名词形式 abolition「废除」（注意拼写 -ition）。"
       }
     ]
   },
@@ -595,7 +815,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to change a law, document, statement, or proposal in order to improve or correct it",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -608,7 +828,20 @@
         "example": "She made amends by apologizing sincerely. 她真诚道歉以作弥补。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Lawmakers amended the bill after public consultation."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Please amend the report before publication."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The parties agreed to amend the contract."
+      }
+    ],
     "wordForms": {
       "noun": "amendment 修正案，修订；amends（复数）赔偿，弥补",
       "verb": "amend vt. 修正，修订",
@@ -643,6 +876,26 @@
         "phrase": "make amends (for sth)",
         "translation": "（为某事）赔罪，弥补",
         "example": "He tried to make amends for his mistake. 他努力弥补自己的过错。"
+      },
+      {
+        "phrase": "amend sth by adding / removing ...",
+        "translation": "通过增删来修订",
+        "example": "They amended the motion by adding a deadline. 他们通过加入截止日期修订了动议。"
+      },
+      {
+        "phrase": "be amended to reflect sth",
+        "translation": "经修订以反映某事",
+        "example": "The guidance was amended to reflect new evidence. 指南经修订以反映新证据。"
+      },
+      {
+        "phrase": "a constitutional amendment",
+        "translation": "宪法修正案",
+        "example": "Voters approved the constitutional amendment. 选民通过了宪法修正案。"
+      },
+      {
+        "phrase": "amend one's ways",
+        "translation": "改过自新",
+        "example": "He promised to amend his ways after the warning. 他受到警告后承诺改过。"
       }
     ],
     "synonyms": [
@@ -682,25 +935,36 @@
         "example": "The committee decided to amend / make changes to the outdated regulations. 委员会决定修订过时的规定。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Lawmakers amended the bill after public consultation.",
+        "upgraded": "Lawmakers amended the bill after public consultation, adding stronger privacy safeguards.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Please amend the report before publication.",
+        "upgraded": "Please amend the report before publication, correcting the two inaccurate figures.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Several ______ (amend) to the constitution were passed last year.",
+        "question": "Several ____ (amend) to the constitution were passed last year.",
         "answer": "amendments",
         "note": "数量词 several 后接可数名词复数，动词 amend + -ment → amendment「修正案」，复数加 -s。"
       },
       {
-        "type": "辨析选词（amend / mend）",
-        "question": "The lawyers worked overnight to ______ the terms of the contract.",
+        "type": "辨析选词",
+        "question": "The lawyers worked overnight to ____ the terms of the contract.",
         "answer": "amend",
-        "note": "修订「合同条款」用正式动词 amend；mend 指「修补（破损物品）」，不能搭配 terms。"
+        "note": "原题型标注：辨析选词（amend / mend）。修订「合同条款」用正式动词 amend；mend 指「修补（破损物品）」，不能搭配 terms。"
       },
       {
-        "type": "完成句子（make amends）",
-        "question": "他努力为自己的错误作出弥补。He tried to ______ ______ for his mistake.",
+        "type": "完成句子",
+        "question": "他努力为自己的错误作出弥补。He tried to ____ ____ for his mistake.",
         "answer": "make amends",
-        "note": "固定短语 make amends (for sth)「（为某事）赔罪、弥补」，amends 恒用复数。"
+        "note": "原题型标注：完成句子（make amends）。固定短语 make amends (for sth)「（为某事）赔罪、弥补」，amends 恒用复数。"
       }
     ]
   },
@@ -716,7 +980,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "repeated behaviour intended to hurt, frighten, or control someone with less power",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -729,7 +993,20 @@
         "example": "His bullying manner frightened the younger kids. 他仗势欺人的样子吓坏了小孩子们。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The school introduced a policy against bullying."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Online bullying can follow children into their homes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Witnesses should report bullying promptly."
+      }
+    ],
     "wordForms": {
       "noun": "bully（恃强凌弱者，恶霸）/ bullying（霸凌行为）",
       "verb": "bully（vt. 欺凌，恐吓；bully sb into doing 胁迫某人做）",
@@ -768,6 +1045,16 @@
         "phrase": "stand up to bullying",
         "translation": "勇敢面对／反抗霸凌",
         "example": "We should teach children to stand up to bullying. 我们应教孩子勇敢反抗霸凌。"
+      },
+      {
+        "phrase": "report / prevent bullying",
+        "translation": "举报/预防霸凌",
+        "example": "Students can report bullying anonymously. 学生可以匿名举报霸凌。"
+      },
+      {
+        "phrase": "anti-bullying measures",
+        "translation": "反霸凌措施",
+        "example": "Anti-bullying measures include staff training. 反霸凌措施包括员工培训。"
       }
     ],
     "synonyms": [
@@ -807,23 +1094,34 @@
         "example": "Bullying and teasing are both forms of aggression. 霸凌和取笑都是攻击行为的形式。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The school introduced a policy against bullying.",
+        "upgraded": "The school introduced a policy against bullying, requiring staff to investigate every report.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Online bullying can follow children into their homes.",
+        "upgraded": "Online bullying can follow children into their homes, leaving them with no obvious place of safety.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The campaign is designed to reduce ______ (bully) in primary schools.",
+        "question": "The campaign is designed to reduce ____ (bully) in primary schools.",
         "answer": "bullying",
         "note": "介词/reduce 后需名词，动词 bully 加 -ing 变抽象名词 bullying（不可数）。"
       },
       {
         "type": "完成句子",
-        "question": "我们应该教孩子勇敢反抗霸凌。We should teach children to ______ ______ ______ bullying.",
+        "question": "我们应该教孩子勇敢反抗霸凌。We should teach children to ____ ____ ____ bullying.",
         "answer": "stand up to",
         "note": "stand up to sb/sth = 勇敢面对／反抗，固定短语，介词 to 不可少。"
       },
       {
         "type": "辨析选词",
-        "question": "用 bullying / harassment 填空：Sexual ______ at work is against the law. 职场性______违法。",
+        "question": "用 bullying / harassment 填空：Sexual ____ at work is against the law. 职场性____违法。",
         "answer": "harassment",
         "note": "性骚扰固定说 sexual harassment；bullying 多指校园/群体欺凌，此处应用 harassment。"
       }
@@ -841,7 +1139,7 @@
     "sub_section": "",
     "original_sentence": "In the civil law system, laws are created by the country’s legislature.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a body of people with the authority to make laws for a country or region",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -849,7 +1147,20 @@
         "example": "The legislature has the power to make and amend laws. 立法机关有权制定和修订法律。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The legislature approved the environmental bill."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Several teachers were elected to the state legislature."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The proposal returned to the legislature for review."
+      }
+    ],
     "wordForms": {
       "noun": "legislature（立法机关）/ legislation（立法，法规[总称，不可数]）/ legislator（立法者，议员）",
       "verb": "legislate（vi./vt. 立法，制定法律）",
@@ -883,6 +1194,21 @@
         "phrase": "the state legislature",
         "translation": "州立法机关",
         "example": "The state legislature meets twice a year. 州立法机关一年开会两次。"
+      },
+      {
+        "phrase": "a bicameral legislature",
+        "translation": "两院制立法机关",
+        "example": "The country has a bicameral legislature. 该国实行两院制立法机关。"
+      },
+      {
+        "phrase": "elect / dissolve a legislature",
+        "translation": "选举/解散立法机关",
+        "example": "A new legislature was elected in spring. 新一届立法机关于春季选出。"
+      },
+      {
+        "phrase": "legislative authority",
+        "translation": "立法权（词族搭配）",
+        "example": "The constitution divides legislative authority. 宪法划分了立法权。"
       }
     ],
     "synonyms": [
@@ -922,17 +1248,28 @@
         "example": "The legislature and the judicature perform different roles. 立法机关与司法机关职能不同。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The legislature approved the environmental bill.",
+        "upgraded": "The legislature approved the environmental bill, establishing new limits on industrial waste.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Several teachers were elected to the state legislature.",
+        "upgraded": "Several teachers were elected to the state legislature, bringing classroom experience into policy debates.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 legislature / legislation / legislator 填空：The ______ passed new ______ to protect the environment last week.",
+        "question": "用 legislature / legislation / legislator 填空：The ____ passed new ____ to protect the environment last week.",
         "answer": "legislature; legislation",
         "note": "第一空指机构（谁通过），用 legislature；第二空指通过的法规（不可数），用 legislation。"
       },
       {
         "type": "单句语法填空",
-        "question": "The reform was blocked because the ______ (legislate) branch refused to approve it.",
+        "question": "The reform was blocked because the ____ (legislate) branch refused to approve it.",
         "answer": "legislative",
         "note": "修饰 branch 需形容词，legislate 的形容词为 legislative（立法的）。"
       },
@@ -956,7 +1293,7 @@
     "sub_section": "",
     "original_sentence": "The law is the compass that has guided humans from the first law-abiding communities to where we are today.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "obeying the law and behaving responsibly within it",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -964,7 +1301,20 @@
         "example": "A law-abiding society depends on shared respect for rules. 守法的社会依赖对规则的共同尊重。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Law-abiding citizens still need to understand their rights."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The community is peaceful and law-abiding."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A law-abiding business keeps accurate records."
+      }
+    ],
     "wordForms": {
       "noun": "law（法律）/ abidance（遵守[较正式，少用]）",
       "verb": "abide（vi. 遵守[by]；忍受[常用于否定 can't abide]）",
@@ -993,6 +1343,26 @@
         "phrase": "peaceful and law-abiding",
         "translation": "爱好和平、遵纪守法的",
         "example": "Most residents here are peaceful and law-abiding. 这里多数居民爱好和平、遵纪守法。"
+      },
+      {
+        "phrase": "generally / otherwise law-abiding",
+        "translation": "通常/在其他方面守法",
+        "example": "The rule confused otherwise law-abiding drivers. 该规则使一向守法的司机困惑。"
+      },
+      {
+        "phrase": "law-abiding behaviour",
+        "translation": "守法行为",
+        "example": "Education encourages law-abiding behaviour. 教育鼓励守法行为。"
+      },
+      {
+        "phrase": "remain law-abiding",
+        "translation": "保持守法",
+        "example": "Most protesters remained peaceful and law-abiding. 大多数抗议者保持和平守法。"
+      },
+      {
+        "phrase": "a law-abiding society",
+        "translation": "守法社会",
+        "example": "Trust supports a stable, law-abiding society. 信任支撑稳定守法的社会。"
       }
     ],
     "synonyms": [
@@ -1032,23 +1402,34 @@
         "example": "A hard-working, law-abiding and peace-loving citizen is a pillar of society. 勤奋、守法、爱好和平的公民是社会的中坚。（【课件】预习：law-abiding 属重点复合词）"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Law-abiding citizens still need to understand their rights.",
+        "upgraded": "Law-abiding citizens still need to understand their rights, especially when rules change quickly.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The community is peaceful and law-abiding.",
+        "upgraded": "The community is peaceful and law-abiding, with residents resolving most conflicts through mediation.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Every citizen is expected to ______ (abide) by the law. 每个公民都应遵守法律。",
+        "question": "Every citizen is expected to ____ (abide) by the law. 每个公民都应遵守法律。",
         "answer": "abide",
         "note": "情态含义 be expected to 后接动词原形 abide；固定搭配 abide by（遵守）。"
       },
       {
         "type": "完成句子",
-        "question": "他一向是遵纪守法的公民。He has always been a ______ ______.",
+        "question": "他一向是遵纪守法的公民。He has always been a ____ ____.",
         "answer": "law-abiding citizen",
         "note": "复合形容词 law-abiding 作定语修饰 citizen；注意连字符。"
       },
       {
         "type": "同义句转换",
-        "question": "改写：He always obeys the law. → He is always a ______ citizen.",
+        "question": "改写：He always obeys the law. → He is always a ____ citizen.",
         "answer": "law-abiding",
         "note": "obey the law = be law-abiding；形容词化后作定语。"
       }
@@ -1066,7 +1447,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to make a determined and sustained effort to achieve something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vi.",
@@ -1079,7 +1460,20 @@
         "example": "For years he strove against injustice. 多年来他与不公正抗争。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Researchers strive to make treatment safer."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The city strives for equal access to transport."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "We should strive against unfair discrimination."
+      }
+    ],
     "wordForms": {
       "noun": "strife（冲突，争斗[不可数，正式]）",
       "verb": "strive（vi. 努力；过去式 strove/strived，过去分词 striven/strived）",
@@ -1108,6 +1502,26 @@
         "phrase": "strive against difficulties",
         "translation": "与困难抗争",
         "example": "They strove against poverty for years. 他们与贫困抗争了多年。"
+      },
+      {
+        "phrase": "strive towards a goal",
+        "translation": "朝目标努力",
+        "example": "The partners strive towards a common goal. 合作伙伴朝共同目标努力。"
+      },
+      {
+        "phrase": "constantly / tirelessly strive",
+        "translation": "不断/不懈努力",
+        "example": "Nurses tirelessly strive to improve patient care. 护士不懈努力改善患者照护。"
+      },
+      {
+        "phrase": "strive for excellence",
+        "translation": "追求卓越",
+        "example": "The workshop encourages apprentices to strive for excellence. 车间鼓励学徒追求卓越。"
+      },
+      {
+        "phrase": "strive with all one's might",
+        "translation": "竭尽全力",
+        "example": "They strove with all their might to reach safety. 他们竭尽全力抵达安全地带。"
       }
     ],
     "synonyms": [
@@ -1147,23 +1561,34 @@
         "example": "Athletes strive for gold, striving against their own limits. 运动员为金牌奋斗，与自身极限抗争。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Researchers strive to make treatment safer.",
+        "upgraded": "Researchers strive to make treatment safer, testing each change before wider use.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The city strives for equal access to transport.",
+        "upgraded": "The city strives for equal access to transport, extending services to isolated districts.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "For years, the team has ______ (strive) to improve the product's quality.",
+        "question": "For years, the team has ____ (strive) to improve the product's quality.",
         "answer": "striven",
         "note": "has + 过去分词，strive 的过去分词为 striven（也可 strived）。"
       },
       {
         "type": "短语填空",
-        "question": "We must strive ______ excellence in everything we do. 我们凡事力求卓越。",
+        "question": "We must strive ____ excellence in everything we do. 我们凡事力求卓越。",
         "answer": "for",
         "note": "strive for + 名词（目标）；若接动词则用 strive to do。"
       },
       {
         "type": "同义句转换",
-        "question": "改写：We must try our best to reduce pollution. → We must ______ ______ reduce pollution.（用本单元词）",
+        "question": "改写：We must try our best to reduce pollution. → We must ____ ____ reduce pollution.（用本单元词）",
         "answer": "strive to",
         "note": "try one's best to = strive to（努力做）；课件要求 strive to 的近义替换。"
       }
@@ -1181,7 +1606,7 @@
     "sub_section": "",
     "original_sentence": "I’m convinced everyone strives to be a law-abiding citizen, but it’s conceivable that you’re breaking the law without realizing.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "possible to imagine, believe, or accept as true",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -1194,7 +1619,20 @@
         "example": "We considered every conceivable option. 我们考虑了所有能想到的选项。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "It is conceivable that demand will double."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The team considered every conceivable explanation."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "She found the proposed timetable entirely conceivable."
+      }
+    ],
     "wordForms": {
       "noun": "conception（概念，构想）/ concept（概念）",
       "verb": "conceive（vt./vi. 构想，想象；设想 conceive of sth；构思 conceive an idea）",
@@ -1223,6 +1661,26 @@
         "phrase": "by every conceivable means",
         "translation": "用尽一切可以想到的办法",
         "example": "They tried by every conceivable means to escape. 他们用尽一切能想到的办法逃跑。"
+      },
+      {
+        "phrase": "hardly / barely conceivable",
+        "translation": "几乎难以想象",
+        "example": "Such accuracy was barely conceivable a decade ago. 十年前这样的精度几乎不可想象。"
+      },
+      {
+        "phrase": "the best conceivable outcome",
+        "translation": "所能设想的最好结果",
+        "example": "A peaceful settlement is the best conceivable outcome. 和平解决是所能设想的最好结果。"
+      },
+      {
+        "phrase": "conceivably (adv.)",
+        "translation": "可以想象地；可能地",
+        "example": "The delay could conceivably last a month. 延误可能会持续一个月。"
+      },
+      {
+        "phrase": "within the bounds of what is conceivable",
+        "translation": "在可设想的范围内",
+        "example": "The proposal remains within the bounds of what is conceivable. 该提议仍在可设想范围内。"
       }
     ],
     "synonyms": [
@@ -1267,23 +1725,34 @@
         "example": "It is inconceivable that he would lie to us. 他竟会对我们撒谎，这简直难以置信。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "It is conceivable that demand will double.",
+        "upgraded": "It is conceivable that demand will double, if the new route proves reliable.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The team considered every conceivable explanation.",
+        "upgraded": "The team considered every conceivable explanation, including several unlikely equipment failures.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "It is ______ (conceive) that the plan may fail if we don't prepare well.",
+        "question": "It is ____ (conceive) that the plan may fail if we don't prepare well.",
         "answer": "conceivable",
         "note": "It is ___ that 句型需形容词，conceive 的形容词为 conceivable（可想象的）。"
       },
       {
         "type": "完成句子",
-        "question": "他们考虑了所有能想到的选项。They considered ______ ______ option.",
+        "question": "他们考虑了所有能想到的选项。They considered ____ ____ option.",
         "answer": "every conceivable",
         "note": "every conceivable + 单数名词 = 所有能想到的……；固定强调结构。"
       },
       {
         "type": "辨析选词",
-        "question": "用 conceivable / inconceivable 填空：It is ______ that such a kind man would commit a crime — nobody believes it. 这样善良的人竟会犯罪，简直难以想象。",
+        "question": "用 conceivable / inconceivable 填空：It is ____ that such a kind man would commit a crime — nobody believes it. 这样善良的人竟会犯罪，简直难以想象。",
         "answer": "inconceivable",
         "note": "由'nobody believes/难以想象'判断为否定义，用 in- 前缀的 inconceivable。"
       }
@@ -1301,7 +1770,7 @@
     "sub_section": "",
     "original_sentence": "Libraries provide law books, and there are some websites where you can browse law journals and essays.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to look through information, goods, or web pages casually without a fixed target",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -1324,7 +1793,20 @@
         "example": "I had a quick browse through the catalogue. 我快速翻了翻目录。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Visitors browsed through the archive quietly."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She browsed the catalogue before ordering."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Customers are welcome to browse without buying."
+      }
+    ],
     "wordForms": {
       "noun": "browse（浏览[单数名词，a browse]）/ browser（浏览器；浏览的人）",
       "verb": "browse（vt./vi. 浏览）",
@@ -1358,6 +1840,21 @@
         "phrase": "a web browser",
         "translation": "网页浏览器（名词 browser）",
         "example": "Chrome is a popular web browser. Chrome 是常用的网页浏览器。"
+      },
+      {
+        "phrase": "browse for sth",
+        "translation": "浏览寻找某物",
+        "example": "She browsed for second-hand textbooks online. 她在网上浏览寻找二手教材。"
+      },
+      {
+        "phrase": "casually browse",
+        "translation": "随意浏览",
+        "example": "Visitors casually browsed the market stalls. 游客随意浏览市场摊位。"
+      },
+      {
+        "phrase": "browsing history",
+        "translation": "浏览历史（词族搭配）",
+        "example": "Clear the browsing history on a shared device. 在共用设备上清除浏览历史。"
       }
     ],
     "synonyms": [
@@ -1397,23 +1894,34 @@
         "example": "A modern browser lets you view countless pages. 现代浏览器让你能查看无数网页。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Visitors browsed through the archive quietly.",
+        "upgraded": "Visitors browsed through the archive quietly, pausing whenever a photograph caught their attention.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "She browsed the catalogue before ordering.",
+        "upgraded": "She browsed the catalogue before ordering, comparing prices across three sections.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "\"Can I help you?\" \"No, thanks. I'm just ______ (browse).\"",
+        "question": "\"Can I help you?\" \"No, thanks. I'm just ____ (browse).\"",
         "answer": "browsing",
         "note": "现在进行时 be + doing；be just browsing = 只是随便看看（店内固定表达）。"
       },
       {
         "type": "短语填空",
-        "question": "There are websites where you can browse ______ law journals and essays. 有些网站可让你浏览法律期刊和论文。",
+        "question": "There are websites where you can browse ____ law journals and essays. 有些网站可让你浏览法律期刊和论文。",
         "answer": "through（或不填）",
         "note": "browse (through) sth，through 可加可省；此处填 through 或留空均可，考查搭配。"
       },
       {
         "type": "选词填空",
-        "question": "用 browse / browser 填空：Open your web ______ and ______ the latest news.",
+        "question": "用 browse / browser 填空：Open your web ____ and ____ the latest news.",
         "answer": "browser; browse",
         "note": "第一空 your web ___ 需名词'浏览器'browser；第二空 and ___ 与 open 并列作动词，用原形 browse。"
       }
@@ -1431,7 +1939,7 @@
     "sub_section": "",
     "original_sentence": "In addition to keeping abreast of the law, observing the law will ensure you behave like a (5) _________________ citizen of high integrity.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) up to date with information (2) side by side and facing the same direction",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adv.",
@@ -1444,7 +1952,20 @@
         "example": "She reads widely to stay abreast of current affairs. 她广泛阅读以跟上时事。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Editors must stay abreast of legal changes."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "The two runners crossed the bridge abreast."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "The boat drew abreast of the harbour wall."
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -1478,6 +1999,21 @@
         "phrase": "draw abreast of / come abreast of",
         "translation": "与…并排，赶上到…旁边",
         "example": "The car drew abreast of ours at the lights. 到红灯时，那辆车开到了和我们并排的位置。"
+      },
+      {
+        "phrase": "remain / stay abreast",
+        "translation": "保持并列或了解最新情况",
+        "example": "Managers must remain abreast of industry standards. 管理者必须了解最新行业标准。"
+      },
+      {
+        "phrase": "four abreast",
+        "translation": "四人并排",
+        "example": "The cyclists rode four abreast. 骑行者四人并排骑行。"
+      },
+      {
+        "phrase": "abreast of the times",
+        "translation": "与时代同步",
+        "example": "Training keeps the workforce abreast of the times. 培训使员工跟上时代。"
       }
     ],
     "synonyms": [
@@ -1510,25 +2046,41 @@
         "type": "构词法·a- 方位副词家族",
         "expression": "abreast（并排）/ ahead（在前）/ aside（在旁）/ aboard（在船上）/ afloat（漂浮）——a- 表方位或状态",
         "example": "He stepped aside to let the runner draw abreast. 他让到一旁，好让那名跑者赶上并排。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "draw abreast of / come abreast of / remain / stay abreast / four abreast / abreast of the times",
+        "example": "The car drew abreast of ours at the lights. 到红灯时，那辆车开到了和我们并排的位置。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Editors must stay abreast of legal changes.",
+        "upgraded": "Editors must stay abreast of legal changes, updating guidance whenever a ruling is issued.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The two runners crossed the bridge abreast.",
+        "upgraded": "The two runners crossed the bridge abreast, matching each other's pace to the finish.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "In addition to keeping ________ of the law, observing it will ensure you behave like a good citizen.",
+        "question": "In addition to keeping ____ of the law, observing it will ensure you behave like a good citizen.",
         "answer": "abreast",
         "note": "还原课文原句：keep abreast of sth「跟上…」。"
       },
       {
         "type": "单句语法填空",
-        "question": "The corridor was so narrow that the students could only walk two ________ (abreast).",
+        "question": "The corridor was so narrow that the students could only walk two ____ (abreast).",
         "answer": "abreast",
         "note": "abreast 作副词，跟数词 two 表「两人并排」，形式不变。"
       },
       {
         "type": "同义句转换",
-        "question": "It is important to keep up to date with the latest laws. → It is important to keep ________ ________ the latest laws.",
+        "question": "It is important to keep up to date with the latest laws. → It is important to keep ____ ____ the latest laws.",
         "answer": "abreast of",
         "note": "keep up to date with = keep abreast of，介词用 of。"
       }
@@ -1546,7 +2098,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to remain informed about the latest facts, changes, or developments",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -1554,7 +2106,20 @@
         "example": "As a lawyer, she keeps abreast of new legislation. 作为律师，她随时了解新的立法。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Doctors keep abreast of new clinical guidance."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Small firms must keep abreast of tax changes."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Students use journals to keep abreast of research."
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": "keep / stay abreast of",
@@ -1583,6 +2148,26 @@
         "phrase": "keep sb abreast of sth",
         "translation": "让某人随时掌握…的最新情况",
         "example": "The manager kept the team abreast of the plan. 经理让团队随时了解计划进展。"
+      },
+      {
+        "phrase": "keep fully abreast of sth",
+        "translation": "全面掌握……最新情况",
+        "example": "Auditors keep fully abreast of regulatory changes. 审计人员全面掌握监管变化。"
+      },
+      {
+        "phrase": "enable sb to keep abreast of sth",
+        "translation": "使某人及时了解某事",
+        "example": "Alerts enable users to keep abreast of outages. 提醒使用户及时了解中断情况。"
+      },
+      {
+        "phrase": "struggle to keep abreast of sth",
+        "translation": "难以跟上某事变化",
+        "example": "Small teams struggle to keep abreast of every update. 小团队难以跟上每次更新。"
+      },
+      {
+        "phrase": "keep pace with sth",
+        "translation": "跟上某事（等值改写）",
+        "example": "Rules must keep pace with new technology. 规则必须跟上新技术。"
       }
     ],
     "synonyms": [
@@ -1622,11 +2207,22 @@
         "example": "Only by keeping abreast of the times can a company survive. 只有紧跟时代，企业才能生存。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Doctors keep abreast of new clinical guidance.",
+        "upgraded": "Doctors keep abreast of new clinical guidance, revising treatment when stronger evidence appears.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Small firms must keep abreast of tax changes.",
+        "upgraded": "Small firms must keep abreast of tax changes, avoiding costly mistakes in annual returns.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "在数字时代，我们痴迷于跟上每一条新闻。In the digital age, we are obsessed with ________ ________ ________ every piece of news.",
+        "question": "在数字时代，我们痴迷于跟上每一条新闻。In the digital age, we are obsessed with ____ ____ ____ every piece of news.",
         "answer": "keeping abreast of",
         "note": "仿写范句还原：be obsessed with 后接动名词，keep→keeping。"
       },
@@ -1638,7 +2234,7 @@
       },
       {
         "type": "短语填空",
-        "question": "Digital technology enables us to keep ________ ________ daily events. (跟上每日时事)",
+        "question": "Digital technology enables us to keep ____ ____ daily events. (跟上每日时事)",
         "answer": "abreast of",
         "note": "keep abreast of sth 固定搭配。"
       }
@@ -1656,7 +2252,7 @@
     "sub_section": "",
     "original_sentence": "Under certain circumstances you may feel the impulse to do something against the law or react to a situation in a way that is unlawful.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a sudden strong urge to act (2) a force or stimulus that causes movement or change",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1679,7 +2275,20 @@
         "example": "Nerve impulses travel to the brain. 神经冲动传向大脑。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She resisted the impulse to interrupt."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A creative impulse drove the artist to experiment."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sensor converts each electrical impulse into data."
+      }
+    ],
     "wordForms": {
       "noun": "impulse (n. 冲动；推动力；脉冲)",
       "adjective": "impulsive (adj. 冲动的，凭冲动行事的)",
@@ -1724,6 +2333,16 @@
         "phrase": "give an impulse to sth",
         "translation": "给…以推动力，刺激…",
         "example": "The new policy gave an impulse to the local economy. 新政策推动了当地经济。"
+      },
+      {
+        "phrase": "a sudden / irresistible impulse",
+        "translation": "突如其来/无法抗拒的冲动",
+        "example": "A sudden impulse made him open the old letter. 一阵冲动使他打开了旧信。"
+      },
+      {
+        "phrase": "an electrical / nerve impulse",
+        "translation": "电脉冲/神经冲动",
+        "example": "A nerve impulse travels along the fibre. 神经冲动沿纤维传递。"
       }
     ],
     "synonyms": [
@@ -1763,23 +2382,34 @@
         "example": "Learning to curb your impulses is a sign of maturity. 学会克制冲动是成熟的标志。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "She resisted the impulse to interrupt.",
+        "upgraded": "She resisted the impulse to interrupt, waiting until the speaker had finished.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "A creative impulse drove the artist to experiment.",
+        "upgraded": "A creative impulse drove the artist to experiment, producing a series unlike her earlier work.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "一时冲动，她删掉了那张照片。________ ________ ________, she deleted the photo.",
+        "question": "一时冲动，她删掉了那张照片。____ ____ ____, she deleted the photo.",
         "answer": "On an impulse",
         "note": "仿写范句还原：on an impulse「一时冲动」作句首状语。"
       },
       {
         "type": "单句语法填空",
-        "question": "Under certain circumstances you may feel the impulse ________ (do) something against the law.",
+        "question": "Under certain circumstances you may feel the impulse ____ (do) something against the law.",
         "answer": "to do",
         "note": "feel the impulse to do sth，impulse 后接不定式作定语。"
       },
       {
         "type": "辨析选词",
-        "question": "He is very ________ (impulse) and often makes decisions without thinking.",
+        "question": "He is very ____ (impulse) and often makes decisions without thinking.",
         "answer": "impulsive",
         "note": "此处需形容词修饰系动词后表语，用派生形容词 impulsive。"
       },
@@ -1803,7 +2433,7 @@
     "sub_section": "",
     "original_sentence": "Know what a (6) _________________ is and the penalty it carries.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a punishment or disadvantage imposed for breaking a rule, law, or agreement",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -1821,7 +2451,20 @@
         "example": "The referee awarded a penalty. 裁判判了一个点球。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Late payment carries a financial penalty."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The referee awarded a penalty for the foul."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The maximum penalty depends on the offence."
+      }
+    ],
     "wordForms": {
       "noun": "penalty (n. 处罚；判罚；点球)；penalization (n. 处罚)",
       "verb": "penalize / penalise (vt. 处罚，使处于不利地位)",
@@ -1866,6 +2509,16 @@
         "phrase": "score / miss a penalty",
         "translation": "罚球得分／罚失点球",
         "example": "He scored the winning penalty in the final. 他在决赛中罚进了制胜点球。"
+      },
+      {
+        "phrase": "face / avoid a penalty",
+        "translation": "面临/避免处罚",
+        "example": "Operators face a penalty for false reporting. 运营方虚假报告将面临处罚。"
+      },
+      {
+        "phrase": "a fixed / maximum penalty",
+        "translation": "固定/最高处罚",
+        "example": "The offence carries a fixed penalty. 该违法行为有固定处罚。"
       }
     ],
     "synonyms": [
@@ -1898,19 +2551,35 @@
         "type": "构词法·pen-（惩罚）词族",
         "expression": "penalty（处罚）/ penalize（处罚 v.）/ penal（刑罚的 adj.）/ penance（忏悔）—— 同根 punish, punitive",
         "example": "The penal system aims to reform, not just to penalize. 刑罚体系旨在改造，而非仅仅惩罚。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "the death penalty / score / miss a penalty / face / avoid a penalty / a fixed / maximum penalty",
+        "example": "Many countries have abolished the death penalty. 许多国家已废除死刑。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Late payment carries a financial penalty.",
+        "upgraded": "Late payment carries a financial penalty, encouraging companies to meet the deadline.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The referee awarded a penalty for the foul.",
+        "upgraded": "The referee awarded a penalty for the foul, giving the home team a chance to equalize.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "Know what a crime is and the ________ it carries. (它招致的处罚)",
+        "question": "Know what a crime is and the ____ it carries. (它招致的处罚)",
         "answer": "penalty",
         "note": "还原课文原句：the penalty it carries「它带有的处罚」。"
       },
       {
         "type": "辨析选词",
-        "question": "Companies that break the law will be ________ (penalty) severely.",
+        "question": "Companies that break the law will be ____ (penalty) severely.",
         "answer": "penalized",
         "note": "此处需被动的动词形式，penalty→penalize，被动 be penalized。"
       },
@@ -1934,7 +2603,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to gain unauthorized access to a computer (2) v. to cut roughly (3) n. a useful shortcut or method",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -1957,7 +2626,20 @@
         "example": "The article was written by a political hack. 这篇文章是个政治写手炮制的。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Criminals hacked into the ticketing system."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Workers hacked a path through the bushes."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "This storage hack saves valuable desk space."
+      }
+    ],
     "wordForms": {
       "noun": "hack (n. 妙招；平庸写手)；hacker (n. 黑客)；hacking (n. 黑客行为/攻击)",
       "verb": "hack; hacked; hacked; hacking",
@@ -1986,6 +2668,26 @@
         "phrase": "a life hack",
         "translation": "生活小妙招",
         "example": "This kitchen hack saves a lot of time. 这个厨房妙招省了很多时间。"
+      },
+      {
+        "phrase": "a hacking attempt / incident",
+        "translation": "黑客攻击企图/事件",
+        "example": "The firewall blocked a hacking attempt. 防火墙拦截了一次黑客攻击。"
+      },
+      {
+        "phrase": "an ethical hacker",
+        "translation": "道德黑客；白帽黑客",
+        "example": "An ethical hacker tested the network legally. 一名白帽黑客合法测试了网络。"
+      },
+      {
+        "phrase": "hack sth to pieces",
+        "translation": "把某物乱砍成碎片",
+        "example": "Workers hacked the fallen branch to pieces. 工人把倒下的树枝砍碎。"
+      },
+      {
+        "phrase": "a productivity hack",
+        "translation": "提高效率的小窍门",
+        "example": "This simple productivity hack reduces interruptions. 这个效率技巧减少了干扰。"
       }
     ],
     "synonyms": [
@@ -2018,19 +2720,35 @@
         "type": "一词多义提醒·hack",
         "expression": "hack = ①(计算机)非法侵入 ②(刀斧)乱砍 ③(名词)妙招 ④(名词,贬)平庸写手",
         "example": "A clever hack helped him hack into the game to find a bug. 一个巧妙的窍门帮他侵入游戏找出漏洞。（同词不同义）"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a hacking attempt / incident / an ethical hacker / hack sth to pieces / a productivity hack",
+        "example": "The firewall blocked a hacking attempt. 防火墙拦截了一次黑客攻击。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Criminals hacked into the ticketing system.",
+        "upgraded": "Criminals hacked into the ticketing system, exposing thousands of customer records.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Workers hacked a path through the bushes.",
+        "upgraded": "Workers hacked a path through the bushes, reaching the damaged fence before dusk.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "It is a serious crime to hack ________ someone else's computer system.",
+        "question": "It is a serious crime to hack ____ someone else's computer system.",
         "answer": "into",
         "note": "hack into sth「非法侵入…」，介词固定用 into。"
       },
       {
         "type": "辨析选词",
-        "question": "The bank hired experts to stop ________ (hack) from stealing customer data.",
+        "question": "The bank hired experts to stop ____ (hack) from stealing customer data.",
         "answer": "hackers",
         "note": "此处需名词作宾语，指「黑客」，复数 hackers。"
       },
@@ -2054,7 +2772,7 @@
     "sub_section": "",
     "original_sentence": "These can be accessed online from anywhere, making them easy targets for infringement.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "an action that violates a law, right, rule, patent, copyright, or trademark",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2067,7 +2785,20 @@
         "example": "Any infringement of the rules will be punished. 任何违规行为都将受罚。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The court found a clear copyright infringement."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Unauthorized searches may constitute an infringement of privacy."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The league recorded several minor infringements."
+      }
+    ],
     "wordForms": {
       "noun": "infringement (n. 侵犯，侵权，违反)",
       "verb": "infringe (vt. & vi. 侵犯；违反 —— infringe on/upon sth)",
@@ -2096,6 +2827,26 @@
         "phrase": "commit an infringement",
         "translation": "实施侵权行为",
         "example": "The firm committed a serious infringement of the patent. 该公司严重侵犯了这项专利。"
+      },
+      {
+        "phrase": "allege / prove infringement",
+        "translation": "指控/证明侵权",
+        "example": "The author alleged infringement of her rights. 作者指控其权利受到侵犯。"
+      },
+      {
+        "phrase": "an infringement action / claim",
+        "translation": "侵权诉讼/主张",
+        "example": "The company filed an infringement claim. 公司提出了侵权主张。"
+      },
+      {
+        "phrase": "constitute an infringement",
+        "translation": "构成侵犯",
+        "example": "Copying the code may constitute an infringement. 复制代码可能构成侵权。"
+      },
+      {
+        "phrase": "minor / serious infringement",
+        "translation": "轻微/严重违规",
+        "example": "A serious infringement led to suspension. 严重违规导致停职。"
       }
     ],
     "synonyms": [
@@ -2128,19 +2879,35 @@
         "type": "构词法·frangere「打破」词族",
         "expression": "infringe/infringement（侵犯）、fracture（骨折）、fragment（碎片）、fragile（易碎的）—— 同根「打破」",
         "example": "To infringe a patent is to break the inventor's exclusive rights. 侵犯专利就是破坏发明人的独占权。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "allege / prove infringement / an infringement action / claim / constitute an infringement / minor / serious infringement",
+        "example": "The author alleged infringement of her rights. 作者指控其权利受到侵犯。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The court found a clear copyright infringement.",
+        "upgraded": "The court found a clear copyright infringement, ordering the website to remove the images.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Unauthorized searches may constitute an infringement of privacy.",
+        "upgraded": "Unauthorized searches may constitute an infringement of privacy, even when no property is taken.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "短语填空",
-        "question": "Online works can be accessed from anywhere, making them easy targets ________ infringement.",
+        "question": "Online works can be accessed from anywhere, making them easy targets ____ infringement.",
         "answer": "for",
         "note": "还原课文原句：easy targets for infringement，介词用 for。"
       },
       {
         "type": "辨析选词",
-        "question": "Downloading pirated films may ________ (infringement) the copyright of the creators.",
+        "question": "Downloading pirated films may ____ (infringement) the copyright of the creators.",
         "answer": "infringe",
         "note": "此处需动词，名词 infringement→动词 infringe（可及物直接接 the copyright）。"
       },
@@ -2164,7 +2931,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the legal right controlling how an original work may be copied, published, performed, or distributed",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2182,7 +2949,20 @@
         "example": "She copyrighted the design before showing it publicly.｜她在公开展示之前先为该设计登记了版权。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The photographer owns the copyright to the image."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Copyright protects original expression rather than ideas alone."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The novel remains under copyright."
+      }
+    ],
     "wordForms": {
       "noun": "copyright（版权）；copyright holder（版权持有人）",
       "verb": "copyright（登记…的版权，过去式 copyrighted）",
@@ -2221,6 +3001,16 @@
         "phrase": "breach / violate copyright",
         "translation": "违反版权（规定）",
         "example": "Copying the whole book would breach copyright.｜复制整本书会违反版权规定。"
+      },
+      {
+        "phrase": "copyright owner / holder",
+        "translation": "版权人/持有人",
+        "example": "The copyright owner licensed the photograph. 版权所有者授权使用该照片。"
+      },
+      {
+        "phrase": "copyright expires",
+        "translation": "版权到期",
+        "example": "Copyright expires after the statutory term. 版权在法定期限后到期。"
       }
     ],
     "synonyms": [
@@ -2254,11 +3044,22 @@
         "example": "Making a private copy is fine, but selling copies breaks copyright law.｜私人复制一份没关系，但售卖复制品违反版权法。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The photographer owns the copyright to the image.",
+        "upgraded": "The photographer owns the copyright to the image, allowing her to control commercial reproduction.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Copyright protects original expression rather than ideas alone.",
+        "upgraded": "Copyright protects original expression rather than ideas alone, balancing creators' rights with public access.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "All the photographs on this website are protected by ______ (copyright), so you cannot use them freely.",
+        "question": "All the photographs on this website are protected by ____ (copyright), so you cannot use them freely.",
         "answer": "copyright",
         "note": "be protected by copyright 受版权保护；copyright 此处作不可数名词，无需变形。"
       },
@@ -2270,7 +3071,7 @@
       },
       {
         "type": "选词填空",
-        "question": "用 copyright / patent / trademark 填空：The company registered a ______ for its logo and applied for a ______ to protect its new invention.",
+        "question": "用 copyright / patent / trademark 填空：The company registered a ____ for its logo and applied for a ____ to protect its new invention.",
         "answer": "trademark; patent",
         "note": "商标 trademark 保护 logo（标识）；专利 patent 保护 invention（发明）；三词对象不同不可混。"
       }
@@ -2288,7 +3089,7 @@
     "sub_section": "",
     "original_sentence": "Owners need to apply for a patent or register a trademark.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a legally protected name, symbol, or design identifying a company's goods or services",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2306,7 +3107,20 @@
         "example": "The band trademarked its own name.｜这支乐队把自己的名字注册成了商标。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The company registered its leaf symbol as a trademark."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her red scarf became a personal trademark."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The manufacturer trademarked the product name."
+      }
+    ],
     "wordForms": {
       "noun": "trademark（商标；标志性特征）；trademark owner（商标所有人）",
       "verb": "trademark（注册为商标，过去式 trademarked）",
@@ -2345,6 +3159,16 @@
         "phrase": "trademark sth (as...)",
         "translation": "把…注册为商标",
         "example": "The company trademarked the slogan last year.｜公司去年将这句标语注册为商标。"
+      },
+      {
+        "phrase": "protect / defend a trademark",
+        "translation": "保护/维护商标",
+        "example": "Businesses must actively protect their trademarks. 企业必须积极保护商标。"
+      },
+      {
+        "phrase": "a trademark application / owner",
+        "translation": "商标申请/所有人",
+        "example": "The office rejected the trademark application. 商标局驳回了申请。"
       }
     ],
     "synonyms": [
@@ -2384,11 +3208,22 @@
         "example": "That witty ending is the trademark of his short stories.｜那种机智的结尾是他短篇小说的招牌。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The company registered its leaf symbol as a trademark.",
+        "upgraded": "The company registered its leaf symbol as a trademark, preventing competitors from using a confusingly similar mark.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Her red scarf became a personal trademark.",
+        "upgraded": "Her red scarf became a personal trademark, making her instantly recognizable on stage.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Owners need to apply for a patent or ______ (register) a trademark before selling the product.",
+        "question": "Owners need to apply for a patent or ____ (register) a trademark before selling the product.",
         "answer": "register",
         "note": "还原课文原句；apply for... or (do)... 并列不定式，register 用原形。"
       },
@@ -2400,7 +3235,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "用 trademark / brand 填空：A logo can be registered as a ______ so that no competitor may copy it.",
+        "question": "用 trademark / brand 填空：A logo can be registered as a ____ so that no competitor may copy it.",
         "answer": "trademark",
         "note": "强调法律注册与保护时用 trademark；brand 侧重市场品牌形象。"
       }
@@ -2418,7 +3253,7 @@
     "sub_section": "",
     "original_sentence": "Patents grant inventors exclusive rights to their inventions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) v. to officially give or allow something (2) n. money given for a particular purpose (3) v. to admit a point",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -2436,7 +3271,20 @@
         "example": "She won a research grant from the government.｜她获得了政府的一笔科研拨款。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The council granted the museum planning permission."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The laboratory received a research grant."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "I grant that the first estimate was too low."
+      }
+    ],
     "wordForms": {
       "noun": "grant（拨款，补助金）；grantee（受让人）；grantor（授予人）",
       "verb": "grant（授予；承认，过去式 granted）",
@@ -2475,6 +3323,16 @@
         "phrase": "granted (that)... 让步连接",
         "translation": "诚然…，就算…（句首让步）",
         "example": "Granted that he is young, he is still very capable.｜诚然他年轻，但他仍很有能力。"
+      },
+      {
+        "phrase": "apply for / receive a grant",
+        "translation": "申请/获得补助金",
+        "example": "The theatre received a cultural grant. 剧院获得了文化补助。"
+      },
+      {
+        "phrase": "grant authority / rights",
+        "translation": "授予权限/权利",
+        "example": "The statute grants inspectors limited authority. 法规授予检查员有限权限。"
       }
     ],
     "synonyms": [
@@ -2519,17 +3377,28 @@
         "example": "Don't take good health for granted; look after it every day.｜别把健康视为理所当然，要天天呵护。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The council granted the museum planning permission.",
+        "upgraded": "The council granted the museum planning permission, allowing construction to begin in June.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The laboratory received a research grant.",
+        "upgraded": "The laboratory received a research grant, funding two years of fieldwork.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Patents ______ (grant) inventors exclusive rights to their inventions.",
+        "question": "Patents ____ (grant) inventors exclusive rights to their inventions.",
         "answer": "grant",
         "note": "还原课文原句；主语 Patents 为复数，一般现在时用动词原形 grant。"
       },
       {
         "type": "完成句子",
-        "question": "尽管结果远不能令人满意，她还是承认自己已尽了全力。She ______ ______ she had tried her best, even though the result was far from satisfactory.（用 grant）",
+        "question": "尽管结果远不能令人满意，她还是承认自己已尽了全力。She ____ ____ she had tried her best, even though the result was far from satisfactory.（用 grant）",
         "answer": "granted that",
         "note": "对齐课件仿写；grant that + 从句表\"（勉强）承认\"，主句为过去时故用 granted。"
       },
@@ -2553,7 +3422,7 @@
     "sub_section": "",
     "original_sentence": "Patents grant inventors exclusive rights to their inventions.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) limited to one person or group (2) not including something (3) expensive and selective",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2576,7 +3445,20 @@
         "example": "The reporter got an exclusive on the scandal.｜记者拿到了这桩丑闻的独家报道。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The platform secured exclusive rights to the documentary."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The price is exclusive of local taxes."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "She gave the newspaper an exclusive interview."
+      }
+    ],
     "wordForms": {
       "noun": "exclusion（排除，排斥）；exclusivity（排他性，独家性）；exclusive（独家新闻）",
       "verb": "exclude（排除，把…排除在外）",
@@ -2615,6 +3497,16 @@
         "phrase": "an exclusive club / school",
         "translation": "高档（排外）的俱乐部／学校",
         "example": "He belongs to an exclusive golf club.｜他是一家高档高尔夫俱乐部的会员。"
+      },
+      {
+        "phrase": "exclusive to sb / sth",
+        "translation": "某人/某物独有",
+        "example": "This feature is exclusive to premium users. 此功能为高级用户独有。"
+      },
+      {
+        "phrase": "an exclusive agreement / licence",
+        "translation": "独家协议/许可",
+        "example": "The artist signed an exclusive licensing agreement. 艺术家签署了独家许可协议。"
       }
     ],
     "synonyms": [
@@ -2654,23 +3546,34 @@
         "example": "The rule excludes part-time staff, so they are exclusively for full-timers.｜该规定把兼职员工排除在外，因此仅适用于全职人员。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The platform secured exclusive rights to the documentary.",
+        "upgraded": "The platform secured exclusive rights to the documentary, preventing rival services from showing it.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The price is exclusive of local taxes.",
+        "upgraded": "The price is exclusive of local taxes, which are added at checkout.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Patents grant inventors ______ (exclude) rights to their inventions, preventing others from copying them.",
+        "question": "Patents grant inventors ____ (exclude) rights to their inventions, preventing others from copying them.",
         "answer": "exclusive",
         "note": "还原课文原句；空处需形容词修饰 rights，exclude 变形为 exclusive。"
       },
       {
         "type": "选词填空",
-        "question": "用 exclusive 的适当形式填空：This offer is available ______ to members of the club.",
+        "question": "用 exclusive 的适当形式填空：This offer is available ____ to members of the club.",
         "answer": "exclusively",
         "note": "修饰 available（谓语/形容词），需副词 exclusively = 仅仅、专门。"
       },
       {
         "type": "辨析选词",
-        "question": "用 exclusive / unique 填空：The signed edition gives collectors ______ rights that no one else has.",
+        "question": "用 exclusive / unique 填空：The signed edition gives collectors ____ rights that no one else has.",
         "answer": "exclusive",
         "note": "表\"他人无权、专属独占\"用 exclusive；unique 指\"独一无二的性质\"，不搭配 rights。"
       }
@@ -2688,7 +3591,7 @@
     "sub_section": "",
     "original_sentence": "Trade secrets are confidential business information vital to a company’s success.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "intended to be kept secret or shared only with authorized people",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -2706,7 +3609,20 @@
         "example": "She works as a confidential assistant to the manager.｜她担任经理的机要助理。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Patient records must remain confidential."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The lawyer received a confidential briefing."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Please treat this conversation as confidential."
+      }
+    ],
     "wordForms": {
       "noun": "confidence（信任；秘密）；confidentiality（保密性）；confidant（知己，密友）",
       "verb": "confide（吐露；信托，confide in sb 向某人倾诉）",
@@ -2740,6 +3656,21 @@
         "phrase": "treat sth as / in confidence",
         "translation": "对…保密处理",
         "example": "Your details will be treated in strict confidence.｜您的信息将被严格保密。"
+      },
+      {
+        "phrase": "confidentiality agreement",
+        "translation": "保密协议（词族搭配）",
+        "example": "Staff signed a confidentiality agreement. 员工签署了保密协议。"
+      },
+      {
+        "phrase": "confidential source / document",
+        "translation": "保密消息源/文件",
+        "example": "The journalist protected a confidential source. 记者保护了保密消息源。"
+      },
+      {
+        "phrase": "confidentiality must be maintained",
+        "translation": "必须维持保密性",
+        "example": "Patient confidentiality must be maintained. 必须保护患者隐私。"
       }
     ],
     "synonyms": [
@@ -2779,17 +3710,28 @@
         "example": "A confident manager keeps confidential files safe and confides only in a trusted confidant.｜一位自信的经理会妥善保管机密文件，只向可信的知己吐露心事。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Patient records must remain confidential.",
+        "upgraded": "Patient records must remain confidential, protecting personal information from unauthorized access.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The lawyer received a confidential briefing.",
+        "upgraded": "The lawyer received a confidential briefing, allowing her to prepare without alerting the other side.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Trade secrets are ______ (confidence) business information vital to a company's success.",
+        "question": "Trade secrets are ____ (confidence) business information vital to a company's success.",
         "answer": "confidential",
         "note": "还原课文原句；空处需形容词修饰 information，confidence 变形为 confidential。"
       },
       {
         "type": "选词填空",
-        "question": "用 confidential / confident 填空：All patient records are ______ and must not be shared without permission.",
+        "question": "用 confidential / confident 填空：All patient records are ____ and must not be shared without permission.",
         "answer": "confidential",
         "note": "表\"机密的\"用 confidential；confident 意为\"自信的\"，不合语境。二者拼写、重音均不同。"
       },
@@ -2813,7 +3755,7 @@
     "sub_section": "",
     "original_sentence": "A trade secret can be a formula, process or device that makes a product distinctive.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) a mathematical or chemical expression (2) a fixed method or set of ingredients for achieving something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2841,7 +3783,20 @@
         "example": "\"Yours sincerely\" is a standard letter-writing formula.｜\"Yours sincerely\"是一句标准的书信套语。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The engineer applied a formula to calculate pressure."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The chef guarded the sauce formula carefully."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Researchers adjusted the formula for smaller samples."
+      }
+    ],
     "wordForms": {
       "noun": "formula（复数 formulas 或 formulae /ˈfɔːmjəliː/）",
       "verb": "formulate（构想，规划；确切表达）",
@@ -2880,6 +3835,16 @@
         "phrase": "a peace / winning formula",
         "translation": "和平方案／制胜之道",
         "example": "The two sides are still searching for a peace formula.｜双方仍在寻求和平方案。"
+      },
+      {
+        "phrase": "derive / simplify a formula",
+        "translation": "推导/化简公式",
+        "example": "Students derived the formula from first principles. 学生从基本原理推导公式。"
+      },
+      {
+        "phrase": "a proven formula",
+        "translation": "行之有效的方法",
+        "example": "The programme follows a proven formula for mentoring. 该项目采用行之有效的指导模式。"
       }
     ],
     "synonyms": [
@@ -2919,17 +3884,28 @@
         "example": "The committee formulated a new policy, avoiding dull, formulaic wording.｜委员会拟订了新政策，避免了枯燥的公式化措辞。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The engineer applied a formula to calculate pressure.",
+        "upgraded": "The engineer applied a formula to calculate pressure, checking the result against a digital model.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The chef guarded the sauce formula carefully.",
+        "upgraded": "The chef guarded the sauce formula carefully, sharing it only with senior staff.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "商业秘密可以是使产品与众不同的配方、工艺或装置。A trade secret can be a ______, process or device that makes a product distinctive.（用 formula）",
+        "question": "商业秘密可以是使产品与众不同的配方、工艺或装置。A trade secret can be a ____, process or device that makes a product distinctive.（用 formula）",
         "answer": "formula",
         "note": "还原课文原句；单数可数名词 formula 前有冠词 a。"
       },
       {
         "type": "单句语法填空",
-        "question": "In maths class we learned several ______ (formula) for calculating volume.",
+        "question": "In maths class we learned several ____ (formula) for calculating volume.",
         "answer": "formulae / formulas",
         "note": "several 后需复数；学术义常用拉丁复数 formulae，日常 formulas 亦可。"
       },
@@ -2953,7 +3929,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "the traditional plural form of formula, especially for mathematical or scientific expressions",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -2986,7 +3962,20 @@
         "example": "He dreams of racing in Formula 1. 他梦想参加一级方程式赛车。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.pl.",
+        "sentence": "Students compared two formulae for calculating area."
+      },
+      {
+        "partOfSpeech": "n.pl.",
+        "sentence": "The appendix lists the relevant chemical formulae."
+      },
+      {
+        "partOfSpeech": "n.pl.",
+        "sentence": "Modern English also accepts formulas as the plural."
+      }
+    ],
     "wordForms": {
       "noun": "formula (n. 单数：公式，配方，方案；复数 formulas 或 formulae)",
       "adjective": "formulaic (adj. 公式化的，套路化的)",
@@ -3020,6 +4009,21 @@
         "phrase": "a winning formula",
         "translation": "制胜法宝，成功模式",
         "example": "The team stuck to its winning formula. 这支队伍坚持自己的制胜模式。"
+      },
+      {
+        "phrase": "derive / memorize formulae",
+        "translation": "推导/记忆公式",
+        "example": "Understanding is better than merely memorizing formulae. 理解胜过死记公式。"
+      },
+      {
+        "phrase": "standard formulae",
+        "translation": "标准公式",
+        "example": "The handbook provides standard formulae. 手册提供标准公式。"
+      },
+      {
+        "phrase": "formulae apply to sth",
+        "translation": "公式适用于某物",
+        "example": "These formulae apply only to regular shapes. 这些公式只适用于规则图形。"
       }
     ],
     "synonyms": [
@@ -3032,7 +4036,8 @@
       {
         "synonym": "equation",
         "translation": "方程，等式",
-        "example": "Solve the equation using this formula. 用这个公式解方程。"
+        "example": "Solve the equation using this formula. 用这个公式解方程。",
+        "usage": "equation 是含等号、可求未知数的方程；formula/formulae 是表示关系或计算规则的公式。二者均为可数名词，但不能互换。"
       },
       {
         "synonym": "method",
@@ -3058,17 +4063,28 @@
         "example": "The film was criticized for its formulaic plot. 这部电影因情节套路化而受批评。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Students compared two formulae for calculating area.",
+        "upgraded": "Students compared two formulae for calculating area, identifying when each method should be used.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The appendix lists the relevant chemical formulae.",
+        "upgraded": "The appendix lists the relevant chemical formulae, helping readers interpret the laboratory results.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Chemists often use complex ________ (formula, 拉丁复数) to describe reactions.",
+        "question": "Chemists often use complex ____ (formula, 拉丁复数) to describe reactions.",
         "answer": "formulae",
         "note": "formula 的拉丁复数为 formulae /ˈfɔːmjəliː/，正式科学语境常用；也可写 formulas。"
       },
       {
         "type": "选词填空",
-        "question": "用 formula / recipe 填空：There is no magic ________ for success; it takes years of effort.",
+        "question": "用 formula / recipe 填空：There is no magic ____ for success; it takes years of effort.",
         "answer": "formula",
         "note": "“成功的秘诀/公式”固定用 a formula for success；recipe 多与烹饪或“导致坏结果”搭配。"
       },
@@ -3092,7 +4108,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to violate a law, rule, right, patent, copyright, or freedom",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt. & vi.",
@@ -3110,7 +4126,20 @@
         "example": "The advertisement infringes broadcasting regulations. 这则广告违反了广播规定。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The copied logo may infringe the registered trademark."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The restriction infringes on freedom of expression."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Businesses must not infringe consumer rights."
+      }
+    ],
     "wordForms": {
       "noun": "infringement (n. 侵犯，违反，如 copyright infringement 侵犯版权)",
       "verb": "infringe (vt. & vi.)",
@@ -3139,6 +4168,26 @@
         "phrase": "infringe a law / rule / regulation",
         "translation": "违反法律/规则/规定",
         "example": "Those who infringe the rules will be fined. 违反规则的人将被罚款。"
+      },
+      {
+        "phrase": "infringe upon intellectual property",
+        "translation": "侵犯知识产权",
+        "example": "Unauthorized sales infringe upon intellectual property. 未授权销售侵犯知识产权。"
+      },
+      {
+        "phrase": "infringing material / use",
+        "translation": "侵权材料/使用",
+        "example": "The platform removed infringing material. 平台移除了侵权材料。"
+      },
+      {
+        "phrase": "an infringer of rights",
+        "translation": "权利侵害者（词族名词）",
+        "example": "A repeat infringer may lose access. 重复侵权者可能失去访问权限。"
+      },
+      {
+        "phrase": "avoid infringing sth",
+        "translation": "避免侵犯某物",
+        "example": "Designers checked the database to avoid infringing patents. 设计师查询数据库以避免侵犯专利。"
       }
     ],
     "synonyms": [
@@ -3178,23 +4227,34 @@
         "example": "Anyone who infringes intellectual property rights will bear legal responsibility. 任何侵犯知识产权者都将承担法律责任。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The copied logo may infringe the registered trademark.",
+        "upgraded": "The copied logo may infringe the registered trademark, exposing the seller to legal action.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The restriction infringes on freedom of expression.",
+        "upgraded": "The restriction infringes on freedom of expression, limiting peaceful criticism without clear justification.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Copying software without permission ________ (infringe) the developer's copyright.",
+        "question": "Copying software without permission ____ (infringe) the developer's copyright.",
         "answer": "infringes",
         "note": "主语 Copying...（动名词，视为单数），谓语用第三人称单数 infringes；此处作及物动词直接跟宾语 copyright。"
       },
       {
         "type": "辨析选词",
-        "question": "用 infringe on / violate 填空：Such surveillance ________ our right to privacy. (强调蚕食式侵入个人领域，用带介词的形式)",
+        "question": "用 infringe on / violate 填空：Such surveillance ____ our right to privacy. (强调蚕食式侵入个人领域，用带介词的形式)",
         "answer": "infringes on",
         "note": "infringe 作不及物时须加 on/upon；violate 则直接跟宾语。此处考查搭配。"
       },
       {
         "type": "完成句子",
-        "question": "任何侵犯他人专利的公司都会被起诉。Any company that ________ ________ someone else's patent will be sued.",
+        "question": "任何侵犯他人专利的公司都会被起诉。Any company that ____ ____ someone else's patent will be sued.",
         "answer": "infringes on (或 infringes)",
         "note": "infringe a patent（及物）或 infringe on a patent 均可；定语从句主语 company 后谓语用单数 infringes。"
       }
@@ -3212,7 +4272,7 @@
     "sub_section": "",
     "original_sentence": "Then I made inquiries as to this mysterious assistant and found that I had to deal with one of the coolest and most daring criminals in London.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "difficult or impossible to understand, explain, or identify",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -3230,7 +4290,20 @@
         "example": "A mysterious figure appeared in the fog. 雾中出现了一个来历不明的身影。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A mysterious signal appeared after midnight."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The package vanished under mysterious circumstances."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "She gave us a mysterious smile."
+      }
+    ],
     "wordForms": {
       "noun": "mystery (n. 神秘的事物，谜；奥秘)",
       "verb": "mystify (vt. 使迷惑，使困惑)",
@@ -3259,6 +4332,26 @@
         "phrase": "mysterious circumstances",
         "translation": "离奇的情形，蹊跷的情况",
         "example": "He died under mysterious circumstances. 他离奇死亡。"
+      },
+      {
+        "phrase": "remain mysterious / unexplained",
+        "translation": "仍然神秘/无法解释",
+        "example": "The signal's origin remains mysterious. 信号来源仍然神秘。"
+      },
+      {
+        "phrase": "a mysterious disappearance",
+        "translation": "神秘失踪",
+        "example": "Police reopened the mysterious disappearance case. 警方重启了神秘失踪案。"
+      },
+      {
+        "phrase": "shrouded in mystery",
+        "translation": "笼罩在神秘之中（等值表达）",
+        "example": "The ancient chamber remains shrouded in mystery. 古老密室仍笼罩在神秘之中。"
+      },
+      {
+        "phrase": "mysteriously disappear",
+        "translation": "神秘地消失（词族副词）",
+        "example": "The files mysteriously disappeared overnight. 文件一夜之间神秘消失。"
       }
     ],
     "synonyms": [
@@ -3298,23 +4391,34 @@
         "example": "A baffling, mysterious silence fell over the room. 房间里陷入一片令人费解的诡异沉默。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A mysterious signal appeared after midnight.",
+        "upgraded": "A mysterious signal appeared after midnight, prompting engineers to inspect the remote sensor.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The package vanished under mysterious circumstances.",
+        "upgraded": "The package vanished under mysterious circumstances, leaving investigators with few reliable clues.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The letters disappeared ________ (mysterious), and no one could explain it.",
+        "question": "The letters disappeared ____ (mysterious), and no one could explain it.",
         "answer": "mysteriously",
         "note": "修饰动词 disappeared 需用副词 mysteriously。"
       },
       {
         "type": "单句语法填空",
-        "question": "Sherlock Holmes finally solved the ________ (mysterious) of the missing jewels.",
+        "question": "Sherlock Holmes finally solved the ____ (mysterious) of the missing jewels.",
         "answer": "mystery",
         "note": "此处需名词“谜/神秘事件”，用 mystery；solve the mystery 是固定搭配。"
       },
       {
         "type": "同义句转换",
-        "question": "He didn't want to say anything about his plans. → He was very ________ ________ his plans. (用 mysterious)",
+        "question": "He didn't want to say anything about his plans. → He was very ____ ____ his plans. (用 mysterious)",
         "answer": "mysterious about",
         "note": "be mysterious about sth = 对某事守口如瓶/故弄玄虚。"
       }
@@ -3332,7 +4436,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "to tell a story or describe a series of events, often as a spoken commentary",
     "uncommonMeanings": [
       {
         "partOfSpeech": "vt.",
@@ -3345,7 +4449,20 @@
         "example": "A well-known voice narrates the nature series. 一个知名的声音为这部自然纪录片解说。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "A marine biologist narrated the documentary."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The witness narrated the events in chronological order."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The audio guide narrates the site's long history."
+      }
+    ],
     "wordForms": {
       "noun": "narration (n. 叙述，讲述；解说) ；narrative (n. 叙事，故事，记叙文) ；narrator (n. 叙述者，旁白者)",
       "verb": "narrate (vt. 叙述)",
@@ -3374,6 +4491,26 @@
         "phrase": "narrate in the first person",
         "translation": "以第一人称叙述",
         "example": "The story is narrated in the first person. 这个故事以第一人称叙述。"
+      },
+      {
+        "phrase": "narrate from one's perspective",
+        "translation": "从某人的视角叙述",
+        "example": "She narrates the journey from a child's perspective. 她从孩子视角叙述旅程。"
+      },
+      {
+        "phrase": "a narrated version",
+        "translation": "配有旁白的版本",
+        "example": "The museum offers a narrated version of the tour. 博物馆提供配旁白的参观版本。"
+      },
+      {
+        "phrase": "a reliable / unreliable narrator",
+        "translation": "可靠/不可靠叙述者（词族）",
+        "example": "An unreliable narrator hides key facts. 不可靠叙述者隐瞒关键事实。"
+      },
+      {
+        "phrase": "narration shifts between ...",
+        "translation": "叙述在……之间切换",
+        "example": "The narration shifts between past and present. 叙述在过去与现在之间切换。"
       }
     ],
     "synonyms": [
@@ -3413,17 +4550,28 @@
         "example": "The story is narrated in the first person, drawing readers close to the hero. 故事以第一人称叙述，拉近了读者与主人公的距离。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A marine biologist narrated the documentary.",
+        "upgraded": "A marine biologist narrated the documentary, explaining each stage of the migration.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The witness narrated the events in chronological order.",
+        "upgraded": "The witness narrated the events in chronological order, helping jurors follow the complicated sequence.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The documentary is ________ (narrate) by a famous scientist.",
+        "question": "The documentary is ____ (narrate) by a famous scientist.",
         "answer": "narrated",
         "note": "被动语态 be narrated by sb“由某人解说/配旁白”。"
       },
       {
         "type": "单句语法填空",
-        "question": "The whole ________ (narrate) is written from the boy's point of view.",
+        "question": "The whole ____ (narrate) is written from the boy's point of view.",
         "answer": "narration",
         "note": "此处需名词“叙述”，用 narration；若强调“故事/叙事作品本身”则用 narrative。"
       },
@@ -3447,7 +4595,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a strong alcoholic drink distilled from grain, spelled whisky especially in Scotland and Canada",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3460,7 +4608,20 @@
         "example": "Two whiskies, please. 请来两杯威士忌。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The guest ordered a small glass of whisky."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The distillery ages its whisky in oak barrels."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Scotch whisky must meet strict production rules."
+      }
+    ],
     "wordForms": {
       "noun": "whisky (英/加/日拼法) / whiskey (美/爱尔兰拼法)；复数 whiskies 或 whiskeys",
       "verb": "",
@@ -3489,6 +4650,26 @@
         "phrase": "sip / pour whisky",
         "translation": "小口喝/倒威士忌",
         "example": "She sipped her whisky slowly. 她慢慢地啜饮威士忌。"
+      },
+      {
+        "phrase": "single-malt / blended whisky",
+        "translation": "单一麦芽/调和威士忌",
+        "example": "The shop specializes in single-malt whisky. 该店专营单一麦芽威士忌。"
+      },
+      {
+        "phrase": "neat whisky / whisky on the rocks",
+        "translation": "纯饮/加冰威士忌",
+        "example": "He asked for whisky on the rocks. 他要了加冰威士忌。"
+      },
+      {
+        "phrase": "a whisky distillery",
+        "translation": "威士忌酒厂",
+        "example": "The island's whisky distillery welcomes visitors. 岛上的威士忌酒厂接待游客。"
+      },
+      {
+        "phrase": "whisky production",
+        "translation": "威士忌生产",
+        "example": "Local water is important in whisky production. 当地水源对威士忌生产很重要。"
       }
     ],
     "synonyms": [
@@ -3515,19 +4696,35 @@
         "type": "文化/拼写卡",
         "expression": "whisky (Scotland/Canada/Japan) vs whiskey (USA/Ireland)",
         "example": "Irish whiskey is spelt with an 'e'. 爱尔兰威士忌拼写带 e。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "single-malt / blended whisky / neat whisky / whisky on the rocks / a whisky distillery / whisky production",
+        "example": "The shop specializes in single-malt whisky. 该店专营单一麦芽威士忌。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The guest ordered a small glass of whisky.",
+        "upgraded": "The guest ordered a small glass of whisky, sipping it slowly beside the fire.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The distillery ages its whisky in oak barrels.",
+        "upgraded": "The distillery ages its whisky in oak barrels, developing a rich smoky flavour.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The waiter brought two ________ (whisky) to their table.",
+        "question": "The waiter brought two ____ (whisky) to their table.",
         "answer": "whiskies",
         "note": "表示“两杯威士忌”时可数，复数为 whiskies（辅音+y 变 ies）。"
       },
       {
         "type": "完成句子",
-        "question": "他要了一杯威士忌加苏打水。He ordered a ________ ________ ________. (whisky, soda)",
+        "question": "他要了一杯威士忌加苏打水。He ordered a ____ ____ ____. (whisky, soda)",
         "answer": "whisky and soda",
         "note": "whisky and soda 为固定搭配的经典饮品，视作一份用单数。"
       }
@@ -3545,7 +4742,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) carbonated water or a sweet fizzy drink (2) a chemical compound used in cooking or cleaning",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3563,7 +4760,20 @@
         "example": "Baking soda can remove bad smells. 小苏打可以去除异味。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "He mixed the fruit juice with soda water."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She opened a cold can of soda."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Baking soda helps the dough rise."
+      }
+    ],
     "wordForms": {
       "noun": "soda (n.)；复数 sodas（指几杯/几瓶时可数）",
       "verb": "",
@@ -3592,6 +4802,26 @@
         "phrase": "baking soda",
         "translation": "小苏打，烘焙用苏打（碳酸氢钠）",
         "example": "Add a spoonful of baking soda to the batter. 往面糊里加一勺小苏打。"
+      },
+      {
+        "phrase": "club soda",
+        "translation": "苏打水",
+        "example": "Add club soda just before serving. 上桌前加入苏打水。"
+      },
+      {
+        "phrase": "diet / regular soda",
+        "translation": "无糖/普通汽水",
+        "example": "She chose diet soda with lunch. 她午餐选了无糖汽水。"
+      },
+      {
+        "phrase": "washing soda",
+        "translation": "洗涤碱",
+        "example": "Washing soda can soften hard water. 洗涤碱能软化硬水。"
+      },
+      {
+        "phrase": "a soda fountain",
+        "translation": "汽水机/汽水柜台",
+        "example": "An old soda fountain stood by the counter. 柜台旁有一台老式汽水机。"
       }
     ],
     "synonyms": [
@@ -3624,19 +4854,35 @@
         "type": "短语群·soda 家族",
         "expression": "soda water / baking soda (小苏打) / washing soda (洗涤碱) / cream soda (奶油汽水)",
         "example": "A pinch of baking soda makes the cake rise. 一撮小苏打能让蛋糕发起来。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "club soda / diet / regular soda / washing soda / a soda fountain",
+        "example": "Add club soda just before serving. 上桌前加入苏打水。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "He mixed the fruit juice with soda water.",
+        "upgraded": "He mixed the fruit juice with soda water, creating a light sparkling drink.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "She opened a cold can of soda.",
+        "upgraded": "She opened a cold can of soda, offering half to her friend.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "选词填空",
-        "question": "用 soda / soda water 填空：Please add a splash of ________ ________ to my whisky. (使酒变淡的气泡水)",
+        "question": "用 soda / soda water 填空：Please add a splash of ____ ____ to my whisky. (使酒变淡的气泡水)",
         "answer": "soda water",
         "note": "加进威士忌的“苏打水/气泡水”用 soda water（也可直接说 soda）。"
       },
       {
         "type": "辨析选词",
-        "question": "In American English, a sweet carbonated drink is usually called ________ (soda / fizzy drink).",
+        "question": "In American English, a sweet carbonated drink is usually called ____ (soda / fizzy drink).",
         "answer": "soda",
         "note": "美式英语称含糖碳酸饮料为 soda，英式则说 fizzy drink，考查英美用词差异。"
       },
@@ -3660,9 +4906,22 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a person or business that lends money in exchange for valuable goods held as security",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The pawnbroker valued the watch carefully."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She reclaimed the ring from the pawnbroker."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A licensed pawnbroker must keep transaction records."
+      }
+    ],
     "wordForms": {
       "noun": "pawnbroker（典当商人，当铺老板）；pawn（当押物/典当行为）；pawnshop / pawnbroker's（当铺）；pawnbroking（典当业）",
       "verb": "pawn（典当，抵押）",
@@ -3691,6 +4950,26 @@
         "phrase": "run / keep a pawnbroking business",
         "translation": "经营典当生意",
         "example": "The old man had run a pawnbroking business for years. 那位老人经营典当行已有多年。"
+      },
+      {
+        "phrase": "a licensed pawnbroker",
+        "translation": "持牌典当商",
+        "example": "Only a licensed pawnbroker may issue the loan. 只有持牌典当商可发放该贷款。"
+      },
+      {
+        "phrase": "pawn sth with a pawnbroker",
+        "translation": "把某物典当给典当商",
+        "example": "He pawned the camera with a local pawnbroker. 他把相机典当给当地典当商。"
+      },
+      {
+        "phrase": "pawnbroker's licence / records",
+        "translation": "典当商执照/记录",
+        "example": "Inspectors checked the pawnbroker's records. 检查员核查了典当商记录。"
+      },
+      {
+        "phrase": "redeem goods from a pawnbroker",
+        "translation": "从典当商处赎回物品",
+        "example": "She redeemed the necklace before the deadline. 她在期限前赎回项链。"
       }
     ],
     "synonyms": [
@@ -3703,7 +4982,8 @@
       {
         "synonym": "lender",
         "translation": "n. 贷方，出借人",
-        "example": "The lender demanded high interest on the loan. 贷方对这笔贷款索要高额利息。"
+        "example": "The lender demanded high interest on the loan. 贷方对这笔贷款索要高额利息。",
+        "usage": "lender 泛指出借金钱的个人或机构；pawnbroker 特指以物品质押为担保、经营短期贷款的典当商，均为可数名词。"
       }
     ],
     "advancedExpressions": [
@@ -3716,13 +4996,29 @@
         "type": "同义表达群·借贷与典当",
         "expression": "pawn sth 典当 / redeem the pawned item 赎回当物 / put sth up as collateral 拿某物作抵押 / take out a loan against sth 以某物为担保贷款",
         "example": "She managed to redeem the necklace she had pawned. 她终于赎回了当掉的项链。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a licensed pawnbroker / pawn sth with a pawnbroker / pawnbroker's licence / records / redeem goods from a pawnbroker",
+        "example": "Only a licensed pawnbroker may issue the loan. 只有持牌典当商可发放该贷款。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The pawnbroker valued the watch carefully.",
+        "upgraded": "The pawnbroker valued the watch carefully, offering a loan below its likely sale price.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "She reclaimed the ring from the pawnbroker.",
+        "upgraded": "She reclaimed the ring from the pawnbroker, repaying the loan and interest.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The suspect turned out to be an assistant working for a ______ (pawn) in the neighbourhood.",
+        "question": "The suspect turned out to be an assistant working for a ____ (pawn) in the neighbourhood.",
         "answer": "pawnbroker",
         "note": "空处需要“人”的名词作 assistant 的雇主，由 pawn 加 -broker 构成 pawnbroker。"
       },
@@ -3734,7 +5030,7 @@
       },
       {
         "type": "选词填空",
-        "question": "用 pawnbroker / stockbroker 填空：A ______ helps clients buy and sell shares on the market.",
+        "question": "用 pawnbroker / stockbroker 填空：A ____ helps clients buy and sell shares on the market.",
         "answer": "stockbroker",
         "note": "买卖股票的是 stockbroker；pawnbroker 是收抵押放款的当铺老板，注意 -broker 家族的区分。"
       }
@@ -3752,7 +5048,7 @@
     "sub_section": "",
     "original_sentence": "",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) away from the usual route or a busy place (2) no longer blocking movement (3) finished or dealt with",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -3775,8 +5071,27 @@
         "example": "He said nothing out of the way at the meeting. 他在会上没说任何出格的话。"
       }
     ],
-    "posExamples": {},
-    "wordForms": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The cottage lies well out of the way."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Move the cables out of the way."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Let's get the difficult discussion out of the way."
+      }
+    ],
+    "wordForms": {
+      "noun": "way 道路；方式",
+      "verb": "",
+      "adjective": "out-of-the-way 偏僻的",
+      "adverb": "out of the way 不挡道地；偏远地",
+      "other": "固定短语；作前置定语时加连字符 out-of-the-way。注意 go out of one's way to do 特意做某事。"
+    },
     "idioms": [
       {
         "idiom": "go out of one's way (to do sth)",
@@ -3804,6 +5119,26 @@
         "phrase": "nothing out of the way",
         "translation": "（否定句中）没什么反常/奇特之处",
         "example": "The police found nothing out of the way in his story. 警方没在他的说辞里发现任何异常。"
+      },
+      {
+        "phrase": "put sth out of the way",
+        "translation": "把某物移开",
+        "example": "Put sharp tools out of the way. 把锋利工具移开。"
+      },
+      {
+        "phrase": "go out of one's way to do sth",
+        "translation": "特意做某事（易混结构）",
+        "example": "She went out of her way to help us. 她特意帮助我们。"
+      },
+      {
+        "phrase": "an out-of-the-way village",
+        "translation": "偏僻村庄（复合形容词）",
+        "example": "They stayed in an out-of-the-way village. 他们住在一个偏僻村庄。"
+      },
+      {
+        "phrase": "once sth is out of the way",
+        "translation": "某事处理完后",
+        "example": "Once registration is out of the way, the tour can begin. 登记办妥后即可参观。"
       }
     ],
     "synonyms": [
@@ -3830,19 +5165,35 @@
         "type": "常用结构·get sth out of the way",
         "expression": "get + 事情 + out of the way = 把某事了结（常表“先解决掉麻烦事”）",
         "example": "I want to get the boring paperwork out of the way before lunch. 我想在午饭前把烦人的文书工作处理完。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "put sth out of the way / go out of one's way to do sth / an out-of-the-way village / once sth is out of the way",
+        "example": "Put sharp tools out of the way. 把锋利工具移开。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The cottage lies well out of the way.",
+        "upgraded": "The cottage lies well out of the way, offering visitors unusual peace and privacy.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Move the cables out of the way.",
+        "upgraded": "Move the cables out of the way, keeping the emergency exit clear.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "完成句子",
-        "question": "考试一结束（考完这些烦人的事），我们就去海边。Once we ______ these annoying exams ______ ______ ______, we'll head for the beach.",
+        "question": "考试一结束（考完这些烦人的事），我们就去海边。Once we ____ these annoying exams ____ ____ ____, we'll head for the beach.",
         "answer": "get; out; of the; way（即 get these annoying exams out of the way）",
         "note": "get sth out of the way = 把某事处理完；此处 sth 为 these annoying exams，四空依次填 get / out / of the / way。"
       },
       {
         "type": "辨析选词",
-        "question": "用 out of the way / in the way 填空：Could you move your suitcase? It's ______ and people can't pass.",
+        "question": "用 out of the way / in the way 填空：Could you move your suitcase? It's ____ and people can't pass.",
         "answer": "in the way",
         "note": "行李箱“挡道”用 in the way；out of the way 是“让开、不碍事”，两者语义相反。"
       },
@@ -3866,9 +5217,22 @@
     "sub_section": "",
     "original_sentence": "The criminal Clay’s clever plan was most certainly inspired by the colour of his accomplice’s hair.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a person who knowingly helps another person commit a crime or wrongdoing",
     "uncommonMeanings": [],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Police arrested the thief and his accomplice."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She acted as an accomplice in the fraud."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "An accomplice may face a separate charge."
+      }
+    ],
     "wordForms": {
       "noun": "accomplice（帮凶，共犯）；complicity（同谋，串通，共犯关系）",
       "verb": "",
@@ -3897,6 +5261,26 @@
         "phrase": "act as an accomplice",
         "translation": "充当帮凶",
         "example": "He acted as an accomplice by hiding the stolen goods. 他藏匿赃物，充当了帮凶。"
+      },
+      {
+        "phrase": "an alleged / willing accomplice",
+        "translation": "被指控的/自愿的同谋",
+        "example": "An alleged accomplice denied involvement. 一名被指控的同谋否认参与。"
+      },
+      {
+        "phrase": "aid and abet an accomplice",
+        "translation": "帮助和教唆同谋",
+        "example": "The law also punishes those who aid an accomplice. 法律也惩罚帮助同谋者。"
+      },
+      {
+        "phrase": "identify / arrest an accomplice",
+        "translation": "确认/逮捕同谋",
+        "example": "Footage helped identify the accomplice. 录像帮助确认了同谋。"
+      },
+      {
+        "phrase": "accomplice liability",
+        "translation": "共犯责任",
+        "example": "The lecture explained accomplice liability. 讲座解释了共犯责任。"
       }
     ],
     "synonyms": [
@@ -3915,7 +5299,8 @@
       {
         "synonym": "partner in crime",
         "translation": "作案同伙（口语/比喻）",
-        "example": "The two boys were partners in crime in every prank at school. 这两个男孩是学校里每场恶作剧的搭档。"
+        "example": "The two boys were partners in crime in every prank at school. 这两个男孩是学校里每场恶作剧的搭档。",
+        "usage": "partner in crime 是非正式名词短语，可真指共犯，也常幽默地指一起恶作剧的伙伴；accomplice 是正式法律用语，指明知并协助犯罪者。"
       }
     ],
     "advancedExpressions": [
@@ -3928,13 +5313,29 @@
         "type": "同义表达群·犯罪角色",
         "expression": "accomplice 帮凶 / accessory 从犯 / mastermind 主谋 / ringleader 头目 / the one who kept watch 望风者",
         "example": "The police caught the accomplices but the mastermind escaped. 警方抓住了帮凶，主谋却逃脱了。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "an alleged / willing accomplice / aid and abet an accomplice / identify / arrest an accomplice / accomplice liability",
+        "example": "An alleged accomplice denied involvement. 一名被指控的同谋否认参与。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Police arrested the thief and his accomplice.",
+        "upgraded": "Police arrested the thief and his accomplice, recovering the stolen jewellery from their car.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "She acted as an accomplice in the fraud.",
+        "upgraded": "She acted as an accomplice in the fraud, providing false documents to the main offender.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The police believe the thief did not act alone; he must have had an ______ (accomplice) waiting outside.",
+        "question": "The police believe the thief did not act alone; he must have had an ____ (accomplice) waiting outside.",
         "answer": "accomplice",
         "note": "空处需名词单数，前有冠词 an，直接填 accomplice。"
       },
@@ -3946,7 +5347,7 @@
       },
       {
         "type": "辨析选词",
-        "question": "用 accomplice / mastermind 填空：Although he was only the ______ who kept watch, the police were still after the ______ behind the whole plan.",
+        "question": "用 accomplice / mastermind 填空：Although he was only the ____ who kept watch, the police were still after the ____ behind the whole plan.",
         "answer": "accomplice; mastermind",
         "note": "望风的帮凶是 accomplice；策划全局的主谋是 mastermind。"
       }
@@ -3964,7 +5365,7 @@
     "sub_section": "",
     "original_sentence": "He was doing something in the cellar—something which took many hours a day for months on end.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "a room below ground level, usually used for storage",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -3982,7 +5383,20 @@
         "example": "The team finished the season in the cellar. 这支球队以垫底成绩结束了赛季。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The restaurant stores wine in a cool cellar."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Floodwater filled the farmhouse cellar."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A narrow staircase led down to the cellar."
+      }
+    ],
     "wordForms": {
       "noun": "cellar（地窖，地下室；酒窖）；cellarage（地窖空间/储存费）",
       "verb": "cellar（把酒存入酒窖储藏，较少用）",
@@ -4011,6 +5425,26 @@
         "phrase": "a wine cellar",
         "translation": "酒窖",
         "example": "The restaurant boasts a well-stocked wine cellar. 这家餐厅有一个藏酒丰富的酒窖。"
+      },
+      {
+        "phrase": "a damp / dark cellar",
+        "translation": "潮湿/黑暗的地窖",
+        "example": "Old papers decayed in the damp cellar. 旧文件在潮湿地窖中腐烂。"
+      },
+      {
+        "phrase": "cellar door / steps",
+        "translation": "地窖门/台阶",
+        "example": "The cellar door was locked from inside. 地窖门从里面锁着。"
+      },
+      {
+        "phrase": "store sth in a cellar",
+        "translation": "把某物储存在地窖",
+        "example": "They store root vegetables in the cellar. 他们把根茎蔬菜存于地窖。"
+      },
+      {
+        "phrase": "cellar level",
+        "translation": "地下层",
+        "example": "The pipes run below cellar level. 管道位于地下层以下。"
       }
     ],
     "synonyms": [
@@ -4037,19 +5471,35 @@
         "type": "同义表达群·地下空间",
         "expression": "cellar 储物地窖 / basement 地下层 / vault 拱顶地窖·金库 / dungeon 地牢 / crypt 地下墓室",
         "example": "The castle had a damp dungeon beneath its cellar. 这座城堡在地窖之下还有一间潮湿的地牢。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a damp / dark cellar / cellar door / steps / store sth in a cellar / cellar level",
+        "example": "Old papers decayed in the damp cellar. 旧文件在潮湿地窖中腐烂。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The restaurant stores wine in a cool cellar.",
+        "upgraded": "The restaurant stores wine in a cool cellar, protecting each bottle from heat and sunlight.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Floodwater filled the farmhouse cellar.",
+        "upgraded": "Floodwater filled the farmhouse cellar, damaging tools kept on the lowest shelves.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Holmes wanted to find out whether the ______ (cellar) stretched out in front of the shop or behind it.",
+        "question": "Holmes wanted to find out whether the ____ (cellar) stretched out in front of the shop or behind it.",
         "answer": "cellar",
         "note": "还原课文原句语境，空处填名词 cellar（地窖）。"
       },
       {
         "type": "辨析选词",
-        "question": "用 cellar / seller 填空：The wine ______ stored his finest bottles in a cool, dark ______.",
+        "question": "用 cellar / seller 填空：The wine ____ stored his finest bottles in a cool, dark ____.",
         "answer": "seller; cellar",
         "note": "第一空指“卖酒的人”用 seller；第二空指“阴凉黑暗的地窖”用 cellar。二者同音，靠句意区分。"
       },
@@ -4073,7 +5523,7 @@
     "sub_section": "",
     "original_sentence": "He was doing something in the cellar—something which took many hours a day for months on end.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) continuously for a long time (2) standing upright on a narrow end",
     "uncommonMeanings": [
       {
         "partOfSpeech": "phrase",
@@ -4086,8 +5536,27 @@
         "example": "The boxes were stacked on end to save space. 箱子竖着叠放以节省空间。"
       }
     ],
-    "posExamples": {},
-    "wordForms": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Rain fell for three days on end."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "The guard worked for hours on end."
+      },
+      {
+        "partOfSpeech": "phrase",
+        "sentence": "Stand the box on end to fit it through the door."
+      }
+    ],
+    "wordForms": {
+      "noun": "end 末端；结束",
+      "verb": "end 结束",
+      "adjective": "endless 连续不断的",
+      "adverb": "on end 连续地",
+      "other": "for + 时间段 + on end 表连续很久；stand sth on end 表把某物竖起来。"
+    },
     "idioms": [
       {
         "idiom": "make one's hair stand on end",
@@ -4115,6 +5584,26 @@
         "phrase": "make one's hair stand on end",
         "translation": "使人毛骨悚然，令人汗毛倒竖",
         "example": "The scream in the dark made my hair stand on end. 黑暗中的尖叫让我毛骨悚然。"
+      },
+      {
+        "phrase": "night after night on end",
+        "translation": "连续许多个夜晚",
+        "example": "He worked night after night on end. 他连续许多个夜晚工作。"
+      },
+      {
+        "phrase": "sit / wait on end",
+        "translation": "连续坐着/等待",
+        "example": "Passengers waited for hours on end. 乘客连续等了数小时。"
+      },
+      {
+        "phrase": "balance sth on end",
+        "translation": "使某物竖立保持平衡",
+        "example": "She balanced the pole on end. 她把杆竖着保持平衡。"
+      },
+      {
+        "phrase": "end-to-end",
+        "translation": "端到端的（形近结构辨析）",
+        "example": "The team completed an end-to-end test. 团队完成了端到端测试。"
       }
     ],
     "synonyms": [
@@ -4141,19 +5630,35 @@
         "type": "同义表达群·表“连续/接连”",
         "expression": "for days on end 一连数日 / day after day 日复一日 / one ... after another 一个接一个 / without a break 毫不间断",
         "example": "He revised without a break, day after day, until the exam. 他日复一日毫不停歇地复习，直到考试。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "night after night on end / sit / wait on end / balance sth on end / end-to-end",
+        "example": "He worked night after night on end. 他连续许多个夜晚工作。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "Rain fell for three days on end.",
+        "upgraded": "Rain fell for three days on end, flooding fields across the lower valley.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The guard worked for hours on end.",
+        "upgraded": "The guard worked for hours on end, remaining alert despite the cold.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "The assistant stayed down in the cellar for months ______ ______, never coming up during the day.",
+        "question": "The assistant stayed down in the cellar for months ____ ____, never coming up during the day.",
         "answer": "on end",
         "note": "for months on end = 一连好几个月；固定习语，填 on end。"
       },
       {
         "type": "辨析选词",
-        "question": "用 on end / in the end 填空：It rained for weeks ______, but ______ the sun finally broke through.",
+        "question": "用 on end / in the end 填空：It rained for weeks ____, but ____ the sun finally broke through.",
         "answer": "on end; in the end",
         "note": "for weeks on end = 连续数周；in the end = 最终。二者形近义异，勿混。"
       },
@@ -4177,7 +5682,7 @@
     "sub_section": "",
     "original_sentence": "I could think of nothing except that he was digging a tunnel to some other building.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "(1) n. a passage dug through or under ground (2) v. to dig or move through something",
     "uncommonMeanings": [
       {
         "partOfSpeech": "n.",
@@ -4195,7 +5700,20 @@
         "example": "The workers tunnelled under the river. 工人们在河底挖隧道。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A railway tunnel passes beneath the mountain."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The animal tunnelled under the garden fence."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Emergency lights line the tunnel walls."
+      }
+    ],
     "wordForms": {
       "noun": "tunnel（隧道，地道）；tunnelling（英）/ tunneling（美）（挖隧道，隧道工程）",
       "verb": "tunnel（挖隧道）；过去式/过去分词 tunnelled/tunnelled（英）、tunneled/tunneled（美）",
@@ -4235,6 +5753,26 @@
         "phrase": "tunnel one's way (through / into)",
         "translation": "（作动词）挖地道前行/钻入",
         "example": "The prisoners tunnelled their way out of the jail. 囚犯们挖地道逃出了监狱。"
+      },
+      {
+        "phrase": "a tunnel entrance / exit",
+        "translation": "隧道入口/出口",
+        "example": "Snow blocked the tunnel entrance. 积雪堵住了隧道入口。"
+      },
+      {
+        "phrase": "a road / rail tunnel",
+        "translation": "公路/铁路隧道",
+        "example": "The rail tunnel opened last year. 铁路隧道去年通车。"
+      },
+      {
+        "phrase": "tunnel vision",
+        "translation": "视野狭窄；只顾一点",
+        "example": "Stress can give managers tunnel vision. 压力会使管理者目光狭窄。"
+      },
+      {
+        "phrase": "tunnel through rock",
+        "translation": "凿岩穿洞",
+        "example": "Machines tunnelled through solid rock. 机器凿穿了坚硬岩石。"
       }
     ],
     "synonyms": [
@@ -4261,19 +5799,35 @@
         "type": "构词·名动同形词群",
         "expression": "tunnel（隧道→挖隧道）/ channel（水道→引导）/ funnel（漏斗→汇集），三词皆名动同形且英式动词双写辅音",
         "example": "The charity channelled the funds into rural schools. 慈善机构把资金引向乡村学校。"
+      },
+      {
+        "type": "课堂结构·核心用法",
+        "expression": "a tunnel entrance / exit / a road / rail tunnel / tunnel vision / tunnel through rock",
+        "example": "Snow blocked the tunnel entrance. 积雪堵住了隧道入口。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "A railway tunnel passes beneath the mountain.",
+        "upgraded": "A railway tunnel passes beneath the mountain, shortening the route by nearly twenty kilometres.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "The animal tunnelled under the garden fence.",
+        "upgraded": "The animal tunnelled under the garden fence, leaving a small mound of loose soil.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "Holmes realized the assistant was ______ (tunnel) under the street towards the bank next door.",
+        "question": "Holmes realized the assistant was ____ (tunnel) under the street towards the bank next door.",
         "answer": "tunnelling / tunneling",
         "note": "was 后接现在分词表进行；tunnel 作动词，英式双写 l 为 tunnelling，美式 tunneling，均可。"
       },
       {
         "type": "完成句子",
-        "question": "苦干数月后，我们终于看到了希望的曙光。After months of hard work, we can finally see ______ ______ ______ ______ ______ the tunnel.",
+        "question": "苦干数月后，我们终于看到了希望的曙光。After months of hard work, we can finally see ____ ____ ____ ____ ____ the tunnel.",
         "answer": "light at the end of",
         "note": "习语 light at the end of the tunnel = 困境尽头的希望。"
       },
@@ -4297,7 +5851,7 @@
     "sub_section": "",
     "original_sentence": "You must yourself have noticed how worn, wrinkled, and stained they were.",
     "readingExamples": [],
-    "definitionEn": "",
+    "definitionEn": "marked or discoloured by a substance that is difficult to remove",
     "uncommonMeanings": [
       {
         "partOfSpeech": "adj.",
@@ -4330,7 +5884,20 @@
         "example": "The defeat was a stain on the team's record. 这场失利是球队战绩上的一个污点。"
       }
     ],
-    "posExamples": {},
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The laboratory coat was stained with ink."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Smoke had stained the kitchen ceiling."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Sunlight passed through the stained glass."
+      }
+    ],
     "wordForms": {
       "noun": "stain（污渍，污点）",
       "verb": "stain（弄脏，玷污）; 过去式/过去分词 stained",
@@ -4364,6 +5931,21 @@
         "phrase": "stained glass",
         "translation": "彩色玻璃，花窗玻璃（固定搭配，此处 stained 指“着色的”而非“弄脏的”）",
         "example": "The church is famous for its stained glass windows. 这座教堂以彩色玻璃窗闻名。"
+      },
+      {
+        "phrase": "badly / permanently stained",
+        "translation": "严重/永久染色",
+        "example": "The carpet was permanently stained. 地毯留下了永久污渍。"
+      },
+      {
+        "phrase": "stain-resistant fabric",
+        "translation": "防污面料（词族复合词）",
+        "example": "The seats use stain-resistant fabric. 座椅使用防污面料。"
+      },
+      {
+        "phrase": "one's reputation is stained",
+        "translation": "名誉受损（比喻）",
+        "example": "The scandal stained his reputation. 丑闻损害了他的名誉。"
       }
     ],
     "synonyms": [
@@ -4408,31 +5990,42 @@
         "example": "Learning by rote gradually wears away our passion and eats away at our self-esteem. 死记硬背会逐渐消磨我们的热情，一点点侵蚀我们的自尊。"
       }
     ],
-    "sentenceUpgrade": [],
+    "sentenceUpgrade": [
+      {
+        "original": "The laboratory coat was stained with ink.",
+        "upgraded": "The laboratory coat was stained with ink, revealing where the bottle had spilled.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      },
+      {
+        "original": "Smoke had stained the kitchen ceiling.",
+        "upgraded": "Smoke had stained the kitchen ceiling, leaving a dark patch above the stove.",
+        "techniques": "保留原句主体、事实与场景，补充结果或后续影响，增强因果层次。"
+      }
+    ],
     "classPractice": [
       {
         "type": "单句语法填空",
-        "question": "You must yourself have noticed how worn, wrinkled, and ______ (stain) they were.",
+        "question": "You must yourself have noticed how worn, wrinkled, and ____ (stain) they were.",
         "answer": "stained",
         "note": "stain 的过去分词转形容词，与 worn、wrinkled 并列作表语，表被动状态“被弄脏的”。"
       },
       {
-        "type": "选词填空（stained / stainless / dirty）",
-        "question": "The kitchen was fitted with ______ steel counters that never rust. 厨房装的是永不生锈的____钢台面。",
+        "type": "选词填空",
+        "question": "The kitchen was fitted with ____ steel counters that never rust. 厨房装的是永不生锈的____钢台面。",
         "answer": "stainless",
-        "note": "stainless steel 不锈钢为固定搭配；stained 是“沾污渍的”，dirty 泛指“脏的”，均不合此处“不锈”之义。"
+        "note": "原题型标注：选词填空（stained / stainless / dirty）。stainless steel 不锈钢为固定搭配；stained 是“沾污渍的”，dirty 泛指“脏的”，均不合此处“不锈”之义。"
       },
       {
-        "type": "汉译英（完成句子）",
-        "question": "那件衬衫沾满了墨水。That shirt ______ ______ ______ ink.",
+        "type": "汉译英",
+        "question": "那件衬衫沾满了墨水。That shirt ____ ____ ____ ink.",
         "answer": "was stained with",
-        "note": "be stained with sth. 表“被…弄脏、沾满…”；stain 用作动词的被动结构。"
+        "note": "原题型标注：汉译英（完成句子）。be stained with sth. 表“被…弄脏、沾满…”；stain 用作动词的被动结构。"
       },
       {
-        "type": "辨析选词（stain 动词/名词义）",
-        "question": "The scandal will ______ his reputation for years to come.（选 stain 恰当词形与义）",
+        "type": "辨析选词",
+        "question": "The scandal will ____ his reputation for years to come.（选 stain 恰当词形与义）",
         "answer": "stain",
-        "note": "此处 stain 作及物动词，取抽象义“玷污（名誉）”，宾语 his reputation，用原形与情态动词 will 搭配。"
+        "note": "原题型标注：辨析选词（stain 动词/名词义）。此处 stain 作及物动词，取抽象义“玷污（名誉）”，宾语 his reputation，用原形与情态动词 will 搭配。"
       }
     ]
   }

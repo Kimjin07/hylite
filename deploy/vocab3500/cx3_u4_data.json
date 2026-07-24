@@ -312,7 +312,7 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "The passions blew me in a wayward course."
+        "sentence": "A wayward gust pushed the paper boat away from the marked course."
       },
       {
         "partOfSpeech": "adj.",
@@ -602,15 +602,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vi.",
-        "sentence": "He shivered in the cold wind."
+        "sentence": "A sudden chill made everyone in the unheated room shiver."
       },
       {
         "partOfSpeech": "vi.",
-        "sentence": "She shivered with fear."
+        "sentence": "The actor shivered visibly while waiting outside the locked theatre."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "A shiver ran down his spine."
+        "sentence": "A nervous shiver interrupted his attempt to speak."
       }
     ],
     "wordForms": {
@@ -702,14 +702,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The sound frightened her.",
+        "original": "The hollow sound frightened her and made her shiver.",
         "upgraded": "The hollow sound sent a shiver down her spine.",
-        "techniques": "用 send a shiver down one's spine 增强感官描写。"
+        "techniques": "用 send a shiver down one's spine 保留声音引发恐惧和颤抖这一事实。"
       },
       {
-        "original": "He was very cold and shook.",
+        "original": "He stood in the icy wind, shaking because he was very cold.",
         "upgraded": "He stood shivering uncontrollably in the icy wind.",
-        "techniques": "用现在分词与副词写持续状态。"
+        "techniques": "用 shiver 和副词凝练同一寒风场景中的持续颤抖。"
       }
     ],
     "classPractice": [
@@ -1501,7 +1501,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Number holds sway above the flux."
+        "sentence": "His calm explanation swayed several undecided committee members."
       },
       {
         "partOfSpeech": "vi.",
@@ -1808,7 +1808,7 @@
     "posExamples": [
       {
         "partOfSpeech": "vi.",
-        "sentence": "Cries of pain echo in my heart."
+        "sentence": "Her final question echoed the concern raised at the previous meeting."
       },
       {
         "partOfSpeech": "vi.",
@@ -2690,7 +2690,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "He was a pacifist who spoke out against war."
+        "sentence": "The pacifist refused to support any form of military action."
       },
       {
         "partOfSpeech": "n.",
@@ -4158,7 +4158,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Achilles's mother was a goddess named Thetis."
+        "sentence": "In the legend, the goddess protects travellers who cross the sea at night."
       },
       {
         "partOfSpeech": "n.",
@@ -4311,7 +4311,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Paris shot Achilles in his unprotected heel with an arrow."
+        "sentence": "The runner stopped when a sharp pain spread through her left heel."
       },
       {
         "partOfSpeech": "n.",
@@ -4623,7 +4623,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Achilles killed the Trojan prince Hector."
+        "sentence": "The young prince was educated far from the royal court."
       },
       {
         "partOfSpeech": "n.",
@@ -5379,7 +5379,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "We should live each day with gentleness and vigor."
+        "sentence": "She defended the proposal with remarkable vigor throughout the debate."
       },
       {
         "partOfSpeech": "n.",
@@ -5828,7 +5828,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Sight is one of our most valued faculties."
+        "sentence": "The faculty voted to revise the university's admission policy."
       },
       {
         "partOfSpeech": "n.",
@@ -5836,7 +5836,7 @@
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "He joined the faculty at a leading university."
+        "sentence": "After several years in industry, she returned to teach on the engineering faculty."
       }
     ],
     "wordForms": {
@@ -6354,14 +6354,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The changing seasons are very exciting.",
+        "original": "The changing seasons unfold like an exciting, unending drama.",
         "upgraded": "The changing seasons unfold like a thrilling and unending drama.",
-        "techniques": "用 unfold like 与课文词块构成动态比喻。"
+        "techniques": "用 thrilling 精确替换 exciting，保留季节更迭这一比喻。"
       },
       {
-        "original": "Everyone became excited when the result was announced.",
+        "original": "When the result was announced, everyone felt a sudden thrill of excitement.",
         "upgraded": "The announcement sent a thrill of excitement through the crowd.",
-        "techniques": "用 send a thrill through sb 描写兴奋迅速传开。"
+        "techniques": "用 send a thrill through sb 凝练同一结果公布场景。"
       }
     ],
     "classPractice": [
@@ -6402,7 +6402,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "What would I most want to let my gaze rest upon?"
+        "sentence": "His gaze shifted from the map to the darkening sky."
       },
       {
         "partOfSpeech": "vi.",
@@ -6498,12 +6498,12 @@
       {
         "original": "She looked at her teacher's face for a long time.",
         "upgraded": "She let her grateful gaze rest upon her teacher's familiar face.",
-        "techniques": "用 let one's gaze rest upon 和情感形容词深化视觉描写。"
+        "techniques": "用 let one's gaze rest upon 和情感形容词深化同一师生注视场景。"
       },
       {
         "original": "He looked away because he felt ashamed.",
-        "upgraded": "Unable to meet her gaze, he lowered his eyes in shame.",
-        "techniques": "用 meet/lower one's gaze 与原因状语丰富神态描写。"
+        "upgraded": "Ashamed, he broke his steady gaze and lowered his eyes.",
+        "techniques": "用 break one's gaze 与 lower one's eyes 描写同一人物因羞愧移开目光。"
       }
     ],
     "classPractice": [
@@ -6544,7 +6544,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "Their kindness and companionship made her life worth living."
+        "sentence": "Regular chess games gave both neighbours a welcome sense of companionship."
       },
       {
         "partOfSpeech": "n.",
@@ -7136,7 +7136,7 @@
     "posExamples": [
       {
         "partOfSpeech": "n.",
-        "sentence": "She would devote the day to a hasty glimpse of the world."
+        "sentence": "Through the closing doors, she glimpsed a familiar red coat."
       },
       {
         "partOfSpeech": "n.",
@@ -7144,7 +7144,7 @@
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "For a moment, he glimpsed the truth."
+        "sentence": "From the hill, we glimpsed the river bending around the village."
       }
     ],
     "wordForms": {
@@ -7828,14 +7828,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "The story indirectly suggests political ideas.",
+        "original": "Beneath its simple plot, the story contains indirect political suggestions.",
         "upgraded": "Beneath its simple plot, the story carries unmistakable political overtones.",
-        "techniques": "用 beneath its simple plot 和 carry overtones 强调表层与深意。"
+        "techniques": "用 carry political overtones 表达同一故事中的政治暗示。"
       },
       {
-        "original": "She sounded slightly angry.",
-        "upgraded": "An undertone of anger entered her otherwise calm voice.",
-        "techniques": "用 undertone of anger 精细描写隐藏情绪。"
+        "original": "Her otherwise calm voice contained a slight suggestion of anger.",
+        "upgraded": "Her otherwise calm voice carried a faint overtone of anger.",
+        "techniques": "用 carry an overtone of 精确表达同一语气中的隐约愤怒。"
       }
     ],
     "classPractice": [
@@ -8135,14 +8135,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "They argued about small unimportant things.",
-        "upgraded": "They allowed petty differences to develop into a bitter dispute.",
-        "techniques": "用 petty differences 与 develop into 呈现小事升级。"
+        "original": "A series of petty differences gradually damaged their relationship.",
+        "upgraded": "Their relationship was gradually damaged by a series of petty differences.",
+        "techniques": "用被动结构突出同一组琐碎分歧造成的关系损害。"
       },
       {
-        "original": "Good leaders do not care too much about tiny complaints.",
+        "original": "Good leaders ignore petty complaints and focus on the main goal.",
         "upgraded": "Good leaders rise above petty complaints and focus on the larger goal.",
-        "techniques": "用 rise above 与 focus on the larger goal 构成格局对比。"
+        "techniques": "用 rise above 和 larger goal 升级措辞，人物、行为和目标不变。"
       }
     ],
     "classPractice": [

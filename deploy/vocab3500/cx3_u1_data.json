@@ -110,14 +110,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Please come to the interview on time.",
-        "upgraded": "Please be punctual for the interview, as late arrivals may not be admitted.",
-        "techniques": "用 be punctual for 替换 come on time，并用 as 从句补充原因。"
+        "original": "She is always punctual for morning meetings.",
+        "upgraded": "She is always punctual for morning meetings, arriving five minutes early with every document ready.",
+        "techniques": "保留同一人物和晨会守时场景，用现在分词补充具体可见的守时行为"
       },
       {
-        "original": "She is never late for work.",
-        "upgraded": "Her unfailing punctuality has earned the trust of her colleagues.",
-        "techniques": "用名词 punctuality 作主语，并用 earn the trust of 提升表达。"
+        "original": "The train made a punctual departure at nine.",
+        "upgraded": "The train made a punctual departure at nine, despite the heavy snow that had delayed road traffic.",
+        "techniques": "保留列车九点准点出发的事实，用 despite 增加阻碍条件，突出 punctual"
       }
     ],
     "classPractice": [
@@ -555,6 +555,11 @@
         "type": "议论文·长期收益",
         "expression": "reap benefits that extend far beyond ...",
         "example": "Good time management brings benefits that extend far beyond the classroom."
+      },
+      {
+        "type": "读后续写·课堂仿写",
+        "expression": "sow a seed of kindness and reap the fruit of a warm heart",
+        "example": "Sow a seed of kindness, and you may reap the fruit of a warm heart.（课件仿写：sow... and reap...）"
       }
     ],
     "sentenceUpgrade": [
@@ -1157,6 +1162,11 @@
         "type": "同义改写·滞留",
         "expression": "leave sb stranded = leave sb unable to continue the journey",
         "example": "The cancelled service left hundreds of passengers unable to continue their journey."
+      },
+      {
+        "type": "读后续写·友情线索",
+        "expression": "weave one's lives / paths / fates together",
+        "example": "Little did we know that those simple moments of laughter were weaving our fates together into a lifelong friendship.（课件 speaker notes）"
       }
     ],
     "sentenceUpgrade": [
@@ -1653,15 +1663,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "Superlatives were inadequate to describe those eventful days."
+        "sentence": "The negotiations entered an eventful final phase."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "It was an eventful year for the research team."
+        "sentence": "After an eventful voyage, the crew returned safely."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "Her eventful career took her across four continents."
+        "sentence": "Her memoir covers an eventful decade in public service."
       }
     ],
     "wordForms": {
@@ -1747,14 +1757,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Many important things happened that year.",
-        "upgraded": "It proved an eventful year marked by rapid change and unexpected opportunity.",
-        "techniques": "用 eventful 凝练“发生许多重要事情”，并用过去分词短语补充特点。"
+        "original": "The negotiations entered an eventful final phase.",
+        "upgraded": "The negotiations entered an eventful final phase, marked by a sudden withdrawal, two late compromises and a decisive vote.",
+        "techniques": "保留谈判进入多事收尾阶段的场景，用三项并列具体展开 eventful 的内容"
       },
       {
-        "original": "The trip had many surprises.",
-        "upgraded": "Their eventful journey was filled with setbacks, discoveries and moments of unexpected kindness.",
-        "techniques": "用 eventful journey 和三项并列细化旅程。"
+        "original": "After an eventful voyage, the crew returned safely.",
+        "upgraded": "After an eventful voyage, the crew returned safely, carrying stories of a broken mast, a midnight rescue and an unexpected island landing.",
+        "techniques": "保留船员历经波折后安全返航的场景，用三项并列说明 voyage 为何 eventful"
       }
     ],
     "classPractice": [
@@ -2918,14 +2928,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We keep changing from one task to another.",
-        "upgraded": "We jump back and forth between multiple tasks, weakening our concentration.",
-        "techniques": "用 back and forth between 呼应课文，并用现在分词说明结果。"
+        "original": "Jumping back and forth between tasks reduces concentration.",
+        "upgraded": "Jumping back and forth between tasks reduces concentration, leaving each piece of work unfinished and error-prone.",
+        "techniques": "保留多任务切换导致注意力下降的场景，用 leaving 结果状语说明后果"
       },
       {
-        "original": "The report explains a new plan.",
-        "upgraded": "The report sets forth a practical plan for reducing procrastination.",
-        "techniques": "用 set forth 替换 explain，形成正式报告语体。"
+        "original": "The speaker set forth three practical principles.",
+        "upgraded": "The speaker set forth three practical principles, supporting each one with a familiar classroom example.",
+        "techniques": "保留演讲者阐述三条原则的事实，用现在分词补充阐述方式"
       }
     ],
     "classPractice": [
@@ -3062,6 +3072,11 @@
         "type": "语法术语·从句",
         "expression": "a subordinate clause depends on a main clause",
         "example": "Although he was tired is a subordinate clause."
+      },
+      {
+        "type": "同义表达群·强调优先级",
+        "expression": "prioritize A over B / give priority to A / subordinate B to A / A outweighs B",
+        "example": "We should prioritize long-term growth over immediate comfort, subordinating short-term wants to lasting goals.（课件 speaker notes）"
       }
     ],
     "sentenceUpgrade": [
@@ -3114,15 +3129,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "The first habit is to be proactive."
+        "sentence": "The maintenance team took proactive steps before the storm."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "A proactive learner searches out feedback."
+        "sentence": "Proactive communication prevented a minor delay from becoming a crisis."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "The school adopted a proactive approach to stress management."
+        "sentence": "A proactive manager asks for feedback before finalizing a plan."
       }
     ],
     "wordForms": {
@@ -3204,6 +3219,11 @@
         "type": "构词法·词族",
         "expression": "proactive → proactivity → proactively",
         "example": "She proactively sought feedback before the deadline."
+      },
+      {
+        "type": "读后续写·主动策略",
+        "expression": "a proactive strategy can work wonders when...",
+        "example": "A proactive strategy can work wonders when a team is struggling in the face of adversity.（课件仿写）"
       }
     ],
     "sentenceUpgrade": [
@@ -3352,6 +3372,11 @@
         "type": "科技表达·数据可视化",
         "expression": "visualize complex data in the form of a chart",
         "example": "The tool visualizes complex data in a clear chart."
+      },
+      {
+        "type": "课件仿写·目标想象",
+        "expression": "visualize oneself doing sth",
+        "example": "He could finally visualize himself learning the alphabet in the classroom he had long hoped for.（课件仿写）"
       }
     ],
     "sentenceUpgrade": [
@@ -3800,6 +3825,11 @@
         "type": "议论文·双刃剑",
         "expression": "relentless pursuit may produce achievement at the cost of health",
         "example": "Relentless ambition can bring success at the cost of mental health."
+      },
+      {
+        "type": "读后续写·意志品质",
+        "expression": "with unwavering focus and relentless determination",
+        "example": "Fully conscious of his predicament, he committed himself to practice with unwavering focus and relentless determination.（课件 speaker notes）"
       }
     ],
     "sentenceUpgrade": [
@@ -3952,14 +3982,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "He was always busy but made no progress.",
-        "upgraded": "He felt trapped on a hamster wheel, working faster without moving forward.",
-        "techniques": "用 hamster wheel 比喻徒劳忙碌，并用现在分词补充状态。"
+        "original": "The child keeps a hamster as a pet.",
+        "upgraded": "The child keeps a hamster as a pet, learning patience by feeding it and cleaning its cage each day.",
+        "techniques": "保留孩子饲养仓鼠的场景，用 learning 状语补充日常照料带来的成长"
       },
       {
-        "original": "The small animal stored food in its cheeks.",
-        "upgraded": "The hamster packed seeds into its expandable cheek pouches.",
-        "techniques": "用 hamster cheek pouches 和具体动词 packed 提升准确性。"
+        "original": "The hamster stores food in its cheek pouches.",
+        "upgraded": "The hamster stores food in its cheek pouches, carrying several seeds back to its nest at once.",
+        "techniques": "保留仓鼠颊囊储食的事实，用现在分词具体说明这一身体结构的作用"
       }
     ],
     "classPractice": [
@@ -4006,15 +4036,15 @@
     "posExamples": [
       {
         "partOfSpeech": "phr. v.",
-        "sentence": "If we always rush, we will eventually burn ourselves out."
+        "sentence": "A season of nonstop travel burned the actor out."
       },
       {
         "partOfSpeech": "phr. v.",
-        "sentence": "She burned herself out by working every weekend."
+        "sentence": "Young doctors can burn themselves out by refusing every break."
       },
       {
         "partOfSpeech": "phr. v.",
-        "sentence": "Rest before you become completely burned out."
+        "sentence": "Without recovery, even talented athletes may burn out."
       }
     ],
     "wordForms": {
@@ -4100,14 +4130,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "Working too much makes us very tired.",
-        "upgraded": "Working at a relentless pace can eventually burn us out.",
-        "techniques": "用 burn sb out 和 relentless pace 凝练长期耗竭。"
+        "original": "A season of nonstop travel burned the actor out.",
+        "upgraded": "A season of nonstop travel burned the actor out, leaving him too exhausted to enjoy the applause he had worked for.",
+        "techniques": "保留演员因长期奔波而耗竭的场景，用 leaving 结果状语细化身心代价"
       },
       {
-        "original": "She stopped resting and became exhausted.",
-        "upgraded": "By working every weekend without recovery, she gradually burned herself out.",
-        "techniques": "用 by doing 引出原因，并用反身结构 burn herself out。"
+        "original": "Young doctors can burn themselves out by refusing every break.",
+        "upgraded": "Young doctors can burn themselves out by refusing every break, mistaking constant exhaustion for professional dedication.",
+        "techniques": "保留年轻医生拒绝休息而耗竭的场景，用 mistaking 补充造成行为的错误观念"
       }
     ],
     "classPractice": [
@@ -4302,15 +4332,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "Low confidence can make you feel inferior to others."
+        "sentence": "The replacement lens proved inferior under low light."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "The cheaper product is inferior in quality."
+        "sentence": "He refused to accept an inferior role on the research team."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "No learner should be treated as socially inferior."
+        "sentence": "Inferior materials often fail long before the warranty ends."
       }
     ],
     "wordForms": {
@@ -4456,15 +4486,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vi.",
-        "sentence": "How much time does it take you to commute every day?"
-      },
-      {
-        "partOfSpeech": "vi.",
-        "sentence": "She commutes to work by train."
+        "sentence": "Thousands of nurses commute from nearby towns each day."
       },
       {
         "partOfSpeech": "n.",
-        "sentence": "He has a forty-minute commute."
+        "sentence": "His bicycle commute takes less than twenty minutes."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The court commuted the prisoner's sentence to five years."
       }
     ],
     "wordForms": {
@@ -4699,6 +4729,11 @@
         "type": "议论文·长期视角",
         "expression": "adopt a long-term outlook rather than chase immediate results",
         "example": "A long-term outlook supports sustainable progress."
+      },
+      {
+        "type": "同义表达群·积极心态",
+        "expression": "cultivate / maintain / adopt a positive outlook on life",
+        "example": "Even in difficult situations, she cultivated a positive outlook on life by noticing small daily joys.（课件仿写）"
       }
     ],
     "sentenceUpgrade": [
@@ -4841,18 +4876,23 @@
         "type": "同义表达群·即将到来",
         "expression": "upcoming / forthcoming / approaching / just around the corner",
         "example": "With exams just around the corner, planning matters."
+      },
+      {
+        "type": "辨析·upcoming vs ongoing",
+        "expression": "upcoming = about to happen（前置定语）; ongoing = continuing now（定语/表语）",
+        "example": "She prepared for the upcoming exam while keeping up with her ongoing project.（课件明确要求辨析）"
       }
     ],
     "sentenceUpgrade": [
       {
-        "original": "Think about events that will happen soon.",
-        "upgraded": "Review upcoming events before preparing your weekly to-do list.",
-        "techniques": "用 upcoming 作前置定语，并补充时间顺序。"
+        "original": "Think about upcoming events when making a to-do list.",
+        "upgraded": "Think about upcoming events when making a to-do list, assigning preparation time before each deadline becomes urgent.",
+        "techniques": "保留列清单时考虑未来事项的场景，用 assigning 说明具体规划动作"
       },
       {
-        "original": "The exam is soon.",
-        "upgraded": "With the upcoming exam just around the corner, she has revised her schedule.",
-        "techniques": "用 with 复合结构和 just around the corner 提升表达。"
+        "original": "The team is preparing for the upcoming competition.",
+        "upgraded": "The team is preparing for the upcoming competition, rehearsing under realistic conditions and reviewing every weak point.",
+        "techniques": "保留团队备赛场景，用两项并列现在分词展开准备内容"
       }
     ],
     "classPractice": [
@@ -5047,15 +5087,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Classify the activities in the four areas."
+        "sentence": "The archive classifies letters by date and author."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "Biologists classify animals by shared features."
+        "sentence": "Biologists classified the newly found frog as a separate species."
       },
       {
         "partOfSpeech": "vt.",
-        "sentence": "The record is classified as confidential."
+        "sentence": "This information is classified and cannot be published."
       }
     ],
     "wordForms": {
@@ -5137,6 +5177,11 @@
         "type": "构词法·y变i",
         "expression": "classify → classified → classification",
         "example": "The classification system makes tasks easier to manage."
+      },
+      {
+        "type": "辨析·classify vs clarify",
+        "expression": "classify sth into/as/by（分类）; clarify a point/situation（澄清）",
+        "example": "First classify the tasks by urgency; then clarify why each task belongs in that category.（课件明确要求辨析）"
       }
     ],
     "sentenceUpgrade": [
@@ -5512,15 +5557,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "If you are willing to squeeze, you will always get some."
-      },
-      {
-        "partOfSpeech": "vt.",
-        "sentence": "Squeeze the water from the sponge."
+        "sentence": "The editor squeezed another chart onto the final page."
       },
       {
         "partOfSpeech": "vi.",
-        "sentence": "We squeezed through the narrow doorway."
+        "sentence": "Passengers squeezed past one another at the doorway."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She squeezed his shoulder in silent encouragement."
       }
     ],
     "wordForms": {
@@ -5608,6 +5653,11 @@
         "type": "一词多义·动作与空间",
         "expression": "squeeze a sponge / squeeze sb's hand / squeeze through a gap",
         "example": "He squeezed her hand before they squeezed through the doorway."
+      },
+      {
+        "type": "读后续写·挤出时间",
+        "expression": "squeeze in time for sb / squeeze every spare minute into sth",
+        "example": "She squeezed in a ten-minute call with her parents, which strengthened their emotional bond.（课件仿写）"
       }
     ],
     "sentenceUpgrade": [
@@ -5666,15 +5716,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adj.",
-        "sentence": "Time is a finite resource."
+        "sentence": "The committee had only finite funds for the entire project."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "We have only a finite amount of energy."
+        "sentence": "A finite sequence ends after a fixed number of terms."
       },
       {
         "partOfSpeech": "adj.",
-        "sentence": "Every project has a finite lifespan."
+        "sentence": "The planet's usable land is finite."
       }
     ],
     "wordForms": {
@@ -5760,14 +5810,14 @@
     ],
     "sentenceUpgrade": [
       {
-        "original": "We do not have endless time.",
-        "upgraded": "Time is a finite resource that must be allocated deliberately.",
-        "techniques": "用 finite resource 和定语从句提升论述。"
+        "original": "The committee had only finite funds for the entire project.",
+        "upgraded": "The committee had only finite funds for the entire project, so every proposal had to justify its long-term value.",
+        "techniques": "保留项目资金有限的场景，用 so 结果分句说明资源约束下的决策标准"
       },
       {
-        "original": "People can pay attention to only a few things.",
-        "upgraded": "Human attention has a finite capacity, making constant multitasking ineffective.",
-        "techniques": "用 finite capacity，并用 making 结果状语说明后果。"
+        "original": "A finite sequence ends after a fixed number of terms.",
+        "upgraded": "A finite sequence ends after a fixed number of terms, unlike an infinite sequence that continues without limit.",
+        "techniques": "保留有限数列的数学事实，用 unlike 对比澄清 finite 与 infinite"
       }
     ],
     "classPractice": [
@@ -5808,15 +5858,15 @@
     "posExamples": [
       {
         "partOfSpeech": "vt.",
-        "sentence": "Use mind maps to brainstorm ideas."
+        "sentence": "Students brainstormed names for the new science club."
       },
       {
         "partOfSpeech": "vi.",
-        "sentence": "The team brainstormed for twenty minutes."
+        "sentence": "The designers held a silent brainstorming exercise."
       },
       {
-        "partOfSpeech": "vt.",
-        "sentence": "Students brainstormed possible solutions to the problem."
+        "partOfSpeech": "vi.",
+        "sentence": "Before judging any proposal, brainstorm as many alternatives as possible."
       }
     ],
     "wordForms": {
