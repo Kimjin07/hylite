@@ -1,0 +1,9 @@
+xb2_u2_data.json: 79 entries, 6 issues
+
+ISSUES:
+xb2_u2_data.json/joint: near-duplicate collocations at indexes 6/10
+xb2_u2_data.json/advent: near-duplicate collocations at indexes 3/8
+xb2_u2_data.json/ankle: near-duplicate collocations at indexes 1/5
+xb2_u2_data.json/opponent: near-duplicate collocations at indexes 6/10
+xb2_u2_data.json/net: near-duplicate collocations at indexes 2/5
+xb2_u2_data.json/towel: near-duplicate collocations at indexes 1/5

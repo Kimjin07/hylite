@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Compass</title>
+<style>
+:root {
+  --sidebar-w: 280px;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --primary-light: #eef2ff;
+  --primary-dark: #3730a3;
+  --accent: #f59e0b;
+  --bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --border: #e2e8f0;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 6px;
+  --transition: .2s ease;
+
+  --src-reading: #dbeafe;    --src-reading-text: #1e40af;
+  --src-grammar: #fce7f3;    --src-grammar-text: #9d174d;
+  --src-extended: #dcfce7;   --src-extended-text: #166534;
+  --src-integrated: #fef3c7; --src-integrated-text: #92400e;
+  --src-project: #f3e8ff;    --src-project-text: #6b21a8;
+  --src-welcome: #e0f2f1;    --src-welcome-text: #00695c;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.04);
+  --shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.06), 0 2px 4px rgba(0,0,0,.04);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+}
+
+/* ========= LOADING OVERLAY ========= */
+.loading-overlay {
+  position: fixed; top: 0; left: var(--sidebar-w); right: 0; bottom: 0;
+  background: var(--bg);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  z-index: 200; gap: 14px;
+  opacity: 1; transition: opacity .4s ease;
+}
+.loading-overlay.fade-out { opacity: 0; pointer-events: none; }
+.loading-spinner {
+  width: 44px; height: 44px;
+  border: 4px solid #e2e8f0; border-top-color: var(--primary);
+  border-radius: 50%; animation: spin .7s linear infinite;
+  will-change: transform;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { color: var(--text-secondary); font-size: .9rem; }
+/* 进度条：并行加载时按已完成文件数填充 */
+.loading-progress { width: 240px; max-width: 62vw; height: 6px; background: #e5e9f2; border-radius: 999px; overflow: hidden; margin-top: 2px; }
+.loading-progress-bar { height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--primary), #6366f1); transition: width .3s cubic-bezier(.22,.61,.36,1); }
+@media (prefers-reduced-motion: reduce) {
+  .loading-spinner { animation-duration: 1.4s; }
+  .loading-overlay { transition: none; }
+}
+.loading-sub { color: var(--text-muted); font-size: .78rem; }
+
+.load-error {
+  display: none; position: fixed; top: 0; left: var(--sidebar-w); right: 0; bottom: 0;
+  background: var(--bg); flex-direction: column; align-items: center; justify-content: center;
+  z-index: 200; gap: 12px;
+}
+.load-error.show { display: flex; }
+.load-error .err-icon { font-size: 2.5rem; margin-bottom: 4px; }
+.load-error .err-title { font-size: 1rem; font-weight: 600; color: #dc2626; }
+.load-error .err-msg { color: var(--text-secondary); font-size: .85rem; max-width: 480px; text-align: center; line-height: 1.7; }
+.load-error .err-retry {
+  margin-top: 8px; padding: 8px 24px; border-radius: 8px; border: none;
+  background: var(--primary); color: #fff; font-size: .85rem; cursor: pointer;
+  font-family: inherit; transition: background var(--transition);
+}
+.load-error .err-retry:hover { background: var(--primary-hover); }
+
+/* ========= SIDEBAR ========= */
+.sidebar {
+  width: var(--sidebar-w); min-width: var(--sidebar-w);
+  background: linear-gradient(180deg, #312e81 0%, #4338ca 40%, #4f46e5 100%);
+  color: #fff;
+  display: flex; flex-direction: column;
+  position: fixed; top: 0; left: 0; bottom: 0;
+  z-index: 100; overflow-y: auto;
+  box-shadow: 2px 0 24px rgba(79,70,229,.15);
+}
+.sidebar-brand { padding: 28px 24px 20px; border-bottom: 1px solid rgba(255,255,255,.1); display: flex; flex-direction: column; justify-content: center; }
+.sidebar-brand h2 { font-size: 1.25rem; font-weight: 700; letter-spacing: .02em; margin-bottom: 5px; line-height: 1.4; }
+.sidebar-brand .sidebar-subtitle { font-size: .82rem; color: rgba(255,255,255,.75); font-weight: 500; letter-spacing: .03em; margin-bottom: 6px; }
+.sidebar-brand .sidebar-desc { font-size: .7rem; opacity: .5; line-height: 1.5; }
+
+.sidebar-selectors {
+  padding: 14px 20px 8px; display: flex; flex-direction: column; gap: 6px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.selector-label { font-size: .64rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; opacity: .4; }
+.selector-select {
+  width: 100%; padding: 8px 12px; border-radius: 8px;
+  border: 1px solid rgba(255,255,255,.15); background: rgba(255,255,255,.1); color: #fff;
+  font-size: .82rem; font-family: inherit; outline: none; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 12px center;
+  transition: all var(--transition);
+}
+.selector-select:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.3); }
+.selector-select option { background: #4338ca; color: #fff; }
+
+.sidebar-nav { padding: 10px 12px; flex: 1; display: flex; flex-direction: column; gap: 2px; overflow-y: auto; }
+.sidebar-nav .nav-section { font-size: .64rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; opacity: .4; padding: 12px 12px 4px; }
+.nav-item {
+  display: flex; align-items: center; gap: 10px; padding: 9px 14px; border-radius: 10px;
+  font-size: .84rem; cursor: pointer; transition: all var(--transition);
+  color: rgba(255,255,255,.7); border: none; background: none; width: 100%;
+  text-align: left; font-family: inherit;
+}
+.nav-item:hover { background: rgba(255,255,255,.1); color: #fff; }
+.nav-item.active { background: rgba(255,255,255,.18); color: #fff; font-weight: 600; }
+.nav-item .badge { margin-left: auto; background: rgba(255,255,255,.2); font-size: .68rem; padding: 2px 8px; border-radius: 20px; font-weight: 500; min-width: 22px; text-align: center; }
+.nav-item.active .badge { background: rgba(255,255,255,.35); }
+
+.sidebar-footer { padding: 14px 20px 4px; border-top: 1px solid rgba(255,255,255,.1); font-size: .7rem; opacity: .4; }
+.sidebar-copyright { padding: 4px 20px 14px; font-size: .65rem; opacity: .3; line-height: 1.4; }
+
+/* ========= MAIN ========= */
+.main { margin-left: var(--sidebar-w); flex: 1; min-height: 100vh; }
+
+.topbar {
+  background: var(--card-bg); border-bottom: 1px solid var(--border);
+  padding: 14px 28px; display: flex; align-items: center; gap: 16px;
+  position: sticky; top: 0; z-index: 50;
+}
+.topbar-breadcrumb { font-size: .78rem; color: var(--text-muted); display: flex; align-items: center; gap: 6px; }
+.topbar-breadcrumb span { color: var(--primary); font-weight: 500; }
+.topbar-info { margin-left: auto; font-size: .8rem; color: var(--text-muted); }
+.topbar-info strong { color: var(--primary); font-weight: 600; }
+
+.topbar-search {
+  flex: 1; max-width: 460px;
+  display: flex; align-items: center; gap: 8px;
+  background: #f8fafc; border: 1.5px solid var(--border);
+  border-radius: 10px; padding: 5px 14px;
+  transition: all var(--transition);
+}
+.topbar-search:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99,102,241,.08);
+  background: var(--card-bg);
+}
+.topbar-search svg {
+  flex-shrink: 0; width: 16px; height: 16px; color: var(--text-muted);
+}
+.topbar-search input {
+  flex: 1; border: none; outline: none; background: none;
+  font-size: .88rem; color: var(--text); font-family: inherit; font-weight: 400;
+}
+.topbar-search input::placeholder { color: var(--text-muted); font-size: .82rem; }
+.topbar-search-clear {
+  border: none; background: none; color: var(--text-muted);
+  cursor: pointer; font-size: .95rem; padding: 0 2px; line-height: 1;
+  transition: color var(--transition); flex-shrink: 0;
+}
+.topbar-search-clear:hover { color: #ef4444; }
+
+.content { padding: 24px 28px 48px; max-width: 1060px; }
+
+/* Tab bar */
+.tab-bar {
+  display: flex; gap: 4px; margin-bottom: 24px;
+  background: var(--card-bg); border-radius: var(--radius);
+  padding: 4px; border: 1px solid var(--border);
+  position: sticky; top: 56px; z-index: 40;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.tab-btn {
+  flex: 1; padding: 10px 16px; border-radius: 12px;
+  border: none; background: none; font-size: .85rem; cursor: pointer;
+  color: var(--text-secondary); font-family: inherit; font-weight: 500;
+  transition: all var(--transition); display: flex; align-items: center; justify-content: center; gap: 6px;
+}
+.tab-btn:hover { color: var(--text); background: rgba(0,0,0,.03); }
+.tab-btn.active { background: var(--primary); color: #fff; box-shadow: 0 2px 8px rgba(99,102,241,.3); }
+.tab-btn .tab-badge { font-size: .68rem; background: rgba(0,0,0,.06); padding: 2px 8px; border-radius: 20px; }
+.tab-btn.active .tab-badge { background: rgba(255,255,255,.2); }
+
+/* ========= CARDS ========= */
+.vocab-card {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0; margin-bottom: 20px;
+  overflow: hidden; transition: box-shadow var(--transition);
+}
+.vocab-card:hover { box-shadow: var(--shadow-md); }
+
+.card-header { padding: 20px 28px 16px; border-bottom: 1px solid var(--border); background: linear-gradient(135deg, #fafbff 0%, #f8fafc 100%); }
+.card-header-top { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.card-word { font-size: 1.5rem; font-weight: 700; color: var(--text); }
+.card-pron { font-size: .82rem; color: var(--text-muted); font-weight: 400; }
+.card-pos { font-size: .78rem; color: var(--primary); background: var(--primary-light); padding: 3px 14px; border-radius: 20px; font-weight: 500; }
+.card-cn { color: var(--text-secondary); font-size: .92rem; margin-top: 5px; }
+
+/* English definition */
+.def-en {
+  margin-top: 8px; font-size: .82rem; color: var(--text-muted);
+}
+.def-en .def-label { font-weight: 600; font-style: normal; color: var(--primary); font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 5px; display: block; }
+.def-en-single {
+  padding: 8px 14px; background: #f8fafc; border-radius: var(--radius-xs);
+  border-left: 3px solid var(--primary-light); font-style: italic; line-height: 1.55;
+}
+.def-en-items { display: flex; flex-direction: column; gap: 5px; }
+.def-en-item {
+  padding: 9px 14px; background: #fafbff; border-radius: var(--radius-xs);
+  border-left: 3px solid #c7d2fe; font-style: italic; line-height: 1.6;
+  display: flex; align-items: flex-start; gap: 6px;
+}
+.def-en-item .def-num {
+  font-weight: 700; font-style: normal; color: var(--primary); font-size: .74rem;
+  flex-shrink: 0; background: var(--primary-light); min-width: 22px; height: 22px;
+  border-radius: 11px; display: inline-flex; align-items: center; justify-content: center;
+  margin-top: 1px;
+}
+.def-en-item .def-text { flex: 1; }
+
+.card-source-chip { display: inline-flex; align-items: center; gap: 4px; font-size: .72rem; padding: 3px 10px; border-radius: 20px; font-weight: 500; margin-top: 8px; }
+
+.card-body { padding: 18px 28px; }
+
+/* Section title */
+.sec-title { font-size: .78rem; font-weight: 600; color: var(--text); display: flex; align-items: center; gap: 6px; margin-bottom: 10px; margin-top: 10px; }
+.sec-title:first-child { margin-top: 0; }
+
+/* Word forms */
+.wf-grid { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.wf-chip { font-size: .8rem; padding: 3px 12px; border-radius: 20px; display: inline-flex; align-items: center; gap: 4px; background: #f1f5f9; color: var(--text-secondary); border: 1px solid #e2e8f0; }
+.wf-chip .wf-key { font-weight: 600; color: var(--text); font-size: .72rem; text-transform: uppercase; letter-spacing: .03em; }
+.irregular-badge { font-size: .82rem; background: #fffbeb; color: #b45309; padding: 6px 12px; border-radius: var(--radius-xs); border: 1px solid #fde68a; margin-bottom: 12px; }
+
+/* 熟词僻义 */
+.uncommon-box {
+  background: linear-gradient(135deg, #fef2f2 0%, #fdf2f8 100%);
+  border: 1px solid #fbcfe8; border-radius: var(--radius-sm);
+  padding: 12px 18px; margin-bottom: 14px;
+}
+.uncommon-box .sec-title { color: #9d174d; margin-bottom: 6px; margin-top: 0; }
+.uncommon-item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 6px; font-size: .84rem; line-height: 1.6; }
+.uncommon-item:last-child { margin-bottom: 0; }
+.uncommon-pos { font-weight: 700; color: #be185d; font-size: .78rem; white-space: nowrap; padding-top: 1px; }
+.uncommon-def { color: #831843; }
+.uncommon-ex { color: var(--text-muted); font-style: italic; font-size: .8rem; display: block; margin-top: 2px; }
+
+/* Reading native */
+.reading-block {
+  background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+  border: 1px solid #c7d2fe; border-radius: var(--radius-sm);
+  padding: 14px 18px; margin-bottom: 14px;
+}
+.reading-block .sec-title { color: var(--primary-dark); margin-bottom: 8px; margin-top: 0; }
+.reading-item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; font-size: .9rem; line-height: 1.7; color: #1a3c6e; }
+.reading-item:last-child { margin-bottom: 0; }
+.reading-item .rq { color: var(--primary); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; line-height: 1.4; }
+.reading-item .rt { flex: 1; font-style: italic; }
+
+/* POS examples */
+.example-item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 7px; font-size: .86rem; line-height: 1.65; }
+.example-item:last-child { margin-bottom: 0; }
+.ex-pos-label { font-size: .7rem; font-weight: 600; padding: 2px 10px; border-radius: 20px; flex-shrink: 0; white-space: nowrap; background: var(--primary-light); color: var(--primary-dark); min-width: 36px; text-align: center; }
+.ex-text { flex: 1; color: var(--text-secondary); font-style: italic; }
+
+/* Idioms */
+.idiom-section { margin-bottom: 10px; }
+.idiom-chip { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; padding: 5px 14px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 20px; margin: 0 5px 7px 0; color: #991b1b; }
+.idiom-chip-ex { font-size: .75rem; color: var(--text-muted); font-style: italic; display: block; margin-top: 1px; }
+
+/* Collocations */
+.colloc-section { margin-bottom: 10px; }
+.colloc-chip { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; padding: 5px 14px; background: #fefce8; border: 1px solid #fde68a; border-radius: 20px; margin: 0 5px 7px 0; color: #92400e; }
+
+/* Sentence upgrade inside card */
+.sentence-upgrade-section { margin-top: 10px; margin-bottom: 10px; }
+.su-item {
+  margin-bottom: 10px; padding: 10px 14px; border-radius: var(--radius-xs);
+  background: #f0fdf4; border: 1px solid #bbf7d0; font-size: .83rem;
+}
+.su-original { color: var(--text-muted); font-size: .78rem; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
+.su-original .su-tag { font-size: .64rem; background: #e2e8f0; color: #64748b; padding: 1px 7px; border-radius: 3px; font-weight: 500; }
+.su-upgraded { color: #166534; line-height: 1.65; margin-bottom: 4px; }
+.su-upgraded .su-tag { font-size: .64rem; background: #bbf7d0; color: #166534; padding: 1px 7px; border-radius: 3px; font-weight: 500; }
+.su-analysis { font-size: .74rem; color: var(--text-muted); line-height: 1.55; }
+
+/* Collapsible advanced */
+.adv-toggle { display: flex; align-items: center; gap: 6px; padding: 6px 0; border: none; background: none; font-size: .82rem; color: var(--primary); cursor: pointer; font-family: inherit; transition: color var(--transition); margin-top: 6px; }
+.adv-toggle:hover { color: var(--primary-dark); }
+.adv-toggle .arr { display: inline-block; transition: transform var(--transition); font-size: .6rem; }
+.adv-toggle.open .arr { transform: rotate(90deg); }
+
+.adv-box { display: none; padding: 14px 18px; margin-top: 8px; background: #fafbff; border-radius: var(--radius-sm); border: 1px dashed #c7d2fe; font-size: .83rem; }
+.adv-box.show { display: block; }
+.adv-group-title { font-size: .7rem; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: .05em; margin: 10px 0 4px; }
+.adv-group-title:first-child { margin-top: 0; }
+.adv-item { padding: 5px 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; color: var(--text-secondary); border-bottom: 1px solid #f1f5f9; }
+.adv-item:last-child { border-bottom: none; }
+.adv-item strong { color: var(--text); }
+
+/* ========= 课堂练习 (classPractice) ========= */
+.prac-toggle { color: #b45309; }
+.prac-toggle:hover { color: #92400e; }
+.prac-box { background: #fffbeb; border: 1px dashed #fcd34d; }
+.prac-item { padding: 7px 0; border-bottom: 1px solid #fef3c7; }
+.prac-item:last-child { border-bottom: none; }
+.prac-type { display: inline-block; font-size: .68rem; font-weight: 600; color: #92400e; background: #fef3c7; padding: 1px 8px; border-radius: 3px; margin-right: 6px; }
+.prac-q { color: var(--text); font-size: .84rem; }
+.prac-ans { display: inline-flex; align-items: baseline; gap: 5px; margin-left: 8px; cursor: pointer; user-select: none; }
+.prac-ans-label { font-size: .66rem; color: #b45309; border: 1px solid #fcd34d; border-radius: 3px; padding: 0 5px; }
+.prac-ans-text { color: #b45309; font-weight: 600; font-size: .82rem; filter: blur(5px); transition: filter .15s; }
+.prac-ans.revealed .prac-ans-text { filter: none; }
+.prac-note { display: block; font-size: .74rem; color: #92400e; margin-top: 2px; font-style: italic; }
+
+/* ========= CUSTOM VOCAB NOTES (words.json full notes) ========= */
+.note-section { margin: 16px 0; }
+.note-section-title {
+  font-size: .76rem; font-weight: 700; color: var(--text);
+  display: flex; align-items: center; gap: 6px; margin-bottom: 10px;
+  text-transform: uppercase; letter-spacing: .04em;
+  padding-bottom: 6px; border-bottom: 2px solid var(--primary); width: fit-content;
+}
+
+/* Cultural note */
+.cultural-box {
+  background: linear-gradient(135deg, #fefce8 0%, #fef3c7 100%);
+  border: 1px solid #fde68a;
+  border-radius: var(--radius-sm); padding: 14px 18px; margin-bottom: 14px;
+  font-size: .84rem; color: #92400e; line-height: 1.75;
+}
+
+/* Definitions CN */
+.def-cn-list { padding-left: 0; list-style: none; }
+.def-cn-item {
+  padding: 8px 14px; margin-bottom: 6px;
+  background: linear-gradient(135deg, #eff6ff, #f0f4ff);
+  border: 1px solid #dbeafe; border-radius: 8px;
+  font-size: .84rem; color: #1e40af; line-height: 1.65;
+}
+.def-cn-item .def-cn-num { font-weight: 700; color: var(--primary); margin-right: 6px; }
+
+/* Textbook sentence */
+.textbook-box {
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border: 1px solid #c4b5fd; border-radius: var(--radius-sm);
+  padding: 14px 18px; margin-bottom: 14px;
+  font-size: .86rem; color: #5b21b6; line-height: 1.8; font-style: italic;
+}
+.textbook-box .tb-source { font-size: .72rem; color: #7c3aed; font-style: normal; display: block; margin-top: 6px; }
+
+/* Example items */
+.custom-example-item {
+  padding: 12px 16px; margin-bottom: 8px;
+  background: #fafbff; border: 1px solid #e2e8f0; border-radius: 10px;
+}
+.custom-example-item .ex-tag {
+  display: inline-block; font-size: .68rem; font-weight: 600;
+  padding: 3px 10px; border-radius: 12px; margin-bottom: 6px;
+  color: var(--primary-dark); background: var(--primary-light);
+}
+.custom-example-item .ex-sentence { font-size: .86rem; color: var(--text); font-style: italic; line-height: 1.7; }
+.custom-example-item .ex-scene-hint { font-size: .72rem; color: var(--text-muted); margin-top: 4px; }
+
+/* Idiom items */
+.custom-idiom-item {
+  padding: 12px 16px; margin-bottom: 8px;
+  background: linear-gradient(135deg, #fef2f2, #fff7ed);
+  border: 1px solid #fecaca; border-radius: 10px;
+}
+.custom-idiom-item .idiom-phrase { font-size: .92rem; font-weight: 700; color: #991b1b; margin-bottom: 4px; }
+.custom-idiom-item .idiom-meaning { font-size: .78rem; color: #b45309; margin-bottom: 6px; }
+.custom-idiom-item .idiom-example { font-size: .83rem; color: var(--text-secondary); font-style: italic; line-height: 1.65; }
+.custom-idiom-item .idiom-scene { font-size: .7rem; color: var(--text-muted); margin-top: 4px; }
+
+/* Upgrade items */
+.custom-upgrade-item {
+  padding: 14px 16px; margin-bottom: 10px;
+  background: linear-gradient(135deg, #f0fdf4, #ecfccb);
+  border: 1px solid #bbf7d0; border-radius: 10px;
+}
+.custom-upgrade-item .upgrade-orig { font-size: .78rem; color: #64748b; margin-bottom: 6px; }
+.custom-upgrade-item .upgrade-orig .orig-label {
+  font-size: .64rem; background: #e2e8f0; color: #64748b; padding: 2px 8px; border-radius: 4px; font-weight: 600;
+}
+.custom-upgrade-item .upgrade-new { font-size: .85rem; color: #166534; line-height: 1.75; margin-bottom: 4px; }
+.custom-upgrade-item .upgrade-scene { font-size: .7rem; color: var(--text-muted); margin-top: 6px; }
+
+/* Synonym items */
+.custom-synonym-item {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
+  padding: 10px 14px; margin-bottom: 6px;
+  background: #fafbff; border: 1px solid #e2e8f0; border-radius: 8px;
+  font-size: .83rem;
+}
+.custom-synonym-item .syn-word { font-weight: 700; color: var(--primary-dark); min-width: 120px; }
+.custom-synonym-item .syn-note { color: var(--text-muted); font-size: .74rem; }
+.custom-synonym-item .syn-example { color: var(--text-secondary); font-style: italic; flex: 1 1 100%; line-height: 1.6; margin-top: 4px; }
+.custom-synonym-item .syn-scene { font-size: .7rem; color: var(--text-muted); }
+
+/* Advanced expression items */
+.custom-expr-item {
+  padding: 12px 16px; margin-bottom: 8px;
+  background: linear-gradient(135deg, #fdf4ff, #faf5ff);
+  border: 1px solid #e9d5ff; border-radius: 10px;
+}
+.custom-expr-item .expr-pattern {
+  font-size: .82rem; font-weight: 700; color: #7c3aed; margin-bottom: 4px;
+}
+.custom-expr-item .expr-scene { font-size: .7rem; color: #9333ea; margin-bottom: 6px; }
+.custom-expr-item .expr-example { font-size: .84rem; color: var(--text); font-style: italic; line-height: 1.7; }
+
+/* Note tag badge */
+.note-tag {
+  display: inline-block; font-size: .67rem; font-weight: 600;
+  padding: 2px 8px; border-radius: 4px;
+  background: var(--primary-light); color: var(--primary-dark);
+  margin-left: 6px; vertical-align: middle;
+}
+
+/* ========= LONG SENTENCES ========= */
+.ls-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 28px; margin-bottom: 16px; }
+.ls-card:hover { box-shadow: var(--shadow-md); }
+.ls-en { font-size: .95rem; color: var(--text); line-height: 1.85; margin-bottom: 10px; font-style: italic; }
+.ls-cn { font-size: .85rem; color: var(--text-secondary); margin-bottom: 12px; }
+.ls-analysis { font-size: .8rem; color: var(--text-muted); padding: 10px 14px; background: #f8fafc; border-radius: var(--radius-xs); line-height: 1.7; margin-bottom: 10px; }
+.ls-structure { font-size: .72rem; background: #eef2ff; color: var(--primary); padding: 1px 8px; border-radius: 4px; margin-right: 6px; font-weight: 500; }
+.ls-pattern { font-size: .82rem; color: #6b21a8; background: #faf5ff; padding: 8px 14px; border-radius: var(--radius-xs); margin-bottom: 12px; line-height: 1.6; font-style: italic; }
+.ls-pattern .pat-label { font-weight: 600; color: #7c3aed; font-style: normal; margin-right: 6px; font-size: .75rem; }
+.ls-imit { background: #fffbeb; border: 1px dashed #fbbf24; border-radius: var(--radius-sm); padding: 14px 18px; margin-top: 12px; }
+.ls-imit .imit-title { font-size: .78rem; font-weight: 600; color: #92400e; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+.ls-imit .imit-cn { font-size: .85rem; color: #1e293b; margin-bottom: 8px; line-height: 1.7; }
+.ls-imit .imit-hint { font-size: .75rem; color: #94a3b8; font-style: italic; margin-bottom: 8px; }
+.ls-imit .imit-type { font-size: .68rem; background: #fef3c7; color: #92400e; padding: 2px 10px; border-radius: 12px; font-weight: 500; }
+.ls-imit .imit-answer-btn { font-size: .75rem; color: #d97706; background: none; border: 1px solid #fcd34d; border-radius: 6px; padding: 4px 14px; cursor: pointer; font-family: inherit; font-weight: 500; transition: all .2s; }
+.ls-imit .imit-answer-btn:hover { background: #fef3c7; border-color: #f59e0b; }
+.ls-imit .imit-answer-btn.open { background: #fef3c7; }
+.ls-imit .imit-answer { display: none; margin-top: 10px; padding: 10px 0; font-size: .84rem; color: var(--text-secondary); line-height: 1.7; }
+.ls-imit .imit-answer.show { display: block; }
+.ls-source-tag { display: inline-flex; align-items: center; gap: 4px; font-size: .7rem; padding: 2px 10px; border-radius: 12px; font-weight: 500; margin-bottom: 10px; }
+
+/* ========= WRITING ========= */
+.w-main-topic { background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%); border: 1px solid #c7d2fe; border-radius: var(--radius); padding: 20px 28px; margin-bottom: 20px; }
+.w-main-topic .wmt-label { font-size: .7rem; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 2px; }
+.w-main-topic .wmt-title { font-size: 1.08rem; font-weight: 700; color: var(--text); }
+.w-main-topic .wmt-sub { font-size: .8rem; color: var(--text-secondary); margin-top: 2px; }
+
+.w-subtopic-tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.w-subtopic-btn { flex: 1; min-width: 140px; padding: 14px 16px; border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--card-bg); cursor: pointer; font-family: inherit; transition: all var(--transition); text-align: left; }
+.w-subtopic-btn:hover { border-color: var(--primary); box-shadow: var(--shadow-sm); }
+.w-subtopic-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); box-shadow: 0 2px 12px rgba(99,102,241,.25); }
+.w-subtopic-btn .wsb-section { font-size: .64rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; display: block; margin-bottom: 2px; opacity: .7; }
+.w-subtopic-btn.active .wsb-section { opacity: .8; }
+.w-subtopic-btn .wsb-title { font-size: .83rem; font-weight: 600; line-height: 1.4; }
+.w-subtopic-btn .wsb-desc { font-size: .72rem; line-height: 1.5; margin-top: 4px; opacity: .6; }
+.w-subtopic-btn.active .wsb-desc { opacity: .8; }
+
+.w-prompt-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 28px; margin-bottom: 16px; }
+.w-prompt-card:hover { box-shadow: var(--shadow-md); }
+.w-prompt-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.w-prompt-source { font-size: .72rem; padding: 3px 12px; border-radius: 20px; font-weight: 500; }
+.w-prompt-source.mock { background: #eef2ff; color: #4f46e5; }
+.w-prompt-source.ielts { background: #fef3c7; color: #92400e; }
+.w-prompt-task { font-size: .88rem; color: var(--text); line-height: 1.85; margin-bottom: 16px; }
+
+.w-ref-section { margin-top: 8px; }
+.w-ref-toggle { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border: 1px solid var(--border); border-radius: var(--radius-xs); background: #fafbff; cursor: pointer; font-family: inherit; font-size: .82rem; color: var(--primary); font-weight: 500; transition: all var(--transition); }
+.w-ref-toggle:hover { background: var(--primary-light); border-color: #c7d2fe; }
+.w-ref-toggle .wr-arr { font-size: .6rem; transition: transform var(--transition); }
+.w-ref-toggle.open .wr-arr { transform: rotate(90deg); }
+.w-ref-body { display: none; margin-top: 12px; padding: 16px 20px; background: #fafbff; border-radius: var(--radius-sm); border: 1px dashed #c7d2fe; font-size: .84rem; color: var(--text-secondary); line-height: 1.85; }
+.w-ref-body.show { display: block; }
+.w-vocab-hints { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.w-vocab-chip { font-size: .74rem; padding: 3px 10px; border-radius: 12px; background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+.w-prompt-empty { text-align: center; padding: 32px 20px; color: var(--text-muted); font-size: .88rem; }
+
+/* 雅思字数 + 评分要点 */
+.w-wordcount { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-size: .76rem; font-weight: 600; color: #92400e; background: #fef3c7; border: 1px solid #fde68a; padding: 4px 12px; border-radius: 20px; }
+.w-score-box { margin-top: 14px; border: 1px solid #fde68a; border-radius: var(--radius-sm); overflow: hidden; }
+.w-score-head { background: #fffbeb; padding: 9px 14px; font-size: .8rem; font-weight: 700; color: #92400e; border-bottom: 1px solid #fde68a; }
+.w-score-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.w-score-col { padding: 12px 16px; }
+.w-score-col:first-child { border-right: 1px dashed #fde68a; }
+.w-score-col .wsc-title { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; margin-bottom: 8px; }
+.w-score-col.band .wsc-title { color: #b45309; }
+.w-score-col.vs .wsc-title { color: #4f46e5; }
+.w-score-col ul { margin: 0; padding-left: 16px; }
+.w-score-col li { font-size: .78rem; line-height: 1.65; color: var(--text-secondary); margin-bottom: 6px; }
+.w-score-col li:last-child { margin-bottom: 0; }
+@media (max-width: 640px) { .w-score-cols { grid-template-columns: 1fr; } .w-score-col:first-child { border-right: none; border-bottom: 1px dashed #fde68a; } }
+
+/* ========= USAGE FOOTER ========= */
+.usage-footer {
+  margin-top: 24px; padding: 16px 20px;
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); font-size: .78rem; color: var(--text-muted); line-height: 1.7;
+}
+.usage-footer .uf-title { font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; }
+.usage-footer a { color: var(--primary); text-decoration: none; }
+.usage-footer a:hover { text-decoration: underline; }
+
+/* ========= MOBILE ========= */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .main { margin-left: 0; }
+  .content { padding: 16px; }
+  .tab-btn { font-size: .78rem; padding: 8px 10px; }
+  .loading-overlay, .load-error { left: 0; }
+}
+
+.chip-Reading     { background: var(--src-reading); color: var(--src-reading-text); }
+.chip-Grammar     { background: var(--src-grammar); color: var(--src-grammar-text); }
+.chip-Extended    { background: var(--src-extended); color: var(--src-extended-text); }
+.chip-Integrated  { background: var(--src-integrated); color: var(--src-integrated-text); }
+.chip-Project     { background: var(--src-project); color: var(--src-project-text); }
+.chip-Welcome     { background: var(--src-welcome); color: var(--src-welcome-text); }
+
+/* ========= WELCOME PANEL ========= */
+.welcome-panel {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: calc(100vh - 120px); text-align: center; padding: 60px 40px;
+}
+.welcome-icon { font-size: 4rem; margin-bottom: 24px; animation: float 3s ease-in-out infinite; }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+.welcome-title {
+  font-size: 2.2rem; font-weight: 800; color: var(--text);
+  letter-spacing: -.02em; margin-bottom: 12px; line-height: 1.3;
+}
+.welcome-title .highlight { color: var(--primary); }
+.welcome-subtitle {
+  font-size: 1.1rem; color: var(--text-secondary); max-width: 600px;
+  line-height: 1.8; margin-bottom: 32px; font-weight: 400;
+}
+.welcome-divider { width: 60px; height: 3px; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius: 2px; margin: 22px 0 28px; }
+.welcome-quote {
+  background: linear-gradient(135deg, #fafbff 0%, #eef2ff 100%);
+  border: 1px solid #c7d2fe; border-radius: var(--radius);
+  padding: 28px 36px; max-width: 620px; margin-bottom: 32px;
+}
+.welcome-quote .quote-text {
+  font-size: 1.05rem; font-style: italic; color: var(--primary-dark);
+  line-height: 1.8; margin-bottom: 10px;
+}
+.welcome-quote .quote-author { font-size: .82rem; color: var(--text-muted); font-weight: 500; }
+.welcome-search-wrap {
+  width: 100%; max-width: 520px; margin-bottom: 28px;
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card-bg); border: 2px solid var(--border);
+  border-radius: 14px; padding: 12px 18px;
+  transition: all var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.welcome-search-wrap:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(99,102,241,.1), var(--shadow-md);
+}
+.welcome-search-wrap .ws-icon {
+  flex-shrink: 0; width: 22px; height: 22px; color: var(--text-muted);
+  transition: color var(--transition);
+}
+.welcome-search-wrap:focus-within .ws-icon { color: var(--primary); }
+.welcome-search-input {
+  flex: 1; border: none; outline: none; background: none;
+  font-size: 1.05rem; color: var(--text); font-family: inherit;
+  font-weight: 400;
+}
+.welcome-search-input::placeholder { color: var(--text-muted); font-size: .95rem; }
+.welcome-search-hint {
+  font-size: .75rem; color: var(--text-muted); text-align: center; max-width: 520px;
+  margin-top: -12px; margin-bottom: 6px;
+}
+.welcome-hint {
+  font-size: .88rem; color: var(--text-muted); display: flex; align-items: center; gap: 8px;
+}
+.welcome-hint .hint-arrow { font-size: 1.2rem; color: var(--primary); animation: pulse-arrow 1.5s ease-in-out infinite; }
+@keyframes pulse-arrow { 0%,100% { opacity: .4; transform: translateX(0); } 50% { opacity: 1; transform: translateX(6px); } }
+
+/* ========= WELCOME EXIT / ENTRANCE ANIMATIONS ========= */
+.welcome-top-group,
+.welcome-search-group,
+.welcome-bottom-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-top-group {
+  transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), max-height 0s 0.35s, margin 0s 0.35s, padding 0s 0.35s;
+}
+.welcome-top-group.exit-up {
+  opacity: 0; transform: translateY(-36px); pointer-events: none;
+  max-height: 0; margin: 0; padding: 0; overflow: hidden;
+}
+
+.welcome-search-group {
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.welcome-search-group.exit-search {
+  opacity: 0; transform: translateY(-12px) scale(0.98); pointer-events: none;
+}
+
+.welcome-bottom-group {
+  transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), max-height 0s 0.35s, margin 0s 0.35s, padding 0s 0.35s;
+}
+.welcome-bottom-group.exit-down {
+  opacity: 0; transform: translateY(36px); pointer-events: none;
+  max-height: 0; margin: 0; padding: 0; overflow: hidden;
+}
+
+/* Entrance: groups slide back from opposite directions */
+.welcome-top-group.enter-down {
+  opacity: 1; transform: translateY(0);
+}
+.welcome-search-group.enter-search {
+  opacity: 1; transform: translateY(0) scale(1);
+}
+.welcome-bottom-group.enter-up {
+  opacity: 1; transform: translateY(0);
+}
+
+/* ===== WELCOME PANEL IN SEARCH MODE ===== */
+/* 搜索激活时，欢迎面板收缩，隐藏欢迎页搜索框 */
+.welcome-panel.search-active {
+  min-height: 0;
+  justify-content: flex-start;
+  padding: 0;
+  align-items: stretch;
+  transition: min-height 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              padding 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 欢迎页搜索框在搜索模式下隐藏，顶部 topbar 搜索框成为唯一搜索框 */
+.welcome-panel.search-active .welcome-search-wrap {
+  display: none;
+}
+
+/* 搜索激活时，tabBar 和结果面板渐入 */
+.content-results-area {
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.content-results-area.visible {
+  opacity: 1;
+}
+
+/* Topbar search & content entrance */
+.content-entrance {
+  animation: fadeContentIn 0.3s 0.05s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+@keyframes fadeContentIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ========= GLOBAL SEARCH RESULT LOCATION ========= */
+.global-loc-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: .72rem; padding: 3px 10px; border-radius: 20px;
+  font-weight: 500; margin-top: 6px; margin-right: 8px;
+  background: #eef2ff; color: var(--primary-dark);
+  border: 1px solid #c7d2fe;
+}
+
+.hidden { display: none !important; }
+.no-results { text-align: center; padding: 48px 20px; color: var(--text-muted); font-size: .9rem; }
+
+/* ========= SIDEBAR SEARCH SOURCE ========= */
+.search-source-box {
+  margin: 0 16px 12px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
+}
+.search-source-title {
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  opacity: .6;
+  margin-bottom: 8px;
+}
+.search-source-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .78rem;
+  padding: 6px 8px;
+  margin: 0 -8px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.search-source-item:last-child { border-bottom: none; }
+.search-source-item:hover { background: rgba(255,255,255,.1); }
+.search-source-tb { font-weight: 600; opacity: .95; }
+.search-source-div { opacity: .4; }
+.search-source-unit { opacity: .85; flex: 1; }
+.search-source-count {
+  background: rgba(255,255,255,.15);
+  color: #fff;
+  font-size: .65rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>🧭 English Compass</h2>
+    <div class="sidebar-subtitle">Vocabulary · Sentence Analysis · Writing</div>
+    <div class="sidebar-desc">词汇来源：普通高中英语教科书（译林版）</div>
+  </div>
+  <div class="sidebar-selectors">
+    <div class="selector-label">教材</div>
+    <select id="textbookSelect" class="selector-select"><option value="">— 请选择教材 —</option></select>
+    <div class="selector-label" style="margin-top:2px;">单元</div>
+    <select id="unitSelect" class="selector-select"><option value="">— 请选择单元 —</option></select>
+  </div>
+
+  <div class="search-source-box hidden" id="searchSourceSidebar"></div>
+
+  <nav class="sidebar-nav" id="sidebarNav">
+    <div class="nav-section">板块</div>
+    <button class="nav-item" data-filter="all"><span>📋</span>全部词汇<span class="badge" id="badgeAll">0</span></button>
+    <button class="nav-item" data-filter="Welcome to the unit"><span>👋</span>Welcome to the unit<span class="badge" id="badgeWelcome">0</span></button>
+    <button class="nav-item" data-filter="Reading"><span>📖</span>Reading<span class="badge" id="badgeReading">0</span></button>
+    <button class="nav-item" data-filter="Grammar"><span>📝</span>Grammar<span class="badge" id="badgeGrammar">0</span></button>
+    <button class="nav-item" data-filter="Integrated skills"><span>🎯</span>Integrated skills<span class="badge" id="badgeIntegrated">0</span></button>
+    <button class="nav-item" data-filter="Extended reading"><span>📚</span>Extended reading<span class="badge" id="badgeExtended">0</span></button>
+    <button class="nav-item" data-filter="Project"><span>🔬</span>Project<span class="badge" id="badgeProject">0</span></button>
+  </nav>
+  <div class="sidebar-footer" id="sidebarFooter">数据加载中...</div>
+  <div class="sidebar-copyright">© 2026 Elsie Ni. All rights reserved.</div>
+</aside>
+
+<div class="main" id="mainContent" style="display:none;">
+  <div class="topbar">
+    <div class="topbar-breadcrumb"><span>必修一</span> › <span>Unit 1</span> · Back to school</div>
+    <div class="topbar-search" id="topbarSearch" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="topbarSearchInput" placeholder="在当前单元中搜索词汇...">
+      <button class="topbar-search-clear" id="topbarSearchClear" title="清除搜索">✕</button>
+    </div>
+    <span class="topbar-info" id="resultInfo">共 <strong>0</strong> 个词条</span>
+  </div>
+  <div class="content">
+    <!-- 欢迎面板（搜索激活时收缩到顶部，tabBar/结果在其下方显示） -->
+    <div id="panelWelcome" class="tab-panel">
+      <div class="welcome-panel">
+        <div class="welcome-top-group" id="welcomeTopGroup">
+          <div class="welcome-icon">🧭</div>
+          <div class="welcome-title">Your journey <span class="highlight">begins here.</span></div>
+          <div class="welcome-subtitle">
+            Every great writer, every eloquent speaker, every confident communicator — they all started exactly where you are now: with a single word and the courage to learn.
+          </div>
+        </div>
+        <div class="welcome-search-group" id="welcomeSearchGroup">
+          <div class="welcome-search-wrap">
+            <svg class="ws-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" class="welcome-search-input" id="welcomeSearchInput" placeholder="Search across all textbooks and units...">
+          </div>
+          <div class="welcome-search-hint">Type any word, phrase, or meaning — e.g. "potential", "rise to", "机会"</div>
+        </div>
+        <div class="welcome-bottom-group" id="welcomeBottomGroup">
+          <div class="welcome-divider"></div>
+          <div class="welcome-quote">
+            <div class="quote-text">"Language is not merely a tool for communication — it is the very architecture of thought, the paintbrush of imagination, and the bridge that connects one soul to another."</div>
+            <div class="quote-author">— English Compass</div>
+          </div>
+          <div class="welcome-hint">
+            <span class="hint-arrow">⬅</span> Choose a unit or section from the sidebar to unlock your vocabulary journey.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 搜索结果区（tabBar + 词汇/长难句/写作面板） -->
+    <div class="content-results-area" id="contentResultsArea">
+      <div class="tab-bar" id="tabBar" style="display:none;">
+        <button class="tab-btn active" data-tab="vocab">📖 词汇学习<span class="tab-badge">0</span></button>
+        <button class="tab-btn" data-tab="longsentences">📐 长难句<span class="tab-badge" id="lsBadge">10</span></button>
+        <button class="tab-btn" data-tab="writing">✍️ 写作练习<span class="tab-badge" id="wBadge">8</span></button>
+      </div>
+      <div id="panelVocab" class="tab-panel"><div id="cardsList"></div><div id="noResults" class="no-results hidden">未找到匹配的词汇</div></div>
+      <div id="panelLongSentences" class="tab-panel hidden"><div id="lsList"></div></div>
+      <div id="panelWriting" class="tab-panel hidden"><div id="writingList"></div></div>
+    </div>
+
+    <!-- 版权信息 -->
+    <div class="usage-footer">
+      <div class="uf-title">© 2026 Elsie Ni. All rights reserved.</div>
+      English Compass is an independent educational resource designed to support learners using the Yilin Edition Senior High English Textbooks (2020 Edition). All textbook copyrights belong to their respective owners.
+    </div>
+  </div>
+</div>
+
+<!-- 加载中遮罩 -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">正在加载词库…</div>
+  <div class="loading-progress"><div class="loading-progress-bar" id="loadingBar"></div></div>
+  <div class="loading-sub" id="loadingDetail">准备中…</div>
+</div>
+
+<!-- 加载错误遮罩 -->
+<div class="load-error" id="loadError">
+  <div class="err-icon">⚠️</div>
+  <div class="err-title">数据文件加载失败</div>
+  <div class="err-msg" id="errMsg">
+    无法加载 <strong>bx1_u1_data.json</strong>，请检查该文件是否存在于当前目录下。<br>
+    <span style="font-size:.8rem;opacity:.7;">提示：如果直接双击打开了 HTML 文件，请改用 VS Code 的 Live Server 插件启动本地服务器后访问。</span>
+  </div>
+  <button class="err-retry" onclick="retryLoad()">🔄 重新加载</button>
+</div>
+
+<script>
+// ===================================================================
+//  UNIT DATA — 教材/单元结构定义，词汇数据通过外部 JSON 加载
+//  结构: unitData["教材名"]["单元名"].vocabularyData = [...]
+// ===================================================================
+
+const unitData = {
+  "必修一": {
+    "Unit 1": {
+      label: "Unit 1 · Back to school",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 2": {
+      label: "Unit 2 · Let's talk teens",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 3": {
+      label: "Unit 3 · Getting along with others",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 4": {
+      label: "Unit 4 · Looking good, feeling good",
+      vocabularyData: []   // 由 fetch 填充
+    }
+  },
+  "必修二": {
+    "Unit 1": {
+      label: "Unit 1 · Lights, camera, action!",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 2": {
+      label: "Unit 2 · Be sporty, be healthy",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 3": {
+      label: "Unit 3 · Festivals and customs",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 4": {
+      label: "Unit 4 · Exploring literature",
+      vocabularyData: []   // 由 fetch 填充
+    }
+  },
+  "必修三": {
+    "Unit 1": {
+      label: "Unit 1 · Nature in the balance",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 2": {
+      label: "Unit 2 · Natural disasters",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 3": {
+      label: "Unit 3 · The world online",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 4": {
+      label: "Unit 4 · Scientists who changed the world",
+      vocabularyData: []   // 由 fetch 填充
+    }
+  },
+  "选择性必修一": {
+    "Unit 1": {
+      label: "Unit 1 · Food matters",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 2": {
+      label: "Unit 2 · The universal language",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 3": {
+      label: "Unit 3 · The art of painting",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 4": {
+      label: "Unit 4 · Exploring poetry",
+      vocabularyData: []   // 由 fetch 填充
+    }
+  },
+  "选择性必修二": {
+    "Unit 1": { label: "Unit 1 · The mass media", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Sports culture", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Fit for life", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Living with technology", vocabularyData: [] }
+  },
+  "选择性必修三": {
+    "Unit 1": { label: "Unit 1 · Wish you were here", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Out of this world", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Back to the past", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Protecting our heritage sites", vocabularyData: [] }
+  },
+  "选择性必修四": {
+    "Unit 1": { label: "Unit 1 · Honesty and responsibility", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Understanding each other", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Careers and skills", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Never too old to learn", vocabularyData: [] }
+  },
+  "拓展创新学程一": {
+    "Unit 1": { label: "Unit 1 · Our living planet", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Working the land", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · On the move", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Fun with science", vocabularyData: [] }
+  },
+  "拓展创新学程二": {
+    "Unit 1": { label: "Unit 1 · Beware and take care", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Building the future", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Helping people", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Law and order", vocabularyData: [] }
+  },
+  "拓展创新学程三": {
+    "Unit 1": { label: "Unit 1 · Managing yourself", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Thinking out of the box", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Our culture, our treasure", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · What is life?", vocabularyData: [] }
+  }
+};
+
+// 教材元数据（用于下拉选择器，后续扩展新书时在此增加）
+const textbookMeta = {};
+
+// ========== 长难句数据（后续也可提取为外部 JSON） ==========
+const longSentencesData = [
+  {
+    "sentence": "Put simply, potential is your natural ability that can be developed when you try hard enough.",
+    "translation": "简而言之，潜力是你的天赋能力，当你足够努力时可以将其发展出来。",
+    "analysis": "主干：potential is your natural ability | Put simply 为插入式话语标记语（discourse marker），相当于 to put it simply，用于开篇总括 | that 引导限定性定语从句修饰 ability（\"可以被发展的能力\"） | when 引导时间状语从句嵌套在定语从句内部，修饰 can be developed 的时间条件",
+    "pattern": "Put simply, S + be + N + that-can-be-V-ed + when + S + V...",
+    "structures": ["话语标记语", "定语从句", "状语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "简而言之，友谊是一座花园，当你用心浇灌它时，它便会绽放出最美的花朵。",
+    "imitationHint": "Put simply 开头 → friendship 为主语 → garden 为表语 → 用 that can bloom when... 连接",
+    "imitationAnswer": "Put simply, friendship is a garden that can bloom into the most beautiful flowers when you water it with your heart."
+  },
+  {
+    "sentence": "The path before you leads to a world full of challenges: a new environment, new knowledge and new ways of thinking.",
+    "translation": "你面前的道路通向一个充满挑战的世界：新环境、新知识和新思维方式。",
+    "analysis": "主干：The path leads to a world | before you 介词短语作后置定语修饰 the path（\"你面前的路\"） | full of challenges 形容词短语作后置定语修饰 world | 冒号后为三个并列名词短语作同位语，对 a world full of challenges 的具体内涵进行分层解释 | 注意理解逻辑链：道路→世界→挑战的三个维度（环境、知识、思维）",
+    "pattern": "S + 后置定语 + V + O + 后置定语: N1, N2 and N3（同位语排比）",
+    "structures": ["后置定语", "同位语", "排比"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "你面前的机会通向一片充满可能的未来：新的友谊、新的知识以及新的成长方式。",
+    "imitationHint": "The opportunity before you → leads to a future full of possibilities → 冒号后三个并列名词短语展开",
+    "imitationAnswer": "The opportunity before you leads to a future full of possibilities: new friendships, new knowledge and new ways of growth."
+  },
+  {
+    "sentence": "When you rise to the challenges, you will have the opportunity to acquire great knowledge and enjoy personal growth.",
+    "translation": "当你勇敢迎接挑战时，你将有机会获取渊博的知识并享受个人的成长。",
+    "analysis": "When 时间状语从句前置，为后续内容设定前提条件；rises to the challenges 为地道习语，意为\"勇敢面对/迎接挑战\" | 主句：you will have the opportunity，后接两个并列不定式 to acquire... and (to) enjoy... 作后置定语修饰 opportunity | 注意：opportunity to do sth. 是书面写作中的高频搭配，远好于 chance",
+    "pattern": "When + S + V（习语）..., S + will have the opportunity to V₁ and (to) V₂",
+    "structures": ["状语从句", "并列不定式", "习语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当你迈出第一步时，你将有机会发现一个全新的世界并结识一群志同道合的朋友。",
+    "imitationHint": "When you take the first step... → have the opportunity to discover... and meet...",
+    "imitationAnswer": "When you take the first step, you will have the opportunity to discover a brand-new world and meet a group of like-minded friends."
+  },
+  {
+    "sentence": "Who knows what beautiful works of art you will create, what medical advances you will make or what amazing technologies you will develop!",
+    "translation": "谁知道你会创作出怎样美妙绝伦的艺术作品，取得怎样的医学进步，或开发出怎样令人惊叹的技术！",
+    "analysis": "Who knows 为修辞性疑问句（rhetorical question），并非真正提问，而是以反问强调\"无人能预知\"，增强感染力和说服力 | 后接三个 what 引导的宾语从句并列，由 or 连接第三个从句 | 三重排比（triple parallelism）是演讲中的黄金技巧：create → make → develop 动词层层递进，art → medicine → technology 领域逐步扩大 | 感叹号强化语气，适合演讲结尾（peroration）",
+    "pattern": "Who knows + what + S + V₁, what + S + V₂ or what + S + V₃!",
+    "structures": ["修辞疑问", "排比", "宾语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "谁知道你会在这个舞台上收获怎样的掌声，交到怎样知心的朋友，或留下怎样一生难忘的回忆！",
+    "imitationHint": "Who knows what applause..., what friends... or what memories... ! 注意三个 what 从句的动词变化",
+    "imitationAnswer": "Who knows what applause you will win on this stage, what close friends you will make or what unforgettable memories you will leave behind!"
+  },
+  {
+    "sentence": "The possibilities are endless, and I have confidence in your ability to make a difference to your family, to your community and to our country.",
+    "translation": "可能性是无限的，我相信你们有能力为家庭、为社区、为国家带来积极影响。",
+    "analysis": "并列复合句（compound-complex）：前句为系表结构（possibilities are endless），后句为 SVO 结构 | I have confidence in your ability 为核心主干 | 不定式 to make a difference 作 ability 的后置定语 | 三个并列介词短语 to your family, to your community and to our country 共同修饰 make a difference | 由近及远、由小到大的排比（family → community → country），呼应儒家\"修身齐家治国\"的递进传统，是演讲中收束情感的高潮段落",
+    "pattern": "S₁ + be + adj., and S₂ + have confidence in + N + to V + to N₁, to N₂ and to N₃",
+    "structures": ["并列复合句", "后置定语", "排比"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "挑战是巨大的，但我相信你们有勇气去面对未知、去克服困难、去实现那些曾经遥不可及的梦想。",
+    "imitationHint": "The challenges are enormous, but I have faith in your courage → to face..., to overcome..., and to achieve...（注意三个 to V 排比）",
+    "imitationAnswer": "The challenges are enormous, but I have faith in your courage to face the unknown, to overcome difficulties, and to achieve those dreams that once seemed out of reach."
+  },
+  {
+    "sentence": "To fully realize your potential, it is important for you to make the most of our school resources.",
+    "translation": "要充分实现你的潜力，充分利用学校资源对你来说至关重要。",
+    "analysis": "句首 To fully realize your potential 为目的状语不定式短语，开门见山点明目的 | 主句使用形式主语 it 结构（it is important for you to...），真正主语为 to make the most of our school resources | 这种结构避免头重脚轻，是地道书面英语的核心特征之一 | fully 修饰 realize，the most of 修饰 make，均为程度强化词，增强说服力 | 此句式在高考读后续写和应用文中均为必会结构",
+    "pattern": "To + adv. + V + O, it is + adj. + for sb. + to V + O",
+    "structures": ["目的状语", "形式主语", "不定式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "要成为一名真正的终身学习者，学会在日常生活中发现知识、在失败中吸取教训对你来说至关重要。",
+    "imitationHint": "To become a true lifelong learner → it is essential for you to learn to... and to...（注意形式主语 + 两个并列不定式）",
+    "imitationAnswer": "To become a true lifelong learner, it is essential for you to learn to discover knowledge in daily life and to draw lessons from failures."
+  },
+  {
+    "sentence": "Of equal importance are good study habits, useful skills and a positive attitude.",
+    "translation": "同样重要的还有良好的学习习惯、实用的技能和积极的态度。",
+    "analysis": "完全倒装句（full inversion）：正常语序为 Good study habits, useful skills and a positive attitude are of equal importance | 将介词短语 Of equal importance 提前至句首，系动词 are 紧随其后，三个并列名词短语构成的主语后置 | 注意 of + 抽象名词 = 形容词（of importance = important），这是高级书面英语的标志性用法（又如 of great value, of vital significance） | 此倒装常见于上下文衔接——前文已阐述某方面的重要性，此处引出\"同样重要的\"其他方面，承上启下，行文流畅 | 高考语法填空和写作中均可能考查此倒装结构",
+    "pattern": "Of + adj. + 抽象名词 + be + 并列主语（N₁, N₂ and N₃）",
+    "structures": ["完全倒装", "of+抽象名词", "排比"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "同样令人敬佩的还有她的勇气，她面对逆境时的坚韧，以及她对所有学生的无私奉献。",
+    "imitationHint": "Of equal admiration are... → her courage, her resilience in the face of adversity, and her selfless dedication to...（注意完全倒装的语序：Of... + are + 主语）",
+    "imitationAnswer": "Of equal admiration are her courage, her resilience in the face of adversity, and her selfless dedication to all her students."
+  },
+  {
+    "sentence": "In time you will find yourself growing into a well-rounded individual.",
+    "translation": "久而久之，你会发现自己逐渐成长为一个全面发展的人。",
+    "analysis": "find + oneself + 现在分词（V-ing）是非常地道的英语表达，表示\"不知不觉间意识到自己正在经历某种变化或处于某种状态\"，有\"自然的、不经意的\"意味 | in time 为时间状语前置，暗示变化是渐进的 | yourself 为反身代词，强调亲身体验和自我感悟 | well-rounded individual 为固定搭配，意为\"全面发展的人\" | 此句式在读后续写中极其宝贵——常用于描写人物经过成长弧（character arc）后的升华时刻",
+    "pattern": "In time + S + will find + oneself + V-ing + ...",
+    "structures": ["find+宾语+宾补", "反身代词", "时间状语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "不知不觉中，你会发现自己正站在曾经只能仰望的山顶，欣赏着你从未见过的风景。",
+    "imitationHint": "Before you know it, you will find yourself standing on top of... → admiring the views that...",
+    "imitationAnswer": "Before you know it, you will find yourself standing on the summit you once could only look up to, admiring the views you have never seen before."
+  },
+  {
+    "sentence": "Although there was not as much homework as I was used to, it was still challenging.",
+    "translation": "虽然作业没有我过去习惯的那么多，但仍然很有挑战性。",
+    "analysis": "Although 引导让步状语从句，内部嵌套 as...as... 比较结构（not as much...as），表达\"不如……那么多\" | as I was used to 是省略形式的比较状语从句，完整为 as much homework as I was used to (having) | 主句简洁有力地转折——still 一词回应从句的让步，完成\"虽然……但……\"的论证逻辑 | 这种\"让步+转折\"结构是议论文和记叙文中最基础也最有力的论证模式",
+    "pattern": "Although + there be + not as much + N + as + S + be used to, S + be + still + adj.",
+    "structures": ["让步状语从句", "比较结构", "省略"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "虽然这条路没有我想象的那么平坦，但每一步都让我变得更加强大。",
+    "imitationHint": "Although the road was not as smooth as I had imagined... → it still made me stronger with every step.",
+    "imitationAnswer": "Although the road was not as smooth as I had imagined, it still made me stronger with every step."
+  },
+  {
+    "sentence": "I like it so much that I still use it as my alarm!",
+    "translation": "我太喜欢它了，以至于现在仍用它当闹钟！",
+    "analysis": "so...that... 引导结果状语从句，表达程度之高导致的结果 | so much 强调喜爱的程度，that 从句为自然、逻辑上的结果 | as my alarm 中介词 as 表示\"当作、用作\"，用法简洁地道 | 这个句式在记叙文和读后续写中极其常用，完美表达因果关系中的\"程度→结果\"逻辑链 | 在高考读后续写中，常用此句式描写某个物品/事件对主人公产生的深远影响",
+    "pattern": "S + V + O + so + adv./adj. + that + S + still + V + O + as + N",
+    "structures": ["结果状语从句", "as介词用法"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "那段经历对我影响如此之深，以至于多年后我仍然会在某个瞬间想起那个温暖的午后。",
+    "imitationHint": "That experience touched me so deeply that... → I would still find myself thinking of that warm afternoon.",
+    "imitationAnswer": "That experience touched me so deeply that years later I would still find myself, at some unexpected moment, thinking of that warm afternoon."
+  }
+];
+
+// ========== 写作练习数据 ==========
+const writingData = {
+  mainTopic: "高中新生活的挑战与成长",
+  mainTopicEn: "Challenges and Growth in High School Life",
+  mainTopicBrief: "本单元围绕\"开学\"话题，涵盖校长致辞（潜力与挑战）、校园生活、社团活动和适应新环境四个子话题，是高考写作和雅思议论文的核心命题范畴。",
+  subTopics: [
+    {
+      id: "sub-reading",
+      section: "Reading",
+      title: "潜力开发与个人成长",
+      titleEn: "Potential & Personal Growth",
+      desc: "校长开学致辞的核心话题：认识潜力、迎接挑战、实现个人成长。",
+      prompts: [
+        {
+          source: "2024 苏锡常镇一模",
+          type: "mock",
+          typeLabel: "高考模拟",
+          task: "假设你是校英文报主编李华，你报正举办以\"Unlocking Your Potential\"为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你对\"潜力\"的理解；2. 你或身边人释放潜力的一次经历；3. 你的收获与感悟。注意：词数100左右。",
+          reference: "Potential is not about what you are born with, but about what you are willing to become. I still remember the first time I rose to the challenge of public speaking. My heart was racing and my hands were shaking, but I told myself that this was my opportunity to acquire a skill I desperately wanted. The path before me was full of challenges — new techniques, unfamiliar audiences, and the fear of failure. Yet the moment I finished my speech, I realized I had taken the first step towards becoming a more confident version of myself. In time, I found myself growing into someone who actually enjoyed sharing ideas. As our principal said, potential is your natural ability that can be developed when you try hard enough. All it takes is the courage to start and the determination to persist.",
+          vocabHints: ["potential", "rise to challenges", "opportunity", "acquire", "personal growth", "in time", "find oneself doing", "make the most of"]
+        },
+        {
+          source: "IELTS Writing Task 2",
+          type: "ielts",
+          typeLabel: "雅思议论文",
+          task: "Some people believe that talent is innate and cannot be taught, while others argue that any skill can be developed through practice and education. Discuss both views and give your own opinion. Give reasons and examples. (Write at least 250 words.)",
+          reference: "The question of whether exceptional ability is a gift bestowed at birth or a product of sustained effort has long divided opinion. While some maintain that genuine talent is inborn and beyond the reach of instruction, others insist that virtually any competence can be cultivated through disciplined practice and sound education. Although I recognise the influence of natural aptitude, I ultimately side with the latter position.\n\nThose who champion the idea of innate talent point to the striking ease with which certain individuals master demanding disciplines. A child who intuitively grasps musical harmony or absorbs a foreign language with little apparent struggle seems to confirm that some capacities are simply hardwired. From this perspective, no amount of coaching can transform an ordinary learner into a prodigy, because the decisive spark is inherited rather than acquired.\n\nThe opposing camp, however, argues that skill is overwhelmingly the fruit of deliberate training. Countless high achievers, from elite athletes to accomplished scientists, attribute their success not to a mysterious endowment but to years of relentless repetition, expert guidance and a willingness to learn from failure. According to this reasoning, what observers mistake for raw talent is often the invisible accumulation of thousands of hours of practice.\n\nIn my view, the second argument is considerably more persuasive. Natural predisposition may offer a head start, yet it rarely flourishes without cultivation, and history is full of celebrated figures who were initially dismissed as unremarkable. Given that structured education can extend opportunity to anyone prepared to persevere, I firmly believe that ability is developed far more than it is inherited. Talent, in essence, sets the stage, but effort writes the performance.",
+          wordCount: 274,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了 discuss both views + own opinion 三个部分——引言 paraphrase 题目并亮明立场('I ultimately side with the latter position'),第二段客观陈述'天赋天生论'及其理由,第三段陈述'后天习得论'并展开,末段清晰权衡后重申立场('the second argument is considerably more persuasive')。立场全篇一致,论据是展开的推演(head start→需 cultivation→history 反例)而非要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):四段结构分明,每段一个中心(引言/观点A/观点B/立场结论);衔接手段多样自然,如'Those who champion...'、'The opposing camp, however'、'According to this reasoning'、'In my view'、'Given that...',没有堆砌 Firstly/Secondly;末句用比喻'sets the stage, but effort writes the performance'呼应收尾。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配,如'a gift bestowed at birth'、'natural aptitude/predisposition'、'deliberate training'、'relentless repetition'、'the invisible accumulation of thousands of hours'、'an ordinary learner into a prodigy';高级词(inborn, endowment, cultivate, persevere)运用自然,几乎无搭配错误。",
+            "Grammatical Range & Accuracy(语法多样性与准确性):句式灵活多样——让步状语从句('Although I recognise...')、定语从句('the striking ease with which...')、分词/介词短语后置修饰、倒装式强调('what observers mistake for raw talent is...')、非谓语('a willingness to learn from failure');绝大多数句子零错误,标点规范。"
+            ],
+            vsGaokao: [
+            "字数与配比不同:雅思 Task 2 硬性要求至少 250 词、本文写到 278 词属安全区且不臃肿;高考英语作文通常仅 100 词左右,字数超纲反而不加分,评分尺度完全不同。",
+            "论据来源不同:本文用的是全球普适现象与常识(elite athletes、accomplished scientists、history is full of...),严禁出现课本原句、老师/校长的话或杜撰的人名(如 John Li);而高考作文常鼓励套用课文句型或'李华'式个人叙事,这在雅思会被判离题。",
+            "语域与人称不同:全文保持正式学术语域,无缩略(用 do not 不用 don't)、无书信体、克制第一人称,仅在表明立场时用'In my view/I firmly believe';高考作文常见书信格式、口语化表达和 Dear/Yours 落款,雅思学术写作则要求客观论证语气。",
+            "评分维度不同:雅思按四大独立维度(TR/CC/LR/GRA)分项计分,要求立场贯穿、衔接自然、词汇搭配地道、复杂句准确;高考主要看内容要点是否覆盖、语言基本通顺和卷面,并不单独考核'立场一致性'与'论据是否展开推演',本文正是围绕四维度而非'踩点'来构建的。"
+            ]
+          },
+          vocabHints: ["has long divided opinion", "a gift bestowed at birth", "natural aptitude", "deliberate training", "relentless repetition", "side with the latter position", "the decisive spark", "sets the stage, but effort writes the performance"]
+        }
+      ]
+    },
+    {
+      id: "sub-grammar",
+      section: "Grammar",
+      title: "校园生活与人际关系",
+      titleEn: "School Life & Relationships",
+      desc: "以定语从句为核心语法点，描述高中新生活中的人、事和情感体验。",
+      prompts: [
+        {
+          source: "2023 浙江五校联考",
+          type: "mock",
+          typeLabel: "高考模拟",
+          task: "你的英国笔友Chris即将进入高中，写信向你询问高中生活的感受和建议。请你写一封回信，内容包括：1. 你进入高中后的感受；2. 你遇到的困难及如何克服；3. 给Chris的建议。注意：词数100左右。",
+          reference: "Dear Chris,\n\nI'm delighted to hear that you're starting high school soon, and I'd love to share my experience with you.\n\nTo be honest, the first month was both exciting and overwhelming. The school, which is much bigger than my junior high, felt like a maze. The teachers, who were all incredibly supportive, encouraged us to explore our interests. I've made friends with classmates whose passions range from robotics to creative writing — every day in their company is a new adventure.\n\nOf course, there were challenges. The workload, which was heavier than I expected, took some getting used to. But I learned to manage my time through careful planning. My advice is simple: never hesitate to reach out when you need help, and always keep a positive attitude. I'm confident that you, too, will find yourself growing into a more capable and confident person.\n\nBest wishes,\nLi Hua",
+          vocabHints: ["challenging", "get used to", "opportunity", "acquire", "positive attitude", "supportive", "make the most of", "in time"]
+        },
+        {
+          source: "IELTS Writing Task 2",
+          type: "ielts",
+          typeLabel: "雅思议论文",
+          task: "Some people think that school is the most important period of a person's life, while others believe that life after school brings more valuable experiences. Discuss both views and give your opinion. (Write at least 250 words.)",
+          reference: "The question of which stage of life shapes us most profoundly is a perennial one. While some regard formal schooling as the defining chapter of a person's existence, others argue that the years that follow it yield richer and more meaningful lessons. Having weighed both positions, I am inclined to believe that the experiences gained after school ultimately prove more valuable.\n\nThose who champion the primacy of school do so with good reason. The classroom is where a person first acquires literacy, numeracy and the habits of disciplined thought, all of which serve as the foundation for everything that comes later. Just as a building cannot stand without solid footings, an adult cannot function without the intellectual and social groundwork laid during these formative years. Moreover, school is where children forge their earliest friendships and learn to navigate rules, competition and cooperation, thereby shaping their character at its most impressionable stage.\n\nThe opposing camp, however, contends that genuine growth begins only once the protective walls of the institution fall away. Life beyond the school gates confronts individuals with responsibilities that no lesson can fully replicate: earning a living, sustaining relationships and recovering from failure. A graduate who loses a first job, for instance, learns resilience in a way that no examination could ever teach.\n\nOn balance, although schooling is undeniably indispensable, I maintain that post-school life offers the more transformative education. The wider world demands that we apply, adapt and sometimes discard what we were taught, and it is precisely this constant testing against reality that turns knowledge into genuine wisdom.",
+          wordCount: 261,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了 discuss both views + give your opinion 三个部分。引言明确点出立场(\"I am inclined to believe that the experiences gained after school ultimately prove more valuable\"),第2、3段客观陈述双方看法并各自展开一个通用论据(地基比喻论证学校打基础、丢掉第一份工作学到 resilience 的假设情景),结尾段权衡后重申并论证立场,观点全篇一致、不骑墙。",
+            "Coherence & Cohesion(连贯与衔接):四段结构一段一个中心(立场→观点A→观点B→我的结论),段落之间用 \"Those who champion...\"\"The opposing camp, however, contends...\"\"On balance...\" 这类自然的立场标记推进,而非机械堆砌 Firstly/Secondly;句内用 \"thereby\"\"Moreover\"\"for instance\" 等多样衔接,指代(these formative years / this constant testing)清晰不重复。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配与高级表达,如 \"a perennial one\"\"the defining chapter\"\"literacy, numeracy and the habits of disciplined thought\"\"solid footings / groundwork\"\"the protective walls of the institution fall away\"\"turns knowledge into genuine wisdom\";近义替换灵活(champion / contend / maintain;formative / impressionable / transformative),几乎无搭配错误。",
+            "Grammatical Range & Accuracy(语法多样性与准确性):句式多样且准确,含定语从句(where a person first acquires...)、比较状语从句(Just as a building cannot stand...)、分词状语(Having weighed both positions)、让步复合句(although schooling is undeniably indispensable, I maintain that...)以及强调结构(it is precisely this constant testing...that...),绝大多数句子零错误。"
+            ],
+            vsGaokao: [
+            "字数维度:雅思 Task 2 要求最少 250 词,本文 273 词落在 260–290 的理想区间;高考英语作文通常仅 100 词左右(读后续写/应用文),字数少且超纲/不足的评分逻辑完全不同——雅思字数不够会直接扣分。",
+            "论据来源维度:本文全部使用普适论据(地基比喻、\"丢掉第一份工作学到 resilience\" 的假设情景),严格避开 \"our textbook\"\"the principal said\"\"John Li\" 等课本/人名引用;高考作文常鼓励套用课本人物、名人名言、模板句,而雅思会把这类个人化/编造引用判为离题跑偏。",
+            "语域维度:本文为正式学术语域,无缩略(用 cannot 而非 can't)、无书信体、控制第一人称叙事,只在表明立场时用 I;高考作文允许甚至偏好书信/日记等半正式口语体,可用缩略和大量个人叙述,评分不惩罚口语化。",
+            "结构与评分维度:雅思按 4 项独立标准(TR/CC/LR/GRA)各占 25% 打分,要求立场贯穿、论点深度展开(理由+举例+推演成链),本文每段先陈述后论证再收束;高考多按\"内容要点是否覆盖 + 语言档次\"整体评分,鼓励要点罗列和亮点句堆砌,不要求单一论点像本文这样纵深展开。"
+            ]
+          },
+          vocabHints: ["a perennial question", "the defining chapter", "I am inclined to believe", "the habits of disciplined thought", "the protective walls of the institution", "On balance", "undeniably indispensable", "turns knowledge into genuine wisdom"]
+        }
+      ]
+    },
+    {
+      id: "sub-integrated",
+      section: "Integrated skills",
+      title: "课外活动与社团建设",
+      titleEn: "Clubs & Extracurricular Activities",
+      desc: "围绕社团提案书展开，涉及规划能力、兴趣发展和校园文化建设的写作。",
+      prompts: [
+        {
+          source: "2024 南通泰州一模",
+          type: "mock",
+          typeLabel: "高考模拟",
+          task: "你校国际部将成立一个新的学生社团，现面向全校征集提案。请你写一封提案信，内容包括：1. 你想成立的社团名称及理由；2. 社团的主要活动规划；3. 预期成果。注意：词数100左右。",
+          reference: "Dear Student Council,\n\nI am writing to propose the establishment of a Creative Writing Club, which I believe will benefit students who are passionate about storytelling in English.\n\nThe club, which would meet twice a week, will focus on three main areas. First, we will hold writing workshops where members can share their work and receive constructive feedback. Second, we will invite guest speakers — local authors and journalists — to inspire us with their techniques and experiences. Third, we plan to publish a monthly online newsletter to showcase our members' best pieces.\n\nI am confident that this club will help students develop their writing skills, discover their creative potential, and build a community of like-minded learners. The possibilities are endless when young writers support each other. With your approval, I would be ready to launch the club early next month.\n\nYours sincerely,\nLi Hua",
+          vocabHints: ["propose", "establish", "technique", "potential", "opportunity", "make a difference", "fully realize", "positive attitude", "well-rounded"]
+        },
+        {
+          source: "IELTS Writing Task 2",
+          type: "ielts",
+          typeLabel: "雅思议论文",
+          task: "Some people believe that schools should focus primarily on academic achievement, while others argue that extracurricular activities are equally important. Discuss both views and give your opinion. (Write at least 250 words.)",
+          reference: "There is an ongoing debate about whether schools ought to concentrate mainly on academic performance or place equal weight on activities beyond the classroom, such as sport, music and clubs. While I acknowledge the value of strong academic results, I firmly believe that extracurricular pursuits deserve comparable importance in a well-rounded education.\n\nThose who champion academic achievement argue that a school's core mission is to equip young people with knowledge and intellectual skills. From this perspective, examinations and qualifications act as gateways to higher education and rewarding careers, so anything that diverts time from studying is a distraction. A teenager who devotes long hours to mathematics and science, rather than to hobbies, is likely to secure a university place and, ultimately, greater financial security. Given how fiercely competitive the modern job market has become, this emphasis on measurable results is understandable.\n\nAdvocates of extracurricular activities, on the other hand, contend that personal development matters just as much as grades. Team sports, debating and volunteering cultivate qualities that examinations rarely assess, including leadership, cooperation and resilience. A student who captains a football team, for instance, learns to motivate others and cope with pressure, skills that prove invaluable in adult life. Employers increasingly value such attributes, precisely because they cannot be measured by a certificate alone.\n\nIn my view, the two priorities are not mutually exclusive but complementary. An education fixated solely on grades risks producing capable yet one-dimensional individuals, whereas activities outside lessons nurture the emotional and social maturity that academic study overlooks. Schools should therefore treat both as essential, since genuine success depends on developing the whole person, not merely a high-achieving mind.",
+          wordCount: 273,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):四段结构完整回应了 discuss both views + give your opinion 的每一部分——第2段客观陈述'学术优先'方(so anything that diverts time from studying is a distraction),第3段陈述'课外活动'方,第4段用 the two priorities are not mutually exclusive but complementary 明确亮出并论证权衡立场;引言即用 I firmly believe 点明 thesis,立场全篇一致。每个论点都有'理由+展开举例+推演'(如 A student who captains a football team... learns to motivate others),而非要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):每段一个中心,段落间用对照衔接自然过渡(Those who champion... / Advocates..., on the other hand / In my view),没有堆砌 Firstly/Secondly;句内逻辑词多样精准(so, given how, precisely because, whereas, therefore, since),指代与信息推进流畅。",
+            "Lexical Resource(词汇):搭配地道且精准——champion academic achievement, gateways to higher education, fiercely competitive job market, cultivate qualities, one-dimensional individuals, emotional and social maturity;近义替换丰富(extracurricular pursuits / activities beyond the classroom / hobbies),几乎无用词错误,学术语域统一。",
+            "Grammatical Range & Accuracy(语法):句式多样且准确——定语从句(qualities that examinations rarely assess)、插入语举例(A student who captains a football team, for instance, learns...)、对比复合句(An education fixated solely on grades risks..., whereas activities... nurture...)、not... but... 结构;绝大多数句子零错误,标点与主谓一致稳定。"
+            ],
+            vsGaokao: [
+            "字数与'精简'要求不同:雅思 Task 2 硬性≥250 词,本文 276 词落在 260–290 的黄金区间——写太长反而稀释密度、易出错;高考英语作文通常仅要求 80–120 词,考的是'写够、写对',而雅思考的是'在有限篇幅内充分展开论证'。",
+            "论据来源不同:本文全部使用普适性论据(全球就业市场竞争、球队队长的假设情景、雇主的普遍偏好),【绝对没有】出现课本原句、老师姓名、校长发言等个人化引用;高考常鼓励'联系课文/身边人事',但在雅思中这类引用会被判为离题、不学术,直接压分。",
+            "语域(register)不同:全文正式学术体,不用缩略(用 do not 而非 don't)、不用书信寒暄、不过度第一人称叙事,仅在表明立场处用 In my view / I firmly believe;高考作文常含书信/演讲体套话(Dear..., I'm writing to...、As we all know),那些在雅思里会拉低正式度评分。",
+            "评分维度不同:雅思按 TR / CC / LR / GRA 四个独立维度打分,要求'立场贯穿、衔接多样、搭配地道、复杂句准确'四项均衡达标(本文四段各司其职即为对应设计);高考则以'内容要点是否覆盖+语言档次'整体评分,更看重要点齐全和亮点句,不像雅思那样对'论证展开深度'和'跑题即扣'如此严格。"
+            ]
+          },
+          vocabHints: ["place equal weight on", "a well-rounded education", "champion academic achievement", "gateways to higher education", "not mutually exclusive but complementary", "capable yet one-dimensional individuals", "developing the whole person", "cope with pressure"]
+        }
+      ]
+    },
+    {
+      id: "sub-extended",
+      section: "Extended reading",
+      title: "适应新环境与自我成长",
+      titleEn: "Adapting to New Environments",
+      desc: "通过 John Li 的故事探讨转学适应、文化冲突和新生活的勇气。",
+      prompts: [
+        {
+          source: "2024 苏州期中",
+          type: "mock",
+          typeLabel: "高考模拟",
+          task: "假设你是李华，你的澳大利亚朋友Alice即将到你所在城市的高中学习一年，她来信表达了对适应新环境的担忧。请你写一封回信，内容包括：1. 表示理解和安慰；2. 结合自身经历提供建议；3. 表达祝愿。注意：词数100左右。",
+          reference: "Dear Alice,\n\nI completely understand how you feel. Moving to a new school, especially one in a different country, can be overwhelming. When I first entered senior high, I also found everything unfamiliar — new teachers, new classmates, and a curriculum that was far more demanding than what I was used to.\n\nThe good news is that in time you will find yourself adapting naturally. When I look back, the key was to stay open and curious. I joined a few clubs, which helped me meet people who shared my interests. I also made a point of talking to my teachers whenever I felt lost — they were always willing to help. At first, there was not as much free time as I was used to, but it was still manageable with proper planning.\n\nI have confidence in your ability to make a difference in your new environment. The challenges you face now will become the stories you tell with pride later. I'm looking forward to showing you around when you arrive!\n\nYours,\nLi Hua",
+          vocabHints: ["challenging", "as...as I was used to", "in time", "find oneself doing", "make a difference", "positive attitude", "opportunity", "acquire", "confidence"]
+        },
+        {
+          source: "IELTS Writing Task 2",
+          type: "ielts",
+          typeLabel: "雅思议论文",
+          task: "Moving to a new school or city can be a challenging experience for young people. What are the main difficulties they face, and what can schools and parents do to help them adapt? (Write at least 250 words.)",
+          reference: "Relocating to an unfamiliar school or city is often a demanding transition for adolescents. This essay will examine the principal obstacles they encounter and outline the practical measures that both schools and parents can take to ease their adjustment.\n\nThe most immediate challenge is social isolation. Having left behind established friendships, newcomers frequently struggle to break into existing peer groups, and this sense of not belonging can breed loneliness and anxiety. A second difficulty is academic disruption, since different institutions follow distinct curricula and teaching styles. A student who was thriving in one environment may suddenly find the pace unfamiliar or the material misaligned with what they previously covered, which can erode their confidence and motivation.\n\nSchools and parents can address these problems in complementary ways. To counter social isolation, schools might implement structured buddy systems that pair each arrival with a welcoming classmate, alongside clubs and group activities that create natural opportunities for friendship. Parents, meanwhile, can encourage their children to participate and can nurture connections outside the classroom, perhaps through community sports or hobbies. As for academic difficulties, teachers can conduct early assessments to identify gaps and offer targeted support, while parents can maintain close communication with staff and provide a stable, reassuring atmosphere at home so that setbacks are treated as temporary rather than defining.\n\nIn conclusion, the chief hurdles for young people who move are forming new friendships and coping with unfamiliar academic demands. Through coordinated effort, schools can foster inclusion and learning support while parents supply emotional stability. With such backing, most adolescents will ultimately adapt and even flourish in their new surroundings.",
+          wordCount: 268,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了题目的两个部分——先集中论证两个困难(social isolation 与 academic disruption),再在对策段用 To counter social isolation... / As for academic difficulties... 与之一一对应,做到\"困难—对策\"精准挂钩;每个论点都有理由加推演(如 this sense of not belonging can breed loneliness and anxiety),不是要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):四段结构各司其职,每段一个中心;衔接手段自然多样,如 The most immediate challenge / A second difficulty / meanwhile / As for / In conclusion,并用 complementary ways 提前预告对策与困难呼应,避免了 Firstly/Secondly 的机械堆砌。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配,如 demanding transition、break into existing peer groups、erode their confidence、structured buddy systems、targeted support、foster inclusion、flourish in their new surroundings,高级词与主题话题词自然融入,几乎无用词错误。",
+            "Grammatical Range & Accuracy(语法广度与准确度):复杂句式灵活准确,含现在分词状语(Having left behind established friendships...)、定语从句(A student who was thriving...)、目的状语从句(so that setbacks are treated as...)以及 while 引导的对比复合句,绝大多数句子零错误。"
+            ],
+            vsGaokao: [
+            "字数标准不同:雅思 Task 2 要求\"至少 250 词\",本文控制在 274 词这一 band 8 理想区间(既够展开又不冗长);高考英语作文通常仅要求 80–120 词左右,篇幅和论证深度远低于雅思。",
+            "论据来源不同:本文全部使用普适性论据(social isolation、curricula 差异、buddy systems、community sports 等全球通用现象与假设情景),严禁出现\"课本里说\"\"李华\"\"校长说\"这类个人化/课本化引用;而高考作文常围绕虚拟人物李华、课堂情景展开,这在雅思会被判离题跑偏。",
+            "语域不同:本文全程正式学术语域,无口语缩略(do not/cannot 而非 don't),不用书信体和过度第一人称叙事;高考作文常为书信/通知/记叙,允许 Dear...、I'm writing to... 等半正式或口语表达。",
+            "评分维度不同:雅思按 Task Response、Coherence & Cohesion、Lexical Resource、Grammatical Range & Accuracy 四项独立打分并平均,强调论证充分与句式多样;高考则以内容要点是否覆盖 + 语言档次整体评分为主,缺乏对\"立场贯穿\"\"论点推演\"这类独立维度的严格考查。"
+            ]
+          },
+          vocabHints: ["a demanding transition", "the principal obstacles", "break into existing peer groups", "structured buddy systems", "erode their confidence and motivation", "targeted support", "foster inclusion", "flourish in their new surroundings"]
+        }
+      ]
+    }
+  ]
+};
+
+const sectionOrder = ['Welcome to the unit','Reading','Grammar','Integrated skills','Extended reading','Project'];
+
+// ========== UTILITIES ==========
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function getSourceClass(source) {
+  if (!source) return 'chip-Reading';
+  const s = source.trim();
+  if (s.startsWith('Reading')) return 'chip-Reading';
+  if (s.startsWith('Grammar')) return 'chip-Grammar';
+  if (s.startsWith('Extended')) return 'chip-Extended';
+  if (s.startsWith('Integrated')) return 'chip-Integrated';
+  if (s.startsWith('Project')) return 'chip-Project';
+  if (s.startsWith('Welcome')) return 'chip-Welcome';
+  return 'chip-Reading';
+}
+
+/** 从 unitData 中获取当前教材/单元的词条列表，支持 "全部" */
+function getVocabList() {
+  // 全部教材
+  if (currentTextbook === '全部') {
+    let allWords = [];
+    for (const [tb, units] of Object.entries(unitData)) {
+      for (const [uk, uv] of Object.entries(units)) {
+        allWords = allWords.concat(uv.vocabularyData || []);
+      }
+    }
+    return allWords;
+  }
+  // 指定教材，全部单元
+  if (currentUnit === '全部') {
+    let allWords = [];
+    const units = unitData[currentTextbook];
+    if (units) {
+      for (const [uk, uv] of Object.entries(units)) {
+        allWords = allWords.concat(uv.vocabularyData || []);
+      }
+    }
+    return allWords;
+  }
+  return unitData[currentTextbook]?.[currentUnit]?.vocabularyData || [];
+}
+
+/** 收集词条中用于搜索的文本片段（不包含释义/例句等容易误匹配的大段文本） */
+function collectSearchableParts(v) {
+  if (!v || typeof v !== 'object') return [];
+  const parts = [];
+  // Core fields
+  if (v.word) parts.push(v.word);
+  if (v.translation) parts.push(v.translation);
+  if (v.partOfSpeech) parts.push(v.partOfSpeech);
+
+  // wordForms: only keep the word/form itself, not examples
+  // 支持数组形式 [string|{word,form}] 或对象形式 {noun,verb,adjective,adverb,other}
+  if (Array.isArray(v.wordForms)) {
+    v.wordForms.forEach(f => {
+      if (typeof f === 'string') parts.push(f);
+      else if (f && typeof f === 'object') { if (f.word) parts.push(f.word); if (f.form) parts.push(f.form); }
+    });
+  } else if (v.wordForms && typeof v.wordForms === 'object') {
+    Object.values(v.wordForms).forEach(val => {
+      if (typeof val === 'string') parts.push(val);
+      else if (val && typeof val === 'object') { if (val.word) parts.push(val.word); if (val.form) parts.push(val.form); }
+    });
+  }
+
+  // collocations: translation only, skip phrase and example
+  // （搭配短语不纳入搜索，避免搜 A 词时命中 B 词搭配中的 A，如搜 maintain 时命中 positive 的搭配 maintain a positive outlook）
+  (Array.isArray(v.collocations) ? v.collocations : []).forEach(c => {
+    if (c && typeof c === 'object' && c.translation) parts.push(c.translation);
+  });
+
+  // idioms: translation only, skip idiom text and example
+  // （习语英文不纳入搜索，避免搜 A 词时命中 B 词习语中的 A，如搜 rise to 时命中 challenge 的习语 rise to the challenge）
+  (Array.isArray(v.idioms) ? v.idioms : []).forEach(i => {
+    if (i && typeof i === 'object' && i.translation) parts.push(i.translation);
+  });
+
+  // synonyms: word only
+  (Array.isArray(v.synonyms) ? v.synonyms : []).forEach(s => {
+    if (typeof s === 'string') parts.push(s);
+    else if (s && typeof s === 'object') {
+      if (s.synonym) parts.push(s.synonym);
+      else if (s.word) parts.push(s.word);
+    }
+  });
+
+  // uncommonMeanings: meaning/translation only
+  (Array.isArray(v.uncommonMeanings) ? v.uncommonMeanings : []).forEach(m => {
+    if (typeof m === 'string') parts.push(m);
+    else if (m && typeof m === 'object') { if (m.meaning) parts.push(m.meaning); if (m.translation) parts.push(m.translation); }
+  });
+
+  return parts;
+}
+
+/** 收集词条中所有可搜索文本（包含 definitionEn，用于回退搜索） */
+function getSearchableText(v) {
+  const parts = collectSearchableParts(v);
+  if (v && v.definitionEn) parts.push(v.definitionEn);
+  return parts.join(' ').toLowerCase();
+}
+
+/** 收集词条中主要可搜索文本（不包含 definitionEn，避免短语被释义中的子串误匹配） */
+function getSearchableTextPrimary(v) {
+  return collectSearchableParts(v).join(' ').toLowerCase();
+}
+
+// ========== RENDER VOCAB ==========
+let currentTextbook = '全部';
+let currentUnit = '全部';
+let currentFilter = 'all';
+let isGlobalSearch = false;
+let globalSearchResults = [];
+let searchSourceTextbook = null;   // 全局搜索结果首个来源教材（仅用于侧边栏展示）
+let searchSourceUnit = null;       // 全局搜索结果首个来源单元（仅用于侧边栏展示）
+window._currentSearchQuery = '';
+window._globalSearchActive = false;
+window._syncingInput = false;
+window._updatingSelects = false;   // 防止程序更新 select 时触发 change 事件
+window._dataLoaded = false;        // 词汇数据是否加载完成
+
+function renderVocabCards() {
+  const tpl = document.getElementById('cardsList');
+  const noRes = document.getElementById('noResults');
+  const info = document.getElementById('resultInfo');
+  console.log('[renderVocabCards] isGlobalSearch=', isGlobalSearch, 'tb=', currentTextbook, 'unit=', currentUnit);
+
+  // 全局搜索模式下由 renderGlobalSearchResults 负责渲染
+  if (isGlobalSearch) {
+    renderGlobalSearchResults();
+    return;
+  }
+
+  // 未选择教材/单元时，不渲染
+  if (!currentTextbook || !currentUnit) {
+    tpl.innerHTML = '';
+    noRes.classList.remove('hidden');
+    info.innerHTML = '请在左侧选择教材和单元';
+    return;
+  }
+
+  let list = getVocabList();
+  console.log('[renderVocabCards] list length=', list.length);
+  // 仅在非"全部"模式下额外按 textbook/unit 过滤（getVocabList 已处理聚合）
+  if (currentTextbook !== '全部' && currentUnit !== '全部') {
+    list = list.filter(v => v.textbook === currentTextbook && v.unit === currentUnit);
+  } else if (currentTextbook !== '全部') {
+    list = list.filter(v => v.textbook === currentTextbook);
+  }
+
+  if (currentFilter && currentFilter !== 'all') {
+    list = list.filter(v => {
+      const s = (v.source || '').trim();
+      if (currentFilter === 'Integrated skills') return s.startsWith('Integrated');
+      if (currentFilter === 'Extended reading') return s.startsWith('Extended');
+      if (currentFilter === 'Welcome to the unit') return s.startsWith('Welcome');
+      return s.startsWith(currentFilter);
+    });
+  }
+  const q = document.getElementById('topbarSearchInput')?.value?.trim().toLowerCase() || '';
+  console.log('[renderVocabCards] q=', q, 'currentFilter=', currentFilter);
+  if (q) {
+    // 三级：词条匹配优先，其次释义/主字段，最后含 definitionEn 回退
+    const wordList = list.filter(v => (v.word || '').toLowerCase().includes(q));
+    if (wordList.length > 0) {
+      list = wordList;
+    } else {
+      const primaryList = list.filter(v => getSearchableTextPrimary(v).includes(q));
+      list = primaryList.length > 0 ? primaryList : list.filter(v => getSearchableText(v).includes(q));
+    }
+  }
+  info.innerHTML = q ? `找到 <strong>${list.length}</strong> 个结果` : `共 <strong>${list.length}</strong> 个词条`;
+  if (list.length === 0) { tpl.innerHTML = ''; noRes.classList.remove('hidden'); return; }
+  noRes.classList.add('hidden');
+  let html = ''; list.forEach(v => { html += buildVocabCard(v); });
+  tpl.innerHTML = html;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ========== GLOBAL SEARCH ==========
+function performGlobalSearch(query) {
+  query = (query || '').trim().toLowerCase();
+  window._currentSearchQuery = query;
+
+  if (!query) {
+    clearGlobalSearch(false);
+    return;
+  }
+
+  // Activate search mode UI (hide welcome, show results area)
+  activateGlobalSearchMode();
+
+  isGlobalSearch = true;
+  globalSearchResults = [];
+
+  try {
+    // 三级匹配：① 词条本身(headword) ② 释义/词形等主字段 ③ 含 definitionEn 的回退
+    // 只要有词条命中，就只显示词条匹配——避免搜 effort 时命中别处词形/释义里出现的 effort
+    const wordMatches = [];
+    const primaryMatches = [];
+    const fullMatches = [];
+    for (const [textbook, units] of Object.entries(unitData)) {
+      for (const [unitName, unitInfo] of Object.entries(units)) {
+        const vocabList = unitInfo.vocabularyData || [];
+        if (!Array.isArray(vocabList)) continue;
+        vocabList.forEach(v => {
+          if (!v || typeof v !== 'object') return;
+          const base = {
+            ...v,
+            textbook: textbook,
+            unit: unitName,
+            unitLabel: unitInfo.label || unitName
+          };
+          if ((v.word || '').toLowerCase().includes(query)) {
+            wordMatches.push(base);
+          } else if (getSearchableTextPrimary(v).includes(query)) {
+            primaryMatches.push(base);
+          } else if (getSearchableText(v).includes(query)) {
+            fullMatches.push({ ...base, _fallbackMatch: true });
+          }
+        });
+      }
+    }
+    globalSearchResults = wordMatches.length > 0 ? wordMatches
+                        : primaryMatches.length > 0 ? primaryMatches
+                        : fullMatches;
+    if (wordMatches.length > 0 && (primaryMatches.length > 0 || fullMatches.length > 0)) {
+      console.log('[global search] 词条匹配:', wordMatches.length, ', 释义/回退已忽略:', primaryMatches.length + fullMatches.length);
+    }
+  } catch (err) {
+    console.error('[performGlobalSearch] search loop error:', err);
+  }
+
+  console.log('[global search]', query, 'results=', globalSearchResults.length);
+
+  // 记录搜索结果来源（首个结果），但不用 currentTextbook/currentUnit 覆盖手动选择
+  if (globalSearchResults.length > 0) {
+    const first = globalSearchResults[0];
+    searchSourceTextbook = first.textbook || null;
+    searchSourceUnit = first.unit || null;
+  } else {
+    searchSourceTextbook = null;
+    searchSourceUnit = null;
+  }
+
+  renderGlobalSearchResults();
+  updateSidebarBadges();
+  updateBreadcrumb();
+  updateSearchPlaceholder();
+  renderSearchSourceSidebar();
+}
+
+function activateGlobalSearchMode() {
+  // 已在搜索模式 UI — 跳过布局变化
+  if (window._globalSearchActive) return;
+  window._globalSearchActive = true;
+
+  const main = document.getElementById('mainContent');
+  const topbarSearch = document.getElementById('topbarSearch');
+  const tabBar = document.getElementById('tabBar');
+  const panelVocab = document.getElementById('panelVocab');
+  const panelLongSentences = document.getElementById('panelLongSentences');
+  const panelWriting = document.getElementById('panelWriting');
+  const resultsArea = document.getElementById('contentResultsArea');
+
+  if (main) main.style.display = '';
+
+  // 动画：上方文字上浮消失，下方文字下浮消失
+  const topGroup = document.getElementById('welcomeTopGroup');
+  const bottomGroup = document.getElementById('welcomeBottomGroup');
+  const hint = document.querySelector('.welcome-search-hint');
+  const welcomePanel = document.querySelector('.welcome-panel');
+  const welcomeInput = document.getElementById('welcomeSearchInput');
+  const topbarInput = document.getElementById('topbarSearchInput');
+
+  if (topGroup) topGroup.classList.add('exit-up');
+  if (bottomGroup) bottomGroup.classList.add('exit-down');
+  if (hint) hint.style.display = 'none';
+  // 欢迎面板收缩，隐藏欢迎页搜索框，由顶部 topbar 搜索框接管
+  if (welcomePanel) welcomePanel.classList.add('search-active');
+  // 显示顶部 topbar 搜索框，并把焦点转移过去以便继续输入
+  if (topbarSearch) topbarSearch.style.display = '';
+  if (topbarInput && welcomeInput) {
+    topbarInput.value = welcomeInput.value;
+    setTimeout(() => {
+      topbarInput.focus();
+      topbarInput.setSelectionRange(topbarInput.value.length, topbarInput.value.length);
+    }, 30);
+  }
+
+  // 显示结果区域（tabBar + 词汇面板渐入）
+  if (tabBar) tabBar.style.display = '';
+  if (panelVocab) panelVocab.classList.remove('hidden');
+  if (panelLongSentences) panelLongSentences.classList.add('hidden');
+  if (panelWriting) panelWriting.classList.add('hidden');
+  if (resultsArea) resultsArea.classList.add('visible');
+
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const vBtn = document.querySelector('.tab-btn[data-tab="vocab"]');
+  if (vBtn) vBtn.classList.add('active');
+}
+
+function renderGlobalSearchResults() {
+  const tpl = document.getElementById('cardsList');
+  const noRes = document.getElementById('noResults');
+  const info = document.getElementById('resultInfo');
+  const q = window._currentSearchQuery || '';
+
+  const groups = {};
+  globalSearchResults.forEach(v => {
+    const key = `${v.textbook} › ${v.unit}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(v);
+  });
+
+  const groupKeys = Object.keys(groups);
+  if (info) {
+    info.innerHTML = `全局搜索 "<strong>${escapeHtml(q)}</strong>" · <strong>${globalSearchResults.length}</strong> 个结果 · ${groupKeys.length} 个单元`;
+  }
+
+  if (globalSearchResults.length === 0) {
+    if (tpl) tpl.innerHTML = '';
+    if (noRes) {
+      noRes.textContent = window._dataLoaded ? '未找到匹配的词汇' : '数据正在加载中，请稍候…';
+      noRes.classList.remove('hidden');
+    }
+    return;
+  }
+  if (noRes) noRes.classList.add('hidden');
+
+  let html = '';
+  groupKeys.forEach(key => {
+    const sepIdx = key.indexOf(' › ');
+    const textbook = key.slice(0, sepIdx);
+    const unit = key.slice(sepIdx + 3);
+    html += `<div style="margin-bottom:8px;padding:10px 16px;background:linear-gradient(135deg,#eef2ff 0%,#fafbff 100%);border-radius:10px;border:1px solid #c7d2fe;">
+      <span style="font-weight:700;color:var(--primary-dark);font-size:.82rem;">📘 ${escapeHtml(textbook)}</span>
+      <span style="color:var(--text-muted);margin:0 6px;">›</span>
+      <span style="font-weight:600;color:var(--text);font-size:.82rem;">${escapeHtml(unit)}</span>
+      <span style="margin-left:8px;background:#dbeafe;color:#1e40af;font-size:.7rem;padding:2px 8px;border-radius:10px;">${groups[key].length} 个词条</span>
+    </div>`;
+    groups[key].forEach(v => { html += buildVocabCard(v); });
+  });
+  if (tpl) tpl.innerHTML = html;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function clearGlobalSearch(clearInput = false, keepTabBar = false) {
+  isGlobalSearch = false;
+  globalSearchResults = [];
+  searchSourceTextbook = null;
+  searchSourceUnit = null;
+  window._globalSearchActive = false;
+  window._currentSearchQuery = '';
+
+  const welcomeInput = document.getElementById('welcomeSearchInput');
+  const topbarInput = document.getElementById('topbarSearchInput');
+  if (clearInput) {
+    if (welcomeInput) welcomeInput.value = '';
+    if (topbarInput) topbarInput.value = '';
+  }
+
+  document.querySelectorAll('#sidebarNav .nav-item').forEach(i=>i.classList.remove('active'));
+  const allBtn = document.querySelector('#sidebarNav .nav-item[data-filter="all"]');
+  if (allBtn) allBtn.classList.add('active');
+  currentFilter = 'all';
+
+  if (!keepTabBar) {
+    showWelcomePage();
+  }
+  updateSidebarBadges();
+  updateBreadcrumb();
+  updateSearchPlaceholder();
+  renderSearchSourceSidebar();
+
+  // Return focus to welcome search when back to home
+  if (!keepTabBar && welcomeInput) {
+    setTimeout(() => { welcomeInput.focus(); welcomeInput.setSelectionRange(welcomeInput.value.length, welcomeInput.value.length); }, 50);
+  }
+}
+
+/** 同步两个搜索框的值，避免事件循环 */
+function syncSearchInputs(value, source) {
+  const welcomeInput = document.getElementById('welcomeSearchInput');
+  const topbarInput = document.getElementById('topbarSearchInput');
+  window._syncingInput = true;
+  if (source !== 'welcome' && welcomeInput && welcomeInput.value !== value) {
+    welcomeInput.value = value;
+  }
+  if (source !== 'topbar' && topbarInput && topbarInput.value !== value) {
+    topbarInput.value = value;
+  }
+  window._syncingInput = false;
+}
+
+/** 在侧边栏显示全局搜索结果的来源教材/单元 */
+function renderSearchSourceSidebar() {
+  const container = document.getElementById('searchSourceSidebar');
+  if (!container) return;
+  if (!isGlobalSearch || globalSearchResults.length === 0) {
+    container.innerHTML = '';
+    container.classList.add('hidden');
+    return;
+  }
+  const groups = {};
+  globalSearchResults.forEach(v => {
+    const key = `${v.textbook} › ${v.unit}`;
+    if (!groups[key]) groups[key] = 0;
+    groups[key]++;
+  });
+  let html = '<div class="search-source-title">🔍 搜索结果来源</div>';
+  Object.entries(groups).forEach(([key, count]) => {
+    const sepIdx = key.indexOf(' › ');
+    const textbook = key.slice(0, sepIdx);
+    const unit = key.slice(sepIdx + 3);
+    const safeKey = key.replace(/"/g, '&quot;');
+    html += `<div class="search-source-item" data-search-source="${safeKey}" title="点击切换到 ${escapeHtml(textbook)} › ${escapeHtml(unit)}">
+      <span class="search-source-tb">${escapeHtml(textbook)}</span>
+      <span class="search-source-div">›</span>
+      <span class="search-source-unit">${escapeHtml(unit)}</span>
+      <span class="search-source-count">${count}</span>
+    </div>`;
+  });
+  container.innerHTML = html;
+  container.classList.remove('hidden');
+
+  // 绑定点击事件：点击来源项切换到对应教材/单元
+  container.querySelectorAll('.search-source-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const key = item.dataset.searchSource;
+      if (!key) return;
+      const sepIdx = key.indexOf(' › ');
+      if (sepIdx === -1) return;
+      const tb = key.slice(0, sepIdx);
+      const un = key.slice(sepIdx + 3);
+      currentTextbook = tb;
+      currentUnit = un;
+      currentFilter = 'all';
+      clearGlobalSearch(false, true);
+      populateTextbookSelect();
+      document.querySelectorAll('#sidebarNav .nav-item').forEach(i => i.classList.remove('active'));
+      const allBtn = document.querySelector('#sidebarNav .nav-item[data-filter="all"]');
+      if (allBtn) allBtn.classList.add('active');
+      showContentArea();
+      renderVocabCards();
+      updateSidebarBadges();
+      updateBreadcrumb();
+      updateSearchPlaceholder();
+    });
+  });
+}
+
+// ========== Welcome Search input event ==========
+// 欢迎页搜索框：无论当前状态如何，输入即触发全库搜索
+document.getElementById('welcomeSearchInput').addEventListener('input', (e) => {
+  if (window._syncingInput) return;
+  const v = e.target.value;
+  console.log('[welcome input]', v, 'dataLoaded=', window._dataLoaded);
+  syncSearchInputs(v, 'welcome');
+  performGlobalSearch(v);
+});
+
+function buildVocabCard(v) {
+  // ---- Card header ----
+  const sourceChip = v.source ? `<span class="card-source-chip ${getSourceClass(v.source)}">📍 ${escapeHtml(v.source)}</span>` : '';
+  let defEnHtml = '';
+  if (v.definitionEn) {
+    const lines = v.definitionEn.split('\n').filter(l => l.trim());
+    if (lines.length > 1) {
+      defEnHtml = '<div class="def-en"><span class="def-label">DEFINITION</span><div class="def-en-items">';
+      lines.forEach((line, i) => {
+        const match = line.match(/^\((\d+)\)\s*(.*)/);
+        if (match) {
+          defEnHtml += `<div class="def-en-item"><span class="def-num">${match[1]}</span><span class="def-text">${escapeHtml(match[2])}</span></div>`;
+        } else {
+          defEnHtml += `<div class="def-en-item"><span class="def-text">${escapeHtml(line)}</span></div>`;
+        }
+      });
+      defEnHtml += '</div></div>';
+    } else {
+      defEnHtml = `<div class="def-en"><span class="def-label">DEFINITION</span><div class="def-en-single">${escapeHtml(v.definitionEn)}</div></div>`;
+    }
+  }
+
+  // ---- Word forms ----
+  let wfHtml = '';
+  const wf = v.wordForms || {};
+  const otherContent = wf.other || '';
+  const wfDisplay = {};
+  const wordLower = (v.word || '').toLowerCase();
+  for (const k of Object.keys(wf)) {
+    if (k === 'other') continue;
+    if (wf[k] == null || wf[k] === '') continue;
+    const val = String(wf[k]).trim();
+    if (val.toLowerCase() === wordLower) continue;
+    wfDisplay[k] = val;
+  }
+  if (otherContent) {
+    const parts = otherContent.split(/[,，]/).map(s=>s.trim()).filter(Boolean);
+    const nounExtras=[], verbExtras=[];
+    for (const part of parts) {
+      const m = part.match(/^(.+?)[（(]([^)）]*)[)）]$/);
+      if (!m) continue;
+      const forms = m[1].split('/').map(s=>s.trim()).filter(Boolean);
+      const desc = m[2].trim();
+      if (desc.includes('复数')) { nounExtras.push(...forms); }
+      else if (desc.includes('分词')||desc.includes('过去式')) { verbExtras.push(...forms); }
+    }
+    if (nounExtras.length && wfDisplay.hasOwnProperty('noun') && wfDisplay['noun']) wfDisplay['noun'] += ' (' + [...new Set(nounExtras)].join(', ') + ')';
+    if (verbExtras.length && wfDisplay.hasOwnProperty('verb') && wfDisplay['verb']) wfDisplay['verb'] += ' (' + [...new Set(verbExtras)].join(', ') + ')';
+  }
+  const wfKeys = Object.keys(wfDisplay);
+  if (wfKeys.length>0) { wfHtml='<div class="wf-grid">'; wfKeys.forEach(k=>{ wfHtml+=`<span class="wf-chip"><span class="wf-key">${k}</span> ${escapeHtml(wfDisplay[k])}</span>`; }); wfHtml+='</div>'; }
+
+  // ---- 熟词僻义 ----
+  let uncmHtml = '';
+  const uncm = Array.isArray(v.uncommonMeanings) ? v.uncommonMeanings : [];
+  if (uncm.length>0) {
+    uncmHtml = '<div class="uncommon-box"><div class="sec-title">⚠️ 熟词僻义</div>';
+    uncm.forEach(u => {
+      uncmHtml += `<div class="uncommon-item"><span class="uncommon-pos">${escapeHtml(u.partOfSpeech)}</span><div><span class="uncommon-def">${escapeHtml(u.meaning)}</span><span class="uncommon-ex">e.g. ${escapeHtml(u.example)}</span></div></div>`;
+    });
+    uncmHtml += '</div>';
+  }
+
+  // ---- 课文原句 ----
+  const readEx = Array.isArray(v.readingExamples) ? v.readingExamples.filter(s=>s&&s.trim()!=='') : [];
+  if (readEx.length === 0 && typeof v.original_sentence === 'string' && v.original_sentence.trim() !== '') {
+    readEx.push(v.original_sentence.trim());
+  }
+  let readingHtml = '';
+  if (readEx.length>0) {
+    readingHtml = '<div class="reading-block"><div class="sec-title">📖 课文原句</div>';
+    readEx.forEach(s=>{ readingHtml+=`<div class="reading-item"><span class="rq">&ldquo;</span><span class="rt">${escapeHtml(s)}</span><span class="rq">&rdquo;</span></div>`; });
+    readingHtml += '</div>';
+  }
+
+  // ---- 其他例句 (posExamples) ----
+  const posEx = Array.isArray(v.posExamples) ? v.posExamples.filter(ex=>ex.sentence&&ex.sentence.trim()!=='') : [];
+  let posHtml = '';
+  if (posEx.length>0) {
+    const title = readEx.length>0 ? '📝 其他例句' : '📝 例句';
+    posHtml = `<div class="sec-title">${title}</div>`;
+    posEx.forEach(ex=>{ posHtml+=`<div class="example-item"><span class="ex-pos-label">${escapeHtml(ex.partOfSpeech)}</span><span class="ex-text">${escapeHtml(ex.sentence)}</span></div>`; });
+  }
+
+  const hasExamples = readingHtml || posHtml;
+  let exHtml = '';
+  if (!hasExamples) { exHtml='<div style="font-size:.82rem;color:var(--text-muted);font-style:italic;">暂无例句</div>'; }
+  else { exHtml = readingHtml + posHtml; }
+
+  // ---- 习语 ----
+  let idiomHtml = '';
+  if (v.idioms && v.idioms.length>0) {
+    idiomHtml = '<div class="idiom-section"><div class="sec-title">📌 习语</div>';
+    v.idioms.forEach(id=>{
+      const idiomExample = escapeHtml(id.example).replace(/\n/g, '<br>e.g. ');
+      idiomHtml += `<div class="idiom-chip">${escapeHtml(id.idiom)} — ${escapeHtml(id.translation)}<span class="idiom-chip-ex">e.g. ${idiomExample}</span></div>`;
+    });
+    idiomHtml += '</div>';
+  }
+
+  // ---- 搭配 ----
+  let collocHtml = '';
+  if (v.collocations && v.collocations.length>0) {
+    collocHtml = '<div class="colloc-section"><div class="sec-title">🔗 常用搭配</div>';
+    v.collocations.forEach(c=>{
+      collocHtml += `<span class="colloc-chip" title="${escapeHtml(c.example||'')}">${escapeHtml(c.phrase)} — ${escapeHtml(c.translation)}</span>`;
+    });
+    collocHtml += '</div>';
+  }
+
+  // ---- 课堂练习 (classPractice) ----
+  let pracHtml = '';
+  const prac = Array.isArray(v.classPractice) ? v.classPractice.filter(p=>p&&p.question) : [];
+  if (prac.length>0) {
+    const puid = 'prac_'+v.word.replace(/[^a-z]/gi,'');
+    pracHtml += `<button class="adv-toggle prac-toggle" onclick="toggleAdv(this,'${puid}')"><span class="arr">▶</span> 📚 课堂练习（${prac.length}题 · 点「答案」显示）</button>`;
+    pracHtml += `<div class="adv-box prac-box" id="${puid}">`;
+    prac.forEach((p,i)=>{
+      pracHtml += `<div class="prac-item"><span class="prac-type">${escapeHtml(p.type||'练习')}</span><span class="prac-q">${i+1}) ${escapeHtml(p.question)}</span>`;
+      pracHtml += `<span class="prac-ans" onclick="this.classList.toggle('revealed')"><span class="prac-ans-label">答案</span><span class="prac-ans-text">${escapeHtml(p.answer||'')}</span></span>`;
+      if (p.note) pracHtml += `<span class="prac-note">💡 ${escapeHtml(p.note)}</span>`;
+      pracHtml += `</div>`;
+    });
+    pracHtml += '</div>';
+  }
+
+  // ---- 句型升级 + 同义替换 + 高级表达 (全部合入展开栏) ----
+  const hasSU = v.sentenceUpgrade && v.sentenceUpgrade.length>0;
+  const hasSyn = v.synonyms && v.synonyms.length>0;
+  const hasAdv = v.advancedExpressions && v.advancedExpressions.length>0;
+  let advHtml = '';
+  if (hasSU || hasSyn || hasAdv) {
+    const uid = 'adv_'+v.word.replace(/[^a-z]/gi,'');
+    advHtml += `<button class="adv-toggle" onclick="toggleAdv(this,'${uid}')"><span class="arr">▶</span> 展开句型升级 · 同义替换 · 高级表达</button>`;
+    advHtml += `<div class="adv-box" id="${uid}">`;
+    if (hasSU) {
+      advHtml += '<div class="adv-group-title">🔄 句型升级</div>';
+      v.sentenceUpgrade.forEach(u=>{
+        advHtml += `<div class="su-item" style="margin-bottom:10px;">`;
+        advHtml += `<div class="su-original"><span class="su-tag">原句</span> ${escapeHtml(u.original)}</div>`;
+        advHtml += `<div class="su-upgraded"><span class="su-tag">升级</span> ${escapeHtml(u.upgraded)}</div>`;
+        if (u.techniques) advHtml += `<div class="su-analysis">💡 ${escapeHtml(u.techniques)}</div>`;
+        advHtml += `</div>`;
+      });
+    }
+    if (hasSyn) {
+      advHtml += '<div class="adv-group-title">↔ 同义词替换</div>';
+      v.synonyms.forEach(s=>{
+        advHtml += `<div class="adv-item"><strong>${escapeHtml(s.synonym)}</strong> <span style="color:var(--text-muted);">${escapeHtml(s.translation)}</span>`;
+        if (s.usage) advHtml += ` <span style="font-size:.7rem;background:#fef2f2;color:#991b1b;padding:1px 7px;border-radius:3px;">${escapeHtml(s.usage)}</span>`;
+        if (s.example) advHtml += ` <span style="display:block;color:var(--text-muted);font-size:.78rem;font-style:italic;margin-top:2px;">e.g. ${escapeHtml(s.example)}</span>`;
+        advHtml += '</div>';
+      });
+    }
+    if (hasAdv) {
+      advHtml += '<div class="adv-group-title">⭐ 高级表达库</div>';
+      const groups = {};
+      v.advancedExpressions.forEach(a=>{ const t=(a.type||'其他').trim(); if(!groups[t]) groups[t]=[]; groups[t].push(a); });
+      Object.entries(groups).forEach(([type,items])=>{
+        advHtml += `<div style="font-weight:600;font-size:.76rem;color:var(--text);margin:8px 0 4px;">${escapeHtml(type)}</div>`;
+        items.forEach(a=>{
+          advHtml += `<div class="adv-item"><strong>${escapeHtml(a.expression)}</strong>`;
+          if (a.example) advHtml += ` <span style="display:block;color:var(--text-muted);font-size:.78rem;font-style:italic;margin-top:2px;">e.g. ${escapeHtml(a.example)}</span>`;
+          if (a.usageNote) advHtml += ` <span style="font-size:.72rem;color:#92400e;">💡 ${escapeHtml(a.usageNote)}</span>`;
+          advHtml += '</div>';
+        });
+      });
+    }
+    advHtml += '</div>';
+  }
+
+  return `
+    <div class="vocab-card">
+      <div class="card-header">
+        <div class="card-header-top">
+          <span class="card-word">${escapeHtml(v.word)}</span>
+          ${v.pronunciation ? `<span class="card-pron">${escapeHtml(v.pronunciation)}</span>` : ''}
+          <span class="card-pos">${escapeHtml(v.partOfSpeech||'')}</span>
+        </div>
+        <div class="card-cn">${escapeHtml(v.translation||'')}</div>
+        ${defEnHtml}
+        ${v.unitLabel ? `<span class="global-loc-badge">📘 ${escapeHtml(v.textbook||'')} › ${escapeHtml(v.unitLabel||'')}</span>` : ''}
+        ${sourceChip}
+      </div>
+      <div class="card-body">
+        ${wfHtml}
+        ${uncmHtml}
+        ${exHtml}
+        ${idiomHtml}
+        ${collocHtml}
+        ${pracHtml}
+        ${advHtml}
+      </div>
+    </div>`;
+}
+
+// ========== UPDATE SIDEBAR BADGES ==========
+function updateSidebarBadges() {
+  const list = getVocabList();
+  const counts = { all: list.length };
+  sectionOrder.forEach(sec=>{
+    counts[sec] = list.filter(v=>{
+      const s=(v.source||'').trim();
+      if (sec==='Integrated skills') return s.startsWith('Integrated');
+      if (sec==='Extended reading') return s.startsWith('Extended');
+      if (sec==='Welcome to the unit') return s.startsWith('Welcome');
+      return s.startsWith(sec);
+    }).length;
+  });
+  const totalAll = counts.all;
+  const badgeAll = document.getElementById('badgeAll');
+  if (badgeAll) badgeAll.textContent = totalAll;
+  const bm = {'Welcome to the unit':'badgeWelcome','Reading':'badgeReading','Grammar':'badgeGrammar','Integrated skills':'badgeIntegrated','Extended reading':'badgeExtended','Project':'badgeProject'};
+  for (const [sec,bid] of Object.entries(bm)) { const el=document.getElementById(bid); if(el) el.textContent=counts[sec]; }
+
+  let footerText;
+  if (isGlobalSearch && globalSearchResults.length > 0) {
+    const groups = new Set();
+    globalSearchResults.forEach(r => groups.add(`${r.textbook} / ${r.unit}`));
+    footerText = `🔍 找到 ${globalSearchResults.length} 个结果 · 来自 ${groups.size} 个单元`;
+  } else if (isGlobalSearch && globalSearchResults.length === 0) {
+    footerText = '🔍 未找到匹配结果';
+  } else if (currentTextbook && currentUnit) {
+    if (currentTextbook === '全部') {
+      footerText = `${totalAll} 个词条 · 全部教材`;
+    } else if (currentUnit === '全部') {
+      footerText = `${totalAll} 个词条 · ${currentTextbook} 全部单元`;
+    } else {
+      footerText = `${totalAll} 个词条 · ${currentTextbook} ${currentUnit}`;
+    }
+  } else {
+    footerText = '请选择教材和单元';
+  }
+  const sidebarFooter = document.getElementById('sidebarFooter');
+  if (sidebarFooter) sidebarFooter.textContent = footerText;
+
+  // 更新 Tab 词汇 badge
+  const tabBadge = document.querySelector('.tab-btn[data-tab="vocab"] .tab-badge');
+  if (tabBadge) tabBadge.textContent = isGlobalSearch ? globalSearchResults.length : totalAll;
+}
+
+// ========== RENDER LONG SENTENCES ==========
+function renderLongSentences() {
+  const el = document.getElementById('lsList');
+  if (!longSentencesData.length) { el.innerHTML='<div class="no-results">暂无长难句数据</div>'; return; }
+  let html = '';
+  longSentencesData.forEach((ls, idx) => {
+    const structureTags = (ls.structures||[]).map(s=>`<span class="ls-structure">${escapeHtml(s)}</span>`).join('');
+    const sourceTag = ls.source ? `<span class="ls-source-tag ${getSourceClass(ls.source)}">📍 ${escapeHtml(ls.source)}</span>` : '';
+    const patternHtml = ls.pattern ? `<div class="ls-pattern"><span class="pat-label">📐 句式模板</span>${escapeHtml(ls.pattern)}</div>` : '';
+    let imitationHtml = '';
+    if (ls.imitationCn) {
+      const typeLabel = ls.imitationType === 'completion' ? '补全句子' : '翻译仿写';
+      const uid = 'lsAnswer' + idx;
+      imitationHtml = `
+        <div class="ls-imit">
+          <div class="imit-title">✍️ 仿句练习 <span class="imit-type">${typeLabel}</span></div>
+          <div class="imit-cn">📝 ${escapeHtml(ls.imitationCn)}</div>
+          ${ls.imitationHint ? `<div class="imit-hint">💡 提示：${escapeHtml(ls.imitationHint)}</div>` : ''}
+          ${ls.imitationAnswer ? `
+          <button class="imit-answer-btn" onclick="const a=document.getElementById('${uid}');a.classList.toggle('show');this.classList.toggle('open');this.textContent=a.classList.contains('show')?'▲ 收起答案':'▼ 查看答案'">▼ 查看答案</button>
+          <div class="imit-answer" id="${uid}">${escapeHtml(ls.imitationAnswer)}</div>` : ''}
+        </div>`;
+    }
+    html += `
+      <div class="ls-card">
+        ${sourceTag}
+        <div class="ls-en">&ldquo;${escapeHtml(ls.sentence)}&rdquo;</div>
+        <div class="ls-cn">${escapeHtml(ls.translation)}</div>
+        <div class="ls-analysis">🔍 ${structureTags} ${escapeHtml(ls.analysis)}</div>
+        ${patternHtml}
+        ${imitationHtml}
+      </div>`;
+  });
+  el.innerHTML = html;
+}
+
+// ========== RENDER WRITING ==========
+let writingActiveSub = null;
+
+function renderWriting() {
+  const el = document.getElementById('writingList');
+  const st = writingData.subTopics;
+  if (!st || !st.length) { el.innerHTML='<div class="no-results">暂无写作练习题</div>'; return; }
+
+  // 默认展示第一个子话题
+  if (!writingActiveSub || !st.find(s => s.id === writingActiveSub)) {
+    writingActiveSub = st[0].id;
+  }
+
+  // 主话题 banner
+  let html = `
+    <div class="w-main-topic">
+      <div class="wmt-label">${currentUnit ? currentUnit + ' ' : ''}核心写作话题</div>
+      <div class="wmt-title">${escapeHtml(writingData.mainTopic)}</div>
+      <div class="wmt-sub">${escapeHtml(writingData.mainTopicEn)} — ${escapeHtml(writingData.mainTopicBrief)}</div>
+    </div>`;
+
+  // 子话题按钮
+  html += '<div class="w-subtopic-tabs">';
+  st.forEach(s => {
+    const activeCls = s.id === writingActiveSub ? ' active' : '';
+    html += `
+      <button class="w-subtopic-btn${activeCls}" onclick="selectWritingSub('${s.id}')">
+        <span class="wsb-section">${escapeHtml(s.section)}</span>
+        <span class="wsb-title">${escapeHtml(s.title)}</span>
+        <span class="wsb-desc">${escapeHtml(s.desc)}</span>
+      </button>`;
+  });
+  html += '</div>';
+
+  // 当前选中子话题的试题
+  const active = st.find(s => s.id === writingActiveSub);
+  if (active && active.prompts && active.prompts.length) {
+    html += '<div id="writingPromptArea">';
+    html += renderWritingPrompts(active.prompts, writingActiveSub);
+    html += '</div>';
+  } else {
+    html += '<div id="writingPromptArea"><div class="w-prompt-empty">该话题暂未收录试题，敬请期待</div></div>';
+  }
+
+  el.innerHTML = html;
+}
+
+function renderWritingPrompts(prompts, subId) {
+  let html = '';
+  prompts.forEach((p, idx) => {
+    const uid = `wref_${subId}_${idx}`;
+    const srcCls = p.type === 'ielts' ? 'ielts' : 'mock';
+    const vocabHtml = (p.vocabHints || []).length
+      ? `<div class="w-vocab-hints">${p.vocabHints.map(v => `<span class="w-vocab-chip">${escapeHtml(v)}</span>`).join('')}</div>`
+      : '';
+    const wcHtml = p.wordCount
+      ? `<div class="w-wordcount">📝 ${p.wordCount} words · 雅思 Task 2 要求 ≥250 词</div>`
+      : '';
+    const sn = p.scoringNotes;
+    const scoreHtml = (sn && (sn.bandFeatures || sn.vsGaokao))
+      ? `<div class="w-score-box">
+          <div class="w-score-head">🎯 评分要点${sn.band ? `（Band ${escapeHtml(sn.band)}）` : ''} · 雅思 vs 高考</div>
+          <div class="w-score-cols">
+            <div class="w-score-col band">
+              <div class="wsc-title">本文为何达 Band 8</div>
+              <ul>${(sn.bandFeatures || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+            <div class="w-score-col vs">
+              <div class="wsc-title">雅思 ≠ 高考（评分差异）</div>
+              <ul>${(sn.vsGaokao || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+          </div>
+        </div>`
+      : '';
+    html += `
+      <div class="w-prompt-card">
+        <div class="w-prompt-header">
+          <span class="w-prompt-source ${srcCls}">${escapeHtml(p.source)}</span>
+          <span class="w-prompt-source ${srcCls}" style="opacity:.7;">${escapeHtml(p.typeLabel)}</span>
+        </div>
+        <div class="w-prompt-task">${escapeHtml(p.task)}</div>
+        <div class="w-ref-section">
+          <button class="w-ref-toggle" onclick="toggleWritingRef('${uid}')">
+            <span class="wr-arr">▶</span> 查看参考范文 &amp; 可调用词汇
+          </button>
+          <div class="w-ref-body" id="${uid}">
+            <div style="white-space:pre-line;">${escapeHtml(p.reference)}</div>
+            ${wcHtml}
+            ${scoreHtml}
+            ${vocabHtml}
+          </div>
+        </div>
+      </div>`;
+  });
+  return html;
+}
+
+function selectWritingSub(subId) {
+  writingActiveSub = subId;
+  // 重新渲染整个写作面板
+  renderWriting();
+}
+
+function toggleWritingRef(uid) {
+  const box = document.getElementById(uid);
+  if (!box) return;
+  box.classList.toggle('show');
+  const btn = box.previousElementSibling;
+  if (btn) {
+    btn.classList.toggle('open');
+    btn.querySelector('.wr-arr').textContent = box.classList.contains('show') ? '▼' : '▶';
+  }
+}
+
+// ========== BUILD TEXTBOOK META FROM UNITDATA ==========
+function rebuildTextbookMeta() {
+  for (const [tb, units] of Object.entries(unitData)) {
+    const unitMap = {};
+    for (const [uk, uv] of Object.entries(units)) {
+      unitMap[uk] = { label: uv.label || `${uk} · ${uv.topic || ''}` };
+    }
+    textbookMeta[tb] = { label: tb, units: unitMap };
+  }
+}
+
+function populateTextbookSelect() {
+  window._updatingSelects = true;
+  const sel = document.getElementById('textbookSelect');
+  const allSelected = currentTextbook === '全部' ? ' selected' : '';
+  sel.innerHTML = `<option value="全部"${allSelected}>📚 全部教材</option>`;
+  Object.keys(unitData).forEach(tb => {
+    const o = document.createElement('option');
+    o.value = tb; o.textContent = tb;
+    if (tb === currentTextbook) o.selected = true;
+    sel.appendChild(o);
+  });
+  populateUnitSelect();
+  window._updatingSelects = false;
+}
+
+function populateUnitSelect() {
+  const sel = document.getElementById('unitSelect');
+  const allSelected = currentUnit === '全部' ? ' selected' : '';
+  sel.innerHTML = `<option value="全部"${allSelected}>📖 全部单元</option>`;
+  if (!currentTextbook || currentTextbook === '全部') return;
+  const units = unitData[currentTextbook];
+  if (!units) return;
+  Object.entries(units).forEach(([uk, uv]) => {
+    const o = document.createElement('option');
+    o.value = uk; o.textContent = uv.label || uk;
+    if (uk === currentUnit) o.selected = true;
+    sel.appendChild(o);
+  });
+}
+
+// ========== INTERACTIONS ==========
+function toggleAdv(btn, uid) { const box=document.getElementById(uid); box.classList.toggle('show'); btn.classList.toggle('open'); }
+
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    // 切换 tab 不清除搜索框内容；若当前在全局搜索且切回词汇 tab，则保持搜索结果
+    if (isGlobalSearch && btn.dataset.tab === 'vocab') {
+      document.getElementById('panelVocab').classList.remove('hidden');
+      document.getElementById('panelLongSentences').classList.add('hidden');
+      document.getElementById('panelWriting').classList.add('hidden');
+      document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      renderGlobalSearchResults();
+      return;
+    }
+    // 切换到长难句/写作练习时，退出全局搜索但保留输入框
+    if (isGlobalSearch) {
+      clearGlobalSearch(false, true);
+    }
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab=btn.dataset.tab;
+    document.getElementById('panelWelcome').classList.add('hidden');
+    document.getElementById('contentResultsArea').classList.add('visible');
+    document.getElementById('panelVocab').classList.toggle('hidden',tab!=='vocab');
+    document.getElementById('panelLongSentences').classList.toggle('hidden',tab!=='longsentences');
+    document.getElementById('panelWriting').classList.toggle('hidden',tab!=='writing');
+  });
+});
+
+document.querySelectorAll('#sidebarNav .nav-item').forEach(item=>{
+  item.addEventListener('click',()=>{
+    // 未选择教材/单元时，点击板块不生效
+    if (!currentTextbook || !currentUnit) return;
+
+    isGlobalSearch = false;
+    globalSearchResults = [];
+    window._globalSearchActive = false;
+    window._currentSearchQuery = '';
+    const welcomeInput = document.getElementById('welcomeSearchInput');
+    const topbarInput = document.getElementById('topbarSearchInput');
+    if (welcomeInput) welcomeInput.value = '';
+    if (topbarInput) topbarInput.value = '';
+
+    document.querySelectorAll('#sidebarNav .nav-item').forEach(i=>i.classList.remove('active'));
+    item.classList.add('active');
+    currentFilter=item.dataset.filter;
+    showContentArea();
+    renderVocabCards();
+    updateSidebarBadges();
+  });
+});
+
+function showContentArea() {
+  // 未选择教材/单元且不在全局搜索模式时，不切换内容区
+  if (!isGlobalSearch && (!currentTextbook || !currentUnit)) return;
+  // 首次进入词条展示时，将顶部搜索框显示出来，此后一直保留
+  document.getElementById('topbarSearch').style.display = '';
+  // 单元模式：完全隐藏欢迎面板（含搜索框），使用 topbar 搜索
+  const welcomePanel = document.querySelector('.welcome-panel');
+  if (welcomePanel) {
+    welcomePanel.classList.remove('search-active');
+  }
+  document.getElementById('panelWelcome').classList.add('hidden');
+  document.getElementById('contentResultsArea').classList.add('visible');
+  document.getElementById('tabBar').style.display = '';
+  document.getElementById('panelVocab').classList.remove('hidden');
+  document.getElementById('panelLongSentences').classList.add('hidden');
+  document.getElementById('panelWriting').classList.add('hidden');
+  // 确保 vocab tab 处于激活状态
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  const vocabBtn = document.querySelector('.tab-btn[data-tab="vocab"]');
+  if (vocabBtn) vocabBtn.classList.add('active');
+  updateSearchPlaceholder();
+}
+
+function showWelcomePage() {
+  // 回到欢迎页，隐藏词条内容区
+  // 恢复被全局搜索隐藏的欢迎页装饰部分（带动画反向回归）
+  const topGroup = document.getElementById('welcomeTopGroup');
+  const bottomGroup = document.getElementById('welcomeBottomGroup');
+  const hint = document.querySelector('.welcome-search-hint');
+  const welcomePanel = document.querySelector('.welcome-panel');
+  const resultsArea = document.getElementById('contentResultsArea');
+  const topbarSearch = document.getElementById('topbarSearch');
+
+  if (topGroup) topGroup.classList.remove('exit-up');
+  if (bottomGroup) bottomGroup.classList.remove('exit-down');
+  if (hint) hint.style.display = '';
+  if (welcomePanel) welcomePanel.classList.remove('search-active');
+  if (resultsArea) resultsArea.classList.remove('visible');
+  if (topbarSearch) topbarSearch.style.display = 'none';
+
+  document.getElementById('panelWelcome').classList.remove('hidden');
+  document.getElementById('tabBar').style.display = 'none';
+  document.getElementById('panelVocab').classList.add('hidden');
+  document.getElementById('panelLongSentences').classList.add('hidden');
+  document.getElementById('panelWriting').classList.add('hidden');
+
+  window._globalSearchActive = false;
+  updateBreadcrumb();
+  updateSearchPlaceholder();
+}
+
+document.getElementById('textbookSelect').addEventListener('change',(e)=>{
+  if (window._updatingSelects) return;
+  currentTextbook = e.target.value || null;
+  if (currentTextbook === '全部') {
+    currentUnit = '全部';
+    populateUnitSelect();
+  } else if (!currentTextbook) {
+    currentUnit = null;
+    populateUnitSelect();
+    updateBreadcrumb();
+    return;
+  } else {
+    const units = unitData[currentTextbook];
+    if (units) {
+      const firstUnit = Object.keys(units)[0];
+      if (firstUnit) {
+        currentUnit = firstUnit;
+        populateUnitSelect();
+      }
+    }
+  }
+  updateBreadcrumb();
+  currentFilter='all';
+  document.querySelectorAll('#sidebarNav .nav-item').forEach(i=>i.classList.remove('active'));
+  const allBtn = document.querySelector('#sidebarNav .nav-item[data-filter="all"]');
+  if (allBtn) allBtn.classList.add('active');
+  clearGlobalSearch(true, true);
+  showContentArea();
+  updateSidebarBadges(); renderVocabCards();
+  updateSearchPlaceholder();
+});
+
+document.getElementById('unitSelect').addEventListener('change',(e)=>{
+  if (window._updatingSelects) return;
+  currentUnit = e.target.value || null;
+  if (!currentUnit) {
+    updateBreadcrumb();
+    updateSearchPlaceholder();
+    return;
+  }
+  updateBreadcrumb();
+  currentFilter='all';
+  document.querySelectorAll('#sidebarNav .nav-item').forEach(i=>i.classList.remove('active'));
+  const allBtn = document.querySelector('#sidebarNav .nav-item[data-filter="all"]');
+  if (allBtn) allBtn.classList.add('active');
+  clearGlobalSearch(true, true);
+  showContentArea();
+  updateSidebarBadges(); renderVocabCards();
+  updateSearchPlaceholder();
+});
+
+// ========== Topbar Search — local filter + global search ==========
+// 未选择教材/单元时，顶部搜索框作为全局搜索；选择后则在当前单元内过滤
+document.getElementById('topbarSearchInput').addEventListener('input', (e) => {
+  if (window._syncingInput) return;
+  const v = e.target.value;
+  syncSearchInputs(v, 'topbar');
+
+  if (isGlobalSearch) {
+    // 已在全局搜索模式 → 继续全局搜索
+    performGlobalSearch(v);
+  } else if (!currentTextbook || !currentUnit) {
+    // 无手动选择单元 → 全局搜索
+    performGlobalSearch(v);
+  } else if (currentTextbook === '全部' || currentUnit === '全部') {
+    // 全部教材 / 全部单元 → 全局搜索
+    performGlobalSearch(v);
+  } else {
+    // 已选择具体单元 → 本地过滤
+    showContentArea();
+    renderVocabCards();
+    updateBreadcrumb();
+  }
+});
+
+document.getElementById('topbarSearchClear').addEventListener('click', () => {
+  if (isGlobalSearch) {
+    clearGlobalSearch(true);
+    return;
+  }
+  // Clear input and re-render
+  document.getElementById('topbarSearchInput').value = '';
+  syncSearchInputs('', 'topbar');
+  if (!currentTextbook || !currentUnit) {
+    clearGlobalSearch(false);
+  } else {
+    renderVocabCards();
+  }
+  document.getElementById('topbarSearchInput').focus();
+});
+
+function updateSearchPlaceholder() {
+  const input = document.getElementById('topbarSearchInput');
+  if (!input) return;
+  if (isGlobalSearch || !currentTextbook || !currentUnit) {
+    input.placeholder = '搜索所有教材和单元…';
+  } else if (currentTextbook === '全部') {
+    input.placeholder = '搜索所有教材和单元…';
+  } else if (currentUnit === '全部') {
+    input.placeholder = '在当前教材所有单元中搜索…';
+  } else {
+    input.placeholder = '在当前单元中搜索词汇…';
+  }
+}
+
+function updateBreadcrumb() {
+  const bc = document.querySelector('.topbar-breadcrumb');
+  if (!bc) return;
+
+  if (isGlobalSearch) {
+    // 全局搜索模式下，左侧面包屑隐藏，统一在右侧 resultInfo 显示搜索摘要
+    bc.classList.add('hidden');
+    return;
+  }
+  bc.classList.remove('hidden');
+
+  const topbarQ = document.getElementById('topbarSearchInput')?.value?.trim().toLowerCase() || '';
+  if (!currentTextbook || !currentUnit) {
+    bc.innerHTML = topbarQ ? `🔍 搜索 "<strong>${escapeHtml(topbarQ)}</strong>"` : '🔍 全部教材 / 全部单元';
+    return;
+  }
+  if (currentTextbook === '全部') {
+    bc.innerHTML = topbarQ ? `📚 全部教材 · 过滤 "${escapeHtml(topbarQ)}"` : '📚 全部教材';
+    return;
+  }
+  if (currentUnit === '全部') {
+    bc.innerHTML = topbarQ ? `${currentTextbook} · 全部单元 · 过滤 "${escapeHtml(topbarQ)}"` : `${currentTextbook} · 全部单元`;
+    return;
+  }
+  const ul = unitData[currentTextbook]?.[currentUnit]?.label?.replace(/^Unit \d+ · /,'') || currentUnit;
+  const filterText = topbarQ ? ` · 过滤 "${escapeHtml(topbarQ)}"` : '';
+  bc.innerHTML=`<span>${currentTextbook}</span> › <span>${currentUnit}</span> · ${ul}${filterText}`;
+}
+
+// ========== DATA LOADING ==========
+async function loadData() {
+  const overlay = document.getElementById('loadingOverlay');
+  const errOverlay = document.getElementById('loadError');
+  const main = document.getElementById('mainContent');
+  const detail = document.getElementById('loadingDetail');
+
+  const bar = document.getElementById('loadingBar');
+  overlay.style.display = 'flex';
+  overlay.classList.remove('fade-out');
+  if (bar) bar.style.width = '0%';
+  errOverlay.classList.remove('show');
+  main.style.display = 'none';
+
+  // 数据文件映射：{ 教材名: { 单元名: "文件名.json" } }
+  const dataFiles = {
+    "必修一": { "Unit 1": "bx1_u1_data.json", "Unit 2": "bx1_u2_data.json", "Unit 3": "bx1_u3_data.json", "Unit 4": "bx1_u4_data.json" },
+    "必修二": { "Unit 1": "bx2_u1_data.json", "Unit 2": "bx2_u2_data.json", "Unit 3": "bx2_u3_data.json", "Unit 4": "bx2_u4_data.json" },
+    "必修三": { "Unit 1": "bx3_u1_data.json", "Unit 2": "bx3_u2_data.json", "Unit 3": "bx3_u3_data.json", "Unit 4": "bx3_u4_data.json" },
+    "选择性必修一": { "Unit 1": "xb1_u1_data.json", "Unit 2": "xb1_u2_data.json", "Unit 3": "xb1_u3_data.json", "Unit 4": "xb1_u4_data.json" },
+    "选择性必修二": { "Unit 1": "xb2_u1_data.json", "Unit 2": "xb2_u2_data.json", "Unit 3": "xb2_u3_data.json", "Unit 4": "xb2_u4_data.json" },
+    "选择性必修三": { "Unit 1": "xb3_u1_data.json", "Unit 2": "xb3_u2_data.json", "Unit 3": "xb3_u3_data.json", "Unit 4": "xb3_u4_data.json" },
+    "选择性必修四": { "Unit 1": "xb4_u1_data.json", "Unit 2": "xb4_u2_data.json", "Unit 3": "xb4_u3_data.json", "Unit 4": "xb4_u4_data.json" },
+    "拓展创新学程一": { "Unit 1": "cx1_u1_data.json", "Unit 2": "cx1_u2_data.json", "Unit 3": "cx1_u3_data.json", "Unit 4": "cx1_u4_data.json" },
+    "拓展创新学程二": { "Unit 1": "cx2_u1_data.json", "Unit 2": "cx2_u2_data.json", "Unit 3": "cx2_u3_data.json", "Unit 4": "cx2_u4_data.json" },
+    "拓展创新学程三": { "Unit 1": "cx3_u1_data.json", "Unit 2": "cx3_u2_data.json", "Unit 3": "cx3_u3_data.json", "Unit 4": "cx3_u4_data.json" }
+  };
+
+  // 展平成任务列表，并行加载（原来是 16 个文件串行 await，共 ~11MB，很慢）
+  const jobs = [];
+  for (const [textbook, units] of Object.entries(dataFiles))
+    for (const [unitName, fileName] of Object.entries(units))
+      jobs.push({ textbook, unitName, fileName });
+
+  const total = jobs.length;
+  let done = 0, okCount = 0;
+  detail.textContent = `并行加载 ${total} 个词库…`;
+
+  await Promise.all(jobs.map(async (job) => {
+    try {
+      const resp = await fetch(job.fileName);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      if (unitData[job.textbook] && unitData[job.textbook][job.unitName]) {
+        unitData[job.textbook][job.unitName].vocabularyData = data;
+        // 同步每个词条的 textbook/unit 字段（如果 JSON 中未设置）
+        data.forEach(v => {
+          if (!v.textbook) v.textbook = job.textbook;
+          if (!v.unit) v.unit = job.unitName;
+        });
+      }
+      okCount++;
+    } catch (err) {
+      console.error(`加载 ${job.fileName} 失败:`, err);
+    } finally {
+      done++;
+      if (bar) bar.style.width = Math.round(done / total * 100) + '%';
+      detail.textContent = `已加载 ${done}/${total} 个词库`;
+    }
+  }));
+
+  // 全部失败才报错；部分失败则加载可用的部分并在控制台留痕
+  if (okCount === 0) {
+    overlay.classList.add('fade-out');
+    setTimeout(() => { overlay.style.display = 'none'; }, 400);
+    errOverlay.classList.add('show');
+    window._dataLoaded = false;
+    return;
+  }
+
+  // 加载成功：进度拉满后平滑淡出遮罩
+  window._dataLoaded = true;
+  if (bar) bar.style.width = '100%';
+  overlay.classList.add('fade-out');
+  setTimeout(() => { overlay.style.display = 'none'; }, 400);
+  main.style.display = '';
+  rebuildTextbookMeta();
+  populateTextbookSelect();
+  updateSidebarBadges();
+  // 默认显示欢迎页，不渲染词条
+  document.getElementById('panelWelcome').classList.remove('hidden');
+  document.getElementById('tabBar').style.display = 'none';
+  document.getElementById('panelVocab').classList.add('hidden');
+  document.getElementById('panelLongSentences').classList.add('hidden');
+  document.getElementById('panelWriting').classList.add('hidden');
+  renderLongSentences();
+  renderWriting();
+  updateBreadcrumb();
+  updateSearchPlaceholder();
+  // 自动聚焦欢迎页搜索框
+  const welcomeInput = document.getElementById('welcomeSearchInput');
+  if (welcomeInput) {
+    setTimeout(() => welcomeInput.focus(), 100);
+  }
+  // 如果用户在数据加载前已经输入了搜索词，数据加载完成后自动重新执行全局搜索
+  const welcomeQ = document.getElementById('welcomeSearchInput')?.value?.trim();
+  const topbarQ = document.getElementById('topbarSearchInput')?.value?.trim();
+  if (welcomeQ || topbarQ) {
+    performGlobalSearch(welcomeQ || topbarQ);
+  }
+}
+
+function retryLoad() {
+  loadData();
+}
+
+// ========== INIT ==========
+// 所有交互事件已在上面绑定，此处仅触发数据加载
+loadData();
+</script>
+</body>
+</html>

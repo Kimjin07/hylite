@@ -1,0 +1,81 @@
+xb2_u4_data.json: 83 entries, 78 issues
+
+ISSUES:
+xb2_u4_data.json/castle: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/massive: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/finance: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/threaten: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/commit: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/murder: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/apparently: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/warning: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/demand: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/victim: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/greedy: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/database: synonyms has 1, needs >= 2
+xb2_u4_data.json/database: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/alternative: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/alternative: near-duplicate collocations at indexes 2/7
+xb2_u4_data.json/hacker: synonyms has 1, needs >= 2
+xb2_u4_data.json/fail-safe: synonyms has 1, needs >= 2
+xb2_u4_data.json/fail-safe: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/break into: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/drone: synonyms has 1, needs >= 2
+xb2_u4_data.json/drone: near-duplicate collocations at indexes 3/7
+xb2_u4_data.json/distribution: synonyms has 1, needs >= 2
+xb2_u4_data.json/distribution: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/predict: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/decrease: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/deny: synonyms has 1, needs >= 2
+xb2_u4_data.json/deny: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/quantity: synonyms has 1, needs >= 2
+xb2_u4_data.json/quantity: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/airline: synonyms has 1, needs >= 2
+xb2_u4_data.json/airline: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/threat: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/illegal: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/monitor: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/stadium: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/in large quantities: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/spy on: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/highlight: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/capsule: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/fountain: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/conclude: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/justified: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/superiority: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/fountain pen: synonyms has 1, needs >= 2
+xb2_u4_data.json/fountain pen: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/virtual: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/definition: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/headset: synonyms has 1, needs >= 2
+xb2_u4_data.json/sensor: synonyms has 1, needs >= 2
+xb2_u4_data.json/sensor: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/practical: sentenceUpgrade may change the underlying scenario
+xb2_u4_data.json/practical: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/academic: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/immersive: synonyms has 1, needs >= 2
+xb2_u4_data.json/immersive: sentenceUpgrade may change the underlying scenario
+xb2_u4_data.json/immersive: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/engage: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/twin: synonyms has 1, needs >= 2
+xb2_u4_data.json/twin: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/a host of: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/clone: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/barrier: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/fine-tune: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/initial: sentenceUpgrade may change the underlying scenario
+xb2_u4_data.json/initial: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/optimistic: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/boil down to: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/annoy: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/weed: synonyms has 0, needs >= 2
+xb2_u4_data.json/weed: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/satellite: synonyms has 0, needs >= 2
+xb2_u4_data.json/expense: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/gender: synonyms has 1, needs >= 2
+xb2_u4_data.json/gender: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/envy: posExamples repeats original/reading/collocation example
+xb2_u4_data.json/pub: synonyms has 1, needs >= 2
+xb2_u4_data.json/like weeds: synonyms has 0, needs >= 2
+xb2_u4_data.json/at the expense of: synonyms has 1, needs >= 2
