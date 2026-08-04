@@ -374,7 +374,7 @@ function rOpts(st, W, kind){
       else cls+=' dim';
     }
     const label = kind==='g' ? o.g : o.w;
-    h+=`<button class="${cls}" onclick="sAnswer(${i})" ${answered?'disabled':''}><span class="kno">${i+1}</span>${esc(label)}</button>`;
+    h+=`<button class="${cls}" type="button" data-answer="${i}" ${answered?'disabled':''}><span class="kno">${i+1}</span>${esc(label)}</button>`;
   });
   return h+'</div>';
 }

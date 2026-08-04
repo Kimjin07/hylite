@@ -196,6 +196,8 @@ function petMaybeDailyPrompt(){
     if (!petVisible()) return;
     if (!petState) petLoad();
     if (!petCanClaim()) return;        // 已领 / 这套券已满 → 不弹
+    // The home render schedules this check. Do not cover a session entered before it fires.
+    if ((typeof screen!=='undefined' && screen) || (typeof tab!=='undefined' && tab!==0)) return;
     petDayPrompted = true;
     petShowDailyPrompt();
   } catch(e){}

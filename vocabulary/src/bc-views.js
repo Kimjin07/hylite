@@ -622,7 +622,29 @@ function toggleZhan(k){
 }
 
 /* ================= 全局点击委托 ================= */
+function answerFromEvent(e){
+  const b=e.target && e.target.closest && e.target.closest('[data-answer]');
+  if (!b || b.disabled) return false;
+  const i=Number(b.dataset.answer);
+  if (!Number.isInteger(i)) return false;
+  sAnswer(i);
+  return true;
+}
+let answerTouch=null;
+document.addEventListener('touchstart', e=>{
+  const b=e.target && e.target.closest && e.target.closest('[data-answer]');
+  const t=e.touches && e.touches[0];
+  answerTouch=(b && !b.disabled && t) ? {b,x:t.clientX,y:t.clientY} : null;
+}, {passive:true});
+document.addEventListener('touchend', e=>{
+  const a=answerTouch; answerTouch=null;
+  const t=e.changedTouches && e.changedTouches[0];
+  const b=e.target && e.target.closest && e.target.closest('[data-answer]');
+  if (!a || !t || b!==a.b || Math.abs(t.clientX-a.x)>12 || Math.abs(t.clientY-a.y)>12) return;
+  if (answerFromEvent({target:a.b})) e.preventDefault();
+}, {passive:false});
 document.addEventListener('click', e=>{
+  if (answerFromEvent(e)) return;
   const g=e.target.closest('.g');
   if (g && g.closest('.covered')){ g.classList.toggle('open'); return; }
   const s2=e.target.closest('[data-say2]');
