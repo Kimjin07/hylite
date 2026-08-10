@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>师资团队 · 环亚国际教育 HY-LITE</title>
+<style>
+  :root {
+    --cream: #EFEAE0;
+    --cream-deep: #E6DFD2;
+    --sage: #6B8A6F;
+    --sage-deep: #55705A;
+    --terracotta: #CD6F47;
+    --ink: #26251F;
+    --ink-soft: #55534A;
+    --paper: #FBF9F4;
+    --rule: rgba(38, 37, 31, 0.16);
+    --serif: Georgia, "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+    --sans: "MiSans", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-weight: 400;
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== 页眉 ===== */
+  .masthead {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 88px 32px 64px;
+    text-align: center;
+  }
+
+  .masthead .eyebrow {
+    font-family: var(--serif);
+    font-size: 13px;
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    color: var(--terracotta);
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+
+  .masthead h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(34px, 5.2vw, 52px);
+    letter-spacing: 0.14em;
+    text-indent: 0.14em;
+    margin-bottom: 30px;
+  }
+
+  .masthead .rule {
+    width: 56px;
+    height: 1px;
+    background: var(--ink);
+    margin: 0 auto 30px;
+    position: relative;
+  }
+  .masthead .rule::after {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 7px; height: 7px;
+    background: var(--sage);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .masthead p {
+    max-width: 560px;
+    margin: 0 auto;
+    color: var(--ink-soft);
+    font-size: 15.5px;
+  }
+
+  .masthead-group {
+    max-width: 900px;
+    margin: 38px auto 0;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 18px 38px rgba(38, 37, 31, 0.12);
+  }
+  .masthead-group img { display: block; width: 100%; height: auto; }
+
+  /* ===== 卡片区 ===== */
+  .faculty {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+  }
+
+  .card {
+    position: relative;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 42px 40px 38px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 38px rgba(38, 37, 31, 0.10);
+  }
+
+  /* 双细线学院风内框 */
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgba(38, 37, 31, 0.07);
+    pointer-events: none;
+  }
+
+  /* 签名元素：巨型衬线首字母 */
+  .card .initial {
+    position: absolute;
+    top: -34px;
+    right: -6px;
+    font-family: var(--serif);
+    font-size: 170px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--sage);
+    opacity: 0.10;
+    user-select: none;
+    pointer-events: none;
+  }
+  .card:nth-child(even) .initial { color: var(--terracotta); opacity: 0.10; }
+
+  .card h2 {
+    font-family: var(--serif);
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .tag {
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: var(--sage-deep);
+    border: 1px solid rgba(107, 138, 111, 0.45);
+    padding: 3.5px 12px;
+    border-radius: 999px;
+    background: rgba(107, 138, 111, 0.06);
+    white-space: nowrap;
+  }
+  .tag.hl {
+    color: #fff;
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+  }
+
+  .card p {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    text-align: justify;
+  }
+  .card p .em {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* 页脚 */
+  .colophon {
+    border-top: 1px solid var(--rule);
+    padding: 40px 32px 56px;
+    text-align: center;
+  }
+  .colophon .wordmark {
+    font-family: var(--serif);
+    font-size: 15px;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+    margin-bottom: 10px;
+  }
+  .colophon small {
+    color: var(--ink-soft);
+    font-size: 12.5px;
+    letter-spacing: 0.08em;
+  }
+
+  @media (max-width: 780px) {
+    .masthead { padding: 64px 24px 48px; }
+    .faculty { grid-template-columns: 1fr; padding: 0 20px 80px; gap: 20px; }
+    .card { padding: 34px 28px 32px; }
+    .card .initial { font-size: 130px; top: -26px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: none; }
+  }
+
+  /* 左上角返回首页 */
+  .home-link {
+    position: fixed;
+    top: 18px; left: 22px; z-index: 10;
+    font-family: var(--serif);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  .home-link:hover { color: var(--ink); border-color: var(--ink); }
+  @media (max-width: 780px) {
+    .home-link { top: 14px; left: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<a class="home-link" href="./">← HY-LITE</a>
+
+<header class="masthead">
+  <div class="eyebrow">HY-LITE Faculty</div>
+  <h1>师资团队</h1>
+  <div class="rule"></div>
+  <p>深耕语言教学二十余年，环亚的每一位老师都以扎实的学术背景与长期一线经验，陪伴学生抵达理想的分数与更远的世界。</p>
+  <figure class="masthead-group">
+    <img src="team/team-group-new.jpg?v=20260808" alt="HY-LITE 师资团队合照" loading="lazy" decoding="async">
+  </figure>
+</header>
+
+<main class="faculty">
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">J</span>
+    <h2>Jackie</h2>
+    <div class="tags">
+      <span class="tag hl">雅思 9.0</span>
+      <span class="tag hl">新版托福 6.0 满分</span>
+      <span class="tag">巴斯大学理学硕士</span>
+      <span class="tag">高级中学教师资格</span>
+    </div>
+    <p><span class="em">雅思四项 9.0、新版托福满分获得者</span>，巴斯大学理学硕士。十余年一线教学中积累了两千余篇手写范文与口语示范答案，对雅思、托福评分标准有近乎"考官视角"的理解。她的课堂以精细的语言拆解著称——学生不仅知道正确答案是什么，更知道高分表达是如何一步步构建出来的。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">C</span>
+    <h2>Chris</h2>
+    <div class="tags">
+      <span class="tag hl">雅思 8.5</span>
+      <span class="tag">复旦大学在读博士</span>
+      <span class="tag">UBC 访问学者</span>
+      <span class="tag">高级中学教师资格</span>
+    </div>
+    <p><span class="em">复旦大学在读博士、UBC 访问学者</span>，深耕写作教学十余年。学者的训练让她对文字有近乎苛刻的要求：从审题立意到段落逻辑，从句式选择到学术表达，她带学生逐句打磨，把"会写"变成"写好"。在她看来，高分作文从来不是模板的堆砌，而是清晰思考的自然结果。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">B</span>
+    <h2>Ben</h2>
+    <div class="tags">
+      <span class="tag hl">托福阅读满分</span>
+      <span class="tag">ETS 官方认证培训教师</span>
+      <span class="tag">高级中学教师资格</span>
+    </div>
+    <p><span class="em">托福阅读满分获得者，ETS 托福官方认证培训教师</span>，十余年托福教学经验。他熟悉 ETS 命题思路与最新改革动向，擅长把庞杂的备考体系拆解为清晰可执行的阶段目标，让学生在有限的备考周期内把每一分努力都用在得分点上。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">M</span>
+    <h2>Michelle</h2>
+    <div class="tags">
+      <span class="tag">江南大学"一对一企业导师"</span>
+      <span class="tag">太湖学院外国语学院行业导师</span>
+    </div>
+    <p><span class="em">十余年一线教学经验</span>，受聘担任江南大学"一对一企业导师"与太湖学院外国语学院行业导师。长期往返于高校与培训一线之间，既了解学术英语的要求，也深谙不同基础学生的成长路径，课堂风格细致耐心、因材施教。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">C</span>
+    <h2>Cissy</h2>
+    <div class="tags">
+      <span class="tag">南京师范大学英语系</span>
+      <span class="tag">英语专业八级</span>
+      <span class="tag">BEC Higher</span>
+    </div>
+    <p><span class="em">南京师范大学英语系科班出身</span>，持英语专业八级（TEM-8）与剑桥商务英语高级（BEC Higher）证书，十余年教学经验。扎实的语言学功底让她在语法与写作教学上尤为突出，善于把抽象的语言规则讲成学生记得住、用得上的方法。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">P</span>
+    <h2>Phoebe</h2>
+    <div class="tags">
+      <span class="tag">英语专业八级</span>
+    </div>
+    <p><span class="em">十年一线教学经验</span>，英语专业八级。她的课堂稳扎稳打，注重基础能力的长期建构，以稳健细致的教学风格获得家长长期信任，陪伴大量学生从入门走到高分。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">G</span>
+    <h2>Guo</h2>
+    <div class="tags">
+      <span class="tag">加州大学尔湾分校本科</span>
+      <span class="tag">谢菲尔德大学硕士</span>
+    </div>
+    <p><span class="em">加州大学尔湾分校本科、谢菲尔德大学硕士</span>，五年一线教学经验。他持续将心理学与认知科学的研究成果转化为课堂方法——从记忆规律到注意力管理，让学生"学得进去、记得长久"。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">S</span>
+    <h2>Stephanie</h2>
+    <div class="tags">
+      <span class="tag">美国佛罗里达大学优秀毕业生</span>
+      <span class="tag">高级中学教师资格</span>
+    </div>
+    <p><span class="em">毕业于美国佛罗里达大学，以优秀毕业生身份获得学位</span>，持有高级中学教师资格证书。十年英语教学生涯中，她始终坚持因材施教，帮助众多学员实现分数与能力的双重提升。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">F</span>
+    <h2>Farmore</h2>
+    <div class="tags">
+      <span class="tag hl">全额奖学金博士录取</span>
+      <span class="tag">圣三一学院理学硕士</span>
+      <span class="tag">英语专业八级</span>
+    </div>
+    <p><span class="em">硕士毕业于爱尔兰圣三一学院（Trinity College Dublin）理学专业，并获得全额奖学金博士录取</span>。英语专业八级，拥有十年教学经验，兼具扎实的学术功底与丰富的课堂实战经验。</p>
+  </article>
+
+  <article class="card">
+    <span class="initial" aria-hidden="true">T</span>
+    <h2>Tiger</h2>
+    <div class="tags">
+      <span class="tag hl">数学竞赛金牌得主</span>
+    </div>
+    <p><span class="em">数学竞赛金牌得主</span>，十余年教学经验。他相信数学不是刷题的苦役，而是思维的训练——课堂上重推理、重方法，帮助学生建立真正的问题解决能力，尤其擅长竞赛与国际课程数学的进阶培养。</p>
+  </article>
+
+</main>
+
+<footer class="colophon">
+  <div class="wordmark">HY-LITE · 环亚国际教育</div>
+  <small>无锡 · 云蝠大厦 1201–1202 &nbsp;|&nbsp; 0510-82820708 &nbsp;|&nbsp; Since 2003</small>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电子词书 · 试读 · 环亚国际教育 HY-LITE</title>
+<meta name="description" content="环亚国际教育 HY-LITE 电子词书：高考英语逐词详解。试读必修一 Unit 1 · Reading 板块，完整版请联系管理员开通。">
+<style>
+  :root{
+    --cream:#EFEAE0; --paper:#FAF7F0; --ink:#26251F; --muted:#6B6557;
+    --clay:#C07B52; --clayD:#A5613C; --line:#DED6C4;
+    --card-bg:#fff; --border:#e2e8f0; --primary:#6366f1;
+    --primary-light:#eef2ff; --primary-dark:#4338ca;
+    --text:#1e293b; --text-secondary:#475569; --text-muted:#64748b;
+    --radius:8px; --radius-sm:6px; --radius-xs:4px;
+    --shadow-md:0 8px 24px rgba(15,23,42,.08); --transition:.2s ease;
+    --serif:Georgia,"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
+    --sans:"MiSans","HarmonyOS Sans SC","PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.75;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+
+  .home-link{
+    position:fixed;top:18px;left:22px;z-index:10;
+    font-family:var(--serif);font-size:13px;letter-spacing:.18em;
+    color:var(--muted);border-bottom:1px solid transparent;
+    transition:color .3s ease,border-color .3s ease;
+  }
+  .home-link:hover{color:var(--ink);border-color:var(--ink)}
+
+  /* 页眉 */
+  .masthead{text-align:center;padding:84px 22px 42px}
+  .masthead .eyebrow{
+    font-family:var(--serif);font-size:13px;letter-spacing:.42em;text-indent:.42em;
+    color:var(--clay);text-transform:uppercase;margin-bottom:24px;
+  }
+  .masthead h1{
+    font-family:var(--serif);font-weight:600;
+    font-size:38px;font-size:clamp(32px,5vw,48px);
+    letter-spacing:.14em;text-indent:.14em;margin-bottom:22px;
+  }
+  .masthead p{max-width:560px;margin:0 auto;color:var(--muted);font-size:15px}
+  .trial-badge{
+    display:inline-flex;align-items:center;gap:8px;margin-top:24px;
+    font-size:13px;letter-spacing:.08em;color:var(--clayD);
+    border:1px solid var(--clay);border-radius:999px;padding:7px 20px;
+    background:rgba(192,123,82,.08);
+  }
+
+  /* 词条卡：与 English Compass 完整版共用信息层级 */
+  .list{padding:30px 0 10px;border-top:2px solid var(--ink)}
+  .vocab-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:20px;overflow:hidden;transition:box-shadow var(--transition)}
+  .vocab-card:hover{box-shadow:var(--shadow-md)}
+  .card-header{padding:20px 28px 16px;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#fafbff,#f8fafc)}
+  .card-header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .card-word{font-size:1.5rem;font-weight:700;color:var(--text)}
+  .card-pron{font-size:.82rem;color:var(--text-muted)}
+  .card-pos{font-size:.78rem;color:var(--primary);background:var(--primary-light);padding:3px 14px;border-radius:20px;font-weight:500}
+  .card-cn{color:var(--text-secondary);font-size:.92rem;margin-top:5px}
+  .card-source-chip{display:inline-flex;align-items:center;font-size:.72rem;padding:3px 10px;border-radius:20px;margin-top:8px;background:#e0f2fe;color:#0369a1}
+  .card-body{padding:18px 28px}
+  .def-en{margin-top:8px;font-size:.82rem;color:var(--text-muted)}
+  .def-label{font-weight:600;color:var(--primary);font-size:.7rem;letter-spacing:.04em;margin-bottom:5px;display:block}
+  .def-en-single,.def-en-item{padding:8px 14px;background:#fafbff;border-radius:var(--radius-xs);border-left:3px solid #c7d2fe;font-style:italic;line-height:1.6}
+  .def-en-items{display:flex;flex-direction:column;gap:5px}
+  .def-en-item{display:flex;align-items:flex-start;gap:6px}
+  .def-num{font-weight:700;font-style:normal;color:var(--primary);font-size:.74rem;flex:none;background:var(--primary-light);min-width:22px;height:22px;border-radius:11px;display:inline-flex;align-items:center;justify-content:center}
+  .sec-title{font-size:.78rem;font-weight:600;color:var(--text);margin:10px 0;display:flex;align-items:center;gap:6px}
+  .wf-grid{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+  .wf-chip{font-size:.8rem;padding:3px 12px;border-radius:20px;background:#f1f5f9;color:var(--text-secondary);border:1px solid #e2e8f0}
+  .wf-key{font-weight:600;color:var(--text);font-size:.72rem;text-transform:uppercase}
+  .uncommon-box{background:linear-gradient(135deg,#fef2f2,#fdf2f8);border:1px solid #fbcfe8;border-radius:var(--radius-sm);padding:12px 18px;margin-bottom:14px}
+  .uncommon-box .sec-title{color:#9d174d;margin-top:0}
+  .uncommon-item{display:flex;align-items:flex-start;gap:8px;margin-bottom:6px;font-size:.84rem;line-height:1.6}
+  .uncommon-pos{font-weight:700;color:#be185d;font-size:.78rem;white-space:nowrap}
+  .uncommon-def{color:#831843}.uncommon-ex{color:var(--text-muted);font-style:italic;font-size:.8rem;display:block}
+  .reading-block{background:linear-gradient(135deg,#eef2ff,#e0e7ff);border:1px solid #c7d2fe;border-radius:var(--radius-sm);padding:14px 18px;margin-bottom:14px}
+  .reading-block .sec-title{color:var(--primary-dark);margin-top:0}
+  .reading-item{display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;font-size:.9rem;line-height:1.7;color:#1a3c6e}
+  .reading-item .rq{color:var(--primary);font-weight:700;font-size:1.1rem}.reading-item .rt{flex:1;font-style:italic}
+  .example-item{display:flex;align-items:flex-start;gap:8px;margin-bottom:7px;font-size:.86rem;line-height:1.65}
+  .ex-pos-label{font-size:.7rem;font-weight:600;padding:2px 10px;border-radius:20px;flex:none;background:var(--primary-light);color:var(--primary-dark)}
+  .ex-text{color:var(--text-secondary);font-style:italic}
+  .idiom-section,.colloc-section{margin-bottom:10px}
+  .idiom-chip,.colloc-chip{display:inline-flex;flex-direction:column;align-items:flex-start;font-size:.8rem;padding:5px 14px;border-radius:7px;margin:0 5px 7px 0}
+  .idiom-chip{background:#fef2f2;border:1px solid #fecaca;color:#991b1b}.idiom-chip-ex{font-size:.75rem;color:var(--text-muted);font-style:italic}
+  .colloc-chip{background:#fefce8;border:1px solid #fde68a;color:#92400e}
+  .adv-toggle{display:flex;align-items:center;gap:6px;padding:7px 0;border:0;background:none;font-size:.82rem;color:var(--primary);cursor:pointer;font-family:inherit;margin-top:6px;text-align:left}.adv-toggle:focus-visible,.prac-ans:focus-visible{outline:2px solid var(--primary);outline-offset:3px;border-radius:4px}
+  .adv-toggle .arr{display:inline-block;transition:transform var(--transition);font-size:.6rem}.adv-toggle.open .arr{transform:rotate(90deg)}
+  .adv-box{display:none;padding:14px 18px;margin-top:8px;background:#fafbff;border-radius:var(--radius-sm);border:1px dashed #c7d2fe;font-size:.83rem}.adv-box.show{display:block}
+  .adv-group-title{font-size:.7rem;font-weight:600;color:var(--primary);letter-spacing:.05em;margin:10px 0 4px}.adv-item{padding:5px 0;color:var(--text-secondary);border-bottom:1px solid #f1f5f9}.adv-item strong{color:var(--text)}
+  .su-item{padding:10px 14px;border-radius:var(--radius-xs);background:#f0fdf4;border:1px solid #bbf7d0;font-size:.83rem}.su-original{color:var(--text-muted);font-size:.78rem}.su-upgraded{color:#166534;line-height:1.65}.su-tag{font-size:.64rem;padding:1px 7px;border-radius:3px;background:#dcfce7}.su-analysis{font-size:.74rem;color:var(--text-muted)}
+  .prac-toggle{color:#b45309}.prac-box{background:#fffbeb;border-color:#fcd34d}.prac-item{padding:7px 0;border-bottom:1px solid #fef3c7}.prac-type{display:inline-block;font-size:.68rem;font-weight:600;color:#92400e;background:#fef3c7;padding:1px 8px;border-radius:3px;margin-right:6px}.prac-q{color:var(--text)}
+  .prac-ans{display:inline-flex;align-items:baseline;gap:5px;margin-left:8px;cursor:pointer;user-select:none;border:0;background:none;padding:0;font:inherit;text-align:left}.prac-ans-label{font-size:.66rem;color:#b45309;border:1px solid #fcd34d;border-radius:3px;padding:0 5px}.prac-ans-text{color:#b45309;font-weight:600;font-size:.82rem;filter:blur(5px)}.prac-ans.revealed .prac-ans-text{filter:none}.prac-note{display:block;font-size:.74rem;color:#92400e;margin-top:2px;font-style:italic}
+  #loading{text-align:center;color:var(--muted);padding:40px 0;font-size:14px}
+
+  /* 上锁区 */
+  .locked{padding:56px 0 20px}
+  .locked h2{
+    font-family:var(--serif);font-weight:600;font-size:24px;
+    letter-spacing:.1em;text-align:center;margin-bottom:10px;
+  }
+  .locked .sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:30px}
+  .lock-list{max-width:620px;margin:0 auto}
+  .lock-row{
+    display:flex;align-items:center;gap:14px;
+    background:var(--paper);border:1px solid var(--line);border-radius:12px;
+    padding:15px 22px;margin-bottom:10px;color:var(--muted);
+    font-size:14.5px;
+  }
+  .lock-row .ic{flex:none;opacity:.75}
+  .lock-row .n{color:var(--ink);font-weight:600}
+  .lock-row .d{margin-left:auto;font-size:12.5px;letter-spacing:.04em}
+
+  /* 联系购买 */
+  .buy{
+    max-width:620px;margin:34px auto 0;text-align:center;
+    background:linear-gradient(150deg,#F7F0E2,var(--paper) 60%);
+    border:1px solid var(--line);border-radius:18px;padding:38px 30px;
+  }
+  .buy h3{font-family:var(--serif);font-size:21px;font-weight:600;letter-spacing:.08em}
+  .buy p{margin-top:10px;color:var(--muted);font-size:14px}
+  .buy .tel{
+    display:inline-block;margin-top:20px;
+    font-size:16px;font-weight:600;color:#fff;background:var(--clay);
+    border-radius:999px;padding:12px 32px;
+    transition:background .3s ease,transform .3s ease;
+  }
+  .buy .tel:hover{background:var(--clayD);transform:translateY(-2px)}
+  .buy .meta{margin-top:16px;font-size:13px;color:var(--muted)}
+  .buy-qr{margin-top:24px;display:flex;flex-direction:column;align-items:center;gap:9px}
+  .buy-qr img{width:150px;height:150px;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#fff;padding:6px}
+  .buy-qr span{font-size:12.5px;color:var(--muted);letter-spacing:.05em}
+
+  /* 一键下拉到底部联系 */
+  .contact-fab{
+    position:fixed;right:22px;bottom:26px;z-index:20;
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:14px;font-weight:600;letter-spacing:.06em;color:#fff;
+    background:var(--ink);border:0;border-radius:999px;padding:12px 22px;
+    box-shadow:0 10px 24px -10px rgba(38,37,31,.5);
+    cursor:pointer;font-family:inherit;
+    transition:background .3s ease,transform .3s ease,opacity .3s ease,visibility .3s;
+  }
+  .contact-fab:hover{background:var(--clayD);transform:translateY(-2px)}
+  .contact-fab .arr{font-size:12px}
+  .contact-fab.hide{opacity:0;visibility:hidden;pointer-events:none}
+
+  footer{border-top:2px solid var(--ink);margin-top:56px;padding:30px 22px 46px;text-align:center}
+  footer .wordmark{font-family:var(--serif);font-size:14px;letter-spacing:.3em;text-indent:.3em}
+  footer small{display:block;margin-top:8px;color:var(--muted);font-size:12px;letter-spacing:.06em}
+
+  @media (max-width:640px){
+    .masthead{padding:72px 18px 34px}
+    .card-header,.card-body{padding:16px}
+    .card-word{font-size:1.3rem}
+    .idiom-chip,.colloc-chip{display:flex;margin-right:0}
+    .lock-row .d{display:none}
+  }
+</style>
+</head>
+<body>
+
+<a class="home-link" href="./">← HY-LITE</a>
+
+<header class="masthead">
+  <div class="eyebrow">Digital Wordbook</div>
+  <h1>电子词书</h1>
+  <p>高考英语逐词详解：英文释义、原文语境、搭配辨析、熟词僻义——每个词讲到能用为止。</p>
+  <span class="trial-badge">🔓 试读开放 · 必修一 Unit 1 · Reading（36 词）</span>
+</header>
+
+<main class="wrap">
+  <div class="list" id="list">
+    <p id="loading">词条加载中…</p>
+  </div>
+
+  <!-- 上锁目录 -->
+  <section class="locked">
+    <h2>完整版内容</h2>
+    <p class="sub">以下内容开通后解锁</p>
+    <div class="lock-list">
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">必修一 Unit 1</span> 其余板块<span class="d">Grammar · Integrated skills · Extended reading …</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">必修一 Unit 2 – 4</span><span class="d">全部词条与课堂练习</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">必修二 · 必修三</span> 全册<span class="d">各 Unit 1 – 4</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">选择性必修 一 – 四</span> 全册<span class="d">同步高二进度</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">拓展创新学程</span> 系列<span class="d">高阶拓展词汇</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">课堂练习</span> 3600+ 题<span class="d">按考点出题 · 含答案解析</span></div>
+      <div class="lock-row"><span class="ic">🔒</span><span class="n">写作训练</span><span class="d">高考模拟 + 雅思议论文双轨</span></div>
+    </div>
+
+    <div class="buy" id="buy">
+      <h3>开通完整版</h3>
+      <p>请联系工作人员购买开通。购买后你将获得一枚专属激活码，在 hylite.com.cn/vocab3500 输入即可解锁全部册目与功能（每码限绑定 2 台设备，如手机 + 电脑）。</p>
+      <div class="buy-qr">
+        <img src="contact/dictionary-purchase-wechat.jpg?v=20260807" alt="工作人员微信二维码" loading="lazy" decoding="async">
+        <span>扫码添加工作人员微信</span>
+      </div>
+      <a class="tel" href="tel:0510-82820708">电话联系 0510-82820708</a>
+      <p class="meta">或到校咨询：无锡 · 云蝠大厦 1201–1202</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wordmark">HY-LITE · 环亚国际教育</div>
+  <small>© HY-LITE 环亚国际教育 · 内容仅供开通学员学习使用</small>
+</footer>
+
+<button class="contact-fab" id="contactFab" type="button" aria-label="下拉到联系方式">联系购买 <span class="arr">↓</span></button>
+
+<script>
+(function(){
+  function escapeHtml(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  window.toggleAdv = function(button, id){
+    var open = button.classList.toggle('open');
+    button.setAttribute('aria-expanded', String(open));
+    var panel = document.getElementById(id);
+    if (panel){ panel.classList.toggle('show', open); panel.setAttribute('aria-hidden', String(!open)); }
+  };
+
+  window.toggleAnswer = function(button){
+    var revealed = button.classList.toggle('revealed');
+    button.setAttribute('aria-expanded', String(revealed));
+    button.setAttribute('aria-label', revealed ? '隐藏答案' : '显示答案');
+  };
+
+  function buildVocabCard(v, index){
+    var defEnHtml = '';
+    if (v.definitionEn){
+      var lines = v.definitionEn.split('\n').filter(function(line){ return line.trim(); });
+      if (lines.length > 1){
+        defEnHtml = '<div class="def-en"><span class="def-label">DEFINITION</span><div class="def-en-items">';
+        lines.forEach(function(line){
+          var match = line.match(/^\((\d+)\)\s*(.*)/);
+          defEnHtml += match
+            ? '<div class="def-en-item"><span class="def-num">' + match[1] + '</span><span>' + escapeHtml(match[2]) + '</span></div>'
+            : '<div class="def-en-item"><span>' + escapeHtml(line) + '</span></div>';
+        });
+        defEnHtml += '</div></div>';
+      } else {
+        defEnHtml = '<div class="def-en"><span class="def-label">DEFINITION</span><div class="def-en-single">' + escapeHtml(v.definitionEn) + '</div></div>';
+      }
+    }
+
+    var wfHtml = '';
+    var wf = v.wordForms || {};
+    var forms = Object.keys(wf).filter(function(key){
+      return key !== 'other' && wf[key] != null && String(wf[key]).trim() && String(wf[key]).toLowerCase() !== String(v.word || '').toLowerCase();
+    });
+    if (forms.length){
+      wfHtml = '<div class="wf-grid">' + forms.map(function(key){
+        return '<span class="wf-chip"><span class="wf-key">' + escapeHtml(key) + '</span> ' + escapeHtml(wf[key]) + '</span>';
+      }).join('') + '</div>';
+    }
+
+    var uncommonHtml = '';
+    if (Array.isArray(v.uncommonMeanings) && v.uncommonMeanings.length){
+      uncommonHtml = '<div class="uncommon-box"><div class="sec-title">熟词僻义</div>' + v.uncommonMeanings.map(function(item){
+        return '<div class="uncommon-item"><span class="uncommon-pos">' + escapeHtml(item.partOfSpeech || '') + '</span><div><span class="uncommon-def">' + escapeHtml(item.meaning || '') + '</span>' + (item.example ? '<span class="uncommon-ex">e.g. ' + escapeHtml(item.example) + '</span>' : '') + '</div></div>';
+      }).join('') + '</div>';
+    }
+
+    var reading = Array.isArray(v.readingExamples) ? v.readingExamples.filter(Boolean).slice() : [];
+    if (!reading.length && v.original_sentence) reading.push(v.original_sentence);
+    var exampleHtml = reading.length ? '<div class="reading-block"><div class="sec-title">课文原句</div>' + reading.map(function(sentence){
+      return '<div class="reading-item"><span class="rq">&ldquo;</span><span class="rt">' + escapeHtml(sentence) + '</span><span class="rq">&rdquo;</span></div>';
+    }).join('') + '</div>' : '';
+    if (Array.isArray(v.posExamples) && v.posExamples.length){
+      exampleHtml += '<div class="sec-title">其他例句</div>' + v.posExamples.filter(function(item){ return item && item.sentence; }).map(function(item){
+        return '<div class="example-item"><span class="ex-pos-label">' + escapeHtml(item.partOfSpeech || '') + '</span><span class="ex-text">' + escapeHtml(item.sentence) + '</span></div>';
+      }).join('');
+    }
+
+    var idiomHtml = '';
+    if (Array.isArray(v.idioms) && v.idioms.length){
+      idiomHtml = '<div class="idiom-section"><div class="sec-title">习语</div>' + v.idioms.map(function(item){
+        return '<div class="idiom-chip"><span><b>' + escapeHtml(item.idiom || '') + '</b> - ' + escapeHtml(item.translation || '') + '</span>' + (item.example ? '<span class="idiom-chip-ex">e.g. ' + escapeHtml(item.example) + '</span>' : '') + '</div>';
+      }).join('') + '</div>';
+    }
+
+    var collocHtml = '';
+    if (Array.isArray(v.collocations) && v.collocations.length){
+      collocHtml = '<div class="colloc-section"><div class="sec-title">常用搭配</div>' + v.collocations.map(function(item){
+        return '<div class="colloc-chip"><span><b>' + escapeHtml(item.phrase || '') + '</b> - ' + escapeHtml(item.translation || '') + '</span>' + (item.example ? '<span class="idiom-chip-ex">e.g. ' + escapeHtml(item.example) + '</span>' : '') + '</div>';
+      }).join('') + '</div>';
+    }
+
+    var practice = Array.isArray(v.classPractice) ? v.classPractice.filter(function(item){ return item && item.question; }) : [];
+    var practiceId = 'practice-' + index;
+    var practiceHtml = '';
+    if (practice.length){
+       practiceHtml = '<button class="adv-toggle prac-toggle" type="button" aria-expanded="false" aria-controls="' + practiceId + '" onclick="toggleAdv(this,\'' + practiceId + '\')"><span class="arr">▶</span>课堂练习（' + practice.length + '题 · 点“答案”显示）</button><div class="adv-box prac-box" id="' + practiceId + '" aria-hidden="true">' + practice.map(function(item, i){
+        return '<div class="prac-item"><span class="prac-type">' + escapeHtml(item.type || '练习') + '</span><span class="prac-q">' + (i + 1) + ') ' + escapeHtml(item.question) + '</span><button class="prac-ans" type="button" aria-expanded="false" aria-label="显示答案" onclick="toggleAnswer(this)"><span class="prac-ans-label">答案</span><span class="prac-ans-text">' + escapeHtml(item.answer || '') + '</span></button>' + (item.note ? '<span class="prac-note">' + escapeHtml(item.note) + '</span>' : '') + '</div>';
+      }).join('') + '</div>';
+    }
+
+    var hasAdvanced = (v.sentenceUpgrade && v.sentenceUpgrade.length) || (v.synonyms && v.synonyms.length) || (v.advancedExpressions && v.advancedExpressions.length);
+    var advancedId = 'advanced-' + index;
+    var advancedHtml = '';
+    if (hasAdvanced){
+       advancedHtml = '<button class="adv-toggle" type="button" aria-expanded="false" aria-controls="' + advancedId + '" onclick="toggleAdv(this,\'' + advancedId + '\')"><span class="arr">▶</span>展开句型升级 · 同义替换 · 高级表达</button><div class="adv-box" id="' + advancedId + '" aria-hidden="true">';
+      if (v.sentenceUpgrade && v.sentenceUpgrade.length){
+        advancedHtml += '<div class="adv-group-title">句型升级</div>' + v.sentenceUpgrade.map(function(item){
+          return '<div class="su-item"><div class="su-original"><span class="su-tag">原句</span> ' + escapeHtml(item.original || '') + '</div><div class="su-upgraded"><span class="su-tag">升级</span> ' + escapeHtml(item.upgraded || '') + '</div>' + (item.techniques ? '<div class="su-analysis">' + escapeHtml(item.techniques) + '</div>' : '') + '</div>';
+        }).join('');
+      }
+      if (v.synonyms && v.synonyms.length){
+        advancedHtml += '<div class="adv-group-title">同义词辨析</div>' + v.synonyms.map(function(item){
+          return '<div class="adv-item"><strong>' + escapeHtml(item.synonym || '') + '</strong> ' + escapeHtml(item.translation || '') + (item.usage ? '<div>' + escapeHtml(item.usage) + '</div>' : '') + (item.example ? '<div class="uncommon-ex">e.g. ' + escapeHtml(item.example) + '</div>' : '') + '</div>';
+        }).join('');
+      }
+      if (v.advancedExpressions && v.advancedExpressions.length){
+        advancedHtml += '<div class="adv-group-title">高级表达库</div>' + v.advancedExpressions.map(function(item){
+          return '<div class="adv-item">' + (item.type ? '<span class="prac-type">' + escapeHtml(item.type) + '</span>' : '') + '<strong>' + escapeHtml(item.expression || '') + '</strong>' + (item.example ? '<div class="uncommon-ex">e.g. ' + escapeHtml(item.example) + '</div>' : '') + (item.usageNote ? '<div class="prac-note">' + escapeHtml(item.usageNote) + '</div>' : '') + '</div>';
+        }).join('');
+      }
+      advancedHtml += '</div>';
+    }
+
+    return '<article class="vocab-card"><div class="card-header"><div class="card-header-top"><span class="card-word">' + escapeHtml(v.word) + '</span>' + (v.pronunciation ? '<span class="card-pron">' + escapeHtml(v.pronunciation) + '</span>' : '') + '<span class="card-pos">' + escapeHtml(v.partOfSpeech || '') + '</span></div><div class="card-cn">' + escapeHtml(v.translation || '') + '</div>' + defEnHtml + '<span class="card-source-chip">必修一 · Unit 1 · Reading</span></div><div class="card-body">' + wfHtml + uncommonHtml + exampleHtml + idiomHtml + collocHtml + practiceHtml + advancedHtml + '</div></article>';
+  }
+
+  var fab = document.getElementById('contactFab');
+  var buyCard = document.getElementById('buy');
+  fab.addEventListener('click', function(){
+    buyCard.scrollIntoView({ behavior:'smooth', block:'center' });
+  });
+  // 购买卡进入视野时隐藏悬浮键，避免遮挡
+  if ('IntersectionObserver' in window){
+    new IntersectionObserver(function(entries){
+      fab.classList.toggle('hide', entries[0].isIntersecting);
+    }, { threshold:.2 }).observe(buyCard);
+  }
+
+  fetch('dict-preview.json')
+    .then(function(r){ if (!r.ok) throw new Error('load failed'); return r.json(); })
+    .then(function(words){
+      if (!Array.isArray(words) || words.length !== 36) throw new Error('invalid preview');
+      document.getElementById('list').innerHTML = words.map(buildVocabCard).join('');
+    })
+    .catch(function(){
+      document.getElementById('loading').textContent = '加载失败，请刷新重试。';
+    });
+})();
+</script>
+</body>
+</html>

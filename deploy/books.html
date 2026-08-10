@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>教研成果 · 自研教材 · 环亚国际教育 HY-LITE</title>
+<meta name="description" content="环亚国际教育 HY-LITE 自研教材：必会3000、词汇三部曲、救命20题、IELTS Core、IELTS Preparation、博雅阅读、阅读积累——十余套自主编写教材，覆盖词汇、写作、口语、听力、阅读与真题精讲。">
+<link rel="canonical" href="https://hylite.com.cn/books.html">
+<meta property="og:title" content="教研成果 · 自研教材 — 环亚国际教育 HY-LITE">
+<meta property="og:description" content="二十年一线教学，沉淀成十余套自主编写的教材。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hylite.com.cn/books.html">
+<meta property="og:image" content="https://hylite.com.cn/share.png">
+<style>
+  /* 与师资页同一套学院风设计令牌；字体走系统栈，无外链 */
+  :root {
+    --cream: #EFEAE0;
+    --cream-deep: #E6DFD2;
+    --sage: #6B8A6F;
+    --sage-deep: #55705A;
+    --terracotta: #CD6F47;
+    --ink: #26251F;
+    --ink-soft: #55534A;
+    --paper: #FBF9F4;
+    --rule: rgba(38, 37, 31, 0.16);
+    --serif: Georgia, "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+    --sans: "MiSans", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-weight: 400;
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; max-width: 100%; }
+
+  /* 返回首页 */
+  .home-link {
+    position: fixed;
+    top: 18px; left: 22px; z-index: 10;
+    font-family: var(--serif);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    color: var(--ink-soft);
+    border-bottom: 1px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  .home-link:hover { color: var(--ink); border-color: var(--ink); }
+
+  /* ===== 页眉 ===== */
+  .masthead {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 88px 32px 56px;
+    text-align: center;
+  }
+  .masthead .eyebrow {
+    font-family: var(--serif);
+    font-size: 13px;
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    color: var(--terracotta);
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+  .masthead h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 40px;
+    font-size: clamp(34px, 5.2vw, 52px);
+    letter-spacing: 0.14em;
+    text-indent: 0.14em;
+    margin-bottom: 30px;
+  }
+  .rule {
+    width: 56px;
+    height: 1px;
+    background: var(--ink);
+    margin: 0 auto 30px;
+    position: relative;
+  }
+  .rule::after {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 7px; height: 7px;
+    background: var(--sage);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .masthead p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--ink-soft);
+    font-size: 15.5px;
+  }
+  .masthead p .em { color: var(--ink); font-weight: 500; }
+
+  /* ===== 封面拼图墙 ===== */
+  .collage-wrap { overflow: hidden; padding: 26px 0 10px; }
+  .collage {
+    position: relative;
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 300px;
+    height: clamp(240px, 38vw, 460px);
+  }
+  .collage a {
+    position: absolute;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(38,37,31,.18), 0 26px 44px -18px rgba(38,37,31,.45);
+    transition: transform 0.45s ease, box-shadow 0.45s ease, z-index 0s;
+    background: #fff;
+  }
+  .collage a img { border-radius: 3px; width: 100%; height: auto; }
+  .collage a:hover {
+    transform: rotate(0deg) translateY(-10px) scale(1.04) !important;
+    box-shadow: 0 4px 8px rgba(38,37,31,.2), 0 40px 64px -20px rgba(38,37,31,.55);
+    z-index: 20 !important;
+  }
+  /* 七本封面：错落层叠（left/width 用百分比，整体随宽度缩放） */
+  .collage .c1 { left: 0%;    top: 22%; width: 16.5%; transform: rotate(-9deg); z-index: 1; }
+  .collage .c2 { left: 13%;   top: 8%;  width: 18.5%; transform: rotate(-5deg); z-index: 2; }
+  .collage .c3 { left: 28.5%; top: 18%; width: 17%;   transform: rotate(2deg);  z-index: 3; }
+  .collage .c4 { left: 40.5%; top: 2%;  width: 20.5%; transform: rotate(-1deg); z-index: 6; }
+  .collage .c5 { left: 59%;   top: 15%; width: 17.5%; transform: rotate(4deg);  z-index: 4; }
+  .collage .c6 { left: 71.5%; top: 6%;  width: 18%;   transform: rotate(7deg);  z-index: 5; }
+  .collage .c7 { left: 84.5%; top: 26%; width: 15.5%; transform: rotate(11deg); z-index: 2; }
+
+  /* ===== 统计条 ===== */
+  .stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 64px auto 0;
+    padding: 26px 24px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    max-width: 780px;
+  }
+  .stats .rs { text-align: center; min-width: 140px; margin: 8px 22px; }
+  .stats .rs b {
+    display: block;
+    font-family: var(--serif);
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.15;
+    color: var(--sage-deep);
+  }
+  .stats .rs span {
+    font-size: 12.5px;
+    letter-spacing: 0.12em;
+    color: var(--ink-soft);
+  }
+
+  /* ===== 书架 ===== */
+  .shelf-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 72px 32px 100px;
+  }
+  .shelf-head { text-align: center; margin-bottom: 54px; }
+  .shelf-head h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 28px;
+    font-size: clamp(24px, 3.4vw, 34px);
+    letter-spacing: 0.12em;
+    text-indent: 0.12em;
+    margin-bottom: 14px;
+  }
+  .shelf-head p { color: var(--ink-soft); font-size: 14.5px; }
+
+  .shelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-gap: 46px 30px;
+    gap: 46px 30px;
+  }
+  .book { text-align: center; }
+  .book .cover {
+    position: relative;
+    background: #fff;
+    border-radius: 2px 3px 3px 2px;
+    overflow: hidden;
+    box-shadow:
+      0 1px 2px rgba(38, 37, 31, 0.14),
+      0 16px 30px -14px rgba(38, 37, 31, 0.42);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .book .cover img { width: 100%; height: auto; }
+  /* 书脊高光 + 装订投影 */
+  .book .cover::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    width: 7px;
+    background: linear-gradient(90deg,
+      rgba(0,0,0,0.22), rgba(0,0,0,0.05) 55%, rgba(255,255,255,0.10) 100%);
+    pointer-events: none;
+  }
+  .book:hover .cover {
+    transform: translateY(-7px);
+    box-shadow:
+      0 2px 4px rgba(38, 37, 31, 0.16),
+      0 30px 54px -18px rgba(38, 37, 31, 0.5);
+  }
+  .book figcaption { margin-top: 18px; }
+  .book .bk-cat {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    text-indent: 0.24em;
+    color: var(--terracotta);
+    margin-bottom: 6px;
+  }
+  .book .bk-title {
+    display: block;
+    font-family: var(--serif);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
+  .book .bk-sub {
+    display: block;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-top: 3px;
+  }
+  /* 页脚（与师资页一致） */
+  .colophon {
+    border-top: 1px solid var(--rule);
+    padding: 40px 32px 56px;
+    text-align: center;
+  }
+  .colophon .wordmark {
+    font-family: var(--serif);
+    font-size: 15px;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+    margin-bottom: 10px;
+  }
+  .colophon small {
+    color: var(--ink-soft);
+    font-size: 12.5px;
+    letter-spacing: 0.08em;
+  }
+
+  /* 入场动效 */
+  @media (prefers-reduced-motion: no-preference) {
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity .6s ease, transform .6s ease;
+      transition-delay: var(--d, 0s);
+    }
+    [data-reveal].in { opacity: 1; transform: none; }
+  }
+
+  @media (max-width: 780px) {
+    .masthead { padding: 72px 24px 40px; }
+    .shelf-wrap { padding: 56px 20px 72px; }
+    .shelf { grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); grid-gap: 34px 18px; gap: 34px 18px; }
+    .stats { margin-top: 48px; }
+    .stats .rs { min-width: 110px; margin: 6px 14px; }
+    .stats .rs b { font-size: 26px; }
+    .book figcaption { margin-top: 14px; }
+    .book .bk-title { font-size: 14.5px; }
+    .home-link { top: 14px; left: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .book .cover, .collage a { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<a class="home-link" href="./">← HY-LITE</a>
+
+<header class="masthead">
+  <div class="eyebrow">Original Textbooks</div>
+  <h1>教研成果</h1>
+  <div class="rule"></div>
+  <p>环亚不做"拿来主义"。从词汇、写作、口语到听力、阅读与真题精讲，二十年一线教学被沉淀成<span class="em">十余套自主编写的教材</span>。教研，是这里最不肯将就的一件事。</p>
+</header>
+
+<!-- 封面拼图墙：点击任意一本，跳到下方书架对应条目 -->
+<div class="collage-wrap">
+  <div class="collage" data-reveal>
+    <a class="c1" href="#bk-trilogy"><img src="books/cover_02.jpg" alt="词汇三部曲"></a>
+    <a class="c2" href="#bk-prep-int"><img src="books/cover_03.jpg" alt="IELTS Preparation Intermediate"></a>
+    <a class="c3" href="#bk-jiuming"><img src="books/cover_01.jpg" alt="救命20题"></a>
+    <a class="c4" href="#bk-3000"><img src="books/cover_08.jpg" alt="必会3000"></a>
+    <a class="c5" href="#bk-writing"><img src="books/cover_06.jpg" alt="IELTS Core Writing"></a>
+    <a class="c6" href="#bk-boya"><img src="books/cover_09.jpg" alt="博雅阅读"></a>
+    <a class="c7" href="#bk-speaking"><img src="books/cover_07.jpg" alt="IELTS Core Speaking"></a>
+  </div>
+</div>
+
+<div class="stats" data-reveal>
+  <div class="rs"><b>10+</b><span>套自研教材</span></div>
+  <div class="rs"><b>6</b><span>大能力板块</span></div>
+  <div class="rs"><b>雅思 · 托福</b><span>与英语进阶全覆盖</span></div>
+</div>
+
+<main class="shelf-wrap">
+  <div class="shelf-head" data-reveal>
+    <h2>全 部 教 材</h2>
+    <p>每一本，都从真实课堂里长出来。</p>
+  </div>
+
+  <div class="shelf">
+    <figure class="book" id="bk-3000" data-reveal>
+      <div class="cover"><img src="books/cover_08.jpg" alt="必会3000 词汇教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">词汇</span>
+        <span class="bk-title">必会 3000</span>
+        <span class="bk-sub">雅思 · 托福核心词汇</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-trilogy" data-reveal>
+      <div class="cover"><img src="books/cover_02.jpg" alt="雅思写作 词汇三部曲 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">写作</span>
+        <span class="bk-title">词汇三部曲</span>
+        <span class="bk-sub">雅思写作词汇 · 三册合订</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-reading1" data-reveal>
+      <div class="cover"><img src="books/cover_10.jpg" alt="阅读积累 上册 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">阅读</span>
+        <span class="bk-title">阅读积累 · 上册</span>
+        <span class="bk-sub">Reading · 第 1–11 单元</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-reading2" data-reveal>
+      <div class="cover"><img src="books/cover_11.jpg" alt="阅读积累 下册 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">阅读</span>
+        <span class="bk-title">阅读积累 · 下册</span>
+        <span class="bk-sub">Reading · 进阶单元</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-speaking" data-reveal>
+      <div class="cover"><img src="books/cover_07.jpg" alt="IELTS Core Speaking 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">口语</span>
+        <span class="bk-title">IELTS Core · Speaking</span>
+        <span class="bk-sub">雅思口语核心教程</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-writing" data-reveal>
+      <div class="cover"><img src="books/cover_06.jpg" alt="IELTS Core Writing 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">写作</span>
+        <span class="bk-title">IELTS Core · Writing</span>
+        <span class="bk-sub">雅思写作核心教程</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-prep-ele" data-reveal>
+      <div class="cover"><img src="books/cover_05.jpg" alt="IELTS Preparation Elementary 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">真题精讲</span>
+        <span class="bk-title">IELTS Preparation</span>
+        <span class="bk-sub">Elementary · 入门级</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-prep-int" data-reveal>
+      <div class="cover"><img src="books/cover_03.jpg" alt="IELTS Preparation Intermediate 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">真题精讲</span>
+        <span class="bk-title">IELTS Preparation</span>
+        <span class="bk-sub">Intermediate · 进阶级</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-boya" data-reveal>
+      <div class="cover"><img src="books/cover_09.jpg" alt="博雅阅读 Liberal Arts 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">阅读</span>
+        <span class="bk-title">博雅阅读</span>
+        <span class="bk-sub">Liberal Arts · 人文精读</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-jiuming" data-reveal>
+      <div class="cover"><img src="books/cover_01.jpg" alt="雅思口语 救命20题 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">口语</span>
+        <span class="bk-title">救命 20 题</span>
+        <span class="bk-sub">雅思口语高频话题精解</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-listening" data-reveal>
+      <div class="cover"><img src="books/cover_04.jpg" alt="听力口语进阶训练 教材封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">听力</span>
+        <span class="bk-title">听力口语进阶训练</span>
+        <span class="bk-sub">听说能力专项进阶</span>
+      </figcaption>
+    </figure>
+
+    <figure class="book" id="bk-sgwriting" data-reveal>
+      <div class="cover"><img src="books/cover_12.jpg" alt="新加坡写作教程 The Singapore Writing Guide 第二版 封面" loading="lazy"></div>
+      <figcaption>
+        <span class="bk-cat">写作</span>
+        <span class="bk-title">新加坡写作教程</span>
+        <span class="bk-sub">The Singapore Writing Guide · 第二版</span>
+      </figcaption>
+    </figure>
+  </div>
+</main>
+
+
+<footer class="colophon">
+  <div class="wordmark">HY-LITE · 环亚国际教育</div>
+  <small>无锡 · 云蝠大厦 1201–1202 &nbsp;|&nbsp; 0510-82820708 &nbsp;|&nbsp; Since 2003</small>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('[data-reveal]');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (!en.isIntersecting) return;
+        en.target.classList.add('in');
+        io.unobserve(en.target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>

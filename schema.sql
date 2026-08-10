@@ -42,3 +42,47 @@ CREATE TABLE IF NOT EXISTS rate_limits (
   count INTEGER NOT NULL DEFAULT 0,
   window_start TEXT NOT NULL
 );
+
+-- English Compass 付费访问：激活码只保存 SHA-256 哈希，明文仅在创建时返回一次。
+CREATE TABLE IF NOT EXISTS compass_licenses (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  code_hash TEXT UNIQUE NOT NULL,
+  code_suffix TEXT NOT NULL,
+  student_name TEXT NOT NULL,
+  active INTEGER NOT NULL DEFAULT 1 CHECK (active IN (0, 1)),
+  max_devices INTEGER NOT NULL DEFAULT 2 CHECK (max_devices BETWEEN 1 AND 2),
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  last_used TEXT
+);
+
+CREATE TABLE IF NOT EXISTS compass_devices (
+  license_id INTEGER NOT NULL,
+  device_id TEXT NOT NULL,
+  device_name TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  last_seen TEXT,
+  PRIMARY KEY (license_id, device_id),
+  FOREIGN KEY (license_id) REFERENCES compass_licenses(id) ON DELETE CASCADE
+);
+CREATE INDEX IF NOT EXISTS idx_compass_devices_license ON compass_devices(license_id);
+
+-- 即使两个激活请求同时到达，数据库也不会让一个码绑定第 3 台设备。
+CREATE TRIGGER IF NOT EXISTS compass_devices_limit
+BEFORE INSERT ON compass_devices
+WHEN (SELECT COUNT(*) FROM compass_devices WHERE license_id=NEW.license_id) >=
+     (SELECT max_devices FROM compass_licenses WHERE id=NEW.license_id)
+BEGIN
+  SELECT RAISE(ABORT, 'device limit reached');
+END;
+
+CREATE TABLE IF NOT EXISTS compass_sessions (
+  token TEXT PRIMARY KEY,
+  license_id INTEGER NOT NULL,
+  device_id TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  last_used TEXT,
+  expires_at TEXT NOT NULL,
+  FOREIGN KEY (license_id) REFERENCES compass_licenses(id) ON DELETE CASCADE
+);
+CREATE INDEX IF NOT EXISTS idx_compass_sessions_license ON compass_sessions(license_id);
+CREATE INDEX IF NOT EXISTS idx_compass_sessions_expiry ON compass_sessions(expires_at);

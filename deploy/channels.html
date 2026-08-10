@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>环亚国际教育 HY-LITE｜无锡 高考英语 · 雅思 · 托福</title>
+<meta name="description" content="环亚国际教育 HY-LITE（无锡，Since 2003）：高考英语、雅思、托福三线教研，自研词书系统与教材。">
+<link rel="canonical" href="https://hylite.com.cn/channels.html">
+<meta property="og:title" content="环亚国际教育 HY-LITE">
+<meta property="og:description" content="高考英语 · 雅思 · 托福 三线教研 · 无锡 Since 2003">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hylite.com.cn/channels.html">
+<meta property="og:image" content="https://hylite.com.cn/share.png">
+<meta name="theme-color" content="#EFEAE0">
+<style>
+/* ============ 极简壳（照搬 ZennyX 官网结构）============ */
+:root{
+  --paper:#EFEAE0;        /* 奶油米底 */
+  --ink:#26251F;          /* 暖墨近黑 */
+  --muted:#6B6557;        /* 暖灰 */
+  --clay:#B06A41;         /* 陶土橙（仅粒子点缀） */
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --serif:Georgia,"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --sans:'MiSans','HarmonyOS Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--paper);color:var(--ink)}
+body{
+  font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;
+  overflow:hidden; /* 单屏页，无滚动 */
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* 小标签：衬线 + 大写 + 宽字距（ZennyX .label 语法） */
+.label{
+  font-family:var(--serif);
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  font-size:12px;font-weight:500;
+}
+
+/* 粒子画布铺满视口，垫底 */
+#pfield{
+  position:fixed;top:0;left:0;width:100%;
+  height:100vh;height:100svh;
+  z-index:0;pointer-events:none;
+}
+/* 粒子字下方的中文小字（top 由 JS 按字号定位） */
+#zhsub{
+  position:fixed;left:0;right:0;top:56%;
+  z-index:0;pointer-events:none;
+  text-align:center;
+  font-family:var(--serif);
+  font-size:13px;font-weight:500;
+  letter-spacing:.52em;text-indent:.52em;
+  color:var(--muted);
+  opacity:0;animation:subIn .9s var(--ease) 1.15s forwards;
+}
+@keyframes subIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){
+  #zhsub{opacity:1;animation:none}
+}
+
+/* 三段式外壳：导航在顶、中空、渠道在底 */
+.shell{
+  position:relative;z-index:1;
+  min-height:100vh;min-height:100svh;
+  display:flex;flex-direction:column;
+  justify-content:space-between;
+}
+
+/* ===== 顶部导航（居中网格，下划线从左生长）===== */
+.top{width:100%;padding-top:20px}
+.top ul{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  align-items:center;
+  width:100%;max-width:560px;
+  margin:0 auto;padding:0 24px;
+}
+.top li{display:flex;justify-content:center}
+.top a{
+  position:relative;display:inline-block;padding:6px 2px;
+  color:var(--ink);opacity:.78;
+  transition:opacity .3s var(--ease);
+}
+.top a:hover{opacity:1}
+.top a::after{
+  content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;
+  background:var(--ink);transform:scaleX(0);transform-origin:left;
+  transition:transform .5s var(--ease);
+}
+.top a:hover::after{transform:scaleX(1)}
+
+/* ===== 底部渠道行 ===== */
+.brands{width:100%;padding-bottom:22px}
+.brands ul{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  align-items:center;
+  width:100%;max-width:560px;
+  margin:0 auto;padding:0 24px;
+}
+.brands li{display:flex;justify-content:center}
+.brands a{
+  color:var(--ink);
+  transition:color .25s var(--ease);
+}
+.brands a:hover{color:var(--muted)}
+
+@media (max-width:420px){
+  .label{letter-spacing:.13em;font-size:11.5px}
+}
+
+/* ============ 渠道卡（照搬 ZennyX ProductView 两段式展开）============ */
+#pfield,#zhsub{transition:opacity .4s var(--ease)}
+body.ch-open #pfield,body.ch-open #zhsub{opacity:0}
+
+/* 回首页角标（ZennyX HomeLogo：打开卡片时才出现） */
+#homemark{
+  position:fixed;top:20px;left:24px;z-index:5;
+  font-family:var(--serif);font-size:13px;font-weight:600;
+  letter-spacing:.18em;color:var(--ink);
+  opacity:0;transform:translateY(-6px) scale(.92);pointer-events:none;
+  transition:opacity .45s var(--ease) .1s, transform .45s var(--ease) .1s;
+}
+body.ch-open #homemark{opacity:1;transform:none;pointer-events:auto}
+
+main{flex:1;display:flex;align-items:center;justify-content:center}
+
+#chcard{
+  display:none;position:relative;overflow:hidden;
+  width:480px;max-width:calc(100vw - 48px);min-height:520px;
+  background:#FAF7F0;border-radius:18px;
+  box-shadow:0 50px 100px -60px rgba(38,37,31,.35); /* 无边框，只有氛围投影 */
+  opacity:0;transform:translateY(80px);
+  transition:opacity .4s var(--ease), transform .5s var(--ease), width .5s var(--ease) .45s;
+}
+body.ch-open #chcard{display:block}
+#chcard.on{opacity:1;transform:none;width:960px}
+#chcard.closing{opacity:0;transform:translateY(50px);transition:opacity .3s var(--ease), transform .3s var(--ease)}
+
+/* 关闭按钮：卡片展开后浮现（手机端主要退出方式） */
+#chclose{
+  position:absolute;top:16px;right:16px;z-index:3;
+  width:38px;height:38px;border:0;border-radius:50%;
+  background:rgba(38,37,31,.06);color:var(--ink);
+  font-size:15px;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);
+  opacity:0;pointer-events:none;
+  transition:opacity .3s var(--ease) .15s, background .3s var(--ease), transform .3s var(--ease);
+}
+#chcard.expanded #chclose{opacity:1;pointer-events:auto}
+#chclose:hover{background:rgba(38,37,31,.13);transform:rotate(90deg)}
+
+/* 图标：先 420px 居中，展开后缩到左上 64px（22% 圆角随尺寸缩放） */
+#chicon{
+  position:absolute;left:50%;top:50%;z-index:2;
+  width:min(420px,56vw);height:min(420px,56vw);
+  transform:translate(-50%,-50%);
+  border-radius:22%;background:var(--ink);color:#FAF7F0;
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
+  transition:all .5s var(--ease);
+}
+#chcard.expanded #chicon{left:44px;top:44px;transform:none;width:64px;height:64px}
+#chicon img{width:100%;height:100%;object-fit:cover;display:block}
+#chicon.pic{background:#fff} /* 图片 logo 用白底方块 */
+#chicon svg{width:42%;height:42%;display:block}
+
+/* 前往网站按钮（ZennyX "Go to website" 药丸） */
+.ch-link{
+  display:none;align-items:center;gap:8px;align-self:flex-start;
+  margin-top:auto;
+  padding:12px 22px;border-radius:999px;
+  background:var(--ink);color:#FAF7F0;
+  font-size:13px;letter-spacing:.06em;
+  transition:opacity .25s var(--ease);
+}
+.ch-link:hover{opacity:.82}
+#chcard.haslink .ch-link{display:inline-flex}
+#chcard.haslink .ch-hint{display:none}
+
+/* 手机屏内容两种模式：二维码 / 骨架示意（ZennyX 无 demo 时的 fallback） */
+.ph-skel{display:none;flex:1;width:100%;padding:16px 18px 0;flex-direction:column;gap:10px}
+.ph-skel span{display:block;background:rgba(38,37,31,.08);border-radius:6px}
+.ph-skel .s1{height:8px;width:66%}
+.ph-skel .s2{height:8px;width:50%}
+.ph-skel .b1{height:84px;border-radius:14px;background:rgba(38,37,31,.06);margin-top:6px}
+.ph-skel .b2,.ph-skel .b3{height:58px;border-radius:14px;background:rgba(38,37,31,.05)}
+.ph-home{width:40px;height:3px;border-radius:2px;background:rgba(38,37,31,.25);margin:auto auto 10px}
+#chcard.no-qr .ph-qr,#chcard.no-qr .ph-cap{display:none}
+#chcard.no-qr .ph-skel{display:flex}
+
+/* 手机端：右半区隐藏后在文字下方补二维码（桌面不显示） */
+.ch-mqr{display:none}
+@media (max-width:767px){
+  .ch-mqr{display:flex;flex-direction:column;align-items:center;gap:8px;margin:18px 0 4px}
+  .ch-mqr img{width:170px;height:170px;object-fit:contain;background:#fff;border-radius:14px;padding:8px;box-shadow:0 14px 30px -18px rgba(38,37,31,.35);display:none}
+  .ch-mqr img.has{display:block}
+  .ch-mqr span{font-size:12px;color:var(--muted);letter-spacing:.05em}
+  #chcard.no-qr .ch-mqr{display:none}  /* 有外链的渠道（Ipraxis）不放二维码 */
+}
+
+.ch-body{
+  opacity:0;transition:opacity .4s var(--ease) .15s;
+  display:grid;grid-template-columns:3fr 2fr;min-height:520px;
+}
+#chcard.expanded .ch-body{opacity:1}
+.ch-left{
+  padding:44px;padding-top:132px; /* 让出左上 64px 图标位 */
+  display:flex;flex-direction:column;
+}
+.ch-tag{color:var(--clay);margin-bottom:12px}
+.ch-left h2{
+  font-family:var(--sans);font-size:34px;font-size:clamp(30px,3.4vw,42px);
+  line-height:1.15;font-weight:700;letter-spacing:-.01em;
+}
+.ch-desc{margin-top:14px;font-size:15.5px;line-height:1.75;color:var(--muted);max-width:36ch}
+.ch-hint{
+  margin-top:auto;padding-top:26px;
+  font-size:13.5px;color:var(--ink);opacity:.75;
+}
+.ch-right{display:flex;align-items:center;justify-content:center;padding:30px 44px 30px 0}
+/* 手机模型（ZennyX 同款：墨色边框圆角机身） */
+.phone{width:206px;height:446px;background:var(--ink);border-radius:40px;padding:6px}
+.phone-screen{
+  position:relative;
+  width:100%;height:100%;border-radius:34px;background:#F4F1E9;
+  display:flex;flex-direction:column;align-items:center;overflow:hidden;
+}
+/* 演示视频：有 demo 时整屏铺满（ZennyX 同款），无则显示骨架/二维码 */
+.phone-screen video{
+  position:absolute;top:0;left:0;width:100%;height:100%;
+  object-fit:cover;display:none;
+}
+#chcard.has-video .phone-screen video{display:block}
+#chcard.has-video .ph-status,#chcard.has-video .ph-qr,#chcard.has-video .ph-cap,
+#chcard.has-video .ph-skel,#chcard.has-video .ph-home{display:none}
+.ph-status{
+  width:100%;display:flex;justify-content:space-between;align-items:center;
+  padding:10px 18px 6px;font-size:10px;color:var(--muted);
+}
+.ph-batt{width:14px;height:7px;border:1px solid var(--muted);border-radius:2px}
+.ph-qr{
+  width:148px;height:148px;margin-top:64px;border-radius:14px;
+  border:1.5px dashed #C9C2B2;background:#FAF7F0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;color:var(--muted);
+}
+.ph-qr img{display:none;width:100%;height:100%;object-fit:contain;border-radius:12px}
+.ph-qr.has-image{border:0;background:#fff}
+.ph-qr.has-image .ph-qr-placeholder{display:none}
+.ph-qr.has-image img{display:block}
+.ph-cap{margin-top:16px;font-size:12px;letter-spacing:.1em;color:var(--muted)}
+
+@media (max-width:767px){
+  #chcard{width:min(500px,calc(100vw - 40px));min-height:340px;transition:opacity .4s var(--ease), transform .5s var(--ease)}
+  #chcard.on{width:min(500px,calc(100vw - 40px))}
+  #chicon{width:min(260px,60vw);height:min(260px,60vw);font-size:min(120px,28vw)}
+  #chcard.expanded #chicon{left:28px;top:28px}
+  .ch-body{grid-template-columns:1fr;min-height:340px}
+  .ch-left{padding:28px;padding-top:112px}
+  .ch-right{display:none} /* ZennyX：移动端隐藏演示半区 */
+}
+
+@media (prefers-reduced-motion: reduce){
+  .top a,.top a::after,.brands a{transition:none}
+  #pfield,#zhsub,#chcard,#chicon,.ch-body,#homemark{transition:none}
+}
+</style>
+</head>
+<body>
+<!-- 微信会话转发缩略图：微信取页面首张 ≥300px 已加载图片 -->
+<img src="share.png" width="300" height="300" alt="" aria-hidden="true" style="position:absolute;left:-9999px;top:0">
+
+<canvas id="pfield" aria-hidden="true"></canvas>
+<p id="zhsub" aria-hidden="true">环亚国际教育</p>
+
+<!-- 打开渠道卡时出现的回首页角标 -->
+<a id="homemark" href="./" aria-label="回到首页">HY·LITE</a>
+
+<div class="shell">
+  <!-- 顶部导航与底部渠道行已移除（2026-08-06 用户定）：本页只做渠道卡展示，入口全在首页 -->
+  <main>
+    <h1 class="sr-only">环亚国际教育 HY-LITE — 无锡 高考英语 · 雅思 · 托福</h1>
+    <!-- 渠道卡：点底部渠道原地展开（ZennyX ProductView 同款两段式） -->
+    <div id="chcard" role="dialog" aria-modal="false" aria-label="关注渠道">
+      <button id="chclose" type="button" aria-label="关闭">✕</button>
+      <div id="chicon" aria-hidden="true"></div>
+      <div class="ch-body">
+        <div class="ch-left">
+          <p class="ch-tag label" id="chtag"></p>
+          <h2 id="chname"></h2>
+          <p class="ch-desc" id="chdesc"></p>
+          <p class="ch-hint" id="chhint"></p>
+          <!-- 手机端右半区隐藏，二维码在文字下方补显 -->
+          <div class="ch-mqr">
+            <img id="chqr-mobile" alt="渠道二维码" decoding="async">
+            <span id="chcap-mobile"></span>
+          </div>
+          <a class="ch-link" id="chlink" target="_blank" rel="noopener noreferrer">
+            <span id="chlinktext"></span>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="ch-right" aria-hidden="true">
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="ph-status"><span>9:41</span><span class="ph-batt"></span></div>
+              <!-- TODO：各渠道真实二维码图片拿到后，替换占位框为 <img>（放同源 /channels/qr-<slug>.png） -->
+              <div class="ph-qr" id="chqr">
+                <span class="ph-qr-placeholder">二维码占位</span>
+                <img id="chqr-image" alt="" decoding="async">
+              </div>
+              <p class="ph-cap" id="chcap"></p>
+              <div class="ph-skel" aria-hidden="true">
+                <span class="s1"></span><span class="s2"></span>
+                <span class="b1"></span><span class="b2"></span><span class="b3"></span>
+              </div>
+              <div class="ph-home" aria-hidden="true"></div>
+              <video id="chvideo" muted loop playsinline preload="none"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+/* ================================================================
+   粒子文字场 —— 原生 Canvas 2D（学习自 ZennyX ThreeParticleField）
+   「环亚国际教育」由散落粒子汇聚成形；鼠标/手指挥动扰动，弹簧回位；
+   静止后自动休眠停帧，指针动作唤醒
+   ================================================================ */
+(function(){
+  var canvas = document.getElementById('pfield');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var CFG = {
+    text: 'HY LITE education',
+    gap: 4,               // 采样步长 px；小字号自动加密
+    size: 2.1,            // 粒径 px
+    spring: 0.004,        // 回家弹簧力
+    damping: 0.9,         // 速度阻尼
+    radius: 180,          // 指针影响半径
+    force: 2.5,           // 指针基础力
+    attract: 2,           // 吸引倍数
+    dragInertia: 0.2,     // 指针速度传递（“甩”的手感）
+    velDamp: 0.5,         // 指针速度衰减
+    maxSpeed: 50,         // 指针速度上限
+    entrance: 2000,       // 入场时长 ms
+    tintRatio: 0.08,      // 少量陶土色粒子
+    textCenterY: 0.45     // 文字垂直中心（视口高度比例，视觉居中）
+  };
+
+  var W = 0, H = 0, DPR = 1;
+  var px, py, hx, hy, vx, vy, tint;
+  var count = 0;
+  var entStart = null, entT0 = 0;
+  var running = false, rafId = 0, built = false;
+  var idle = 0;
+  var mouse = { x: 1e9, y: 1e9, px: 1e9, py: 1e9, vx: 0, vy: 0 };
+
+  function stageSize(){
+    return {
+      w: document.documentElement.clientWidth,
+      h: canvas.clientHeight || document.documentElement.clientHeight
+    };
+  }
+
+  function sizeCanvas(){
+    var s = stageSize();
+    W = s.w; H = s.h;
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.max(1, Math.round(W * DPR));
+    canvas.height = Math.max(1, Math.round(H * DPR));
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+
+  function build(playEntrance){
+    sizeCanvas();
+    if (W < 2 || H < 2){ built = false; return; }
+
+    var off = document.createElement('canvas');
+    off.width = W; off.height = H;
+    var octx = off.getContext('2d', { willReadFrequently: true });
+
+    var chars = CFG.text.length;
+    var family = getComputedStyle(document.body).fontFamily;
+    octx.fillStyle = '#fff';
+    octx.textAlign = 'center';
+    octx.textBaseline = 'middle';
+    // 拉丁字串按整串实测宽度定字号：目标占视口宽约 70%，字号上限收敛（不再满屏大字）
+    octx.font = '800 100px ' + family;
+    var m100 = octx.measureText(CFG.text).width || 1;
+    var fs = 100 * (W * 0.70) / m100;
+    fs = Math.min(fs, H * 0.24, 150);
+    fs = Math.max(fs, 30);
+    octx.font = '800 ' + fs + 'px ' + family;
+    var spacing = fs * 0.03;
+    var totalW = 0, widths = [];
+    for (var c = 0; c < chars; c++){
+      var w0 = octx.measureText(CFG.text[c]).width;
+      widths.push(w0); totalW += w0;
+    }
+    totalW += spacing * (chars - 1);
+    // 防线：任何字体度量下都不许溢出视口（留 32px 边距）
+    var maxW = W - 32;
+    if (totalW > maxW){
+      var shrink = maxW / totalW;
+      fs *= shrink; spacing *= shrink; totalW = maxW;
+      for (var cs = 0; cs < chars; cs++) widths[cs] *= shrink;
+      octx.font = '800 ' + fs + 'px ' + family;
+    }
+    var startX = (off.width - totalW) / 2;
+    var ty = H * CFG.textCenterY;
+    for (var c2 = 0; c2 < chars; c2++){
+      octx.fillText(CFG.text[c2], startX + widths[c2] / 2, ty);
+      startX += widths[c2] + spacing;
+    }
+
+    var gap = fs < 70 ? 3 : (W < 640 ? CFG.gap + 1 : CFG.gap); // 小字号加密采样，笔画不断
+    // 中文小字副标题贴在粒子字下方
+    var sub = document.getElementById('zhsub');
+    if (sub) sub.style.top = Math.round(ty + fs * 0.62 + 18) + 'px';
+    var data = octx.getImageData(0, 0, off.width, off.height).data;
+    var pts = [];
+    for (var y = 0; y < off.height; y += gap){
+      for (var x = 0; x < off.width; x += gap){
+        if (data[(y * off.width + x) * 4 + 3] > 80){
+          pts.push(x + (Math.random() - .5) * 1.5,
+                   y + (Math.random() - .5) * 1.5);
+        }
+      }
+    }
+    count = pts.length / 2;
+    px = new Float32Array(count); py = new Float32Array(count);
+    hx = new Float32Array(count); hy = new Float32Array(count);
+    vx = new Float32Array(count); vy = new Float32Array(count);
+    tint = new Uint8Array(count);
+    entStart = playEntrance ? new Float32Array(count * 2) : null;
+
+    for (var i = 0; i < count; i++){
+      hx[i] = pts[i * 2]; hy[i] = pts[i * 2 + 1];
+      tint[i] = Math.random() < CFG.tintRatio ? 1 : 0;
+      if (playEntrance){
+        var sx = W / 2 + (Math.random() - .5) * W * 1.2;
+        var sy = H / 2 + (Math.random() - .5) * H * 1.2;
+        entStart[i * 2] = sx; entStart[i * 2 + 1] = sy;
+        px[i] = sx; py[i] = sy;
+      } else {
+        px[i] = hx[i]; py[i] = hy[i];
+      }
+      vx[i] = 0; vy[i] = 0;
+    }
+    entT0 = playEntrance ? performance.now() : 0;
+    idle = 0;
+    built = true;
+    if (reduce){ draw(); }
+  }
+
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    var s = CFG.size, h = s / 2;
+    ctx.fillStyle = '#26251F';
+    for (var i = 0; i < count; i++)
+      if (!tint[i]) ctx.fillRect(px[i] - h, py[i] - h, s, s);
+    ctx.fillStyle = '#B06A41';
+    for (var j = 0; j < count; j++)
+      if (tint[j]) ctx.fillRect(px[j] - h, py[j] - h, s, s);
+  }
+
+  function loop(){
+    rafId = requestAnimationFrame(loop);
+    if (!built) return;
+
+    mouse.vx *= CFG.velDamp; mouse.vy *= CFG.velDamp;
+    if (Math.abs(mouse.vx) < .01) mouse.vx = 0;
+    if (Math.abs(mouse.vy) < .01) mouse.vy = 0;
+
+    // 入场：散点 → 汇聚
+    if (entStart && entT0){
+      var t = Math.min(1, (performance.now() - entT0) / CFG.entrance);
+      var e = 1 - Math.pow(1 - t, 3);
+      for (var i = 0; i < count; i++){
+        px[i] = entStart[i * 2] + (hx[i] - entStart[i * 2]) * e;
+        py[i] = entStart[i * 2 + 1] + (hy[i] - entStart[i * 2 + 1]) * e;
+      }
+      if (t >= 1){ entStart = null; entT0 = 0; }
+      draw(); return;
+    }
+
+    // 物理：弹簧回家 + 指针扰动（速度门控 = 不动无感，挥动才散）
+    var r2 = CFG.radius * CFG.radius;
+    var msp = mouse.vx * mouse.vx + mouse.vy * mouse.vy;
+    var mf = Math.min(msp / 4, 1);
+    var maxV2 = 0, maxD2 = 0;
+    for (var k = 0; k < count; k++){
+      var fx = (hx[k] - px[k]) * CFG.spring;
+      var fy = (hy[k] - py[k]) * CFG.spring;
+      if (mf > 0){
+        var dx = mouse.x - px[k], dy = mouse.y - py[k];
+        var d2 = dx * dx + dy * dy;
+        if (d2 < r2){
+          var d = Math.sqrt(d2) || 1;
+          var inf = 1 - d / CFG.radius;
+          var st = inf * inf * CFG.force * mf;
+          fx += (dx / d) * st * CFG.attract + mouse.vx * st * CFG.dragInertia;
+          fy += (dy / d) * st * CFG.attract + mouse.vy * st * CFG.dragInertia;
+        }
+      }
+      vx[k] = (vx[k] + fx) * CFG.damping;
+      vy[k] = (vy[k] + fy) * CFG.damping;
+      px[k] += vx[k]; py[k] += vy[k];
+
+      var av = vx[k]*vx[k] + vy[k]*vy[k]; if (av > maxV2) maxV2 = av;
+      var ex = hx[k]-px[k], ey = hy[k]-py[k], ed = ex*ex + ey*ey; if (ed > maxD2) maxD2 = ed;
+    }
+    draw();
+
+    // 静止检测：无扰动且全部归位 → 连续若干帧后休眠停帧（省电）
+    if (mf === 0 && maxV2 < 0.0025 && maxD2 < 0.0025){
+      if (++idle > 12) stop();
+    } else idle = 0;
+  }
+
+  function pointerAt(cx, cy){
+    if (document.body.classList.contains('ch-open')) return; // 渠道卡打开时粒子已隐藏，不响应
+    var rect = canvas.getBoundingClientRect();
+    mouse.px = mouse.x; mouse.py = mouse.y;
+    mouse.x = cx - rect.left; mouse.y = cy - rect.top;
+    if (mouse.px < 1e8){
+      var mvx = mouse.x - mouse.px, mvy = mouse.y - mouse.py;
+      mouse.vx = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvx));
+      mouse.vy = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvy));
+    }
+    if (!running && built) start();  // 休眠中被指针唤醒
+  }
+
+  function start(){
+    if (document.body.classList.contains('ch-open')) return;
+    if (!running && built && !reduce){ running = true; idle = 0; loop(); }
+  }
+  function stop(){ running = false; cancelAnimationFrame(rafId); }
+  function resetPointer(){ mouse.x = 1e9; mouse.y = 1e9; mouse.px = 1e9; mouse.vx = 0; mouse.vy = 0; }
+  window.__pf = { start: start, stop: stop }; // 渠道卡开合时接管粒子启停
+
+  // 字体就绪后再取样，避免粒子按回退字体成形
+  var ready = (document.fonts && document.fonts.ready)
+    ? Promise.race([document.fonts.ready, new Promise(function(r){ setTimeout(r, 1500); })])
+    : Promise.resolve();
+  ready.then(function(){
+    build(!reduce);
+    start();
+  });
+
+  if (!reduce){
+    window.addEventListener('mousemove', function(e){ pointerAt(e.clientX, e.clientY); }, { passive: true });
+    window.addEventListener('touchmove', function(e){
+      if (e.touches.length) pointerAt(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    window.addEventListener('touchend', resetPointer);
+    window.addEventListener('touchcancel', resetPointer);
+  }
+
+  // 旋屏/改窗才重建；地址栏伸缩（svh 高度不变）不打扰
+  var rT = 0;
+  window.addEventListener('resize', function(){
+    clearTimeout(rT);
+    rT = setTimeout(function(){
+      var s = stageSize();
+      if (s.w === W && s.h === H) return;
+      build(false);
+      if (built){ draw(); start(); }
+    }, 150);
+  });
+})();
+
+/* ================================================================
+   渠道卡控制器 —— 照搬 ZennyX ProductView 时间线：
+   升起 500ms → 延迟 450ms 展宽 500ms → 950ms 图标变形 + 内容淡入 → 退出 300ms
+   URL 状态 ?c=<slug>，浏览器返回可关卡
+   ================================================================ */
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var card = document.getElementById('chcard');
+  var body = document.body;
+  if (!card) return;
+
+  // 渠道数据（底部行只放短名，全称与账号进卡片；图标用图片或线性图形，不用文字）
+  // 渠道二维码放进右侧手机框；页脚仍展示完整宣传图。
+  var SVG = {
+    bubble: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/></svg>',
+    play:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>',
+    book:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M9 3v18"/></svg>'
+  };
+  var CH = {
+    gzh:  { img:'channels/wechat-official-logo.png?v=20260807', qr:'contact/qr-wechat-official.jpg', tag:'WeChat · 微信公众号', name:'环亚国际教育', /* TODO：公众号名称待确认 */
+            desc:'课程动态、考情解读与学习方法，第一时间推送。',
+            hint:'微信内搜索公众号「环亚国际教育」，或扫码关注。', cap:'微信扫码关注' },
+    sph:  { img:'channels/wechat-video-logo.png?v=20260807', qr:'contact/qr-wechat-video.png', tag:'WeChat Channels · 微信视频号', name:'hylite.edu',
+            desc:'课堂实录、老师干货与校区日常短视频。',
+            hint:'微信内搜索视频号「hylite.edu」。', cap:'微信扫码关注' },
+    xhs:  { img:'channels/xhs-jackie-logo-v2.jpg?v=20260807', qr:'contact/qr-xiaohongshu.png', tag:'Xiaohongshu · 小红书', name:'雅思满分Jackie',
+            desc:'提分案例、备考笔记与真实课堂记录。',
+            hint:'小红书 App 搜索「雅思满分Jackie」。', cap:'小红书扫码关注' },
+    ipx:  { img:'channels/ipraxis.png', tag:'IpraxisAI · AI 雅思口语', name:'IpraxisAI',
+            desc:'口袋里的雅思口语教练：分数段范文与真题练习，AI 实时点评词汇与语法，Part 1–3 全真模考、考官式评分。',
+            url:'https://ipraxis.ai', linkText:'前往 ipraxis.ai',
+            demo:'channels/ipraxis.mp4' }
+  };
+
+  var cur = null, tExpand = 0, tClose = 0;
+
+  function fill(slug){
+    var d = CH[slug];
+    var icon = document.getElementById('chicon');
+    if (d.img){
+      icon.className = 'pic';
+      icon.innerHTML = '<img src="' + d.img + '" alt="">';
+    } else {
+      icon.className = '';
+      icon.innerHTML = d.svg;
+    }
+    document.getElementById('chtag').textContent = d.tag;
+    document.getElementById('chname').textContent = d.name;
+    document.getElementById('chdesc').textContent = d.desc;
+    document.getElementById('chhint').textContent = d.hint || '';
+    document.getElementById('chcap').textContent = d.cap || '';
+    var qr = document.getElementById('chqr');
+    var qrImage = document.getElementById('chqr-image');
+    if (d.qr){
+      qrImage.src = d.qr;
+      qr.classList.add('has-image');
+    } else {
+      qrImage.removeAttribute('src');
+      qr.classList.remove('has-image');
+    }
+    // 手机端文字下方的二维码
+    var mqr = document.getElementById('chqr-mobile');
+    var mcap = document.getElementById('chcap-mobile');
+    if (mqr){
+      if (d.qr){ mqr.src = d.qr; mqr.classList.add('has'); }
+      else { mqr.removeAttribute('src'); mqr.classList.remove('has'); }
+      if (mcap) mcap.textContent = d.qr ? (d.cap || '长按识别二维码') : '';
+    }
+    if (d.url){
+      card.classList.add('haslink', 'no-qr');
+      var lk = document.getElementById('chlink');
+      lk.href = d.url;
+      document.getElementById('chlinktext').textContent = d.linkText;
+    } else {
+      card.classList.remove('haslink', 'no-qr');
+    }
+    // 演示视频：打开时才加载（懒加载省流量）；移动端手机半区隐藏，不加载
+    var vid = document.getElementById('chvideo');
+    if (d.demo && window.innerWidth > 767){
+      card.classList.add('has-video');
+      if (vid.getAttribute('src') !== d.demo) vid.setAttribute('src', d.demo);
+      var p = vid.play(); if (p && p.catch) p.catch(function(){});
+    } else {
+      card.classList.remove('has-video');
+      if (!vid.paused) vid.pause();
+    }
+  }
+
+  function doOpen(slug){
+    if (!CH[slug]) return;
+    clearTimeout(tExpand); clearTimeout(tClose);
+    fill(slug);
+    cur = slug;
+    body.classList.add('ch-open');
+    if (window.__pf) window.__pf.stop();
+    card.classList.remove('on', 'expanded', 'closing');
+    // 强制回流后再加 .on，保证 display:none→block 也有过渡
+    void card.offsetWidth;
+    if (reduce){
+      card.classList.add('on', 'expanded');
+    } else {
+      card.classList.add('on');
+      tExpand = setTimeout(function(){ card.classList.add('expanded'); }, 950);
+    }
+  }
+
+  function doClose(){
+    clearTimeout(tExpand); clearTimeout(tClose);
+    cur = null;
+    var vid = document.getElementById('chvideo');
+    if (vid && !vid.paused) vid.pause();
+    if (reduce){
+      card.classList.remove('on', 'expanded', 'closing');
+      body.classList.remove('ch-open');
+      if (window.__pf) window.__pf.start();
+      return;
+    }
+    card.classList.add('closing');
+    tClose = setTimeout(function(){
+      card.classList.remove('on', 'expanded', 'closing');
+      body.classList.remove('ch-open');
+      if (window.__pf) window.__pf.start();
+    }, 300);
+  }
+
+  function switchTo(slug){
+    if (cur === slug) return;
+    if (cur){ // 先快出再进（ZennyX AnimatePresence mode="wait"）
+      clearTimeout(tExpand); clearTimeout(tClose);
+      card.classList.add('closing');
+      tClose = setTimeout(function(){
+        card.classList.remove('on', 'expanded', 'closing');
+        void card.offsetWidth;
+        doOpen(slug);
+      }, reduce ? 0 : 300);
+    } else {
+      doOpen(slug);
+    }
+  }
+
+  // 底部渠道行
+  var links = document.querySelectorAll('.brands a[data-ch]');
+  for (var i = 0; i < links.length; i++){
+    links[i].addEventListener('click', function(e){
+      e.preventDefault();
+      var slug = this.getAttribute('data-ch');
+      if (cur !== slug) history.pushState({ c: slug }, '', '?c=' + slug);
+      switchTo(slug);
+    });
+  }
+
+  // 统一退出：×按钮 / 点卡片外 / 回首页角标 / Esc ——
+  // 本页只做渠道卡展示（2026-08-06），关卡片没有可留之处，一律直接回官网首页
+  function requestClose(){
+    location.href = './';
+  }
+  document.getElementById('chclose').addEventListener('click', requestClose);
+  // 角标本身就是 href="./" 的链接，走默认跳转即可，不再拦截
+  document.addEventListener('click', function(e){
+    if (!cur) return;
+    if (card.contains(e.target)) return;                        // 卡内点击不关
+    var t = e.target;
+    if (t.closest && t.closest('.brands, .top, #homemark')) return; // 导航/渠道行/角标各有其责
+    requestClose();                                             // 其余空白区域一点即退
+  });
+  window.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') requestClose();
+  });
+  window.addEventListener('popstate', function(e){
+    var slug = e.state && e.state.c;
+    if (slug && CH[slug]) switchTo(slug); else doClose();
+  });
+
+  // 直接带 ?c= 进入
+  var m = location.search.match(/[?&]c=([a-z]+)/);
+  if (m && CH[m[1]]){
+    history.replaceState({ c: m[1] }, '', location.href);
+    doOpen(m[1]);
+  }
+})();
+</script>
+</body>
+</html>

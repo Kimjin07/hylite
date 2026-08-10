@@ -24,6 +24,13 @@ tr.u:hover{ background:#F3FAF7; cursor:pointer; }
 .err{ color:var(--red); font-weight:700; }
 .num{ font-variant-numeric:tabular-nums; }
 .muted{ color:var(--sub); }
+.license-actions{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.license-code{ font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:16px; letter-spacing:.08em; }
+.device-line{ font-size:12px; color:var(--sub); margin:5px 0; white-space:normal; }
+.license-feedback{ min-height:20px; margin-top:8px; font-size:13px; color:var(--sub); }
+.license-feedback.ok{ color:var(--mint); font-weight:700; }
+.license-feedback.err{ color:var(--red); font-weight:700; }
+.danger{ background:var(--red); }
 #detail h2{ font-size:18px; margin:2px 0 10px; }
 .bookrow{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; padding:10px 0; border-bottom:1px solid var(--line); }
 .bookrow b{ min-width:88px; }
@@ -60,6 +67,27 @@ tr.u:hover{ background:#F3FAF7; cursor:pointer; }
       </table>
     </div>
     <div class="card" id="detail" style="display:none"></div>
+    <div class="card">
+      <h2 style="font-size:18px;margin:0 0 5px">English Compass 激活码</h2>
+      <div class="muted" style="font-size:13px;margin-bottom:14px">一名学生一个码，每码最多绑定 2 台设备。明文激活码仅在创建时显示一次。</div>
+      <div class="license-actions">
+        <input id="licenseStudent" placeholder="学生姓名" style="width:220px">
+        <button onclick="createLicense()">生成激活码</button>
+        <button class="ghost" onclick="loadLicenses()">刷新</button>
+      </div>
+      <div id="newLicense" style="margin-top:12px"></div>
+      <div id="licenseFeedback" class="license-feedback" aria-live="polite"></div>
+    </div>
+    <div class="card" style="overflow-x:auto">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+        <b>激活码列表</b>
+        <input id="licenseQ" placeholder="搜学生/激活码/设备" style="width:220px" oninput="renderLicenses()">
+      </div>
+      <table>
+        <thead><tr><th>学生</th><th>激活码</th><th>状态</th><th>设备</th><th>创建时间</th><th>最近使用</th><th>操作</th></tr></thead>
+        <tbody id="licenseRows"><tr><td colspan="7" class="muted">加载中…</td></tr></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -69,12 +97,20 @@ const BOOK_NAMES = { b3000:'必会3000', prep:'预备词汇', basic:'基础词�
 const bookName = id => BOOK_NAMES[id] || (String(id).endsWith('_r') ? (BOOK_NAMES[String(id).slice(0,-2)] || id) + ' 乱序' : id);
 let KEY = sessionStorage.getItem('hy_admin_key') || '';
 let USERS = [];
+let LICENSES = [];
 const esc = s => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/`/g,'&#96;');
 const fmtT = s => s ? String(s).replace('T',' ').slice(0,16) : '—';
 
-async function api(path){
-  const r = await fetch('/api/admin/' + path, { headers: { 'X-Admin-Key': KEY } });
-  return r.json().catch(()=>({ok:false,error:'响应异常'}));
+async function api(path, options){
+  options = options || {};
+  const headers = { 'X-Admin-Key': KEY };
+  if (options.body !== undefined) headers['Content-Type'] = 'application/json';
+  try {
+    const r = await fetch('/api/admin/' + path, { method:options.method || 'GET', headers:headers, body:options.body === undefined ? undefined : JSON.stringify(options.body) });
+    return r.json().catch(()=>({ok:false,error:'响应异常'}));
+  } catch (e){
+    return { ok:false, error:'网络暂时不可用，请重试' };
+  }
 }
 async function enter(){
   KEY = document.getElementById('key').value.trim();
@@ -89,6 +125,62 @@ function show(){
   document.getElementById('loginCard').style.display = 'none';
   document.getElementById('panel').style.display = '';
   renderUsers();
+  loadLicenses();
+}
+async function loadLicenses(){
+  const r = await api('compass/licenses');
+  if (!r.ok){ document.getElementById('licenseRows').innerHTML = '<tr><td colspan="7" class="err">' + esc(r.error || '加载失败') + '</td></tr>'; return; }
+  LICENSES = r.licenses || [];
+  renderLicenses();
+}
+function renderLicenses(){
+  const q = (document.getElementById('licenseQ').value || '').trim().toLowerCase();
+  const list = LICENSES.filter(l => !q ||
+    (l.student_name || '').toLowerCase().includes(q) ||
+    (l.code_suffix || '').toLowerCase().includes(q) ||
+    (l.devices || []).some(d => (d.device_name || '').toLowerCase().includes(q) || (d.device_id || '').toLowerCase().includes(q)));
+  document.getElementById('licenseRows').innerHTML = list.map(l => {
+    const devices = (l.devices || []).map(d => `<div class="device-line"><b>${esc(d.device_name || '未命名设备')}</b> · ${esc(d.device_id.slice(0,8))}… · ${fmtT(d.last_seen || d.created_at)} <button class="ghost" style="padding:2px 7px;font-size:11px" onclick="removeDevice(${l.id},'${esc(d.device_id)}')">解绑</button></div>`).join('') || '<span class="muted">尚未绑定</span>';
+    return `<tr><td><b>${esc(l.student_name)}</b></td><td class="num">EC-••••-${esc(l.code_suffix)}</td><td><span class="pill">${l.active ? '启用' : '已停用'}</span></td><td>${devices}</td><td class="muted num">${fmtT(l.created_at)}</td><td class="muted num">${fmtT(l.last_used)}</td><td><button class="${l.active ? 'danger' : ''}" style="padding:5px 10px;font-size:12px" onclick="toggleLicense(${l.id},${l.active ? 0 : 1})">${l.active ? '停用' : '启用'}</button></td></tr>`;
+  }).join('') || '<tr><td colspan="7" class="muted">没有匹配的激活码</td></tr>';
+}
+function setLicenseFeedback(text, kind){
+  const box = document.getElementById('licenseFeedback');
+  box.className = 'license-feedback' + (kind ? ' ' + kind : '');
+  box.textContent = text || '';
+}
+async function createLicense(){
+  const input = document.getElementById('licenseStudent');
+  const name = input.value.trim();
+  if (!name){ setLicenseFeedback('请先填写学生姓名','err'); input.focus(); return; }
+  const r = await api('compass/licenses', { method:'POST', body:{student_name:name} });
+  const box = document.getElementById('newLicense');
+  if (!r.ok){ box.innerHTML = ''; setLicenseFeedback(r.error || '生成失败','err'); return; }
+  box.innerHTML = '<span class="muted">请立即交给学生并妥善保存：</span> <b class="license-code">' + esc(r.license.code) + '</b> <button class="ghost" type="button" data-code="' + esc(r.license.code) + '" onclick="copyLicense(this)" style="padding:4px 10px;font-size:12px">复制</button>';
+  setLicenseFeedback('激活码已生成；明文只在这里显示一次','ok');
+  input.value = '';
+  await loadLicenses();
+}
+async function copyLicense(button){
+  const code = button.getAttribute('data-code') || '';
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(code);
+    else { const area = document.createElement('textarea'); area.value = code; area.style.position='fixed'; area.style.opacity='0'; document.body.appendChild(area); area.select(); document.execCommand('copy'); area.remove(); }
+    const old = button.textContent; button.textContent = '已复制'; setLicenseFeedback('激活码已复制到剪贴板','ok'); setTimeout(() => { button.textContent = old; }, 1600);
+  } catch (e){ setLicenseFeedback('复制失败，请手动选择激活码','err'); }
+}
+async function toggleLicense(id, active){
+  const action = active ? '启用' : '停用';
+  if (!window.confirm('确定要' + action + '这个激活码吗？' + (active ? '' : '停用后现有会话会立即失效。'))) return;
+  const r = await api('compass/license/toggle', { method:'POST', body:{id:id,active:active} });
+  if (r.ok){ setLicenseFeedback('已' + action + '激活码','ok'); loadLicenses(); }
+  else setLicenseFeedback(r.error || action + '失败','err');
+}
+async function removeDevice(licenseId, deviceId){
+  if (!window.confirm('确定解绑这台设备吗？解绑后可用名额会恢复。')) return;
+  const r = await api('compass/device/remove', { method:'POST', body:{license_id:licenseId,device_id:deviceId} });
+  if (r.ok){ setLicenseFeedback('设备已解绑','ok'); loadLicenses(); }
+  else setLicenseFeedback(r.error || '解绑失败','err');
 }
 function logout(){ sessionStorage.removeItem('hy_admin_key'); location.reload(); }
 async function loadUsers(){

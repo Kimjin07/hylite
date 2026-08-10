@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>字体试衣间 · Hy Lite Education</title>
+<meta name="robots" content="noindex">
+<style>
+@font-face{font-family:'Playfair Display';src:url('fonts/PlayfairDisplay.ttf?v=1');font-weight:400 900;font-display:swap}
+@font-face{font-family:'Fraunces';src:url('fonts/Fraunces.ttf?v=1');font-weight:100 900;font-display:swap}
+:root{
+  --paper:#EFEAE0; --ink:#26251F; --muted:#6B6557; --clay:#C07B52; --line:#DED6C4;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:'MiSans','PingFang SC','Microsoft YaHei',system-ui,sans-serif;
+  padding:48px 20px 80px;
+}
+h1{text-align:center;font-size:20px;font-weight:600;letter-spacing:.1em}
+.tip{text-align:center;color:var(--muted);font-size:13px;margin-top:10px}
+.card{
+  max-width:960px;margin:26px auto 0;
+  background:#FAF7F0;border:1px solid var(--line);border-radius:14px;
+  padding:34px 30px 30px;text-align:center;
+}
+.card .no{
+  display:inline-block;font-size:12px;color:#fff;background:var(--clay);
+  border-radius:999px;padding:2px 14px;letter-spacing:.1em;margin-bottom:6px;
+}
+.card .name{color:var(--muted);font-size:12.5px;margin-top:2px;letter-spacing:.06em}
+.card .demo{
+  font-size:clamp(34px,6vw,64px);line-height:1.2;margin-top:14px;
+  overflow-wrap:anywhere;
+}
+.card .note{color:var(--muted);font-size:12px;margin-top:10px}
+</style>
+</head>
+<body>
+<h1>Hy Lite Education · 字体试衣间</h1>
+<p class="tip">下面每张卡是同一句话的不同字体，选个编号告诉我（粒子字会按所选字体成形）</p>
+
+<div class="card">
+  <span class="no">1</span>
+  <div class="name">现在用的 · 系统黑体加粗（MiSans / 苹方 / 雅黑）</div>
+  <div class="demo" style="font-family:'MiSans','PingFang SC','Microsoft YaHei',sans-serif;font-weight:800">Hy Lite Education</div>
+  <div class="note">中性现代，笔画均匀，粒子成形最稳</div>
+</div>
+
+<div class="card">
+  <span class="no">2</span>
+  <div class="name">Georgia Bold · 经典衬线</div>
+  <div class="demo" style="font-family:Georgia,serif;font-weight:700">Hy Lite Education</div>
+  <div class="note">书卷气，和师资/教材页的衬线标题一脉，衬线角在粒子里会有细节感</div>
+</div>
+
+<div class="card">
+  <span class="no">3</span>
+  <div class="name">Palatino Linotype Bold · 人文衬线</div>
+  <div class="demo" style="font-family:'Palatino Linotype','Book Antiqua',Palatino,serif;font-weight:700">Hy Lite Education</div>
+  <div class="note">比 Georgia 更秀气，字腔开阔</div>
+</div>
+
+<div class="card">
+  <span class="no">4</span>
+  <div class="name">Constantia Bold · 现代衬线</div>
+  <div class="demo" style="font-family:Constantia,Georgia,serif;font-weight:700">Hy Lite Education</div>
+  <div class="note">锐利小衬线，学术又不老气</div>
+</div>
+
+<div class="card">
+  <span class="no">5</span>
+  <div class="name">Bahnschrift SemiBold · DIN 工业风</div>
+  <div class="demo" style="font-family:Bahnschrift,'Segoe UI',sans-serif;font-weight:600;font-stretch:semi-condensed">Hy Lite Education</div>
+  <div class="note">德式窄体，理性利落，科技感</div>
+</div>
+
+<div class="card">
+  <span class="no">6</span>
+  <div class="name">Gabriola · 书法花体</div>
+  <div class="demo" style="font-family:Gabriola,cursive;font-weight:600">Hy Lite Education</div>
+  <div class="note">优雅飘逸带笔锋——但笔画细，粒子成形会偏虚，适合固定字不适合粒子</div>
+</div>
+
+<div class="card">
+  <span class="no">7</span>
+  <div class="name">Segoe Script · 手写体</div>
+  <div class="demo" style="font-family:'Segoe Script',cursive;font-weight:700">Hy Lite Education</div>
+  <div class="note">亲切随性，教育机构少见，个性强</div>
+</div>
+
+<div class="card">
+  <span class="no">8</span>
+  <div class="name">Ink Free · 钢笔手账体</div>
+  <div class="demo" style="font-family:'Ink Free',cursive;font-weight:700">Hy Lite Education</div>
+  <div class="note">轻松涂鸦感，年轻化</div>
+</div>
+
+<div class="card">
+  <span class="no">9</span>
+  <div class="name">Segoe UI Black · 超粗黑</div>
+  <div class="demo" style="font-family:'Segoe UI Black','Segoe UI',sans-serif;font-weight:900">Hy Lite Education</div>
+  <div class="note">最重磅，粒子最密实，海报感</div>
+</div>
+
+<div class="card">
+  <span class="no">10</span>
+  <div class="name">Times New Roman Bold Italic · 斜体衬线</div>
+  <div class="demo" style="font-family:'Times New Roman',serif;font-weight:700;font-style:italic">Hy Lite Education</div>
+  <div class="note">动势斜体，刊物题字感</div>
+</div>
+
+<div class="card">
+  <span class="no">11</span>
+  <div class="name">Playfair Display Bold · 杂志级高反差衬线（自托管）</div>
+  <div class="demo" style="font-family:'Playfair Display',Georgia,serif;font-weight:700">Hy Lite Education</div>
+  <div class="note">Vogue 式优雅，粗细笔画反差大，刊头气质</div>
+</div>
+
+<div class="card">
+  <span class="no">12</span>
+  <div class="name">Playfair Display Black · 同款最重字重</div>
+  <div class="demo" style="font-family:'Playfair Display',Georgia,serif;font-weight:900">Hy Lite Education</div>
+  <div class="note">更浓更醒目，粒子成形也更实</div>
+</div>
+
+<div class="card">
+  <span class="no">13</span>
+  <div class="name">Fraunces Bold · 复古软衬线（自托管）</div>
+  <div class="demo" style="font-family:'Fraunces',Georgia,serif;font-weight:700">Hy Lite Education</div>
+  <div class="note">老式印刷的圆润衬线，温暖有性格，和暖米色底很搭</div>
+</div>
+
+<div class="card">
+  <span class="no">14</span>
+  <div class="name">Fraunces Black · 同款最重字重</div>
+  <div class="demo" style="font-family:'Fraunces',Georgia,serif;font-weight:900">Hy Lite Education</div>
+  <div class="note">敦实复古，海报级存在感</div>
+</div>
+
+<p class="tip" style="margin-top:36px">1–10 是访客设备自带字体（零加载）；11–14 是开源字体自托管（SIL OFL 免费商用，各 ~300KB，上线前会裁成仅拉丁字库的几十 KB woff2）。</p>
+</body>
+</html>

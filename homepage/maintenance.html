@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>维护中 · 环亚国际教育 HY-LITE</title>
+<style>
+:root{
+  --paper:#EFEAE0; --ink:#26251F; --muted:#6B6557;
+  --clay:#C07B52; --clayD:#A5613C; --line:#DED6C4; --card:#FAF7F0;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --serif:Georgia,"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --sans:'MiSans','HarmonyOS Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  min-height:100vh;min-height:100svh;
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);line-height:1.8;
+  display:flex;align-items:center;justify-content:center;
+  padding:28px 20px;
+  background-image:
+    radial-gradient(520px 360px at 24% 18%, rgba(192,123,82,.09), transparent 70%),
+    radial-gradient(480px 340px at 78% 78%, rgba(192,123,82,.06), transparent 70%);
+}
+.box{width:100%;max-width:560px;text-align:center}
+.brand{
+  font-family:'Times New Roman',Georgia,serif;font-style:italic;font-weight:700;
+  font-size:15px;color:var(--clayD);letter-spacing:.04em;
+}
+.eyebrow{
+  margin-top:26px;font-family:var(--serif);font-size:12px;
+  letter-spacing:.34em;text-indent:.34em;color:var(--clay);text-transform:uppercase;
+}
+h1{
+  margin-top:14px;font-family:var(--serif);font-weight:600;
+  font-size:clamp(34px,7vw,46px);letter-spacing:.12em;text-indent:.12em;
+}
+.lead{margin-top:16px;color:var(--muted);font-size:15.5px}
+.lead b{color:var(--ink);font-weight:600}
+
+/* 战绩面板 */
+.score{
+  margin:30px auto 0;max-width:440px;text-align:left;
+  background:var(--card);border:1.5px solid var(--ink);border-radius:16px;
+  padding:22px 26px 20px;
+  box-shadow:0 24px 48px -32px rgba(38,37,31,.4);
+}
+.score .tag{font-family:var(--serif);font-size:11px;letter-spacing:.24em;color:var(--clay);text-transform:uppercase}
+.kda{display:flex;align-items:baseline;gap:10px;margin-top:8px}
+.kda .num{font-family:var(--serif);font-weight:700;font-size:34px;letter-spacing:.04em}
+.kda .num em{font-style:normal;color:#A5402C}
+.kda .who{font-size:13px;color:var(--muted)}
+.rows{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px;font-size:13.5px;color:var(--muted)}
+.rows div{display:flex;justify-content:space-between;gap:12px;padding:3px 0}
+.rows b{color:var(--ink);font-weight:600}
+.rows .bad{color:#A5402C;font-weight:600}
+
+/* 修复进度条：会倒退的那种 */
+.probar{margin:26px auto 0;max-width:440px;text-align:left}
+.probar .cap{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
+.track{margin-top:8px;height:10px;border-radius:999px;background:rgba(38,37,31,.08);overflow:hidden}
+.fill{
+  height:100%;width:2%;border-radius:999px;background:var(--clay);
+  animation:crawl 9s var(--ease) infinite;
+}
+@keyframes crawl{
+  0%{width:2%} 30%{width:34%} 42%{width:31%}   /* 团灭了，回退一点 */
+  62%{width:58%} 70%{width:12%}                 /* 又送了 */
+  85%{width:23%} 100%{width:2%}
+}
+.probar .note{margin-top:8px;font-size:12px;color:var(--muted);opacity:.8}
+
+/* 复活倒计时 */
+.respawn{margin-top:26px;font-size:14px;color:var(--muted)}
+.respawn b{font-family:var(--serif);font-size:22px;color:var(--clayD);font-variant-numeric:tabular-nums}
+
+.foot{
+  margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+  font-size:13px;color:var(--muted);
+}
+.foot b{color:var(--ink);font-weight:600}
+.copy{margin-top:16px;font-size:11px;color:rgba(38,37,31,.4);letter-spacing:.08em}
+@media (prefers-reduced-motion:reduce){.fill{animation:none;width:23%}}
+</style>
+</head>
+<body>
+<main class="box">
+  <div class="brand">hylite.com.cn</div>
+  <p class="eyebrow">System Maintenance · 荣耀黄金 · 连跪中</p>
+  <h1>网站维护中</h1>
+  <p class="lead">本来是来修网站的，但开发者说<b>"就打一把"</b>。<br>那是三个小时前的事了。</p>
+
+  <section class="score" aria-label="开发者当前战绩">
+    <div class="tag">Developer Status · 实时战绩</div>
+    <div class="kda">
+      <span class="num">0 / <em>8</em> / 2</span>
+      <span class="who">大司命 · 在河道蹲了半局</span>
+    </div>
+    <div class="rows">
+      <div><span>经济</span><b>全队倒数第一</b></div>
+      <div><span>信号</span><b>"稳住，我们能赢"（第 47 次）</b></div>
+      <div><span>开麦内容</span><b>"我想少司缘了……"</b></div>
+      <div><span>队友评价</span><span class="bad">举报意愿强烈</span></div>
+      <div><span>网站修复意愿</span><b>等少司缘上线一起修（遥遥无期）</b></div>
+    </div>
+  </section>
+
+  <div class="probar">
+    <div class="cap"><span>网站修复进度</span><span>取决于这把翻不翻得了盘</span></div>
+    <div class="track"><div class="fill"></div></div>
+    <p class="note">进度条偶尔倒退属正常现象——和他的段位一样。</p>
+  </div>
+
+  <p class="respawn">距离他复活还有 <b id="cd">90</b> 秒（他复活了，网站还没有）</p>
+
+  <div class="foot">
+    有急事？联系 <b>Chris</b>——只有他能把开发者从峡谷里捞出来。<br>
+    你的学习记录一切安全——比他的段位安全多了。
+  </div>
+  <div class="copy">© HY-LITE 环亚国际教育 · 无锡 · 云蝠大厦 1201-1202</div>
+</main>
+<script>
+(function(){
+  // 复活倒计时：归零后叹口气，从头再来（他又送了）
+  var el = document.getElementById('cd'), t = 90;
+  setInterval(function(){
+    t -= 1;
+    if (t < 0){ t = 90; }
+    el.textContent = t;
+  }, 1000);
+})();
+</script>
+</body>
+</html>

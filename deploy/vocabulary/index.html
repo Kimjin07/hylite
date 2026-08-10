@@ -521,6 +521,7 @@ const BOOK_STATS = {"b3000":{"units":59,"words":3000},"prep":{"units":8,"words":
 /* ================= 数据与常量 ================= */
 const BOX_GAP = [0,1,2,4,7,15,30,60];      // 各强度等级到下次复习的天数
 const MAXB = 7, MASTER = 5;                // box>=5 视为掌握, box7 烂熟不再复习
+const DEFAULT_DAILY_QUOTA = 300;           // 按词数模式的默认每日新词数
 const KEY_BASE = 'hylite_bcz_v3';          // 每本词书独立存档: KEY_BASE + '__' + bookId
 const BOOK_KEY = 'hylite_bcz_book';        // 当前选择的词书 id
 const OLDKEYS = ['hylite_bihui_v2','hylite_renshu_v1'];  // 仅 b3000 继承的旧存档
@@ -551,12 +552,12 @@ try{ __reg('tfs',   TFS_UNITS); }catch(e){}
 try{ __reg('tfw',   TFW_UNITS); }catch(e){}
 // cat: 选书目录的分组(按用途)；组内按难度由易到难排列；listen: 听力词书(听音练习优先+学后自动特训)
 const BASE_BOOKS = [
-  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库', grouped:true,  plan:{mode:'count', quota:50}},
+  {id:'b3000', name:'必会 3000', sub:'认读 6000 · 频段词表',   cat:'通用词库', grouped:true,  plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}},
   {id:'prep',  name:'预备词汇',   sub:'入门起步',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'basic', name:'基础词汇',   sub:'初级进阶',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'core',  name:'核心词汇',   sub:'中级核心',               cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
   {id:'green', name:'绿皮书',     sub:'新版核心词汇 · 中高级',   cat:'通用词库', grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'oxford', name:'牛津3000+5000', sub:'Oxford CEFR 分级 A1-C1', cat:'通用词库', grouped:false, plan:{mode:'count', quota:50}},
+  {id:'oxford', name:'牛津3000+5000', sub:'Oxford CEFR 分级 A1-C1', cat:'通用词库', grouped:false, plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}},
   {id:'a1',    name:'A1',        sub:'教材同步 · 入门',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'a2',    name:'A2',        sub:'教材同步 · 基础',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
   {id:'b1',    name:'B1',        sub:'教材同步 · 中级',         cat:'教材同步',           grouped:false, plan:{mode:'unit',  units:1}},
@@ -565,10 +566,10 @@ const BASE_BOOKS = [
   {id:'lis18', name:'18天听力',   sub:'听力高频 · 每天一个 Day', cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
   {id:'liscene',name:'听力场景',  sub:'雅思听力场景词汇',        cat:'听力专项',           grouped:false, plan:{mode:'unit',  units:1}, listen:true},
   {id:'tfr',   name:'托福阅读',  sub:'高频 800 · 按学科话题',   cat:'托福备考',           grouped:false, plan:{mode:'unit',  units:1}},
-  {id:'tfl',   name:'托福听力',  sub:'场景高频 800 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}, listen:true},
-  {id:'tfs',   name:'托福口语',  sub:'口语高频 300 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
-  {id:'tfw',   name:'托福写作',  sub:'写作高频 500 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:50}},
-  {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:30}},
+  {id:'tfl',   name:'托福听力',  sub:'场景高频 800 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}, listen:true},
+  {id:'tfs',   name:'托福口语',  sub:'口语高频 300 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}},
+  {id:'tfw',   name:'托福写作',  sub:'写作高频 500 词',         cat:'托福备考',           grouped:false, plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}},
+  {id:'sat',   name:'SAT 核心',  sub:'SAT 1000 · 高阶难词',     cat:'高阶挑战',           grouped:false, plan:{mode:'count', quota:DEFAULT_DAILY_QUOTA}},
 ];
 // ===== 乱序分支：每本书自动生成 <id>_r 变体（固定种子洗牌→每50词一单元，进度/同步完全独立）=====
 const RAND_SEED = 20260718;                 // 改动会打乱既有乱序进度的对应关系，永远别改
@@ -590,7 +591,7 @@ for (const b of BASE_BOOKS){
   BOOKS.push(b);
   BOOKS.push({ id:b.id+'_r', name:b.name+' 乱序', sub:'乱序版 · 打乱顺序防"顺背"', cat:b.cat,
     grouped:false, listen:b.listen, variantOf:b.id,
-    plan: b.plan.mode==='unit' ? {mode:'unit', units:1} : {mode:'count', quota:b.plan.quota||50} });
+    plan: b.plan.mode==='unit' ? {mode:'unit', units:1} : {mode:'count', quota:b.plan.quota||DEFAULT_DAILY_QUOTA} });
 }
 // 词书规模（未加载时用拆分构建注入的 BOOK_STATS 清单；已加载用真实数据；乱序变体沿用本体词量）
 function bookStat(b){
@@ -616,7 +617,7 @@ function loadBookData(id, cb){
   s.onerror=()=>{ s.remove(); try{ toast('⚠ 词书加载失败，请检查网络后重试'); }catch(e){} cb(false); };
   document.head.appendChild(s);
 }
-function bookPlan(){ return curBook().plan || {mode:'count', quota:50}; }
+function bookPlan(){ return curBook().plan || {mode:'count', quota:DEFAULT_DAILY_QUOTA}; }
 let curBookId = 'b3000';
 let UNITS = __BOOK_DATA['b3000'] || [];     // 当前词书的单元（切书时替换；拆分构建下启动后异步填充）
 let KEY = KEY_BASE + '__b3000';             // 当前词书的存档 key
@@ -651,7 +652,7 @@ function store(){ try { return window.localStorage; } catch(e){ return null; } }
 function fresh(cfg){
   const bp=bookPlan();
   return { v:3, w:{}, log:{}, ck:{}, ach:{}, xp:0, best:{},
-    plan:{mode:bp.mode, quota:bp.quota||50, units:bp.units||1}, today:null,
+    plan:{mode:bp.mode, quota:bp.quota||DEFAULT_DAILY_QUOTA, units:bp.units||1}, today:null,
     cfg: cfg || {theme:'auto', voice:1, auto:true, sfx:true, pal:'ink'} };
 }
 function migrateOld(s, o){
@@ -720,9 +721,12 @@ function normalize(s){
   const legacyPlan = s.plan && !(s.plan.mode==='unit'||s.plan.mode==='count');  // 旧版存档无 mode 字段
   const q=Number(s.plan&&s.plan.quota);
   const un=Number(s.plan&&s.plan.units);
+  const storedQuota = (!legacyPlan&&Number.isFinite(q)&&q>=1) ? Math.min(500,Math.floor(q)) : null;
+  // 旧版本按词数默认值为 30/50 的存档升级到 300，其他自定义值保持不变。
+  const quota = storedQuota===30 || storedQuota===50 ? DEFAULT_DAILY_QUOTA : (storedQuota || bp.quota || DEFAULT_DAILY_QUOTA);
   out.plan={
     mode:legacyPlan?bp.mode:((s.plan&&s.plan.mode)||bp.mode),
-    quota:(!legacyPlan&&Number.isFinite(q)&&q>=1)?Math.min(500,Math.floor(q)):(bp.quota||50),  // 旧存档采用词书新默认（3000→50）
+    quota,
     units:(!legacyPlan&&Number.isFinite(un)&&un>=1)?Math.min(20,Math.floor(un)):(bp.units||1),
     start:(s.plan&&typeof s.plan.start==='string'&&UNITS.some(u=>u.id===s.plan.start))?s.plan.start:null};
   const t=s.today;
@@ -1026,12 +1030,25 @@ function stopSpeak(){                                          // 打断上一�
   try { if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch(e){}
 }
 // 朗读文本清洗：去掉用法标注（括号/方括号），斜杠多变体取第一个——
-// "turn (to the) left / right" 只读 "turn left"，避免把标点读出来
+// "turn (to the) left / right" 只读 "turn left"，避免把标点读出来。
+// 词组词头常带词性尾巴和缩写（"first aid n." / "download v., n." / "take sth. seriously" / "apply... to..."），
+// 而带句点的串有道 dictvoice 直接 500 无声——全部剥干净再送去发音
 function speakText(w){
-  const t = String(w)
-    .replace(/（[^）]*）|\([^)]*\)|\[[^\]]*\]/g, ' ')
-    .split('/')[0]
-    .replace(/\s+/g, ' ').trim();
+  let t = String(w)
+    .replace(/（[^）]*）|\([^)]*\)|\[[^\]]*\]/g, ' ')   // 括号注释
+    .split('/')[0]                                       // 斜杠多变体取第一个
+    .replace(/\.{2,}|…/g, ' ')                           // 省略号 "apply... to..." → "apply to"
+    .replace(/\bsth\.?/gi, 'something')                  // 缩写照课堂读法展开
+    .replace(/\bsb\.?/gi, 'somebody')
+    .replace(/\bswh\.?/gi, 'somewhere');
+  let prev;                                              // 反复剥词尾：标点 / 带点的词性标注
+  do {
+    prev = t;
+    t = t.replace(/[\s,;:，、]+$/, '')
+         .replace(/\b(?:n|v|vt|vi|adj|adv|prep|conj|pron|num|art|int|interj|aux|phr|abbr|pl|sing|det|modal)\.$/i, '')
+         .replace(/\.$/, '');
+  } while (t !== prev);
+  t = t.replace(/\./g, ' ').replace(/\s+/g, ' ').trim(); // 残余句点（Mr. 等）换成空格
   return t || String(w);
 }
 function say(w, voice){
@@ -3183,7 +3200,7 @@ function setPlanMode(m){
   if (S.plan.mode===m) return;
   S.plan.mode=m; S.today=null;            // 换模式重排今日计划
   if (m==='unit' && !S.plan.units) S.plan.units=1;
-  if (m==='count' && !S.plan.quota) S.plan.quota=50;
+  if (m==='count' && !S.plan.quota) S.plan.quota=DEFAULT_DAILY_QUOTA;
   save(); render();
 }
 function extraBatch(){
@@ -3451,7 +3468,7 @@ function rMe(){
       ? `<div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">每日单元数</div><div class="st2">一天学几个单元的新词</div></div></div>
          <div class="qopts">${[1,2,3].map(n=>`<button class="${(S.plan.units||1)===n?'on':''} num" onclick="S.plan.units=${n};S.today=null;save();render()">${n}</button>`).join('')}</div>`
       : `<div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">每日新词量</div><div class="st2">调整后立即生效，当天计划自动增减</div></div></div>
-         <div class="qopts">${[10,20,30,50,100].map(n=>`<button class="${S.plan.quota===n?'on':''} num" onclick="S.plan.quota=${n};save();render()">${n}</button>`).join('')}</div>`}
+         <div class="qopts">${[10,20,30,50,100,300].map(n=>`<button class="${S.plan.quota===n?'on':''} num" onclick="S.plan.quota=${n};save();render()">${n}</button>`).join('')}</div>`}
     <div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">学习起点</div><div class="st2">新词从这个单元开始取，学完自动接后面的单元</div></div>
       <select class="search" style="width:170px;padding:8px 10px" onchange="S.plan.start=this.value||null;S.today=null;save();render()">
         <option value="">从头开始</option>

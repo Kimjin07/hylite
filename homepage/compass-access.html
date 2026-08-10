@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>English Compass · 激活</title>
+<style>
+:root{--bg:#f4f1ea;--paper:#fffdf8;--ink:#25241f;--muted:#756f62;--accent:#b86e45;--line:#ddd4c4;--danger:#a33b35}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
+.wrap{max-width:560px;margin:0 auto;padding:72px 20px 60px}.brand{text-align:center;letter-spacing:.22em;color:var(--accent);font-size:12px}.panel{margin-top:22px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:30px 28px;box-shadow:0 12px 30px rgba(60,45,30,.08)}
+h1{font-family:Georgia,"Songti SC",serif;font-size:30px;text-align:center;margin:0 0 8px}.lead{text-align:center;color:var(--muted);font-size:14px;margin:0 0 24px}.field{margin:15px 0}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}.field input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:6px;background:#fff;font:inherit;letter-spacing:.08em}.field input:focus{outline:2px solid rgba(184,110,69,.2);border-color:var(--accent)}button{width:100%;padding:11px 14px;border:0;border-radius:6px;background:var(--accent);color:white;font:inherit;font-weight:700;cursor:pointer}button:disabled{opacity:.55;cursor:wait}.msg{min-height:24px;margin-top:12px;text-align:center;font-size:13px;color:var(--danger)}.msg.ok{color:#26734d}.msg.pending{color:var(--muted)}.msg.error{color:var(--danger)}.note{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.note b{color:var(--ink)}.device{font-size:12px;color:var(--muted);margin-top:12px;text-align:center}.back{display:block;text-align:center;margin-top:18px;color:var(--muted);font-size:13px;text-decoration:none}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand">HY-LITE · ENGLISH COMPASS</div>
+  <section class="panel">
+    <h1>开通完整词书</h1>
+    <p class="lead">输入管理员提供的激活码，即可在本设备访问完整词条、课堂练习和学习记录。</p>
+    <form id="form">
+      <div class="field"><label for="code">激活码</label><input id="code" autocomplete="one-time-code" placeholder="EC-XXXX-XXXX" required></div>
+      <div class="field"><label for="name">设备名称</label><input id="name" maxlength="80" required></div>
+      <button id="submit" type="submit">验证并进入</button>
+      <div class="msg" id="msg" role="status" aria-live="polite"></div>
+    </form>
+    <div class="device" id="device"></div>
+    <div class="note"><b>开通咨询</b><br>电话 0510-82820708<br>地址：无锡 · 云蝠大厦 1201-1202</div>
+  </section>
+  <a class="back" href="./">返回环亚国际教育官网</a>
+</main>
+<script>
+(function(){
+  var KEY='hy_compass_device_id';
+  function randomId(){
+    var a=new Uint8Array(24); crypto.getRandomValues(a);
+    return Array.prototype.map.call(a,function(x){return x.toString(16).padStart(2,'0')}).join('');
+  }
+  function getDeviceId(){
+    try { var old=localStorage.getItem(KEY); if(old && /^[a-f0-9]{48}$/.test(old)) return old; var id=randomId(); localStorage.setItem(KEY,id); return id; }
+    catch(e){ return randomId(); }
+  }
+  var deviceId=getDeviceId();
+  var name=document.getElementById('name');
+  var ua=(navigator.userAgent||'').match(/(iPad|iPhone|Android|Macintosh|Windows)/i);
+  name.value=(ua?ua[1]:'浏览器')+' · '+(screen.width||0)+'×'+(screen.height||0);
+  document.getElementById('device').textContent='本设备将绑定到该激活码；更换浏览器可能会被识别为新设备';
+  var params=new URLSearchParams(location.search); var next=params.get('next');
+  var codeInput=document.getElementById('code');
+  var msg=document.getElementById('msg');
+  function setMessage(text, kind){ msg.className='msg' + (kind ? ' ' + kind : ''); msg.textContent=text; }
+  function errorMessage(status, serverMessage){
+    if (status === 400) return '请检查激活码和设备名称后重试';
+    if (status === 401) return '激活码无效，请核对后重试';
+    if (status === 403) return '该激活码已停用，请联系管理员';
+    if (status === 409) return '该激活码已绑定 2 台设备，请联系管理员解绑';
+    if (status === 429) return '尝试次数较多，请稍后再试';
+    return serverMessage || '激活失败，请稍后再试';
+  }
+  document.getElementById('form').addEventListener('submit',function(e){
+    e.preventDefault(); var btn=document.getElementById('submit'); btn.disabled=true; btn.textContent='验证中…'; codeInput.value=codeInput.value.trim().toUpperCase(); setMessage('正在验证…','pending');
+    fetch('/api/compass/activate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:codeInput.value,device_id:deviceId,device_name:name.value.trim()})})
+      .then(function(r){return r.text().then(function(text){var j={}; try{j=JSON.parse(text)}catch(e){} return {ok:r.ok,status:r.status,j:j};})})
+      .then(function(x){ if(!x.ok){ setMessage(errorMessage(x.status,x.j.error),'error'); btn.disabled=false; btn.textContent='验证并进入'; return; } setMessage('激活成功，正在进入…','ok'); var target=next||(['/vocab','3500/'].join('')); location.href=target; })
+      .catch(function(){ setMessage('网络暂时不可用，请检查连接后重试','error'); btn.disabled=false; btn.textContent='验证并进入'; });
+  });
+})();
+</script>
+</body>
+</html>

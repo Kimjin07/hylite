@@ -158,7 +158,7 @@ function setPlanMode(m){
   if (S.plan.mode===m) return;
   S.plan.mode=m; S.today=null;            // 换模式重排今日计划
   if (m==='unit' && !S.plan.units) S.plan.units=1;
-  if (m==='count' && !S.plan.quota) S.plan.quota=50;
+  if (m==='count' && !S.plan.quota) S.plan.quota=DEFAULT_DAILY_QUOTA;
   save(); render();
 }
 function extraBatch(){
@@ -426,7 +426,7 @@ function rMe(){
       ? `<div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">每日单元数</div><div class="st2">一天学几个单元的新词</div></div></div>
          <div class="qopts">${[1,2,3].map(n=>`<button class="${(S.plan.units||1)===n?'on':''} num" onclick="S.plan.units=${n};S.today=null;save();render()">${n}</button>`).join('')}</div>`
       : `<div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">每日新词量</div><div class="st2">调整后立即生效，当天计划自动增减</div></div></div>
-         <div class="qopts">${[10,20,30,50,100].map(n=>`<button class="${S.plan.quota===n?'on':''} num" onclick="S.plan.quota=${n};save();render()">${n}</button>`).join('')}</div>`}
+         <div class="qopts">${[10,20,30,50,100,300].map(n=>`<button class="${S.plan.quota===n?'on':''} num" onclick="S.plan.quota=${n};save();render()">${n}</button>`).join('')}</div>`}
     <div class="setrow" style="border:none;margin-top:6px"><div><div class="st1">学习起点</div><div class="st2">新词从这个单元开始取，学完自动接后面的单元</div></div>
       <select class="search" style="width:170px;padding:8px 10px" onchange="S.plan.start=this.value||null;S.today=null;save();render()">
         <option value="">从头开始</option>
