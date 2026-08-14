@@ -3,133 +3,1425 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex,nofollow">
-<title>维护中 · 环亚国际教育 HY-LITE</title>
+<title>环亚国际教育 HY-LITE｜无锡 · Since 2003</title>
+<meta name="description" content="环亚国际教育 HY-LITE（无锡，Since 2003）：剑桥英语、雅思、托福与新加坡全奖课程，自研词书系统与精编教材。">
+<link rel="canonical" href="https://hylite.com.cn/">
+<meta property="og:title" content="环亚国际教育 HY-LITE">
+<meta property="og:description" content="剑桥英语 · 雅思 · 托福 · 新加坡全奖课程 · 无锡 Since 2003">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hylite.com.cn/">
+<meta property="og:image" content="https://hylite.com.cn/share.png">
+<meta name="theme-color" content="#EFEAE0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"环亚国际教育 HY-LITE","alternateName":"HY-LITE International Education","url":"https://hylite.com.cn/","foundingDate":"2003","telephone":"+86-510-82820708","address":{"@type":"PostalAddress","addressLocality":"无锡","addressRegion":"江苏","addressCountry":"CN","streetAddress":"云蝠大厦 1201-1202"},"areaServed":"CN","description":"剑桥英语、雅思、托福与新加坡全奖课程，自研词书系统与精编教材。"}
+</script>
 <style>
+/* 主视觉字体：Cormorant Garamond（法式老衬线，自托管，用户定稿） */
+@font-face{
+  font-family:'Cormorant Garamond';
+  src:url('fonts/CormorantGaramond.ttf?v=1');
+  font-weight:300 700;
+  font-display:swap;
+}
+/* 环亚国际教育专用：寒蝉锦书宋 Bold（OFL 开源，仅子集 6 字 3.5KB） */
+@font-face{
+  font-family:'Jinshu Song';
+  src:url('fonts/JinshuSongBold-zhsub.otf?v=2') format('opentype');
+  font-weight:700;
+  font-display:swap;
+}
+/* ============ 设计令牌（延续暖米色体系） ============ */
 :root{
-  --paper:#EFEAE0; --ink:#26251F; --muted:#6B6557;
-  --clay:#C07B52; --clayD:#A5613C; --line:#DED6C4; --card:#FAF7F0;
+  --paper:#EFEAE0;
+  --ink:#26251F;
+  --muted:#6B6557;
+  --clay:#C07B52;
+  --clayD:#A5613C;
+  --clayT:rgba(192,123,82,.13);
+  --dark:#241C13;
+  --dark-ink:#F2ECE0;
+  --dark-muted:#A89C88;
+  --line:#DED6C4;
+  --card:#FAF7F0;
   --ease:cubic-bezier(.2,.7,.2,1);
   --serif:Georgia,"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
-  --sans:'MiSans','HarmonyOS Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',system-ui,sans-serif;
+  --sans:'MiSans','HarmonyOS Sans SC','PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',system-ui,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{
-  min-height:100vh;min-height:100svh;
   background:var(--paper);color:var(--ink);
-  font-family:var(--sans);line-height:1.8;
+  font-family:var(--sans);font-size:17px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.label{
+  font-family:var(--serif);text-transform:uppercase;
+  letter-spacing:.22em;font-size:12px;font-weight:500;color:var(--clay);
+}
+
+/* 占位标记：细节阶段逐个替换 */
+.ph{border:1.5px dashed var(--line);background:var(--card);color:var(--muted);
+    display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px}
+
+/* ============ 封面（第一版粒子封面 + 底部六板块） ============ */
+.cover{
+  position:relative;
+  min-height:100vh;min-height:100svh;
+  display:flex;flex-direction:column;
+}
+.cover::before{ /* 极淡品牌光斑 */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(560px 380px at 30% 30%, rgba(192,123,82,.09), transparent 70%),
+    radial-gradient(520px 360px at 72% 62%, rgba(192,123,82,.06), transparent 70%);
+}
+#pfield{position:absolute;top:0;left:0;width:100%;height:100%} /* 触控分区由 JS 控制：中文行以上粒子跟随不滚屏，以下正常滚动 */
+/* 粒子行下方的中文固定字（实验室「修正」方案：更大更重更深，宋体——中文名不是英文的脚注） */
+#zhsub{
+  position:absolute;left:0;right:0;top:56%;
+  z-index:0;pointer-events:none;text-align:center;
+  font-family:'Jinshu Song',"Songti SC","STSong","SimSun",serif; /* 寒蝉锦书宋，回落宋体 */
+  font-size:26px;font-weight:700;
+  letter-spacing:.22em;text-indent:.22em;
+  color:rgba(38,37,31,.82);
+  opacity:0;animation:subIn .9s var(--ease) 1.15s forwards;
+}
+@keyframes subIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (max-width:640px){#zhsub{font-size:21px;letter-spacing:.18em;text-indent:.18em}}
+@media (prefers-reduced-motion: reduce){#zhsub{opacity:1;animation:none}}
+html.shot #zhsub{opacity:1 !important;animation:none !important}
+/* 截图模式：压扁 100vh 封面、强制 reveal 元素显形，便于整页无头截图 */
+html.shot .cover{min-height:560px}
+html.shot [data-reveal]{opacity:1 !important;transform:none !important}
+
+/* 导航 */
+.top{padding-top:20px;position:relative;z-index:2}
+.top ul{
+  display:grid;grid-template-columns:1fr; /* 单入口：背单词 */
+  align-items:center;width:100%;max-width:560px;margin:0 auto;padding:0 24px;
+}
+.top li{display:flex;justify-content:center}
+.top a{position:relative;padding:6px 2px;color:var(--ink);opacity:.78;transition:opacity .3s var(--ease)}
+.top a:hover{opacity:1}
+.top a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--ink);
+  transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.top a:hover::after{transform:scaleX(1)}
+/* 背单词入口：中文标签 + 艺术斜体网址 */
+.top-vocab{display:inline-flex;align-items:baseline;gap:12px}
+.vurl{
+  font-family:'Times New Roman',Georgia,serif; /* 与主视觉同款艺术斜体 */
+  font-style:italic;font-weight:700;
+  font-size:15px;letter-spacing:.02em;
+  color:var(--clayD);
+}
+@media (max-width:640px){
+  /* 手机：词书入口两行居中，字号不超过下方"环亚国际教育"(18px) */
+  .top-vocab{flex-direction:column;align-items:center;gap:5px}
+  .top-vocab .label{font-size:17px;letter-spacing:.16em;text-indent:.16em}
+  .vurl{font-size:13px}
+}
+
+/* 封面底部：六个板块入口 */
+.keys{
+  position:relative;z-index:1;
+  margin-top:auto;
+  padding:0 24px calc(46px + env(safe-area-inset-bottom));
+}
+.keys ul{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr)); /* 2 行 × 3 列 */
+  gap:12px;
+  align-items:stretch;width:100%;max-width:560px;margin:0 auto;
+}
+.keys li{display:block}
+/* 一键一框：奶油小卡片 + 细边线 + 轻毛玻璃，悬停描橙上浮 */
+.keys a{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  width:100%;padding:13px 6px;
+  font-family:var(--serif);font-size:13.5px;font-weight:500;
+  letter-spacing:.14em;color:var(--ink);
+  background:rgba(250,247,240,.78);
+  border:1px solid var(--line);border-radius:14px;
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+  box-shadow:0 14px 30px -26px rgba(38,37,31,.45);
+  transition:color .3s var(--ease), border-color .3s var(--ease), transform .3s var(--ease);
+}
+.keys a:hover{color:var(--clayD);border-color:var(--clayD);transform:translateY(-2px)}
+.scroll-hint{
+  position:absolute;left:50%;bottom:12px;transform:translateX(-50%);
+  color:var(--muted);font-size:16px;opacity:.5;
+  animation:bob 2.2s var(--ease) infinite;
+}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
+@media (max-width:760px){
+  .keys ul{max-width:440px}
+  .keys a{font-size:12.5px;letter-spacing:.1em}
+}
+
+/* ============ 手稿式标题：— Heading. 左对齐 ============ */
+.h-dash{
+  font-family:var(--serif);font-weight:600;
+  font-size:30px;font-size:clamp(26px,3.8vw,40px);
+  letter-spacing:.05em;line-height:1.3;
+}
+.h-dash::before{content:"— ";color:var(--clay)}
+.h-dash::after{content:"."}
+
+section{padding:84px 0;border-top:2px solid var(--ink)}
+.sec-head{margin-bottom:48px}
+
+/* ============ The HY-LITE Difference（三大板块卡片·深色段，与浅色段交替） ============ */
+#difference{background:var(--dark);color:var(--dark-ink);border-top:0}
+#difference .h-dash{color:var(--dark-ink)}
+.diff-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.d-card{
+  border:1px solid rgba(242,236,224,.18);border-radius:16px;background:rgba(242,236,224,.03);
+  padding:34px 30px 32px;
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease);
+}
+.d-card:hover{transform:translateY(-5px);border-color:rgba(242,236,224,.4);background:rgba(242,236,224,.05)}
+.d-card .en{display:block;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-family:var(--serif)}
+.d-card h3{margin-top:12px;font-size:22px;font-weight:700;letter-spacing:.04em;color:var(--dark-ink)}
+.d-card p{margin-top:14px;font-size:14.5px;color:var(--dark-muted);line-height:1.85}
+@media (max-width:900px){.diff-cards{grid-template-columns:1fr;gap:16px}}
+
+/* ============ The HY-LITE Team：左 Jackie / 右六位老师 + 照片墙 ============ */
+.team-split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:start}
+.team-lead .lead-photo{
+  width:100%;height:auto;display:block;   /* 原图 3:2 横幅，不裁切 */
+  border-radius:6px;box-shadow:0 30px 60px -30px rgba(38,37,31,.35);
+}
+.team-lead h3{margin-top:24px;font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:.04em}
+.team-lead p{margin-top:12px;color:var(--muted);font-size:15px}
+.team-lead .who{margin-top:6px;color:var(--clay);font-size:13px;letter-spacing:.24em}
+.team-wall{margin-top:52px}
+.diff-wall{height:300px;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 18px 36px -24px rgba(38,37,31,.55);position:relative}
+.diff-wall-track{display:flex;gap:10px;height:100%;width:max-content;animation:wall-slide 150s linear infinite;will-change:transform}
+.diff-wall:hover .diff-wall-track{animation-play-state:paused}
+.diff-wall-item{height:100%;width:420px;flex:none;position:relative;overflow:hidden;margin:0;background:#fff;cursor:zoom-in}
+.diff-wall-item img{display:block;width:100%;height:100%;object-fit:cover;background:#fff;transition:transform .35s var(--ease)}
+.diff-wall-item:hover img{transform:scale(1.02)}
+.diff-wall-item.is-document{background:#fff}
+.diff-wall-item.is-document img{object-fit:contain}
+@keyframes wall-slide{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.diff-wall-track{animation:none}}
+@media (max-width:820px){
+  .team-split{grid-template-columns:1fr;gap:36px}
+  .team-lead .lead-photo{max-width:340px}
+  .diff-wall{height:230px}
+  .diff-wall-item{width:320px}
+}
+
+/* ============ A Journey of Success（暗段·四并列课程） ============ */
+.journey{background:var(--dark);color:var(--dark-ink);border-top:0}
+.journey .h-dash{color:var(--dark-ink)}
+.j-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.j-card{
+  border:1px solid rgba(242,236,224,.18);border-radius:16px;
+  padding:30px 26px 28px;
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease);
+}
+.j-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(242,236,224,.4);
+  background:rgba(242,236,224,.04);
+}
+.j-card .en{display:block;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-family:var(--serif)}
+.j-card h3{margin-top:12px;font-size:21px;font-weight:700;letter-spacing:.04em}
+.j-card p{margin-top:12px;font-size:13.5px;color:var(--dark-muted);line-height:1.75}
+@media (max-width:900px){.j-cards{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.j-cards{grid-template-columns:1fr}}
+
+/* Journey 内子块：学员感言 + 高分学员名单 */
+.j-sub{margin:72px 0 26px}
+.j-subtitle{font-family:var(--serif);font-size:24px;font-weight:600;letter-spacing:.05em}
+.j-subtitle .en{margin-left:12px;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-weight:500}
+/* 学员感言：双排引言卡墙（模仿 hekademia 口碑墙结构，配色沿用暗段） */
+.j-hint{margin:-14px 0 22px;font-size:12.5px;color:var(--dark-muted);letter-spacing:.06em}
+.qrow{overflow:hidden;position:relative}
+.qrow + .qrow{margin-top:18px}
+.qtrack{display:flex;gap:18px;width:max-content;animation:roll-slide 85s linear infinite;will-change:transform}
+.qtrack.rev{animation:roll-slide-rev 95s linear infinite}
+.qrow:hover .qtrack{animation-play-state:paused}
+.q-card{
+  flex:none;width:340px;min-height:250px;display:flex;flex-direction:column;
+  border:1px solid rgba(242,236,224,.16);border-radius:15px;background:rgba(242,236,224,.03);
+  padding:26px 26px 20px;cursor:pointer;white-space:normal;
+  transition:border-color .35s var(--ease), background .35s var(--ease), transform .35s var(--ease);
+}
+.q-card:hover{border-color:rgba(242,236,224,.4);background:rgba(242,236,224,.05);transform:translateY(-3px)}
+.q-card .qt{font-size:14px;line-height:1.9;color:rgba(242,236,224,.72)}
+.q-card .qfoot{margin-top:auto;padding-top:16px;border-top:1px solid rgba(242,236,224,.12);display:flex;align-items:center;gap:12px}
+.q-card .qa{
+  width:40px;height:40px;border-radius:50%;flex:none;
+  background:rgba(242,236,224,.08);display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-style:italic;font-size:17px;color:var(--clay);
+}
+.q-card .qn{font-weight:700;font-size:14.5px;color:var(--dark-ink);font-family:var(--serif);letter-spacing:.03em}
+.q-card .qs{font-size:12.5px;color:var(--dark-muted);margin-top:2px}
+.qrow::before,.qrow::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:1;pointer-events:none}
+.qrow::before{left:0;background:linear-gradient(90deg,var(--dark),rgba(36,28,19,0))}
+.qrow::after{right:0;background:linear-gradient(270deg,var(--dark),rgba(36,28,19,0))}
+@media (max-width:640px){.q-card{width:280px;min-height:230px;padding:22px 20px 16px}}
+/* 全文弹窗 */
+.essay-src{display:none}
+.vmodal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.vmodal.open{display:flex}
+.vmodal .vm-bg{position:absolute;inset:0;background:rgba(24,18,10,.72);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.vm-box{
+  position:relative;max-width:720px;width:100%;max-height:84vh;overflow:auto;
+  background:var(--card);color:var(--ink);border-radius:18px;padding:44px 46px 40px;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.5);
+}
+.vm-box h4{font-family:var(--serif);font-size:22px;font-weight:600;letter-spacing:.03em;padding-right:36px}
+.vm-box .vm-author{margin-top:6px;color:var(--clayD);font-size:13px;letter-spacing:.12em}
+.vm-box .vm-text{margin-top:16px;color:var(--muted);font-size:15px;line-height:2;max-width:44em}
+.vm-text p{margin-top:12px}
+.vm-text b{color:var(--ink);font-weight:600}
+.vm-close{
+  position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;
+  border:1px solid var(--line);background:none;cursor:pointer;font-size:14px;color:var(--muted);
+  transition:color .3s var(--ease), border-color .3s var(--ease);
+}
+.vm-close:hover{color:var(--ink);border-color:var(--ink)}
+@media (max-width:640px){.vm-box{padding:30px 22px 28px}}
+/* 照片墙灯箱：原生横滑画廊（scroll-snap）——点开即滑，任何内核都可用 */
+.diff-wall-item img{cursor:zoom-in}
+.plight{position:fixed;inset:0;z-index:110;display:none}
+.plight.open{display:block}
+.plight .pl-bg{position:absolute;inset:0;background:rgba(24,18,10,.9)}
+.pl-strip{
+  position:absolute;inset:0;display:flex;
+  overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+  touch-action:pan-x;scrollbar-width:none;
+}
+.pl-strip::-webkit-scrollbar{display:none}
+.pl-slide{
+  flex:none;width:100%;height:100%;
   display:flex;align-items:center;justify-content:center;
-  padding:28px 20px;
-  background-image:
-    radial-gradient(520px 360px at 24% 18%, rgba(192,123,82,.09), transparent 70%),
-    radial-gradient(480px 340px at 78% 78%, rgba(192,123,82,.06), transparent 70%);
+  scroll-snap-align:center;scroll-snap-stop:always;padding:18px;
 }
-.box{width:100%;max-width:560px;text-align:center}
-.brand{
-  font-family:'Times New Roman',Georgia,serif;font-style:italic;font-weight:700;
-  font-size:15px;color:var(--clayD);letter-spacing:.04em;
+.pl-slide img{
+  max-width:94%;max-height:80%;border-radius:10px;background:#fff;
+  box-shadow:0 30px 80px -20px rgba(0,0,0,.6);
+  opacity:.2;transition:opacity .25s var(--ease);
 }
-.eyebrow{
-  margin-top:26px;font-family:var(--serif);font-size:12px;
-  letter-spacing:.34em;text-indent:.34em;color:var(--clay);text-transform:uppercase;
+.pl-slide img.ld{opacity:1}
+.plight .pl-close{
+  position:absolute;top:18px;right:18px;z-index:2;width:42px;height:42px;border-radius:50%;
+  border:1px solid rgba(242,236,224,.4);background:rgba(36,28,19,.55);color:#F2ECE0;
+  font-size:16px;cursor:pointer;
 }
-h1{
-  margin-top:14px;font-family:var(--serif);font-weight:600;
-  font-size:clamp(34px,7vw,46px);letter-spacing:.12em;text-indent:.12em;
+.pl-nav{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:44px;border-radius:50%;
+  border:1px solid rgba(242,236,224,.35);background:rgba(36,28,19,.5);color:#F2ECE0;
+  font-size:20px;line-height:1;cursor:pointer;
 }
-.lead{margin-top:16px;color:var(--muted);font-size:15.5px}
-.lead b{color:var(--ink);font-weight:600}
+.pl-prev{left:14px}.pl-next{right:14px}
+.pl-count{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:2;color:rgba(242,236,224,.78);font-size:13px;letter-spacing:.12em;pointer-events:none}
+@media (max-width:640px){.pl-nav{display:none}}
 
-/* 战绩面板 */
-.score{
-  margin:30px auto 0;max-width:440px;text-align:left;
-  background:var(--card);border:1.5px solid var(--ink);border-radius:16px;
-  padding:22px 26px 20px;
-  box-shadow:0 24px 48px -32px rgba(38,37,31,.4);
+/* ============ 手机竖屏重排（≤640px） ============ */
+@media (max-width:640px){
+  section{padding:60px 0}
+  .sec-head{margin-bottom:34px}
+  .wrap{padding:0 20px}
+  /* 封面：入口全部加大点按区 */
+  .top{padding-top:12px}
+  .top a.top-vocab{padding:10px 14px}
+  .keys{padding-bottom:calc(28px + env(safe-area-inset-bottom))}
+  .keys ul{gap:9px}
+  .keys a{padding:12px 4px}
+  /* Team：Jackie 照片撑满，资历行缩字号自然换行 */
+  .team-lead .lead-photo{max-width:none}
+  .team-lead h3{margin-top:18px;font-size:23px}
+  .team-lead p{font-size:13.5px;line-height:1.9}
+  .team-lead .who{font-size:12px;letter-spacing:.18em}
+  .team-grid{gap:32px 12px;margin-top:8px}
+  /* Journey 子块节奏收紧，渐隐遮罩变窄少吃字 */
+  .j-sub{margin:52px 0 20px}
+  .j-subtitle{font-size:20px}
+  .j-hint{margin:-10px 0 18px}
+  .qrow::before,.qrow::after,
+  .roll-marquee::before,.roll-marquee::after{width:40px}
+  .team-wall{margin-top:40px}
+  /* 页脚：点按区加大，联系行有序折行 */
+  footer{padding:36px 0 46px}
+  .channels a{padding:12px 12px}
+  .foot-meta{font-size:12px;line-height:2.1;padding:0 6px}
+  .foot-meta span{white-space:nowrap}
+  .staff-contact{gap:16px;margin-bottom:28px}
+  .staff-contact img{width:150px;height:150px}
 }
-.score .tag{font-family:var(--serif);font-size:11px;letter-spacing:.24em;color:var(--clay);text-transform:uppercase}
-.kda{display:flex;align-items:baseline;gap:10px;margin-top:8px}
-.kda .num{font-family:var(--serif);font-weight:700;font-size:34px;letter-spacing:.04em}
-.kda .num em{font-style:normal;color:#A5402C}
-.kda .who{font-size:13px;color:var(--muted)}
-.rows{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px;font-size:13.5px;color:var(--muted)}
-.rows div{display:flex;justify-content:space-between;gap:12px;padding:3px 0}
-.rows b{color:var(--ink);font-weight:600}
-.rows .bad{color:#A5402C;font-weight:600}
+/* 高分学员名单：双排横向跑马灯（上排向左，下排向右），悬停暂停 */
+.roll-marquee{overflow:hidden;position:relative}
+.roll-marquee + .roll-marquee{margin-top:12px}
+.roll-marquee::before,.roll-marquee::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:1;pointer-events:none}
+.roll-marquee::before{left:0;background:linear-gradient(90deg,var(--dark),rgba(36,28,19,0))}
+.roll-marquee::after{right:0;background:linear-gradient(270deg,var(--dark),rgba(36,28,19,0))}
+.roll-track{display:flex;gap:12px;width:max-content;animation:roll-slide 60s linear infinite;will-change:transform}
+.roll-track.rev{animation:roll-slide-rev 70s linear infinite}
+.roll-marquee:hover .roll-track{animation-play-state:paused}
+.r-chip{
+  flex:none;border:1px solid rgba(242,236,224,.18);border-radius:999px;
+  padding:10px 20px;font-size:13.5px;color:var(--dark-muted);
+  background:rgba(242,236,224,.03);white-space:nowrap;
+}
+.r-chip b{color:var(--dark-ink);font-weight:600;margin-right:8px}
+.r-chip em{font-style:normal;color:var(--clay);margin-right:6px}
+@keyframes roll-slide{to{transform:translateX(-50%)}}
+@keyframes roll-slide-rev{from{transform:translateX(-50%)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.roll-track{animation:none}}
+@media (max-width:760px){
+  .voice summary{padding:18px 20px}
+  .v-arrow{margin-left:0}
+  .v-body{padding:0 20px 24px}
+}
 
-/* 修复进度条：会倒退的那种 */
-.probar{margin:26px auto 0;max-width:440px;text-align:left}
-.probar .cap{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
-.track{margin-top:8px;height:10px;border-radius:999px;background:rgba(38,37,31,.08);overflow:hidden}
-.fill{
-  height:100%;width:2%;border-radius:999px;background:var(--clay);
-  animation:crawl 9s var(--ease) infinite;
+/* ============ The HY-LITE Team（圆形头像） ============ */
+.team-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:48px 20px;align-content:start;
 }
-@keyframes crawl{
-  0%{width:2%} 30%{width:34%} 42%{width:31%}   /* 团灭了，回退一点 */
-  62%{width:58%} 70%{width:12%}                 /* 又送了 */
-  85%{width:23%} 100%{width:2%}
+.team-split .team-grid{align-self:center}  /* 右栏垂直居中，与左侧 Jackie 栏平衡 */
+.tm{text-align:center}
+.tm .ava{
+  width:134px;height:134px;border-radius:50%;margin:0 auto;
+  border:1px solid var(--line);background:var(--card);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:34px;color:var(--line);
+  box-shadow:0 14px 28px -16px rgba(38,37,31,.3);
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease);
+  overflow:hidden;
 }
-.probar .note{margin-top:8px;font-size:12px;color:var(--muted);opacity:.8}
+.tm .ava img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.tm:hover .ava{transform:translateY(-5px);box-shadow:0 22px 40px -18px rgba(38,37,31,.4)}
+.tm .nm{margin-top:14px;font-family:var(--serif);font-weight:600;font-size:16.5px;letter-spacing:.04em}
+.tm .sub{margin-top:2px;font-size:12px;letter-spacing:.14em;color:var(--clay)}
+.team-more{text-align:center;margin-top:48px}
+.team-more a{
+  display:inline-block;padding:11px 30px;border-radius:999px;
+  box-shadow:inset 0 0 0 1.5px var(--line);font-size:14px;color:var(--ink);
+  transition:box-shadow .3s var(--ease), transform .3s var(--ease);
+}
+.team-more a:hover{box-shadow:inset 0 0 0 1.5px var(--ink);transform:translateY(-2px)}
+@media (max-width:900px){.team-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){
+  .team-grid{grid-template-columns:repeat(2,1fr);gap:36px 12px}
+  .tm .ava{width:96px;height:96px;font-size:28px}
+}
 
-/* 复活倒计时 */
-.respawn{margin-top:26px;font-size:14px;color:var(--muted)}
-.respawn b{font-family:var(--serif);font-size:22px;color:var(--clayD);font-variant-numeric:tabular-nums}
-
-.foot{
-  margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
-  font-size:13px;color:var(--muted);
+/* ============ 页脚（渠道 + 联系方式） ============ */
+footer{border-top:2px solid var(--ink);padding:44px 0 52px;text-align:center}
+.channels{display:flex;justify-content:center;flex-wrap:wrap}
+.channels a{
+  font-family:var(--serif);text-transform:uppercase;letter-spacing:.18em;
+  font-size:12px;font-weight:500;color:var(--ink);padding:6px 20px;
+  transition:color .25s var(--ease);
 }
-.foot b{color:var(--ink);font-weight:600}
-.copy{margin-top:16px;font-size:11px;color:rgba(38,37,31,.4);letter-spacing:.08em}
-@media (prefers-reduced-motion:reduce){.fill{animation:none;width:23%}}
+.channels a:hover{color:var(--muted)}
+.foot-meta{margin-top:20px;color:var(--muted);font-size:13px;letter-spacing:.06em}
+.staff-contact{display:flex;align-items:center;justify-content:center;gap:22px;max-width:420px;margin:0 auto 36px}
+.staff-contact img{display:block;width:176px;height:176px;object-fit:contain;padding:6px;background:#fff;border:1px solid var(--line);border-radius:6px;box-shadow:0 14px 28px -18px rgba(38,37,31,.35)}
+.staff-contact-copy{display:flex;flex-direction:column;gap:6px;text-align:left}
+.staff-contact-copy strong{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:.08em}
+.staff-contact-copy span{font-size:13px;color:var(--muted);letter-spacing:.12em}
+@media (max-width:520px){.staff-contact{flex-direction:column;gap:12px}.staff-contact-copy{text-align:center}}
+
+/* 入场动效 */
+@media (prefers-reduced-motion: no-preference){
+  [data-reveal]{opacity:0;transform:translateY(16px);
+    transition:opacity .6s var(--ease), transform .6s var(--ease);transition-delay:var(--d,0s)}
+  [data-reveal].in{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .scroll-hint{animation:none}
+}
+/* 语言切换药丸（右上角固定） */
+.lang-toggle{position:fixed;top:16px;right:18px;z-index:60;font-family:var(--serif);font-size:12.5px;letter-spacing:.1em;color:var(--muted);background:rgba(250,247,240,.82);border:1px solid var(--line);border-radius:999px;padding:8px 15px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:border-color .3s var(--ease),color .3s var(--ease)}
+.lang-toggle b{color:var(--ink);font-weight:700}
+.lang-toggle:hover{border-color:var(--ink);color:var(--ink)}
 </style>
 </head>
 <body>
-<main class="box">
-  <div class="brand">hylite.com.cn</div>
-  <p class="eyebrow">System Maintenance · 台风过境 · 水位上涨中</p>
-  <h1>网站维护中</h1>
-  <p class="lead">台风把无锡下成了海，<b>服务器被淹掉了</b>。<br>它现在理论上属于水产。</p>
+<img src="share.png" width="300" height="300" alt="" aria-hidden="true" style="position:absolute;left:-9999px;top:0">
+<a class="lang-toggle" href="en" aria-label="Switch to English"><b>中</b> / EN</a>
 
-  <section class="score" aria-label="开发者当前战绩">
-    <div class="tag">Server Status · 机房实况</div>
-    <div class="kda">
-      <span class="num">水深 <em>1.2</em> m</span>
-      <span class="who">且仍在上涨 · 机房已开启"水族馆模式"</span>
-    </div>
-    <div class="rows">
-      <div><span>服务器状态</span><b>已自学蛙泳，姿势标准</b></div>
-      <div><span>运维同事</span><b>正在用脸盆排水（第 47 盆）</b></div>
-      <div><span>机房新住户</span><b>两条鲫鱼，疑似来蹭网</b></div>
-      <div><span>雨势预报</span><span class="bad">气象台：再下亿点点</span></div>
-      <div><span>数据安全</span><b>全在云端——幸好云比水高</b></div>
-    </div>
-  </section>
+<!-- ============ 封面：粒子（HY LITE education + 环亚国际教育 两行都动） ============ -->
+<header class="cover" id="cover">
+  <h1 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">环亚国际教育 HY-LITE — 无锡 · Since 2003</h1>
+  <canvas id="pfield" aria-hidden="true"></canvas>
+  <p id="zhsub" aria-hidden="true">环亚国际教育</p>
 
-  <div class="probar">
-    <div class="cap"><span>排水进度</span><span>取决于老天爷什么时候关水龙头</span></div>
-    <div class="track"><div class="fill"></div></div>
-    <p class="note">进度条偶尔倒退属正常现象——因为又下了一场。</p>
+  <nav class="top" aria-label="主导航">
+    <ul>
+      <li>
+        <a class="top-vocab" href="/vocabulary/">
+          <span class="label" style="color:var(--ink)">课程同步词书</span>
+          <em class="vurl">hylite.com.cn/vocabulary</em>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 封面底部：六个板块 -->
+  <div class="keys">
+    <ul>
+      <li><a href="faculty.html">师资团队</a></li>
+      <li><a href="intro.html">课程体系</a></li>
+      <li><a href="dictionary.html">电子词书</a></li><!-- 付费产品试读页：只开放必修一U1 Reading，不跳转 vocab3500 -->
+      <li><a href="books.html">精编教材</a></li>
+      <li><a href="channels.html?c=ipx">自研 AI</a></li>
+      <li><a href="#contact">联系方式</a></li>
+    </ul>
   </div>
+  <div class="scroll-hint" aria-hidden="true">↓</div>
+</header>
 
-  <p class="respawn">距离雨停还有 <b id="cd">90</b> 秒（气象台说的，他们自己也不太确定）</p>
-
-  <div class="foot">
-    有急事？联系 <b>Chris</b>——他有船。<br>
-    你的学习记录都存在云端，水淹不到云。
+<!-- ============ The HY-LITE Difference ============ -->
+<section id="difference">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">The HY-Lite Difference</h2>
+    </div>
+    <div class="diff-cards">
+      <div class="d-card" data-reveal>
+        <span class="en">Partners, Not Employees</span>
+        <h3>教师合伙制</h3>
+        <p>在环亚，老师不是雇员，而是合伙人。每一位教师都与机构长期利益绑定——这里是我们共同的事业，而非一份工作。</p>
+      </div>
+      <div class="d-card" data-reveal style="--d:.08s">
+        <span class="en">Ten Years, One Team</span>
+        <h3>十年共同教研</h3>
+        <p>这支团队一起备课、磨题、教研已超过十年。我们的秘诀不是某一位好老师，而是一整套经十年打磨、彼此咬合的教学体系。</p>
+      </div>
+      <div class="d-card" data-reveal style="--d:.16s">
+        <span class="en">99% by Word of Mouth</span>
+        <h3>99% 口碑推荐</h3>
+        <p>没有销售团队，没有渠道投放，也没有课程顾问的电话轰炸。二十余年来，99% 的学员来自往届家长的口碑推荐——教学本身，就是最好的招生。</p>
+      </div>
+    </div>
   </div>
-  <div class="copy">© HY-LITE 环亚国际英语 · 无锡 · 云蝠大厦 1201-1202</div>
-</main>
+</section>
+
+<!-- ============ The HY-LITE Team（左 Jackie · 右六位老师 · 照片墙） ============ -->
+<section id="team">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">The HY-Lite Team</h2>
+    </div>
+    <div class="team-split">
+      <div class="team-lead" data-reveal>
+        <img class="lead-photo" src="jackie-tedx.jpg" alt="Jackie 在 TEDx 舞台演讲">
+        <h3>Jackie</h3>
+        <p class="who">教学主管 · 雅思 9.0 · 新版托福满分</p>
+        <p>✨ 雅思 9.0 | 托福 6.0 | 法语 DELF B2 | 韩语 TOPIK 六级</p>
+        <p>📚 10 年+教学经验 | 3x TEDx 讲者 | 🇨🇦 政府机构 ESL 导师</p>
+      </div>
+      <div class="team-grid">
+        <div class="tm" data-reveal style="--d:.05s"><div class="ava"><img src="team/team-ben.jpg" alt="Ben" loading="lazy" decoding="async"></div><div class="nm">Ben</div></div>
+        <div class="tm" data-reveal style="--d:.1s"><div class="ava"><img src="team/team-michelle.jpg" alt="Michelle" loading="lazy" decoding="async"></div><div class="nm">Michelle</div></div>
+        <div class="tm" data-reveal style="--d:.15s"><div class="ava"><img src="team/team-cissy.jpg" alt="Cissy" loading="lazy" decoding="async"></div><div class="nm">Cissy</div></div>
+        <div class="tm" data-reveal style="--d:.2s"><div class="ava"><img src="team/team-phoebe.jpg" alt="Phoebe" loading="lazy" decoding="async"></div><div class="nm">Phoebe</div></div>
+        <div class="tm" data-reveal style="--d:.25s"><div class="ava"><img src="team/team-guo.jpg" alt="Guo" loading="lazy" decoding="async"></div><div class="nm">Guo</div></div>
+        <div class="tm" data-reveal style="--d:.3s"><div class="ava"><img src="team/team-tiger.jpg" alt="Tiger" loading="lazy" decoding="async"></div><div class="nm">Tiger</div></div>
+      </div>
+    </div>
+    <div class="team-more" data-reveal>
+      <a href="faculty.html">查看完整师资介绍 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ A Journey of Success（四并列课程·暗段） ============ -->
+<section class="journey" id="journey">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">A Journey of Success</h2>
+    </div>
+    <!-- 学员感言：点卡片弹窗读全文 -->
+    <div class="j-sub" data-reveal style="margin-top:0">
+      <h3 class="j-subtitle">学员感言<span class="en">Voices</span></h3>
+    </div>
+    <p class="j-hint" data-reveal>点击卡片阅读全文 · 按住可暂停滚动</p>
+    <div class="qrow" data-reveal>
+      <div class="qtrack">
+        <div class="q-card" data-essay="essay-1"><p class="qt">"很多人说，新加坡的奖学金项目是个玄学。可既然这是一场考试，就一定有它的标准——而标准，永远偏爱有准备的人。"</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">陈同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-2"><p class="qt">"如果说自学是'单兵作战'，那环亚就是我的'后勤基地'。环亚给我的不仅是知识，更是一种'我知道自己能行'的安定感。"</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">何同学</div><div class="qs">2026 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-3"><p class="qt">"课程涵盖写作、口语与阅读三大巨头，加上每日的单词背诵任务，英语储备实现了显著提升。集训的备考时光里，我们结下了坚定的友谊。"</p><div class="qfoot"><span class="qa">叶</span><div><div class="qn">叶同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-4"><p class="qt">"在环亚和大家一起备考的时光，笑声远比焦虑多。自信是骨，平常心是魂——稳住，便已赢了大半。"</p><div class="qfoot"><span class="qa">周</span><div><div class="qn">周同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-5"><p class="qt">"恢复招生的第三年，我们终于迎来大满贯：今年放榜共六席，6/6。耕耘多年，花终于都开了。"</p><div class="qfoot"><span class="qa">C</span><div><div class="qn">Chris</div><div class="qs">教师手记 · 2026 冲新揭榜</div></div></div></div>
+        <div class="q-card" data-essay="essay-10"><p class="qt">"语言习得不是机械训练的产物，而是长期、持续的'可理解性输入'与适度输出的自然结果。只要保持兴趣、享受过程，高分是水到渠成的。"</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">陈同学</div><div class="qs">雅思 8.5 · 复旦大学</div></div></div></div>
+        <div class="q-card" data-essay="essay-1" aria-hidden="true"><p class="qt">"很多人说，新加坡的奖学金项目是个玄学。可既然这是一场考试，就一定有它的标准——而标准，永远偏爱有准备的人。"</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">陈同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-2" aria-hidden="true"><p class="qt">"如果说自学是'单兵作战'，那环亚就是我的'后勤基地'。环亚给我的不仅是知识，更是一种'我知道自己能行'的安定感。"</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">何同学</div><div class="qs">2026 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-3" aria-hidden="true"><p class="qt">"课程涵盖写作、口语与阅读三大巨头，加上每日的单词背诵任务，英语储备实现了显著提升。集训的备考时光里，我们结下了坚定的友谊。"</p><div class="qfoot"><span class="qa">叶</span><div><div class="qn">叶同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-4" aria-hidden="true"><p class="qt">"在环亚和大家一起备考的时光，笑声远比焦虑多。自信是骨，平常心是魂——稳住，便已赢了大半。"</p><div class="qfoot"><span class="qa">周</span><div><div class="qn">周同学</div><div class="qs">2026 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-5" aria-hidden="true"><p class="qt">"恢复招生的第三年，我们终于迎来大满贯：今年放榜共六席，6/6。耕耘多年，花终于都开了。"</p><div class="qfoot"><span class="qa">C</span><div><div class="qn">Chris</div><div class="qs">教师手记 · 2026 冲新揭榜</div></div></div></div>
+        <div class="q-card" data-essay="essay-10" aria-hidden="true"><p class="qt">"语言习得不是机械训练的产物，而是长期、持续的'可理解性输入'与适度输出的自然结果。只要保持兴趣、享受过程，高分是水到渠成的。"</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">陈同学</div><div class="qs">雅思 8.5 · 复旦大学</div></div></div></div>
+      </div>
+    </div>
+    <div class="qrow" data-reveal>
+      <div class="qtrack rev">
+        <div class="q-card" data-essay="essay-6"><p class="qt">"'我想去新加坡国立大学'——这句话终于从一句纯真无忌的童言，变成了一个切实可行的目标。"</p><div class="qfoot"><span class="qa">马</span><div><div class="qn">马同学</div><div class="qs">2024 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-8"><p class="qt">"看似意料之外，像是幸运的垂青；但只有我自己知道，这是一次次打磨和努力之后迟早会来的结果。"</p><div class="qfoot"><span class="qa">杨</span><div><div class="qn">杨同学</div><div class="qs">2025 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-7"><p class="qt">"他们不仅是我的老师，更是我珍贵的朋友——愿意尊重我、倾听我、真诚相待的好朋友！"</p><div class="qfoot"><span class="qa">苏</span><div><div class="qn">苏同学</div><div class="qs">2023 华中国际学校全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-9"><p class="qt">"考前的自信，是为了更充分地备考；考场上的自信，是为了让努力真正落地发挥。"</p><div class="qfoot"><span class="qa">卢</span><div><div class="qn">卢同学</div><div class="qs">2025 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-2"><p class="qt">"Jackie 老师批改细致到每一处用词，让我从'怕写'变成'敢写'。最终面试表现成了我的加分项——这绝不是侥幸，而是练出来的。"</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">何同学</div><div class="qs">2026 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-10"><p class="qt">"她二战出分当天，我们另一个学生评论说'这是小 Jackie 了'。'教育的本质是一棵树摇动另一棵树'，可能描写的就是这种感受。"</p><div class="qfoot"><span class="qa">J</span><div><div class="qn">Jackie</div><div class="qs">彩蛋 · 关于陈同学的观察</div></div></div></div>
+        <div class="q-card" data-essay="essay-11"><p class="qt">"从 6 到 7 的提升，靠的不是套用模板，而是'系统学习 + 大量练习 + 老师的精细批改'。"</p><div class="qfoot"><span class="qa">朱</span><div><div class="qn">朱同学</div><div class="qs">雅思 7.5 · 写作 6 → 7</div></div></div></div>
+        <div class="q-card" data-essay="essay-6" aria-hidden="true"><p class="qt">"'我想去新加坡国立大学'——这句话终于从一句纯真无忌的童言，变成了一个切实可行的目标。"</p><div class="qfoot"><span class="qa">马</span><div><div class="qn">马同学</div><div class="qs">2024 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-8" aria-hidden="true"><p class="qt">"看似意料之外，像是幸运的垂青；但只有我自己知道，这是一次次打磨和努力之后迟早会来的结果。"</p><div class="qfoot"><span class="qa">杨</span><div><div class="qn">杨同学</div><div class="qs">2025 南洋女中全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-7" aria-hidden="true"><p class="qt">"他们不仅是我的老师，更是我珍贵的朋友——愿意尊重我、倾听我、真诚相待的好朋友！"</p><div class="qfoot"><span class="qa">苏</span><div><div class="qn">苏同学</div><div class="qs">2023 华中国际学校全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-9" aria-hidden="true"><p class="qt">"考前的自信，是为了更充分地备考；考场上的自信，是为了让努力真正落地发挥。"</p><div class="qfoot"><span class="qa">卢</span><div><div class="qn">卢同学</div><div class="qs">2025 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-2" aria-hidden="true"><p class="qt">"Jackie 老师批改细致到每一处用词，让我从'怕写'变成'敢写'。最终面试表现成了我的加分项——这绝不是侥幸，而是练出来的。"</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">何同学</div><div class="qs">2026 华侨中学全额奖学金</div></div></div></div>
+        <div class="q-card" data-essay="essay-10" aria-hidden="true"><p class="qt">"她二战出分当天，我们另一个学生评论说'这是小 Jackie 了'。'教育的本质是一棵树摇动另一棵树'，可能描写的就是这种感受。"</p><div class="qfoot"><span class="qa">J</span><div><div class="qn">Jackie</div><div class="qs">彩蛋 · 关于陈同学的观察</div></div></div></div>
+        <div class="q-card" data-essay="essay-11" aria-hidden="true"><p class="qt">"从 6 到 7 的提升，靠的不是套用模板，而是'系统学习 + 大量练习 + 老师的精细批改'。"</p><div class="qfoot"><span class="qa">朱</span><div><div class="qn">朱同学</div><div class="qs">雅思 7.5 · 写作 6 → 7</div></div></div></div>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-1">
+      <h4>从红楼到世界｜写给觉得自己"不突出"的你</h4>
+      <div class="vm-author">陈同学 · 2026 年南洋女中全额奖学金</div>
+      <div class="vm-text">
+          <p>大家好，我是鹊学姐，通商中国新加坡教育奖学金得主，即将入读南洋女中。</p>
+          <p>作为九年大桥本地人，我从小就对这份奖学金心怀憧憬，却从不敢把它设作破釜沉舟的目标——我不是"实力派"，既无迷人的外表，也无超凡的智慧。所以这篇心得，写给每一个觉得自己并不突出、却对这个项目感兴趣的你。</p>
+          <p><b>【关于备考】</b>这不是一次短跑，而是一场考验耐力与决心的马拉松：初一初二打底，初三直升大桥高中拿到入场券，7月正式考试。英语难度远超雅思，词汇只能自求多福，但改错、阅读、写作都有章可循——写作两种文体均匀练习，一定要计时！智商测试也不是玄学：环亚发的小白书，不一定能提高你的智商，但一定能让你熟悉题型、从容应考（鹊学姐激推）。数学就不多讲了，难度极低。而面试，才是最重要的一环——学校选的不一定是最优秀的那个，而是更能适应环境的那个。</p>
+          <p><b>【关于努力】</b>成功需要两种药引，一为智慧，二为努力。我无法成为最聪明的一个，但起码拼尽全力成为更努力的那个。备战期间，我计时练完二十多篇写作、三整本阅读、一整本小白书；英语从初一的七八十分，到直升班期末的年级前十。我曾不止一次落泪，却发现眼泪最终铸成最闪耀的勋章。</p>
+          <p><b>【关于热爱】</b>读书会、《红楼梦》研究社、捐给学校的55本书……我一直以为这些只是个人爱好，却成了简历上最打动考官的闪光点。原来热爱本身，就是最好的简历。</p>
+          <p>很多人说，新加坡的奖学金项目是个玄学。可既然这是一场考试，就一定有它的标准——而标准，永远偏爱有准备的人。</p>
+          <p>保持你们的梦想，坚定你们的初心，展望你们的未来，付诸你们的行动。新世界的大门，永远向你们敞开！</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-2">
+      <h4>从学伴到同窗｜华侨中学冲新记</h4>
+      <div class="vm-author">何同学 · 2026 年华侨中学全额奖学金</div>
+      <div class="vm-text">
+          <p>初二那年有幸接待了新加坡华侨中学的学伴，次年又随校赴新加坡游学，我第一次见识到开放式的课堂——小组讨论、自主探究、自由表达。那一刻，我决定尝试冲新。</p>
+          <p>进入直升班后，竞赛、学生会、社团、综评，扑面而来。我给自己立了规矩：国内课业不放松，冲新准备也不落下。于是，课间刷《必刷题》，晚自习啃《教材完全解读》，提前学习高中内容；回到家，我又翻开词汇书，一点点弥补词汇差距。正是这种"两头压"的节奏，逼着我提高了效率。中三、中四的数学教材被我陆续拿下，中考后的集训更是让英语水平飞速提升。所以，兼顾不是神话，只要你愿意逼自己一把。</p>
+          <p>如果说自学是"单兵作战"，那环亚就是我的"后勤基地"。</p>
+          <p>笔试方面，环亚的课程基本覆盖了考试的大多数题型。词汇、阅读、智商逻辑，都有成套资料（虽然我也没全部做完，但足够用了）。Jackie老师每次都带着我们逐步分析作文，批改细致到每一处用词，还会给出多种改写建议，让我从"怕写"变成"敢写"。</p>
+          <p>几轮模拟面试是最大的救星。我的英语基础其实不如同期的一些同学，但经过Jackie和学长们的反复演练，我慢慢学会了如何组织思路、如何从容应对突发提问。最终面试表现成了我的加分项——这绝不是侥幸，而是练出来的。</p>
+          <p>环亚给我的不仅是知识，更是一种"我知道自己能行"的安定感。</p>
+          <p>回顾这段备考路，我最想分享两点：</p>
+          <p><b>第一，保持信心。</b>不要总盯着自己的短板，比如词汇量不如别人，但面试或写作可能是你的亮点。相信自己，也相信每一次练习的价值。</p>
+          <p><b>第二，做好规划。</b>直升班本身课业繁重，若有竞赛，更要学会高效利用校内时间。我习惯每天列任务清单，把冲新内容和校内作业穿插安排，避免临时抱佛脚。环亚提供的资料很多，不必全做，但要针对自己的薄弱环节重点突破。</p>
+          <p>最后，说句心里话。冲新不是逃避高考的"后路"，而是另一片需要全力以赴的战场。我很感激这几个月来Jackie、Chris、Ben老师以及各位学长学姐的帮助，也感谢那个在无数个深夜咬牙坚持的自己。</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-3">
+      <h4>从大桥到南洋｜我的南洋女中备考记</h4>
+      <div class="vm-author">叶同学 · 2026 年南洋女中全额奖学金</div>
+      <div class="vm-text">
+          <p>在环亚学习的日子里，高强度的学习既充满挑战，也格外充实。课程涵盖写作、口语与阅读三大巨头，加上每日的单词背诵任务，让我在考前夯实了词汇基础，英语储备实现了显著提升。</p>
+          <p>Jackie老师的写作与口语课让我收获颇丰。写作课上，我们系统学习了议论文的写作逻辑，练习运用多样化的复杂句式，让文章结构更严谨、表达更规范。在记叙文学习中，我也清晰认识到自己的短板——英文细节描写尚有不足。生动的叙事并非一蹴而就，需要长期阅读英文原著、积累地道表达，才能让文字更有画面感。但无论何种文体，动笔前都必须先梳理清晰的行文逻辑，明确核心观点，再用简洁精准的语言层层阐述。</p>
+          <p>为贴合考试实战，环亚为我们安排了多场全真面试模拟。和同学提前搭档配合，极大缓解了我的应试紧张感；Jackie老师也针对我的面试表现给出了精准细致的指导——放缓答题语速，选用通俗精准的日常词汇等。</p>
+          <p>阅读课程由Ben老师授课，他带领我们系统梳理了各类阅读题型的解题技巧。其中最让我受益的，是通过识别instead、however等逻辑连词，快速判断文段的逻辑转折与作者的情感态度。</p>
+          <p>集训期间，同学们一起刷题、共同进步，在全力以赴的备考时光里结下了坚定的友谊。往届学长学姐的分享会也让我受益匪浅——真实的考试经历、实用的备考技巧，让我提前摸清考试节奏、做好心态铺垫。学姐告诉我们：智商题部分不要死磕，在规定时间内做完是最重要的。这句话很好地提醒了我，正式考试中该怎么分配时间。</p>
+          <p>最后，感谢环亚所有的老师——Jackie、Ben、Chris，以及所有助教老师和学长学姐们！</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-4">
+      <h4>从忐忑到笃定｜我的南洋女中上岸记</h4>
+      <div class="vm-author">周同学 · 2026 年南洋女中全额奖学金</div>
+      <div class="vm-text">
+          <p>每个大桥人的学生时代，大概都绕不开"冲新"这个梦想。它像一枚被反复擦拭的勋章，安静地摆在远方，闪闪发光。我也不例外——从小学起，它就住进了我的心里，成为一颗蛰伏多年的种子。而这个夏天，伴着一点运气，也仗着几分不甘人后的努力，我终于亲手推开了那扇曾经遥不可及的大门。</p>
+          <p>想把这些日子的辗转、准备与顿悟，慢慢说给你听。</p>
+          <p><b>Part 1：笔试——在靶心上深耕</b></p>
+          <p>先说数学吧，它是整场笔试里难得的"温柔乡"。题目不刁钻，落脚点都在小学和初中打过无数次照面的基础知识点上，且全为填空，省去了过程书写的繁琐。两小时的考试，卷子通常一小时便可收工，剩下的时间，都留给"准确"二字。建议挑两三套卷子找找手感即可，不必贪多。唯一需留意的，是题目以英文呈现——不过我们那场监考老师贴心提供了翻译，所以大可不必为术语犯愁。</p>
+          <p>真正的分水岭，在智商测试。这是一场与时间和陌生题型短兵相接的较量。我个人觉得，考前把小白书翻透便已足够，顺便练一练手速，和那点"不会也要猜得有理有据"的本事。但正式考卷里，还是冒出了一道我们从未碰过的题型，落笔那一刻，心还是紧了一下。在此郑重提醒：60分钟填满整张卷子，时间相当吃紧，身边便有同学遗憾未能完卷。</p>
+          <p>至于英语，则是当之无愧的"拦路虎"。作文是可以提前磨好的刃。我在环亚随Jackie苦练写作，可惜的是，我们几乎把所有弹药都押在了议论文上，考试却猝不及防地考了记叙文。不过公允地说，Jackie在议论文上的指点，确实让我脱胎换骨，这份进步，我由衷感激。记叙文则更考验平日的素材积淀。30分钟成文，构思须如箭离弦，日常若不蓄满观点的粮仓与故事的锦囊，便容易捉襟见肘。（翻开初稿，Jackie满纸密密麻麻的批注与修改，和后来成稿的差距，连自己都吃惊。）</p>
+          <p>英语Part 1虽给了90分钟，时间绰绰，但词汇难度令人咋舌，生僻词如"purveyor"也赫然在列，日常积累虽难直接命中，但终究是为长远铺路。比较有章可循的，是介词填空和阅读理解选择题，这些跟着环亚课堂走便足够。大家也不必过分焦虑——英语对所有人而言都是天堑，分数上反而拉不开真正的鸿沟。我考前雅思考出7.5，更多是给自己一颗定心丸，稳住阵脚罢了。</p>
+          <p><b>Part 2：面试——以不变应万变</b></p>
+          <p>因为中途被学校的数学竞赛课"劫走"，面试课和模拟演练我几乎全线缺席，只来得及精心打磨三个核心问题：Why do you want to go to Singapore? / Why are you eligible? / Why are you one of the best options?</p>
+          <p>南洋女中的面试，基本就围绕这三条主轴展开。关键在于，把准备好的答案当作积木，而非模板，学会临场灵活拼搭与裁剪。我们那场的考官格外和蔼，整个氛围倒更像一场平等的对话，而非审问。准备时不妨多想想，如何把回答不着痕迹地靠向学校的校训与双语双文化底色。此外，全程保持眼神的温润交汇，坐姿挺拔而不僵硬，那些无声的语言，往往比言辞更早抵达人心。</p>
+          <p><b>Part 3：心态——松弛是另一种力量</b></p>
+          <p>回望整个备考期，我自觉算得上松弛，当然这也与今年女生竞争相对缓和有关。我想说的是，自信是骨，平常心是魂，患得患失只会徒耗心神。在环亚和大家一起备考的时光，笑声远比焦虑多，压力也不知不觉被稀释了大半。考场上，心态的分量常常重于技巧，稳住，便已赢了大半。尤其是面试，越从容，越生动；越紧张，越容易卡在嘴边那个词上。大方一点，松弛一点，考官自会看见你眼底的光。</p>
+          <p><b>写在最后：结果之外，皆是礼物</b></p>
+          <p>每一年的冲新选拔，都像一面筛子，漏下遗憾，也筛出惊喜。有人被命运突然眷顾，也有人公认强大却意外折戟。收到录取通知的那一刻，并没有想象中热泪盈眶的狂喜，心里反而异常平静——或许，那个结果早在无数个默默埋头的日子里，悄悄落定了。但无论如何，我始终相信，实力是唯一的硬通货，持续付出的人，终究不会被时光亏待。即便未被青睐，也请你痛快地难过一场，然后擦干眼泪，头也不回地奔赴下一程山海。</p>
+          <p>在环亚的那些日子，是我记忆里明亮的注脚。身边是一群并肩作战的伙伴，每个人都眼里有火，脚下生风，那种昂扬的劲儿，给了我莫大的勇气，也让我在正式考场上稳稳地站在了自己应有的位置上。学长学姐的倾囊相授，更是暗夜里的灯火，字字句句，皆是过来人的诚心。</p>
+          <p>从最初的忐忑，到最后的笃定，这条路并不平坦，却每一步都算数。愿我的这些碎碎念，能为你拂去一丝迷茫。也愿每一个心怀远方的人，终能抵达属于自己的那片星辰大海。</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-5">
+      <h4>花都开好了｜写在 2026 冲新揭榜之际</h4>
+      <div class="vm-author">Chris · 教师手记 · 2026 年 7 月</div>
+      <div class="vm-text">
+          <p>今年通商中国新加坡教育奖学金的录取尘埃落定。恢复招生的第三年，我们终于迎来大满贯：今年放榜共六席，6/6。耕耘多年，花终于都开了。</p>
+          <p>每年此刻，心情总是悲喜交加，遗憾甚至常常多于欢喜。放榜之后，第一时间想的并不是如何庆祝，而是如何安慰那些暂未被青睐的学生，有时说着说着，自己也湿了眼眶。求之不得，是人生的一门重要课题，我每年都陪学生一起修习这一课。当然，功课终究要靠他们自己完成；我见证了他们的努力，却毕竟不能感同身受。</p>
+          <p>欣慰自然也是真实的。除了求之不得的一课，也有人的努力开了花、结了果，值得好好庆祝。有的同学写满了一整本作文，有的同学背完了厚厚一册单词，有的同学在一套套试题里，一次次刷新自己的上限。我愿意再重申一次我的看法：所有备考的同学，都有扎实的学业功底与出色的综合素养。有人与新加坡缘分更深，被选中了；有人暂时没有这份缘分，前路依然光明，我深信不疑。</p>
+          <p>唯一敢说的是，我们真心提供了一段陪伴。我们每年都和这批学生结下深厚的"革命情感"。今年六月初回到无锡，直到今天，几乎日日从早忙到晚，与他们朝夕相处：调动各方资源指导他们，印了一套又一套卷子，练了一次又一次面试，改了一篇又一篇作文。几位已在狮城求学的学长，也专程前来分享经验，让学弟学妹们提前看见新加坡真实的学习与生活。</p>
+          <p>今年，花都开好了；来年，我们将继续踏实耕耘。</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-6">
+      <h4>推开橙白相间的大门｜冲新的日子</h4>
+      <div class="vm-author">马同学 · 2024 年南洋女中全额奖学金</div>
+      <div class="vm-text">
+        <p>第一次走进环亚橙白相间的大门时，我从未想过，三个月后我的人生轨迹将彻底改变。"我想去新加坡国立大学"——这句话终于从一句纯真无忌的童言，变成了一个切实可行的目标。感谢环亚推动了奇迹的诞生，实现了一个小女孩深藏心中的梦。</p>
+        <p><b>阅读课｜第一次体会英语的"险恶"</b></p>
+        <p>这两个月，我第一次体会到了英语的"险恶"——第一次知道，什么叫自己理解的内容与文章想表达的毫无关联。</p>
+        <p>但还好，我们有 Ben 一路相随。睡意浓浓的下午，他总能用一句玩笑唤醒沉寂的课堂；小女孩与海盗的故事，贯穿了整个课程；在"还有一分钟就默写"的逼迫下，我们啃下了一篇又一篇精读。兼具松弛与紧张的课堂，为枯燥的阅读过程添上了轻快的底色。感谢 Ben 教会我英语阅读的正确方法，更点燃了我对英语阅读的兴趣。</p>
+        <p><b>写作课｜"劳模" Jackie 的深夜红笔</b></p>
+        <p>曾经的我，是靠百度翻译完成 450 词英语作文的。感谢"劳模" Jackie，让我体会到了用英语自由表达的快乐。</p>
+        <p>不同于 Ben 的课堂，Jackie 的课堂十分紧张：一杯咖啡，一台电脑，她温柔而清晰的声音夹杂在嗒嗒的打字声中。作文本上，红色的笔记穿梭于黑字之间——改出每一个错误，文后的点评更是精炼而准确。"这么晚还在批改作文"，这是 Chris 朋友圈的文案。每一篇精心批改的作文背后，都是 Jackie 老师兢兢业业的深夜。谢谢老师的那杯茶姬，香甜了辛苦的每一天。</p>
+        <p><b>规划课｜时间管理大师 Chris</b></p>
+        <p>说到老师，怎么能少了 Chris。对我这个资深"摆烂能手"来说，Chris 的"狠"像一把火，激起了我的斗志。一张张鲜艳的计划表排满了每分每秒，看似做不完的题，都在他的精心安排下一一"塞"完——不得不称赞这位时间管理大师的技术。当然，夏日里冰凉的蜂蜜水和蛋糕卷，也为我驱散了烦躁。为了自己的未来，我和这些认真负责的老师们并肩奋斗着。</p>
+        <p>数学老师 Lecea 也功不可没，一份份熬夜批改的作业，无不承载着她的用心；外教 Matt 多次为我们模拟面试，帮我们克服了紧张的情绪。</p>
+        <p><b>冲新的日子｜欢笑与泪水</b></p>
+        <p>冲新的日子很苦很累，充满欢笑与泪水。几个深夜，我蜷缩在床上，克制着沉重的眼皮，强撑着背下一个又一个单词；也有好几次，觉得自己毫无长进、成功渺茫，躲在被子里偷偷哭泣。</p>
+        <p>而在环亚的图书馆里，我们又一起欢笑、互相打气，熬过一个个辛苦的晨昏。这一切在现在看来，都是多么值得而有意义。</p>
+        <p>我错过了中考，也将错过高考，却在环亚为自己的青春添上了一抹拼搏与奋斗的底色。收到通知后，很多人恭喜我，但我想说：这一次成功，是环亚的同学与老师们一起努力两个月的结果。其实对我来说，无论冲新是否成功，我都会永远铭记并感激这段难得的经历——它激起了我对英语学习的兴趣，也让我践行了"拼搏竞进"的大桥校训。</p>
+        <p>最后，还要感谢我的爸爸妈妈和干爸干妈。是他们在那个夜晚激活了我"出去闯一闯"的心，也让我找到了自己未来的最优解。</p>
+        <p>不负韶华，再接再厉！</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-7">
+      <h4>温暖的大家庭｜写给环亚的感谢信</h4>
+      <div class="vm-author">苏同学 · 2023 年华中国际学校全额奖学金</div>
+      <div class="vm-text">
+        <p>我没有很强的自制力，不敢妄言自己的努力。作为资深躺平摆烂能手，更多的是把能偷的懒全偷了。</p>
+        <p>感谢环亚。这个温暖的大家庭给予我无限的包容和欢喜，融化我的悲伤和窘迫。他们教授于我的不仅是知识，更有开阔的视野、平和的心态、多元的思考，让我从容地向前迈进。无疑，我终身受益。</p>
+        <p>感谢环亚的老师。是每节课后堪称"小作文"的课堂反馈，是 Jackie 熬夜到三更批改完作业后群里"叮叮叮"的火热，是超哥半夜十一点还在讲解的物理难题，是特地飞到新加坡为我们探校、买卷子、考试当天为我们烧香的 Chris 和 Franco……（太多了，本人根本写不完）</p>
+        <p>我本想了很多词语来形容我的老师们：幽默风趣、温柔知性、激情洋溢、兢兢业业、循循善诱、和蔼可亲、诲人不倦……可我更想说的是，他们不仅是我的老师，更是我珍贵的朋友——愿意尊重我、倾听我、帮我处理生活难题的、真诚相待的好朋友！</p>
+        <p>"加油呀！不能佛系备考，冲新你要代表我们环亚出战，一通乱杀！"（编者按：这话一听就不是 Chris 说的）</p>
+        <p>即便面对我扶不上墙、烂泥一般的议论文，他们也从不吝啬夸赞和鼓励，拥抱我的缺陷，如岁暮天寒时熊熊燃烧的柴火，滚烫的热浪捂暖了我们的心。感谢每一位老师的付出。</p>
+        <p>感谢环亚的同学。在环亚，身边的同学都是奋笔疾书的强手。只要入座环亚的图书馆，翻页落笔声便持续充斥双耳，抬头就是同学们不同于平日聊天时的严肃认真的神情——"peer pressure"一步一步牵引我前进。</p>
+        <p>大家和睦相处、互帮互助：一起耐心钻研理科难题，一起相互抽背英语单词。是学习上的无话不谈，是交流中的共同进步。良性的竞争是一团火，烧出了前进的大道，伸长出遒劲的枝干，托举每一位环亚学子走向更高更远的天地。</p>
+        <p>最后，栓Q我的老爸老妈，栓Q你们支持我走上自己喜欢的路。（手动爱心爱心💗）</p>
+        <p>环亚最棒！环亚100分！</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-8">
+      <h4>意料之外，意料之中｜我的南洋女中备考之路</h4>
+      <div class="vm-author">杨同学 · 2025 年南洋女中全额奖学金</div>
+      <div class="vm-text">
+        <p>一年前的暑假，我偶然得知新加坡 SM1 项目再次开放。这为我提供了一条"省钱"的国际路线，我也怀着对新加坡的憧憬，下定了"一定要考上南洋女中"的决心。</p>
+        <p>这个夏天，伴随着好运的加持，这个梦想意料之外、又意料之中地实现了。</p>
+        <p><b>一、制定"专属"的学习计划：方向比努力更重要</b></p>
+        <p>从初三起，我就为自己制定了一份"专属"的学习计划，这也是我成功的重要保障。如何制定适合自己的计划？我觉得要从三个方面入手：</p>
+        <p>首先，清晰认知自己的强项与弱项。我的数学基础不错，又是 SM1 的重要得分项，因此只需稳定完成学校作业、周末适度加强练习即可；而语文和物理是我的短板，放学后的时间就优先分配给这两科。</p>
+        <p>其次，采用科学的学习方法。理科注重理解问题的本质，我习惯通过难题训练和归纳公式的使用条件来突破；文科强调记忆和逻辑，我会先提炼关键词，再用关键词串联整个知识点，提升背诵效率。</p>
+        <p>最后，持续查缺补漏。每次练习后，反思是哪一个公式、哪一个知识点没理解透彻，进行针对性突破。有时也借助 AI 工具辅助学习，提高效率。</p>
+        <p><b>二、有效备考：效率比时间更关键</b></p>
+        <p>学习成果不等于付出时间，而是时间 + 效率。</p>
+        <p>备考新加坡的这段时间，我并没有大量刷题，而是对比新加坡考试与国内考试的差异，找出不同点针对性提升。</p>
+        <p>数学重要的是读懂题目。我选择背诵常见的专业术语，再做三四套模拟卷熟悉题型、吸收没见过的英语表达。</p>
+        <p>作为新加坡的第一语言，英语需要长期学习：背单词、用雅思真题练习……考前只需明确题型、两三套模拟卷练手即可。</p>
+        <p>向性测试是一项"随缘"的考试，先会做、再提速。我选择每天练 40 道题来增加熟悉度。</p>
+        <p>面试上，实在非常感谢 Jackie 提供的帮助（也是精准押到题了）。面试课上，Jackie 与我一起分析答题思路，让我面试时思路清晰、逻辑严密；也针对我的优势准备了关键语料、优化了表达。考前 6 小时的精准辅导，收获颇多！同时，考前一周的冲刺阶段要保持每天 90 分钟开口练习，不会说的就上网查，面试时也就更自信、有把握了。</p>
+        <p><b>三、保持平常心：心态比技巧更有效</b></p>
+        <p>冲新的同学都非常优秀，压力大十分正常，做好自我调节、保持信心即可。</p>
+        <p>良好的心态是稳定发挥的关键。笔试按正常速度做题（除了 GAT 和作文，其他时间非常充足），不会做的先跳过，千万不要卡太久，也不要过度慌张——你难别人也难，大家都一样；面试的氛围轻松愉悦，体现自己的逻辑和优势即可。总结来讲：放轻松，发挥出真实实力就行。</p>
+        <p><b>写在最后</b></p>
+        <p>回望这一年的备考之路，有太多艰难的时刻，也有太多坚持之后的微光。最终拿到全奖录取通知的那一刻，看似意料之外，像是幸运的垂青；但只有我自己知道，这是一次次打磨和努力之后迟早会来的结果——它早已在我的规划和坚持中埋下伏笔，所以也是意料之中。</p>
+        <p>感谢一路支持我的家人和朋友，也感谢环亚提供的资料和帮助（老师们都很有耐心，也很有实力），更感谢那个始终没有松手的自己。</p>
+        <p>愿每一份认真都被时间温柔以待，愿每一个奔跑的你，也终将在自己的路上，收获那份意料之中的惊喜。</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-9">
+      <h4>Amazing Grace｜华侨中学备考之路</h4>
+      <div class="vm-author">卢同学 · 2025 年华侨中学全额奖学金</div>
+      <div class="vm-text">
+        <p>T'was amazing grace, how sweet the sound.</p>
+        <p>最终考完面试的那个下午，手中的咖啡刚喝了一半，"考后躁郁症"还在持续发作——理应六点拨来的电话，却突然在下午两点半响起。那一刻，Chris 的办公室内，仿佛惊现"人类返祖现象"！</p>
+        <p>喜获全奖的激动退却之后，必须静下心来感谢：几个月以来坚持不懈的自己，和一直陪跑的老师们。</p>
+        <p><b>PART 01｜靶向教学</b></p>
+        <p>我的英语底子算不错：考华中前几乎是裸考雅思，首考拿到 7.0（虽然比不上评论区的大神们，但小生心已知足）；校内大桥的双单元英语也基本稳居前三。</p>
+        <p>但环亚的教学，更像一场精细化定制：哪里卡壳，哪里突破。写作是我最薄弱的环节，Jackie 老师带我们从 essay 写到 narrative，哪怕最初思路打结、词汇生硬，也一点点理顺。阅读部分则精准命中"痛点"——介词填空训练、"猜词"技巧等，再配合 Ben 老师"机器人级别"的逻辑训练。我相信，大家会对英语建立起全新的认知。</p>
+        <p>面试也是如此。环亚的面试训练几乎是 360° 覆盖。新加坡的学校并不会刻意为难你，只要把课上内容吃透、练熟，做到"敢说""不怕错"，就已是极好的。</p>
+        <p><b>PART 02｜词汇积累</b></p>
+        <p>新加坡选拔考试，本质上就是一场"词汇拉锯战"。英语卷 Part 1，70% 考的是词汇，而且是换着花样考你；数学题如果读不懂题意，再高的智商也救不了。</p>
+        <p>举个例子：我是雅思 7.0，和我一起考的一位女生是 8.0，还有一位学长托福 106。我们三人都考上了——但我们都承认：词汇真的没完全 hold 住！</p>
+        <p>我的建议是：词汇多多益善，不要满足于仅仅完成老师布置的任务。我个人习惯每天背三四百个，多滚几遍效果最佳。课后练习也要跟上——尤其直升班的同学时间充裕，抓住机会读透吃透，并将其转化为高效输出。我的写作和面试成绩能显著提升，秘诀就在于"精练"和"转化"。</p>
+        <p><b>PART 03｜保持自信</b></p>
+        <p>备考期间，我们要付出 10000% 的努力和细致；到了考场，要稳住，不被难题吓到。</p>
+        <p>就像 Jackie 老师经常吐槽我"记叙文拉胯"，但考试当天 essay 连影子都没有，只能硬着头皮写 description——结果大家都觉得很难，我也就不显得那么"拉"了。</p>
+        <p>面试时，我和一个口语碾压我的同学分到一组。但我没有试图"压制"对方，只是把自己准备好的内容讲清楚、讲明白。最终，我们俩都晋级了。</p>
+        <p>考前的自信，是为了更充分地备考；考场上的自信，是为了让努力真正落地发挥。</p>
+        <p>最后想说，两手准备也是必须的。Don't put all your eggs into one basket——不论结果如何，努力过，我们都该勇敢迎接未来，不是吗？</p>
+        <p><b>最后的最后</b></p>
+        <p>感谢所有的授课老师：Jackie、Ben 以及校长 Chris；还有全体助教：吕老师、过老师，毕业于大桥中学的小金学长，毕业于大桥中学和新加坡北伦敦学校的小吴学姐，以及来自加拿大的 Robin Wong 老师……</p>
+        <p>感谢大家这几个月来的陪伴！</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-10">
+      <h4>输入、输出与模仿｜我的雅思 8.5 之路</h4>
+      <div class="vm-author">陈同学 · 雅思 8.5 · 复旦大学</div>
+      <div class="vm-text">
+        <p>在高三暑假的这次雅思考试中，我有幸考到 8.5 分。借此机会，我想分享自己对英语学习的一些浅薄认识，以及一路走来的经历。</p>
+        <p>我的第一次雅思考试是在高一暑假。那时我刚上完 Jackie 老师 20 小时的一对一口语、写作课程，凭借那段系统训练，顺利拿到 8.0 的高分。回头看，那次学习经历让我真正体会到"方法论"的重要性。</p>
+        <p>除了 Jackie 老师的点拨，我也曾在环亚学习过一段时间，跟 Ben、Elsie 和 Chris 上过阅读、写作等课程。这些学习经历为我打下了扎实的基础，也让我在英语学习道路上逐渐摸索出自己的节奏。</p>
+        <p>我认为，语言的习得本质上在于输入和输出。</p>
+        <p><b>输入要有选择性。</b>可以利用碎片时间，通过听英语播客、看外刊新闻、追影视作品等方式进行"可理解性输入"——即接触略高于自己当前水平的语言材料。与此同时，如果能围绕自己感兴趣的话题去寻找语料，输入就会变成一种享受，让语言学习更加自然和长久。</p>
+        <p><b>同样重要的是搭建输入和输出之间的转化通道。</b>大量的输入需要通过转化为输出来被真正内化。这个过程往往需要"悟"，需要对语料进行用心的理解与消化。方法也许没有固定答案，更多是一种"悠然心会"，希望大家都能找到属于自己的路径。</p>
+        <p>在输入与输出的平衡上，我个人的习惯是"输入远多于输出"。即使到了高三，我也几乎没有在考试之外专门练习过作文——雅思笔试前甚至没动笔写过，但我通过对输入的理解来弥补输出的不足。与此同时，我也看到有的同学通过大量写作、口语练习来倒逼输入，这同样有效。适合自己的，就是最好的。</p>
+        <p><b>还有一个很重要的环节是"模仿"。</b>模仿不仅是照搬，更是学习语言背后的逻辑与结构。从模仿到理解，再到逐步建立自己的表达风格——这是我特别推崇的一条路径。</p>
+        <p>说到这次考试，准备时间其实非常有限。高考结束后的两个月里，我几乎没碰英语。笔试和口试之间只隔一天，我甚至把那唯一的一天拿去融创乐园看了场演唱会（那艺娜真的唱得很棒）。幸好结果还算惊喜。</p>
+        <p>回头看，这得益于考前那一整天的集中复盘——我把 Jackie 老师写的剑16–19 范文逐篇精读、逐帧分析，从中积累话题思路、学习文章结构，还摘录了常用短语与句型。这些细致的准备给了我极大的写作启发。</p>
+        <p>至于口语，这次我因为贪玩几乎没准备，只用半天时间收集了一些 Part 2 素材简单串题。但考场上依然能比较自如地表达——这离不开之前的长期积累，也离不开 Jackie 和 Chris 考前的叮嘱，让我很安心。</p>
+        <p>语言习得不是机械训练的产物，而是长期、持续的"可理解性输入"与适度输出（听读→说写）的自然结果。只要保持兴趣、享受过程，高分是水到渠成的。祝大家都能借由英语，走向更广阔的世界！</p>
+        <p>Fingers crossed for all of you. ✨</p>
+        <p><b>彩蛋：Jackie 的观察</b></p>
+        <p>对所有教过星妤的老师来说，她都是一个特别的存在——甚至我的电脑里有一个她的专属文件夹，用于储存给她准备的资料。因为她的大脑像一块超级海绵，每次上课，我们都要准备三倍于普通课堂的量，才能满足她的学习力。在我的观察里，星妤的学习能力至少有三个特点。</p>
+        <p><b>其一，阅读。</b>她的阅读量之大、阅读速度之快，让我非常欣赏和羡慕。我始终坚信，阅读和反思是最有效的学习方法，这一点在星妤身上有绝佳体现。我仍记得第一次和她上课，我给了她一篇很长的《国家地理》关于福奇的英文专访，十几页的内容，她很快读完并准确回答了我所有的问题，让我大为赞叹。据她妈妈讲，星妤从小就爱看书（所以近视度数也很深）。在屏幕充斥的年代，这样的能力愈发珍贵，值得我们学习。</p>
+        <p><b>其二，专注。</b>这种专注不体现在随时随地的笔记和抄写，而体现在信息输入时大脑快速、主动的思考和 screening。有一件很有意思的小事：我上课时让她拿荧光笔把范文中不认识的单词划出来，星妤在（她丐版的）笔袋里找了半天，拿出一支荧光笔——没墨了；又找出一支——又没墨了；最终只能用她的万年黑水笔作笔记。后来新年我还送她一盒荧光笔，以此打趣她。</p>
+        <p>在她第一次考雅思的前一天，我们上了最后一节课。等她到苏州之后，才发现所有笔记都落在我教室里，于是我把每张笔记扫描发给她。那是我第一次看到她记的笔记——非常简洁、稀疏、字迹潦草，但记的全是最重要的原则、方法、重要词汇。她把课堂上的时间和脑力留给了最重要的工作：关注什么是重要的、什么是值得注意并执行的；对于不重要的内容（用荧光笔还是黑笔、写好看的字或做彩色笔记），她并不为之分配脑力。</p>
+        <p><b>其三，聪明。</b>这里的"聪明"并非天赋异禀或思维异于常人，而是她懂得 "play to the rule"——一个很简单的生活哲学：我们的社会处于规则的管束之下，想要赢得胜利，就必须遵守规则、利用规则。</p>
+        <p>星妤不仅在雅思上取得 8.5 的超高分，也在高考中取得英语 146 的接近满分成绩。但高考英语和雅思有很多不同——星妤认识到了规则的不同，清楚地知道如何按规则的要求调整自己的表现。她二战雅思之前，我们没有上一丁点课。我只是叮嘱她：口语做一点模考；写作"控制时间、检查错误、使用整体高级的语言而不仅仅是衔接词的高级、使用代词增加连贯性、调整状语位置增加语法结构灵活性"——然后发给她十几篇我考写作 8.5 之前的练笔。她花了一天时间琢磨这些文章，然后就去考试了。</p>
+        <p>之后我偶然看到她作为助教帮我们的学生改作文，一些段落间的衔接方式，能明显看到我自己写作习惯的影子。她二战出分当天，我们另一个学生评论说"这是小 Jackie 了"，我非常开心。"教育的本质是一棵树摇动另一棵树"，可能描写的就是这种感受。</p>
+        <p>认识星妤的这些年里，我们目睹了她稳步的成长：一路从大桥到天一到复旦，在深夜为剑桥面试做准备，为了心中的梦校梦专业婉拒新加坡国立大学的橄榄枝。这一路有许多挫折与压力，但星妤充满韧性——闲暇时刻除了看书，也不忘看那艺娜的演唱会、支持同学的填志愿直播。</p>
+        <p>祝愿她在大学能继续"博学而笃志，切问而近思"，实现人生更多的可能。</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-11">
+      <h4>写作从 6 到 7｜模板之外的路</h4>
+      <div class="vm-author">朱同学 · 雅思 7.5 · 写作 6 → 7</div>
+      <div class="vm-text">
+        <p>第一次考写作 6 分时，我只是背了一些模板和趋势类词汇句型，几乎没有真正练习。后来在课堂上，老师系统讲解了评分标准和各部分的写作要求，并帮我扩充了句型和词汇。</p>
+        <p>最关键的是，我每天坚持写作并交给 Jackie 老师修改，她会指出具体问题和改进方法。通过这种反复训练，我能更快捕捉图表信息、减少错误、提升写作速度——也为大作文争取了更多时间。</p>
+        <p>过去我写作文时常带着"高考作文"的思维，但雅思更强调"社会视野和逻辑展开"。在老师的指导下，我掌握了几种万能开头段写法，可以快速进入正文；同时积累了各类话题的核心词汇，学习了常见的论证方式。老师推荐我阅读优秀范文，并结合她的修改意见去模仿和练习，让我逐渐学会用更地道的词汇和句型展开论述。</p>
+        <p>总之，从 6 到 7 的提升，靠的不是套用模板，而是"系统学习 + 大量练习 + 老师的精细批改"。Jackie 老师不仅在课堂上梳理了写作思路，更在课后耐心修改了我写的每一篇文章，让我真正理解该如何改进。持续练习加上专业反馈，才让我突破瓶颈，达到了预期的分数。</p>
+      </div>
+    </div>
+
+    <!-- 感言全文弹窗 -->
+    <div class="vmodal" id="vmodal" role="dialog" aria-modal="true" aria-label="学员感言全文">
+      <div class="vm-bg"></div>
+      <div class="vm-box">
+        <button class="vm-close" type="button" aria-label="关闭">✕</button>
+        <div id="vmbody"></div>
+      </div>
+    </div>
+
+    <!-- 高分学员名单：双排横向滚动 -->
+    <div class="j-sub" data-reveal>
+      <h3 class="j-subtitle">高分学员名单<span class="en">Honor Roll</span></h3>
+    </div>
+    <div class="roll-marquee" data-reveal aria-label="雅思与托福高分学员">
+      <div class="roll-track">
+        <span class="r-chip"><b>陈同学</b><em>雅思 8.5</em>复旦大学</span>
+        <span class="r-chip"><b>M同学</b><em>雅思 8.5</em>阿尔伯塔大学</span>
+        <span class="r-chip"><b>汪同学</b><em>雅思 8.5</em>麦吉尔大学</span>
+        <span class="r-chip"><b>徐同学</b><em>雅思 8.0</em>普林斯顿大学</span>
+        <span class="r-chip"><b>王同学</b><em>雅思 8.0</em>皇家兽医学院</span>
+        <span class="r-chip"><b>苏同学</b><em>雅思 8.0</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>陈同学</b><em>雅思 8.0</em>协和双语学校八年级</span>
+        <span class="r-chip"><b>Allison</b><em>雅思 8.0</em>协和双语学校九年级</span>
+        <span class="r-chip"><b>陈同学</b><em>雅思 8.0</em>天一高中十年级</span>
+        <span class="r-chip"><b>高同学</b><em>雅思 8.0</em></span>
+        <span class="r-chip"><b>佘同学</b><em>托福 6.0 满分</em>无锡协和双语学校十年级</span>
+        <span class="r-chip"><b>J同学</b><em>托福 110</em>上海美国学校 · 录取西北大学</span>
+        <span class="r-chip"><b>江同学</b><em>托福 115</em>约翰斯·霍普金斯大学</span>
+        <span class="r-chip"><b>顾同学</b><em>托福 108</em>约翰斯·霍普金斯大学</span>
+        <span class="r-chip"><b>龚同学</b><em>托福 112</em>卡尔顿学院</span>
+        <span class="r-chip"><b>张同学</b><em>托福 107</em>北卡罗来纳大学</span>
+        <span class="r-chip"><b>荀同学</b><em>托福 110</em>南加州大学</span>
+        <span class="r-chip" aria-hidden="true"><b>陈同学</b><em>雅思 8.5</em>复旦大学</span>
+        <span class="r-chip" aria-hidden="true"><b>M同学</b><em>雅思 8.5</em>阿尔伯塔大学</span>
+        <span class="r-chip" aria-hidden="true"><b>汪同学</b><em>雅思 8.5</em>麦吉尔大学</span>
+        <span class="r-chip" aria-hidden="true"><b>徐同学</b><em>雅思 8.0</em>普林斯顿大学</span>
+        <span class="r-chip" aria-hidden="true"><b>王同学</b><em>雅思 8.0</em>皇家兽医学院</span>
+        <span class="r-chip" aria-hidden="true"><b>苏同学</b><em>雅思 8.0</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>陈同学</b><em>雅思 8.0</em>协和双语学校八年级</span>
+        <span class="r-chip" aria-hidden="true"><b>Allison</b><em>雅思 8.0</em>协和双语学校九年级</span>
+        <span class="r-chip" aria-hidden="true"><b>陈同学</b><em>雅思 8.0</em>天一高中十年级</span>
+        <span class="r-chip" aria-hidden="true"><b>高同学</b><em>雅思 8.0</em></span>
+        <span class="r-chip" aria-hidden="true"><b>佘同学</b><em>托福 6.0 满分</em>无锡协和双语学校十年级</span>
+        <span class="r-chip" aria-hidden="true"><b>J同学</b><em>托福 110</em>上海美国学校 · 录取西北大学</span>
+        <span class="r-chip" aria-hidden="true"><b>江同学</b><em>托福 115</em>约翰斯·霍普金斯大学</span>
+        <span class="r-chip" aria-hidden="true"><b>顾同学</b><em>托福 108</em>约翰斯·霍普金斯大学</span>
+        <span class="r-chip" aria-hidden="true"><b>龚同学</b><em>托福 112</em>卡尔顿学院</span>
+        <span class="r-chip" aria-hidden="true"><b>张同学</b><em>托福 107</em>北卡罗来纳大学</span>
+        <span class="r-chip" aria-hidden="true"><b>荀同学</b><em>托福 110</em>南加州大学</span>
+      </div>
+    </div>
+    <div class="roll-marquee" data-reveal aria-label="全额奖学金学员">
+      <div class="roll-track rev">
+        <span class="r-chip"><b>廖同学</b><em>2026</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>何同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>陈同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>张同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>周同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip"><b>陈同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip"><b>叶同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip"><b>卢同学</b><em>2025</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>诸同学</b><em>2025</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>杨同学</b><em>2025</em>南洋女中全额奖学金</span>
+        <span class="r-chip"><b>苏同学</b><em>2024</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>欧同学</b><em>2024</em>华侨中学全额奖学金</span>
+        <span class="r-chip"><b>马同学</b><em>2024</em>南洋女中全额奖学金</span>
+        <span class="r-chip"><b>吕同学</b><em>2024</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>王同学</b><em>2024</em>中正中学全额奖学金</span>
+        <span class="r-chip"><b>苏同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>潘同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>辛同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>周同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>吴同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>黄同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip"><b>张同学</b><em>2021</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>廖同学</b><em>2026</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>何同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>陈同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>张同学</b><em>2026</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>周同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>陈同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>叶同学</b><em>2026</em>南洋女中全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>卢同学</b><em>2025</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>诸同学</b><em>2025</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>杨同学</b><em>2025</em>南洋女中全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>苏同学</b><em>2024</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>欧同学</b><em>2024</em>华侨中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>马同学</b><em>2024</em>南洋女中全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>吕同学</b><em>2024</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>王同学</b><em>2024</em>中正中学全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>苏同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>潘同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>辛同学</b><em>2023</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>周同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>吴同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>黄同学</b><em>2022</em>华中国际学校全额奖学金</span>
+        <span class="r-chip" aria-hidden="true"><b>张同学</b><em>2021</em>华中国际学校全额奖学金</span>
+      </div>
+    </div>
+
+    <!-- 学员活动照片墙（从 Team 段移入，2026-08-06 用户定） -->
+    <div class="diff-wall team-wall" data-reveal aria-label="学员活动照片墙">
+      <!-- 新照片加入第一组后，再同步复制到第二组，保持无缝滚动。 -->
+      <div class="diff-wall-track">
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-report.jpg" data-full="jackie-wall/jackie-ielts-report.png" alt="Jackie 的雅思成绩单" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-workshop.jpg" data-full="jackie-wall/jackie-ielts-workshop.jpg" alt="Jackie 的雅思教师培训证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ted-certificate.jpg" data-full="jackie-wall/jackie-ted-certificate.jpg" alt="Jackie 的 TEDx 证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-bath-degree.jpg" data-full="jackie-wall/jackie-bath-degree.jpg" alt="Jackie 的巴斯大学学位证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-student-celebration.jpg" data-full="jackie-wall/hy-student-celebration.jpg" alt="环亚国际教育活动合影" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-result.jpg" data-full="jackie-wall/jackie-ielts-result.png" alt="Jackie 的雅思成绩页面" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-result.jpg" data-full="jackie-wall/jackie-toefl-result.jpg" alt="Jackie 的托福成绩页面" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-team-photo.jpg" data-full="jackie-wall/hy-team-photo.jpg" alt="环亚国际教育团队合影" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/jackie-tedx-stage.jpg" data-full="jackie-wall/jackie-tedx-stage.jpg" alt="Jackie 在 TEDx 舞台演讲" style="object-position:68% center" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-students-01.jpg" data-full="jackie-wall/hy-office-students-01.jpg" alt="HY-LITE office group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-students-02.jpg" data-full="jackie-wall/hy-office-students-02.jpg" alt="HY-LITE office group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-opening.jpg" data-full="jackie-wall/hy-office-opening.jpg" alt="HY-LITE office opening celebration" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-singapore-campus.jpg" data-full="jackie-wall/hy-singapore-campus.jpg" alt="HY-LITE Singapore campus group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-visitor-group.jpg" data-full="jackie-wall/hy-visitor-group.jpg" alt="HY-LITE visitor group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-team-dinner.jpg" data-full="jackie-wall/hy-team-dinner.jpg" alt="HY-LITE team dinner" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/jackie-lecture-hall.jpg" data-full="jackie-wall/jackie-lecture-hall.jpg" alt="Jackie teaching in a lecture hall" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-class-group.jpg" data-full="jackie-wall/hy-class-group.jpg" alt="HY-LITE classroom group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-students-laptops.jpg" data-full="jackie-wall/hy-students-laptops.jpg" alt="HY-LITE students in class" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-ielts-team-scores.jpg" data-full="jackie-wall/hy-ielts-team-scores.jpg" alt="HY-LITE IELTS score group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-propell-2012.jpg" data-full="jackie-wall/jackie-toefl-propell-2012.jpg" alt="Jackie TOEFL Propell workshop certificate" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-propell-2014.jpg" data-full="jackie-wall/jackie-toefl-propell-2014.jpg" alt="Jackie TOEFL Propell workshop certificate" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-christmas-choir.jpg" data-full="jackie-wall/hy-christmas-choir.jpg" alt="HY-LITE student Christmas choir" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-fencing-championship.jpg" data-full="jackie-wall/hy-fencing-championship.jpg" alt="HY-LITE fencing championship group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-fencing-cadet-circuit.jpg" data-full="jackie-wall/hy-fencing-cadet-circuit.jpg" alt="HY-LITE fencing cadet circuit group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-report.jpg" data-full="jackie-wall/jackie-ielts-report.png" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-workshop.jpg" data-full="jackie-wall/jackie-ielts-workshop.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ted-certificate.jpg" data-full="jackie-wall/jackie-ted-certificate.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-bath-degree.jpg" data-full="jackie-wall/jackie-bath-degree.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-student-celebration.jpg" data-full="jackie-wall/hy-student-celebration.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-result.jpg" data-full="jackie-wall/jackie-ielts-result.png" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-result.jpg" data-full="jackie-wall/jackie-toefl-result.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-team-photo.jpg" data-full="jackie-wall/hy-team-photo.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-tedx-stage.jpg" data-full="jackie-wall/jackie-tedx-stage.jpg" alt="" style="object-position:68% center" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-students-01.jpg" data-full="jackie-wall/hy-office-students-01.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-students-02.jpg" data-full="jackie-wall/hy-office-students-02.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-opening.jpg" data-full="jackie-wall/hy-office-opening.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-singapore-campus.jpg" data-full="jackie-wall/hy-singapore-campus.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-visitor-group.jpg" data-full="jackie-wall/hy-visitor-group.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-team-dinner.jpg" data-full="jackie-wall/hy-team-dinner.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-lecture-hall.jpg" data-full="jackie-wall/jackie-lecture-hall.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-class-group.jpg" data-full="jackie-wall/hy-class-group.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-students-laptops.jpg" data-full="jackie-wall/hy-students-laptops.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-ielts-team-scores.jpg" data-full="jackie-wall/hy-ielts-team-scores.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-propell-2012.jpg" data-full="jackie-wall/jackie-toefl-propell-2012.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-propell-2014.jpg" data-full="jackie-wall/jackie-toefl-propell-2014.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-christmas-choir.jpg" data-full="jackie-wall/hy-christmas-choir.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-fencing-championship.jpg" data-full="jackie-wall/hy-fencing-championship.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-fencing-cadet-circuit.jpg" data-full="jackie-wall/hy-fencing-cadet-circuit.jpg" alt="" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚：渠道 + 联系方式 ============ -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="staff-contact" aria-label="联系工作人员">
+      <img src="contact/staff-wechat.jpg" alt="联系工作人员二维码" loading="lazy" decoding="async">
+      <div class="staff-contact-copy">
+        <strong>扫码</strong>
+        <span>联系工作人员</span>
+      </div>
+    </div>
+    <div class="channels">
+      <a href="channels.html?c=gzh">公众号</a>
+      <a href="channels.html?c=sph">视频号</a>
+      <a href="channels.html?c=xhs">小红书</a>
+      <a href="channels.html?c=ipx">Ipraxis</a>
+    </div>
+    <p class="foot-meta"><span>无锡 · 云蝠大厦 1201–1202</span>　|　<span>0510-82820708</span>　|　<span>Since 2003</span>　|　<span>© HY-LITE 环亚国际英语</span></p>
+  </div>
+</footer>
+
 <script>
+if (location.search.indexOf('shot') > -1) document.documentElement.classList.add('shot');
+/* ================================================================
+   粒子文字场（双行版）：
+   第一行 HY LITE education + 第二行 环亚国际教育（放大，一同受扰动）
+   弹簧回位 / 静止休眠 / 指针唤醒 / 滚出视口停帧
+   ================================================================ */
 (function(){
-  // 复活倒计时：归零后叹口气，从头再来（他又送了）
-  var el = document.getElementById('cd'), t = 90;
-  setInterval(function(){
-    t -= 1;
-    if (t < 0){ t = 90; }
-    el.textContent = t;
-  }, 1000);
+  var canvas = document.getElementById('pfield');
+  var cover = document.getElementById('cover');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var CFG = {
+    text: 'Hy-Lite Education',
+    font: '"Times New Roman",Georgia,serif', // 10号：粗斜衬线（用户定稿，勿改）
+    weight: 'italic 700',
+    track: 0.03,          // 字距 0.03em（照实验室截图）
+    dotRatio: 0.60,       // 点径 60%（照实验室截图）
+    accent: 0.08,         // 赭红点 8%（照实验室截图）
+    spring: 0.004,
+    damping: 0.9,
+    radius: 180,
+    force: 2.5,
+    attract: 2,
+    dragInertia: 0.2,
+    velDamp: 0.5,
+    maxSpeed: 50,
+    entrance: 2000,
+    textCenterY: 0.42
+  };
+
+  // 稳定伪随机：赭红点位置不随重建闪变（实验室同款）
+  function hash(x, y){
+    var h = x * 374761393 + y * 668265263;
+    h = (h ^ (h >> 13)) * 1274126177;
+    return ((h ^ (h >> 16)) >>> 0) / 4294967295;
+  }
+
+  var W = 0, H = 0, DPR = 1;
+  var px, py, hx, hy, vx, vy, tint;
+  var count = 0, dotSize = 4;
+  var entStart = null, entT0 = 0;
+  var running = false, rafId = 0, built = false;
+  var visible = true, idle = 0;
+  var mouse = { x: 1e9, y: 1e9, px: 1e9, py: 1e9, vx: 0, vy: 0 };
+
+  function sizeCanvas(){
+    W = cover.clientWidth; H = cover.clientHeight;
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.max(1, Math.round(W * DPR));
+    canvas.height = Math.max(1, Math.round(H * DPR));
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+
+  function build(playEntrance){
+    sizeCanvas();
+    if (W < 2 || H < 2){ built = false; return; }
+
+    var off = document.createElement('canvas');
+    off.width = W; off.height = H;
+    var octx = off.getContext('2d', { willReadFrequently: true });
+    octx.fillStyle = '#fff';
+    octx.textAlign = 'center';
+    octx.textBaseline = 'middle';
+
+    // 排版：桌面单行约 70% 视口宽；手机竖屏拆两行（Hy Lite / Education）按 86% 宽定字号，字更大更清楚
+    var lines = W < 640 ? ['Hy-Lite', 'Education'] : [CFG.text];
+    octx.font = CFG.weight + ' 100px ' + CFG.font;
+    var fs;
+    if (lines.length > 1){
+      fs = Infinity;
+      for (var lw = 0; lw < lines.length; lw++){
+        var mw = octx.measureText(lines[lw]).width || 1;
+        fs = Math.min(fs, 100 * (W * 0.86) / mw);
+      }
+      fs = Math.max(Math.min(fs, H * 0.16, 170), 30);
+    } else {
+      var m100 = octx.measureText(CFG.text).width || 1;
+      fs = 100 * (W * 0.70) / m100;
+      fs = Math.max(Math.min(fs, H * 0.22, 170), 30);
+    }
+    octx.font = CFG.weight + ' ' + fs + 'px ' + CFG.font;
+    // 手动字距（0.03em）逐字排布
+    function measureLine(str){
+      var cs = str.split(''), ls = CFG.track * fs, t = 0, ws = [];
+      for (var c = 0; c < cs.length; c++){
+        var w0 = octx.measureText(cs[c]).width;
+        ws.push(w0); t += w0 + ls;
+      }
+      return { chars: cs, widths: ws, total: t - ls, ls: ls };
+    }
+    function measureLines(){
+      var arr = [], widest = 0;
+      for (var li = 0; li < lines.length; li++){
+        var m1 = measureLine(lines[li]);
+        arr.push(m1); if (m1.total > widest) widest = m1.total;
+      }
+      return { ms: arr, widest: widest };
+    }
+    var mm = measureLines();
+    var maxW = W - 32;
+    if (mm.widest > maxW){
+      fs *= maxW / mm.widest;
+      octx.font = CFG.weight + ' ' + fs + 'px ' + CFG.font;
+      mm = measureLines();
+    }
+    var lineH = fs * 1.18;
+    var ty0 = H * CFG.textCenterY - (lines.length - 1) * lineH / 2;
+    for (var li2 = 0; li2 < lines.length; li2++){
+      var m = mm.ms[li2];
+      var ty = ty0 + li2 * lineH;
+      var cx = (W - m.total) / 2;
+      for (var ci = 0; ci < m.chars.length; ci++){
+        octx.fillText(m.chars[ci], cx + m.widths[ci] / 2, ty);
+        cx += m.widths[ci] + m.ls;
+      }
+    }
+
+    // 中文固定字贴在点阵最后一行下方
+    var sub = document.getElementById('zhsub');
+    if (sub) sub.style.top = Math.round(ty0 + (lines.length - 1) * lineH + fs * 0.62 + 22) + 'px';
+
+    // 规则网格点阵光栅（无抖动——这是点阵和"粒子"的区别）
+    var gap = W < 640 ? 4 : 5;   // 5px（照实验室截图）
+    dotSize = gap * CFG.dotRatio;
+    var data = octx.getImageData(0, 0, off.width, off.height).data;
+    var pts = [];
+    for (var y = 0; y < off.height; y += gap){
+      for (var x = 0; x < off.width; x += gap){
+        if (data[(y * off.width + x) * 4 + 3] > 128){
+          pts.push(x, y);
+        }
+      }
+    }
+    count = pts.length / 2;
+    px = new Float32Array(count); py = new Float32Array(count);
+    hx = new Float32Array(count); hy = new Float32Array(count);
+    vx = new Float32Array(count); vy = new Float32Array(count);
+    tint = new Uint8Array(count);
+    entStart = playEntrance ? new Float32Array(count * 2) : null;
+
+    for (var i = 0; i < count; i++){
+      hx[i] = pts[i * 2]; hy[i] = pts[i * 2 + 1];
+      tint[i] = hash(Math.round(hx[i] / gap), Math.round(hy[i] / gap)) < CFG.accent ? 1 : 0;
+      if (playEntrance){
+        var sx = W / 2 + (Math.random() - .5) * W * 1.2;
+        var sy = H / 2 + (Math.random() - .5) * H * 1.2;
+        entStart[i * 2] = sx; entStart[i * 2 + 1] = sy;
+        px[i] = sx; py[i] = sy;
+      } else {
+        px[i] = hx[i]; py[i] = hy[i];
+      }
+      vx[i] = 0; vy[i] = 0;
+    }
+    entT0 = playEntrance ? performance.now() : 0;
+    idle = 0;
+    built = true;
+    if (reduce){ draw(); }
+  }
+
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    var r = dotSize / 2, TAU = Math.PI * 2;
+    // 圆点（照实验室截图）：按色分两笔画完
+    ctx.fillStyle = '#26251F';
+    ctx.beginPath();
+    for (var i = 0; i < count; i++)
+      if (!tint[i]){ ctx.moveTo(px[i] + r, py[i]); ctx.arc(px[i], py[i], r, 0, TAU); }
+    ctx.fill();
+    ctx.fillStyle = '#CD6F47'; // 赭红
+    ctx.beginPath();
+    for (var j = 0; j < count; j++)
+      if (tint[j]){ ctx.moveTo(px[j] + r, py[j]); ctx.arc(px[j], py[j], r, 0, TAU); }
+    ctx.fill();
+  }
+
+  function loop(){
+    rafId = requestAnimationFrame(loop);
+    if (!built) return;
+
+    mouse.vx *= CFG.velDamp; mouse.vy *= CFG.velDamp;
+    if (Math.abs(mouse.vx) < .01) mouse.vx = 0;
+    if (Math.abs(mouse.vy) < .01) mouse.vy = 0;
+
+    if (entStart && entT0){
+      var t = Math.min(1, (performance.now() - entT0) / CFG.entrance);
+      var e = 1 - Math.pow(1 - t, 3);
+      for (var i = 0; i < count; i++){
+        px[i] = entStart[i * 2] + (hx[i] - entStart[i * 2]) * e;
+        py[i] = entStart[i * 2 + 1] + (hy[i] - entStart[i * 2 + 1]) * e;
+      }
+      if (t >= 1){ entStart = null; entT0 = 0; }
+      draw(); return;
+    }
+
+    var r2 = CFG.radius * CFG.radius;
+    var msp = mouse.vx * mouse.vx + mouse.vy * mouse.vy;
+    var mf = Math.min(msp / 4, 1);
+    var maxV2 = 0, maxD2 = 0;
+    for (var k = 0; k < count; k++){
+      var fx = (hx[k] - px[k]) * CFG.spring;
+      var fy = (hy[k] - py[k]) * CFG.spring;
+      if (mf > 0){
+        var dx = mouse.x - px[k], dy = mouse.y - py[k];
+        var d2 = dx * dx + dy * dy;
+        if (d2 < r2){
+          var d = Math.sqrt(d2) || 1;
+          var inf = 1 - d / CFG.radius;
+          var st = inf * inf * CFG.force * mf;
+          fx += (dx / d) * st * CFG.attract + mouse.vx * st * CFG.dragInertia;
+          fy += (dy / d) * st * CFG.attract + mouse.vy * st * CFG.dragInertia;
+        }
+      }
+      vx[k] = (vx[k] + fx) * CFG.damping;
+      vy[k] = (vy[k] + fy) * CFG.damping;
+      px[k] += vx[k]; py[k] += vy[k];
+
+      var av = vx[k]*vx[k] + vy[k]*vy[k]; if (av > maxV2) maxV2 = av;
+      var ex = hx[k]-px[k], ey = hy[k]-py[k], ed = ex*ex + ey*ey; if (ed > maxD2) maxD2 = ed;
+    }
+    draw();
+
+    if (mf === 0 && maxV2 < 0.0025 && maxD2 < 0.0025){
+      if (++idle > 12) stop();
+    } else idle = 0;
+  }
+
+  function pointerAt(cx, cy){
+    var rect = canvas.getBoundingClientRect();
+    mouse.px = mouse.x; mouse.py = mouse.y;
+    mouse.x = cx - rect.left; mouse.y = cy - rect.top;
+    if (mouse.px < 1e8){
+      var mvx = mouse.x - mouse.px, mvy = mouse.y - mouse.py;
+      mouse.vx = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvx));
+      mouse.vy = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvy));
+    }
+    if (!running && visible && built) start();
+  }
+
+  function start(){
+    if (!running && built && !reduce && visible){ running = true; idle = 0; loop(); }
+  }
+  function stop(){ running = false; cancelAnimationFrame(rafId); }
+  function resetPointer(){ mouse.x = 1e9; mouse.y = 1e9; mouse.px = 1e9; mouse.vx = 0; mouse.vy = 0; }
+
+  // Times 为系统字体即时可用
+  var ready = (document.fonts && document.fonts.ready)
+    ? Promise.race([document.fonts.ready, new Promise(function(r){ setTimeout(r, 1200); })])
+    : Promise.resolve();
+  ready.then(function(){
+    build(!reduce);
+    if (visible) start();
+  });
+
+  if (!reduce){
+    window.addEventListener('mousemove', function(e){ pointerAt(e.clientX, e.clientY); }, { passive: true });
+    window.addEventListener('touchmove', function(e){
+      if (e.touches.length) pointerAt(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    window.addEventListener('touchend', resetPointer);
+    window.addEventListener('touchcancel', resetPointer);
+
+    // 封面触控分区：起手点在「环亚国际教育」行底以上 → 只控制粒子(阻止滚屏)；以下 → 正常滚动
+    var zhsubEl = document.getElementById('zhsub');
+    var holdParticles = false;
+    canvas.addEventListener('touchstart', function(e){
+      var boundary = zhsubEl ? zhsubEl.getBoundingClientRect().bottom : 0;
+      holdParticles = !!e.touches.length && e.touches[0].clientY < boundary;
+    }, { passive: true });
+    canvas.addEventListener('touchmove', function(e){
+      if (holdParticles) e.preventDefault();
+    }, { passive: false });
+    canvas.addEventListener('touchend', function(){ holdParticles = false; }, { passive: true });
+
+    if ('IntersectionObserver' in window){
+      new IntersectionObserver(function(en){
+        visible = en[en.length - 1].isIntersecting;
+        visible ? start() : stop();
+      }, { threshold: 0.02 }).observe(cover);
+    }
+  }
+
+  var rT = 0;
+  window.addEventListener('resize', function(){
+    clearTimeout(rT);
+    rT = setTimeout(function(){
+      if (cover.clientWidth === W && cover.clientHeight === H) return;
+      build(false);
+      if (built){ draw(); if (visible) start(); }
+    }, 150);
+  });
+})();
+
+/* 滚动入场 */
+(function(){
+  var els = document.querySelectorAll('[data-reveal]');
+  if (document.documentElement.classList.contains('shot')){
+    els.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if (!en.isIntersecting) return;
+        en.target.classList.add('in');
+        io.unobserve(en.target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+<script>
+/* 学员感言弹窗：点卡片读全文；✕ / 点遮罩 / Esc 关闭 */
+(function(){
+  var modal = document.getElementById('vmodal');
+  var body = document.getElementById('vmbody');
+  if (!modal || !body) return;
+  function open(id){
+    var src = document.getElementById(id);
+    if (!src) return;
+    body.innerHTML = src.innerHTML;
+    modal.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    var box = modal.querySelector('.vm-box'); if (box) box.scrollTop = 0;
+  }
+  function close(){
+    modal.classList.remove('open');
+    document.documentElement.style.overflow = '';
+  }
+  document.addEventListener('click', function(e){
+    var card = e.target.closest && e.target.closest('.q-card');
+    if (card){ open(card.getAttribute('data-essay')); return; }
+    if (!modal.classList.contains('open')) return;
+    if ((e.target.closest && e.target.closest('.vm-close')) || e.target.classList.contains('vm-bg')) close();
+  });
+  window.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+
+  // 触屏没有 hover：按住任一跑马灯暂停，松手 2.5s 后恢复滚动
+  var tracks = document.querySelectorAll('.qtrack, .roll-track, .diff-wall-track');
+  var wallImages = document.querySelectorAll('.diff-wall-item img');
+  for (var wi = 0; wi < wallImages.length; wi++) {
+    var wallImg = wallImages[wi];
+    var thumbSrc = wallImg.getAttribute('src') || '';
+    if (thumbSrc.indexOf('jackie-wall/thumbs/') === 0) {
+      wallImg.loading = 'eager';
+      wallImg.decoding = 'async';
+      if (thumbSrc.indexOf('?') < 0) wallImg.src = thumbSrc + '?v=20260807';
+      wallImg.addEventListener('error', function () {
+        var fallback = this.getAttribute('data-full');
+        if (fallback && !this.getAttribute('data-wall-fallback')) {
+          this.setAttribute('data-wall-fallback', '1');
+          this.src = fallback;
+        }
+      });
+    }
+  }
+  var resumeTimer = null;
+  function setPlay(state){ for (var i = 0; i < tracks.length; i++) tracks[i].style.animationPlayState = state; }
+  document.addEventListener('touchstart', function(e){
+    if (!(e.target.closest && e.target.closest('.qrow, .roll-marquee, .diff-wall'))) return;
+    clearTimeout(resumeTimer);
+    setPlay('paused');
+  }, { passive: true });
+  document.addEventListener('touchend', function(){
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(function(){ setPlay(''); }, 2500);
+  }, { passive: true });
+})();
+
+/* 照片墙灯箱：原生横滑画廊（scroll-snap）——点开即滑，无中间界面 */
+(function(){
+  var wall = document.querySelector('.diff-wall');
+  if (!wall) return;
+  var srcs = [];
+  var figs = wall.querySelectorAll('.diff-wall-item:not([aria-hidden]) img');
+  for (var i = 0; i < figs.length; i++) srcs.push(figs[i].getAttribute('data-full') || figs[i].getAttribute('src'));  // 灯箱用原图，墙上只挂缩略图
+  if (!srcs.length) return;
+
+  var box = document.createElement('div');
+  box.className = 'plight';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-label', '照片放大查看');
+  var slides = '';
+  for (var s = 0; s < srcs.length; s++) slides += '<div class="pl-slide"><img alt="团队活动照片" decoding="async"></div>';
+  box.innerHTML = '<div class="pl-bg"></div>' +
+    '<div class="pl-strip">' + slides + '</div>' +
+    '<button class="pl-close" type="button" aria-label="关闭">✕</button>' +
+    '<button class="pl-nav pl-prev" type="button" aria-label="上一张">‹</button>' +
+    '<button class="pl-nav pl-next" type="button" aria-label="下一张">›</button>' +
+    '<div class="pl-count"></div>';
+  document.body.appendChild(box);
+  var strip = box.querySelector('.pl-strip'), cnt = box.querySelector('.pl-count');
+  var imgs = strip.querySelectorAll('.pl-slide img'), cur = 0;
+  for (var k = 0; k < imgs.length; k++) imgs[k].addEventListener('load', function(){ this.classList.add('ld'); });
+
+  function load(i){                       // 懒加载：滑到附近才取原图
+    i = (i + srcs.length) % srcs.length;
+    if (!imgs[i].getAttribute('src')) imgs[i].src = srcs[i];
+  }
+  function setCur(i){
+    cur = Math.max(0, Math.min(srcs.length - 1, i));
+    cnt.textContent = (cur + 1) + ' / ' + srcs.length;
+    load(cur); load(cur + 1); load(cur - 1);
+  }
+  function goTo(i, smooth){
+    setCur(i);
+    strip.scrollTo({ left: cur * strip.clientWidth, behavior: smooth ? 'smooth' : 'auto' });
+  }
+  var scT;
+  strip.addEventListener('scroll', function(){   // 手指滑动吸附后同步计数与懒加载
+    clearTimeout(scT);
+    scT = setTimeout(function(){
+      var i = Math.round(strip.scrollLeft / strip.clientWidth);
+      if (i !== cur) setCur(i);
+    }, 80);
+  }, { passive: true });
+
+  function openBox(src){
+    var i = srcs.indexOf(src); if (i < 0) i = 0;
+    box.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    goTo(i, false);
+  }
+  function closeBox(){
+    box.classList.remove('open');
+    document.documentElement.style.overflow = '';
+  }
+  wall.addEventListener('click', function(e){
+    var img = e.target.closest && e.target.closest('.diff-wall-item img');
+    if (img) openBox(img.getAttribute('data-full') || img.getAttribute('src'));
+  });
+  box.querySelector('.pl-close').addEventListener('click', closeBox);
+  strip.addEventListener('click', function(e){ if (e.target.tagName !== 'IMG') closeBox(); });  // 点图外暗处关闭
+  box.querySelector('.pl-prev').addEventListener('click', function(){ goTo(cur - 1, true); });
+  box.querySelector('.pl-next').addEventListener('click', function(){ goTo(cur + 1, true); });
+  window.addEventListener('keydown', function(e){
+    if (!box.classList.contains('open')) return;
+    if (e.key === 'Escape') closeBox();
+    else if (e.key === 'ArrowLeft') goTo(cur - 1, true);
+    else if (e.key === 'ArrowRight') goTo(cur + 1, true);
+  });
 })();
 </script>
 </body>
