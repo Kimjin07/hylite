@@ -173,17 +173,19 @@ html.shot [data-reveal]{opacity:1 !important;transform:none !important}
 section{padding:84px 0;border-top:2px solid var(--ink)}
 .sec-head{margin-bottom:48px}
 
-/* ============ The HY-LITE Difference（三大板块卡片） ============ */
+/* ============ The HY-LITE Difference（三大板块卡片·深色段，与浅色段交替） ============ */
+#difference{background:var(--dark);color:var(--dark-ink);border-top:0}
+#difference .h-dash{color:var(--dark-ink)}
 .diff-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .d-card{
-  border:1.5px solid var(--line);border-radius:16px;background:var(--card);
+  border:1px solid rgba(242,236,224,.18);border-radius:16px;background:rgba(242,236,224,.03);
   padding:34px 30px 32px;
-  transition:transform .35s var(--ease), border-color .35s var(--ease), box-shadow .35s var(--ease);
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease);
 }
-.d-card:hover{transform:translateY(-5px);border-color:var(--clay);box-shadow:0 24px 44px -28px rgba(38,37,31,.35)}
+.d-card:hover{transform:translateY(-5px);border-color:rgba(242,236,224,.4);background:rgba(242,236,224,.05)}
 .d-card .en{display:block;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-family:var(--serif)}
-.d-card h3{margin-top:12px;font-size:22px;font-weight:700;letter-spacing:.04em}
-.d-card p{margin-top:14px;font-size:14.5px;color:var(--muted);line-height:1.85}
+.d-card h3{margin-top:12px;font-size:22px;font-weight:700;letter-spacing:.04em;color:var(--dark-ink)}
+.d-card p{margin-top:14px;font-size:14.5px;color:var(--dark-muted);line-height:1.85}
 @media (max-width:900px){.diff-cards{grid-template-columns:1fr;gap:16px}}
 
 /* ============ The HY-LITE Team：左 Jackie / 右六位老师 + 照片墙 ============ */
@@ -440,10 +442,15 @@ footer{border-top:2px solid var(--ink);padding:44px 0 52px;text-align:center}
   html{scroll-behavior:auto}
   .scroll-hint{animation:none}
 }
+/* 语言切换药丸（右上角固定） */
+.lang-toggle{position:fixed;top:16px;right:18px;z-index:60;font-family:var(--serif);font-size:12.5px;letter-spacing:.1em;color:var(--muted);background:rgba(250,247,240,.82);border:1px solid var(--line);border-radius:999px;padding:8px 15px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:border-color .3s var(--ease),color .3s var(--ease)}
+.lang-toggle b{color:var(--ink);font-weight:700}
+.lang-toggle:hover{border-color:var(--ink);color:var(--ink)}
 </style>
 </head>
 <body>
 <img src="share.png" width="300" height="300" alt="" aria-hidden="true" style="position:absolute;left:-9999px;top:0">
+<a class="lang-toggle" href="en" aria-label="Switch to English"><b>中</b> / EN</a>
 
 <!-- ============ 封面：粒子（HY LITE education + 环亚国际教育 两行都动） ============ -->
 <header class="cover" id="cover">
@@ -965,7 +972,7 @@ footer{border-top:2px solid var(--ink);padding:44px 0 52px;text-align:center}
       <a href="channels.html?c=xhs">小红书</a>
       <a href="channels.html?c=ipx">Ipraxis</a>
     </div>
-    <p class="foot-meta"><span>无锡 · 云蝠大厦 1201–1202</span>　|　<span>0510-82820708</span>　|　<span>Since 2003</span>　|　<span>© HY-LITE 环亚国际教育</span></p>
+    <p class="foot-meta"><span>无锡 · 云蝠大厦 1201–1202</span>　|　<span>0510-82820708</span>　|　<span>Since 2003</span>　|　<span>© HY-LITE 环亚国际英语</span></p>
   </div>
 </footer>
 

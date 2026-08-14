@@ -1,0 +1,1428 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HY-LITE International English | Wuxi · Since 2003</title>
+<meta name="description" content="HY-LITE International English (Wuxi, since 2003): Cambridge English, IELTS, TOEFL and the Singapore Full Scholarship Programme, with our own wordbook system and original textbooks.">
+<link rel="canonical" href="https://hylite.com.cn/en">
+<meta property="og:title" content="HY-LITE International English">
+<meta property="og:description" content="Cambridge English · IELTS · TOEFL · Singapore Full Scholarship · Wuxi, since 2003">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hylite.com.cn/en">
+<meta property="og:image" content="https://hylite.com.cn/share.png">
+<meta name="theme-color" content="#EFEAE0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"HY-LITE International English","alternateName":"环亚国际英语","url":"https://hylite.com.cn/en","foundingDate":"2003","telephone":"+86-510-82820708","address":{"@type":"PostalAddress","addressLocality":"Wuxi","addressRegion":"Jiangsu","addressCountry":"CN","streetAddress":"Yunfu Mansion 1201-1202"},"areaServed":"CN","description":"Cambridge English, IELTS, TOEFL and the Singapore Full Scholarship Programme, with original wordbook systems and textbooks."}
+</script>
+<style>
+/* 主视觉字体：Cormorant Garamond（法式老衬线，自托管，用户定稿） */
+@font-face{
+  font-family:'Cormorant Garamond';
+  src:url('fonts/CormorantGaramond.ttf?v=1');
+  font-weight:300 700;
+  font-display:swap;
+}
+/* 环亚国际教育专用：寒蝉锦书宋 Bold（OFL 开源，仅子集 6 字 3.5KB） */
+@font-face{
+  font-family:'Jinshu Song';
+  src:url('fonts/JinshuSongBold-zhsub.otf?v=2') format('opentype');
+  font-weight:700;
+  font-display:swap;
+}
+/* ============ 设计令牌（延续暖米色体系） ============ */
+:root{
+  --paper:#EFEAE0;
+  --ink:#26251F;
+  --muted:#6B6557;
+  --clay:#C07B52;
+  --clayD:#A5613C;
+  --clayT:rgba(192,123,82,.13);
+  --dark:#241C13;
+  --dark-ink:#F2ECE0;
+  --dark-muted:#A89C88;
+  --line:#DED6C4;
+  --card:#FAF7F0;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --serif:Georgia,"Source Han Serif SC","Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --sans:'MiSans','HarmonyOS Sans SC','PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:17px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.label{
+  font-family:var(--serif);text-transform:uppercase;
+  letter-spacing:.22em;font-size:12px;font-weight:500;color:var(--clay);
+}
+
+/* 占位标记：细节阶段逐个替换 */
+.ph{border:1.5px dashed var(--line);background:var(--card);color:var(--muted);
+    display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px}
+
+/* ============ 封面（第一版粒子封面 + 底部六板块） ============ */
+.cover{
+  position:relative;
+  min-height:100vh;min-height:100svh;
+  display:flex;flex-direction:column;
+}
+.cover::before{ /* 极淡品牌光斑 */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(560px 380px at 30% 30%, rgba(192,123,82,.09), transparent 70%),
+    radial-gradient(520px 360px at 72% 62%, rgba(192,123,82,.06), transparent 70%);
+}
+#pfield{position:absolute;top:0;left:0;width:100%;height:100%} /* 触控分区由 JS 控制：中文行以上粒子跟随不滚屏，以下正常滚动 */
+/* 粒子行下方的中文固定字（实验室「修正」方案：更大更重更深，宋体——中文名不是英文的脚注） */
+#zhsub{
+  position:absolute;left:0;right:0;top:56%;
+  z-index:0;pointer-events:none;text-align:center;
+  font-family:'Jinshu Song',"Songti SC","STSong","SimSun",serif; /* 寒蝉锦书宋，回落宋体 */
+  font-size:19px;font-weight:600;
+  letter-spacing:.22em;text-indent:.22em;
+  color:rgba(38,37,31,.82);
+  opacity:0;animation:subIn .9s var(--ease) 1.15s forwards;
+}
+@keyframes subIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (max-width:640px){#zhsub{font-size:12.5px;letter-spacing:.1em;text-indent:.1em}}
+@media (prefers-reduced-motion: reduce){#zhsub{opacity:1;animation:none}}
+html.shot #zhsub{opacity:1 !important;animation:none !important}
+/* 截图模式：压扁 100vh 封面、强制 reveal 元素显形，便于整页无头截图 */
+html.shot .cover{min-height:560px}
+html.shot [data-reveal]{opacity:1 !important;transform:none !important}
+
+/* 导航 */
+.top{padding-top:20px;position:relative;z-index:2}
+.top ul{
+  display:grid;grid-template-columns:1fr; /* 单入口：背单词 */
+  align-items:center;width:100%;max-width:560px;margin:0 auto;padding:0 24px;
+}
+.top li{display:flex;justify-content:center}
+.top a{position:relative;padding:6px 2px;color:var(--ink);opacity:.78;transition:opacity .3s var(--ease)}
+.top a:hover{opacity:1}
+.top a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--ink);
+  transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.top a:hover::after{transform:scaleX(1)}
+/* 背单词入口：中文标签 + 艺术斜体网址 */
+.top-vocab{display:inline-flex;align-items:baseline;gap:12px}
+.vurl{
+  font-family:'Times New Roman',Georgia,serif; /* 与主视觉同款艺术斜体 */
+  font-style:italic;font-weight:700;
+  font-size:15px;letter-spacing:.02em;
+  color:var(--clayD);
+}
+@media (max-width:640px){
+  /* 手机：词书入口两行居中，字号不超过下方"环亚国际教育"(18px) */
+  .top-vocab{flex-direction:column;align-items:center;gap:5px}
+  .top-vocab .label{font-size:17px;letter-spacing:.16em;text-indent:.16em}
+  .vurl{font-size:13px}
+}
+
+/* 封面底部：六个板块入口 */
+.keys{
+  position:relative;z-index:1;
+  margin-top:auto;
+  padding:0 24px calc(46px + env(safe-area-inset-bottom));
+}
+.keys ul{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr)); /* 2 行 × 3 列 */
+  gap:12px;
+  align-items:stretch;width:100%;max-width:560px;margin:0 auto;
+}
+.keys li{display:block}
+/* 一键一框：奶油小卡片 + 细边线 + 轻毛玻璃，悬停描橙上浮 */
+.keys a{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  width:100%;padding:13px 6px;
+  font-family:var(--serif);font-size:13.5px;font-weight:500;
+  letter-spacing:.14em;color:var(--ink);
+  background:rgba(250,247,240,.78);
+  border:1px solid var(--line);border-radius:14px;
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+  box-shadow:0 14px 30px -26px rgba(38,37,31,.45);
+  transition:color .3s var(--ease), border-color .3s var(--ease), transform .3s var(--ease);
+}
+.keys a:hover{color:var(--clayD);border-color:var(--clayD);transform:translateY(-2px)}
+.scroll-hint{
+  position:absolute;left:50%;bottom:12px;transform:translateX(-50%);
+  color:var(--muted);font-size:16px;opacity:.5;
+  animation:bob 2.2s var(--ease) infinite;
+}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
+@media (max-width:760px){
+  .keys ul{max-width:440px}
+  .keys a{font-size:12.5px;letter-spacing:.1em}
+}
+
+/* ============ 手稿式标题：— Heading. 左对齐 ============ */
+.h-dash{
+  font-family:var(--serif);font-weight:600;
+  font-size:30px;font-size:clamp(26px,3.8vw,40px);
+  letter-spacing:.05em;line-height:1.3;
+}
+.h-dash::before{content:"— ";color:var(--clay)}
+.h-dash::after{content:"."}
+
+section{padding:84px 0;border-top:2px solid var(--ink)}
+.sec-head{margin-bottom:48px}
+
+/* ============ The HY-LITE Difference（三大板块卡片·深色段，与浅色段交替） ============ */
+#difference{background:var(--dark);color:var(--dark-ink);border-top:0}
+#difference .h-dash{color:var(--dark-ink)}
+.diff-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.d-card{
+  border:1px solid rgba(242,236,224,.18);border-radius:16px;background:rgba(242,236,224,.03);
+  padding:34px 30px 32px;
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease);
+}
+.d-card:hover{transform:translateY(-5px);border-color:rgba(242,236,224,.4);background:rgba(242,236,224,.05)}
+.d-card .en{display:block;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-family:var(--serif)}
+.d-card h3{margin-top:12px;font-size:22px;font-weight:700;letter-spacing:.04em;color:var(--dark-ink)}
+.d-card p{margin-top:14px;font-size:14.5px;color:var(--dark-muted);line-height:1.85}
+@media (max-width:900px){.diff-cards{grid-template-columns:1fr;gap:16px}}
+
+/* ============ The HY-LITE Team：左 Jackie / 右六位老师 + 照片墙 ============ */
+.team-split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:start}
+.team-lead .lead-photo{
+  width:100%;height:auto;display:block;   /* 原图 3:2 横幅，不裁切 */
+  border-radius:6px;box-shadow:0 30px 60px -30px rgba(38,37,31,.35);
+}
+.team-lead h3{margin-top:24px;font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:.04em}
+.team-lead p{margin-top:12px;color:var(--muted);font-size:15px}
+.team-lead .who{margin-top:6px;color:var(--clay);font-size:13px;letter-spacing:.24em}
+.team-wall{margin-top:52px}
+.diff-wall{height:300px;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 18px 36px -24px rgba(38,37,31,.55);position:relative}
+.diff-wall-track{display:flex;gap:10px;height:100%;width:max-content;animation:wall-slide 150s linear infinite;will-change:transform}
+.diff-wall:hover .diff-wall-track{animation-play-state:paused}
+.diff-wall-item{height:100%;width:420px;flex:none;position:relative;overflow:hidden;margin:0;background:#fff;cursor:zoom-in}
+.diff-wall-item img{display:block;width:100%;height:100%;object-fit:cover;background:#fff;transition:transform .35s var(--ease)}
+.diff-wall-item:hover img{transform:scale(1.02)}
+.diff-wall-item.is-document{background:#fff}
+.diff-wall-item.is-document img{object-fit:contain}
+@keyframes wall-slide{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.diff-wall-track{animation:none}}
+@media (max-width:820px){
+  .team-split{grid-template-columns:1fr;gap:36px}
+  .team-lead .lead-photo{max-width:340px}
+  .diff-wall{height:230px}
+  .diff-wall-item{width:320px}
+}
+
+/* ============ A Journey of Success（暗段·四并列课程） ============ */
+.journey{background:var(--dark);color:var(--dark-ink);border-top:0}
+.journey .h-dash{color:var(--dark-ink)}
+.j-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.j-card{
+  border:1px solid rgba(242,236,224,.18);border-radius:16px;
+  padding:30px 26px 28px;
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease);
+}
+.j-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(242,236,224,.4);
+  background:rgba(242,236,224,.04);
+}
+.j-card .en{display:block;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-family:var(--serif)}
+.j-card h3{margin-top:12px;font-size:21px;font-weight:700;letter-spacing:.04em}
+.j-card p{margin-top:12px;font-size:13.5px;color:var(--dark-muted);line-height:1.75}
+@media (max-width:900px){.j-cards{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.j-cards{grid-template-columns:1fr}}
+
+/* Journey 内子块：学员感言 + 高分学员名单 */
+.j-sub{margin:72px 0 26px}
+.j-subtitle{font-family:var(--serif);font-size:24px;font-weight:600;letter-spacing:.05em}
+.j-subtitle .en{margin-left:12px;font-size:11px;letter-spacing:.2em;color:var(--clay);text-transform:uppercase;font-weight:500}
+/* 学员感言：双排引言卡墙（模仿 hekademia 口碑墙结构，配色沿用暗段） */
+.j-hint{margin:-14px 0 22px;font-size:12.5px;color:var(--dark-muted);letter-spacing:.06em}
+.qrow{overflow:hidden;position:relative}
+.qrow + .qrow{margin-top:18px}
+.qtrack{display:flex;gap:18px;width:max-content;animation:roll-slide 85s linear infinite;will-change:transform}
+.qtrack.rev{animation:roll-slide-rev 95s linear infinite}
+.qrow:hover .qtrack{animation-play-state:paused}
+.q-card{
+  flex:none;width:340px;min-height:250px;display:flex;flex-direction:column;
+  border:1px solid rgba(242,236,224,.16);border-radius:15px;background:rgba(242,236,224,.03);
+  padding:26px 26px 20px;cursor:pointer;white-space:normal;
+  transition:border-color .35s var(--ease), background .35s var(--ease), transform .35s var(--ease);
+}
+.q-card:hover{border-color:rgba(242,236,224,.4);background:rgba(242,236,224,.05);transform:translateY(-3px)}
+.q-card .qt{font-size:14px;line-height:1.9;color:rgba(242,236,224,.72)}
+.q-card .qfoot{margin-top:auto;padding-top:16px;border-top:1px solid rgba(242,236,224,.12);display:flex;align-items:center;gap:12px}
+.q-card .qa{
+  width:40px;height:40px;border-radius:50%;flex:none;
+  background:rgba(242,236,224,.08);display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-style:italic;font-size:17px;color:var(--clay);
+}
+.q-card .qn{font-weight:700;font-size:14.5px;color:var(--dark-ink);font-family:var(--serif);letter-spacing:.03em}
+.q-card .qs{font-size:12.5px;color:var(--dark-muted);margin-top:2px}
+.qrow::before,.qrow::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:1;pointer-events:none}
+.qrow::before{left:0;background:linear-gradient(90deg,var(--dark),rgba(36,28,19,0))}
+.qrow::after{right:0;background:linear-gradient(270deg,var(--dark),rgba(36,28,19,0))}
+@media (max-width:640px){.q-card{width:280px;min-height:230px;padding:22px 20px 16px}}
+/* 全文弹窗 */
+.essay-src{display:none}
+.vmodal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.vmodal.open{display:flex}
+.vmodal .vm-bg{position:absolute;inset:0;background:rgba(24,18,10,.72);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.vm-box{
+  position:relative;max-width:720px;width:100%;max-height:84vh;overflow:auto;
+  background:var(--card);color:var(--ink);border-radius:18px;padding:44px 46px 40px;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.5);
+}
+.vm-box h4{font-family:var(--serif);font-size:22px;font-weight:600;letter-spacing:.03em;padding-right:36px}
+.vm-box .vm-author{margin-top:6px;color:var(--clayD);font-size:13px;letter-spacing:.12em}
+.vm-box .vm-text{margin-top:16px;color:var(--muted);font-size:15px;line-height:2;max-width:44em}
+.vm-text p{margin-top:12px}
+.vm-text b{color:var(--ink);font-weight:600}
+.vm-close{
+  position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;
+  border:1px solid var(--line);background:none;cursor:pointer;font-size:14px;color:var(--muted);
+  transition:color .3s var(--ease), border-color .3s var(--ease);
+}
+.vm-close:hover{color:var(--ink);border-color:var(--ink)}
+@media (max-width:640px){.vm-box{padding:30px 22px 28px}}
+/* 照片墙灯箱：原生横滑画廊（scroll-snap）——点开即滑，任何内核都可用 */
+.diff-wall-item img{cursor:zoom-in}
+.plight{position:fixed;inset:0;z-index:110;display:none}
+.plight.open{display:block}
+.plight .pl-bg{position:absolute;inset:0;background:rgba(24,18,10,.9)}
+.pl-strip{
+  position:absolute;inset:0;display:flex;
+  overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+  touch-action:pan-x;scrollbar-width:none;
+}
+.pl-strip::-webkit-scrollbar{display:none}
+.pl-slide{
+  flex:none;width:100%;height:100%;
+  display:flex;align-items:center;justify-content:center;
+  scroll-snap-align:center;scroll-snap-stop:always;padding:18px;
+}
+.pl-slide img{
+  max-width:94%;max-height:80%;border-radius:10px;background:#fff;
+  box-shadow:0 30px 80px -20px rgba(0,0,0,.6);
+  opacity:.2;transition:opacity .25s var(--ease);
+}
+.pl-slide img.ld{opacity:1}
+.plight .pl-close{
+  position:absolute;top:18px;right:18px;z-index:2;width:42px;height:42px;border-radius:50%;
+  border:1px solid rgba(242,236,224,.4);background:rgba(36,28,19,.55);color:#F2ECE0;
+  font-size:16px;cursor:pointer;
+}
+.pl-nav{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:44px;border-radius:50%;
+  border:1px solid rgba(242,236,224,.35);background:rgba(36,28,19,.5);color:#F2ECE0;
+  font-size:20px;line-height:1;cursor:pointer;
+}
+.pl-prev{left:14px}.pl-next{right:14px}
+.pl-count{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:2;color:rgba(242,236,224,.78);font-size:13px;letter-spacing:.12em;pointer-events:none}
+@media (max-width:640px){.pl-nav{display:none}}
+
+/* ============ 手机竖屏重排（≤640px） ============ */
+@media (max-width:640px){
+  section{padding:60px 0}
+  .sec-head{margin-bottom:34px}
+  .wrap{padding:0 20px}
+  /* 封面：入口全部加大点按区 */
+  .top{padding-top:12px}
+  .top a.top-vocab{padding:10px 14px}
+  .keys{padding-bottom:calc(28px + env(safe-area-inset-bottom))}
+  .keys ul{gap:9px}
+  .keys a{padding:12px 4px}
+  /* Team：Jackie 照片撑满，资历行缩字号自然换行 */
+  .team-lead .lead-photo{max-width:none}
+  .team-lead h3{margin-top:18px;font-size:23px}
+  .team-lead p{font-size:13.5px;line-height:1.9}
+  .team-lead .who{font-size:12px;letter-spacing:.18em}
+  .team-grid{gap:32px 12px;margin-top:8px}
+  /* Journey 子块节奏收紧，渐隐遮罩变窄少吃字 */
+  .j-sub{margin:52px 0 20px}
+  .j-subtitle{font-size:20px}
+  .j-hint{margin:-10px 0 18px}
+  .qrow::before,.qrow::after,
+  .roll-marquee::before,.roll-marquee::after{width:40px}
+  .team-wall{margin-top:40px}
+  /* 页脚：点按区加大，联系行有序折行 */
+  footer{padding:36px 0 46px}
+  .channels a{padding:12px 12px}
+  .foot-meta{font-size:12px;line-height:2.1;padding:0 6px}
+  .foot-meta span{white-space:nowrap}
+  .staff-contact{gap:16px;margin-bottom:28px}
+  .staff-contact img{width:150px;height:150px}
+}
+/* 高分学员名单：双排横向跑马灯（上排向左，下排向右），悬停暂停 */
+.roll-marquee{overflow:hidden;position:relative}
+.roll-marquee + .roll-marquee{margin-top:12px}
+.roll-marquee::before,.roll-marquee::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:1;pointer-events:none}
+.roll-marquee::before{left:0;background:linear-gradient(90deg,var(--dark),rgba(36,28,19,0))}
+.roll-marquee::after{right:0;background:linear-gradient(270deg,var(--dark),rgba(36,28,19,0))}
+.roll-track{display:flex;gap:12px;width:max-content;animation:roll-slide 60s linear infinite;will-change:transform}
+.roll-track.rev{animation:roll-slide-rev 70s linear infinite}
+.roll-marquee:hover .roll-track{animation-play-state:paused}
+.r-chip{
+  flex:none;border:1px solid rgba(242,236,224,.18);border-radius:999px;
+  padding:10px 20px;font-size:13.5px;color:var(--dark-muted);
+  background:rgba(242,236,224,.03);white-space:nowrap;
+}
+.r-chip b{color:var(--dark-ink);font-weight:600;margin-right:8px}
+.r-chip em{font-style:normal;color:var(--clay);margin-right:6px}
+@keyframes roll-slide{to{transform:translateX(-50%)}}
+@keyframes roll-slide-rev{from{transform:translateX(-50%)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.roll-track{animation:none}}
+@media (max-width:760px){
+  .voice summary{padding:18px 20px}
+  .v-arrow{margin-left:0}
+  .v-body{padding:0 20px 24px}
+}
+
+/* ============ The HY-LITE Team（圆形头像） ============ */
+.team-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:48px 20px;align-content:start;
+}
+.team-split .team-grid{align-self:center}  /* 右栏垂直居中，与左侧 Jackie 栏平衡 */
+.tm{text-align:center}
+.tm .ava{
+  width:134px;height:134px;border-radius:50%;margin:0 auto;
+  border:1px solid var(--line);background:var(--card);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:34px;color:var(--line);
+  box-shadow:0 14px 28px -16px rgba(38,37,31,.3);
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease);
+  overflow:hidden;
+}
+.tm .ava img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.tm:hover .ava{transform:translateY(-5px);box-shadow:0 22px 40px -18px rgba(38,37,31,.4)}
+.tm .nm{margin-top:14px;font-family:var(--serif);font-weight:600;font-size:16.5px;letter-spacing:.04em}
+.tm .sub{margin-top:2px;font-size:12px;letter-spacing:.14em;color:var(--clay)}
+.team-more{text-align:center;margin-top:48px}
+.team-more a{
+  display:inline-block;padding:11px 30px;border-radius:999px;
+  box-shadow:inset 0 0 0 1.5px var(--line);font-size:14px;color:var(--ink);
+  transition:box-shadow .3s var(--ease), transform .3s var(--ease);
+}
+.team-more a:hover{box-shadow:inset 0 0 0 1.5px var(--ink);transform:translateY(-2px)}
+@media (max-width:900px){.team-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){
+  .team-grid{grid-template-columns:repeat(2,1fr);gap:36px 12px}
+  .tm .ava{width:96px;height:96px;font-size:28px}
+}
+
+/* ============ 页脚（渠道 + 联系方式） ============ */
+footer{border-top:2px solid var(--ink);padding:44px 0 52px;text-align:center}
+.channels{display:flex;justify-content:center;flex-wrap:wrap}
+.channels a{
+  font-family:var(--serif);text-transform:uppercase;letter-spacing:.18em;
+  font-size:12px;font-weight:500;color:var(--ink);padding:6px 20px;
+  transition:color .25s var(--ease);
+}
+.channels a:hover{color:var(--muted)}
+.foot-meta{margin-top:20px;color:var(--muted);font-size:13px;letter-spacing:.06em}
+.staff-contact{display:flex;align-items:center;justify-content:center;gap:22px;max-width:420px;margin:0 auto 36px}
+.staff-contact img{display:block;width:176px;height:176px;object-fit:contain;padding:6px;background:#fff;border:1px solid var(--line);border-radius:6px;box-shadow:0 14px 28px -18px rgba(38,37,31,.35)}
+.staff-contact-copy{display:flex;flex-direction:column;gap:6px;text-align:left}
+.staff-contact-copy strong{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:.08em}
+.staff-contact-copy span{font-size:13px;color:var(--muted);letter-spacing:.12em}
+@media (max-width:520px){.staff-contact{flex-direction:column;gap:12px}.staff-contact-copy{text-align:center}}
+
+/* 入场动效 */
+@media (prefers-reduced-motion: no-preference){
+  [data-reveal]{opacity:0;transform:translateY(16px);
+    transition:opacity .6s var(--ease), transform .6s var(--ease);transition-delay:var(--d,0s)}
+  [data-reveal].in{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .scroll-hint{animation:none}
+}
+/* 语言切换药丸（右上角固定） */
+.lang-toggle{position:fixed;top:16px;right:18px;z-index:60;font-family:var(--serif);font-size:12.5px;letter-spacing:.1em;color:var(--muted);background:rgba(250,247,240,.82);border:1px solid var(--line);border-radius:999px;padding:8px 15px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:border-color .3s var(--ease),color .3s var(--ease)}
+.lang-toggle b{color:var(--ink);font-weight:700}
+.lang-toggle:hover{border-color:var(--ink);color:var(--ink)}
+</style>
+</head>
+<body>
+<img src="share.png" width="300" height="300" alt="" aria-hidden="true" style="position:absolute;left:-9999px;top:0">
+<a class="lang-toggle" href="./" aria-label="切换到中文版">中 / <b>EN</b></a>
+
+<!-- ============ 封面：粒子（HY LITE education + 环亚国际教育 两行都动） ============ -->
+<header class="cover" id="cover">
+  <h1 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">HY-LITE International English — Wuxi, Since 2003</h1>
+  <canvas id="pfield" aria-hidden="true"></canvas>
+  <p id="zhsub" aria-hidden="true" style="font-family:'Times New Roman',Georgia,serif;font-style:italic;letter-spacing:.12em;text-indent:.12em">International English · Wuxi, Since 2003</p>
+
+  <nav class="top" aria-label="主导航">
+    <ul>
+      <li>
+        <a class="top-vocab" href="/vocabulary/">
+          <span class="label" style="color:var(--ink)">Course-Synced Wordbook</span>
+          <em class="vurl">hylite.com.cn/vocabulary</em>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 封面底部：六个板块 -->
+  <div class="keys">
+    <ul>
+      <li><a href="faculty.html">Faculty</a></li>
+      <li><a href="intro.html">Programmes</a></li>
+      <li><a href="dictionary.html">Digital Wordbook</a></li><!-- 付费产品试读页：只开放必修一U1 Reading，不跳转 vocab3500 -->
+      <li><a href="books.html">Textbooks</a></li>
+      <li><a href="channels.html?c=ipx">In-House AI</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">↓</div>
+</header>
+
+<!-- ============ The HY-LITE Difference ============ -->
+<section id="difference">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">The HY-Lite Difference</h2>
+    </div>
+    <div class="diff-cards">
+      <div class="d-card" data-reveal>
+        <span class="en">Partners, Not Employees</span>
+        <h3>A Partnership of Teachers</h3>
+        <p>At HY-Lite, teachers are not employees — they are partners. Every teacher's long-term interests are bound to the school's own. This is our shared enterprise, not merely a job.</p>
+      </div>
+      <div class="d-card" data-reveal style="--d:.08s">
+        <span class="en">Ten Years, One Team</span>
+        <h3>Ten Years, One Team</h3>
+        <p>This team has planned lessons, refined materials and researched teaching side by side for more than a decade. Our secret is not any single brilliant teacher, but a complete teaching system — honed over ten years, every part meshing with the next.</p>
+      </div>
+      <div class="d-card" data-reveal style="--d:.16s">
+        <span class="en">99% by Word of Mouth</span>
+        <h3>99% by Word of Mouth</h3>
+        <p>No sales team, no paid placement, no cold calls from "course consultants". For over twenty years, 99% of our students have come to us through the recommendation of former students' parents. Good teaching, we believe, is the finest admissions office.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ The HY-LITE Team（左 Jackie · 右六位老师 · 照片墙） ============ -->
+<section id="team">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">The HY-Lite Team</h2>
+    </div>
+    <div class="team-split">
+      <div class="team-lead" data-reveal>
+        <img class="lead-photo" src="jackie-tedx.jpg" alt="Jackie 在 TEDx 舞台演讲">
+        <h3>Jackie</h3>
+        <p class="who">Director of Teaching · IELTS 9.0 · Perfect TOEFL Score</p>
+        <p>✨ IELTS 9.0 | TOEFL 6.0 | French DELF B2 | Korean TOPIK Level 6</p>
+        <p>📚 10+ years of teaching | 3x TEDx speaker | ESL instructor for Canadian government agencies</p>
+      </div>
+      <div class="team-grid">
+        <div class="tm" data-reveal style="--d:.05s"><div class="ava"><img src="team/team-ben.jpg" alt="Ben" loading="lazy" decoding="async"></div><div class="nm">Ben</div></div>
+        <div class="tm" data-reveal style="--d:.1s"><div class="ava"><img src="team/team-michelle.jpg" alt="Michelle" loading="lazy" decoding="async"></div><div class="nm">Michelle</div></div>
+        <div class="tm" data-reveal style="--d:.15s"><div class="ava"><img src="team/team-cissy.jpg" alt="Cissy" loading="lazy" decoding="async"></div><div class="nm">Cissy</div></div>
+        <div class="tm" data-reveal style="--d:.2s"><div class="ava"><img src="team/team-phoebe.jpg" alt="Phoebe" loading="lazy" decoding="async"></div><div class="nm">Phoebe</div></div>
+        <div class="tm" data-reveal style="--d:.25s"><div class="ava"><img src="team/team-guo.jpg" alt="Guo" loading="lazy" decoding="async"></div><div class="nm">Guo</div></div>
+        <div class="tm" data-reveal style="--d:.3s"><div class="ava"><img src="team/team-tiger.jpg" alt="Tiger" loading="lazy" decoding="async"></div><div class="nm">Tiger</div></div>
+      </div>
+    </div>
+    <div class="team-more" data-reveal>
+      <a href="faculty.html">Meet the full faculty →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ A Journey of Success（四并列课程·暗段） ============ -->
+<section class="journey" id="journey">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <h2 class="h-dash">A Journey of Success</h2>
+    </div>
+    <!-- 学员感言：点卡片弹窗读全文 -->
+    <div class="j-sub" data-reveal style="margin-top:0">
+      <h3 class="j-subtitle">Voices<span class="en">学员感言</span></h3>
+    </div>
+    <p class="j-hint" data-reveal>Tap a card to read the full story · press and hold to pause</p>
+    <div class="qrow" data-reveal>
+      <div class="qtrack">
+        <div class="q-card" data-essay="essay-1"><p class="qt">"People call the Singapore scholarship a mystery. But it is, in the end, an examination — and every examination has its standard. The standard always favours the prepared."</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">Chen</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-2"><p class="qt">"If self-study is fighting alone, HY-Lite was my base of operations. What it gave me was more than knowledge — it was the quiet certainty that I could do this."</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">He</div><div class="qs">Hwa Chong Institution · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-3"><p class="qt">"Writing, speaking, reading — plus a daily vocabulary regimen. My English grew visibly stronger, and in those weeks of intensive preparation we forged friendships that held fast."</p><div class="qfoot"><span class="qa">叶</span><div><div class="qn">Ye</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-4"><p class="qt">"Preparing at HY-Lite, there was far more laughter than anxiety. Confidence is the bone; equanimity is the soul. Hold steady, and half the battle is already won."</p><div class="qfoot"><span class="qa">周</span><div><div class="qn">Zhou</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-5"><p class="qt">"In the third year since admissions resumed, we finally swept the board: six places offered, six of ours — 6/6. After years of quiet cultivation, every flower has bloomed."</p><div class="qfoot"><span class="qa">C</span><div><div class="qn">Chris</div><div class="qs">Teacher's Notes · Results Day 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-10"><p class="qt">"Language is not the product of mechanical drilling, but the natural result of long, sustained comprehensible input and measured output. Stay curious, enjoy the process, and the scores follow of their own accord."</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">Chen</div><div class="qs">IELTS 8.5 · Fudan University</div></div></div></div>
+        <div class="q-card" data-essay="essay-1" aria-hidden="true"><p class="qt">"People call the Singapore scholarship a mystery. But it is, in the end, an examination — and every examination has its standard. The standard always favours the prepared."</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">Chen</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-2" aria-hidden="true"><p class="qt">"If self-study is fighting alone, HY-Lite was my base of operations. What it gave me was more than knowledge — it was the quiet certainty that I could do this."</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">He</div><div class="qs">Hwa Chong Institution · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-3" aria-hidden="true"><p class="qt">"Writing, speaking, reading — plus a daily vocabulary regimen. My English grew visibly stronger, and in those weeks of intensive preparation we forged friendships that held fast."</p><div class="qfoot"><span class="qa">叶</span><div><div class="qn">Ye</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-4" aria-hidden="true"><p class="qt">"Preparing at HY-Lite, there was far more laughter than anxiety. Confidence is the bone; equanimity is the soul. Hold steady, and half the battle is already won."</p><div class="qfoot"><span class="qa">周</span><div><div class="qn">Zhou</div><div class="qs">Nanyang Girls' High · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-5" aria-hidden="true"><p class="qt">"In the third year since admissions resumed, we finally swept the board: six places offered, six of ours — 6/6. After years of quiet cultivation, every flower has bloomed."</p><div class="qfoot"><span class="qa">C</span><div><div class="qn">Chris</div><div class="qs">Teacher's Notes · Results Day 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-10" aria-hidden="true"><p class="qt">"Language is not the product of mechanical drilling, but the natural result of long, sustained comprehensible input and measured output. Stay curious, enjoy the process, and the scores follow of their own accord."</p><div class="qfoot"><span class="qa">陈</span><div><div class="qn">Chen</div><div class="qs">IELTS 8.5 · Fudan University</div></div></div></div>
+      </div>
+    </div>
+    <div class="qrow" data-reveal>
+      <div class="qtrack rev">
+        <div class="q-card" data-essay="essay-6"><p class="qt">"'I want to study at the National University of Singapore' — a child's innocent wish, at last transformed into a goal within reach."</p><div class="qfoot"><span class="qa">马</span><div><div class="qn">Ma</div><div class="qs">Nanyang Girls' High · Full Scholarship 2024</div></div></div></div>
+        <div class="q-card" data-essay="essay-8"><p class="qt">"It looked like luck, a surprise. Only I knew it was the result that had long been coming — earned, one revision at a time."</p><div class="qfoot"><span class="qa">杨</span><div><div class="qn">Yang</div><div class="qs">Nanyang Girls' High · Full Scholarship 2025</div></div></div></div>
+        <div class="q-card" data-essay="essay-7"><p class="qt">"They were not only my teachers but my treasured friends — friends who respected me, listened to me, and met me with complete sincerity."</p><div class="qfoot"><span class="qa">苏</span><div><div class="qn">Su</div><div class="qs">Hwa Chong International · Full Scholarship 2023</div></div></div></div>
+        <div class="q-card" data-essay="essay-9"><p class="qt">"Confidence before the exam makes your preparation thorough; confidence in the exam hall lets all that work truly land."</p><div class="qfoot"><span class="qa">卢</span><div><div class="qn">Lu</div><div class="qs">Hwa Chong Institution · Full Scholarship 2025</div></div></div></div>
+        <div class="q-card" data-essay="essay-2"><p class="qt">"Jackie marked my essays down to the choice of every word, until fear of writing became the courage to write. My interview became my strongest card — never luck, but practice."</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">He</div><div class="qs">Hwa Chong Institution · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-10"><p class="qt">"The day her retake results came out, another student remarked: 'She's a little Jackie now.' Education, they say, is one tree shaking another — perhaps this is exactly what that means."</p><div class="qfoot"><span class="qa">J</span><div><div class="qn">Jackie</div><div class="qs">Postscript · Observing Chen</div></div></div></div>
+        <div class="q-card" data-essay="essay-11"><p class="qt">"The climb from 6 to 7 owed nothing to templates — it was systematic study, abundant practice, and meticulous marking."</p><div class="qfoot"><span class="qa">朱</span><div><div class="qn">Zhu</div><div class="qs">IELTS 7.5 · Writing 6 → 7</div></div></div></div>
+        <div class="q-card" data-essay="essay-6" aria-hidden="true"><p class="qt">"'I want to study at the National University of Singapore' — a child's innocent wish, at last transformed into a goal within reach."</p><div class="qfoot"><span class="qa">马</span><div><div class="qn">Ma</div><div class="qs">Nanyang Girls' High · Full Scholarship 2024</div></div></div></div>
+        <div class="q-card" data-essay="essay-8" aria-hidden="true"><p class="qt">"It looked like luck, a surprise. Only I knew it was the result that had long been coming — earned, one revision at a time."</p><div class="qfoot"><span class="qa">杨</span><div><div class="qn">Yang</div><div class="qs">Nanyang Girls' High · Full Scholarship 2025</div></div></div></div>
+        <div class="q-card" data-essay="essay-7" aria-hidden="true"><p class="qt">"They were not only my teachers but my treasured friends — friends who respected me, listened to me, and met me with complete sincerity."</p><div class="qfoot"><span class="qa">苏</span><div><div class="qn">Su</div><div class="qs">Hwa Chong International · Full Scholarship 2023</div></div></div></div>
+        <div class="q-card" data-essay="essay-9" aria-hidden="true"><p class="qt">"Confidence before the exam makes your preparation thorough; confidence in the exam hall lets all that work truly land."</p><div class="qfoot"><span class="qa">卢</span><div><div class="qn">Lu</div><div class="qs">Hwa Chong Institution · Full Scholarship 2025</div></div></div></div>
+        <div class="q-card" data-essay="essay-2" aria-hidden="true"><p class="qt">"Jackie marked my essays down to the choice of every word, until fear of writing became the courage to write. My interview became my strongest card — never luck, but practice."</p><div class="qfoot"><span class="qa">何</span><div><div class="qn">He</div><div class="qs">Hwa Chong Institution · Full Scholarship 2026</div></div></div></div>
+        <div class="q-card" data-essay="essay-10" aria-hidden="true"><p class="qt">"The day her retake results came out, another student remarked: 'She's a little Jackie now.' Education, they say, is one tree shaking another — perhaps this is exactly what that means."</p><div class="qfoot"><span class="qa">J</span><div><div class="qn">Jackie</div><div class="qs">Postscript · Observing Chen</div></div></div></div>
+        <div class="q-card" data-essay="essay-11" aria-hidden="true"><p class="qt">"The climb from 6 to 7 owed nothing to templates — it was systematic study, abundant practice, and meticulous marking."</p><div class="qfoot"><span class="qa">朱</span><div><div class="qn">Zhu</div><div class="qs">IELTS 7.5 · Writing 6 → 7</div></div></div></div>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-1">
+      <h4>From the Red Chamber to the World — For Everyone Who Feels "Unremarkable"</h4>
+      <div class="vm-author">Chen · Nanyang Girls' High School, Full Scholarship 2026</div>
+      <div class="vm-text">
+        <p>Hello — I am the senior they call Que, recipient of the Business China Singapore Education Scholarship, soon to enrol at Nanyang Girls' High School.</p>
+        <p>Having grown up nine years at Daqiao, I dreamed of this scholarship from childhood, yet never dared stake everything on it. I was no prodigy — neither striking nor exceptionally clever. So this letter is for everyone who feels unremarkable, and is curious all the same.</p>
+        <p><b>On preparation.</b> This is no sprint but a marathon of endurance and resolve: build your foundations in the first two years, earn your ticket through direct admission to Daqiao's senior school, then sit the examination in July. The English is harder than IELTS — for vocabulary you can only trust your accumulation — but error correction, reading and writing all follow discernible patterns. Practise both essay genres evenly, and always against the clock. Nor is the aptitude test sorcery: the little white book HY-Lite issues may not raise your IQ, but it will make every question type an old acquaintance (this senior insists). The mathematics needs no discussion — it is gentle. The interview is what matters most: the school does not necessarily choose the most brilliant candidate, but the one most likely to flourish there.</p>
+        <p><b>On effort.</b> Success takes two catalysts: intelligence and diligence. I could not be the cleverest, but I could resolve to be the most diligent. In those months I wrote more than twenty timed essays, finished three volumes of reading and the entire white book; my English climbed from the seventies in Year 7 to the top ten of my cohort. I wept more than once — and found, in the end, that tears forge the brightest medals.</p>
+        <p><b>On passion.</b> The book club, the Dream of the Red Chamber society, the fifty-five books I donated to the school library — I had always thought these mere hobbies. They turned out to be the most persuasive lines on my application. Passion, it turns out, is the finest résumé.</p>
+        <p>People call the Singapore scholarship a mystery. But it is, in the end, an examination — and every examination has its standard. The standard always favours the prepared.</p>
+        <p>Keep your dreams, hold your course, look to the future, and act. The gates of a new world stand forever open to you.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-2">
+      <h4>From Exchange Buddies to Classmates — My Road to Hwa Chong</h4>
+      <div class="vm-author">He · Hwa Chong Institution, Full Scholarship 2026</div>
+      <div class="vm-text">
+        <p>In Year 8 I hosted an exchange student from Hwa Chong Institution; the following year I visited Singapore with my school. There I saw, for the first time, a truly open classroom — group discussion, independent inquiry, free expression. In that moment I decided to try for Singapore.</p>
+        <p>Direct-admission class brought competitions, student council, societies and appraisals all at once. I set myself one rule: schoolwork would not slacken, and neither would my Singapore preparation. Between classes I worked through problem sets; in evening study I read ahead into the senior curriculum; at home I opened the vocabulary book and closed the gap word by word. That double pressure forced me into efficiency. The mathematics textbooks for Secondary 3 and 4 fell one after another, and the post-exam intensive course sent my English climbing. Balancing both is no myth — if you are willing to push yourself.</p>
+        <p>If self-study is fighting alone, HY-Lite was my base of operations.</p>
+        <p>For the written papers, HY-Lite's course covered nearly every question type — vocabulary, reading, logic — with complete sets of materials (I never finished them all; there was more than enough). Jackie walked us through every essay step by step, marking down to the individual word, offering alternative phrasings, until my fear of writing became the courage to write.</p>
+        <p>The mock interviews were the great deliverance. My English base was weaker than some of my peers', but after round upon round of rehearsal with Jackie and the seniors, I learned to order my thoughts and meet the unexpected with composure. My interview became my strongest card — never luck, but practice.</p>
+        <p>What HY-Lite gave me was more than knowledge — it was the quiet certainty that I could do this.</p>
+        <p>Looking back, I would share two things:</p>
+        <p><b>First, keep faith in yourself.</b> Do not stare at your weaknesses. Your vocabulary may trail others', but your interview or your writing may shine. Trust yourself, and trust the value of every rehearsal.</p>
+        <p><b>Second, plan well.</b> Direct-admission classes are heavy; with competitions, school hours must be used to the hilt. I kept a daily task list, interleaving Singapore preparation with schoolwork, never cramming at the eleventh hour. HY-Lite provides more material than anyone needs — do not attempt it all; strike where you are weakest.</p>
+        <p>One last word from the heart: the Singapore route is no refuge from Gaokao, but another battlefield demanding everything you have. I am grateful to Jackie, Chris and Ben, to the seniors who helped me these months — and to the self who gritted through all those midnights.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-3">
+      <h4>From Daqiao to Nanyang — My Preparation Diary</h4>
+      <div class="vm-author">Ye · Nanyang Girls' High School, Full Scholarship 2026</div>
+      <div class="vm-text">
+        <p>My days at HY-Lite were intense, demanding, and profoundly full. The course spanned the three great pillars — writing, speaking and reading — plus a daily vocabulary regimen, so that by exam day my English reserves had visibly deepened.</p>
+        <p>Jackie's writing and speaking classes gave me the most. In writing we studied the logic of argumentation systematically, practising varied and complex sentence structures until essays grew rigorous in shape and precise in expression. Narrative writing showed me my own limits — my English still wants for fine descriptive detail. Vivid storytelling is not conjured overnight; it asks for long reading of originals and a patient hoard of idiom. Yet whatever the genre, the discipline is the same: before pen touches paper, order the logic, fix the thesis, then unfold it layer by layer in clean, exact language.</p>
+        <p>To mirror the real examination, HY-Lite arranged full-dress mock interviews. Pairing up with classmates beforehand dissolved much of my nervousness, and Jackie's notes on my performance were exact: slow the tempo; choose plain, precise, everyday words.</p>
+        <p>Reading was taught by Ben, who took us through the craft of every question type. What served me best: reading a passage's logic through its hinges — instead, however — so the turn of an argument, and the author's stance, revealed themselves at a glance.</p>
+        <p>Through the intensive weeks we drilled side by side and grew together, forging friendships that held fast. The seniors' sharing sessions were another gift — real exam accounts, practical technique, the rhythm of the day itself. One senior's advice stayed with me: do not wrestle any single aptitude question; finishing within time is everything. In the hall, that one line governed my clock.</p>
+        <p>My thanks to every teacher at HY-Lite — Jackie, Ben, Chris — and to all the tutors, seniors and alumnae!</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-4">
+      <h4>From Trepidation to Certainty — How I Reached Nanyang</h4>
+      <div class="vm-author">Zhou · Nanyang Girls' High School, Full Scholarship 2026</div>
+      <div class="vm-text">
+        <p>No Daqiao childhood escapes the dream of Singapore. It sits in the distance like a medal polished over and over, quietly gleaming. I was no exception — the seed was planted in primary school and lay dormant for years. And this summer, with a measure of luck and a stubborn refusal to fall behind, I finally pushed open that once-unreachable door.</p>
+        <p>Let me tell you, slowly, about the wavering, the preparing, and the understanding of those days.</p>
+        <p><b>Part 1: The written papers — cultivate the bullseye</b></p>
+        <p>Mathematics first: the one gentle stretch of the whole examination. Nothing devious — every question lands on ground you have crossed a hundred times in primary and middle school, and all of it fill-in-the-blank, sparing you the labour of written working. Two hours are given; one usually suffices, and the remainder belongs to a single word: accuracy. Two or three practice sets to find your touch is plenty. The only caution: questions come in English — though our invigilator kindly provided translations, so do not fret over terminology.</p>
+        <p>The true watershed is the aptitude test — close combat with the clock and with unfamiliar question types. In my view, wearing out the little white book before the exam is enough, plus some speed work and the art of guessing with reason. Even so, the real paper produced one type we had never met, and my heart tightened as I wrote. Be warned in earnest: sixty minutes for the whole paper is brutally tight — students beside me could not finish.</p>
+        <p>As for English — the acknowledged tiger in the road. The essay is a blade you can grind in advance. I trained under Jackie at HY-Lite, though we had staked nearly all our powder on argumentative writing, and the exam ambushed us with narrative. In fairness, Jackie's coaching on argument transformed me utterly, and for that my gratitude is real. Narrative leans harder on your daily hoard of material: thirty minutes to compose means conceiving like an arrow leaving the bow — without a granary of viewpoints and a pouch of stories, you will find your pockets empty. (Leafing through my first draft, dense with Jackie's red annotations, the distance to the final version astonished even me.)</p>
+        <p>English Part 1 allows ninety unhurried minutes, but the vocabulary is staggering — rarities like "purveyor" make the list. Daily accumulation rarely scores a direct hit, yet it paves the longer road. The tractable parts — preposition filling and reading comprehension — yield to HY-Lite's classroom methods. And do not despair: English is a chasm for everyone, so the gap in marks is narrower than you fear. My pre-exam IELTS 7.5 served mostly as a steadying pill.</p>
+        <p><b>Part 2: The interview — meet all changes with one constant</b></p>
+        <p>Poached mid-course by my school's mathematics olympiad, I missed nearly every interview class, and had time only to polish three core questions: Why do you want to go to Singapore? Why are you eligible? Why are you one of the best options?</p>
+        <p>Nanyang's interview essentially orbits those three axes. The key is to treat your prepared answers as building blocks, not scripts — assembling and trimming them live. Our panel was unusually kind; the whole affair felt less like interrogation than conversation between equals. In preparing, consider how to fold your answers, without visible seams, toward the school's motto and its bilingual, bicultural character. And remember the wordless language — warm, steady eye contact; a posture upright but never stiff — which reaches the heart before speech does.</p>
+        <p><b>Part 3: Composure — ease is its own power</b></p>
+        <p>Looking back, I count myself relaxed through the whole campaign — helped, admittedly, by a gentler field among the girls that year. What I want to say is this: confidence is the bone, equanimity the soul, and anxious grasping only squanders the spirit. At HY-Lite, laughter outweighed worry, and the pressure thinned without my noticing. In the hall, temperament outweighs technique: hold steady, and half the battle is won. In the interview above all — the more at ease, the more alive; the more nervous, the more the word sticks at the lip. Be generous, be loose, and the panel will see the light in your eyes.</p>
+        <p><b>A final word: beyond the result, everything is a gift</b></p>
+        <p>Each year the selection is a sieve — sifting out heartbreak, sifting in surprise. Some are suddenly favoured by fortune; some acknowledged as formidable stumble against all expectation. When my offer arrived I felt none of the imagined rapture — only an unusual calm, as if the result had settled long ago, in all those unwitnessed days of quiet work. Believe this: ability is the only hard currency, and time does not cheat the persistent. And if you are passed over — grieve properly, dry your eyes, and stride on to the next mountain and sea without looking back.</p>
+        <p>My days at HY-Lite are a bright footnote in my memory. Around me were comrades-in-arms, every one of them fire-eyed and swift-footed, and their momentum lent me courage enough to stand exactly where I belonged when it counted. The seniors poured out everything they knew — lamplight in the dark, every sentence the sincerity of those who had walked before.</p>
+        <p>From trepidation to certainty, the road was not smooth, but every step counted. May these ramblings brush away a little of your fog — and may everyone who carries a distant dream arrive, at last, at their own sea of stars.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-5">
+      <h4>Every Flower Has Bloomed — On the 2026 Results Day</h4>
+      <div class="vm-author">Chris · Teacher's Notes · July 2026</div>
+      <div class="vm-text">
+        <p>This year's Business China Singapore Education Scholarship results have settled. In the third year since admissions resumed, we finally swept the board: six places offered, six of ours — 6/6. After years of quiet cultivation, every flower has bloomed.</p>
+        <p>At this moment each year my feelings are mixed, and regret often outweighs joy. When results come out, my first thought is never celebration but consolation — how to comfort the students not yet chosen — and sometimes, mid-sentence, my own eyes blur. Wanting and not obtaining is one of life's great courses, and every year I take it again alongside my students. The coursework, of course, is finally theirs to complete; I witness their labour, but cannot live it for them.</p>
+        <p>The gladness is real too. Beside the lesson of longing, there is labour that flowered and bore fruit, worth celebrating properly. One student filled an entire notebook with essays; another memorised a whole volume of vocabulary; others, paper after paper, kept raising their own ceiling. Let me say once more what I believe: every student who prepared has solid learning and admirable character. Some had the deeper affinity with Singapore and were chosen; for the others, the road ahead remains bright — of this I have no doubt.</p>
+        <p>The one thing I dare claim is that we offered true companionship. Each year we and this cohort forge something like comradeship — deeply personal. From early June back in Wuxi until today, I have worked morning to night at their side: marshalling every resource, printing set after set of papers, drilling interview after interview, marking essay after essay. Seniors already studying in Singapore returned expressly to share their experience, giving the juniors a first true glimpse of life and study there.</p>
+        <p>This year, every flower has bloomed. Next year, we return to our quiet cultivation.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-6">
+      <h4>Through the Orange-and-White Door — My Days of Striving</h4>
+      <div class="vm-author">Ma · Nanyang Girls' High School, Full Scholarship 2024</div>
+      <div class="vm-text">
+        <p>The first time I walked through HY-Lite's orange-and-white door, I never imagined that three months later the course of my life would change entirely. "I want to study at the National University of Singapore" — a child's innocent wish, at last transformed into a goal within reach. Thank you, HY-Lite, for setting a small girl's hidden dream in motion.</p>
+        <p><b>Reading class — my first taste of English's treachery</b></p>
+        <p>In those two months I learned, for the first time, what it means to understand a passage completely differently from what it actually says.</p>
+        <p>But we had Ben with us all the way. On drowsy afternoons a single joke of his would wake the whole room; the tale of the little girl and the pirates ran through the entire course; and under the gentle menace of "dictation in one minute", we gnawed through close reading after close reading. A classroom both loose and taut lent lightness to what might have been drudgery. Thank you, Ben, for teaching me how to read — and for kindling my appetite for reading itself.</p>
+        <p><b>Writing class — Jackie's midnight red pen</b></p>
+        <p>There was a time I completed 450-word essays by way of machine translation. Thank you, Jackie the tireless, for showing me the joy of free expression in English.</p>
+        <p>Unlike Ben's, Jackie's classroom ran taut: one coffee, one laptop, her gentle, lucid voice weaving through the clatter of keys. On my exercise book, red ink threaded between the black — every error caught, every endnote lean and exact. "Still marking essays at this hour" — so read Chris's post one night. Behind every carefully marked essay stood Jackie's devoted midnights. And thank you for that cup of milk tea, which sweetened the hardest days.</p>
+        <p><b>Planning class — Chris, master of time</b></p>
+        <p>And how could I leave out Chris? To a seasoned idler like me, his sternness was a struck match. Brilliant-coloured schedules filled every minute; work that looked unfinishable was, under his arrangement, squeezed in item by item — one must salute the master of time management. And in high summer, the chilled honey water and swiss rolls chased the restlessness away. For my own future, I laboured shoulder to shoulder with these devoted teachers.</p>
+        <p>Nor should Ms. Lecea the mathematics teacher go unthanked — homework marked deep into the night, every page carrying her care; and Matt, our foreign teacher, ran mock interview after mock interview until the nerves let go.</p>
+        <p><b>The days of striving — laughter and tears</b></p>
+        <p>Those days were bitter and exhausting, full of laughter and tears alike. On several midnights I curled up in bed, fighting heavy eyelids, forcing down one more word and one more; more than once, convinced I was making no progress at all, I cried quietly under the covers.</p>
+        <p>And in HY-Lite's library we laughed together, cheered each other on, and outlasted one hard dawn and dusk after another. Seen from here, all of it was worth everything.</p>
+        <p>I missed the Zhongkao and will miss the Gaokao, yet at HY-Lite I gave my youth its stripe of striving. When the offer came, many congratulated me — but I want to say: this success belongs to two months of shared labour, teachers and classmates together. Truly, whatever the outcome had been, I would treasure this rare passage all my life — it kindled my love of English, and let me live out Daqiao's motto of striving.</p>
+        <p>Last of all, thank you to my parents and godparents — who, on that one evening, switched on my heart's resolve to go out and try, and helped me find the best answer to my own future.</p>
+        <p>Onward, without wasting the years!</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-7">
+      <h4>A Warm Family — My Thank-You Letter to HY-Lite</h4>
+      <div class="vm-author">Su · Hwa Chong International School, Full Scholarship 2023</div>
+      <div class="vm-text">
+        <p>I have never had iron discipline, and dare not boast of my diligence. A veteran of lying flat, I stole every idle hour that could be stolen.</p>
+        <p>Thank you, HY-Lite. This warm family met me with boundless tolerance and delight, melting my sorrows and my awkwardness. What they taught me was more than knowledge: a wider horizon, a settled temper, a plural way of thinking — so that I could walk forward unhurried. The benefit, without question, is for life.</p>
+        <p>Thank you to the teachers. The after-class feedback that ran to small essays; the group chat chiming late into the night after Jackie finished marking; the physics problem Chao was still explaining at eleven; Chris and Franco, who flew to Singapore to scout the schools, buy the papers, and — on exam day — light incense for us... (There is far more than I can ever write down.)</p>
+        <p>I had gathered a pile of adjectives for my teachers: witty, gentle, ardent, devoted, patient, tireless... But what I most want to say is this — they were not only my teachers but my treasured friends, friends who respected me, listened to me, helped me untangle the knots of daily life, and met me with complete sincerity.</p>
+        <p>"Come on now! No lying flat before the exam — you're representing HY-Lite out there. Go and sweep the field!" (Editor's note: one can tell at a glance this was not Chris speaking.)</p>
+        <p>Even facing my hopeless, mud-soft argumentative essays, they never rationed their praise or encouragement, embracing my flaws like a roaring fire in deep winter, its heat warming us through. My thanks to every one of them.</p>
+        <p>Thank you to my classmates. At HY-Lite, everyone around you writes as if racing. The moment you sit down in the library, the turning of pages and the scratch of pens fill both ears; look up and you meet expressions of a seriousness never seen in idle chat — and peer pressure tows you forward, one step, then another.</p>
+        <p>We lived in harmony and lifted each other: puzzling through science problems together, drilling each other on vocabulary. Candid in study, growing through exchange — honest competition is a fire that burns open the road ahead, its branches reaching out to hoist every HY-Lite student toward higher, farther skies.</p>
+        <p>Finally — thank you, Mum and Dad, for backing the road I love. (Two hand-drawn hearts 💗)</p>
+        <p>HY-Lite is the best! Full marks, HY-Lite!</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-8">
+      <h4>Surprising, Yet Inevitable — My Road to Nanyang</h4>
+      <div class="vm-author">Yang · Nanyang Girls' High School, Full Scholarship 2025</div>
+      <div class="vm-text">
+        <p>The summer before last, I learned by chance that Singapore's SM1 programme had reopened — an international route that would spare my family the expense — and with a heart full of Singapore, I resolved: Nanyang Girls' High, or nothing.</p>
+        <p>This summer, with fortune's small blessing, that dream came true — surprising, and yet inevitable.</p>
+        <p><b>I. A study plan of one's own: direction over effort</b></p>
+        <p>From Year 9 I kept a plan tailored precisely to myself — the great guarantor of my success. How to build such a plan? Three steps.</p>
+        <p>First, know your strengths and weaknesses coldly. My mathematics was sound — and a major scoring subject for SM1 — so steady schoolwork plus light weekend practice sufficed; Chinese and physics were my short boards, and the after-school hours went to them first.</p>
+        <p>Second, study scientifically. The sciences reward grasping the essence of a problem: I broke through with hard problems and by cataloguing the conditions under which each formula applies. The humanities lean on memory and logic: I distilled keywords first, then strung whole topics upon them, and recitation grew swift.</p>
+        <p>Third, patch the gaps relentlessly. After every practice, ask which formula, which concept, failed you — then strike exactly there. Now and then I enlisted AI tools to sharpen the efficiency.</p>
+        <p><b>II. Effective preparation: efficiency over hours</b></p>
+        <p>Learning is not the hours you spend; it is hours multiplied by efficiency.</p>
+        <p>Preparing for Singapore, I did not drown myself in papers. I compared the Singaporean examinations with our own, found the differences, and trained against precisely those.</p>
+        <p>In mathematics the battle is reading the question: I memorised the standard terminology, then used three or four mock sets to learn the question types and absorb the unfamiliar English.</p>
+        <p>English, Singapore's first language, is the long game: vocabulary and IELTS past papers over months; before the exam, know the format and warm up with two or three sets — no more is needed.</p>
+        <p>The aptitude test is an exam of chance — first learn to solve, then learn to speed. I ran forty questions a day for familiarity's sake.</p>
+        <p>For the interview I owe Jackie true thanks (her question predictions struck home). In class we dissected answering frameworks until my logic ran clean under pressure; she prepared key language around my strengths and polished the delivery. Six hours of precision coaching on the eve — richly repaid. In the final week, keep ninety minutes of speaking aloud every day; what you cannot say, look up — and walk in confident.</p>
+        <p><b>III. Equanimity: temperament over technique</b></p>
+        <p>Everyone chasing Singapore is formidable; pressure is normal. Regulate yourself, keep faith, and that is enough.</p>
+        <p>A steady temper is the key to steady performance. In the written papers work at your natural pace (outside the GAT and the essay, time is ample); skip what refuses to yield — never stall, never panic. What is hard for you is hard for everyone. The interview is light and cordial: present your logic and your strengths, and let that be all. In one sentence: relax, and let your true level speak.</p>
+        <p><b>In closing</b></p>
+        <p>Looking back across that year — so many hard hours, and so many small lights after persistence. When the full-scholarship offer arrived it looked like luck, a surprise; only I knew it was the result that had long been coming, foreshadowed in every plan kept and every gap patched — inevitable, in the end.</p>
+        <p>My thanks to the family and friends who carried me, to HY-Lite for its materials and its help (teachers of great patience and greater substance), and to the self that never let go.</p>
+        <p>May every sincerity be treated gently by time — and may you, running your own road, meet your own inevitable surprise.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-9">
+      <h4>Amazing Grace — My Road to Hwa Chong</h4>
+      <div class="vm-author">Lu · Hwa Chong Institution, Full Scholarship 2025</div>
+      <div class="vm-text">
+        <p>T'was amazing grace, how sweet the sound.</p>
+        <p>The afternoon after my final interview, coffee half-finished, post-exam nerves still jangling — the call that should have come at six rang at half past two. In Chris's office, in that instant, something like a return to primal joy was observed!</p>
+        <p>When the elation subsided, it was time to give thanks properly: to the self that had refused to quit for months, and to the teachers who ran the whole distance alongside.</p>
+        <p><b>Part 01 — Precision teaching</b></p>
+        <p>My English base was decent: before Hwa Chong I sat IELTS nearly cold and took 7.0 first attempt (no match for the titans of the comments section, but this humble student was content); at Daqiao my double-unit English held steady in the top three.</p>
+        <p>But HY-Lite's teaching was bespoke tailoring: wherever you jammed, there they broke through. Writing was my weakest seam, and Jackie led us from essay to narrative, untangling knotted logic and stiff vocabulary strand by strand. Reading struck the pain points precisely — preposition drills, the craft of guessing meaning — compounded by Ben's logic training of machine-like rigour. Trust me: you will come away with a new conception of English itself.</p>
+        <p>The interview likewise. HY-Lite's interview training covers the full 360 degrees. Singapore's schools are not there to trip you; digest what is taught, drill it smooth, dare to speak and fear no error — and that is already excellent.</p>
+        <p><b>Part 02 — Vocabulary, the long tug-of-war</b></p>
+        <p>The Singapore selection is, at its core, a tug-of-war over vocabulary. Seventy percent of English Part 1 tests vocabulary, and tests it in every disguise; in mathematics, misread the question and no IQ will save you.</p>
+        <p>An example: I held IELTS 7.0; a girl who sat with me held 8.0; a senior held TOEFL 106. All three of us were admitted — and all three confessed: the vocabulary, we never fully tamed!</p>
+        <p>My advice: hoard words without limit, and never stop at the teacher's assignment. My own habit ran to three or four hundred a day, rolled over and over — repetition is where they take root. Keep pace with the exercises too; direct-admission students with time to spare should read everything through and convert it into fluent output. The visible leap in my writing and interview scores had one secret: refine, then convert.</p>
+        <p><b>Part 03 — Confidence, before and during</b></p>
+        <p>In preparation, give ten-thousand percent in effort and in care; in the hall, hold steady and let no hard question shake you.</p>
+        <p>Jackie forever teased my "hopeless narrative writing" — yet on exam day the essay never showed, and I had no choice but description. Everyone found it brutal, so my "hopelessness" no longer stood out.</p>
+        <p>At the interview I was grouped with a student whose spoken English outran mine entirely. I made no attempt to outshine him — I simply said what I had prepared, clearly and completely. Both of us advanced.</p>
+        <p>Confidence before the exam makes your preparation thorough; confidence in the exam hall lets all that work truly land.</p>
+        <p>And one more thing: keep a second road open. Don't put all your eggs into one basket — whatever the result, having truly tried, we owe the future nothing less than courage. Don't we?</p>
+        <p><b>Last of the last</b></p>
+        <p>My thanks to all the teaching staff: Jackie, Ben, and Principal Chris; and to the full corps of tutors — Ms. Lyu, Ms. Guo, senior Jin of Daqiao, senior Wu of Daqiao and North London Collegiate Singapore, and Robin Wong of Canada...</p>
+        <p>Thank you all for these months of company!</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-10">
+      <h4>Input, Output and Imitation — My Road to IELTS 8.5</h4>
+      <div class="vm-author">Chen · IELTS 8.5 · Fudan University</div>
+      <div class="vm-text">
+        <p>In the IELTS I sat the summer after Gaokao, I had the good fortune to score 8.5. Let me take the occasion to share some modest thoughts on learning English, and the road that led here.</p>
+        <p>My first IELTS came the summer after Year 10. I had just finished twenty hours of one-to-one speaking and writing with Jackie, and on the strength of that systematic training took 8.0. Looking back, that experience taught me the true weight of the word "methodology".</p>
+        <p>Beyond Jackie's pointers, I also studied at HY-Lite for a stretch — reading and writing courses with Ben, Elsie and Chris. Those foundations let me gradually find a rhythm of my own on the long road of English.</p>
+        <p>My belief: language acquisition is, at bottom, a matter of input and output.</p>
+        <p><b>Input must be chosen well.</b> Use the scattered hours — podcasts, the foreign press, films and serials — for "comprehensible input": material pitched slightly above your present level. Seek it in the subjects you love, and input becomes pleasure; the learning turns natural, and it lasts.</p>
+        <p><b>Equally vital is the channel between input and output.</b> Great volumes of input are only truly internalised by being converted into output. The process asks for a kind of awakening — patient understanding and digestion of the material. There is no fixed recipe; it is closer to a quiet meeting of minds. May you each find your own path.</p>
+        <p>In the balance of the two, my habit is input far exceeding output. Even in my final year I hardly practised essays outside examinations — before the IELTS written paper I had not once put pen to page — compensating with depth of understanding instead. And I have watched classmates succeed the opposite way, letting heavy writing and speaking practice drag the input along behind. Whatever fits you is best.</p>
+        <p><b>And then there is imitation.</b> Imitation is not copying; it is studying the logic and architecture beneath the language. From imitation to understanding to a style one's own — this is the path I recommend above all.</p>
+        <p>As for this examination — preparation time was scarce. In the two months after Gaokao I barely touched English. A single day separated the written and speaking papers, and I spent it at an amusement park, at a concert (the singer, for the record, was wonderful). Happily, the result was a pleasant surprise.</p>
+        <p>In truth it owed everything to one full day of concentrated review — I read Jackie's model essays for Cambridge 16–19 one by one, frame by frame, harvesting angles on each topic, studying the architecture, copying out the recurring phrases and structures. Those careful hours gave my writing its deepest inspiration.</p>
+        <p>Speaking I had barely prepared, having played too long — half a day collecting Part 2 material and threading the topics loosely. Yet in the hall the words came freely: the dividend of long accumulation, and of Jackie's and Chris's steadying words before the day.</p>
+        <p>Language is not the product of mechanical drilling but the natural harvest of long, sustained comprehensible input and measured output — listening and reading flowing into speaking and writing. Stay curious, enjoy the process, and the scores arrive like water finding its channel. May English carry each of you into a wider world!</p>
+        <p>Fingers crossed for all of you. ✨</p>
+        <p><b>Postscript: Jackie's observations</b></p>
+        <p>To every teacher who has taught her, Xingyu is singular — my laptop keeps a folder in her name, for the materials prepared for her alone. Her mind is a super-sponge: for every lesson we prepared three times the usual volume just to feed her appetite for learning. In my observation, her ability rests on at least three qualities.</p>
+        <p><b>First, reading.</b> The sheer volume and speed of her reading command my admiration and, frankly, my envy. I have always held that reading and reflection are the most effective study there is, and Xingyu is its finest proof. I still remember our first lesson: I handed her a very long National Geographic interview with Dr. Fauci — a dozen pages — and she finished it swiftly and answered my every question exactly. Her mother says she has loved books since childhood (hence, too, the deep myopia). In an age drowned in screens, such a capacity grows only more precious.</p>
+        <p><b>Second, focus.</b> Not the focus of perpetual note-taking, but of a mind that thinks and screens at speed while the information flows in. One small scene: in class I asked her to highlight the unknown words in a model essay. She rummaged her battered pencil case, produced one highlighter — dry; another — dry again; and settled finally for her eternal black gel pen. That New Year I sent her a boxed set of highlighters as a tease.</p>
+        <p>The day before her first IELTS we held our final lesson. Only upon reaching Suzhou did she discover all her notes left behind in my classroom, so I scanned every page and sent them on. It was my first sight of her notes: sparse, spare, the handwriting hasty — yet holding nothing but the essential principles, methods and key vocabulary. She spends her classroom hours and mental horsepower on the work that matters — deciding what is important and what deserves execution — and refuses to budget attention for the rest: highlighter versus black pen, pretty handwriting, colour-coded notes.</p>
+        <p><b>Third, intelligence.</b> Not genius, not exotic wiring — but a grasp of "play to the rule", that simplest of life's philosophies: our world runs on rules, and to win one must honour them and use them.</p>
+        <p>Xingyu took not only 8.5 in IELTS but 146 — a near-perfect score — in Gaokao English. The two examinations differ deeply, and she read the difference in the rules exactly, adjusting her performance to each. Before her IELTS retake we held not a single lesson. I merely charged her: run a few speaking mocks; in writing, control the clock, hunt your errors, elevate the language wholesale rather than the connectives alone, use pronouns for cohesion, move the adverbials for grammatical range — then sent her a dozen of my own practice essays from before my writing 8.5. She spent one day absorbing them, and went in.</p>
+        <p>Later, watching her mark essays for our students as a tutor, I caught in her paragraph transitions the unmistakable shadow of my own habits. The day her retake results came out, another student remarked: "She's a little Jackie now" — and I was glad beyond telling. Education, they say, is one tree shaking another. Perhaps this is exactly what that means.</p>
+        <p>Across the years we have watched her steady ascent: from Daqiao to Tianyi to Fudan, rehearsing for the Cambridge interview deep into the night, declining the olive branch of the National University of Singapore for the school and discipline of her dreams. The road held its share of setbacks and pressure, but Xingyu is resilience itself — and in her idle hours, besides her books, she still makes time for that concert, and for a classmate's university-application livestream.</p>
+        <p>May she, at university, continue to "learn broadly and hold fast to purpose; question closely and reflect on what is near" — and unfold life's fuller possibilities.</p>
+      </div>
+    </div>
+
+    <div class="essay-src" id="essay-11">
+      <h4>From 6 to 7 in Writing — The Road Beyond Templates</h4>
+      <div class="vm-author">Zhu · IELTS 7.5 · Writing 6 → 7</div>
+      <div class="vm-text">
+        <p>When I first scored 6 in writing, I had merely memorised some templates and trend-describing phrases, with hardly any real practice behind them. Then, in class, the marking criteria and the demands of each section were laid out systematically, and my stock of structures and vocabulary was rebuilt.</p>
+        <p>Most decisive of all: I wrote every day and handed every piece to Jackie, who returned each one with the exact faults named and the way forward marked. Through that cycle of repetition I learned to seize the data in a chart faster, to err less, to write quicker — buying precious minutes for the main essay.</p>
+        <p>I used to write with a Gaokao-essay mind; IELTS asks instead for social perspective and unfolding logic. Under her guidance I mastered several universal openings that move swiftly into the argument, gathered core vocabulary across the topic map, and studied the standard modes of argumentation. She had me read excellent models and imitate them against her corrections, until my paragraphs unfolded in genuinely idiomatic language.</p>
+        <p>In sum: the climb from 6 to 7 owed nothing to templates. It was systematic study, abundant practice, and meticulous marking. Jackie not only ordered the logic of writing in class, but patiently corrected every essay I wrote after it, until I understood precisely how to improve. Sustained practice with professional feedback — that is what broke the ceiling and delivered the score.</p>
+      </div>
+    </div>
+
+    <!-- 感言全文弹窗 -->
+    <div class="vmodal" id="vmodal" role="dialog" aria-modal="true" aria-label="学员感言全文">
+      <div class="vm-bg"></div>
+      <div class="vm-box">
+        <button class="vm-close" type="button" aria-label="关闭">✕</button>
+        <div id="vmbody"></div>
+      </div>
+    </div>
+
+    <!-- 高分学员名单：双排横向滚动 -->
+    <div class="j-sub" data-reveal>
+      <h3 class="j-subtitle">Honor Roll<span class="en">高分学员名单</span></h3>
+    </div>
+    <div class="roll-marquee" data-reveal aria-label="雅思与托福高分学员">
+      <div class="roll-track">
+        <span class="r-chip"><b>Chen</b><em>IELTS 8.5</em>Fudan University</span>
+        <span class="r-chip"><b>M</b><em>IELTS 8.5</em>University of Alberta</span>
+        <span class="r-chip"><b>Wang</b><em>IELTS 8.5</em>McGill University</span>
+        <span class="r-chip"><b>Xu</b><em>IELTS 8.0</em>Princeton University</span>
+        <span class="r-chip"><b>Wang</b><em>IELTS 8.0</em>Royal Veterinary College</span>
+        <span class="r-chip"><b>Su</b><em>IELTS 8.0</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Chen</b><em>IELTS 8.0</em>United Int'l School, Grade 8</span>
+        <span class="r-chip"><b>Allison</b><em>IELTS 8.0</em>United Int'l School, Grade 9</span>
+        <span class="r-chip"><b>Chen</b><em>IELTS 8.0</em>Tianyi High School, Grade 10</span>
+        <span class="r-chip"><b>Gao</b><em>IELTS 8.0</em></span>
+        <span class="r-chip"><b>She</b><em>TOEFL 6.0, Perfect</em>Wuxi United Int'l School, Grade 10</span>
+        <span class="r-chip"><b>J</b><em>TOEFL 110</em>Shanghai American School · Northwestern</span>
+        <span class="r-chip"><b>Jiang</b><em>TOEFL 115</em>Johns Hopkins University</span>
+        <span class="r-chip"><b>Gu</b><em>TOEFL 108</em>Johns Hopkins University</span>
+        <span class="r-chip"><b>Gong</b><em>TOEFL 112</em>Carleton College</span>
+        <span class="r-chip"><b>Zhang</b><em>TOEFL 107</em>UNC Chapel Hill</span>
+        <span class="r-chip"><b>Xun</b><em>TOEFL 110</em>University of Southern California</span>
+        <span class="r-chip" aria-hidden="true"><b>Chen</b><em>IELTS 8.5</em>Fudan University</span>
+        <span class="r-chip" aria-hidden="true"><b>M</b><em>IELTS 8.5</em>University of Alberta</span>
+        <span class="r-chip" aria-hidden="true"><b>Wang</b><em>IELTS 8.5</em>McGill University</span>
+        <span class="r-chip" aria-hidden="true"><b>Xu</b><em>IELTS 8.0</em>Princeton University</span>
+        <span class="r-chip" aria-hidden="true"><b>Wang</b><em>IELTS 8.0</em>Royal Veterinary College</span>
+        <span class="r-chip" aria-hidden="true"><b>Su</b><em>IELTS 8.0</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Chen</b><em>IELTS 8.0</em>United Int'l School, Grade 8</span>
+        <span class="r-chip" aria-hidden="true"><b>Allison</b><em>IELTS 8.0</em>United Int'l School, Grade 9</span>
+        <span class="r-chip" aria-hidden="true"><b>Chen</b><em>IELTS 8.0</em>Tianyi High School, Grade 10</span>
+        <span class="r-chip" aria-hidden="true"><b>Gao</b><em>IELTS 8.0</em></span>
+        <span class="r-chip" aria-hidden="true"><b>She</b><em>TOEFL 6.0, Perfect</em>Wuxi United Int'l School, Grade 10</span>
+        <span class="r-chip" aria-hidden="true"><b>J</b><em>TOEFL 110</em>Shanghai American School · Northwestern</span>
+        <span class="r-chip" aria-hidden="true"><b>Jiang</b><em>TOEFL 115</em>Johns Hopkins University</span>
+        <span class="r-chip" aria-hidden="true"><b>Gu</b><em>TOEFL 108</em>Johns Hopkins University</span>
+        <span class="r-chip" aria-hidden="true"><b>Gong</b><em>TOEFL 112</em>Carleton College</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhang</b><em>TOEFL 107</em>UNC Chapel Hill</span>
+        <span class="r-chip" aria-hidden="true"><b>Xun</b><em>TOEFL 110</em>University of Southern California</span>
+      </div>
+    </div>
+    <div class="roll-marquee" data-reveal aria-label="全额奖学金学员">
+      <div class="roll-track rev">
+        <span class="r-chip"><b>Liao</b><em>2026</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>He</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Chen</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Zhang</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Zhou</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip"><b>Chen</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip"><b>Ye</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip"><b>Lu</b><em>2025</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Zhu</b><em>2025</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Yang</b><em>2025</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip"><b>Su</b><em>2024</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Ou</b><em>2024</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip"><b>Ma</b><em>2024</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip"><b>Lyu</b><em>2024</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Wang</b><em>2024</em>Chung Cheng High School, Full Scholarship</span>
+        <span class="r-chip"><b>Su</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Pan</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Xin</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Zhou</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Wu</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Huang</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip"><b>Zhang</b><em>2021</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Liao</b><em>2026</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>He</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Chen</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhang</b><em>2026</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhou</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Chen</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Ye</b><em>2026</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Lu</b><em>2025</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhu</b><em>2025</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Yang</b><em>2025</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Su</b><em>2024</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Ou</b><em>2024</em>Hwa Chong Institution, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Ma</b><em>2024</em>Nanyang Girls' High, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Lyu</b><em>2024</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Wang</b><em>2024</em>Chung Cheng High School, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Su</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Pan</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Xin</b><em>2023</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhou</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Wu</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Huang</b><em>2022</em>Hwa Chong International, Full Scholarship</span>
+        <span class="r-chip" aria-hidden="true"><b>Zhang</b><em>2021</em>Hwa Chong International, Full Scholarship</span>
+      </div>
+    </div>
+
+    <!-- 学员活动照片墙（从 Team 段移入，2026-08-06 用户定） -->
+    <div class="diff-wall team-wall" data-reveal aria-label="学员活动照片墙">
+      <!-- 新照片加入第一组后，再同步复制到第二组，保持无缝滚动。 -->
+      <div class="diff-wall-track">
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-report.jpg" data-full="jackie-wall/jackie-ielts-report.png" alt="Jackie 的雅思成绩单" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-workshop.jpg" data-full="jackie-wall/jackie-ielts-workshop.jpg" alt="Jackie 的雅思教师培训证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ted-certificate.jpg" data-full="jackie-wall/jackie-ted-certificate.jpg" alt="Jackie 的 TEDx 证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-bath-degree.jpg" data-full="jackie-wall/jackie-bath-degree.jpg" alt="Jackie 的巴斯大学学位证书" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-student-celebration.jpg" data-full="jackie-wall/hy-student-celebration.jpg" alt="环亚国际教育活动合影" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-ielts-result.jpg" data-full="jackie-wall/jackie-ielts-result.png" alt="Jackie 的雅思成绩页面" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-result.jpg" data-full="jackie-wall/jackie-toefl-result.jpg" alt="Jackie 的托福成绩页面" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-team-photo.jpg" data-full="jackie-wall/hy-team-photo.jpg" alt="环亚国际教育团队合影" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/jackie-tedx-stage.jpg" data-full="jackie-wall/jackie-tedx-stage.jpg" alt="Jackie 在 TEDx 舞台演讲" style="object-position:68% center" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-students-01.jpg" data-full="jackie-wall/hy-office-students-01.jpg" alt="HY-LITE office group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-students-02.jpg" data-full="jackie-wall/hy-office-students-02.jpg" alt="HY-LITE office group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-office-opening.jpg" data-full="jackie-wall/hy-office-opening.jpg" alt="HY-LITE office opening celebration" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-singapore-campus.jpg" data-full="jackie-wall/hy-singapore-campus.jpg" alt="HY-LITE Singapore campus group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-visitor-group.jpg" data-full="jackie-wall/hy-visitor-group.jpg" alt="HY-LITE visitor group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-team-dinner.jpg" data-full="jackie-wall/hy-team-dinner.jpg" alt="HY-LITE team dinner" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/jackie-lecture-hall.jpg" data-full="jackie-wall/jackie-lecture-hall.jpg" alt="Jackie teaching in a lecture hall" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-class-group.jpg" data-full="jackie-wall/hy-class-group.jpg" alt="HY-LITE classroom group photo" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-students-laptops.jpg" data-full="jackie-wall/hy-students-laptops.jpg" alt="HY-LITE students in class" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-ielts-team-scores.jpg" data-full="jackie-wall/hy-ielts-team-scores.jpg" alt="HY-LITE IELTS score group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-propell-2012.jpg" data-full="jackie-wall/jackie-toefl-propell-2012.jpg" alt="Jackie TOEFL Propell workshop certificate" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document"><img src="jackie-wall/thumbs/jackie-toefl-propell-2014.jpg" data-full="jackie-wall/jackie-toefl-propell-2014.jpg" alt="Jackie TOEFL Propell workshop certificate" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-christmas-choir.jpg" data-full="jackie-wall/hy-christmas-choir.jpg" alt="HY-LITE student Christmas choir" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-fencing-championship.jpg" data-full="jackie-wall/hy-fencing-championship.jpg" alt="HY-LITE fencing championship group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item"><img src="jackie-wall/thumbs/hy-fencing-cadet-circuit.jpg" data-full="jackie-wall/hy-fencing-cadet-circuit.jpg" alt="HY-LITE fencing cadet circuit group" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-report.jpg" data-full="jackie-wall/jackie-ielts-report.png" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-workshop.jpg" data-full="jackie-wall/jackie-ielts-workshop.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ted-certificate.jpg" data-full="jackie-wall/jackie-ted-certificate.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-bath-degree.jpg" data-full="jackie-wall/jackie-bath-degree.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-student-celebration.jpg" data-full="jackie-wall/hy-student-celebration.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-ielts-result.jpg" data-full="jackie-wall/jackie-ielts-result.png" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-result.jpg" data-full="jackie-wall/jackie-toefl-result.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-team-photo.jpg" data-full="jackie-wall/hy-team-photo.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-tedx-stage.jpg" data-full="jackie-wall/jackie-tedx-stage.jpg" alt="" style="object-position:68% center" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-students-01.jpg" data-full="jackie-wall/hy-office-students-01.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-students-02.jpg" data-full="jackie-wall/hy-office-students-02.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-office-opening.jpg" data-full="jackie-wall/hy-office-opening.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-singapore-campus.jpg" data-full="jackie-wall/hy-singapore-campus.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-visitor-group.jpg" data-full="jackie-wall/hy-visitor-group.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-team-dinner.jpg" data-full="jackie-wall/hy-team-dinner.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-lecture-hall.jpg" data-full="jackie-wall/jackie-lecture-hall.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-class-group.jpg" data-full="jackie-wall/hy-class-group.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-students-laptops.jpg" data-full="jackie-wall/hy-students-laptops.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-ielts-team-scores.jpg" data-full="jackie-wall/hy-ielts-team-scores.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-propell-2012.jpg" data-full="jackie-wall/jackie-toefl-propell-2012.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item is-document" aria-hidden="true"><img src="jackie-wall/thumbs/jackie-toefl-propell-2014.jpg" data-full="jackie-wall/jackie-toefl-propell-2014.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-christmas-choir.jpg" data-full="jackie-wall/hy-christmas-choir.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-fencing-championship.jpg" data-full="jackie-wall/hy-fencing-championship.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="diff-wall-item" aria-hidden="true"><img src="jackie-wall/thumbs/hy-fencing-cadet-circuit.jpg" data-full="jackie-wall/hy-fencing-cadet-circuit.jpg" alt="" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚：渠道 + 联系方式 ============ -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="staff-contact" aria-label="联系工作人员">
+      <img src="contact/staff-wechat.jpg" alt="联系工作人员二维码" loading="lazy" decoding="async">
+      <div class="staff-contact-copy">
+        <strong>Scan</strong>
+        <span>to reach our team</span>
+      </div>
+    </div>
+    <div class="channels">
+      <a href="channels.html?c=gzh">WeChat</a>
+      <a href="channels.html?c=sph">Channels</a>
+      <a href="channels.html?c=xhs">RED</a>
+      <a href="channels.html?c=ipx">Ipraxis</a>
+    </div>
+    <p class="foot-meta"><span>Yunfu Mansion 1201–1202, Wuxi</span>　|　<span>0510-82820708</span>　|　<span>Since 2003</span>　|　<span>© HY-LITE International English</span></p>
+  </div>
+</footer>
+
+<script>
+if (location.search.indexOf('shot') > -1) document.documentElement.classList.add('shot');
+/* ================================================================
+   粒子文字场（双行版）：
+   第一行 HY LITE education + 第二行 环亚国际教育（放大，一同受扰动）
+   弹簧回位 / 静止休眠 / 指针唤醒 / 滚出视口停帧
+   ================================================================ */
+(function(){
+  var canvas = document.getElementById('pfield');
+  var cover = document.getElementById('cover');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var CFG = {
+    text: 'Hy-Lite Education',
+    font: '"Times New Roman",Georgia,serif', // 10号：粗斜衬线（用户定稿，勿改）
+    weight: 'italic 700',
+    track: 0.03,          // 字距 0.03em（照实验室截图）
+    dotRatio: 0.60,       // 点径 60%（照实验室截图）
+    accent: 0.08,         // 赭红点 8%（照实验室截图）
+    spring: 0.004,
+    damping: 0.9,
+    radius: 180,
+    force: 2.5,
+    attract: 2,
+    dragInertia: 0.2,
+    velDamp: 0.5,
+    maxSpeed: 50,
+    entrance: 2000,
+    textCenterY: 0.42
+  };
+
+  // 稳定伪随机：赭红点位置不随重建闪变（实验室同款）
+  function hash(x, y){
+    var h = x * 374761393 + y * 668265263;
+    h = (h ^ (h >> 13)) * 1274126177;
+    return ((h ^ (h >> 16)) >>> 0) / 4294967295;
+  }
+
+  var W = 0, H = 0, DPR = 1;
+  var px, py, hx, hy, vx, vy, tint;
+  var count = 0, dotSize = 4;
+  var entStart = null, entT0 = 0;
+  var running = false, rafId = 0, built = false;
+  var visible = true, idle = 0;
+  var mouse = { x: 1e9, y: 1e9, px: 1e9, py: 1e9, vx: 0, vy: 0 };
+
+  function sizeCanvas(){
+    W = cover.clientWidth; H = cover.clientHeight;
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.max(1, Math.round(W * DPR));
+    canvas.height = Math.max(1, Math.round(H * DPR));
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+
+  function build(playEntrance){
+    sizeCanvas();
+    if (W < 2 || H < 2){ built = false; return; }
+
+    var off = document.createElement('canvas');
+    off.width = W; off.height = H;
+    var octx = off.getContext('2d', { willReadFrequently: true });
+    octx.fillStyle = '#fff';
+    octx.textAlign = 'center';
+    octx.textBaseline = 'middle';
+
+    // 排版：桌面单行约 70% 视口宽；手机竖屏拆两行（Hy Lite / Education）按 86% 宽定字号，字更大更清楚
+    var lines = W < 640 ? ['Hy-Lite', 'Education'] : [CFG.text];
+    octx.font = CFG.weight + ' 100px ' + CFG.font;
+    var fs;
+    if (lines.length > 1){
+      fs = Infinity;
+      for (var lw = 0; lw < lines.length; lw++){
+        var mw = octx.measureText(lines[lw]).width || 1;
+        fs = Math.min(fs, 100 * (W * 0.86) / mw);
+      }
+      fs = Math.max(Math.min(fs, H * 0.16, 170), 30);
+    } else {
+      var m100 = octx.measureText(CFG.text).width || 1;
+      fs = 100 * (W * 0.70) / m100;
+      fs = Math.max(Math.min(fs, H * 0.22, 170), 30);
+    }
+    octx.font = CFG.weight + ' ' + fs + 'px ' + CFG.font;
+    // 手动字距（0.03em）逐字排布
+    function measureLine(str){
+      var cs = str.split(''), ls = CFG.track * fs, t = 0, ws = [];
+      for (var c = 0; c < cs.length; c++){
+        var w0 = octx.measureText(cs[c]).width;
+        ws.push(w0); t += w0 + ls;
+      }
+      return { chars: cs, widths: ws, total: t - ls, ls: ls };
+    }
+    function measureLines(){
+      var arr = [], widest = 0;
+      for (var li = 0; li < lines.length; li++){
+        var m1 = measureLine(lines[li]);
+        arr.push(m1); if (m1.total > widest) widest = m1.total;
+      }
+      return { ms: arr, widest: widest };
+    }
+    var mm = measureLines();
+    var maxW = W - 32;
+    if (mm.widest > maxW){
+      fs *= maxW / mm.widest;
+      octx.font = CFG.weight + ' ' + fs + 'px ' + CFG.font;
+      mm = measureLines();
+    }
+    var lineH = fs * 1.18;
+    var ty0 = H * CFG.textCenterY - (lines.length - 1) * lineH / 2;
+    for (var li2 = 0; li2 < lines.length; li2++){
+      var m = mm.ms[li2];
+      var ty = ty0 + li2 * lineH;
+      var cx = (W - m.total) / 2;
+      for (var ci = 0; ci < m.chars.length; ci++){
+        octx.fillText(m.chars[ci], cx + m.widths[ci] / 2, ty);
+        cx += m.widths[ci] + m.ls;
+      }
+    }
+
+    // 中文固定字贴在点阵最后一行下方
+    var sub = document.getElementById('zhsub');
+    if (sub) sub.style.top = Math.round(ty0 + (lines.length - 1) * lineH + fs * 0.62 + 22) + 'px';
+
+    // 规则网格点阵光栅（无抖动——这是点阵和"粒子"的区别）
+    var gap = W < 640 ? 4 : 5;   // 5px（照实验室截图）
+    dotSize = gap * CFG.dotRatio;
+    var data = octx.getImageData(0, 0, off.width, off.height).data;
+    var pts = [];
+    for (var y = 0; y < off.height; y += gap){
+      for (var x = 0; x < off.width; x += gap){
+        if (data[(y * off.width + x) * 4 + 3] > 128){
+          pts.push(x, y);
+        }
+      }
+    }
+    count = pts.length / 2;
+    px = new Float32Array(count); py = new Float32Array(count);
+    hx = new Float32Array(count); hy = new Float32Array(count);
+    vx = new Float32Array(count); vy = new Float32Array(count);
+    tint = new Uint8Array(count);
+    entStart = playEntrance ? new Float32Array(count * 2) : null;
+
+    for (var i = 0; i < count; i++){
+      hx[i] = pts[i * 2]; hy[i] = pts[i * 2 + 1];
+      tint[i] = hash(Math.round(hx[i] / gap), Math.round(hy[i] / gap)) < CFG.accent ? 1 : 0;
+      if (playEntrance){
+        var sx = W / 2 + (Math.random() - .5) * W * 1.2;
+        var sy = H / 2 + (Math.random() - .5) * H * 1.2;
+        entStart[i * 2] = sx; entStart[i * 2 + 1] = sy;
+        px[i] = sx; py[i] = sy;
+      } else {
+        px[i] = hx[i]; py[i] = hy[i];
+      }
+      vx[i] = 0; vy[i] = 0;
+    }
+    entT0 = playEntrance ? performance.now() : 0;
+    idle = 0;
+    built = true;
+    if (reduce){ draw(); }
+  }
+
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    var r = dotSize / 2, TAU = Math.PI * 2;
+    // 圆点（照实验室截图）：按色分两笔画完
+    ctx.fillStyle = '#26251F';
+    ctx.beginPath();
+    for (var i = 0; i < count; i++)
+      if (!tint[i]){ ctx.moveTo(px[i] + r, py[i]); ctx.arc(px[i], py[i], r, 0, TAU); }
+    ctx.fill();
+    ctx.fillStyle = '#CD6F47'; // 赭红
+    ctx.beginPath();
+    for (var j = 0; j < count; j++)
+      if (tint[j]){ ctx.moveTo(px[j] + r, py[j]); ctx.arc(px[j], py[j], r, 0, TAU); }
+    ctx.fill();
+  }
+
+  function loop(){
+    rafId = requestAnimationFrame(loop);
+    if (!built) return;
+
+    mouse.vx *= CFG.velDamp; mouse.vy *= CFG.velDamp;
+    if (Math.abs(mouse.vx) < .01) mouse.vx = 0;
+    if (Math.abs(mouse.vy) < .01) mouse.vy = 0;
+
+    if (entStart && entT0){
+      var t = Math.min(1, (performance.now() - entT0) / CFG.entrance);
+      var e = 1 - Math.pow(1 - t, 3);
+      for (var i = 0; i < count; i++){
+        px[i] = entStart[i * 2] + (hx[i] - entStart[i * 2]) * e;
+        py[i] = entStart[i * 2 + 1] + (hy[i] - entStart[i * 2 + 1]) * e;
+      }
+      if (t >= 1){ entStart = null; entT0 = 0; }
+      draw(); return;
+    }
+
+    var r2 = CFG.radius * CFG.radius;
+    var msp = mouse.vx * mouse.vx + mouse.vy * mouse.vy;
+    var mf = Math.min(msp / 4, 1);
+    var maxV2 = 0, maxD2 = 0;
+    for (var k = 0; k < count; k++){
+      var fx = (hx[k] - px[k]) * CFG.spring;
+      var fy = (hy[k] - py[k]) * CFG.spring;
+      if (mf > 0){
+        var dx = mouse.x - px[k], dy = mouse.y - py[k];
+        var d2 = dx * dx + dy * dy;
+        if (d2 < r2){
+          var d = Math.sqrt(d2) || 1;
+          var inf = 1 - d / CFG.radius;
+          var st = inf * inf * CFG.force * mf;
+          fx += (dx / d) * st * CFG.attract + mouse.vx * st * CFG.dragInertia;
+          fy += (dy / d) * st * CFG.attract + mouse.vy * st * CFG.dragInertia;
+        }
+      }
+      vx[k] = (vx[k] + fx) * CFG.damping;
+      vy[k] = (vy[k] + fy) * CFG.damping;
+      px[k] += vx[k]; py[k] += vy[k];
+
+      var av = vx[k]*vx[k] + vy[k]*vy[k]; if (av > maxV2) maxV2 = av;
+      var ex = hx[k]-px[k], ey = hy[k]-py[k], ed = ex*ex + ey*ey; if (ed > maxD2) maxD2 = ed;
+    }
+    draw();
+
+    if (mf === 0 && maxV2 < 0.0025 && maxD2 < 0.0025){
+      if (++idle > 12) stop();
+    } else idle = 0;
+  }
+
+  function pointerAt(cx, cy){
+    var rect = canvas.getBoundingClientRect();
+    mouse.px = mouse.x; mouse.py = mouse.y;
+    mouse.x = cx - rect.left; mouse.y = cy - rect.top;
+    if (mouse.px < 1e8){
+      var mvx = mouse.x - mouse.px, mvy = mouse.y - mouse.py;
+      mouse.vx = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvx));
+      mouse.vy = Math.max(-CFG.maxSpeed, Math.min(CFG.maxSpeed, mvy));
+    }
+    if (!running && visible && built) start();
+  }
+
+  function start(){
+    if (!running && built && !reduce && visible){ running = true; idle = 0; loop(); }
+  }
+  function stop(){ running = false; cancelAnimationFrame(rafId); }
+  function resetPointer(){ mouse.x = 1e9; mouse.y = 1e9; mouse.px = 1e9; mouse.vx = 0; mouse.vy = 0; }
+
+  // Times 为系统字体即时可用
+  var ready = (document.fonts && document.fonts.ready)
+    ? Promise.race([document.fonts.ready, new Promise(function(r){ setTimeout(r, 1200); })])
+    : Promise.resolve();
+  ready.then(function(){
+    build(!reduce);
+    if (visible) start();
+  });
+
+  if (!reduce){
+    window.addEventListener('mousemove', function(e){ pointerAt(e.clientX, e.clientY); }, { passive: true });
+    window.addEventListener('touchmove', function(e){
+      if (e.touches.length) pointerAt(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    window.addEventListener('touchend', resetPointer);
+    window.addEventListener('touchcancel', resetPointer);
+
+    // 封面触控分区：起手点在「环亚国际教育」行底以上 → 只控制粒子(阻止滚屏)；以下 → 正常滚动
+    var zhsubEl = document.getElementById('zhsub');
+    var holdParticles = false;
+    canvas.addEventListener('touchstart', function(e){
+      var boundary = zhsubEl ? zhsubEl.getBoundingClientRect().bottom : 0;
+      holdParticles = !!e.touches.length && e.touches[0].clientY < boundary;
+    }, { passive: true });
+    canvas.addEventListener('touchmove', function(e){
+      if (holdParticles) e.preventDefault();
+    }, { passive: false });
+    canvas.addEventListener('touchend', function(){ holdParticles = false; }, { passive: true });
+
+    if ('IntersectionObserver' in window){
+      new IntersectionObserver(function(en){
+        visible = en[en.length - 1].isIntersecting;
+        visible ? start() : stop();
+      }, { threshold: 0.02 }).observe(cover);
+    }
+  }
+
+  var rT = 0;
+  window.addEventListener('resize', function(){
+    clearTimeout(rT);
+    rT = setTimeout(function(){
+      if (cover.clientWidth === W && cover.clientHeight === H) return;
+      build(false);
+      if (built){ draw(); if (visible) start(); }
+    }, 150);
+  });
+})();
+
+/* 滚动入场 */
+(function(){
+  var els = document.querySelectorAll('[data-reveal]');
+  if (document.documentElement.classList.contains('shot')){
+    els.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if (!en.isIntersecting) return;
+        en.target.classList.add('in');
+        io.unobserve(en.target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+<script>
+/* 学员感言弹窗：点卡片读全文；✕ / 点遮罩 / Esc 关闭 */
+(function(){
+  var modal = document.getElementById('vmodal');
+  var body = document.getElementById('vmbody');
+  if (!modal || !body) return;
+  function open(id){
+    var src = document.getElementById(id);
+    if (!src) return;
+    body.innerHTML = src.innerHTML;
+    modal.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    var box = modal.querySelector('.vm-box'); if (box) box.scrollTop = 0;
+  }
+  function close(){
+    modal.classList.remove('open');
+    document.documentElement.style.overflow = '';
+  }
+  document.addEventListener('click', function(e){
+    var card = e.target.closest && e.target.closest('.q-card');
+    if (card){ open(card.getAttribute('data-essay')); return; }
+    if (!modal.classList.contains('open')) return;
+    if ((e.target.closest && e.target.closest('.vm-close')) || e.target.classList.contains('vm-bg')) close();
+  });
+  window.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+
+  // 触屏没有 hover：按住任一跑马灯暂停，松手 2.5s 后恢复滚动
+  var tracks = document.querySelectorAll('.qtrack, .roll-track, .diff-wall-track');
+  var wallImages = document.querySelectorAll('.diff-wall-item img');
+  for (var wi = 0; wi < wallImages.length; wi++) {
+    var wallImg = wallImages[wi];
+    var thumbSrc = wallImg.getAttribute('src') || '';
+    if (thumbSrc.indexOf('jackie-wall/thumbs/') === 0) {
+      wallImg.loading = 'eager';
+      wallImg.decoding = 'async';
+      if (thumbSrc.indexOf('?') < 0) wallImg.src = thumbSrc + '?v=20260807';
+      wallImg.addEventListener('error', function () {
+        var fallback = this.getAttribute('data-full');
+        if (fallback && !this.getAttribute('data-wall-fallback')) {
+          this.setAttribute('data-wall-fallback', '1');
+          this.src = fallback;
+        }
+      });
+    }
+  }
+  var resumeTimer = null;
+  function setPlay(state){ for (var i = 0; i < tracks.length; i++) tracks[i].style.animationPlayState = state; }
+  document.addEventListener('touchstart', function(e){
+    if (!(e.target.closest && e.target.closest('.qrow, .roll-marquee, .diff-wall'))) return;
+    clearTimeout(resumeTimer);
+    setPlay('paused');
+  }, { passive: true });
+  document.addEventListener('touchend', function(){
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(function(){ setPlay(''); }, 2500);
+  }, { passive: true });
+})();
+
+/* 照片墙灯箱：原生横滑画廊（scroll-snap）——点开即滑，无中间界面 */
+(function(){
+  var wall = document.querySelector('.diff-wall');
+  if (!wall) return;
+  var srcs = [];
+  var figs = wall.querySelectorAll('.diff-wall-item:not([aria-hidden]) img');
+  for (var i = 0; i < figs.length; i++) srcs.push(figs[i].getAttribute('data-full') || figs[i].getAttribute('src'));  // 灯箱用原图，墙上只挂缩略图
+  if (!srcs.length) return;
+
+  var box = document.createElement('div');
+  box.className = 'plight';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-label', '照片放大查看');
+  var slides = '';
+  for (var s = 0; s < srcs.length; s++) slides += '<div class="pl-slide"><img alt="团队活动照片" decoding="async"></div>';
+  box.innerHTML = '<div class="pl-bg"></div>' +
+    '<div class="pl-strip">' + slides + '</div>' +
+    '<button class="pl-close" type="button" aria-label="关闭">✕</button>' +
+    '<button class="pl-nav pl-prev" type="button" aria-label="上一张">‹</button>' +
+    '<button class="pl-nav pl-next" type="button" aria-label="下一张">›</button>' +
+    '<div class="pl-count"></div>';
+  document.body.appendChild(box);
+  var strip = box.querySelector('.pl-strip'), cnt = box.querySelector('.pl-count');
+  var imgs = strip.querySelectorAll('.pl-slide img'), cur = 0;
+  for (var k = 0; k < imgs.length; k++) imgs[k].addEventListener('load', function(){ this.classList.add('ld'); });
+
+  function load(i){                       // 懒加载：滑到附近才取原图
+    i = (i + srcs.length) % srcs.length;
+    if (!imgs[i].getAttribute('src')) imgs[i].src = srcs[i];
+  }
+  function setCur(i){
+    cur = Math.max(0, Math.min(srcs.length - 1, i));
+    cnt.textContent = (cur + 1) + ' / ' + srcs.length;
+    load(cur); load(cur + 1); load(cur - 1);
+  }
+  function goTo(i, smooth){
+    setCur(i);
+    strip.scrollTo({ left: cur * strip.clientWidth, behavior: smooth ? 'smooth' : 'auto' });
+  }
+  var scT;
+  strip.addEventListener('scroll', function(){   // 手指滑动吸附后同步计数与懒加载
+    clearTimeout(scT);
+    scT = setTimeout(function(){
+      var i = Math.round(strip.scrollLeft / strip.clientWidth);
+      if (i !== cur) setCur(i);
+    }, 80);
+  }, { passive: true });
+
+  function openBox(src){
+    var i = srcs.indexOf(src); if (i < 0) i = 0;
+    box.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    goTo(i, false);
+  }
+  function closeBox(){
+    box.classList.remove('open');
+    document.documentElement.style.overflow = '';
+  }
+  wall.addEventListener('click', function(e){
+    var img = e.target.closest && e.target.closest('.diff-wall-item img');
+    if (img) openBox(img.getAttribute('data-full') || img.getAttribute('src'));
+  });
+  box.querySelector('.pl-close').addEventListener('click', closeBox);
+  strip.addEventListener('click', function(e){ if (e.target.tagName !== 'IMG') closeBox(); });  // 点图外暗处关闭
+  box.querySelector('.pl-prev').addEventListener('click', function(){ goTo(cur - 1, true); });
+  box.querySelector('.pl-next').addEventListener('click', function(){ goTo(cur + 1, true); });
+  window.addEventListener('keydown', function(e){
+    if (!box.classList.contains('open')) return;
+    if (e.key === 'Escape') closeBox();
+    else if (e.key === 'ArrowLeft') goTo(cur - 1, true);
+    else if (e.key === 'ArrowRight') goTo(cur + 1, true);
+  });
+})();
+</script>
+</body>
+</html>
