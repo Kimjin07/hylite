@@ -85,13 +85,13 @@ img{display:block;max-width:100%}
   position:absolute;left:0;right:0;top:56%;
   z-index:0;pointer-events:none;text-align:center;
   font-family:'Jinshu Song',"Songti SC","STSong","SimSun",serif; /* 寒蝉锦书宋，回落宋体 */
-  font-size:19px;font-weight:600;
+  font-size:26px;font-weight:700;
   letter-spacing:.22em;text-indent:.22em;
   color:rgba(38,37,31,.82);
   opacity:0;animation:subIn .9s var(--ease) 1.15s forwards;
 }
 @keyframes subIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-@media (max-width:640px){#zhsub{font-size:12.5px;letter-spacing:.1em;text-indent:.1em}}
+@media (max-width:640px){#zhsub{font-size:21px;letter-spacing:.18em;text-indent:.18em}}
 @media (prefers-reduced-motion: reduce){#zhsub{opacity:1;animation:none}}
 html.shot #zhsub{opacity:1 !important;animation:none !important}
 /* 截图模式：压扁 100vh 封面、强制 reveal 元素显形，便于整页无头截图 */
@@ -456,7 +456,7 @@ footer{border-top:2px solid var(--ink);padding:44px 0 52px;text-align:center}
 <header class="cover" id="cover">
   <h1 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">HY-LITE International English — Wuxi, Since 2003</h1>
   <canvas id="pfield" aria-hidden="true"></canvas>
-  <p id="zhsub" aria-hidden="true" style="font-family:'Times New Roman',Georgia,serif;font-style:italic;letter-spacing:.12em;text-indent:.12em">International English · Wuxi, Since 2003</p>
+  <p id="zhsub" aria-hidden="true">环亚国际教育</p>
 
   <nav class="top" aria-label="主导航">
     <ul>
