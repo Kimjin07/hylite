@@ -1,0 +1,161 @@
+[
+  {
+    "sentence": "Put simply, potential is your natural ability that can be developed when you try hard enough.",
+    "translation": "简而言之，潜力是你的天赋能力，当你足够努力时可以将其发展出来。",
+    "analysis": "主干：potential is your natural ability | Put simply 为插入式话语标记语（discourse marker），相当于 to put it simply，用于开篇总括 | that 引导限定性定语从句修饰 ability（\"可以被发展的能力\"） | when 引导时间状语从句嵌套在定语从句内部，修饰 can be developed 的时间条件",
+    "pattern": "Put simply, S + be + N + that-can-be-V-ed + when + S + V...",
+    "structures": [
+      "话语标记语",
+      "定语从句",
+      "状语从句"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "简而言之，友谊是一座花园，当你用心浇灌它时，它便会绽放出最美的花朵。",
+    "imitationHint": "Put simply 开头 → friendship 为主语 → garden 为表语 → 用 that can bloom when... 连接",
+    "imitationAnswer": "Put simply, friendship is a garden that can bloom into the most beautiful flowers when you water it with your heart."
+  },
+  {
+    "sentence": "The path before you leads to a world full of challenges: a new environment, new knowledge and new ways of thinking.",
+    "translation": "你面前的道路通向一个充满挑战的世界：新环境、新知识和新思维方式。",
+    "analysis": "主干：The path leads to a world | before you 介词短语作后置定语修饰 the path（\"你面前的路\"） | full of challenges 形容词短语作后置定语修饰 world | 冒号后为三个并列名词短语作同位语，对 a world full of challenges 的具体内涵进行分层解释 | 注意理解逻辑链：道路→世界→挑战的三个维度（环境、知识、思维）",
+    "pattern": "S + 后置定语 + V + O + 后置定语: N1, N2 and N3（同位语排比）",
+    "structures": [
+      "后置定语",
+      "同位语",
+      "排比"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "你面前的机会通向一片充满可能的未来：新的友谊、新的知识以及新的成长方式。",
+    "imitationHint": "The opportunity before you → leads to a future full of possibilities → 冒号后三个并列名词短语展开",
+    "imitationAnswer": "The opportunity before you leads to a future full of possibilities: new friendships, new knowledge and new ways of growth."
+  },
+  {
+    "sentence": "When you rise to the challenges, you will have the opportunity to acquire great knowledge and enjoy personal growth.",
+    "translation": "当你勇敢迎接挑战时，你将有机会获取渊博的知识并享受个人的成长。",
+    "analysis": "When 时间状语从句前置，为后续内容设定前提条件；rises to the challenges 为地道习语，意为\"勇敢面对/迎接挑战\" | 主句：you will have the opportunity，后接两个并列不定式 to acquire... and (to) enjoy... 作后置定语修饰 opportunity | 注意：opportunity to do sth. 是书面写作中的高频搭配，远好于 chance",
+    "pattern": "When + S + V（习语）..., S + will have the opportunity to V₁ and (to) V₂",
+    "structures": [
+      "状语从句",
+      "并列不定式",
+      "习语"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当你迈出第一步时，你将有机会发现一个全新的世界并结识一群志同道合的朋友。",
+    "imitationHint": "When you take the first step... → have the opportunity to discover... and meet...",
+    "imitationAnswer": "When you take the first step, you will have the opportunity to discover a brand-new world and meet a group of like-minded friends."
+  },
+  {
+    "sentence": "Who knows what beautiful works of art you will create, what medical advances you will make or what amazing technologies you will develop!",
+    "translation": "谁知道你会创作出怎样美妙绝伦的艺术作品，取得怎样的医学进步，或开发出怎样令人惊叹的技术！",
+    "analysis": "Who knows 为修辞性疑问句（rhetorical question），并非真正提问，而是以反问强调\"无人能预知\"，增强感染力和说服力 | 后接三个 what 引导的宾语从句并列，由 or 连接第三个从句 | 三重排比（triple parallelism）是演讲中的黄金技巧：create → make → develop 动词层层递进，art → medicine → technology 领域逐步扩大 | 感叹号强化语气，适合演讲结尾（peroration）",
+    "pattern": "Who knows + what + S + V₁, what + S + V₂ or what + S + V₃!",
+    "structures": [
+      "修辞疑问",
+      "排比",
+      "宾语从句"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "谁知道你会在这个舞台上收获怎样的掌声，交到怎样知心的朋友，或留下怎样一生难忘的回忆！",
+    "imitationHint": "Who knows what applause..., what friends... or what memories... ! 注意三个 what 从句的动词变化",
+    "imitationAnswer": "Who knows what applause you will win on this stage, what close friends you will make or what unforgettable memories you will leave behind!"
+  },
+  {
+    "sentence": "The possibilities are endless, and I have confidence in your ability to make a difference to your family, to your community and to our country.",
+    "translation": "可能性是无限的，我相信你们有能力为家庭、为社区、为国家带来积极影响。",
+    "analysis": "并列复合句（compound-complex）：前句为系表结构（possibilities are endless），后句为 SVO 结构 | I have confidence in your ability 为核心主干 | 不定式 to make a difference 作 ability 的后置定语 | 三个并列介词短语 to your family, to your community and to our country 共同修饰 make a difference | 由近及远、由小到大的排比（family → community → country），呼应儒家\"修身齐家治国\"的递进传统，是演讲中收束情感的高潮段落",
+    "pattern": "S₁ + be + adj., and S₂ + have confidence in + N + to V + to N₁, to N₂ and to N₃",
+    "structures": [
+      "并列复合句",
+      "后置定语",
+      "排比"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "挑战是巨大的，但我相信你们有勇气去面对未知、去克服困难、去实现那些曾经遥不可及的梦想。",
+    "imitationHint": "The challenges are enormous, but I have faith in your courage → to face..., to overcome..., and to achieve...（注意三个 to V 排比）",
+    "imitationAnswer": "The challenges are enormous, but I have faith in your courage to face the unknown, to overcome difficulties, and to achieve those dreams that once seemed out of reach."
+  },
+  {
+    "sentence": "To fully realize your potential, it is important for you to make the most of our school resources.",
+    "translation": "要充分实现你的潜力，充分利用学校资源对你来说至关重要。",
+    "analysis": "句首 To fully realize your potential 为目的状语不定式短语，开门见山点明目的 | 主句使用形式主语 it 结构（it is important for you to...），真正主语为 to make the most of our school resources | 这种结构避免头重脚轻，是地道书面英语的核心特征之一 | fully 修饰 realize，the most of 修饰 make，均为程度强化词，增强说服力 | 此句式在高考读后续写和应用文中均为必会结构",
+    "pattern": "To + adv. + V + O, it is + adj. + for sb. + to V + O",
+    "structures": [
+      "目的状语",
+      "形式主语",
+      "不定式"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "要成为一名真正的终身学习者，学会在日常生活中发现知识、在失败中吸取教训对你来说至关重要。",
+    "imitationHint": "To become a true lifelong learner → it is essential for you to learn to... and to...（注意形式主语 + 两个并列不定式）",
+    "imitationAnswer": "To become a true lifelong learner, it is essential for you to learn to discover knowledge in daily life and to draw lessons from failures."
+  },
+  {
+    "sentence": "Of equal importance are good study habits, useful skills and a positive attitude.",
+    "translation": "同样重要的还有良好的学习习惯、实用的技能和积极的态度。",
+    "analysis": "完全倒装句（full inversion）：正常语序为 Good study habits, useful skills and a positive attitude are of equal importance | 将介词短语 Of equal importance 提前至句首，系动词 are 紧随其后，三个并列名词短语构成的主语后置 | 注意 of + 抽象名词 = 形容词（of importance = important），这是高级书面英语的标志性用法（又如 of great value, of vital significance） | 此倒装常见于上下文衔接——前文已阐述某方面的重要性，此处引出\"同样重要的\"其他方面，承上启下，行文流畅 | 高考语法填空和写作中均可能考查此倒装结构",
+    "pattern": "Of + adj. + 抽象名词 + be + 并列主语（N₁, N₂ and N₃）",
+    "structures": [
+      "完全倒装",
+      "of+抽象名词",
+      "排比"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "同样令人敬佩的还有她的勇气，她面对逆境时的坚韧，以及她对所有学生的无私奉献。",
+    "imitationHint": "Of equal admiration are... → her courage, her resilience in the face of adversity, and her selfless dedication to...（注意完全倒装的语序：Of... + are + 主语）",
+    "imitationAnswer": "Of equal admiration are her courage, her resilience in the face of adversity, and her selfless dedication to all her students."
+  },
+  {
+    "sentence": "In time you will find yourself growing into a well-rounded individual.",
+    "translation": "久而久之，你会发现自己逐渐成长为一个全面发展的人。",
+    "analysis": "find + oneself + 现在分词（V-ing）是非常地道的英语表达，表示\"不知不觉间意识到自己正在经历某种变化或处于某种状态\"，有\"自然的、不经意的\"意味 | in time 为时间状语前置，暗示变化是渐进的 | yourself 为反身代词，强调亲身体验和自我感悟 | well-rounded individual 为固定搭配，意为\"全面发展的人\" | 此句式在读后续写中极其宝贵——常用于描写人物经过成长弧（character arc）后的升华时刻",
+    "pattern": "In time + S + will find + oneself + V-ing + ...",
+    "structures": [
+      "find+宾语+宾补",
+      "反身代词",
+      "时间状语"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "不知不觉中，你会发现自己正站在曾经只能仰望的山顶，欣赏着你从未见过的风景。",
+    "imitationHint": "Before you know it, you will find yourself standing on top of... → admiring the views that...",
+    "imitationAnswer": "Before you know it, you will find yourself standing on the summit you once could only look up to, admiring the views you have never seen before."
+  },
+  {
+    "sentence": "Although there was not as much homework as I was used to, it was still challenging.",
+    "translation": "虽然作业没有我过去习惯的那么多，但仍然很有挑战性。",
+    "analysis": "Although 引导让步状语从句，内部嵌套 as...as... 比较结构（not as much...as），表达\"不如……那么多\" | as I was used to 是省略形式的比较状语从句，完整为 as much homework as I was used to (having) | 主句简洁有力地转折——still 一词回应从句的让步，完成\"虽然……但……\"的论证逻辑 | 这种\"让步+转折\"结构是议论文和记叙文中最基础也最有力的论证模式",
+    "pattern": "Although + there be + not as much + N + as + S + be used to, S + be + still + adj.",
+    "structures": [
+      "让步状语从句",
+      "比较结构",
+      "省略"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "虽然这条路没有我想象的那么平坦，但每一步都让我变得更加强大。",
+    "imitationHint": "Although the road was not as smooth as I had imagined... → it still made me stronger with every step.",
+    "imitationAnswer": "Although the road was not as smooth as I had imagined, it still made me stronger with every step."
+  },
+  {
+    "sentence": "I like it so much that I still use it as my alarm!",
+    "translation": "我太喜欢它了，以至于现在仍用它当闹钟！",
+    "analysis": "so...that... 引导结果状语从句，表达程度之高导致的结果 | so much 强调喜爱的程度，that 从句为自然、逻辑上的结果 | as my alarm 中介词 as 表示\"当作、用作\"，用法简洁地道 | 这个句式在记叙文和读后续写中极其常用，完美表达因果关系中的\"程度→结果\"逻辑链 | 在高考读后续写中，常用此句式描写某个物品/事件对主人公产生的深远影响",
+    "pattern": "S + V + O + so + adv./adj. + that + S + still + V + O + as + N",
+    "structures": [
+      "结果状语从句",
+      "as介词用法"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "那段经历对我影响如此之深，以至于多年后我仍然会在某个瞬间想起那个温暖的午后。",
+    "imitationHint": "That experience touched me so deeply that... → I would still find myself thinking of that warm afternoon.",
+    "imitationAnswer": "That experience touched me so deeply that years later I would still find myself, at some unexpected moment, thinking of that warm afternoon."
+  }
+]

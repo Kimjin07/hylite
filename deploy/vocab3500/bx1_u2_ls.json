@@ -1,0 +1,122 @@
+[
+  {
+    "sentence": "Does every dinner with your parents seem to turn into a battle?",
+    "translation": "和父母的每顿晚饭是否都好像变成了一场“战斗”？",
+    "analysis": "一般疑问句开篇（hook）：文章第一句直接向读者发问，瞬间把读者拉进场景，是说明文/建议文的经典开头技巧 | 主干：dinner seems to turn into a battle | seem to do 委婉化表述，暗示“表面看来如此”，为下文分析真正原因留出余地 | turn into 表转变结果（“演变成”） | battle 是比喻（metaphor）：把餐桌上的争吵比作一场战役，与下文 heated arguments 呼应；课堂拓展：a battle with sb 与某人的争执、win/lose a battle、an uphill battle 无望取胜的仗",
+    "pattern": "Does + S + seem to + turn into + N（比喻）?",
+    "structures": ["疑问句开篇", "seem to", "比喻"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "每次的小组讨论似乎都会变成一场激烈的辩论赛吗？",
+    "imitationHint": "Does every group discussion... → seem to turn into → a heated debate（借用本单元 heated 一词）",
+    "imitationAnswer": "Does every group discussion seem to turn into a heated debate?"
+  },
+  {
+    "sentence": "Heated arguments and cold silences are common between teenagers and their parents.",
+    "translation": "激烈的争吵和冷漠的沉默在青少年和父母之间很常见。",
+    "analysis": "主干：arguments and silences are common | 并列主语构成工整对偶（antithesis）：heated（热）↔ cold（冷）、arguments（有声的冲突）↔ silences（无声的对抗），两组反义修饰把亲子冲突的两种极端形态浓缩进一个主语，画面感极强 | be common between A and B 表“在A与B之间普遍存在” | 课堂拓展：a heated/fierce/violent argument 激烈的争吵、win/lose an argument、a heated argument breaks out 争吵爆发",
+    "pattern": "Adj₁ + N₁ and Adj₂（反义）+ N₂ + be common between + A and B",
+    "structures": ["对偶", "并列主语", "反义修饰"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "热切的期待和无声的叹息在家长和孩子之间很常见。",
+    "imitationHint": "Eager expectations（热切）↔ silent sighs（无声）→ are common between parents and children（注意两组“反义修饰+名词”的对举）",
+    "imitationAnswer": "Eager expectations and silent sighs are common between parents and children."
+  },
+  {
+    "sentence": "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+    "translation": "你可能会焦虑：自己的发育速度和朋友们不一样——要么蹿个儿太快，要么被远远落在后面。",
+    "analysis": "主干：You may feel anxious | anxious that + 从句：形容词后接 that 宾语从句，具体说明焦虑的内容；课堂重点：anxious 兼有“担忧”与“渴望”两义，本句取“担忧”，表“渴望”时从句常用 (should) do 虚拟（My parents were anxious that I (should) get an education） | at a different rate to your friends：rate 表“速度”（at an alarming rate 以惊人的速度），此处 to 为英式用法（= from） | 句末两个现在分词短语 shooting up... or getting left... 作伴随状语，把抽象的 different rate 具象成两种情形：shoot up 蹿高（Alan has shot up since I saw him last year）、get left behind 被落下 | 分词对举 + or 连接，是“概括后举例”的漂亮写法",
+    "pattern": "S + may feel anxious that + 从句, V-ing₁ or V-ing₂（分词举例）",
+    "structures": ["that宾语从句", "现在分词状语", "英式介词to"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "你可能会焦虑：自己的学习进度和同桌不一样——要么冲得太靠前，要么被甩在后面。",
+    "imitationHint": "feel anxious that → progressing at a different rate to your deskmate → racing far ahead or getting left far behind（两个分词短语对举）",
+    "imitationAnswer": "You may feel anxious that you are progressing at a different rate to your deskmate, racing far ahead or getting left far behind."
+  },
+  {
+    "sentence": "When it all gets too much, your parents are often the first targets of your anger.",
+    "translation": "当一切压力大到难以承受时，父母往往是你怒火最先针对的对象。",
+    "analysis": "When 时间状语从句 + 主系表结构 | it all gets too much 是地道口语化表达：“这一切变得让人难以承受”——it 泛指前文所有压力源，all 作同位强调，too much 表“超出承受范围” | the first targets of your anger：target of/for... 表“……的对象”（课堂拓展：a target of criticism 众矢之的、hit/miss the target、target sth at sb 面向）；parents 复数 → targets 复数呼应，语法填空易错点 | first 暗含“迁怒”逻辑——最亲近的人反而最先中枪，精准点出亲子冲突源于压力而非感情破裂",
+    "pattern": "When it all gets too much, S + be + the first targets of + N",
+    "structures": ["状语从句", "名词复数呼应", "口语化表达"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当截止日期步步紧逼时，队友往往是你抱怨最先针对的对象。",
+    "imitationHint": "When deadlines press in（借用本单元 press 一词）→ the first targets of your complaints（注意 targets 复数）",
+    "imitationAnswer": "When deadlines press in, your teammates are often the first targets of your complaints."
+  },
+  {
+    "sentence": "You have both a new desire for independence and a continued need to be looked after.",
+    "translation": "你既有对独立的新渴望，又持续需要被照顾。",
+    "analysis": "both... and... 并列两个宾语，一句话写尽青春期的核心矛盾，是全文的题眼句 | 对照工整：a new desire（新生的渴望）↔ a continued need（持续的需要）；for independence（介词短语作后置定语）↔ to be looked after（不定式作后置定语） | desire 的搭配网（课堂重点）：have a strong desire for sth / to do sth、express a desire to do、desire that... (should) do 虚拟 | need to be looked after 不定式用被动式——“被照顾”的承受者正是句子主语 you，主动被动之辨是此句的语法考点",
+    "pattern": "S + have both + a N₁ + for sth and + a N₂ + to be V-ed（对照式并列宾语）",
+    "structures": ["both...and并列", "后置定语", "不定式被动式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "你既有对新鲜事物的天然好奇，又持续需要安全感（被保护的感觉）。",
+    "imitationHint": "both a natural curiosity about new things and a continued need to feel secure（后半也可用 to be protected，练被动不定式）",
+    "imitationAnswer": "You have both a natural curiosity about new things and a continued need to feel secure."
+  },
+  {
+    "sentence": "On the other hand, when you are struggling to control your feelings, you wish they could be more caring and patient – sometimes they forget that growing up is a rough ride.",
+    "translation": "另一方面，当你竭力控制情绪时，你希望父母能更体贴、更耐心——有时他们忘了，成长本就是一段颠簸的旅程。",
+    "analysis": "On the other hand 承接上文的 on the one hand，标示矛盾的另一面（对比衔接语） | when 从句中 struggle to do 表“竭力做某事”（课堂拓展：struggle for 为……奋斗 / with⁄against 与……斗争 / be a struggle for sb 对某人是难事） | 核心考点：wish + (that) 从句用 could 虚拟语气，表达“与现实相反的愿望”（父母实际上不够耐心）——区别于 hope + 陈述语气 | 破折号后补充原因：they forget that... 接宾语从句 | growing up is a rough ride 为全文点题的暗喻：把成长比作颠簸的旅程（rough：not smooth；have a rough ride 吃苦头、日子不好过）",
+    "pattern": "On the other hand, when + S + be struggling to V, S + wish + S + could be + adj. – …",
+    "structures": ["wish虚拟语气", "状语从句", "暗喻", "破折号补充"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当你努力适应新学校时，你希望同学们能更友善、更包容——有时他们忘了，融入集体本就是一段艰难的旅程。",
+    "imitationHint": "when you are struggling to fit in... → you wish your classmates could be more friendly and understanding（wish 后用 could 虚拟）→ 破折号 + they forget that... is a rough ride",
+    "imitationAnswer": "When you are struggling to fit in at a new school, you wish your classmates could be more friendly and understanding – sometimes they forget that finding your place is a rough ride."
+  },
+  {
+    "sentence": "The key to keeping the peace is regular and honest communication.",
+    "translation": "维持和睦的关键是有规律而真诚的沟通。",
+    "analysis": "主系表结构，主语为 The key to keeping the peace | 高频考点：key to 中的 to 是介词，后接名词/动名词（keeping），绝不能接动词原形——同类结构：the answer/solution/approach/secret to | keep the peace 固定搭配“维持和睦” | 表语 regular and honest communication 双形容词并列：regular 从频率维度（定期，课堂拓展：regular meetings 例会、on a regular basis 定期地）、honest 从态度维度（真诚），两个维度共同定义有效沟通 | 全句是典型的“观点句”句型，可整体迁移到议论文写作",
+    "pattern": "The key to + V-ing + be + adj. and adj. + N",
+    "structures": ["介词to+动名词", "主系表", "并列形容词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "学好一门外语的关键是持续而大量的输入。",
+    "imitationHint": "The key to mastering a foreign language（to 后接动名词！）→ is constant and abundant input",
+    "imitationAnswer": "The key to mastering a foreign language is constant and abundant input."
+  },
+  {
+    "sentence": "After you have thought it through, explain your actions and feelings, and address their concerns.",
+    "translation": "在你充分考虑之后，解释你的行为和感受，并回应他们的担忧。",
+    "analysis": "After 从句用现在完成时 have thought，强调“想清楚”这一动作先于主句完成（时间状语从句中完成时表动作先后） | think sth through 意为“充分考虑、想透彻”，“动词+副词”型短语，代词作宾语必须居中：think it through（× think through it） | 主句为两个并列祈使句 explain... and address...——全文建议段落正是由一连串祈使句撑起，这是建议文（advice-giving）的典型语体特征 | address their concerns 高级搭配：address 此处= deal with（处理、回应），concern 名词“担忧、关切之事”（课堂拓展：raise concerns 提出担忧、a matter of concern 令人关切的事）",
+    "pattern": "After + S + have + V-ed …, 祈使句₁, and 祈使句₂",
+    "structures": ["时间状语从句", "现在完成时", "祈使句", "代词居中"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "在你把计划想清楚之后，列出具体步骤，并预估可能的困难。",
+    "imitationHint": "After you have thought your plan through → 两个并列祈使句：list the specific steps, and estimate the possible difficulties",
+    "imitationAnswer": "After you have thought your plan through, list the specific steps, and estimate the possible difficulties."
+  },
+  {
+    "sentence": "Just remember that it is completely normal to struggle with the stress that parent-child tensions create, and that you and your parents can work together to improve your relationship.",
+    "translation": "请记住：为亲子间的紧张关系带来的压力而苦恼是完全正常的；也请记住，你和父母可以一起努力改善你们的关系。",
+    "analysis": "全文收束句，三层结构环环相扣 | 第一层：remember 后接两个并列的 that 宾语从句（that... and that...）——并列宾语从句中第二个 that 不可省略，语法填空高频考点 | 第二层：第一个从句内部用 it 作形式主语，真正主语是不定式 to struggle with the stress... | 第三层：stress 后嵌套 that 引导的定语从句（parent-child tensions create 修饰 stress，that 在从句中作 create 的宾语，故可换 which 或省略） | completely normal 程度副词加强宽慰语气 | 第二个从句以 work together to improve... 的行动建议收尾，呼应文章标题与主旨（课堂拓展：tension 紧张关系，ease the tension 缓和紧张气氛）",
+    "pattern": "remember that it is + adj. + to V…, and that + S + can + V…",
+    "structures": ["并列宾语从句", "形式主语it", "定语从句嵌套"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "请记住：对新环境感到不知所措是完全正常的；也请记住，时间和耐心可以帮你找到归属感。",
+    "imitationHint": "Just remember that it is completely normal to feel lost in..., and that time and patience can help you...（第二个 that 千万别丢）",
+    "imitationAnswer": "Just remember that it is completely normal to feel lost in a new environment, and that time and patience can help you find a sense of belonging."
+  },
+  {
+    "sentence": "Whatever happened, we always knew we still had the Bank to depend upon.",
+    "translation": "无论发生什么，我们始终知道还有“银行”可以依靠。",
+    "analysis": "课件专门解析的长难句 | Whatever happened = No matter what happened：“疑问词+ever”引导让步状语从句，whatever 在从句中作主语（体现其代词特征） | 重要辨析：whatever 引导让步状从时可与 no matter what 互换；引导名词性从句时（I'll do whatever you ask = anything that）不能换 no matter what | 主句 we always knew 后接省略 that 的宾语从句 | to depend upon 不定式短语作后置定语修饰 the Bank（= the Bank that we could depend upon），不定式与被修饰词构成动宾关系，介词 upon 绝不可丢——这是课件板书强调的采分点 | the Bank 大写：指妈妈虚构的“银行账户”，全剧的核心意象——孩子们安全感的象征",
+    "pattern": "Whatever + V-ed, S + knew (that) + S + still had + N + to depend upon",
+    "structures": ["让步状语从句", "宾语从句", "不定式后置定语"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "无论遇到什么困难，她始终知道自己还有知识可以依靠。",
+    "imitationHint": "Whatever difficulties she met with（whatever 引导让步状从）→ she always knew (that) → she still had knowledge to depend upon（介词 upon 别丢）",
+    "imitationAnswer": "Whatever difficulties she met with, she always knew she still had knowledge to depend upon."
+  }
+]
