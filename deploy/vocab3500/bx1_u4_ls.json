@@ -1,0 +1,122 @@
+[
+  {
+    "sentence": "Jennifer was found to have dangerously low blood sugar levels and was treated immediately.",
+    "translation": "詹妮弗被查出血糖水平危险偏低，随即得到了救治。",
+    "analysis": "was found to have...：find sb to do 的被动式，表“经检查/调查发现某人……”（课堂语法卡：find 的宾补四态——doing 表主动进行 / done 表被动 / to do 表检验调查的结果 / adj. 表状态：I found myself cheated. / Her blood was found to contain poison.）| 两个并列被动谓语 was found... and was treated...，新闻报道的客观语态——只述事实不带情绪 | dangerously low 副词修饰形容词：“低到危险程度”，比 very low 更有画面 | immediately 课堂拓展：还可作连词引导时间状从（= as soon as），同类 the moment / instantly / directly",
+    "pattern": "S + was found to + V ... and + was + V-ed + adv.",
+    "structures": ["find宾补被动式", "并列被动谓语", "副词修饰形容词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这座桥被发现存在严重的安全隐患，并被立即封闭。",
+    "imitationHint": "The bridge was found to have serious safety problems → and was closed immediately（两个并列被动）",
+    "imitationAnswer": "The bridge was found to have serious safety problems and was closed immediately."
+  },
+  {
+    "sentence": "In a society where being thin is often seen as being beautiful, teenagers sometimes turn to extreme methods to slim down quickly.",
+    "translation": "在一个常常以瘦为美的社会里，青少年有时会诉诸极端方法来快速减肥。",
+    "analysis": "课件专项讲解句 | In a society where...：where 引导定语从句修饰抽象名词 society——先行词不是具体地点，但在从句中作状语，仍用 where（课堂同类：an atmosphere where.../an occasion where...；时间名词用 when：Gone are the days when...）| 从句内 being thin is seen as being beautiful：两个动名词短语分别作主语和 as 的宾语，“以瘦为美”的凝练译法；see/view/regard... as... 把……视为 | 主句 turn to extreme methods 诉诸极端手段（turn to 求助于；课堂拓展：go to extremes 走极端）| to slim down quickly 目的状语（slim down 减肥瘦身）",
+    "pattern": "In a society where + V-ing + is seen as + V-ing, S + turn to + N + to V",
+    "structures": ["where定语从句", "动名词作主语", "see...as", "抽象先行词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "在一个把忙碌常常看作成功的时代里，年轻人有时会牺牲睡眠来追赶进度。",
+    "imitationHint": "In an age where being busy is often seen as being successful → young people sometimes sacrifice sleep to catch up（where 修饰抽象名词 age）",
+    "imitationAnswer": "In an age where being busy is often seen as being successful, young people sometimes sacrifice sleep to catch up."
+  },
+  {
+    "sentence": "Almost one fifth of teenagers regularly skip meals, one in ten over-exercise and four per cent even take weight-loss medicine.",
+    "translation": "将近五分之一的青少年经常不吃饭，十分之一的人过度运动，百分之四的人甚至服用减肥药。",
+    "analysis": "数字三连击：one fifth（分数）→ one in ten（比例）→ four per cent（百分比），三种表达方式轮换不重复，用数据说话是新闻/议论文的硬核论证方式 | 课堂主谓一致专项：①“分数/百分数 + of + 名词”谓语随 of 后名词——one fifth of teenagers skip（复数）、four per cent (of teenagers) take（复数）②“one in + 数词”传统规则谓语用单数（课件：Only one in ten students has passed），但课文此处 one in ten over-exercise 取意合复数（与 teenagers 呼应）——考试从严用单数，阅读见复数不奇怪 | even 递进强调，把最惊人的数据放最后 | skip meals 不吃饭（skip 不做应做之事）、over-exercise 过度运动、weight-loss 减肥的——课本合成词一组",
+    "pattern": "分数 + of + N + V, one in ten + V and 百分数 + even + V",
+    "structures": ["主谓一致", "数字排比", "递进强调"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "近三分之一的学生经常熬夜，五分之一的人早餐凑合，百分之十的人甚至整天不运动。",
+    "imitationHint": "Almost one third of students regularly stay up late, one in five skip a proper breakfast and ten per cent even do no exercise all day（三种数字表达轮换）",
+    "imitationAnswer": "Almost one third of students regularly stay up late, one in five skip a proper breakfast and ten per cent even do no exercise all day."
+  },
+  {
+    "sentence": "These so-called 'quick-fix methods' prove to be harmful to teenagers.",
+    "translation": "这些所谓的“速效法”最终被证明对青少年有害。",
+    "analysis": "prove 此处为系动词（linking verb）：“事实证明是……”，主动形式表客观结果，to be 可省——The design proved (to be) a success.（课堂拓展：prove oneself 证明自己、It is proved that... 据证实）| so-called + 引号双重加持：so-called“所谓的”自带怀疑口吻，引号进一步拉开距离——作者不动声色的否定态度，新闻评论的高级技巧 | quick-fix 合成形容词“速效的、治标不治本的”（课本同族：weight-loss、over-exercise、side effect）| be harmful to 对……有害（= do harm to）",
+    "pattern": "These so-called '...' + prove (to be) + adj. + to sb",
+    "structures": ["prove系动词", "so-called+引号", "合成形容词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这些所谓的“记忆捷径”最终被证明对长期学习无效。",
+    "imitationHint": "These so-called 'memory shortcuts' → prove (to be) ineffective for long-term learning（so-called + 引号表怀疑）",
+    "imitationAnswer": "These so-called 'memory shortcuts' prove to be ineffective for long-term learning."
+  },
+  {
+    "sentence": "I was very frightened when I woke up in hospital last Thursday.",
+    "translation": "上周四我在医院里醒来时，我非常害怕。",
+    "analysis": "新闻中的直接引语：当事人 Jennifer 的自述原话，让报道更真实可感——新闻写作“用当事人的声音说话”的技巧 | 课堂重点辨析 frighten 家族：frightened（人）感到害怕的 / frightening（事物）令人害怕的——You're frightening me. / a frightening experience；be frightened of (doing) sth 害怕某事、be frightened to death 吓得要死、fright n. 惊吓 | in hospital 住院（不加冠词；in the hospital 在医院这个场所）| when 从句交代时间地点，主句抒感受，先果后因引读者追问“为什么”",
+    "pattern": "S + was + frightened + when + S + woke up + 地点 + 时间",
+    "structures": ["直接引语", "-ed/-ing形容词辨析", "状语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当我看到成绩单的那一刻，我非常震惊。",
+    "imitationHint": "I was very shocked（人用 -ed）→ when I saw the report card（when 从句）",
+    "imitationAnswer": "I was very shocked when I saw the report card."
+  },
+  {
+    "sentence": "It is important to guard against the causes behind them.",
+    "translation": "防范这些负面想法背后的成因非常重要。",
+    "analysis": "it 形式主语 + 不定式真主语（to guard against...），避免头重脚轻——与必修一 U1 的 it is important for you to make the most of... 同款句型，加 for sb 即可点明对象 | guard against 防范、提防（to take care to prevent sth；课堂例句：Exercise can guard against a number of illnesses. 运动可预防许多疾病）| the causes behind them：behind 介词短语作后置定语，them 回指上文的 dark thoughts（负面想法）——治标先治本，防“想法”更要防“成因”，一词 behind 写出因果层次",
+    "pattern": "It is + adj. + to guard against + the N + behind + N",
+    "structures": ["形式主语it", "guard against", "介词短语后置定语"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "重要的是要防范拖延背后的真正原因，而不只是责怪自己。",
+    "imitationHint": "It is important to guard against the real causes behind procrastination → rather than just blame yourself",
+    "imitationAnswer": "It is important to guard against the real causes behind procrastination, rather than just blame yourself."
+  },
+  {
+    "sentence": "They will only end up feeling worse about themselves.",
+    "translation": "他们到头来只会觉得自己更糟。",
+    "analysis": "end up doing 最终落得/到头来处于……（find yourself in a situation you did not intend），核心考点：end up 后接动名词，绝不接不定式；还可接形容词（end up alone）、介词短语（end up in prison / as a doctor / with nothing）| only 置于 will 后修饰整个结果：“只会”，暗含徒劳感——上文语境是盲目追赶媒体审美标准者 fight a losing battle（打一场无望取胜的仗），这句是那场败仗的结局 | feel worse about oneself 自我感觉更糟（比较级呼应“越减越焦虑”的恶性循环）| 课堂 end 短语群：put an end to 终止、come to an end 结束、on end 连续地",
+    "pattern": "S + will only end up + V-ing + worse about + oneself",
+    "structures": ["end up doing", "比较级", "only强调"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "盲目和别人比较的人到头来只会觉得自己更加不足。",
+    "imitationHint": "Those who blindly compare themselves with others → will only end up feeling more inadequate（end up + 动名词）",
+    "imitationAnswer": "Those who blindly compare themselves with others will only end up feeling more inadequate."
+  },
+  {
+    "sentence": "Last January, Mr Wilson was caught in a horrible campus fire, and his skin was badly burnt.",
+    "translation": "去年一月，威尔逊先生被困于一场可怕的校园火灾，皮肤被严重烧伤。",
+    "analysis": "be/get caught in 陷入、遭遇（困境）——be caught in a fire/flood/storm/traffic jam，主语是“被动遭遇者”（课堂例句：We got caught in a flood on the way here.）| and 并列第二分句换主语 his skin，两个被动语态连用，冷静客观地铺陈事故后果——新闻背景段的典型笔法 | badly burnt：badly 修饰过去分词表程度（“严重地”），同类 badly damaged / seriously injured | 课堂 catch 短语群：catch sb doing 撞见、catch one's eye 吸引注意、catch sight of 瞥见、catch one's breath 缓口气、catch up with 赶上",
+    "pattern": "时间, S + was caught in + N, and + S₂ + was + adv. + V-ed",
+    "structures": ["be caught in", "并列被动", "副词修饰分词"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "上周五，登山队遭遇了一场突如其来的暴风雪，行程被迫中断。",
+    "imitationHint": "Last Friday, the climbing team was caught in a sudden snowstorm → and their journey was forced to stop（两个被动并列）",
+    "imitationAnswer": "Last Friday, the climbing team was caught in a sudden snowstorm, and their journey was forced to stop."
+  },
+  {
+    "sentence": "For the past year, he had to live with terrible burn marks on his face and body.",
+    "translation": "在过去的一年里，他不得不忍受着脸上和身上可怕的烧伤疤痕生活。",
+    "analysis": "For the past year 时间段状语（“过去一年以来”），常与完成时搭配，此处叙述已结束的过去，用 had to 一般过去时 | live with sth 核心考点：接受并忍受（无法改变的现状）——You have to learn to live with stress.（课堂拓展：live on 继续存在/靠……过活、live up to 不辜负）| had to 被迫无奈（客观不得不），比 must 更能传达“别无选择” | on his face and body 介词短语精确定位，伤痕的具体化让读者共情——为下文他选择整容手术提供充分动机，新闻叙事的铺垫功能",
+    "pattern": "For the past + 时间, S + had to live with + N + on ...",
+    "structures": ["live with", "时间段状语", "had to"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "在过去的三年里，她不得不忍受着膝盖的旧伤坚持训练。",
+    "imitationHint": "For the past three years, she had to live with an old knee injury → while keeping up her training",
+    "imitationAnswer": "For the past three years, she had to live with an old knee injury while keeping up her training."
+  },
+  {
+    "sentence": "In addition, Miss Edwards says the surgery makes her look unnatural and that she is unable to make certain facial expressions.",
+    "translation": "此外，爱德华兹小姐说，手术使她看起来不自然，而且她无法做出某些面部表情。",
+    "analysis": "says 后两个并列宾语从句：第一个省略了 that（says (that) the surgery...），第二个 that 必须保留（and that she is unable...）——并列宾语从句“第一可省、第二必留”的黄金例句，与必修一 U2 收尾句 remember that... and that... 同考点 | make her look unnatural：make + 宾语 + 省 to 不定式（使役动词 make/let/have 后不定式不带 to），look 后接形容词作表语 | be unable to do 无法做某事（= can't，更书面）| In addition 递进衔接词（= also；课堂拓展：in addition to + n. 除……之外还）——罗列缺点时的条理化表达，新闻平衡报道（利弊并陈）的结构标志",
+    "pattern": "In addition, S + says (that) ... and that + S + be unable to + V",
+    "structures": ["并列宾语从句", "使役动词make", "递进衔接"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "此外，专家们提醒说，熬夜使大脑反应变慢，而且长期睡眠不足会损害记忆力。",
+    "imitationHint": "In addition, experts warn (that) staying up late makes the brain react more slowly → and that long-term lack of sleep can damage memory（第二个 that 必须保留）",
+    "imitationAnswer": "In addition, experts warn that staying up late makes the brain react more slowly, and that long-term lack of sleep can damage memory."
+  }
+]
