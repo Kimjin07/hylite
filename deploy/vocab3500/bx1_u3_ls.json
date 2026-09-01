@@ -1,0 +1,122 @@
+[
+  {
+    "sentence": "Whether we're walking to school, doing homework or just hanging out at the weekend, we're hardly out of each other's sight.",
+    "translation": "无论是走路上学、写作业，还是周末闲逛，我们几乎从不离开彼此的视线。",
+    "analysis": "Whether... or... 引导让步状语从句（“无论……还是……”），从句内三个现在分词短语 walking... / doing... / hanging out... 共用一个 we're 进行时框架，三项并列由 or 收尾 | 主句 hardly 为半否定词（“几乎不”），与 out of each other's sight 连用＝“几乎总在彼此视线里”，正话反说更显亲密 | sight 短语网（课堂重点）：in sight 看得见、at first sight 乍看之下、catch sight of 一眼瞥见、lose sight of 看不见/忽略、come into sight 进入视线 | hang out 闲逛、消磨时光，青少年口语高频词",
+    "pattern": "Whether + S + be + V-ing₁, V-ing₂ or V-ing₃, S + hardly + ...",
+    "structures": ["让步状语从句", "三项并列", "半否定词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "无论是晨跑、备考，还是深夜复盘，他们几乎从不停止互相鼓励。",
+    "imitationHint": "Whether they're running..., preparing... or reviewing...（三个分词并列）→ they hardly stop encouraging each other",
+    "imitationAnswer": "Whether they're running in the morning, preparing for exams or reviewing at midnight, they hardly stop encouraging each other."
+  },
+  {
+    "sentence": "When I called her, she said she might not be able to make it to the cinema.",
+    "translation": "我给她打电话时，她说她可能来不了电影院了。",
+    "analysis": "间接引语的时态呼应：主句 said 为过去时 → 转述从句情态动词用 might（may 的过去式），人称同步后移 | make it 地道多义习语（课堂重点）：① 准时到达/能够出席（本句）② 获得成功 ③ 渡过难关——I can't make it to the meeting tonight. / The doctors didn't think he'd make it. | might not be able to 双重弱化（“可能”+“不能”），委婉传达“来不了”——而她随后却出现在电影院，这一句正是全文“反转”的伏笔，叙事文的铺垫技巧",
+    "pattern": "When + S + V-ed, S + said (that) + S + might not be able to + make it to + 地点",
+    "structures": ["间接引语", "情态动词时态呼应", "习语make it"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "当我问他时，他说他可能没法出席颁奖典礼了。",
+    "imitationHint": "When I asked him, he said... → might not be able to make it to the award ceremony（间接引语里 may→might）",
+    "imitationAnswer": "When I asked him, he said he might not be able to make it to the award ceremony."
+  },
+  {
+    "sentence": "I was so angry that I avoided her during school all day, and I still don't feel like responding to any of her online messages.",
+    "translation": "我气得一整天在学校都躲着她，现在也仍然不想回复她的任何在线消息。",
+    "analysis": "so + adj. + that 结果状语从句：“气到以至于……” | and 并列的后半句时态切换：前半 was / avoided 用过去时（记当天的事），后半 don't feel like 用一般现在时（写日记此刻的状态）——日记体叙事的时间层次感 | avoid sb 避开某人；avoid doing sth 避免做某事（只接动名词不接不定式，语法填空高频） | feel like doing sth 想做某事（like 是介词，后接 V-ing） | respond to 回复（课堂拓展：respond with/by... 以……回应、in response to 作为对……的回应）",
+    "pattern": "S + was so + adj. + that ..., and S + still don't feel like + V-ing",
+    "structures": ["结果状语从句", "时态切换", "动名词搭配"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "她失望到整个周末都把自己关在房间里，现在也仍然不想谈论比赛结果。",
+    "imitationHint": "She was so disappointed that she shut herself in her room all weekend → and she still doesn't feel like talking about...（注意前后时态切换）",
+    "imitationAnswer": "She was so disappointed that she shut herself in her room all weekend, and she still doesn't feel like talking about the result of the match."
+  },
+  {
+    "sentence": "The stress of this situation is killing me, and I'm at a loss what to do next.",
+    "translation": "这种处境的压力快把我压垮了，我不知道下一步该怎么办。",
+    "analysis": "sth is killing sb 口语化夸张（hyperbole）：“快把我折磨死了”，进行时放大“正在经受”的煎熬感（课堂例句：My feet are killing me. 我的脚疼死了） | at a loss + 疑问词不定式：不知所措——be at a loss what to do / at a loss for words 哑口无言 | 疑问词+不定式（what to do next）是名词性从句的压缩形式（= what I should do next），简洁书面，可作主语/宾语/表语 | and 把“感受”与“困境”并置，构成日记自白的情绪顶点，也为下文求助信（asking for advice）铺垫",
+    "pattern": "The stress of + N + is killing me, and S + be at a loss + 疑问词 + to V",
+    "structures": ["进行时表夸张", "at a loss", "疑问词+不定式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "备考的压力快把我压垮了，我不知道该先复习哪一科。",
+    "imitationHint": "The stress of preparing for the exam is killing me → I'm at a loss which subject to revise first（疑问词换成 which + n.）",
+    "imitationAnswer": "The stress of preparing for the exam is killing me, and I'm at a loss which subject to revise first."
+  },
+  {
+    "sentence": "But this friendship is worth saving: eight years is a long time.",
+    "translation": "但这段友谊值得挽救：八年不是短日子。",
+    "analysis": "be worth doing 主动形式表被动含义（the friendship is worth saving = deserves to be saved），worth 后只接动名词或名词，绝不接不定式——高考核心考点（同：This book is well worth reading.） | 冒号引出理由：用最朴素的事实 eight years 作论据，比长篇大论更有力 | 课堂专项语法：时间段/距离/金额作主语视为一个整体，谓语用单数——eight years is / three miles is / ten dollars is | 呼应本单元 Integrated skills 原句 this friendship is worth my extra time and effort（worth + n. 用法）",
+    "pattern": "S + be worth + V-ing: 时间段 + is + ...（单数谓语）",
+    "structures": ["worth+动名词", "主动表被动", "主谓一致", "冒号论证"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这段师生情值得珍惜：六年是一段很长的时光。",
+    "imitationHint": "this teacher-student bond is worth treasuring（worth 接动名词）→ 冒号 → six years is a long time（时间段谓语单数）",
+    "imitationAnswer": "But this teacher-student bond is worth treasuring: six years is a long time."
+  },
+  {
+    "sentence": "In any case, find an opportunity to have a full and frank talk with her.",
+    "translation": "无论如何，找个机会和她开诚布公地好好谈一谈。",
+    "analysis": "In any case 无论如何（whatever happens），课堂辨析组：in case 以防万一、in this/that case 在这/那种情况下、in case of 若发生、in no case 决不（置句首须倒装） | 祈使句直接给建议——回信（advice reply）文体的标志句式 | find an opportunity to do sth 找机会做某事，比 chance 更书面 | full and frank 头韵修辞（alliteration）：完整而坦率＝开诚布公；frank 课堂拓展：to be frank 坦白说（不定式作插入语，同类：to tell the truth / to be exact / to conclude 总而言之）",
+    "pattern": "In any case, + 祈使句 + an opportunity to + V ...",
+    "structures": ["祈使句建议", "case短语辨析", "头韵"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "无论如何，抽个时间和父母进行一次全面而坦诚的交流。",
+    "imitationHint": "In any case, set aside some time → to have a full and frank exchange with your parents（保留头韵 full and frank）",
+    "imitationAnswer": "In any case, set aside some time to have a full and frank exchange with your parents."
+  },
+  {
+    "sentence": "Yet these days, the modern tools that keep us connected are eating away at the meaning of friendship.",
+    "translation": "然而如今，这些让我们保持联系的现代工具，正在侵蚀友谊的意义。",
+    "analysis": "主干：the modern tools are eating away at the meaning | that keep us connected 限定性定语从句修饰 tools，that 作从句主语；keep + 宾语 + 过去分词（connected）表状态的维持 | eat away at 逐渐侵蚀、损耗（reduce or destroy gradually；课堂例句：His constant criticism ate away at her self-confidence. 不断的批评使她逐渐失去自信） | 现在进行时 are eating 强调“正在发生、持续恶化”的紧迫感 | Yet 句首表转折（比 but 更书面），these days 点明“当下”——先立靶（现代工具）再亮观点（侵蚀友谊），议论文破题句的经典写法",
+    "pattern": "Yet these days, S + that-定语从句 + be + eating away at + N",
+    "structures": ["定语从句", "现在进行时", "短语动词", "转折衔接"],
+    "source": "Grammar",
+    "imitationType": "translation",
+    "imitationCn": "如今，那些让我们省时省力的智能设备，正在蚕食我们的专注力。",
+    "imitationHint": "the smart devices that save us time and effort（定语从句）→ are eating away at our ability to focus（进行时）",
+    "imitationAnswer": "These days, the smart devices that save us time and effort are eating away at our ability to focus."
+  },
+  {
+    "sentence": "Close friendships may comfort the heart, advise the head and help us achieve the goals we set for ourselves.",
+    "translation": "亲密的友谊会抚慰心灵、开导头脑，并帮助我们实现为自己设定的目标。",
+    "analysis": "三个并列谓语 comfort... advise... and help...，动词排比且宾语对仗：the heart（情感）→ the head（理智）→ the goals（行动），由内而外层层递进——议论文列举益处的黄金句式 | comfort the heart / advise the head 单音节名词对举，简洁有力（英语惯用 head/heart 对照表“理智/情感”） | the goals (that) we set for ourselves：省略关系代词的定语从句（that 作 set 的宾语可省略），set goals for oneself 为自己设定目标 | help sb (to) do sth 中 to 可省 | comfort 课堂拓展：take/draw comfort from 从……得到安慰、be of great comfort to sb 对某人是极大安慰",
+    "pattern": "S + may + V₁ + N₁, V₂ + N₂ and help sb + V + the N (that) + S + V + for oneself",
+    "structures": ["三项并列排比", "定语从句省略", "head/heart对仗"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "好书能开阔眼界、滋养心灵，并帮助我们成为自己想成为的人。",
+    "imitationHint": "Good books may broaden the mind, nourish the heart → and help us become the people (that) we hope to be（省略关系代词）",
+    "imitationAnswer": "Good books may broaden the mind, nourish the heart and help us become the people we hope to be."
+  },
+  {
+    "sentence": "Close friendships help smooth out the sometimes rocky road that we are all meant to travel.",
+    "translation": "亲密的友谊帮我们踏平这条时而坎坷、却人人注定要走的人生之路。",
+    "analysis": "主干：friendships help smooth out the road | smooth out 弄平、化解（smooth out the wrinkles 抚平褶皱 → 引申“消除困难”；课堂拓展：smooth the way/path for 为……铺平道路） | the sometimes rocky road：副词 sometimes 直接修饰形容词 rocky（“时而坎坷的”），少见而地道的压缩修饰 | that we are all meant to travel 定语从句修饰 road，that 作 travel 的宾语；be meant to do 注定/应当做某事（= be supposed to；辨析 mean to do 打算做、mean doing 意味着） | rocky 一语双关：既是路上的“石头”，又暗扣本单元 Reading 标题 Friendship on the rocks（友谊触礁）——rock 意象贯穿全单元的编者巧思",
+    "pattern": "S + help smooth out + the (adv.+adj.) + N + that + S + be meant to + V",
+    "structures": ["定语从句", "be meant to", "副词修饰形容词", "双关呼应"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "良师帮我们照亮这条时而昏暗、却人人都要走过的求学之路。",
+    "imitationHint": "Good teachers help light up → the sometimes dark road（副词+形容词）→ that we all have to travel（定语从句）",
+    "imitationAnswer": "Good teachers help light up the sometimes dark road that we all have to travel."
+  },
+  {
+    "sentence": "Here, friendship has a double advantage — happiness takes on a greater meaning and a trouble shared becomes a trouble halved!",
+    "translation": "在此，友谊有双重益处——幸福有了更深的含义，而分担的烦恼便减半了！",
+    "analysis": "破折号引出对 double advantage 的展开，两个分句恰好对应 double 的“双重”——总分结构的精巧示范 | take on 呈现、具有（后接抽象名词：take on a greater meaning / take on a new look 呈现新面貌；课堂辨析：take up 占用/开始学、take over 接管、take off 起飞/走红） | a trouble shared becomes a trouble halved：两个过去分词 shared / halved 作后置定语，化用英谚 A trouble shared is a trouble halved（与人分忧，忧愁减半）；名词重复 + 分词对照，构成格言式对仗 | 感叹号收尾，把议论推向情感高潮——议论文结尾的点睛技巧",
+    "pattern": "S + has a double advantage — 分句₁ and a N + V-ed + becomes a N + V-ed!",
+    "structures": ["破折号总分", "take on", "过去分词后置定语", "格言化用"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "运动有双重回报——身体变得更强健，而分享的快乐变成了加倍的快乐。",
+    "imitationHint": "Exercise has a double reward — the body grows stronger → and a joy shared becomes a joy doubled!（模仿分词对仗）",
+    "imitationAnswer": "Exercise has a double reward — the body grows stronger and a joy shared becomes a joy doubled!"
+  }
+]
