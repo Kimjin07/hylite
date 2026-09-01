@@ -1,0 +1,131 @@
+[
+  {
+    "sentence": "More than any other type of literature, it usually implies a deeper meaning beyond the words on the page.",
+    "translation": "与其他任何文学类型相比，诗歌往往隐含着超越字面的更深层含义。",
+    "analysis": "课件专项讲解句：More than any other + 名词置于句首——“比其他任何……都更”，比较结构作状语前置（暗含最高级意味：诗歌最含蓄）| imply 暗含、暗示（imply a meaning；It was implied that... 据暗示）| beyond the words on the page “超越纸面文字”——beyond 表“超出……之外”的抽象用法（课堂 beyond 家族：beyond belief/description/one's grasp）| 课堂仿写：More than any other book of the same topic, this book puts forward a more abstract concept beyond my grasp. | 诗歌定义句：一句话点破诗与其他文体的分野",
+    "pattern": "More than any other + N, S + implies + N + beyond ...",
+    "structures": [
+      "more than any other前置",
+      "imply",
+      "beyond抽象义"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "与其他任何艺术形式相比，书法往往承载着超越笔画本身的精神气质。",
+    "imitationHint": "More than any other art form, calligraphy usually carries a spirit → beyond the strokes themselves（More than any other 前置）",
+    "imitationAnswer": "More than any other art form, calligraphy usually carries a spirit beyond the strokes themselves."
+  },
+  {
+    "sentence": "Even if its true meaning appears to be beyond your grasp, you can always say something about how the poem sounds when you read it aloud.",
+    "translation": "即使它的真意似乎超出你的理解范围，你也总能就朗读时这首诗的音韵说出点什么。",
+    "analysis": "Even if 让步从句 + appear to be 委婉判断（“似乎”）| beyond one's grasp 超出某人的理解/能力范围（grasp 名词“理解力”；课堂拓展：within one's grasp 力所能及、grasp the opportunity 抓住机会、a good grasp of 精通）| how the poem sounds：how 引导宾语从句作 about 的宾语——sound 系动词“听起来”| can always say something about “总能说出点什么”——读诗方法论的宽慰句：读不懂意思就先听声音 | when you read it aloud 时间从句收尾 | 鉴赏入门的降槛句式：Even if..., you can always...",
+    "pattern": "Even if + S + appears to be beyond your grasp, you can always + V + about how + S + sounds",
+    "structures": [
+      "even if让步",
+      "beyond one's grasp",
+      "how宾语从句"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "即使这幅画的含义似乎超出你的理解范围，你也总能就它的色彩带给你的感受说出点什么。",
+    "imitationHint": "Even if the painting's meaning appears to be beyond your grasp, → you can always say something about how its colours make you feel",
+    "imitationAnswer": "Even if the painting's meaning appears to be beyond your grasp, you can always say something about how its colours make you feel."
+  },
+  {
+    "sentence": "So if you do not get it, set the poem aside and come back to it later.",
+    "translation": "所以如果你读不懂，就先把这首诗放到一边，过后再回来读。",
+    "analysis": "if 条件从句 + 双并列祈使句 set... and come back...——建议文的轻快节奏 | set aside 放到一边（课堂多义：搁置——Einstein set aside his own work；留出——set aside a few hours a week；aside 家族：step aside 让开、take sb aside 拉到一旁）| get it 口语“读懂、明白”（get 的理解义）| come back to it 回头再看（it 双指代前后呼应）| 读诗建议的核心智慧：理解需要时间发酵——与治愈系、艺术单元的“慢欣赏”一脉相承；万能学习建议句式",
+    "pattern": "So if you do not get it, set + N + aside and come back to it later",
+    "structures": [
+      "条件+祈使",
+      "set aside",
+      "口语get it"
+    ],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "所以如果一时想不出思路，就先把这道题放到一边，过后再回来做。",
+    "imitationHint": "So if no idea comes to you for the moment, → set the problem aside and come back to it later",
+    "imitationAnswer": "So if no idea comes to you for the moment, set the problem aside and come back to it later."
+  },
+  {
+    "sentence": "But I dare not speak in a voice loud, For fear of scaring dwellers on high.",
+    "translation": "不敢高声语，恐惊天上人。",
+    "analysis": "李白《夜宿山寺》名句英译 | dare not speak：dare 用作情态动词（后接动词原形、主要用于否定句/疑问句——课堂双轨：实义动词 dare (to) do / 情态动词 dare not do）| a voice loud：形容词 loud 后置——诗歌为押韵（loud/high 呼应）打破常规语序的 poetic inversion，译诗的韵律牺牲与补偿 | For fear of + 动名词：唯恐、以免（= in case of；for fear that + 从句）| dwellers on high 天上的居住者（on high 在高处/天上，古雅表达）| 中诗英译的经典样本：五言的克制如何装进英语",
+    "pattern": "S + dare not + V ..., For fear of + V-ing + N",
+    "structures": [
+      "dare情态动词",
+      "形容词后置",
+      "for fear of"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "我不敢加快脚步，唯恐惊扰了林间的鸟儿。",
+    "imitationHint": "I dare not quicken my steps, → for fear of disturbing the birds in the woods（dare not + for fear of doing）",
+    "imitationAnswer": "I dare not quicken my steps, for fear of disturbing the birds in the woods."
+  },
+  {
+    "sentence": "With striking imagination in expressions like 'scaring dwellers on high', this early poem already displayed signs of a romantic style, which was later to characterize Li Bai's poetry.",
+    "translation": "凭借“恐惊天上人”这类表达中惊人的想象力，这首早期诗作已然显露浪漫主义风格的端倪——这种风格日后成为李白诗歌的标志。",
+    "analysis": "With + 名词短语前置交代凭借 | expressions like '...' 引号内嵌诗句实例 | displayed signs of 显露……的迹象（sign 端倪）| which 非限定性定语从句 + was later to characterize：be to do 表“后来注定要……”（命运式将来，回顾视角专用——was to become/was never to return）| characterize 成为……的特征（课堂双向公式：特征 characterize 事物 = 事物 be characterized by 特征）| striking 引人注目的（strike 家族）| 文学评论的“少作见天才”句式：早期作品+日后风格的时间纵深",
+    "pattern": "With + N + like '...', S + displayed signs of + N, which was later to + V ...",
+    "structures": [
+      "with前置状语",
+      "be to do命运将来",
+      "characterize",
+      "which非限定从"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "凭借“把月光叠进信封”这样的句子，这篇初中作文已经显露出细腻文风的苗头——这种文风日后成为她小说的标志。",
+    "imitationHint": "With striking imagination in expressions like 'folding moonlight into an envelope', this early essay already displayed signs of a delicate style, → which was later to characterize her novels",
+    "imitationAnswer": "With striking imagination in expressions like 'folding moonlight into an envelope', this early essay already displayed signs of a delicate style, which was later to characterize her novels."
+  },
+  {
+    "sentence": "During his travels, he visited famous mountains and great rivers, encountering different customs and practices.",
+    "translation": "游历期间，他寻访名山大川，见识了各地不同的风俗与习惯。",
+    "analysis": "课件翻译+仿写题 | During his travels 介词短语定时段 | famous mountains and great rivers“名山大川”的对称英译（形容词+名词双组对仗）| encountering... 现在分词作伴随状语（= and encountered）——主动作 visited 带出伴随收获 encountering | encounter 偶遇、遭逢（课堂拓展：encounter difficulties 遭遇困难、one's first encounter with 初次接触）| customs and practices 风俗与惯例（近义连用铺满语义场）| 游历叙事的黄金句型：主线动词+分词收获——课堂仿写：During her study in China, Lucy frequented many tourist attractions in Xi'an, having a deeper understanding of the city.",
+    "pattern": "During + N, S + visited + A and B, encountering + C and D",
+    "structures": [
+      "分词伴随状语",
+      "对仗名词组",
+      "encounter"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "在中国留学期间，露西常游览西安的名胜古迹，对这座城市有了更深的了解。",
+    "imitationHint": "During her study in China, Lucy frequented many tourist attractions in Xi'an, → having a deeper understanding of the city（课堂仿写原题）",
+    "imitationAnswer": "During her study in China, Lucy frequented many tourist attractions in Xi'an, having a deeper understanding of the city."
+  },
+  {
+    "sentence": "Equally impressive is Li Bai's free expression of strong feelings, which breathes vitality into the lifeless objects he describes, and which distinguishes him from other landscape poets.",
+    "translation": "同样令人赞叹的是李白对强烈情感的自由抒发——它为他笔下无生命的景物注入活力，也使他有别于其他山水诗人。",
+    "analysis": "Equally impressive is...：表语（形容词短语）置于句首引起完全倒装——承接上文已赞过的特点，“同样出色的还有”（与必修一 U1 的 Of equal importance are... 同宗，倒装的衔接功能满分示范）| 双 which 并列非限定性定语从句：which breathes... and which distinguishes...——第二个 which 不省，两大功劳各记一笔 | breathe vitality into 为……注入活力（breathe 的比喻及物用法）| the lifeless objects (that) he describes 省略关系词定从 | distinguish A from B 使 A 有别于 B | 文学评论的推进句：倒装承上+双从句展开",
+    "pattern": "Equally + adj. + is + N, which + V ..., and which + V ...",
+    "structures": [
+      "表语前置倒装",
+      "双which并列从句",
+      "breathe...into"
+    ],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "同样令人难忘的是她对细节的敏锐捕捉——它为平凡的日常注入了诗意，也使她有别于同龄的写作者。",
+    "imitationHint": "Equally impressive is her keen eye for detail, → which breathes poetry into ordinary daily life, and which distinguishes her from writers of her age（倒装+双 which）",
+    "imitationAnswer": "Equally impressive is her keen eye for detail, which breathes poetry into ordinary daily life, and which distinguishes her from writers of her age."
+  },
+  {
+    "sentence": "It is claimed that scientists made a major breakthrough in the fight against the disease.",
+    "translation": "据称，科学家在攻克这种疾病的斗争中取得了重大突破。",
+    "analysis": "It is claimed that...：it 形式主语 + 被动“据称/据宣称”——新闻转述句式家族（It is said/reported/believed/claimed that...），claim 比 say 多一分“有待证实”的保留 | claim 课堂多义：声称（claim that）/ 索取索赔（make a claim for）/ 权利（lay claim to）| make a breakthrough in 在……方面取得突破 | the fight against 对抗……的斗争（呼应必修三 U4 屠呦呦句的 the fight against malaria——跨书词块复现）| 转述他人成果的谨慎语态：报道文体的核心句式",
+    "pattern": "It is claimed that + S + made a major breakthrough in + the fight against + N",
+    "structures": [
+      "It is claimed that",
+      "make a breakthrough",
+      "转述句式"
+    ],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "据称，研究团队在对抗土壤污染的攻关中取得了关键进展。",
+    "imitationHint": "It is claimed that the research team made key progress → in the fight against soil pollution（It is claimed + 被动转述）",
+    "imitationAnswer": "It is claimed that the research team made key progress in the fight against soil pollution."
+  }
+]
