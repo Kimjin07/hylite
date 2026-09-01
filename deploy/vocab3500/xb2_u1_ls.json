@@ -1,0 +1,122 @@
+[
+  {
+    "sentence": "The fire, which is thought to have started from the 8th floor, spread quickly through the tower block on Sunday night, leaving people on the upper floors trapped.",
+    "translation": "这场大火据信从八楼烧起，周日夜间迅速蔓延整栋塔楼，致使高层住户被困。",
+    "analysis": "课件结构分析句（三件套）| which 非限定性定语从句插入：is thought to have started——be thought to have done“被认为已经……”（不定式完成式表先发生；课堂同族：be said/reported/known to have done；可改写 It is thought that...）| leaving people... trapped：现在分词作结果状语 + leave sb done（“使人被困”，宾补用过去分词表被动）——灾难新闻的后果标配句式 | spread quickly through 蔓延 | 新闻导语的骨架：事件+起因推断+后果，一句话全交代",
+    "pattern": "S, which is thought to have + V-ed, + V-ed ..., leaving + sb + V-ed",
+    "structures": ["be thought to have done", "which非限定从", "leave sb done"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这场泥石流据信由连日暴雨引发，昨夜迅速冲毁山路，致使两个村庄对外交通中断。",
+    "imitationHint": "The mudslide, which is thought to have been caused by days of heavy rain, swept down last night, → leaving two villages cut off（leave + 宾语 + 过去分词）",
+    "imitationAnswer": "The mudslide, which is thought to have been caused by days of heavy rain, swept down the mountain road last night, leaving two villages cut off."
+  },
+  {
+    "sentence": "There is concern that the construction company that built the tower block had not followed fire safety rules.",
+    "translation": "有人担心，建造这栋塔楼的建筑公司此前并未遵守消防安全规定。",
+    "analysis": "课件结构分析句：双 that 各司其职——第一个 that 引导同位语从句解释 concern 的内容（There is concern that... 有人担心……，新闻表达关切的客观句式）；第二个 that 引导定语从句修饰 the construction company（that 作从句主语）| had not followed：过去完成时——“建楼时”早于“火灾报道时”的时间层次 | follow rules 遵守规定 | 同位语从句 vs 定语从句的同框辨析样本：前者 that 不作成分、补充说明抽象名词；后者 that 作主语",
+    "pattern": "There is concern that + S + that-定语从句 + had not + V-ed ...",
+    "structures": ["同位语从句", "定语从句", "过去完成时"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "有人担心，供应这批食材的公司此前并未遵守冷链运输标准。",
+    "imitationHint": "There is concern that the company that supplied the food → had not followed cold-chain transport standards（双 that）",
+    "imitationAnswer": "There is concern that the company that supplied the food had not followed cold-chain transport standards."
+  },
+  {
+    "sentence": "We rely on news to learn about what is happening in the world around us.",
+    "translation": "我们依靠新闻来了解身边世界正在发生的事。",
+    "analysis": "课件仿写题 | rely on... to do... 依靠……来做……（rely on 课堂网络：rely on sb to do、rely on it that、reliable 可靠的）| what is happening...：what 引导宾语从句作 about 的宾语（what 在从句中作主语），现在进行时“正在发生” | in the world around us 由大到小的空间收束 | 全文立论第一句：先立“新闻之必需”，再谈“新闻之可疑”——议论文让步起笔 | 课堂仿写：Most of us now rely on the Internet to know what is going on overseas.",
+    "pattern": "S + rely on + N + to learn about + what is happening ...",
+    "structures": ["rely on to do", "what宾语从句", "议论起笔"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "现如今，我们大多数人依赖网络来了解国外的动态。",
+    "imitationHint": "Most of us now rely on the Internet → to know what is going on overseas（课堂仿写原题）",
+    "imitationAnswer": "Most of us now rely on the Internet to know what is going on overseas."
+  },
+  {
+    "sentence": "We can see that the first news report pays more attention to the rescue efforts, while the second talks more about deaths and injuries.",
+    "translation": "可以看到，第一篇报道更关注救援工作，而第二篇更多谈及伤亡情况。",
+    "analysis": "课件结构分析+仿写题 | that 宾语从句内部由 while 连接两个分句表对比——“从句里的对比”结构：主句只管“我们看到”，对比全部装进 that 从句 | while 对比连词（非“当……时”）| pay attention to 与 talk about 的动词变换避免重复 | the second 后省略 news report（承前省）| 同题材双报道的差异观察——媒介素养课的核心操作：比对，本句即“怎么比”的示范 | 课堂仿写：We know that schools in the city tend to be better equipped, while those in the countryside are relatively poor.",
+    "pattern": "We can see that + S₁ + V ..., while + S₂ + V ...",
+    "structures": ["宾语从句", "while对比", "承前省略"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "我们知道城市学校的设施往往更好，而乡村学校的设施则相对薄弱。",
+    "imitationHint": "We know that schools in the city tend to be better equipped, → while those in the countryside are relatively poor（课堂仿写原题）",
+    "imitationAnswer": "We know that schools in the city tend to be better equipped, while those in the countryside are relatively poor."
+  },
+  {
+    "sentence": "Even if news reports are written from basically the same perspective, they may contradict each other in terms of factual detail, as events in the real world are usually complicated and constantly changing.",
+    "translation": "即使新闻报道的撰写视角基本相同，它们也可能在事实性细节上相互矛盾，因为现实世界的事件通常复杂而多变。",
+    "analysis": "三从句协作：Even if 让步（视角相同）→ 主句转折（仍会矛盾）→ as 原因（世界复杂多变）——“让步-断言-归因”的完整论证链 | contradict each other 相互矛盾（课堂拓展：contradict oneself 自相矛盾、contradictory 矛盾的、in contradiction to）| in terms of 在……方面 | from a perspective 从……视角 | complicated and constantly changing：形容词+分词并列表语 | 高级认知句：矛盾未必有假——不急于 rush to conclusions 的理据 | 课堂仿写：Even if you have dark skin, you will need protection from the sun, as it can reduce the risk of skin disease.",
+    "pattern": "Even if + S + are + V-ed ..., S + may contradict each other in terms of ..., as + 从句",
+    "structures": ["even if让步", "as原因从句", "contradict", "in terms of"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "即使两位目击者都出于好意，他们的描述也可能在细节上相互矛盾，因为人的记忆本就复杂而易变。",
+    "imitationHint": "Even if both witnesses mean well, their accounts may contradict each other in terms of detail, → as human memory is usually complicated and constantly changing",
+    "imitationAnswer": "Even if both witnesses mean well, their accounts may contradict each other in terms of detail, as human memory is usually complicated and constantly changing."
+  },
+  {
+    "sentence": "Another aspect worthy of mention is that journalists may approach information they get from research or interviews differently.",
+    "translation": "另一个值得一提的方面是：对于从调查或采访中获得的信息，记者们的处理方式可能各不相同。",
+    "analysis": "课件结构分析+仿写题 | Another aspect worthy of mention：worthy of mention 形容词短语作后置定语“值得一提的”（worthy of + n.；呼应选必一 U3 的 It is worthy of note that）| is that...：that 引导表语从句 | 从句内 information (that) they get from... 省略关系词的定语从句 | approach 熟词僻义：处理、对待（approach a problem/information）| differently 副词收尾点题 | 分论点推进句式：Another aspect... is that...——议论文列举论点的接力棒 | 课堂仿写：One thing worthy of a celebration is that the team finally won the victory their fans had waited for long.",
+    "pattern": "Another aspect worthy of mention is that + S + may approach + N + (that)定从 + differently",
+    "structures": ["worthy of mention", "表语从句", "熟词僻义approach"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "一件值得庆祝的事情是，这支球队终于赢得了球迷们期待已久的胜利。",
+    "imitationHint": "One thing worthy of a celebration is that the team finally won → the victory their fans had waited for long（课堂仿写原题）",
+    "imitationAnswer": "One thing worthy of a celebration is that the team finally won the victory their fans had waited for long."
+  },
+  {
+    "sentence": "Though journalists are committed to presenting the truth, it is better to use our own judgement than rely entirely on news reports.",
+    "translation": "尽管新闻工作者致力于呈现真相，但运用自己的判断力总好过完全依赖新闻报道。",
+    "analysis": "Though 让步从句先给记者公道——批判前先致敬，论证的风度 | be committed to + 动名词：致力于（to 是介词！presenting；课堂 commit 网络：commit a crime 犯罪、commit oneself to 承诺、make a commitment 作出承诺）| it is better to do A than (to) do B：比较句型“做 A 好过做 B”（than 后省 to）| use our own judgement 运用自己的判断 vs rely entirely on 完全依赖——全文的结论对仗 | 媒介素养的终极建议：信记者，更信自己的脑子",
+    "pattern": "Though + S + are committed to + V-ing, it is better to + V + than + V ...",
+    "structures": ["be committed to doing", "it is better to...than", "though让步"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "尽管测评博主们致力于给出真实体验，但亲自试用总好过完全依赖他人的评价。",
+    "imitationHint": "Though reviewers are committed to sharing real experiences, → it is better to try things ourselves than rely entirely on others' opinions",
+    "imitationAnswer": "Though reviewers are committed to sharing real experiences, it is better to try things ourselves than rely entirely on others' opinions."
+  },
+  {
+    "sentence": "Some films are now sponsored by leading brands, so that only their products appear in the film, like the watches worn by the title character in James Bond films.",
+    "translation": "如今一些电影由大品牌赞助，因此片中只出现它们的产品——比如 007 系列中主角戴的手表。",
+    "analysis": "课件结构分析句 | be sponsored by 由……赞助（sponsor 赞助/发起）| so that 引导结果状语从句（“因此”——结果义时从句常用陈述语气，区别目的义的 so that + can/could）| the watches worn by...：过去分词短语作后置定语（= which are worn by）| the title character 片名主角（title 作定语“与片名同名的”——熟词妙用）| like 举例 | 广告植入（product placement）的机制句：赞助→独占出镜，商业逻辑一句讲透",
+    "pattern": "S + are sponsored by ..., so that only + N + appear ..., like + the N + V-ed by ...",
+    "structures": ["so that结果从句", "过去分词定语", "be sponsored by"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "如今一些综艺节目由饮料品牌冠名，因此镜头里只出现它们的产品——比如嘉宾桌上摆的那排瓶子。",
+    "imitationHint": "Some variety shows are now sponsored by drink brands, so that only their products appear on camera, → like the bottles placed on the guests' table（过去分词定语）",
+    "imitationAnswer": "Some variety shows are now sponsored by drink brands, so that only their products appear on camera, like the bottles placed on the guests' table."
+  },
+  {
+    "sentence": "We absorb these marketing messages without thinking about them too much, yet they probably have an effect on us the next time we go shopping.",
+    "translation": "我们不知不觉地吸收着这些营销信息，然而下次购物时，它们很可能就会对我们产生影响。",
+    "analysis": "without + 动名词：“在不……的情况下”——absorb without thinking，无意识接收的精准表达 | absorb 吸收（课堂多义：吸收信息/液体/使全神贯注 be absorbed in）| yet 转折（比 but 更书面，带“意料之外”味）| the next time 名词短语作连词引导时间状语从句（呼应选必一 U3 的 every time 家族）| have an effect on 对……产生影响 | probably 留有分寸 | 广告心理学的核心句：无感输入、有感输出——潜移默化的英文定义",
+    "pattern": "S + absorb + N + without + V-ing ..., yet + S + have an effect on + sb + the next time + 从句",
+    "structures": ["without+动名词", "the next time连词", "yet转折"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "我们随手划过这些短视频并不多想，然而下次消费时，它们很可能已经影响了我们的选择。",
+    "imitationHint": "We scroll through these short videos without thinking about them too much, → yet they probably have an effect on our choices the next time we spend money",
+    "imitationAnswer": "We scroll through these short videos without thinking about them too much, yet they probably have an effect on our choices the next time we spend money."
+  },
+  {
+    "sentence": "Not only will this make them feel more valued and enable them to see things they are most interested in, but it will also help companies target their customers efficiently to have a positive effect on sales.",
+    "translation": "这不仅会让他们感到更受重视、看到自己最感兴趣的内容，还会帮助公司高效锁定客户，对销售产生积极影响。",
+    "analysis": "课件专项讲解句：Not only 置于句首引起部分倒装——will 提到主语 this 之前；but (it will) also 后接正常语序（只有 not only 分句倒装！）| 前半双并列谓语 make them feel...（使役省 to）and enable them to see...（enable to do）| things (that) they are most interested in 省略关系词定从、介词 in 悬空 | target their customers 锁定客户（target 动词化）| 精准推送的利益双写：用户体验+商家效益——议论文“双赢论证”的句式载体 | 课堂仿写：Not only are the new textbooks updated, but they are also tailored to the needs of students from various backgrounds.",
+    "pattern": "Not only will + S + V ... and + V ..., but + S + will also + V ...",
+    "structures": ["not only部分倒装", "使役make", "enable to do"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "新教材不仅内容更新了，而且还能满足不同层次学生的需求。",
+    "imitationHint": "Not only are the new textbooks updated, → but they are also tailored to the needs of students from various backgrounds（课堂仿写原题；注意只有前半倒装）",
+    "imitationAnswer": "Not only are the new textbooks updated, but they are also tailored to the needs of students from various backgrounds."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "sentence": "It was a Frenchman, Pierre de Coubertin, who brought the Olympics back to life.",
+    "translation": "正是一位名叫皮埃尔·德·顾拜旦的法国人，让奥运会重获新生。",
+    "analysis": "课件专项讲解句：强调句 It was... who... 强调主语（被强调部分是人用 who/that，非人只用 that）——课堂全套：强调宾语 It is tea that I like...、强调状语 It was from that time on that...、not until 强调式 | a Frenchman, Pierre de Coubertin：泛称+人名同位语——先给国籍悬念再揭晓姓名，介绍人物的登场技巧 | bring... back to life 使复活、重振（奥运会中断千年后复兴）| 历史叙事的功臣句式：把“谁干的”放进聚光灯",
+    "pattern": "It was + a + N, 人名, + who + brought + N + back to life",
+    "structures": ["强调句", "同位语", "bring back to life"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "正是一位普通的乡村教师，让这门古老的手艺重获新生。",
+    "imitationHint": "It was an ordinary village teacher → who brought the ancient craft back to life（强调句+同位语可加人名）",
+    "imitationAnswer": "It was an ordinary village teacher who brought the ancient craft back to life."
+  },
+  {
+    "sentence": "Motivated by the Olympic motto 'Faster, Higher, Stronger', many well-known athletes, both male and female, have devoted themselves to achieving sporting excellence and pushing the boundaries of human achievement.",
+    "translation": "在奥运格言“更快、更高、更强”的激励下，许多知名运动员——无论男女——都致力于追求卓越的运动成就、突破人类成就的边界。",
+    "analysis": "课件大专项：Motivated by... 过去分词短语作原因状语（= Because they are motivated by...）——课堂过去分词状语全谱：表时间 Asked what had happened.../表原因 Frightened by.../表条件 Grown in rich soil.../连词+分词 Once published.../独立主格 eyes closed | both male and female 插入语补充范围 | devote oneself to + 动名词（to 介词）：achieving... and pushing... 双动名词并列 | push the boundaries of 突破……的边界（时政体育高频词块）| the Olympic motto 引号内三比较级排比——格言本身即气势",
+    "pattern": "V-ed by ..., S, both A and B, have devoted themselves to + V-ing and V-ing",
+    "structures": ["过去分词原因状语", "devote to doing", "插入语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "在“自强不息”校训的激励下，许多毕业生——无论身处哪个行业——都致力于精进本领、拓展自己人生的边界。",
+    "imitationHint": "Motivated by the school motto 'Constant Self-improvement', many graduates, whatever their fields, → have devoted themselves to sharpening their skills and pushing the boundaries of their own lives",
+    "imitationAnswer": "Motivated by the school motto 'Constant Self-improvement', many graduates, whatever their fields, have devoted themselves to sharpening their skills and pushing the boundaries of their own lives."
+  },
+  {
+    "sentence": "He came to public attention during the 1960 Rome Olympics, when he won the light heavyweight gold medal for the USA, demonstrating great talent and personality in the process.",
+    "translation": "他在 1960 年罗马奥运会上进入公众视野——当时他为美国赢得轻重量级拳击金牌，并在比赛过程中展现出非凡的天赋与人格魅力。",
+    "analysis": "课件翻译题 | come to public attention 进入公众视野（come to attention 被注意到）| when 引导非限定性定语从句修饰 the 1960 Rome Olympics（时间先行词+逗号 → when 从句补充“当时发生了什么”）| demonstrating... 现在分词作伴随状语（= and demonstrated）——赢金牌的同时“顺带”展示了人格 | demonstrate 展示/证明（demonstrate an ability）| talent and personality 才华与人品并提——阿里人物立体化的第一笔 | in the process 在此过程中 | 人物传记“成名时刻”句式：事件+when 从句+分词收尾",
+    "pattern": "S + came to public attention during ..., when + S + won ..., V-ing ... in the process",
+    "structures": ["when非限定从", "分词伴随状语", "come to attention"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "她在校艺术节上进入大家的视野——当时她凭一首原创歌曲夺得金奖，并在演出过程中展现出难得的沉稳与真诚。",
+    "imitationHint": "She came to public attention during the school art festival, when she won the gold award with an original song, → demonstrating rare composure and sincerity in the process",
+    "imitationAnswer": "She came to public attention during the school art festival, when she won the gold award with an original song, demonstrating rare composure and sincerity in the process."
+  },
+  {
+    "sentence": "Since sport is an inseparable part of day-to-day life, there are lots of sports idioms that have found their way into everyday language.",
+    "translation": "由于体育是日常生活不可分割的一部分，许多体育习语也已悄然融入日常语言。",
+    "analysis": "课件结构分析+仿写题 | Since 引导原因状语从句（“既然/由于”——已知事实作理由，比 because 语气更从容）| there are + N + that...：there be 后接 that 定语从句（that 作从句主语）| find one's way into 不知不觉进入、辗转融入（拟人：习语自己“摸进”语言；课堂例句：He eventually found his way into acting.）| inseparable 不可分割的（in-否定前缀）| day-to-day 复合形容词“日常的” | 语言与生活互渗的论题句 | 课堂仿写：Since we've got a while to wait for the train, let's have a cup of coffee in the cafe that was newly opened.",
+    "pattern": "Since + S + is an inseparable part of ..., there are + N + that have found their way into ...",
+    "structures": ["since原因从句", "there be+定语从句", "find one's way into"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "由于网络是日常生活不可分割的一部分，许多网络热词也已悄然融入我们的书面表达。",
+    "imitationHint": "Since the Internet is an inseparable part of day-to-day life, → there are lots of online buzzwords that have found their way into our written language",
+    "imitationAnswer": "Since the Internet is an inseparable part of day-to-day life, there are lots of online buzzwords that have found their way into our written language."
+  },
+  {
+    "sentence": "As you know, in a football match, players try to kick or head the ball into the opposing team's goal, which is a net between two big goalposts fixed to the ground.",
+    "translation": "如你所知，足球比赛中球员们设法把球踢进或顶进对方球门——球门就是固定在地面的两根大门柱之间的那张网。",
+    "analysis": "课件结构分析+仿写题（双非限定从）| As you know：as 引导非限定性定语从句，as 指代整个主句（“正如你知道的那样”；课堂同族课文句：Football (or soccer, as it is called in the USA).../As it suggests,...）| which 引导非限定性定语从句补充说明 goal | fixed to the ground：过去分词短语作后置定语修饰 goalposts（被固定）| kick or head：head 动词化“用头顶”（名词转动词的活用）| 三层修饰逐级下钻：球门→网→门柱→固定方式——向外行解释规则的“套娃定义法”",
+    "pattern": "As you know, S + try to + V ... into + N, which is + N + V-ed to ...",
+    "structures": ["as非限定从", "which非限定从", "过去分词定语", "名词动用head"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "如你所知，他昨天去了图书馆，在那里找到了目前研究所需的全部书籍。",
+    "imitationHint": "As you know, he went to the library yesterday, → where he found all the books needed for his ongoing study（课堂仿写原题）",
+    "imitationAnswer": "As you know, he went to the library yesterday, where he found all the books needed for his ongoing study."
+  },
+  {
+    "sentence": "Cathy and I waited patiently until word spread that the first runners would be arriving soon.",
+    "translation": "凯茜和我耐心等待着，直到消息传来：第一批跑者马上就到。",
+    "analysis": "课件结构分析句 | until 时间状语从句 | word spread that...：that 引导同位语从句解释 word 的内容——注意同位语从句被谓语 spread 隔开（word... that... 的分离式同位语，识别难点！）；word 表“消息”时不加冠词（Word came that... 有消息传来）| would be arriving：过去将来进行时——从当时视角看“即将到达”，比 would arrive 更有“正在逼近”的现场感 | 马拉松志愿者视角的等待描写：patiently 与 soon 的时间张力",
+    "pattern": "S + waited patiently until + word spread + that + S + would be + V-ing soon",
+    "structures": ["分离式同位语从句", "until从句", "过去将来进行时"],
+    "source": "Grammar",
+    "imitationType": "translation",
+    "imitationCn": "我们在后台安静候场，直到消息传来：演出十分钟后开始。",
+    "imitationHint": "We waited quietly backstage until word spread → that the show would be starting in ten minutes（word... that 分离式同位语）",
+    "imitationAnswer": "We waited quietly backstage until word spread that the show would be starting in ten minutes."
+  },
+  {
+    "sentence": "We all know what it is like to want to win and most of us know what it is like to lose.",
+    "translation": "我们都知道渴望胜利是什么滋味，而我们中的大多数也都知道失败是什么滋味。",
+    "analysis": "课件结构分析句：what it is like to do 双联——what 引导宾语从句，从句内 it 作形式主语、真主语是不定式（to want to win / to lose）：“做……是什么感觉” | 前后对称句式的微妙不对称：We all（人人）知道想赢，most of us（大多数）知道输——量词的递减暗藏辛酸：不是谁都肯承认输过 | and 并列双分句 | 输赢观议论文的共情开场：先把读者拉进共同经验再讲道理",
+    "pattern": "We all know what it is like to + V and most of us know what it is like to + V",
+    "structures": ["what从句+形式主语", "对称句式", "共情开场"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "我们都知道被理解是什么滋味，而我们中的大多数也都知道被误解是什么滋味。",
+    "imitationHint": "We all know what it is like to be understood → and most of us know what it is like to be misunderstood（what it is like to do 双联）",
+    "imitationAnswer": "We all know what it is like to be understood and most of us know what it is like to be misunderstood."
+  },
+  {
+    "sentence": "More often than not, winning has the victor walking on air, lost in the glory of the moment, while the loser is left with a bitter taste and a feeling of failure.",
+    "translation": "胜利往往让赢家飘飘欲仙、沉醉于一时的荣光；而输家则只剩满口苦涩和挫败感。",
+    "analysis": "课件结构分析句 | More often than not 多半、往往（= usually，句首状语习语）| have the victor walking：have + 宾语 + 现在分词“使……处于……状态” | walk on air 欢天喜地（习语；课堂 air 短语群：in the air 弥漫/up in the air 悬而未决/on air 播出中）| lost in the glory...：形容词化的过去分词短语作状语描摹状态（lost in thought 同款）| while 对比连词分隔胜负两世界 | be left with 只剩下（被动的余味）| a bitter taste 苦涩滋味（通感）| 输赢双镜头的电影化并置——议论文场景化开篇的高级示范",
+    "pattern": "More often than not, + N + has + sb + V-ing, V-ed ..., while + S + is left with ...",
+    "structures": ["have sb doing", "lost分词状语", "while对比", "习语walk on air"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "发榜往往让上榜者手舞足蹈、沉浸在片刻的喜悦里；而落榜者则只剩满心失落和自我怀疑。",
+    "imitationHint": "More often than not, the results have the successful walking on air, lost in the joy of the moment, → while the unsuccessful are left with disappointment and self-doubt",
+    "imitationAnswer": "More often than not, the results have the successful walking on air, lost in the joy of the moment, while the unsuccessful are left with disappointment and self-doubt."
+  },
+  {
+    "sentence": "Almost nobody likes to come second, and sometimes it is difficult to keep everything in perspective.",
+    "translation": "几乎没有人喜欢屈居第二，而有时要客观看待一切也确实很难。",
+    "analysis": "Almost nobody 几乎无人（否定代词前加 almost 的强度调节）| come second 屈居第二（come + 序数词表名次：come first/last）| it is difficult to...：形式主语 | keep everything in perspective 正确客观地看待一切、分清轻重（perspective 课堂网络：from my perspective 在我看来、provide a wider perspective 提供更广视角）| and 并列的诚实递进：先承认人性（都想赢）再承认困难（难释怀）——不说教的说理，给下文“两个对手”的智慧留出台阶",
+    "pattern": "Almost nobody likes to + V, and sometimes it is difficult to keep ... in perspective",
+    "structures": ["否定代词", "come+序数词", "keep in perspective"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "几乎没有人喜欢被比较，而有时要平和看待他人的进步也确实很难。",
+    "imitationHint": "Almost nobody likes to be compared, → and sometimes it is difficult to keep others' progress in perspective",
+    "imitationAnswer": "Almost nobody likes to be compared, and sometimes it is difficult to keep others' progress in perspective."
+  },
+  {
+    "sentence": "Whether you come first or last, it is important to remember that at any sporting event, you face two opponents.",
+    "translation": "无论你是第一名还是最后一名，都要记住：在任何体育赛事中，你面对的都是两个对手。",
+    "analysis": "课件结构分析句 | Whether... or...“无论……还是……”引导让步状语从句（呼应必修一 U3 的 Whether we're walking...；课堂例句：It doesn't matter whether you pay by cash or credit card.）| it is important to remember that...：形式主语 + that 宾语从句 | at any sporting event 状语前置于从句内 | two opponents 悬念收尾——两个对手是谁？（对手与自己）逼读者追问的“断崖式”结尾 | come first or last 名次表达再现 | 体育励志文的题眼句：真正的较量在自己",
+    "pattern": "Whether you + V + or + V, it is important to remember that ..., you face + N",
+    "structures": ["whether...or让步", "形式主语", "悬念收尾"],
+    "source": "Integrated skills",
+    "imitationType": "translation",
+    "imitationCn": "无论你考得好还是坏，都要记住：在任何一场考试里，你真正的对手只有一个。",
+    "imitationHint": "Whether you do well or badly, it is important to remember that → in any exam, you face only one real opponent（悬念留给下文：yourself）",
+    "imitationAnswer": "Whether you do well or badly, it is important to remember that in any exam, you face only one real opponent."
+  }
+]

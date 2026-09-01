@@ -1,0 +1,86 @@
+[
+  {
+    "sentence": "It may sound like we are building castles in the air, but given the rate at which artificial intelligence, or AI, is being developed, such technology may not be far away.",
+    "translation": "这听起来也许像是空中楼阁，但考虑到人工智能的发展速度，这样的技术或许并不遥远。",
+    "analysis": "课件专项讲解句 | build castles in the air 建造空中楼阁=空想（习语；课堂拓展：ideas believed to be castles in the air have turned into reality）| given 介词“考虑到、鉴于”（= considering/in view of；given that 可作连词接从句）| the rate at which... is being developed：介词+关系代词定语从句（at a rate 的 at 前置）+ 现在进行时被动 is being developed“正被开发” | or AI 同位语式缩写注释（“或称 AI”）| may sound like... but... 先让步后转折——科幻感话题的可信化处理：承认像幻想，再用发展速度反转",
+    "pattern": "It may sound like ..., but given the rate at which + S + is being + V-ed, + S + may not be far away",
+    "structures": ["given介词", "介词+关系代词", "现在进行时被动", "习语castles in the air"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这听起来也许像是天方夜谭，但考虑到新能源技术的迭代速度，人人开上电动车的日子或许并不遥远。",
+    "imitationHint": "It may sound like a fantasy, but given the rate at which new energy technology is being upgraded, → the day when everyone drives an EV may not be far away",
+    "imitationAnswer": "It may sound like a fantasy, but given the rate at which new energy technology is being upgraded, the day when everyone drives an EV may not be far away."
+  },
+  {
+    "sentence": "These systems have the capacity to analyse massive amounts of data through multiple layers, imitating the complex networks of the human brain.",
+    "translation": "这些系统有能力通过多个层级分析海量数据，模仿人脑复杂的神经网络。",
+    "analysis": "have the capacity to do 有能力做（capacity 课堂三义：容量 a seating capacity of 2,000 / 能力 the capacity to be creative / 职位 in her capacity as manager）| massive amounts of data 海量数据（amounts 复数配不可数名词）| through multiple layers 通过多个层级——深度学习的“深”即在此 | imitating... 现在分词作伴随状语：模仿人脑网络（= and imitate）——神经网络命名之源一句讲清 | 科普定义句的结构：能力（capacity to）+方式（through）+原理（imitating）",
+    "pattern": "S + have the capacity to + V + N + through ..., V-ing + the N + of ...",
+    "structures": ["capacity to do", "分词伴随状语", "科普定义句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这些无人机有能力通过多个传感器感知周围环境，模仿鸟群灵活的协作方式。",
+    "imitationHint": "These drones have the capacity to sense their surroundings through multiple sensors, → imitating the flexible cooperation of bird flocks（imitating 伴随）",
+    "imitationAnswer": "These drones have the capacity to sense their surroundings through multiple sensors, imitating the flexible cooperation of bird flocks."
+  },
+  {
+    "sentence": "Nowadays, AI is already being applied in many fields: finance, health care, machine translation and art, to name but a few.",
+    "translation": "如今，人工智能已被应用于众多领域：金融、医疗、机器翻译、艺术——不过略举几例而已。",
+    "analysis": "is already being applied：现在进行时被动“正在被应用”（already 强调进程已启动）——apply 应用（apply... to 把……应用于）| 冒号后四领域裸列举 | to name but a few 略举几例（插入语习语，暗示例子远不止此；= just as some examples among many more；课堂例句：Bees and bats, to name but a few, can see what humans can't.）| 列举句的收放艺术：冒号放（四个例子铺开）、习语收（点到即止）——说明文举例的标准配平",
+    "pattern": "Nowadays, S + is already being + V-ed in many fields: A, B, C and D, to name but a few",
+    "structures": ["现在进行时被动", "冒号列举", "to name but a few"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "如今，短视频已被用于许多场景：课堂教学、非遗传播、乡村带货、科普宣传——不过略举几例而已。",
+    "imitationHint": "Nowadays, short videos are already being used in many scenarios: classroom teaching, heritage promotion, rural e-commerce and science popularization, → to name but a few",
+    "imitationAnswer": "Nowadays, short videos are already being used in many scenarios: classroom teaching, heritage promotion, rural e-commerce and science popularization, to name but a few."
+  },
+  {
+    "sentence": "How would they be punished if they committed crimes or even murdered humans?",
+    "translation": "如果它们犯了罪、甚至谋杀了人类，又该如何惩罚它们呢？",
+    "analysis": "课件专项讲解句：虚拟语气的疑问句形态——if 从句用过去式 committed/murdered（与现在/将来事实相反的假设），主句 would be punished（would + 被动原形）；虚拟条件句全表：与过去相反用 had done + would have done | commit crimes 犯罪（commit 搭配复现，呼应本书 U1）| or even 递进“甚至” | they 指 AI 机器人——机器的罪责谁来担？法律真空的一问 | 疑问句连发是本文伦理段的修辞策略：不给答案、只给震动",
+    "pattern": "How would + S + be + V-ed + if + S + V-ed（过去式虚拟）...?",
+    "structures": ["虚拟条件句", "被动疑问", "伦理设问"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "如果自动驾驶汽车造成了事故、甚至伤害了行人，又该由谁来负责呢？",
+    "imitationHint": "Who would be held responsible if a self-driving car caused an accident → or even hurt pedestrians?（if 从句过去式虚拟）",
+    "imitationAnswer": "Who would be held responsible if a self-driving car caused an accident or even hurt pedestrians?"
+  },
+  {
+    "sentence": "Moreover, there is growing concern that we might fall victim to this technology, as there are cases in which hackers have broken into facial recognition systems by using people's social media photos to build models of their faces.",
+    "translation": "此外，越来越多的人担心我们可能沦为这项技术的受害者——因为已有案例显示，黑客利用人们的社交媒体照片构建面部模型，攻破了人脸识别系统。",
+    "analysis": "课件同位语从句大专项 | there is growing concern that...：that 引导同位语从句（引导词只能是 that/whether/how/when/where，不能用 if/which；that 无词义不作成分不可省——与定语从句的判别法）| fall victim to 沦为……的受害者（victim 无冠词的固定搭配）| as 原因从句内再嵌 cases in which...：介词+关系代词定语从句 | by using... to build...：by 方式 + 不定式目的的双层手段链 | 现在完成时 have broken into 已然发生 | 技术风险论证的完整句：担忧（concern that）+实证（cases in which）——议论文“亮忧+举证”一步到位",
+    "pattern": "There is growing concern that ..., as there are cases in which + S + have + V-ed + by + V-ing ...",
+    "structures": ["同位语从句", "in which定语从句", "fall victim to", "by+方式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "此外，越来越多的人担心我们可能沦为算法的受害者——因为已有案例显示，平台利用用户的浏览记录反复推送同质内容，把人困在信息茧房里。",
+    "imitationHint": "Moreover, there is growing concern that we might fall victim to algorithms, → as there are cases in which platforms have trapped users in information cocoons by using their browsing records",
+    "imitationAnswer": "Moreover, there is growing concern that we might fall victim to algorithms, as there are cases in which platforms have trapped users in information cocoons by using their browsing records."
+  },
+  {
+    "sentence": "Apparently, such warnings demand our attention.",
+    "translation": "显然，这样的警告需要引起我们的重视。",
+    "analysis": "Apparently 句首副词“显然”（= obviously；另义“据说、似乎”）| demand 熟词双义：此处“需要”（= need/require：This sport demands both speed and strength.）；另义“强烈要求”接虚拟——demand that sb (should) do（课堂语法卡）| such warnings 回指上文名人对 AI 的警告（霍金等）| 五词短句作段落转轴：警告（别人的）→ 重视（我们的）——从引述转向立场的过渡句 | demand our attention 比 deserve attention 更迫切",
+    "pattern": "Apparently, such + N + demand + our attention",
+    "structures": ["demand双义", "短句过渡", "回指such"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "显然，这些数据需要引起我们的警惕。",
+    "imitationHint": "Apparently, such figures → demand our vigilance（demand = 需要）",
+    "imitationAnswer": "Apparently, such figures demand our vigilance."
+  },
+  {
+    "sentence": "There are a host of educational applications of virtual reality.",
+    "translation": "虚拟现实有着大量的教育应用。",
+    "analysis": "a host of 大量的（接可数名词复数；= a large number of——数量表达升级词，替换 many/lots of）| educational applications 教育应用（application 应用义复现，呼应本书 U1 的 the application of technology）| virtual reality 虚拟现实（VR；课堂拓展：at the forefront of developments in virtual reality 处于 VR 开发前沿、immersive technology 沉浸式技术、engage students' interest and enhance learning efficiency 吸引兴趣提升效率——本单元 VR 教育词块群）| there be + a host of 的段首领起句：先立“多”，下文逐一展开",
+    "pattern": "There are a host of + adj. + N + of ...",
+    "structures": ["a host of", "there be领起", "VR词块"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "这项新技术有着大量的医疗应用。",
+    "imitationHint": "There are a host of medical applications → of this new technology（a host of + 复数名词）",
+    "imitationAnswer": "There are a host of medical applications of this new technology."
+  }
+]

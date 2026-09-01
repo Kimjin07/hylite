@@ -1,0 +1,110 @@
+[
+  {
+    "sentence": "Over the course of my career, I have seen many wonderful scientific developments, but none are as game-changing as genome editing.",
+    "translation": "在我的职业生涯中，我见过许多了不起的科学进展，但没有一项像基因组编辑这样具有颠覆性。",
+    "analysis": "none + as... as 同级比较的否定：“没有一个比得上”——否定词+同级比较=最高级（none are as game-changing as = genome editing is the most game-changing）| game-changing 复合形容词“改变游戏规则的”（n.+v-ing 构词：time-consuming、English-speaking）| Over the course of my career 职业生涯纵深开场——科学家演讲的资历铺垫：见得越多，衬得越高 | but 转折把万千进展扫到一边，聚光灯只留一个 | 现在完成时 have seen 呼应 career 的时间跨度",
+    "pattern": "Over the course of ..., S + have seen many ..., but none are as + adj. + as + N",
+    "structures": ["否定+同级比较", "复合形容词", "演讲开场"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "求学这些年我遇到过许多好老师，但没有一位像她这样改变了我看世界的方式。",
+    "imitationHint": "Over the course of my school years, I have met many good teachers, → but none are as life-changing as her（none as...as 表最高级）",
+    "imitationAnswer": "Over the course of my school years, I have met many good teachers, but none are as life-changing as her."
+  },
+  {
+    "sentence": "As many of you may already know, genes play a critical role in shaping our lives.",
+    "translation": "正如你们许多人可能已经知道的，基因在塑造我们的生活中起着关键作用。",
+    "analysis": "As many of you may already know：as 引导非限定性定语从句指代整个主句（呼应选必二 U2 的 As you know——演讲/说明文与听众搭桥的礼貌开场：不把听众当白纸）| play a critical role in + 动名词：在……中起关键作用（critical 关键的；课堂 critical 三义：批判的/关键的/危急的）| shape 熟词僻义“塑造、决定……的发展”（His ideas were shaped by the war.）| 科普演讲的定调句：先立共识，再往深处讲",
+    "pattern": "As many of you may already know, S + play a critical role in + V-ing",
+    "structures": ["as非限定从", "play a role in", "熟词僻义shape"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "正如你们许多人可能已经知道的，睡眠在巩固记忆的过程中起着关键作用。",
+    "imitationHint": "As many of you may already know, → sleep plays a critical role in strengthening memory",
+    "imitationAnswer": "As many of you may already know, sleep plays a critical role in strengthening memory."
+  },
+  {
+    "sentence": "Geneticists have been trying to identify which genes relate to which diseases, as they believe genome editing is an effective means of disease treatment and prevention.",
+    "translation": "遗传学家一直在努力确认哪些基因与哪些疾病相关，因为他们相信基因组编辑是治疗和预防疾病的有效手段。",
+    "analysis": "which genes relate to which diseases：双 which 疑问词宾语从句——两个 which 各限定一头（基因↔疾病的配对难题），凝练至极的科研问题表述 | have been trying：现在完成进行时——努力持续至今仍在继续 | as 引导原因状语从句 | means 单复数同形的“手段”（a means of doing；课堂 means 网络：by means of 通过、by no means 绝不〔句首须倒装：By no means should we...〕、by all means 当然可以）| relate to 与……相关 | treatment and prevention 治与防并举",
+    "pattern": "S + have been trying to identify which + N + relate to which + N, as + 从句",
+    "structures": ["双which宾语从句", "现在完成进行时", "means"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "研究者们一直在努力弄清哪些习惯与哪些学习效果相关，因为他们相信习惯养成是提高成绩的有效途径。",
+    "imitationHint": "Researchers have been trying to identify which habits relate to which learning outcomes, → as they believe habit-building is an effective means of improving grades",
+    "imitationAnswer": "Researchers have been trying to identify which habits relate to which learning outcomes, as they believe habit-building is an effective means of improving grades."
+  },
+  {
+    "sentence": "They were not finished, however, not by any means.",
+    "translation": "然而，他们并没有就此止步——绝对没有。",
+    "analysis": "not by any means 补充强调否定：“无论如何都不、绝对不”（= by no means）——句末追加的否定回声，口语化的斩钉截铁 | however 双逗号插入句中 | 课堂延伸考点：by no means 置于句首须部分倒装——By no means should we ignore the importance of environmental protection. / By no means can he afford such a car. | means 一词三义复盘：手段/财富（live within one's means 量入为出）/习语群 | 七词短句的叙事功能：断言科学家们还会继续突破——用最短的句子表最硬的决心",
+    "pattern": "S + were not finished, however, not by any means",
+    "structures": ["not by any means", "however插入", "短句强调"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "然而，她并没有认输——绝对没有。",
+    "imitationHint": "She was not defeated, however, → not by any means（句末否定回声）",
+    "imitationAnswer": "She was not defeated, however, not by any means."
+  },
+  {
+    "sentence": "As the technology continues to develop at a fast pace, however, questions arise about how to use it appropriately.",
+    "translation": "然而，随着这项技术持续快速发展，如何恰当使用它的问题也随之出现。",
+    "analysis": "As 引导时间/伴随状语从句“随着……” | at a fast pace 以快速的节奏（pace 课堂网络：keep pace with 与……同步、at one's own pace 按自己的节奏、pace up and down 来回踱步）| questions arise：arise 不及物“（问题）出现”（arise-arose-arisen；课堂三辨：arise 抽象问题出现/rise 上升/raise 及物举起）| about how to use it appropriately：疑问词+不定式作介词宾语 | 注意 questions 与 about 短语被谓语隔开（分离式修饰）| 科技伦理转折句：技术每快一步，伦理就该追一步——议论文“转入问题”的枢纽",
+    "pattern": "As + S + continues to develop at a fast pace, questions arise about + how to + V",
+    "structures": ["as伴随从句", "arise", "疑问词+不定式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "然而，随着人工智能持续快速发展，如何界定它的使用边界的问题也随之出现。",
+    "imitationHint": "As AI continues to develop at a fast pace, however, → questions arise about how to define the boundaries of its use（questions arise about）",
+    "imitationAnswer": "As AI continues to develop at a fast pace, however, questions arise about how to define the boundaries of its use."
+  },
+  {
+    "sentence": "Should we restrict our use of this technology to the treatment and prevention of diseases?",
+    "translation": "我们是否应当把这项技术的使用仅限于疾病的治疗和预防？",
+    "analysis": "一般疑问句直接抛给读者——演讲结尾的伦理之问（呼应必修三 U1 的 can we afford to damage...? 同款开放结尾）| restrict A to B 把 A 限制在 B 范围内（to 是介词；课堂拓展：restrict the number to 10、restricted 受限的）| our use of this technology 动作名词化（use 作名词+双 of 链）| the treatment and prevention of diseases 治与防的名词化并列 | 基因编辑的边界之问：治病可以，“定制婴儿”呢？——问号本身就是立场：审慎 | 科技利弊作文的结尾模板句",
+    "pattern": "Should we restrict our use of + N + to + the N and N of ...?",
+    "structures": ["restrict to", "名词化", "开放式问句结尾"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "我们是否应当把人脸识别的使用仅限于公共安全领域？",
+    "imitationHint": "Should we restrict our use of facial recognition → to the field of public security?（restrict... to）",
+    "imitationAnswer": "Should we restrict our use of facial recognition to the field of public security?"
+  },
+  {
+    "sentence": "There is evidence that acupuncture dates back to the Stone Age, when stone tools called bian were used to press areas of the body.",
+    "translation": "有证据显示，针灸可追溯至石器时代——当时一种叫“砭”的石器被用来按压身体部位。",
+    "analysis": "课件结构分析句（三层）| There is evidence that...：that 引导同位语从句解释 evidence 内容（= There is clear evidence that...；同族 There is concern that... 呼应本书 U1）| date back to 追溯到（不及物，无被动）| when 引导非限定性定语从句修饰 the Stone Age——时间先行词的补充说明 | stone tools called bian：called 过去分词短语作后置定语“名为砭的”——中国文化专名的英文注释法（拼音+called/known as）| were used to press：be used to do 被用来做（辨析 be used to doing 习惯于）| 中医文化说明文的溯源句式",
+    "pattern": "There is evidence that + S + dates back to ..., when + N + called + 拼音 + were used to + V",
+    "structures": ["同位语从句", "when非限定从", "called分词定语", "date back to"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "有证据显示，风筝可追溯至春秋时期——当时一种用木头做的“木鸢”被用来传递军情。",
+    "imitationHint": "There is evidence that kites date back to the Spring and Autumn Period, → when wooden birds called muyuan were used to send military messages",
+    "imitationAnswer": "There is evidence that kites date back to the Spring and Autumn Period, when wooden birds called muyuan were used to send military messages."
+  },
+  {
+    "sentence": "Up to now, more than 360 acupuncture points have been identified, each linked to a different part of the body.",
+    "translation": "迄今为止，已确认的穴位超过 360 个，每一个都与身体的不同部位相连。",
+    "analysis": "课件专项讲解句：each linked to... 独立主格结构——逻辑主语 each（= each acupuncture point）+ 过去分词 linked（被动关系），补充说明前句（课堂同款：Simon was sitting on the sofa, his arms crossed in front of his chest.）| Up to now + 现在完成时被动 have been identified：“迄今为止已被确认”——完成时信号词再现 | more than 360 数字实证 | identify 确认（本单元核心动词复现）| 中医的现代科学表述：用数据和被动语态说话——文化说明文的可信度句式",
+    "pattern": "Up to now, more than + 数字 + N + have been + V-ed, each + V-ed to ...",
+    "structures": ["独立主格each+分词", "up to now完成时", "被动语态"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "迄今为止，这本方言词典已收录两千多个词条，每一个都配有真人发音。",
+    "imitationHint": "Up to now, more than 2,000 entries have been included in the dialect dictionary, → each matched with a native recording（each + 过去分词独立主格）",
+    "imitationAnswer": "Up to now, more than 2,000 entries have been included in the dialect dictionary, each matched with a native recording."
+  },
+  {
+    "sentence": "It also contains information that helps determine our lifespan and affects our chances of contracting certain diseases.",
+    "translation": "它还包含着帮助决定我们寿命长短、并影响我们患上某些疾病概率的信息。",
+    "analysis": "that 定语从句带双谓语：helps determine... and affects...——一条信息两种威力，从句并列谓语的信息压缩 | help (to) determine 省 to | chances of contracting certain diseases：contract 熟词僻义“感染（疾病）”（读音 /kənˈtrækt/ 重音后移；名词“合同”重音在前——重音辨义词！课堂拓展：sign a contract 签合同）| lifespan 寿命 | contain 包含（无被动无进行，呼应必修二 U4 辨析）| 基因功能的一句话说明：寿数与病risk都写在里面",
+    "pattern": "S + contains + N + that helps + V ... and affects + one's chances of + V-ing",
+    "structures": ["定语从句双谓语", "熟词僻义contract", "chances of doing"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这份档案还包含着帮助还原历史现场、并影响我们理解那段岁月方式的细节。",
+    "imitationHint": "The archive also contains details that help reconstruct the historical scene → and affect the way we understand that period（定从双谓语）",
+    "imitationAnswer": "The archive also contains details that help reconstruct the historical scene and affect the way we understand that period."
+  }
+]
