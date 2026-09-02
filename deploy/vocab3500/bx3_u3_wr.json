@@ -1,0 +1,130 @@
+{
+  "mainTopic": "互联网时代的生活",
+  "mainTopicEn": "Life in the Internet Age",
+  "mainTopicBrief": "本单元围绕“互联网”话题，涵盖互联网改变生活（Reading）、手机依赖与数字戒断（Extended reading）和网络社区的归属感（Grammar）三个子话题——网络与科技生活是高考书面表达与雅思科技类议论文的双高频主题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "互联网改变生活",
+      "titleEn": "How the Internet Changes Life",
+      "desc": "课文综述：With access to the Internet come some truly life-changing advantages——信息、购物、社交的变革与 use it properly and responsibly 的提醒。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"The Internet and Me\" 为主题征文。请你写一篇短文，谈谈互联网给你生活带来的变化，内容包括：1. 一两个具体变化；2. 你的一点反思；3. 你的态度。注意：词数100左右。",
+          "reference": "The Internet and Me\n\nWith access to the Internet come some truly life-changing conveniences — and I have felt them all.\n\nGone are the days of searching shop after shop for one book: in the time it takes to walk to the library, a search engine brings up millions of results, and my favourite novels arrive at my door the next day. Above all else, the Internet helps me maintain ties with my cousin studying abroad; a video call makes the ocean between us disappear.\n\nYet I have also learned my lesson: the same screen that connects me can easily swallow my evenings. As with any great invention, we must use the Internet properly and responsibly. Only in this way can it remain a place of discovery rather than distraction.",
+          "vocabHints": ["with access to the Internet", "gone are the days of", "in the time it takes to", "bring up millions of results", "above all else", "maintain ties with", "as with any great invention", "properly and responsibly"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "The Internet has transformed the way people access information. Some people believe the advantages of this change outweigh the disadvantages. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "No tool in history has moved knowledge as far or as fast as the Internet: what once required a library card and a free afternoon now takes a phone and a few seconds. On balance, I agree that the benefits of this transformation outweigh its costs — but the margin is narrower than the technology's admirers assume, and it is narrowing.\n\nThe advantages are real and democratic. Information that was once locked in expensive institutions is now open to a farmer checking crop prices and a patient reading about her own illness; a search engine can bring up in moments what a scholar once travelled continents to consult. Education has been the greatest winner: lectures, languages and libraries now reach any village with a signal, and the gap between curious minds and good material has never been smaller.\n\nThe costs, however, attack the very thing the Internet promises. Where information is infinite, attention becomes the scarce resource, and platforms compete for it with whatever is loudest rather than truest. Falsehood now travels with the same speed as fact and rather better packaging; the reader who once lacked information must now judge an oversupply of it, a harder skill that schools have barely begun to teach. Convenience, unmanaged, breeds dependence on the first answer offered.\n\nMy conclusion is that the scales still tip towards benefit, but only for the equipped. The Internet resembles a public water supply: an immense good, provided the water is filtered. Access has been solved; judgement has not — and the next great task of education is to supply it.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):程度表态精确('agree...but the margin is narrower and narrowing'),利段(信息民主化/教育普惠)与弊段(注意力稀缺/真假倒挂/判断力缺位)均纵深展开,结论以'只对有装备者利大于弊'限定立场并指出教育任务,层次丰富。",
+              "Coherence & Cohesion(连贯与衔接):'The advantages are real and democratic'/'The costs, however, attack the very thing the Internet promises'/'My conclusion is...'——转折段以'攻击其承诺'的角度深挖,高于常见利弊罗列;水厂比喻收尾统合全文('Access has been solved; judgement has not')。",
+              "Lexical Resource(词汇资源):'moved knowledge as far or as fast'、'locked in expensive institutions'、'attention becomes the scarce resource'、'travels with...rather better packaging'、'judge an oversupply'、'provided the water is filtered'——经济学隐喻链精准;课文词块(bring up results)自然融入。",
+              "Grammatical Range & Accuracy(语法准确性):冒号对照开篇、where 状语从句、分词独立结构('Convenience, unmanaged')、provided 条件、分号对句收尾;句式繁复而准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考征文写'网购快递+跨国视频'的个人变化;雅思论信息革命的社会得失——个体体验vs文明账本。",
+              "论据来源:本文用信息经济学(注意力稀缺/虚假传播),不写'表哥留学视频通话';征文靠这类细节可亲。",
+              "语域:征文可用'swallow my evenings'的俏皮自嘲;雅思的幽默仅存于'rather better packaging'的冷讽。",
+              "评分维度:雅思须表达'利大于弊的边界条件'(for the equipped);高考看变化具体、反思真诚。"
+            ]
+          },
+          "vocabHints": ["a library card and a free afternoon", "real and democratic", "locked in expensive institutions", "the scarce resource", "better packaging", "an oversupply of information", "breed dependence", "provided the water is filtered"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "手机依赖与数字戒断",
+      "titleEn": "Phone Addiction & Digital Detox",
+      "desc": "课文自述：从 my eyes were glued to the little screen 到重获自由——sliding into the habit was easy, but it was difficult to quit。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的朋友陈杰向你诉苦：他每天睡前刷手机到深夜，白天上课无精打采，想改却改不掉。请你写一封建议信，内容包括：1. 表示理解；2. 分析原因；3. 给出两条可操作的建议。注意：词数100左右。",
+          "reference": "Dear Chen Jie,\n\nI totally understand you — my eyes were once glued to the little screen too, whenever I walked, ate or lay in bed. Sliding into the habit is easy, but quitting it is hard, because every touch brings instant fun while the cost arrives the next morning.\n\nHere are two tricks that saved me. First, charge your phone outside your bedroom and get yourself a cheap alarm clock; when the phone is beyond your reach, sleep comes surprisingly fast. Second, don't quit completely at once — just cut back on the amount of screen time bit by bit, say fifteen minutes less each week.\n\nBelieve me, the empty hours will soon fill up with better things: books, basketball and real rest. You can make it!\n\nYours,\nLi Hua",
+          "vocabHints": ["eyes glued to the screen", "slide into the habit", "quit the habit", "instant fun", "beyond your reach", "cut back on", "bit by bit", "fill up with better things"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Many people today find it difficult to spend time away from their smartphones. What are the causes of this problem? What measures could be taken to solve it? (Write at least 250 words.)",
+          "reference": "The modern phone is the first machine many people touch at dawn and the last they surrender at midnight, and growing numbers admit they cannot comfortably be parted from it. The roots of this dependence are identifiable, and so are the remedies — though none of them is as simple as willpower.\n\nThe causes are engineered before they are personal. Apps are built by teams whose explicit business is capturing attention: endless feeds abolish natural stopping points, notifications convert silence into suspense, and every swipe is rewarded on the same unpredictable schedule that keeps gamblers at slot machines. Onto this design our social lives have been loaded — work messages, family photos, friendships — so that putting the phone down feels less like rest and more like leaving a room where everyone else is still talking. Habit completes the capture: reaching for the screen becomes the automatic answer to every idle moment, until boredom, once the seedbed of thought, is experienced as an emergency.\n\nSolutions must therefore redesign the environment rather than lecture the user. Individuals can make the phone physically inconvenient — charged outside the bedroom, banished from the dinner table — and blunt its hooks by switching off all but human notifications. Schools and employers can normalise unreachable hours, so that disconnection stops carrying social cost. Regulators, finally, should require the same designers who engineered compulsion to engineer stopping points back in.\n\nA tool this useful will never be abandoned, nor should it be. The goal is smaller and harder: to return the phone to the pocket, and the decision to pick it up to its owner.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 齐备且深挖机制——原因三层(成瘾设计/社交绑定/习惯固化)层层递进,对策三级(个人环境改造/机构去污名/监管反向设计)与原因一一对应;结尾把目标精确到'把选择权还给主人',不喊戒断口号。",
+              "Coherence & Cohesion(连贯与衔接):'The causes are engineered before they are personal'一句总起原因段并预告立场;'Solutions must therefore redesign the environment rather than lecture the user'镜像转入对策;'leaving a room where everyone else is still talking'的比喻承接社交绑定论证。",
+              "Lexical Resource(词汇资源):'abolish natural stopping points'、'convert silence into suspense'、'the same unpredictable schedule that keeps gamblers at slot machines'、'boredom, once the seedbed of thought'、'blunt its hooks'、'engineer stopping points back in'——机制词汇密集;课文意象(the empty hours)反向化用。",
+              "Grammatical Range & Accuracy(语法准确性):冒号机制列举、so that 结果从句、until 递进、插入语('— charged outside the bedroom, banished from the dinner table —')、not...nor 并列否定;复杂句准确流畅。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是给朋友的建议信(理解+原因+两招);雅思是成因-治理分析——救一个人vs改一套环境。",
+              "论据来源:本文用产品设计机制(无限流/老虎机奖励),不出现'手机放卧室外'的私人小妙招——但同一招在雅思中升格为'redesign the environment'的一类。",
+              "语域:建议信有'You can make it!'的打气;雅思以'return the decision to its owner'的克制收束。",
+              "评分维度:雅思看机制深度与因-策对应;高考看建议可操作、语气暖。"
+            ]
+          },
+          "vocabHints": ["surrender at midnight", "engineered before personal", "abolish stopping points", "unpredictable schedule", "loaded onto the design", "the seedbed of thought", "normalise unreachable hours", "return the decision to its owner"]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "网络社区与归属感",
+      "titleEn": "Online Communities & Belonging",
+      "desc": "课文语篇：Fiona 创建 JustDance 网站 to introduce more people to dance——网络社区如何带来 a sense of belonging。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校计算机社团开发了一个学习分享网站 StudyTogether，现面向全校招募首批用户。请你以社团名义写一篇网站介绍（英文），内容包括：1. 网站的目的；2. 两三个主要板块功能；3. 欢迎加入。注意：词数100左右。",
+          "reference": "StudyTogether: A Website Belonging to Every Learner\n\nDo you wish to share study tips, find a study partner, or simply feel less alone before exams? StudyTogether, a website set up by our Computer Club, is designed exactly for you.\n\nOn the site you will find three sections. \"Notes Market\" lets you upload and download class notes by subject. \"Ask & Answer\" connects your questions to schoolmates who have been there. \"Study Rooms\" offers online timers where members work quietly together — many say it gives them a real sense of belonging.\n\nThe website will be updated weekly at your request. Come and join us at studytogether.school.cn — learning feels lighter when we do it together!\n\nThe Computer Club",
+          "vocabHints": ["a website belonging to", "set up", "be designed for", "section", "connect your questions to", "a sense of belonging", "at your request", "feel lighter together"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that online communities can provide the same sense of belonging as real-life communities. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Whether a group of people who may never meet can truly feel like a community is one of the quiet questions of the digital age. My position is that online communities provide a real but partial sense of belonging: genuine enough to matter, yet thinner than the belonging that bodies and places supply.\n\nThe case for digital belonging deserves more respect than it often receives. Online groups gather people by what they care about rather than where they happen to live, and for many — the disabled, the isolated, the teenager whose passion no classmate shares — such a group is not a substitute for community but their first experience of it. A dancer in a small town who joins a dance forum finds what belonging actually consists of: recognition, shared purpose, people who notice when you are absent. These goods are real, and dismissing them as 'virtual' mistakes the medium for the emotion.\n\nYet the belonging of place still holds reserves the screen cannot match. Physical communities bind people who did not choose each other — neighbours, colleagues, strangers at the same bus stop — and this friction is precisely their value: they train us to belong among people unlike ourselves. Their support also has hands: a neighbour brings soup, holds a door, attends a funeral. Online ties, curated and revocable at a click, rarely survive the moments when belonging costs something.\n\nMy conclusion is that the two forms are complements, not rivals. The screen finds us our chosen people; the street teaches us to live with the unchosen ones. A full sense of belonging needs both discoveries.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确('real but partial'),支持段以边缘群体的'第一次归属'论证线上社区价值,转折段以'未选择的联结+有手的支持'论证线下不可替代,结论'互补论'落地——程度、边界、分工三者齐备。",
+              "Coherence & Cohesion(连贯与衔接):'The case for digital belonging deserves more respect...'/'Yet the belonging of place still holds reserves...'/'My conclusion is...'推进;'chosen people / unchosen ones'的对照在结论收拢全文;'belonging costs something'呼应'revocable at a click'。",
+              "Lexical Resource(词汇资源):'gather people by what they care about rather than where they happen to live'、'mistakes the medium for the emotion'、'this friction is precisely their value'、'their support also has hands'、'curated and revocable at a click'——概念化表达密集;课文的 belonging/sense of belonging 词块升维使用。",
+              "Grammatical Range & Accuracy(语法准确性):插入列举('— the disabled, the isolated, the teenager... —')、冒号定义('what belonging actually consists of: ...')、分号对句、分词独立结构;复杂句准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是网站介绍(目的+板块+欢迎);雅思论线上归属的真伪与边界——推广一个网站vs审视一种联结。",
+              "论据来源:本文用类型化群体(小镇舞者/残障者),课文的 JustDance 场景匿名化为 dance forum;网站介绍则具体到板块名与网址。",
+              "语域:介绍文有设问开场与'Come and join us!';雅思以'both discoveries'的静句收束。",
+              "评分维度:雅思看'real but partial'的边界论证;高考看信息清楚、吸引力足。"
+            ]
+          },
+          "vocabHints": ["the quiet questions of the digital age", "real but partial", "their first experience of it", "recognition and shared purpose", "mistake the medium for the emotion", "people who did not choose each other", "support has hands", "complements, not rivals"]
+        }
+      ]
+    }
+  ]
+}

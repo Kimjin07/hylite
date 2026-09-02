@@ -1,0 +1,130 @@
+{
+  "mainTopic": "直面自然灾害",
+  "mainTopicEn": "Facing Natural Disasters",
+  "mainTopicBrief": "本单元围绕“自然灾害”话题，涵盖灾害中的自救互救（Reading：地震与海啸）、历史灾难的启示（Extended reading：庞贝）和极端天气的应对（Integrated skills：洪水）三个子话题——安全教育与灾害应对是应用文通知/发言稿的常见场景，也是雅思社会类议论文的重要命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "灾害中的自救与互救",
+      "titleEn": "Survival & Mutual Help",
+      "desc": "课文双事件：地震中师生 remained still and waited calmly；海啸前小姑娘凭课堂知识救了全家——知识与冷静是最好的救生衣。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校下周将举行地震疏散演练（earthquake evacuation drill）。请你以学生会名义写一篇广播稿，内容包括：1. 演练的意义；2. 疏散中的注意事项；3. 呼吁认真对待。注意：词数100左右。",
+          "reference": "Dear schoolmates,\n\nNext Wednesday morning, our school will hold an earthquake evacuation drill. Please take it seriously — in a real disaster, practised procedures save lives.\n\nDuring the drill, remember three things. First, the moment the alarm sounds, move under your desks and hold on to the desk legs. Second, when the shaking \"stops\", exit the classroom in an orderly line, covering your heads with your hands — no pushing, no talking. Third, after the roll call confirms that all are safe and sound, wait quietly for further instructions.\n\nAs one teacher who survived a real earthquake put it, \"We practised safety procedures twice a year, so the kids knew exactly what to do.\" Let's practise today to protect tomorrow!\n\nThe Students' Union",
+          "vocabHints": ["evacuation drill", "safety procedures", "hold on to", "exit in an orderly line", "covering their heads with their hands", "roll call", "safe and sound", "know exactly what to do"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that schools should teach students how to survive natural disasters, while others believe this is the responsibility of parents. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Who should teach the young what to do when the ground shakes or the water rises — the school or the family — is a question that grows sharper as extreme events grow more frequent. Having considered both positions, I believe the school must carry the main duty, with parents as its essential reinforcement.\n\nThose who assign the task to parents reason from intimacy. Families know their own homes: which wall is strongest, where the torch is kept, which route leads uphill. Survival habits, like manners, are absorbed most deeply from the adults a child trusts first, and a parent can rehearse quietly and repeatedly in a way no annual assembly can match. Disaster readiness, on this view, is simply another household skill, taught beside swimming and road-crossing.\n\nThe case for schools, however, rests on three harder facts. First, coverage: schools reach every child, including those whose parents lack the knowledge, the time or the language to teach survival at all. Second, expertise: evacuation is a group skill — moving in orderly lines, responding to alarms, counting heads — and it can only be practised where the group exists. Third, evidence: the recorded cases in which whole classes survived earthquakes and tsunamis almost always trace back to drills practised at school, sometimes to a single geography lesson remembered at the right moment.\n\nMy conclusion is that this is a partnership with a clear senior partner. Let schools drill the procedures that need a crowd, and let parents localise them to the family's own doors and streets. The child best protected is the one for whom home and classroom tell the same story.",
+          "wordCount": 271,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允展开(家庭派:亲密性+重复演练优势;学校派:覆盖面/群体技能/实证记录三连),立场'学校为主+家庭强化'精确且从引言贯穿;结论给出分工方案,超越简单站队。",
+              "Coherence & Cohesion(连贯与衔接):'Those who assign the task to parents reason from intimacy'/'The case for schools, however, rests on three harder facts'/'First... Second... Third...'——结构显豁;'taught beside swimming and road-crossing'与'the same story'等表达完成段内收束。",
+              "Lexical Resource(词汇资源):'when the ground shakes or the water rises'、'absorbed most deeply from the adults a child trusts first'、'a group skill'、'counting heads'、'trace back to drills'、'a clear senior partner'、'localise them to the family's own doors'——精准且有画面;课文场景(orderly lines/alarms)机制化引用。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入定义、冒号列举三 facts、祈使式分工句('Let schools drill.../let parents localise...')、最高级+定语从句收尾;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是演练广播稿(意义+步骤+呼吁);雅思论'谁该教'的责任分配——教步骤vs论制度。",
+              "论据来源:本文用覆盖面与群体技能的制度逻辑,课文的'全班生还'案例抽象为'recorded cases...trace back to drills';广播稿则直接引用课文教师原话。",
+              "语域:广播稿有'Let's practise today to protect tomorrow!'的口号;雅思以'the same story'的静句收束。",
+              "评分维度:雅思须给出主次分明的立场(senior partner);高考看步骤清楚、鼓动有力。"
+            ]
+          },
+          "vocabHints": ["grow sharper", "reason from intimacy", "rehearse quietly and repeatedly", "coverage", "a group skill", "trace back to drills", "a clear senior partner", "tell the same story"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "历史灾难的启示",
+      "titleEn": "Lessons from Pompeii",
+      "desc": "课文书信：庞贝的火山灰 kept the ancient city as it was for future ages——灾难封存了历史，也留下了警示。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你随家人参观了一座地震遗址纪念馆。你校英文报“行走的课堂”栏目正在征稿，请你写一篇参观感想，内容包括：1. 你所见的场景；2. 最触动你的细节；3. 你的思考。注意：词数100左右。",
+          "reference": "Last weekend, I visited the earthquake memorial hall in our province.\n\nBehind the glass, time seemed frozen: a stopped clock, a school bell rescued from the ruins, and photos of streets that the disaster left in pieces. What touched me most was a small blackboard, on which the day's homework was still half-written — the moment the shaking began, frozen forever, just as the ash of Vesuvius kept Pompeii as it was for future ages.\n\nWalking out into the sunshine, I understood why we keep such painful places. Disasters bury cities, but memory rebuilds them — and reminds the living to build stronger, drill harder and treasure every ordinary day.",
+          "vocabHints": ["time seemed frozen", "rescued from the ruins", "leave in pieces", "keep the city as it was", "for future ages", "bury", "the living", "treasure every ordinary day"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that studying past disasters has little value for modern society because technology has changed so much. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Because satellites now watch the skies and sensors listen to the ground, some conclude that the disasters of the past — ancient eruptions, medieval floods — have nothing left to teach us. I disagree with this view almost completely: technology has changed what we can see coming, but not what disasters reveal about how societies fail and survive.\n\nThe argument from obsolescence has surface plausibility. A Roman city had no warning network; we have early-warning apps on every phone. Studying how the unprepared perished, the sceptic says, is history for historians, not guidance for engineers, and scarce research money should watch the future rather than excavate the past.\n\nYet this confuses the instruments of disaster with its logic. Past catastrophes are the only full-scale experiments civilisation has ever run, and their findings have not expired. Pompeii preserves, in stone and ash, the fatal interval between warning signs and evacuation — the hours in which people waited, doubted and reassured one another; modern death tolls still rise or fall on precisely that interval, whatever the technology delivering the alarm. Historical records also calibrate our expectations: cities have repeatedly rebuilt on the same coasts and slopes, and only the long memory of past events tells planners how bad 'worst' can actually be. Forgetting, not ignorance, is the modern vulnerability — and studying the past is organised remembering.\n\nMy conclusion is that technology and history answer different questions: sensors tell us when the earth will move; the past tells us what people will do next. A society that studies only one of them has prepared exactly half a defence.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态清晰('disagree almost completely')且判据精确(技术改变预警,不改变人性与决策逻辑),对方论点公允呈现(资源应投向未来),核心段以庞贝的'警报-撤离间隔'论证古今同构,结论以'两半防御'定量收束。",
+              "Coherence & Cohesion(连贯与衔接):'The argument from obsolescence has surface plausibility'/'Yet this confuses...'/'My conclusion is...'——让步-破题;'the fatal interval'概念贯穿论证;'sensors tell us when.../the past tells us what...'对句完成分工收尾。",
+              "Lexical Resource(词汇资源):'the instruments of disaster with its logic'、'full-scale experiments civilisation has ever run'、'findings have not expired'、'calibrate our expectations'、'how bad worst can actually be'、'organised remembering'——概念化原创密集;课文意象(ash kept the city as it was)转写为论证机制。",
+              "Grammatical Range & Accuracy(语法准确性):because 前置从句开篇、破折号插入例举、分号扩展、whatever 让步、冒号分工句;复杂句准确无误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是参观感想(场景+细节+思考);雅思是历史价值的论证——一次触动vs一套方法论。",
+              "论据来源:本文把庞贝用作'警报-撤离间隔'的机制证据;感想文把庞贝用作'时间封存'的抒情类比——同一素材,论证vs共情。",
+              "语域:感想文可用'Walking out into the sunshine, I understood...'的叙事抒情;雅思全程分析语气。",
+              "评分维度:雅思须精确回应'技术是否使历史失效';高考看细节动人与感悟自然。"
+            ]
+          },
+          "vocabHints": ["the argument from obsolescence", "surface plausibility", "full-scale experiments", "the fatal interval", "death tolls rise or fall", "calibrate expectations", "organised remembering", "half a defence"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "极端天气的应对",
+      "titleEn": "Coping with Extreme Weather",
+      "desc": "课文对话：洪水围车时的抉择——We can't do that, otherwise the moving water could wash the car away！关键时刻的正确判断。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "气象台发布暴雨红色预警，你校明日停课。请你以学生会名义给全体同学写一份安全提示（英文），内容包括：1. 停课安排；2. 三条居家/出行安全注意事项；3. 提醒关注信息。注意：词数100左右。",
+          "reference": "Safety Reminder\n\nDear schoolmates,\n\nDue to the red rainstorm warning, classes will be suspended tomorrow. Please read the following tips carefully.\n\nFirst, stay indoors unless it is absolutely necessary to go out; never try to cross a flooded road, otherwise the moving water could wash you off your feet. Second, keep away from rivers, slopes and any electric wires that may have fallen into water. Third, prepare a torch and keep your phone charged in case of a power cut.\n\nRemember to inform yourselves of what is going on through official channels, and inform your teacher of your safety every evening. Stay safe, and see you when the storm has passed!\n\nThe Students' Union",
+          "vocabHints": ["red rainstorm warning", "be suspended", "cross a flooded road", "otherwise the moving water could...", "keep away from", "in case of a power cut", "inform yourself of what is going on", "official channels"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Extreme weather events are becoming more frequent in many parts of the world. What are the causes of this trend? What measures can be taken to deal with it? (Write at least 250 words.)",
+          "reference": "Floods that once visited a city each century now return within a decade; heatwaves break records that were themselves records only a summer ago. The growing frequency of extreme weather has identifiable causes, and societies are not helpless before it.\n\nThe primary cause is the warming of the planet by human activity. Burning fossil fuels loads the atmosphere with heat-trapping gases, and a warmer atmosphere is a more violent one: it holds more moisture, feeding fiercer storms, and it dries continents between the downpours, priming both floods and droughts from the same source. A second cause is that we have amplified nature's blows by our own arrangements — cities paved over the wetlands that once absorbed floodwater, and populations concentrated along exactly the coasts and rivers where extremes strike hardest. The weather has grown wilder; we have simultaneously moved closer to its fists.\n\nResponses must therefore run on two tracks. The long track is mitigation: replacing fossil fuels with cleaner energy, protecting the forests that stabilise climate, and pricing carbon honestly — measures that address the source rather than the symptoms. The short track is adaptation, and it saves lives immediately: early-warning systems on every phone, drainage and shelters built for tomorrow's storms rather than yesterday's, and public education that rehearses households in the simple decisions — when to leave, what never to drive through — on which survival so often turns.\n\nNeither track works alone. Adaptation without mitigation is bailing a boat that is still filling; mitigation without adaptation abandons those already in the storm. Sailed together, they are simply seamanship for a rougher sea.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 双问齐答——原因两条(气候机制/人类自我暴露),对策双轨(减缓治本/适应救急)且与原因对应;开篇以数据式对照立题,结尾以双轨互补收束,结构与内容互相咬合。",
+              "Coherence & Cohesion(连贯与衔接):'The primary cause is...'/'A second cause is...'/'Responses must therefore run on two tracks'——双因双轨的镜像;'we have moved closer to its fists'与'seamanship for a rougher sea'的意象一凶一稳,首尾配重。",
+              "Lexical Resource(词汇资源):'records that were themselves records'、'loads the atmosphere with heat-trapping gases'、'priming both floods and droughts'、'amplified nature's blows'、'bailing a boat that is still filling'——机制描写与比喻兼备;课文洪水决策场景('what never to drive through')化入对策。",
+              "Grammatical Range & Accuracy(语法准确性):分号平衡句、冒号机制解释、插入语('— measures that address the source rather than the symptoms')、分词独立结构('Sailed together');复杂句流畅准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是暴雨安全提示(停课+三注意+关注信息);雅思是趋势归因与治理——发通知vs开药方。",
+              "论据来源:本文用气候机制与城市化暴露,不写'明日停课';安全提示的价值恰在具体可执行(手电/充电/官方渠道)。",
+              "语域:提示有'Stay safe, and see you when the storm has passed!'的关切;雅思以航海比喻冷静收束。",
+              "评分维度:雅思须因-策对应且双轨互补;高考看信息完整、条理清楚、提醒到位。"
+            ]
+          },
+          "vocabHints": ["return within a decade", "heat-trapping gases", "prime both floods and droughts", "amplify nature's blows", "run on two tracks", "address the source rather than the symptoms", "rehearse households", "seamanship for a rougher sea"]
+        }
+      ]
+    }
+  ]
+}

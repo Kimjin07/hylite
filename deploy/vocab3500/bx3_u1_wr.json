@@ -1,0 +1,130 @@
+{
+  "mainTopic": "自然生态与环境保护",
+  "mainTopicEn": "Nature, Ecology and Environmental Protection",
+  "mainTopicBrief": "本单元围绕“亚马孙雨林”话题，涵盖雨林与生物多样性（Reading）、工业与环保的辩论（Extended reading）和濒危动物保护（Integrated skills）三个子话题——环保是高考书面表达与雅思议论文双料第一高频主题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "守护地球之肺",
+      "titleEn": "The Lungs of the Planet",
+      "desc": "课文说明文：雨林 plays a significant role in maintaining the fine balance of the Earth's ecosystem——can we afford to damage the 'lungs of the planet'?",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "世界环境日到来之际，你校英文报以 \"Every Bit Counts\" 为主题征集环保短文。请你写一篇投稿，内容包括：1. 一个让你警醒的环境事实；2. 中学生可以做的两件具体小事；3. 发出呼吁。注意：词数100左右。",
+          "reference": "Every Bit Counts\n\nHere is a fact that shook me: over the past 50 years, about 17 per cent of the Amazon rainforest has disappeared due to human activities. The \"lungs of the planet\" are quietly shrinking, and with them, an unbelievable variety of wildlife.\n\nAs students, we cannot plant a rainforest, but we can still make a difference. First, use paper wisely — a double-sided page saves the very trees that produce our oxygen. Second, say no to products that come from endangered species or illegal logging.\n\nAs the impact of human activities continues to grow, we are all left with a question: can we afford to damage our only home? My answer is no — and every small act counts.",
+          "vocabHints": ["the lungs of the planet", "has disappeared due to", "an unbelievable variety of wildlife", "make a difference", "endangered species", "the impact of human activities", "can we afford to", "every small act counts"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that economic development should take priority over environmental protection, while others think the environment must come first. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether prosperity or preservation deserves first claim on a nation's resources is among the defining arguments of our century. Advocates of growth insist that development must lead; environmentalists answer that a ruined planet can host no economy at all. My own view is that the choice is largely an illusion — but where the two genuinely collide, the environment must win, because only one of them is irreversible.\n\nThe development camp argues from urgent human need. For poorer nations especially, factories, roads and intensive farming are not luxuries but the means of feeding families and funding schools; asking such countries to leave forests standing while their citizens remain in poverty strikes many as comfortable hypocrisy from richer nations that industrialised long ago. Growth, on this view, buys the very tools — technology, education, stable institutions — that later make protection affordable.\n\nEnvironmentalists reply that this reasoning borrows against an account that cannot be refilled. A felled rainforest does not regrow on economic schedules; an extinct species returns on no schedule at all. Climate change has also abolished the comforting idea that damage stays local: forests cleared on one continent now shift rainfall and harvests on another. Above all, the costs of destruction arrive as floods, failed crops and polluted water — bills presented, with cruel accuracy, to the poor whom growth was meant to serve.\n\nMy conclusion is that the real task is not choosing between the two but refusing the false version of each: growth that eats its own foundations, or protection that ignores human poverty. Development is the journey; the environment is the vehicle. No sensible traveller burns the vehicle for fuel.",
+          "wordCount": 272,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允展开(发展派:脱贫的道义紧迫性+'先污染国家'的伪善指控;环保派:不可逆性+损害的全球化+代价落在穷人头上),立场'伪选择+冲突时环境优先'有精确的判据(irreversible),结论以比喻落地,回应完整且有层次。",
+              "Coherence & Cohesion(连贯与衔接):'The development camp argues from...'/'Environmentalists reply that...'/'My conclusion is...'推进;'borrows against an account that cannot be refilled'的金融隐喻承接发展派的经济逻辑,以其人之道还治其人——衔接即反驳;'journey/vehicle'收尾呼应'the choice is an illusion'。",
+              "Lexical Resource(词汇资源):'first claim on a nation's resources'、'comfortable hypocrisy'、'on economic schedules / on no schedule at all'、'abolished the comforting idea'、'bills presented with cruel accuracy'、'burns the vehicle for fuel'——高密度原创表达;课文词块(irreversible的机制即 can we afford to damage)学术化转写。",
+              "Grammatical Range & Accuracy(语法准确性):分号对句('factories...are not luxuries but the means...')、插入语('— technology, education, stable institutions —')、现在完成时论证('has abolished')、平行否定('growth that eats.../protection that ignores...');复杂句准确率极高。"
+            ],
+            "vsGaokao": [
+              "格局:高考征文写'学生能做的两件小事'(双面用纸/拒买濒危制品);雅思论国家级的发展-环保权衡——个人行动vs制度选择。",
+              "论据来源:本文用全球机制(气候的跨洲传导、代价的阶层分配),不用17%雨林消失的课文数据;征文恰恰要用这个数据制造警醒。",
+              "语域:征文以'My answer is no!'的立场宣言收尾;雅思以'No sensible traveller burns the vehicle for fuel'的冷比喻收尾——热呼吁vs冷判断。",
+              "评分维度:雅思须给出冲突时的裁决判据(不可逆性);高考看事实+行动+呼吁三要素完整。"
+            ]
+          },
+          "vocabHints": ["first claim on resources", "comfortable hypocrisy", "borrow against an account", "return on no schedule at all", "damage stays local", "with cruel accuracy", "eat its own foundations", "the journey and the vehicle"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "污染治理的多方博弈",
+      "titleEn": "Industry, Community & Clean Air",
+      "desc": "课文访谈：居民 protested against heavy industry，经理辩称 we've been taking various measures——治污是 one and the same fight。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是李华，你所在社区附近的工厂排放废气，影响居民生活。请你用英文给市长信箱写一封信，内容包括：1. 反映问题及影响；2. 提出两条建议；3. 表达期望。注意：词数100左右。",
+          "reference": "Dear Mr Mayor,\n\nI am writing to draw your attention to the air pollution caused by the factory near our community.\n\nOver the past months, the smog has coloured the sky a smoky grey, and many residents, including my grandmother, have developed coughs that they can't get rid of. We understand the factory provides jobs, but health should never be the price of profits.\n\nMay I make two suggestions? First, require the factory to adopt new technologies to reduce pollution in the production process, even though these measures may raise its costs. Second, publish air quality data daily so that citizens can monitor the progress.\n\nAfter all, saving our environment and growing our economy should be one and the same fight. I look forward to your reply.\n\nYours sincerely,\nLi Hua",
+          "vocabHints": ["draw one's attention to", "colour the sky a smoky grey", "a cough that one can't get rid of", "take various measures", "reduce pollution in the production process", "raise costs", "one and the same fight", "look forward to"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that individuals can do little to protect the environment, and that only governments and large companies can make a real difference. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is tempting to believe that environmental rescue is a job for the powerful alone — that against smokestacks and supply chains, one person's shopping bag hardly matters. I disagree with this view in the main, though I accept the fact hiding inside it: individual action matters most when it refuses to stay individual.\n\nThe pessimists' arithmetic is genuinely sobering. A single household's emissions are a rounding error beside those of a steel plant; a lifetime of careful recycling can be cancelled by one industrial decision. Governments command the laws that ban, tax and subsidise, and corporations control the processes that pollute, so it seems only rational to aim all pressure at them and excuse the individual from a fight he cannot win alone.\n\nYet this reasoning quietly assumes that individuals act only as consumers of their own virtue. In reality, every large actor is steered by small ones. Companies redesign products when buyers desert them — markets are simply millions of shopping bags voting together. Governments tighten standards when voters reward them for it, and the neighbourhood that sorts its waste today supplies the politicians of tomorrow with proof that greener rules can work. History's environmental victories, from cleaner rivers to the recovered ozone layer, began as private complaints that refused to stay private.\n\nMy conclusion is that the opening claim mistakes the individual's role rather than his size. Alone, a citizen is indeed small; connected — as customer, voter and example — he is precisely what governments and companies are made of. The powerful move the world, but the powerless, in sufficient numbers, move the powerful.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确('disagree in the main + 接纳其内核'),先诚实呈现对方最强论据(排放量级差/权力结构),再以'个体的角色而非体积'反转论证(消费投票/选票机制/历史先例),结论完成'powerless move the powerful'的闭环,立场有辩证深度。",
+              "Coherence & Cohesion(连贯与衔接):'The pessimists' arithmetic is genuinely sobering'/'Yet this reasoning quietly assumes...'/'My conclusion is...'——让步-破题-收束;'shopping bag'意象从引言的贬义用法到主体段'millions of shopping bags voting together'的正名,一物两用完成全文翻转。",
+              "Lexical Resource(词汇资源):'a rounding error beside...'、'consumers of their own virtue'、'markets are millions of shopping bags voting together'、'private complaints that refused to stay private'、'what governments and companies are made of'——概念化警句密集;课文的博弈语境(protest/measures)升维为机制分析。",
+              "Grammatical Range & Accuracy(语法准确性):破折号自我修正式开头、分号并列论据、插入语('— as customer, voter and example —')、对照收尾句;从句嵌套多层且零误。"
+            ],
+            "vsGaokao": [
+              "对象:高考是给市长的问题反映信(具体工厂/具体建议);雅思论'个体是否无力'的元问题——投诉一件事vs论证一种力量。",
+              "论据来源:本文用市场投票与选举机制,不出现'我们社区的工厂';市长信恰恰要写清具体受害场景(祖母的咳嗽)。",
+              "语域:书信有敬称、请求语气与落款;雅思以格言式对照句收尾,不带请求。",
+              "评分维度:雅思 to what extent 须精确到'接纳内核的不同意';高考书信看问题清楚、建议可行、语气得体。"
+            ]
+          },
+          "vocabHints": ["a job for the powerful alone", "a rounding error", "excuse the individual", "steered by small ones", "desert a product", "reward greener rules", "refuse to stay private", "move the powerful"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "与野生动物共存",
+      "titleEn": "Living with Wildlife",
+      "desc": "课文科普：When you think of a fearsome hunter, images of lions and sharks may spring to mind——重新认识野生动物的价值。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校自然社团将举办“野生动物保护周”活动。请你以社团名义写一份倡议书，内容包括：1. 保护野生动物的意义；2. 两条具体倡议；3. 呼吁参与。注意：词数100左右。",
+          "reference": "Dear schoolmates,\n\nWhen you think of wild animals, images of lions and sharks may spring to mind — fearsome, distant, none of our business. But the truth is, every species, from jaguars to the insects they feed on, forms its own little world, and each level supports the whole web of life. When one link breaks down, the balance we depend on breaks with it.\n\nHere are our proposals. First, refuse products made from wild animals — no buying, no killing. Second, join our weekend visit to the local nature reserve and learn to observe animals without disturbing them.\n\nProtecting wildlife is not charity for animals; it is insurance for ourselves. Come and act with us this week!\n\nThe Nature Club",
+          "vocabHints": ["images may spring to mind", "fearsome", "feed on", "form its own little world", "break down", "the balance we depend on", "nature reserve", "insurance for ourselves"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that money spent on protecting wild animals would be better spent on the human population. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "When conservation budgets are announced, a familiar objection follows: with humans still hungry and hospitals underfunded, spending millions on tigers and cranes seems a luxury of the comfortable. I disagree with this view almost entirely, because it rests on a false picture of what wildlife spending actually buys.\n\nThe objection deserves a fair hearing first. Human need is immediate and visible; a child without medicine makes a moral claim that no distant species can match, and if the choice were truly animal-or-person, few would hesitate. Critics are also right that conservation can be badly spent — prestige projects for photogenic creatures while local communities, unconsulted, bear the costs of living beside them.\n\nThe deeper truth, however, is that the choice is rarely animal-or-person at all. Wild animals are load-bearing parts of systems humans cannot replace: forests that regulate rainfall for farms downstream, insects that pollinate the crops on our tables, predators that keep disease-carrying populations in check. Money that keeps a jaguar's forest standing is simultaneously keeping rivers flowing and harvests arriving; the beneficiaries are precisely the poor whom the objection claims to defend, for it is they who live closest to collapsing ecosystems and furthest from any safety net. Protecting wildlife, correctly understood, is not a rival of human welfare but one of its instruments.\n\nI would concede that conservation must be done with communities rather than against them. But the central claim stands: a budget line for wild animals is a budget line for people, written in a longer hand. We do not protect nature instead of ourselves; we protect it as ourselves.",
+          "wordCount": 269,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态明确('disagree almost entirely')且判据清晰(伪二选一),对方论据公允呈现并部分接纳(道德直觉+保护经费确有滥用),核心段以生态系统服务论证'保护动物即保护穷人',让步段划出边界(与社区共治),层次完整。",
+              "Coherence & Cohesion(连贯与衔接):'The objection deserves a fair hearing first'/'The deeper truth, however...'/'I would concede...'——让步式结构;'animal-or-person'的框架从对方段延续到反驳段被拆解;'written in a longer hand'收尾呼应'false picture'。",
+              "Lexical Resource(词汇资源):'a luxury of the comfortable'、'load-bearing parts of systems'、'keep disease-carrying populations in check'、'closest to collapsing ecosystems and furthest from any safety net'、'a budget line written in a longer hand'、'protect it as ourselves'——原创概念句密集;课文食物链意象(jaguar/insects/feed on)机制化使用。",
+              "Grammatical Range & Accuracy(语法准确性):条件虚拟('if the choice were truly...')、插入语('unconsulted')、for 引导的书面因果、分号扩展、not...but 定性句;句法繁复而精准。"
+            ],
+            "vsGaokao": [
+              "立意层级:高考倡议书讲'生态链断裂殃及人类'即可;雅思须把这个直觉展开成生态系统服务的经济学论证并处理'钱被乱花'的反例。",
+              "论据来源:本文用传粉/水源/疾病调控等普适机制,不引用课文的 jaguar 具体链条描述;倡议书可直接化用课文食物链例子。",
+              "语域:倡议书以'Come and act with us!'收束;雅思以'we protect it as ourselves'的哲学句收束——动员vs思辨。",
+              "评分维度:雅思须处理让步并守住中心论点;高考看意义+倡议+呼吁三段完整与感染力。"
+            ]
+          },
+          "vocabHints": ["a luxury of the comfortable", "make a moral claim", "load-bearing parts", "pollinate the crops", "keep populations in check", "furthest from any safety net", "an instrument of welfare", "in a longer hand"]
+        }
+      ]
+    }
+  ]
+}

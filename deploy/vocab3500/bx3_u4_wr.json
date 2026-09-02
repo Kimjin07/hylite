@@ -1,0 +1,130 @@
+{
+  "mainTopic": "科学精神与探索之路",
+  "mainTopicEn": "The Scientific Spirit",
+  "mainTopicBrief": "本单元围绕“科学家”话题，涵盖屠呦呦的坚守（Reading）、科学的自由与质疑（Extended reading：费曼演讲）和机遇与准备（Grammar：弗莱明与青霉素）三个子话题——科学家精神与创新是高考书面表达与雅思教育科技类议论文的高频命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "坚守与突破：屠呦呦",
+      "titleEn": "Persistence & Breakthrough",
+      "desc": "课文人物：the first female scientist of the PRC to receive a Nobel Prize——190次失败后 the efforts finally paid off。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报开展 \"The Scientist I Admire Most\" 征文活动。请你写一篇短文介绍屠呦呦（Tu Youyou），内容包括：1. 她的主要成就；2. 最打动你的一点；3. 她对你的影响。注意：词数100左右。",
+          "reference": "The Scientist I Admire Most\n\nThe scientist I admire most is Tu Youyou, the first female scientist of the People's Republic of China to receive a Nobel Prize, awarded for her contribution to the fight against malaria.\n\nWhat moves me most is not the prize but the road to it. It was not until the 1970s, after many failed experiments, that she succeeded in discovering qinghaosu. Facing repeated failures, she turned to ancient medical books, redesigned the experiments, and even tested the medicine on herself. Her efforts finally paid off, and malaria patients all over the world now have a greatly increased chance of survival.\n\nFrom her I have learned that real success rarely comes at the first attempt — what matters is to fail, learn and try once more.",
+          "vocabHints": ["the first female scientist to receive", "contribution to the fight against malaria", "it was not until...that", "failed experiments", "turn to ancient books", "efforts finally paid off", "a greatly increased chance of survival", "at the first attempt"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that government funding should only support scientific research with clear practical benefits, while others believe research without immediate applications also deserves support. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "How public money should be divided between useful science and merely curious science is a debate every research budget reopens. Some argue that taxpayers deserve visible returns — medicines, machines, measurable progress — while others insist that knowledge pursued for its own sake is the seed of every later harvest. My own view sides firmly with the second camp, though not unconditionally.\n\nThe demand for practical returns is not philistine; it is accountable. Public funds are raised from citizens with pressing needs, and a government that channels them towards malaria treatments rather than abstract puzzles can defend every pound of the choice. Applied research also disciplines science with deadlines and outcomes, and its triumphs — vaccines produced in months, crops that survive drought — are the strongest public argument science possesses.\n\nYet the history of discovery keeps embarrassing this logic. The research that changes the world most has repeatedly begun with no application in view: curiosity about light became the physics inside every satellite; an accidentally contaminated dish, noticed by a prepared mind, became penicillin. Practical projects spend from a bank of fundamental knowledge that someone else deposited decades earlier, and a funding policy that rewards only withdrawals will eventually empty the account. Worse, demanding declared benefits in advance teaches researchers to promise safely and think small.\n\nMy conclusion is that the two kinds of research stand in a supply chain, not a competition. Fund the practical generously — its debts fall due today. But guard a protected share for undirected curiosity, because the application no one can yet name is usually the one that matters most.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允(应用派:公共问责+期限纪律;基础派:历史反例+知识银行论证),立场'坚定支持基础研究但非无条件'精确,结论以供应链比喻给出资金分配方案——讨论落到政策可执行层。",
+              "Coherence & Cohesion(连贯与衔接):'The demand for practical returns is not philistine; it is accountable'的先扬后抑/'Yet the history of discovery keeps embarrassing this logic'的转场/'My conclusion is...'——衔接自然;银行隐喻(deposit/withdrawal/empty the account)贯穿基础研究段并支撑结论。",
+              "Lexical Resource(词汇资源):'merely curious science'、'the seed of every later harvest'、'defend every pound of the choice'、'an accidentally contaminated dish, noticed by a prepared mind'(弗莱明+巴斯德名言双化用)、'promise safely and think small'、'debts fall due today'——高密度概念表达;课文素材(malaria treatments)匿名织入。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入列举、分号对句、定语从句嵌套('a bank of fundamental knowledge that someone else deposited')、祈使式政策句('Fund the practical generously...But guard...');句式多样准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文的屠呦呦在高考征文中点名引用(强调句/成就细节);雅思中疟疾治疗成为匿名例证、弗莱明化为'contaminated dish'——引用规范相反。",
+              "体裁:征文写人物弧线与个人影响;雅思论科研资助政策——写一个人vs论一类钱。",
+              "语域:征文可用'what matters is to fail, learn and try once more'的励志收尾;雅思以供应链的冷逻辑收束。",
+              "评分维度:雅思看双方公允与政策落地;高考看人物细节准确、感悟真诚。"
+            ]
+          },
+          "vocabHints": ["visible returns", "knowledge pursued for its own sake", "not philistine but accountable", "discipline science with deadlines", "embarrass this logic", "a bank of fundamental knowledge", "promise safely and think small", "a supply chain, not a competition"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "质疑的自由",
+      "titleEn": "The Freedom to Doubt",
+      "desc": "课文演讲：费曼 Permit us to question — to doubt — to not be sure——科学的价值在于自由思想。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校科技节将举办以 \"Dare to Doubt\" 为主题的英语演讲比赛。请你撰写演讲稿，内容包括：1. 你对“质疑精神”的理解；2. 一个事例（科学史或身边事）；3. 向同学发出号召。注意：词数100左右。",
+          "reference": "Dare to Doubt\n\nGood afternoon, everyone!\n\nWhat makes science move forward? Not the answers we memorize, but the questions we dare to ask. As a great physicist said, we scientists take it for granted that it is perfectly possible to live and not know — doubt is not to be feared, but to be welcomed and discussed.\n\nLet me share a small story. Last term, I found my textbook's data on local rainfall outdated. Instead of copying it, I emailed the weather bureau, got the latest figures, and my report earned the top mark — plus a thank-you letter from the publisher!\n\nSo, my friends, permit yourselves to question, to doubt, to not be sure. That is where every discovery begins. Thank you!",
+          "vocabHints": ["dare to ask", "take it for granted that", "live and not know", "doubt is not to be feared but to be welcomed", "outdated", "permit yourselves to question", "to not be sure", "where every discovery begins"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that students should accept what their teachers tell them, while others think students should question everything they are taught. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether the classroom should train acceptance or doubt is an old tension in education, sharpened now by a world where information multiplies faster than any teacher can filter it. Some hold that students learn best by trusting instruction; others urge them to question everything. My view is that both slogans fail as absolutes, and the real skill lies in knowing when each is due.\n\nThe case for acceptance rests on the economics of learning. Knowledge is cumulative: a student who re-litigates every fact will never reach the frontier where questioning becomes productive. Trust is also the classroom's working currency — teachers compress centuries of tested knowledge into usable form, and treating every lesson as suspect wastes that inheritance while exhausting both sides. No one relearns arithmetic by scepticism.\n\nYet a schooling of pure acceptance produces exactly the citizens the modern world cannot afford: fluent recallers who cannot tell evidence from authority. Questioning is not disrespect; it is the method by which knowledge was built in the first place, and every scientific revolution began with someone doubting what every teacher then taught. More practically, students who ask 'how do we know this?' retain understanding rather than answers — and understanding is what survives after examinations end.\n\nMy conclusion is that the object of education is neither obedience nor rebellion but calibrated doubt: accept provisionally, question methodically. Teachers serve this best not by demanding belief but by showing their working, inviting challenge and rewarding the student who finds the weak joint. The best classroom does not fear the raised hand; it is built around it.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各有机制论证(接受派:知识的累积经济学+信任作为课堂货币;质疑派:公民素养+知识的建构史+理解的留存率),立场'校准的怀疑'(calibrated doubt)超越二元并给出师生双方的操作方案。",
+              "Coherence & Cohesion(连贯与衔接):'The case for acceptance rests on...'/'Yet a schooling of pure acceptance produces...'/'My conclusion is...'——推进干净;'No one relearns arithmetic by scepticism'与'every revolution began with someone doubting'一收一放;'the raised hand'意象收尾点题。",
+              "Lexical Resource(词汇资源):'re-litigates every fact'、'the classroom's working currency'、'wastes that inheritance'、'fluent recallers who cannot tell evidence from authority'、'accept provisionally, question methodically'、'showing their working'、'the weak joint'——概念化表达高密度;课文的 doubt 主题学术化转写。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义('the object of education is neither...but calibrated doubt: ...')、分号扩展、not...but 精确定性、分词短语('sharpened now by a world where...')嵌 where 从句;句法繁复准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是科技节演讲稿(理解+事例+号召);雅思论教育方法的平衡——点燃现场vs校准天平。",
+              "论据来源:本文用知识累积与科学史的普适机制,费曼名言在演讲稿中直接化用('live and not know'),在雅思中隐入'someone doubting what every teacher then taught'。",
+              "语域:演讲稿有设问、个人故事与'Thank you!';雅思以'built around the raised hand'的意象收束,不呼告。",
+              "评分维度:雅思须给出'何时接受何时质疑'的判据;高考看事例生动、号召有力。"
+            ]
+          },
+          "vocabHints": ["train acceptance or doubt", "the economics of learning", "re-litigate every fact", "working currency", "tell evidence from authority", "calibrated doubt", "show their working", "built around the raised hand"]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "机遇与准备",
+      "titleEn": "Chance & the Prepared Mind",
+      "desc": "课文语篇：弗莱明发现青霉素 far from an accident——Fortune favours the prepared mind。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"Luck or Preparation?\" 为主题征文。请你结合弗莱明发现青霉素的故事写一篇短文，内容包括：1. 简述这一发现；2. 你的观点；3. 联系自身实际。注意：词数100左右。",
+          "reference": "Luck or Preparation?\n\nOne might think Fleming discovered penicillin by accident: a dish left uncovered, a bit of mould, and — a miracle medicine! But actually this is far from the truth.\n\nWhen Fleming observed that the bacteria surrounding the mould were dead, thousands had seen similar dishes and simply washed them. It was his years of research that turned an accident into a discovery. As Pasteur said, fortune favours the prepared mind.\n\nThe story speaks to me directly. I used to envy the \"lucky\" top students until I noticed their thick notebooks of past mistakes. Now I keep one too — because when my chance comes, I want to be the prepared mind it favours.",
+          "vocabHints": ["by accident", "far from the truth", "observe that", "the bacteria surrounding the mould", "turn an accident into a discovery", "fortune favours the prepared mind", "speak to me directly", "the prepared mind"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that success is mainly the result of luck, while others think it comes from hard work and preparation. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Every success story invites the same quiet question: was it earned or was it lucky? One school credits fortune — the right family, the right market, the right moment; the other insists that preparation and persistence explain nearly everything. My own view is that luck deals the cards, but preparation decides who can play them.\n\nThe case for luck is stronger than winners like to admit. Birthplace, health and timing are distributed before effort begins, and identical talents meet very different doors. Two equally able students may find one school funded and the other failing; a brilliant product can sink merely by launching a season early. Honest observers concede that many who work hardest — miners, nurses, farmers — are not those rewarded most, which alone proves that effort is no guarantee.\n\nYet the opposing camp holds the practical truth. Luck is, by definition, beyond control, so preparation is the only variable a person can actually move. More deeply, opportunity is useless to those unready for it: the lucky accident lands on many desks, but only the prepared mind recognises what it is seeing. History's 'accidental' discoveries follow the same script — the chance event was public, the readiness was rare. Preparation, in effect, converts luck from weather into harvest; the rain falls on every field, but only the ploughed ones drink.\n\nMy conclusion is that the debate mistakes partners for rivals. Luck sets the range of what is possible; preparation determines the share of it that is claimed. The wise, accordingly, forecast less and plough more.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允且各有让步(运气派:初始分配不均+努力无保证的诚实承认;准备派:唯一可控变量+机会识别论),立场'发牌与打牌'贯穿,结论以'预报少些、耕地多些'的行动句收束——讨论有哲学高度且落地。",
+              "Coherence & Cohesion(连贯与衔接):'The case for luck is stronger than winners like to admit'/'Yet the opposing camp holds the practical truth'/'My conclusion is...'——推进流畅;雨与耕地的比喻在准备段生成、在结论收割('forecast less and plough more'),意象闭环。",
+              "Lexical Resource(词汇资源):'luck deals the cards, but preparation decides who can play them'、'identical talents meet very different doors'、'the chance event was public, the readiness was rare'、'converts luck from weather into harvest'、'the rain falls on every field, but only the ploughed ones drink'——警句密度极高且全部服务论证;弗莱明素材化为'accidental discoveries follow the same script'。",
+              "Grammatical Range & Accuracy(语法准确性):冒号设问开篇、分号对句、插入列举('— miners, nurses, farmers —')、by definition 插入、分词状语;复杂句准确无误。"
+            ],
+            "vsGaokao": [
+              "素材用法:高考征文直接讲弗莱明故事+皮氏培养皿细节;雅思将其匿名为'历史的意外发现共用同一剧本'——具体叙事vs规律提炼。",
+              "体裁:征文有'联系自身'的错题本细节;雅思无个人叙事,第一人称只在立场。",
+              "语域:征文以'I want to be the prepared mind it favours'的抒情收尾;雅思以农耕比喻的智性收尾。",
+              "评分维度:雅思看双方让步的诚实与立场的精确;高考看故事讲得清、观点立得住、联系自然。"
+            ]
+          },
+          "vocabHints": ["deal the cards", "distributed before effort begins", "identical talents, different doors", "no guarantee", "the only variable a person can move", "the readiness was rare", "from weather into harvest", "forecast less and plough more"]
+        }
+      ]
+    }
+  ]
+}
