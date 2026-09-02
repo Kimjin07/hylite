@@ -1,0 +1,62 @@
+[
+  {
+    "sentence": "As they sailed, the navigators took compass readings, kept logs of their voyages and charted the coast.",
+    "translation": "航行途中，航海者们读取罗盘度数、记录航海日志、绘制海岸图。",
+    "analysis": "As 时间从句“在航行的同时”| 三并列谓语 took... kept... and charted...：三个专业动作干净利落——航海技术的动词三连（读数/记录/制图）| compass readings 罗盘读数（reading 熟词僻义：仪表读数）| keep logs of 记录……的日志（log 航海日志——今天的“博客 blog”词源 web log 正来于此）| chart 动词化“绘制海图”（名词转动词）| 中国航海科技史的实证句：不是“下西洋”的宏大叙事，而是每一天的技术动作——细节写实力",
+    "pattern": "As + S + V-ed, S + V₁ + N, V₂ + N and V₃ + N（三并列谓语）",
+    "structures": ["as时间从句", "三并列谓语", "名词动用chart"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "考察途中，队员们采集岩石样本、记录气象数据、标绘冰川边界。",
+    "imitationHint": "As they explored, the team members collected rock samples, → recorded weather data and mapped the glacier boundaries（三并列谓语）",
+    "imitationAnswer": "As they explored, the team members collected rock samples, recorded weather data and mapped the glacier boundaries."
+  },
+  {
+    "sentence": "Zheng He's efforts helped develop and strengthen harmonious relations with these countries and regions, exposing foreign people to Chinese culture, and allowing the Chinese to better understand overseas lands.",
+    "translation": "郑和的努力帮助发展并巩固了与这些国家和地区的和睦关系，让外国民众接触到中华文化，也让中国人得以更好地了解海外。",
+    "analysis": "helped (to) develop and strengthen：help 后省 to + 双动词并列 | 两个现在分词短语作结果状语：exposing... and allowing...——双向文化交流各记一笔（expose sb to sth 使接触；allow sb to do 使能够）| harmonious relations 和睦关系（“和平之旅”的定性词）| to better understand：副词插在不定式中间（分裂不定式的自然用法）| 历史人物评价句的结构：主功绩（主句）+双影响（双分词）——郑和下西洋的意义一句写全，文化传播类作文的高频素材",
+    "pattern": "S + helped develop and strengthen + N, V-ing ..., and V-ing ...",
+    "structures": ["双分词结果状语", "expose to", "allow to do"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这个交换项目帮助建立并加深了两校之间的友谊，让外国学生体验了中国课堂，也让我们得以更好地了解世界。",
+    "imitationHint": "The exchange programme helped build and deepen the friendship between the two schools, → exposing foreign students to Chinese classrooms, and allowing us to better understand the world（双分词）",
+    "imitationAnswer": "The exchange programme helped build and deepen the friendship between the two schools, exposing foreign students to Chinese classrooms, and allowing us to better understand the world."
+  },
+  {
+    "sentence": "Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck.",
+    "translation": "拉塞尔感到血液都要凝固了，但他很快回过神来，冲上甲板。",
+    "analysis": "felt his blood freeze：感官动词 feel + 宾语 + 省 to 原形——“血液凝固”的恐惧生理反应（读后续写恐惧描写的教科书表达：feel one's blood freeze/run cold）| come to oneself 回过神来、恢复镇定（= collect oneself）| but 转折 + 双并列谓语 came... and rushed...：从吓僵到行动只用一个 but——危机反应的节奏句 | rush up to 冲上 | 航海历险叙事的心理-动作转换句：内感受（freeze）→ 自控（came to himself）→ 行动（rushed）三步走，续写高分动作链模板",
+    "pattern": "S + felt + one's blood freeze, but + S + quickly came to himself and rushed ...",
+    "structures": ["感官动词+原形", "come to oneself", "心理动作转换"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "她感到心脏猛地一沉，但很快回过神来，冲向了起火的厨房。",
+    "imitationHint": "She felt her heart sink, → but she quickly came to herself and rushed to the burning kitchen（feel + 宾 + 原形）",
+    "imitationAnswer": "She felt her heart sink, but she quickly came to herself and rushed to the burning kitchen."
+  },
+  {
+    "sentence": "Previously, the work was done at home, but thanks to the machines, cloth could be made in factories, where each worker had a specialized role.",
+    "translation": "以前，这类活计都在家中完成；但多亏了机器，布匹得以在工厂里生产——在那里，每个工人都有专门的分工。",
+    "analysis": "Previously... but...：时间副词+转折的“前后对照”框架——工业革命叙事的今昔切换 | thanks to 多亏、由于（表原因的介词短语，中性偏积极）| 双被动 was done / could be made：生产方式叙事的客观语态 | where 引导非限定性定语从句修饰 factories——工厂内部的新秩序（分工）由 where 从句展开 | a specialized role 专门化的角色——“分工”正是工厂制的灵魂词 | 历史转折句式：Previously A, but thanks to X, B——技术改变生活类作文的万能框架",
+    "pattern": "Previously, S + was + V-ed ..., but thanks to ..., S + could be + V-ed ..., where + 从句",
+    "structures": ["今昔对照", "thanks to", "where非限定从", "被动语态"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "以前，作业都靠手工誊抄；但多亏了打印机，讲义得以批量印制——每份讲义上都有清晰的排版。",
+    "imitationHint": "Previously, the handouts were copied by hand, but thanks to printers, → they could be produced in large numbers, where each page had a clear layout（Previously...but thanks to）",
+    "imitationAnswer": "Previously, the handouts were copied by hand, but thanks to printers, they could be produced in large numbers with a clear layout on each page."
+  },
+  {
+    "sentence": "The shift from the cottage industry to the factory system, combined with the introduction of new machines, new energy sources and new forms of transport, promoted economic growth and expanded world trade.",
+    "translation": "从家庭手工业到工厂制的转变，加上新机器、新能源和新式交通的引入，促进了经济增长，扩大了世界贸易。",
+    "analysis": "长主语句的教科书：The shift from A to B 作主语核心（转变名词化）| combined with... 过去分词短语插入“加上、结合”（= together with；注意谓语仍随主语 The shift 定单复数）| the introduction of 后三个 new 排比：new machines, new energy sources and new forms of transport——工业革命三要素 | 双并列谓语 promoted... and expanded...：两大历史后果 | shift/introduction/growth/trade 全程名词化——学术写作的抽象度示范 | 历史因果总结句：变革（主语）+条件（插入）+结果（谓语），一句话讲完一场革命",
+    "pattern": "The shift from A to B, combined with the introduction of ..., promoted ... and expanded ...",
+    "structures": ["长主语", "combined with插入", "名词化", "并列谓语"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "从纸质阅读到数字阅读的转变，加上电子书、听书软件和在线书评社区的兴起，改变了人们的阅读习惯，也拓宽了阅读的边界。",
+    "imitationHint": "The shift from paper reading to digital reading, combined with the rise of e-books, audiobook apps and online review communities, → has changed people's reading habits and expanded the boundaries of reading",
+    "imitationAnswer": "The shift from paper reading to digital reading, combined with the rise of e-books, audiobook apps and online review communities, has changed people's reading habits and expanded the boundaries of reading."
+  }
+]

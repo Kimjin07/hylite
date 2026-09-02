@@ -1,0 +1,50 @@
+[
+  {
+    "sentence": "The incredible splendour of heritage sites is a reminder of the power of nature and the genius of man.",
+    "translation": "遗产地令人惊叹的壮美，时刻提醒着我们大自然的伟力与人类的天才。",
+    "analysis": "抽象名词作主语：The incredible splendour of...（splendour 壮丽华美；英式 -our = 美式 -or：colour/honour/labour 同族）| a reminder of “……的提醒物”——物称句式：不说 remind us，让壮美自己“提醒”（reminder 呼应必修一 U4 词块 serve as a reminder of）| the power of nature and the genius of man：双 of 短语对仗——自然之力与人类之才，遗产的双重作者 | 文化遗产主题的立意句：遗产为什么值得敬畏，一句给出答案——申遗/保护类作文的开篇石",
+    "pattern": "The + adj. + N + of ... is a reminder of + the N of A and the N of B",
+    "structures": ["物称主语", "a reminder of", "双of对仗"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "老街令人动容的烟火气，时刻提醒着我们时间的厚度与生活的韧性。",
+    "imitationHint": "The touching everyday warmth of the old streets is a reminder of → the depth of time and the resilience of life（a reminder of + 双 of 对仗）",
+    "imitationAnswer": "The touching everyday warmth of the old streets is a reminder of the depth of time and the resilience of life."
+  },
+  {
+    "sentence": "The fact that many heritage sites are in urgent need of protection cannot be ignored.",
+    "translation": "许多遗产地急需保护——这一事实不容忽视。",
+    "analysis": "The fact that...：that 引导同位语从句作主语的一部分——“……这一事实”句型（同位语从句家族最常用的落点；从句说完，谓语 cannot be ignored 才姗姗登场）| in urgent need of 急需（need 名词；= need sth urgently；课堂拓展：urge sb to do 敦促、urgent appeal 紧急呼吁、a matter of urgency 当务之急）| cannot be ignored 情态被动“不容忽视”——比 we must not ignore 更客观有力 | 呼吁类作文的万能句架：The fact that... cannot be ignored/denied——先钉事实，再谈行动",
+    "pattern": "The fact that + 从句 + cannot be ignored",
+    "structures": ["同位语从句作主语", "in urgent need of", "情态被动"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "许多传统手艺正面临失传——这一事实不容忽视。",
+    "imitationHint": "The fact that many traditional crafts are in danger of dying out → cannot be ignored（The fact that + 情态被动）",
+    "imitationAnswer": "The fact that many traditional crafts are in danger of dying out cannot be ignored."
+  },
+  {
+    "sentence": "They could not prevent the construction of the dam and they had no idea whether the temples could be saved from the rising waters.",
+    "translation": "他们无法阻止大坝的修建，也不知道神庙能否从不断上涨的河水中被拯救出来。",
+    "analysis": "双分句并列的双重无力：could not prevent（阻止不了）+ had no idea（不知道）——阿布辛贝危机的黑暗时刻 | whether 引导宾语从句作 idea 的内容（have no idea whether... 不知道是否；whether 不能换 if 于介词后/主语从句，此处宾语位可换）| be saved from the rising waters：被动 + rising 现在分词作定语“不断上涨的”| the construction of the dam 名词化（阿斯旺大坝）| 叙事的“至暗句”：为下文的国际救援反转蓄力——先绝望后转机的经典布局",
+    "pattern": "S + could not prevent + N and + S + had no idea whether + S + could be + V-ed from ...",
+    "structures": ["whether宾语从句", "被动语态", "分词定语", "并列否定"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "他们无法改变比赛的赛程，也不知道受伤的队长能否赶在决赛前康复。",
+    "imitationHint": "They could not change the match schedule and they had no idea → whether the injured captain could recover before the final（had no idea whether）",
+    "imitationAnswer": "They could not change the match schedule and they had no idea whether the injured captain could recover before the final."
+  },
+  {
+    "sentence": "However, the operation was carefully planned and the team eventually managed to relocate all of the Abu Simbel temples without incident.",
+    "translation": "然而，这次行动经过精心策划，团队最终平安无事地完成了阿布辛贝全部神庙的搬迁。",
+    "analysis": "However 承接上文的绝望，引出反转 | was carefully planned 被动+副词：策划的严谨 | managed to do 成功做成（强调“终于办成”，区别 try to do 只表尝试）——eventually 加持“千辛万苦之后” | relocate 整体搬迁（re- 前缀：重新安置）| without incident 平安无事（incident 熟词僻义“意外事故”；课堂同族：without delay 立刻、without exception 无一例外）| 世界文化遗产保护史的里程碑句：切割搬运神庙的奇迹工程收束于 without incident 的轻描淡写——举重若轻",
+    "pattern": "However, S + was carefully planned and + S + eventually managed to + V ... without incident",
+    "structures": ["managed to do", "without incident", "被动+副词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "然而，转运方案经过反复推演，医疗队最终平安无事地把全部伤员送到了后方医院。",
+    "imitationHint": "However, the transfer plan was carefully rehearsed and the medical team eventually managed to → move all the injured to the rear hospital without incident",
+    "imitationAnswer": "However, the transfer plan was carefully rehearsed and the medical team eventually managed to move all the injured to the rear hospital without incident."
+  }
+]

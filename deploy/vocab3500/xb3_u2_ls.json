@@ -1,0 +1,74 @@
+[
+  {
+    "sentence": "Considering these negative effects low gravity has on the human body, we discipline ourselves to do at least two hours of exercise every day.",
+    "translation": "考虑到低重力对人体的这些负面影响，我们严格要求自己每天至少锻炼两小时。",
+    "analysis": "Considering... 介词性分词“考虑到”（= given/in view of，呼应选必二 U4 的 given）| effects (that) low gravity has on...：省略关系词的定语从句——have effects on 的 effects 被提前作先行词，that 作 has 的宾语可省（识别难点：effects 后直接跟主谓）| discipline oneself to do 严格要求自己做（discipline 熟词动用：自律的动词形态；He disciplined himself to exercise three times a week.）| at least two hours 数字底线 | 宇航员日记的自律句：太空生活的纪律感一句立住——“自律”主题作文的素材原句",
+    "pattern": "Considering + the N + (that) + S + has on ..., S + discipline ourselves to + V",
+    "structures": ["considering", "省略关系词定语从句", "discipline oneself to"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "考虑到熬夜对记忆力的这些负面影响，我严格要求自己每晚十一点前入睡。",
+    "imitationHint": "Considering these negative effects staying up late has on memory, → I discipline myself to fall asleep before eleven every night",
+    "imitationAnswer": "Considering these negative effects staying up late has on memory, I discipline myself to fall asleep before eleven every night."
+  },
+  {
+    "sentence": "During our leisure time, there's nothing we like more than to sit back with the rest of the crew and watch our remarkable planet go by, taking pictures for our family and friends back home.",
+    "translation": "闲暇时，我们最喜欢的莫过于和其他机组成员一起惬意地坐着，看我们这颗非凡的星球从眼前掠过，顺手为家乡的亲友拍下照片。",
+    "analysis": "there's nothing (that) we like more than...：否定词+比较级=最高级的从句版（“没有比这更喜欢的”= 最喜欢；呼应必修二 U3 的 could not be happier）| to sit back... and watch...：双并列不定式作比较对象——sit back 惬意地坐（back 的松弛感）| watch our planet go by：感官动词 + 宾语 + 省 to 原形（看地球“掠过”——空间站视角的独家浪漫）| taking pictures... 现在分词伴随 | back home 家乡方向词 | 太空生活的抒情名句：宏大（行星掠过）与温情（给家人拍照）同框",
+    "pattern": "There's nothing + S + like more than to + V ... and watch + O + V原形, V-ing ...",
+    "structures": ["nothing...more than", "感官动词+原形", "分词伴随"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "周末时，我们最喜欢的莫过于和家人一起坐在院子里，看夕阳慢慢落下，顺手为彼此拍下逆光的剪影。",
+    "imitationHint": "At weekends, there's nothing we like more than to sit back with our family and watch the sun slowly go down, → taking backlit pictures of each other",
+    "imitationAnswer": "At weekends, there's nothing we like more than to sit back with our family and watch the sun slowly go down, taking backlit pictures of each other."
+  },
+  {
+    "sentence": "It's strange that we try to sleep with no pressure against our back, but the unusual beds don't bother us any more.",
+    "translation": "说来奇怪，我们睡觉时背上没有任何压力，但这种不寻常的床已不再让我们困扰。",
+    "analysis": "It's strange that...：it 形式主语 + 情感评价形容词（课堂拓展：strange/necessary/important that 从句可用 (should) do 虚拟表惊讶——he should have left 竟然离开；本句陈述语气叙实）| with no pressure against our back：with 复合结构（宾语+介词短语）写失重睡眠——against 贴着（熟词僻义复现）| bother 打扰、使烦恼（don't bother us any more 已习以为常；课堂：Sorry to bother you 打扰了）| but 转折出“适应”——太空日记的身体适应叙事：先怪后惯",
+    "pattern": "It's strange that + S + V + with no + N + against ..., but + S + don't bother us any more",
+    "structures": ["it形式主语", "with复合结构", "bother"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "说来奇怪，我们戴着耳塞在工地旁入睡，但机器的轰鸣已不再让我们困扰。",
+    "imitationHint": "It's strange that we sleep with earplugs in beside the construction site, → but the roar of machines doesn't bother us any more",
+    "imitationAnswer": "It's strange that we sleep with earplugs in beside the construction site, but the roar of machines doesn't bother us any more."
+  },
+  {
+    "sentence": "Spending some time in the gym is of vital importance to astronauts' health.",
+    "translation": "在健身房锻炼一段时间，对宇航员的健康至关重要。",
+    "analysis": "Spending some time in the gym：动名词短语作主语（谓语单数 is）| be of vital importance to 对……至关重要——of + 抽象名词 = 形容词（= vitally important；呼应必修一 U1 的 Of equal importance are...：同一结构的正装版与倒装版跨书成对）| vital 极其重要的（近义链：crucial/essential/critical）| 太空健身的科学依据句：失重环境肌肉流失，锻炼即生存 | of importance/value/significance/use 家族是书面表达的换装利器",
+    "pattern": "V-ing + is of vital importance to + N",
+    "structures": ["动名词主语", "of+抽象名词", "vital"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "每天留出半小时独处，对创作者的灵感至关重要。",
+    "imitationHint": "Setting aside half an hour alone every day → is of vital importance to a creator's inspiration（of + 抽象名词）",
+    "imitationAnswer": "Setting aside half an hour alone every day is of vital importance to a creator's inspiration."
+  },
+  {
+    "sentence": "We should find permanent shelter that offers long-term protection from radiation.",
+    "translation": "我们应当找到能提供长期辐射防护的永久居所。",
+    "analysis": "that 定语从句修饰 shelter（that 作从句主语）| permanent 永久的 vs long-term 长期的：双时间维度形容词分别锁定居所与防护 | protection from 对……的防护（protect from 的名词化）| radiation 辐射——移民火星/月球基地话题的核心难题 | shelter 不可数“庇护所”（take shelter from 躲避）| 太空定居的条件句：科幻话题作文的现实骨架——先解决辐射，再谈生活",
+    "pattern": "S + should find + adj. + N + that offers + adj. + protection from + N",
+    "structures": ["that定语从句", "protection from", "名词化"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "我们应当建立能提供长期资金支持的稳定机制。",
+    "imitationHint": "We should establish a stable system → that offers long-term financial support（that 定从）",
+    "imitationAnswer": "We should establish a stable system that offers long-term financial support."
+  },
+  {
+    "sentence": "With each space mission comes greater insight.",
+    "translation": "每一次太空任务，都带来更深刻的洞见。",
+    "analysis": "课件原题句：With + 名词短语置于句首引起完全倒装——正常语序 Greater insight comes with each space mission（呼应必修三 U3 的 With access to the Internet come some truly life-changing advantages——同款结构跨书复现，课件专门出仿写题：主语为复数时谓语用 come）| insight 洞见、深刻理解（offer an important insight into 呼应选必一 U3）| 六词短句的分量：探索与认知的正比关系一笔写就——科技类作文的万能过渡句/结论句",
+    "pattern": "With each + N + comes + greater + N（完全倒装）",
+    "structures": ["with倒装", "倒装主谓一致", "insight"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "每一次失败的尝试，都带来更清晰的方向。",
+    "imitationHint": "With each failed attempt → comes a clearer direction（With... comes 倒装）",
+    "imitationAnswer": "With each failed attempt comes a clearer direction."
+  }
+]

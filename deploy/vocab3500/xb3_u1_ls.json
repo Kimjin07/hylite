@@ -1,0 +1,62 @@
+[
+  {
+    "sentence": "Canada is like a blooming flower, unfolding with breathtaking beauty and richness to win the heart of those who enjoy what it has to offer.",
+    "translation": "加拿大就像一朵盛开的鲜花，绽放出惊人的美丽与富饶，赢得了欣赏它风采之人的心。",
+    "analysis": "国家拟花的明喻开篇：like a blooming flower | unfolding... 现在分词作伴随状语——unfold“绽放、展开”与 flower 的比喻严丝合缝（课堂拓展：the story unfolded 剧情展开、the splendid scenery unfolded before our eyes）| to win the heart of 不定式表结果：赢得……的心 | those who... 定从内再嵌 what it has to offer 宾语从句（what 作 offer 的宾语）——have something to offer“有可提供的东西/有魅力”| breathtaking 惊人的（课堂近义群：splendid/spectacular/magnificent/stunning）| 旅游文体的国家名片句：比喻+分词+双从句一气呵成",
+    "pattern": "S + is like + N, V-ing with ... to win the heart of those who + V + what ...",
+    "structures": ["明喻", "分词伴随状语", "who定从嵌what从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "苏州就像一幅徐徐展开的水墨画，晕染出温婉的美丽与底蕴，赢得了懂得它韵味之人的心。",
+    "imitationHint": "Suzhou is like an ink painting slowly unfolding, → spreading with gentle beauty and depth to win the heart of those who appreciate what it has to offer",
+    "imitationAnswer": "Suzhou is like an ink painting slowly unfolding, spreading with gentle beauty and depth to win the heart of those who appreciate what it has to offer."
+  },
+  {
+    "sentence": "It is also one of the most ethnically diverse nations in the world with distinct cultures.",
+    "translation": "它也是世界上民族最多元、文化各具特色的国家之一。",
+    "analysis": "one of the + 最高级 + 复数名词：最……之一（谓语用单数 is）| ethnically diverse：副词修饰形容词——“在民族层面多元”（ethnic 课堂网络：ethnic groups 族群、an ethnic minority 少数民族）| with distinct cultures 介词短语作后置定语 | distinct 独特的、明显不同的（课堂三义：不同的 distinct from / 清晰的 / 确切的 a distinct advantage；辨析 distinctive 独特的）| 说明文的国家定位句：一句话装下“多元”与“独特”两个关键词",
+    "pattern": "S + is one of the most + adv. + adj. + Ns in the world + with + N",
+    "structures": ["one of最高级", "副词修饰形容词", "distinct"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "它也是世界上生物最多样、景观各具特色的地区之一。",
+    "imitationHint": "It is also one of the most biologically diverse regions in the world → with distinct landscapes（副词+形容词）",
+    "imitationAnswer": "It is also one of the most biologically diverse regions in the world with distinct landscapes."
+  },
+  {
+    "sentence": "The major ethnic groups, for example, include the English, Scottish and French, while the minority groups include residents from Singapore and the Pacific Islands.",
+    "translation": "例如，主要族群包括英格兰人、苏格兰人和法国人，而少数族群则包括来自新加坡和太平洋岛屿的居民。",
+    "analysis": "while 并列连词表对比“而”（课堂 while 三用：对比〔本句〕/时间从句 While she was asleep.../让步 While we don't agree...）——major vs minority 的两大阵营由 while 一刀分开 | for example 双逗号插入句中 | the English, Scottish and French：the + 形容词表族群整体 | include 列举（不能用于被动进行，呼应 contain/include 辨析）| minority 课堂拓展：in the minority 占少数、ethnic minorities 少数族裔 | 多元社会的结构化描述：先大后小、对比展开",
+    "pattern": "The major + N, for example, include A, B and C, while the minority + N + include ...",
+    "structures": ["while对比", "插入语", "the+形容词族群"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "例如，主流的社团包括篮球社、辩论社和合唱团，而小众的社团则包括天文社和木工坊。",
+    "imitationHint": "The major clubs, for example, include basketball, debating and choir, → while the minority ones include astronomy and woodworking（while 对比）",
+    "imitationAnswer": "The major clubs, for example, include basketball, debating and choir, while the minority ones include astronomy and woodworking."
+  },
+  {
+    "sentence": "Should you find yourself in one of these subcultures, languages, cuisine, architecture, art and music will define your encounter.",
+    "translation": "如果你置身于其中任何一种亚文化中，语言、饮食、建筑、艺术和音乐都会定义你的这场邂逅。",
+    "analysis": "课件专项讲解句：Should 置于句首、省略 if 的倒装条件句（= If you should find...）——省 if 倒装三形态课堂全表：Had he worked harder, he would have... / Were she my friend, I would... / Should it rain tomorrow, we would...；should 句还可引导真实条件句（主句用将来时 will define，本句即是）| find yourself in 发现自己身处（不知不觉置身）| 五名词裸列举作主语：languages, cuisine, architecture, art and music——文化的五官 | define your encounter 定义你的邂逅（encounter 名词呼应选必一 U4）",
+    "pattern": "Should + S + find yourself in ..., A, B, C, D and E + will define + N",
+    "structures": ["should省if倒装", "五名词并列主语", "define"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "如果你走进其中任何一条老街，方言、小吃、店铺、手艺和吆喝声都会定义你的这场相遇。",
+    "imitationHint": "Should you walk into one of these old streets, → dialects, snacks, shops, crafts and street cries will define your encounter（Should 倒装）",
+    "imitationAnswer": "Should you walk into one of these old streets, dialects, snacks, shops, crafts and street cries will define your encounter."
+  },
+  {
+    "sentence": "It is a land marked with vast lakes and mighty rivers.",
+    "translation": "这是一片湖泊广布、大河奔涌的土地。",
+    "analysis": "marked with... 过去分词短语作后置定语（= which is marked with）：“以……为标记/特征的”——地貌描写的印章式表达 | vast lakes and mighty rivers：双形容词+名词对仗（广袤的湖/浩荡的河）——mighty 威猛浩大的（the mighty Yellow River；课堂近义群：grand/towering/enormous）| It is a land... 判断句定调 | 九词的地理素描：写作中替换 There are many lakes and rivers 的高级版 | 课堂词块延伸：snow-capped peaks 雪峰、crystal-clear lakes 清澈见底的湖、dense forests 茂密森林——写景四件套",
+    "pattern": "It is a land + marked with + adj. + N and adj. + N",
+    "structures": ["过去分词定语", "对仗名词组", "写景句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这是一座以古桥流水和白墙黛瓦为标志的小城。",
+    "imitationHint": "It is a town marked with → ancient bridges over flowing water and white walls with dark tiles（marked with 分词定语）",
+    "imitationAnswer": "It is a town marked with ancient bridges over flowing water and white walls with dark tiles."
+  }
+]
