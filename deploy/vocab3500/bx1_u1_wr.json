@@ -1,0 +1,245 @@
+{
+  "mainTopic": "高中新生活的挑战与成长",
+  "mainTopicEn": "Challenges and Growth in High School Life",
+  "mainTopicBrief": "本单元围绕\"开学\"话题，涵盖校长致辞（潜力与挑战）、校园生活、社团活动和适应新环境四个子话题，是高考写作和雅思议论文的核心命题范畴。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "潜力开发与个人成长",
+      "titleEn": "Potential & Personal Growth",
+      "desc": "校长开学致辞的核心话题：认识潜力、迎接挑战、实现个人成长。",
+      "prompts": [
+        {
+          "source": "2024 苏锡常镇一模",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是校英文报主编李华，你报正举办以\"Unlocking Your Potential\"为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你对\"潜力\"的理解；2. 你或身边人释放潜力的一次经历；3. 你的收获与感悟。注意：词数100左右。",
+          "reference": "Potential is not about what you are born with, but about what you are willing to become. I still remember the first time I rose to the challenge of public speaking. My heart was racing and my hands were shaking, but I told myself that this was my opportunity to acquire a skill I desperately wanted. The path before me was full of challenges — new techniques, unfamiliar audiences, and the fear of failure. Yet the moment I finished my speech, I realized I had taken the first step towards becoming a more confident version of myself. In time, I found myself growing into someone who actually enjoyed sharing ideas. As our principal said, potential is your natural ability that can be developed when you try hard enough. All it takes is the courage to start and the determination to persist.",
+          "vocabHints": [
+            "potential",
+            "rise to challenges",
+            "opportunity",
+            "acquire",
+            "personal growth",
+            "in time",
+            "find oneself doing",
+            "make the most of"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that talent is innate and cannot be taught, while others argue that any skill can be developed through practice and education. Discuss both views and give your own opinion. Give reasons and examples. (Write at least 250 words.)",
+          "reference": "The question of whether exceptional ability is a gift bestowed at birth or a product of sustained effort has long divided opinion. While some maintain that genuine talent is inborn and beyond the reach of instruction, others insist that virtually any competence can be cultivated through disciplined practice and sound education. Although I recognise the influence of natural aptitude, I ultimately side with the latter position.\n\nThose who champion the idea of innate talent point to the striking ease with which certain individuals master demanding disciplines. A child who intuitively grasps musical harmony or absorbs a foreign language with little apparent struggle seems to confirm that some capacities are simply hardwired. From this perspective, no amount of coaching can transform an ordinary learner into a prodigy, because the decisive spark is inherited rather than acquired.\n\nThe opposing camp, however, argues that skill is overwhelmingly the fruit of deliberate training. Countless high achievers, from elite athletes to accomplished scientists, attribute their success not to a mysterious endowment but to years of relentless repetition, expert guidance and a willingness to learn from failure. According to this reasoning, what observers mistake for raw talent is often the invisible accumulation of thousands of hours of practice.\n\nIn my view, the second argument is considerably more persuasive. Natural predisposition may offer a head start, yet it rarely flourishes without cultivation, and history is full of celebrated figures who were initially dismissed as unremarkable. Given that structured education can extend opportunity to anyone prepared to persevere, I firmly believe that ability is developed far more than it is inherited. Talent, in essence, sets the stage, but effort writes the performance.",
+          "wordCount": 274,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):完整回应了 discuss both views + own opinion 三个部分——引言 paraphrase 题目并亮明立场('I ultimately side with the latter position'),第二段客观陈述'天赋天生论'及其理由,第三段陈述'后天习得论'并展开,末段清晰权衡后重申立场('the second argument is considerably more persuasive')。立场全篇一致,论据是展开的推演(head start→需 cultivation→history 反例)而非要点罗列。",
+              "Coherence & Cohesion(连贯与衔接):四段结构分明,每段一个中心(引言/观点A/观点B/立场结论);衔接手段多样自然,如'Those who champion...'、'The opposing camp, however'、'According to this reasoning'、'In my view'、'Given that...',没有堆砌 Firstly/Secondly;末句用比喻'sets the stage, but effort writes the performance'呼应收尾。",
+              "Lexical Resource(词汇资源):用词精准且有地道搭配,如'a gift bestowed at birth'、'natural aptitude/predisposition'、'deliberate training'、'relentless repetition'、'the invisible accumulation of thousands of hours'、'an ordinary learner into a prodigy';高级词(inborn, endowment, cultivate, persevere)运用自然,几乎无搭配错误。",
+              "Grammatical Range & Accuracy(语法多样性与准确性):句式灵活多样——让步状语从句('Although I recognise...')、定语从句('the striking ease with which...')、分词/介词短语后置修饰、倒装式强调('what observers mistake for raw talent is...')、非谓语('a willingness to learn from failure');绝大多数句子零错误,标点规范。"
+            ],
+            "vsGaokao": [
+              "字数与配比不同:雅思 Task 2 硬性要求至少 250 词、本文写到 278 词属安全区且不臃肿;高考英语作文通常仅 100 词左右,字数超纲反而不加分,评分尺度完全不同。",
+              "论据来源不同:本文用的是全球普适现象与常识(elite athletes、accomplished scientists、history is full of...),严禁出现课本原句、老师/校长的话或杜撰的人名(如 John Li);而高考作文常鼓励套用课文句型或'李华'式个人叙事,这在雅思会被判离题。",
+              "语域与人称不同:全文保持正式学术语域,无缩略(用 do not 不用 don't)、无书信体、克制第一人称,仅在表明立场时用'In my view/I firmly believe';高考作文常见书信格式、口语化表达和 Dear/Yours 落款,雅思学术写作则要求客观论证语气。",
+              "评分维度不同:雅思按四大独立维度(TR/CC/LR/GRA)分项计分,要求立场贯穿、衔接自然、词汇搭配地道、复杂句准确;高考主要看内容要点是否覆盖、语言基本通顺和卷面,并不单独考核'立场一致性'与'论据是否展开推演',本文正是围绕四维度而非'踩点'来构建的。"
+            ]
+          },
+          "vocabHints": [
+            "has long divided opinion",
+            "a gift bestowed at birth",
+            "natural aptitude",
+            "deliberate training",
+            "relentless repetition",
+            "side with the latter position",
+            "the decisive spark",
+            "sets the stage, but effort writes the performance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "校园生活与人际关系",
+      "titleEn": "School Life & Relationships",
+      "desc": "以定语从句为核心语法点，描述高中新生活中的人、事和情感体验。",
+      "prompts": [
+        {
+          "source": "2023 浙江五校联考",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友Chris即将进入高中，写信向你询问高中生活的感受和建议。请你写一封回信，内容包括：1. 你进入高中后的感受；2. 你遇到的困难及如何克服；3. 给Chris的建议。注意：词数100左右。",
+          "reference": "Dear Chris,\n\nI'm delighted to hear that you're starting high school soon, and I'd love to share my experience with you.\n\nTo be honest, the first month was both exciting and overwhelming. The school, which is much bigger than my junior high, felt like a maze. The teachers, who were all incredibly supportive, encouraged us to explore our interests. I've made friends with classmates whose passions range from robotics to creative writing — every day in their company is a new adventure.\n\nOf course, there were challenges. The workload, which was heavier than I expected, took some getting used to. But I learned to manage my time through careful planning. My advice is simple: never hesitate to reach out when you need help, and always keep a positive attitude. I'm confident that you, too, will find yourself growing into a more capable and confident person.\n\nBest wishes,\nLi Hua",
+          "vocabHints": [
+            "challenging",
+            "get used to",
+            "opportunity",
+            "acquire",
+            "positive attitude",
+            "supportive",
+            "make the most of",
+            "in time"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that school is the most important period of a person's life, while others believe that life after school brings more valuable experiences. Discuss both views and give your opinion. (Write at least 250 words.)",
+          "reference": "The question of which stage of life shapes us most profoundly is a perennial one. While some regard formal schooling as the defining chapter of a person's existence, others argue that the years that follow it yield richer and more meaningful lessons. Having weighed both positions, I am inclined to believe that the experiences gained after school ultimately prove more valuable.\n\nThose who champion the primacy of school do so with good reason. The classroom is where a person first acquires literacy, numeracy and the habits of disciplined thought, all of which serve as the foundation for everything that comes later. Just as a building cannot stand without solid footings, an adult cannot function without the intellectual and social groundwork laid during these formative years. Moreover, school is where children forge their earliest friendships and learn to navigate rules, competition and cooperation, thereby shaping their character at its most impressionable stage.\n\nThe opposing camp, however, contends that genuine growth begins only once the protective walls of the institution fall away. Life beyond the school gates confronts individuals with responsibilities that no lesson can fully replicate: earning a living, sustaining relationships and recovering from failure. A graduate who loses a first job, for instance, learns resilience in a way that no examination could ever teach.\n\nOn balance, although schooling is undeniably indispensable, I maintain that post-school life offers the more transformative education. The wider world demands that we apply, adapt and sometimes discard what we were taught, and it is precisely this constant testing against reality that turns knowledge into genuine wisdom.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):完整回应了 discuss both views + give your opinion 三个部分。引言明确点出立场(\"I am inclined to believe that the experiences gained after school ultimately prove more valuable\"),第2、3段客观陈述双方看法并各自展开一个通用论据(地基比喻论证学校打基础、丢掉第一份工作学到 resilience 的假设情景),结尾段权衡后重申并论证立场,观点全篇一致、不骑墙。",
+              "Coherence & Cohesion(连贯与衔接):四段结构一段一个中心(立场→观点A→观点B→我的结论),段落之间用 \"Those who champion...\"\"The opposing camp, however, contends...\"\"On balance...\" 这类自然的立场标记推进,而非机械堆砌 Firstly/Secondly;句内用 \"thereby\"\"Moreover\"\"for instance\" 等多样衔接,指代(these formative years / this constant testing)清晰不重复。",
+              "Lexical Resource(词汇资源):用词精准且有地道搭配与高级表达,如 \"a perennial one\"\"the defining chapter\"\"literacy, numeracy and the habits of disciplined thought\"\"solid footings / groundwork\"\"the protective walls of the institution fall away\"\"turns knowledge into genuine wisdom\";近义替换灵活(champion / contend / maintain;formative / impressionable / transformative),几乎无搭配错误。",
+              "Grammatical Range & Accuracy(语法多样性与准确性):句式多样且准确,含定语从句(where a person first acquires...)、比较状语从句(Just as a building cannot stand...)、分词状语(Having weighed both positions)、让步复合句(although schooling is undeniably indispensable, I maintain that...)以及强调结构(it is precisely this constant testing...that...),绝大多数句子零错误。"
+            ],
+            "vsGaokao": [
+              "字数维度:雅思 Task 2 要求最少 250 词,本文 273 词落在 260–290 的理想区间;高考英语作文通常仅 100 词左右(读后续写/应用文),字数少且超纲/不足的评分逻辑完全不同——雅思字数不够会直接扣分。",
+              "论据来源维度:本文全部使用普适论据(地基比喻、\"丢掉第一份工作学到 resilience\" 的假设情景),严格避开 \"our textbook\"\"the principal said\"\"John Li\" 等课本/人名引用;高考作文常鼓励套用课本人物、名人名言、模板句,而雅思会把这类个人化/编造引用判为离题跑偏。",
+              "语域维度:本文为正式学术语域,无缩略(用 cannot 而非 can't)、无书信体、控制第一人称叙事,只在表明立场时用 I;高考作文允许甚至偏好书信/日记等半正式口语体,可用缩略和大量个人叙述,评分不惩罚口语化。",
+              "结构与评分维度:雅思按 4 项独立标准(TR/CC/LR/GRA)各占 25% 打分,要求立场贯穿、论点深度展开(理由+举例+推演成链),本文每段先陈述后论证再收束;高考多按\"内容要点是否覆盖 + 语言档次\"整体评分,鼓励要点罗列和亮点句堆砌,不要求单一论点像本文这样纵深展开。"
+            ]
+          },
+          "vocabHints": [
+            "a perennial question",
+            "the defining chapter",
+            "I am inclined to believe",
+            "the habits of disciplined thought",
+            "the protective walls of the institution",
+            "On balance",
+            "undeniably indispensable",
+            "turns knowledge into genuine wisdom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "课外活动与社团建设",
+      "titleEn": "Clubs & Extracurricular Activities",
+      "desc": "围绕社团提案书展开，涉及规划能力、兴趣发展和校园文化建设的写作。",
+      "prompts": [
+        {
+          "source": "2024 南通泰州一模",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校国际部将成立一个新的学生社团，现面向全校征集提案。请你写一封提案信，内容包括：1. 你想成立的社团名称及理由；2. 社团的主要活动规划；3. 预期成果。注意：词数100左右。",
+          "reference": "Dear Student Council,\n\nI am writing to propose the establishment of a Creative Writing Club, which I believe will benefit students who are passionate about storytelling in English.\n\nThe club, which would meet twice a week, will focus on three main areas. First, we will hold writing workshops where members can share their work and receive constructive feedback. Second, we will invite guest speakers — local authors and journalists — to inspire us with their techniques and experiences. Third, we plan to publish a monthly online newsletter to showcase our members' best pieces.\n\nI am confident that this club will help students develop their writing skills, discover their creative potential, and build a community of like-minded learners. The possibilities are endless when young writers support each other. With your approval, I would be ready to launch the club early next month.\n\nYours sincerely,\nLi Hua",
+          "vocabHints": [
+            "propose",
+            "establish",
+            "technique",
+            "potential",
+            "opportunity",
+            "make a difference",
+            "fully realize",
+            "positive attitude",
+            "well-rounded"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that schools should focus primarily on academic achievement, while others argue that extracurricular activities are equally important. Discuss both views and give your opinion. (Write at least 250 words.)",
+          "reference": "There is an ongoing debate about whether schools ought to concentrate mainly on academic performance or place equal weight on activities beyond the classroom, such as sport, music and clubs. While I acknowledge the value of strong academic results, I firmly believe that extracurricular pursuits deserve comparable importance in a well-rounded education.\n\nThose who champion academic achievement argue that a school's core mission is to equip young people with knowledge and intellectual skills. From this perspective, examinations and qualifications act as gateways to higher education and rewarding careers, so anything that diverts time from studying is a distraction. A teenager who devotes long hours to mathematics and science, rather than to hobbies, is likely to secure a university place and, ultimately, greater financial security. Given how fiercely competitive the modern job market has become, this emphasis on measurable results is understandable.\n\nAdvocates of extracurricular activities, on the other hand, contend that personal development matters just as much as grades. Team sports, debating and volunteering cultivate qualities that examinations rarely assess, including leadership, cooperation and resilience. A student who captains a football team, for instance, learns to motivate others and cope with pressure, skills that prove invaluable in adult life. Employers increasingly value such attributes, precisely because they cannot be measured by a certificate alone.\n\nIn my view, the two priorities are not mutually exclusive but complementary. An education fixated solely on grades risks producing capable yet one-dimensional individuals, whereas activities outside lessons nurture the emotional and social maturity that academic study overlooks. Schools should therefore treat both as essential, since genuine success depends on developing the whole person, not merely a high-achieving mind.",
+          "wordCount": 273,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):四段结构完整回应了 discuss both views + give your opinion 的每一部分——第2段客观陈述'学术优先'方(so anything that diverts time from studying is a distraction),第3段陈述'课外活动'方,第4段用 the two priorities are not mutually exclusive but complementary 明确亮出并论证权衡立场;引言即用 I firmly believe 点明 thesis,立场全篇一致。每个论点都有'理由+展开举例+推演'(如 A student who captains a football team... learns to motivate others),而非要点罗列。",
+              "Coherence & Cohesion(连贯与衔接):每段一个中心,段落间用对照衔接自然过渡(Those who champion... / Advocates..., on the other hand / In my view),没有堆砌 Firstly/Secondly;句内逻辑词多样精准(so, given how, precisely because, whereas, therefore, since),指代与信息推进流畅。",
+              "Lexical Resource(词汇):搭配地道且精准——champion academic achievement, gateways to higher education, fiercely competitive job market, cultivate qualities, one-dimensional individuals, emotional and social maturity;近义替换丰富(extracurricular pursuits / activities beyond the classroom / hobbies),几乎无用词错误,学术语域统一。",
+              "Grammatical Range & Accuracy(语法):句式多样且准确——定语从句(qualities that examinations rarely assess)、插入语举例(A student who captains a football team, for instance, learns...)、对比复合句(An education fixated solely on grades risks..., whereas activities... nurture...)、not... but... 结构;绝大多数句子零错误,标点与主谓一致稳定。"
+            ],
+            "vsGaokao": [
+              "字数与'精简'要求不同:雅思 Task 2 硬性≥250 词,本文 276 词落在 260–290 的黄金区间——写太长反而稀释密度、易出错;高考英语作文通常仅要求 80–120 词,考的是'写够、写对',而雅思考的是'在有限篇幅内充分展开论证'。",
+              "论据来源不同:本文全部使用普适性论据(全球就业市场竞争、球队队长的假设情景、雇主的普遍偏好),【绝对没有】出现课本原句、老师姓名、校长发言等个人化引用;高考常鼓励'联系课文/身边人事',但在雅思中这类引用会被判为离题、不学术,直接压分。",
+              "语域(register)不同:全文正式学术体,不用缩略(用 do not 而非 don't)、不用书信寒暄、不过度第一人称叙事,仅在表明立场处用 In my view / I firmly believe;高考作文常含书信/演讲体套话(Dear..., I'm writing to...、As we all know),那些在雅思里会拉低正式度评分。",
+              "评分维度不同:雅思按 TR / CC / LR / GRA 四个独立维度打分,要求'立场贯穿、衔接多样、搭配地道、复杂句准确'四项均衡达标(本文四段各司其职即为对应设计);高考则以'内容要点是否覆盖+语言档次'整体评分,更看重要点齐全和亮点句,不像雅思那样对'论证展开深度'和'跑题即扣'如此严格。"
+            ]
+          },
+          "vocabHints": [
+            "place equal weight on",
+            "a well-rounded education",
+            "champion academic achievement",
+            "gateways to higher education",
+            "not mutually exclusive but complementary",
+            "capable yet one-dimensional individuals",
+            "developing the whole person",
+            "cope with pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "适应新环境与自我成长",
+      "titleEn": "Adapting to New Environments",
+      "desc": "通过 John Li 的故事探讨转学适应、文化冲突和新生活的勇气。",
+      "prompts": [
+        {
+          "source": "2024 苏州期中",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是李华，你的澳大利亚朋友Alice即将到你所在城市的高中学习一年，她来信表达了对适应新环境的担忧。请你写一封回信，内容包括：1. 表示理解和安慰；2. 结合自身经历提供建议；3. 表达祝愿。注意：词数100左右。",
+          "reference": "Dear Alice,\n\nI completely understand how you feel. Moving to a new school, especially one in a different country, can be overwhelming. When I first entered senior high, I also found everything unfamiliar — new teachers, new classmates, and a curriculum that was far more demanding than what I was used to.\n\nThe good news is that in time you will find yourself adapting naturally. When I look back, the key was to stay open and curious. I joined a few clubs, which helped me meet people who shared my interests. I also made a point of talking to my teachers whenever I felt lost — they were always willing to help. At first, there was not as much free time as I was used to, but it was still manageable with proper planning.\n\nI have confidence in your ability to make a difference in your new environment. The challenges you face now will become the stories you tell with pride later. I'm looking forward to showing you around when you arrive!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "challenging",
+            "as...as I was used to",
+            "in time",
+            "find oneself doing",
+            "make a difference",
+            "positive attitude",
+            "opportunity",
+            "acquire",
+            "confidence"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Moving to a new school or city can be a challenging experience for young people. What are the main difficulties they face, and what can schools and parents do to help them adapt? (Write at least 250 words.)",
+          "reference": "Relocating to an unfamiliar school or city is often a demanding transition for adolescents. This essay will examine the principal obstacles they encounter and outline the practical measures that both schools and parents can take to ease their adjustment.\n\nThe most immediate challenge is social isolation. Having left behind established friendships, newcomers frequently struggle to break into existing peer groups, and this sense of not belonging can breed loneliness and anxiety. A second difficulty is academic disruption, since different institutions follow distinct curricula and teaching styles. A student who was thriving in one environment may suddenly find the pace unfamiliar or the material misaligned with what they previously covered, which can erode their confidence and motivation.\n\nSchools and parents can address these problems in complementary ways. To counter social isolation, schools might implement structured buddy systems that pair each arrival with a welcoming classmate, alongside clubs and group activities that create natural opportunities for friendship. Parents, meanwhile, can encourage their children to participate and can nurture connections outside the classroom, perhaps through community sports or hobbies. As for academic difficulties, teachers can conduct early assessments to identify gaps and offer targeted support, while parents can maintain close communication with staff and provide a stable, reassuring atmosphere at home so that setbacks are treated as temporary rather than defining.\n\nIn conclusion, the chief hurdles for young people who move are forming new friendships and coping with unfamiliar academic demands. Through coordinated effort, schools can foster inclusion and learning support while parents supply emotional stability. With such backing, most adolescents will ultimately adapt and even flourish in their new surroundings.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):完整回应了题目的两个部分——先集中论证两个困难(social isolation 与 academic disruption),再在对策段用 To counter social isolation... / As for academic difficulties... 与之一一对应,做到\"困难—对策\"精准挂钩;每个论点都有理由加推演(如 this sense of not belonging can breed loneliness and anxiety),不是要点罗列。",
+              "Coherence & Cohesion(连贯与衔接):四段结构各司其职,每段一个中心;衔接手段自然多样,如 The most immediate challenge / A second difficulty / meanwhile / As for / In conclusion,并用 complementary ways 提前预告对策与困难呼应,避免了 Firstly/Secondly 的机械堆砌。",
+              "Lexical Resource(词汇资源):用词精准且有地道搭配,如 demanding transition、break into existing peer groups、erode their confidence、structured buddy systems、targeted support、foster inclusion、flourish in their new surroundings,高级词与主题话题词自然融入,几乎无用词错误。",
+              "Grammatical Range & Accuracy(语法广度与准确度):复杂句式灵活准确,含现在分词状语(Having left behind established friendships...)、定语从句(A student who was thriving...)、目的状语从句(so that setbacks are treated as...)以及 while 引导的对比复合句,绝大多数句子零错误。"
+            ],
+            "vsGaokao": [
+              "字数标准不同:雅思 Task 2 要求\"至少 250 词\",本文控制在 274 词这一 band 8 理想区间(既够展开又不冗长);高考英语作文通常仅要求 80–120 词左右,篇幅和论证深度远低于雅思。",
+              "论据来源不同:本文全部使用普适性论据(social isolation、curricula 差异、buddy systems、community sports 等全球通用现象与假设情景),严禁出现\"课本里说\"\"李华\"\"校长说\"这类个人化/课本化引用;而高考作文常围绕虚拟人物李华、课堂情景展开,这在雅思会被判离题跑偏。",
+              "语域不同:本文全程正式学术语域,无口语缩略(do not/cannot 而非 don't),不用书信体和过度第一人称叙事;高考作文常为书信/通知/记叙,允许 Dear...、I'm writing to... 等半正式或口语表达。",
+              "评分维度不同:雅思按 Task Response、Coherence & Cohesion、Lexical Resource、Grammatical Range & Accuracy 四项独立打分并平均,强调论证充分与句式多样;高考则以内容要点是否覆盖 + 语言档次整体评分为主,缺乏对\"立场贯穿\"\"论点推演\"这类独立维度的严格考查。"
+            ]
+          },
+          "vocabHints": [
+            "a demanding transition",
+            "the principal obstacles",
+            "break into existing peer groups",
+            "structured buddy systems",
+            "erode their confidence and motivation",
+            "targeted support",
+            "foster inclusion",
+            "flourish in their new surroundings"
+          ]
+        }
+      ]
+    }
+  ]
+}

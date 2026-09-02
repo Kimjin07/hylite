@@ -1,0 +1,130 @@
+{
+  "mainTopic": "健康生活与自我接纳",
+  "mainTopicEn": "Healthy Living & Self-acceptance",
+  "mainTopicBrief": "本单元围绕“为瘦而伤”的新闻事件，涵盖科学健身与饮食（Reading）、身材焦虑与自我接纳（Extended reading）和理性看待整容（Integrated skills）三个子话题——健康类命题在高考应用文与雅思议论文中都属必练靶区。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "科学减肥与健康生活",
+      "titleEn": "Healthy Ways to Keep Fit",
+      "desc": "课文新闻：Jennifer 因节食晕倒——so-called 'quick-fix methods' 有害，balanced diet + regular exercise 才是正道。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是李华。你的美国笔友 Lisa 来信说她为了快速减肥经常不吃早餐（skip breakfast），最近上课很难集中注意力。请你写一封回信，内容包括：1. 表达关心；2. 指出这种做法的危害；3. 提出健康建议。注意：词数100左右。",
+          "reference": "Dear Lisa,\n\nI'm worried to learn that you often skip breakfast to lose weight and now have trouble concentrating in class.\n\nPlease stop — these so-called \"quick-fix methods\" prove to be harmful. Skipping meals leads to dangerously low blood sugar levels, which explains your tiredness. In the news, a teenager even fainted after skipping meals; habits like these, if maintained over the long term, can become a serious health risk.\n\nHere is my advice. Have a healthy, well-balanced diet, and never trade meals for a number on the scale. Besides, take regular exercise — aim for the daily average of 30 to 60 minutes — and keep regular hours. In time you will get into shape and feel energetic again.\n\nYours,\nLi Hua",
+          "vocabHints": ["skip meals", "have trouble concentrating", "quick-fix methods", "dangerously low blood sugar levels", "a well-balanced diet", "take regular exercise", "keep regular hours", "get into shape"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "An increasing number of teenagers are trying to lose weight in unhealthy ways. What are the causes of this trend? What solutions can you suggest? (Write at least 250 words.)",
+          "reference": "In many countries, growing numbers of teenagers are starving themselves, over-exercising or taking diet pills in pursuit of a thinner body. Explaining this worrying trend, and finding ways to reverse it, deserves serious attention.\n\nThe causes lie chiefly in the images young people absorb. In a culture where being thin is routinely presented as being beautiful, the media parade flawless bodies as the price of admission to happiness, and social platforms turn appearance into a daily competition scored in likes. Teenagers, whose self-image is still under construction, are especially defenceless against this message. A second cause is ignorance: many genuinely believe that skipping meals is a shortcut, unaware that so-called quick-fix methods slow the body down, damage concentration and, maintained over time, become a serious health risk.\n\nSolutions should therefore target both the message and the knowledge gap. Schools can teach media literacy alongside biology, showing students how images are edited and how starvation actually undermines the slimness it promises. Health classes ought to replace vague warnings with practical guidance — balanced meals, regular exercise and sufficient sleep — so that the healthy route is as concrete as the harmful one. Parents and doctors, for their part, should watch for warning signs and respond with support rather than criticism, since shame is precisely what drives secret dieting.\n\nNo single measure will dissolve a pressure that flows from the surrounding culture. But when young people understand both why the images lie and how real fitness is built, the appeal of dangerous shortcuts fades — and health, not thinness, becomes the goal worth chasing.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 双问齐答且互相咬合——原因两条(审美文化的图像轰炸/生理知识的空白),对策精确对位(媒介素养课破图像/实操性健康指导补知识/家庭以支持代批评),结尾承认局限再收束,避免'万能药'式空话。",
+              "Coherence & Cohesion(连贯与衔接):'The causes lie chiefly in...'/'A second cause is...'/'Solutions should therefore target both...'——原因与对策镜像结构;'both the message and the knowledge gap'一句预告下文两条对策,衔接即大纲。",
+              "Lexical Resource(词汇资源):'in pursuit of a thinner body'、'parade flawless bodies as the price of admission to happiness'、'scored in likes'、'self-image is still under construction'、'the appeal of dangerous shortcuts fades'——原创搭配密集;quick-fix/health risk 等主题词自然化用不显搬运。",
+              "Grammatical Range & Accuracy(语法准确性):whose 定语从句、分词独立结构('maintained over time')、so that 目的从句、插入语('for their part')、since 因果从句;长句多而清晰,几乎无误。"
+            ],
+            "vsGaokao": [
+              "体裁对照:同一素材(不吃早餐减肥)在高考中是100词关心回信,在雅思中是259词社会分析——前者劝一个人,后者析一代人。",
+              "论据来源:本文用文化机制与普遍心理(图像编辑、点赞竞赛),不引用'Jennifer 晕倒'的课文新闻细节;高考回信恰恰可借新闻事例增强说服力。",
+              "语域:无称呼落款与关切口吻,批评对象是文化而非收信人;高考回信的温度是评分点。",
+              "评分维度:雅思 TR 要求原因-对策一一对应(本文两两镜像);高考只需'关心+危害+建议'三要点齐备,不考对应结构。"
+            ]
+          },
+          "vocabHints": ["in pursuit of", "parade flawless bodies", "scored in likes", "under construction", "media literacy", "undermine the slimness it promises", "warning signs", "the goal worth chasing"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "身材焦虑与自我接纳",
+      "titleEn": "Body Image & Self-acceptance",
+      "desc": "课文劝导：盲目追赶 standards of beauty in the media 是 fight a losing battle——take pride in things you do well，接纳自己。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"Learning to Like Myself\" 为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你或身边人曾有的外貌焦虑；2. 转变的经过；3. 你的感悟。注意：词数100左右。",
+          "reference": "For a long time, dark thoughts about my ordinary looks hung over me. Comparing myself with the perfect faces online, I only ended up feeling worse about myself.\n\nThe turning point came when my art teacher praised my sketches in front of the class. For the first time, I realized that everyone has their own talents, and that trying to live up to the standards of beauty in the media is fighting a losing battle.\n\nNow I take pride in the things I do well. My contents, I have learned, are far more important than my cover. Like what you do, and you will learn to like who you are.",
+          "vocabHints": ["dark thoughts hang over sb", "end up feeling worse", "everyone has their own talents", "live up to", "standards of beauty in the media", "fight a losing battle", "take pride in", "contents vs cover"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Advertising and social media promote unrealistic standards of physical beauty. Some people think this has a harmful effect on young people. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Modern advertising and social media surround young people with images of physical perfection that few real bodies can match. It is widely argued that this stream of idealised beauty does genuine harm to the young, and I agree almost without reservation.\n\nThe central harm is a quiet redefinition of normal. When every billboard face is flawless and every feed is filtered, the ordinary body — the kind most people actually inhabit — begins to look like a failure. Teenagers, still assembling their identities, absorb this arithmetic quickly: they compare, find themselves lacking, and end up feeling worse about a self that was never defective in the first place. The consequences are not merely emotional. Chasing an unreachable standard pushes some towards punishing diets and obsessive exercise, a battle that cannot be won because the finish line is imaginary; others withdraw socially, convinced that their worth is measured in their reflection.\n\nDefenders of the industry reply that such images are aspiration, not instruction, and that beauty content can motivate healthy habits. The argument fails on one decisive point: the standards promoted are not honestly labelled as constructed. A photograph edited beyond reality is presented as reality, and young viewers are invited to judge their unedited selves against it — a comparison rigged from the start.\n\nI would allow one small qualification: the harm is not evenly distributed, and confident teenagers with strong offline lives often shrug the images off. Yet policy cannot be built on the resilient few. Until idealised images carry honest labels, their net effect on the young remains, in my judgement, plainly harmful.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):程度表态精确——'agree almost without reservation'先行,主体充分论证核心危害(正常的重新定义→比较→自我贬低→极端行为),反方观点一段并当场驳倒('a comparison rigged from the start'),再让一小步(qualification)后收回,立场层次丰富且不骑墙。",
+              "Coherence & Cohesion(连贯与衔接):'The central harm is...'/'Defenders of the industry reply...'/'I would allow one small qualification'——论证-反驳-限定的三段舞步完整;'the finish line is imaginary'呼应课文'losing battle'意象而不搬原句。",
+              "Lexical Resource(词汇资源):'a quiet redefinition of normal'、'still assembling their identities'、'absorb this arithmetic'、'punishing diets'、'worth is measured in their reflection'、'honestly labelled as constructed'——高浓度原创表达;filtered/edited 等数字词汇准确。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入定义('the ordinary body — the kind most people actually inhabit —')、because 从句嵌比喻、过去分词短语('convinced that...')、until 条件收尾;复杂句密集且无误。"
+            ],
+            "vsGaokao": [
+              "视角对照:高考征文写'我如何走出焦虑'的个人弧线;雅思写'该现象为何有害'的社会论证——同一主题,叙事与说理两条赛道。",
+              "论据来源:本文用行业机制(修图未标注、算法投喂),不用'美术老师表扬我'式个人转折;个人故事在雅思中只能作辅例且本文未用。",
+              "语域:雅思保持批判性学术语气,让步-驳斥-限定的链条不带情绪词;高考征文以真情实感收尾加分。",
+              "评分维度:雅思 to what extent 题必须给出程度并处理反方(本文专段驳斥);高考征文无需反方视角,三要点完整即可。"
+            ]
+          },
+          "vocabHints": ["idealised beauty", "a quiet redefinition of normal", "still assembling their identities", "find themselves lacking", "an unreachable standard", "rigged from the start", "shrug off", "carry honest labels"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "理性看待整容",
+      "titleEn": "Thinking Critically about Plastic Surgery",
+      "desc": "课文新闻双案例：烧伤修复的 Mr Wilson vs 不满外貌的 Miss Edwards——weigh up all of the advantages and disadvantages, think before you act。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举行以 \"Should Teenagers Have Cosmetic Surgery?\" 为主题的英语讨论会。请你准备一篇发言稿表明你的观点，内容包括：1. 你的观点；2. 两条理由；3. 建议。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nShould teenagers have cosmetic surgery just to look better? My answer is no — at least not before we grow up.\n\nFirst, our bodies are still growing, so the results might not be what we expect; some people even end up looking unnatural, unable to make certain facial expressions. Second, surgery cannot cure the real problem, which often lies in confidence rather than appearance. True beauty, as we all know, comes from what we do and who we are.\n\nOf course, surgery that treats burns or injuries is a different matter. But before making any decision, we must weigh up all of the advantages and disadvantages. Think before you act!\n\nThank you!",
+          "vocabHints": ["cosmetic/plastic surgery", "the results might not be what people expect", "look unnatural", "facial expressions", "weigh up the advantages and disadvantages", "think before you act", "treat burns", "confidence rather than appearance"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "More and more young people are choosing to have cosmetic surgery to improve their appearance. Do you think this is a positive or negative development? (Write at least 250 words.)",
+          "reference": "Cosmetic procedures, once the preserve of the wealthy few, are now marketed to ordinary young people as casually as a new hairstyle. Whether this normalisation is welcome is open to debate; in my view, it is a largely negative development, with one clearly positive exception.\n\nThe exception deserves stating first. Reconstructive surgery — repairing skin after burns, correcting features damaged by accident or illness — restores what misfortune took away, and the confidence it returns to a patient is beyond argument. A man who can face the world again after a fire owes modern medicine a genuine debt.\n\nElective surgery on healthy young faces is another matter. Medically, a body that is still developing makes a poor canvas: results shift as growth continues, and some patients end up with faces that look unnatural or move unwillingly. Psychologically, the knife treats the symptom while feeding the disease. Dissatisfaction with one's appearance usually grows from comparison and insecurity; each operation confirms the belief that the fault lay in the face rather than in the standard it was measured against. It is telling that satisfaction after such procedures is often brief, with attention simply migrating to the next perceived flaw. Socially, every normalised operation raises the price of remaining natural, quietly pressuring peers to follow.\n\nI do not argue for prohibition; adults are entitled to their choices. But a culture that teaches its youngest members to correct their faces before their characters have finished forming has confused the order of self-improvement. On balance, the trend does more harm than good.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):positive/negative 题型的高分处理——立场明确('largely negative')且先处理例外(修复性手术为正面),再从医学/心理/社会三层论证选择性整容之弊,结尾区分'反对文化'与'禁止个人'避免极端化;立场精确有层次。",
+              "Coherence & Cohesion(连贯与衔接):'The exception deserves stating first'/'Elective surgery...is another matter'/'Medically... Psychologically... Socially...'——例外前置+三维推进的结构干净利落;'treats the symptom while feeding the disease'一句完成心理层论证的枢纽。",
+              "Lexical Resource(词汇资源):'once the preserve of the wealthy few'、'a poor canvas'、'move unwillingly'、'the fault lay in the face rather than in the standard'、'attention migrating to the next perceived flaw'、'raises the price of remaining natural'——比喻链服务论证;reconstructive/elective 术语对照准确。",
+              "Grammatical Range & Accuracy(语法准确性):破折号定义插入、It is telling that 强调、with 独立结构('with attention simply migrating')、否定前置('I do not argue for prohibition')、完成时从句('before their characters have finished forming');句式繁复而准确。"
+            ],
+            "vsGaokao": [
+              "结构对照:高考发言稿用'观点+两理由+建议'的并列式;雅思本文用'例外前置+三维论证+边界声明'的层进式——后者的结构本身就是 TR/CC 得分点。",
+              "论据来源:本文将课文双案例(烧伤修复/表情僵硬)抽象为 reconstructive vs elective 的类型学,不点名 Mr Wilson/Miss Edwards;高考发言稿可直接引用新闻案例增强现场说服力。",
+              "语域:无 Good afternoon/感叹号/设问开场;雅思的克制批判('It is telling that...')与高考的直给号召('Think before you act!')是两种修辞传统。",
+              "评分维度:雅思要求 positive/negative 表态覆盖'程度与例外'(本文 largely negative + exception);高考观点题选边站队即可,不要求处理例外情形。"
+            ]
+          },
+          "vocabHints": ["once the preserve of", "normalisation", "reconstructive vs elective", "a poor canvas", "treat the symptom while feeding the disease", "perceived flaw", "raise the price of remaining natural", "the order of self-improvement"]
+        }
+      ]
+    }
+  ]
+}

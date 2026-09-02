@@ -1,0 +1,130 @@
+{
+  "mainTopic": "友谊的经营与考验",
+  "mainTopicEn": "Friendship: Building, Testing and Keeping",
+  "mainTopicBrief": "本单元围绕“触礁的友谊”话题，涵盖友谊危机的修复（Reading）、独处与友谊的平衡（Extended reading）和科技对友谊的侵蚀（Grammar）三个子话题——友谊类命题是高考应用文与雅思议论文的常青主题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "友谊危机与修复",
+      "titleEn": "Friendship on the Rocks",
+      "desc": "课文情景：好友爽约还“撒谎”，我气愤又不舍——this friendship is worth saving，如何开诚布公地修复？",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报“心灵信箱”栏目收到一封求助信：一位同学因好友临时爽约看电影、事后还发现对方隐瞒实情而深感受伤，不知是否该继续这段八年的友谊。请你以栏目主持人身份写一封回信，内容包括：1. 表示理解；2. 分析是否值得挽回；3. 给出具体做法。注意：词数100左右。",
+          "reference": "Dear friend,\n\nI understand how hurt you feel — being let down by a close friend is never easy, and it is natural that you don't feel like responding to her messages right now.\n\nStill, don't be so quick to judge your friend. Eight years is a long time, and a friendship like this is worth saving. Perhaps she knows she is in the wrong and wants to apologize, but simply doesn't know how to start.\n\nIn any case, find an opportunity to have a full and frank talk with her. Ask calmly what really happened that day, and tell her honestly how you felt. If she values the friendship as much as you do, this storm will pass — and your bond may grow even stronger.\n\nYours,\nThe Editor",
+          "vocabHints": ["feel like doing", "be quick to judge", "worth saving", "in the wrong", "apologize to sb for sth", "in any case", "a full and frank talk", "value the friendship"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that a true friendship can survive any conflict, while others think that serious disagreements inevitably damage friendships beyond repair. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether friendship can outlive serious conflict is a question most people confront at some point in their lives. Some insist that genuine bonds are strong enough to survive any quarrel, while others believe that certain wounds, once inflicted, can never fully heal. My own position is that conflict tests friendship rather than destroys it — and that the outcome depends less on the quarrel itself than on what both sides do next.\n\nThose who doubt the durability of friendship have experience on their side. A betrayal of trust — a secret revealed, a promise broken — changes how two people see each other, and no apology can entirely erase the memory. Even after an outward reconciliation, a certain guardedness may remain, so that the friendship survives in name but not in warmth. For such observers, pretending that all conflicts are repairable is naive.\n\nThe opposing view, however, rests on an equally common observation: many of the deepest friendships are those that have weathered a storm. A conflict forces two people to say aloud what they truly expect from each other, which polite everyday contact never requires. When both sides return to the table, admit their share of the fault and talk honestly, they emerge knowing each other — and trusting each other — at a level that untested friendships rarely reach.\n\nIn my judgement, therefore, neither survival nor collapse is automatic. A friendship endures when the people in it decide it is worth saving and act accordingly: apologising without excuses, listening without interrupting, and forgiving without keeping score. Conflict merely asks the question; the answer is always written by the friends themselves.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点+己见完整覆盖——引言给出第三条道路式立场('conflict tests friendship rather than destroys it'),两个主体段各自展开一条推演链(背叛→记忆不灭→貌合神离 / 冲突→说出期待→更深信任),结论段把立场落到三个可操作动作上,回应充分不空泛。",
+              "Coherence & Cohesion(连贯与衔接):'Those who doubt...have experience on their side'/'The opposing view, however, rests on...'/'In my judgement, therefore'——立场标记句自然推进;'Conflict merely asks the question; the answer is written by the friends themselves'分号对句收尾,呼应引言的'depends on what both sides do next'。",
+              "Lexical Resource(词汇资源):'outlive serious conflict'、'once inflicted'、'an outward reconciliation'、'guardedness'、'weathered a storm'、'admit their share of the fault'、'forgiving without keeping score'——搭配地道;近义链(quarrel/conflict/wounds/betrayal)替换自然。",
+              "Grammatical Range & Accuracy(语法准确性):插入语与破折号运用娴熟('A betrayal of trust — a secret revealed, a promise broken —')、so that 结果从句、which 指代前句、三个 without+动名词排比;句长错落,几乎零误。"
+            ],
+            "vsGaokao": [
+              "体裁对照:同一素材(好友爽约隐瞒)在高考中是100词回信,在雅思中是268词论证——前者安慰具体的人,后者讨论抽象的命题。",
+              "论据来源:本文全用普遍人际观察(背叛的记忆、风雨后的信任),不出现'八年友谊''看电影'等具体情节;高考回信恰恰要贴题目情景。",
+              "语域:无称呼落款、无安慰语气,第一人称仅用于立场;高考回信的温度与共情是评分点,雅思则要求冷静权衡。",
+              "评分维度:雅思看立场一致与论证纵深(本文'第三条道路'立场需全篇维护);高考看要点覆盖——'理解/分析/建议'三点齐即可,不要求思辨深度。"
+            ]
+          },
+          "vocabHints": ["outlive conflict", "a betrayal of trust", "erase the memory", "survive in name but not in warmth", "weather a storm", "admit one's share of the fault", "without keeping score", "worth saving"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "独处与友谊的平衡",
+      "titleEn": "Solitude & the Value of Friendship",
+      "desc": "课文思辨：我们既需要 quiet periods of reflection 静思独处，也需要友谊 comfort the heart, advise the head——如何平衡？",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"Time Alone, Time Together\" 为主题的征文活动。请你写一篇短文谈谈你对独处与相处的看法，内容包括：1. 独处的价值；2. 友谊的价值；3. 你如何平衡两者。注意：词数100左右。",
+          "reference": "Some of my classmates fear being alone, but I treasure my quiet periods of reflection. When I seek to be alone, I can escape into my own world, sort out my thoughts and work on personal improvement.\n\nYet no one can live on solitude alone. Close friendships comfort the heart, advise the head and help us achieve the goals we set for ourselves. When I share good news with my friends, happiness takes on a greater meaning; when I share a worry, a trouble shared becomes a trouble halved.\n\nMy balance is simple: I keep my mornings for myself and my weekends for my friends. Alone, I recharge; together, we grow — and I would not give up either.",
+          "vocabHints": ["quiet periods of reflection", "seek to be alone", "escape into one's own world", "personal improvement", "comfort the heart, advise the head", "a trouble shared becomes a trouble halved", "take on a greater meaning", "treasure these moments"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people prefer to spend most of their free time alone, while others prefer to spend it with friends. Discuss both preferences and explain which you think leads to a happier life. (Write at least 250 words.)",
+          "reference": "How free time is best spent — in one's own company or in that of friends — divides people more sharply than almost any other lifestyle question. Both preferences have committed defenders, and each, I will argue, supplies something the other cannot; the happier life belongs to those who refuse to choose permanently between them.\n\nThe case for solitude is stronger than its quiet reputation suggests. Time alone offers what crowded days rarely allow: unhurried reflection. Freed from the pressure to respond and perform, a person can examine mistakes honestly, plan without interruption and let genuine interests surface. It is no accident that writers, scientists and artists have long guarded their solitary hours; depth of thought demands an empty room.\n\nAdvocates of companionship answer with an equally powerful truth: happiness grows when it is witnessed. Friends multiply joy and divide sorrow; a success celebrated together takes on a greater meaning, while a worry spoken aloud loses half its weight. Beyond comfort, friends supply perspective — they notice our blind spots, challenge our excuses and pull us out of the small circles our own minds draw around us.\n\nMy own conclusion is that the question poses a false choice. Solitude without friendship curdles into loneliness; friendship without solitude leaves a person permanently performing and never reflecting. The happiest people I know move deliberately between the two — withdrawing to understand their lives, returning to share them. Free time, in the end, is not a room to be furnished in one style; it is a rhythm, and the art lies in the alternation.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双偏好各得一段公允展开,第三问'哪种更幸福'以'拒绝二选一'的辩证立场回应并从引言贯穿到结论——立场有新意且全程一致;每段论点都推演成链(独处→免于表演→深度思考;陪伴→见证→放大快乐+提供视角)。",
+              "Coherence & Cohesion(连贯与衔接):'The case for solitude...'/'Advocates of companionship answer with...'/'My own conclusion is...'推进清晰;'multiply joy and divide sorrow'与'curdles into loneliness / permanently performing'等对句自成衔接;结尾'rhythm/alternation'的比喻收拢全文。",
+              "Lexical Resource(词汇资源):'its quiet reputation'、'let genuine interests surface'、'depth of thought demands an empty room'、'happiness grows when it is witnessed'、'notice our blind spots'、'a room to be furnished in one style'——原创比喻与地道搭配密集且服务论证。",
+              "Grammatical Range & Accuracy(语法准确性):冒号引出核心概念、分号对句('Friends multiply joy and divide sorrow')、分词状语('Freed from the pressure...')、插入语('I will argue')、强调句('It is no accident that...');复杂句准确率极高。"
+            ],
+            "vsGaokao": [
+              "深度对照:高考征文的'平衡'可以是'早晨留给自己、周末留给朋友'的生活化安排;雅思则须把平衡上升为论证过的立场('false choice')并全篇维护。",
+              "论据来源:本文用作家科学家守护独处时光、朋友指出盲点等普适观察;高考征文用个人日常小事——素材层级不同。",
+              "语域:雅思保持学术抽象(curdle/alternation),高考征文可用第一人称叙事和抒情句收尾。",
+              "评分维度:本文'比喻服务论证'是 LR/CC 策略;高考中同样的比喻更多作为文采加分,不承担结构功能。"
+            ]
+          },
+          "vocabHints": ["in one's own company", "unhurried reflection", "let genuine interests surface", "guard one's solitary hours", "multiply joy and divide sorrow", "supply perspective", "blind spots", "the art lies in the alternation"]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "科技与友谊",
+      "titleEn": "Technology & Friendship",
+      "desc": "课件核心句：the modern tools that keep us connected are eating away at the meaning of friendship——连接工具为何反而稀释了友谊？",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举办以 \"Real Friends in a Digital Age\" 为主题的英语班会。请你准备一篇发言稿，谈谈如何在网络时代维护真实的友谊，内容包括：1. 线上社交的问题；2. 你的两条建议；3. 呼吁。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nWe chat online every day, yet many of us feel lonelier than ever. The modern tools that keep us connected are quietly eating away at the meaning of friendship: a \"like\" takes one second, but it warms nobody's heart.\n\nSo how can we keep our friendships real? First, put the phone away when your friend is in front of you — eye contact says more than any emoji. Second, count on deeds, not screens: walk together, study together, and be there when your friend needs help.\n\nTools should serve friendship, not replace it. Let's log off a little more, and live our friendships face to face. Thank you!",
+          "vocabHints": ["keep us connected", "eat away at", "the meaning of friendship", "count on", "shallow", "face to face", "be there for sb", "log off"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that social media has made friendships more superficial. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is often claimed that social media, for all its promise of connection, has made friendship shallower than before. Having watched both the benefits and the costs of these platforms, I largely agree with this view, though with one important reservation.\n\nThe case for the claim is easy to see in daily life. Online platforms reward breadth over depth: they count friends in hundreds and measure affection in taps. A birthday that once deserved a visit or a call now receives a two-word comment; sympathy is outsourced to a sad-face icon. Because these gestures cost almost nothing, they signal almost nothing, and relationships maintained mainly through them tend to survive in appearance while thinning in substance. Worse, the habit of broadcasting life to an audience encourages friends to perform for each other rather than confide in each other — and performance is the opposite of intimacy.\n\nMy reservation, however, is that the technology reflects choices more than it dictates them. For friends separated by distance, the same platforms carry long conversations, shared photographs and daily concern that letters once carried more slowly; here the connection is not superficial but sustained. The shallowness, in other words, lies not in the tool but in treating the tool as the friendship itself.\n\nOn balance, I agree that social media has tilted friendship towards the superficial, because its defaults favour quick, public and effortless contact. Yet the tilt is not destiny. Those who use the screen to arrange meetings rather than replace them will find their friendships as deep as ever — the depth simply has to be chosen.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):agree/disagree 题型的高分处理——明确表态'largely agree'并预告保留意见(reservation),主体先充分论证同意面(廉价手势→信号失效→表演替代交心),再以保留段限定范围(异地友谊反例),结论重申程度('tilted...but not destiny'),立场精确到'程度'而非非黑即白。",
+              "Coherence & Cohesion(连贯与衔接):'The case for the claim...'/'My reservation, however...'/'On balance...'骨架清楚;'reward breadth over depth'、'survive in appearance while thinning in substance'、'perform rather than confide'三组对照词串起论证;'the depth has to be chosen'收尾呼应立场。",
+              "Lexical Resource(词汇资源):'measure affection in taps'、'sympathy is outsourced to a sad-face icon'、'broadcasting life to an audience'、'the defaults favour...'——数字生活词汇精准入文;eat away 主题词的学术转写(thinning in substance)避免直搬课本。",
+              "Grammatical Range & Accuracy(语法准确性):插入让步('for all its promise of connection')、because/while/rather than 多重逻辑连接、破折号补论('and performance is the opposite of intimacy')、倒装强调否定推进;句式繁而不乱,准确率高。"
+            ],
+            "vsGaokao": [
+              "题型对照:同一主题在高考是发言稿(问题+建议+呼吁),在雅思是 to what extent 论证题——后者必须给出'程度'并为保留意见留一段,前者不需要反例。",
+              "论据来源:本文用平台机制观察(点赞成本、广播式分享),不用班级同学的具体故事;高考发言稿以身边场景动人。",
+              "语域:无 Good afternoon/Thank you 的现场框架,无感叹号;克制的学术让步语气(though with one reservation)是雅思高分特征。",
+              "评分维度:雅思 TR 要求立场覆盖'程度',本文 largely agree + reservation 正是为此设计;高考不考程度表态,气势完整即可。"
+            ]
+          },
+          "vocabHints": ["for all its promise", "reward breadth over depth", "measure affection in taps", "outsourced", "perform rather than confide", "not the tool but the use", "tilt towards the superficial", "the depth has to be chosen"]
+        }
+      ]
+    }
+  ]
+}

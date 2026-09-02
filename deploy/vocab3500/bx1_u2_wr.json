@@ -1,0 +1,130 @@
+{
+  "mainTopic": "亲子关系与青春期沟通",
+  "mainTopicEn": "Parents, Teenagers and Communication",
+  "mainTopicBrief": "本单元围绕“同一屋檐下的陌生人”话题，涵盖亲子冲突的成因（Reading）、家庭带来的安全感（Extended reading）和压力倾诉与求助（Integrated skills）三个子话题，均为高考应用文与雅思议论文的高频命题区。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "亲子冲突与沟通之道",
+      "titleEn": "Family Tensions & Communication",
+      "desc": "课文核心：争吵与冷战的成因、the key to keeping the peace，以及换位思考的沟通建议。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是李华。你的英国笔友 Tom 来信说，他最近因手机使用问题频繁与父母发生激烈争吵（heated arguments），甚至冷战，感到十分苦恼。请你写一封回信，内容包括：1. 表示理解并分析这类冲突的原因；2. 给出两条具体的沟通建议；3. 表达鼓励。注意：词数100左右。",
+          "reference": "Dear Tom,\n\nI'm sorry to hear that every dinner at your home seems to turn into a battle. Please don't feel alone — heated arguments and cold silences are common between teenagers and their parents, because we have both a new desire for independence and a continued need to be looked after.\n\nHere is my advice. First, when it all gets too much, take a minute to calm down and try to understand the situation from your parents' point of view. Second, after you have thought it through, explain your feelings calmly and address their concerns about your screen time.\n\nJust remember that growing up is a rough ride, and regular and honest communication is the key to keeping the peace. I'm sure things will turn out all right.\n\nYours,\nLi Hua",
+          "vocabHints": ["turn into a battle", "heated arguments and cold silences", "desire for independence", "calm down", "from one's point of view", "think it through", "address one's concerns", "the key to keeping the peace", "turn out all right"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that conflicts between teenagers and their parents are harmful and should be avoided, while others think such conflicts are a natural and even necessary part of growing up. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Disagreements between adolescents and their parents are as old as family life itself. While some observers regard these clashes as damaging episodes that families should strive to prevent, others see them as an inevitable, even constructive, feature of the journey to adulthood. On balance, I believe that such friction, when handled with care, does more good than harm.\n\nThose who wish to avoid conflict altogether have understandable concerns. Repeated quarrels can poison the atmosphere at home, leaving both sides exhausted and resentful. If a disagreement hardens into a prolonged cold war, communication may break down entirely, and the young person may stop seeking guidance at precisely the age when it is most needed. From this standpoint, harmony appears worth protecting at almost any cost.\n\nThe opposing camp, however, argues that a measure of friction is simply the growing pains of independence. Teenagers are developing their own tastes, opinions and boundaries, and testing these against parental authority is how they learn to negotiate, compromise and defend a position with reasons rather than tears. A household that permits respectful disagreement, in this view, is actually rehearsing its children for adult life, where differences of opinion cannot be wished away.\n\nIn my judgement, the second position is the more convincing, with one proviso: conflict is only productive when it ends in honest conversation rather than slammed doors. Parents who listen before they lecture, and teenagers who explain rather than explode, can turn an argument into an exchange of perspectives. Friction, in other words, is not the enemy of family bonds; silence is.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):完整覆盖 discuss both views + own opinion——引言末句亮明立场('does more good than harm')并加限定('when handled with care'),第二段陈述'冲突有害论'及其推演(争吵→冷战→沟通断裂),第三段陈述'冲突必要论'并论证(试探边界→学会协商),结论段重申立场且补充条件(proviso),立场贯穿不摇摆。",
+              "Coherence & Cohesion(连贯与衔接):四段各有单一中心;衔接自然多样——'Those who wish to avoid...'、'The opposing camp, however'、'From this standpoint'、'In my judgement',不堆砌 Firstly/Secondly;末句'Friction is not the enemy; silence is'以对照收束,首尾呼应。",
+              "Lexical Resource(词汇资源):地道搭配密集——'poison the atmosphere'、'hardens into a prolonged cold war'、'the growing pains of independence'、'rehearsing its children for adult life'、'listen before they lecture / explain rather than explode'(双头韵对句);近义替换灵活(clashes/friction/quarrels/disagreement)。",
+              "Grammatical Range & Accuracy(语法多样性与准确性):句式多样——条件从句('If a disagreement hardens into...')、非限定从句('where differences of opinion cannot be wished away')、插入语('in this view')、with 独立结构('with one proviso')、分词短语('leaving both sides exhausted');几乎零错误。"
+            ],
+            "vsGaokao": [
+              "字数与体裁:本文 262 词符合雅思 ≥250 要求;同话题在高考中多以 100 词左右的回信/建议信出现(如本子话题的模拟题),超字数不加分,评分逻辑完全不同。",
+              "论据来源:本文使用普适的家庭现象与推演(冷战导致沟通断裂、协商能力迁移到成年生活),不引用课文原句或'李华'式个人叙事;高考应用文恰恰鼓励代入具体人物与课本词块,两套写法不可混用。",
+              "语域:全文学术语域,无书信格式、无缩略、克制第一人称;高考回信体必须有称呼、落款和口语化的关切语气——同一话题,两种语体。",
+              "评分维度:雅思按 TR/CC/LR/GRA 四项分别计分,本文的让步-转折-限定结构专为 TR/CC 服务;高考按要点覆盖+语言质量整体评分,不单独考核立场一致性与论证纵深。"
+            ]
+          },
+          "vocabHints": ["as old as family life itself", "poison the atmosphere", "a prolonged cold war", "the growing pains of independence", "negotiate, compromise and defend a position", "listen before they lecture", "an exchange of perspectives", "silence is"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "家庭与安全感",
+      "titleEn": "Family & the Sense of Security",
+      "desc": "《妈妈的银行账户》：一个“并不存在的账户”给全家人带来安全感——家庭如何成为孩子的底气。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"What Family Means to Me\" 为主题的征文活动。请你结合自己或身边人的经历写一篇短文投稿，内容包括：1. 家庭给你的安全感体现在何处；2. 一件具体的小事；3. 你的感悟。注意：词数100左右。",
+          "reference": "Whatever happens, I always know I still have my family to depend upon — that is what family means to me.\n\nLast winter, I failed an important exam and dared not mention it at dinner. My mother said nothing about marks. Instead, she put an extra bowl of my favourite soup in front of me and said, \"Eat first. Everything will turn out all right.\" That warm, secure feeling stayed with me for the whole evening, and I went back to my books with fresh courage.\n\nFamily, I have learned, is not a place where we are never judged; it is a place where we are always received. Like a bank account that never runs out, its love is something we can draw upon in every emergency.",
+          "vocabHints": ["depend upon", "a warm, secure feeling", "turn out all right", "in an emergency", "draw money out of an account", "whatever happens", "count out", "gather around the table"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the family has the greatest influence on a child's development, while others think that outside factors such as friends, school and the media play a more important role. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "What shapes a child most decisively — the home or the wider world — remains a subject of lively debate. Some hold that the family exerts the deepest influence on a young person's development, while others contend that friends, schooling and the media now matter more. In my view, although outside forces grow louder with age, the family remains the quiet foundation on which everything else is built.\n\nSupporters of the second position make a persuasive case. From adolescence onwards, children spend the greater part of their waking hours away from home, absorbing the values of classmates and the messages of a screen-saturated culture. Peer approval can outweigh parental advice; a trend on social media can reshape a teenager's tastes overnight. Judged purely by hours of exposure, the outside world seems to hold the stronger hand.\n\nYet influence is not measured by volume alone. The family provides what no algorithm or classmate can: an unconditional sense of security. A child who knows there is always someone to depend upon acquires the confidence to explore, fail and try again. Habits of honesty, patience and care are rehearsed at the dinner table long before they are tested in public. Even the way young people handle friendship and criticism tends to mirror the emotional patterns first learned at home.\n\nOn balance, therefore, I side with those who place the family first. External voices may decorate the building of character, but the foundations are poured early, at home, and in silence. When those foundations are sound, the louder world can influence a child without ever owning them.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):三问全答——引言即立立场('the family remains the quiet foundation'),第二段公允展开对方论据(时间占比/同伴认同/社媒),第三段以'影响不以音量计'反转并纵深论证(安全感→敢于试错→情感模式镜像),结论权衡收束,立场首尾一致。",
+              "Coherence & Cohesion(连贯与衔接):'Supporters of the second position...'、'Yet influence is not measured by volume alone'、'On balance, therefore'层层推进;建筑隐喻(foundation→decorate the building→foundations are poured)贯穿三段,成为全文的衔接暗线。",
+              "Lexical Resource(词汇资源):'a screen-saturated culture'、'hold the stronger hand'、'an unconditional sense of security'、'rehearsed at the dinner table'、'influence a child without ever owning them'——搭配新鲜准确;depend upon/security 等词呼应话题而不显堆砌。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入定义式开头、冒号引出核心概念('provides what no algorithm or classmate can: ...')、关系从句与分词交替使用;长短句节奏明显(第三段末双短句收势),错误几乎为零。"
+            ],
+            "vsGaokao": [
+              "字数与深度:265 词 vs 高考 100 词;高考征文只需一事一悟,雅思要求双方观点各自展开并作出可辩护的权衡。",
+              "论据来源:本文论据是普遍的社会观察(社媒趋势、餐桌习惯),不讲'我妈妈给我盛汤'式个人故事;高考征文恰恰以真实小事取胜——同一主题,取材方向相反。",
+              "语域:学术客观语气,隐喻服务论证而非抒情;高考征文鼓励温情叙事和抒情结尾。",
+              "评分维度:雅思看四维分项,本文的隐喻线与反转结构是为 CC/TR 设计;高考看要点与文采,情感真挚常常比论证严密更加分。"
+            ]
+          },
+          "vocabHints": ["exert influence on", "a screen-saturated culture", "outweigh", "an unconditional sense of security", "someone to depend upon", "rehearsed at the dinner table", "mirror the emotional patterns", "the foundations are poured early"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "青春期压力与倾诉",
+      "titleEn": "Teenage Stress & Seeking Support",
+      "desc": "课件情景：被父母催促学习（keep pressing me to study）、渴望喘息（take a break once in a while）与希望父母更灵活（more flexible）的心声。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举行以 \"Less Pressure, Better Life\" 为主题的班会。请你准备一篇发言稿，谈谈中学生如何应对来自父母期望的压力，内容包括：1. 压力的表现；2. 你的两条应对建议；3. 呼吁。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nMany of us feel that our parents keep pressing us to study all the time. We understand their love, yet the stress can sometimes be killing us, and we wish they could be more flexible so that we could make our own choices.\n\nHow should we respond? First, talk instead of exploding. Choose a calm moment, tell them how you feel, and let them know you also value your future. Second, allow yourself to take a break once in a while — a short walk or a game of basketball works wonders for a tired mind.\n\nPressure is part of growing up, but it should push us forward, not weigh us down. Let's face it with honest words and a light heart. Thank you!",
+          "vocabHints": ["keep pressing sb to do", "once in a while", "flexible", "make one's own choices", "value one's effort", "work wonders", "weigh sb down", "take a break"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, teenagers today experience more academic pressure than previous generations. What are the causes of this problem? What measures could be taken to solve it? (Write at least 250 words.)",
+          "reference": "Few would dispute that today's teenagers carry a heavier academic load than their parents ever did. Understanding why this pressure has intensified — and how it might be relieved — has become an urgent question for families, schools and governments alike.\n\nTwo causes stand out. The first is competition inflated by scale: higher education has expanded, yet the most desirable universities and careers remain scarce, so each examination is treated as a gateway that must not be missed. The second cause lies closer to home. Many parents, anxious for their children to succeed in a fast-changing economy, translate their own insecurity into relentless supervision — extra classes, constant monitoring and little tolerance for rest. Add the glow of social media, where every peer's achievement is on display, and an ordinary school day begins to feel like a public race.\n\nSolutions must therefore work on both fronts. At the policy level, schools can broaden what counts as success, giving weight to projects, arts and service rather than a single test score, so that one narrow gate becomes several doors. Equally important are changes within the family: parents who schedule genuine free time, praise effort rather than ranking, and listen before they advise can turn the home from a second classroom back into a place of recovery. Simple habits — regular exercise, enough sleep, an evening free of screens — cost nothing and measurably lower stress.\n\nAcademic pressure will never disappear, nor should it entirely; a degree of challenge makes growth possible. The task is to keep pressure at a level where it sharpens young minds instead of breaking them.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 双问齐答且一一对应——原因两条(升学竞争的结构性稀缺/家长焦虑的传导,附社媒放大器),对策分政策与家庭两个层面逐条回应,结尾一段作辩证限定(压力不应也不能归零),超出模板式罗列。",
+              "Coherence & Cohesion(连贯与衔接):'Two causes stand out'/'The second cause lies closer to home'/'Solutions must therefore work on both fronts'/'Equally important are...'——信号句引路,原因与对策镜像对应;'one narrow gate becomes several doors'的比喻同时完成衔接与论证。",
+              "Lexical Resource(词汇资源):'competition inflated by scale'、'translate their own insecurity into relentless supervision'、'the glow of social media'、'a place of recovery'、'sharpens young minds instead of breaking them'——精准且有画面;学术词(intensified, measurably, structural)自然融入。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入、倒装('Equally important are changes...')、祈使式列举('Add the glow of...')、非限定从句与分词短语交替;因果链条句(so that.../where...)准确无误。"
+            ],
+            "vsGaokao": [
+              "题型对位:雅思的 causes+solutions 双问型 vs 高考发言稿的'表现+建议+呼吁'三要点——结构相似但深度要求不同:雅思每个原因须推演成链,高考要点点到即可。",
+              "论据来源:本文用宏观社会观察(高校扩招、社媒展示文化),不出现班级、父母的具体对话;高考发言稿则靠贴近同学生活的场景取信。",
+              "语域:雅思无称呼呼告、无'Thank you!'收尾、不用感叹号煽动;发言稿的现场感恰是高考的得分点。",
+              "评分维度:雅思四维分项且 TR 要求'原因与对策对应';高考整体评分,气势与真诚可补论证之不足。"
+            ]
+          },
+          "vocabHints": ["carry a heavier academic load", "competition inflated by scale", "relentless supervision", "on display", "broaden what counts as success", "praise effort rather than ranking", "a place of recovery", "sharpen young minds"]
+        }
+      ]
+    }
+  ]
+}
