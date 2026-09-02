@@ -1,0 +1,130 @@
+{
+  "mainTopic": "文学之美与阅读人生",
+  "mainTopicEn": "The Wonder of Literature",
+  "mainTopicBrief": "本单元围绕“文学的奇妙”话题，涵盖文学的价值（Reading）、经典与硬汉精神（Extended reading：老人与海）和阅读习惯的养成（Grammar）三个子话题——读书与文学是高考书面表达的长青主题，也是雅思教育类议论文的高频命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "文学的价值",
+      "titleEn": "Why Literature Matters",
+      "desc": "课文文论：文学 implies a deeper meaning beyond the words——its attraction lies more in what it awakens in us than what it says。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举办以 \"Why We Read Literature\" 为主题的读书分享会。请你准备一篇发言稿，谈谈文学阅读的价值，内容包括：1. 你对文学价值的理解；2. 结合一次自己的阅读体验；3. 向同学发出阅读倡议。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nWhy do we read literature when exams never test novels? My answer: because literature is the expression of life in forms of truth and beauty, and its attraction lies more in what it awakens in us than what it says.\n\nLet me share one experience. Last term I read a short story about an old fisherman. It said little, yet it awakened much: after closing the book, I found myself braver before my own \"big fish\" — the coming exams.\n\nLet a little poem appeal to the ear, or a great book to the heart, and we discover a new world. So, classmates, take up a piece of literature this month — it truly deserves to be read!\n\nThank you!",
+          "vocabHints": ["the expression of life in forms of truth and beauty", "lies more in what it awakens", "imply a deeper meaning", "appeal to the ear / to the heart", "discover a new world", "deserve to be read", "a piece of literature", "awaken"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that reading literature (novels, poems and plays) is a waste of time because it does not teach practical skills. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In an age that measures education by employability, literature is easily dismissed: novels teach no coding, poems balance no budgets. I disagree almost entirely with this view, believing that the practicality of literature is real but indirect — it trains the person who will use every other skill.\n\nThe charge of uselessness rests on a narrow definition of 'practical'. Direct skills operate on the world; literature operates on the operator. A reader who follows a character through betrayal, ambition or grief is rehearsing emotional situations before life presents them, at no cost and with unlimited retries. This rehearsal has a measurable name — empathy — and it underwrites precisely the abilities employers claim to want: reading a negotiation, managing a team, hearing what a customer does not say. The manual for other people has only ever been written as stories.\n\nLiterature also trains attention in a way practical manuals cannot. A poem means more than it says; understanding one is practice in catching implication, tone and what is deliberately left unsaid — the exact skills of reading a contract's silence or a colleague's hesitation. Moreover, the habit of finishing difficult books builds the tolerance for ambiguity that every genuinely complex problem demands; spreadsheets have answers, but most of adult life does not.\n\nI concede one point to the critics: literature read only for examinations, reduced to quotable lines, does waste time, because the transaction removes the encounter. But that is an argument against bad teaching, not against literature. Time spent inside a great book is not time away from the practical world — it is the quiet workshop where the practical self is made.",
+          "wordCount": 272,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):to what extent 高分表态——'disagree almost entirely'+核心论点前置('literature trains the person who will use every other skill'),双论据纵深(共情的排练场/注意力与歧义耐受的训练),让步一段精确切割(反对的是坏教学而非文学),立场层次丰富。",
+              "Coherence & Cohesion(连贯与衔接):'The charge of uselessness rests on...'/'Literature also trains...'/'I concede one point...'推进;'skills operate on the world; literature operates on the operator'的分号对句是全文枢纽;'quiet workshop'收尾呼应'trains the person'。",
+              "Lexical Resource(词汇资源):'measures education by employability'、'at no cost and with unlimited retries'、'underwrites the abilities'、'the manual for other people has only ever been written as stories'、'a contract's silence'、'the transaction removes the encounter'——概念化原创表达极密;课文命题(means more than it says)学术化转写。",
+              "Grammatical Range & Accuracy(语法准确性):冒号论证('rests on a narrow definition: ...'变体)、破折号定义('— empathy —')、分号对句、because 从句与不定式交替;长句繁复而全篇几乎零误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考读书分享发言稿(理解+体验+倡议);雅思驳'文学无用论'——分享感动vs论证价值。",
+              "论据来源:本文用能力迁移机制(共情→管理/谈判),不讲'老渔夫让我勇敢'的个人故事;发言稿恰恰靠这一体验动人。",
+              "语域:发言稿有设问开场与'Thank you!';雅思以'quiet workshop'的静句收束,不呼告。",
+              "评分维度:雅思须处理让步(应试化阅读确实浪费)并划清界限;高考看体验真挚与倡议有力。"
+            ]
+          },
+          "vocabHints": ["measure education by employability", "operate on the operator", "emotional rehearsal", "unlimited retries", "underwrite", "tolerance for ambiguity", "the transaction removes the encounter", "the quiet workshop"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "经典与硬汉精神",
+      "titleEn": "Classics & the Undefeated Spirit",
+      "desc": "课文节选《老人与海》：A man can be destroyed but not defeated——经典何以常读常新。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报开展 \"A Book That Changed Me\" 征文活动。请你写一篇短文，推荐《老人与海》（The Old Man and the Sea），内容包括：1. 书的主要内容；2. 最打动你的一点；3. 它带给你的改变。注意：词数100左右。",
+          "reference": "A Book That Changed Me\n\nThe book I want to share is The Old Man and the Sea by Ernest Hemingway.\n\nThe story is simple: after coming in empty-handed for eighty-four days, the old fisherman Santiago sails far out and battles a huge fish, only to bring back its bones. Yet what shook me was one line — \"A man can be destroyed but not defeated.\"\n\nBefore reading it, I used to give up whenever my efforts seemed to pay off nothing. Santiago taught me that the result may be taken away, but the fight is mine to keep. Last month, though I failed the speech contest again, I signed up for the next one that very evening.\n\nSome books entertain us; this one builds us.",
+          "vocabHints": ["come in empty-handed", "battle a huge fish", "can be destroyed but not defeated", "pay off", "the fight is mine to keep", "sign up for", "shake / shook me", "build us"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that young people should read classic literature, while others think modern books are more relevant to their lives. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "What the young should read — the tested classics or the books of their own moment — is a quiet battleground in schools and homes alike. Both camps hold real ground, and my own view is that the question sets a trap: relevance and permanence are not competitors but different nutrients, and a young reader needs both.\n\nThe case for modern books is immediate. They speak the reader's language, walk the reader's streets and wrestle with the reader's problems — screens, identity, a changing climate — without the translation costs of distant centuries. For reluctant readers especially, this closeness is the difference between finishing a book and abandoning it; a story that mirrors one's own life proves that reading is not a foreign country. Modern books, in short, recruit readers.\n\nClassics, their defenders reply, are classics precisely because they have already survived the test the newest books have yet to sit. A novel that still moves readers after a century has isolated something permanent in human nature — endurance, pride, love, defeat — and offers the young a longer measure than their own moment. An old fisherman who refuses to surrender to the sea says more about dignity than a shelf of seasonal bestsellers, because his struggle has already outlived its author, its era and its fashions. Classics, in short, retain readers.\n\nMy conclusion follows from the verbs: let modern books open the door, and classics furnish the house. A reading life built only on the new is forever current and forever shallow; one built only on the old never begins. Wise teachers assign both — and let each explain the other.",
+          "wordCount": 269,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各得完整段并各以警句收束('recruit readers'/'retain readers'——一对动词完成两方定性),立场'不同营养论'从引言贯穿;结论把立场落到可操作分工('open the door / furnish the house'),讨论有纵深有着落。",
+              "Coherence & Cohesion(连贯与衔接):'The case for modern books is immediate'/'Classics, their defenders reply...'/'My conclusion follows from the verbs'——以动词对(recruit/retain)为轴的衔接设计;'reading is not a foreign country'与'translation costs of distant centuries'意象呼应。",
+              "Lexical Resource(词汇资源):'a quiet battleground'、'different nutrients'、'walk the reader's streets'、'the test the newest books have yet to sit'、'a longer measure than their own moment'、'outlived its author, its era and its fashions'——原创密集;老人与海化用为匿名例证('An old fisherman who refuses to surrender to the sea')。",
+              "Grammatical Range & Accuracy(语法准确性):破折号列举('— screens, identity, a changing climate —')、because 从句、现在完成时论证('have already survived')、祈使式结论('let modern books open the door');平行结构工整,准确率极高。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文的桑地亚哥在高考征文中直接点名引用金句;在雅思中匿名化为'an old fisherman'的类型例证——引用规范完全不同。",
+              "体裁:征文写'一本书改变我'的个人弧线;雅思论'该读什么'的教育选择。",
+              "语域:征文可用'this one builds us'的抒情收束;雅思以动词分工的机智收束——情感vs理趣。",
+              "评分维度:雅思看双方公允与立场落地;高考征文看真实感与金句运用(destroyed but not defeated 直接引用是亮点)。"
+            ]
+          },
+          "vocabHints": ["a quiet battleground", "different nutrients", "translation costs", "recruit readers / retain readers", "isolate something permanent", "a longer measure", "open the door / furnish the house", "forever current and forever shallow"]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "阅读习惯的养成",
+      "titleEn": "Building a Reading Habit",
+      "desc": "课文建议：Take time to look through the collections in your local library, and you are likely to come across books you love to read——如何选书与坚持阅读。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的笔友 David 来信说他想培养阅读习惯，但总是买了书读不完，问你有什么建议。请你写一封回信，内容包括：1. 分析他读不完书的可能原因；2. 两条具体建议；3. 鼓励。注意：词数100左右。",
+          "reference": "Dear David,\n\nDon't feel bad — unfinished books usually mean wrong books, not weak willpower. Perhaps you picked what you \"should\" read instead of what you love to read.\n\nHere are my suggestions. First, take time to look through the collections in different sections of your local library before buying anything; you are likely to come across books that truly interest you, and interest finishes books better than discipline does. Second, start small: ten pages a night is enough. In particular, keep the book on your pillow, not on your shelf.\n\nReading is like making a friend — the right one makes everything easy. I'm sure you will soon find yours!\n\nYours,\nLi Hua",
+          "vocabHints": ["take time to look through", "collections in different sections", "come across books you love to read", "in particular", "start small", "willpower", "interest finishes books", "make a friend"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Nowadays many young people read fewer printed books than before. What are the causes of this trend? What can be done to encourage young people to read more? (Write at least 250 words.)",
+          "reference": "That the young now read fewer printed books is confirmed by library records and publishers' ledgers alike. The decline has clear causes, and — more encouragingly — practical remedies.\n\nThe chief cause is competition measured in seconds. A printed page asks for twenty minutes of unbroken attention; a phone offers rewards every twenty seconds, and attention, like any currency, flows towards the faster interest rate. A second cause is the changed status of reading itself: for earlier generations, books were the main gate to stories and knowledge, but film, podcasts and games now deliver both in easier forms, so the book has lost its monopoly without losing its value. Finally, many young people associate reading with examination — texts dissected for marks, summaries memorised overnight — and a pleasure once turned into a task rarely turns back by itself.\n\nThe remedies follow the causes. Since attention is trained, not given, schools might begin with protected reading time: twenty daily minutes with any self-chosen book and no test attached, restoring the association between pages and pleasure. Families can help by example, for children copy what parents do, not what they praise; a household where adults visibly read produces readers without a single lecture. Publishers and libraries, for their part, should meet the young halfway — serialised editions, reading apps that respect the text, book clubs built around films — using the rival media as bridges rather than enemies.\n\nPrint will never regain its monopoly, and it does not need to. It needs only what it has always needed: one book that feels chosen, and the quiet time to finish it.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 双问齐答且严格镜像——三原因(注意力经济/媒介垄断的终结/应试化败坏乐趣)对三对策(保护性阅读时间/家庭示范/出版方搭桥),开头以证据立题,结尾以'一本被选中的书'收拢,不开空头支票。",
+              "Coherence & Cohesion(连贯与衔接):'The chief cause is...'/'A second cause...'/'Finally...'/'The remedies follow the causes'——因果镜像结构;'lost its monopoly without losing its value'与结尾'will never regain its monopoly, and it does not need to'首尾呼应;'bridges rather than enemies'完成对策段收束。",
+              "Lexical Resource(词汇资源):'publishers' ledgers'、'competition measured in seconds'、'attention flows towards the faster interest rate'、'the main gate to stories'、'texts dissected for marks'、'meet the young halfway'——经济学隐喻链(currency/interest rate/monopoly)贯穿而不堆砌;课文词块(come across books/look through collections)隐性支撑。",
+              "Grammatical Range & Accuracy(语法准确性):that 从句作主语开篇、插入语('— more encouragingly —')、since/for 因果交替、分词独立结构('a pleasure once turned into a task')、冒号列举;句式极富变化且准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是给笔友的读书建议信(原因+建议+鼓励);雅思是社会趋势分析——劝一个人读书vs让一代人读书。",
+              "论据来源:本文用注意力经济与媒介变迁,不出现'书放枕头上'的私人妙招;建议信恰恰靠这类可爱细节见效。",
+              "语域:信件有'I'm sure you will soon find yours!'的温度;雅思的温度只在结尾'the quiet time to finish it'露出一线。",
+              "评分维度:雅思要求原因-对策一一对应且论证成链;高考看建议具体可行、语气真诚。"
+            ]
+          },
+          "vocabHints": ["confirmed by library records", "competition measured in seconds", "the faster interest rate", "lose its monopoly", "dissected for marks", "protected reading time", "copy what parents do", "bridges rather than enemies"]
+        }
+      ]
+    }
+  ]
+}

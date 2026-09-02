@@ -1,0 +1,130 @@
+{
+  "mainTopic": "科学运动与健康生活",
+  "mainTopicEn": "Exercise, Fitness and Well-being",
+  "mainTopicBrief": "本单元围绕“新手锻炼指南”话题，涵盖科学锻炼的方法（Reading）、太极与传统健身（Extended reading）和运动的坚持与陪伴（Integrated skills）三个子话题——运动健康是高考应用文的高频场景，也是雅思健康类议论文的核心命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "科学锻炼指南",
+      "titleEn": "A Beginner's Guide to Exercise",
+      "desc": "课文指南：regular exercise does wonders for the body and mind——热身、频率、饮水与饮食的科学建议。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "开学之初，你班不少同学以学习紧张为由不参加体育锻炼。作为体育委员，请你写一份倡议书，号召大家科学锻炼，内容包括：1. 锻炼的益处；2. 两条科学锻炼的建议；3. 发出倡议。注意：词数100左右。",
+          "reference": "Dear classmates,\n\nMany of us have been skipping exercise for the sake of study. But it has been proven that regular exercise does wonders for the body and mind: active people tend to have better immune systems, and a fresh mind works far more efficiently.\n\nHow should we exercise scientifically? Above all, choose activities you enjoy, because in this way you're more likely to stick with them. Besides, remember to warm up first, drink water throughout exercise to make up for water lost to sweat, and avoid working out right after meals.\n\nStudy will not suffer from exercise — it will benefit from it. Let's step onto the playground and sweat our way to better performance!\n\nThe Sports Committee",
+          "vocabHints": ["do wonders for the body and mind", "immune systems", "stick with", "warm up", "make up for water lost to sweat", "work out", "exercise routine", "sweat one's way to"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that the government should make physical education compulsory in schools every day, while others believe students should decide for themselves how much exercise to do. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "How much exercise schoolchildren should take, and who should decide it, has become a genuine policy question as young people grow measurably less active. Some argue that daily physical education should be written into the timetable by law; others hold that exercise is a personal matter best left to students themselves. My position is that compulsion is justified at school age, precisely because the freedom to choose is worth so little to those who have never formed the habit.\n\nThe case for daily compulsory PE rests on a simple asymmetry: the costs of inactivity arrive late, but the habits that prevent it must be built early. Teenagers rarely weigh long-term health against tonight's homework, and in an examination culture the playground always loses to the desk. A daily, timetabled hour removes that unequal contest, guarantees every student a minimum of movement regardless of family attitudes, and — not least — gives the least sporty children a protected space to discover an activity they might actually enjoy.\n\nSupporters of free choice reply that forced exercise breeds resentment, and that a student marched to the track learns to hate running rather than to love fitness. The objection deserves respect, but it argues for better PE, not less: lessons offering a range of activities, from dance to tai chi, let each student find a form of movement worth sticking with.\n\nOn balance, I side with compulsion softened by variety. Schools compel mathematics because numeracy matters; bodies matter no less. Choice is the goal — but it is a graduation prize, earned once the habit exists to choose with.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点+立场完整——引言立场自带论证('freedom is worth little to those who never formed the habit'),支持段展开不对称论证(代价晚到vs习惯早成+考试文化挤压+保底公平),反方观点一段并当场转化('argues for better PE, not less'),结论以类比(数学之于计算力)收束。",
+              "Coherence & Cohesion(连贯与衔接):'The case for daily compulsory PE rests on a simple asymmetry'/'Supporters of free choice reply...'/'On balance, I side with...'——骨架清晰;'the playground always loses to the desk'与'a graduation prize'等表达兼作衔接节点;插入语'— not least —'调节信息节奏。",
+              "Lexical Resource(词汇资源):'written into the timetable by law'、'an unequal contest'、'a protected space'、'breeds resentment'、'marched to the track'、'compulsion softened by variety'——政策讨论词汇准确;化用课文词块(worth sticking with/tai chi)而不显搬运。",
+              "Grammatical Range & Accuracy(语法准确性):冒号引出机制('rests on a simple asymmetry: ...')、regardless of 让步、并列谓语三连(removes/guarantees/gives)、破折号收尾反转('but it is a graduation prize');复杂句准确无误。"
+            ],
+            "vsGaokao": [
+              "视角:高考倡议书号召同学'去锻炼';雅思讨论'该不该强制'的政策层面——同一主题,行动号召vs制度论证。",
+              "论据来源:本文用制度观察(考试文化、时间表保底),不出现'我班同学'场景;倡议书恰恰要贴班级现实。",
+              "语域:倡议书用'Let's...!'的动员语气与落款;雅思无呼告,说服靠推理密度。",
+              "评分维度:雅思 TR 要求处理反方并表达可辩护立场('compulsion softened by variety'的精确度);高考看倡议三要素齐全与鼓动力。"
+            ]
+          },
+          "vocabHints": ["measurably less active", "written into the timetable", "a simple asymmetry", "the playground loses to the desk", "a protected space", "breed resentment", "a range of activities", "compulsion softened by variety"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "太极与传统健身",
+      "titleEn": "Tai Chi & Traditional Fitness",
+      "desc": "课文随笔：从犹豫到痴迷的太极之旅——balance and flexibility slowly improved，以及阴阳平衡的东方智慧。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校国际部的交换生 Jack 对中国传统健身运动很感兴趣。请你写一封邮件向他介绍太极拳（tai chi），并邀请他参加学校太极社，内容包括：1. 太极拳的特点；2. 你练习太极的收获；3. 发出邀请。注意：词数100左右。",
+          "reference": "Dear Jack,\n\nGlad to hear you're interested in traditional Chinese exercise! Let me introduce tai chi, my favourite.\n\nUnlike fast, sweaty sports, tai chi looks slow and gentle, yet it is anything but easy. Every move asks for balance between hardness and softness — just as there is no shadow without light, the two must exist together. No wonder some tai chi moves are even named after animals!\n\nSince joining our school's Tai Chi Club, I have found to my satisfaction that my balance and flexibility have slowly improved, and my mind stays calmer before exams.\n\nOur club meets every Friday afternoon. Would you like to join us? I promise you'll fall in love with it.\n\nYours,\nLi Hua",
+          "vocabHints": ["slow and gentle", "balance and flexibility", "to my satisfaction", "no wonder", "be named after animals", "physical balance and mental peace", "no shadow without light", "fall in love with"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people prefer traditional forms of exercise such as tai chi and yoga, while others prefer modern fitness activities such as gym training. Discuss both preferences and give your own opinion. (Write at least 250 words.)",
+          "reference": "The modern search for fitness has split, broadly, into two schools: those who follow centuries-old practices such as tai chi and yoga, and those who train with machines, metrics and mirrors in the gym. Each approach carries a distinct philosophy of what a body is for, and in my view the wisest exercisers borrow from both.\n\nTraditional practices offer what the gym rarely advertises: a treaty between body and mind. Their slow, controlled movements demand a quality of attention that turns exercise into a form of moving meditation, easing stress even as it builds balance and flexibility. Because they need no equipment and punish no joints, they remain available to the old, the injured and the impatient beginner alike — a lifetime practice rather than a seasonal campaign. Their patience, however, is also their obstacle: results arrive quietly, and a generation raised on quick progress often abandons them before the benefits appear.\n\nThe gym answers that impatience directly. Measurable weights, visible muscle and trackable data give training the satisfying shape of a game with scores, and for building raw strength or reshaping a body, no slow art can compete. Yet the gym's virtues carry their own risks: training that chases numbers invites injury, and motivation tied to mirrors tends to expire with the first plateau.\n\nMy conclusion is that the two schools correct each other's failings. The gym gives traditional practice its missing urgency; tradition gives the gym its missing calm. A week with both in it serves the body — and the mind that carries it — better than loyalty to either.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双偏好公允展开且各含自我限定(传统:身心条约+普适性,但见效慢;健身房:游戏化激励+增肌效率,但易伤易弃),立场'互补论'贯穿;每段先立后转的结构使讨论有纵深而非各说各话。",
+              "Coherence & Cohesion(连贯与衔接):'Traditional practices offer what the gym rarely advertises'/'The gym answers that impatience directly'/'My conclusion is that the two schools correct each other's failings'——段间以'回应'关系推进,衔接即对话;'missing urgency / missing calm'对句完成互补论证。",
+              "Lexical Resource(词汇资源):'a treaty between body and mind'、'moving meditation'、'a lifetime practice rather than a seasonal campaign'、'the satisfying shape of a game with scores'、'expire with the first plateau'——原创比喻密集;balance and flexibility 等课文词块自然融入。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义、even as 同步让步、because 前置因果、破折号插入('— and the mind that carries it —');长句层次分明,错误几乎为零。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是私人邀请邮件(介绍+收获+邀请);雅思是两种健身哲学的比较论证。",
+              "论据来源:本文抽象化传统运动的普适特征(无器械/不伤关节),不讲'我们社团周五活动';邮件则靠具体细节亲切动人。",
+              "语域:邮件可用'I promise you'll fall in love with it'的热情承诺;雅思的温度藏在'the mind that carries it'式的克制表达里。",
+              "评分维度:雅思要求偏好讨论覆盖'为什么各有拥趸'的机制层;高考看信息完整与邀请诚意。"
+            ]
+          },
+          "vocabHints": ["two schools of fitness", "a treaty between body and mind", "moving meditation", "punish no joints", "a lifetime practice", "trackable data", "chase numbers", "correct each other's failings"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "运动的坚持与陪伴",
+      "titleEn": "Sticking with It: Partners & Habits",
+      "desc": "课文情景：想锻炼却难坚持——it's hard for me to stick with an exercise routine，以及 I would soon give up without a partner 的心声。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的同桌王磊最近想晨跑健身，但担心自己难以坚持。请你写一张便条，邀请他和你结伴晨跑，内容包括：1. 表示支持；2. 说明结伴锻炼的好处；3. 约定时间地点。注意：词数100左右。",
+          "reference": "Hi Wang Lei,\n\nI heard you're planning to take up morning running — great decision! And I have a proposal: why not run together?\n\nTo be honest, it's hard for anyone to stick with an exercise routine alone. I'm pretty sure I would soon give up without a partner: repeating the same route day after day, with no one to talk to, would bore me to death. But things change once in a while when we team up — we can encourage each other, keep pace together, and turn sweating into fun.\n\nHow about meeting at the school gate at 6:30 every morning, starting this Thursday? Just nod tomorrow and I'll bring two bottles of water!\n\nYours,\nLi Hua",
+          "vocabHints": ["take up", "stick with an exercise routine", "give up without a partner", "day after day", "team up", "encourage each other", "keep pace", "turn sweating into fun"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe children benefit more from team sports, while others think individual sports are better for a child's development. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Parents choosing sports for their children face an early fork in the road: the team pitch or the individual lane. Advocates exist on both sides, and with reason, for the two kinds of sport train different muscles of character. My own view is that team sports deserve the first years, with individual sports growing in importance as the child does.\n\nThe argument for team sports begins with what no child can practise alone: cooperation under pressure. A football or basketball team is a small society, complete with stars, substitutes and disputes, and a child inside it learns to pass when passing hurts, to lose without blaming, and to win without gloating. Belonging itself is a benefit — the shirt, the shared bus, the collective memory — and for children who struggle socially, a team can be the easiest door into friendship.\n\nChampions of individual sports counter that the lane teaches what the pitch cannot: undivided responsibility. A young swimmer or runner owns every result, and so learns early that improvement answers to effort rather than to luck or teammates. Individual training also fits the solitary temperament; the child who hates crowds may still love the quiet ambition of beating yesterday's time. Discipline learned alone, these advocates note, transfers cleanly to study and later work.\n\nOn balance, I would begin with the team and graduate towards the lane. Childhood needs company more than it needs medals, and the social lessons of team sport are hardest to learn late. The lane can wait; the locker room cannot.",
+          "wordCount": 253,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各得完整段落(团队:压力下的合作+归属感之门;个人:完全责任+独处气质适配),立场含时间维度('先团队后个人')使权衡具体可辩护;结论'The lane can wait; the locker room cannot'以警句落实立场。",
+              "Coherence & Cohesion(连贯与衔接):'The argument for team sports begins with...'/'Champions of individual sports counter that...'/'On balance...'推进;pitch/lane 的意象对贯穿全文,成为两种运动的代称与衔接符号。",
+              "Lexical Resource(词汇资源):'an early fork in the road'、'muscles of character'、'a small society, complete with stars, substitutes and disputes'、'pass when passing hurts'、'win without gloating'、'the quiet ambition of beating yesterday's time'——高密度原创表达;辨析式动词组(lose without blaming等三连)。",
+              "Grammatical Range & Accuracy(语法准确性):冒号机制句、插入列举('— the shirt, the shared bus, the collective memory —')、and so 因果承接、分号对句收尾;句式多样且准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是同桌便条(口语化+具体约定);雅思是教育选择的论证——便条的'6:30 校门口'在雅思中变成'the social lessons are hardest to learn late'的抽象判断。",
+              "论据来源:本文用类型化儿童场景(球队小社会/泳道责任),不用'王磊晨跑'的私人情景。",
+              "语域:便条可以'Just nod tomorrow!'轻快收尾;雅思以分号警句收尾——两种收束美学。",
+              "评分维度:雅思看立场的层次(时间维度权衡);高考便条看信息三要素与人情味。"
+            ]
+          },
+          "vocabHints": ["a fork in the road", "muscles of character", "cooperation under pressure", "lose without blaming", "the easiest door into friendship", "undivided responsibility", "answer to effort", "graduate towards"]
+        }
+      ]
+    }
+  ]
+}

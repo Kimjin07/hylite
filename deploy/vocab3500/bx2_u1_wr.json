@@ -1,0 +1,130 @@
+{
+  "mainTopic": "光影世界：电影的台前幕后",
+  "mainTopicEn": "Lights, Camera, Action: The World of Film",
+  "mainTopicBrief": "本单元围绕“电影幕后”话题，涵盖电影制作的幕后工艺（Reading）、经典电影与人物（Extended reading）和影评写作（Integrated skills）三个子话题——影视类话题是应用文推荐信与雅思媒体类议论文的常客。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "电影制作的幕后",
+      "titleEn": "Behind the Scenes",
+      "desc": "课文讲座：银幕上的电影是 a huge amount of hard work 的成果——音效、特效、实景与模型，most of which takes place behind the scenes。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语电影节即将开幕，主办方邀请你在开幕式上作简短发言，向同学们介绍“电影幕后的功臣”。内容包括：1. 一部电影的诞生离不开哪些幕后工作；2. 举一个让你印象深刻的例子；3. 呼吁大家尊重幕后劳动。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nWhen we talk about a film, the first thing we notice is often the stars. Actually, the film you see on the screen is the product of a huge amount of hard work, most of which takes place behind the scenes: sound effects are added after a scene has been shot, visual special effects bring impossible worlds to life, and countless props are made by hand.\n\nHere is an example I love. To make his 1997 film, the director had a full-sized model of the ship built — it took 500 workers 100 days, not to mention the thousands of props inside!\n\nSo next time the film ends, please stay for the credits. Those rolling names deserve our applause as much as the stars do. Thank you!",
+          "vocabHints": ["behind the scenes", "the product of a huge amount of hard work", "sound effects", "visual special effects", "not to mention", "props", "full-sized model", "do justice to"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the success of a film depends mainly on its story, while others think that advanced technology such as special effects is more important. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "What makes a film succeed — a compelling story or dazzling technology — is a debate as old as cinema itself, and one that each generation of blockbusters reignites. Some insist that narrative is the soul of the medium, while others argue that spectacular visual effects now decide a film's fate at the box office. My own view is that technology can sell tickets, but only stories can keep them sold.\n\nAdvocates of technology have the numbers on their side. The highest-grossing films of recent decades are almost without exception showcases of computer-generated imagery, and audiences demonstrably pay for experiences their living rooms cannot provide: collapsing planets, impossible creatures, battles staged across digital oceans. In a market where a film must justify the price of a cinema seat, visual spectacle is the most obvious justification.\n\nYet the champions of story hold the deeper truth. Effects age with astonishing speed — yesterday's miracle looks quaint within a decade — while a well-told story remains watchable half a century later. More tellingly, spectacle without narrative rarely survives its opening weekend: viewers may arrive for the explosions, but they recommend a film for its characters, and word of mouth, not marketing, determines a film's second week. The most celebrated directors understand this hierarchy, spending on effects only to serve moments the story has already earned.\n\nOn balance, therefore, I side with story. Technology is the stage machinery of cinema — indispensable, expensive and forever improving — but machinery has never yet made an audience cry. That remains the storyteller's work, and it is the work that lasts.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):discuss both views + opinion 全覆盖——引言末句以警句式立场收束('technology can sell tickets, but only stories can keep them sold'),两个主体段各自展开完整论证链(技术派:票房数据→影院体验独占性;故事派:特效速朽vs故事长青→口碑机制→导演的优先级),结论重申立场并再度警句化。",
+              "Coherence & Cohesion(连贯与衔接):'Advocates of technology have the numbers on their side'/'Yet the champions of story hold the deeper truth'/'On balance, therefore'——立场标记句推进;'arrive for the explosions, but recommend for the characters'的对照句兼作论证与衔接;舞台机械的比喻收尾呼应'soul of the medium'。",
+              "Lexical Resource(词汇资源):'reignites the debate'、'showcases of computer-generated imagery'、'justify the price of a cinema seat'、'age with astonishing speed'、'looks quaint'、'word of mouth'、'the stage machinery of cinema'——影视产业词汇地道;近义链(spectacle/effects/imagery)替换自然。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入('— indispensable, expensive and forever improving —')、倒装强调('More tellingly')、冒号列举('cannot provide: collapsing planets...')、现在完成时与一般现在时的论证配合;复杂句密集且准确。"
+            ],
+            "vsGaokao": [
+              "体裁对照:同一'幕后vs明星/技术'素材,高考是100词开幕式发言稿(举例+呼吁),雅思是260词论证(双方各一段完整推演+可辩护立场)。",
+              "论据来源:本文用产业普遍现象(票房榜、口碑传播机制),不引用课文的500工人100天造船案例;高考发言稿恰恰靠这个具体例子出彩——素材同源,用法相反。",
+              "语域:无 Good afternoon/Thank you/感叹号;克制的行业观察语气,警句服务论证而非煽动。",
+              "评分维度:雅思四维分项,本文'比喻贯穿+对照句'为 CC/LR 设计;高考看要点与感染力,现场呼吁是加分项而非离题。"
+            ]
+          },
+          "vocabHints": ["as old as cinema itself", "the soul of the medium", "decide a film's fate at the box office", "computer-generated imagery", "visual spectacle", "age with astonishing speed", "word of mouth", "the storyteller's work"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "经典电影与人物",
+      "titleEn": "Classic Films & Characters",
+      "desc": "课文剧本选段：阿甘 Despite an IQ of 75, he lives a truly amazing life——经典电影为何打动人心。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Emma 来信请你推荐一部值得反复观看的经典电影。请你写一封回信推荐《阿甘正传》（Forrest Gump），内容包括：1. 影片的主要内容；2. 你推荐的理由；3. 期待她的观后感。注意：词数100左右。",
+          "reference": "Dear Emma,\n\nI'd love to recommend Forrest Gump, a classic that I have watched at least three times.\n\nThe film tells the story of Forrest, an ordinary man from Alabama. Despite an IQ of 75, he lives a truly amazing life — he sees, and sometimes influences, some of the major events of the United States in the second half of the 20th century.\n\nWhy do I recommend it? Because it is anything but a simple comedy. Behind the laughter, the film asks a serious question: what makes a life worth living? Forrest's answer — honesty, love and simply running on — has encouraged me whenever I meet difficulties.\n\nDo watch it, and I can't wait to hear your thoughts!\n\nYours,\nLi Hua",
+          "vocabHints": ["a classic", "despite an IQ of 75", "live a truly amazing life", "sees, and sometimes influences", "major events", "anything but", "worth living", "can't wait to"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that films should mainly entertain audiences, while others believe films should also educate and convey serious messages. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether the cinema owes its audience anything more than a good evening is a question critics and filmgoers have argued over for a century. One camp maintains that entertainment is the whole of the contract; the other insists that so powerful a medium must also inform, question and teach. In my view, the two purposes are not rivals but partners, and the finest films refuse to choose between them.\n\nThe case for pure entertainment deserves respect. People arrive at the cinema after long days, seeking laughter, suspense or simple escape, and a film that delivers these honestly has kept its promise. There is also a commercial truth: films that lecture their audiences tend to empty the seats, and an empty cinema teaches nobody anything. Amusement, moreover, is not a trivial service; relief from worry is one of the oldest human needs.\n\nYet those who ask more of film also stand on solid ground. Because a story reaches emotions before it reaches arguments, cinema can change minds that essays cannot touch. A single well-drawn character — an ordinary man stumbling through extraordinary history, a king struggling against his own voice — can teach audiences more about perseverance and dignity than any textbook chapter. To waste such reach on spectacle alone seems a genuine loss.\n\nMy own conclusion is that the dichotomy is false. A film that entertains without substance is forgotten by Monday; a film that educates without pleasure is switched off by the interval. The classics endure precisely because they smuggle their lessons inside delight — we come for the story, and leave with something to think about.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点+己见完整——引言即抛出'不是对手是伙伴'的辩证立场,两个主体段各让对方站稳(娱乐派:契约论+商业现实+慰藉价值;教育派:情感先于论证+角色的教化力),结论以'假二分'收束并给出机制('smuggle lessons inside delight')。",
+              "Coherence & Cohesion(连贯与衔接):'The case for pure entertainment deserves respect'/'Yet those who ask more of film also stand on solid ground'/'My own conclusion is...'——让步式推进;'forgotten by Monday / switched off by the interval'对句完成结论论证;'we come for the story, and leave with...'首尾闭环。",
+              "Lexical Resource(词汇资源):'owes its audience anything more than a good evening'、'the whole of the contract'、'empty the seats'、'reaches emotions before it reaches arguments'、'smuggle their lessons inside delight'——原创表达密集;暗指阿甘与国王演讲('an ordinary man stumbling through extraordinary history, a king struggling against his own voice')而不点名,素材化用高级。",
+              "Grammatical Range & Accuracy(语法准确性):分号并列观点、because 前置因果、破折号插入例证、so...that 变体('so powerful a medium')、平行对句;句式繁复而准确率极高。"
+            ],
+            "vsGaokao": [
+              "素材用法:本文把阿甘化用为'an ordinary man stumbling through extraordinary history'的匿名例证;高考推荐信则直接点名影片与情节——同一素材,雅思须去具体化。",
+              "体裁:高考是私人推荐信(称呼/落款/期待回应);雅思是公共论证,无私人指向。",
+              "语域:推荐信可用'Do watch it!'的热情祈使;雅思全程克制,热情转化为论证力度。",
+              "评分维度:雅思 TR 要求立场可辩护且贯穿(本文'伙伴论'需两段让步支撑);高考只需理由充分、感染力强。"
+            ]
+          },
+          "vocabHints": ["owe the audience", "the whole of the contract", "simple escape", "empty the seats", "reach emotions before arguments", "well-drawn character", "a false dichotomy", "smuggle lessons inside delight"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "学写影评",
+      "titleEn": "Writing a Film Review",
+      "desc": "课文影评《国王的演讲》：narrow indoor sets and dark lighting 营造紧张感，All in all, I highly recommend this film——影评的写法。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报“光影天地”栏目征集影评。请你以 \"A Film That Moved Me\" 为题写一篇短评，向同学们介绍一部打动你的电影，内容包括：1. 影片基本信息；2. 影片的一个亮点（如表演、拍摄手法等）；3. 推荐语。注意：词数100左右。",
+          "reference": "A Film That Moved Me\n\nThe King's Speech, a historical film about King George VI, is the film that has moved me most this year.\n\nThe story sounds simple: a king who stammers must deliver a wartime speech to his nation. Yet the film looks like anything but a typical historical drama. The director skilfully creates uncertainty and tension with narrow indoor sets and dark lighting, so that we almost breathe together with the nervous king. When he finally finishes the speech, I found myself in tears.\n\nIt is a story about fear, friendship and courage — about a man who defeats not his enemy but himself. All in all, I highly recommend this film.",
+          "vocabHints": ["a historical film", "deliver a speech", "skilfully creates uncertainty and tension", "narrow indoor sets and dark lighting", "find oneself in tears", "defeat oneself", "all in all", "highly recommend"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people prefer to watch films from their own country, while others prefer foreign films. Discuss both preferences and give your own opinion. (Write at least 250 words.)",
+          "reference": "Film audiences divide, roughly, into those who stay loyal to their national cinema and those who reach for subtitles at every opportunity. Both habits have intelligible reasons behind them, and my own position is that a balanced diet of the two serves a viewer far better than either alone.\n\nThe preference for home-grown films rests on the comfort of recognition. Domestic cinema speaks the audience's language in every sense: the jokes land without explanation, the settings carry personal memories, and the moral dilemmas grow from a shared soil. A local film about family reunion or school pressure can strike a viewer with a precision no imported story quite matches, because it describes a life the viewer is actually living. National cinema also keeps a country's own stories on its own screens, which matters in an industry dominated by a handful of exporting nations.\n\nAdmirers of foreign films answer that this very comfort is the limitation. Subtitled cinema is the cheapest travel available: for two hours, a viewer inhabits another country's kitchens, courts and quarrels, and discovers that strangers fear and hope in recognisably human ways. Foreign films also refresh the eye formally — different traditions pace their stories differently, and exposure to them makes an audience harder to bore and harder to fool.\n\nMy conclusion is that the choice is a false economy in either direction. Watch only foreign films, and cinema becomes tourism without a home; watch only your own, and it becomes a mirror in a windowless room. The richest viewing life keeps both the mirror and the window open.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双偏好各一段公允展开(本土片:识别的舒适+文化主权;外国片:最廉价的旅行+形式的新鲜),立场'均衡观影'从引言贯穿到结论;每段论点均推演至机制层(为何笑点落地/为何更难被无聊)。",
+              "Coherence & Cohesion(连贯与衔接):'The preference for home-grown films rests on...'/'Admirers of foreign films answer that...'/'My conclusion is...'推进;'mirror and window'的意象在结论生成并完成收束——镜与窗的对照即立场本身。",
+              "Lexical Resource(词汇资源):'reach for subtitles'、'the comfort of recognition'、'grow from a shared soil'、'the cheapest travel available'、'refresh the eye formally'、'harder to bore and harder to fool'、'tourism without a home / a mirror in a windowless room'——高密度原创比喻服务论证。",
+              "Grammatical Range & Accuracy(语法准确性):冒号解释('in every sense: ...')、because 因果、条件祈使句式('Watch only foreign films, and...')的对称使用、非限定从句('which matters in an industry...');准确率极高。"
+            ],
+            "vsGaokao": [
+              "体裁:高考影评100词写'一部片的一个亮点+推荐';雅思写观影偏好的社会讨论——从'评一部片'到'论一种选择'。",
+              "论据来源:本文不点名任何影片(课文的国王演讲在mock中用),用类型化场景(family reunion/school pressure)保持普适;高考影评必须具体到片名与手法。",
+              "语域:影评可有'I found myself in tears'的私人感受;雅思的第一人称只服务立场。",
+              "评分维度:雅思看双方公允+立场贯穿;高考影评看信息完整与语言亮点(如课文的 skilfully creates uncertainty and tension 化用)。"
+            ]
+          },
+          "vocabHints": ["stay loyal to", "reach for subtitles", "the comfort of recognition", "jokes land without explanation", "strike a viewer with precision", "inhabit another country's life", "refresh the eye", "keep both the mirror and the window open"]
+        }
+      ]
+    }
+  ]
+}

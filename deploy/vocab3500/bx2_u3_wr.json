@@ -1,0 +1,130 @@
+{
+  "mainTopic": "节日民俗与文化体验",
+  "mainTopicEn": "Festivals, Customs and Cultural Experiences",
+  "mainTopicBrief": "本单元围绕“节日与习俗”话题，涵盖体验异国节日（Reading：印度婚礼与里约狂欢节）、春节与团圆（Extended reading）和传统节日的传承（Integrated skills）三个子话题——节日文化是高考书面表达的传统强区，也是雅思文化类议论文的必练题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "体验异国节日",
+      "titleEn": "Festivals Around the World",
+      "desc": "课文双记：印度婚礼上 the customs were anything but ordinary；里约狂欢节让“我” so caught up in the party fever——跨文化体验的观察与感受。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的加拿大笔友 Amy 来信询问你印象最深的一次节日体验。请你写一封回信，讲述你参加某个节日活动的经历，内容包括：1. 节日场面；2. 一个印象最深的习俗或瞬间；3. 你的感受。注意：词数100左右。",
+          "reference": "Dear Amy,\n\nYou asked about my most unforgettable festival experience — it has to be the temple fair I visited last Spring Festival.\n\nThe moment I stepped in, I could feel the excitement in the air. There were hundreds of visitors, all dressed up in bright winter coats, wandering among red lanterns and food stands. What impressed me most was the dragon dance: a group of around twenty dancers made the golden dragon roll, jump and even \"fly\" over our heads. I was so caught up in the festival fever that I hardly noticed three hours fly by!\n\nSome customs I did not fully understand, but a few made a deep impression on me. I hope you can experience it yourself one day!\n\nYours,\nLi Hua",
+          "vocabHints": ["in the air", "all dressed up in", "make a deep impression on", "be caught up in the festival fever", "hardly notice time fly by", "anything but ordinary", "wander among", "experience it yourself"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that experiencing festivals of other cultures is the best way to understand those cultures. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is often said that if you wish to understand a people, you should join their festivals. The claim has obvious charm, and I agree with it to a large extent — provided that the experience goes deeper than photographs.\n\nFestivals compress a culture into its most visible, generous form. In a single day of celebration, a visitor encounters the food, music, dress and rituals that ordinary tourism scatters across weeks, and encounters them not in a museum case but alive with activity. More importantly, festivals reveal what a community treasures: a harvest celebration announces its bond with the land, a reunion festival declares that home is where the family gathers. Sharing such an occasion also dissolves the distance between guest and host — dancing badly beside strangers achieves an intimacy that no guidebook manages — and emotion, unlike language, requires no translation.\n\nYet the method has a well-known trap. Festivals are a culture in its holiday clothes, polished for display and increasingly staged for visitors themselves. A tourist who sees only the carnival may mistake performance for daily life, learning the choreography of a culture while missing its working weekdays, its worries and its quieter values. Festival knowledge, in other words, is real but partial.\n\nMy conclusion is that festivals are the best door into a culture, but a door is not the house. Enter through the celebration, then stay for the ordinary Tuesday: eat the everyday food, hear the everyday complaints. Those who do both will find that the festival was not the culture itself, but the culture's warmest invitation.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):to what extent 题的高分处理——'agree to a large extent + provided that'的带条件表态,支持段双层展开(文化的压缩呈现/情感的零翻译),转折段指出边界(节日是文化的盛装),结论以'门与房子'的比喻精确落地程度,立场层次分明。",
+              "Coherence & Cohesion(连贯与衔接):'Festivals compress a culture...'/'Yet the method has a well-known trap'/'My conclusion is...'——立-破-合结构;'a door is not the house'承接'best door into a culture',比喻自身完成衔接;'holiday clothes / working weekdays'对照贯穿。",
+              "Lexical Resource(词汇资源):'compress a culture into its most visible, generous form'、'alive with activity'(课文词块化用)、'dissolves the distance between guest and host'、'emotion requires no translation'、'a culture in its holiday clothes'、'the culture's warmest invitation'——原创比喻密集且全部服务论证。",
+              "Grammatical Range & Accuracy(语法准确性):provided that 条件、破折号插入('— dancing badly beside strangers... —')、现在分词短语('polished for display and increasingly staged...')、祈使收尾('Enter through the celebration, then stay for...');复杂句准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考回信讲'我的一次庙会经历'(场面+瞬间+感受);雅思论'节日能否代表文化'——经历叙述vs方法论评估。",
+              "论据来源:本文用类型化节日(harvest/reunion),不讲舞龙三小时的私人记忆;回信恰恰靠具体细节(golden dragon/red lanterns)生动。",
+              "语域:回信有'I hope you can experience it yourself!'的热情;雅思的邀请感化为'the culture's warmest invitation'的论证收束。",
+              "评分维度:雅思须回应'程度'并划边界(real but partial);高考只需经历完整、感受真挚。"
+            ]
+          },
+          "vocabHints": ["compress a culture", "not in a museum case but alive", "reveal what a community treasures", "dissolve the distance", "require no translation", "in its holiday clothes", "mistake performance for daily life", "the warmest invitation"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "春节与团圆",
+      "titleEn": "Spring Festival & Family Reunion",
+      "desc": "课文叙事：罗言一家的返乡过年——from paper-cuttings to couplets, everything represents joy；After all, home is where all family members are together。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校外教 Mr Green 独自在华过年。请你写一封邮件邀请他到你家共度除夕，内容包括：1. 发出邀请；2. 介绍你家的年俗安排；3. 表达期待。注意：词数100左右。",
+          "reference": "Dear Mr Green,\n\nSpring Festival is around the corner, and my family would be honoured to have you join us for New Year's Eve dinner this Saturday.\n\nLet me preview the evening for you. From the paper-cuttings on the windows to the Spring Festival couplets on the door, everything in my home represents joy, luck and happiness. We will make dumplings together, watch the Spring Festival Gala, and as midnight approaches, set off fireworks in the yard — the whole village will be lit up!\n\nAfter all, home is where people gather, and we would love you to feel at home in China. Shall we pick you up at 4 p.m.?\n\nYours,\nLi Hua",
+          "vocabHints": ["around the corner", "be honoured to", "paper-cuttings", "Spring Festival couplets", "represent joy, luck and happiness", "as midnight approaches", "set off fireworks", "be lit up"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, family members increasingly live far apart from each other. Some people think festivals that bring families together are therefore more important than ever. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As work and study scatter families across cities and continents, the festivals that summon everyone home have acquired a new weight. I agree almost entirely that such occasions matter more now than ever before — not although families live apart, but precisely because they do.\n\nThe first reason is that reunion festivals now perform a function daily life has surrendered. When three generations shared one roof, togetherness needed no calendar; today, scattered relatives may meet in person only once a year. The festival provides what video calls cannot: shared labour and shared idleness — cooking together, sitting together, the unhurried hours in which real conversation surfaces. A grandmother teaching a grandchild to fold dumplings passes on more than recipes; she transmits belonging itself.\n\nSecond, these gatherings maintain identity across distance. Migrants who spend the year adapting to other cities return, briefly, to the place where their habits and dialect need no explanation. The rituals — decorations on the door, particular dishes, greetings exchanged in fixed words — are a language of continuity, telling each family that it remains one thing despite its dispersal. Children raised far from their roots receive, in a single week, an education no textbook offers.\n\nSceptics note that obligatory reunions can be stressful and expensive, and that affection cannot be scheduled. The objection is fair but misdirected: the crowded journey home is not evidence that the festival matters too much, but proof of how much people still consider it worth.\n\nDistance, in short, has not weakened reunion festivals; it has promoted them from custom to necessity.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确且反直觉('not although families live apart, but precisely because they do'),双论据纵深展开(团聚功能的历史转移/身份认同的年度维护),反方一段并反转利用(春运拥挤恰证其价值),结论一句完成'custom→necessity'的升格。",
+              "Coherence & Cohesion(连贯与衔接):'The first reason is...'/'Second...'/'Sceptics note...'骨架传统而稳;'togetherness needed no calendar'与'affection cannot be scheduled'遥相呼应;冒号与破折号引导的解释层次丰富。",
+              "Lexical Resource(词汇资源):'summon everyone home'、'a function daily life has surrendered'、'shared labour and shared idleness'、'transmits belonging itself'、'a language of continuity'、'promoted them from custom to necessity'——概念化表达密集;课文意象(fold dumplings/decorations on the door)匿名化用。",
+              "Grammatical Range & Accuracy(语法准确性):not...but 精确表态、when/today 时间对照、插入列举、分词与同位语交替;'The objection is fair but misdirected'式的让步-反转句娴熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是除夕邀请邮件(安排+期待);雅思论'团圆节日在离散时代的价值'——请一个人回家vs论一代人回家。",
+              "论据来源:本文用社会学观察(三代同堂的消失/春运);邮件用自家年俗细节(couplets/Gala/fireworks)。",
+              "语域:邮件热情具体('Shall we pick you up at 4 p.m.?');雅思以'promoted from custom to necessity'的判断收束。",
+              "评分维度:雅思要求程度表态+处理反方;高考邀请信看诚意与信息完整,年俗介绍即文化输出加分项。"
+            ]
+          },
+          "vocabHints": ["scatter families across cities", "summon everyone home", "shared labour and shared idleness", "transmit belonging", "a language of continuity", "despite its dispersal", "affection cannot be scheduled", "from custom to necessity"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "传统节日的传承",
+      "titleEn": "Keeping Traditional Festivals Alive",
+      "desc": "课文议题：端午节 is celebrated in honour of Qu Yuan，但 how many people today still observe this tradition？——传统节日如何传承。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "端午节将至，你校学生会拟举办“我们的节日”主题活动。请你以学生会名义写一则英文通知，内容包括：1. 活动目的；2. 活动安排（如包粽子、诗歌朗诵等）；3. 欢迎参加。注意：词数100左右。",
+          "reference": "Notice\n\nThe Dragon Boat Festival is coming! As many of us enjoy the holiday without knowing the stories behind it, the Students' Union will hold a \"Our Festivals\" event this Friday afternoon in the school hall, in honour of the great poet Qu Yuan and our shared traditions.\n\nHighlights include: making zongzi with invited grandmas from the neighbourhood; a poetry recital of Qu Yuan's classic lines; and a mini talk on how the festival is observed in different regions.\n\nCome and experience the customs for yourself — a tradition lives only when we live it. Everyone is welcome!\n\nThe Students' Union",
+          "vocabHints": ["in honour of", "observe the tradition", "the stories behind it", "poetry recital", "experience the customs for yourself", "hold an event", "highlights include", "everyone is welcome"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people say that young people are losing interest in traditional festivals. What are the causes of this problem? What measures could be taken to solve it? (Write at least 250 words.)",
+          "reference": "In many societies, the complaint is the same: the young collect the holiday but neglect the heritage, treating ancient festivals as little more than days off. The causes of this drift are identifiable, and so — fortunately — are the remedies.\n\nTwo causes stand out. The first is competition for attention. Traditional festivals evolved in a world of slow entertainment; they now compete with games, streaming and imported celebrations engineered for instant fun, and a lantern riddle struggles beside a smartphone. The second cause is transmission failure rather than rejection. Many young people have simply never been told what the rituals mean: they have eaten the festival food without the festival stories, because busy parents passed on the customs' outward forms but not their inner reasons. What looks like indifference is often uninstructed curiosity.\n\nThe solutions follow from the diagnosis. First, festivals must be experienced, not merely explained: schools and communities can let the young make the lanterns, row the boats and cook the dishes, since meaning enters best through the hands. Second, tradition should be allowed to borrow modern clothes — short videos retelling festival legends, games built on festival themes — because a custom that refuses new media surrenders the very audience it hopes to keep. Finally, families remain the deepest channel: a grandparent's story, told while dumplings are folded, outweighs any official campaign.\n\nFestivals survived dynasties and wars; they will survive the smartphone too, provided each generation is handed not just the holiday, but the reasons for it.",
+          "wordCount": 251,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 双问齐答且诊断-处方严格对应——原因两条(注意力竞争/传承断裂),对策三条各自回应(体验式传承对唤醒好奇/新媒体转译对注意力竞争/家庭渠道对传承断裂),结尾以历史纵深收束并附条件。",
+              "Coherence & Cohesion(连贯与衔接):'Two causes stand out'/'The solutions follow from the diagnosis'——医学隐喻(diagnosis/remedies)统摄全文结构;'eaten the festival food without the festival stories'的对照句是原因段的枢纽;'not just the holiday, but the reasons for it'收尾呼应开篇'collect the holiday but neglect the heritage'。",
+              "Lexical Resource(词汇资源):'collect the holiday but neglect the heritage'、'engineered for instant fun'、'a lantern riddle struggles beside a smartphone'、'uninstructed curiosity'、'meaning enters best through the hands'、'borrow modern clothes'——原创表达高密度;in honour of 等课文词块隐性支撑话题词汇。",
+              "Grammatical Range & Accuracy(语法准确性):插入语('and so — fortunately — are the remedies')、since/because 因果交替、分词独立结构('told while dumplings are folded')、provided 条件收尾;句式丰富准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是活动通知(目的+安排+欢迎);雅思是社会问题分析——办一场活动vs开一张药方。",
+              "论据来源:本文用媒介环境与家庭传承机制,不出现'学生会本周五'的具体安排;通知靠具体活动(包粽子/朗诵)落地。",
+              "语域:通知有'Everyone is welcome!'的号召与落款;雅思以条件句收束,克制而有余味。",
+              "评分维度:雅思 TR 要求原因-对策一一对应(本文三对策各有靶点);高考通知看格式规范与信息清楚。"
+            ]
+          },
+          "vocabHints": ["collect the holiday but neglect the heritage", "competition for attention", "engineered for instant fun", "transmission failure", "outward forms and inner reasons", "meaning enters through the hands", "borrow modern clothes", "the deepest channel"]
+        }
+      ]
+    }
+  ]
+}
