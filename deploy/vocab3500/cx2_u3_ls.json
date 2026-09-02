@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "The bookshelves lay buried in dust, the wooden sign was worn and the once warm light dimmed, each mourning its former grace.",
+    "translation": "书架蒙尘，木招牌磨损斑驳，曾经温暖的灯光也黯淡了——每一样都在哀悼自己昔日的风采。",
+    "analysis": "三分句白描排比：lay buried（lie + 过去分词表状态）/ was worn / dimmed——书架、招牌、灯光三件旧物各领一个衰败动词 | each mourning its former grace：独立主格收尾（each + 现在分词）——物在“哀悼”自己的拟人绝笔 | the once warm light：once 副词插在冠词与形容词之间“曾经温暖的” | mourn 哀悼（本单元核心词的文学化用法）| 旧书店挽歌的场面句：三物三态+一声共同的叹息——读后续写怀旧场景的顶配模板",
+    "pattern": "S₁ + lay + V-ed ..., S₂ + was + V-ed and + the once + adj. + N + V-ed, each + V-ing ...",
+    "structures": ["三分句排比", "each独立主格", "拟人mourning"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "课桌积着薄灰，黑板报褪了色，曾经喧闹的走廊也安静了——每一样都在怀念昔日的热闹。",
+    "imitationHint": "The desks lay covered in thin dust, the wall newspaper faded and the once noisy corridor quieted, → each missing its former liveliness（三分句+each 独立主格）",
+    "imitationAnswer": "The desks lay covered in thin dust, the wall newspaper faded and the once noisy corridor quieted, each missing its former liveliness."
+  },
+  {
+    "sentence": "As the fragrance of old wooden furniture drifted into my nose, I found myself mourning my lost childhood, when I could relish carefree afternoons with my toys in our old apartment.",
+    "translation": "旧木家具的香气飘进鼻腔，我发觉自己正在哀悼逝去的童年——那时我可以在老公寓里，抱着玩具尽享无忧无虑的下午。",
+    "analysis": "As 从句以嗅觉开门：fragrance drifted into my nose——气味触发记忆（普鲁斯特效应，呼应选必一 U1 治愈食物的 time machine）| found myself mourning：find oneself doing 不知不觉进入某状态 | when 引导非限定性定语从句修饰 my lost childhood（时间性先行词）| relish 尽情享受（= enjoy greatly）| carefree 无忧无虑的（-free 后缀）| 通感+回忆的双层叙事句：现在的鼻子闻见过去的下午——续写“睹物思人/怀旧”的满分句式",
+    "pattern": "As + the fragrance of ... drifted into ..., S + found myself + V-ing ..., when + S + could + V ...",
+    "structures": ["嗅觉触发记忆", "find oneself doing", "when非限定从"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "食堂飘来葱油饼的香气，我发觉自己正在想念初中时光——那时我可以和同桌挤在窗口，分吃一块刚出锅的饼。",
+    "imitationHint": "As the smell of scallion pancakes drifted from the canteen, I found myself missing my junior high days, → when I could squeeze at the window with my deskmate and share a hot pancake（when 非限定从）",
+    "imitationAnswer": "As the smell of scallion pancakes drifted from the canteen, I found myself missing my junior high days, when I could squeeze at the window with my deskmate and share a hot pancake."
+  },
+  {
+    "sentence": "A cloud of hopelessness hovered over him, shattering the last thread of hope in his mind.",
+    "translation": "一团绝望的阴云悬在他头顶，击碎了他心中最后一线希望。",
+    "analysis": "A cloud of hopelessness：抽象情绪的具象量词（一“朵”绝望——cloud 的压顶意象；呼应必修三 U2 的 a wave of fear）| hovered over 盘旋、悬停（hover 直升机式的悬而不去）| shattering... 现在分词作结果状语：shatter 击碎（比 break 更碎）| the last thread of hope：希望的“线”计量——thread 细若游丝 | 心理低谷的意象三连：云（压）→悬（罩）→碎（断）——读后续写绝望时刻的高级写法（比 he felt hopeless 高一个段位）",
+    "pattern": "A cloud of + 抽象N + hovered over + sb, shattering the last thread of + N",
+    "structures": ["情绪具象化", "hover over", "shattering结果分词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "一团失落的阴云悬在她头顶，浇灭了她心中最后一点热情。",
+    "imitationHint": "A cloud of disappointment hovered over her, → putting out the last spark of enthusiasm in her heart（a cloud of + 分词结果）",
+    "imitationAnswer": "A cloud of disappointment hovered over her, putting out the last spark of enthusiasm in her heart."
+  }
+]

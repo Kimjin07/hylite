@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "Before this evolution in transport becomes a revolution, we must understand how self-driving cars work.",
+    "translation": "在这场交通的演进变成一场革命之前，我们必须先弄懂自动驾驶汽车的工作原理。",
+    "analysis": "evolution → revolution 的词形递进游戏：一个字母之差（e→r），渐变与剧变的分野——标题级 wordplay | Before 时间从句设置认知前提：先懂再变 | how self-driving cars work：how 宾语从句（陈述语序）| self-driving 复合形容词（self- 前缀家族：self-confident/self-sufficient）| 科技说明文的“求知先行”立场句：技术狂飙前的冷静一问",
+    "pattern": "Before this evolution in ... becomes a revolution, S + must understand + how ...",
+    "structures": ["evolution/revolution词play", "before从句", "how宾语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "在这场学习方式的演进变成一场革命之前，我们必须先弄懂 AI 家教是如何批改作业的。",
+    "imitationHint": "Before this evolution in learning becomes a revolution, → we must understand how AI tutors grade our homework",
+    "imitationAnswer": "Before this evolution in learning becomes a revolution, we must understand how AI tutors grade our homework."
+  },
+  {
+    "sentence": "Since it is impossible to foresee every situation ahead of time, the system must learn to adapt.",
+    "translation": "既然不可能预见每一种路况，系统就必须学会自我调整。",
+    "analysis": "Since 原因从句（已知事实作理由）+ it 形式主语（真主语 to foresee...）| foresee 预见（fore- 前缀：forecast/foretell）| ahead of time 提前 | learn to adapt 学会适应——把“机器学习”的本质说成一句人话：路况穷举不可能，唯有自适应 | 自动驾驶原理的逻辑枢纽句：从“规则驱动”转向“学习驱动”的理由陈述——议论文因果推理的干净示范",
+    "pattern": "Since it is impossible to + V ..., S + must learn to + V",
+    "structures": ["since原因从句", "it形式主语", "learn to adapt"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "既然不可能预料考场上的每一种题型，我们就必须学会迁移方法。",
+    "imitationHint": "Since it is impossible to foresee every question type in the exam, → we must learn to transfer our methods",
+    "imitationAnswer": "Since it is impossible to foresee every question type in the exam, we must learn to transfer our methods."
+  },
+  {
+    "sentence": "The moral dilemma of how to ethically program self-driving cars has yet to be resolved.",
+    "translation": "如何合乎伦理地为自动驾驶汽车编程——这一道德困境至今仍未解决。",
+    "analysis": "has yet to be resolved：have yet to do“尚待、还没有”（= has not been resolved yet 的紧凑版，带“迟早要面对”的意味）+ 被动不定式 | of how to ethically program...：疑问词+不定式作 of 宾语，ethically 副词插入不定式（分裂不定式）| moral dilemma 道德两难（电车难题：撞谁？）| 主语长、谓语短的“悬而未决”句——科技伦理讨论的收束句式（呼应选必二 U4 的 AI 伦理之问，跨书同题）",
+    "pattern": "The moral dilemma of how to + adv. + V ... has yet to be + V-ed",
+    "structures": ["have yet to do", "疑问词+不定式", "分裂不定式"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "如何公平地分配训练数据——这一技术难题至今仍未解决。",
+    "imitationHint": "The technical problem of how to fairly distribute training data → has yet to be resolved（has yet to be done）",
+    "imitationAnswer": "The technical problem of how to fairly distribute training data has yet to be resolved."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "These oracle bone inscriptions, the earliest form of Chinese characters ever found to this day, are clear proof that the history of the Chinese writing system stretches back about 3,500 years.",
+    "translation": "这些甲骨文——迄今发现的最早的汉字形态——清楚地证明了汉字书写体系的历史可以追溯到约 3500 年前。",
+    "analysis": "同位语插入：the earliest form... ever found to this day（ever found 分词后置 + to this day 迄今）——主语与谓语之间的“身份证明”| proof that...：that 引导同位语从句解释 proof 内容 | stretch back 追溯、上溯（呼应必修三 U3 的 stretches back to before 1500——同词块跨书）| oracle bone inscriptions 甲骨文（oracle 神谕+inscription 铭文）| 文明溯源的证据句：文物（inscriptions）→证明（proof that）→年代（3,500 years）——文化自信作文的实证句式",
+    "pattern": "S, the earliest + N + ever found to this day, are clear proof that + S + stretches back + 时间",
+    "structures": ["同位语插入", "proof that同位语从句", "stretch back"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这些竹简——迄今出土的最完整的先秦文献——清楚地证明了中国典籍传统可以追溯到两千多年前。",
+    "imitationHint": "These bamboo slips, the most complete pre-Qin documents ever unearthed to this day, → are clear proof that China's tradition of classics stretches back over 2,000 years",
+    "imitationAnswer": "These bamboo slips, the most complete pre-Qin documents ever unearthed to this day, are clear proof that China's tradition of classics stretches back over 2,000 years."
+  },
+  {
+    "sentence": "Whether magnificent dragons, graceful birds, delicate flowers or scenes of people going about their everyday business, all are beautifully painted in different shades of blue.",
+    "translation": "无论是雄伟的龙、优雅的鸟、精致的花，还是人们日常营生的场景，一切都用深浅不一的青色描绘得美轮美奂。",
+    "analysis": "Whether A, B, C or D 四并列开路（省略 they are 的让步结构）+ all 一词总括收拢——先撒四类纹样、再一网打尽 | 三组“形容词+名词”对仗（magnificent dragons / graceful birds / delicate flowers）+ 一组分词短语（people going about their everyday business——呼应选必一 U3 清明上河图同款词块！）| shades of blue 青色的深浅层次（shade 色度）| 青花瓷纹样的巡礼句：列举的节奏即瓷器的纹路——器物描写的博物馆级句式",
+    "pattern": "Whether A, B, C or D, all are + adv. + V-ed in different shades of + 颜色",
+    "structures": ["whether四并列", "all总括", "shades of颜色"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "无论是巍峨的山、蜿蜒的河、错落的屋舍，还是赶集人群的身影，一切都用浓淡不一的墨色晕染得气韵生动。",
+    "imitationHint": "Whether towering mountains, winding rivers, scattered houses or figures of people heading for the fair, → all are vividly painted in different shades of ink（whether 四并列+all）",
+    "imitationAnswer": "Whether towering mountains, winding rivers, scattered houses or figures of people heading for the fair, all are vividly painted in different shades of ink."
+  },
+  {
+    "sentence": "Accompanied by some of his loyal students, he spent 14 years of his life travelling from state to state, spreading his ideas and discussing philosophical questions.",
+    "translation": "在一些忠诚弟子的陪伴下，他用了人生中的十四年周游列国，传播思想、探讨哲学问题。",
+    "analysis": "Accompanied by... 过去分词短语作伴随状语开路（被陪伴——accompany 跨书第三现）| spend + 时间 + doing：travelling 后再挂双分词 spreading... and discussing...——一句三个 -ing 的行旅节奏 | from state to state 周游列国（N to N 结构）| 孔子周游列国的英文定格：14 年（时间）+弟子（人）+传道（事）——先贤人物介绍的浓缩句，文化名人类作文直接可用",
+    "pattern": "V-ed by ..., S + spent + 时间 + V-ing from N to N, V-ing ... and V-ing ...",
+    "structures": ["过去分词开路", "spend doing", "三-ing节奏"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "在几位老队员的陪伴下，她用了三个暑假走村串户，普及急救知识、演示救护动作。",
+    "imitationHint": "Accompanied by several senior members, she spent three summers travelling from village to village, → spreading first-aid knowledge and demonstrating rescue skills（Accompanied + 双分词）",
+    "imitationAnswer": "Accompanied by several senior members, she spent three summers travelling from village to village, spreading first-aid knowledge and demonstrating rescue skills."
+  }
+]

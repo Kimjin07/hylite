@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "The influence of microorganisms goes beyond physical health to our cognitive and psychological well-being.",
+    "translation": "微生物的影响超越了身体健康，延伸到我们的认知与心理健康。",
+    "analysis": "go beyond A to B：“超出 A、抵达 B”的范围扩张句式（beyond 抽象义再现，跨书第四现）| cognitive and psychological 双学术形容词并列（认知的/心理的）| well-being 幸福安康（不可数；physical/mental well-being）| microorganism 微生物（micro- 前缀：microscope/microwave）| 脑肠轴科普的论题句：肠道细菌管到情绪——“小生物大影响”的反差立意，科普文常用的认知升级句",
+    "pattern": "The influence of + N + goes beyond + A + to + B",
+    "structures": ["go beyond...to", "学术形容词", "well-being"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "阅读的影响超越了应试分数，延伸到我们的审美与共情能力。",
+    "imitationHint": "The influence of reading goes beyond exam scores → to our aesthetic sense and capacity for empathy（goes beyond...to）",
+    "imitationAnswer": "The influence of reading goes beyond exam scores to our aesthetic sense and capacity for empathy."
+  },
+  {
+    "sentence": "The disease spreads through tiny respiratory droplets released when people cough or sneeze.",
+    "translation": "这种疾病通过人们咳嗽或打喷嚏时释放的微小呼吸道飞沫传播。",
+    "analysis": "released... 过去分词短语作后置定语（= which are released）+ when 从句嵌套其中——分词里套从句的双层修饰 | respiratory droplets 呼吸道飞沫（respiratory 呼吸的；术语精确性）| spread through 通过……传播 | tiny 微小的 | 疾病传播机制的一句话说明：途径（droplets）+条件（cough or sneeze）同框——公共卫生说明文的核心句式，疫情类作文可直接迁移",
+    "pattern": "The disease spreads through + N + V-ed + when + S + V or V",
+    "structures": ["过去分词定语", "when从句嵌套", "术语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "谣言通过人们随手转发时产生的碎片信息传播。",
+    "imitationHint": "Rumours spread through fragmented information → produced when people casually forward messages（分词+when 嵌套）",
+    "imitationAnswer": "Rumours spread through fragmented information produced when people casually forward messages."
+  },
+  {
+    "sentence": "Thanks to years of research, scientists finally rolled out an effective vaccine against the virus.",
+    "translation": "得益于多年研究，科学家们终于推出了针对这种病毒的有效疫苗。",
+    "analysis": "Thanks to 多亏、得益于（原因介词短语，中性偏褒；呼应选必三 U3）| years of research 年份计量的努力 | roll out 推出、发布（熟词僻义：新产品/政策上线的动词；本义“铺开”）| vaccine against 针对……的疫苗（against 表对抗对象）| finally 副词压住多年的重量 | 科研叙事的成果句：时间投入（thanks to years）→ 成果落地（rolled out）——与必修三 U4 屠呦呦的 paid off 同一叙事家族",
+    "pattern": "Thanks to years of ..., S + finally rolled out + an effective + N + against ...",
+    "structures": ["thanks to", "熟词僻义roll out", "against对抗"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "得益于数月打磨，团队终于推出了针对听障用户的无障碍版本。",
+    "imitationHint": "Thanks to months of polishing, the team finally rolled out → an accessible version for hearing-impaired users（roll out）",
+    "imitationAnswer": "Thanks to months of polishing, the team finally rolled out an accessible version for hearing-impaired users."
+  }
+]

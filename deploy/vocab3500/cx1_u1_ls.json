@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "Here lives much of the marine life we know about, such as dolphins, corals and seaweeds.",
+    "translation": "我们所知的大部分海洋生物就生活在这里——比如海豚、珊瑚和海藻。",
+    "analysis": "Here lives...：地点副词 Here 置于句首引起完全倒装（主语 much of the marine life 后置；谓语 lives 随不可数的 life 用单数）| the marine life (that) we know about：省略关系词的定语从句，about 悬空句尾 | such as 三例列举 | 海洋分层说明文的“阳光层”开篇句：Here 一词把读者按进 200 米以内的浅海 | 倒装家族再添一员：Here/There + 谓语 + 主语（There goes the bell.）",
+    "pattern": "Here lives + 主语 + (that)定从, such as A, B and C",
+    "structures": ["here倒装", "省略关系词定从", "such as列举"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "我们熟悉的大部分城市鸟类就栖息在这里——比如麻雀、白头鹎和珠颈斑鸠。",
+    "imitationHint": "Here lives much of the urban birdlife we are familiar with, → such as sparrows, bulbuls and spotted doves（Here + 倒装）",
+    "imitationAnswer": "Here lives much of the urban birdlife we are familiar with, such as sparrows, bulbuls and spotted doves."
+  },
+  {
+    "sentence": "Sinking below 200 metres, we enter the twilight zone, where there is little sunlight and thus almost no plant life.",
+    "translation": "下潜到 200 米以下，我们便进入暮光层——那里阳光稀少，因而几乎没有植物。",
+    "analysis": "Sinking below 200 metres：现在分词短语作时间/伴随状语——“边下沉边进入”的潜水视角 | where 引导非限定性定语从句描述 the twilight zone 的环境 | little sunlight and thus almost no plant life：thus 串起因果（光少→无植物），little/no 双否定量词递进 | the twilight zone 暮光层（术语的画面感）| 说明文“空间推进”的转场句：一个分词完成场景切换",
+    "pattern": "V-ing below ..., S + enter + N, where there is little ... and thus almost no ...",
+    "structures": ["分词状语", "where非限定从", "thus因果"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "爬过海拔四千米，我们便进入高寒区——那里氧气稀薄，因而几乎没有高大的树木。",
+    "imitationHint": "Climbing above 4,000 metres, we enter the alpine zone, → where there is little oxygen and thus almost no tall trees（where 从句 + thus）",
+    "imitationAnswer": "Climbing above 4,000 metres, we enter the alpine zone, where there is little oxygen and thus almost no tall trees."
+  },
+  {
+    "sentence": "Most of the fish living here are small filter feeders which swim up at night to feed in the nutrient-rich waters above.",
+    "translation": "生活在这里的鱼大多是小型滤食动物，它们夜间上浮，到上方营养丰富的水域觅食。",
+    "analysis": "living here 现在分词作后置定语（= that live here）| which 定语从句再补习性：swim up at night to feed——to feed 目的状语 | nutrient-rich 复合形容词“富含营养的”（n.+adj. 构词）| above 副词作后置定语（the waters above 上方水域）| 双层定语（分词+which）把“是什么鱼+怎么生活”一句装完——生物说明文的信息压缩句 | filter feeders 滤食动物（术语）",
+    "pattern": "Most of the + N + V-ing here are + N + which + V + to + V + in the + 复合adj. + N + above",
+    "structures": ["分词后置定语", "which定语从句", "复合形容词"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "住在这里的居民大多是老手艺人，他们清晨出门，到人流密集的早市上摆摊。",
+    "imitationHint": "Most of the residents living here are old craftsmen → who set out at dawn to set up stalls in the crowded morning market（分词+定从双层）",
+    "imitationAnswer": "Most of the residents living here are old craftsmen who set out at dawn to set up stalls in the crowded morning market."
+  }
+]

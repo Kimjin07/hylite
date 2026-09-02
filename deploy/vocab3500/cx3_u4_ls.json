@@ -1,0 +1,50 @@
+[
+  {
+    "sentence": "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.",
+    "translation": "三种单纯而无比强烈的激情主宰了我的一生：对爱的渴望、对知识的求索，以及对人类苦难难以承受的悲悯。",
+    "analysis": "罗素《我为何而生》的世纪开篇 | Three passions 主语后紧跟形容词短语插入 simple but overwhelmingly strong（双逗号包夹，simple 与 strong 的张力由 but 撑开）| 冒号后三名词短语排比揭晓：the longing for / the search for / unbearable pity for——三个 for 短语工整对位三种激情 | have governed 现在完成时“一生主宰” | overwhelmingly 副词强化 | 自传文学的黄金开头范式：总（three passions）→ 分（冒号三列举）——个人陈述/人生态度作文的最高级模板，背诵级",
+    "pattern": "Three + N, adj. but adv. + adj., have governed my life: the N for ..., the N for ..., and + N for ...",
+    "structures": ["形容词插入", "冒号三排比", "总分结构"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "三种朴素而无比坚定的信念支撑了我的高中三年：对进步的渴望、对友谊的珍视，以及对未来毫不动摇的信心。",
+    "imitationHint": "Three beliefs, simple but overwhelmingly firm, have supported my three years of senior high: → the longing for progress, the treasuring of friendship, and unshakable confidence in the future（总分+三 for 排比）",
+    "imitationAnswer": "Three beliefs, simple but overwhelmingly firm, have supported my three years of senior high: the longing for progress, the treasuring of friendship, and unshakable confidence in the future."
+  },
+  {
+    "sentence": "These passions, like great winds, have blown me in a wayward course, over a great ocean of anguish, reaching to the very edge of despair.",
+    "translation": "这些激情如同狂风，把我吹得行无定所，掠过苦痛的汪洋，直抵绝望的边缘。",
+    "analysis": "罗素开篇第二句 | like great winds 明喻插入：激情=狂风（被动的人生动力学——是风吹我、不是我行走）| blown me in a wayward course：wayward 任性无定向的 | over a great ocean of anguish：苦痛之海的量词隐喻（呼应 a cloud of hopelessness 家族）| reaching to the very edge of despair：分词收尾 + the very edge“正正边缘”（very 强调）| 风→海→崖的意象三级跳：一句话完成一场精神风暴的航拍——文学翻译鉴赏与仿写的双料样本",
+    "pattern": "S, like + N, have blown me in ..., over a great ocean of ..., reaching to the very edge of ...",
+    "structures": ["明喻插入", "意象链", "reaching分词收尾"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这些梦想如同季风，推着我偏离安稳的航线，越过自我怀疑的深海，抵达坚持的最远处。",
+    "imitationHint": "These dreams, like monsoon winds, have pushed me off the safe course, over a deep sea of self-doubt, → reaching to the farthest edge of perseverance（意象三级跳）",
+    "imitationAnswer": "These dreams, like monsoon winds, have pushed me off the safe course, over a deep sea of self-doubt, reaching to the farthest edge of perseverance."
+  },
+  {
+    "sentence": "We should live each day with a gentleness, a vigor, and a keenness of appreciation which are often lost when time stretches out before us in an endless vista.",
+    "translation": "我们应当带着温柔、活力和敏锐的感知力度过每一天——而当时间在我们眼前铺展成无尽的远景时，这些恰恰最容易丢失。",
+    "analysis": "海伦·凯勒《假如给我三天光明》| with a gentleness, a vigor, and a keenness of appreciation：三个抽象名词竟各带不定冠词 a——把“温柔/活力/敏锐”个体化为可携带的三件行囊（抽象名词具体化的冠词艺术）| which are often lost：定语从句点出悖论——以为来日方长，反而失去珍惜 | when time stretches out... in an endless vista：时间拟物（呼应必修三 U3 的 The empty hours stretched out——同词块两个语境）| vista 远景 | 珍惜当下的哲理句：盲人比明眼人更懂“看”——议论文“向死而生/惜时”的顶级引用",
+    "pattern": "S + should live each day with a + N, a + N, and a + N + which are often lost when ...",
+    "structures": ["抽象名词+冠词", "which定语从句", "时间拟物"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "我们应当带着好奇、耐心和一份郑重度过每一堂课——而当课程表在眼前铺展成漫长的三年时，这些恰恰最容易丢失。",
+    "imitationHint": "We should sit through each class with a curiosity, a patience, and a seriousness → which are often lost when the timetable stretches out before us in an endless three years",
+    "imitationAnswer": "We should sit through each class with a curiosity, a patience, and a seriousness which are often lost when the timetable stretches out before us in an endless three years."
+  },
+  {
+    "sentence": "With this short outline of how I should spend three days of sight, I can give one hint to those who see: use your eyes as if tomorrow you would be stricken blind.",
+    "translation": "借着这份“三天光明如何度过”的简短提纲，我想给看得见的人一个提醒：用你的眼睛去看吧，就当明天你就会失明。",
+    "analysis": "海伦·凯勒全文的收束句 | With this short outline of how...：with 短语内嵌 how 宾语从句 | those who see“看得见的人”——在盲人笔下这个短语自带千钧 | 冒号后祈使句直接嘱托：use your eyes | as if + 过去将来虚拟：as if tomorrow you would be stricken blind（与事实相反的假设——你明天并不会盲，但请这样活）| stricken 击中的（strike 的古分词：be stricken blind 猝然失明）| “向死而生”的方法论：用失去的假设激活拥有的感知——全书最有力量的告别句，背诵级",
+    "pattern": "With this outline of how ..., S + can give one hint to those who + V: 祈使句 + as if + S + would be + V-ed",
+    "structures": ["with+how从句", "as if虚拟", "祈使嘱托", "stricken"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "借着这份“最后一个学期如何度过”的简短规划，我想给还有大把时间的同学一个提醒：去珍惜课堂吧，就当明天你就要毕业离校。",
+    "imitationHint": "With this short outline of how I should spend my final term, I can give one hint to those who still have time: → treasure your classes as if tomorrow you would leave school for good（as if + would 虚拟）",
+    "imitationAnswer": "With this short outline of how I should spend my final term, I can give one hint to those who still have time: treasure your classes as if tomorrow you would leave school for good."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "It is a powerful force, and if we use it effectively, we can use the gravity pull of habit to create the cohesiveness and order necessary to establish effectiveness in our lives.",
+    "translation": "习惯是一股强大的力量；若能善加利用，我们就能借助习惯的引力，创造出人生获得成效所必需的凝聚力与秩序。",
+    "analysis": "柯维《高效能人士的七个习惯》选段 | the gravity pull of habit：习惯=引力的物理隐喻（挣脱要如火箭升空、借力则如轨道运行）| necessary to establish...：形容词短语作后置定语修饰 the cohesiveness and order（= which are necessary）| if 条件从句嵌在 and 并列句中 | use it effectively / establish effectiveness：同根词 effective 的动静呼应 | cohesiveness 凝聚力 | 自我管理经典的核心句：坏习惯是枷锁、好习惯是引擎——习惯主题作文的理论支点",
+    "pattern": "It is a powerful force, and if ..., S + can use + the N of habit + to create + N + necessary to + V",
+    "structures": ["引力隐喻", "形容词后置定语", "if嵌套并列"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "情绪是一股强大的力量；若能善加引导，我们就能借助情绪的势能，创造出专注学习所必需的动力与节奏。",
+    "imitationHint": "It is a powerful force, and if we channel it well, we can use the momentum of emotion → to create the drive and rhythm necessary to focus on learning",
+    "imitationAnswer": "It is a powerful force, and if we channel it well, we can use the momentum of emotion to create the drive and rhythm necessary to focus on learning."
+  },
+  {
+    "sentence": "Indeed, our modern life is just like motor racing, where we constantly expect to overtake the car in front of us.",
+    "translation": "的确，现代生活就像一场赛车——我们无时无刻不想超越前面的那辆车。",
+    "analysis": "just like motor racing 明喻定调：现代生活=赛车场 | where 引导非限定性定语从句修饰 motor racing（比喻空间内的行为规则）| constantly expect to overtake：constantly 无休止 + overtake 超车（超越的双关：超车/内卷）| the car in front of us“前面那辆车”——永远有下一辆，讽刺内卷的无终点 | 快节奏批判的比喻句：一场没有终点线的比赛——“慢生活/内卷反思”类作文的破题比喻",
+    "pattern": "Indeed, S + is just like + N, where + S + constantly expect to + V ...",
+    "structures": ["明喻", "where非限定从", "overtake双关"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "的确，刷社交媒体就像一场无尽的滚梯——我们总期待下一屏有更精彩的内容。",
+    "imitationHint": "Indeed, scrolling social media is just like an endless escalator, → where we constantly expect the next screen to be more exciting（just like + where）",
+    "imitationAnswer": "Indeed, scrolling social media is just like an endless escalator, where we constantly expect the next screen to be more exciting."
+  },
+  {
+    "sentence": "You should classify the activities in the four areas and identify which are urgent and important, which are not urgent but important, which are urgent but not important, and which are neither urgent nor important.",
+    "translation": "你应当把事务归入四个象限，辨明哪些紧急且重要、哪些不紧急但重要、哪些紧急但不重要、哪些既不紧急也不重要。",
+    "analysis": "时间管理四象限的语法矩阵：四个 which 宾语从句排比，urgent/important 两个形容词做全排列——and.../but.../but not.../neither...nor... 四种逻辑连接恰好各现一次（并列/转折/转折否定/双否定）| classify... and identify... 双谓语 | 一句话装下一张管理学名图：语言结构即思维结构的完美例证——四象限法则的原文出处，规划类作文的方法论引用",
+    "pattern": "S + should classify ... and identify which are A and B, which are not A but B, which are A but not B, and which are neither A nor B",
+    "structures": ["四which排比", "逻辑连接词全排列", "四象限"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "你应当把书单分成四类，辨明哪些有趣且有用、哪些无趣但有用、哪些有趣但无用、哪些既无趣也无用。",
+    "imitationHint": "You should classify your reading list into four groups and identify which are interesting and useful, which are not interesting but useful, → which are interesting but not useful, and which are neither interesting nor useful",
+    "imitationAnswer": "You should classify your reading list into four groups and identify which are interesting and useful, which are not interesting but useful, which are interesting but not useful, and which are neither interesting nor useful."
+  }
+]

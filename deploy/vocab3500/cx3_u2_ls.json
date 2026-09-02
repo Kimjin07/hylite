@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "Imagining himself pursuing a beam of light, he reasoned that he should observe such a beam of light as an electromagnetic field at rest.",
+    "translation": "他想象自己在追逐一束光，并由此推断：他应当观察到这束光如同一个静止的电磁场。",
+    "analysis": "爱因斯坦十六岁的思想实验 | Imagining himself pursuing...：现在分词状语内嵌 imagine sb doing（想象自己追光——双层 -ing）| reasoned that...：reason 动词化“推理出”（科学思维动词）| observe... as... 把……观察为 | at rest 静止的（物理术语：静止状态；rest 熟词僻义）| a beam of light 一束光（量词 beam）| 思想实验的定义级例句：不需要实验室、只需要想象力——狭义相对论的起点，创新思维类作文的黄金素材",
+    "pattern": "V-ing + oneself + V-ing ..., S + reasoned that + S + should observe + N + as + N + at rest",
+    "structures": ["双层分词", "reason动词化", "observe...as"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "她想象自己站在读者的位置，由此推断：开头应当像一扇半开的门，而不是一堵墙。",
+    "imitationHint": "Imagining herself standing in the reader's place, she reasoned that → the opening should work as a half-open door rather than a wall（imagining + reasoned that）",
+    "imitationAnswer": "Imagining herself standing in the reader's place, she reasoned that the opening should work as a half-open door rather than a wall."
+  },
+  {
+    "sentence": "With hypothetical situations, thought experiments allow us to explore the outcome of a given hypothesis which has real-life significance.",
+    "translation": "借助假设的情境，思想实验让我们得以探究某个具有现实意义的假说会产生怎样的结果。",
+    "analysis": "With hypothetical situations 工具性 with 开路 | allow us to explore 使我们得以探究 | a given hypothesis：given 作形容词“给定的、特定的”（熟词僻义第三用法：give 分词/介词“考虑到”/形容词“给定”）| which has real-life significance：which 定语从句锚定价值——思想实验不是空想，须有现实意义 | hypothesis 假说（复数 hypotheses；hypothetical 形容词）| 思想实验的方法论定义句：假设（hypothetical）→推演（explore）→意义（significance）三要素",
+    "pattern": "With + adj. + N, S + allow us to explore the outcome of + N + which has + N",
+    "structures": ["with工具短语", "given形容词", "which定语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "借助模拟的法庭，辩论练习让我们得以检验某个具有现实意义的论点能否站得住脚。",
+    "imitationHint": "With simulated courtrooms, debate practice allows us to test → whether a given argument which has real-life significance can hold water",
+    "imitationAnswer": "With simulated courtrooms, debate practice allows us to test whether a given argument which has real-life significance can hold water."
+  },
+  {
+    "sentence": "It's hard to imagine why it took so long to design spectacles with arm pieces that could clip behind the ears, but these weren't invented until the 18th century.",
+    "translation": "很难想象为何用了这么久才设计出能夹在耳后的眼镜腿——这种设计直到 18 世纪才被发明出来。",
+    "analysis": "双 it 开局：It's hard to imagine（形式主语）+ why it took so long（why 宾语从句内又一个 it 耗时句型）| spectacles with arm pieces that could clip...：with 短语+that 定从的双层修饰（带“能夹耳后的镜腿”的眼镜）| not... until the 18th century：直到 18 世纪才（被动 weren't invented）| spectacles 眼镜（正式词；佩戴复数）| 科技史的“后见之明”句式：今天理所当然的设计曾缺席几百年——创新之难的绝佳论据",
+    "pattern": "It's hard to imagine why it took so long to + V ..., but these weren't + V-ed until ...",
+    "structures": ["双it", "why宾语从句", "not...until"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "很难想象为何用了这么久才给行李箱装上轮子——这种设计直到二十世纪七十年代才被发明出来。",
+    "imitationHint": "It's hard to imagine why it took so long to put wheels on suitcases, → but these weren't invented until the 1970s（双 it + not until）",
+    "imitationAnswer": "It's hard to imagine why it took so long to put wheels on suitcases, but these weren't invented until the 1970s."
+  }
+]

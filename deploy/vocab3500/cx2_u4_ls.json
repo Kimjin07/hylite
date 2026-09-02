@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "The law is the compass that has guided humans from the first law-abiding communities to where we are today.",
+    "translation": "法律是一枚罗盘，指引着人类从最早的守法社群一路走到今天。",
+    "analysis": "the compass 定义式暗喻：法律=罗盘（方向感的意象）| that 定语从句 + 现在完成时 has guided：从远古“指引至今”的时间纵深 | from... to where we are today：from A to B 框架里 B 是 where 引导的宾语从句（“我们今天所在之处”——抽象地点）| law-abiding 复合形容词“守法的”（abide by 遵守）| 法治文明的开篇立意句：比喻+时间线+从句三合一——制度类话题作文的定义式开头",
+    "pattern": "S + is the compass that has guided ... from ... to where we are today",
+    "structures": ["定义式暗喻", "that定从+完成时", "where宾语从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "文字是一座桥梁，把人类从口耳相传的部落一路引到今天的知识社会。",
+    "imitationHint": "Writing is the bridge that has carried humans from oral tribes → to where we are today（比喻+to where）",
+    "imitationAnswer": "Writing is the bridge that has carried humans from oral tribes to where we are today."
+  },
+  {
+    "sentence": "After the amendment to the traffic law, drivers must make amends for any damage they cause.",
+    "translation": "交通法修订之后，司机必须对自己造成的任何损害作出赔偿。",
+    "analysis": "amendment / amends 同根异义的一句双雄：amendment to 对……的修正案（法律语境）vs make amends for 赔偿、弥补（固定短语，amends 恒复数）——一字之差、词性词义全变，辨析式记忆的绝佳载体 | any damage (that) they cause 省略关系词定从 | must 法律义务的情态词 | 法条语体句：修法（因）→ 担责（果）——法律与责任单元的枢纽句",
+    "pattern": "After the amendment to ..., S + must make amends for + any + N + (that) + S + cause",
+    "structures": ["amendment/amends辨析", "省略关系词定从", "must义务"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "校规修订之后，损坏公物的同学必须为造成的损失作出弥补。",
+    "imitationHint": "After the amendment to the school rules, students who damage public property → must make amends for the losses they cause（amendment vs amends）",
+    "imitationAnswer": "After the amendment to the school rules, students who damage public property must make amends for the losses they cause."
+  },
+  {
+    "sentence": "A hard-working, law-abiding and peace-loving citizen is a pillar of society.",
+    "translation": "一个勤奋工作、遵纪守法、热爱和平的公民，是社会的支柱。",
+    "analysis": "三复合形容词排比作定语：hard-working（adv.+v-ing）/ law-abiding（n.+v-ing）/ peace-loving（n.+v-ing）——“名词/副词+现在分词”构词法的集中展示（同族：English-speaking、time-consuming）| a pillar of society 社会支柱（pillar 柱石的比喻）| 公民素养的画像句：三个连字符形容词把“好公民”的三面（勤奋/守法/爱和平）钉进一个名词短语——人物评价与构词法双教学点",
+    "pattern": "A + 复合adj., 复合adj. and 复合adj. + N + is a pillar of ...",
+    "structures": ["复合形容词排比", "构词法", "pillar比喻"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "一个善于倾听、乐于助人、勇于担当的班干部，是班级的支柱。",
+    "imitationHint": "A good-listening, help-offering and duty-taking class cadre → is a pillar of the class（三复合形容词；可灵活构词）",
+    "imitationAnswer": "An attentive, helpful and responsibility-taking class cadre is a pillar of the class."
+  }
+]

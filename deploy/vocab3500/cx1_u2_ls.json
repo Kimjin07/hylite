@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "Without doubt, the Yellow River will continue to bring such agricultural abundance to China that life without its priceless gifts would be unimaginable.",
+    "translation": "毫无疑问，黄河将继续为中国带来如此丰饶的农业物产，以至于没有这些无价馈赠的生活将不可想象。",
+    "analysis": "such... that... 结果状语从句：such + 名词短语（agricultural abundance）呼应 that 从句 | that 从句内嵌虚拟：life... would be unimaginable——without its priceless gifts 含蓄虚拟条件（= if there were no...）| 双 without 首尾呼应：Without doubt（毫无疑问）与 without its gifts（若无馈赠）一实一虚 | priceless 无价的（-less 构词反直觉：不是“没价值”是“价值高到无法标价”，同族 invaluable）| 母亲河颂歌的收束句：断言+虚拟反衬的双保险",
+    "pattern": "Without doubt, S + will continue to bring such + N + that + S + without ... would be + adj.",
+    "structures": ["such...that", "含蓄虚拟", "priceless"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "毫无疑问，这座图书馆将继续为社区带来如此丰厚的精神滋养，以至于没有它的日子将难以想象。",
+    "imitationHint": "Without doubt, the library will continue to bring such spiritual nourishment to the community → that life without it would be unimaginable（such...that + 虚拟）",
+    "imitationAnswer": "Without doubt, the library will continue to bring such spiritual nourishment to the community that life without it would be unimaginable."
+  },
+  {
+    "sentence": "Many think of the Nile as an Egyptian river, but it flows through many countries.",
+    "translation": "许多人把尼罗河当作埃及的河，但它其实流经许多国家。",
+    "analysis": "think of A as B 把 A 视为 B（= see/regard... as，跨书第三现）| Many 作主语“许多人”（= Many people 的省略）| but 转折纠偏：常识 vs 事实——说明文“纠正误解”话步（呼应必修三 U4 的 One might think... far from the truth）| flow through 流经 | 大河地理的开阔视角：一条河不属于一个国家——为下文流域各国农业共享水源作铺垫",
+    "pattern": "Many think of + A + as + B, but + S + flows through ...",
+    "structures": ["think of...as", "纠正误解", "Many主语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "许多人把功夫当作一种打斗技术，但它其实承载着修身养性的哲学。",
+    "imitationHint": "Many think of kung fu as a fighting technique, → but it actually carries a philosophy of self-cultivation（think of...as + but 纠偏）",
+    "imitationAnswer": "Many think of kung fu as a fighting technique, but it actually carries a philosophy of self-cultivation."
+  },
+  {
+    "sentence": "With the help of algorithms, farmers can decide exactly how much water each field needs.",
+    "translation": "借助算法，农民能精确判断每块田地需要多少水。",
+    "analysis": "With the help of 借助……（工具性 with 短语开路）| decide exactly how much water each field needs：how much 引导宾语从句（陈述语序：each field needs 不倒装）——“精确到每块田”的智慧农业图景 | exactly 副词卡在动宾之间强调精度 | algorithm 算法（数字时代高频词）| 传统农业+现代科技的融合句：黄河灌溉的古老命题交给算法——科技赋能类作文的具体化例证",
+    "pattern": "With the help of + N, S + can decide exactly + how much + N + S + needs",
+    "structures": ["with the help of", "how much宾语从句", "exactly"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "借助传感器，园丁能精确知道每株植物需要多少光照。",
+    "imitationHint": "With the help of sensors, gardeners can know exactly → how much sunlight each plant needs（how much 宾从陈述语序）",
+    "imitationAnswer": "With the help of sensors, gardeners can know exactly how much sunlight each plant needs."
+  }
+]

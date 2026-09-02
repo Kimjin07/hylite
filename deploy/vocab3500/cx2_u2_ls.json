@@ -1,0 +1,38 @@
+[
+  {
+    "sentence": "They produce a large quantity of carbon dioxide, which in turn traps heat and causes global warming.",
+    "translation": "它们排放大量二氧化碳，而这些二氧化碳又困住热量、造成全球变暖。",
+    "analysis": "which 非限定性定语从句指代 carbon dioxide | in turn 插入“继而、反过来”（呼应必修三 U1 的 in turn——因果链的接力棒副词）| traps heat 困住热量（trap 呼应选必二 U1：温室效应的动词本质）| a large quantity of 大量（+不可数；谓语随 quantity）| 化石能源批判的机理句：排放→温室→变暖三步因果——气候议题作文的原理句，一句讲清温室效应",
+    "pattern": "S + produce + a large quantity of + N, which in turn + V and + V ...",
+    "structures": ["which非限定从", "in turn", "a large quantity of"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "他们制造了海量的短视频，而这些视频又反过来抢占注意力、加剧信息焦虑。",
+    "imitationHint": "They produce a large quantity of short videos, → which in turn seize our attention and worsen information anxiety（which + in turn）",
+    "imitationAnswer": "They produce a large quantity of short videos, which in turn seize our attention and worsen information anxiety."
+  },
+  {
+    "sentence": "A smart grid balances supply and demand, feeding surplus solar power back into the grid.",
+    "translation": "智能电网平衡供需，把富余的太阳能电力回馈给电网。",
+    "analysis": "balance supply and demand 平衡供需（经济学词对）| feeding... back into...：现在分词作伴随/结果状语 + feed back“回馈、回输”（feed 的能量语义）| surplus 富余的（形容词作定语；n. 顺差/盈余）| grid 电网（smart grid 智能电网）| 新能源方案句：光伏发电的“存取自由”一句写透——科技赋能环保的具象例证，能源类作文的加分细节",
+    "pattern": "S + balances supply and demand, feeding + surplus + N + back into ...",
+    "structures": ["分词伴随", "feed back into", "surplus"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "共享书架平衡了闲置与需求，把多余的旧书回流给社区读者。",
+    "imitationHint": "A book-sharing shelf balances idleness and demand, → feeding surplus old books back into the community（feeding...back into）",
+    "imitationAnswer": "A book-sharing shelf balances idleness and demand, feeding surplus old books back into the community."
+  },
+  {
+    "sentence": "The campaign aims to prevent food waste, safeguard food security and promote the traditional virtues of the Chinese nation.",
+    "translation": "这项行动旨在防止食物浪费、保障粮食安全、弘扬中华民族的传统美德。",
+    "analysis": "aim to do + 三并列动宾：prevent / safeguard / promote——个人餐桌→国家粮仓→民族美德的三级升维（光盘行动的完整立意）| safeguard 保障、捍卫（比 protect 更正式）| food security 粮食安全（security 呼应必修一 U2）| the traditional virtues of the Chinese nation 中华民族传统美德（时政标准译法）| 政策宣传语体的标准句：目标三连排比——倡议书/建议信的万能句架",
+    "pattern": "The campaign aims to + V₁ ..., V₂ ... and V₃ ...",
+    "structures": ["aim to do", "三并列动宾", "时政词块"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "这项活动旨在减少一次性用品、培养环保习惯、传递绿色生活的理念。",
+    "imitationHint": "The campaign aims to reduce disposable products, → cultivate eco-friendly habits and spread the idea of green living（三并列）",
+    "imitationAnswer": "The campaign aims to reduce disposable products, cultivate eco-friendly habits and spread the idea of green living."
+  }
+]
