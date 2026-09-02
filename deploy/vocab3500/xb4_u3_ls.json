@@ -1,0 +1,50 @@
+[
+  {
+    "sentence": "Some might say that we work because we have to, not least because we need the salary that enables us to be financially independent.",
+    "translation": "有人可能会说，我们工作是因为不得不工作——尤其是因为我们需要那份让我们经济独立的薪水。",
+    "analysis": "Some might say that...：泛指+弱推测的“摆他方观点”开场（呼应必修三 U4 的 One might think——议论文立靶话步）| not least because 尤其是因为（= especially because，双重否定式强调——“不算最小的原因”即重要原因）| the salary that enables us to...：that 定语从句 + enable sb to do | financially independent 经济独立（副词+形容词）| because 双连击：先泛因（have to）再特因（not least because）——原因论证的层进 | 工作意义讨论的现实起点：先承认“为钱工作”的正当性",
+    "pattern": "Some might say that + S + V because ..., not least because + S + need + N + that enables ...",
+    "structures": ["not least because", "that定语从句", "enable to do"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "有人可能会说，我们读书是因为不得不读——尤其是因为我们需要那张让我们拥有更多选择的文凭。",
+    "imitationHint": "Some might say that we study because we have to, → not least because we need the diploma that enables us to have more choices",
+    "imitationAnswer": "Some might say that we study because we have to, not least because we need the diploma that enables us to have more choices."
+  },
+  {
+    "sentence": "It is certainly true that most of us do join the labour force once our studies are completed.",
+    "translation": "确实，一旦完成学业，我们大多数人都会加入劳动大军。",
+    "analysis": "It is certainly true that...：it 形式主语 + 让步式认可（“确实如此”——先承认对方论点再转折，议论文的让步策略）| do join：助动词 do 强调谓语“确实会”| once 引导时间/条件从句“一旦”（once our studies are completed 被动）| the labour force 劳动力大军（labour 呼应本单元词汇群：labour/salary/earn a living）| 让步-强调双保险：certainly + do——为下文 but 转折（工作不只是为钱）蓄力的标准过门句",
+    "pattern": "It is certainly true that + S + do + V + once + S + are + V-ed",
+    "structures": ["it形式主语", "do强调", "once从句"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "确实，一旦考试临近，我们大多数人都会拿起错题本。",
+    "imitationHint": "It is certainly true that most of us do pick up our error notebooks → once exams draw near（do 强调 + once）",
+    "imitationAnswer": "It is certainly true that most of us do pick up our error notebooks once exams draw near."
+  },
+  {
+    "sentence": "Our work, when done well, will not only help us make a living but also help make a life for ourselves and for others.",
+    "translation": "工作若做得好，不仅帮我们谋生，更帮我们为自己、也为他人成就人生。",
+    "analysis": "when done well：时间从句省略主语+be（= when it is done well）——插入在主谓之间的条件限定 | not only... but also... 递进并列双 help | make a living vs make a life：谋生/成就人生的一词之差——全文的题眼对（living 生计、life 人生）| for ourselves and for others 双 for 收尾：利己与利他 | 工作价值观的金句：从“活着”到“生活”，一个动词短语的升维——职业理想类作文的点题句，背诵级",
+    "pattern": "S, when + V-ed well, will not only help + V ... but also help + V ... for ... and for ...",
+    "structures": ["从句省略", "not only...but also", "make a living/life对"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "读书若读得深，不仅帮我们应对考试，更帮我们为自己、也为世界打开视野。",
+    "imitationHint": "Reading, when done deeply, will not only help us handle exams → but also help open up horizons for ourselves and for the world（when done + not only）",
+    "imitationAnswer": "Reading, when done deeply, will not only help us handle exams but also help open up horizons for ourselves and for the world."
+  },
+  {
+    "sentence": "Her salary is deposited on the final working day of each month, giving her a predictable date for paying rent.",
+    "translation": "她的工资在每月最后一个工作日入账，这让她有了一个可预期的交租日期。",
+    "analysis": "is deposited 被动“被存入”（deposit 存款——金融词汇动词化；反义 withdraw/draw out 取款，呼应必修一 U2 银行主题）| giving her... 现在分词作结果状语（= which gives）| a predictable date：predictable 可预期的（predict 预测 + -able）| for paying rent 介词+动名词表用途 | the final working day of each month 时间的精确表达 | 财务规律性的生活化例句：工资制度→生活确定性的因果链——说明文用小例子讲抽象概念（financial independence）的示范",
+    "pattern": "S + is + V-ed + on + 时间, giving + sb + a + adj. + N + for + V-ing",
+    "structures": ["被动语态", "giving结果分词", "predictable"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "班车每天七点二十准时发车，这让同学们有了一个可预期的到校时间。",
+    "imitationHint": "The school bus sets off at exactly 7:20 every day, → giving students a predictable time of arrival（giving 结果分词）",
+    "imitationAnswer": "The school bus sets off at exactly 7:20 every day, giving students a predictable time of arrival."
+  }
+]

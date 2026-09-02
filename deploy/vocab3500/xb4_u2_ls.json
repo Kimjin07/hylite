@@ -1,0 +1,74 @@
+[
+  {
+    "sentence": "What is special is that it is a Chinese poem and that she is able to recite it without an accent.",
+    "translation": "特别之处在于：那是一首中文诗，而且她背诵起来没有一点口音。",
+    "analysis": "what 主语从句 + 双 that 表语从句：What is special is that... and that...——第二个 that 不可省（并列名词性从句铁律的表语从句版，与 remember that...and that... 跨书呼应）| recite it without an accent 无口音背诵（accent 口音）| 纽约五岁女孩背中文诗的新闻点：special 悬念先行，双 that 揭晓双重惊讶（是中文诗+零口音）| What is special/important/interesting is that... 是提炼亮点的万能句架",
+    "pattern": "What is special is that + 从句 and that + 从句",
+    "structures": ["what主语从句", "双that表语从句", "并列that不省"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "特别之处在于：这套教材是学生自己编的，而且每道题都配了手绘插图。",
+    "imitationHint": "What is special is that the textbook was compiled by students themselves → and that every exercise comes with a hand-drawn illustration（双 that）",
+    "imitationAnswer": "What is special is that the textbook was compiled by students themselves and that every exercise comes with a hand-drawn illustration."
+  },
+  {
+    "sentence": "Keen for their sons and daughters to succeed in life, they see being fluent in a second or third language as an advantage.",
+    "translation": "他们热切盼望子女人生成功，因而把流利掌握第二乃至第三门语言视为一种优势。",
+    "analysis": "Keen for sb to do 形容词短语作原因状语开路（= Because they are keen for...）——keen 渴望的（be keen for/on；呼应选必一 U2 形容词状语家族）| see... as... 把……视为（= view/regard as）| being fluent in...：动名词复合结构作宾语——“流利”这件事整体被视为优势 | a second or third language 序数词的“再加一门”递进 | 双语教育热的家长心理一句写透：动机（keen for）→ 判断（see as）——教育类作文的现象概括句",
+    "pattern": "Keen for + sb + to + V, S + see + V-ing + as + N",
+    "structures": ["形容词短语状语", "see...as", "动名词作宾语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "他们热切盼望孩子全面发展，因而把坚持一项体育运动视为一种必修课。",
+    "imitationHint": "Keen for their children to develop in an all-round way, → they see sticking to a sport as a required lesson（Keen for... + see...as）",
+    "imitationAnswer": "Keen for their children to develop in an all-round way, they see sticking to a sport as a required lesson."
+  },
+  {
+    "sentence": "They could be interpreted as a welcoming greeting from a close friend, especially if accompanied by a gentle smile.",
+    "translation": "它们可以被解读为亲密朋友的热情问候——尤其当伴着一个温和的微笑时。",
+    "analysis": "be interpreted as 被解读为（interpret 呼应选必一 U4：解释/理解为/口译）| especially if accompanied by...：if 从句省略主语+be（= if they are accompanied by）——条件从句省略与过去分词的组合（呼应必修二 U2 的 if maintained）| accompanied by 伴随着（accompany 呼应选必一 U2 音乐单元：陪伴/伴奏——一词跨单元三义）| 肢体语言的语境依赖性：同一动作+不同表情=不同含义——跨文化交际的核心洞察句",
+    "pattern": "S + could be interpreted as ..., especially if + V-ed by ...",
+    "structures": ["be interpreted as", "if从句省略", "accompanied by"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "沉默可以被解读为一种默许——尤其当伴着一个点头时。",
+    "imitationHint": "Silence could be interpreted as a form of agreement, → especially if accompanied by a nod（if accompanied 省略）",
+    "imitationAnswer": "Silence could be interpreted as a form of agreement, especially if accompanied by a nod."
+  },
+  {
+    "sentence": "Now, when speaking to Americans, who have a preference for the direct style, I found that I often failed to get straight to the point.",
+    "translation": "如今在和偏好直接风格的美国人交谈时，我发现自己常常没法开门见山。",
+    "analysis": "when speaking to...：时间从句省略主语+be（= when I was speaking）| who 非限定性定语从句插入补充美国人的沟通偏好（have a preference for 偏好，preference 呼应必修二 U1 prefer 家族）| fail to do 未能做到 | get straight to the point 开门见山、直奔主题（口语高频习语）| 交换生自述的文化反差句：中式含蓄 vs 美式直接——跨文化沟通作文的第一人称素材；主句 found 套 that 从句的自我观察语态",
+    "pattern": "When + V-ing to + sb, who ..., S + found that + S + often failed to + V",
+    "structures": ["从句省略", "who非限定从", "get straight to the point"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "在和习惯慢节奏的爷爷奶奶聊天时，我发现自己常常语速太快、忘了停顿。",
+    "imitationHint": "When chatting with my grandparents, who are used to a slower pace, → I found that I often spoke too fast and forgot to pause（when + doing 省略）",
+    "imitationAnswer": "When chatting with my grandparents, who are used to a slower pace, I found that I often spoke too fast and forgot to pause."
+  },
+  {
+    "sentence": "By the end of the exchange year, I had a somewhat better understanding of how to communicate in both countries, but I still have a lot to master.",
+    "translation": "到交换年结束时，我对如何在两国之间沟通有了稍好一些的理解，但要掌握的还有很多。",
+    "analysis": "By the end of + 过去时间段：交代认知的截止点 | a somewhat better understanding：somewhat 程度副词“稍微”修饰比较级——谦逊的自我评估（不说 much better）| of how to communicate：疑问词+不定式作介词宾语 | but I still have a lot to master：时态从过去（had）跳到现在（have）——总结句的“过去收获+现在待办”双时态 | a lot to master 不定式后置定语 | 成长反思文的收束句式：进步（better understanding）+留白（still a lot）——不把话说满的高级结尾",
+    "pattern": "By the end of ..., S + had a somewhat better understanding of + how to ..., but S + still have a lot to + V",
+    "structures": ["by the end of", "somewhat+比较级", "疑问词+不定式", "双时态收尾"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "到学期结束时，我对如何管理时间有了稍好一些的理解，但要改进的还有很多。",
+    "imitationHint": "By the end of the term, I had a somewhat better understanding of how to manage my time, → but I still have a lot to improve",
+    "imitationAnswer": "By the end of the term, I had a somewhat better understanding of how to manage my time, but I still have a lot to improve."
+  },
+  {
+    "sentence": "Good communication skills will also help you build trust and gain respect, allowing relationships to become more positive and productive.",
+    "translation": "良好的沟通技巧还能帮你建立信任、赢得尊重，让人际关系变得更积极、更有成效。",
+    "analysis": "help you build... and gain...：help 后双并列省 to 不定式（建立信任+赢得尊重）| allowing... 现在分词作结果状语（= which allows）——好处的链式传导：技巧→信任尊重→关系升级 | allow sth to do 使……得以 | positive and productive 双 p 头韵形容词收尾 | 沟通主题的价值总结句：三层递进一句到底——议论文“意义段”的标准句式（will help..., allowing...）",
+    "pattern": "S + will help you + V ... and + V ..., allowing + N + to become + adj. and adj.",
+    "structures": ["help双并列", "allowing结果分词", "头韵"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "良好的倾听习惯还能帮你理解他人、化解误会，让合作变得更顺畅、更愉快。",
+    "imitationHint": "Good listening habits will also help you understand others and clear up misunderstandings, → allowing cooperation to become smoother and more pleasant（allowing 结果分词）",
+    "imitationAnswer": "Good listening habits will also help you understand others and clear up misunderstandings, allowing cooperation to become smoother and more pleasant."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "sentence": "Honoured guests, teachers and students, it is my pleasure and privilege to welcome you here today and present my thoughts on this special occasion.",
+    "translation": "尊敬的来宾、老师们、同学们：今天能在这个特殊的场合欢迎各位并分享我的想法，是我的荣幸。",
+    "analysis": "演讲开场的完整礼仪句 | 三称呼并列开路：Honoured guests, teachers and students（honoured 过去分词作定语“尊敬的”）| it is my pleasure and privilege to do：it 形式主语 + 双名词并列表语（荣幸+殊荣的叠加客气）| welcome... and present...：双并列不定式 | on this special occasion 在这个特殊场合（occasion 呼应必修二 U3）| 毕业致辞/开幕欢迎辞的万能第一句——考场演讲稿直接可用的开头模板",
+    "pattern": "称呼, it is my pleasure and privilege to + V ... and + V ... on this occasion",
+    "structures": ["it形式主语", "双名词表语", "演讲开场"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "各位评委、各位同学：今天能站在这里代表班级发言，是我的荣幸。",
+    "imitationHint": "Judges and fellow students, it is my pleasure and privilege → to stand here and speak on behalf of my class（it is my pleasure and privilege to do）",
+    "imitationAnswer": "Judges and fellow students, it is my pleasure and privilege to stand here and speak on behalf of my class."
+  },
+  {
+    "sentence": "I have seen you grow from nervous Senior 1 students into confident young adults, who sit before me today, ready to embrace the next phase of your lives.",
+    "translation": "我看着你们从紧张的高一新生成长为自信的青年——今天你们就坐在我面前，准备好去拥抱人生的下一阶段。",
+    "analysis": "have seen you grow：感官动词 see + 宾语 + 原形（完成时视角“一路看着你们成长”）| grow from A into B：from 紧张新生 into 自信青年——三年浓缩进一个介词框架 | who 非限定性定语从句把镜头拉回“今天此刻” | ready to embrace...：形容词短语作状语补充状态（呼应选必一 U2 的形容词状语）| the next phase of your lives 人生下一阶段（phase 阶段）| 毕业致辞的情感核心句：时间跨度（from...into）+ 现场感（before me today）+ 祝福（ready to）三合一",
+    "pattern": "I have seen you grow from A into B, who + V ..., ready to + V ...",
+    "structures": ["感官动词+原形", "grow from...into", "who非限定从", "形容词短语状语"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "我看着这支队伍从散乱的新手成长为默契的团队——今天他们站在赛场上，准备好迎接最后的决战。",
+    "imitationHint": "I have seen the team grow from scattered beginners into a well-knit unit, → who stand on the court today, ready to embrace the final battle",
+    "imitationAnswer": "I have seen the team grow from scattered beginners into a well-knit unit, who stand on the court today, ready to embrace the final battle."
+  },
+  {
+    "sentence": "A ship without an anchor is at the mercy of the waves and winds; likewise, a person who has no sense of responsibility is at the mercy of their own careless and thoughtless behaviour.",
+    "translation": "没有锚的船任凭风浪摆布；同样，没有责任感的人也任凭自己轻率鲁莽的行为摆布。",
+    "analysis": "类比论证的教科书：船/锚 ↔ 人/责任感——先立喻体再入本体 | at the mercy of 任凭……摆布（mercy 熟词僻义“支配力”；同一短语两次出现构成平行）| likewise 同样地（分号+likewise 的类比衔接词，= similarly）| who 定语从句 | careless and thoughtless 双 -less 形容词叠加（粗心+欠考虑）| their 指代单数 person 的中性用法 | 责任主题演讲的灵魂句：比喻+平行+分号，一句可背诵迁移的论证范式",
+    "pattern": "A + N + without + N + is at the mercy of ...; likewise, a + N + who ... is at the mercy of ...",
+    "structures": ["类比论证", "at the mercy of", "likewise", "平行结构"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "没有罗盘的旅人任凭岔路摆布；同样，没有目标的学习者也任凭琐碎的诱惑摆布。",
+    "imitationHint": "A traveller without a compass is at the mercy of the crossroads; → likewise, a learner who has no goal is at the mercy of trivial distractions（分号+likewise 平行）",
+    "imitationAnswer": "A traveller without a compass is at the mercy of the crossroads; likewise, a learner who has no goal is at the mercy of trivial distractions."
+  },
+  {
+    "sentence": "Instead of being quick to blame others, analyse the problem, and if it is indeed your own fault, be ready to admit your mistake and then correct it.",
+    "translation": "不要急于责怪别人，而要分析问题；如果确实是自己的过错，就要勇于承认并改正。",
+    "analysis": "Instead of + 动名词开路：“与其……不如”的行为置换（being quick to blame 急于指责）| 祈使句三连击：analyse → admit → correct——责任行为的操作手册 | if 条件从句插入（indeed 加重“确属”）| be ready to do 乐于/勇于 | admit your mistake and then correct it：认错与改错的先后逻辑（then）| 建议文的行为矫正句式：先破（instead of）后立（祈使串）——议论文“怎么做”段落的骨架",
+    "pattern": "Instead of + V-ing, 祈使句, and if ..., be ready to + V and then + V",
+    "structures": ["instead of doing", "祈使句串", "if条件插入"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "不要急于放弃，而要拆解难题；如果确实超出能力，就要乐于求助并从中学习。",
+    "imitationHint": "Instead of being quick to give up, break down the problem, → and if it is indeed beyond you, be ready to ask for help and then learn from it",
+    "imitationAnswer": "Instead of being quick to give up, break down the problem, and if it is indeed beyond you, be ready to ask for help and then learn from it."
+  },
+  {
+    "sentence": "However, the boy was not discouraged, believing that he could make a difference to the ones that he saved.",
+    "translation": "然而，男孩并不气馁——他相信，至少对那些被他救起的海星来说，他改变了它们的命运。",
+    "analysis": "海星寓言的点睛句 | was not discouraged 否定被动“不气馁”（discourage 使气馁）| believing that... 现在分词作原因/伴随状语（= because he believed）——信念支撑行动 | make a difference to 对……产生影响（作文万能词块）| the ones that he saved：ones 指代 starfish + that 定语从句——“救一个是一个”的哲学 | 与上文路人嘲笑（救不完）的对照：宏观无力 vs 微观有意义——志愿服务/坚持行善主题的经典素材句",
+    "pattern": "However, S + was not discouraged, believing that + S + could make a difference to + the ones that ...",
+    "structures": ["believing分词状语", "make a difference to", "ones指代"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "然而，她并不气馁——她相信，至少对那些听进去的同学来说，她的分享是有价值的。",
+    "imitationHint": "However, she was not discouraged, → believing that she could make a difference to the ones who really listened",
+    "imitationAnswer": "However, she was not discouraged, believing that she could make a difference to the ones who really listened."
+  },
+  {
+    "sentence": "The light showed a pale face, with keen eyes, a square jaw and a little white scar near his right eyebrow.",
+    "translation": "火光映出一张苍白的脸：目光锐利，下颌方正，右眉附近有一道小小的白色疤痕。",
+    "analysis": "欧·亨利《二十年后》的外貌特写 | The light showed：光线作主语的物称句——不是“我看见”，是“光照出”，镜头感十足 | with + 三并列名词短语作后置定语：keen eyes（锐利）/ square jaw（方颌）/ white scar（疤痕）——三个细节由虚到实，疤痕是伏笔（通缉特征！）| pale face 总起 + with 分述：总分式白描 | 读后续写人物描写的顶级范式：光影+局部特写+一个“有故事”的细节",
+    "pattern": "The light showed a + adj. + N, with + N₁, N₂ and N₃（with三并列后置定语）",
+    "structures": ["物称主语", "with后置定语", "细节伏笔"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "路灯映出一张疲惫的脸：眼窝深陷，胡茬花白，左手还提着一只掉漆的旧工具箱。",
+    "imitationHint": "The streetlight showed a tired face, → with sunken eyes, greying stubble and an old paint-worn toolbox in his left hand（with 三并列）",
+    "imitationAnswer": "The streetlight showed a tired face, with sunken eyes, greying stubble and an old paint-worn toolbox in his left hand."
+  },
+  {
+    "sentence": "About twenty minutes later, a tall man in a long overcoat, with collar turned up to his ears, hurried toward him.",
+    "translation": "大约二十分钟后，一个身穿长大衣、领子竖到耳边的高个男人匆匆朝他走来。",
+    "analysis": "《二十年后》的登场描写 | 双层穿着定语：in a long overcoat（介词短语）+ with collar turned up to his ears（with 复合结构：宾语+过去分词）——大衣+竖领的遮掩感自带悬疑（他是谁？为何遮脸？）| About twenty minutes later 时间状语精确到分钟——守约叙事的时间刻度 | hurried toward 匆匆走向（hurry 的动作温度）| 主语被两个修饰层拉长、谓语短促收尾——“先让读者打量他，再让他动起来”的出场节奏",
+    "pattern": "时间, a + adj. + N + in ..., with + N + V-ed ..., hurried toward + sb",
+    "structures": ["with复合结构", "穿着描写", "悬疑铺垫"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "约十分钟后，一个背着旧帆布包、帽檐压得很低的年轻人快步走进了车站。",
+    "imitationHint": "About ten minutes later, a young man with an old canvas bag, → with his cap pulled down low, walked quickly into the station（with + 过去分词）",
+    "imitationAnswer": "About ten minutes later, a young man with an old canvas bag, with his cap pulled down low, walked quickly into the station."
+  }
+]

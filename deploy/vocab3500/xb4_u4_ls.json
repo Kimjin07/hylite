@@ -1,0 +1,50 @@
+[
+  {
+    "sentence": "When I drew a still life, it was impressed upon me that the blank spaces between the objects were just as vital to the success of the composition as the actual objects themselves.",
+    "translation": "画静物写生时，我深深体会到：物体之间的留白，对整幅构图的成败与实物本身同等重要。",
+    "analysis": "it was impressed upon me that...：impress sth upon sb（使铭记）的被动+形式主语版——“这一点深深印在我心上”（比 I realized 郑重得多；课堂 impress 家族：impress sb with、leave an impression on）| just as vital... as...：同级比较 + vital——留白与实物平起平坐 | a still life 静物画（熟词僻义：still life 是美术术语！复数 still lifes）| the composition 构图（composition 呼应选必一 U2 作曲/作文——一词三域）| 绘画悟人生的哲理句：留白=负空间的价值——“劳逸结合/休息的意义”类作文的高级素材",
+    "pattern": "When + S + V-ed ..., it was impressed upon me that + S + were just as + adj. + as ...",
+    "structures": ["impress upon被动", "just as...as", "熟词僻义still life"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "练长跑时，我深深体会到：训练之间的休息日，对成绩的提升与跑步本身同等重要。",
+    "imitationHint": "When I trained for long-distance running, it was impressed upon me that → the rest days between sessions were just as vital to progress as the running itself",
+    "imitationAnswer": "When I trained for long-distance running, it was impressed upon me that the rest days between sessions were just as vital to progress as the running itself."
+  },
+  {
+    "sentence": "Indeed, you may one day do jobs that do not yet exist, use technologies that are not yet developed and resolve problems that are not yet problems!",
+    "translation": "的确，你们将来也许会从事今天尚不存在的职业、使用今天尚未发明的技术、解决今天还称不上问题的问题！",
+    "analysis": "三并列动宾 + 三 that 定语从句的排比矩阵：do jobs / use technologies / resolve problems，每个宾语都挂一个 not yet 定从——三个“尚未”把未来的不可知写成确定的期待 | not yet problems 的悖论修辞：问题还不是问题（名词重复的哲学趣味）| one day 某一天 | Indeed 加强 | 感叹号收尾 | 未来教育演讲的名句：为“学习力比知识更重要”提供最有力的论据——毕业致辞/终身学习作文的压轴句，背诵级",
+    "pattern": "S + may one day + V + N + that ... yet ..., V + N + that ... yet ... and V + N + that ... yet ...!",
+    "structures": ["三并列+三定从", "not yet排比", "悖论修辞"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "的确，你们将来也许会走进今天尚未画出的地图、结识今天尚未相遇的伙伴、成为今天还想象不到的自己！",
+    "imitationHint": "Indeed, you may one day walk into maps that are not yet drawn, meet partners that you have not yet met → and become selves that you cannot yet imagine!（三并列+that 定从）",
+    "imitationAnswer": "Indeed, you may one day walk into maps that are not yet drawn, meet partners that you have not yet met and become selves that you cannot yet imagine!"
+  },
+  {
+    "sentence": "Auditory learners learn best when information is presented in a verbal manner such as when the teacher talks to the class.",
+    "translation": "听觉型学习者在信息以口头方式呈现时学得最好——比如老师对全班讲授时。",
+    "analysis": "学习风格的定义句式：X learners learn best when...——分类说明文的标准模板（auditory 听觉的/visual 视觉的/physical 动觉的三分法）| is presented in a... manner 以……方式呈现（被动+manner）| verbal 口头的（verbal warning 口头警告）| such as when...：such as 后接 when 从句举例（少见但地道的“举情境”而非“举名词”）| learn best 副词最高级 | 认识自我学习风格的工具句：套用此句式可写全三种类型——说明文分类段的骨架",
+    "pattern": "X learners learn best when + S + is presented in a + adj. + manner such as when ...",
+    "structures": ["定义句式", "被动+manner", "such as when举例"],
+    "source": "Reading",
+    "imitationType": "translation",
+    "imitationCn": "视觉型学习者在信息以图表方式呈现时学得最好——比如老师在黑板上画思维导图时。",
+    "imitationHint": "Visual learners learn best when information is presented in a graphic manner → such as when the teacher draws mind maps on the blackboard",
+    "imitationAnswer": "Visual learners learn best when information is presented in a graphic manner such as when the teacher draws mind maps on the blackboard."
+  },
+  {
+    "sentence": "Anxious parents and excited students were talking in small groups, carrying suitcases or walking in and out of dormitory buildings.",
+    "translation": "焦虑的家长和兴奋的学生三三两两地交谈着，提着行李箱，或在宿舍楼里进进出出。",
+    "analysis": "开学报到日的全景描写 | Anxious parents and excited students：双“情绪形容词+名词”对举——家长焦虑 vs 学生兴奋的代际反差萌 | were talking 过去进行时铺陈场面 | 双分词并列收尾：carrying... or walking...——群像的动作细节（提箱/进出）| in small groups 三三两两 | in and out of 方向副词对（呼应选必一 U3 的 sail in and out of）| 读后续写场面描写的模板句：情绪定格+进行时+分词群像——一句话让画面动起来",
+    "pattern": "Adj. + N and adj. + N + were + V-ing ..., V-ing ... or V-ing in and out of ...",
+    "structures": ["情绪形容词对举", "过去进行时", "双分词群像"],
+    "source": "Extended reading",
+    "imitationType": "translation",
+    "imitationCn": "紧张的选手和兴奋的观众在场边低声交谈着，做着热身，或在检录处进进出出。",
+    "imitationHint": "Nervous competitors and excited spectators were talking quietly by the track, → warming up or walking in and out of the check-in area（双分词群像）",
+    "imitationAnswer": "Nervous competitors and excited spectators were talking quietly by the track, warming up or walking in and out of the check-in area."
+  }
+]
