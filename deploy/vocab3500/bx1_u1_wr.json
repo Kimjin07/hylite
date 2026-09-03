@@ -30,21 +30,63 @@
         {
           "source": "读后续写",
           "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "Tim had always believed he was an ordinary boy with no special talent. So when his teacher signed him up for the school speech contest, he was terrified. \"I can't do this,\" he whispered, but the teacher only smiled: \"You'll never know until you try.\" For a whole week, Tim practised his speech in front of the mirror, his hands shaking every time.",
-          "para1": "Paragraph 1: The night before the contest, Tim could not sleep.",
-          "para2": "Paragraph 2: When his name was finally called, Tim walked slowly onto the stage.",
-          "reference": "The night before the contest, Tim could not sleep. He lay in bed, going over his lines again and again, his heart pounding at the thought of the crowd. What if he forgot everything? What if they laughed? At last he switched on the light, took out his notes, and read them one more time, telling himself that he had prepared as hard as he could.\n\nWhen his name was finally called, Tim walked slowly onto the stage. His legs felt weak, but the moment he began to speak, something changed. The words came out steadily, then warmly, and the hall fell silent to listen. When he finished, the applause was like a wave. Tim realised, with a rush of joy, that he had never been ordinary — he had simply never dared to try.",
+          "typeLabel": "读后续写 · 真题风格",
+          "task": "阅读下面短文，根据所给情节和两段的段首语进行续写，使之构成一个完整的故事。续写词数应为150左右（本参考范文写至200-250词，供充分学习）。",
+          "storyContext": "Tom had always thought of himself as the \"invisible\" boy of Class One — average marks, no sport, no talent his teachers ever noticed. When the school announced a science-and-innovation fair, his group turned to him last, almost as an afterthought. \"You can do the gluing,\" said Mark, the group leader, not unkindly. For two weeks Tom stayed quietly after class. While the others argued, he had secretly sketched and built a small solar-powered night light out of a plastic bottle, but he said nothing, afraid of being laughed at. On the morning of the fair, disaster struck: the group's main project, a complicated water filter, collapsed the instant they set it on the table. Mark went pale, and the judges were only three tables away.",
+          "para1": "Paragraph 1: Seeing the broken project, Tom took a deep breath and reached into his schoolbag.",
+          "para2": "Paragraph 2: When the judges finally stopped at their table, something had changed in the group.",
+          "reference": "Seeing the broken project, Tom took a deep breath and reached into his schoolbag. Out came the little bottle lamp he had made in secret. \"We — we have a backup,\" he stammered, setting it on the table with trembling hands. Mark stared, half in disbelief, half in hope. Tom flicked the tiny switch, and a soft, warm light glowed inside the bottle, steady even under the bright classroom lamps. \"It stores sunlight during the day,\" he explained, his voice growing steadier with every word, \"so families without electricity can still have light at night.\" For the first time, his groupmates were really listening to him.\n\nWhen the judges finally stopped at their table, something had changed in the group. Mark stepped aside and said, loudly and clearly, \"This was Tom's idea. He should present it.\" Swallowing his fear, Tom explained his little lamp, and the judges leaned in, nodding and scribbling notes. That afternoon their group won second prize, but the prize mattered less to Tom than the discovery he carried home: he had never been invisible or talentless — he had simply never dared to show what he could do. From that day on, Tom raised his hand a little more often, and the world, it turned out, was glad to see it.",
+          "expressions": [
+            {
+              "point": "深吸一口气",
+              "options": [
+                "took a deep breath",
+                "drew a deep breath",
+                "breathed in deeply to steady himself"
+              ]
+            },
+            {
+              "point": "结结巴巴地说",
+              "options": [
+                "he stammered",
+                "he said haltingly",
+                "the words came out in a nervous rush"
+              ]
+            },
+            {
+              "point": "半信半疑",
+              "options": [
+                "half in disbelief",
+                "hardly daring to believe it",
+                "with a doubtful yet hopeful look"
+              ]
+            },
+            {
+              "point": "越说越有底气",
+              "options": [
+                "his voice growing steadier",
+                "gaining confidence with every word",
+                "his nervousness melting into pride"
+              ]
+            },
+            {
+              "point": "鼓起勇气",
+              "options": [
+                "swallowing his fear",
+                "plucking up his courage",
+                "gathering all his courage"
+              ]
+            }
+          ],
           "vocabHints": [
-            "go over his lines",
-            "his heart pounding",
-            "what if...",
-            "as hard as he could",
-            "his legs felt weak",
-            "the words came out steadily",
-            "the applause was like a wave",
-            "a rush of joy"
+            "the invisible boy",
+            "as an afterthought",
+            "in secret",
+            "went pale",
+            "a soft, warm light glowed",
+            "really listening",
+            "won second prize",
+            "never dared to show what he could do"
           ]
         },
         {
@@ -109,21 +151,63 @@
         {
           "source": "读后续写",
           "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "Lucy and her deskmate Mia had not spoken for a week. It had started with something small — a borrowed book returned with a bent cover — but neither girl wanted to say sorry first. They sat side by side in silence every day, an invisible wall between them, and Lucy secretly missed her friend's laughter.",
-          "para1": "Paragraph 1: One rainy afternoon, Lucy found Mia sitting alone in the empty classroom.",
-          "para2": "Paragraph 2: From that day on, the two girls were closer than ever.",
-          "reference": "One rainy afternoon, Lucy found Mia sitting alone in the empty classroom, staring out at the grey sky. Lucy's heart softened. She took a deep breath, walked over, and placed a new book gently on Mia's desk. \"I'm sorry about your book,\" she said quietly. \"I miss talking to you.\" For a moment Mia said nothing; then her eyes filled with tears, and she whispered, \"I missed you too.\"\n\nFrom that day on, the two girls were closer than ever. They learned that a friendship is not broken by small mistakes, but by the silence that follows them. Whenever a misunderstanding arose after that, one of them would simply smile and say, \"Let's not build a wall again.\" And the classroom, once so quiet, was full of their laughter once more.",
+          "typeLabel": "读后续写 · 真题风格",
+          "task": "阅读下面短文，根据所给情节和两段的段首语进行续写，使之构成一个完整的故事。续写词数应为150左右（本参考范文写至200-250词，供充分学习）。",
+          "storyContext": "When Lily transferred into Class Three in the middle of the term, she felt like a stranger who had wandered onto a stage where everyone else already knew their lines. She sat alone at the back, ate lunch alone, and spoke to no one. Emma, who sat two rows in front, had noticed the new girl's lowered head and the empty seat beside her, but a small, mean voice inside her kept whispering that it was none of her business. One rainy Friday the class was divided into pairs for a history project, and by chance Lily was left without a partner — again. The teacher's eyes swept the room. \"Who will work with Lily?\" Nobody moved. Lily's cheeks burned red, and she stared hard at her desk, wishing she could disappear.",
+          "para1": "Paragraph 1: Before she had time to think, Emma heard her own voice say, \"I will.\"",
+          "para2": "Paragraph 2: By the time the project was finished, Lily was no longer the girl who sat alone.",
+          "reference": "Before she had time to think, Emma heard her own voice say, \"I will.\" Heads turned; Lily looked up, startled, as if she had misheard. Emma walked over, pulled a chair beside her, and smiled. \"I'm terrible at history,\" she admitted cheerfully, \"so you'll have to save us both.\" A shy laugh escaped Lily — the first anyone had heard from her. Over the next week they met after class, sharing books, snacks and, little by little, small secrets. Emma discovered that Lily loved drawing; Lily discovered that Emma was not nearly as confident as she seemed.\n\nBy the time the project was finished, Lily was no longer the girl who sat alone. She laughed at lunch, joined the reading club, and even sketched a cartoon of the whole class that made everyone roar. One afternoon she pressed a small drawing into Emma's hand: two girls under one umbrella in the rain. \"Thank you for the day when nobody would be my partner,\" she said quietly. Emma felt her throat tighten. She had offered only a chair and a smile, yet somehow it had changed two lives. Kindness, she realised, costs almost nothing — and is worth almost everything.",
+          "expressions": [
+            {
+              "point": "脸涨得通红",
+              "options": [
+                "her cheeks burned red",
+                "her face flushed crimson",
+                "she went red to the ears"
+              ]
+            },
+            {
+              "point": "希望自己能消失",
+              "options": [
+                "wishing she could disappear",
+                "longing to sink into her seat",
+                "wishing the floor would swallow her"
+              ]
+            },
+            {
+              "point": "吃惊地",
+              "options": [
+                "startled",
+                "taken aback",
+                "as if she had misheard"
+              ]
+            },
+            {
+              "point": "腼腆一笑",
+              "options": [
+                "a shy laugh escaped her",
+                "a timid smile crept across her face",
+                "the corners of her mouth lifted shyly"
+              ]
+            },
+            {
+              "point": "感动得喉咙发紧",
+              "options": [
+                "felt her throat tighten",
+                "felt a lump in her throat",
+                "was moved almost to tears"
+              ]
+            }
+          ],
           "vocabHints": [
-            "neither wanted to say sorry first",
-            "an invisible wall",
-            "her heart softened",
-            "took a deep breath",
-            "her eyes filled with tears",
-            "closer than ever",
-            "the silence that follows",
-            "build a wall"
+            "like a stranger",
+            "none of her business",
+            "left without a partner",
+            "nobody moved",
+            "little by little",
+            "roar with laughter",
+            "costs almost nothing",
+            "worth almost everything"
           ]
         },
         {
@@ -189,21 +273,63 @@
         {
           "source": "读后续写",
           "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "As president of the school's new Environmental Club, Jack had spent weeks planning a tree-planting day. He had imagined dozens of students working together, turning a bare corner of the schoolyard into a small green garden. But on the morning of the event, only three members showed up, holding their shovels awkwardly under the cloudy sky.",
-          "para1": "Paragraph 1: Jack looked at the empty schoolyard and felt his heart sink.",
-          "para2": "Paragraph 2: By the end of the afternoon, the once-bare corner had turned green.",
-          "reference": "Jack looked at the empty schoolyard and felt his heart sink. For a moment he wanted to give up and go home. Then he remembered why he had started the club at all. \"Three of us is enough to begin,\" he said, forcing a smile. They began to dig, and as they worked, curious students stopped to watch — and one by one, picked up spare shovels to help.\n\nBy the end of the afternoon, the once-bare corner had turned green. Nearly twenty students, their hands covered in soil, stood back to admire the row of young trees. Jack realised that leadership was not about having a crowd from the start, but about not giving up when the crowd was small. \"Next year,\" he laughed, \"we'll need a bigger schoolyard.\"",
+          "typeLabel": "读后续写 · 真题风格",
+          "task": "阅读下面短文，根据所给情节和两段的段首语进行续写，使之构成一个完整的故事。续写词数应为150左右（本参考范文写至200-250词，供充分学习）。",
+          "storyContext": "As the newly elected president of the school's Drama Club, Jack had staked everything on the end-of-term performance. For weeks the small club had rehearsed a short play about a lonely lighthouse keeper, and every ticket had sold out. But half an hour before the curtain rose, catastrophe arrived: Ben, who played the lighthouse keeper — the lead role — slipped on the wet backstage floor and twisted his ankle so badly that he could not stand. The other members froze, staring at Jack with wide, frightened eyes. In the hall beyond the curtain, three hundred people were already settling into their seats, and the clock was ticking.",
+          "para1": "Paragraph 1: Jack knelt beside Ben for a moment, then rose to his feet and faced the terrified club.",
+          "para2": "Paragraph 2: When the final curtain fell, the applause seemed to shake the whole hall.",
+          "reference": "Jack knelt beside Ben for a moment, then rose to his feet and faced the terrified club. \"We're not cancelling,\" he said, his voice calm and firm. \"Ben, you'll sit at the side and read the keeper's lines aloud. I know them too — I'll act the part on stage, and we'll do it together.\" Nobody argued. Someone fetched a stool for Ben; another adjusted the lights; a third whispered last-minute changes to the cast. In two frantic minutes a broken plan became a shared one, and hands that had been shaking now moved with purpose.\n\nWhen the final curtain fell, the applause seemed to shake the whole hall. The audience had no idea that the calm keeper on stage had learned his moves only thirty minutes earlier, or that his voice was really two voices — Jack's body on stage and Ben's steady reading from the shadows. Backstage, the club members hugged one another, half laughing, half crying. Jack helped Ben to his feet and grinned. \"We were better broken than we ever were whole.\" He understood now that leadership was not about everything going to plan; it was about holding the team together when nothing did. Next year, he thought, they would need a bigger stage.",
+          "expressions": [
+            {
+              "point": "吓呆了/僵住",
+              "options": [
+                "froze",
+                "stood frozen",
+                "were rooted to the spot"
+              ]
+            },
+            {
+              "point": "镇定而坚定",
+              "options": [
+                "calm and firm",
+                "steady and resolute",
+                "without a trace of panic"
+              ]
+            },
+            {
+              "point": "手忙脚乱地",
+              "options": [
+                "in two frantic minutes",
+                "in a frantic rush",
+                "amid the last-minute chaos"
+              ]
+            },
+            {
+              "point": "掌声几乎掀翻大厅",
+              "options": [
+                "the applause seemed to shake the whole hall",
+                "a storm of applause broke out",
+                "the hall erupted in applause"
+              ]
+            },
+            {
+              "point": "又哭又笑",
+              "options": [
+                "half laughing, half crying",
+                "laughing through their tears",
+                "torn between laughter and tears"
+              ]
+            }
+          ],
           "vocabHints": [
-            "felt his heart sink",
-            "wanted to give up",
-            "forcing a smile",
-            "one by one",
-            "picked up spare shovels",
-            "covered in soil",
-            "stood back to admire",
-            "not giving up"
+            "staked everything on",
+            "catastrophe arrived",
+            "the lead role",
+            "the clock was ticking",
+            "a broken plan became a shared one",
+            "moved with purpose",
+            "held the team together",
+            "a bigger stage"
           ]
         },
         {
@@ -269,21 +395,63 @@
         {
           "source": "读后续写",
           "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "Everything at the new school felt strange to Emma. The faces were unfamiliar, the rules were different, and she still got lost on her way to the canteen. Back at her old school she had been surrounded by friends; here, she felt invisible. Each evening she counted the days until the term would end.",
-          "para1": "Paragraph 1: At lunchtime, Emma stood alone with her tray, not knowing where to sit.",
-          "para2": "Paragraph 2: Weeks later, Emma realised she no longer thought of the school as strange.",
-          "reference": "At lunchtime, Emma stood alone with her tray, not knowing where to sit. Just as her eyes began to sting, a cheerful girl waved at her from a nearby table. \"You're new, right? Come sit with us!\" Grateful, Emma joined them, and soon she was laughing at their jokes as if she had known them for years. It turned out that everyone had felt nervous once, too.\n\nWeeks later, Emma realised she no longer thought of the school as strange. She knew the shortcut to the canteen, had a seat at the lunch table, and could name every classmate. One morning she noticed another new student standing alone, looking lost, and she remembered exactly how that felt. Smiling, Emma walked over and said the words that had once changed her own day: \"Come sit with us.\"",
+          "typeLabel": "读后续写 · 真题风格",
+          "task": "阅读下面短文，根据所给情节和两段的段首语进行续写，使之构成一个完整的故事。续写词数应为150左右（本参考范文写至200-250词，供充分学习）。",
+          "storyContext": "Everything about the new school overwhelmed Emma in her first week — the endless corridors, the unfamiliar faces, the rules she kept breaking by accident. At her old school she had been surrounded by friends; here she was invisible, and each night she crossed another day off the calendar, counting down to a holiday that felt impossibly far away. The lowest moment came at lunch on Wednesday, when she stood alone in the crowded canteen with her tray, unable to find a single friendly face, her eyes beginning to sting. She had almost decided to slip outside and eat by herself when a cheerful voice spoke up behind her.",
+          "para1": "Paragraph 1: \"You're new, aren't you? Come and sit with us,\" the voice said.",
+          "para2": "Paragraph 2: Weeks later, Emma spotted another new student standing alone by the canteen door.",
+          "reference": "\"You're new, aren't you? Come and sit with us,\" the voice said. Emma turned to find a girl with a warm, open smile waving her over to a noisy, crowded table. Grateful beyond words, she sat down, and within minutes she was laughing at their jokes as though she had known them for years. They told her which teachers were kind, where the best noodles were sold, and how they too had once felt hopelessly lost. That night, for the very first time, Emma did not cross a day off her calendar.\n\nWeeks later, Emma spotted another new student standing alone by the canteen door, tray in hand, his eyes searching the room in exactly the way hers once had. For a second the old shyness held her back. Then she remembered the warm voice that had rescued her, and she knew at once what she had to do. She walked straight over, smiled, and said the words that had once changed her own day: \"You're new, aren't you? Come and sit with us.\" The boy's face lit up with relief. As they walked back to the table together, Emma understood that the kindest thing you can do with a helping hand is to pass it on.",
+          "expressions": [
+            {
+              "point": "眼睛开始发酸",
+              "options": [
+                "her eyes beginning to sting",
+                "tears pricking at her eyes",
+                "a hot sting behind her eyes"
+              ]
+            },
+            {
+              "point": "感激不尽",
+              "options": [
+                "grateful beyond words",
+                "overwhelmed with gratitude",
+                "too grateful to speak"
+              ]
+            },
+            {
+              "point": "仿佛认识多年",
+              "options": [
+                "as though she had known them for years",
+                "as if they were old friends",
+                "like she had always belonged"
+              ]
+            },
+            {
+              "point": "如释重负",
+              "options": [
+                "his face lit up with relief",
+                "relief washed over his face",
+                "his shoulders relaxed with relief"
+              ]
+            },
+            {
+              "point": "把善意传递下去",
+              "options": [
+                "pass it on",
+                "pay the kindness forward",
+                "hand the kindness on to someone else"
+              ]
+            }
+          ],
           "vocabHints": [
-            "felt invisible",
-            "her eyes began to sting",
-            "a cheerful girl waved",
-            "grateful",
-            "as if she had known them for years",
-            "the shortcut to the canteen",
-            "looking lost",
-            "come sit with us"
+            "overwhelmed",
+            "counting down",
+            "her eyes beginning to sting",
+            "come and sit with us",
+            "grateful beyond words",
+            "felt hopelessly lost",
+            "a helping hand",
+            "pass it on"
           ]
         },
         {

@@ -480,6 +480,12 @@ body {
 .w-cont-starters { display: flex; flex-direction: column; gap: 8px; margin: 10px 0; }
 .wcs-para { font-size: .88rem; line-height: 1.6; padding: 8px 12px; border: 1px dashed var(--border); border-radius: 8px; }
 .wcs-para span { display: inline-block; font-size: .66rem; font-weight: 700; color: #f59e0b; margin-right: 8px; text-transform: uppercase; }
+.w-cont-expr { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
+.wce-label { font-size: .72rem; font-weight: 700; color: #f59e0b; margin-bottom: 8px; }
+.wce-item { display: flex; flex-wrap: wrap; gap: 4px 10px; padding: 5px 0; font-size: .84rem; line-height: 1.6; align-items: baseline; }
+.wce-cue { flex: 0 0 auto; color: var(--text-soft, #64748b); min-width: 96px; font-size: .8rem; }
+.wce-opts { flex: 1 1 60%; }
+.wce-opts em { font-style: normal; background: rgba(245,158,11,.12); border-radius: 4px; padding: 1px 7px; margin: 0 2px 3px 0; display: inline-block; }
 .imi-intro { font-size: .84rem; line-height: 1.7; color: var(--text-soft, #64748b); background: var(--bg-soft, rgba(148,163,184,.08)); border-radius: 8px; padding: 12px 16px; margin-bottom: 14px; }
 .imi-card { }
 .imi-focus-badge { display: inline-block; font-size: .68rem; font-weight: 700; color: #fff; background: var(--primary); border-radius: 20px; padding: 3px 12px; margin-bottom: 8px; }
@@ -1923,6 +1929,9 @@ function renderWritingPrompts(prompts, subId) {
       const vocabHtmlC = (p.vocabHints || []).length
         ? `<div class="w-vocab-hints">${p.vocabHints.map(v => `<span class="w-vocab-chip">${escapeHtml(v)}</span>`).join('')}</div>`
         : '';
+      const exprHtmlC = (p.expressions || []).length
+        ? `<div class="w-cont-expr"><div class="wce-label">🔤 一句多译 · 亮点短语</div>${p.expressions.map(e => `<div class="wce-item"><span class="wce-cue">${escapeHtml(e.point)}</span><span class="wce-opts">${(e.options || []).map(o => `<em>${escapeHtml(o)}</em>`).join(' / ')}</span></div>`).join('')}</div>`
+        : '';
       html += `
       <div class="w-prompt-card">
         <div class="w-prompt-header">
@@ -1941,6 +1950,7 @@ function renderWritingPrompts(prompts, subId) {
           </button>
           <div class="w-ref-body" id="${uid}">
             <div style="white-space:pre-line;">${escapeHtml(p.reference)}</div>
+            ${exprHtmlC}
             ${vocabHtmlC}
           </div>
         </div>
