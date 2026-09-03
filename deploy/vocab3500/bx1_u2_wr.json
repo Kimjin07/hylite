@@ -16,7 +16,17 @@
           "typeLabel": "高考模拟",
           "task": "假设你是李华。你的英国笔友 Tom 来信说，他最近因手机使用问题频繁与父母发生激烈争吵（heated arguments），甚至冷战，感到十分苦恼。请你写一封回信，内容包括：1. 表示理解并分析这类冲突的原因；2. 给出两条具体的沟通建议；3. 表达鼓励。注意：词数100左右。",
           "reference": "Dear Tom,\n\nI'm sorry to hear that every dinner at your home seems to turn into a battle. Please don't feel alone — heated arguments and cold silences are common between teenagers and their parents, because we have both a new desire for independence and a continued need to be looked after.\n\nHere is my advice. First, when it all gets too much, take a minute to calm down and try to understand the situation from your parents' point of view. Second, after you have thought it through, explain your feelings calmly and address their concerns about your screen time.\n\nJust remember that growing up is a rough ride, and regular and honest communication is the key to keeping the peace. I'm sure things will turn out all right.\n\nYours,\nLi Hua",
-          "vocabHints": ["turn into a battle", "heated arguments and cold silences", "desire for independence", "calm down", "from one's point of view", "think it through", "address one's concerns", "the key to keeping the peace", "turn out all right"]
+          "vocabHints": [
+            "turn into a battle",
+            "heated arguments and cold silences",
+            "desire for independence",
+            "calm down",
+            "from one's point of view",
+            "think it through",
+            "address one's concerns",
+            "the key to keeping the peace",
+            "turn out all right"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +50,16 @@
               "评分维度:雅思按 TR/CC/LR/GRA 四项分别计分,本文的让步-转折-限定结构专为 TR/CC 服务;高考按要点覆盖+语言质量整体评分,不单独考核立场一致性与论证纵深。"
             ]
           },
-          "vocabHints": ["as old as family life itself", "poison the atmosphere", "a prolonged cold war", "the growing pains of independence", "negotiate, compromise and defend a position", "listen before they lecture", "an exchange of perspectives", "silence is"]
+          "vocabHints": [
+            "as old as family life itself",
+            "poison the atmosphere",
+            "a prolonged cold war",
+            "the growing pains of independence",
+            "negotiate, compromise and defend a position",
+            "listen before they lecture",
+            "an exchange of perspectives",
+            "silence is"
+          ]
         }
       ]
     },
@@ -57,7 +76,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报正举办以 \"What Family Means to Me\" 为主题的征文活动。请你结合自己或身边人的经历写一篇短文投稿，内容包括：1. 家庭给你的安全感体现在何处；2. 一件具体的小事；3. 你的感悟。注意：词数100左右。",
           "reference": "Whatever happens, I always know I still have my family to depend upon — that is what family means to me.\n\nLast winter, I failed an important exam and dared not mention it at dinner. My mother said nothing about marks. Instead, she put an extra bowl of my favourite soup in front of me and said, \"Eat first. Everything will turn out all right.\" That warm, secure feeling stayed with me for the whole evening, and I went back to my books with fresh courage.\n\nFamily, I have learned, is not a place where we are never judged; it is a place where we are always received. Like a bank account that never runs out, its love is something we can draw upon in every emergency.",
-          "vocabHints": ["depend upon", "a warm, secure feeling", "turn out all right", "in an emergency", "draw money out of an account", "whatever happens", "count out", "gather around the table"]
+          "vocabHints": [
+            "depend upon",
+            "a warm, secure feeling",
+            "turn out all right",
+            "in an emergency",
+            "draw money out of an account",
+            "whatever happens",
+            "count out",
+            "gather around the table"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +109,75 @@
               "评分维度:雅思看四维分项,本文的隐喻线与反转结构是为 CC/TR 设计;高考看要点与文采,情感真挚常常比论证严密更加分。"
             ]
           },
-          "vocabHints": ["exert influence on", "a screen-saturated culture", "outweigh", "an unconditional sense of security", "someone to depend upon", "rehearsed at the dinner table", "mirror the emotional patterns", "the foundations are poured early"]
+          "vocabHints": [
+            "exert influence on",
+            "a screen-saturated culture",
+            "outweigh",
+            "an unconditional sense of security",
+            "someone to depend upon",
+            "rehearsed at the dinner table",
+            "mirror the emotional patterns",
+            "the foundations are poured early"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "别活在比较里",
+      "titleEn": "Stop Comparing Yourself",
+      "desc": "语法板块核心词块：There's no point in comparing you with others all the time、seek expert advice、it is likely that——青少年健康论坛给出的第一条建议，往往是先放下比较。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报开设 \"Growing Pains\" 专栏。请你写一篇短文，谈谈如何摆脱总和别人比较的焦虑，内容包括：1. 现象与危害；2. 你的两三条建议。注意：词数100左右。",
+          "reference": "Many of us know the feeling: a classmate scores higher, dresses better or has more friends, and suddenly our own life seems to lose its colour. But there is no point in comparing yourself with others all the time.\n\nSo what can we do? First, remember that it is likely that the person you envy is quietly comparing themselves with someone else, too. Second, measure your progress against your own past, not against other people. Finally, if the pressure feels too heavy, do not be afraid to seek expert advice from a teacher or counsellor.\n\nComparison steals joy. The moment we stop running someone else's race, we finally start winning our own.",
+          "vocabHints": [
+            "lose its colour",
+            "there is no point in comparing yourself with others",
+            "all the time",
+            "it is likely that",
+            "measure your progress against",
+            "seek expert advice",
+            "comparison steals joy",
+            "run someone else's race"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that comparing themselves with others motivates people to work harder and improve, while others think it mainly causes anxiety and unhappiness. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Human beings measure themselves against one another almost instinctively. Some regard this habit as a healthy engine of ambition; others see it as a reliable source of misery. Having weighed both positions, I believe comparison can motivate, but only when it is aimed carefully, and that in most everyday cases it does more harm than good.\n\nThose who defend comparison have a point. Seeing a peer succeed can prove that a goal is achievable and supply a concrete standard to aim for; athletes train harder beside stronger rivals, and students often raise their game when surrounded by ambitious classmates. Used as information — what is possible, and how — comparison can sharpen effort.\n\nYet the same habit easily turns corrosive. Most comparison is not analytical but emotional, and it fixes on the narrow areas where others appear ahead while ignoring everything else. Social media has magnified the damage, parading edited highlights of other lives until ordinary people feel like failures by contrast. The result is anxiety, envy and, ironically, less energy for genuine improvement, because self-doubt paralyses more often than it inspires.\n\nThe decisive difference lies in the object of comparison. Comparing methods and results with others can be useful; comparing one's worth with theirs rarely is. The healthier reference point is one's own earlier self, a measure that records real progress without breeding resentment.\n\nIn conclusion, while measuring ourselves against others can occasionally spur us on, it more often undermines confidence and contentment. The wiser path is to learn from others' achievements yet to judge success by how far we ourselves have come.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(激励方:目标可达/同伴效应;伤害方:情感性比较/社媒放大/自我怀疑瘫痪)，立场'方式性比较有用、价值性比较有害+以过去的自己为参照'精确细分，不停在'看情况'。",
+              "Coherence & Cohesion(连贯衔接):Those who defend / Yet / The decisive difference / In conclusion 推进清晰;'comparison as information'与'comparison as emotion'的对照贯穿全文;结尾回收'own earlier self'参照点。",
+              "Lexical Resource(词汇资源):a healthy engine of ambition / turns corrosive / parading edited highlights / breeding resentment / spur us on 等表达精准且带评价色彩。",
+              "Grammatical Range & Accuracy(语法多样性):until结果状语、分号对举、not A but B(not analytical but emotional)、while让步开启结论，句式多样零硬伤。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写成长专栏短文(现象+建议);雅思论证'比较是否有益'的心理命题。",
+              "论据来源:高考短文织入课件'no point in comparing / seek expert advice / it is likely'词块;雅思用社会心理学普适论据(社媒对比、参照点选择)。",
+              "语域:专栏短文可用设问与共情(Many of us know the feeling);雅思学术权衡，态度藏在corrosive等措辞。",
+              "评分维度:高考重建议可行+共鸣;雅思discuss题高分在于超越站队——'方式vs价值比较'的细分是思辨亮点。"
+            ]
+          },
+          "vocabHints": [
+            "measure themselves against one another",
+            "a healthy engine of ambition",
+            "raise their game",
+            "turns corrosive",
+            "parading edited highlights",
+            "breeding resentment",
+            "self-doubt paralyses",
+            "one's own earlier self"
+          ]
         }
       ]
     },
@@ -98,7 +194,16 @@
           "typeLabel": "高考模拟",
           "task": "你班将举行以 \"Less Pressure, Better Life\" 为主题的班会。请你准备一篇发言稿，谈谈中学生如何应对来自父母期望的压力，内容包括：1. 压力的表现；2. 你的两条应对建议；3. 呼吁。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nMany of us feel that our parents keep pressing us to study all the time. We understand their love, yet the stress can sometimes be killing us, and we wish they could be more flexible so that we could make our own choices.\n\nHow should we respond? First, talk instead of exploding. Choose a calm moment, tell them how you feel, and let them know you also value your future. Second, allow yourself to take a break once in a while — a short walk or a game of basketball works wonders for a tired mind.\n\nPressure is part of growing up, but it should push us forward, not weigh us down. Let's face it with honest words and a light heart. Thank you!",
-          "vocabHints": ["keep pressing sb to do", "once in a while", "flexible", "make one's own choices", "value one's effort", "work wonders", "weigh sb down", "take a break"]
+          "vocabHints": [
+            "keep pressing sb to do",
+            "once in a while",
+            "flexible",
+            "make one's own choices",
+            "value one's effort",
+            "work wonders",
+            "weigh sb down",
+            "take a break"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +227,16 @@
               "评分维度:雅思四维分项且 TR 要求'原因与对策对应';高考整体评分,气势与真诚可补论证之不足。"
             ]
           },
-          "vocabHints": ["carry a heavier academic load", "competition inflated by scale", "relentless supervision", "on display", "broaden what counts as success", "praise effort rather than ranking", "a place of recovery", "sharpen young minds"]
+          "vocabHints": [
+            "carry a heavier academic load",
+            "competition inflated by scale",
+            "relentless supervision",
+            "on display",
+            "broaden what counts as success",
+            "praise effort rather than ranking",
+            "a place of recovery",
+            "sharpen young minds"
+          ]
         }
       ]
     }

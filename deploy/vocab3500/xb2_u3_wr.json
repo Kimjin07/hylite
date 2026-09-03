@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "别把自己封闭起来",
+      "titleEn": "Don't Shut Yourself Away",
+      "desc": "语法板块核心词块：withdraw into oneself、equip oneself with、hold on——身心健康不仅是身体的事，也在于不把自己封闭起来，学会向外求助、坚持下去。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的好友最近考试失利，变得沉默孤僻，不愿与人来往。请你用英文给他写一封信，内容包括：1. 表达理解；2. 给出建议；3. 表达支持。注意：词数100左右。",
+          "reference": "Dear Chris,\n\nI've noticed that since the exam you've grown quiet and seem to have withdrawn into yourself. I understand — disappointment is heavy, and everyone needs time. But please don't shut yourself away for too long.\n\nOne bad result does not decide who you are. Try to equip yourself with a small plan: talk to a teacher about what went wrong, break the next goal into tiny steps, and let a friend walk part of the way with you. When it feels hard, just hold on — feelings, like weather, always change.\n\nI'm here whenever you want to talk, or simply to sit in silence together. You are not alone in this.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "grown quiet",
+            "withdrawn into yourself",
+            "don't shut yourself away",
+            "does not decide who you are",
+            "equip yourself with a small plan",
+            "break the goal into tiny steps",
+            "just hold on",
+            "you are not alone"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, mental health problems among young people are becoming more common. What are the causes of this problem, and what measures could be taken to address it? (Write at least 250 words.)",
+          "reference": "Across many countries, anxiety and depression among young people are rising sharply. Understanding why, and deciding how to respond, has become an urgent task for schools and societies alike.\n\nSeveral causes stand out. Academic pressure is intense: students face relentless competition for grades and university places, and many judge their whole worth by results. Social media adds a second burden, exposing the young to a constant stream of edited, idealised lives against which their own feel inadequate, while replacing face-to-face friendship with shallower online contact. A third factor is isolation — as families grow busier and communities looser, troubled teenagers often withdraw into themselves rather than reach out for help, partly because mental illness still carries a stigma that keeps suffering hidden.\n\nFortunately, the problem can be eased. Schools should treat mental health as seriously as physical health, teaching pupils to recognise warning signs and providing counsellors they can approach without shame. Reducing the obsessive focus on examinations, and helping students value effort and wellbeing over ranking, would remove a major source of stress. Families and society, meanwhile, must equip young people with the confidence to talk openly, so that a struggling teenager holds on and seeks support instead of shutting the world out. Sensible limits on social-media use would help too.\n\nIn conclusion, the growing mental-health crisis among the young springs mainly from academic pressure, social media and isolation. With open conversation, accessible support and a healthier definition of success, much of this suffering can be prevented — and no investment repays a society more richly than the wellbeing of its young.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+measures双问齐答;成因段三点(学业压力/社媒/孤立与病耻感)具体，对策段一一对应(学校心理支持/淡化排名/家庭开放沟通/限社媒)，结构对称。",
+              "Coherence & Cohesion(连贯衔接):Several causes stand out / A third factor / Fortunately / In conclusion 推进清晰;成因与对策段落一一映射;'withdraw into themselves'与'holds on'织入单元词块。",
+              "Lexical Resource(词汇资源):relentless competition / a stigma that keeps suffering hidden / warning signs / a healthier definition of success 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):against which定语从句、partly because原因、so that目的从句、no investment...more richly收尾比较，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写安慰鼓励信(理解+建议+支持);雅思写心理健康cause+measure双问文。",
+              "论据来源:高考信件织入课件'withdraw into oneself / equip oneself with / hold on'词块;雅思用青少年心理的普适论据。",
+              "语域:书信温情陪伴(sit in silence together);雅思客观分析，双问段落对称。",
+              "评分维度:高考重情真+建议;雅思双问题型TR关键是成因与对策均衡对应——本文映射结构是范式。"
+            ]
+          },
+          "vocabHints": [
+            "relentless competition",
+            "judge their worth by results",
+            "edited, idealised lives",
+            "withdraw into themselves",
+            "a stigma that keeps suffering hidden",
+            "recognise warning signs",
+            "holds on and seeks support",
+            "a healthier definition of success"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "守护视力健康",

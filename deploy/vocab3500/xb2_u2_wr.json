@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "突破极限",
+      "titleEn": "Testing My Limits",
+      "desc": "语法板块核心词块：my limits were being tested like never before、there is no limit to、within one's limits——真正的成长，往往发生在极限被一次次试探的时刻。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"Beyond My Limits\" 为题征稿。请你写一篇短文，讲述一次突破自我极限的经历，内容包括：1. 事情经过；2. 你的收获。注意：词数100左右。",
+          "reference": "Last term I signed up for the school's 10-kilometre run, though I had never run more than three.\n\nOn race day, I ran relaxed and confident at first, but by the eighth kilometre my limits were being tested like never before. My legs burned and a voice inside kept telling me to stop. Instead of giving up, I told myself that there is no limit to what I could try, and pushed on one step at a time.\n\nI did not win, but I crossed the line — and that was enough. I learned that our limits are often further away than they feel. Sometimes we only discover how strong we are when we refuse to quit.",
+          "vocabHints": [
+            "signed up for",
+            "ran relaxed and confident",
+            "my limits were being tested like never before",
+            "a voice inside kept telling me to stop",
+            "there is no limit to",
+            "pushed on one step at a time",
+            "crossed the line",
+            "refuse to quit"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the main purpose of sport is to win, while others think that taking part and improving oneself matters more than winning. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Every competition eventually raises the same question: does sport exist to produce winners, or to let people take part and grow? Some prize victory above all; others insist that participation and self-improvement matter more. In my view both have their place, but for the vast majority of people the value of sport lies in taking part rather than in winning.\n\nThe winning-first view has genuine merit, especially at the top. Elite sport is built on the pursuit of victory; without the drive to win, records would never fall and standards would stagnate. Competition pushes athletes to test their limits like never before, and the discipline this demands can be admirable in itself. For professionals, winning is quite reasonably the point.\n\nYet for almost everyone else, this emphasis is misplaced. Most people who play sport will never be champions, and if winning were all that mattered, they would have little reason to continue. What they gain instead is real and lasting: fitness, friendship, teamwork and the steady satisfaction of improving against their own past performance. A child who finishes last but returns each week learns persistence no trophy could teach, whereas an obsession with winning can breed cheating, anxiety and early burnout.\n\nThe healthiest attitude, therefore, depends on context. At the elite level winning rightly drives excellence, but in schools and ordinary life participation and personal progress should come first.\n\nIn conclusion, while the desire to win has its proper place in professional sport, for most people sport is most valuable as a source of health, connection and self-improvement — and it is these, not medals, that last a lifetime.",
+          "wordCount": 269,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(求胜:精英体育/推动纪录;参与:健身友谊坚持/避免作弊焦虑)，立场'取决于层级——精英求胜、大众重参与'分工清晰，结论明确。",
+              "Coherence & Cohesion(连贯衔接):winning-first view / Yet for almost everyone else / therefore / In conclusion 推进清晰;'test their limits like never before'织入单元词块;'not medals'收束呼应。",
+              "Lexical Resource(词汇资源):the pursuit of victory / standards would stagnate / against their own past performance / early burnout 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):without介词条件、if...were虚拟、whereas对比、not...that强调收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写突破极限征文(经过+收获);雅思写体育目的双边议论文。",
+              "论据来源:高考短文织入课件'my limits were being tested like never before / there is no limit to'词块;雅思用体育社会学的普适论据。",
+              "语域:征文有内心独白(a voice inside);雅思客观权衡，分工立场显层次。",
+              "评分维度:高考重叙事+感悟;雅思discuss题奖励分场景立场——'精英vs大众'高于笼统二选一。"
+            ]
+          },
+          "vocabHints": [
+            "the pursuit of victory",
+            "records would never fall",
+            "test their limits like never before",
+            "against their own past performance",
+            "persistence no trophy could teach",
+            "breed cheating and anxiety",
+            "early burnout",
+            "last a lifetime"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "正确看待输赢",

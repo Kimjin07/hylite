@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "预见未来的科技",
+      "titleEn": "Predicting Future Technology",
+      "desc": "语法板块核心词块：It can be predicted that、sth is predicted to do、decrease by、on the increase——想象无人机送货的那一天，也是在练习'预测'这一实用表达。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校科技社团举办 \"Tech in 2035\" 主题征文。请你写一篇短文，预测一项科技将如何改变未来生活，内容包括：1. 你预测的科技；2. 它带来的改变；3. 你的看法。注意：词数100左右。",
+          "reference": "What will daily life look like in 2035? Here is my prediction.\n\nIt can be predicted that before long many people will be using drones to deliver daily supplies like food and medicine. Such a change is predicted to save a great deal of time and greatly decrease road traffic; the number of delivery vans on our streets could decrease by a third. Meanwhile, the demand for fast, green transport is clearly on the increase.\n\nOf course, no technology is perfect, and questions of safety and privacy will need careful answers. Still, I believe the future is something we invent, not simply wait for. If we guide new tools wisely, tomorrow can be both faster and kinder.",
+          "vocabHints": [
+            "here is my prediction",
+            "it can be predicted that",
+            "is predicted to save a great deal of time",
+            "greatly decrease road traffic",
+            "decrease by a third",
+            "on the increase",
+            "no technology is perfect",
+            "invent, not simply wait for"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people are optimistic that scientific and technological progress will solve most of the world's problems, while others are more pessimistic. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Each new breakthrough revives an old debate: will science and technology eventually solve humanity's problems, or merely create new ones? Optimists trust progress to save us; pessimists fear it will do as much harm as good. Having weighed both, I believe technology is a powerful tool whose value depends entirely on how wisely people choose to use it.\n\nThe optimistic case is supported by history. Science has doubled human lifespans, defeated diseases that once wiped out millions, and multiplied food production far beyond what earlier generations thought possible. It can be predicted that further advances in medicine, clean energy and artificial intelligence will ease suffering on a similar scale, and past pessimists who declared problems unsolvable have often been proved wrong.\n\nYet the pessimists are not merely gloomy. The same science that cures also builds weapons capable of ending civilisation; industrial progress has warmed the planet dangerously; and each solution seems to breed fresh difficulties, from digital addiction to the threat of mass unemployment. Technology, crucially, has no conscience of its own — it amplifies whatever intentions guide it, for good or ill.\n\nThis is why I place my faith not in technology alone but in the wisdom directing it. The atom can light a city or destroy one; the difference lies entirely in human choice. Progress supplies ever more powerful tools, but whether they heal or harm depends on the values, laws and cooperation of the people who wield them.\n\nIn conclusion, science and technology can solve enormous problems, yet they guarantee nothing on their own. Our future rests less on what we can build than on how responsibly we decide to build it.",
+          "wordCount": 275,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(乐观:寿命/抗疫/粮食;悲观:武器/气候/新问题)，立场'技术是工具、取决于智慧'贯穿，结论把裁决权交给'如何负责任地建造'。",
+              "Coherence & Cohesion(连贯衔接):optimistic case / Yet the pessimists / This is why / In conclusion 推进清晰;'no conscience of its own'与'atom lights or destroys'意象点睛;'It can be predicted that'织入单元词块。",
+              "Lexical Resource(词汇资源):revives an old debate / breed fresh difficulties / amplifies whatever intentions guide it / heal or harm 表达精准有力。",
+              "Grammatical Range & Accuracy(语法多样性):whose定语从句、that复指、not...but平行、less on...than on收尾比较，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写科技预测征文(预测+改变+看法);雅思写科技乐观悲观双边议论文。",
+              "论据来源:高考短文织入课件'it can be predicted that / is predicted to / decrease by / on the increase'词块;雅思用科技史的普适论据。",
+              "语域:征文有设问与展望(What will life look like?);雅思客观权衡，'工具无良知'显思辨。",
+              "评分维度:高考重预测合理+要点;雅思discuss题看能否超越乐观/悲观——'取决于智慧'是核心立场。"
+            ]
+          },
+          "vocabHints": [
+            "revives an old debate",
+            "doubled human lifespans",
+            "it can be predicted that",
+            "breed fresh difficulties",
+            "no conscience of its own",
+            "amplifies whatever intentions guide it",
+            "heal or harm",
+            "how responsibly we build it"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "时间胶囊·写给未来",

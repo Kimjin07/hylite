@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你班英语角将举办“诗歌之夜”活动，不少同学因“读不懂诗”而犹豫。请你写一篇短文发在班级群里，分享读诗的方法，鼓励大家参加，内容包括：1. 理解同学的顾虑；2. 两三条读诗建议；3. 邀请参加。注意：词数100左右。",
           "reference": "Poetry Night Is for Everyone\n\nMany of you told me, \"I'd love to come, but poems are beyond my grasp.\" Please don't worry — nobody understands every poem, not even poets themselves!\n\nHere are my tips. First, read the poem aloud: even if its true meaning escapes you, you can always enjoy how it sounds. Second, don't chase the \"correct answer\"; more than any other type of literature, poetry implies meanings beyond the words on the page, and your feeling is a valid key. Third, if you still don't get it, simply set the poem aside and come back to it later — good poems wait patiently.\n\nThis Friday, bring your favourite lines and your curiosity. See you at Poetry Night!",
-          "vocabHints": ["beyond one's grasp", "read aloud", "how the poem sounds", "imply meanings beyond the words", "a valid key", "set the poem aside", "come back to it later", "wait patiently"]
+          "vocabHints": [
+            "beyond one's grasp",
+            "read aloud",
+            "how the poem sounds",
+            "imply meanings beyond the words",
+            "a valid key",
+            "set the poem aside",
+            "come back to it later",
+            "wait patiently"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思看'相关性如何衡量'的框架创新;高考看方法实用、语气亲和、动员有效。"
             ]
           },
-          "vocabHints": ["a museum piece", "market share", "measured by use", "reach instinctively for the poetic", "loudest descendant", "the native art of the small screen", "saying less and meaning more", "dissolved into it"]
+          "vocabHints": [
+            "a museum piece",
+            "market share",
+            "measured by use",
+            "reach instinctively for the poetic",
+            "loudest descendant",
+            "the native art of the small screen",
+            "saying less and meaning more",
+            "dissolved into it"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你的英国笔友 Oliver 正在学中文诗歌，来信请你介绍一位中国诗人。请你写一封回信介绍李白，内容包括：1. 诗人简介；2. 他的诗风特点（可举诗句）；3. 推荐一首入门作品。注意：词数100左右。",
           "reference": "Dear Oliver,\n\nHow wonderful that you're learning Chinese poetry! Let me introduce Li Bai, the poet every Chinese child can recite.\n\nLiving in the Tang Dynasty, Li Bai travelled famous mountains and great rivers all his life, encountering different customs and writing over a thousand poems. What makes him special is his striking imagination and free expression of strong feelings, which breathes vitality into everything he describes. In one early poem, standing in a mountain temple at night, he wrote: \"I dare not speak in a voice loud, for fear of scaring dwellers on high\" — as if the stars were just above his head!\n\nFor a start, try Quiet Night Thoughts, four simple lines about moonlight and homesickness. Short as it is, it has comforted Chinese hearts for 1,200 years.\n\nYours,\nLi Hua",
-          "vocabHints": ["recite", "travel famous mountains and great rivers", "encounter different customs", "striking imagination", "free expression of strong feelings", "breathe vitality into", "dare not speak in a voice loud", "comfort hearts"]
+          "vocabHints": [
+            "recite",
+            "travel famous mountains and great rivers",
+            "encounter different customs",
+            "striking imagination",
+            "free expression of strong feelings",
+            "breathe vitality into",
+            "dare not speak in a voice loud",
+            "comfort hearts"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思看框架反转('classics are practical')的论证力;高考看信息准确、诗句点睛、推荐贴心。"
             ]
           },
-          "vocabHints": ["owe its old poets", "a quiet self-erasure", "a syllabus is a budget", "interpretive muscles", "shared memory", "a guest in its own culture", "imperishable lines", "living speech"]
+          "vocabHints": [
+            "owe its old poets",
+            "a quiet self-erasure",
+            "a syllabus is a budget",
+            "interpretive muscles",
+            "shared memory",
+            "a guest in its own culture",
+            "imperishable lines",
+            "living speech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "为诗歌发声",
+      "titleEn": "In Defence of Poetry",
+      "desc": "语法板块核心词块：advocate reading poetry、meet one's ideals、live up to an ideal——在快节奏的时代，仍有人愿意为诗歌的理想发声。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "有同学认为读诗'没用'。请你以校诗社名义用英文写一篇短文，为读诗辩护，内容包括：1. 回应质疑；2. 说明读诗的价值；3. 发出邀请。注意：词数100左右。",
+          "reference": "\"Why read poetry? It's useless.\" We in the Poetry Society hear this a lot, and today we'd like to answer it.\n\nWe strongly advocate reading poetry, not because it helps you pass exams, but because it does something exams cannot. A good poem teaches you to notice — a falling leaf, a quiet grief, a sudden joy — and to say what you feel in a way that lives up to the feeling itself. Poetry keeps alive an old ideal: that language can be beautiful as well as useful.\n\nSo we invite you to give it a real chance. Come to our reading evening this Friday, choose one poem, and read it aloud. You may be surprised how much a few lines can hold. See you there!",
+          "vocabHints": [
+            "hear this a lot",
+            "advocate reading poetry",
+            "not because... but because",
+            "teaches you to notice",
+            "say what you feel",
+            "lives up to the feeling itself",
+            "keeps alive an old ideal",
+            "give it a real chance"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the ability to write well, for example keeping a diary or composing poems, is a valuable skill that everyone should develop. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In an age of voice messages and video, the ability to write well can seem old-fashioned. Yet I strongly agree that everyone should develop it, because writing does far more than transmit information — it clarifies thought, preserves experience and gives feeling a lasting shape.\n\nThe most practical benefit is mental. Putting ideas into sentences forces us to organise them; we often discover that we do not truly understand something until we try to write it down. Keeping a diary, for instance, turns a confused day into something we can examine and learn from, and personal writing of this kind is widely found to reduce stress and sharpen self-awareness. Creative forms such as poetry go further, training us to observe closely and to choose words with care — skills that improve all communication, not only art.\n\nWriting also serves memory and connection. A recorded conversation vanishes, but a letter or journal can be reread for decades, preserving thoughts and emotions that would otherwise be lost. In work and study, moreover, the person who can write a clear report or a persuasive argument holds a lasting advantage over one who cannot.\n\nIt is true that not everyone will write poems or novels, and that spoken skills matter too. But the basic ability to express oneself clearly and thoughtfully on paper is within almost everyone's reach and rewards the effort for a lifetime.\n\nIn conclusion, I firmly believe that writing well is a skill worth developing for all. Far from a relic of the past, it remains one of the surest ways to think clearly, remember deeply and be truly understood.",
+          "wordCount": 269,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'人人应培养写作'的强判断给出'强烈同意';三层论据(厘清思维/记忆连接/工作学习优势)充分展开，让步(并非人人写诗+口语也重要)真实后仍守住立场。",
+              "Coherence & Cohesion(连贯衔接):most practical benefit / also serves memory / It is true that / In conclusion 推进清晰;'we do not understand until we write it down'点睛;'relic of the past'回收开头old-fashioned。",
+              "Lexical Resource(词汇资源):transmit information / gives feeling a lasting shape / sharpen self-awareness / a relic of the past / rewards the effort for a lifetime 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):not...until强调、such as例证、破折号插入、Far from...收尾，句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写为读诗辩护短文(回应+价值+邀请);雅思写写作技能命题议论文。",
+              "论据来源:高考短文织入课件'advocate reading poetry / live up to / an ideal'词块;雅思用写作认知的普适论据(日记减压)。",
+              "语域:短文有引语与设问(Why read poetry?);雅思学术论证，'relic'呼应显章法。",
+              "评分维度:高考重立场+邀请;雅思TR对agree题看明确程度——'强烈同意+真实让步'是高分组合。"
+            ]
+          },
+          "vocabHints": [
+            "transmit information",
+            "clarifies thought",
+            "gives feeling a lasting shape",
+            "until we try to write it down",
+            "sharpen self-awareness",
+            "reread for decades",
+            "a relic of the past",
+            "rewards the effort for a lifetime"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报以 \"My Road Not Taken\" 为主题征文，请你结合弗罗斯特的诗《未选择的路》（The Road Not Taken），写一篇短文讲述你的一次选择经历，内容包括：1. 你面对的选择；2. 你的决定及原因；3. 你的感悟。注意：词数100左右。",
           "reference": "My Road Not Taken\n\nLast year, two roads lay before me: joining the school orchestra, where most of my friends went, or the tiny poetry club that nobody chose.\n\nLike the traveller in Frost's poem, I stood long at the fork, looking down one path to where it bent in the undergrowth. Finally I took the one less travelled by — the poetry club — because something in me wanted a quieter road.\n\nOne year on, I have hosted our first Poetry Night and found my own voice on paper. I still wonder, sometimes, about the road not taken; but I have learned that what matters is not choosing the perfect road, but walking your chosen one with all your heart — and that has made all the difference.",
-          "vocabHints": ["two roads lay before me", "stand at the fork", "to where it bent in the undergrowth", "the one less travelled by", "a quieter road", "the road not taken", "walk your chosen road", "make all the difference"]
+          "vocabHints": [
+            "two roads lay before me",
+            "stand at the fork",
+            "to where it bent in the undergrowth",
+            "the one less travelled by",
+            "a quieter road",
+            "the road not taken",
+            "walk your chosen road",
+            "make all the difference"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思看分工立场的论证(所有权→韧性的机制);高考看经历真实、化用自然、感悟真诚。"
             ]
           },
-          "vocabHints": ["at every fork", "the older map", "chosen by the feet that walk it", "advice ages better than obedience", "see its winters", "walked without ownership", "light the crossroads", "borrowed conviction"]
+          "vocabHints": [
+            "at every fork",
+            "the older map",
+            "chosen by the feet that walk it",
+            "advice ages better than obedience",
+            "see its winters",
+            "walked without ownership",
+            "light the crossroads",
+            "borrowed conviction"
+          ]
         }
       ]
     }

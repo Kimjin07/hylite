@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "一则新闻的多面",
+      "titleEn": "Many Sides of One Story",
+      "desc": "语法板块核心词块：be founded on facts、accuse sb of、lay a solid foundation——同一件事，不同报道各执一词，判断力正是建立在事实的地基之上。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班就'如何看待同一事件的不同报道'开展讨论。请你用英文写一篇短文，谈谈你的看法，内容包括：1. 现象描述；2. 你的分析与建议。注意：词数100左右。",
+          "reference": "The other day, two newspapers reported the same school event, yet their stories were surprisingly different. One praised the students, while the other accused the organisers of poor planning. Which one should we believe?\n\nIn my view, a fair judgement must be founded on facts, not on the loudest voice. Reporters choose what to include and how to describe it, so different reports can both be 'true' and still disagree. Rather than trust the first version we see, we should compare several sources and separate what actually happened from what a writer feels about it.\n\nOnly careful reading lays a solid foundation for our own opinion. In a world full of information, judgement is the skill that matters most.",
+          "vocabHints": [
+            "reported the same event",
+            "accused the organisers of",
+            "which one should we believe",
+            "founded on facts",
+            "not on the loudest voice",
+            "compare several sources",
+            "separate what happened from what a writer feels",
+            "lays a solid foundation"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that news reports should present only facts and never include the opinions of journalists. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Trust in the media has fallen, and some argue the cure is simple: news should report facts alone and keep journalists' opinions out of it. While I sympathise with the wish for honest reporting, I only partly agree, because the line between fact and opinion is harder to draw than the demand assumes.\n\nThere is clear force in the argument. When straight news is coloured by a reporter's views, readers can be manipulated without realising it, and mixing fact with opinion erodes the trust on which journalism depends. Keeping hard news factual, and confining commentary to clearly labelled opinion columns, is therefore a sound principle that responsible outlets already follow.\n\nYet the ideal of pure, opinion-free news is partly an illusion. Every report involves judgement: which events to cover, which facts to place first, whose voices to quote and which to omit. These choices inevitably shape the impression readers form, even when every individual sentence is accurate. Moreover, some journalism should contain informed opinion — analysis that explains what facts mean, and investigative work that exposes wrongdoing, would be toothless if reporters were forbidden to reach conclusions.\n\nThe realistic goal, then, is not to banish opinion but to be honest about it: separating reporting from comment, labelling each clearly, and being transparent about the choices behind a story.\n\nIn conclusion, while I agree that straight news should stay as factual as possible, demanding the complete absence of opinion is neither achievable nor wholly desirable. What readers truly need is not opinion-free news, but news honest enough to show where fact ends and judgement begins.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'部分同意'立场精确;承认硬新闻应事实为主，但拆解'纯客观'的幻觉(选材/排序/引述皆判断)并指出分析性新闻需要观点，结论落到'透明区分'而非'消灭观点'。",
+              "Coherence & Cohesion(连贯衔接):clear force / Yet the ideal / The realistic goal / In conclusion 推进清晰;'where fact ends and judgement begins'的意象收束呼应主题。",
+              "Lexical Resource(词汇资源):coloured by a reporter's views / clearly labelled opinion columns / an illusion / toothless / banish opinion 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):When条件从句、which/whose并列宾语从句、would be toothless虚拟、not...but收尾平行，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写同一事件多面短文(现象+分析);雅思写新闻客观性命题议论文。",
+              "论据来源:高考短文织入课件'founded on facts / accuse sb of / lay a solid foundation'词块;雅思用新闻学的普适论据(选材即判断)。",
+              "语域:短文有设问(Which one should we believe?);雅思学术论证，'纯客观是幻觉'显思辨。",
+              "评分维度:高考重分析+建议;雅思TR对to what extent题看是否量化——'部分同意+拆解幻觉'是精确回应。"
+            ]
+          },
+          "vocabHints": [
+            "coloured by a reporter's views",
+            "confining commentary to opinion columns",
+            "an illusion",
+            "which facts to place first",
+            "shape the impression",
+            "toothless",
+            "banish opinion",
+            "where fact ends and judgement begins"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "网络新闻时代",

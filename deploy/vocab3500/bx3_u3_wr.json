@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报以 \"The Internet and Me\" 为主题征文。请你写一篇短文，谈谈互联网给你生活带来的变化，内容包括：1. 一两个具体变化；2. 你的一点反思；3. 你的态度。注意：词数100左右。",
           "reference": "The Internet and Me\n\nWith access to the Internet come some truly life-changing conveniences — and I have felt them all.\n\nGone are the days of searching shop after shop for one book: in the time it takes to walk to the library, a search engine brings up millions of results, and my favourite novels arrive at my door the next day. Above all else, the Internet helps me maintain ties with my cousin studying abroad; a video call makes the ocean between us disappear.\n\nYet I have also learned my lesson: the same screen that connects me can easily swallow my evenings. As with any great invention, we must use the Internet properly and responsibly. Only in this way can it remain a place of discovery rather than distraction.",
-          "vocabHints": ["with access to the Internet", "gone are the days of", "in the time it takes to", "bring up millions of results", "above all else", "maintain ties with", "as with any great invention", "properly and responsibly"]
+          "vocabHints": [
+            "with access to the Internet",
+            "gone are the days of",
+            "in the time it takes to",
+            "bring up millions of results",
+            "above all else",
+            "maintain ties with",
+            "as with any great invention",
+            "properly and responsibly"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思须表达'利大于弊的边界条件'(for the equipped);高考看变化具体、反思真诚。"
             ]
           },
-          "vocabHints": ["a library card and a free afternoon", "real and democratic", "locked in expensive institutions", "the scarce resource", "better packaging", "an oversupply of information", "breed dependence", "provided the water is filtered"]
+          "vocabHints": [
+            "a library card and a free afternoon",
+            "real and democratic",
+            "locked in expensive institutions",
+            "the scarce resource",
+            "better packaging",
+            "an oversupply of information",
+            "breed dependence",
+            "provided the water is filtered"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你的朋友陈杰向你诉苦：他每天睡前刷手机到深夜，白天上课无精打采，想改却改不掉。请你写一封建议信，内容包括：1. 表示理解；2. 分析原因；3. 给出两条可操作的建议。注意：词数100左右。",
           "reference": "Dear Chen Jie,\n\nI totally understand you — my eyes were once glued to the little screen too, whenever I walked, ate or lay in bed. Sliding into the habit is easy, but quitting it is hard, because every touch brings instant fun while the cost arrives the next morning.\n\nHere are two tricks that saved me. First, charge your phone outside your bedroom and get yourself a cheap alarm clock; when the phone is beyond your reach, sleep comes surprisingly fast. Second, don't quit completely at once — just cut back on the amount of screen time bit by bit, say fifteen minutes less each week.\n\nBelieve me, the empty hours will soon fill up with better things: books, basketball and real rest. You can make it!\n\nYours,\nLi Hua",
-          "vocabHints": ["eyes glued to the screen", "slide into the habit", "quit the habit", "instant fun", "beyond your reach", "cut back on", "bit by bit", "fill up with better things"]
+          "vocabHints": [
+            "eyes glued to the screen",
+            "slide into the habit",
+            "quit the habit",
+            "instant fun",
+            "beyond your reach",
+            "cut back on",
+            "bit by bit",
+            "fill up with better things"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,16 @@
               "评分维度:雅思看机制深度与因-策对应;高考看建议可操作、语气暖。"
             ]
           },
-          "vocabHints": ["surrender at midnight", "engineered before personal", "abolish stopping points", "unpredictable schedule", "loaded onto the design", "the seedbed of thought", "normalise unreachable hours", "return the decision to its owner"]
+          "vocabHints": [
+            "surrender at midnight",
+            "engineered before personal",
+            "abolish stopping points",
+            "unpredictable schedule",
+            "loaded onto the design",
+            "the seedbed of thought",
+            "normalise unreachable hours",
+            "return the decision to its owner"
+          ]
         }
       ]
     },
@@ -98,7 +134,16 @@
           "typeLabel": "高考模拟",
           "task": "你校计算机社团开发了一个学习分享网站 StudyTogether，现面向全校招募首批用户。请你以社团名义写一篇网站介绍（英文），内容包括：1. 网站的目的；2. 两三个主要板块功能；3. 欢迎加入。注意：词数100左右。",
           "reference": "StudyTogether: A Website Belonging to Every Learner\n\nDo you wish to share study tips, find a study partner, or simply feel less alone before exams? StudyTogether, a website set up by our Computer Club, is designed exactly for you.\n\nOn the site you will find three sections. \"Notes Market\" lets you upload and download class notes by subject. \"Ask & Answer\" connects your questions to schoolmates who have been there. \"Study Rooms\" offers online timers where members work quietly together — many say it gives them a real sense of belonging.\n\nThe website will be updated weekly at your request. Come and join us at studytogether.school.cn — learning feels lighter when we do it together!\n\nThe Computer Club",
-          "vocabHints": ["a website belonging to", "set up", "be designed for", "section", "connect your questions to", "a sense of belonging", "at your request", "feel lighter together"]
+          "vocabHints": [
+            "a website belonging to",
+            "set up",
+            "be designed for",
+            "section",
+            "connect your questions to",
+            "a sense of belonging",
+            "at your request",
+            "feel lighter together"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +167,75 @@
               "评分维度:雅思看'real but partial'的边界论证;高考看信息清楚、吸引力足。"
             ]
           },
-          "vocabHints": ["the quiet questions of the digital age", "real but partial", "their first experience of it", "recognition and shared purpose", "mistake the medium for the emotion", "people who did not choose each other", "support has hands", "complements, not rivals"]
+          "vocabHints": [
+            "the quiet questions of the digital age",
+            "real but partial",
+            "their first experience of it",
+            "recognition and shared purpose",
+            "mistake the medium for the emotion",
+            "people who did not choose each other",
+            "support has hands",
+            "complements, not rivals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "屏幕内外的平衡",
+      "titleEn": "Balancing Screen Time",
+      "desc": "综合技能板块核心：Online activities by percentage——网络既是 entertainment，也能 entertain and educate，关键是握好 mobile devices 与生活之间的那个度。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语社团就'学生上网做什么'开展了问卷调查。请你用英文写一份调查报告，内容包括：1. 调查结果；2. 简要分析；3. 你的建议。注意：词数100左右。",
+          "reference": "Last week, our English club carried out a survey on how students use the Internet after school.\n\nThe results are revealing. A high percentage of the students — about sixty per cent — go online mainly for entertainment such as short videos and games, while only a small percentage use their mobile devices to study or read. Chatting with friends takes up much of the rest.\n\nThe Internet can both entertain and educate, so the problem is not the screen itself but the balance. Therefore, we suggest setting a daily time limit, following at least one educational account, and putting phones away one hour before bedtime. Used wisely, a small screen can open a very big world.",
+          "vocabHints": [
+            "carry out a survey on",
+            "the results are revealing",
+            "a high percentage of the students",
+            "go online mainly for entertainment",
+            "mobile devices",
+            "entertain and educate",
+            "the problem is not the screen itself but the balance",
+            "set a daily time limit"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the Internet should be used mainly for education and serious information, rather than for entertainment. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "The Internet now serves as classroom, library and playground at once, and some argue that its true purpose is education and that entertainment is a distraction unworthy of it. I disagree with this narrow view: entertainment is a legitimate and valuable use of the Internet, though individuals should certainly keep it in proportion.\n\nThe demand that the Internet be 'mainly' educational misjudges human nature. People need rest and enjoyment as much as instruction, and games, music, films and social contact meet a genuine need; a tool used by billions cannot be restricted to what a few consider serious. Much online entertainment is, moreover, creative and social rather than empty — people make videos, share art and build communities, activities that develop real skills.\n\nThe line between education and entertainment is also far blurrier than the argument assumes. Documentaries, science channels and language apps teach precisely by being entertaining, and a well-made game can sharpen problem-solving more effectively than a dull lecture. To divide online life cleanly into 'useful' and 'frivolous' is therefore artificial.\n\nThis does not mean unlimited amusement is harmless. Endless scrolling can waste time, disturb sleep and crowd out study, so the sensible response is self-discipline — setting limits and choosing quality — rather than declaring entertainment illegitimate.\n\nIn conclusion, I do not agree that the Internet should be reserved mainly for education. Its power lies precisely in serving many human needs at once, and the real task is not to purge entertainment but to enjoy it in balance with everything else the network makes possible.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'网络应主要用于教育'的判断给出'不同意+需自律节制'的清晰立场;三路反驳(娱乐正当/教育娱乐界限模糊/创造性社交)充分，让步段(无度刷屏之害)真实。",
+              "Coherence & Cohesion(连贯衔接):misjudges human nature / also far blurrier / This does not mean / In conclusion 推进清晰;'useful vs frivolous'的二分被正面拆解;结尾'in balance'回收立场。",
+              "Lexical Resource(词汇资源):a distraction unworthy of it / meet a genuine need / far blurrier / purge entertainment / in proportion 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):that宾语从句嵌套、moreover插入、rather than对比、not to...but to平行收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写上网调查报告(结果+分析+建议);雅思写网络用途命题议论文。",
+              "论据来源:高考报告织入课件'percentage / entertainment / entertain and educate / mobile devices'词块;雅思用媒介使用的普适论据。",
+              "语域:报告团体口吻(we suggest);雅思个人学术立场(I disagree)。",
+              "评分维度:高考重数据清楚+建议;雅思TR看能否拆解'教育vs娱乐'二分——本文'界限模糊'是思辨核心。"
+            ]
+          },
+          "vocabHints": [
+            "a distraction unworthy of it",
+            "misjudges human nature",
+            "meet a genuine need",
+            "the line is far blurrier",
+            "sharpen problem-solving",
+            "endless scrolling",
+            "purge entertainment",
+            "in proportion"
+          ]
         }
       ]
     }

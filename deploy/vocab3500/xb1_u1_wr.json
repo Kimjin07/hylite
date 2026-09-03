@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报以 \"My Comfort Food\" 为主题征文。请你写一篇短文，介绍一种对你有特殊意义的食物，内容包括：1. 这种食物是什么；2. 它唤起的记忆或故事；3. 它对你的意义。注意：词数100左右。",
           "reference": "My Comfort Food\n\nMy comfort food is nothing fancy — just a bowl of my grandma's rice pudding.\n\nSometimes the smell alone can do the trick. The lovely creamy flavour works like a time machine, immediately transporting me back to those lazy Sunday afternoons in her warm flat, where I listened to her stories and greedily ate bowl after bowl.\n\nNow that I study far from home, one mouthful of it takes me back to my roots, giving me the taste of home that I cry out for and relieving my homesickness. Grandma's pudding feeds not only my stomach but also my heart — and that, I believe, is what comfort food truly means.",
-          "vocabHints": ["nothing fancy", "the smell alone can do the trick", "work like a time machine", "transport me back to", "bowl after bowl", "the taste of home", "cry out for", "relieve homesickness"]
+          "vocabHints": [
+            "nothing fancy",
+            "the smell alone can do the trick",
+            "work like a time machine",
+            "transport me back to",
+            "bowl after bowl",
+            "the taste of home",
+            "cry out for",
+            "relieve homesickness"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思看双方公允与立场精确;高考看故事真挚、词块地道(课文 comfort food 词块直接复用)。"
             ]
           },
-          "vocabHints": ["maintenance for the machine", "culture served on every plate", "a nutritionally complete capsule", "the first language of care", "durable archive of culture", "carry a family's history", "built at tables", "mistake the floor for the building"]
+          "vocabHints": [
+            "maintenance for the machine",
+            "culture served on every plate",
+            "a nutritionally complete capsule",
+            "the first language of care",
+            "durable archive of culture",
+            "carry a family's history",
+            "built at tables",
+            "mistake the floor for the building"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你的美国笔友 Kevin 计划来中国旅行，来信询问你家乡有什么必尝美食。请你写一封回信介绍一道家乡菜，内容包括：1. 菜品及其特点；2. 它与当地气候或文化的联系；3. 邀请品尝。注意：词数100左右。",
           "reference": "Dear Kevin,\n\nHow exciting that you're coming! You simply cannot leave my hometown Nanjing without tasting our salted duck.\n\nServed plain in thin, white slices, the meat is juicy and salty — no heavy sauce, no fancy decoration, just the pure flavour itself. Like Sichuan hot pots, which are perfect for the damp, foggy climate in which they were invented, our duck also tells a local story: Nanjing's mild autumn is the season when the dish tastes best, so we even call it \"osmanthus duck\", after the flowers blooming then.\n\nWhen you finish your first helping, I bet you will ask for a second. My family and I can't wait to treat you!\n\nYours,\nLi Hua",
-          "vocabHints": ["cannot leave without tasting", "served plain in thin, white slices", "juicy and salty", "perfect for the damp, foggy climate", "tell a local story", "be named after", "first helping", "treat you"]
+          "vocabHints": [
+            "cannot leave without tasting",
+            "served plain in thin, white slices",
+            "juicy and salty",
+            "perfect for the damp, foggy climate",
+            "tell a local story",
+            "be named after",
+            "first helping",
+            "treat you"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,16 @@
               "评分维度:雅思须给出带条件的程度表态;高考看菜品诱人、文化点出、邀请诚恳。"
             ]
           },
-          "vocabHints": ["menus are going global", "drift away from local eating", "a wider table, a wider education", "drive quality upward", "belonging made edible", "culture's principal archives", "displace rather than join", "addition, not resistance"]
+          "vocabHints": [
+            "menus are going global",
+            "drift away from local eating",
+            "a wider table, a wider education",
+            "drive quality upward",
+            "belonging made edible",
+            "culture's principal archives",
+            "displace rather than join",
+            "addition, not resistance"
+          ]
         }
       ]
     },
@@ -98,7 +134,16 @@
           "typeLabel": "高考模拟",
           "task": "你班将举行以 \"Cooking: My New Skill\" 为主题的英语交流活动。请你准备一篇发言稿，分享你学做饭的经历，内容包括：1. 你为什么开始学做饭；2. 学习过程中的一件趣事或挫折；3. 你的收获。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nDuring the last winter vacation, I threw myself into home cooking — from boiling noodles in the pot to frying steak in the pan.\n\nIt began simply: my parents were busy, and I was hungry. My first dish was a disaster — the \"fried rice\" was burnt black, and my little brother called it \"charcoal rice\" for a week! But I didn't give up. Watching videos, asking Grandma for tips, I slowly learned to control the heat and season with care.\n\nNow cooking has become my way to relax, and a family dinner cooked by me always enhances our happiness at the table. Trust me: the kitchen teaches patience better than any classroom. Thank you!",
-          "vocabHints": ["throw oneself into home cooking", "from boiling noodles to frying steak", "a disaster", "burnt black", "give up", "season with care", "enhance", "teach patience"]
+          "vocabHints": [
+            "throw oneself into home cooking",
+            "from boiling noodles to frying steak",
+            "a disaster",
+            "burnt black",
+            "give up",
+            "season with care",
+            "enhance",
+            "teach patience"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +167,75 @@
               "评分维度:雅思看因-策对应与机制深度;高考看经历生动、收获真切。"
             ]
           },
-          "vocabHints": ["fluent in ordering, illiterate in cooking", "the perception of time", "broken transmission", "at a parent's elbow", "engineer convenience into temptation", "lower the entry step", "confidence feeds itself", "regain a table"]
+          "vocabHints": [
+            "fluent in ordering, illiterate in cooking",
+            "the perception of time",
+            "broken transmission",
+            "at a parent's elbow",
+            "engineer convenience into temptation",
+            "lower the entry step",
+            "confidence feeds itself",
+            "regain a table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "美食节·把家的味道端上桌",
+      "titleEn": "A Campus Food Festival",
+      "desc": "本单元主题延伸：comfort food 的力量在于 the associations it calls to mind——一场校园美食节，让每个人把 the taste of home 端出来分享。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校将举办以'家乡味道'为主题的国际美食节。请你用英文写一则通知，邀请同学们参加，内容包括：1. 活动时间地点与形式；2. 参与方式；3. 表达期待。注意：词数100左右。",
+          "reference": "Campus Food Festival — Taste of Home\n\nThis Saturday afternoon, our International Culture Club will hold a food festival on the playground, and everyone is warmly invited.\n\nThe idea is simple: bring a dish that means something to you. It doesn't have to be fancy — sometimes the smell alone can do the trick, taking us back to our cultural roots. You might cook it yourself or ask a family member for the recipe; either way, please add a small card telling its story.\n\nFood is more than fuel; it carries memory and connects people. Come and share the taste of home, and discover the flavours of a dozen hometowns in one afternoon. We can't wait to see — and taste — what you bring!\n\nThe International Culture Club",
+          "vocabHints": [
+            "taste of home",
+            "warmly invited",
+            "a dish that means something to you",
+            "it doesn't have to be fancy",
+            "the smell alone can do the trick",
+            "our cultural roots",
+            "food is more than fuel",
+            "carries memory and connects people"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, traditional home-cooked food is being replaced by fast food and ready-made meals. Do the disadvantages of this development outweigh the advantages? (Write at least 250 words.)",
+          "reference": "In busy modern societies, home-cooked meals are increasingly giving way to fast food and ready-made dishes. While this shift brings undeniable convenience, I believe its disadvantages — for health, culture and family life — clearly outweigh its benefits.\n\nThe advantages are real and explain the trend. Prepared food saves precious time for people working long hours, requires no cooking skill, and is often cheaper per meal than buying and preparing fresh ingredients. For a tired parent or a busy student, a ready meal can be the difference between eating and skipping food altogether.\n\nThe costs, however, run deeper. Fast and processed foods are typically high in salt, sugar and fat, and their spread tracks closely with rising obesity, diabetes and heart disease — an enormous burden on both families and health systems. Culturally, much is lost too: traditional recipes carry the memory and identity of a community, and when nobody cooks them, that knowledge quietly disappears within a generation. The family meal also matters as a social ritual; gathering around home-cooked food builds conversation and closeness that eating alone from a packet cannot replace.\n\nNone of this means convenience food must vanish; it has a sensible place in a busy week. The danger lies in letting it become the norm rather than the exception, displacing skills and habits that took centuries to build.\n\nIn conclusion, although ready-made meals offer genuine convenience, the harm they do to health, cultural heritage and family bonds is greater still. A society that forgets how to cook loses something far more valuable than time.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对outweigh题给出'弊大于利'的清晰裁决;优势段(省时/无门槛/便宜)诚实充分，弊端段从健康、文化、家庭三层展开，并加'便利食品自有位置'的让步防绝对化。",
+              "Coherence & Cohesion(连贯衔接):advantages are real / costs run deeper / None of this means / In conclusion 推进清晰;'norm rather than the exception'点出问题实质;结尾'forgets how to cook'升华。",
+              "Lexical Resource(词汇资源):giving way to / an enormous burden / carry the memory and identity / a social ritual / took centuries to build 表达精准分层。",
+              "Grammatical Range & Accuracy(语法多样性):While让步开题、破折号插入疾病列举、when条件从句、not...but(norm/exception)平行，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写美食节通知(时间形式+参与+期待);雅思写饮食变迁利弊权衡议论文。",
+              "论据来源:高考通知织入课件'the smell alone can do the trick / taste of home / cultural roots'词块;雅思用公共健康与文化传承的普适论据。",
+              "语域:通知亲切邀请(We can't wait to taste);雅思客观权衡，让步防一边倒。",
+              "评分维度:高考重邀请得体+信息;雅思TR对outweigh题要求净值判断——'弊大于利+便利有位置'是规范表态。"
+            ]
+          },
+          "vocabHints": [
+            "giving way to",
+            "ready-made meals",
+            "an enormous burden on health systems",
+            "carry the memory and identity",
+            "a social ritual",
+            "eating alone from a packet",
+            "the norm rather than the exception",
+            "forgets how to cook"
+          ]
         }
       ]
     }

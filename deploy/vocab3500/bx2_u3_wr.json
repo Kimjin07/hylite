@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你的加拿大笔友 Amy 来信询问你印象最深的一次节日体验。请你写一封回信，讲述你参加某个节日活动的经历，内容包括：1. 节日场面；2. 一个印象最深的习俗或瞬间；3. 你的感受。注意：词数100左右。",
           "reference": "Dear Amy,\n\nYou asked about my most unforgettable festival experience — it has to be the temple fair I visited last Spring Festival.\n\nThe moment I stepped in, I could feel the excitement in the air. There were hundreds of visitors, all dressed up in bright winter coats, wandering among red lanterns and food stands. What impressed me most was the dragon dance: a group of around twenty dancers made the golden dragon roll, jump and even \"fly\" over our heads. I was so caught up in the festival fever that I hardly noticed three hours fly by!\n\nSome customs I did not fully understand, but a few made a deep impression on me. I hope you can experience it yourself one day!\n\nYours,\nLi Hua",
-          "vocabHints": ["in the air", "all dressed up in", "make a deep impression on", "be caught up in the festival fever", "hardly notice time fly by", "anything but ordinary", "wander among", "experience it yourself"]
+          "vocabHints": [
+            "in the air",
+            "all dressed up in",
+            "make a deep impression on",
+            "be caught up in the festival fever",
+            "hardly notice time fly by",
+            "anything but ordinary",
+            "wander among",
+            "experience it yourself"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思须回应'程度'并划边界(real but partial);高考只需经历完整、感受真挚。"
             ]
           },
-          "vocabHints": ["compress a culture", "not in a museum case but alive", "reveal what a community treasures", "dissolve the distance", "require no translation", "in its holiday clothes", "mistake performance for daily life", "the warmest invitation"]
+          "vocabHints": [
+            "compress a culture",
+            "not in a museum case but alive",
+            "reveal what a community treasures",
+            "dissolve the distance",
+            "require no translation",
+            "in its holiday clothes",
+            "mistake performance for daily life",
+            "the warmest invitation"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校外教 Mr Green 独自在华过年。请你写一封邮件邀请他到你家共度除夕，内容包括：1. 发出邀请；2. 介绍你家的年俗安排；3. 表达期待。注意：词数100左右。",
           "reference": "Dear Mr Green,\n\nSpring Festival is around the corner, and my family would be honoured to have you join us for New Year's Eve dinner this Saturday.\n\nLet me preview the evening for you. From the paper-cuttings on the windows to the Spring Festival couplets on the door, everything in my home represents joy, luck and happiness. We will make dumplings together, watch the Spring Festival Gala, and as midnight approaches, set off fireworks in the yard — the whole village will be lit up!\n\nAfter all, home is where people gather, and we would love you to feel at home in China. Shall we pick you up at 4 p.m.?\n\nYours,\nLi Hua",
-          "vocabHints": ["around the corner", "be honoured to", "paper-cuttings", "Spring Festival couplets", "represent joy, luck and happiness", "as midnight approaches", "set off fireworks", "be lit up"]
+          "vocabHints": [
+            "around the corner",
+            "be honoured to",
+            "paper-cuttings",
+            "Spring Festival couplets",
+            "represent joy, luck and happiness",
+            "as midnight approaches",
+            "set off fireworks",
+            "be lit up"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思要求程度表态+处理反方;高考邀请信看诚意与信息完整,年俗介绍即文化输出加分项。"
             ]
           },
-          "vocabHints": ["scatter families across cities", "summon everyone home", "shared labour and shared idleness", "transmit belonging", "a language of continuity", "despite its dispersal", "affection cannot be scheduled", "from custom to necessity"]
+          "vocabHints": [
+            "scatter families across cities",
+            "summon everyone home",
+            "shared labour and shared idleness",
+            "transmit belonging",
+            "a language of continuity",
+            "despite its dispersal",
+            "affection cannot be scheduled",
+            "from custom to necessity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "异国旅途小记",
+      "titleEn": "Notes from a Journey Abroad",
+      "desc": "语法板块核心词块：be caught up in、caught in heavy traffic、catch up on some sleep、narrow twisting streets——一次异国之行的小插曲，也是一次文化的相遇。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假期你随家人到国外某城市旅行。请你用英文写一篇旅行日记，记录难忘的一天，内容包括：1. 旅途中的一段小插曲；2. 你的见闻与感受。注意：词数100左右。",
+          "reference": "July 20th, Sunny\n\nWhat a day! In the morning we were caught in heavy traffic on the way to the old town and nearly missed our guided tour. Luckily, the driver knew a shortcut through the narrow twisting streets, and we arrived just in time.\n\nThe old town was a different world. Lanterns hung across the lanes, the air was full of the smell of street food, and a local festival was in full swing. For a while I was completely caught up in the music and dancing, clapping along with strangers who felt like friends.\n\nBack at the hotel, I was too tired even to catch up on some sleep before dinner — but my heart was full. Travel, I realised, is the best classroom.",
+          "vocabHints": [
+            "what a day",
+            "caught in heavy traffic",
+            "narrow twisting streets",
+            "just in time",
+            "a different world",
+            "in full swing",
+            "caught up in the music",
+            "catch up on some sleep"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that international tourism creates tension and misunderstanding between people from different cultures, rather than helping them understand each other. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As millions cross borders for pleasure each year, some argue that tourism breeds friction rather than fellowship between cultures. While I accept that careless tourism can offend, I disagree with the claim overall: travel, on balance, does far more to build understanding than to damage it.\n\nThere is a grain of truth in the pessimistic view. Visitors who ignore local customs, treat ancient sites as photo backdrops or expect everyone to speak their language can cause real resentment, and mass tourism sometimes reduces rich cultures to souvenir stalls performed for money. Where numbers overwhelm a small community, irritation is understandable.\n\nNevertheless, these are failures of behaviour, not of travel itself. For most people, meeting foreigners face to face quietly dissolves the stereotypes that distance preserves. A traveller who shares a meal, gets lost and is helped by a stranger, or celebrates a local festival returns home with sympathies no news report could create. Tourism also gives host communities a powerful economic reason to protect and take pride in their heritage, and the personal friendships it forms outlast any single trip. Nations whose citizens travel widely are, on the whole, less prone to the ignorant fear on which hostility feeds.\n\nThe solution to tourism's downside is better tourists, not fewer journeys: learning a few local phrases, respecting customs and travelling responsibly turns a potential clash into genuine exchange.\n\nIn conclusion, although thoughtless tourism can irritate and even offend, the encounter between cultures that travel makes possible is overwhelmingly a force for understanding rather than division.",
+          "wordCount": 254,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'旅游制造对立'的判断给出'部分承认+总体不同意';让步段(无礼游客/过度旅游)真实，反驳段(消解刻板印象/经济护遗产/友谊)充分，结论'要更好的游客而非更少的旅行'。",
+              "Coherence & Cohesion(连贯衔接):a grain of truth / Nevertheless / The solution / In conclusion 推进清晰;'failures of behaviour, not of travel itself'完成归因反转;'better tourists, not fewer journeys'对仗收束。",
+              "Lexical Resource(词汇资源):breeds friction rather than fellowship / photo backdrops / dissolves the stereotypes / the ignorant fear on which hostility feeds 表达精准有力。",
+              "Grammatical Range & Accuracy(语法多样性):While让步开题、Where条件从句、on which定语从句、not A but B收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写旅行日记(插曲+见闻);雅思写文化交流命题议论文。",
+              "论据来源:高考日记织入课件'caught in heavy traffic / narrow twisting streets / caught up in / catch up on sleep'词块;雅思用跨文化旅游的普适论据。",
+              "语域:日记有画面与惊叹(What a day!);雅思客观论证，归因反转承载立场。",
+              "评分维度:高考重叙事生动+感受真;雅思TR看能否区分'行为之过'与'旅行之过'——归因反转是高分标志。"
+            ]
+          },
+          "vocabHints": [
+            "breeds friction rather than fellowship",
+            "photo backdrops",
+            "failures of behaviour",
+            "dissolve the stereotypes",
+            "take pride in their heritage",
+            "outlast any single trip",
+            "better tourists, not fewer journeys",
+            "a force for understanding"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "端午节将至，你校学生会拟举办“我们的节日”主题活动。请你以学生会名义写一则英文通知，内容包括：1. 活动目的；2. 活动安排（如包粽子、诗歌朗诵等）；3. 欢迎参加。注意：词数100左右。",
           "reference": "Notice\n\nThe Dragon Boat Festival is coming! As many of us enjoy the holiday without knowing the stories behind it, the Students' Union will hold a \"Our Festivals\" event this Friday afternoon in the school hall, in honour of the great poet Qu Yuan and our shared traditions.\n\nHighlights include: making zongzi with invited grandmas from the neighbourhood; a poetry recital of Qu Yuan's classic lines; and a mini talk on how the festival is observed in different regions.\n\nCome and experience the customs for yourself — a tradition lives only when we live it. Everyone is welcome!\n\nThe Students' Union",
-          "vocabHints": ["in honour of", "observe the tradition", "the stories behind it", "poetry recital", "experience the customs for yourself", "hold an event", "highlights include", "everyone is welcome"]
+          "vocabHints": [
+            "in honour of",
+            "observe the tradition",
+            "the stories behind it",
+            "poetry recital",
+            "experience the customs for yourself",
+            "hold an event",
+            "highlights include",
+            "everyone is welcome"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思 TR 要求原因-对策一一对应(本文三对策各有靶点);高考通知看格式规范与信息清楚。"
             ]
           },
-          "vocabHints": ["collect the holiday but neglect the heritage", "competition for attention", "engineered for instant fun", "transmission failure", "outward forms and inner reasons", "meaning enters through the hands", "borrow modern clothes", "the deepest channel"]
+          "vocabHints": [
+            "collect the holiday but neglect the heritage",
+            "competition for attention",
+            "engineered for instant fun",
+            "transmission failure",
+            "outward forms and inner reasons",
+            "meaning enters through the hands",
+            "borrow modern clothes",
+            "the deepest channel"
+          ]
         }
       ]
     }

@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报开展 \"The Scientist I Admire Most\" 征文活动。请你写一篇短文介绍屠呦呦（Tu Youyou），内容包括：1. 她的主要成就；2. 最打动你的一点；3. 她对你的影响。注意：词数100左右。",
           "reference": "The Scientist I Admire Most\n\nThe scientist I admire most is Tu Youyou, the first female scientist of the People's Republic of China to receive a Nobel Prize, awarded for her contribution to the fight against malaria.\n\nWhat moves me most is not the prize but the road to it. It was not until the 1970s, after many failed experiments, that she succeeded in discovering qinghaosu. Facing repeated failures, she turned to ancient medical books, redesigned the experiments, and even tested the medicine on herself. Her efforts finally paid off, and malaria patients all over the world now have a greatly increased chance of survival.\n\nFrom her I have learned that real success rarely comes at the first attempt — what matters is to fail, learn and try once more.",
-          "vocabHints": ["the first female scientist to receive", "contribution to the fight against malaria", "it was not until...that", "failed experiments", "turn to ancient books", "efforts finally paid off", "a greatly increased chance of survival", "at the first attempt"]
+          "vocabHints": [
+            "the first female scientist to receive",
+            "contribution to the fight against malaria",
+            "it was not until...that",
+            "failed experiments",
+            "turn to ancient books",
+            "efforts finally paid off",
+            "a greatly increased chance of survival",
+            "at the first attempt"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思看双方公允与政策落地;高考看人物细节准确、感悟真诚。"
             ]
           },
-          "vocabHints": ["visible returns", "knowledge pursued for its own sake", "not philistine but accountable", "discipline science with deadlines", "embarrass this logic", "a bank of fundamental knowledge", "promise safely and think small", "a supply chain, not a competition"]
+          "vocabHints": [
+            "visible returns",
+            "knowledge pursued for its own sake",
+            "not philistine but accountable",
+            "discipline science with deadlines",
+            "embarrass this logic",
+            "a bank of fundamental knowledge",
+            "promise safely and think small",
+            "a supply chain, not a competition"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校科技节将举办以 \"Dare to Doubt\" 为主题的英语演讲比赛。请你撰写演讲稿，内容包括：1. 你对“质疑精神”的理解；2. 一个事例（科学史或身边事）；3. 向同学发出号召。注意：词数100左右。",
           "reference": "Dare to Doubt\n\nGood afternoon, everyone!\n\nWhat makes science move forward? Not the answers we memorize, but the questions we dare to ask. As a great physicist said, we scientists take it for granted that it is perfectly possible to live and not know — doubt is not to be feared, but to be welcomed and discussed.\n\nLet me share a small story. Last term, I found my textbook's data on local rainfall outdated. Instead of copying it, I emailed the weather bureau, got the latest figures, and my report earned the top mark — plus a thank-you letter from the publisher!\n\nSo, my friends, permit yourselves to question, to doubt, to not be sure. That is where every discovery begins. Thank you!",
-          "vocabHints": ["dare to ask", "take it for granted that", "live and not know", "doubt is not to be feared but to be welcomed", "outdated", "permit yourselves to question", "to not be sure", "where every discovery begins"]
+          "vocabHints": [
+            "dare to ask",
+            "take it for granted that",
+            "live and not know",
+            "doubt is not to be feared but to be welcomed",
+            "outdated",
+            "permit yourselves to question",
+            "to not be sure",
+            "where every discovery begins"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,16 @@
               "评分维度:雅思须给出'何时接受何时质疑'的判据;高考看事例生动、号召有力。"
             ]
           },
-          "vocabHints": ["train acceptance or doubt", "the economics of learning", "re-litigate every fact", "working currency", "tell evidence from authority", "calibrated doubt", "show their working", "built around the raised hand"]
+          "vocabHints": [
+            "train acceptance or doubt",
+            "the economics of learning",
+            "re-litigate every fact",
+            "working currency",
+            "tell evidence from authority",
+            "calibrated doubt",
+            "show their working",
+            "built around the raised hand"
+          ]
         }
       ]
     },
@@ -98,7 +134,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报以 \"Luck or Preparation?\" 为主题征文。请你结合弗莱明发现青霉素的故事写一篇短文，内容包括：1. 简述这一发现；2. 你的观点；3. 联系自身实际。注意：词数100左右。",
           "reference": "Luck or Preparation?\n\nOne might think Fleming discovered penicillin by accident: a dish left uncovered, a bit of mould, and — a miracle medicine! But actually this is far from the truth.\n\nWhen Fleming observed that the bacteria surrounding the mould were dead, thousands had seen similar dishes and simply washed them. It was his years of research that turned an accident into a discovery. As Pasteur said, fortune favours the prepared mind.\n\nThe story speaks to me directly. I used to envy the \"lucky\" top students until I noticed their thick notebooks of past mistakes. Now I keep one too — because when my chance comes, I want to be the prepared mind it favours.",
-          "vocabHints": ["by accident", "far from the truth", "observe that", "the bacteria surrounding the mould", "turn an accident into a discovery", "fortune favours the prepared mind", "speak to me directly", "the prepared mind"]
+          "vocabHints": [
+            "by accident",
+            "far from the truth",
+            "observe that",
+            "the bacteria surrounding the mould",
+            "turn an accident into a discovery",
+            "fortune favours the prepared mind",
+            "speak to me directly",
+            "the prepared mind"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +167,75 @@
               "评分维度:雅思看双方让步的诚实与立场的精确;高考看故事讲得清、观点立得住、联系自然。"
             ]
           },
-          "vocabHints": ["deal the cards", "distributed before effort begins", "identical talents, different doors", "no guarantee", "the only variable a person can move", "the readiness was rare", "from weather into harvest", "forecast less and plough more"]
+          "vocabHints": [
+            "deal the cards",
+            "distributed before effort begins",
+            "identical talents, different doors",
+            "no guarantee",
+            "the only variable a person can move",
+            "the readiness was rare",
+            "from weather into harvest",
+            "forecast less and plough more"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "校园科技节",
+      "titleEn": "The School Science Festival",
+      "desc": "综合技能板块核心：Science Festival goes off with a bang——从 'Planets in a bottle' 到全场 the standout activity，科学精神就在动手与惊叹之间生长。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校上周举办了首届科技节。请你用英文为校英文报写一篇报道，内容包括：1. 活动概况；2. 最受欢迎的项目；3. 同学们的收获。注意：词数100左右。",
+          "reference": "Our school's first Science Festival went off with a bang last Friday, drawing a huge crowd to the playground.\n\nDozens of experiments were on show, but the standout activity was \"Planets in a bottle\", in which students tried to create the conditions of different planets inside glass bottles. Nearby, a home-made rocket shot into the sky and won a burst of applause. Everywhere, curious faces leaned in, asked questions and tried things with their own hands.\n\nWhat students gained was more than fun. As one classmate put it, science is not a list of facts to memorise, but a way of wondering about the world. Judging by the shining eyes that afternoon, our first festival will surely not be the last.",
+          "vocabHints": [
+            "went off with a bang",
+            "drawing a huge crowd",
+            "the standout activity",
+            "create the conditions of different planets",
+            "won a burst of applause",
+            "tried things with their own hands",
+            "a way of wondering about the world",
+            "shining eyes"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that schools should place more emphasis on science subjects than on arts subjects such as music and painting. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Because modern economies run on technology, some argue that schools should prioritise science over arts subjects like music and painting. While I recognise the value of scientific education, I disagree that it should crowd out the arts, for a good education must develop the whole mind rather than only its useful half.\n\nThe argument for science is understandable. Scientific and mathematical skills drive innovation, create jobs and equip citizens to understand a world of data, medicine and climate. A country short of engineers and scientists will struggle economically, so ensuring strong science teaching is clearly a national priority, and few would deny it a central place in the timetable.\n\nHowever, treating the arts as dispensable is a serious mistake. Music, painting and drama develop creativity, emotional intelligence and cultural understanding — qualities that science itself increasingly depends upon, since breakthroughs demand imagination as much as calculation. The arts also give life meaning beyond productivity; a society of skilled technicians who cannot appreciate beauty or express feeling would be prosperous but impoverished. For many students, moreover, the arts are where confidence and identity are first discovered.\n\nThe wiser aim is balance, not dominance. Science and the arts train different but complementary capacities, and the most creative scientists and thoughtful citizens are usually those exposed to both.\n\nIn conclusion, while science deserves strong support because of its practical importance, it should not be promoted at the expense of the arts. An education that feeds only the analytical mind and starves the imagination prepares students for a job, but not fully for a life.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'科学应重于艺术'给出'承认科学价值+反对挤压艺术'立场;科学段(创新/就业/国家优先)充分，艺术段(创造力/意义/身份)反驳有力，结论落到'平衡而非主导'。",
+              "Coherence & Cohesion(连贯衔接):The argument for science / However / The wiser aim / In conclusion 推进清晰;'the whole mind rather than its useful half'开题定调并在结尾'job vs life'呼应。",
+              "Lexical Resource(词汇资源):crowd out the arts / dispensable / emotional intelligence / prosperous but impoverished / feeds the analytical mind and starves the imagination 表达精准有力。",
+              "Grammatical Range & Accuracy(语法多样性):While让步开题、since原因从句、that复指从句、not...but收尾平行，句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写科技节报道(概况+项目+收获);雅思写学科侧重命题议论文。",
+              "论据来源:高考报道织入课件'went off with a bang / Planets in a bottle / standout activity'词块;雅思用教育哲学的普适论据(全人教育)。",
+              "语域:报道有现场感(shining eyes);雅思客观权衡，'job vs life'升华。",
+              "评分维度:高考重报道生动+要点;雅思TR对agree题看程度限定——'承认科学+反对挤压艺术'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "run on technology",
+            "crowd out the arts",
+            "a national priority",
+            "treating the arts as dispensable",
+            "emotional intelligence",
+            "prosperous but impoverished",
+            "balance, not dominance",
+            "feeds the mind and starves the imagination"
+          ]
         }
       ]
     }

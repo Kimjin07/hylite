@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "世界环境日到来之际，你校英文报以 \"Every Bit Counts\" 为主题征集环保短文。请你写一篇投稿，内容包括：1. 一个让你警醒的环境事实；2. 中学生可以做的两件具体小事；3. 发出呼吁。注意：词数100左右。",
           "reference": "Every Bit Counts\n\nHere is a fact that shook me: over the past 50 years, about 17 per cent of the Amazon rainforest has disappeared due to human activities. The \"lungs of the planet\" are quietly shrinking, and with them, an unbelievable variety of wildlife.\n\nAs students, we cannot plant a rainforest, but we can still make a difference. First, use paper wisely — a double-sided page saves the very trees that produce our oxygen. Second, say no to products that come from endangered species or illegal logging.\n\nAs the impact of human activities continues to grow, we are all left with a question: can we afford to damage our only home? My answer is no — and every small act counts.",
-          "vocabHints": ["the lungs of the planet", "has disappeared due to", "an unbelievable variety of wildlife", "make a difference", "endangered species", "the impact of human activities", "can we afford to", "every small act counts"]
+          "vocabHints": [
+            "the lungs of the planet",
+            "has disappeared due to",
+            "an unbelievable variety of wildlife",
+            "make a difference",
+            "endangered species",
+            "the impact of human activities",
+            "can we afford to",
+            "every small act counts"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思须给出冲突时的裁决判据(不可逆性);高考看事实+行动+呼吁三要素完整。"
             ]
           },
-          "vocabHints": ["first claim on resources", "comfortable hypocrisy", "borrow against an account", "return on no schedule at all", "damage stays local", "with cruel accuracy", "eat its own foundations", "the journey and the vehicle"]
+          "vocabHints": [
+            "first claim on resources",
+            "comfortable hypocrisy",
+            "borrow against an account",
+            "return on no schedule at all",
+            "damage stays local",
+            "with cruel accuracy",
+            "eat its own foundations",
+            "the journey and the vehicle"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "假设你是李华，你所在社区附近的工厂排放废气，影响居民生活。请你用英文给市长信箱写一封信，内容包括：1. 反映问题及影响；2. 提出两条建议；3. 表达期望。注意：词数100左右。",
           "reference": "Dear Mr Mayor,\n\nI am writing to draw your attention to the air pollution caused by the factory near our community.\n\nOver the past months, the smog has coloured the sky a smoky grey, and many residents, including my grandmother, have developed coughs that they can't get rid of. We understand the factory provides jobs, but health should never be the price of profits.\n\nMay I make two suggestions? First, require the factory to adopt new technologies to reduce pollution in the production process, even though these measures may raise its costs. Second, publish air quality data daily so that citizens can monitor the progress.\n\nAfter all, saving our environment and growing our economy should be one and the same fight. I look forward to your reply.\n\nYours sincerely,\nLi Hua",
-          "vocabHints": ["draw one's attention to", "colour the sky a smoky grey", "a cough that one can't get rid of", "take various measures", "reduce pollution in the production process", "raise costs", "one and the same fight", "look forward to"]
+          "vocabHints": [
+            "draw one's attention to",
+            "colour the sky a smoky grey",
+            "a cough that one can't get rid of",
+            "take various measures",
+            "reduce pollution in the production process",
+            "raise costs",
+            "one and the same fight",
+            "look forward to"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思 to what extent 须精确到'接纳内核的不同意';高考书信看问题清楚、建议可行、语气得体。"
             ]
           },
-          "vocabHints": ["a job for the powerful alone", "a rounding error", "excuse the individual", "steered by small ones", "desert a product", "reward greener rules", "refuse to stay private", "move the powerful"]
+          "vocabHints": [
+            "a job for the powerful alone",
+            "a rounding error",
+            "excuse the individual",
+            "steered by small ones",
+            "desert a product",
+            "reward greener rules",
+            "refuse to stay private",
+            "move the powerful"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "为环保出谋划策",
+      "titleEn": "Creative Ideas for the Environment",
+      "desc": "语法板块核心词块：come up with creative ideas on how to solve these problems、call for the application of modern technology——环保不缺口号，缺的是能落地的好点子。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校将举办 \"Green Campus\" 金点子征集活动。请你用英文写一篇发言稿，为校园环保出谋划策，内容包括：1. 提出问题；2. 两三个具体点子；3. 发出号召。注意：词数100左右。",
+          "reference": "Good afternoon, everyone. Our campus is beautiful, but it still faces real problems — wasted paper, wasted water and too much rubbish. Today I'd like to come up with a few creative ideas on how to solve them.\n\nFirst, we could set up clearly labelled recycling bins on every floor, so sorting rubbish becomes a habit. Second, I call for the application of modern technology: a simple app could remind us to switch off lights and report dripping taps. Third, let's turn used paper into notebooks for draft work.\n\nNone of these ideas is difficult, yet together they can make a real difference. A greener campus begins not with grand slogans, but with small, smart actions. Thank you!",
+          "vocabHints": [
+            "face real problems",
+            "come up with creative ideas on how to solve them",
+            "set up recycling bins",
+            "call for the application of modern technology",
+            "switch off lights",
+            "make a real difference",
+            "grand slogans",
+            "small, smart actions"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that new technology is the best way to solve environmental problems, while others think that changing people's behaviour and lifestyles is more effective. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As environmental crises deepen, opinions divide over the remedy: some pin their hopes on new technology, while others insist that only changed behaviour can save us. Having considered both, I believe the two are inseparable, though lasting solutions must ultimately rest on how people choose to live.\n\nFaith in technology is well founded. Renewable energy, electric transport, efficient appliances and carbon-capture systems have already cut emissions that no amount of good intention could, and innovation allows growing populations to consume resources far more cleanly than before. Technology can also solve problems at a scale and speed that individual effort cannot match, which is why it must remain central to any serious response.\n\nYet technology alone can mislead. Efficient devices often encourage greater consumption — people drive further in economical cars and light larger homes with cheaper bulbs — so gains are quietly cancelled by behaviour. No invention helps if citizens refuse to recycle, waste food or demand ever more goods. Cultural change — using less, repairing rather than replacing, valuing sufficiency over excess — attacks the root that technology only trims.\n\nThe wisest strategy therefore weds the two. Governments should fund clean innovation while also shaping habits through education, pricing and example, since a green technology adopted by wasteful people achieves little.\n\nIn conclusion, both cleaner tools and wiser lifestyles are essential, and neither succeeds without the other. But because every technology is ultimately used by human hands, the deeper and more durable cure lies in changing how we choose to live.",
+          "wordCount": 252,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均充分(技术:可再生能源/规模速度;行为:反弹效应/消费根源)，立场'二者不可分+行为更根本'明确，结论把裁决权交给'如何生活'。",
+              "Coherence & Cohesion(连贯衔接):Faith in technology / Yet / therefore / In conclusion 推进清晰;'gains cancelled by behaviour'的反弹论证承上启下;'trims vs attacks the root'的对比点睛。",
+              "Lexical Resource(词汇资源):pin their hopes on / carbon-capture systems / quietly cancelled by behaviour / valuing sufficiency over excess / trims the root 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入例证、which非限定从句、since原因从句、because...ultimately收尾推理，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写环保金点子发言稿(问题+点子+号召);雅思写环境治理路径议论文。",
+              "论据来源:高考发言织入课件'come up with creative ideas / call for the application of modern technology'词块;雅思用环境政策的普适论据(反弹效应)。",
+              "语域:发言稿有口号号召;雅思客观权衡，'trims vs root'比喻承载立场。",
+              "评分维度:高考重点子可行+号召;雅思discuss题看能否指出'技术与行为不可分'的深层关系。"
+            ]
+          },
+          "vocabHints": [
+            "pin their hopes on",
+            "carbon-capture systems",
+            "at a scale and speed",
+            "quietly cancelled by behaviour",
+            "repairing rather than replacing",
+            "valuing sufficiency over excess",
+            "attacks the root",
+            "used by human hands"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你校自然社团将举办“野生动物保护周”活动。请你以社团名义写一份倡议书，内容包括：1. 保护野生动物的意义；2. 两条具体倡议；3. 呼吁参与。注意：词数100左右。",
           "reference": "Dear schoolmates,\n\nWhen you think of wild animals, images of lions and sharks may spring to mind — fearsome, distant, none of our business. But the truth is, every species, from jaguars to the insects they feed on, forms its own little world, and each level supports the whole web of life. When one link breaks down, the balance we depend on breaks with it.\n\nHere are our proposals. First, refuse products made from wild animals — no buying, no killing. Second, join our weekend visit to the local nature reserve and learn to observe animals without disturbing them.\n\nProtecting wildlife is not charity for animals; it is insurance for ourselves. Come and act with us this week!\n\nThe Nature Club",
-          "vocabHints": ["images may spring to mind", "fearsome", "feed on", "form its own little world", "break down", "the balance we depend on", "nature reserve", "insurance for ourselves"]
+          "vocabHints": [
+            "images may spring to mind",
+            "fearsome",
+            "feed on",
+            "form its own little world",
+            "break down",
+            "the balance we depend on",
+            "nature reserve",
+            "insurance for ourselves"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思须处理让步并守住中心论点;高考看意义+倡议+呼吁三段完整与感染力。"
             ]
           },
-          "vocabHints": ["a luxury of the comfortable", "make a moral claim", "load-bearing parts", "pollinate the crops", "keep populations in check", "furthest from any safety net", "an instrument of welfare", "in a longer hand"]
+          "vocabHints": [
+            "a luxury of the comfortable",
+            "make a moral claim",
+            "load-bearing parts",
+            "pollinate the crops",
+            "keep populations in check",
+            "furthest from any safety net",
+            "an instrument of welfare",
+            "in a longer hand"
+          ]
         }
       ]
     }

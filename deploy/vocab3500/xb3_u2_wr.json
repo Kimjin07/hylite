@@ -179,6 +179,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "星空下的科学梦",
+      "titleEn": "Dreaming Under the Stars",
+      "desc": "本单元主题延伸：With each space mission comes greater insight——一次校园观星活动，让我们抬头看见 our remarkable planet 之外更辽阔的夜空。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校天文社上周举办了一次夜间观星活动。请你用英文为校英文报写一篇报道，内容包括：1. 活动概况；2. 精彩瞬间；3. 同学们的感受。注意：词数100左右。",
+          "reference": "Last Saturday evening, our Astronomy Club held a stargazing night on the school field, and nearly a hundred students came with blankets and curiosity.\n\nUnder a clear autumn sky, we took turns at the telescope. The highlight came when the rings of Saturn appeared in the lens — a soft gasp ran through the crowd. A club member reminded us that with each space mission comes greater insight, and that the same stars once guided ancient sailors home.\n\nLying on the grass and watching our remarkable planet turn beneath a sea of stars, many of us fell silent. As one classmate said, the night sky makes you feel small and full of dreams at once. It was a lesson no classroom could give.",
+          "vocabHints": [
+            "held a stargazing night",
+            "took turns at the telescope",
+            "the rings of Saturn appeared",
+            "a soft gasp ran through the crowd",
+            "with each space mission comes greater insight",
+            "watching our remarkable planet turn",
+            "fell silent",
+            "small and full of dreams at once"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that countries should work together on space exploration, while others think each country should run its own space programme. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As more nations reach for space, a question arises: should they explore it together, or should each pursue its own programme? Some favour international cooperation; others prefer independent national efforts. Having considered both, I believe cooperation should be the guiding principle, even if a degree of national capability remains sensible.\n\nThe case for working together is compelling. Space missions are extraordinarily expensive and technically demanding, and pooling money, talent and equipment allows humanity to attempt goals no single country could afford — the International Space Station is proof that rivals can build something remarkable in partnership. Cooperation also avoids wasteful duplication, spreads risk, and turns space into a arena for friendship rather than confrontation. With each shared mission comes greater insight, and knowledge gained jointly benefits everyone.\n\nThere are, however, arguments for national programmes. Countries invest in space partly for prestige, security and economic advantage, and independent capability protects them if political alliances break down. Healthy competition, moreover, can accelerate progress: much early space achievement was driven precisely by rivalry between nations.\n\nOn balance, though, the challenges now facing space exploration — enormous costs, planetary defence, the search for life — are too large and too universal for any nation to tackle alone. The wisest path is broad cooperation on major scientific goals, while allowing countries to retain the independent skills that keep them secure.\n\nIn conclusion, although national programmes have their place, the future of space belongs to collaboration. The universe is a common frontier, and exploring it together is both cheaper and nobler than racing to conquer it apart.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(合作:分摊成本/避免重复/友谊;独立:威望安全/竞争加速)，立场'合作为原则+保留一定国家能力'权重清晰，结论落到'共同前沿'。",
+              "Coherence & Cohesion(连贯衔接):The case for / There are, however / On balance / In conclusion 推进工整;ISS作为合作范例支撑论点;'With each shared mission comes greater insight'织入单元词块。",
+              "Lexical Resource(词汇资源):pooling money, talent and equipment / wasteful duplication / a common frontier / racing to conquer it apart 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):even if让步、no single country could afford定语、破折号插入目标列举、while对比收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写观星活动报道(概况+瞬间+感受);雅思写太空合作双边议论文。",
+              "论据来源:高考报道织入课件'with each space mission comes greater insight / our remarkable planet'词块;雅思用航天治理的普适论据(ISS)。",
+              "语域:报道有现场感(a soft gasp);雅思客观权衡，'common frontier'升华。",
+              "评分维度:高考重报道生动+感受;雅思discuss题奖励带权重的立场——'合作为主+保留能力'高于二选一。"
+            ]
+          },
+          "vocabHints": [
+            "reach for space",
+            "pooling money, talent and equipment",
+            "wasteful duplication",
+            "an arena for friendship",
+            "with each shared mission comes greater insight",
+            "independent capability",
+            "a common frontier",
+            "racing to conquer it apart"
+          ]
+        }
+      ]
     }
   ]
 }

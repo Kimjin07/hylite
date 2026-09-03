@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "假设你是李华。你的美国笔友 Lisa 来信说她为了快速减肥经常不吃早餐（skip breakfast），最近上课很难集中注意力。请你写一封回信，内容包括：1. 表达关心；2. 指出这种做法的危害；3. 提出健康建议。注意：词数100左右。",
           "reference": "Dear Lisa,\n\nI'm worried to learn that you often skip breakfast to lose weight and now have trouble concentrating in class.\n\nPlease stop — these so-called \"quick-fix methods\" prove to be harmful. Skipping meals leads to dangerously low blood sugar levels, which explains your tiredness. In the news, a teenager even fainted after skipping meals; habits like these, if maintained over the long term, can become a serious health risk.\n\nHere is my advice. Have a healthy, well-balanced diet, and never trade meals for a number on the scale. Besides, take regular exercise — aim for the daily average of 30 to 60 minutes — and keep regular hours. In time you will get into shape and feel energetic again.\n\nYours,\nLi Hua",
-          "vocabHints": ["skip meals", "have trouble concentrating", "quick-fix methods", "dangerously low blood sugar levels", "a well-balanced diet", "take regular exercise", "keep regular hours", "get into shape"]
+          "vocabHints": [
+            "skip meals",
+            "have trouble concentrating",
+            "quick-fix methods",
+            "dangerously low blood sugar levels",
+            "a well-balanced diet",
+            "take regular exercise",
+            "keep regular hours",
+            "get into shape"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思 TR 要求原因-对策一一对应(本文两两镜像);高考只需'关心+危害+建议'三要点齐备,不考对应结构。"
             ]
           },
-          "vocabHints": ["in pursuit of", "parade flawless bodies", "scored in likes", "under construction", "media literacy", "undermine the slimness it promises", "warning signs", "the goal worth chasing"]
+          "vocabHints": [
+            "in pursuit of",
+            "parade flawless bodies",
+            "scored in likes",
+            "under construction",
+            "media literacy",
+            "undermine the slimness it promises",
+            "warning signs",
+            "the goal worth chasing"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报正举办以 \"Learning to Like Myself\" 为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你或身边人曾有的外貌焦虑；2. 转变的经过；3. 你的感悟。注意：词数100左右。",
           "reference": "For a long time, dark thoughts about my ordinary looks hung over me. Comparing myself with the perfect faces online, I only ended up feeling worse about myself.\n\nThe turning point came when my art teacher praised my sketches in front of the class. For the first time, I realized that everyone has their own talents, and that trying to live up to the standards of beauty in the media is fighting a losing battle.\n\nNow I take pride in the things I do well. My contents, I have learned, are far more important than my cover. Like what you do, and you will learn to like who you are.",
-          "vocabHints": ["dark thoughts hang over sb", "end up feeling worse", "everyone has their own talents", "live up to", "standards of beauty in the media", "fight a losing battle", "take pride in", "contents vs cover"]
+          "vocabHints": [
+            "dark thoughts hang over sb",
+            "end up feeling worse",
+            "everyone has their own talents",
+            "live up to",
+            "standards of beauty in the media",
+            "fight a losing battle",
+            "take pride in",
+            "contents vs cover"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思 to what extent 题必须给出程度并处理反方(本文专段驳斥);高考征文无需反方视角,三要点完整即可。"
             ]
           },
-          "vocabHints": ["idealised beauty", "a quiet redefinition of normal", "still assembling their identities", "find themselves lacking", "an unreachable standard", "rigged from the start", "shrug off", "carry honest labels"]
+          "vocabHints": [
+            "idealised beauty",
+            "a quiet redefinition of normal",
+            "still assembling their identities",
+            "find themselves lacking",
+            "an unreachable standard",
+            "rigged from the start",
+            "shrug off",
+            "carry honest labels"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "健康生活方式",
+      "titleEn": "A Healthy Lifestyle",
+      "desc": "本单元主题延伸：拒绝 quick-fix methods，用 a well-balanced diet 与 regular exercise 打好健康的地基——好身材不是饿出来的，是养出来的。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国朋友 Sam 最近想通过节食快速减肥。请你用英文回信，劝他采取健康的生活方式，内容包括：1. 表达关心；2. 指出节食的危害；3. 提出健康建议。注意：词数100左右。",
+          "reference": "Dear Sam,\n\nI was a little worried to hear that you are trying to lose weight quickly by skipping meals. As a friend, I really hope you will think twice.\n\nQuick-fix methods may work for a few days, but they often do more harm than good. When you skip meals, your blood sugar drops, and you may have trouble concentrating in class. Crash diets rarely last, and the weight usually comes back.\n\nWhy not build a healthy lifestyle instead? Eat a well-balanced diet with plenty of vegetables, drink enough water, and take regular exercise such as running or basketball. Good shape is not starved into being; it is grown, day by day.\n\nTake care of yourself!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "lose weight quickly by skipping meals",
+            "think twice",
+            "quick-fix methods",
+            "do more harm than good",
+            "have trouble concentrating",
+            "a well-balanced diet",
+            "take regular exercise",
+            "day by day"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that individuals are responsible for their own health and fitness, while others think governments should do more to keep people healthy. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As rates of obesity and lifestyle-related illness climb, societies argue over who should be blamed and who should act. Some insist that health is a matter of personal choice; others hold governments responsible. In my view both share the duty, though individuals must own the daily decisions while governments shape the environment around them.\n\nThe case for personal responsibility is strong. No official can force anyone to eat sensibly, exercise or sleep well; these are private acts repeated every day, and adults who ignore obvious advice can hardly blame the state for the consequences. Treating people as helpless also insults their dignity and, taken far enough, invites endless interference in private life.\n\nYet individual willpower operates within conditions that governments largely control. When cities lack parks and safe paths, when cheap food is engineered to be fattening, and when advertising floods children with junk, poor 'choices' become predictable outcomes rather than free decisions. Governments can tilt these conditions toward health — taxing sugary drinks, funding sports facilities, regulating misleading labels and teaching nutrition in schools — measures that have measurably improved public health where applied.\n\nThe sensible conclusion is therefore partnership rather than blame. People should be expected to look after themselves, but they can only do so easily if the healthy option is also the affordable and convenient one, and creating that environment is a job only governments can perform.\n\nIn conclusion, health is neither purely a private duty nor purely a public one. Lasting improvement comes when responsible individuals are supported by a society deliberately designed to make healthy living the natural choice.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双方职责均展开(个人:每日私人行为/尊严;政府:环境塑造/税收监管教育)，立场'共担+个人管日常决策、政府塑环境'权重清晰，结论落到'合作而非归咎'。",
+              "Coherence & Cohesion(连贯衔接):The case for / Yet / therefore / In conclusion 骨架工整;'poor choices become predictable outcomes'完成从个人到环境的论证转折;结尾'natural choice'回收环境论点。",
+              "Lexical Resource(词汇资源):a matter of personal choice / engineered to be fattening / tilt these conditions toward health / partnership rather than blame 等表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):When...when...when三重条件并列、破折号列举政策、only if限定、neither...nor平行收尾，结构丰富。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写劝告信(关心+危害+建议);雅思写健康责任双边议论文。",
+              "论据来源:高考信件织入本单元'quick-fix methods / well-balanced diet / regular exercise'词块;雅思用公共卫生的普适论据(糖税、食品环境)。",
+              "语域:书信亲切劝导(As a friend, I really hope);雅思客观权衡，尊严与自由的分寸感。",
+              "评分维度:高考重情真+建议具体;雅思discuss题奖励带权重的立场——'共担但个人管日常'高于笼统'都有责'。"
+            ]
+          },
+          "vocabHints": [
+            "a matter of personal choice",
+            "private acts repeated every day",
+            "engineered to be fattening",
+            "predictable outcomes",
+            "tilt conditions toward health",
+            "tax sugary drinks",
+            "partnership rather than blame",
+            "the natural choice"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你班将举行以 \"Should Teenagers Have Cosmetic Surgery?\" 为主题的英语讨论会。请你准备一篇发言稿表明你的观点，内容包括：1. 你的观点；2. 两条理由；3. 建议。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nShould teenagers have cosmetic surgery just to look better? My answer is no — at least not before we grow up.\n\nFirst, our bodies are still growing, so the results might not be what we expect; some people even end up looking unnatural, unable to make certain facial expressions. Second, surgery cannot cure the real problem, which often lies in confidence rather than appearance. True beauty, as we all know, comes from what we do and who we are.\n\nOf course, surgery that treats burns or injuries is a different matter. But before making any decision, we must weigh up all of the advantages and disadvantages. Think before you act!\n\nThank you!",
-          "vocabHints": ["cosmetic/plastic surgery", "the results might not be what people expect", "look unnatural", "facial expressions", "weigh up the advantages and disadvantages", "think before you act", "treat burns", "confidence rather than appearance"]
+          "vocabHints": [
+            "cosmetic/plastic surgery",
+            "the results might not be what people expect",
+            "look unnatural",
+            "facial expressions",
+            "weigh up the advantages and disadvantages",
+            "think before you act",
+            "treat burns",
+            "confidence rather than appearance"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思要求 positive/negative 表态覆盖'程度与例外'(本文 largely negative + exception);高考观点题选边站队即可,不要求处理例外情形。"
             ]
           },
-          "vocabHints": ["once the preserve of", "normalisation", "reconstructive vs elective", "a poor canvas", "treat the symptom while feeding the disease", "perceived flaw", "raise the price of remaining natural", "the order of self-improvement"]
+          "vocabHints": [
+            "once the preserve of",
+            "normalisation",
+            "reconstructive vs elective",
+            "a poor canvas",
+            "treat the symptom while feeding the disease",
+            "perceived flaw",
+            "raise the price of remaining natural",
+            "the order of self-improvement"
+          ]
         }
       ]
     }

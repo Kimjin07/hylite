@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你的英国笔友 Lucy 喜欢古典音乐，来信请你推荐一部中国音乐作品。请你写一封回信推荐小提琴协奏曲《梁祝》（Butterfly Lovers），内容包括：1. 作品简介；2. 它的独特之处；3. 推荐聆听的段落或方式。注意：词数100左右。",
           "reference": "Dear Lucy,\n\nSince you love classical music, let me recommend Butterfly Lovers, a beautiful violin concerto composed by He Zhanhao and Chen Gang — a piece that really deserves to be heard.\n\nThe music tells a classic Chinese love story. When the two lovers first meet, the melody is light and pleasant, as if whispering to the audience; during the most exciting part, it turns dramatic with heavier notes; and finally it ends on a bittersweet note, telling how the couple transform into butterflies and fly away together.\n\nWhat makes it special is that it combines Chinese and Western musical elements — a Western orchestra speaking with a Chinese accent, so to speak.\n\nDo listen to the final section first. I guarantee you'll enjoy it!\n\nYours,\nLi Hua",
-          "vocabHints": ["a violin concerto composed by", "deserve to be heard", "light and pleasant", "as if whispering to the audience", "end on a bittersweet note", "transform into butterflies", "combine Chinese and Western musical elements", "I guarantee"]
+          "vocabHints": [
+            "a violin concerto composed by",
+            "deserve to be heard",
+            "light and pleasant",
+            "as if whispering to the audience",
+            "end on a bittersweet note",
+            "transform into butterflies",
+            "combine Chinese and Western musical elements",
+            "I guarantee"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思看'重要性如何比较'的框架创新;高考看作品讲清、亮点突出、推荐具体。"
             ]
           },
-          "vocabHints": ["two currents", "deserve the higher seat", "archives in sound", "encode centuries of feeling", "anchor identity", "a common language across borders", "importance splits by function", "against forgetting"]
+          "vocabHints": [
+            "two currents",
+            "deserve the higher seat",
+            "archives in sound",
+            "encode centuries of feeling",
+            "anchor identity",
+            "a common language across borders",
+            "importance splits by function",
+            "against forgetting"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报以 \"Never Give Up\" 为主题征文。请你以贝多芬的故事为例写一篇短文，内容包括：1. 他遭遇的困境；2. 他如何应对；3. 这个故事给你的启示。注意：词数100左右。",
           "reference": "Never Give Up\n\nWhen we talk about never giving up, no story moves me more than Beethoven's.\n\nBy the time he was a teenager, he had already enjoyed a reputation as a wonderful young musician. Then came the cruellest blow for any composer: he began to lose his hearing. Yet even in his darkest moments, Beethoven never abandoned hope. When composing at the piano, he would put one end of a pencil in his mouth and place the other end against the instrument, so that he could feel the notes through his teeth.\n\nAt the première of his Ninth Symphony, he was almost completely deaf — yet the music, full of desperate lows and uplifting highs, still shook the world.\n\nFate may take something from everyone; what matters is what we create with what remains.",
-          "vocabHints": ["enjoy a reputation as", "lose one's hearing", "in his darkest moments", "never abandoned hope", "feel the notes", "almost completely deaf", "desperate lows and uplifting highs", "what we create with what remains"]
+          "vocabHints": [
+            "enjoy a reputation as",
+            "lose one's hearing",
+            "in his darkest moments",
+            "never abandoned hope",
+            "feel the notes",
+            "almost completely deaf",
+            "desperate lows and uplifting highs",
+            "what we create with what remains"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思看辩证深度(regressive lessons 的洞察);高考看故事完整、金句点题。"
             ]
           },
-          "vocabHints": ["the forge of character", "disproportionately", "sharper priorities", "where resources end", "worn down", "regressive lessons", "comfortable cruelty", "meet it accompanied"]
+          "vocabHints": [
+            "the forge of character",
+            "disproportionately",
+            "sharper priorities",
+            "where resources end",
+            "worn down",
+            "regressive lessons",
+            "comfortable cruelty",
+            "meet it accompanied"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "让音乐流淌",
+      "titleEn": "Let the Music Flow",
+      "desc": "语法板块核心词块：the tears began to flow、fear and excitement flowed over me、the free flow of emotion——音乐最动人的地方，是让情感自由地流淌出来。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国朋友 Emma 最近压力很大，情绪低落。请你用英文回信，向她推荐用音乐调节情绪的方法，内容包括：1. 表达关心；2. 说明音乐如何帮助你；3. 提出具体建议。注意：词数100左右。",
+          "reference": "Dear Emma,\n\nI'm sorry to hear that you've been under so much pressure lately. Please don't keep everything inside.\n\nWhenever I feel low, I turn to music. As soon as the first notes begin, my worries seem to loosen, and sometimes I let the tears simply flow — and afterwards I always feel lighter. Once, during a hard week, a single song filled me with such warmth that fear and excitement flowed over me at the same time. Music lets our feelings move instead of freezing inside us.\n\nSo why not make a playlist of songs that comfort you, and give yourself ten quiet minutes a day just to listen? Let the music flow, and let your heart flow with it.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "under so much pressure",
+            "keep everything inside",
+            "turn to music",
+            "let the tears simply flow",
+            "feel lighter",
+            "fear and excitement flowed over me",
+            "let our feelings move",
+            "let the music flow"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that learning to play a musical instrument should be a compulsory part of every child's education. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Music surrounds daily life, yet few children learn to make it themselves. Some argue that playing an instrument should be compulsory in schools; others consider it an optional luxury. I largely agree that every child should have the chance to learn an instrument, though I would stop short of forcing it on those with no interest.\n\nThe benefits of musical training are well documented and reach far beyond music itself. Learning an instrument develops discipline and patience, since progress comes only through steady daily practice; it sharpens memory and concentration; and research links it to gains in mathematics and language. Just as importantly, music gives children a lifelong outlet for emotion — a way to let feeling flow rather than build up inside — and the confidence that comes from performing before others. Made available to all, such training also narrows the gap between wealthy families who can afford private lessons and poorer ones who cannot.\n\nThe case for strict compulsion, however, is weaker. Children differ, and a pupil dragged unwillingly through scales may gain little while resenting every lesson; forcing music can even kill the love it hopes to create. Compulsion also competes for hours with other valuable subjects.\n\nThe sensible policy, therefore, is universal opportunity rather than universal obligation. Every school should offer instruments and free tuition, actively encourage participation, and let genuine interest, once sparked, carry each child forward.\n\nIn conclusion, while I would not compel reluctant students, I firmly believe that learning an instrument should be within every child's reach — a gift too valuable to depend on the accident of family income.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'基本同意应人人有机会+反对强制'的量化立场;益处段(纪律/记忆/数学语言/情感出口/公平)充分，反对强制段(个体差异/扼杀兴趣)有力，落到'普遍机会而非普遍义务'。",
+              "Coherence & Cohesion(连贯衔接):benefits / however / therefore / In conclusion 推进清晰;'let feeling flow rather than build up'呼应单元音乐主题;'opportunity rather than obligation'对仗收束。",
+              "Lexical Resource(词汇资源):an optional luxury / a lifelong outlet for emotion / dragged unwillingly through scales / the accident of family income 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):since原因从句、Just as importantly衔接、Made available分词条件、not...rather than平行，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写安慰推荐信(关心+方法+建议);雅思写音乐教育命题议论文。",
+              "论据来源:高考信件织入课件'the tears flow / fear and excitement flowed over me'词块;雅思用音乐教育研究的普适论据。",
+              "语域:书信温情(Let the music flow, and let your heart flow with it);雅思客观权衡，反对强制显分寸。",
+              "评分维度:高考重情真+建议具体;雅思TR对agree题看程度限定——'机会而非义务'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "an optional luxury",
+            "well documented",
+            "steady daily practice",
+            "a lifelong outlet for emotion",
+            "let feeling flow",
+            "dragged unwillingly through scales",
+            "opportunity rather than obligation",
+            "the accident of family income"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你校广播站“歌声与心声”栏目征集荐歌信。请你写一封信推荐一首陪伴你成长的歌，内容包括：1. 歌曲及你与它的故事；2. 推荐理由；3. 希望播出的时段。注意：词数100左右。",
           "reference": "Dear Editors,\n\nI'd like to recommend a song that has accompanied me throughout my school years.\n\nI still remember the first time I heard it: I turned up the volume and stood staring at the radio, holding my breath and waiting for the first notes. Since then, it has been the background music of my life — it cheered me up after my first failed exam, and kept me company on countless evening walks home.\n\nI recommend it because its message is simple but powerful: bad times, like clouds, pass. May it comfort more schoolmates the way it comforted me.\n\nCould you play it during Friday's evening show, when the week feels longest? Many thanks!\n\nYours,\nLi Hua",
-          "vocabHints": ["accompany me throughout", "turn up the volume", "stand staring at", "holding my breath", "the first notes", "cheer sb up", "keep sb company", "comfort"]
+          "vocabHints": [
+            "accompany me throughout",
+            "turn up the volume",
+            "stand staring at",
+            "holding my breath",
+            "the first notes",
+            "cheer sb up",
+            "keep sb company",
+            "comfort"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思看'联结的边界'论证;高考看故事动人、理由清楚、请求具体。"
             ]
           },
-          "vocabHints": ["the universal language", "bypass translation", "reach emotion before meaning", "sing as one body", "a face-saving meeting place", "rehearse reconciliation", "open the door, not walk through", "crossed both ways"]
+          "vocabHints": [
+            "the universal language",
+            "bypass translation",
+            "reach emotion before meaning",
+            "sing as one body",
+            "a face-saving meeting place",
+            "rehearse reconciliation",
+            "open the door, not walk through",
+            "crossed both ways"
+          ]
         }
       ]
     }

@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "分歧中的合作",
+      "titleEn": "Cooperation Beyond Division",
+      "desc": "语法板块核心词块：divisions between groups、show concern for、work in cooperation with——保护遗产常牵涉不同群体的分歧，唯有超越分歧、携手合作，才能守住共同的记忆。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的家乡有一处老建筑面临拆除，居民意见不一。请你用英文给当地英文报写一封信，呼吁各方合作保护，内容包括：1. 说明分歧；2. 提出合作建议；3. 表达期望。注意：词数100左右。",
+          "reference": "Dear Editor,\n\nI am writing about the old riverside house in our town, which now faces being torn down. On this issue there are deep divisions: some residents want the land for new flats, while others show great concern for a building that has stood for a hundred years.\n\nI believe the two sides need not be enemies. Working in cooperation with each other, developers, residents and the local government could find a middle path — for example, repairing the old house and turning it into a small library or café, so that it serves the town instead of blocking it.\n\nHeritage belongs to all of us. I hope that, beyond our differences, we can join hands to protect what once gone can never return.\n\nYours faithfully,\nLi Hua",
+          "vocabHints": [
+            "faces being torn down",
+            "there are deep divisions",
+            "show great concern for",
+            "need not be enemies",
+            "working in cooperation with each other",
+            "find a middle path",
+            "beyond our differences",
+            "once gone can never return"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that solving the world's most serious problems requires international cooperation, while others think each country should focus on its own interests. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "The great challenges of our age — climate change, pandemics, poverty — cross every border, yet nations often retreat into self-interest. Some insist these problems can only be solved through international cooperation; others argue each country should look after its own affairs first. In my view cooperation is not merely preferable but unavoidable, though it must be built on a fair sharing of effort.\n\nThe argument for cooperation is overwhelming for problems that no country can solve alone. A warming climate ignores frontiers: emissions from one nation raise sea levels for all, so only coordinated action can succeed. Diseases spread by aircraft within days, making a purely national defence useless. Pooling knowledge, funds and resources also achieves far more than isolated efforts, as the rapid, shared development of vaccines has shown. Where the divisions between countries give way to genuine partnership, humanity accomplishes what division never could.\n\nThose who favour self-interest are not entirely wrong, however. Governments are elected to serve their own citizens, and a country that neglects its economy or security helps no one. Cooperation can also be abused, with some nations enjoying the benefits while others carry the costs.\n\nThe answer to these concerns is fairer cooperation, not isolation. Global problems demand shared solutions, but the burden must be divided justly, so that richer nations contribute more and no country feels exploited.\n\nIn conclusion, while every government must show concern for its own people, the largest threats we face are simply too big for any nation acting alone. Working in cooperation with one another, countries can solve together what none could ever solve apart.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(合作:气候疫情跨界/疫苗共享;自利:服务本国选民/合作被滥用)，立场'合作不可避免+须公平分担'清晰，结论落到'公平合作而非孤立'。",
+              "Coherence & Cohesion(连贯衔接):argument for cooperation / not entirely wrong, however / The answer / In conclusion 推进工整;'divisions give way to partnership / working in cooperation'织入单元词块。",
+              "Lexical Resource(词汇资源):retreat into self-interest / ignores frontiers / carry the costs / divided justly / feels exploited 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):not merely...but平行、Where条件从句、so that目的、what none could solve apart收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写呼吁保护老建筑的读者来信(分歧+合作+期望);雅思写国际合作双边议论文。",
+              "论据来源:高考信件织入课件'divisions / show concern for / in cooperation with'词块;雅思用全球治理的普适论据(疫苗合作)。",
+              "语域:读者来信恳切(join hands);雅思客观权衡，'公平合作'显分寸。",
+              "评分维度:高考重要点+呼吁力;雅思discuss题奖励带条件的立场——'合作+公平分担'高于笼统站队。"
+            ]
+          },
+          "vocabHints": [
+            "retreat into self-interest",
+            "cross every border",
+            "ignores frontiers",
+            "pooling knowledge, funds and resources",
+            "divisions give way to partnership",
+            "carry the costs",
+            "divided justly",
+            "solve together what none could solve apart"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "走近遗产·研学与开放",

@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英语电影节即将开幕，主办方邀请你在开幕式上作简短发言，向同学们介绍“电影幕后的功臣”。内容包括：1. 一部电影的诞生离不开哪些幕后工作；2. 举一个让你印象深刻的例子；3. 呼吁大家尊重幕后劳动。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nWhen we talk about a film, the first thing we notice is often the stars. Actually, the film you see on the screen is the product of a huge amount of hard work, most of which takes place behind the scenes: sound effects are added after a scene has been shot, visual special effects bring impossible worlds to life, and countless props are made by hand.\n\nHere is an example I love. To make his 1997 film, the director had a full-sized model of the ship built — it took 500 workers 100 days, not to mention the thousands of props inside!\n\nSo next time the film ends, please stay for the credits. Those rolling names deserve our applause as much as the stars do. Thank you!",
-          "vocabHints": ["behind the scenes", "the product of a huge amount of hard work", "sound effects", "visual special effects", "not to mention", "props", "full-sized model", "do justice to"]
+          "vocabHints": [
+            "behind the scenes",
+            "the product of a huge amount of hard work",
+            "sound effects",
+            "visual special effects",
+            "not to mention",
+            "props",
+            "full-sized model",
+            "do justice to"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思四维分项,本文'比喻贯穿+对照句'为 CC/LR 设计;高考看要点与感染力,现场呼吁是加分项而非离题。"
             ]
           },
-          "vocabHints": ["as old as cinema itself", "the soul of the medium", "decide a film's fate at the box office", "computer-generated imagery", "visual spectacle", "age with astonishing speed", "word of mouth", "the storyteller's work"]
+          "vocabHints": [
+            "as old as cinema itself",
+            "the soul of the medium",
+            "decide a film's fate at the box office",
+            "computer-generated imagery",
+            "visual spectacle",
+            "age with astonishing speed",
+            "word of mouth",
+            "the storyteller's work"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你的英国笔友 Emma 来信请你推荐一部值得反复观看的经典电影。请你写一封回信推荐《阿甘正传》（Forrest Gump），内容包括：1. 影片的主要内容；2. 你推荐的理由；3. 期待她的观后感。注意：词数100左右。",
           "reference": "Dear Emma,\n\nI'd love to recommend Forrest Gump, a classic that I have watched at least three times.\n\nThe film tells the story of Forrest, an ordinary man from Alabama. Despite an IQ of 75, he lives a truly amazing life — he sees, and sometimes influences, some of the major events of the United States in the second half of the 20th century.\n\nWhy do I recommend it? Because it is anything but a simple comedy. Behind the laughter, the film asks a serious question: what makes a life worth living? Forrest's answer — honesty, love and simply running on — has encouraged me whenever I meet difficulties.\n\nDo watch it, and I can't wait to hear your thoughts!\n\nYours,\nLi Hua",
-          "vocabHints": ["a classic", "despite an IQ of 75", "live a truly amazing life", "sees, and sometimes influences", "major events", "anything but", "worth living", "can't wait to"]
+          "vocabHints": [
+            "a classic",
+            "despite an IQ of 75",
+            "live a truly amazing life",
+            "sees, and sometimes influences",
+            "major events",
+            "anything but",
+            "worth living",
+            "can't wait to"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思 TR 要求立场可辩护且贯穿(本文'伙伴论'需两段让步支撑);高考只需理由充分、感染力强。"
             ]
           },
-          "vocabHints": ["owe the audience", "the whole of the contract", "simple escape", "empty the seats", "reach emotions before arguments", "well-drawn character", "a false dichotomy", "smuggle lessons inside delight"]
+          "vocabHints": [
+            "owe the audience",
+            "the whole of the contract",
+            "simple escape",
+            "empty the seats",
+            "reach emotions before arguments",
+            "well-drawn character",
+            "a false dichotomy",
+            "smuggle lessons inside delight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "我最难忘的一部电影",
+      "titleEn": "A Film I'll Never Forget",
+      "desc": "本单元主题延伸：一部好电影是 the product of a huge amount of hard work——从 sound effects 到 visual special effects，也可能只用一个眼神就让你 find yourself in tears。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报征集 \"A Film I'll Never Forget\" 主题稿件。请你写一篇短文，介绍一部让你难忘的电影，内容包括：1. 影片简介；2. 令你难忘的原因。注意：词数100左右。",
+          "reference": "Among all the films I have watched, one has stayed with me for years.\n\nAt first I only admired its craft — the stunning visual special effects, the powerful sound effects, not to mention the acting. Every scene was clearly the product of a huge amount of hard work behind the scenes. But what truly moved me was its story: an ordinary character who kept hope alive through the hardest of times.\n\nNear the ending, I found myself in tears, though I could not fully explain why. A great film does not just entertain us; it quietly holds up a mirror to our own lives. That is why, long after the screen goes dark, I still remember it.",
+          "vocabHints": [
+            "stayed with me for years",
+            "admired its craft",
+            "visual special effects",
+            "sound effects",
+            "not to mention",
+            "the product of a huge amount of hard work",
+            "behind the scenes",
+            "found myself in tears"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that films and television programmes have a harmful influence on the behaviour of young people, while others disagree. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Screens now occupy much of young people's time, and their effect on behaviour is fiercely debated. Some blame films and television for encouraging violence and shallow values; others insist that these media inform and inspire. In my view the influence depends far more on what is watched, and on the guidance around it, than on the medium itself.\n\nThe critics raise genuine concerns. Young minds are impressionable, and a constant diet of violence, glamorised crime or unrealistic lifestyles can normalise aggression and breed dissatisfaction with ordinary life. Advertising woven into entertainment fuels materialism, while endless passive viewing displaces study, sport and face-to-face conversation. Where children watch unsupervised for hours, these effects are hard to deny.\n\nYet the same media can educate powerfully. Documentaries open windows onto history, science and distant cultures; well-made dramas develop empathy by letting viewers inhabit lives unlike their own; and stories of courage and kindness offer role models as readily as darker content offers bad ones. A film that moves a teenager to tears may teach compassion no lecture could. The screen, in short, is a mirror and a tool, not an independent force.\n\nThe decisive factors are therefore selection and context. Sensible limits on screen time, age-appropriate content and parents who discuss what is watched turn a potential hazard into a rich resource.\n\nIn conclusion, films and television are neither villains nor saviours in themselves. Their impact on the young is shaped by the choices adults help them make, and with thoughtful guidance the benefits comfortably outweigh the risks.",
+          "wordCount": 254,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均具体(有害方:暴力常态化/物质主义/挤占面对面交流;有益方:纪录片/共情培养/榜样)，立场'取决于看什么与引导'贯穿，结论落到选择与陪伴。",
+              "Coherence & Cohesion(连贯衔接):The critics / Yet / therefore / In conclusion 推进顺畅;'a mirror and a tool, not an independent force'的定性句承上启下;首尾'depends on what is watched'呼应。",
+              "Lexical Resource(词汇资源):impressionable / glamorised crime / woven into entertainment / inhabit lives unlike their own / neither villains nor saviours 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):Where条件从句、let viewers inhabit使役、as readily as比较、with复合结构收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写难忘电影征文(简介+原因);雅思写媒体影响双边议论文。",
+              "论据来源:高考短文织入本单元'visual special effects / behind the scenes / find oneself in tears'词块;雅思用媒介素养的普适论据(纪录片、榜样效应)。",
+              "语域:征文有个人情感(I found myself in tears);雅思客观分析，定性句承载立场。",
+              "评分维度:高考重共鸣+要点;雅思discuss题看能否指出'媒介中立、关键在选择'——本文'mirror and tool'是思辨核心。"
+            ]
+          },
+          "vocabHints": [
+            "impressionable",
+            "normalise aggression",
+            "glamorised crime",
+            "woven into entertainment",
+            "inhabit lives unlike their own",
+            "a mirror and a tool",
+            "age-appropriate content",
+            "neither villains nor saviours"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报“光影天地”栏目征集影评。请你以 \"A Film That Moved Me\" 为题写一篇短评，向同学们介绍一部打动你的电影，内容包括：1. 影片基本信息；2. 影片的一个亮点（如表演、拍摄手法等）；3. 推荐语。注意：词数100左右。",
           "reference": "A Film That Moved Me\n\nThe King's Speech, a historical film about King George VI, is the film that has moved me most this year.\n\nThe story sounds simple: a king who stammers must deliver a wartime speech to his nation. Yet the film looks like anything but a typical historical drama. The director skilfully creates uncertainty and tension with narrow indoor sets and dark lighting, so that we almost breathe together with the nervous king. When he finally finishes the speech, I found myself in tears.\n\nIt is a story about fear, friendship and courage — about a man who defeats not his enemy but himself. All in all, I highly recommend this film.",
-          "vocabHints": ["a historical film", "deliver a speech", "skilfully creates uncertainty and tension", "narrow indoor sets and dark lighting", "find oneself in tears", "defeat oneself", "all in all", "highly recommend"]
+          "vocabHints": [
+            "a historical film",
+            "deliver a speech",
+            "skilfully creates uncertainty and tension",
+            "narrow indoor sets and dark lighting",
+            "find oneself in tears",
+            "defeat oneself",
+            "all in all",
+            "highly recommend"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思看双方公允+立场贯穿;高考影评看信息完整与语言亮点(如课文的 skilfully creates uncertainty and tension 化用)。"
             ]
           },
-          "vocabHints": ["stay loyal to", "reach for subtitles", "the comfort of recognition", "jokes land without explanation", "strike a viewer with precision", "inhabit another country's life", "refresh the eye", "keep both the mirror and the window open"]
+          "vocabHints": [
+            "stay loyal to",
+            "reach for subtitles",
+            "the comfort of recognition",
+            "jokes land without explanation",
+            "strike a viewer with precision",
+            "inhabit another country's life",
+            "refresh the eye",
+            "keep both the mirror and the window open"
+          ]
         }
       ]
     }

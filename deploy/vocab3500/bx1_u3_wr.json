@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报“心灵信箱”栏目收到一封求助信：一位同学因好友临时爽约看电影、事后还发现对方隐瞒实情而深感受伤，不知是否该继续这段八年的友谊。请你以栏目主持人身份写一封回信，内容包括：1. 表示理解；2. 分析是否值得挽回；3. 给出具体做法。注意：词数100左右。",
           "reference": "Dear friend,\n\nI understand how hurt you feel — being let down by a close friend is never easy, and it is natural that you don't feel like responding to her messages right now.\n\nStill, don't be so quick to judge your friend. Eight years is a long time, and a friendship like this is worth saving. Perhaps she knows she is in the wrong and wants to apologize, but simply doesn't know how to start.\n\nIn any case, find an opportunity to have a full and frank talk with her. Ask calmly what really happened that day, and tell her honestly how you felt. If she values the friendship as much as you do, this storm will pass — and your bond may grow even stronger.\n\nYours,\nThe Editor",
-          "vocabHints": ["feel like doing", "be quick to judge", "worth saving", "in the wrong", "apologize to sb for sth", "in any case", "a full and frank talk", "value the friendship"]
+          "vocabHints": [
+            "feel like doing",
+            "be quick to judge",
+            "worth saving",
+            "in the wrong",
+            "apologize to sb for sth",
+            "in any case",
+            "a full and frank talk",
+            "value the friendship"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思看立场一致与论证纵深(本文'第三条道路'立场需全篇维护);高考看要点覆盖——'理解/分析/建议'三点齐即可,不要求思辨深度。"
             ]
           },
-          "vocabHints": ["outlive conflict", "a betrayal of trust", "erase the memory", "survive in name but not in warmth", "weather a storm", "admit one's share of the fault", "without keeping score", "worth saving"]
+          "vocabHints": [
+            "outlive conflict",
+            "a betrayal of trust",
+            "erase the memory",
+            "survive in name but not in warmth",
+            "weather a storm",
+            "admit one's share of the fault",
+            "without keeping score",
+            "worth saving"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报正举办以 \"Time Alone, Time Together\" 为主题的征文活动。请你写一篇短文谈谈你对独处与相处的看法，内容包括：1. 独处的价值；2. 友谊的价值；3. 你如何平衡两者。注意：词数100左右。",
           "reference": "Some of my classmates fear being alone, but I treasure my quiet periods of reflection. When I seek to be alone, I can escape into my own world, sort out my thoughts and work on personal improvement.\n\nYet no one can live on solitude alone. Close friendships comfort the heart, advise the head and help us achieve the goals we set for ourselves. When I share good news with my friends, happiness takes on a greater meaning; when I share a worry, a trouble shared becomes a trouble halved.\n\nMy balance is simple: I keep my mornings for myself and my weekends for my friends. Alone, I recharge; together, we grow — and I would not give up either.",
-          "vocabHints": ["quiet periods of reflection", "seek to be alone", "escape into one's own world", "personal improvement", "comfort the heart, advise the head", "a trouble shared becomes a trouble halved", "take on a greater meaning", "treasure these moments"]
+          "vocabHints": [
+            "quiet periods of reflection",
+            "seek to be alone",
+            "escape into one's own world",
+            "personal improvement",
+            "comfort the heart, advise the head",
+            "a trouble shared becomes a trouble halved",
+            "take on a greater meaning",
+            "treasure these moments"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,16 @@
               "评分维度:本文'比喻服务论证'是 LR/CC 策略;高考中同样的比喻更多作为文采加分,不承担结构功能。"
             ]
           },
-          "vocabHints": ["in one's own company", "unhurried reflection", "let genuine interests surface", "guard one's solitary hours", "multiply joy and divide sorrow", "supply perspective", "blind spots", "the art lies in the alternation"]
+          "vocabHints": [
+            "in one's own company",
+            "unhurried reflection",
+            "let genuine interests surface",
+            "guard one's solitary hours",
+            "multiply joy and divide sorrow",
+            "supply perspective",
+            "blind spots",
+            "the art lies in the alternation"
+          ]
         }
       ]
     },
@@ -98,7 +134,16 @@
           "typeLabel": "高考模拟",
           "task": "你班将举办以 \"Real Friends in a Digital Age\" 为主题的英语班会。请你准备一篇发言稿，谈谈如何在网络时代维护真实的友谊，内容包括：1. 线上社交的问题；2. 你的两条建议；3. 呼吁。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nWe chat online every day, yet many of us feel lonelier than ever. The modern tools that keep us connected are quietly eating away at the meaning of friendship: a \"like\" takes one second, but it warms nobody's heart.\n\nSo how can we keep our friendships real? First, put the phone away when your friend is in front of you — eye contact says more than any emoji. Second, count on deeds, not screens: walk together, study together, and be there when your friend needs help.\n\nTools should serve friendship, not replace it. Let's log off a little more, and live our friendships face to face. Thank you!",
-          "vocabHints": ["keep us connected", "eat away at", "the meaning of friendship", "count on", "shallow", "face to face", "be there for sb", "log off"]
+          "vocabHints": [
+            "keep us connected",
+            "eat away at",
+            "the meaning of friendship",
+            "count on",
+            "shallow",
+            "face to face",
+            "be there for sb",
+            "log off"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +167,75 @@
               "评分维度:雅思 TR 要求立场覆盖'程度',本文 largely agree + reservation 正是为此设计;高考不考程度表态,气势完整即可。"
             ]
           },
-          "vocabHints": ["for all its promise", "reward breadth over depth", "measure affection in taps", "outsourced", "perform rather than confide", "not the tool but the use", "tilt towards the superficial", "the depth has to be chosen"]
+          "vocabHints": [
+            "for all its promise",
+            "reward breadth over depth",
+            "measure affection in taps",
+            "outsourced",
+            "perform rather than confide",
+            "not the tool but the use",
+            "tilt towards the superficial",
+            "the depth has to be chosen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "好朋友的品质",
+      "titleEn": "What Makes a Good Friend",
+      "desc": "综合技能板块核心：it left me thinking about what it really means to be a 'good friend'——the basis of friendship is mutual trust，真正的友谊需要 quality time 与欣赏彼此的 personal qualities。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班英语角本周话题为 \"What Makes a Good Friend\"。请你准备一篇发言稿，谈谈你心目中好朋友的品质，内容包括：1. 引出话题；2. 两三种品质及理由；3. 简短总结。注意：词数100左右。",
+          "reference": "Hello, everyone. A film I watched last week left me thinking about what it really means to be a good friend, so today I'd like to share my thoughts.\n\nIn my opinion, the basis of friendship is mutual trust. A good friend keeps your secrets and stands by you when things go wrong. Besides trust, I value honesty: a real friend tells you the truth kindly, even when it is hard to hear. Finally, good friends spend quality time together — not just chatting online, but truly listening.\n\nWe often admire people for their talents, but it is these quiet personal qualities that make a friendship last. Choose such friends, and try to be one. Thank you!",
+          "vocabHints": [
+            "left me thinking about what it really means",
+            "in my opinion",
+            "the basis of friendship is mutual trust",
+            "stand by you",
+            "tell you the truth kindly",
+            "spend quality time together",
+            "personal qualities",
+            "make a friendship last"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that having a small number of close friends is better than having a large number of friends. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In an age of online networks where 'friends' are counted in hundreds, many question whether such abundance means anything. I strongly agree that a few close friendships are worth more than a wide circle of acquaintances, though the two need not exclude each other.\n\nThe central argument concerns depth. Real friendship is built on mutual trust, shared history and the willingness to help at personal cost, and these can only be developed by investing considerable time in a small number of people. A friend who has known you for years understands your moods, forgives your faults and can be relied on in a crisis; a hundred casual contacts cannot. When trouble comes, it is the two or three who appear, not the online crowd who merely click a button.\n\nLarge networks do bring certain benefits. A wide range of contacts exposes us to different ideas, opens professional doors and makes daily life more varied and sociable. Yet these relationships, valuable as they are, remain shallow by nature; treating them as substitutes for genuine friendship leaves people surrounded by others yet privately lonely — a paradox increasingly visible among heavy social-media users.\n\nThe sensible attitude, therefore, is not to reject acquaintances but to rank them correctly. We should enjoy a broad circle for what it offers while pouring our real energy into the handful of bonds that sustain us.\n\nIn conclusion, I firmly believe that quality matters far more than quantity in friendship. A few people who truly know us are worth more than any number of names on a screen.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'少而深优于多而广'的强判断给出'强烈同意+两者不必互斥'的限定;深度论证(信任/共同历史/危机时刻)与广度让步(视野/人脉/社交)均充分，落到'正确排序'的操作结论。",
+              "Coherence & Cohesion(连贯衔接):depth / Large networks do / therefore / In conclusion 推进清晰;'click a button'与'appear in a crisis'的对比意象点睛;'surrounded yet lonely'的悖论收束让步段。",
+              "Lexical Resource(词汇资源):a wide circle of acquaintances / help at personal cost / shallow by nature / pouring our real energy / the bonds that sustain us 表达精准分层。",
+              "Grammatical Range & Accuracy(语法多样性):only be developed by被动强调、valuable as they are倒装让步、not A but B、while对比，句式成熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写英语角发言稿(品质+理由);雅思论证'友谊数量与质量'命题。",
+              "论据来源:高考发言织入课件'basis of friendship is mutual trust / quality time / personal qualities'词块;雅思用社交关系的普适分析(社媒人脉、危机检验)。",
+              "语域:发言稿亲切互动(Choose such friends, and try to be one);雅思学术论证，悖论承载态度。",
+              "评分维度:高考重要点+感染力;雅思TR对agree题要求明确程度——'强烈同意+不互斥'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "a wide circle of acquaintances",
+            "mutual trust and shared history",
+            "help at personal cost",
+            "relied on in a crisis",
+            "shallow by nature",
+            "surrounded yet privately lonely",
+            "rank them correctly",
+            "the bonds that sustain us"
+          ]
         }
       ]
     }

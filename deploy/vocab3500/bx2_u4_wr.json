@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你班将举办以 \"Why We Read Literature\" 为主题的读书分享会。请你准备一篇发言稿，谈谈文学阅读的价值，内容包括：1. 你对文学价值的理解；2. 结合一次自己的阅读体验；3. 向同学发出阅读倡议。注意：词数100左右。",
           "reference": "Good afternoon, everyone!\n\nWhy do we read literature when exams never test novels? My answer: because literature is the expression of life in forms of truth and beauty, and its attraction lies more in what it awakens in us than what it says.\n\nLet me share one experience. Last term I read a short story about an old fisherman. It said little, yet it awakened much: after closing the book, I found myself braver before my own \"big fish\" — the coming exams.\n\nLet a little poem appeal to the ear, or a great book to the heart, and we discover a new world. So, classmates, take up a piece of literature this month — it truly deserves to be read!\n\nThank you!",
-          "vocabHints": ["the expression of life in forms of truth and beauty", "lies more in what it awakens", "imply a deeper meaning", "appeal to the ear / to the heart", "discover a new world", "deserve to be read", "a piece of literature", "awaken"]
+          "vocabHints": [
+            "the expression of life in forms of truth and beauty",
+            "lies more in what it awakens",
+            "imply a deeper meaning",
+            "appeal to the ear / to the heart",
+            "discover a new world",
+            "deserve to be read",
+            "a piece of literature",
+            "awaken"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思须处理让步(应试化阅读确实浪费)并划清界限;高考看体验真挚与倡议有力。"
             ]
           },
-          "vocabHints": ["measure education by employability", "operate on the operator", "emotional rehearsal", "unlimited retries", "underwrite", "tolerance for ambiguity", "the transaction removes the encounter", "the quiet workshop"]
+          "vocabHints": [
+            "measure education by employability",
+            "operate on the operator",
+            "emotional rehearsal",
+            "unlimited retries",
+            "underwrite",
+            "tolerance for ambiguity",
+            "the transaction removes the encounter",
+            "the quiet workshop"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校英文报开展 \"A Book That Changed Me\" 征文活动。请你写一篇短文，推荐《老人与海》（The Old Man and the Sea），内容包括：1. 书的主要内容；2. 最打动你的一点；3. 它带给你的改变。注意：词数100左右。",
           "reference": "A Book That Changed Me\n\nThe book I want to share is The Old Man and the Sea by Ernest Hemingway.\n\nThe story is simple: after coming in empty-handed for eighty-four days, the old fisherman Santiago sails far out and battles a huge fish, only to bring back its bones. Yet what shook me was one line — \"A man can be destroyed but not defeated.\"\n\nBefore reading it, I used to give up whenever my efforts seemed to pay off nothing. Santiago taught me that the result may be taken away, but the fight is mine to keep. Last month, though I failed the speech contest again, I signed up for the next one that very evening.\n\nSome books entertain us; this one builds us.",
-          "vocabHints": ["come in empty-handed", "battle a huge fish", "can be destroyed but not defeated", "pay off", "the fight is mine to keep", "sign up for", "shake / shook me", "build us"]
+          "vocabHints": [
+            "come in empty-handed",
+            "battle a huge fish",
+            "can be destroyed but not defeated",
+            "pay off",
+            "the fight is mine to keep",
+            "sign up for",
+            "shake / shook me",
+            "build us"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,16 @@
               "评分维度:雅思看双方公允与立场落地;高考征文看真实感与金句运用(destroyed but not defeated 直接引用是亮点)。"
             ]
           },
-          "vocabHints": ["a quiet battleground", "different nutrients", "translation costs", "recruit readers / retain readers", "isolate something permanent", "a longer measure", "open the door / furnish the house", "forever current and forever shallow"]
+          "vocabHints": [
+            "a quiet battleground",
+            "different nutrients",
+            "translation costs",
+            "recruit readers / retain readers",
+            "isolate something permanent",
+            "a longer measure",
+            "open the door / furnish the house",
+            "forever current and forever shallow"
+          ]
         }
       ]
     },
@@ -98,7 +134,16 @@
           "typeLabel": "高考模拟",
           "task": "你的笔友 David 来信说他想培养阅读习惯，但总是买了书读不完，问你有什么建议。请你写一封回信，内容包括：1. 分析他读不完书的可能原因；2. 两条具体建议；3. 鼓励。注意：词数100左右。",
           "reference": "Dear David,\n\nDon't feel bad — unfinished books usually mean wrong books, not weak willpower. Perhaps you picked what you \"should\" read instead of what you love to read.\n\nHere are my suggestions. First, take time to look through the collections in different sections of your local library before buying anything; you are likely to come across books that truly interest you, and interest finishes books better than discipline does. Second, start small: ten pages a night is enough. In particular, keep the book on your pillow, not on your shelf.\n\nReading is like making a friend — the right one makes everything easy. I'm sure you will soon find yours!\n\nYours,\nLi Hua",
-          "vocabHints": ["take time to look through", "collections in different sections", "come across books you love to read", "in particular", "start small", "willpower", "interest finishes books", "make a friend"]
+          "vocabHints": [
+            "take time to look through",
+            "collections in different sections",
+            "come across books you love to read",
+            "in particular",
+            "start small",
+            "willpower",
+            "interest finishes books",
+            "make a friend"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +167,75 @@
               "评分维度:雅思要求原因-对策一一对应且论证成链;高考看建议具体可行、语气真诚。"
             ]
           },
-          "vocabHints": ["confirmed by library records", "competition measured in seconds", "the faster interest rate", "lose its monopoly", "dissected for marks", "protected reading time", "copy what parents do", "bridges rather than enemies"]
+          "vocabHints": [
+            "confirmed by library records",
+            "competition measured in seconds",
+            "the faster interest rate",
+            "lose its monopoly",
+            "dissected for marks",
+            "protected reading time",
+            "copy what parents do",
+            "bridges rather than enemies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "线上读书会",
+      "titleEn": "An Online Reading Club",
+      "desc": "本单元主题延伸：好的阅读始于 take time to look through the collections——从 start small 到 come across books you love，每一本都可能让你 discover a new world。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语社团新建了一个线上读书会。请你用英文写一则招募启事，内容包括：1. 读书会的活动方式；2. 加入的好处；3. 报名方式。注意：词数100左右。",
+          "reference": "Join Our Online Reading Club!\n\nDo you love stories but never seem to find the time? Our new online reading club may be just what you need.\n\nEach week we choose one short English book, take time to look through it together, and share our favourite lines in the group chat. You don't have to be an expert — just start small, and you will soon come across books you love to read. Reading with others, in particular, keeps you motivated when reading alone feels hard.\n\nEvery good book lets us discover a new world without leaving our desks. If you'd like to join, scan the QR code below or sign up with your English teacher before Friday. We can't wait to read with you!",
+          "vocabHints": [
+            "never seem to find the time",
+            "take time to look through",
+            "share our favourite lines",
+            "start small",
+            "come across books you love to read",
+            "in particular",
+            "keeps you motivated",
+            "discover a new world"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that reading for pleasure develops the imagination and language skills more than watching television does. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In a world of streaming and short videos, some worry that reading for pleasure is being lost, and argue that books nurture the mind more richly than screens ever can. I largely agree that reading develops imagination and language more powerfully than television, while acknowledging that the best television is far from worthless.\n\nReading's central advantage is that it demands active participation. A novel supplies only words; the reader must build the faces, landscapes and voices, exercising imagination on every page. Television, by contrast, delivers finished images that ask little of the mind, however dazzling they may be. Language benefits similarly: print exposes readers to richer vocabulary and more complex sentences than everyday speech or dialogue-driven shows, and this exposure, repeated over years, quietly shapes how well a person writes and thinks.\n\nIt would be unfair, however, to dismiss television entirely. Documentaries convey information that words alone struggle to capture, and skilfully written drama can model sophisticated language and deepen empathy. The real difference lies less in the medium than in the effort it invites: passive watching teaches little, whereas thoughtful viewing can genuinely enrich.\n\nStill, the balance clearly favours books. The mental habits that reading builds — patience, concentration and the capacity to imagine another's world — are precisely those that constant screen-watching tends to erode.\n\nIn conclusion, while good television has real value, reading for pleasure cultivates imagination and language to a degree that most viewing cannot match. A society that wants thoughtful, articulate citizens would do well to keep turning the pages.",
+          "wordCount": 255,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'基本同意+承认优质电视有价值'的量化立场;主论(主动参与/词汇复杂度)充分，让步(纪录片/优秀剧集)真实后用'effort it invites'再收，立场稳定。",
+              "Coherence & Cohesion(连贯衔接):central advantage / however / Still / In conclusion 推进清晰;'supplies only words vs delivers finished images'对比贯穿;结尾'keep turning the pages'呼应主题。",
+              "Lexical Resource(词汇资源):demands active participation / dialogue-driven shows / model sophisticated language / the capacity to imagine another's world 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):however they may be让步倒装、whereas对比、the effort it invites后置定语、while让步开启结论，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写读书会招募启事(方式+好处+报名);雅思写阅读与电视比较议论文。",
+              "论据来源:高考启事织入本单元'take time to look through / start small / come across books you love / discover a new world'词块;雅思用阅读认知的普适论据。",
+              "语域:启事亲切设问(Do you love stories...?);雅思学术权衡，对比句承载立场。",
+              "评分维度:高考重号召+可行;雅思TR对agree题看程度限定——'基本同意+承认优质电视'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "reading for pleasure",
+            "demands active participation",
+            "supplies only words",
+            "delivers finished images",
+            "dialogue-driven shows",
+            "model sophisticated language",
+            "the capacity to imagine another's world",
+            "keep turning the pages"
+          ]
         }
       ]
     }

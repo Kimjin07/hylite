@@ -179,6 +179,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "做一个得体的旅行者",
+      "titleEn": "Being a Considerate Traveller",
+      "desc": "综合技能板块核心词块：good manners、find accommodation、in harmony with——旅行不只是看风景，更要以得体的举止，与当地和自然和谐相处。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校将组织赴少数民族地区的研学旅行。请你用英文写一份文明旅行提示，内容包括：1. 住宿与礼仪注意事项；2. 尊重当地文化；3. 简短号召。注意：词数100左右。",
+          "reference": "Dear schoolmates,\n\nNext week we will travel to an ethnic minority region for our study trip. To make the journey pleasant for everyone, please keep the following in mind.\n\nFirst, mind your manners as a guest. We will find accommodation in local family homes, so greet your hosts politely, keep your room tidy, and never waste food. Second, respect the local culture: ask before taking photos, dress appropriately at temples, and try to learn a few words of the local language. Above all, travel in harmony with nature — take only photos, and leave only footprints.\n\nA considerate traveller is the best kind of guest. Let's show, through our behaviour, the good name of our school. Have a wonderful trip!\n\nThe Student Union",
+          "vocabHints": [
+            "for our study trip",
+            "mind your manners",
+            "find accommodation in local family homes",
+            "greet your hosts politely",
+            "respect the local culture",
+            "in harmony with nature",
+            "take only photos, and leave only footprints",
+            "a considerate traveller"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "When people travel to other countries, some think they should adapt to local customs and behaviour, while others believe local people should welcome and accommodate visitors. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "When cultures meet through tourism, a question of manners arises: should visitors adjust to local customs, or should hosts adapt to their guests? Some place the duty on travellers, others on the communities they visit. In my view the greater responsibility rests with the visitor, though hospitality should meet good behaviour halfway.\n\nThe argument for expecting travellers to adapt is strong. They are the newcomers, and it is the host community's home; respecting local dress, etiquette and traditions is simple courtesy. Visitors who learn a few polite phrases, follow local rules and avoid giving offence are rewarded with warmer, richer experiences, while those who demand that everything match their own habits appear arrogant and breed resentment. Since the traveller chose to come, the traveller should make the effort to fit in.\n\nThere is, however, a reasonable case for hosts adapting too. Communities that depend on tourism benefit from being welcoming — offering information in foreign languages, showing patience with honest mistakes and accommodating visitors' basic needs. A little flexibility on both sides turns a nervous encounter into a genuine exchange, and no guest should be humiliated simply for being unfamiliar with local ways.\n\nThe sensible balance, then, tilts toward the visitor but is not one-sided. Travellers should arrive informed and respectful, while hosts extend the ordinary warmth due to any guest.\n\nIn conclusion, although a well-run tourist destination will naturally accommodate its visitors, the primary duty to adapt lies with those who travel. Respect shown by the guest, met by kindness from the host, is what allows two cultures to meet without friction.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(游客适应:客随主便/礼貌回报;主人适应:旅游依赖/包容善意)，立场'主要在游客+但主人应中途相迎'权重清晰，结论收束。",
+              "Coherence & Cohesion(连贯衔接):The argument for / There is, however / The sensible balance / In conclusion 推进工整;'meet halfway'与'without friction'首尾呼应。",
+              "Lexical Resource(词汇资源):simple courtesy / breed resentment / a genuine exchange / met by kindness from the host 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):Since原因从句、while对比、no guest should被动、met by分词收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写文明旅行提示(住宿礼仪+尊重文化+号召);雅思写跨文化适应双边议论文。",
+              "论据来源:高考提示织入课件'good manners / find accommodation / in harmony with'词块;雅思用旅游伦理的普适论据。",
+              "语域:提示条理祈使句;雅思客观权衡，'meet halfway'显分寸。",
+              "评分维度:高考重要点齐全+得体;雅思discuss题奖励带权重的立场——'主要在游客+双向'高于二选一。"
+            ]
+          },
+          "vocabHints": [
+            "adjust to local customs",
+            "simple courtesy",
+            "avoid giving offence",
+            "breed resentment",
+            "depend on tourism",
+            "a genuine exchange",
+            "meet halfway",
+            "without friction"
+          ]
+        }
+      ]
     }
   ]
 }

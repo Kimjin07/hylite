@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "你校下周将举行地震疏散演练（earthquake evacuation drill）。请你以学生会名义写一篇广播稿，内容包括：1. 演练的意义；2. 疏散中的注意事项；3. 呼吁认真对待。注意：词数100左右。",
           "reference": "Dear schoolmates,\n\nNext Wednesday morning, our school will hold an earthquake evacuation drill. Please take it seriously — in a real disaster, practised procedures save lives.\n\nDuring the drill, remember three things. First, the moment the alarm sounds, move under your desks and hold on to the desk legs. Second, when the shaking \"stops\", exit the classroom in an orderly line, covering your heads with your hands — no pushing, no talking. Third, after the roll call confirms that all are safe and sound, wait quietly for further instructions.\n\nAs one teacher who survived a real earthquake put it, \"We practised safety procedures twice a year, so the kids knew exactly what to do.\" Let's practise today to protect tomorrow!\n\nThe Students' Union",
-          "vocabHints": ["evacuation drill", "safety procedures", "hold on to", "exit in an orderly line", "covering their heads with their hands", "roll call", "safe and sound", "know exactly what to do"]
+          "vocabHints": [
+            "evacuation drill",
+            "safety procedures",
+            "hold on to",
+            "exit in an orderly line",
+            "covering their heads with their hands",
+            "roll call",
+            "safe and sound",
+            "know exactly what to do"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思须给出主次分明的立场(senior partner);高考看步骤清楚、鼓动有力。"
             ]
           },
-          "vocabHints": ["grow sharper", "reason from intimacy", "rehearse quietly and repeatedly", "coverage", "a group skill", "trace back to drills", "a clear senior partner", "tell the same story"]
+          "vocabHints": [
+            "grow sharper",
+            "reason from intimacy",
+            "rehearse quietly and repeatedly",
+            "coverage",
+            "a group skill",
+            "trace back to drills",
+            "a clear senior partner",
+            "tell the same story"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你随家人参观了一座地震遗址纪念馆。你校英文报“行走的课堂”栏目正在征稿，请你写一篇参观感想，内容包括：1. 你所见的场景；2. 最触动你的细节；3. 你的思考。注意：词数100左右。",
           "reference": "Last weekend, I visited the earthquake memorial hall in our province.\n\nBehind the glass, time seemed frozen: a stopped clock, a school bell rescued from the ruins, and photos of streets that the disaster left in pieces. What touched me most was a small blackboard, on which the day's homework was still half-written — the moment the shaking began, frozen forever, just as the ash of Vesuvius kept Pompeii as it was for future ages.\n\nWalking out into the sunshine, I understood why we keep such painful places. Disasters bury cities, but memory rebuilds them — and reminds the living to build stronger, drill harder and treasure every ordinary day.",
-          "vocabHints": ["time seemed frozen", "rescued from the ruins", "leave in pieces", "keep the city as it was", "for future ages", "bury", "the living", "treasure every ordinary day"]
+          "vocabHints": [
+            "time seemed frozen",
+            "rescued from the ruins",
+            "leave in pieces",
+            "keep the city as it was",
+            "for future ages",
+            "bury",
+            "the living",
+            "treasure every ordinary day"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思须精确回应'技术是否使历史失效';高考看细节动人与感悟自然。"
             ]
           },
-          "vocabHints": ["the argument from obsolescence", "surface plausibility", "full-scale experiments", "the fatal interval", "death tolls rise or fall", "calibrate expectations", "organised remembering", "half a defence"]
+          "vocabHints": [
+            "the argument from obsolescence",
+            "surface plausibility",
+            "full-scale experiments",
+            "the fatal interval",
+            "death tolls rise or fall",
+            "calibrate expectations",
+            "organised remembering",
+            "half a defence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "防灾，别让警惕松懈",
+      "titleEn": "Never Let Safety Slide",
+      "desc": "语法板块核心词块：slide into bad habits、let things slide、slide into decline——防灾最大的敌人不是灾害本身，而是平日里悄悄松懈的警惕。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "为提高同学们的防灾意识，请你以学生会名义用英文写一份倡议书，内容包括：1. 说明平时松懈的危险；2. 提出两三条防灾建议；3. 发出号召。注意：词数100左右。",
+          "reference": "Dear fellow students,\n\nWhen no disaster has happened for a long time, it is easy to let our guard slide. But it is exactly this quiet carelessness that turns a small emergency into a real tragedy.\n\nThe Student Union calls on everyone to take safety seriously, every day. First, learn the escape routes of our building and never block them with bags or bikes. Second, take our fire and earthquake drills seriously instead of treating them as a joke. Third, keep a small emergency kit — a torch, some water and a whistle — in your dorm.\n\nPreparation is never wasted. Let's not slide into bad habits during the calm, so that we can stay calm when it truly matters. Take action today!\n\nThe Student Union",
+          "vocabHints": [
+            "let our guard slide",
+            "quiet carelessness",
+            "turn a small emergency into a tragedy",
+            "take safety seriously",
+            "escape routes",
+            "take the drills seriously",
+            "an emergency kit",
+            "slide into bad habits"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that preparing for natural disasters is mainly the responsibility of individuals, while others believe it should be handled entirely by the government. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "When earthquakes, floods or storms strike, the damage often depends on how well people prepared beforehand. Views differ over who should do that preparing: individuals themselves or the government. In my opinion the duty is shared, with governments building the defences that only the state can provide while individuals take responsibility for their own immediate safety.\n\nThose who stress personal responsibility make a practical point. In the first chaotic minutes of a disaster, no official is at your side; survival often depends on whether a family knows the escape routes, keeps an emergency kit and has rehearsed what to do. People who expect the state to save them may freeze when they most need to act, and simple household preparation costs little yet saves lives.\n\nHowever, individuals cannot manage the larger dangers alone. Only governments can build flood barriers, enforce earthquake-resistant construction, run early-warning systems and coordinate rescue services across a region. They also reach the poor, the elderly and the disabled, who often lack the means to protect themselves. Leaving such people to fend for themselves would be both unjust and ineffective.\n\nThe two roles are therefore complementary rather than competing. Governments should create safe infrastructure and clear plans, and then educate citizens so that households know how to use them when the moment comes.\n\nIn conclusion, disaster preparation is neither purely private nor purely public. The state must build the defences and issue the warnings, while individuals must learn, prepare and act — and only when both play their part are lives most fully protected.",
+          "wordCount": 257,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双方职责均展开(个人:灾害初分钟的自救/家庭准备;政府:防洪抗震基建/预警/照顾弱势)，立场'共担+政府建防线、个人管即时安全'权重清晰。",
+              "Coherence & Cohesion(连贯衔接):Those who stress / However / therefore / In conclusion 推进工整;'no official is at your side'与'only governments can build'的对照分工;结尾'both play their part'收束。",
+              "Lexical Resource(词汇资源):the first chaotic minutes / rehearsed what to do / early-warning systems / fend for themselves / complementary rather than competing 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):with复合结构分工、who定语从句(弱势群体)、not...nor平行、only when倒装收尾，句式成熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写防灾倡议书(危险+建议+号召);雅思写责任归属双边议论文。",
+              "论据来源:高考倡议织入课件'let things slide / slide into bad habits'词块并结合防灾场景;雅思用应急管理的普适论据。",
+              "语域:倡议书鼓动号召;雅思客观权衡，分工句承载立场。",
+              "评分维度:高考重号召+建议可行;雅思discuss题奖励带权重的立场——'共担但分工'高于笼统'都有责'。"
+            ]
+          },
+          "vocabHints": [
+            "the first chaotic minutes",
+            "at your side",
+            "rehearsed what to do",
+            "early-warning systems",
+            "earthquake-resistant construction",
+            "fend for themselves",
+            "complementary rather than competing",
+            "both play their part"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "气象台发布暴雨红色预警，你校明日停课。请你以学生会名义给全体同学写一份安全提示（英文），内容包括：1. 停课安排；2. 三条居家/出行安全注意事项；3. 提醒关注信息。注意：词数100左右。",
           "reference": "Safety Reminder\n\nDear schoolmates,\n\nDue to the red rainstorm warning, classes will be suspended tomorrow. Please read the following tips carefully.\n\nFirst, stay indoors unless it is absolutely necessary to go out; never try to cross a flooded road, otherwise the moving water could wash you off your feet. Second, keep away from rivers, slopes and any electric wires that may have fallen into water. Third, prepare a torch and keep your phone charged in case of a power cut.\n\nRemember to inform yourselves of what is going on through official channels, and inform your teacher of your safety every evening. Stay safe, and see you when the storm has passed!\n\nThe Students' Union",
-          "vocabHints": ["red rainstorm warning", "be suspended", "cross a flooded road", "otherwise the moving water could...", "keep away from", "in case of a power cut", "inform yourself of what is going on", "official channels"]
+          "vocabHints": [
+            "red rainstorm warning",
+            "be suspended",
+            "cross a flooded road",
+            "otherwise the moving water could...",
+            "keep away from",
+            "in case of a power cut",
+            "inform yourself of what is going on",
+            "official channels"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思须因-策对应且双轨互补;高考看信息完整、条理清楚、提醒到位。"
             ]
           },
-          "vocabHints": ["return within a decade", "heat-trapping gases", "prime both floods and droughts", "amplify nature's blows", "run on two tracks", "address the source rather than the symptoms", "rehearse households", "seamanship for a rougher sea"]
+          "vocabHints": [
+            "return within a decade",
+            "heat-trapping gases",
+            "prime both floods and droughts",
+            "amplify nature's blows",
+            "run on two tracks",
+            "address the source rather than the symptoms",
+            "rehearse households",
+            "seamanship for a rougher sea"
+          ]
         }
       ]
     }

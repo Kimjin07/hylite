@@ -122,6 +122,65 @@
       ]
     },
     {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "广泛阅读的力量",
+      "titleEn": "The Power of Extensive Reading",
+      "desc": "语法板块核心词块：extensive reading、facilitate learning、sort ... into、works of literature——从航海日志到工业史，广泛阅读为理解世界打开一扇又一扇门。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校图书馆将开展'广泛阅读月'活动。请你用英文写一篇短文投稿校刊，向同学们介绍广泛阅读的好处与方法，内容包括：1. 广泛阅读的益处；2. 你的两三条方法建议。注意：词数100左右。",
+          "reference": "This month our library is holding a \"Wide Reading\" campaign, and I'd like to share why it is worth joining.\n\nExtensive reading does more than fill spare time; it quietly facilitates learning across every subject. History, science, travel logs, works of literature — each opens a door to a world we could not otherwise enter, and the more widely we read, the more easily new ideas connect.\n\nHere are a few tips. First, read a little every day rather than a lot once in a while. Second, keep a simple notebook and sort useful words and quotations into topics. Third, don't be afraid to abandon a book you dislike — there are plenty more.\n\nA wide reader is never bored, and never alone. Happy reading!",
+          "vocabHints": [
+            "a Wide Reading campaign",
+            "extensive reading",
+            "facilitates learning across every subject",
+            "works of literature",
+            "opens a door to a world",
+            "read a little every day",
+            "sort useful words and quotations into topics",
+            "abandon a book you dislike"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that reading widely across many subjects gives students the best education, while others think it is better to study a few subjects in depth. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Educators have long disagreed over how knowledge is best acquired: by reading broadly across many fields, or by studying a few subjects deeply. Both approaches have real strengths, and in my opinion the ideal education combines them, with breadth laying the foundation and depth built upon it.\n\nThose who favour breadth argue that wide reading produces flexible, well-rounded minds. Exposure to history, science, literature and art helps students see connections between fields, adapt to a fast-changing world, and discover where their true interests lie. Many great insights, indeed, come from applying an idea in one discipline to a problem in another — a habit only broad learning makes possible. Wide reading also facilitates learning generally, since a rich store of background knowledge makes each new subject easier to grasp.\n\nSupporters of depth reply that real mastery requires focus. Skimming many subjects can leave a student who knows a little about everything and nothing thoroughly, whereas concentrating on a few allows genuine expertise, the kind that advances knowledge and leads to serious careers. Modern professions, from medicine to engineering, demand precisely this depth.\n\nThe two aims, however, are complementary rather than opposed. A broad foundation in the early years helps students choose wisely and think across boundaries, while specialisation later turns that breadth into real competence. An education that offers only one leaves the mind either shallow or narrow.\n\nIn conclusion, while depth produces expertise and breadth produces perspective, the best education needs both. Students should read widely to understand the world, then dig deeply into the fields that will define their working lives.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均充分(广度:灵活视野/跨学科洞见;深度:真正精通/职业需求)，立场'广度打基础、深度筑其上'的结合式主张清晰，结论明确。",
+              "Coherence & Cohesion(连贯衔接):favour breadth / Supporters of depth reply / however complementary / In conclusion 推进工整;'facilitates learning'织入单元词块;结尾'read widely then dig deeply'收束。",
+              "Lexical Resource(词汇资源):well-rounded minds / a rich store of background knowledge / genuine expertise / think across boundaries 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入跨学科例证、whereas对比、rather than opposed、while对比收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写广泛阅读投稿(益处+方法);雅思写广度vs深度学习双边议论文。",
+              "论据来源:高考短文织入课件'extensive reading / facilitate learning / sort...into / works of literature'词块;雅思用教育论的普适论据。",
+              "语域:短文亲切建议(Happy reading!);雅思学术权衡，结合式立场显层次。",
+              "评分维度:高考重方法可行+益处;雅思discuss题高分在于整合而非站队——'广度筑基、深度其上'是思辨核心。"
+            ]
+          },
+          "vocabHints": [
+            "well-rounded minds",
+            "see connections between fields",
+            "facilitates learning generally",
+            "a little about everything and nothing thoroughly",
+            "genuine expertise",
+            "complementary rather than opposed",
+            "think across boundaries",
+            "read widely then dig deeply"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sub-integrated",
       "section": "Integrated skills",
       "title": "工业革命与城市化",

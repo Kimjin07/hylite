@@ -16,7 +16,16 @@
           "typeLabel": "高考模拟",
           "task": "开学之初，你班不少同学以学习紧张为由不参加体育锻炼。作为体育委员，请你写一份倡议书，号召大家科学锻炼，内容包括：1. 锻炼的益处；2. 两条科学锻炼的建议；3. 发出倡议。注意：词数100左右。",
           "reference": "Dear classmates,\n\nMany of us have been skipping exercise for the sake of study. But it has been proven that regular exercise does wonders for the body and mind: active people tend to have better immune systems, and a fresh mind works far more efficiently.\n\nHow should we exercise scientifically? Above all, choose activities you enjoy, because in this way you're more likely to stick with them. Besides, remember to warm up first, drink water throughout exercise to make up for water lost to sweat, and avoid working out right after meals.\n\nStudy will not suffer from exercise — it will benefit from it. Let's step onto the playground and sweat our way to better performance!\n\nThe Sports Committee",
-          "vocabHints": ["do wonders for the body and mind", "immune systems", "stick with", "warm up", "make up for water lost to sweat", "work out", "exercise routine", "sweat one's way to"]
+          "vocabHints": [
+            "do wonders for the body and mind",
+            "immune systems",
+            "stick with",
+            "warm up",
+            "make up for water lost to sweat",
+            "work out",
+            "exercise routine",
+            "sweat one's way to"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -40,7 +49,16 @@
               "评分维度:雅思 TR 要求处理反方并表达可辩护立场('compulsion softened by variety'的精确度);高考看倡议三要素齐全与鼓动力。"
             ]
           },
-          "vocabHints": ["measurably less active", "written into the timetable", "a simple asymmetry", "the playground loses to the desk", "a protected space", "breed resentment", "a range of activities", "compulsion softened by variety"]
+          "vocabHints": [
+            "measurably less active",
+            "written into the timetable",
+            "a simple asymmetry",
+            "the playground loses to the desk",
+            "a protected space",
+            "breed resentment",
+            "a range of activities",
+            "compulsion softened by variety"
+          ]
         }
       ]
     },
@@ -57,7 +75,16 @@
           "typeLabel": "高考模拟",
           "task": "你校国际部的交换生 Jack 对中国传统健身运动很感兴趣。请你写一封邮件向他介绍太极拳（tai chi），并邀请他参加学校太极社，内容包括：1. 太极拳的特点；2. 你练习太极的收获；3. 发出邀请。注意：词数100左右。",
           "reference": "Dear Jack,\n\nGlad to hear you're interested in traditional Chinese exercise! Let me introduce tai chi, my favourite.\n\nUnlike fast, sweaty sports, tai chi looks slow and gentle, yet it is anything but easy. Every move asks for balance between hardness and softness — just as there is no shadow without light, the two must exist together. No wonder some tai chi moves are even named after animals!\n\nSince joining our school's Tai Chi Club, I have found to my satisfaction that my balance and flexibility have slowly improved, and my mind stays calmer before exams.\n\nOur club meets every Friday afternoon. Would you like to join us? I promise you'll fall in love with it.\n\nYours,\nLi Hua",
-          "vocabHints": ["slow and gentle", "balance and flexibility", "to my satisfaction", "no wonder", "be named after animals", "physical balance and mental peace", "no shadow without light", "fall in love with"]
+          "vocabHints": [
+            "slow and gentle",
+            "balance and flexibility",
+            "to my satisfaction",
+            "no wonder",
+            "be named after animals",
+            "physical balance and mental peace",
+            "no shadow without light",
+            "fall in love with"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -81,7 +108,75 @@
               "评分维度:雅思要求偏好讨论覆盖'为什么各有拥趸'的机制层;高考看信息完整与邀请诚意。"
             ]
           },
-          "vocabHints": ["two schools of fitness", "a treaty between body and mind", "moving meditation", "punish no joints", "a lifetime practice", "trackable data", "chase numbers", "correct each other's failings"]
+          "vocabHints": [
+            "two schools of fitness",
+            "a treaty between body and mind",
+            "moving meditation",
+            "punish no joints",
+            "a lifetime practice",
+            "trackable data",
+            "chase numbers",
+            "correct each other's failings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "健身中心焕新公告",
+      "titleEn": "Fitness Centre Update",
+      "desc": "语法板块核心词块：announce、put the finishing touches to、come by and check them out、in response to、replace A with B——一则健身房升级通知里，藏着一整套实用表达。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校健身俱乐部对场地和器材进行了升级。请你以俱乐部名义用英文写一则通知，内容包括：1. 升级的内容；2. 重新开放的时间；3. 欢迎同学们体验。注意：词数100左右。",
+          "reference": "Notice\n\nWe are happy to announce that our school fitness centre has just put the finishing touches to a major upgrade.\n\nIn response to feedback from many students, we have replaced the old and damaged equipment with brand-new machines, added a corner for stretching and yoga, and updated our booking app so that you can reserve a spot in seconds. The centre will reopen this Friday afternoon.\n\nWhether you are a beginner or a fitness fan, come by and check it out. Regular exercise keeps both body and mind in good shape, and there has never been a better time to start. See you at the gym!\n\nThe Fitness Club",
+          "vocabHints": [
+            "we are happy to announce that",
+            "put the finishing touches to",
+            "in response to feedback",
+            "replace the old equipment with",
+            "update our booking app",
+            "come by and check it out",
+            "keep in good shape",
+            "there has never been a better time"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that governments should provide free sports and fitness facilities to encourage people to exercise. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As inactive lifestyles drive up rates of obesity and heart disease, some argue that governments should offer sports and fitness facilities free of charge. I largely agree, because affordable access to exercise yields public benefits that easily justify the cost, provided the spending is designed intelligently.\n\nThe strongest argument is preventive. Illnesses linked to inactivity place an enormous burden on health systems, and money spent on parks, pools and gyms is trivial beside the cost of treating the diseases they help avoid. Free facilities also promote fairness: without them, exercise becomes a privilege of those who can pay private-gym fees, leaving poorer citizens — often those most at risk — with nowhere safe to be active. Public provision spreads both health and opportunity.\n\nThere are, however, reasonable objections. Facilities are expensive to build and maintain, and 'free' ones are in fact paid for by taxpayers, many of whom never use them. Worse, gyms alone do not create the motivation to exercise; expensive centres can stand half-empty while habits stay unchanged.\n\nThese concerns argue for smarter design, not inaction. Modest charges for those who can afford them, facilities placed where communities actually gather, and programmes that teach and encourage use — school leagues, free classes, community events — make public money go much further than simply opening doors and hoping.\n\nIn conclusion, I agree that governments should ensure everyone has affordable access to places to exercise, since the health and social returns are substantial. The key is not merely to make facilities free, but to make them genuinely useful and well used.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'基本同意+设计前提'立场清晰;支持段(预防省钱/公平可及)与反对段(造价/免费未必带来动力)均具体，结论落到'不止免费、更要好用'。",
+              "Coherence & Cohesion(连贯衔接):The strongest argument / There are, however / These concerns argue for / In conclusion 推进工整;'free is paid by taxpayers'的反驳诚实;结尾'useful and well used'升级题目的'free'。",
+              "Lexical Resource(词汇资源):inactive lifestyles / an enormous burden on health systems / a privilege of those who can pay / stand half-empty / go much further 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):provided条件、破折号插入(often those most at risk)、many of whom定语从句、not merely...but平行收尾。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写健身中心升级通知(内容+时间+欢迎);雅思写公共体育投入议论文。",
+              "论据来源:高考通知织入课件'announce / put the finishing touches / replace...with / come by and check it out'词块;雅思用公共卫生经济学普适论据。",
+              "语域:通知条理祈使句为主;雅思客观论证，反驳诚实。",
+              "评分维度:高考重信息齐全+格式;雅思TR对agree题看是否精确回应'free'——'不止免费更要好用'是升级式表态。"
+            ]
+          },
+          "vocabHints": [
+            "inactive lifestyles",
+            "an enormous burden on health systems",
+            "a privilege of those who can pay",
+            "spread health and opportunity",
+            "stand half-empty",
+            "smarter design",
+            "go much further",
+            "useful and well used"
+          ]
         }
       ]
     },
@@ -98,7 +193,16 @@
           "typeLabel": "高考模拟",
           "task": "你的同桌王磊最近想晨跑健身，但担心自己难以坚持。请你写一张便条，邀请他和你结伴晨跑，内容包括：1. 表示支持；2. 说明结伴锻炼的好处；3. 约定时间地点。注意：词数100左右。",
           "reference": "Hi Wang Lei,\n\nI heard you're planning to take up morning running — great decision! And I have a proposal: why not run together?\n\nTo be honest, it's hard for anyone to stick with an exercise routine alone. I'm pretty sure I would soon give up without a partner: repeating the same route day after day, with no one to talk to, would bore me to death. But things change once in a while when we team up — we can encourage each other, keep pace together, and turn sweating into fun.\n\nHow about meeting at the school gate at 6:30 every morning, starting this Thursday? Just nod tomorrow and I'll bring two bottles of water!\n\nYours,\nLi Hua",
-          "vocabHints": ["take up", "stick with an exercise routine", "give up without a partner", "day after day", "team up", "encourage each other", "keep pace", "turn sweating into fun"]
+          "vocabHints": [
+            "take up",
+            "stick with an exercise routine",
+            "give up without a partner",
+            "day after day",
+            "team up",
+            "encourage each other",
+            "keep pace",
+            "turn sweating into fun"
+          ]
         },
         {
           "source": "IELTS Writing Task 2",
@@ -122,7 +226,16 @@
               "评分维度:雅思看立场的层次(时间维度权衡);高考便条看信息三要素与人情味。"
             ]
           },
-          "vocabHints": ["a fork in the road", "muscles of character", "cooperation under pressure", "lose without blaming", "the easiest door into friendship", "undivided responsibility", "answer to effort", "graduate towards"]
+          "vocabHints": [
+            "a fork in the road",
+            "muscles of character",
+            "cooperation under pressure",
+            "lose without blaming",
+            "the easiest door into friendship",
+            "undivided responsibility",
+            "answer to effort",
+            "graduate towards"
+          ]
         }
       ]
     }
