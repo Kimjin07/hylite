@@ -1,0 +1,184 @@
+{
+  "mainTopic": "航海与工业变革",
+  "mainTopicEn": "Voyages and Industry",
+  "mainTopicBrief": "本单元跨越两段伟大变革，涵盖郑和下西洋（Reading）、海上历险记（Extended reading）和工业革命与城市化（Integrated skills）三个子话题——历史人物介绍与家乡变迁是高考应用文的常见场景，历史价值与城市化更是雅思社会类议论文的传统命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "郑和下西洋",
+      "titleEn": "The Voyages of Zheng He",
+      "desc": "课文核心：navigators took compass readings, kept logs of their voyages and charted the coast——郑和的远航 helped develop and strengthen harmonious relations，exposing foreign people to Chinese culture。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Alex 对中国历史上的著名探险家很感兴趣。请你用英文回信介绍郑和，内容包括：1. 郑和远航的概况；2. 远航的意义；3. 你的评价。注意：词数100左右。",
+          "reference": "Dear Alex,\n\nYou asked me about great explorers in Chinese history, and the first name that comes to my mind is Zheng He.\n\nAbout six hundred years ago, he set sail from China and led seven great voyages across the ocean. As they sailed, the navigators took compass readings, kept logs of their voyages and charted the coast. More importantly, Zheng He's efforts helped develop and strengthen harmonious relations with the countries he visited, exposing foreign people to Chinese culture and allowing the Chinese to better understand overseas lands.\n\nWhat I admire most is that his mighty fleet came in peace, not for conquest. If you are interested, I can send you a documentary about him.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "set sail from",
+            "lead seven great voyages",
+            "take compass readings",
+            "keep logs of their voyages",
+            "chart the coast",
+            "strengthen harmonious relations",
+            "expose foreign people to Chinese culture",
+            "come in peace"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people say history is one of the most important school subjects, while others think that, in today's world, subjects like science and technology matter more. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "School timetables are a quiet battlefield: some insist history deserves a central place, while others would hand its hours to science and technology, the engines of modern economies. Having weighed both views, I believe the two are complementary, though I would resist any further shrinking of history.\n\nThe champions of science hold strong cards. Technical skills lead directly to employment, national prosperity now rests on innovation, and citizens who misunderstand data or medicine make costly choices. In a world of algorithms and vaccines, scientific literacy is a form of self-defence, and countries that neglect it fall behind visibly and fast.\n\nYet the case for history is equally practical, if less obvious. History is the laboratory of human behaviour: it shows how wars begin, how economies collapse, how propaganda works and how rights were won, and citizens ignorant of these patterns are easily manipulated by those who are not. Voters, after all, are asked to judge questions — of war, trade and liberty — that are historical in nature. History also trains the weighing of evidence and of conflicting accounts, a skill identical in spirit to scientific method, and it anchors identity: a community that forgets its past loses the thread of who it is.\n\nThe choice, moreover, is false. A curriculum can teach both, and the most valuable graduates combine them — engineers who understand the social consequences of technology, and policymakers who understand what technology can and cannot do.\n\nIn conclusion, science equips societies to build the future, while history equips them to choose it wisely. Schools should refuse the either-or and teach the two as partners.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双方论据均衡有力(科学方:就业/国家竞争/公民科学素养;历史方:行为实验室/选民判断/证据训练/身份认同)，立场'互补+反对继续压缩历史'具体可辨，并指出题目二选一预设为假。",
+              "Coherence & Cohesion(连贯衔接):champions of science / Yet the case for history / moreover / In conclusion 交锋式推进;'History is the laboratory of human behaviour'的核心隐喻统领历史段四个how排比。",
+              "Lexical Resource(词汇资源):hold strong cards / a form of self-defence / loses the thread of who it is / refuse the either-or 等表达凝练;engines of modern economies同位语开题定调。",
+              "Grammatical Range & Accuracy(语法多样性):if less obvious省略让步、破折号插入限定(of war, trade and liberty)、who定语从句双层嵌套、平行收尾(build the future / choose it wisely)。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写介绍郑和的回信(史实+意义+评价);雅思写学科价值双边议论文。",
+              "论据来源:高考信件严格织入课文'took compass readings / harmonious relations'词块;雅思用课程论与公民教育的普适论据，不提郑和。",
+              "语域:书信亲切分享(the first name that comes to my mind);雅思论证冷静，比喻服务论点。",
+              "评分维度:高考重史实准确+情感真挚;雅思discuss题的高分在于超越站队——'互补+底线'立场展示层次。"
+            ]
+          },
+          "vocabHints": [
+            "the engines of modern economies",
+            "hold strong cards",
+            "scientific literacy",
+            "the laboratory of human behaviour",
+            "easily manipulated",
+            "weigh conflicting accounts",
+            "anchor identity",
+            "refuse the either-or"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "海上历险记",
+      "titleEn": "Adventure on the High Seas",
+      "desc": "拓展阅读核心：风暴之夜，Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck——恐惧之中的行动力，才是冒险故事真正的主角。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校读书节正在征集英文荐书稿。请你推荐一本你读过的航海冒险小说，内容包括：1. 书的基本内容；2. 印象最深的情节；3. 推荐理由。注意：词数100左右。",
+          "reference": "Hello, everyone! At this year's Reading Festival, I would like to recommend a sea adventure novel that kept me up half the night.\n\nThe story follows a young sailor named Russell on his first ocean voyage. When a terrible storm strikes at midnight, \"Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck.\" From that page on, I was standing beside him — soaked, terrified and determined.\n\nWhat makes the book special is not the storm itself, but how an ordinary boy learns courage: not the absence of fear, but the strength to act in spite of it.\n\nIf you long for the sea and a test of the heart, this voyage is for you.",
+          "vocabHints": [
+            "keep me up half the night",
+            "on his first ocean voyage",
+            "a terrible storm strikes",
+            "felt his blood freeze",
+            "come to oneself",
+            "rush up to the deck",
+            "not the absence of fear",
+            "a test of the heart"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Many people take part in dangerous activities such as sailing across oceans, climbing high mountains or extreme sports. Why do people take these risks? What can be done to reduce the dangers involved? (Write at least 250 words.)",
+          "reference": "From mountaineering to ocean sailing, millions deliberately seek activities in which mistakes can be fatal. This essay considers why danger attracts people and how its risks can be reduced.\n\nThe motives run deeper than recklessness. Modern life is safe and scheduled, and many feel that comfort has crowded out intensity; extreme activities restore the concentration and self-reliance that routine rarely demands. Physiology plays its part — fear releases adrenalin, and mastering it produces a euphoria that ordinary exercise cannot match. For others the appeal is identity and achievement: navigating a storm or reaching a summit provides proof of courage that no examination can certify. Social media has added a further push, turning daring feats into currency for admiration.\n\nRisk, however, can be managed without abolishing the thrill. Proper training is the first safeguard: most accidents involve novices attempting conditions beyond their skill, so graduated qualifications — as diving and aviation already require — should become standard across adventure sports. Equipment and information come next: helmets, locator beacons, weather forecasts and route plans convert many potential tragedies into stories told afterwards. Organised structure helps too; clubs, licensed guides and rescue insurance ensure that when things go wrong, help arrives quickly and the cost does not fall on the public. Finally, honest media portrayals that show the years of preparation, not just the moment of triumph, would correct the illusion that daring alone is enough.\n\nIn conclusion, people pursue danger to feel fully alive and to prove themselves against something real. Since the impulse is ancient and will not disappear, the sensible response is not prohibition but training, regulation and rescue — keeping the adventure while shrinking the gamble.",
+          "wordCount": 277,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):两问齐答且分量均衡——动机段四层(补偿安全生活/生理机制/身份证明/社媒推动)，对策段四招(分级资质/装备信息/组织保障/媒体真实呈现)，结论明确反对禁止路线。",
+              "Coherence & Cohesion(连贯衔接):首段直接预告双问结构;动机与对策段内均用first/next/too/Finally显性排序;'keeping the adventure while shrinking the gamble'对仗收束两问。",
+              "Lexical Resource(词汇资源):comfort has crowded out intensity / currency for admiration / graduated qualifications / tragedies into stories told afterwards 等表达精准生动。",
+              "Grammatical Range & Accuracy(语法多样性):in which定语从句开题、破折号类比插入(as diving and aviation already require)、that no examination can certify否定限定、since原因从句推进结论。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写读书节荐书稿(内容+情节+理由);雅思写why+how双问分析文。",
+              "论据来源:高考荐书稿直接引用课文Russell风暴句作书中金句;雅思用冒险心理学与安全管理的普适论据。",
+              "语域:荐书稿有沉浸感染力(I was standing beside him);雅思冷静归因，抒情仅在fully alive一处。",
+              "评分维度:高考重推荐诚意+情节吸引;雅思双问题型TR关键是两问覆盖均衡——本文段落对称是范式答法。"
+            ]
+          },
+          "vocabHints": [
+            "deliberately seek",
+            "comfort has crowded out intensity",
+            "release adrenalin",
+            "proof of courage",
+            "currency for admiration",
+            "graduated qualifications",
+            "locator beacons",
+            "shrink the gamble"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "工业革命与城市化",
+      "titleEn": "Industry and Urbanisation",
+      "desc": "综合板块核心：the shift from the cottage industry to the factory system... promoted economic growth and expanded world trade——thousands migrated from rural to urban areas in search of work。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报开设 \"My Hometown's Story\" 专栏。请你采访长辈后写一篇短文，讲述家乡从乡村到城市的变迁，内容包括：1. 过去的样子；2. 变化及原因；3. 你的感受。注意：词数100左右。",
+          "reference": "My grandfather often says that his childhood village and my city are two different worlds, though they share the same name.\n\nDecades ago, most work there was done at home or in the fields. Then factories arrived, and thousands migrated from rural to urban areas in search of work — my grandparents among them. Machines changed everything: goods that had once been made slowly by hand could now be produced in factories, where each worker had a specialized role. Economic growth brought wider roads, taller buildings and better schools.\n\nSomething was lost, too — the slow evenings my grandfather still misses. But when I asked whether he would go back, he smiled and shook his head. Progress, he said, is a one-way journey.",
+          "vocabHints": [
+            "two different worlds",
+            "the work was done at home",
+            "migrate from rural to urban areas",
+            "in search of work",
+            "made slowly by hand",
+            "each worker had a specialized role",
+            "economic growth",
+            "a one-way journey"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, more and more people move from the countryside to big cities. Do you think this is a positive or negative development? (Write at least 250 words.)",
+          "reference": "In most developing countries, millions leave villages each year in search of work and opportunity in cities. I regard this migration as a broadly positive development, provided governments manage its pressures deliberately.\n\nThe gains begin with the migrants themselves. Cities concentrate jobs, schools, hospitals and ideas, so a family's move often multiplies its income and transforms its children's prospects within a generation. Economies benefit in parallel: industry and services find the workers they need, productivity rises, and the money migrants send home rebuilds the villages they left. History suggests the pattern is no accident — every industrialised nation travelled the same road from field to factory to office, and urbanisation has accompanied nearly every escape from mass poverty in the modern era.\n\nThe costs, nonetheless, are real. Cities that grow faster than their infrastructure produce slums, congestion and overstretched services; migrants can face insecurity and discrimination far from family networks; and the countryside may be left with an ageing population and abandoned land. Where governance is weak, these strains harden into permanent inequality between gleaming centres and neglected peripheries.\n\nYet such problems indict poor management rather than migration itself. Investment in affordable housing, transport and schools lets cities absorb newcomers productively; equal access to public services prevents a two-class citizenry; and rural development — roads, clinics, modern agriculture — gives those who stay behind a genuine choice rather than a sentence.\n\nIn conclusion, the movement from countryside to city is the engine by which poor economies become richer ones. Handled with foresight, its benefits to individuals and nations clearly outweigh its costs.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):positive/negative题给出'总体积极+管理前提'的清晰裁决;收益从个体、经济、历史规律三层展开，代价段诚实充分后用'indict poor management rather than migration itself'完成归因反转。",
+              "Coherence & Cohesion(连贯衔接):gains / costs, nonetheless / Yet / In conclusion 骨架工整;'from field to factory to office'的三步走意象浓缩历史论据;三个分号并列的治理方案与三项代价一一呼应。",
+              "Lexical Resource(词汇资源):multiplies its income / overstretched services / gleaming centres and neglected peripheries / a two-class citizenry / a genuine choice rather than a sentence 表达密度高且精准。",
+              "Grammatical Range & Accuracy(语法多样性):provided条件句、so结果从句、Where状语从句、by which定语从句收束比喻(the engine by which...)，句式层次丰富。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写家乡变迁采访短文(叙事+感受);雅思写社会趋势评价议论文。",
+              "论据来源:高考短文织入课文'migrated from rural to urban areas / specialized role'词块并借祖辈口述;雅思用发展经济学普适论据(汇款、基建、治理)。",
+              "语域:短文有温情细节(slow evenings he still misses);雅思宏观论证，人文关怀藏在措辞里。",
+              "评分维度:高考重叙事真切+情感自然;雅思TR要求评价类题干给出net judgement——'broadly positive+前提'是规范高分答式。"
+            ]
+          },
+          "vocabHints": [
+            "concentrate jobs and ideas",
+            "transform children's prospects",
+            "send money home",
+            "overstretched services",
+            "harden into permanent inequality",
+            "indict poor management",
+            "absorb newcomers",
+            "handled with foresight"
+          ]
+        }
+      ]
+    }
+  ]
+}

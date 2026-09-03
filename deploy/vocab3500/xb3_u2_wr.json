@@ -1,0 +1,184 @@
+{
+  "mainTopic": "太空探索",
+  "mainTopicEn": "Space Exploration",
+  "mainTopicBrief": "本单元围绕太空展开，涵盖空间站生活（Reading）、为何探索太空（Extended reading）和航天梦与自律（Grammar and usage）三个子话题——'天宫课堂'观后感与科学梦想是高考应用文热点场景，太空投入之辩更是雅思科技类议论文的传统经典。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "空间站生活",
+      "titleEn": "Life Aboard a Space Station",
+      "desc": "课文核心：considering the negative effects low gravity has on the human body, 宇航员 discipline themselves to do at least two hours of exercise every day——闲暇时 there's nothing we like more than to sit back and watch our remarkable planet go by。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "上周你班集体观看了中国宇航员的'天宫课堂'太空授课直播。请你用英文为校英文报写一篇观后感，内容包括：1. 直播内容简介；2. 你印象最深的部分；3. 你的感想。注意：词数100左右。",
+          "reference": "Last Thursday, our class watched a live lesson given by Chinese astronauts aboard the space station, and I was completely fascinated.\n\nLife in space, we learned, is nothing like life on Earth. Considering the negative effects low gravity has on the human body, the crew discipline themselves to do at least two hours of exercise every day, for spending time in the gym is of vital importance to astronauts' health. They even sleep with no pressure against their backs! During their leisure time, there is nothing they like more than to sit back and watch our remarkable planet go by.\n\nThe lesson ended, but my dream had just taken off. One day, I hope to see that blue view with my own eyes.",
+          "vocabHints": [
+            "aboard the space station",
+            "the negative effects low gravity has on the human body",
+            "discipline themselves to do at least two hours of exercise",
+            "of vital importance to astronauts' health",
+            "sleep with no pressure against their backs",
+            "there is nothing they like more than to",
+            "watch our remarkable planet go by",
+            "my dream had just taken off"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In the future, ordinary people may be able to travel to space as tourists. Do the advantages of this development outweigh the disadvantages? (Write at least 250 words.)",
+          "reference": "Private companies now sell brief journeys beyond the atmosphere, and ordinary citizens — at least wealthy ones — may soon follow astronauts into orbit. In my judgement, the disadvantages of space tourism currently outweigh the advantages, although the industry may yet mature into something more defensible.\n\nIts supporters make fair points. Commercial demand funds rocket research that governments alone would struggle to sustain, and innovation in reusable launchers has already cut the cost of reaching orbit dramatically. Tourism also widens participation: seeing Earth as a fragile blue sphere has reportedly transformed the environmental outlook of many who experience it, and the dream of spaceflight draws students toward science and engineering.\n\nThe objections, however, weigh heavier today. Each launch burns enormous quantities of fuel for a few minutes of weightlessness, an extravagant footprint at a moment when even aviation is under pressure to decarbonise. The tickets cost more than most families earn in decades, making the industry a showcase of inequality. Safety regulation remains immature, and every accident risks setting back serious exploration. Above all, the engineering talent and capital absorbed by joyrides could serve scientific missions, climate satellites or medical research with far greater public return.\n\nThe balance could shift. If cleaner propulsion arrives and prices fall as they once did for air travel, space tourism might eventually democratise a perspective that changes how humanity treats its planet.\n\nFor now, though, the venture chiefly offers the few an expensive thrill at a cost the many share. Until its footprint shrinks and its benefits broaden, the drawbacks outweigh the gains.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):outweigh题给出带时间限定的裁决('currently'弊大于利+未来可能反转)，两方论据均具体(商业资金反哺研发/总观效应 vs 碳足迹/不平等/人才挤占)，避免绝对化。",
+              "Coherence & Cohesion(连贯衔接):supporters / objections, however / The balance could shift / For now, though 四段推进含转折与展望;Above all标记最重论据;首尾'few vs many'呼应。",
+              "Lexical Resource(词汇资源):a fragile blue sphere / an extravagant footprint / a showcase of inequality / joyrides / democratise a perspective 等表达精准且带批判锋芒。",
+              "Grammatical Range & Accuracy(语法多样性):插入语(— at least wealthy ones —)、making分词结果状语、If条件+might推测、Until引导的收束句，张弛有度。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写天宫课堂观后感(记叙+感想);雅思写新兴产业利弊权衡议论文。",
+              "论据来源:高考观后感严格织入课文'discipline themselves / vital importance / remarkable planet go by'词块;雅思用航天产业普适论据(可回收火箭、总观效应、碳排放)。",
+              "语域:观后感有惊叹与憧憬(They even sleep...!);雅思克制评价，态度藏在joyrides等词汇选择中。",
+              "评分维度:高考重内容真切+感想自然;雅思TR奖励带条件与时间维度的结论——'currently+可能反转'比一刀切更高阶。"
+            ]
+          },
+          "vocabHints": [
+            "beyond the atmosphere",
+            "reusable launchers",
+            "a fragile blue sphere",
+            "an extravagant footprint",
+            "under pressure to decarbonise",
+            "a showcase of inequality",
+            "set back serious exploration",
+            "democratise a perspective"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "为何探索太空",
+      "titleEn": "Why Explore Space",
+      "desc": "拓展阅读核心：With each space mission comes greater insight——人类甚至需要 find permanent shelter that offers long-term protection，探索既是好奇心，也是远见。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举行以'人类应否继续探索太空'为题的英语辩论会，你是正方一辩。请写一篇发言稿，内容包括：1. 你方观点；2. 两三条理由；3. 总结陈词。注意：词数100左右。",
+          "reference": "Good afternoon, everyone. Our topic today is whether humans should continue to explore space, and my answer is a firm yes.\n\nAdmittedly, space programmes cost enormous sums that could be spent on schools and hospitals. But with each space mission comes greater insight. Satellite technology now guides our buses, forecasts typhoons and connects our classrooms. What's more, scientists believe that one day we may need to find permanent shelter that offers long-term protection beyond Earth — exploring space is, in a sense, insurance for humanity.\n\nThe stars have always called to us. If our ancestors had never sailed beyond the horizon, we would still believe the ocean had an edge. Thank you!",
+          "vocabHints": [
+            "a firm yes",
+            "cost enormous sums",
+            "with each space mission comes greater insight",
+            "satellite technology",
+            "find permanent shelter",
+            "long-term protection",
+            "insurance for humanity",
+            "sail beyond the horizon"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that the money spent on space exploration should be used to solve problems on Earth instead. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Critics of space programmes argue that the billions devoted to rockets should instead relieve poverty, disease and environmental damage at home. Although the moral force of this argument is obvious, I disagree with it, because space research is among the more productive investments a society can make.\n\nThe critics' logic appeals to urgency. Hunger and homelessness exist now, whereas the rewards of exploring other worlds seem distant and abstract; a hospital saves identifiable lives, while a probe photographs rocks. It can indeed appear indefensible to launch billion-dollar missions while food banks lengthen their queues.\n\nYet the comparison misleads in two ways. First, space budgets are far smaller than they look beside other spending: most industrialised nations devote to space a small fraction of what they spend on defence, and cancelling missions would barely dent social problems whose causes are political rather than financial. Second, the money is not fired into the sky; it employs engineers on Earth and produces technologies that return home. Weather forecasting, disaster monitoring, satellite navigation, water purification and countless medical instruments trace their origins to space research. Farmers time their harvests and rescue services find the lost through systems built for orbit. In addition, studying other planets sharpens our grasp of our own climate — and the sight of Earth from space has itself become an emblem of environmental care.\n\nIn conclusion, framing space and social spending as rivals is a false economy of imagination. A civilisation that stops exploring does not thereby feed its poor; it merely learns less. Wise governments fund both, and each strengthens the other.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):立场'不同意'明确且承认对方道义力量;反驳双轨(预算占比错觉+技术回流)论据密集具体(气象/导航/净水/医疗仪器)，结论升华为'资助两者、互相成就'。",
+              "Coherence & Cohesion(连贯衔接):critics' logic / Yet...in two ways / First / Second / In conclusion 编号推进清晰;'a hospital saves identifiable lives, while a probe photographs rocks'的对举先替对方说到最强再拆解。",
+              "Lexical Resource(词汇资源):moral force / barely dent / fired into the sky / trace their origins to / an emblem of environmental care / a false economy of imagination 表达凝练有力。",
+              "Grammatical Range & Accuracy(语法多样性):whereas对比、whose定语从句、分号并列长列举、does not thereby feed其否定推理句式，逻辑句法成熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写辩论一辩发言稿(观点+理由+陈词);雅思写资金优先级议论文。",
+              "论据来源:高考发言稿织入课文'with each space mission comes greater insight / permanent shelter'词块;雅思用航天经济学普适论据(预算占比、技术转化)。",
+              "语域:辩论稿有修辞煽动(The stars have always called to us);雅思以论证密度取胜，修辞仅在收尾。",
+              "评分维度:高考重立场鲜明+现场感;雅思TR考察能否指出题目预设的虚假对立——'false economy of imagination'正面破题。"
+            ]
+          },
+          "vocabHints": [
+            "relieve poverty and disease",
+            "appeal to urgency",
+            "identifiable lives",
+            "barely dent",
+            "technologies that return home",
+            "trace their origins to",
+            "sharpen our grasp of",
+            "fund both"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "航天梦与自律",
+      "titleEn": "Dreams and Discipline",
+      "desc": "语法板块核心词块：discipline oneself to do sth、be of vital importance、would-be astronomers、a spirit of adventure——仰望星空的人，先要管好自己的每一天。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你受邀在学校'青年科学节'开幕式上发言，主题为'梦想与自律'。请写一篇英文演讲稿，内容包括：1. 提出观点；2. 结合事例说明；3. 向同学们发出号召。注意：词数100左右。",
+          "reference": "Good morning, everyone. The title of my speech is \"Reaching for the Stars with Both Feet on the Ground\".\n\nMany of us have big dreams — some of my classmates even hope to become would-be astronauts or astronomers. But a dream without discipline is only a wish. Astronauts in orbit discipline themselves to exercise for two hours every day, because they know small daily habits are of vital importance to the whole mission. The same is true of us: memorising twenty words a day or running three times a week seems ordinary, yet that is exactly how ordinary people achieve extraordinary things.\n\nMay we all keep a spirit of adventure in our hearts — and iron discipline in our daily lives. Thank you!",
+          "vocabHints": [
+            "reach for the stars",
+            "would-be astronauts",
+            "a dream without discipline is only a wish",
+            "discipline themselves to exercise",
+            "of vital importance to",
+            "small daily habits",
+            "achieve extraordinary things",
+            "a spirit of adventure"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that success is the result of hard work and self-discipline, while others think natural talent matters most. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Why do some people reach the top of their fields? Some credit inborn talent; others point to years of disciplined effort. Considering both positions, I believe sustained self-discipline explains far more success than natural gift does, although talent sets the ceiling in a few extreme domains.\n\nBelievers in talent have evidence to hand. Children differ visibly from their earliest years — some sing in tune, some calculate with ease — and in fields such as elite sport or theoretical physics, no quantity of practice seems to substitute for exceptional raw material. Selection systems recognise this: academies scout for natural ability precisely because it cannot be taught.\n\nNevertheless, talent without discipline is routinely defeated by ordinary ability with it. Every skill decays unless practised, and the practice that matters — deliberate, uncomfortable, repeated over years — is available only to those who can force themselves to continue after novelty fades. Studies of musicians, athletes and chess players consistently find accumulated quality practice to be the strongest predictor of performance. Discipline also compounds: the student who studies daily builds knowledge, confidence and habits that create further opportunity, while the gifted procrastinator watches early advantages evaporate. Tellingly, most careers are not extreme; law, medicine, business and teaching reward persistence far more than genius.\n\nIn conclusion, natural ability decides where the limits lie, but discipline decides who approaches them, and in most walks of life the limits are never the binding constraint. For the ambitious, the practical lesson is encouraging: the trait that matters most is the one anyone can cultivate.",
+          "wordCount": 257,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均得到实质展开(天赋方:早期差异/极端领域/选拔制度;自律方:技能衰减/刻意练习研究/复利效应)，立场'自律解释更多+天赋定天花板'精确量化，结论落到可行动的启示。",
+              "Coherence & Cohesion(连贯衔接):Believers in talent / Nevertheless / In conclusion 推进顺畅;'talent without discipline is routinely defeated by ordinary ability with it'的交叉对仗完成观点交锋;Tellingly引出关键收束论据。",
+              "Lexical Resource(词汇资源):exceptional raw material / deliberate, uncomfortable, repeated / the gifted procrastinator / advantages evaporate / the binding constraint 词汇精确且有画面。",
+              "Grammatical Range & Accuracy(语法多样性):unless条件、only to those who限定、while对比、插入破折号定义'有效练习'，节奏控制娴熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写科学节演讲稿(观点+事例+号召);雅思写成功归因双边议论文。",
+              "论据来源:高考演讲织入课件'discipline oneself / of vital importance / would-be'词块并引宇航员日常;雅思用心理学与职业统计的普适论据(刻意练习研究)。",
+              "语域:演讲稿有口号与祈愿(May we all...);雅思学术论证，鼓舞仅在末句克制释放。",
+              "评分维度:高考重感染力+结构完整;雅思discuss题要求双方充分后立场清晰——本文'天花板vs逼近天花板'的分工式立场是高分思辨。"
+            ]
+          },
+          "vocabHints": [
+            "inborn talent",
+            "exceptional raw material",
+            "deliberate practice",
+            "after novelty fades",
+            "the strongest predictor of performance",
+            "discipline compounds",
+            "advantages evaporate",
+            "the binding constraint"
+          ]
+        }
+      ]
+    }
+  ]
+}

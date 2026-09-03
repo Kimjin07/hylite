@@ -1,0 +1,184 @@
+{
+  "mainTopic": "文化遗产保护",
+  "mainTopicEn": "Protecting Our Heritage",
+  "mainTopicBrief": "本单元围绕文化遗产展开，涵盖阿布辛贝的启示（Reading）、身边的活遗产（Extended reading）和走近遗产·研学与开放（Integrated skills）三个子话题——遗产介绍与保护呼吁是高考应用文'短文/广播稿/通知'类的高频场景，遗产保护资金与开放尺度更是雅思传统命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "阿布辛贝的启示",
+      "titleEn": "The Lesson of Abu Simbel",
+      "desc": "课文核心：the incredible splendour of heritage sites is a reminder of the power of nature and the genius of man——大坝将建，神庙告急，国际团队 eventually managed to relocate all of the Abu Simbel temples without incident。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语社团开展'文化遗产日'征文活动。请你写一篇英文短文，介绍你在课上了解到的阿布辛贝神庙搬迁的故事，并谈谈感想。内容包括：1. 故事概况；2. 你的感悟。注意：词数100左右。",
+          "reference": "When our teacher showed us photographs of the Abu Simbel temples in Egypt, the whole class fell silent — the incredible splendour of heritage sites really is a reminder of the power of nature and the genius of man.\n\nWhat moved me more was the story behind them. In the 1960s, a dam was to be built, and at first no one knew whether the temples could be saved from the rising waters. In the end, an international operation was carefully planned, and the team eventually managed to relocate the entire temples, stone by stone, without incident.\n\nThe fact that many heritage sites are in urgent need of protection cannot be ignored. What humans built together, humans must also protect together.",
+          "vocabHints": [
+            "the incredible splendour of heritage sites",
+            "a reminder of the power of nature and the genius of man",
+            "be saved from the rising waters",
+            "the operation was carefully planned",
+            "manage to relocate",
+            "stone by stone",
+            "without incident",
+            "in urgent need of protection"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that governments should spend money on preserving historical buildings, while others believe it should be spent on new housing and roads. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "When budgets are tight, spending on castles and temples competes directly with housing, hospitals and roads, and many taxpayers understandably favour the living over the dead. Having considered both views, I believe basic services must come first, yet a steady share of public money should always defend historic buildings, because what they carry cannot be rebuilt.\n\nAdvocates of modern spending argue from urgency. Families need homes now; commuters lose hours every day; and no monument, however beautiful, shelters the homeless. Money spent gilding the past, they say, is a luxury borrowed from the poor, especially in fast-growing cities hungry for land and infrastructure.\n\nDefenders of preservation answer that heritage is not decoration but identity and asset. Historic buildings are physical memory: they teach how a community came to be, and once demolished they are gone absolutely — no future prosperity can repurchase them. They also earn their keep, anchoring tourism industries that employ millions and returning far more value over decades than their maintenance costs. Cities that bulldozed their old quarters are now spending fortunes building imitations of them, an irony that largely settles the economic argument.\n\nThe sensible policy is therefore proportion, not choice. Core services deserve the bulk of any budget, but preservation is cheap by comparison — often a rounding error beside road programmes — and modest, steady funding prevents the far larger bills of emergency rescue or reconstruction. Adaptive reuse, which turns old buildings into libraries, hotels and offices, lets one budget serve both goals at once.\n\nIn conclusion, housing citizens outranks polishing monuments, but a society that erases its past to save small change impoverishes every generation that follows.",
+          "wordCount": 274,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点充分交锋(现代派:住房通勤的即时需求;保护派:身份记忆/旅游资产/重建反讽)，立场'基本服务优先+稳定小额保护'给出比例而非站队，并落到adaptive reuse的两全方案。",
+              "Coherence & Cohesion(连贯衔接):Advocates / Defenders answer / The sensible policy therefore 对话式结构;'favour the living over the dead'开题设置张力并在结尾'erases its past'回收;论证由情入理层层递进。",
+              "Lexical Resource(词汇资源):gilding the past / a luxury borrowed from the poor / physical memory / earn their keep / a rounding error / adaptive reuse 词汇兼具形象与专业。",
+              "Grammatical Range & Accuracy(语法多样性):however beautiful让步插入、once demolished省略从句、which非限定从句、破折号双层插入，复杂句控制精准。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写文化遗产日征文(故事+感悟);雅思写公共预算双边议论文。",
+              "论据来源:高考短文严格复述课文阿布辛贝搬迁事迹;雅思用公共财政与城市更新的普适论据，阿布辛贝不出场。",
+              "语域:征文有课堂现场感(the whole class fell silent);雅思理性权衡，警句克制收尾。",
+              "评分维度:高考重故事完整+升华自然;雅思discuss题高分在于第三方案——'比例而非选择'超越二元对立。"
+            ]
+          },
+          "vocabHints": [
+            "favour the living over the dead",
+            "gild the past",
+            "physical memory",
+            "gone absolutely",
+            "earn their keep",
+            "bulldoze old quarters",
+            "a rounding error",
+            "adaptive reuse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "身边的活遗产",
+      "titleEn": "Living Heritage Around Us",
+      "desc": "拓展板块核心词块：be awed by、preserve endangered traditions、heritage protection is at the top of the agenda——遗产不只在远方的神庙，也在校园后街的石桥与手艺里。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "请你为校园广播站写一篇英文广播稿，号召同学们关注和保护身边的文化遗产，内容包括：1. 引出话题；2. 说明保护身边遗产的意义；3. 提出行动建议。注意：词数100左右。",
+          "reference": "Dear schoolmates,\n\nHave you noticed the old stone bridge behind our campus, or the tea house where craftsmen still work by hand? These are not just old things; they are living heritage, and some of them are in urgent need of protection.\n\nHeritage is not only about grand temples far away. A local opera, a paper-cutting skill, a hundred-year-old gate — once gone, they can never truly return. That is why heritage protection should be at the top of our agenda, too.\n\nSo this weekend, why not visit a heritage site nearby, listen to its story, and share it online? The more we stand in awe of their splendour, the harder we will work to preserve them.\n\nThank you for listening!",
+          "vocabHints": [
+            "living heritage",
+            "in urgent need of protection",
+            "once gone, they can never truly return",
+            "at the top of the agenda",
+            "visit a heritage site nearby",
+            "stand in awe of",
+            "splendour",
+            "preserve"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Traditional skills and ways of life are dying out in many places. Some people say it is pointless to try to keep them alive. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As factories and software replace handwork, some conclude that traditional skills and ways of life die for a reason, and that trying to preserve them is sentimental waste. I strongly disagree: while no society can freeze its past, keeping traditional skills alive is both feasible and valuable.\n\nThe pessimists' logic is straightforward. Crafts lost their markets because machines make goods faster and cheaper; villages empty because cities pay better. If people themselves choose modern lives, propping up old trades with subsidies appears to fight the verdict of both economics and freedom.\n\nThis argument, however, mistakes replacement for worthlessness. First, traditional skills embody accumulated knowledge — of materials, climate, medicine and design — that industrial methods often rediscover expensively later; drought-resistant farming techniques and earthquake-tolerant joinery are practical, not quaint. Second, heritage is identity: crafts, dialects, festivals and cuisines tell communities who they are, and their loss leaves a rootlessness no imported product can fill. Third, the market itself has changed sides: tourists, collectors and consumers increasingly pay a premium for handmade authenticity, so a craft revived is often a livelihood created — as pottery towns and weaving villages on several continents now demonstrate. Preservation, moreover, need not mean museum-freezing; the liveliest traditions survive precisely by adapting, selling online and marrying old technique to new design.\n\nIn conclusion, letting every inherited skill vanish would discard knowledge, identity and income together. The goal is not to trap people in the past but to keep its tools and stories available — a heritage kept alive is a resource, not a burden.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'pointless'的强判断给出'强烈不同意+现实限定(不冻结过去)';先把对方经济逻辑说到最强(市场判决+个人自由)再三路反驳(实用知识/身份认同/市场反转)，每路有具体例证。",
+              "Coherence & Cohesion(连贯衔接):pessimists' logic / however / First / Second / Third / In conclusion 编号推进;'mistakes replacement for worthlessness'一句完成核心概念区分;结尾resource/burden对比呼应题干pointless。",
+              "Lexical Resource(词汇资源):sentimental waste / prop up old trades / practical, not quaint / rootlessness / pay a premium for handmade authenticity / museum-freezing 造词精准表现力强。",
+              "Grammatical Range & Accuracy(语法多样性):while让步开题、破折号知识领域插入列举、so结果从句、marrying分词收尾隐喻，句法与词汇互相配合。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写校园广播稿(口语化号召);雅思写文化价值判断议论文。",
+              "论据来源:高考广播稿织入课件'in urgent need of protection / at the top of the agenda / in awe'词块;雅思用文化经济学普适论据(手工溢价、旱作技术)。",
+              "语域:广播稿有设问互动(Have you noticed...?);雅思书面论证，修辞在概念区分。",
+              "评分维度:高考重号召亲切+建议可行;雅思TR对strong claim题奖励'强立场+精确限定'——disagree但承认'不冻结过去'即是限定。"
+            ]
+          },
+          "vocabHints": [
+            "die for a reason",
+            "prop up old trades",
+            "mistake replacement for worthlessness",
+            "accumulated knowledge",
+            "practical, not quaint",
+            "rootlessness",
+            "pay a premium for authenticity",
+            "museum-freezing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "走近遗产·研学与开放",
+      "titleEn": "Visiting Heritage: Access & Care",
+      "desc": "综合板块核心词块：set foot in、have access to、entry is free——走近才会热爱，热爱才会保护；但每一次走近，也要轻手轻脚。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "学生会将组织同学赴附近的古运河镇开展文化遗产研学活动。请你用英文写一则通知，内容包括：1. 活动时间与安排；2. 注意事项；3. 报名方式。注意：词数100左右。",
+          "reference": "Notice\n\nTo enrich our understanding of traditional culture, the Student Union will organise a heritage study trip to the ancient canal town nearby on Saturday, 20 June.\n\nWe will gather at the school gate at 8 a.m. and travel by coach. During the day, students will have access to the town museum, where entry is free with a student card, visit a workshop of traditional boat-building, and interview local craftsmen. Please bring a notebook, wear comfortable shoes, and treat every relic with care — do not touch the exhibits.\n\nThose who wish to join, please sign up with your monitor before Thursday. Let's set foot in history and bring its stories back with us.\n\nThe Student Union",
+          "vocabHints": [
+            "organise a heritage study trip",
+            "gather at the school gate",
+            "have access to",
+            "entry is free",
+            "a workshop of traditional boat-building",
+            "interview local craftsmen",
+            "treat every relic with care",
+            "set foot in history"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that historical sites should be fully open to the general public, while others think access should be limited in order to protect them. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Historic sites face a peculiar dilemma: they exist to be seen, yet every visitor wears them down a little. Some argue such places should stay open to everyone; others would restrict entry to protect them. In my view, wide access should remain the principle, with scientific limits applied wherever fragility demands them.\n\nThe case for openness rests on ownership and purpose. Heritage belongs to the public that funds and inherits it, and its educational power works only on those who stand before it; a temple admired solely through photographs teaches little and moves few. Access also sustains protection politically — people defend what they have seen and loved — and economically, since ticket revenue and tourism pay for conservation itself. Closing sites to the many while officials and scholars enter freely would turn a common inheritance into a private privilege.\n\nRestriction, however, has an equally serious logic. Breath, footsteps and touch measurably damage cave paintings, frescoes and ancient floors; some famous chambers have already been closed after decades of loving erosion. Unlimited crowds also destroy the very experience visitors seek, and once a fragile site is worn away, no future generation can visit it at all — the ultimate denial of access.\n\nWell-run sites already reconcile the two: timed tickets and daily caps, raised walkways, faithful replicas of the most fragile rooms, and revenue reinvested in monitoring. Such measures keep doors open while keeping damage within what conservation science can repair.\n\nIn conclusion, heritage should be shared as widely as its survival allows. Managed access honours both duties — to the public of today, and to the publics still to come.",
+          "wordCount": 271,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点论证对称(开放:公共所有权/教育感召/政治经济支撑;限制:物理损耗/体验拥挤/代际公平)，立场'开放为原则+科学设限'并给出四项落地机制，结论以双重责任收束。",
+              "Coherence & Cohesion(连贯衔接):首段用'exist to be seen yet wear down'悖论定调;The case for openness / Restriction, however / already reconcile 推进工整;'the ultimate denial of access'反转限制方论据攻其矛盾。",
+              "Lexical Resource(词汇资源):wears them down / loving erosion / a common inheritance into a private privilege / timed tickets and daily caps / faithful replicas 精准的遗产管理词汇群。",
+              "Grammatical Range & Accuracy(语法多样性):with复合结构表条件、since原因从句、once省略从句、破折号插入论证(people defend what they have seen and loved)，长句准确流畅。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写研学活动通知(安排+注意+报名);雅思写公共政策双边议论文。",
+              "论据来源:高考通知织入课件'have access to / entry is free / set foot in'词块;雅思用遗产管理学普适论据(限流、栈道、复制窟)。",
+              "语域:通知条理简明祈使句为主;雅思论证绵密，悖论开题显功力。",
+              "评分维度:高考重信息齐全+格式规范;雅思CC维度奖励用对方逻辑反制对方——'过度磨损终致无人可看'即以'开放'之矛攻'无限开放'之盾。"
+            ]
+          },
+          "vocabHints": [
+            "wear them down",
+            "stand before it",
+            "a common inheritance",
+            "loving erosion",
+            "the ultimate denial of access",
+            "timed tickets and daily caps",
+            "faithful replicas",
+            "revenue reinvested in monitoring"
+          ]
+        }
+      ]
+    }
+  ]
+}

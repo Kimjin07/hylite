@@ -1,0 +1,184 @@
+{
+  "mainTopic": "旅行·风光与多元文化",
+  "mainTopicEn": "Travel, Landscapes and Cultures",
+  "mainTopicBrief": "本单元围绕旅行与自然人文之美展开，涵盖加拿大的壮丽风光与多元文化（Reading）、野生动物之旅（Extended reading）和与自然和谐同行（Grammar and usage）三个子话题——风光介绍与绿色旅行是高考应用文'邮件/游记/倡议'类的高频场景，旅游与环境亦是雅思经典命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "加拿大：壮丽风光与多元文化",
+      "titleEn": "Canada: Landscapes & Diversity",
+      "desc": "课文核心：Canada is like a blooming flower, unfolding with breathtaking beauty——a land marked with vast lakes and mighty rivers，同时是 ethnically diverse 的国度：languages, cuisine, architecture, art and music will define your encounter。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的外国朋友 Chris 计划第一次来中国旅行，向你了解情况。请你用英文回复邮件，内容包括：1. 中国的自然风光；2. 多元的地域文化；3. 表达欢迎并提出帮助。注意：词数100左右。",
+          "reference": "Dear Chris,\n\nI'm glad to hear that you are planning your first trip to China. Let me tell you what makes my country worth the journey.\n\nChina is like a breathtaking artwork painted by Mother Nature: vast land, splendid forests, crystal-clear lakes, mighty rivers and towering mountains all demonstrate its uniqueness and beauty. It is also a nation of distinct regional cultures. Should you find yourself in a local community, languages, cuisine, architecture, art and music will define your encounter — from spicy hotpot streets in the west to quiet water towns in the east.\n\nIf you enjoy places off the beaten track, I would be happy to design a route for you. I'm sure China will win your heart with what it has to offer.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "a breathtaking artwork painted by Mother Nature",
+            "vast land, splendid forests, crystal-clear lakes",
+            "mighty rivers and towering mountains",
+            "distinct cultures",
+            "Should you find yourself in...",
+            "define your encounter",
+            "off the beaten track",
+            "win the heart of"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that travelling to a country is the best way to learn about its culture. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Many argue that visiting a country in person is the most effective way to understand its culture. I broadly agree, although I would add that travel only educates those who arrive with curiosity and preparation.\n\nThe case for travel rests on experience that no screen can reproduce. Culture lives in details — the pace of a street market, the etiquette of a shared meal, the way strangers are greeted — and these are absorbed through the senses rather than described in words. A traveller who orders unfamiliar food, mispronounces greetings and is politely corrected learns more about local values in a week than a reader might in a year. Direct encounters also dismantle stereotypes: people met face to face refuse to stay as simple as the images we brought with us.\n\nNevertheless, travel is not automatically enlightening. Tourists who move between international hotels and photo spots can circle the globe while meeting nobody, and a short holiday may even harden clichés if visitors see only what brochures promise. Meanwhile, books, films and language study supply the history and context that a two-week trip cannot; without such preparation, much of what a traveller sees remains pretty but meaningless. The deepest understanding therefore comes from combining study beforehand with genuine contact on the ground — ideally staying with local hosts, attempting the language and stepping off the well-worn tourist path.\n\nIn conclusion, first-hand experience remains the richest teacher of culture, but only when paired with background knowledge and an open mind. Travel opens the door; the traveller still has to walk through it.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'基本同意+条件(好奇心与准备)'的量化立场首尾一致;支持段与限制段都有具体行为场景(点菜出错学礼仪 vs 酒店-景点两点一线)，不停留在抽象层面。",
+              "Coherence & Cohesion(连贯衔接):The case for / Nevertheless / therefore / In conclusion 骨架清晰;'细节清单'破折号插入(街市节奏/餐桌礼仪/问候方式)紧凑列举;结尾'门与走过门'的比喻收束呼应立场。",
+              "Lexical Resource(词汇资源):dismantle stereotypes / harden clichés / pretty but meaningless / the well-worn tourist path 等表达准确带评价色彩;absorbed through the senses与described in words形成语义对照。",
+              "Grammatical Range & Accuracy(语法多样性):who定语从句串联三个动作、may even harden虚拟推测、without介词条件、分词短语(staying... attempting... stepping...)并列，复杂句密而不乱。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写介绍中国风光文化的回信(交际功能);雅思论证'旅行是否最佳学习文化方式'的认识命题。",
+              "论据来源:高考邮件直接化用课件示范句'breathtaking artwork painted by Mother Nature'词块;雅思用旅行者行为的普适分析(刻板印象、行前准备)。",
+              "语域:邮件热情第一人称(I would be happy to...);雅思学术评价语气，情感通过词汇色彩传递。",
+              "评分维度:高考重信息覆盖+邀请得体;雅思TR要求对'best way'量化表态——'broadly agree+条件'是精确回应。"
+            ]
+          },
+          "vocabHints": [
+            "absorbed through the senses",
+            "dismantle stereotypes",
+            "face to face",
+            "circle the globe while meeting nobody",
+            "harden clichés",
+            "supply history and context",
+            "genuine contact on the ground",
+            "an open mind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "野生动物之旅",
+      "titleEn": "A Wildlife Journey",
+      "desc": "拓展阅读核心：草原 alive with the African wildlife we had come to see——giraffes pulling leaves from the highest branches, elephants with ears flapping lazily，一幅移动的自然长卷。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "暑假里你参加了一次野生动物保护区研学活动。请你为校英文报写一篇英文短文，内容包括：1. 研学见闻；2. 你的收获与感想。注意：词数100左右。",
+          "reference": "This summer I joined a study trip to a wildlife reserve in Yunnan, and it turned out to be the most unforgettable lesson of my life.\n\nAt dawn, with the sun beating down on the grassland, our tents stood lined up facing the distant mountains. The plains were alive with the wildlife we had come to see: elephants were eating grass, ears flapping lazily as they moved slowly along, while birds rose in noisy clouds above the trees. Watching them, we hardly dared to breathe.\n\nOur guide reminded us that every species here depends on the whole chain of life. When we packed up to leave, no one left a single piece of rubbish behind. Nature offers us her beauty; the least we can do is protect it.",
+          "vocabHints": [
+            "a wildlife reserve",
+            "with the sun beating down on",
+            "lined up facing",
+            "alive with the wildlife we had come to see",
+            "ears flapping lazily",
+            "hardly dare to breathe",
+            "the chain of life",
+            "leave nothing behind"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that too much money is spent on protecting wild animals, and that it should be spent on the human population instead. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Whenever governments fund wildlife conservation, some object that the money would serve people better. I disagree with this view in its strict form, because protecting wild animals and serving human interests are not competing goals but deeply connected ones.\n\nAt first glance, the critics seem humane. Hospitals lack beds, schools lack teachers, and millions still live in poverty, so spending fortunes on tigers or rare cranes can look like sentimental luxury. Where budgets are tight, the argument runs, every coin should relieve human suffering first.\n\nThis reasoning, however, rests on a false separation between people and nature. Healthy ecosystems purify water, pollinate crops, stabilise the climate and support fisheries on which hundreds of millions depend; when a species disappears, the web that feeds and protects humans weakens with it. Conservation also pays directly: wildlife tourism funds schools and clinics in many rural regions, employing local people as guides and rangers. Moreover, the sums involved are tiny beside military or advertising budgets — the real choice is rarely between saving elephants and building hospitals, but between conservation and far less noble spending.\n\nThat said, conservation money must be spent wisely, prioritising whole habitats over headline species and involving local communities rather than fencing them out. Programmes that ignore the people living beside reserves usually fail, and deservedly so.\n\nIn conclusion, framing wildlife protection as a theft from human welfare misunderstands both sides of the ledger. A planet that keeps its wild animals is not indulging a hobby; it is maintaining the life-support system on which every human project ultimately depends.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):明确'不同意其严格形式'并以'人与自然利益相连'为核心论点;先公允呈现对方(预算紧张的道义直觉)再拆解其'虚假二分'，另加让步段(保护资金须用得其所)使立场立体。",
+              "Coherence & Cohesion(连贯衔接):At first glance / however / That said / In conclusion 层层推进;'生态服务→旅游收益→预算对比'三路反驳由虚到实排列;结尾'life-support system'回收核心论点。",
+              "Lexical Resource(词汇资源):sentimental luxury / headline species / fencing them out / both sides of the ledger / life-support system 等表达精准有力;pollinate/stabilise等生态动词专业到位。",
+              "Grammatical Range & Accuracy(语法多样性):on which定语从句、not A but B对比结构、分词状语(prioritising... involving...)、插入语(and deservedly so)干净利落。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写研学游记(见闻+感想);雅思写资金分配价值命题的议论文。",
+              "论据来源:高考游记织入课文'alive with the wildlife / ears flapping lazily'词块;雅思用生态经济学普适论据(生态服务、野生动物旅游)。",
+              "语域:游记有画面与抒情(hardly dared to breathe);雅思以逻辑拆解为主，力度在论证结构。",
+              "评分维度:高考重叙事生动+主题升华;雅思TR考察是否识破题目隐含的'二选一'预设——本文'false separation'正面拆解是高分思辨。"
+            ]
+          },
+          "vocabHints": [
+            "sentimental luxury",
+            "a false separation",
+            "purify water and pollinate crops",
+            "wildlife tourism",
+            "employ local people as rangers",
+            "headline species",
+            "fence out local communities",
+            "life-support system"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "与自然和谐同行",
+      "titleEn": "Travelling in Harmony with Nature",
+      "desc": "语法板块核心词块：be in (perfect) harmony with nature、sustainable development、not a bed of roses——把旅行的热情与对自然的尊重放在同一只行囊里。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "暑假将至，请你以学生会名义用英文写一份'绿色出行·文明旅游'倡议书，内容包括：1. 说明背景；2. 提出两三条倡议；3. 发出号召。注意：词数100左右。",
+          "reference": "Dear fellow students,\n\nThe summer holiday is coming, and many of us are planning trips. However, travelling is not always a bed of roses for nature: rubbish, noise and crowds are hurting the very scenery we love. The Student Union hereby calls on everyone to travel green.\n\nFirst, respect wildlife — watch animals from a distance instead of feeding them. Second, reduce waste by carrying your own water bottle and taking your rubbish away with you. Third, choose public transport whenever possible.\n\nTravelling in harmony with nature is the only sustainable way to enjoy it. Let's make sure the breathtaking scenery that unfolds before our eyes today will still be there tomorrow!\n\nThe Student Union",
+          "vocabHints": [
+            "not a bed of roses",
+            "the very scenery we love",
+            "call on everyone to",
+            "watch from a distance",
+            "reduce waste",
+            "in harmony with nature",
+            "sustainable",
+            "unfold before our eyes"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Tourism brings money to many places, but it can also damage the environment. Do the advantages of tourism outweigh its disadvantages? (Write at least 250 words.)",
+          "reference": "As global travel becomes cheap, tourists pour into beaches, mountains and ancient towns in unprecedented numbers. Whether the benefits of tourism outweigh its environmental costs is hotly debated; my view is that the advantages can outweigh the disadvantages, but only where tourism is deliberately managed.\n\nThe economic case for tourism is powerful. It creates jobs for guides, hoteliers and farmers, channels income into regions with few other industries, and gives governments a financial reason to protect scenery and wildlife: a forest that attracts visitors earns more standing than felled. Tourism also funds the maintenance of parks and heritage sites, and exposure to natural beauty builds public support for conservation itself.\n\nThe environmental ledger, however, records real damage. Flights and cruise ships emit greenhouse gases; hotels drain water in dry regions; coral reefs are trampled and littered; and quiet ecosystems are disturbed by crowds and construction precisely because they are beautiful. Unmanaged, the industry can consume the very attractions it sells — a process already visible at overcrowded destinations worldwide.\n\nThe decisive factor is therefore regulation. Visitor caps, entrance fees reinvested in protection, strict building rules and well-designed trails allow places to profit from tourism while limiting harm; several island nations and national parks already demonstrate that high-value, low-volume tourism works. Where such rules are absent, growth quickly turns destructive.\n\nIn conclusion, tourism is neither friend nor enemy of the environment by nature. Managed with discipline, it funds and motivates protection, and its benefits then genuinely outweigh the costs; left to expand freely, it degrades whatever it touches.",
+          "wordCount": 257,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对outweigh题给出条件性裁决(管理得当则利大于弊)且全文围绕'管理'这一变量展开;正反两段均有机制性论据(森林'站着比砍倒值钱' vs 行业消耗自身卖点)。",
+              "Coherence & Cohesion(连贯衔接):economic case / environmental ledger / decisive factor 三段功能分明;分号排比列举四类环境损害节奏紧凑;结论用对仗句(Managed... / left to expand freely...)双向收束。",
+              "Lexical Resource(词汇资源):pour into / channels income / earns more standing than felled / the environmental ledger / high-value, low-volume tourism 等经济与生态双话题词汇自如切换。",
+              "Grammatical Range & Accuracy(语法多样性):precisely because强调因果、Unmanaged独词分词条件、where状语从句表条件、冒号解释性展开，句式多样且零重大错误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写绿色旅游倡议书(背景+倡议+号召);雅思写利弊权衡议论文。",
+              "论据来源:高考倡议织入课件'in harmony with / not a bed of roses / sustainable'词块;雅思用旅游经济学与环境治理的普适论据。",
+              "语域:倡议书有感叹号召;雅思冷静权衡，判断词(deliberately/decisive)承载态度。",
+              "评分维度:高考重倡议可行+号召力;雅思TR的outweigh题需给出净值判断——本文'条件性利大于弊'比简单二选一更显思辨。"
+            ]
+          },
+          "vocabHints": [
+            "pour into",
+            "channel income into",
+            "earn more standing than felled",
+            "the environmental ledger",
+            "trampled and littered",
+            "visitor caps",
+            "reinvested in protection",
+            "high-value, low-volume tourism"
+          ]
+        }
+      ]
+    }
+  ]
+}
