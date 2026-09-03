@@ -1,0 +1,184 @@
+{
+  "mainTopic": "基因与健康",
+  "mainTopicEn": "Genes and Health",
+  "mainTopicBrief": "本单元围绕生命科学与健康展开，涵盖基因编辑的前景与伦理（Reading）、针灸与传统医学（Extended reading）和守护视力健康（Integrated skills）三个子话题——健康与科技伦理既是高考应用文'倡议/介绍'类的常客，也是雅思科技与健康类议论文的核心命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "基因编辑：机遇与伦理",
+      "titleEn": "Genome Editing: Promise and Ethics",
+      "desc": "课文核心：none are as game-changing as genome editing——它是 an effective means of disease treatment and prevention，但 as the technology develops at a fast pace, questions arise about how to use it appropriately。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "上周你参加了学校举办的基因科学讲座。请你用英文为校刊写一篇短文，内容包括：1. 讲座的主要内容；2. 你印象最深的部分；3. 你的感想。注意：词数100左右。",
+          "reference": "Last Friday, our school invited a professor from a local university to give a lecture on genome editing, and I was lucky enough to attend.\n\nThe professor explained that genes play a critical role in shaping our lives, and that genome editing is considered an effective means of disease treatment and prevention. By correcting abnormal genes early on, doctors may even make it possible to prevent some diseases from ever developing. No wonder many scientists see it as a new weapon in the fight against diseases.\n\nWhat impressed me most, however, was the discussion at the end. As the technology continues to develop at a fast pace, questions arise about how to use it appropriately. Science, I realised, needs both courage and caution.",
+          "vocabHints": [
+            "give a lecture on",
+            "play a critical role in shaping our lives",
+            "an effective means of disease treatment and prevention",
+            "correct abnormal genes early on",
+            "make it possible to prevent diseases from developing",
+            "a new weapon in the fight against diseases",
+            "develop at a fast pace",
+            "questions arise about"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Genetic research is developing rapidly. Some people believe it brings great benefits to humanity, while others worry that it interferes with nature and may be misused. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Few scientific advances provoke stronger feelings than genetic research. Enthusiasts foresee the conquest of hereditary disease, while critics warn of arrogance toward nature and the abuse of power. After considering both positions, I believe the research should continue, but only inside firm ethical walls.\n\nThe promise is difficult to overstate. Thousands of disorders arise from faulty genes, and therapies that repair these errors could spare families generations of suffering. Genetic screening already helps doctors match treatments to individual patients, and modified crops resist drought in regions where harvest failure once meant famine. To halt such work would be to choose, knowingly, the continuation of preventable misery.\n\nThe dangers, however, are equally real. Techniques able to cure can also be used to enhance, and a market in \"designer\" advantages would harden social inequality into biology itself. Errors introduced into human embryos would pass to future generations who never consented, and genetic data held by insurers or governments invites discrimination. History shows that when powerful technologies outrun regulation, the poor and voiceless pay first.\n\nThe sensible course is therefore neither prohibition nor a free market, but strict governance: international rules that distinguish therapy from enhancement, independent review of experiments, transparency about results, and severe penalties for misuse. Nuclear technology, similarly double-edged, has been managed this way for decades — imperfectly, yet without catastrophe.\n\nIn conclusion, genetic research is a race between wisdom and recklessness. Its medical rewards are too great to abandon, but they will remain blessings only if law and ethics advance at the same pace as the science itself.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点充分展开(收益:遗传病治疗/精准医疗/抗旱作物;风险:设计婴儿固化不平等/代际同意/数据歧视)，立场'继续但设伦理之墙'并配套四项治理措施，讨论后有真正的解决方案。",
+              "Coherence & Cohesion(连贯衔接):The promise / The dangers, however / The sensible course therefore / In conclusion 四段路标干净;核动力类比为治理方案提供先例支撑;结尾'wisdom vs recklessness'回收全文张力。",
+              "Lexical Resource(词汇资源):conquest of hereditary disease / harden social inequality into biology / outrun regulation / double-edged / a race between wisdom and recklessness 等表达兼具精确与力度。",
+              "Grammatical Range & Accuracy(语法多样性):To halt such work would be to choose不定式主语的虚拟判断、who never consented定语从句嵌套、冒号引出四项并列治理措施、插入语(imperfectly, yet without catastrophe)运用娴熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写讲座报道/心得(记叙+感想);雅思写科技伦理双边议论文。",
+              "论据来源:高考短文严格织入课文'game-changing / new weapon in the fight against diseases'词块;雅思用基因科学的普适论据(基因筛查、设计婴儿、核技术类比)。",
+              "语域:校刊短文带个人叙事(I was lucky enough to attend);雅思通篇客观论证，个人仅在立场句出现。",
+              "评分维度:高考重内容完整+感想真实;雅思TR维度要求讨论后立场可操作——本文治理方案四要素是超越空泛结论的得分亮点。"
+            ]
+          },
+          "vocabHints": [
+            "hereditary disease",
+            "spare families generations of suffering",
+            "genetic screening",
+            "harden inequality into biology",
+            "pass to future generations",
+            "outrun regulation",
+            "distinguish therapy from enhancement",
+            "double-edged"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "针灸与传统医学",
+      "titleEn": "Acupuncture & Traditional Medicine",
+      "desc": "拓展阅读核心：There is evidence that acupuncture dates back to the Stone Age, when stone tools called bian were used to press areas of the body——针灸是中医智慧的活化石。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校下周六将举办中医文化体验日活动。请你用英文给对中国文化感兴趣的外国朋友 Leo 写一封邮件，邀请他参加，内容包括：1. 活动时间地点；2. 活动内容（如针灸展示）；3. 表达期待。注意：词数100左右。",
+          "reference": "Dear Leo,\n\nHow is everything going? Knowing that you have been interested in traditional Chinese culture, I'm writing to invite you to a Traditional Chinese Medicine experience day at our school hall next Saturday, starting at 9 a.m.\n\nThe highlight will be acupuncture. There is evidence that acupuncture dates back to the Stone Age, when stone tools were used to press areas of the body. Today doctors use fine needles instead, and many patients find it helpful for pain relief. During the activity, a doctor from a local TCM hospital will demonstrate how it works, and we can also learn to recognise common Chinese herbs.\n\nI'm sure the day will offer you a window into Chinese wisdom. Looking forward to your reply.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "There is evidence that",
+            "date back to the Stone Age",
+            "press areas of the body",
+            "fine needles",
+            "pain relief",
+            "demonstrate how it works",
+            "a window into Chinese wisdom",
+            "look forward to your reply"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Traditional medicine is becoming more popular in many countries. Some people trust traditional treatments more than modern medicine, while others doubt their effectiveness. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "In many countries, clinics offering herbal remedies, acupuncture and other time-honoured treatments now stand beside modern hospitals, and patients increasingly wonder which door to enter. Some trust tradition; others trust only laboratory science. In my view the two approaches are complements rather than rivals, though scientific testing must remain the final judge.\n\nSupporters of traditional medicine offer respectable arguments. Therapies refined over many centuries embody accumulated observation of the human body, and several — acupuncture for pain relief being the best-known example — have earned recognition from mainstream researchers. Traditional practice also tends to treat the patient as a whole person, addressing sleep, diet and stress where a rushed prescription may not, and it is often cheaper and more culturally familiar, which matters greatly in communities where hospitals feel foreign.\n\nSceptics reply that longevity is not proof. Remedies that were never properly tested may be useless or even harmful, and the gravest danger arises when patients abandon proven treatment for serious illness in favour of unverified alternatives. Cancer delayed is cancer advanced; no cultural respect can excuse that cost. Furthermore, an unregulated market invites fraud, with miracle cures sold to the desperate at their most vulnerable moment.\n\nThe reasonable settlement, I believe, is integration under evidence. Traditional therapies should be researched with the same rigour as new drugs: those that pass become part of medicine proper, as several already have, while those that fail should be honestly retired. Patients deserve both the accumulated wisdom of the past and the tested certainty of the present — a mature health system refuses to make them choose blindly between the two.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点论据具体(传统方:经验积累/整体观/文化可及性;质疑方:未经检验/延误治疗/市场欺诈)，立场'证据之下的整合'是真正的第三条路而非骑墙，并给出可执行标准(与新药同等严格的检验)。",
+              "Coherence & Cohesion(连贯衔接):Supporters / Sceptics reply / The reasonable settlement 对话式推进;'Cancer delayed is cancer advanced'的顶针警句成为质疑段的情感重心;首段'which door to enter'意象与结尾'choose blindly'呼应。",
+              "Lexical Resource(词汇资源):time-honoured treatments / accumulated observation / medicine proper / honestly retired / tested certainty 等表达精准;being the best-known example的独立主格插入自然。",
+              "Grammatical Range & Accuracy(语法多样性):分号对举(Some trust tradition; others...)、where定语从句表条件语境、with复合结构(with miracle cures sold...)、冒号引出处理规则，结构丰富且准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写邀请邮件(时间地点+内容+期待);雅思写医学观念双边议论文。",
+              "论据来源:高考邮件织入课文'dates back to the Stone Age'词块介绍针灸;雅思将针灸匿名化为'best-known example'，论据取自循证医学的普适框架。",
+              "语域:邮件私人热情(How is everything going?);雅思冷静权衡，关切通过'at their most vulnerable moment'等措辞传递。",
+              "评分维度:高考重信息完整+邀请得体;雅思CC维度看观点交锋的组织——本文'Sceptics reply'的回应式结构优于平行罗列。"
+            ]
+          },
+          "vocabHints": [
+            "time-honoured treatments",
+            "embody accumulated observation",
+            "treat the patient as a whole person",
+            "culturally familiar",
+            "longevity is not proof",
+            "abandon proven treatment",
+            "integration under evidence",
+            "with the same rigour as"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "守护视力健康",
+      "titleEn": "Protecting Our Eyesight",
+      "desc": "综合技能板块核心：近视数据 fuel concerns about eyesight problems——The figures disturb the school authorities, who have decided to tackle this problem head-on。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "针对学生近视率上升的问题，请你以学生会名义用英文写一份倡议书，内容包括：1. 说明现状；2. 提出两三条护眼建议；3. 发出号召。注意：词数100左右。",
+          "reference": "Dear fellow students,\n\nRecent figures about the number of short-sighted students in our school have fuelled concerns about eyesight problems, and the school authorities have decided to tackle this problem head-on. As members of the Student Union, we hereby propose the following.\n\nFirst, give your eyes a break. After every forty minutes of study, look into the distance or do eye exercises. Second, limit screen time — try not to bury yourself in your phone before bedtime. Third, spend more time outdoors, as natural light protects our eyes.\n\nBright eyes light up a bright future. Let's take action now, before thick glasses become part of everyone's face!\n\nThe Student Union",
+          "vocabHints": [
+            "fuel concerns about",
+            "eyesight problems",
+            "tackle the problem head-on",
+            "hereby propose the following",
+            "give your eyes a break",
+            "limit screen time",
+            "bury oneself in one's phone",
+            "take action now"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "The health of young people is declining partly because they spend too much time on electronic devices. Some people think schools should be responsible for solving this problem, while others believe parents should. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As screens absorb ever more of childhood, doctors report rising short-sightedness, poorer sleep and weaker fitness among the young. Society agrees the problem is urgent but argues about whose duty it is to act: the school's or the family's. My position is that parents bear the primary responsibility, while schools serve as indispensable partners.\n\nThose who look to schools have logic on their side. Children spend the better part of their waking hours in class, and teachers command both expertise and authority. Schools can schedule daily exercise, teach the science of eye care and healthy habits, restrict phone use on campus, and spot problems early through routine health checks. Because they reach every child, school policies also protect those whose parents lack the time or knowledge to help.\n\nNevertheless, the decisive battleground is the home. It is parents who buy the devices, set — or fail to set — limits on evening use, choose between outdoor weekends and indoor ones, and model behaviour itself: a father scrolling through dinner teaches more powerfully than any poster in a corridor. Habits formed at home also operate during holidays and weekends, precisely when screen time peaks. Where families enforce reasonable rules, school campaigns take root; where they do not, even the strictest timetable is undone at the front gate.\n\nIn conclusion, responsibility is shared but not equal. Schools should educate, organise activity and restrain use within their walls, yet the daily decisions that shape a child's health are made at home. The most effective arrangement is an alliance in which teachers supply knowledge and structure, while parents supply consistent enforcement and a living example.",
+          "wordCount": 271,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双方职责均具体展开(学校:课程/校规/体检兜底;家庭:购买决策/规则执行/身教)，立场'家长为主、学校为伴'有明确权重而非平均分配，结论落到'联盟'的分工方案。",
+              "Coherence & Cohesion(连贯衔接):Those who look to schools / Nevertheless / In conclusion 骨架清楚;'scrolling through dinner vs poster in corridor'对比意象点睛;分号对仗(Where families enforce...; where they do not...)强化因果。",
+              "Lexical Resource(词汇资源):the decisive battleground / model behaviour / take root / undone at the front gate / a living example 等表达形象而准确;It is parents who强调句突出归因。",
+              "Grammatical Range & Accuracy(语法多样性):强调句、破折号插入(set — or fail to set —)、precisely when时间状语、in which定语从句收尾，句式控制成熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写学生会倡议书(现状+建议+号召);雅思写责任归属双边议论文。",
+              "论据来源:高考倡议书织入课件'fuel concerns / tackle head-on'词块;雅思用家庭教育与学校职能的普适分析。",
+              "语域:倡议书鼓动性口号(Bright eyes light up a bright future);雅思论证冷静，力度来自对比而非感叹。",
+              "评分维度:高考重号召力+建议可行;雅思TR要求两方讨论后明确权重——'shared but not equal'是比'都有责任'更高分的立场表述。"
+            ]
+          },
+          "vocabHints": [
+            "screens absorb ever more of childhood",
+            "command expertise and authority",
+            "routine health checks",
+            "the decisive battleground",
+            "model behaviour",
+            "screen time peaks",
+            "take root",
+            "consistent enforcement"
+          ]
+        }
+      ]
+    }
+  ]
+}

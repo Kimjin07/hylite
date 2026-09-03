@@ -1,0 +1,184 @@
+{
+  "mainTopic": "新闻与媒体素养",
+  "mainTopicEn": "News and Media Literacy",
+  "mainTopicBrief": "本单元围绕新闻与大众传媒展开，涵盖做有判断力的新闻读者（Reading）、广告的说服力（Extended reading）和网络新闻时代（Integrated skills）三个子话题——媒体素养是高考应用文'调查报告/建议'类的常见场景，也是雅思媒体类议论文的最高频命题区之一。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "做有判断力的新闻读者",
+      "titleEn": "Be a Critical News Reader",
+      "desc": "课文核心：两篇同一场大火的报道为何不同——even if written from basically the same perspective, they may contradict each other in terms of factual detail；结论是 use our own judgement 而非 rely entirely on news reports。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"How to Be a Critical News Reader\" 为题征稿。请你写一篇短文，谈谈如何做一个有判断力的新闻读者，内容包括：1. 为什么需要批判性地读新闻；2. 你的两三条具体建议。注意：词数100左右。",
+          "reference": "We rely on news to learn about what is happening in the world around us, but not every report tells the whole story. How, then, can we become critical news readers?\n\nFirst, compare different reports of the same event. Even if they are written from basically the same perspective, they may contradict each other in terms of factual detail, so never rush to the conclusion that one report must be false. Second, learn to discriminate facts from opinions: one report may pay more attention to the rescue efforts, while another talks more about deaths and injuries — neither is lying, but each has made a choice.\n\nFinally, remember that although journalists are committed to presenting the truth, it is better to use our own judgement than rely entirely on news reports.",
+          "vocabHints": [
+            "rely on news to learn about",
+            "a critical news reader",
+            "from basically the same perspective",
+            "contradict each other",
+            "in terms of factual detail",
+            "rush to the conclusion that",
+            "discriminate facts from opinions",
+            "use our own judgement"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people say that we cannot trust the news media because journalists always present information from their own point of view. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is often argued that news can never be fully trusted because every journalist filters events through a personal lens. While I accept that complete objectivity is impossible, I disagree that this justifies abandoning trust in the media altogether; the wiser response is critical engagement rather than blanket suspicion.\n\nAdmittedly, bias is built into the trade. Editors decide which stories deserve the front page, which quotations are cut, and which photographs frame an event, and each of these choices quietly shapes what audiences believe. Two outlets covering the same protest may produce accounts so different that readers wonder whether they describe the same day. In commercial media, moreover, the pressure to attract clicks rewards drama over accuracy, which further erodes public confidence.\n\nHowever, imperfection is not the same as worthlessness. Reputable organisations operate under professional codes: claims are checked against multiple sources, corrections are published, and reporters who fabricate stories lose their careers. Without such institutions, citizens would depend on rumour and social media, where no verification exists at all. The practical solution, therefore, is not to reject journalism but to consume it intelligently — comparing several outlets, separating factual reporting from opinion columns, and asking who benefits from a particular framing. A reader who does this consistently is rarely misled for long.\n\nIn conclusion, although perfect neutrality is beyond any human writer, professional journalism remains far more reliable than the unfiltered alternatives. Rather than dismissing the news wholesale, we should treat it as evidence to be weighed — valuable, but always subject to our own judgement.",
+          "wordCount": 257,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):立场清晰且有层次——承认'完全客观不可能'但反对'因此全盘不信'，提出第三条路'批判性消费'；让步段(bias built into the trade)与反驳段(imperfection ≠ worthlessness)均有具体机制支撑，不空喊。",
+              "Coherence & Cohesion(连贯衔接):四段式让步-反驳结构；Admittedly/However/therefore/In conclusion 路标明确；段内'编辑选择→读者认知→商业压力'逐层递进，破折号插入语补充而不打断主线。",
+              "Lexical Resource(词汇资源):filters events through a personal lens / blanket suspicion / erodes public confidence / fabricate stories / dismissing the news wholesale 等媒体话题地道搭配；'evidence to be weighed'收尾比喻精准。",
+              "Grammatical Range & Accuracy(语法多样性):which引导的非限定从句、moreover插入、not A but B平行结构(not to reject journalism but to consume it intelligently)、分词短语列举(comparing... separating... asking...)交替使用，无碍解错误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写'如何批判性读新闻'的方法短文(给同龄人支招);雅思要论证'媒体可信度'这一认识论命题并明确同意程度。",
+              "论据来源:高考范文可直接化用课文火灾报道对比的例子;雅思须用普适论据(编辑选择机制、专业守则、社交媒体对照)，不引课本。",
+              "语域:高考短文允许设问句拉近读者(How, then, can we...);雅思通篇学术书面语，第一人称仅用于立场声明。",
+              "评分维度:高考按内容要点+语言丰富度给档;雅思TR维度专门考察'To what extent'是否量化回应——本文用'部分同意+条件'精确作答。"
+            ]
+          },
+          "vocabHints": [
+            "filter events through a personal lens",
+            "blanket suspicion",
+            "bias is built into the trade",
+            "erode public confidence",
+            "operate under professional codes",
+            "fabricate stories",
+            "separate factual reporting from opinion",
+            "evidence to be weighed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "广告的说服力",
+      "titleEn": "The Power of Advertising",
+      "desc": "拓展阅读核心：广告 tries to persuade people to buy a product or service，成功的广告 will create a desire to buy, thus boosting business——公司为此 launches a mass media advertising campaign。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班英语角将举行以 \"Advertising: Friend or Foe?\" 为题的讨论会。请你准备一篇发言稿，谈谈广告的利与弊，内容包括：1. 广告的好处；2. 广告的问题；3. 你的态度。注意：词数100左右。",
+          "reference": "Good afternoon, everyone. Today I'd like to share my thoughts on advertising — is it a friend or a foe?\n\nOn the one hand, advertising is useful. When a company wants to promote a product or service, it launches a mass media advertising campaign, and a successful advertisement will create a desire to buy, thus boosting business. Ads at peak times also help us learn about new products quickly.\n\nOn the other hand, advertising tries to persuade people to buy things they may not really need, and some ads even exaggerate the facts.\n\nIn short, advertising is a double-edged sword. As consumers, let's enjoy its convenience but always keep a critical eye. Thank you!",
+          "vocabHints": [
+            "promote a product or service",
+            "launch a mass media advertising campaign",
+            "create a desire to buy",
+            "thus boosting business",
+            "at peak times",
+            "persuade people to buy",
+            "in short",
+            "keep a critical eye"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people claim that advertising has a negative influence on society because it encourages consumers to buy things they do not really need. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Advertising is frequently accused of manufacturing desire: critics claim it persuades people to buy products they neither need nor truly want. I largely agree with this criticism, although I would argue that the fault lies less in advertising itself than in the way it is regulated and consumed.\n\nThe case against advertising is strong. Modern campaigns rarely confine themselves to announcing that a product exists; instead, they attach emotions to it. A soft drink is sold as friendship, a car as freedom, a phone as social status. Because these associations bypass rational judgement, consumers often purchase goods to satisfy feelings rather than needs, and the constant cycle of upgrading — new models, new fashions, new packaging — deepens both household debt and environmental waste. Children are especially vulnerable, since they cannot yet distinguish persuasion from information.\n\nNevertheless, advertising performs functions that societies would miss. It finances much of the journalism and entertainment people enjoy free of charge, informs the public about genuine innovations, and enables small businesses to compete with established giants. The real problem is therefore unregulated persuasion rather than promotion as such. Strict rules on truthfulness, clear labelling of sponsored content and firm limits on advertising aimed at children would preserve the informative value of the industry while curbing its manipulative excesses.\n\nIn conclusion, I agree that much contemporary advertising encourages needless consumption by trading on emotion rather than fact. Yet the sensible response is tighter regulation and better consumer education, not the abolition of an industry that, at its best, keeps markets open and information flowing.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):明确'基本同意'并立即加限定(错在监管与消费方式而非广告本身)，全文围绕该细化立场展开；批评段三连例(软饮=友谊/汽车=自由/手机=地位)具体可感，解决方案段落实到三项可操作监管措施。",
+              "Coherence & Cohesion(连贯衔接):The case against / Nevertheless / therefore / In conclusion 骨架清晰；'情感绑定→绕过理性→过度消费→债务与浪费'因果链条完整；结尾回收开头的'manufacturing desire'。",
+              "Lexical Resource(词汇资源):manufacturing desire / bypass rational judgement / curbing its manipulative excesses / trading on emotion rather than fact 等高阶表达自然嵌入；'promotion as such'的书面语限定用法准确。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出观点、分号并列、since原因从句、while对比状语、同位语插入(new models, new fashions, new packaging)多结构交替；被动与主动语态按信息焦点切换。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写英语角发言稿，有称呼致谢等交际框架;雅思为纯议论文，直接进入论证。",
+              "论据来源:高考发言稿织入课文'launch a mass media advertising campaign'等词块;雅思用广告业运作的普适分析(媒体融资、儿童保护、监管设计)。",
+              "语域:发言稿可用设问和感叹(is it a friend or foe?);雅思保持客观学术语气，评价通过词汇选择(accused/vulnerable)传递。",
+              "评分维度:高考发言稿重交际得体+要点覆盖;雅思LR维度要求'精确性'——本文manufacturing/curbing/trading on等动词选择即是得分点。"
+            ]
+          },
+          "vocabHints": [
+            "manufacture desire",
+            "attach emotions to a product",
+            "bypass rational judgement",
+            "the cycle of upgrading",
+            "distinguish persuasion from information",
+            "sponsored content",
+            "curb manipulative excesses",
+            "trade on emotion rather than fact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "网络新闻时代",
+      "titleEn": "The Age of Online News",
+      "desc": "综合技能板块核心：The past decades have witnessed the rapid development of online news media——人们可以在网上读到 the same content as is printed in the newspapers。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语社团就'学生获取新闻的方式'开展了问卷调查。请你用英文为校英文报写一份调查报告，内容包括：1. 调查结果；2. 简要分析；3. 你的建议。注意：词数100左右。",
+          "reference": "Last week, our English club conducted a survey on how students in our school get their daily news.\n\nThe results are interesting. About seventy percent of the students read news on their mobile phones. As they see it, the past decades have witnessed the rapid development of online news media, and they can read the same content online as is printed in the newspapers — anytime, anywhere. Only ten percent still read printed newspapers regularly, while the rest rely mainly on short videos.\n\nMost students enjoy the convenience of online news, but many admit that they sometimes rush to conclusions before checking the facts. Therefore, we suggest that students compare different sources and read news critically rather than believe everything at first sight.",
+          "vocabHints": [
+            "conduct a survey on",
+            "the past decades have witnessed",
+            "the rapid development of online news media",
+            "the same content as is printed in",
+            "anytime, anywhere",
+            "rush to conclusions",
+            "compare different sources",
+            "read news critically"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "More and more people now read news online, and printed newspapers may soon disappear. Do the advantages of this development outweigh the disadvantages? (Write at least 250 words.)",
+          "reference": "As news migrates to screens, many predict the disappearance of printed newspapers within a generation. In my view, the benefits of this shift clearly outweigh the drawbacks, although what is being lost deserves honest acknowledgement.\n\nThe advantages are substantial. Online news is immediate: a developing story can be updated minute by minute instead of waiting for tomorrow's edition. It is also accessible and cheap, allowing a student in a remote town to read the same reports as a banker in the capital, often without charge. Digital distribution further saves the enormous quantities of paper, ink and fuel that printing and delivery consume, so the environmental argument is difficult to ignore. Finally, readers can compare dozens of sources instantly, something physically impossible with paper.\n\nAgainst this stand two genuine losses. The first is economic: as advertising revenue follows readers online, many local papers close, and communities lose the journalists who once reported on councils and courts. The second is behavioural: algorithm-driven feeds reward speed and outrage, encouraging skimming and rushed conclusions, whereas the finite, carefully edited newspaper imposed a slower and broader reading habit. Yet neither problem is inseparable from the technology itself; subscription models are already reviving serious outlets, and digital front pages can be edited as responsibly as printed ones.\n\nOn balance, the movement of news from paper to screen widens access, quickens reporting and lightens the industry's environmental footprint, while its costs stem from business models rather than the medium itself. Provided quality journalism finds sustainable funding online, the fading of print should be read as progress, not decline.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对outweigh题型给出明确裁决(利大于弊)且不回避代价——两项'genuine losses'(地方报消亡/算法阅读习惯)展开充分后再逐一化解，论证诚实而非一边倒。",
+              "Coherence & Cohesion(连贯衔接):优势段四点按'即时→普惠→环保→可比对'排列;劣势段'The first is economic... The second is behavioural...'显性编号;Yet转折后立即给出化解机制，On balance收束。",
+              "Lexical Resource(词汇资源):news migrates to screens / algorithm-driven feeds reward speed and outrage / lightens the environmental footprint / the fading of print 等话题精准表达；'read as progress'一词双关呼应新闻主题。",
+              "Grammatical Range & Accuracy(语法多样性):whereas对比从句、分词独立结构(allowing a student...)、something同位语、Provided条件句、被动语态(is being lost)灵活穿插，长短句节奏交替。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写校园调查报告(数据+分析+建议三段式);雅思写利弊权衡议论文，须给出outweigh的明确结论。",
+              "论据来源:高考报告数据可自行设定并织入课件'witnessed the rapid development'词块;雅思论据取自新闻业真实生态(广告收入迁移、订阅制复兴)。",
+              "语域:调查报告用we suggest等团体口吻;雅思用In my view/On balance的个人学术立场。",
+              "评分维度:高考重数据呈现清楚+建议合理;雅思CC维度考察让步-化解的段内逻辑——本文'Yet neither problem is inseparable...'是典型高分转折。"
+            ]
+          },
+          "vocabHints": [
+            "news migrates to screens",
+            "updated minute by minute",
+            "digital distribution",
+            "advertising revenue",
+            "algorithm-driven feeds",
+            "encourage skimming",
+            "subscription models",
+            "environmental footprint"
+          ]
+        }
+      ]
+    }
+  ]
+}

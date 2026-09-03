@@ -1,0 +1,184 @@
+{
+  "mainTopic": "体育与奥运精神",
+  "mainTopicEn": "Sports and the Olympic Spirit",
+  "mainTopicBrief": "本单元围绕体育运动展开，涵盖奥运精神与传奇运动员（Reading）、体育习语融入日常语言（Extended reading）和正确看待输赢（Integrated skills）三个子话题——体育是高考应用文'活动/人物'类的高频场景，也是雅思教育与社会类议论文的经典命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "奥运精神与传奇运动员",
+      "titleEn": "The Olympic Spirit",
+      "desc": "课文核心：顾拜旦 brought the Olympics back to life；运动员 motivated by the Olympic motto 'Faster, Higher, Stronger'，devoted themselves to achieving sporting excellence and pushing the boundaries of human achievement。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校将举办体育节开幕式，你受邀作为学生代表用英文发言，谈谈'我最敬佩的运动员'。请写一篇发言稿，内容包括：1. 该运动员的事迹；2. 你敬佩的原因；3. 对同学们的号召。注意：词数100左右。",
+          "reference": "Good morning, everyone. It is a great honour to speak at our sports festival.\n\nThe athlete I admire most is a boxing champion who came to public attention during the 1960 Rome Olympics, when he won a gold medal for his country, demonstrating great talent and personality in the process. Motivated by the Olympic motto \"Faster, Higher, Stronger\", he devoted himself to achieving sporting excellence and pushing the boundaries of human achievement.\n\nWhat touches me most is not the medals, but the spirit of solidarity and fair play behind them. True athletes test their ability against each other in the hope of bringing out the best in everyone.\n\nLet's carry this spirit into our studies and lives. Thank you!",
+          "vocabHints": [
+            "come to public attention",
+            "demonstrate great talent and personality",
+            "motivated by the Olympic motto",
+            "devote oneself to",
+            "achieve sporting excellence",
+            "push the boundaries of human achievement",
+            "in the spirit of solidarity and fair play",
+            "test their ability against each other"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that hosting international sporting events such as the Olympic Games brings great benefits to a country, while others believe it is an expensive waste of money. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whenever a city bids for the Olympic Games, the same debate ignites: supporters promise national renewal, while opponents see a festival of waste. Having weighed both positions, I believe hosting can be genuinely worthwhile, but only for countries that already possess most of the required infrastructure.\n\nThe case for hosting rests on more than money. A successful Games raises a country's international profile, attracts tourists for years afterwards, and accelerates investment in transport, housing and sports facilities that residents continue to use long after the athletes leave. The intangible benefits matter too: shared national pride, thousands of volunteers gaining organisational skills, and children inspired to take up sport after watching competition at the highest level.\n\nSceptics, however, point to a long record of financial disaster. Stadiums built for a fortnight of competition often decay into expensive ruins; budgets are routinely exceeded several times over; and the billions spent might have funded hospitals or schools instead. In developing countries especially, the opportunity cost of prestige projects can be painful, and the promised tourism boom frequently fails to materialise once the closing ceremony ends.\n\nIn my opinion, the deciding factor is preparation, not principle. Cities that reuse existing venues and integrate the Games into long-term urban plans convert a short event into lasting public assets; cities that build from nothing for the sake of spectacle almost guarantee regret. Hosting the Olympics is therefore neither a blessing nor a curse in itself: it is an amplifier, magnifying the wisdom or the vanity of the government that stages it.",
+          "wordCount": 255,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均衡展开(收益段:形象/旅游/基建/无形资产;质疑段:场馆荒废/超支/机会成本)，个人立场'取决于既有基建与规划'超越简单站队，结论'放大器'比喻将条件立场收束成形。",
+              "Coherence & Cohesion(连贯衔接):The case for / Sceptics, however / In my opinion 三段路标工整;分号并列三项财务弊端节奏紧凑;首段设置debate场景与末段amplifier意象前后呼应。",
+              "Lexical Resource(词汇资源):bids for / national renewal / decay into expensive ruins / fail to materialise / prestige projects / for the sake of spectacle 等大型赛事话题的精准词群；blessing nor a curse的习语化收尾。",
+              "Grammatical Range & Accuracy(语法多样性):Having weighed分词完成式开题、that限定从句嵌套、might have funded虚拟过去、neither...nor平行、冒号解释性引入，句式密度高且零重大错误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写体育节发言稿(称呼+事迹+号召);雅思为discuss both views双边议论文，需第三方立场。",
+              "论据来源:高考发言稿直接化用课文阿里1960罗马奥运夺金与奥运格言词块;雅思用主办城市经济学的普适论据(场馆再利用、机会成本)，课本素材已匿名化。",
+              "语域:发言稿有What touches me most等抒情句;雅思情感通过painful/vanity等词汇克制传递。",
+              "评分维度:高考重要点齐全+感染力;雅思TR要求双方分量均衡——本文两个主体段长度论点数对等，是discuss题型的关键得分点。"
+            ]
+          },
+          "vocabHints": [
+            "bid for the Olympic Games",
+            "raise a country's international profile",
+            "accelerate investment in",
+            "intangible benefits",
+            "decay into expensive ruins",
+            "opportunity cost",
+            "fail to materialise",
+            "convert a short event into lasting assets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "体育融入日常语言",
+      "titleEn": "Sports Idioms in Everyday Language",
+      "desc": "拓展阅读核心：Since sport is an inseparable part of day-to-day life, there are lots of sports idioms that have found their way into everyday language——足球、棒球等运动为英语贡献了大量习语。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语角将举办'趣味英语'分享会，你准备以体育习语为主题发言。请写一篇发言稿，内容包括：1. 体育习语进入日常语言的现象；2. 举例说明一两个习语的来源和用法；3. 学习建议。注意：词数100左右。",
+          "reference": "Hello, everyone! Welcome to today's English corner. My topic is sports idioms.\n\nSince sport is an inseparable part of day-to-day life, lots of sports idioms have found their way into everyday language. Take football. In a match, players try to kick or head the ball into the opposing team's goal, so English borrows many vivid expressions from the pitch. Baseball gives us another example: a batter is out if he makes three unsuccessful attempts to hit the ball, which is why a failed attempt in life is often called a \"strike\". And if someone's cooking is far better than mine, I simply admit I am not in her league.\n\nIdioms like these make our English vivid and natural. Why not collect a few and try them out this week?",
+          "vocabHints": [
+            "an inseparable part of day-to-day life",
+            "find one's way into everyday language",
+            "kick or head the ball",
+            "the opposing team's goal",
+            "three unsuccessful attempts",
+            "not in one's league",
+            "vivid and natural",
+            "try them out"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that to learn a foreign language well, it is necessary to understand the culture of the countries where it is spoken. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is widely claimed that mastering a foreign language demands more than memorising vocabulary and grammar: learners must also understand the culture in which the language lives. I agree almost entirely with this view, since language and culture are woven together at every level of real communication.\n\nThe strongest evidence lies in everyday expressions. Idioms, jokes, politeness formulas and even sporting metaphors carry meanings that no dictionary entry fully explains; a learner who translates them word by word often ends up puzzled or, worse, unintentionally rude. Knowing when to be direct, how to refuse an offer gracefully, or which topics are sensitive at a dinner table is cultural knowledge, yet it determines whether a grammatically perfect sentence succeeds or fails. Business negotiators and exchange students alike discover that fluency without cultural awareness produces misunderstanding faster than silence does.\n\nAdmittedly, the necessary depth of cultural study depends on the learner's purpose. A scientist reading technical papers in English needs terminology far more than table manners, and global English today is spoken mostly between non-native speakers, which dilutes the influence of any single national culture. Nevertheless, even these cases involve culture in a broader sense: the conventions of academic writing differ sharply between countries, and international communication has developed customs of its own that still must be learned.\n\nIn conclusion, while the required dose of cultural understanding varies with one's goals, a language detached from its culture remains a code rather than a means of genuine connection. Learners who explore films, customs and social habits alongside grammar communicate more accurately — and enjoy the journey far more.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'几乎完全同意'的量化立场明确;主论段从习语到语用礼仪层层推进，让步段(科学家/全球英语)真实有力后被'broader sense'反收，立场始终一贯。",
+              "Coherence & Cohesion(连贯衔接):The strongest evidence / Admittedly / Nevertheless / In conclusion 骨架清晰;'词典无法解释→逐词翻译闹笑话→语法正确却交际失败'的递进链条完整。",
+              "Lexical Resource(词汇资源):woven together / politeness formulas / dilutes the influence / a code rather than a means of genuine connection 等抽象概念表达精准;faster than silence does的比较结构令人印象深刻。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出核心命题、yet转折内嵌、which非限定从句、alike后置强调、while让步开启结论段，复杂句自然堆叠无失控。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写英语角分享发言稿(现象+例子+建议);雅思论证'语言学习是否必须懂文化'的普遍命题。",
+              "论据来源:高考发言稿的足球棒球例子严格取自课文;雅思用跨文化交际普适论据(商务谈判、学术写作惯例)，不提课本。",
+              "语域:发言稿口语化互动(Take football. / Why not...);雅思学术书面语，例证以类别而非个案呈现。",
+              "评分维度:高考重趣味性与要点;雅思GRA维度看复杂句准确率——本文嵌套从句密度高而无错误，是band8的语法特征。"
+            ]
+          },
+          "vocabHints": [
+            "woven together",
+            "politeness formulas",
+            "carry meanings no dictionary explains",
+            "end up puzzled",
+            "cultural awareness",
+            "dilute the influence of",
+            "conventions of academic writing",
+            "a means of genuine connection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "正确看待输赢",
+      "titleEn": "Winning and Losing in Perspective",
+      "desc": "综合技能板块核心：winning has the victor walking on air... while the loser is left with a bitter taste；关键在 keep everything in perspective——at any sporting event, you face two opponents。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国朋友 Chris 在网球决赛中失利，情绪低落。请你用英文给他写一封信，内容包括：1. 表达安慰；2. 谈谈你对输赢的看法；3. 提出鼓励和建议。注意：词数100左右。",
+          "reference": "Dear Chris,\n\nI'm sorry to hear that you lost the final of the tennis tournament and have been feeling down these days. Please don't be too hard on yourself.\n\nWe all know what it is like to want to win, and most of us know what it is like to lose. More often than not, winning has the victor walking on air, while the loser is left with a bitter taste. But remember: at any sporting event, you face two opponents — the other player and yourself. By finishing the match bravely, you have already beaten the second one, so try to keep everything in perspective.\n\nI believe your consistent good performance will pay off next season. Whenever you need a training partner, don't hesitate to call me.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "what it is like to lose",
+            "more often than not",
+            "walk on air",
+            "be left with a bitter taste",
+            "face two opponents",
+            "keep everything in perspective",
+            "consistent good performance",
+            "without hesitation"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that competitive sports teach children to win at all costs, while others believe such sports teach children valuable life lessons. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether competitive sport shapes children for better or worse divides parents and educators. Some fear it trains the young to pursue victory at any price; others regard the sports field as one of life's best classrooms. I side mainly with the second group, provided adults manage the competition sensibly.\n\nThose who worry about competition have real cases to cite. When trophies become the only measure of success, children may cheat, bully weaker teammates or burn out physically before adolescence. Pushy parents shouting from the sidelines can turn a game into a source of dread, and the lesson absorbed is that losing equals worthlessness — a belief that damages mental health long after childhood ends.\n\nYet these are failures of supervision, not of sport itself. Properly guided competition teaches lessons that classrooms struggle to deliver: how to prepare seriously, how to cooperate with teammates of different abilities, how to win with grace and, above all, how to lose, recover and try again. A child who learns to shake an opponent's hand after defeat is rehearsing resilience for examinations, job interviews and every later setback. Team sports also anchor friendships and physical health at an age when screens compete for every free hour.\n\nIn conclusion, competitive sport is a powerful instrument whose effect depends on the hands that hold it. Stripped of perspective it can indeed breed a win-at-all-costs mentality, but under sensible coaching it builds discipline, fairness and emotional strength. Rather than shielding children from competition, we should teach them to compete honourably — a skill they will need for the rest of their lives.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各有主体段且负面观点写得具体(奖杯唯一论/边线咆哮家长/身心透支)，立场'主要支持+条件(成人合理引导)'在首尾一致;'failures of supervision, not of sport itself'一句完成关键归因转移。",
+              "Coherence & Cohesion(连贯衔接):Those who worry / Yet / In conclusion 推进自然;正面段四个how to平行排比后用above all突出重心;'握手=为人生彩排'的类比承上启下。",
+              "Lexical Resource(词汇资源):pursue victory at any price / pushy parents / a source of dread / rehearsing resilience / anchor friendships / compete honourably 等教育话题高阶搭配密集而不堆砌。",
+              "Grammatical Range & Accuracy(语法多样性):provided条件句、whose定语从句、Stripped of过去分词条件、Rather than对比开启结论建议，主被动交替自如。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写安慰鼓励信(私人书信语气);雅思写儿童教育双边议论文。",
+              "论据来源:高考信件织入课件'face two opponents / keep everything in perspective'词块;雅思用儿童发展心理与体育教育的普适论据。",
+              "语域:书信亲切口吻(don't be too hard on yourself);雅思客观分析，情感只在词汇色彩中体现。",
+              "评分维度:高考重情感真挚+建议具体;雅思TR要求讨论双方后立场清晰——本文'条件性支持'展示了高于二选一的思辨层次。"
+            ]
+          },
+          "vocabHints": [
+            "pursue victory at any price",
+            "burn out",
+            "pushy parents",
+            "failures of supervision",
+            "win with grace",
+            "rehearse resilience",
+            "a win-at-all-costs mentality",
+            "compete honourably"
+          ]
+        }
+      ]
+    }
+  ]
+}

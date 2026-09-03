@@ -1,0 +1,184 @@
+{
+  "mainTopic": "AI与虚拟世界",
+  "mainTopicEn": "AI and the Virtual World",
+  "mainTopicBrief": "本单元围绕前沿科技展开，涵盖人工智能的机遇与风险（Reading）、虚拟现实的应用前景（Extended reading）和时间胶囊·写给未来（Integrated skills）三个子话题——AI 与未来科技是高考应用文'科技节/建议信'类的热门场景，更是近年雅思科技类议论文的第一高频命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "AI的机遇与风险",
+      "titleEn": "The Promise and Peril of AI",
+      "desc": "课文核心：AI is already being applied in many fields: finance, health care, machine translation and art, to name but a few——但有识之士 urge us to think about the dangers posed by the advances in AI。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校科技节以 \"AI in Our Lives\" 为主题征集英文短文。请你投稿，内容包括：1. AI 在生活中的应用；2. 人们的担忧；3. 你的看法。注意：词数100左右。",
+          "reference": "When my grandfather asks his smart speaker to play Beijing opera, he is chatting with artificial intelligence without knowing it. Given the rate at which AI is being developed, such scenes are becoming part of daily life.\n\nNowadays, AI is already being applied in many fields: finance, health care, machine translation and art, to name but a few. With the capacity to analyse massive amounts of data, it helps doctors find diseases earlier and translators work faster. Some scientists, however, urge us to think about the dangers posed by the advances in AI, warning that we might fall victim to the very tools we create. Apparently, such warnings demand our attention.\n\nIn my view, AI is neither an angel nor a devil. Whether it serves us or threatens us boils down to how wisely we humans use it.",
+          "vocabHints": [
+            "given the rate at which",
+            "be applied in many fields",
+            "to name but a few",
+            "the capacity to analyse massive amounts of data",
+            "urge us to think about",
+            "the dangers posed by the advances in AI",
+            "fall victim to",
+            "boil down to"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that developments in artificial intelligence will cause many people to lose their jobs, while others think AI will create more opportunities than it destroys. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Predictions about artificial intelligence swing between nightmare and utopia: mass unemployment on one side, unprecedented opportunity on the other. Examining both claims, I conclude that AI will transform work far more than it destroys it — but the transition will punish societies that fail to prepare for it.\n\nThe fear of job losses is grounded in visible fact. Machine systems already draft documents, answer customer calls, inspect products and drive vehicles in trials, and they work continuously without wages. Unlike earlier waves of automation, AI reaches into white-collar territory — accounting, translation, even routine medical analysis — so workers who believed education protected them now feel exposed. When change arrives faster than retraining, entire communities can be stranded, as former industrial regions still testify.\n\nOptimists answer with history and arithmetic. Every major technology, from the tractor to the internet, ended some occupations while creating others that earlier generations could not imagine; today millions work in fields that did not exist twenty years ago. AI itself demands data specialists, safety auditors and engineers, and by cutting costs it expands demand elsewhere in the economy. Crucially, machines complement rather than duplicate human strengths: empathy, ethical judgement and creative leadership continue to resist automation.\n\nMy own view is that the outcome depends less on the technology than on policy. Governments that invest in lifelong retraining, portable benefits and strong safety nets can convert disruption into productivity; those that leave workers alone with the shock invite inequality and anger. AI, in short, will not decide our employment future — the way we govern it will.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点论据扎实(失业方:白领岗位失守/再培训跟不上;机会方:历史规律/新职业/成本下降扩需求)，立场'转型大于毁灭+取决于政策'层次分明，结论把裁决权从技术移交给治理。",
+              "Coherence & Cohesion(连贯衔接):The fear / Optimists answer / My own view 推进干净;'nightmare vs utopia'开题张力贯穿全文;分号对仗(Governments that invest...; those that leave...)完成政策对比。",
+              "Lexical Resource(词汇资源):reaches into white-collar territory / stranded / portable benefits / convert disruption into productivity / leave workers alone with the shock 等表达兼具专业性与画面感。",
+              "Grammatical Range & Accuracy(语法多样性):Examining分词开题、Unlike介词对比、as former industrial regions still testify插入例证、from...to...列举、强调倒装收尾(the way we govern it will)，句式丰富准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写科技节征文(现象+担忧+态度);雅思写就业影响双边议论文。",
+              "论据来源:高考短文织入课文'to name but a few / fall victim to'词块并可用生活化开头;雅思用劳动经济学普适论据(自动化历史、再培训政策)。",
+              "语域:征文允许祖父与智能音箱的生活场景;雅思例证以类别呈现(accounting, translation, routine medical analysis)。",
+              "评分维度:高考重要点覆盖+观点明确;雅思CC维度考察观点交锋的衔接——本文'Optimists answer with history and arithmetic'的回应式过渡是高分标志。"
+            ]
+          },
+          "vocabHints": [
+            "swing between nightmare and utopia",
+            "grounded in visible fact",
+            "white-collar territory",
+            "faster than retraining",
+            "complement rather than duplicate",
+            "resist automation",
+            "lifelong retraining",
+            "convert disruption into productivity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "VR的应用与前景",
+      "titleEn": "Virtual Reality in Education",
+      "desc": "拓展阅读核心：VR 是 immersive technology，拥有 a host of educational applications——能 engage students' interest and enhance learning efficiency，尽管 the initial cost 仍是障碍。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "请你用英文给校长写一封建议信，建议学校引进虚拟现实（VR）技术辅助教学，内容包括：1. 写信目的；2. VR 教学的好处；3. 可行的做法。注意：词数100左右。",
+          "reference": "Dear Mr Headmaster,\n\nI am Li Hua, a Senior 2 student. I am writing to suggest introducing virtual reality technology into our classes.\n\nVR is an immersive technology with a host of educational applications. In a geography class, for example, students could \"stand\" on a glacier instead of staring at flat pictures; in chemistry, dangerous experiments could be practised safely. Such experiences engage students' interest and enhance learning efficiency in a way ordinary slides can hardly match.\n\nAdmittedly, the initial cost may discourage us in the beginning, but that could be fixed over time — the school might start with one shared VR classroom and open it to different subjects in turn.\n\nThank you for considering my suggestion. I would be glad to help organise a trial lesson.\n\nYours sincerely,\nLi Hua",
+          "vocabHints": [
+            "immersive technology",
+            "a host of educational applications",
+            "engage students' interest",
+            "enhance learning efficiency",
+            "the initial cost",
+            "be fixed over time",
+            "a shared VR classroom",
+            "organise a trial lesson"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that immersive technologies such as virtual reality will make traditional classrooms unnecessary in the future. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Some futurists announce that immersive technologies such as virtual reality will soon make the traditional classroom unnecessary: why gather thirty children in one room when any lesson can be experienced through a headset? I disagree with this prediction in its strong form, although I expect virtual tools to reshape schooling profoundly.\n\nThe attractions of virtual learning are genuine. A headset can transport students inside a volcano, an ancient city or a human cell, turning abstractions into experience that textbooks cannot match. Lessons can be replayed at each learner's own pace, rural schools can enter laboratories they could never afford to build, and dangerous procedures — chemical reactions, emergency medicine — can be practised without risk. Used well, such immersion deepens both interest and memory.\n\nYet education is far more than the delivery of vivid content. Classrooms teach children to wait their turn, argue respectfully, cooperate with people they did not choose, and accept guidance from adults — social capacities no simulation reproduces, because the other minds in the room must be real. Teachers do more than transmit information: they notice confusion on a face, adjust the lesson in the moment and provide the encouragement on which motivation depends. Long hours inside headsets also raise health concerns, from eyesight to isolation, that no parent can dismiss.\n\nFor these reasons I believe the future is blended rather than purely virtual. Schools will remain the social heart of education, while VR serves as a powerful instrument within them — an extraordinary window, but not a substitute for the human room around it. Technology should enrich the classroom, not abolish it.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'教室将被取代'的强命题给出精确回应——反对强形式但承认深刻变革;技术优势段写足三层(具象化/自定进度/安全演练)再反驳，避免稻草人;结论'blended'是量化后的立场落点。",
+              "Coherence & Cohesion(连贯衔接):The attractions / Yet / For these reasons 骨架分明;修辞设问开题(why gather thirty children...)引出争论;'extraordinary window / not a substitute'的比喻收束与开头设问呼应。",
+              "Lexical Resource(词汇资源):turning abstractions into experience / social capacities no simulation reproduces / the social heart of education / blended 等教育科技话题核心词汇精准;transmit/notice/adjust/provide动词链刻画教师角色。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出设问、破折号双插入、on which定语从句、Used well分词条件、not A but B收尾平行，复杂结构服务论证而不炫技。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写给校长的建议信(目的+好处+做法);雅思论证'VR是否将取代教室'的预测命题。",
+              "论据来源:高考信件严格织入课文'immersive technology / a host of educational applications'词块;雅思用教育本质的普适论据(社会化功能、师生互动)。",
+              "语域:建议信谦和务实(I would be glad to help);雅思立场坚定，让步充分后反驳。",
+              "评分维度:高考重建议具体可行;雅思TR对agree/disagree题要求程度精确——'disagree with the strong form'展示了高阶的命题拆解能力。"
+            ]
+          },
+          "vocabHints": [
+            "turn abstractions into experience",
+            "at each learner's own pace",
+            "practised without risk",
+            "deepen interest and memory",
+            "social capacities",
+            "adjust the lesson in the moment",
+            "blended learning",
+            "enrich rather than abolish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "时间胶囊·写给未来",
+      "titleEn": "A Letter to the Future",
+      "desc": "综合技能板块核心：The time capsule, buried 50 feet below the ground, was designed to be opened in the year 6939——把 contemporary 生活的切片寄给未来。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语社团开展'时间胶囊'活动：写一封信封存于校园，二十年后由未来的学弟学妹开启。请你用英文写这封信，内容包括：1. 介绍当下的校园生活；2. 你对未来读者的祝愿。注意：词数100左右。",
+          "reference": "Dear students of 2046,\n\nBy the time you read this letter, it will have slept in a time capsule buried in the corner of our school garden for twenty years. Like the famous capsule designed to be opened in the year 6939, ours carries messages from one age to another.\n\nLet me tell you about our contemporary school life. We still write essays by hand, though AI is already being applied in many fields. We worry about exams, play basketball after class, and dream about the future — perhaps the very world you are living in now.\n\nWhatever has changed, I believe some things remain: friendship, curiosity and hard work. Take good care of them for us.\n\nYours from 2026,\nLi Hua",
+          "vocabHints": [
+            "a time capsule buried in",
+            "designed to be opened in",
+            "carry messages from one age to another",
+            "contemporary school life",
+            "be applied in many fields",
+            "dream about the future",
+            "whatever has changed",
+            "take good care of"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people spend a lot of time planning for the future, while others believe it is more important to focus on the present. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Some people devote their energy to mapping out the years ahead, while others insist that life happens only in the present moment. Both instincts contain wisdom, and in my view a fulfilled life depends on keeping them in deliberate balance, with planning serving the present rather than replacing it.\n\nThe argument for looking forward is intensely practical. Education, savings, health and careers all reward those who sacrifice early for later gain; the student who prepares months before an examination outperforms the one who trusts inspiration on the day. Planning also cushions misfortune: insurance, emergency funds and preventive check-ups exist precisely because the future is uncertain. At the level of whole societies, refusing to think ahead — about climate, pensions or infrastructure — simply transfers today's comfort into tomorrow's crisis.\n\nChampions of the present reply that tomorrow is a promise no one can enforce. People who postpone happiness until retirement often find that health or circumstances have changed beyond recognition, and chronic worry about what may come poisons what already is. Psychology supports them: attention to the present moment — time with family, absorption in meaningful work, gratitude for small pleasures — correlates strongly with wellbeing, while excessive future-focus feeds anxiety.\n\nThe wisest arrangement, I would argue, treats planning as a servant of living. We should set directions, prepare for reasonable risks, and then return our attention to the day itself, revisiting the map occasionally instead of staring at it. To plan without living is to miss one's own life; to live without planning is to gamble it. Neither mistake deserves imitation.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各有完整主体段(规划方:教育储蓄保险+社会层面;当下方:延迟幸福的代价+心理学证据)，立场'规划服务于当下'在开头结尾一致，并给出可操作的平衡法(revisiting the map occasionally)。",
+              "Coherence & Cohesion(连贯衔接):The argument for / Champions of the present reply / The wisest arrangement 递进自然;'map'意象从开头mapping out贯穿到结尾staring at it，全文有一条隐喻线索。",
+              "Lexical Resource(词汇资源):cushions misfortune / a promise no one can enforce / poisons what already is / feeds anxiety / a servant of living 等表达精炼有力;changed beyond recognition习语准确。",
+              "Grammatical Range & Accuracy(语法多样性):with复合结构、precisely because强调因果、破折号插入列举、对仗警句(To plan without living...; to live without planning...)，句式张弛有度。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写时间胶囊书信(跨时空的私人信件);雅思写人生态度双边议论文。",
+              "论据来源:高考信件织入课件'buried / designed to be opened in the year 6939 / contemporary'词块;雅思用心理学与社会规划的普适论据。",
+              "语域:书信有想象与温情(it will have slept in a time capsule);雅思理性思辨，抒情仅存于隐喻。",
+              "评分维度:高考重情感真挚+想象力;雅思LR维度奖励贯穿全文的意象经营——本文'map'隐喻线是词汇资源的高分体现。"
+            ]
+          },
+          "vocabHints": [
+            "map out the years ahead",
+            "keep them in deliberate balance",
+            "sacrifice early for later gain",
+            "cushion misfortune",
+            "a promise no one can enforce",
+            "changed beyond recognition",
+            "excessive future-focus",
+            "a servant of living"
+          ]
+        }
+      ]
+    }
+  ]
+}
