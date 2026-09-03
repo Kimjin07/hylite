@@ -28,6 +28,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Tim had always believed he was an ordinary boy with no special talent. So when his teacher signed him up for the school speech contest, he was terrified. \"I can't do this,\" he whispered, but the teacher only smiled: \"You'll never know until you try.\" For a whole week, Tim practised his speech in front of the mirror, his hands shaking every time.",
+          "para1": "Paragraph 1: The night before the contest, Tim could not sleep.",
+          "para2": "Paragraph 2: When his name was finally called, Tim walked slowly onto the stage.",
+          "reference": "The night before the contest, Tim could not sleep. He lay in bed, going over his lines again and again, his heart pounding at the thought of the crowd. What if he forgot everything? What if they laughed? At last he switched on the light, took out his notes, and read them one more time, telling himself that he had prepared as hard as he could.\n\nWhen his name was finally called, Tim walked slowly onto the stage. His legs felt weak, but the moment he began to speak, something changed. The words came out steadily, then warmly, and the hall fell silent to listen. When he finished, the applause was like a wave. Tim realised, with a rush of joy, that he had never been ordinary — he had simply never dared to try.",
+          "vocabHints": [
+            "go over his lines",
+            "his heart pounding",
+            "what if...",
+            "as hard as he could",
+            "his legs felt weak",
+            "the words came out steadily",
+            "the applause was like a wave",
+            "a rush of joy"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -84,6 +104,26 @@
             "supportive",
             "make the most of",
             "in time"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Lucy and her deskmate Mia had not spoken for a week. It had started with something small — a borrowed book returned with a bent cover — but neither girl wanted to say sorry first. They sat side by side in silence every day, an invisible wall between them, and Lucy secretly missed her friend's laughter.",
+          "para1": "Paragraph 1: One rainy afternoon, Lucy found Mia sitting alone in the empty classroom.",
+          "para2": "Paragraph 2: From that day on, the two girls were closer than ever.",
+          "reference": "One rainy afternoon, Lucy found Mia sitting alone in the empty classroom, staring out at the grey sky. Lucy's heart softened. She took a deep breath, walked over, and placed a new book gently on Mia's desk. \"I'm sorry about your book,\" she said quietly. \"I miss talking to you.\" For a moment Mia said nothing; then her eyes filled with tears, and she whispered, \"I missed you too.\"\n\nFrom that day on, the two girls were closer than ever. They learned that a friendship is not broken by small mistakes, but by the silence that follows them. Whenever a misunderstanding arose after that, one of them would simply smile and say, \"Let's not build a wall again.\" And the classroom, once so quiet, was full of their laughter once more.",
+          "vocabHints": [
+            "neither wanted to say sorry first",
+            "an invisible wall",
+            "her heart softened",
+            "took a deep breath",
+            "her eyes filled with tears",
+            "closer than ever",
+            "the silence that follows",
+            "build a wall"
           ]
         },
         {
@@ -147,6 +187,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "As president of the school's new Environmental Club, Jack had spent weeks planning a tree-planting day. He had imagined dozens of students working together, turning a bare corner of the schoolyard into a small green garden. But on the morning of the event, only three members showed up, holding their shovels awkwardly under the cloudy sky.",
+          "para1": "Paragraph 1: Jack looked at the empty schoolyard and felt his heart sink.",
+          "para2": "Paragraph 2: By the end of the afternoon, the once-bare corner had turned green.",
+          "reference": "Jack looked at the empty schoolyard and felt his heart sink. For a moment he wanted to give up and go home. Then he remembered why he had started the club at all. \"Three of us is enough to begin,\" he said, forcing a smile. They began to dig, and as they worked, curious students stopped to watch — and one by one, picked up spare shovels to help.\n\nBy the end of the afternoon, the once-bare corner had turned green. Nearly twenty students, their hands covered in soil, stood back to admire the row of young trees. Jack realised that leadership was not about having a crowd from the start, but about not giving up when the crowd was small. \"Next year,\" he laughed, \"we'll need a bigger schoolyard.\"",
+          "vocabHints": [
+            "felt his heart sink",
+            "wanted to give up",
+            "forcing a smile",
+            "one by one",
+            "picked up spare shovels",
+            "covered in soil",
+            "stood back to admire",
+            "not giving up"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -204,6 +264,26 @@
             "opportunity",
             "acquire",
             "confidence"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Everything at the new school felt strange to Emma. The faces were unfamiliar, the rules were different, and she still got lost on her way to the canteen. Back at her old school she had been surrounded by friends; here, she felt invisible. Each evening she counted the days until the term would end.",
+          "para1": "Paragraph 1: At lunchtime, Emma stood alone with her tray, not knowing where to sit.",
+          "para2": "Paragraph 2: Weeks later, Emma realised she no longer thought of the school as strange.",
+          "reference": "At lunchtime, Emma stood alone with her tray, not knowing where to sit. Just as her eyes began to sting, a cheerful girl waved at her from a nearby table. \"You're new, right? Come sit with us!\" Grateful, Emma joined them, and soon she was laughing at their jokes as if she had known them for years. It turned out that everyone had felt nervous once, too.\n\nWeeks later, Emma realised she no longer thought of the school as strange. She knew the shortcut to the canteen, had a seat at the lunch table, and could name every classmate. One morning she noticed another new student standing alone, looking lost, and she remembered exactly how that felt. Smiling, Emma walked over and said the words that had once changed her own day: \"Come sit with us.\"",
+          "vocabHints": [
+            "felt invisible",
+            "her eyes began to sting",
+            "a cheerful girl waved",
+            "grateful",
+            "as if she had known them for years",
+            "the shortcut to the canteen",
+            "looking lost",
+            "come sit with us"
           ]
         },
         {

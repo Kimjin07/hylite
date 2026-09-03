@@ -29,6 +29,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "David slammed the door after yet another argument with his mother. She had refused to let him go to a late-night party, and he had shouted that she never understood him. Now he sat alone in his room, still furious, certain that his mother only wanted to control his life.",
+          "para1": "Paragraph 1: That night, David could not fall asleep, his angry words still ringing in his ears.",
+          "para2": "Paragraph 2: The next morning, David quietly walked into the kitchen where his mother was making breakfast.",
+          "reference": "That night, David could not fall asleep, his angry words still ringing in his ears. Around midnight he got up for some water and saw a thin line of light under his mother's door. Peeping in, he found her still awake, anxiously looking at her phone, waiting to be sure he was safe at home. In that moment his anger melted into shame, and he understood that her strict rules were only love wearing a worried face.\n\nThe next morning, David quietly walked into the kitchen where his mother was making breakfast. \"Mum,\" he said softly, \"I'm sorry about last night.\" She turned, surprised, and then smiled, her tired eyes softening. Over breakfast they talked — really talked — about trust and worry, and agreed on a fair time for him to come home. David realised that understanding, not shouting, was the door between them.",
+          "vocabHints": [
+            "slammed the door",
+            "still ringing in his ears",
+            "a thin line of light",
+            "anxiously waiting",
+            "melted into shame",
+            "love wearing a worried face",
+            "her tired eyes softening",
+            "the door between them"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -85,6 +105,26 @@
             "whatever happens",
             "count out",
             "gather around the table"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "When Sophie failed the most important exam of the year, she was terrified to go home. Her parents had worked so hard to support her studies, and she was sure she had let them down. Clutching the test paper with its low mark, she walked home more slowly than she ever had before.",
+          "para1": "Paragraph 1: Sophie stood outside her front door for a long time before she dared to go in.",
+          "para2": "Paragraph 2: That evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten.",
+          "reference": "Sophie stood outside her front door for a long time before she dared to go in. When at last she stepped inside and whispered the truth, she braced herself for disappointment. But her father simply put down his newspaper and said, \"A single exam does not decide who you are.\" Her mother hugged her and added, \"We are proud of how hard you tried.\" To her surprise, no one was angry at all.\n\nThat evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten. Home was not a place where she had to be perfect; it was a place where she was loved even when she failed. With her parents beside her, she opened her books again — not out of fear this time, but out of quiet hope. The next exam, she promised herself, would tell a different story.",
+          "vocabHints": [
+            "let them down",
+            "clutching the test paper",
+            "braced herself",
+            "put down his newspaper",
+            "a single exam does not decide who you are",
+            "wrapped in the warmth of her family",
+            "loved even when she failed",
+            "out of quiet hope"
           ]
         },
         {
@@ -147,6 +187,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Kevin measured himself against Alan, the top student, in everything. Whatever Kevin did, Alan seemed to do better — higher marks, more friends, easy confidence. The more Kevin compared, the smaller he felt, until schooldays became a race he was always losing.",
+          "para1": "Paragraph 1: After yet another test where Alan came first, Kevin sat by the window, lost in gloomy thoughts.",
+          "para2": "Paragraph 2: From then on, Kevin decided to run his own race.",
+          "reference": "After yet another test where Alan came first, Kevin sat by the window, lost in gloomy thoughts. Just then his teacher sat down beside him. \"Do you know,\" she said gently, \"that your writing has improved more than anyone's this term?\" Kevin blinked in surprise. He had been so busy watching Alan that he had never noticed his own progress. For the first time, he looked at how far he himself had come.\n\nFrom then on, Kevin decided to run his own race. Each week he compared his work only with his own past work, and slowly his confidence grew. He still admired Alan, but no longer envied him; instead, the two even became study partners. Kevin had learned that the moment you stop running someone else's race, you finally start winning your own.",
+          "vocabHints": [
+            "measured himself against",
+            "the smaller he felt",
+            "lost in gloomy thoughts",
+            "blinked in surprise",
+            "his own progress",
+            "run his own race",
+            "no longer envied him",
+            "winning your own"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -203,6 +263,26 @@
             "work wonders",
             "weigh sb down",
             "take a break"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "The closer the mid-term exams came, the heavier the weight on Nina's chest grew. She stayed up later and later, yet understood less and less, and kept her worries to herself because she did not want to seem weak. One grey morning, sitting at her desk, she suddenly could not stop her tears.",
+          "para1": "Paragraph 1: Seeing Nina in tears, Ms Lin gently led her to the quiet library corner.",
+          "para2": "Paragraph 2: When Nina walked out of the library, the sky somehow looked brighter.",
+          "reference": "Seeing Nina in tears, Ms Lin gently led her to the quiet library corner and sat with her in silence until the crying slowed. \"You don't have to carry everything alone,\" the teacher said softly. Little by little, Nina let it all out — the sleepless nights, the fear of failing, the pressure she had hidden for weeks. Just saying the words aloud made the weight feel lighter, as if a knot inside her had begun to loosen.\n\nWhen Nina walked out of the library, the sky somehow looked brighter. Nothing about the exam had changed, yet everything felt different. Ms Lin had helped her make a simple study plan and, more importantly, had reminded her that asking for help is a kind of courage, not weakness. That night, for the first time in weeks, Nina slept soundly.",
+          "vocabHints": [
+            "the weight on her chest",
+            "kept her worries to herself",
+            "could not stop her tears",
+            "in silence",
+            "let it all out",
+            "the weight feel lighter",
+            "a knot began to loosen",
+            "asking for help is a kind of courage"
           ]
         },
         {

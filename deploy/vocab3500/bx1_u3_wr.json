@@ -28,6 +28,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Leo and Sam had been best friends since primary school. But a careless rumour — that Leo had laughed at Sam behind his back — had come between them. Sam believed it without asking, and Leo was too proud to explain. So the two boys, once inseparable, became strangers overnight.",
+          "para1": "Paragraph 1: For two whole weeks, Leo and Sam passed each other in the corridor without a word.",
+          "para2": "Paragraph 2: That evening, a message lit up Leo's phone: it was from Sam.",
+          "reference": "For two whole weeks, Leo and Sam passed each other in the corridor without a word. Both were miserable, yet neither would take the first step. Then, during a football match, Sam slipped and hurt his knee, and without thinking, Leo was the first to rush over and help him off the field. In that instant, the anger between them suddenly seemed foolish and small.\n\nThat evening, a message lit up Leo's phone: it was from Sam. \"Thanks for today,\" it read. \"And I'm sorry I believed that rumour. I should have just asked you.\" Leo smiled and wrote back at once: \"I should have explained. Friends again?\" The reply came in a second — a single thumbs-up. The wall of silence had finally come down, and their old friendship, tested but not broken, felt stronger than ever.",
+          "vocabHints": [
+            "a careless rumour",
+            "too proud to explain",
+            "strangers overnight",
+            "neither would take the first step",
+            "rush over to help",
+            "seemed foolish and small",
+            "the wall of silence",
+            "tested but not broken"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -84,6 +104,26 @@
             "a trouble shared becomes a trouble halved",
             "take on a greater meaning",
             "treasure these moments"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Mia loved her friends dearly, and there was always someone to meet, message or hang out with. Yet lately she felt strangely tired, as if she never had a single moment that belonged only to her. She began to wonder whether needing time alone meant she was a bad friend.",
+          "para1": "Paragraph 1: One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea.",
+          "para2": "Paragraph 2: When Monday came, Mia greeted her friends with a brighter smile than before.",
+          "reference": "One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea. At first she felt guilty, half expecting her phone to fill with disappointed messages. But the quiet afternoon turned out to be exactly what she needed: she read, she rested, she listened to her own thoughts for once. By evening, the tiredness had melted away, replaced by a calm she had not felt in weeks.\n\nWhen Monday came, Mia greeted her friends with a brighter smile than before. She realised that time alone had not made her a worse friend — it had made her a better one, because now she brought real energy and attention to the people she loved. From then on she kept a little space for herself each week, and her friendships, far from suffering, only grew warmer.",
+          "vocabHints": [
+            "loved her friends dearly",
+            "belonged only to her",
+            "felt guilty",
+            "half expecting",
+            "listened to her own thoughts",
+            "the tiredness had melted away",
+            "a calm she had not felt",
+            "a little space for herself"
           ]
         },
         {
@@ -146,6 +186,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Tom and his old friend Ben chatted online almost every day — funny videos, quick messages, endless emojis. Yet somehow they felt further apart than ever. Their conversations had become a stream of screens and symbols, and Tom could barely remember the last time he had heard Ben truly laugh.",
+          "para1": "Paragraph 1: One holiday, Tom decided to take the train to visit Ben in person.",
+          "para2": "Paragraph 2: As the two friends talked late into the night, the screens in their pockets lay forgotten.",
+          "reference": "One holiday, Tom decided to take the train to visit Ben in person. When Ben opened the door, the two boys stared at each other for a second and then burst out laughing — a warm, real laugh that no message could carry. They spent the whole day as they used to: cycling by the river, sharing snacks, finishing each other's sentences. It felt as if no distance had ever come between them.\n\nAs the two friends talked late into the night, the screens in their pockets lay forgotten. They spoke of dreams and worries they had never typed into a chat box, and Tom understood something important: technology could keep a friendship alive, but it could never replace sitting side by side. Before he left, they made a promise — to meet in person at least once every holiday, no matter how far apart they lived.",
+          "vocabHints": [
+            "chatted online almost every day",
+            "further apart than ever",
+            "a stream of screens and symbols",
+            "burst out laughing",
+            "finishing each other's sentences",
+            "as if no distance had ever come between them",
+            "sitting side by side",
+            "made a promise"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -202,6 +262,26 @@
             "spend quality time together",
             "personal qualities",
             "make a friendship last"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "During a class hiking trip, Amy twisted her ankle far from the meeting point. By the time it happened, most of the group had already walked ahead, eager to reach the mountain top before noon. Amy sat on a rock, her ankle throbbing, afraid she would be left behind on the lonely trail.",
+          "para1": "Paragraph 1: Only one person stayed behind with Amy: her friend Grace.",
+          "para2": "Paragraph 2: Long after the trip, Amy still remembered what a true friend had done that day.",
+          "reference": "Only one person stayed behind with Amy: her friend Grace. \"There's no way I'm leaving you here alone,\" Grace said firmly, kneeling down to look at the swollen ankle. She wrapped it gently with her own scarf, helped Amy to her feet, and let Amy lean on her shoulder. Step by painful step, the two girls made their way slowly back down the trail, laughing and encouraging each other the whole way.\n\nLong after the trip, Amy still remembered what a true friend had done that day. Grace had given up reaching the summit — the very thing she had looked forward to — without a moment's hesitation. Amy understood then that friendship is not measured on easy days, but proved on hard ones. From that trip on, whenever anyone needed help, Amy tried to be the one who stayed behind.",
+          "vocabHints": [
+            "twisted her ankle",
+            "left behind",
+            "there's no way I'm leaving you",
+            "kneeling down",
+            "lean on her shoulder",
+            "step by painful step",
+            "without a moment's hesitation",
+            "proved on hard ones"
           ]
         },
         {

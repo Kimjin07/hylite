@@ -28,6 +28,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "To lose weight before the school sports meet, Jenny had been skipping meals for a whole week. She was proud of the number on the scales, but she felt weak and dizzy, and could barely concentrate in class. Her best friend warned her to eat properly, but Jenny insisted she was fine.",
+          "para1": "Paragraph 1: During the morning run, Jenny suddenly felt the world spin and had to sit down.",
+          "para2": "Paragraph 2: From that day, Jenny threw away her crash-diet plan for good.",
+          "reference": "During the morning run, Jenny suddenly felt the world spin and had to sit down. Her vision blurred, her legs gave way, and the next thing she knew, the school doctor was holding a cup of sugar water to her lips. \"Your blood sugar is dangerously low,\" the doctor said gently. \"Starving yourself is not losing weight — it is hurting your body.\" Lying there, pale and shaking, Jenny felt frightened and ashamed.\n\nFrom that day, Jenny threw away her crash-diet plan for good. With the doctor's help, she learned to eat a well-balanced diet and to exercise sensibly instead of starving. Slowly her energy returned, her mind grew sharper, and — to her surprise — she felt fitter than ever on sports day. Real health, she finally understood, is grown day by day, not starved overnight.",
+          "vocabHints": [
+            "skipping meals",
+            "felt weak and dizzy",
+            "the world spin",
+            "her legs gave way",
+            "blood sugar is dangerously low",
+            "frightened and ashamed",
+            "a well-balanced diet",
+            "grown day by day"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -84,6 +104,26 @@
             "fight a losing battle",
             "take pride in",
             "contents vs cover"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Ever since a classmate joked that she was 'the tallest girl in the class', Cindy had hated her own height. She began to slouch, to stand at the back, to wish she could disappear. Whenever she passed a mirror, she saw only what she believed was wrong with her.",
+          "para1": "Paragraph 1: Before the class photo, Cindy tried to hide herself at the very back of the group.",
+          "para2": "Paragraph 2: When the photo came out, Cindy looked at it and, for the first time, smiled at herself.",
+          "reference": "Before the class photo, Cindy tried to hide herself at the very back of the group, bending her knees so she would look shorter. But the photographer called out kindly, \"Tall girl in the middle, please — you'll balance the picture perfectly!\" Reluctantly, Cindy stepped forward and stood up straight. To her surprise, her teacher whispered, \"You have such a graceful posture when you don't hide it.\"\n\nWhen the photo came out, Cindy looked at it and, for the first time, smiled at herself. There she was, standing tall in the centre, and she did not look strange at all — she looked confident, even beautiful. She realised that her height had never been the problem; hiding from it had. From that day, Cindy walked with her head held high, comfortable at last in her own skin.",
+          "vocabHints": [
+            "hated her own height",
+            "began to slouch",
+            "wish she could disappear",
+            "stood up straight",
+            "a graceful posture",
+            "standing tall in the centre",
+            "her head held high",
+            "comfortable in her own skin"
           ]
         },
         {
@@ -146,6 +186,26 @@
           ]
         },
         {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "After weeks of late nights, endless screens and junk food, Mark realised he could barely climb the stairs to his classroom without panting. His eyes were tired, his mind was foggy, and he had no energy for anything. Something, he knew, had to change — and it had to change soon.",
+          "para1": "Paragraph 1: That weekend, Mark drew up a simple plan and pinned it above his desk.",
+          "para2": "Paragraph 2: A month later, the boy who once gasped on the stairs ran up them two at a time.",
+          "reference": "That weekend, Mark drew up a simple plan and pinned it above his desk. It was nothing dramatic: sleep by eleven, a short run every morning, more vegetables and less soda, and no phone one hour before bed. The first few days were hard, and more than once he wanted to give up. But he crossed off each day on his chart, and slowly the new habits began to feel natural.\n\nA month later, the boy who once gasped on the stairs ran up them two at a time. His eyes were brighter, his mind was clearer, and he could focus in class as never before. Friends asked him for his secret, expecting some magic trick, but Mark only smiled and pointed at the little chart on his wall. Good health, he had learned, is built one small, steady day at a time.",
+          "vocabHints": [
+            "barely climb the stairs without panting",
+            "his mind was foggy",
+            "drew up a simple plan",
+            "nothing dramatic",
+            "wanted to give up",
+            "crossed off each day",
+            "began to feel natural",
+            "one small, steady day at a time"
+          ]
+        },
+        {
           "source": "IELTS Writing Task 2",
           "type": "ielts",
           "typeLabel": "雅思议论文",
@@ -202,6 +262,26 @@
             "think before you act",
             "treat burns",
             "confidence rather than appearance"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Ever since she started following a beauty influencer online, Lily had been begging her mother to let her change her face — a smaller nose, a sharper chin, 'just like the photos'. She was convinced that only then would she finally feel pretty. Her mother listened quietly but said nothing at first.",
+          "para1": "Paragraph 1: Her grandmother, hearing about the plan, quietly took out an old photo album.",
+          "para2": "Paragraph 2: Turning the last page, Lily suddenly saw her own face in a new light.",
+          "reference": "Her grandmother, hearing about the plan, quietly took out an old photo album. Page by page, she showed Lily faces from three generations — her great-grandmother's warm smile, her mother's bright eyes, her own dimpled cheeks as a child. \"Look,\" Grandma said softly, \"you carry all of us in your face. These are not flaws; they are our family's story.\" Lily had never thought of it that way before.\n\nTurning the last page, Lily suddenly saw her own face in a new light. The nose she had wanted to change was her mother's; the smile was her grandmother's. Filtered photos online suddenly seemed hollow beside the living history in her own reflection. Lily quietly closed the album and hugged her grandmother. \"Maybe,\" she whispered, \"I'll keep the face I was given.\" And for the first time, she truly meant it.",
+          "vocabHints": [
+            "begging her mother",
+            "just like the photos",
+            "an old photo album",
+            "page by page",
+            "not flaws but our family's story",
+            "in a new light",
+            "seemed hollow",
+            "the face I was given"
           ]
         },
         {
