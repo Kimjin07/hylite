@@ -7684,5 +7684,432 @@
         "note": "考查核心搭配 scientific literacy。"
       }
     ]
+  },
+  {
+    "word": "obstacle",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɒbstəkl/",
+    "partOfSpeech": "n.",
+    "translation": "n. 障碍，阻碍；障碍物",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "The fear of failure is often believed to be one of the biggest obstacles to creativity.",
+    "readingExamples": [],
+    "definitionEn": "something that makes it difficult to achieve something; something that blocks the way",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Poverty is a major obstacle to a good education."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The runners had to jump over several obstacles."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "an obstacle to sth",
+        "translation": "…的障碍",
+        "example": "The fear of failure is one of the biggest obstacles to creativity. 对失败的恐惧是创造力最大的障碍之一。（课文原句）"
+      },
+      {
+        "phrase": "overcome / remove an obstacle",
+        "translation": "克服／扫除障碍",
+        "example": "She overcame every obstacle in her path."
+      },
+      {
+        "phrase": "a major / serious obstacle",
+        "translation": "重大障碍",
+        "example": "Cost is a serious obstacle to the plan."
+      },
+      {
+        "phrase": "stand in the way as an obstacle",
+        "translation": "成为拦路的障碍",
+        "example": "Old rules should not stand as an obstacle to progress."
+      }
+    ],
+    "wordForms": {
+      "noun": "obstacle",
+      "verb": "obstruct 阻塞，妨碍",
+      "adjective": "obstructive 阻碍的",
+      "adverb": "",
+      "other": "搭配固定用 an obstacle TO sth（不用 for）；近义 barrier / hurdle"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The fear of failure is one of the biggest obstacles ____ creativity.",
+        "answer": "to",
+        "note": "obstacle to sth 固定搭配，介词用 to"
+      },
+      {
+        "type": "完成句子",
+        "question": "只要肯努力，我们就能____ ____（克服）前进道路上的每一个障碍。",
+        "answer": "overcome / remove",
+        "note": "overcome an obstacle'克服障碍'"
+      }
+    ]
+  },
+  {
+    "word": "recognition",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌrekəɡˈnɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 认可，赏识；承认；辨认，识别",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "In recognition of the important role that creativity and innovation play in all aspects of human development.",
+    "readingExamples": [],
+    "definitionEn": "public respect and thanks for someone's work or abilities; the act of recognizing somebody/something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（变化极大到）难以辨认（beyond/out of recognition）",
+        "example": "The town has changed beyond recognition."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She finally received recognition for her research."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "There was no sign of recognition on his face."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in recognition of sth",
+        "translation": "为表彰／鉴于某事",
+        "example": "In recognition of her work, she was given an award. 为表彰她的工作，她获得了一个奖项。（课文语境）"
+      },
+      {
+        "phrase": "gain / win / receive recognition",
+        "translation": "获得认可",
+        "example": "The young artist soon gained recognition."
+      },
+      {
+        "phrase": "beyond recognition",
+        "translation": "面目全非，认不出来",
+        "example": "The city has changed beyond recognition."
+      },
+      {
+        "phrase": "face / voice recognition",
+        "translation": "面部／语音识别",
+        "example": "The phone uses face recognition to unlock."
+      }
+    ],
+    "wordForms": {
+      "noun": "recognition",
+      "verb": "recognize (BrE recognise) 认出；承认；赏识",
+      "adjective": "recognizable 可辨认的；recognized 公认的",
+      "adverb": "recognizably",
+      "other": "构词：re-（再）+ cogn-（知道）；in recognition of＝为表彰／鉴于"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "____ recognition ____ his great contribution, the school named the library after him.",
+        "answer": "In / of",
+        "note": "in recognition of sth'为表彰某事'固定短语"
+      },
+      {
+        "type": "完成句子",
+        "question": "这座城市变得____ ____（认不出来了）。",
+        "answer": "beyond recognition",
+        "note": "beyond recognition'面目全非'"
+      }
+    ]
+  },
+  {
+    "word": "collaboration",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/kəˌlæbəˈreɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 合作，协作；合著，合作作品",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "All makerspaces are devoted to bringing young people together in the spirit of collaboration.",
+    "readingExamples": [],
+    "definitionEn": "the act of working with another person or group to create or produce something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（贬）通敌，勾结",
+        "example": "He was accused of collaboration with the enemy."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The song was a collaboration between the two artists."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Good science depends on collaboration."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in collaboration with sb",
+        "translation": "与某人合作",
+        "example": "The book was written in collaboration with her sister."
+      },
+      {
+        "phrase": "in the spirit of collaboration",
+        "translation": "本着合作精神",
+        "example": "Makerspaces bring people together in the spirit of collaboration. 创客空间本着合作精神把人们聚在一起。（课文原句）"
+      },
+      {
+        "phrase": "close collaboration",
+        "translation": "密切合作",
+        "example": "The project needs close collaboration between teams."
+      },
+      {
+        "phrase": "a collaboration between A and B",
+        "translation": "A 与 B 之间的合作",
+        "example": "The film was a collaboration between two studios."
+      }
+    ],
+    "wordForms": {
+      "noun": "collaboration；collaborator 合作者",
+      "verb": "collaborate 合作，协作",
+      "adjective": "collaborative 合作的",
+      "adverb": "collaboratively",
+      "other": "构词：col-（共同）+ labor（劳动）；collaborate WITH sb ON sth；近义 cooperation（更泛指配合）"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The two schools worked in close ____ (collaborate) to hold the science fair.",
+        "answer": "collaboration",
+        "note": "介词 in 后需名词 collaboration"
+      },
+      {
+        "type": "完成句子",
+        "question": "这本书是她____ ____ ____ ____（与姐姐合作）写成的。",
+        "answer": "in collaboration with her sister",
+        "note": "in collaboration with sb 固定搭配"
+      }
+    ]
+  },
+  {
+    "word": "stimulate",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈstɪmjuleɪt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 激发，激励；促进；刺激（身体或器官）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "Thought experiments can stimulate debate.",
+    "readingExamples": [],
+    "definitionEn": "to make something develop or become more active; to encourage somebody to do something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "刺激（生物体、神经等使其活跃）",
+        "example": "The drug stimulates the nervous system."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Good questions stimulate students to think for themselves."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The government hopes to stimulate the economy."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "stimulate debate / discussion",
+        "translation": "激发辩论／讨论",
+        "example": "Thought experiments can stimulate debate. 思想实验能激发辩论。（课文原句）"
+      },
+      {
+        "phrase": "stimulate interest in sth",
+        "translation": "激发对某事的兴趣",
+        "example": "The trip stimulated my interest in history."
+      },
+      {
+        "phrase": "stimulate sb to do sth",
+        "translation": "激励某人做某事",
+        "example": "Praise stimulated her to work even harder."
+      },
+      {
+        "phrase": "stimulate growth / the economy",
+        "translation": "促进增长／刺激经济",
+        "example": "Lower taxes may stimulate growth."
+      }
+    ],
+    "wordForms": {
+      "noun": "stimulation 激励，刺激；stimulus (pl. stimuli) 刺激（因素）",
+      "verb": "stimulate",
+      "adjective": "stimulating 有启发性的，令人振奋的",
+      "adverb": "",
+      "other": "辨析：stimulate（激发…发展/活跃）vs simulate（模拟）——形近义异，勿混"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "A good teacher can ____ (stimulate / simulate) students' curiosity about the world.",
+        "answer": "stimulate",
+        "note": "stimulate'激发'；simulate'模拟'"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "The debate was very ____ (stimulate) and made everyone think.",
+        "answer": "stimulating",
+        "note": "修饰 debate，用形容词 stimulating'有启发性的'"
+      }
+    ]
+  },
+  {
+    "word": "confront",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/kənˈfrʌnt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 面对，正视（困难等）；使面对；对抗，直面（某人）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "They also help us stretch our minds by confronting and considering difficult questions.",
+    "readingExamples": [],
+    "definitionEn": "to deal with a difficult situation or person directly; to face somebody in a threatening way",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "(困难、问题)摆在…面前，使…不得不应对（be confronted with/by）",
+        "example": "We are confronted with a serious problem."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She decided to confront her fear of speaking in public."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He confronted the manager about the mistake."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "confront a problem / difficulty",
+        "translation": "正视问题／困难",
+        "example": "Thought experiments help us by confronting difficult questions. 思想实验通过直面难题来帮助我们。（课文原句）"
+      },
+      {
+        "phrase": "be confronted with / by sth",
+        "translation": "面临，遭遇",
+        "example": "We are confronted with many challenges."
+      },
+      {
+        "phrase": "confront sb about / with sth",
+        "translation": "就某事与某人对质",
+        "example": "She confronted him about the missing money."
+      },
+      {
+        "phrase": "confront one's fears",
+        "translation": "直面恐惧",
+        "example": "The only way out is to confront your fears."
+      }
+    ],
+    "wordForms": {
+      "noun": "confrontation 对抗，冲突",
+      "verb": "confront",
+      "adjective": "confrontational 对抗性的",
+      "adverb": "",
+      "other": "辨析：confront（主动正视/对峙）vs face（面对，语气较中性）；be confronted with＝be faced with"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "When ____ (confront) with danger, he stayed surprisingly calm.",
+        "answer": "confronted",
+        "note": "be confronted with sth'面临'，此处为过去分词作状语（When (he was) confronted...）"
+      },
+      {
+        "type": "完成句子",
+        "question": "成长意味着勇于____ ____ ____（直面你的恐惧）。",
+        "answer": "confront your fears",
+        "note": "confront one's fears'直面恐惧'"
+      }
+    ]
+  },
+  {
+    "word": "outweigh",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌaʊtˈweɪ/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 在重要性（或价值、影响）上超过，比…更重要",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to be greater or more important than something",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The advantages of the plan far outweigh the disadvantages."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "For her, family always outweighed money."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the benefits / advantages outweigh the costs / risks",
+        "translation": "利大于弊，好处胜过代价",
+        "example": "Their usefulness may outweigh potential problems. 它们的用处也许胜过潜在的麻烦。（课文原句）"
+      },
+      {
+        "phrase": "far / greatly outweigh sth",
+        "translation": "远远超过",
+        "example": "The book's virtues far outweigh its flaws."
+      },
+      {
+        "phrase": "outweigh the disadvantages",
+        "translation": "利大于弊",
+        "example": "Do the advantages outweigh the disadvantages?"
+      }
+    ],
+    "wordForms": {
+      "noun": "weight 重量；分量",
+      "verb": "outweigh；weigh 称重；权衡",
+      "adjective": "weighty 重要的",
+      "adverb": "",
+      "other": "构词：out-（超过）+ weigh（称重）；常用于议论文'利弊权衡'：the pros outweigh the cons"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "这个计划的好处____ ____ ____ ____（远远大于其弊端）。",
+        "answer": "far outweigh its disadvantages",
+        "note": "outweigh 直接接宾语，不加介词"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "In my view, the advantages of online learning ____ (weigh) the disadvantages.",
+        "answer": "outweigh",
+        "note": "语境表'胜过'，需 outweigh"
+      }
+    ]
   }
 ]

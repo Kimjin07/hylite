@@ -5982,5 +5982,510 @@
         "note": "呼应课文词块 brainstorm ideas。"
       }
     ]
+  },
+  {
+    "word": "empathize",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈempəθaɪz/",
+    "partOfSpeech": "vi.",
+    "translation": "vt. & vi. 移情，共情，理解（他人感受）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "We should develop the ability to empathize with others.",
+    "readingExamples": [],
+    "definitionEn": "to understand and share the feelings of another person",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "A good doctor learns to empathize with frightened patients."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "I can empathize with anyone who has lost a close friend."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "empathize with sb",
+        "translation": "理解／体谅某人（的感受）",
+        "example": "We should develop the ability to empathize with others. 我们应培养理解他人感受的能力。（课文原句）"
+      },
+      {
+        "phrase": "empathize with sth",
+        "translation": "对某事感同身受",
+        "example": "Readers empathize with the hero's struggle."
+      },
+      {
+        "phrase": "the ability to empathize",
+        "translation": "共情能力",
+        "example": "The ability to empathize lies at the heart of kindness."
+      }
+    ],
+    "wordForms": {
+      "noun": "empathy 共情，同理心",
+      "verb": "empathize",
+      "adjective": "empathetic / empathic 有同理心的",
+      "adverb": "empathetically",
+      "other": "辨析：empathy（设身处地体会）＞ sympathy（同情、为对方难过）；搭配 empathize WITH sb（不用 empathize sb）"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "我们应当培养____ ____ ____（理解他人）的能力。",
+        "answer": "empathize with others",
+        "note": "empathize with sb 表'理解某人感受'，介词固定用 with"
+      },
+      {
+        "type": "辨析选词",
+        "question": "When my grandmother died, my classmates all ____ (empathized / sympathized) with me and shared my sorrow.",
+        "answer": "empathized",
+        "note": "两者皆可；empathize 强调'感同身受'，sympathize 强调'表示同情'"
+      }
+    ]
+  },
+  {
+    "word": "priority",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/praɪˈɒrəti/",
+    "partOfSpeech": "n.",
+    "translation": "n. 优先事项，最重要的事；优先，重视",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "The third habit is to list your tasks in order of priority.",
+    "readingExamples": [],
+    "definitionEn": "something that is more important than other things and should be dealt with first",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "优先权，(车辆的)先行权",
+        "example": "Traffic on the main road has priority."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Our first priority is to keep the children safe."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "You must learn to set priorities and stick to them."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in order of priority",
+        "translation": "按优先顺序",
+        "example": "The third habit is to list your tasks in order of priority. 第三个习惯是按优先顺序列出任务。（课文原句）"
+      },
+      {
+        "phrase": "a top / first priority",
+        "translation": "头等大事，第一要务",
+        "example": "Safety is our top priority."
+      },
+      {
+        "phrase": "give priority to sth",
+        "translation": "优先考虑某事",
+        "example": "The city gives priority to public transport."
+      },
+      {
+        "phrase": "set priorities",
+        "translation": "确定优先次序",
+        "example": "Successful people set priorities before they start."
+      },
+      {
+        "phrase": "take priority over sth",
+        "translation": "比…更优先",
+        "example": "Health takes priority over work."
+      }
+    ],
+    "wordForms": {
+      "noun": "priority 优先事项",
+      "verb": "prioritize (BrE prioritise) 优先处理，划定优先次序",
+      "adjective": "prior 在先的，优先的",
+      "adverb": "",
+      "other": "构词：pri-（在前）；prioritize sth over sth＝把某事置于优先；prior to（介词）＝before"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "我们应学会____ ____（确定优先次序）并优先处理最重要的事。",
+        "answer": "set priorities",
+        "note": "set priorities 固定搭配；也可用 prioritize your tasks"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "Learning to manage time means learning to ____ (priority) your tasks.",
+        "answer": "prioritize",
+        "note": "此处需动词形式 prioritize'优先处理'"
+      }
+    ]
+  },
+  {
+    "word": "divert",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/daɪˈvɜːt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 转移（注意力等）；使改道，使转向；转移（资金、用途）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make somebody/something change direction; to take somebody's attention away from something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "娱乐，使消遣（较正式，divert oneself）",
+        "example": "She diverted herself by reading detective stories."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The police diverted the traffic away from the accident."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Don't let your phone divert your attention from study."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "divert attention (away) from sth",
+        "translation": "转移对某事的注意力",
+        "example": "Doing things for fun can divert our attention from stress. 做点开心的事能转移我们对压力的注意力。"
+      },
+      {
+        "phrase": "divert sth to sth",
+        "translation": "把（资金／资源）转用于",
+        "example": "The money was diverted to flood relief."
+      },
+      {
+        "phrase": "divert traffic / a river",
+        "translation": "使交通改道／使河流改道",
+        "example": "Traffic was diverted onto a side road."
+      },
+      {
+        "phrase": "a diversion",
+        "translation": "改道；分散注意力的事物",
+        "example": "The fireworks were a welcome diversion."
+      }
+    ],
+    "wordForms": {
+      "noun": "diversion 改道，转移；消遣",
+      "verb": "divert",
+      "adjective": "diversionary 转移注意力的",
+      "adverb": "",
+      "other": "辨析：divert（使转向／转移）vs distract（分心，使不能专注）——divert 常带 to／from，distract 常带 from"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "The magician ____ (diverted / distracted) the audience's attention while he hid the card.",
+        "answer": "diverted",
+        "note": "divert attention'转移注意力'为固定表达；此处强调有意引开注意力"
+      },
+      {
+        "type": "完成句子",
+        "question": "别让手机____ ____ ____ ____（转移你对学习的注意力）。",
+        "answer": "divert your attention from study",
+        "note": "divert attention from sth 固定搭配"
+      }
+    ]
+  },
+  {
+    "word": "distract",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/dɪˈstrækt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 使分心，使不能专注；分散（注意力）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to take somebody's attention away from what they are trying to do",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The noise outside kept distracting me from my homework."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Bright advertisements are designed to distract shoppers."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "distract sb from (doing) sth",
+        "translation": "使某人从某事上分心",
+        "example": "Turn off your phone so it won't distract you from revision. 关掉手机，免得它让你复习分心。"
+      },
+      {
+        "phrase": "distract sb's attention",
+        "translation": "分散某人的注意力",
+        "example": "The loud music distracted my attention."
+      },
+      {
+        "phrase": "be distracted by sth",
+        "translation": "被某事分散注意力",
+        "example": "She was easily distracted by every small noise."
+      },
+      {
+        "phrase": "free from distractions",
+        "translation": "没有干扰的",
+        "example": "Study in a quiet place, free from distractions.（课文语境）"
+      }
+    ],
+    "wordForms": {
+      "noun": "distraction 分心的事物，干扰；娱乐消遣",
+      "verb": "distract",
+      "adjective": "distracted 心烦意乱的；distracting 使人分心的",
+      "adverb": "distractedly",
+      "other": "辨析：distract（使分心）vs disturb（打扰，扰乱）；名词 distraction 也有'消遣'义"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Please keep quiet; the noise is very ____ (distract) when I am trying to focus.",
+        "answer": "distracting",
+        "note": "此处修饰 noise，用现在分词形容词 distracting'使人分心的'"
+      },
+      {
+        "type": "完成句子",
+        "question": "把手机收起来，这样它就不会____ ____ ____ ____（使你学习分心）。",
+        "answer": "distract you from study",
+        "note": "distract sb from sth 固定搭配"
+      }
+    ]
+  },
+  {
+    "word": "occupy",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈɒkjupaɪ/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 占用（时间、空间）；使忙于；居住；占领",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to fill or use a space, an area or an amount of time; to keep somebody busy",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "占领，攻占（地方）",
+        "example": "The soldiers occupied the town within hours."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "担任（职位）",
+        "example": "She occupies a key position in the company."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Reading occupies most of my free time."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The children were happily occupied with their toys."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "occupy time / space",
+        "translation": "占用时间／空间",
+        "example": "These activities occupy an enormous part of your day. 这些活动占据了你一天中很大一部分时间。"
+      },
+      {
+        "phrase": "occupy oneself (with sth)",
+        "translation": "使自己忙于（做某事）",
+        "example": "He occupied himself with routine tasks."
+      },
+      {
+        "phrase": "be occupied with / in doing sth",
+        "translation": "忙于某事",
+        "example": "She was fully occupied with her studies."
+      },
+      {
+        "phrase": "occupy a position / seat",
+        "translation": "担任职位／占座",
+        "example": "The seat was already occupied."
+      }
+    ],
+    "wordForms": {
+      "noun": "occupation 职业；占领；消遣",
+      "verb": "occupy",
+      "adjective": "occupied 被占用的，忙碌的；occupational 职业的",
+      "adverb": "",
+      "other": "拼写：occupy → occupies / occupied / occupying；同义 take up（占用时间/空间）"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "During the holiday, I kept myself ____ (occupy) by learning to cook.",
+        "answer": "occupied",
+        "note": "keep oneself occupied'让自己忙起来'，用过去分词作宾补"
+      },
+      {
+        "type": "完成句子",
+        "question": "这些日常活动____ ____（占用）了你一天中很大一部分时间。",
+        "answer": "occupy / take up",
+        "note": "occupy 与 take up 在'占用时间/空间'义上同义"
+      }
+    ]
+  },
+  {
+    "word": "inadequate",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/ɪnˈædɪkwət/",
+    "partOfSpeech": "adj.",
+    "translation": "adj. 不充分的，不足的；不能胜任的，不够格的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "Superlatives were inadequate to describe these eventful days.",
+    "readingExamples": [],
+    "definitionEn": "not enough or not good enough for a particular purpose",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "(人)感到不能胜任的，自感能力不足的",
+        "example": "The task made him feel inadequate."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The evidence was inadequate to prove his guilt."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Our old classroom is inadequate for such a large class."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be inadequate to do sth",
+        "translation": "不足以做某事",
+        "example": "Superlatives were inadequate to describe these eventful days. 再高级的形容词也不足以描述这些多事之日。（课文原句）"
+      },
+      {
+        "phrase": "inadequate for sth",
+        "translation": "不足以应付某事",
+        "example": "The budget is inadequate for the project."
+      },
+      {
+        "phrase": "feel inadequate",
+        "translation": "感到力不从心",
+        "example": "New teachers often feel inadequate at first."
+      },
+      {
+        "phrase": "woefully / hopelessly inadequate",
+        "translation": "严重不足的",
+        "example": "The safety measures were woefully inadequate."
+      }
+    ],
+    "wordForms": {
+      "noun": "inadequacy 不足，缺陷；adequacy 充足",
+      "verb": "",
+      "adjective": "inadequate ↔ adequate 足够的，适当的",
+      "adverb": "inadequately 不充分地",
+      "other": "构词：in-（否定）+ adequate（足够的）；反义 adequate / sufficient"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The old bridge is quite ____ (adequate) for today's heavy traffic and must be rebuilt.",
+        "answer": "inadequate",
+        "note": "语境表'不足以承受'，需反义 inadequate"
+      },
+      {
+        "type": "完成句子",
+        "question": "再高级的形容词也____ ____ ____（不足以描述）那些日子。",
+        "answer": "were inadequate to describe",
+        "note": "be inadequate to do sth 固定结构"
+      }
+    ]
+  },
+  {
+    "word": "clarify",
+    "textbook": "拓展创新学程三",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈklærəfaɪ/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 澄清，阐明，讲清楚",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make something clearer or easier to understand",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Could you clarify what you mean by 'soon'?"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The teacher clarified the rules before the game began."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "clarify a point / an issue",
+        "translation": "澄清一个观点／问题",
+        "example": "Let me clarify this point before we move on. 我们继续之前，我先澄清这一点。"
+      },
+      {
+        "phrase": "clarify one's position",
+        "translation": "阐明立场",
+        "example": "The manager clarified his position on the plan."
+      },
+      {
+        "phrase": "clarify matters",
+        "translation": "把事情讲清楚",
+        "example": "A few examples helped to clarify matters."
+      },
+      {
+        "phrase": "clarify how / what / whether ...",
+        "translation": "讲清楚（如何／什么／是否）",
+        "example": "Please clarify how the money will be used."
+      }
+    ],
+    "wordForms": {
+      "noun": "clarification 澄清，说明；clarity 清晰，清楚",
+      "verb": "clarify",
+      "adjective": "clear 清楚的",
+      "adverb": "clearly 清楚地",
+      "other": "辨析：clarify（说清楚，使易懂）vs classify（分类，归类）——形近义异，课文用 classify'把活动分类'"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "Before you start, ____ (clarify / classify) the four types of tasks into urgent and important ones.",
+        "answer": "classify",
+        "note": "此处指'把任务分类'，用 classify；clarify 意为'澄清'"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "The teacher gave an example to ____ (clarity) the difficult rule.",
+        "answer": "clarify",
+        "note": "此处需动词 clarify'阐明'"
+      }
+    ]
   }
 ]

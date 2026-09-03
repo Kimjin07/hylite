@@ -774,6 +774,7 @@ body {
     <button class="nav-item" data-filter="Integrated skills"><span>🎯</span>Integrated skills<span class="badge" id="badgeIntegrated">0</span></button>
     <button class="nav-item" data-filter="Extended reading"><span>📚</span>Extended reading<span class="badge" id="badgeExtended">0</span></button>
     <button class="nav-item" data-filter="Project"><span>🔬</span>Project<span class="badge" id="badgeProject">0</span></button>
+    <button class="nav-item" data-filter="补充词汇"><span>➕</span>补充词汇<span class="badge" id="badgeSupplement">0</span></button>
   </nav>
   <div class="sidebar-footer" id="sidebarFooter">数据加载中...</div>
   <div class="sidebar-copyright">© HY-LITE 环亚国际英语</div>
@@ -1053,7 +1054,7 @@ function fetchWrFile(f) {
 let writingData = null;      // 当前单元写作数据（由 renderWriting 填充）
 let _wrLoadedFile = null;
 
-const sectionOrder = ['Welcome to the unit','Reading','Grammar','Integrated skills','Extended reading','Project'];
+const sectionOrder = ['Welcome to the unit','Reading','Grammar','Integrated skills','Extended reading','Project','补充词汇'];
 
 // ========== UTILITIES ==========
 function escapeHtml(str) {
@@ -1732,7 +1733,7 @@ function updateSidebarBadges() {
   const totalAll = counts.all;
   const badgeAll = document.getElementById('badgeAll');
   if (badgeAll) badgeAll.textContent = totalAll;
-  const bm = {'Welcome to the unit':'badgeWelcome','Reading':'badgeReading','Grammar':'badgeGrammar','Integrated skills':'badgeIntegrated','Extended reading':'badgeExtended','Project':'badgeProject'};
+  const bm = {'Welcome to the unit':'badgeWelcome','Reading':'badgeReading','Grammar':'badgeGrammar','Integrated skills':'badgeIntegrated','Extended reading':'badgeExtended','Project':'badgeProject','补充词汇':'badgeSupplement'};
   for (const [sec,bid] of Object.entries(bm)) { const el=document.getElementById(bid); if(el) el.textContent=counts[sec]; }
 
   let footerText;
