@@ -1,0 +1,130 @@
+{
+  "mainTopic": "食物、记忆与文化",
+  "mainTopicEn": "Food, Memory and Culture",
+  "mainTopicBrief": "本单元围绕“治愈系食物”话题，涵盖食物与情感记忆（Reading）、中华美食与地域文化（Extended reading）和居家烹饪的乐趣（Grammar）三个子话题——饮食文化是高考应用文“文化传播”类的核心场景，也是雅思社会文化类议论文的高频命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "治愈食物与情感记忆",
+      "titleEn": "Comfort Food & Memory",
+      "desc": "课文核心：comfort food 的力量 lies in the associations it calls to mind——一口食物如何带我们回到 cultural roots。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"My Comfort Food\" 为主题征文。请你写一篇短文，介绍一种对你有特殊意义的食物，内容包括：1. 这种食物是什么；2. 它唤起的记忆或故事；3. 它对你的意义。注意：词数100左右。",
+          "reference": "My Comfort Food\n\nMy comfort food is nothing fancy — just a bowl of my grandma's rice pudding.\n\nSometimes the smell alone can do the trick. The lovely creamy flavour works like a time machine, immediately transporting me back to those lazy Sunday afternoons in her warm flat, where I listened to her stories and greedily ate bowl after bowl.\n\nNow that I study far from home, one mouthful of it takes me back to my roots, giving me the taste of home that I cry out for and relieving my homesickness. Grandma's pudding feeds not only my stomach but also my heart — and that, I believe, is what comfort food truly means.",
+          "vocabHints": ["nothing fancy", "the smell alone can do the trick", "work like a time machine", "transport me back to", "bowl after bowl", "the taste of home", "cry out for", "relieve homesickness"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that food is simply fuel for the body, while others think it plays a much bigger role in human life. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Is a meal merely maintenance for the human machine, or something closer to a language? Those who take the first view treat food as biology; those who take the second see culture, memory and love served on every plate. My own position is firmly with the second camp: nutrition is what food does, but it is far from all that food means.\n\nThe fuel argument has science on its surface. Bodies run on calories and nutrients, and from a survival standpoint a nutritionally complete capsule would serve as well as a family dinner. Modern life increasingly behaves as if this were true — meals replaced by shakes, lunches eaten at desks — and its defenders argue reasonably that time saved on cooking is time freed for living.\n\nYet this account cannot explain the most ordinary facts of human eating. No one flies home across a continent for a nutrient capsule; they fly home for dumplings folded by a particular pair of hands. Food is the first language of care — we express love by feeding long before children understand words — and the most durable archive of culture: recipes carry a family's history more faithfully than photographs, and a single familiar smell can return an adult to a kitchen thirty years gone. Communities, likewise, are built at tables; almost every festival on earth gathers people around shared dishes rather than shared nutrients.\n\nMy conclusion is that the fuel view mistakes the floor for the building. Eating keeps us alive, certainly — but what we eat, with whom, and remembering whom, is one of the principal ways humans stay human.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允展开(燃料派:营养科学+效率现实;意义派:情感语言+文化档案+共同体餐桌三层),立场'营养是功能、远非全部意义'贯穿;结论'把地板当成大楼'的比喻精确落地程度。",
+              "Coherence & Cohesion(连贯与衔接):'The fuel argument has science on its surface'/'Yet this account cannot explain...'/'My conclusion is...'——让步-破题结构;'nutrient capsule'意象从燃料段延续到反驳段('No one flies home for a nutrient capsule')完成翻转;'stay human'收尾呼应开篇'human machine'。",
+              "Lexical Resource(词汇资源):'maintenance for the human machine'、'served on every plate'、'dumplings folded by a particular pair of hands'、'the first language of care'、'the most durable archive of culture'、'a kitchen thirty years gone'——原创表达密集;课文机制(associations food calls to mind)转写为'a single familiar smell can return an adult...'。",
+              "Grammatical Range & Accuracy(语法准确性):设问开篇、分号对句、插入语('— meals replaced by shakes, lunches eaten at desks —')、破折号补论;复杂句准确流畅。"
+            ],
+            "vsGaokao": [
+              "体裁:高考征文写'我的治愈食物'个人叙事(奶奶的布丁);雅思论'食物是什么'的哲学命题——一碗粥vs一个论题。",
+              "论据来源:本文用普适场景(跨洲回家/节日餐桌),不写祖母的具体故事;征文的私人细节恰是得分点。",
+              "语域:征文以'feeds not only my stomach but also my heart'抒情;雅思以'stay human'的判断收束。",
+              "评分维度:雅思看双方公允与立场精确;高考看故事真挚、词块地道(课文 comfort food 词块直接复用)。"
+            ]
+          },
+          "vocabHints": ["maintenance for the machine", "culture served on every plate", "a nutritionally complete capsule", "the first language of care", "durable archive of culture", "carry a family's history", "built at tables", "mistake the floor for the building"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "中华美食与地域文化",
+      "titleEn": "Chinese Cuisine & Regional Culture",
+      "desc": "课文游记：四川火锅 perfect for the damp, foggy climate；南京盐水鸭 served plain in thin, white slices——一方水土一方味。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的美国笔友 Kevin 计划来中国旅行，来信询问你家乡有什么必尝美食。请你写一封回信介绍一道家乡菜，内容包括：1. 菜品及其特点；2. 它与当地气候或文化的联系；3. 邀请品尝。注意：词数100左右。",
+          "reference": "Dear Kevin,\n\nHow exciting that you're coming! You simply cannot leave my hometown Nanjing without tasting our salted duck.\n\nServed plain in thin, white slices, the meat is juicy and salty — no heavy sauce, no fancy decoration, just the pure flavour itself. Like Sichuan hot pots, which are perfect for the damp, foggy climate in which they were invented, our duck also tells a local story: Nanjing's mild autumn is the season when the dish tastes best, so we even call it \"osmanthus duck\", after the flowers blooming then.\n\nWhen you finish your first helping, I bet you will ask for a second. My family and I can't wait to treat you!\n\nYours,\nLi Hua",
+          "vocabHints": ["cannot leave without tasting", "served plain in thin, white slices", "juicy and salty", "perfect for the damp, foggy climate", "tell a local story", "be named after", "first helping", "treat you"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, people are increasingly eating food from other cultures rather than traditional local food. Do you think this is a positive or negative development? (Write at least 250 words.)",
+          "reference": "Menus everywhere are going global: sushi in São Paulo, tacos in Tokyo, and burgers almost anywhere with electricity. Whether this drift away from local eating enriches societies or erodes them divides opinion; my own judgement is that it is broadly positive, provided local food cultures are kept alive beside the imports rather than beneath them.\n\nThe gains are genuine and daily. A wider table is, first, a wider education: every foreign dish is a small lesson in another people's climate, history and taste, and curiosity that begins with the tongue often continues into languages and travel. Variety also drives quality upward — local cooks borrow techniques and ingredients, and the resulting exchange has produced some of the most creative food in history. For migrants, meanwhile, the presence of their cuisine abroad is belonging made edible: a city that serves your grandmother's dishes is easier to call home.\n\nThe risk, however, deserves honest statement. Food is one of culture's principal archives — dishes carry the climate and memory of the place that invented them, as a hotpot carries a foggy basin's need for warmth — and when global fast food displaces rather than joins local cooking, a region can lose recipes it took centuries to write. Younger generations may inherit convenience and forget the kitchen.\n\nOn balance, the development is an opportunity wearing the mask of a threat. The sensible response is addition, not resistance: welcome the world's table, while teaching each generation to cook its own. Cultures, like diets, are healthiest when varied — and anchored.",
+          "wordCount": 254,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):positive/negative 表态精确('broadly positive + provided 条件'),利段三层(味觉教育/创新交流/移民归属),险段诚实陈述(食谱档案的流失风险),结论给出'加法而非抵抗'的方案——程度、条件、对策齐备。",
+              "Coherence & Cohesion(连贯与衔接):'The gains are genuine and daily'/'The risk, however, deserves honest statement'/'On balance...'——推进清楚;'belonging made edible'与'an opportunity wearing the mask of a threat'等浓缩句兼作段落枢纽;'varied — and anchored'收尾双词呼应立场。",
+              "Lexical Resource(词汇资源):'menus are going global'、'a small lesson in another people's climate'、'curiosity that begins with the tongue'、'belonging made edible'、'recipes it took centuries to write'、'inherit convenience and forget the kitchen'——原创密集;课文机制(hot pot与气候)匿名化用('a hotpot carries a foggy basin's need for warmth')。",
+              "Grammatical Range & Accuracy(语法准确性):冒号列举开篇、provided 条件、破折号插入机制、as 类比从句、not...but 定性;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是介绍家乡菜的回信(菜品+文化+邀请);雅思论饮食全球化的得失——请客vs断案。",
+              "论据来源:本文将课文的'火锅-气候'因果匿名化为论证机制;回信则点名盐水鸭并借用课文句式(served plain in thin, white slices)。",
+              "语域:回信有'I bet you will ask for a second'的招待热情;雅思以'varied — and anchored'的格言收束。",
+              "评分维度:雅思须给出带条件的程度表态;高考看菜品诱人、文化点出、邀请诚恳。"
+            ]
+          },
+          "vocabHints": ["menus are going global", "drift away from local eating", "a wider table, a wider education", "drive quality upward", "belonging made edible", "culture's principal archives", "displace rather than join", "addition, not resistance"]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar",
+      "title": "下厨的乐趣",
+      "titleEn": "The Joy of Home Cooking",
+      "desc": "课文语篇：I've thrown myself into home cooking, from boiling noodles in the pot to frying steak in the pan——居家烹饪的收获。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举行以 \"Cooking: My New Skill\" 为主题的英语交流活动。请你准备一篇发言稿，分享你学做饭的经历，内容包括：1. 你为什么开始学做饭；2. 学习过程中的一件趣事或挫折；3. 你的收获。注意：词数100左右。",
+          "reference": "Good afternoon, everyone!\n\nDuring the last winter vacation, I threw myself into home cooking — from boiling noodles in the pot to frying steak in the pan.\n\nIt began simply: my parents were busy, and I was hungry. My first dish was a disaster — the \"fried rice\" was burnt black, and my little brother called it \"charcoal rice\" for a week! But I didn't give up. Watching videos, asking Grandma for tips, I slowly learned to control the heat and season with care.\n\nNow cooking has become my way to relax, and a family dinner cooked by me always enhances our happiness at the table. Trust me: the kitchen teaches patience better than any classroom. Thank you!",
+          "vocabHints": ["throw oneself into home cooking", "from boiling noodles to frying steak", "a disaster", "burnt black", "give up", "season with care", "enhance", "teach patience"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Nowadays fewer young people cook at home, preferring takeaway food or eating out. What are the causes of this trend? What can be done to encourage young people to cook? (Write at least 250 words.)",
+          "reference": "In many cities, a generation is growing up fluent in ordering and illiterate in cooking: the takeaway app has replaced the family recipe. The causes of this shift are practical rather than moral, and so are the remedies.\n\nThree causes stand out. The first is time — or the perception of it: long working and studying hours make the forty minutes behind a stove feel like a luxury, while an app delivers dinner in a tap. The second is broken transmission: cooking was historically taught at a parent's elbow, but when both parents work and grandparents live elsewhere, the kitchen classroom quietly closes, and a young person who was never shown how to hold a knife reasonably fears the attempt. Third, delivery platforms have engineered convenience into temptation — endless choice, falling prices and the removal of every small effort between hunger and food.\n\nThe solutions should make cooking easy to start and rewarding to continue. Schools can treat basic cooking as they treat swimming: a life skill taught to everyone, examined by eating together rather than by tests. Families and platforms alike can lower the entry step — meal kits with pre-measured ingredients, short videos that rescue beginners mid-recipe — because confidence, once won over three simple dishes, tends to feed itself. Finally, reframing helps: cooking sells better as relaxation and friendship — the dinner party, the shared kitchen — than as duty.\n\nThe stove will never out-deliver the app on speed. But speed was never the point of a meal shared; and a generation that learns to cook regains not a chore, but a table.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 齐备——三原因(时间感知/代际传授断裂/平台工程化便利)对三对策(学校生活技能课/降低起步门槛/重新框定为社交),诊断与处方一一咬合;结尾把目标升华为'夺回一张餐桌'。",
+              "Coherence & Cohesion(连贯与衔接):'Three causes stand out'/'The solutions should make cooking easy to start and rewarding to continue'——总起句即方案标准;'the kitchen classroom quietly closes'与'examined by eating together'的意象呼应;'out-deliver the app'收尾承接开篇 app 意象。",
+              "Lexical Resource(词汇资源):'fluent in ordering and illiterate in cooking'、'taught at a parent's elbow'、'engineered convenience into temptation'、'confidence tends to feed itself'、'regains not a chore, but a table'——原创警句密集;课文的 home cooking 场景升维为社会趋势分析。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义开篇、破折号自我修正('The first is time — or the perception of it')、插入列举、once 省略从句('once won over three simple dishes');句式丰富准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考发言稿讲'我学做饭'的个人弧线(炭焙炒饭的趣事);雅思析'一代人不做饭'的社会成因——自嘲vs诊断。",
+              "论据来源:本文用平台机制与代际结构,不用弟弟起绰号的家庭趣事;发言稿的笑点恰是现场得分点。",
+              "语域:发言稿有'Trust me!'与'Thank you!';雅思以'not a chore, but a table'的对照收束。",
+              "评分维度:雅思看因-策对应与机制深度;高考看经历生动、收获真切。"
+            ]
+          },
+          "vocabHints": ["fluent in ordering, illiterate in cooking", "the perception of time", "broken transmission", "at a parent's elbow", "engineer convenience into temptation", "lower the entry step", "confidence feeds itself", "regain a table"]
+        }
+      ]
+    }
+  ]
+}

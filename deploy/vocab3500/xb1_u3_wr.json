@@ -1,0 +1,130 @@
+{
+  "mainTopic": "艺术与审美之眼",
+  "mainTopicEn": "Art & the Seeing Eye",
+  "mainTopicBrief": "本单元围绕“艺术”话题，涵盖走进美术馆（Reading：奥赛博物馆与印象派）、传世名画《清明上河图》（Extended reading）和艺术与学校生活（Integrated skills）三个子话题——艺术鉴赏与文化传播是高考应用文的高频场景，也是雅思艺术教育类议论文的核心命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "走进美术馆",
+      "titleEn": "A Day at the Museum",
+      "desc": "课文游记：在奥赛博物馆 lay eyes on the real thing——nothing could have prepared me for the wonder I felt。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报“艺术之窗”栏目征稿。请你写一篇短文，记述你参观一次画展（或美术馆）的经历，内容包括：1. 参观概况；2. 印象最深的一幅作品及原因；3. 你的收获。注意：词数100左右。",
+          "reference": "Standing Before the Real Thing\n\nLast month I visited the provincial art museum with my classmates.\n\nEven though I had admired the famous painting hundreds of times on my phone screen, nothing could have prepared me for the wonder I felt when I finally laid eyes on the real thing. Seen up close, the small areas of light across the canvas seemed alive, and the way the soft edges of the figures mixed together was something no screen could show.\n\nAlthough the works had very different styles, it was their power to slow me down that stayed with me long after I left. In an age of two-second swipes, a museum teaches us the oldest skill: to stand still and truly see.",
+          "vocabHints": ["lay eyes on the real thing", "nothing could have prepared me for", "seen up close", "small areas of light", "soft edges of the figures", "stay with me long after", "slow down", "stand still and truly see"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that art galleries and museums are no longer necessary because people can see artworks online. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Now that every masterpiece is a search away, some conclude that the buildings which house the originals have outlived their purpose. I disagree with this view almost entirely: the screen has changed how we preview art, not how we experience it.\n\nThe case for the online view deserves fair statement. Digital galleries have democratised access on a scale museums never approached — a student in a small town can study distant collections nightly, zooming into brushwork invisible from behind a rope. For education, comparison and simple awareness, the screen is a gift, and museums themselves know it: their best websites are their longest arms.\n\nYet seeing an image is not standing before a painting, and the difference is the museum's whole argument. Scale vanishes on a phone: a canvas that fills a wall and a miniature arrive as the same rectangle. Texture vanishes too — the ridges of paint, the light that shifts as the viewer moves — and with them goes the strange authority of the original, the knowledge that this very object left the artist's hands. Museums also curate an experience screens cannot: silence, sequence and the discipline of standing still, in which attention deepens from a glance into an encounter. It is telling that decades of perfect reproductions have not emptied galleries but filled them — the preview feeds the pilgrimage.\n\nMy conclusion is that screens and galleries have settled into partnership: one distributes images, the other guards presence. A civilisation that kept only the copies would soon forget what all the copies are copies of.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态明确('disagree almost entirely')且判据清晰(预览≠体验),对方论点公允(数字民主化+博物馆自身的网站),核心段从尺度/质感/原作权威/策展体验四层论证在场性,并以'复制品越完美、展馆越拥挤'的反事实收束——论证充分。",
+              "Coherence & Cohesion(连贯与衔接):'The case for the online view deserves fair statement'/'Yet seeing an image is not standing before a painting'/'My conclusion is...'——推进清楚;'their best websites are their longest arms'与'the preview feeds the pilgrimage'两个警句分别收束两段;'copies are copies of'的绕口令式收尾点题原作价值。",
+              "Lexical Resource(词汇资源):'a search away'、'outlived their purpose'、'zooming into brushwork invisible from behind a rope'、'the strange authority of the original'、'from a glance into an encounter'、'guards presence'——原创密集;课文体验(nothing could have prepared me/up close)转写为论证机制。",
+              "Grammatical Range & Accuracy(语法准确性):now that 开篇、破折号插入、it is telling that 强调、条件虚拟收尾('A civilisation that kept only the copies would...');复杂句准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是观展记(经历+作品+收获);雅思论美术馆存废——一次感动vs一个论题。",
+              "论据来源:本文用尺度/质感/在场的普适机制,课文'手机看百遍不如亲眼一见'的体验升维为'preview vs experience'的框架。",
+              "语域:观展记以'stand still and truly see'的感悟收尾;雅思以文明层面的虚拟条件句收束。",
+              "评分维度:雅思看'为何在场不可替代'的机制拆解;高考看体验真切、细节生动(课文词块 laid eyes on/up close 直接复用)。"
+            ]
+          },
+          "vocabHints": ["a search away", "outlive their purpose", "democratise access", "their longest arms", "the authority of the original", "from a glance into an encounter", "the preview feeds the pilgrimage", "guard presence"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "传世名画：清明上河图",
+      "titleEn": "Riverside Scene at Qingming",
+      "desc": "课文赏析：hundreds of people from all walks of life 尽入画卷——displays a remarkable mastery of perspective 的国宝长卷。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的法国笔友 Marie 正在做“世界名画”课题，来信请你介绍一幅中国名画。请你写一封回信介绍《清明上河图》，内容包括：1. 画作基本信息；2. 画面内容与艺术特色；3. 观看建议。注意：词数100左右。",
+          "reference": "Dear Marie,\n\nFor your project, let me introduce Riverside Scene at Qingming, one of China's most treasured paintings.\n\nIt is commonly believed that the city described in the painting is Bianjing, capital of the Northern Song Dynasty about 900 years ago. Along the five-metre scroll, hundreds of people from all walks of life — butchers, hairdressers, boatmen and officials — can be seen going about their daily business. Using ink on silk, the artist Zhang Zeduan created amazingly realistic images and displayed a remarkable mastery of perspective.\n\nMy advice: don't try to see it all at once. View it slowly from right to left, like unrolling a movie of ancient China, and the busy river city will come alive before your eyes.\n\nYours,\nLi Hua",
+          "vocabHints": ["it is commonly believed that", "scroll", "from all walks of life", "go about their daily business", "using ink on silk", "realistic images", "a remarkable mastery of perspective", "come alive before your eyes"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that a country's art and cultural treasures are the best way for foreigners to understand that country. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Nations introduce themselves in many ways — through trade, tourism and news — but some hold that art and cultural treasures make the deepest ambassadors. I agree to a large extent: art carries what official channels cannot, though it serves understanding best as an entrance rather than a summary.\n\nThe strengths of art as national introduction are considerable. First, art is testimony without argument: a thousand-year-old scroll crowded with boatmen, pedlars and officials shows a civilisation's daily life with a candour no brochure would risk, and viewers trust what was never designed to persuade them. Second, art travels across language as facts cannot: a foreigner may forget every date of a dynasty yet remember forever the bustle of a painted river city, because images lodge where statistics slide off. Third, treasures embody values silently — what a culture chose to paint, preserve and perfect reveals what it loved.\n\nThe reservation, however, is real. Treasures are a country's edited highlights: masterpieces record the tastes of courts and collectors more often than the lives of the poor, and the distance between a golden age on silk and a modern nation on smartphones can mislead the viewer who mistakes heritage for description. Art opens the door in the warmest way; but a door is an invitation, not a tour.\n\nMy conclusion is that cultural treasures are the best beginning of understanding and a poor substitute for the rest of it. Let the scroll enchant first — then let the visitor board a real bus, in the real city, where the boatmen's descendants live now.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):程度表态精确('to a large extent + entrance rather than summary'),支持段三层机制(无意说服的证词/图像跨语言的记忆优势/珍宝的价值观显影),保留段指出'精选集偏差',结论给出行动序('先让画卷迷人,再上真实的公交')——层次完整。",
+              "Coherence & Cohesion(连贯与衔接):'First... Second... Third...'的机制列举/'The reservation, however, is real'/'My conclusion is...'——结构显豁;'a door is an invitation, not a tour'承接选必一U3同款门喻并翻新;结尾'boatmen's descendants'回收画卷意象。",
+              "Lexical Resource(词汇资源):'the deepest ambassadors'、'testimony without argument'、'a candour no brochure would risk'、'images lodge where statistics slide off'、'edited highlights'、'mistake heritage for description'——原创概念句密集;课文画卷细节(boatmen/all walks of life)匿名织入论据。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入、because 机制句、what 从句作主语('what a culture chose to paint...reveals...')、祈使式结论;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文清明上河图在回信中完整点名介绍;雅思中化为'a thousand-year-old scroll crowded with boatmen'的匿名论据——同一幅画,导览vs证据。",
+              "体裁:回信是名画介绍(信息+特色+建议);雅思论'艺术能否代表国家'。",
+              "语域:回信有'like unrolling a movie'的生动导览;雅思以'real bus, real city'的落地收束。",
+              "评分维度:雅思看'入口而非总结'的边界论证;高考看信息准确、介绍生动、建议贴心。"
+            ]
+          },
+          "vocabHints": ["the deepest ambassadors", "testimony without argument", "never designed to persuade", "lodge where statistics slide off", "embody values silently", "edited highlights", "an invitation, not a tour", "a poor substitute"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "艺术走进校园生活",
+      "titleEn": "Art in School Life",
+      "desc": "课件活动：arrange the vegetables to create your portrait——创意艺术让日常材料变成作品，艺术教育的乐趣与价值。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校艺术节将举办“创意工坊”（Creative Workshop）活动，面向全体学生开放。请你以组委会名义写一则英文通知，内容包括：1. 活动内容（如蔬果拼贴肖像、旧物改造等）；2. 时间地点与报名方式；3. 欢迎参加。注意：词数100左右。",
+          "reference": "Notice\n\nThink art belongs only to galleries? Come to our Creative Workshop at this year's Art Festival and think again!\n\nAt the workshop, you can arrange fruits and vegetables on toast to create your own portrait, turn old bottles into flower vases, and paint pebbles into pandas. No drawing skills are required — what matters is imagination, not technique. All materials will be provided free.\n\nTime: 2–5 p.m., this Friday\nPlace: Art Building, Room 101\nSign-up: scan the QR code on the poster before Thursday\n\nCome and discover the artist hidden in you. Everyone is welcome!\n\nThe Organising Committee",
+          "vocabHints": ["creative workshop", "arrange...to create your portrait", "turn...into...", "no skills are required", "what matters is imagination", "materials provided free", "sign up", "the artist hidden in you"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that art and music classes are less important than academic subjects such as maths and science, and should be optional in schools. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In timetables crowded with examinations, art and music are usually the first classes surrendered, on the theory that they decorate an education rather than constitute one. I disagree with this view almost completely: the arts train capacities that academic subjects assume but never teach, and making them optional guarantees that the students who need them most will never choose them.\n\nThe argument for demotion sounds hard-headed. Mathematics and science open careers and feed economies; parents and governments, paying for measurable outcomes, reasonably prioritise subjects with answer keys. Class time is finite, and in the arithmetic of timetabling, a drawing lesson competes directly with exam marks that decide futures.\n\nYet this accounting misses what the arts uniquely supply. They are the only school subjects where there is no single right answer, and thus the only regular training in judgement — in making choices that must be defended by taste and intention rather than formula. They teach the tolerance of early failure that every creative profession, including science itself, runs on: a child who reworks a painting learns revision more deeply than one who checks answers. Studies of learning repeatedly find that arts education strengthens the very attention and confidence that academic subjects then harvest. The scientist who imagines a new experiment is using a muscle first exercised, in most lives, with crayons.\n\nMy conclusion is that the hierarchy is false and self-defeating. Arts classes are not a rest from serious learning; they are where several serious things are learned for the first time. Schools should keep them compulsory — not as decoration, but as foundation.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态明确('disagree almost completely')并附制度洞察(选修制会筛掉最需要的学生),对方论点公允(可测产出的财政逻辑),核心段三层论证(无标准答案=判断力训练/早期失败的耐受/注意力迁移),结论'不是装饰是地基'收束——回应完整有力。",
+              "Coherence & Cohesion(连贯与衔接):'The argument for demotion sounds hard-headed'/'Yet this accounting misses...'/'My conclusion is...'——会计隐喻(accounting/arithmetic/harvest)贯穿对方与我方论证;'first exercised with crayons'的具象收束抽象论证。",
+              "Lexical Resource(词汇资源):'decorate an education rather than constitute one'、'subjects with answer keys'、'the arithmetic of timetabling'、'defended by taste and intention rather than formula'、'a muscle first exercised with crayons'、'not as decoration, but as foundation'——原创警句密集;课件'imagination, not technique'的理念学术化。",
+              "Grammatical Range & Accuracy(语法准确性):on the theory that 从句、插入语('paying for measurable outcomes')、where 定语从句、including 插入、平行对照收尾;句式丰富准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是创意工坊通知(活动+信息+欢迎);雅思论艺术课的必修地位——办活动vs辩课表。",
+              "论据来源:本文用判断力训练与注意力迁移的教育学机制,不写蔬果拼贴的活动细节;通知的趣味细节恰是吸引力所在。",
+              "语域:通知有设问开场与'Everyone is welcome!';雅思以'foundation'的定性收束。",
+              "评分维度:雅思看'为何必修'的机制论证与选修制悖论;高考看信息完整、格式规范、吸引力强。"
+            ]
+          },
+          "vocabHints": ["surrendered first", "decorate rather than constitute", "answer keys", "the arithmetic of timetabling", "training in judgement", "tolerance of early failure", "harvest", "not decoration but foundation"]
+        }
+      ]
+    }
+  ]
+}

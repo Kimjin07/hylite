@@ -1,0 +1,130 @@
+{
+  "mainTopic": "音乐的力量",
+  "mainTopicEn": "The Power of Music",
+  "mainTopicBrief": "本单元围绕“音乐”话题，涵盖音乐叙事《梁祝》（Reading）、贝多芬的抗争（Extended reading）和音乐与日常生活（Integrated skills）三个子话题——音乐艺术是高考文化传播类应用文的重点场景，也是雅思艺术教育类议论文的常见命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "乐声里的故事：梁祝",
+      "titleEn": "Butterfly Lovers in Music",
+      "desc": "课文乐评：小提琴协奏曲《梁祝》combines Chinese and Western musical elements——a piece that really deserves to be heard。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Lucy 喜欢古典音乐，来信请你推荐一部中国音乐作品。请你写一封回信推荐小提琴协奏曲《梁祝》（Butterfly Lovers），内容包括：1. 作品简介；2. 它的独特之处；3. 推荐聆听的段落或方式。注意：词数100左右。",
+          "reference": "Dear Lucy,\n\nSince you love classical music, let me recommend Butterfly Lovers, a beautiful violin concerto composed by He Zhanhao and Chen Gang — a piece that really deserves to be heard.\n\nThe music tells a classic Chinese love story. When the two lovers first meet, the melody is light and pleasant, as if whispering to the audience; during the most exciting part, it turns dramatic with heavier notes; and finally it ends on a bittersweet note, telling how the couple transform into butterflies and fly away together.\n\nWhat makes it special is that it combines Chinese and Western musical elements — a Western orchestra speaking with a Chinese accent, so to speak.\n\nDo listen to the final section first. I guarantee you'll enjoy it!\n\nYours,\nLi Hua",
+          "vocabHints": ["a violin concerto composed by", "deserve to be heard", "light and pleasant", "as if whispering to the audience", "end on a bittersweet note", "transform into butterflies", "combine Chinese and Western musical elements", "I guarantee"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that traditional music of a country is more important than international pop music. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "In every country the radio now carries two currents: the songs of the world and the songs of the place. Some argue that a nation's traditional music deserves the higher seat; others answer that international pop is the living music of actual life. My view is that the comparison misstates their roles — traditional music is more important to preserve, precisely because pop needs no help surviving.\n\nThe case for tradition rests on what such music uniquely carries. Folk songs and classical forms are archives in sound: their instruments, scales and stories encode centuries of a people's feeling, and once lost they cannot be recomposed. Traditional music also anchors identity — a melody built on familiar folk tunes can move listeners who have never studied it, because it speaks an inherited language. When such works cross borders, they carry their culture with them, opening a country to the world's ear as no press release can.\n\nDefenders of pop music hold equally real ground. Pop is democratic and current: it needs no training to enjoy, gives the young a common language across borders, and much of it is genuinely inventive. Dismissing it as noise repeats the very snobbery once aimed at every new form — including, in their day, the traditions we now revere.\n\nMy conclusion is that importance splits by function. Pop owns the present and can defend itself in any market; tradition owns the past and cannot. Public support, teaching and stages should therefore tilt towards traditional music — not against pop, but against forgetting. A country can dance to the world's beat and still remember its own tune.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允(传统:声音档案+身份锚点+跨境传播;流行:民主性+跨国共同语+反精英主义的历史提醒),立场'重要性按功能分野、公共资源应倾斜传统'精确;结论'不是反对流行,是反对遗忘'解除对立。",
+              "Coherence & Cohesion(连贯与衔接):'The case for tradition rests on...'/'Defenders of pop music hold equally real ground'/'My conclusion is that importance splits by function'——推进清晰;'two currents'的电台意象开篇、'dance to the world's beat and still remember its own tune'收尾,首尾同域呼应。",
+              "Lexical Resource(词汇资源):'archives in sound'、'encode centuries of a people's feeling'、'speaks an inherited language'、'opening a country to the world's ear'、'repeats the very snobbery'、'tilt towards'——概念表达密集;课文的中西合璧机制('a melody built on familiar folk tunes')匿名化用梁祝。",
+              "Grammatical Range & Accuracy(语法准确性):冒号双流开篇、破折号立场句、including 插入的历史反讽、not...but 精确定性;复杂句准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文的梁祝在推荐信中点名并借用乐评句式;雅思中化为'a melody built on familiar folk tunes'的匿名例证。",
+              "体裁:推荐信有'Do listen to the final section first!'的听歌指路;雅思是文化政策式的权衡。",
+              "语域:信件可用'so to speak'的俏皮注解;雅思的巧思放在'against forgetting'的立场表述。",
+              "评分维度:雅思看'重要性如何比较'的框架创新;高考看作品讲清、亮点突出、推荐具体。"
+            ]
+          },
+          "vocabHints": ["two currents", "deserve the higher seat", "archives in sound", "encode centuries of feeling", "anchor identity", "a common language across borders", "importance splits by function", "against forgetting"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "无声世界的交响：贝多芬",
+      "titleEn": "Beethoven: Music Against Silence",
+      "desc": "课文传记：almost completely deaf 的贝多芬 never abandoned hope——用铅笔“听”钢琴，让决心 coursing through the music。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"Never Give Up\" 为主题征文。请你以贝多芬的故事为例写一篇短文，内容包括：1. 他遭遇的困境；2. 他如何应对；3. 这个故事给你的启示。注意：词数100左右。",
+          "reference": "Never Give Up\n\nWhen we talk about never giving up, no story moves me more than Beethoven's.\n\nBy the time he was a teenager, he had already enjoyed a reputation as a wonderful young musician. Then came the cruellest blow for any composer: he began to lose his hearing. Yet even in his darkest moments, Beethoven never abandoned hope. When composing at the piano, he would put one end of a pencil in his mouth and place the other end against the instrument, so that he could feel the notes through his teeth.\n\nAt the première of his Ninth Symphony, he was almost completely deaf — yet the music, full of desperate lows and uplifting highs, still shook the world.\n\nFate may take something from everyone; what matters is what we create with what remains.",
+          "vocabHints": ["enjoy a reputation as", "lose one's hearing", "in his darkest moments", "never abandoned hope", "feel the notes", "almost completely deaf", "desperate lows and uplifting highs", "what we create with what remains"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that difficulties and setbacks help people develop stronger characters, while others think they mainly cause harm. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether hardship builds people or breaks them is a question as old as misfortune itself. One tradition celebrates adversity as the forge of character; another warns that suffering mostly wounds. Having weighed both, I believe adversity can strengthen — but only when certain supports are present, which means the second view deserves more respect than proverbs allow it.\n\nThe forging view has famous evidence on its side. History's most moving achievements are disproportionately the work of people who lost something first — composers writing against deafness, athletes rebuilt from injury — and psychology recognises the pattern as real: those who survive difficulty often report sharper priorities, deeper empathy and confidence with a foundation, because it was tested. Struggle also teaches what comfort cannot: resourcefulness is learned only where resources end.\n\nYet the harm view guards an important truth that success stories hide. For every figure who transformed suffering into symphonies, uncounted others were simply worn down — their setbacks brought not wisdom but exhaustion, debt and quiet withdrawal. Adversity's lessons, moreover, are regressive: those with savings, health and supporters can convert a blow into a comeback, while the most vulnerable receive only the blow. To preach that hardship ennobles, without providing help, is comfortable cruelty.\n\nMy conclusion is that adversity is a harsh teacher whose classes only some can afford to attend. It can indeed build strength — the deaf composer proves the ceiling — but the survivors' gallery must not hide the casualties. The right response is neither to seek hardship nor to fear it, but to meet it accompanied: supported people grow where abandoned people break.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点深度展开(锻造派:历史证据+心理学模式+资源尽头的学习;伤害派:幸存者偏差+逆境课程的累退性),立场'条件论'精确(有支持则强化),结论给出行动姿态('meet it accompanied')——超越励志与悲观的二元。",
+              "Coherence & Cohesion(连贯与衔接):'The forging view has famous evidence on its side'/'Yet the harm view guards an important truth that success stories hide'/'My conclusion is...'——推进有力;'the survivors' gallery must not hide the casualties'完成对幸存者偏差的收束;'supported people grow where abandoned people break'对句结尾。",
+              "Lexical Resource(词汇资源):'the forge of character'、'confidence with a foundation, because it was tested'、'resourcefulness is learned only where resources end'、'comfortable cruelty'、'a harsh teacher whose classes only some can afford to attend'——警句密度极高;贝多芬化为'composers writing against deafness'与'the deaf composer proves the ceiling'的匿名双引。",
+              "Grammatical Range & Accuracy(语法准确性):分词状语('Having weighed both')、插入语('— their setbacks brought not wisdom but... —')、whose 定语从句、neither...nor...but 三段式收尾;复杂句准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文贝多芬在高考征文中完整叙事(铅笔听琴/第九交响曲首演);雅思中两度匿名引用并同时用于正反论证——素材的双面性处理。",
+              "体裁:征文是励志叙事+感悟;雅思须给'逆境何时有益'的条件判据并直面幸存者偏差。",
+              "语域:征文以'what we create with what remains'的金句收尾;雅思以社会支持的政策含义收束。",
+              "评分维度:雅思看辩证深度(regressive lessons 的洞察);高考看故事完整、金句点题。"
+            ]
+          },
+          "vocabHints": ["the forge of character", "disproportionately", "sharper priorities", "where resources end", "worn down", "regressive lessons", "comfortable cruelty", "meet it accompanied"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "音乐与日常生活",
+      "titleEn": "Music in Everyday Life",
+      "desc": "课文自述：the Beatles's music has accompanied me throughout my life——一首歌如何成为一段人生的背景音。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校广播站“歌声与心声”栏目征集荐歌信。请你写一封信推荐一首陪伴你成长的歌，内容包括：1. 歌曲及你与它的故事；2. 推荐理由；3. 希望播出的时段。注意：词数100左右。",
+          "reference": "Dear Editors,\n\nI'd like to recommend a song that has accompanied me throughout my school years.\n\nI still remember the first time I heard it: I turned up the volume and stood staring at the radio, holding my breath and waiting for the first notes. Since then, it has been the background music of my life — it cheered me up after my first failed exam, and kept me company on countless evening walks home.\n\nI recommend it because its message is simple but powerful: bad times, like clouds, pass. May it comfort more schoolmates the way it comforted me.\n\nCould you play it during Friday's evening show, when the week feels longest? Many thanks!\n\nYours,\nLi Hua",
+          "vocabHints": ["accompany me throughout", "turn up the volume", "stand staring at", "holding my breath", "the first notes", "cheer sb up", "keep sb company", "comfort"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people say that music is a good way of bringing people of different cultures and ages together. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Music is often called the universal language, credited with joining hands that politics and vocabulary cannot. I agree with this claim to a large extent — music genuinely dissolves barriers that words maintain — while noting one honest limit: it unites most powerfully in the moment, and moments need help becoming more.\n\nThe uniting power of music begins in its medium. Melody and rhythm bypass translation entirely: a lullaby soothes, a drumbeat lifts, a lament aches in every language, because music reaches emotion before it reaches meaning. This is why stadium crowds of strangers sing as one body, why a Chinese concerto about butterfly lovers can move audiences who know nothing of the legend, and why grandparents and grandchildren who share no playlists can still share a dance at a wedding. Music also gives divided groups a face-saving meeting place: choirs and orchestras of former enemies have rehearsed reconciliation that negotiators could not draft.\n\nThe limit, however, is worth stating plainly. Shared feeling is not yet shared understanding: a festival crowd swaying together returns home to its separate prejudices, and the warmth of a concert, like the concert itself, can end at the exit. Music opens the door between cultures and generations; it does not, by itself, walk anyone through.\n\nMy conclusion is that the claim is true and incomplete. Music is the fastest bridge we possess between different peoples and different ages — the cheapest, too, requiring no visa and no vocabulary. But bridges only matter when crossed both ways, and crossing remains work that people, not songs, must do.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):to what extent 表态精确('to a large extent + one honest limit'),支持段三例递进(体育场合唱/跨文化协奏曲/祖孙共舞)加和解合唱团的社会证据,限度段指出'共情≠共识',结论'桥要双向走'落地程度——立场诚实有层次。",
+              "Coherence & Cohesion(连贯与衔接):'The uniting power of music begins in its medium'/'The limit, however, is worth stating plainly'/'My conclusion is...'——推进干净;'opens the door...does not walk anyone through'与'bridges only matter when crossed'的意象接力完成限度论证。",
+              "Lexical Resource(词汇资源):'bypass translation entirely'、'reaches emotion before it reaches meaning'、'sing as one body'、'a face-saving meeting place'、'rehearsed reconciliation that negotiators could not draft'、'requiring no visa and no vocabulary'——原创表达密集;课文梁祝匿名入例('a Chinese concerto about butterfly lovers')。",
+              "Grammatical Range & Accuracy(语法准确性):分词插入('credited with joining hands...')、because 机制句、平行三 why 从句、not...by itself 精确否定;句式繁复准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是电台荐歌信(故事+理由+时段);雅思论音乐的联结力——一首歌的私人史vs一种媒介的社会学。",
+              "论据来源:本文用体育场/婚礼/和解乐团等公共场景,课文的 Beatles 陪伴叙事转化为'share no playlists can still share a dance'。",
+              "语域:荐歌信有'when the week feels longest'的体贴;雅思的温度在'the cheapest bridge'的冷幽默里。",
+              "评分维度:雅思看'联结的边界'论证;高考看故事动人、理由清楚、请求具体。"
+            ]
+          },
+          "vocabHints": ["the universal language", "bypass translation", "reach emotion before meaning", "sing as one body", "a face-saving meeting place", "rehearse reconciliation", "open the door, not walk through", "crossed both ways"]
+        }
+      ]
+    }
+  ]
+}

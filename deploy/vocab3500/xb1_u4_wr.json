@@ -1,0 +1,130 @@
+{
+  "mainTopic": "诗意的栖居",
+  "mainTopicEn": "Poetry and Life",
+  "mainTopicBrief": "本单元围绕“诗歌”话题，涵盖读诗入门（Reading）、李白与诗仙风骨（Extended reading）和人生的选择（Integrated skills：未选择的路）三个子话题——诗歌鉴赏与人生感悟是高考读写结合的常见落点，也是雅思文学教育类议论文的命题区。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "读诗入门",
+      "titleEn": "How to Read a Poem",
+      "desc": "课文方法论：即使真意 beyond your grasp，也可以先听 how the poem sounds——set the poem aside and come back to it later。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班英语角将举办“诗歌之夜”活动，不少同学因“读不懂诗”而犹豫。请你写一篇短文发在班级群里，分享读诗的方法，鼓励大家参加，内容包括：1. 理解同学的顾虑；2. 两三条读诗建议；3. 邀请参加。注意：词数100左右。",
+          "reference": "Poetry Night Is for Everyone\n\nMany of you told me, \"I'd love to come, but poems are beyond my grasp.\" Please don't worry — nobody understands every poem, not even poets themselves!\n\nHere are my tips. First, read the poem aloud: even if its true meaning escapes you, you can always enjoy how it sounds. Second, don't chase the \"correct answer\"; more than any other type of literature, poetry implies meanings beyond the words on the page, and your feeling is a valid key. Third, if you still don't get it, simply set the poem aside and come back to it later — good poems wait patiently.\n\nThis Friday, bring your favourite lines and your curiosity. See you at Poetry Night!",
+          "vocabHints": ["beyond one's grasp", "read aloud", "how the poem sounds", "imply meanings beyond the words", "a valid key", "set the poem aside", "come back to it later", "wait patiently"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that poetry is no longer relevant in the modern world. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "In a culture of instant messages and shrinking attention, poetry can look like a museum piece: beautiful, respected and read by almost no one. I disagree with the claim that it has lost relevance — though I concede that poetry's presence has changed shape, and that its traditional packaging has indeed dated.\n\nThe case for irrelevance is easily made. Poetry sales are a rounding error in publishing; school encounters with verse are often the last; and the modern reader, trained by feeds to skim, has little patience for lines that must be read twice. If relevance means market share, the argument is over quickly.\n\nBut relevance measured by use tells another story. Whenever language must carry more feeling than information, people reach instinctively for the poetic: at weddings and funerals, in anthems and protest slogans, in the careful words of a love message. Song lyrics — poetry's loudest descendant — are memorised by billions who would never open a verse collection, and short poems now travel social media precisely because compression is the native art of the small screen. More deeply, poetry answers a need the information age sharpens rather than solves: it slows the reader down, saying less and meaning more, in a world that says more and means less. A form built on implying what cannot quite be said will stay relevant for as long as humans feel more than they can state.\n\nMy conclusion is that poetry has not retreated from modern life; it has dissolved into it. The book of verse sells poorly — while its contents, wearing new clothes, are everywhere.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确('disagree + concede 包装过时'),反方以'市场份额'立论并被'使用度'框架反转,支持段三层(仪式语言/歌词与社媒短诗/信息时代的减速需求),结论'没有退场、只是溶解'收束——程度与机制兼备。",
+              "Coherence & Cohesion(连贯与衔接):'The case for irrelevance is easily made'/'But relevance measured by use tells another story'/'My conclusion is...'——衡量标准的切换即论证枢纽;'saying less and meaning more / says more and means less'的镜像对句是全文之眼;'wearing new clothes'收尾呼应'traditional packaging has dated'。",
+              "Lexical Resource(词汇资源):'a museum piece'、'a rounding error in publishing'、'trained by feeds to skim'、'poetry's loudest descendant'、'compression is the native art of the small screen'、'dissolved into it'——原创密集;课文命题(imply meaning beyond words)转写为'implying what cannot quite be said'。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义、分号并列论据、whenever 从句、for as long as 从句、破折号反转收尾;复杂句准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是班级群动员帖(顾虑+方法+邀请);雅思论诗歌的时代价值——教人读诗vs为诗辩护。",
+              "论据来源:本文用歌词/社媒/仪式语言的社会观察;动员帖用课文读诗三法(读出声/别追标准答案/先放一放)。",
+              "语域:群帖有'good poems wait patiently'的温柔;雅思以'wearing new clothes, everywhere'的机智收束。",
+              "评分维度:雅思看'相关性如何衡量'的框架创新;高考看方法实用、语气亲和、动员有效。"
+            ]
+          },
+          "vocabHints": ["a museum piece", "market share", "measured by use", "reach instinctively for the poetic", "loudest descendant", "the native art of the small screen", "saying less and meaning more", "dissolved into it"]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "诗仙李白",
+      "titleEn": "Li Bai, the Poet Immortal",
+      "desc": "课文评传：dare not speak in a voice loud 的惊人想象——free expression of strong feelings breathes vitality into his poetry。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Oliver 正在学中文诗歌，来信请你介绍一位中国诗人。请你写一封回信介绍李白，内容包括：1. 诗人简介；2. 他的诗风特点（可举诗句）；3. 推荐一首入门作品。注意：词数100左右。",
+          "reference": "Dear Oliver,\n\nHow wonderful that you're learning Chinese poetry! Let me introduce Li Bai, the poet every Chinese child can recite.\n\nLiving in the Tang Dynasty, Li Bai travelled famous mountains and great rivers all his life, encountering different customs and writing over a thousand poems. What makes him special is his striking imagination and free expression of strong feelings, which breathes vitality into everything he describes. In one early poem, standing in a mountain temple at night, he wrote: \"I dare not speak in a voice loud, for fear of scaring dwellers on high\" — as if the stars were just above his head!\n\nFor a start, try Quiet Night Thoughts, four simple lines about moonlight and homesickness. Short as it is, it has comforted Chinese hearts for 1,200 years.\n\nYours,\nLi Hua",
+          "vocabHints": ["recite", "travel famous mountains and great rivers", "encounter different customs", "striking imagination", "free expression of strong feelings", "breathe vitality into", "dare not speak in a voice loud", "comfort hearts"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that schools should spend more time teaching the classical literature of their own country, while others think this time would be better spent on modern practical skills. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "How many classroom hours a nation owes its old poets is a genuine dilemma for modern curricula. Practical-minded reformers would trade classical literature for coding and communication; traditionalists call that trade a quiet self-erasure. My own view is that classical literature is itself a practical subject, wrongly accused — though it must be taught as a living thing, not a museum duty.\n\nThe reformers' case is sincere. Employers do not interview candidates on ancient verse; hours are scarce, and a syllabus is a budget. If education's first duty is to equip the young for work, then spreadsheets, statistics and second languages have obvious claims, and the centuries-old poem looks like an heirloom lovingly kept while the house needs repairs.\n\nYet the opposition mistakes what classical literature actually trains. A student who works through an old poem is decoding compressed language, weighing ambiguity and reconstructing a distant mind — precisely the interpretive muscles that contracts, negotiations and cross-cultural work demand. Classics are also a nation's shared memory: they supply the images and phrases through which citizens recognise one another, and a generation cut off from them becomes a guest in its own culture. Nor is the past impractical: a poet who turned exile into imperishable lines teaches resilience more memorably than any workshop.\n\nMy conclusion is that the choice is misdrawn. Teach the classics, but teach them as their authors wrote them — as living speech about love, loss and mountains — and they will quietly deliver the very skills the reformers demand: close reading, deep memory and a self that knows where it stands.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允(改革派:课时预算与就业问责;传统派:解读肌肉+共享记忆+韧性教育),立场'古典文学本身就是实用学科'反转对立框架,结论给出教学方式条件('as living speech')——讨论落到怎么教。",
+              "Coherence & Cohesion(连贯与衔接):'The reformers' case is sincere'/'Yet the opposition mistakes what classical literature actually trains'/'My conclusion is that the choice is misdrawn'——推进有力;'an heirloom lovingly kept while the house needs repairs'与'a guest in its own culture'两个比喻分别锚定两段;'living speech'收尾呼应'living thing'。",
+              "Lexical Resource(词汇资源):'a quiet self-erasure'、'a syllabus is a budget'、'interpretive muscles'、'a nation's shared memory'、'turned exile into imperishable lines'(李白匿名化用)、'a self that knows where it stands'——概念警句密集。",
+              "Grammatical Range & Accuracy(语法准确性):条件从句('If education's first duty is...')、破折号插入定义、nor 倒装('Nor is the past impractical')、祈使式结论;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:李白在回信中点名介绍并引诗句英译;雅思中化为'a poet who turned exile into imperishable lines'——诗人的两种出场方式。",
+              "体裁:回信是诗人导览(生平+诗风+入门作);雅思是课程政策辩论。",
+              "语域:回信有'as if the stars were just above his head!'的惊叹;雅思以'knows where it stands'的静句收束。",
+              "评分维度:雅思看框架反转('classics are practical')的论证力;高考看信息准确、诗句点睛、推荐贴心。"
+            ]
+          },
+          "vocabHints": ["owe its old poets", "a quiet self-erasure", "a syllabus is a budget", "interpretive muscles", "shared memory", "a guest in its own culture", "imperishable lines", "living speech"]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "人生的选择：未选择的路",
+      "titleEn": "The Road Not Taken",
+      "desc": "课件诗篇：弗罗斯特笔下 two roads 的抉择——to where it bent in the undergrowth，人生岔路口的思考。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"My Road Not Taken\" 为主题征文，请你结合弗罗斯特的诗《未选择的路》（The Road Not Taken），写一篇短文讲述你的一次选择经历，内容包括：1. 你面对的选择；2. 你的决定及原因；3. 你的感悟。注意：词数100左右。",
+          "reference": "My Road Not Taken\n\nLast year, two roads lay before me: joining the school orchestra, where most of my friends went, or the tiny poetry club that nobody chose.\n\nLike the traveller in Frost's poem, I stood long at the fork, looking down one path to where it bent in the undergrowth. Finally I took the one less travelled by — the poetry club — because something in me wanted a quieter road.\n\nOne year on, I have hosted our first Poetry Night and found my own voice on paper. I still wonder, sometimes, about the road not taken; but I have learned that what matters is not choosing the perfect road, but walking your chosen one with all your heart — and that has made all the difference.",
+          "vocabHints": ["two roads lay before me", "stand at the fork", "to where it bent in the undergrowth", "the one less travelled by", "a quieter road", "the road not taken", "walk your chosen road", "make all the difference"]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think young people should follow the paths their parents suggest, while others believe young people should make their own choices about their lives. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "At every fork in a young life — subjects, careers, cities, partners — two voices offer directions: the parents' and the person's own. Some travellers trust the older map; others insist the road must be chosen by the feet that will walk it. My position is that parents deserve a hearing and the young deserve the decision, because advice ages better than obedience.\n\nThe case for parental guidance is built on real assets. Parents hold decades of data the young cannot yet possess: they have watched talents rise and markets fall, and their warnings often encode painful experience compressed into a sentence. Their motives are also uniquely reliable — few advisers on earth want our flourishing so undividedly. Where the young see romance in a road, parents see its winters, and both visions are true.\n\nYet the decision itself belongs, by right and by logic, to the one who must live it. A path chosen by others is walked without ownership: when hardship comes — and every road bends into undergrowth eventually — the obedient traveller asks 'why did they send me here?', while the self-chosen traveller asks 'how do I go on?'. Only the second question builds an adult. Moreover, parents' maps, however loving, chart the world they knew; roads change faster than advice, and yesterday's safe route may be today's dead end.\n\nMy conclusion is a division of labour: let parents light the crossroads, and let the young do the choosing. A wrong road walked with whole-hearted ownership teaches more than a right road walked on borrowed conviction — and it is the walker, at last, who must answer for the miles.",
+          "wordCount": 272,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允(父母派:经验数据+动机可靠+'看见冬天'的视角互补;自主派:所有权决定韧性+旧地图过时),立场'父母照亮路口、年轻人做选择'的分工论精确;结论以'借来的信念'对照'完全的拥有'收束——层次丰富。",
+              "Coherence & Cohesion(连贯与衔接):'The case for parental guidance is built on real assets'/'Yet the decision itself belongs...'/'My conclusion is a division of labour'——推进清晰;道路意象(fork/map/undergrowth/dead end/miles)贯穿全文成为衔接系统,与弗罗斯特诗境暗合而不点名。",
+              "Lexical Resource(词汇资源):'the older map'、'chosen by the feet that will walk it'、'advice ages better than obedience'、'painful experience compressed into a sentence'、'want our flourishing so undividedly'、'walked on borrowed conviction'、'answer for the miles'——警句密度极高;课件诗句(bent into undergrowth)化入论证。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入、冒号对话式引语('asks why did they send me here?')、however 插入让步('however loving')、祈使式分工句;复杂句准确流畅。"
+            ],
+            "vsGaokao": [
+              "素材用法:弗罗斯特在征文中点名引用并借意象叙事;雅思中诗的意象(fork/undergrowth)溶入论证语言而不提诗名——引用与化用的分界。",
+              "体裁:征文是选择经历的个人叙事;雅思是代际决策权的讨论。",
+              "语域:征文以'that has made all the difference'致敬原诗收尾;雅思以'answer for the miles'的自铸警句收尾。",
+              "评分维度:雅思看分工立场的论证(所有权→韧性的机制);高考看经历真实、化用自然、感悟真诚。"
+            ]
+          },
+          "vocabHints": ["at every fork", "the older map", "chosen by the feet that walk it", "advice ages better than obedience", "see its winters", "walked without ownership", "light the crossroads", "borrowed conviction"]
+        }
+      ]
+    }
+  ]
+}
