@@ -1,0 +1,243 @@
+{
+  "mainTopic": "责任与担当",
+  "mainTopicEn": "Responsibility",
+  "mainTopicBrief": "本单元围绕'责任'展开，涵盖守约与信义（Reading）、毕业致辞·责任的分量（Extended reading）、勇于担当·别急于责怪他人（Grammar and usage）和承认错误的勇气（Integrated skills）四个板块——责任与担当是高考应用文'演讲/书信'类的高频立意，也是雅思品格与社会类议论文的核心命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "守约与信义",
+      "titleEn": "Keeping One's Word",
+      "desc": "课文《二十年后》核心：一位警察在夜里 on the beat，一个人为了二十年前的一个约定 kept an appointment——信义，是一个人对自己诺言的责任。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"A Promise Kept\" 为题征稿。请你写一篇短文，讲述一次你信守承诺的经历，内容包括：1. 事情经过；2. 你的感悟。注意：词数100左右。",
+          "reference": "Two years ago, I promised my grandmother that I would visit her every month after she moved to the countryside. It sounded easy at the time.\n\nBut life grew busy, and one cold weekend I almost gave up the trip. Then I remembered the appointment we had made, and how her face lit up each time I appeared at the door. So I went. At the appointed time she was already waiting at the gate, and though two years had passed, our bond had barely changed.\n\nKeeping a small promise is not always convenient, but it is what makes us people others can rely on. A person's word, I have learned, is a quiet form of responsibility — and the easiest one to break.",
+          "vocabHints": [
+            "made a promise",
+            "the appointment we had made",
+            "her face lit up",
+            "at the appointed time",
+            "had barely changed",
+            "not always convenient",
+            "people others can rely on",
+            "a person's word"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that keeping one's promises is one of the most important qualities a person can have. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Reliability is often praised, and some argue that keeping one's promises ranks among the most valuable of all human qualities. I largely agree, because a person's word underpins the trust on which relationships, work and society itself depend, even if rare circumstances can justify breaking it.\n\nThe central reason is trust. Every serious relationship — friendship, marriage, employment, citizenship — rests on the assumption that people will do what they say. A friend who keeps promises can be relied on in a crisis; an employee who meets commitments is given responsibility and opportunity; a government that honours its pledges earns the confidence of its people. Where promises are broken casually, cooperation collapses, because no one can plan around another's word. In this sense, keeping promises is not merely one virtue among many but the foundation that makes other virtues useful.\n\nThere is, admittedly, a sensible limit. A promise made in ignorance, or one that would cause real harm to keep, should sometimes yield to a greater good; blindly honouring a reckless vow is stubbornness, not integrity. Yet these exceptions are rare, and the person who treats them as loopholes soon becomes untrustworthy in the ordinary cases that matter most.\n\nThe wiser attitude, therefore, is to promise carefully and then keep faithfully — thinking twice before committing, but regarding a commitment made as a genuine obligation.\n\nIn conclusion, while a few extreme situations may excuse a broken promise, the habit of keeping one's word remains among the most important qualities anyone can possess. It is, quite simply, what allows human beings to depend on one another.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'守诺是最重要品质之一'给出'基本同意+承认极端例外'的量化立场;信任论证(友谊/雇佣/政府三例)充分，让步(无知或有害之诺)真实后收回主线，不绝对化。",
+              "Coherence & Cohesion(连贯衔接):The central reason / There is, admittedly / therefore / In conclusion 推进清晰;'foundation that makes other virtues useful'定性句承上启下;'promise carefully and keep faithfully'对仗收束。",
+              "Lexical Resource(词汇资源):underpins the trust / relied on in a crisis / honours its pledges / treats them as loopholes / a genuine obligation 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):even if让步、not merely...but平行、Where条件从句、破折号插入(thinking twice...)，句式多样零硬伤。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写守约经历短文(经过+感悟);雅思论证'守诺是否最重要品质'的品格命题。",
+              "论据来源:高考短文织入课文'made an appointment / at the appointed time / lit up'词块;雅思用信任机制的普适论据(社会协作)。",
+              "语域:短文有个人叙事与细节(her face lit up);雅思学术论证，让步显思辨。",
+              "评分维度:高考重叙事真+升华;雅思TR对agree题看程度限定——'基本同意+极端例外'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "reliability is often praised",
+            "a person's word",
+            "underpins the trust",
+            "relied on in a crisis",
+            "honours its pledges",
+            "one virtue among many",
+            "treats them as loopholes",
+            "a genuine obligation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "毕业致辞·责任的分量",
+      "titleEn": "A Graduation Speech on Responsibility",
+      "desc": "拓展阅读核心：It is my pleasure and privilege to welcome you here today——校长的毕业致辞把责任比作船锚：a ship without an anchor is at the mercy of the waves; likewise, a person who has no sense of responsibility……",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你作为毕业生代表将在高中毕业典礼上用英文发言，主题为'责任'。请写一篇发言稿，内容包括：1. 回顾成长；2. 谈谈责任的意义；3. 对同学们的寄语。注意：词数100左右。",
+          "reference": "Honoured teachers and fellow students, it is my privilege to speak on this special occasion.\n\nThree years ago we arrived as nervous Senior 1 students; today we sit here as confident young adults, ready to walk out into the world. If there is one thing our school has taught us, it is a sense of responsibility. A ship without an anchor is at the mercy of the waves and winds; likewise, a person with no sense of responsibility drifts through life. Responsibility to our families, our society and our own promises is what gives our journey direction.\n\nSo as we say goodbye, let us carry this anchor with us. Wherever we go, may we be people the world can count on. Thank you!",
+          "vocabHints": [
+            "it is my privilege",
+            "on this special occasion",
+            "nervous Senior 1 students",
+            "confident young adults",
+            "a sense of responsibility",
+            "a ship without an anchor",
+            "at the mercy of the waves and winds",
+            "people the world can count on"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that young people today have a weaker sense of responsibility than previous generations. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is a familiar complaint that today's young people care less about duty than their parents and grandparents did. I disagree with this claim: young people's sense of responsibility has not weakened but changed shape, and in some ways it has grown.\n\nThose who criticise the young usually point to surface habits — dependence on phones, later independence from parents, or a reluctance to take traditional jobs. Yet these reflect a transformed world rather than lost character. Young people stay in education longer and leave home later largely because the economy demands it, not because they refuse to grow up. What looks like irresponsibility is often simply a different path to adulthood.\n\nIn fact, on many measures the young show responsibility their elders rarely did. They volunteer in large numbers, lead campaigns on climate change and social justice, and hold institutions to account through the very technology critics blame. A generation that organises to protect the planet its parents damaged can hardly be called indifferent to duty. Their sense of responsibility simply extends beyond the household to global concerns.\n\nIt would be naive to pretend every young person is diligent; every generation contains the lazy and the selfish. But the same was true in the past, which nostalgia conveniently forgets.\n\nIn conclusion, I do not accept that young people are less responsible than before. Their duties look different — shaped by new pressures and new causes — but the underlying willingness to care for others and to act rightly remains as strong as ever, and is perhaps directed at a wider world than earlier generations imagined.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'年轻人责任感更弱'明确反对，提出'形态改变而非弱化甚至增强';拆解表面现象(依赖手机/晚独立)为世界变迁，正面举证(志愿/环保/问责)，并加'每代都有懒惰者'的公允让步。",
+              "Coherence & Cohesion(连贯衔接):Those who criticise / In fact / It would be naive / In conclusion 推进清晰;'a different path to adulthood'完成归因转移;'duties look different'收束呼应。",
+              "Lexical Resource(词汇资源):care less about duty / a transformed world / hold institutions to account / nostalgia conveniently forgets 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入(shaped by new pressures)、which非限定从句、not A but B、分词状语，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写毕业发言稿(回顾+意义+寄语);雅思论证'年轻人责任感是否变弱'的社会命题。",
+              "论据来源:高考发言织入课件'privilege / a sense of responsibility / a ship without an anchor'词块;雅思用代际社会学的普适论据(志愿、环保运动)。",
+              "语域:发言稿有称呼与寄语(may we be...);雅思客观论证，让步显公允。",
+              "评分维度:高考重感染力+要点;雅思TR对agree题看是否量化——'反对+形态改变'是有层次的回应。"
+            ]
+          },
+          "vocabHints": [
+            "care less about duty",
+            "a transformed world",
+            "a different path to adulthood",
+            "hold institutions to account",
+            "indifferent to duty",
+            "extends beyond the household",
+            "nostalgia conveniently forgets",
+            "act rightly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "勇于担当·别急于责怪他人",
+      "titleEn": "Shoulder It, Don't Shift It",
+      "desc": "语法板块核心词块：shoulder the burden、be quick to blame others、feel guilty about、be ready to admit——真正的担当，是先分析问题、承认过错，而不是急着把责任推给别人。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班一次小组作业出了差错，有同学互相指责。请你就'如何对待失误'为班会写一篇英文短文，内容包括：1. 现象与看法；2. 你的建议。注意：词数100左右。",
+          "reference": "After our group project went wrong last week, the first thing many of us did was to look for someone to blame. But pointing fingers solved nothing.\n\nIn my view, when something goes wrong, we should not be quick to blame others. Instead, we should calmly analyse the problem, and if it is indeed our own fault, be ready to admit it. Shouldering our share of the responsibility, rather than shifting it onto teammates, is what holds a group together. There is no shame in making mistakes; the real shame lies in refusing to own them.\n\nA person willing to say \"that was my fault\" is not weaker, but stronger — and far easier to trust.",
+          "vocabHints": [
+            "look for someone to blame",
+            "pointing fingers solved nothing",
+            "be quick to blame others",
+            "calmly analyse the problem",
+            "be ready to admit it",
+            "shoulder our share of the responsibility",
+            "there is no shame in",
+            "own them"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "When something goes wrong, some people think the most important thing is to find who is responsible, while others believe it is better to focus on finding a solution. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "When a plan fails or an accident happens, people react in two ways: some rush to identify who is at fault, while others concentrate on putting things right. Both instincts have value, but in my opinion finding a solution should usually come first, with the question of blame handled carefully and later.\n\nThere is a genuine case for establishing responsibility. If no one is ever held accountable, careless behaviour goes unchecked and the same mistakes recur; identifying the cause of a failure often means identifying the person whose actions produced it. In serious matters — a medical error, a financial fraud — determining who was responsible is essential to justice and to prevention.\n\nYet an obsession with blame frequently makes things worse. When people fear punishment, they hide mistakes rather than report them, so problems grow in the dark; teams waste energy defending themselves instead of repairing the damage. Focusing first on a solution keeps everyone working toward the same goal and creates the honesty in which real causes can later be understood. The best organisations, tellingly, investigate failures to learn, not merely to punish.\n\nThe wisest approach therefore combines the two in the right order: fix the immediate problem, then examine calmly what went wrong and how to prevent it, treating individual fault as one factor rather than the whole story.\n\nIn conclusion, while responsibility must not be ignored, a healthy response to failure looks forward before it looks back. Solving the problem restores what was lost; assigning blame, done wisely and without cruelty, helps ensure it does not happen again.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(追责:防止再犯/正义;解决优先:恐惧致隐瞒/团队内耗)，立场'先解决、后审慎追责'含明确次序，结论落到'向前看再向后看'。",
+              "Coherence & Cohesion(连贯衔接):a genuine case / Yet / therefore / In conclusion 推进清晰;'problems grow in the dark'意象点睛;'looks forward before it looks back'对仗收束。",
+              "Lexical Resource(词汇资源):rush to identify who is at fault / held accountable / hide mistakes rather than report them / investigate failures to learn 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):while对比、so结果、treating分词状语、done wisely插入，句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写班会短文(现象+建议);雅思写失误应对双边议论文。",
+              "论据来源:高考短文织入课件'be quick to blame / analyse the problem / be ready to admit / no shame'词块;雅思用组织管理的普适论据(免责文化)。",
+              "语域:短文有共情与劝导(there is no shame);雅思客观权衡，次序立场显思辨。",
+              "评分维度:高考重建议可行+态度;雅思discuss题奖励带次序的立场——'先解决后追责'高于二选一。"
+            ]
+          },
+          "vocabHints": [
+            "rush to identify who is at fault",
+            "held accountable",
+            "mistakes recur",
+            "hide mistakes rather than report them",
+            "problems grow in the dark",
+            "investigate failures to learn",
+            "one factor rather than the whole story",
+            "looks forward before it looks back"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "承认错误的勇气",
+      "titleEn": "The Courage to Admit Mistakes",
+      "desc": "综合技能板块核心词块：bow one's head、admit a mistake、not pretend——低头认错从来不是懦弱，而是一种需要勇气的责任。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的朋友 Tom 因为不小心弄坏了同学的东西，却不敢承认，为此十分苦恼。请你用英文给他写一封信，内容包括：1. 表达理解；2. 建议他勇于承认；3. 鼓励。注意：词数100左右。",
+          "reference": "Dear Tom,\n\nI can tell that hiding what happened has been weighing on you. It is never easy to admit a mistake, and I understand why you have hesitated.\n\nBut pretending that nothing is wrong only makes things heavier. If you go to your classmate, bow your head honestly and say sorry, most people will forgive far more readily than you fear. Offering to repair or replace what was broken will show that you mean it. Admitting a fault is not a sign of weakness; it takes real courage, and it sets your own mind free.\n\nYou are a good person who made a small mistake. Own it, and you will feel lighter at once. I'm with you.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "has been weighing on you",
+            "admit a mistake",
+            "why you have hesitated",
+            "pretending that nothing is wrong",
+            "bow your head honestly",
+            "forgive far more readily",
+            "not a sign of weakness",
+            "own it"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that admitting one's mistakes is a sign of weakness, while others believe it is a sign of strength. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "When people make errors, they face a choice: confess or conceal. Some regard admitting a mistake as an embarrassing weakness; others see it as a mark of genuine strength. Having considered both, I firmly believe that owning one's faults requires and reveals strength, though I understand why it can feel like the opposite.\n\nThe view that admission is weakness is easy to understand. Confessing an error exposes us to criticism, damages our image and can carry real costs — a lost job, a lower grade, a bruised reputation. In competitive settings, showing fallibility may look like handing rivals an advantage, so people instinctively hide behind excuses or blame others.\n\nYet this reasoning mistakes short-term self-protection for strength. Admitting a mistake takes courage precisely because it is hard: it means facing discomfort honestly rather than fleeing into denial. It also builds something concealment destroys — trust. A leader who says \"I was wrong\" earns more respect than one who never concedes anything, because people sense the honesty behind it. Practically, too, mistakes acknowledged can be corrected and learned from, while mistakes hidden fester and repeat. The truly weak response is the cover-up that protects pride at the cost of growth.\n\nIn my view, therefore, the strength lies in admission, not denial. The person who can say \"that was my fault\" without collapsing possesses a security that defensiveness only imitates.\n\nIn conclusion, although confessing errors exposes us and can feel like weakness, it is in fact a form of courage. Those who can own their mistakes grow wiser and earn deeper trust than those who never dare to.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(示弱说:暴露批评/竞争劣势;示强说:需要勇气/建立信任/可纠正学习)，立场'承认即力量'坚定，让步(为何感觉像示弱)真实。",
+              "Coherence & Cohesion(连贯衔接):The view that / Yet / In my view / In conclusion 推进清晰;'short-term self-protection for strength'完成概念区分;'admission, not denial'对仗贯穿。",
+              "Lexical Resource(词汇资源):confess or conceal / a bruised reputation / flee into denial / mistakes hidden fester and repeat / defensiveness only imitates 表达精准有力。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入代价列举、precisely because强调、while对比、without collapsing介词短语，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写鼓励认错的书信(理解+建议+鼓励);雅思写承认错误双边议论文。",
+              "论据来源:高考信件织入课件'bow one's head / admit a mistake / not pretend / forgive'词块;雅思用领导力与信任的普适论据。",
+              "语域:书信温情支持(I'm with you);雅思学术论证，概念区分承载立场。",
+              "评分维度:高考重情真+建议;雅思discuss题看能否区分'短期自保'与'真正力量'——本文概念拆解是思辨核心。"
+            ]
+          },
+          "vocabHints": [
+            "confess or conceal",
+            "an embarrassing weakness",
+            "a bruised reputation",
+            "flee into denial",
+            "earns more respect",
+            "mistakes hidden fester and repeat",
+            "the cover-up that protects pride",
+            "defensiveness only imitates"
+          ]
+        }
+      ]
+    }
+  ]
+}

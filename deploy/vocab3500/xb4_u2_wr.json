@@ -1,0 +1,243 @@
+{
+  "mainTopic": "跨文化交流",
+  "mainTopicEn": "Communication Across Cultures",
+  "mainTopicBrief": "本单元围绕跨文化沟通展开，涵盖有效的跨文化沟通（Reading）、融入异国文化（Extended reading）、尊重与包容文化差异（Grammar and usage）和在交流中开阔视野（Integrated skills）四个板块——跨文化交流是高考应用文'书信/发言'类的常见场景，也是雅思语言与全球化类议论文的高频命题。",
+  "subTopics": [
+    {
+      "id": "sub-reading",
+      "section": "Reading",
+      "title": "有效的跨文化沟通",
+      "titleEn": "Communicating Across Cultures",
+      "desc": "课文核心：面对偏爱直接风格的美国人，作者常常 failed to get the message across；good communication skills will help you build trust and gain respect——沟通的关键，是读懂彼此的风格与情感。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校将迎来一批外国交换生。请你用英文写一篇短文投稿校刊，谈谈如何与来自不同文化的人有效沟通，内容包括：1. 沟通中可能的误解；2. 你的两三条建议。注意：词数100左右。",
+          "reference": "Next month, a group of exchange students will join our school, and getting along with them may not always be as easy as it looks.\n\nPeople from different cultures often communicate differently. Some, like many Americans, have a preference for a direct style, while others express themselves more gently and indirectly. Without care, we may fail to get the message across, or even give offence without meaning to.\n\nSo how can we communicate well? First, listen with empathy and try to understand the feelings behind the words. Second, ask politely instead of guessing when something is unclear. Above all, be sincere. Good communication skills help us build trust and gain respect — and turn strangers into friends.",
+          "vocabHints": [
+            "getting along with them",
+            "a preference for a direct style",
+            "express themselves indirectly",
+            "fail to get the message across",
+            "give offence without meaning to",
+            "listen with empathy",
+            "be sincere",
+            "build trust and gain respect"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that good communication skills are more important for success than academic knowledge. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Schools reward examination results, yet many argue that the ability to communicate matters more to success in life than academic knowledge. I partly agree: communication skills are indispensable and often decisive, but they work best built upon real knowledge rather than in place of it.\n\nThe case for communication is strong. Most achievements depend on other people — persuading them, leading them, cooperating with them — and none of this is possible without the ability to express ideas clearly and to listen with empathy. A brilliant engineer who cannot explain a design, or a researcher who cannot present findings, sees good work ignored. In workplaces, promotions frequently go to those who communicate well, and the ability to build trust and resolve conflict shapes careers as powerfully as any qualification.\n\nHowever, communication without substance is empty. A speaker who charms but knows nothing may succeed briefly, yet is soon exposed; expertise, technical skill and sound judgement remain the foundation on which persuasion rests. In medicine, law or science, no amount of eloquence compensates for not knowing the facts. The two, moreover, reinforce each other: knowledge gives one something worth communicating, while communication turns private knowledge into shared value.\n\nThe realistic conclusion is that neither alone suffices. Academic learning provides the content; communication delivers it to the world, and success usually requires both.\n\nIn conclusion, while I agree that communication skills are enormously important — often the difference between talent recognised and talent wasted — they cannot replace knowledge. The most successful people are those who both understand deeply and express clearly.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'部分同意'立场精确;沟通重要性(依赖他人/职场晋升)与知识不可替代(空洞被识破/专业为基)双向充分，落到'二者相辅、缺一不可'。",
+              "Coherence & Cohesion(连贯衔接):The case for / However / The realistic conclusion / In conclusion 推进清晰;'reinforce each other'完成整合;'content vs deliver'的分工收束。",
+              "Lexical Resource(词汇资源):indispensable and often decisive / listen with empathy / charms but knows nothing / talent recognised and talent wasted 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):built upon分词条件、破折号插入、while对比、not...replace否定收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写跨文化沟通投稿(误解+建议);雅思论证'沟通与知识孰重'的成功命题。",
+              "论据来源:高考短文织入课文'a preference for a direct style / get the message across / build trust and gain respect'词块;雅思用职业成功的普适论据。",
+              "语域:短文亲切建议(turn strangers into friends);雅思学术权衡，整合式立场显层次。",
+              "评分维度:高考重建议可行;雅思TR对比较题看是否量化——'部分同意+相辅'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "indispensable and often decisive",
+            "persuading and leading them",
+            "listen with empathy",
+            "sees good work ignored",
+            "communication without substance is empty",
+            "reinforce each other",
+            "talent recognised and talent wasted",
+            "understand deeply and express clearly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "融入异国文化",
+      "titleEn": "Fitting into a New Culture",
+      "desc": "拓展阅读核心：It's very difficult to integrate yourself into a society whose culture is so different from your own——融入不是丢掉自己，而是在真诚与尊重中，找到与新环境相处的方式。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的朋友 Mike 即将到中国留学，担心难以适应。请你用英文回信，给他一些融入中国生活的建议，内容包括：1. 表达理解；2. 两三条建议；3. 鼓励。注意：词数100左右。",
+          "reference": "Dear Mike,\n\nI'm so glad you're coming to study in China! It's natural to worry, because it is never easy to integrate yourself into a society whose culture is so different from your own.\n\nHere are a few tips. First, learn some basic Chinese — even a sincere \"nihao\" opens doors. Second, don't be afraid to make mistakes; when you slip up, apologise sincerely and people will warm to you. Third, say yes to invitations, share meals, and ask about customs instead of guessing. Little by little, the strange becomes familiar.\n\nYou won't lose who you are by fitting in; you'll simply grow bigger. I can't wait to show you around. See you soon!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "it's natural to worry",
+            "integrate yourself into a society",
+            "so different from your own",
+            "even a sincere \"nihao\" opens doors",
+            "when you slip up",
+            "apologise sincerely",
+            "the strange becomes familiar",
+            "fitting in"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "When people move to live in a new country, some think they should adapt to the local culture, while others believe they should keep their own culture and traditions. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As migration increases, newcomers face a delicate question: should they blend into the local culture, or preserve the traditions they bring with them? Some urge full adaptation; others defend cultural continuity. In my view the two are not opposites, and the healthiest path combines respect for the host society with pride in one's own heritage.\n\nThe argument for adapting is practical and considerate. Immigrants who learn the local language, follow local customs and understand local values integrate far more easily — they find work, make friends and avoid the isolation that traps those who remain apart. Adapting also shows respect for the community that has received them, and eases the tensions that unfamiliarity can breed.\n\nYet demanding that newcomers erase their own culture is neither fair nor wise. A person's language, food, festivals and beliefs are part of who they are, and abandoning them causes real loss and rootlessness. Diversity, moreover, enriches the host society itself: the most vibrant cities draw energy precisely from the many cultures that meet within them. A migrant who keeps their heritage while embracing their new home offers the best of both.\n\nThe sensible balance, therefore, is integration without erasure. Newcomers should learn the local ways enough to participate fully, while keeping the traditions that give their lives meaning, and host societies should welcome that blend rather than demand uniformity.\n\nIn conclusion, adapting to a new country and preserving one's own culture are not contradictory but complementary. The most successful immigrants, and the most successful societies, are those that manage to hold both at once.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(适应:融入省孤立/表尊重;保留:身份认同/丰富社会)，立场'融入而不抹除'明确，结论落到'二者互补而非对立'。",
+              "Coherence & Cohesion(连贯衔接):The argument for adapting / Yet / therefore / In conclusion 推进工整;'integration without erasure'凝练立场;'the best of both'首尾呼应。",
+              "Lexical Resource(词汇资源):blend into the local culture / cultural continuity / rootlessness / draw energy from / demand uniformity 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):who定语从句、while对比、not A but B、分词状语，句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写留学适应回信(理解+建议+鼓励);雅思写移民文化适应双边议论文。",
+              "论据来源:高考信件织入课件'integrate yourself into a society / apologise sincerely / fitting in'词块;雅思用移民社会学的普适论据。",
+              "语域:书信热情具体(even a sincere nihao);雅思客观权衡，'互补'立场显层次。",
+              "评分维度:高考重建议可行+鼓励;雅思discuss题高分在于整合——'融入而不抹除'超越二元。"
+            ]
+          },
+          "vocabHints": [
+            "blend into the local culture",
+            "cultural continuity",
+            "the isolation that traps them",
+            "erase their own culture",
+            "rootlessness",
+            "draw energy from many cultures",
+            "integration without erasure",
+            "demand uniformity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-grammar",
+      "section": "Grammar and usage",
+      "title": "尊重与包容文化差异",
+      "titleEn": "Respecting Differences",
+      "desc": "语法板块核心词块：have a preference for、be tolerant of、behave differently、correspond to——面对文化差异，理解'不同'不等于'错误'，是包容的第一步。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班就'如何看待中外文化差异'开展讨论。请你用英文写一篇短文，谈谈你的看法，内容包括：1. 举一个文化差异的例子；2. 你主张的态度。注意：词数100左右。",
+          "reference": "During our exchange week, I noticed that my German friend always said exactly what she thought, while I tended to soften my words. At first this felt rude — until I realised it was simply a different style.\n\nDifferent cultures have different preferences, and what seems impolite in one may be perfectly normal in another. A direct \"no\" does not correspond to unfriendliness; it is just another way of being honest. Rather than judging, we should be tolerant of these differences and try to understand why people behave as they do.\n\nDifference is not the same as wrong. When we meet another culture with curiosity instead of judgement, misunderstanding gives way to respect, and the world grows a little wider.",
+          "vocabHints": [
+            "said exactly what she thought",
+            "soften my words",
+            "a different style",
+            "have different preferences",
+            "does not correspond to unfriendliness",
+            "be tolerant of these differences",
+            "why people behave as they do",
+            "difference is not the same as wrong"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that living or studying in a foreign country makes people more tolerant of cultural differences. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is often assumed that spending time abroad broadens the mind and makes people more accepting of other cultures. I largely agree, though I would add that tolerance grows only when the experience is approached with an open attitude.\n\nThe main reason living abroad increases tolerance is direct contact. Reading about another culture is not the same as living inside it: when someone eats unfamiliar food daily, follows local customs and forms friendships across a cultural line, the stereotypes that distance preserves quietly dissolve. Behaviour that once seemed strange starts to make sense once its reasons are understood, and people learn that different does not mean wrong. Facing the discomfort of being a foreigner oneself, moreover, teaches a lasting sympathy for outsiders everywhere.\n\nNevertheless, exposure alone guarantees nothing. Some who live abroad mix only with people from their own country, judge everything by the standards of home, and return more prejudiced than before, their worst assumptions apparently confirmed. Tolerance depends less on physical distance travelled than on willingness to engage — to be curious rather than defensive, and to accept that one's own way is not the only correct one.\n\nOn balance, therefore, living abroad usually does make people more tolerant, because sustained real contact is the most powerful cure for prejudice. But the effect is not automatic; it rewards those who arrive ready to learn.\n\nIn conclusion, while a foreign experience is not a magic guarantee of open-mindedness, for most people who embrace it genuinely, it deepens tolerance in a way no book or lecture can match.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'基本同意+需开放心态'的量化立场;主论(直接接触消解刻板/身为外国人的同理)充分，反例(抱团/更偏见)真实，落到'取决于是否愿意投入'。",
+              "Coherence & Cohesion(连贯衔接):The main reason / Nevertheless / On balance / In conclusion 推进清晰;'different does not mean wrong'织入单元观点;'ready to learn'收束。",
+              "Lexical Resource(词汇资源):broadens the mind / the stereotypes that distance preserves / more prejudiced than before / curious rather than defensive 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):once条件从句、their worst assumptions independent structure、less...than比较、who定语收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写文化差异态度短文(例子+态度);雅思论证'出国是否更包容'的命题。",
+              "论据来源:高考短文织入课件'preference / correspond to / tolerant of / behave'词块;雅思用跨文化接触的普适论据。",
+              "语域:短文有观察与转变(until I realised);雅思学术权衡，条件立场显思辨。",
+              "评分维度:高考重态度+例子;雅思TR对agree题看程度——'基本同意+需开放'是精确回应。"
+            ]
+          },
+          "vocabHints": [
+            "broadens the mind",
+            "direct contact",
+            "the stereotypes that distance preserves",
+            "different does not mean wrong",
+            "sympathy for outsiders",
+            "more prejudiced than before",
+            "curious rather than defensive",
+            "arrive ready to learn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-integrated",
+      "section": "Integrated skills",
+      "title": "在交流中开阔视野",
+      "titleEn": "Broadening Horizons",
+      "desc": "综合技能板块核心词块：expand one's horizons、gain a new perspective、become more open-minded——每一次跨文化的交流，都是给心灵开一扇新的窗。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校组织了一次中外学生文化交流活动，你参加后收获很大。请你用英文为校英文报写一篇短文，内容包括：1. 活动内容；2. 你的收获与感悟。注意：词数100左右。",
+          "reference": "Last weekend I joined a culture exchange event with students from five countries, and it opened my eyes in ways I did not expect.\n\nWe shared songs, food and stories from our hometowns. When I recited a Chinese poem, a British student surprised us all by reciting one too — without an accent! Hearing how differently we each saw the same world, I felt my horizons expand hour by hour.\n\nWhat I gained was more than fun. Talking with people so unlike me helped me gain a new perspective and become more open-minded. I came home realising that our differences are not walls but windows. I can't wait for the next exchange — the world, it turns out, is far bigger and warmer than my classroom.",
+          "vocabHints": [
+            "opened my eyes",
+            "shared songs, food and stories",
+            "recite a Chinese poem",
+            "without an accent",
+            "my horizons expand",
+            "gain a new perspective",
+            "become more open-minded",
+            "not walls but windows"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that studying abroad is the best way for young people to broaden their horizons, while others believe this can be achieved just as well at home. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Broadening one's horizons is a widely shared goal, but people disagree on how best to achieve it. Some insist that studying abroad is unmatched; others argue that an open mind can be developed without leaving home. Having weighed both, I believe studying abroad offers uniquely powerful experiences, yet a curious person can grow greatly at home as well.\n\nThe case for going abroad is compelling. Living in another country immerses a young person completely: they must manage daily life in a foreign language, adapt to unfamiliar customs and see their own country through outsiders' eyes. This total immersion builds independence, empathy and a new perspective far faster than occasional contact can, and the friendships formed leave lasting impressions no textbook could.\n\nHowever, studying abroad is expensive and out of reach for many, and it is not the only road to a wider mind. A student at home can read world literature, learn languages, join international online communities, attend cultural events and befriend people from other backgrounds. Curiosity, not a plane ticket, is what truly broadens the mind; without it, even a year overseas teaches little, while with it, one's own city becomes a classroom.\n\nMy own view is that studying abroad, where possible, provides the richest and quickest growth, but it is a privilege rather than a necessity. The essential ingredient is an open, questioning attitude, which can be cultivated anywhere.\n\nIn conclusion, while a period abroad is an extraordinary way to broaden horizons, it is not the only way. What matters most is the willingness to seek out the unfamiliar, wherever one happens to be.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(留学:全方位沉浸/独立同理;在家:阅读语言线上社群/成本可及)，立场'留学最丰富但非必需、好奇心是关键'层次清晰。",
+              "Coherence & Cohesion(连贯衔接):The case for / However / My own view / In conclusion 推进清晰;'Curiosity, not a plane ticket'点睛;'wherever one happens to be'收束。",
+              "Lexical Resource(词汇资源):total immersion / see their country through outsiders' eyes / out of reach for many / a privilege rather than a necessity 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):where possible省略、without...while with对照、which非限定从句、分词状语，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写文化交流活动短文(内容+收获);雅思写开阔视野途径双边议论文。",
+              "论据来源:高考短文织入课件'expand one's horizons / gain a new perspective / open-minded / recite a poem'词块;雅思用成长途径的普适论据。",
+              "语域:短文有画面与感悟(walls but windows);雅思客观权衡，'好奇心是关键'显思辨。",
+              "评分维度:高考重收获真+要点;雅思discuss题奖励带层次的立场——'留学最佳但非必需'高于二选一。"
+            ]
+          },
+          "vocabHints": [
+            "broadening one's horizons",
+            "total immersion",
+            "see their country through outsiders' eyes",
+            "out of reach for many",
+            "curiosity, not a plane ticket",
+            "one's own city becomes a classroom",
+            "a privilege rather than a necessity",
+            "seek out the unfamiliar"
+          ]
+        }
+      ]
+    }
+  ]
+}
