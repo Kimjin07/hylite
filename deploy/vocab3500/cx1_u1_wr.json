@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "深海探秘",
+  "mainTopicEn": "Into the Deep Sea",
+  "mainTopicBrief": "本单元 Reading 带我们从阳光层一路潜入暮光层，认识海洋的分层与生命。仿写训练精选课文金句，练‘倒装、分词状语、定语从句’三类高分句式的迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "地点状语前置 + 完全倒装",
+      "focus": "把表示方位/地点的状语提到句首，谓语(lie/stand/sit/come 等不及物动词)提到主语前，制造画面感与强调。注意：主语是代词时不倒装。",
+      "original": "Here lives much of the marine life we know about, such as dolphins, corals and seaweeds.",
+      "cn": "我们所知的大部分海洋生物就生活在这里——比如海豚、珊瑚和海藻。",
+      "models": [
+        {
+          "en": "In the heart of the old forest stood a lonely cabin, half hidden by ivy."
+        },
+        {
+          "en": "Beyond the harbour lay the open sea, glittering under the setting sun."
+        }
+      ],
+      "tip": "谓语必须是不及物动词(lie/stand/sit 等)时才用完全倒装；若主语是 it/he 等代词则语序不变。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "现在分词短语作状语 + where 定语从句",
+      "focus": "用 V-ing 短语开头作伴随/时间状语，再用 where 引导非限制性定语从句补充说明地点。",
+      "original": "Sinking below 200 metres, we enter the twilight zone, where there is little sunlight and thus almost no plant life.",
+      "cn": "下潜到 200 米以下，我们便进入暮光层——那里阳光稀少，因而几乎没有植物。",
+      "models": [
+        {
+          "en": "Stepping into the ancient temple, we entered another age, where time seemed to stand still."
+        },
+        {
+          "en": "Climbing above the clouds, the plane broke into a world of pure blue, where nothing but sunlight remained."
+        }
+      ],
+      "tip": "分词的逻辑主语要与主句主语一致(Sinking 的是 we)，否则就成了‘垂悬分词’。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "现在分词后置定语 + which 定语从句",
+      "focus": "名词后先用 V-ing 短语作后置定语，再叠加一个 which/who 引导的定语从句，一句话交代‘是谁 + 在做什么’。",
+      "original": "Most of the fish living here are small filter feeders which swim up at night to feed in the nutrient-rich waters above.",
+      "cn": "生活在这里的鱼大多是小型滤食动物，它们夜间上浮，到上方营养丰富的水域觅食。",
+      "models": [
+        {
+          "en": "Most of the students sitting in the front row are eager learners who stay after class to ask questions."
+        },
+        {
+          "en": "The birds nesting on the cliff are hardy survivors which brave even the fiercest storms."
+        }
+      ],
+      "tip": "living here 相当于 that live here；后置定语与定语从句可叠用，但别让句子头重脚轻。"
+    }
+  ]
+}

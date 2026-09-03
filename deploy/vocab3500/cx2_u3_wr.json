@@ -1,0 +1,58 @@
+{
+  "mode": "imitation",
+  "mainTopic": "旧书店的黄昏",
+  "mainTopicEn": "Dusk in the Old Bookshop",
+  "mainTopicBrief": "本单元 Reading 用细腻笔触写一家蒙尘旧书店与逝去的时光。仿写训练精选课文金句，收录课堂‘排比 + 独立主格、表语前置倒装、shatter/mourn 情感动词’的同学优秀仿写。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "排比铺陈 + 独立主格收尾",
+      "focus": "三个短句排比铺陈场景，再用 ‘each/all + V-ing/V-ed’ 的独立主格收束，情景交融。",
+      "original": "The bookshelves lay buried in dust, the wooden sign was worn and the once warm light dimmed, each mourning its former grace.",
+      "cn": "书架蒙尘，木招牌磨损斑驳，曾经温暖的灯光也黯淡了——每一样都在哀悼自己昔日的风采。",
+      "models": [
+        {
+          "en": "The unexpected outcome shattered the whole team, their once burning determination dimming in their eyes.",
+          "cn": "(马之杰 同学仿写)"
+        },
+        {
+          "en": "The old house stood silent, the windows cracked, the garden overgrown, each corner whispering of the family that had left."
+        }
+      ],
+      "tip": "独立主格结构 = 名词 + 分词(each mourning / their determination dimming)，逻辑主语与主句不同，最适合‘以景结情’。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "表语/方位前置的完全倒装",
+      "focus": "把 Lying before me / Scattered across... 这类分词表语提到句首，谓语提前，画面扑面而来。",
+      "original": "As the fragrance of old wooden furniture drifted into my nose, I found myself mourning my lost childhood.",
+      "cn": "旧木家具的香气飘进鼻腔，我发觉自己正在哀悼逝去的童年。",
+      "models": [
+        {
+          "en": "Lying before me were the old yet meaningful objects, all laden with the emotional bond I shared with the bookshop.",
+          "cn": "(任思彤 同学仿写)"
+        },
+        {
+          "en": "Scattered across my desk were the yellowed letters, each carrying a fragment of a summer long gone."
+        }
+      ],
+      "tip": "find oneself doing 表‘不知不觉地……’，很适合写情绪的悄然来袭。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "shatter / mourn 等情感动词升格",
+      "focus": "用 shatter(击碎)、mourn(哀悼)、hover(盘旋)等富有情感重量的动词，替换 break/miss，一下子拉高感染力。",
+      "original": "A cloud of hopelessness hovered over him, shattering the last thread of hope in his mind.",
+      "cn": "一团绝望的阴云悬在他头顶，击碎了他心中最后一线希望。",
+      "models": [
+        {
+          "en": "A wave of relief washed over her, melting the fear that had frozen her heart all night."
+        },
+        {
+          "en": "His harsh words shattered the fragile confidence she had spent years rebuilding."
+        }
+      ],
+      "tip": "‘a cloud of / a wave of + 抽象情感’是把情绪具象化的好模板；后接现在分词作结果状语。"
+    }
+  ]
+}

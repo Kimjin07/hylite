@@ -474,6 +474,23 @@ body {
 
 .w-prompt-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 28px; margin-bottom: 16px; }
 .w-prompt-card:hover { box-shadow: var(--shadow-md); }
+.w-prompt-source.cont { background: #f59e0b; }
+.w-cont-story { background: var(--bg-soft, rgba(148,163,184,.08)); border-left: 3px solid #f59e0b; border-radius: 8px; padding: 12px 16px; margin: 10px 0; font-size: .9rem; line-height: 1.7; }
+.wcs-label { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #f59e0b; margin-bottom: 6px; }
+.w-cont-starters { display: flex; flex-direction: column; gap: 8px; margin: 10px 0; }
+.wcs-para { font-size: .88rem; line-height: 1.6; padding: 8px 12px; border: 1px dashed var(--border); border-radius: 8px; }
+.wcs-para span { display: inline-block; font-size: .66rem; font-weight: 700; color: #f59e0b; margin-right: 8px; text-transform: uppercase; }
+.imi-intro { font-size: .84rem; line-height: 1.7; color: var(--text-soft, #64748b); background: var(--bg-soft, rgba(148,163,184,.08)); border-radius: 8px; padding: 12px 16px; margin-bottom: 14px; }
+.imi-card { }
+.imi-focus-badge { display: inline-block; font-size: .68rem; font-weight: 700; color: #fff; background: var(--primary); border-radius: 20px; padding: 3px 12px; margin-bottom: 8px; }
+.imi-focus { font-size: .86rem; line-height: 1.7; color: var(--text, #334155); margin-bottom: 12px; }
+.imi-original { background: var(--bg-soft, rgba(99,102,241,.06)); border-left: 3px solid var(--primary); border-radius: 8px; padding: 12px 16px; margin-bottom: 4px; }
+.imi-orig-en { font-size: .95rem; font-weight: 600; line-height: 1.6; }
+.imi-orig-cn { font-size: .82rem; color: var(--text-soft, #64748b); margin-top: 6px; line-height: 1.6; }
+.imi-model { font-size: .9rem; line-height: 1.7; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+.imi-model:last-child { border-bottom: none; }
+.imi-model-cn { font-size: .8rem; color: var(--text-soft, #64748b); margin-top: 3px; }
+.imi-tip { margin-top: 10px; font-size: .82rem; line-height: 1.6; color: var(--text-soft, #64748b); background: rgba(245,158,11,.08); border-radius: 8px; padding: 8px 12px; }
 .w-prompt-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
 .w-prompt-source { font-size: .72rem; padding: 3px 12px; border-radius: 20px; font-weight: 500; }
 .w-prompt-source.mock { background: #eef2ff; color: #4f46e5; }
@@ -1006,7 +1023,10 @@ const wrUnitFiles = {
   "选择性必修一": { "Unit 1": "xb1_u1_wr.json", "Unit 2": "xb1_u2_wr.json", "Unit 3": "xb1_u3_wr.json", "Unit 4": "xb1_u4_wr.json" },
   "选择性必修二": { "Unit 1": "xb2_u1_wr.json", "Unit 2": "xb2_u2_wr.json", "Unit 3": "xb2_u3_wr.json", "Unit 4": "xb2_u4_wr.json" },
   "选择性必修三": { "Unit 1": "xb3_u1_wr.json", "Unit 2": "xb3_u2_wr.json", "Unit 3": "xb3_u3_wr.json", "Unit 4": "xb3_u4_wr.json" },
-  "选择性必修四": { "Unit 1": "xb4_u1_wr.json", "Unit 2": "xb4_u2_wr.json", "Unit 3": "xb4_u3_wr.json", "Unit 4": "xb4_u4_wr.json" }
+  "选择性必修四": { "Unit 1": "xb4_u1_wr.json", "Unit 2": "xb4_u2_wr.json", "Unit 3": "xb4_u3_wr.json", "Unit 4": "xb4_u4_wr.json" },
+  "拓展创新学程一": { "Unit 1": "cx1_u1_wr.json", "Unit 2": "cx1_u2_wr.json", "Unit 3": "cx1_u3_wr.json", "Unit 4": "cx1_u4_wr.json" },
+  "拓展创新学程二": { "Unit 1": "cx2_u1_wr.json", "Unit 2": "cx2_u2_wr.json", "Unit 3": "cx2_u3_wr.json", "Unit 4": "cx2_u4_wr.json" },
+  "拓展创新学程三": { "Unit 1": "cx3_u1_wr.json", "Unit 2": "cx3_u2_wr.json", "Unit 3": "cx3_u3_wr.json", "Unit 4": "cx3_u4_wr.json" }
 };
 const wrCache = {};   // fileName -> Promise<Object>
 
@@ -1808,6 +1828,11 @@ async function renderWriting() {
   }
   const data = await fetchWrFile(f);
   if (token !== renderWriting._token) return;  // 选择已变化，放弃过期渲染
+  if (data && data.mode === 'imitation') {
+    writingData = data; _wrLoadedFile = f;
+    el.innerHTML = renderImitation(data);
+    return;
+  }
   if (!data || !data.subTopics || !data.subTopics.length) {
     el.innerHTML = '<div class="no-results">本单元写作练习整理中，敬请期待</div>';
     return;
@@ -1855,10 +1880,73 @@ async function renderWriting() {
   el.innerHTML = html;
 }
 
+function renderImitation(data) {
+  let html = `
+    <div class="w-main-topic">
+      <div class="wmt-label">${currentUnit ? currentUnit + ' ' : ''}仿写训练</div>
+      <div class="wmt-title">${escapeHtml(data.mainTopic)}</div>
+      <div class="wmt-sub">${escapeHtml(data.mainTopicEn)} — ${escapeHtml(data.mainTopicBrief)}</div>
+    </div>
+    <div class="imi-intro">先读懂课文金句的结构，再照着它写出你自己的句子——这就是拓展创新学程的「仿写」。点击每张卡片的「参考仿写范例」，对照名师与同学的示范。</div>`;
+  (data.items || []).forEach((it, idx) => {
+    const uid = `imi_${idx}`;
+    const modelsHtml = (it.models || []).map(m =>
+      `<div class="imi-model">✍️ ${escapeHtml(m.en)}${m.cn ? `<div class="imi-model-cn">${escapeHtml(m.cn)}</div>` : ''}</div>`).join('');
+    const tipHtml = it.tip ? `<div class="imi-tip">💡 ${escapeHtml(it.tip)}</div>` : '';
+    html += `
+      <div class="w-prompt-card imi-card">
+        <div class="imi-focus-badge">${escapeHtml(it.focusType || '句式仿写')}</div>
+        <div class="imi-focus">${escapeHtml(it.focus || '')}</div>
+        <div class="imi-original">
+          <div class="imi-orig-en">${escapeHtml(it.original)}</div>
+          <div class="imi-orig-cn">${escapeHtml(it.cn || '')}</div>
+        </div>
+        <div class="w-ref-section">
+          <button class="w-ref-toggle" onclick="toggleWritingRef('${uid}')">
+            <span class="wr-arr">▶</span> 参考仿写范例
+          </button>
+          <div class="w-ref-body" id="${uid}">
+            ${modelsHtml}
+            ${tipHtml}
+          </div>
+        </div>
+      </div>`;
+  });
+  return html;
+}
+
 function renderWritingPrompts(prompts, subId) {
   let html = '';
   prompts.forEach((p, idx) => {
     const uid = `wref_${subId}_${idx}`;
+    if (p.type === 'continuation') {
+      const vocabHtmlC = (p.vocabHints || []).length
+        ? `<div class="w-vocab-hints">${p.vocabHints.map(v => `<span class="w-vocab-chip">${escapeHtml(v)}</span>`).join('')}</div>`
+        : '';
+      html += `
+      <div class="w-prompt-card">
+        <div class="w-prompt-header">
+          <span class="w-prompt-source cont">${escapeHtml(p.source)}</span>
+          <span class="w-prompt-source cont" style="opacity:.7;">${escapeHtml(p.typeLabel)}</span>
+        </div>
+        <div class="w-prompt-task">${escapeHtml(p.task)}</div>
+        <div class="w-cont-story"><div class="wcs-label">📖 Story so far</div><div style="white-space:pre-line;">${escapeHtml(p.storyContext || '')}</div></div>
+        <div class="w-cont-starters">
+          ${p.para1 ? `<div class="wcs-para"><span>Para 1</span>${escapeHtml(p.para1)}</div>` : ''}
+          ${p.para2 ? `<div class="wcs-para"><span>Para 2</span>${escapeHtml(p.para2)}</div>` : ''}
+        </div>
+        <div class="w-ref-section">
+          <button class="w-ref-toggle" onclick="toggleWritingRef('${uid}')">
+            <span class="wr-arr">▶</span> 查看参考续写 &amp; 可调用词汇
+          </button>
+          <div class="w-ref-body" id="${uid}">
+            <div style="white-space:pre-line;">${escapeHtml(p.reference)}</div>
+            ${vocabHtmlC}
+          </div>
+        </div>
+      </div>`;
+      return;
+    }
     const srcCls = p.type === 'ielts' ? 'ielts' : 'mock';
     const vocabHtml = (p.vocabHints || []).length
       ? `<div class="w-vocab-hints">${p.vocabHints.map(v => `<span class="w-vocab-chip">${escapeHtml(v)}</span>`).join('')}</div>`

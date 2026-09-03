@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "守望相助",
+  "mainTopicEn": "Standing Together",
+  "mainTopicBrief": "本单元 Reading 讲病毒如何传播，以及各行各业如何团结抗疫。仿写训练精选课文金句，练‘for instance 举例、from all walks of life、Once 从句’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "举例 for instance + 并列宾语",
+      "focus": "用 ‘For instance, it favours A and B’ 举例说明特征，并列结构让信息整齐。",
+      "original": "For instance, it favours cool, dry conditions and crowded indoor spaces with poor ventilation.",
+      "cn": "例如，它偏爱凉爽干燥的环境，以及通风不良的拥挤室内空间。",
+      "models": [
+        {
+          "en": "For instance, the plant thrives in warm, moist soil and shady corners far from the wind."
+        },
+        {
+          "en": "For instance, the disease targets the young, the old and anyone with a weakened immune system."
+        }
+      ],
+      "tip": "并列成分保持词性与数量对称(cool, dry / crowded... poor)，读起来才有节奏。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "from all walks of life 团结主题",
+      "focus": "用 ‘people from all walks of life’ 表达‘各行各业的人’，是抗疫、公益类作文的高频亮点短语。",
+      "original": "Ordinary people from all walks of life united in helping those affected by the pandemic.",
+      "cn": "各行各业的普通人团结起来，帮助受疫情影响的人们。",
+      "models": [
+        {
+          "en": "Volunteers from all walks of life came forward to rebuild the earthquake-stricken village."
+        },
+        {
+          "en": "Readers from all walks of life gathered in the little bookshop, drawn by a shared love of stories."
+        }
+      ],
+      "tip": "those affected = those who were affected；过去分词后置定语可省去从句，更简洁。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "Once + 从句 的连锁因果",
+      "focus": "用 ‘Once + 从句’ 表示‘一旦……就……’，引出紧随其后的连锁结果，紧张感强。",
+      "original": "Once the virus multiplies, infected cells multiply the danger to the whole body.",
+      "cn": "病毒一旦增殖，被感染的细胞就会成倍放大对全身的威胁。",
+      "models": [
+        {
+          "en": "Once fear takes hold, small problems multiply into overwhelming ones."
+        },
+        {
+          "en": "Once trust is broken, even honest words are met with doubt."
+        }
+      ],
+      "tip": "本句巧用 multiply 的两义(增殖/成倍放大)呼应，仿写时可尝试‘一词两用’制造回环。"
+    }
+  ]
+}

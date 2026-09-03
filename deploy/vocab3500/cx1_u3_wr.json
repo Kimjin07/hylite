@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "自动驾驶的伦理",
+  "mainTopicEn": "The Ethics of Self-Driving Cars",
+  "mainTopicBrief": "本单元 Reading 探讨自动驾驶从‘演进’走向‘革命’背后的技术与道德难题。仿写训练精选课文金句，练‘Before 时间状语、Since 原因状语、has yet to’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "Before + 从句 置于句首",
+      "focus": "把 ‘Before + 从句’ 提到句首作时间状语，先交代‘在……之前’，再引出必须先做的事，逻辑清晰有力。",
+      "original": "Before this evolution in transport becomes a revolution, we must understand how self-driving cars work.",
+      "cn": "在这场交通的演进变成一场革命之前，我们必须先弄懂自动驾驶汽车的工作原理。",
+      "models": [
+        {
+          "en": "Before a small habit hardens into a way of life, we should ask whether it is leading us where we want to go."
+        },
+        {
+          "en": "Before artificial intelligence reshapes every job, schools must teach students how to keep learning."
+        }
+      ],
+      "tip": "before 从句用一般现在时表将来；主句常用 must/should 提出必要之举。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "Since 原因状语 + must 的推理",
+      "focus": "用 ‘Since + 事实’ 引出原因，再用 must/should 推出结论，是议论文说理的常见骨架。",
+      "original": "Since it is impossible to foresee every situation ahead of time, the system must learn to adapt.",
+      "cn": "既然不可能预见每一种路况，系统就必须学会自我调整。",
+      "models": [
+        {
+          "en": "Since no one can predict the future with certainty, the wise plan carefully yet stay ready to change."
+        },
+        {
+          "en": "Since resources on Earth are limited, we must learn to consume less and share more."
+        }
+      ],
+      "tip": "since 表‘既然’时引导已知事实，比 because 更适合推理链的开端。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "has yet to + do 表‘尚未’",
+      "focus": "用 ‘sth has yet to be done / sb has yet to do’ 表达‘某事至今仍未……’，比 has not yet done 更书面、更强调悬而未决。",
+      "original": "The moral dilemma of how to ethically program self-driving cars has yet to be resolved.",
+      "cn": "如何合乎伦理地为自动驾驶汽车编程——这一道德困境至今仍未解决。",
+      "models": [
+        {
+          "en": "The question of how to balance privacy and safety online has yet to be answered."
+        },
+        {
+          "en": "A cure for the common cold has yet to be found, despite decades of research."
+        }
+      ],
+      "tip": "have yet to do = have not done yet，但语气更正式，常用于学术或社论。"
+    }
+  ]
+}

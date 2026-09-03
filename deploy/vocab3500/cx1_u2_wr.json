@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "大河与文明",
+  "mainTopicEn": "Rivers and Civilisation",
+  "mainTopicBrief": "本单元 Reading 讲黄河、尼罗河与智慧灌溉如何滋养文明。仿写训练精选课文金句，练‘so...that 结果状语、转折对比、with 短语’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "so/such + that 结果状语从句",
+      "focus": "用 ‘such + (a) adj. + n. + that + 结果’ 表达‘如此……以至于……’，让程度与因果一气呵成。",
+      "original": "Without doubt, the Yellow River will continue to bring such agricultural abundance to China that life without its priceless gifts would be unimaginable.",
+      "cn": "毫无疑问，黄河将继续为中国带来如此丰饶的农业物产，以至于没有这些无价馈赠的生活将不可想象。",
+      "models": [
+        {
+          "en": "The lecture was so inspiring that many students resolved on the spot to devote their lives to science."
+        },
+        {
+          "en": "Her kindness left so deep a mark on us that, years later, we still speak of her with gratitude."
+        }
+      ],
+      "tip": "such 修饰名词、so 修饰形容词/副词，两者都可接 that 引出结果。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "转折纠错 many think... but...",
+      "focus": "先摆出‘许多人以为’的常见看法，再用 but 亮出事实，纠正误解、突出观点。",
+      "original": "Many think of the Nile as an Egyptian river, but it flows through many countries.",
+      "cn": "许多人把尼罗河当作埃及的河，但它其实流经许多国家。",
+      "models": [
+        {
+          "en": "Many regard success as a matter of luck, but behind it usually lie years of quiet effort."
+        },
+        {
+          "en": "Many picture scientists as cold and distant, but the best of them are driven by wonder and love."
+        }
+      ],
+      "tip": "‘纠错式’开头很适合议论文点题：先立靶(常见误解)，再破靶(事实真相)。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "With the help of... 介词短语开头",
+      "focus": "用 ‘With the help of + 手段/工具’ 开头作方式状语，引出借助某物完成的动作。",
+      "original": "With the help of algorithms, farmers can decide exactly how much water each field needs.",
+      "cn": "借助算法，农民能精确判断每块田地需要多少水。",
+      "models": [
+        {
+          "en": "With the help of online courses, students in remote villages can now learn from the best teachers."
+        },
+        {
+          "en": "With the help of a simple notebook, she turned her scattered ideas into a clear plan."
+        }
+      ],
+      "tip": "With + 名词短语可表方式/条件；若要强调‘一……就……’可换 Once 引导从句。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "看不见的微生物",
+  "mainTopicEn": "The Invisible Microbes",
+  "mainTopicBrief": "本单元 Reading 讲微生物如何影响身心健康、疾病如何传播、疫苗如何问世。仿写训练精选课文金句，练‘go beyond...to、过去分词后置定语、Thanks to’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "go beyond A to B 递进结构",
+      "focus": "用 ‘go beyond A to B’ 表达‘不止于 A，更延伸到 B’，一句话完成范围的层层推进。",
+      "original": "The influence of microorganisms goes beyond physical health to our cognitive and psychological well-being.",
+      "cn": "微生物的影响超越了身体健康，延伸到我们的认知与心理健康。",
+      "models": [
+        {
+          "en": "The value of reading goes beyond passing exams to shaping how we think and feel."
+        },
+        {
+          "en": "A good teacher's influence goes beyond the classroom to the whole course of a student's life."
+        }
+      ],
+      "tip": "beyond 与 to 搭配，构成‘从……到……’的递进；A、B 词性要对称。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "过去分词短语作后置定语",
+      "focus": "名词后用 V-ed 短语作后置定语，相当于一个被动的定语从句，让句子紧凑有信息量。",
+      "original": "The disease spreads through tiny respiratory droplets released when people cough or sneeze.",
+      "cn": "这种疾病通过人们咳嗽或打喷嚏时释放的微小呼吸道飞沫传播。",
+      "models": [
+        {
+          "en": "The message hidden in her calm smile was understood by no one but her closest friend."
+        },
+        {
+          "en": "Rumours spread through careless words repeated without a second thought."
+        }
+      ],
+      "tip": "released = that are released；过去分词表被动，现在分词表主动，别用混。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "Thanks to + 名词，主句",
+      "focus": "用 ‘Thanks to + 原因’ 开头表示‘多亏/得益于’，再引出好的结果，语气积极。",
+      "original": "Thanks to years of research, scientists finally rolled out an effective vaccine against the virus.",
+      "cn": "得益于多年研究，科学家们终于推出了针对这种病毒的有效疫苗。",
+      "models": [
+        {
+          "en": "Thanks to the encouragement of my teacher, I gradually found the courage to speak in public."
+        },
+        {
+          "en": "Thanks to countless volunteers, the flooded town was cleaned up within a single week."
+        }
+      ],
+      "tip": "Thanks to 多接积极结果；若是消极结果或中性原因，用 Because of / Owing to 更稳妥。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "法律与公民",
+  "mainTopicEn": "Law and the Citizen",
+  "mainTopicBrief": "本单元 Reading 把法律比作指引人类的罗盘，礼赞守法公民。仿写训练精选课文金句，练‘暗喻 A is the compass that...、after 时间状语、三形容词并列’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "暗喻 A is the + 喻体 that...",
+      "focus": "用 ‘A is the compass/anchor/bridge that...’ 把抽象概念比作具体事物，再用定语从句展开，既形象又有说理力。",
+      "original": "The law is the compass that has guided humans from the first law-abiding communities to where we are today.",
+      "cn": "法律是一枚罗盘，指引着人类从最早的守法社群一路走到今天。",
+      "models": [
+        {
+          "en": "Education is the ladder that has lifted countless families from poverty to a life of dignity."
+        },
+        {
+          "en": "Trust is the bridge that carries a friendship across every storm and misunderstanding."
+        }
+      ],
+      "tip": "喻体后接 that 定语从句展开‘它做了什么’；from A to B 结构可交代跨度。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "After + 名词/从句 引出规则",
+      "focus": "用 ‘After the amendment to..., sb must...’ 先交代变化，再说明由此产生的义务或后果。",
+      "original": "After the amendment to the traffic law, drivers must make amends for any damage they cause.",
+      "cn": "交通法修订之后，司机必须对自己造成的任何损害作出赔偿。",
+      "models": [
+        {
+          "en": "After the new rule took effect, every visitor must register before entering the campus."
+        },
+        {
+          "en": "After the storm passed, the villagers had to make amends for months of neglected repairs."
+        }
+      ],
+      "tip": "注意 amendment(修订) 与 make amends(赔罪/弥补) 的形近义异，本句正是双关点睛。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "三个复合形容词并列修饰主语",
+      "focus": "用 ‘A hard-working, law-abiding and peace-loving citizen’ 三个复合形容词并列，凝练地为主语画像。",
+      "original": "A hard-working, law-abiding and peace-loving citizen is a pillar of society.",
+      "cn": "一个勤奋工作、遵纪守法、热爱和平的公民，是社会的支柱。",
+      "models": [
+        {
+          "en": "A curious, patient and open-minded reader is the best companion a good book could ask for."
+        },
+        {
+          "en": "A brave, honest and kind-hearted friend is a treasure no money can buy."
+        }
+      ],
+      "tip": "复合形容词(V-ing/V-ed + 名词)并列时用逗号分隔，最后两个之间用 and；喻体‘a pillar of society’可仿‘a treasure/a gift’。"
+    }
+  ]
+}

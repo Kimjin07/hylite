@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "思想的实验",
+  "mainTopicEn": "Experiments of the Mind",
+  "mainTopicBrief": "本单元 Reading 讲爱因斯坦追光的思想实验，以及日常发明背后的想象力。仿写训练精选课文金句，练‘现在分词状语、With 短语、It's hard to imagine why...’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "现在分词短语作伴随状语开头",
+      "focus": "用 ‘Imagining..., he reasoned that...’ 以 V-ing 短语开头交代‘一边想象一边推理’，把思维过程写活。",
+      "original": "Imagining himself pursuing a beam of light, he reasoned that he should observe such a beam of light as an electromagnetic field at rest.",
+      "cn": "他想象自己在追逐一束光，并由此推断：他应当观察到这束光如同一个静止的电磁场。",
+      "models": [
+        {
+          "en": "Picturing herself on the winner's stand, she trained harder than ever before."
+        },
+        {
+          "en": "Recalling his grandfather's words, the boy squared his shoulders and stepped onto the stage."
+        }
+      ],
+      "tip": "分词的逻辑主语须与主句主语一致；Imagining/Picturing/Recalling 开头特别适合写内心活动。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "With + 名词短语 表凭借/条件",
+      "focus": "用 ‘With hypothetical situations, ...’ 以 With 短语开头，表示‘借助/凭借某物’，引出随之而来的功能。",
+      "original": "With hypothetical situations, thought experiments allow us to explore the outcome of a given hypothesis which has real-life significance.",
+      "cn": "借助假设的情境，思想实验让我们得以探究某个具有现实意义的假说会产生怎样的结果。",
+      "models": [
+        {
+          "en": "With a single question, a good teacher can open a door that a hundred answers keep shut."
+        },
+        {
+          "en": "With nothing but a pencil and patience, she mapped a world no one had seen before."
+        }
+      ],
+      "tip": "allow sb to do 表‘使某人得以’；which 定语从句可用来强调假说的现实意义。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "It's hard to imagine why... but...",
+      "focus": "用 ‘It's hard to imagine why it took so long to..., but...’ 先设疑再点出事实，制造‘原来如此’的反差。",
+      "original": "It's hard to imagine why it took so long to design spectacles with arm pieces that could clip behind the ears, but these weren't invented until the 18th century.",
+      "cn": "很难想象为何用了这么久才设计出能夹在耳后的眼镜腿——这种设计直到 18 世纪才被发明出来。",
+      "models": [
+        {
+          "en": "It's hard to imagine why it took humanity so long to add wheels to suitcases, but this simple idea appeared only in the 1970s."
+        },
+        {
+          "en": "It's hard to imagine why such an obvious solution was overlooked for years, but sometimes the plainest ideas hide in plain sight."
+        }
+      ],
+      "tip": "not...until... 表‘直到……才……’，与前半的‘为何这么久’形成呼应，突出创新常常姗姗来迟。"
+    }
+  ]
+}

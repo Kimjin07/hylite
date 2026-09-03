@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "我为何而生",
+  "mainTopicEn": "What I Have Lived For",
+  "mainTopicBrief": "本单元 Reading 是罗素名篇《我为何而生》与海伦·凯勒《假如给我三天光明》。仿写训练精选课文金句，练‘冒号列举、明喻 like great winds、as if 虚拟’的句式迁移——为选修系列的语言之美收官。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "插入语 + 冒号引出三项列举",
+      "focus": "主语后用逗号插入形容词补充，再用冒号引出并列的三项，庄重而有排比之美。",
+      "original": "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.",
+      "cn": "三种单纯而无比强烈的激情主宰了我的一生：对爱的渴望、对知识的求索，以及对人类苦难难以承受的悲悯。",
+      "models": [
+        {
+          "en": "Two forces, quiet but unyielding, have shaped who I am: the love of my family and the trust of my friends."
+        },
+        {
+          "en": "Three habits, small but steady, have carried me through: reading each night, walking each dawn, and thanking someone each day."
+        }
+      ],
+      "tip": "冒号后列举的各项要结构对称(the + n. + of...)；插入语‘simple but strong’为主语增添评价。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "明喻 like + 喻体, have + 动词链",
+      "focus": "用 ‘These..., like great winds, have blown me...’ 把抽象事物比作自然之力，动词连缀成一段激荡的旅程。",
+      "original": "These passions, like great winds, have blown me in a wayward course, over a great ocean of anguish, reaching to the very edge of despair.",
+      "cn": "这些激情如同狂风，把我吹得行无定所，掠过苦痛的汪洋，直抵绝望的边缘。",
+      "models": [
+        {
+          "en": "These memories, like gentle tides, have carried me back again and again, over the years of distance, to the shore of my childhood."
+        },
+        {
+          "en": "Her words, like a warm lamp, have led me through many a dark hour, across doubt and fear, to a quiet confidence."
+        }
+      ],
+      "tip": "like + 喻体作插入语；用 over/across/to 等介词短语串成‘经过……抵达……’的空间旅程，画面层层推进。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "as if + 虚拟语气 表劝诫",
+      "focus": "用 ‘use your eyes as if tomorrow you would be stricken blind’ 以 as if 引出与现实相反的假设，发出珍惜当下的劝诫。",
+      "original": "Use your eyes as if tomorrow you would be stricken blind.",
+      "cn": "用你的眼睛去看吧，就当明天你就会失明。",
+      "models": [
+        {
+          "en": "Cherish each ordinary day as if it were the last page of a book you love."
+        },
+        {
+          "en": "Listen to your parents as if you would never hear their voices again."
+        }
+      ],
+      "tip": "as if 引导与将来/现在相反的假设时用虚拟(would do / were)；这种句式最适合给劝勉类作文点睛升华。"
+    }
+  ]
+}

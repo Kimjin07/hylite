@@ -1,0 +1,58 @@
+{
+  "mode": "imitation",
+  "mainTopic": "碳与气候",
+  "mainTopicEn": "Carbon and Climate",
+  "mainTopicBrief": "本单元 Reading 讲碳排放、智能电网与粮食安全。仿写训练精选课文金句，并收录课堂‘as...so do... 倒装、which 非限定从句、动词生动化’的同学优秀仿写。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "which 非限制性定语从句(指代整句)",
+      "focus": "用 ‘which in turn...’ 让 which 指代前面整件事，表达‘而这又反过来……’，串起因果链。",
+      "original": "They produce a large quantity of carbon dioxide, which in turn traps heat and causes global warming.",
+      "cn": "它们排放大量二氧化碳，而这些二氧化碳又困住热量、造成全球变暖。",
+      "models": [
+        {
+          "en": "He kept putting off the work, which in turn piled up the pressure and stole his sleep."
+        },
+        {
+          "en": "The village planted thousands of trees, which in turn cooled the air and brought the birds back."
+        }
+      ],
+      "tip": "which 指代前面整个分句时，前面必须有逗号(非限制性)；in turn 强调‘反过来/继而’。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "As + 从句, so do + 主语 (倒装)",
+      "focus": "用 ‘As A increases, so does B’ 表达‘随着 A……，B 也随之……’，so 后用倒装，气势工整。",
+      "original": "As global temperatures increase, so do sea levels.",
+      "cn": "随着全球气温上升，海平面也随之上升。",
+      "models": [
+        {
+          "en": "As the first ray of dawn breaks through the darkness, so do faith and hope begin to chase away fear and despair in our hearts.",
+          "cn": "(朱心悦 同学仿写)"
+        },
+        {
+          "en": "As our knowledge grows, so does our sense of how much remains unknown."
+        }
+      ],
+      "tip": "so 后接助动词(do/does/did) + 主语，构成部分倒装；千万别写成 so sea levels do。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "动词生动化 generate / inject",
+      "focus": "把普通动词换成 generate(催生)、inject(注入活力)等，让句子更有张力，是升格的关键。",
+      "original": "Extreme temperatures generate extreme rainfall patterns.",
+      "cn": "极端气温催生出极端的降雨模式。",
+      "models": [
+        {
+          "en": "You can integrate group discussion into teaching, as the exchange of ideas generates innovative points of view, injecting vitality into your class.",
+          "cn": "(黄可意 同学仿写)"
+        },
+        {
+          "en": "A single act of kindness can generate a chain of warmth, injecting hope into a whole community."
+        }
+      ],
+      "tip": "generate/spark/breed 都能替换 cause/produce；injecting... 用现在分词作结果状语收尾很漂亮。"
+    }
+  ]
+}

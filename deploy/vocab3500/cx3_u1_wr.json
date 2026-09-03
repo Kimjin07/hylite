@@ -1,0 +1,58 @@
+{
+  "mode": "imitation",
+  "mainTopic": "习惯的引力",
+  "mainTopicEn": "The Gravity of Habit",
+  "mainTopicBrief": "本单元 Reading 讲高效能人士的习惯与时间管理‘四象限’。仿写训练精选课文金句，收录课堂‘relentless 升格、明喻 like motor racing、which 排比’的同学优秀仿写。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "relentless / unwavering 升格形容词",
+      "focus": "用 relentless(不懈的)、unwavering(坚定不移的)替换 hard/strong，让‘努力’的分量瞬间提升。",
+      "original": "Our relentless struggle to get things done brings with it problems.",
+      "cn": "我们为把事情做完而进行的不懈奋斗，也随之带来了种种问题。",
+      "models": [
+        {
+          "en": "Her relentless pursuit of perfection earned her the first prize at the music festival.",
+          "cn": "(徐喆 同学仿写)"
+        },
+        {
+          "en": "Fully conscious of his predicament, he set his mind to practise harder with relentless determination.",
+          "cn": "(俞佳芸 同学仿写)"
+        }
+      ],
+      "tip": "bring with it sth 是‘随之带来’的地道表达(it 指代前面的行为)；relentless 也可搭 determination/effort/repetition。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "明喻 just like + 喻体, where 从句",
+      "focus": "用 ‘A is just like B, where...’ 打比方，再用 where 定语从句把喻体的场景细化，说理更生动。",
+      "original": "Indeed, our modern life is just like motor racing, where we constantly expect to overtake the car in front of us.",
+      "cn": "的确，现代生活就像一场赛车——我们无时无刻不想超越前面的那辆车。",
+      "models": [
+        {
+          "en": "Growing up is just like climbing a mountain, where every step tests both your strength and your will."
+        },
+        {
+          "en": "A good conversation is just like a game of catch, where each side must both throw and receive."
+        }
+      ],
+      "tip": "where 在此引导非限制性定语从句修饰喻体(racing/mountain)，交代‘在那里发生什么’。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "which 宾语从句排比(四象限)",
+      "focus": "用 ‘identify which are A, which are B, which are C, and which are D’ 的 which 排比，把分类讲得条分缕析。",
+      "original": "You should classify the activities and identify which are urgent and important, which are not urgent but important, which are urgent but not important, and which are neither urgent nor important.",
+      "cn": "你应当把事务归类，辨明哪些紧急且重要、哪些不紧急但重要、哪些紧急但不重要、哪些既不紧急也不重要。",
+      "models": [
+        {
+          "en": "A good reader learns to tell which books deserve a careful study, which a quick glance, and which none of our time at all."
+        },
+        {
+          "en": "We must decide which goals are worth a lifetime, which a season, and which only a passing thought."
+        }
+      ],
+      "tip": "which 引导的宾语从句排比时，结构越对称越有力；neither...nor 收尾能形成‘四分’的完整感。"
+    }
+  ]
+}

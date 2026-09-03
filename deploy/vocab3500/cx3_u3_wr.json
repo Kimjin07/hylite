@@ -1,0 +1,56 @@
+{
+  "mode": "imitation",
+  "mainTopic": "汉字与传承",
+  "mainTopicEn": "Characters and Heritage",
+  "mainTopicBrief": "本单元 Reading 从甲骨文、青花瓷讲到孔子周游列国。仿写训练精选课文金句，练‘同位语插入、Whether...all are...、过去分词短语开头’的句式迁移。",
+  "items": [
+    {
+      "id": "imi-1",
+      "focusType": "名词 + 同位语插入 + 主句",
+      "focus": "在主语后插入一个逗号隔开的同位语作补充说明，再接主句，信息密度高又不失清晰。",
+      "original": "These oracle bone inscriptions, the earliest form of Chinese characters ever found to this day, are clear proof that the history of the Chinese writing system stretches back about 3,500 years.",
+      "cn": "这些甲骨文——迄今发现的最早的汉字形态——清楚地证明了汉字书写体系的历史可以追溯到约 3500 年前。",
+      "models": [
+        {
+          "en": "The Great Wall, the longest man-made structure on Earth, stands as a symbol of a nation's endurance."
+        },
+        {
+          "en": "Dunhuang, a jewel on the ancient Silk Road, holds a thousand years of art within its painted caves."
+        }
+      ],
+      "tip": "同位语用一对逗号(或破折号)隔开，与前面的名词是‘同一事物的另一种说法’；proof that... 是同位语从句。"
+    },
+    {
+      "id": "imi-2",
+      "focusType": "Whether A, B, C or D, all are... (让步 + 概括)",
+      "focus": "用 ‘Whether A, B, C or D, all are...’ 先并列铺陈再一句概括，气势恢宏，适合写文化、风景。",
+      "original": "Whether magnificent dragons, graceful birds, delicate flowers or scenes of people going about their everyday business, all are beautifully painted in different shades of blue.",
+      "cn": "无论是雄伟的龙、优雅的鸟、精致的花，还是人们日常营生的场景，一切都用深浅不一的青色描绘得美轮美奂。",
+      "models": [
+        {
+          "en": "Whether towering mountains, quiet rivers, ancient towns or bustling streets, all find their place in this scroll of the motherland."
+        },
+        {
+          "en": "Whether a farmer, a teacher, a doctor or a soldier, all are threads woven into the same great cloth of a nation."
+        }
+      ],
+      "tip": "Whether 引导的并列成分要词性对称；主句 all are... 收束，形成‘散—整’的节奏。"
+    },
+    {
+      "id": "imi-3",
+      "focusType": "过去分词短语作状语开头",
+      "focus": "用 ‘Accompanied by..., he spent...’ 以 V-ed 短语开头表被动伴随，交代‘在……的陪伴下’。",
+      "original": "Accompanied by some of his loyal students, he spent 14 years of his life travelling from state to state, spreading his ideas and discussing philosophical questions.",
+      "cn": "在一些忠诚弟子的陪伴下，他用了人生中的十四年周游列国，传播思想、探讨哲学问题。",
+      "models": [
+        {
+          "en": "Guided by a single dream, she spent a decade crossing deserts and mountains to reach the sea."
+        },
+        {
+          "en": "Armed with nothing but courage, the young doctor spent years serving villages no road could reach."
+        }
+      ],
+      "tip": "过去分词开头表被动(Accompanied/Guided/Armed)，逻辑主语即主句主语；spreading... discussing... 用现在分词表主动的伴随。"
+    }
+  ]
+}
