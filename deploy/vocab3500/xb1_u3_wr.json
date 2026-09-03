@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "传世名画：清明上河图",
-      "titleEn": "Riverside Scene at Qingming",
-      "desc": "课文赏析：hundreds of people from all walks of life 尽入画卷——displays a remarkable mastery of perspective 的国宝长卷。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你的法国笔友 Marie 正在做“世界名画”课题，来信请你介绍一幅中国名画。请你写一封回信介绍《清明上河图》，内容包括：1. 画作基本信息；2. 画面内容与艺术特色；3. 观看建议。注意：词数100左右。",
-          "reference": "Dear Marie,\n\nFor your project, let me introduce Riverside Scene at Qingming, one of China's most treasured paintings.\n\nIt is commonly believed that the city described in the painting is Bianjing, capital of the Northern Song Dynasty about 900 years ago. Along the five-metre scroll, hundreds of people from all walks of life — butchers, hairdressers, boatmen and officials — can be seen going about their daily business. Using ink on silk, the artist Zhang Zeduan created amazingly realistic images and displayed a remarkable mastery of perspective.\n\nMy advice: don't try to see it all at once. View it slowly from right to left, like unrolling a movie of ancient China, and the busy river city will come alive before your eyes.\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "it is commonly believed that",
-            "scroll",
-            "from all walks of life",
-            "go about their daily business",
-            "using ink on silk",
-            "realistic images",
-            "a remarkable mastery of perspective",
-            "come alive before your eyes"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that a country's art and cultural treasures are the best way for foreigners to understand that country. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Nations introduce themselves in many ways — through trade, tourism and news — but some hold that art and cultural treasures make the deepest ambassadors. I agree to a large extent: art carries what official channels cannot, though it serves understanding best as an entrance rather than a summary.\n\nThe strengths of art as national introduction are considerable. First, art is testimony without argument: a thousand-year-old scroll crowded with boatmen, pedlars and officials shows a civilisation's daily life with a candour no brochure would risk, and viewers trust what was never designed to persuade them. Second, art travels across language as facts cannot: a foreigner may forget every date of a dynasty yet remember forever the bustle of a painted river city, because images lodge where statistics slide off. Third, treasures embody values silently — what a culture chose to paint, preserve and perfect reveals what it loved.\n\nThe reservation, however, is real. Treasures are a country's edited highlights: masterpieces record the tastes of courts and collectors more often than the lives of the poor, and the distance between a golden age on silk and a modern nation on smartphones can mislead the viewer who mistakes heritage for description. Art opens the door in the warmest way; but a door is an invitation, not a tour.\n\nMy conclusion is that cultural treasures are the best beginning of understanding and a poor substitute for the rest of it. Let the scroll enchant first — then let the visitor board a real bus, in the real city, where the boatmen's descendants live now.",
-          "wordCount": 261,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):程度表态精确('to a large extent + entrance rather than summary'),支持段三层机制(无意说服的证词/图像跨语言的记忆优势/珍宝的价值观显影),保留段指出'精选集偏差',结论给出行动序('先让画卷迷人,再上真实的公交')——层次完整。",
-              "Coherence & Cohesion(连贯与衔接):'First... Second... Third...'的机制列举/'The reservation, however, is real'/'My conclusion is...'——结构显豁;'a door is an invitation, not a tour'承接选必一U3同款门喻并翻新;结尾'boatmen's descendants'回收画卷意象。",
-              "Lexical Resource(词汇资源):'the deepest ambassadors'、'testimony without argument'、'a candour no brochure would risk'、'images lodge where statistics slide off'、'edited highlights'、'mistake heritage for description'——原创概念句密集;课文画卷细节(boatmen/all walks of life)匿名织入论据。",
-              "Grammatical Range & Accuracy(语法准确性):破折号插入、because 机制句、what 从句作主语('what a culture chose to paint...reveals...')、祈使式结论;句式多样准确。"
-            ],
-            "vsGaokao": [
-              "素材用法:课文清明上河图在回信中完整点名介绍;雅思中化为'a thousand-year-old scroll crowded with boatmen'的匿名论据——同一幅画,导览vs证据。",
-              "体裁:回信是名画介绍(信息+特色+建议);雅思论'艺术能否代表国家'。",
-              "语域:回信有'like unrolling a movie'的生动导览;雅思以'real bus, real city'的落地收束。",
-              "评分维度:雅思看'入口而非总结'的边界论证;高考看信息准确、介绍生动、建议贴心。"
-            ]
-          },
-          "vocabHints": [
-            "the deepest ambassadors",
-            "testimony without argument",
-            "never designed to persuade",
-            "lodge where statistics slide off",
-            "embody values silently",
-            "edited highlights",
-            "an invitation, not a tour",
-            "a poor substitute"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "一幅让我惊叹的画",
@@ -235,6 +176,65 @@
             "tolerance of early failure",
             "harvest",
             "not decoration but foundation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "传世名画：清明上河图",
+      "titleEn": "Riverside Scene at Qingming",
+      "desc": "课文赏析：hundreds of people from all walks of life 尽入画卷——displays a remarkable mastery of perspective 的国宝长卷。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的法国笔友 Marie 正在做“世界名画”课题，来信请你介绍一幅中国名画。请你写一封回信介绍《清明上河图》，内容包括：1. 画作基本信息；2. 画面内容与艺术特色；3. 观看建议。注意：词数100左右。",
+          "reference": "Dear Marie,\n\nFor your project, let me introduce Riverside Scene at Qingming, one of China's most treasured paintings.\n\nIt is commonly believed that the city described in the painting is Bianjing, capital of the Northern Song Dynasty about 900 years ago. Along the five-metre scroll, hundreds of people from all walks of life — butchers, hairdressers, boatmen and officials — can be seen going about their daily business. Using ink on silk, the artist Zhang Zeduan created amazingly realistic images and displayed a remarkable mastery of perspective.\n\nMy advice: don't try to see it all at once. View it slowly from right to left, like unrolling a movie of ancient China, and the busy river city will come alive before your eyes.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "it is commonly believed that",
+            "scroll",
+            "from all walks of life",
+            "go about their daily business",
+            "using ink on silk",
+            "realistic images",
+            "a remarkable mastery of perspective",
+            "come alive before your eyes"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that a country's art and cultural treasures are the best way for foreigners to understand that country. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Nations introduce themselves in many ways — through trade, tourism and news — but some hold that art and cultural treasures make the deepest ambassadors. I agree to a large extent: art carries what official channels cannot, though it serves understanding best as an entrance rather than a summary.\n\nThe strengths of art as national introduction are considerable. First, art is testimony without argument: a thousand-year-old scroll crowded with boatmen, pedlars and officials shows a civilisation's daily life with a candour no brochure would risk, and viewers trust what was never designed to persuade them. Second, art travels across language as facts cannot: a foreigner may forget every date of a dynasty yet remember forever the bustle of a painted river city, because images lodge where statistics slide off. Third, treasures embody values silently — what a culture chose to paint, preserve and perfect reveals what it loved.\n\nThe reservation, however, is real. Treasures are a country's edited highlights: masterpieces record the tastes of courts and collectors more often than the lives of the poor, and the distance between a golden age on silk and a modern nation on smartphones can mislead the viewer who mistakes heritage for description. Art opens the door in the warmest way; but a door is an invitation, not a tour.\n\nMy conclusion is that cultural treasures are the best beginning of understanding and a poor substitute for the rest of it. Let the scroll enchant first — then let the visitor board a real bus, in the real city, where the boatmen's descendants live now.",
+          "wordCount": 261,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):程度表态精确('to a large extent + entrance rather than summary'),支持段三层机制(无意说服的证词/图像跨语言的记忆优势/珍宝的价值观显影),保留段指出'精选集偏差',结论给出行动序('先让画卷迷人,再上真实的公交')——层次完整。",
+              "Coherence & Cohesion(连贯与衔接):'First... Second... Third...'的机制列举/'The reservation, however, is real'/'My conclusion is...'——结构显豁;'a door is an invitation, not a tour'承接选必一U3同款门喻并翻新;结尾'boatmen's descendants'回收画卷意象。",
+              "Lexical Resource(词汇资源):'the deepest ambassadors'、'testimony without argument'、'a candour no brochure would risk'、'images lodge where statistics slide off'、'edited highlights'、'mistake heritage for description'——原创概念句密集;课文画卷细节(boatmen/all walks of life)匿名织入论据。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入、because 机制句、what 从句作主语('what a culture chose to paint...reveals...')、祈使式结论;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文清明上河图在回信中完整点名介绍;雅思中化为'a thousand-year-old scroll crowded with boatmen'的匿名论据——同一幅画,导览vs证据。",
+              "体裁:回信是名画介绍(信息+特色+建议);雅思论'艺术能否代表国家'。",
+              "语域:回信有'like unrolling a movie'的生动导览;雅思以'real bus, real city'的落地收束。",
+              "评分维度:雅思看'入口而非总结'的边界论证;高考看信息准确、介绍生动、建议贴心。"
+            ]
+          },
+          "vocabHints": [
+            "the deepest ambassadors",
+            "testimony without argument",
+            "never designed to persuade",
+            "lodge where statistics slide off",
+            "embody values silently",
+            "edited highlights",
+            "an invitation, not a tour",
+            "a poor substitute"
           ]
         }
       ]

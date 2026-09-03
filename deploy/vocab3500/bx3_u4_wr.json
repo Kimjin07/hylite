@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "质疑的自由",
-      "titleEn": "The Freedom to Doubt",
-      "desc": "课文演讲：费曼 Permit us to question — to doubt — to not be sure——科学的价值在于自由思想。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校科技节将举办以 \"Dare to Doubt\" 为主题的英语演讲比赛。请你撰写演讲稿，内容包括：1. 你对“质疑精神”的理解；2. 一个事例（科学史或身边事）；3. 向同学发出号召。注意：词数100左右。",
-          "reference": "Dare to Doubt\n\nGood afternoon, everyone!\n\nWhat makes science move forward? Not the answers we memorize, but the questions we dare to ask. As a great physicist said, we scientists take it for granted that it is perfectly possible to live and not know — doubt is not to be feared, but to be welcomed and discussed.\n\nLet me share a small story. Last term, I found my textbook's data on local rainfall outdated. Instead of copying it, I emailed the weather bureau, got the latest figures, and my report earned the top mark — plus a thank-you letter from the publisher!\n\nSo, my friends, permit yourselves to question, to doubt, to not be sure. That is where every discovery begins. Thank you!",
-          "vocabHints": [
-            "dare to ask",
-            "take it for granted that",
-            "live and not know",
-            "doubt is not to be feared but to be welcomed",
-            "outdated",
-            "permit yourselves to question",
-            "to not be sure",
-            "where every discovery begins"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that students should accept what their teachers tell them, while others think students should question everything they are taught. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "Whether the classroom should train acceptance or doubt is an old tension in education, sharpened now by a world where information multiplies faster than any teacher can filter it. Some hold that students learn best by trusting instruction; others urge them to question everything. My view is that both slogans fail as absolutes, and the real skill lies in knowing when each is due.\n\nThe case for acceptance rests on the economics of learning. Knowledge is cumulative: a student who re-litigates every fact will never reach the frontier where questioning becomes productive. Trust is also the classroom's working currency — teachers compress centuries of tested knowledge into usable form, and treating every lesson as suspect wastes that inheritance while exhausting both sides. No one relearns arithmetic by scepticism.\n\nYet a schooling of pure acceptance produces exactly the citizens the modern world cannot afford: fluent recallers who cannot tell evidence from authority. Questioning is not disrespect; it is the method by which knowledge was built in the first place, and every scientific revolution began with someone doubting what every teacher then taught. More practically, students who ask 'how do we know this?' retain understanding rather than answers — and understanding is what survives after examinations end.\n\nMy conclusion is that the object of education is neither obedience nor rebellion but calibrated doubt: accept provisionally, question methodically. Teachers serve this best not by demanding belief but by showing their working, inviting challenge and rewarding the student who finds the weak joint. The best classroom does not fear the raised hand; it is built around it.",
-          "wordCount": 264,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点各有机制论证(接受派:知识的累积经济学+信任作为课堂货币;质疑派:公民素养+知识的建构史+理解的留存率),立场'校准的怀疑'(calibrated doubt)超越二元并给出师生双方的操作方案。",
-              "Coherence & Cohesion(连贯与衔接):'The case for acceptance rests on...'/'Yet a schooling of pure acceptance produces...'/'My conclusion is...'——推进干净;'No one relearns arithmetic by scepticism'与'every revolution began with someone doubting'一收一放;'the raised hand'意象收尾点题。",
-              "Lexical Resource(词汇资源):'re-litigates every fact'、'the classroom's working currency'、'wastes that inheritance'、'fluent recallers who cannot tell evidence from authority'、'accept provisionally, question methodically'、'showing their working'、'the weak joint'——概念化表达高密度;课文的 doubt 主题学术化转写。",
-              "Grammatical Range & Accuracy(语法准确性):冒号定义('the object of education is neither...but calibrated doubt: ...')、分号扩展、not...but 精确定性、分词短语('sharpened now by a world where...')嵌 where 从句;句法繁复准确。"
-            ],
-            "vsGaokao": [
-              "体裁:高考是科技节演讲稿(理解+事例+号召);雅思论教育方法的平衡——点燃现场vs校准天平。",
-              "论据来源:本文用知识累积与科学史的普适机制,费曼名言在演讲稿中直接化用('live and not know'),在雅思中隐入'someone doubting what every teacher then taught'。",
-              "语域:演讲稿有设问、个人故事与'Thank you!';雅思以'built around the raised hand'的意象收束,不呼告。",
-              "评分维度:雅思须给出'何时接受何时质疑'的判据;高考看事例生动、号召有力。"
-            ]
-          },
-          "vocabHints": [
-            "train acceptance or doubt",
-            "the economics of learning",
-            "re-litigate every fact",
-            "working currency",
-            "tell evidence from authority",
-            "calibrated doubt",
-            "show their working",
-            "built around the raised hand"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "机遇与准备",
@@ -235,6 +176,65 @@
             "prosperous but impoverished",
             "balance, not dominance",
             "feeds the mind and starves the imagination"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "质疑的自由",
+      "titleEn": "The Freedom to Doubt",
+      "desc": "课文演讲：费曼 Permit us to question — to doubt — to not be sure——科学的价值在于自由思想。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校科技节将举办以 \"Dare to Doubt\" 为主题的英语演讲比赛。请你撰写演讲稿，内容包括：1. 你对“质疑精神”的理解；2. 一个事例（科学史或身边事）；3. 向同学发出号召。注意：词数100左右。",
+          "reference": "Dare to Doubt\n\nGood afternoon, everyone!\n\nWhat makes science move forward? Not the answers we memorize, but the questions we dare to ask. As a great physicist said, we scientists take it for granted that it is perfectly possible to live and not know — doubt is not to be feared, but to be welcomed and discussed.\n\nLet me share a small story. Last term, I found my textbook's data on local rainfall outdated. Instead of copying it, I emailed the weather bureau, got the latest figures, and my report earned the top mark — plus a thank-you letter from the publisher!\n\nSo, my friends, permit yourselves to question, to doubt, to not be sure. That is where every discovery begins. Thank you!",
+          "vocabHints": [
+            "dare to ask",
+            "take it for granted that",
+            "live and not know",
+            "doubt is not to be feared but to be welcomed",
+            "outdated",
+            "permit yourselves to question",
+            "to not be sure",
+            "where every discovery begins"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that students should accept what their teachers tell them, while others think students should question everything they are taught. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether the classroom should train acceptance or doubt is an old tension in education, sharpened now by a world where information multiplies faster than any teacher can filter it. Some hold that students learn best by trusting instruction; others urge them to question everything. My view is that both slogans fail as absolutes, and the real skill lies in knowing when each is due.\n\nThe case for acceptance rests on the economics of learning. Knowledge is cumulative: a student who re-litigates every fact will never reach the frontier where questioning becomes productive. Trust is also the classroom's working currency — teachers compress centuries of tested knowledge into usable form, and treating every lesson as suspect wastes that inheritance while exhausting both sides. No one relearns arithmetic by scepticism.\n\nYet a schooling of pure acceptance produces exactly the citizens the modern world cannot afford: fluent recallers who cannot tell evidence from authority. Questioning is not disrespect; it is the method by which knowledge was built in the first place, and every scientific revolution began with someone doubting what every teacher then taught. More practically, students who ask 'how do we know this?' retain understanding rather than answers — and understanding is what survives after examinations end.\n\nMy conclusion is that the object of education is neither obedience nor rebellion but calibrated doubt: accept provisionally, question methodically. Teachers serve this best not by demanding belief but by showing their working, inviting challenge and rewarding the student who finds the weak joint. The best classroom does not fear the raised hand; it is built around it.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各有机制论证(接受派:知识的累积经济学+信任作为课堂货币;质疑派:公民素养+知识的建构史+理解的留存率),立场'校准的怀疑'(calibrated doubt)超越二元并给出师生双方的操作方案。",
+              "Coherence & Cohesion(连贯与衔接):'The case for acceptance rests on...'/'Yet a schooling of pure acceptance produces...'/'My conclusion is...'——推进干净;'No one relearns arithmetic by scepticism'与'every revolution began with someone doubting'一收一放;'the raised hand'意象收尾点题。",
+              "Lexical Resource(词汇资源):'re-litigates every fact'、'the classroom's working currency'、'wastes that inheritance'、'fluent recallers who cannot tell evidence from authority'、'accept provisionally, question methodically'、'showing their working'、'the weak joint'——概念化表达高密度;课文的 doubt 主题学术化转写。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义('the object of education is neither...but calibrated doubt: ...')、分号扩展、not...but 精确定性、分词短语('sharpened now by a world where...')嵌 where 从句;句法繁复准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是科技节演讲稿(理解+事例+号召);雅思论教育方法的平衡——点燃现场vs校准天平。",
+              "论据来源:本文用知识累积与科学史的普适机制,费曼名言在演讲稿中直接化用('live and not know'),在雅思中隐入'someone doubting what every teacher then taught'。",
+              "语域:演讲稿有设问、个人故事与'Thank you!';雅思以'built around the raised hand'的意象收束,不呼告。",
+              "评分维度:雅思须给出'何时接受何时质疑'的判据;高考看事例生动、号召有力。"
+            ]
+          },
+          "vocabHints": [
+            "train acceptance or doubt",
+            "the economics of learning",
+            "re-litigate every fact",
+            "working currency",
+            "tell evidence from authority",
+            "calibrated doubt",
+            "show their working",
+            "built around the raised hand"
           ]
         }
       ]

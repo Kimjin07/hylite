@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "VR的应用与前景",
-      "titleEn": "Virtual Reality in Education",
-      "desc": "拓展阅读核心：VR 是 immersive technology，拥有 a host of educational applications——能 engage students' interest and enhance learning efficiency，尽管 the initial cost 仍是障碍。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "请你用英文给校长写一封建议信，建议学校引进虚拟现实（VR）技术辅助教学，内容包括：1. 写信目的；2. VR 教学的好处；3. 可行的做法。注意：词数100左右。",
-          "reference": "Dear Mr Headmaster,\n\nI am Li Hua, a Senior 2 student. I am writing to suggest introducing virtual reality technology into our classes.\n\nVR is an immersive technology with a host of educational applications. In a geography class, for example, students could \"stand\" on a glacier instead of staring at flat pictures; in chemistry, dangerous experiments could be practised safely. Such experiences engage students' interest and enhance learning efficiency in a way ordinary slides can hardly match.\n\nAdmittedly, the initial cost may discourage us in the beginning, but that could be fixed over time — the school might start with one shared VR classroom and open it to different subjects in turn.\n\nThank you for considering my suggestion. I would be glad to help organise a trial lesson.\n\nYours sincerely,\nLi Hua",
-          "vocabHints": [
-            "immersive technology",
-            "a host of educational applications",
-            "engage students' interest",
-            "enhance learning efficiency",
-            "the initial cost",
-            "be fixed over time",
-            "a shared VR classroom",
-            "organise a trial lesson"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that immersive technologies such as virtual reality will make traditional classrooms unnecessary in the future. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Some futurists announce that immersive technologies such as virtual reality will soon make the traditional classroom unnecessary: why gather thirty children in one room when any lesson can be experienced through a headset? I disagree with this prediction in its strong form, although I expect virtual tools to reshape schooling profoundly.\n\nThe attractions of virtual learning are genuine. A headset can transport students inside a volcano, an ancient city or a human cell, turning abstractions into experience that textbooks cannot match. Lessons can be replayed at each learner's own pace, rural schools can enter laboratories they could never afford to build, and dangerous procedures — chemical reactions, emergency medicine — can be practised without risk. Used well, such immersion deepens both interest and memory.\n\nYet education is far more than the delivery of vivid content. Classrooms teach children to wait their turn, argue respectfully, cooperate with people they did not choose, and accept guidance from adults — social capacities no simulation reproduces, because the other minds in the room must be real. Teachers do more than transmit information: they notice confusion on a face, adjust the lesson in the moment and provide the encouragement on which motivation depends. Long hours inside headsets also raise health concerns, from eyesight to isolation, that no parent can dismiss.\n\nFor these reasons I believe the future is blended rather than purely virtual. Schools will remain the social heart of education, while VR serves as a powerful instrument within them — an extraordinary window, but not a substitute for the human room around it. Technology should enrich the classroom, not abolish it.",
-          "wordCount": 267,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):对'教室将被取代'的强命题给出精确回应——反对强形式但承认深刻变革;技术优势段写足三层(具象化/自定进度/安全演练)再反驳，避免稻草人;结论'blended'是量化后的立场落点。",
-              "Coherence & Cohesion(连贯衔接):The attractions / Yet / For these reasons 骨架分明;修辞设问开题(why gather thirty children...)引出争论;'extraordinary window / not a substitute'的比喻收束与开头设问呼应。",
-              "Lexical Resource(词汇资源):turning abstractions into experience / social capacities no simulation reproduces / the social heart of education / blended 等教育科技话题核心词汇精准;transmit/notice/adjust/provide动词链刻画教师角色。",
-              "Grammatical Range & Accuracy(语法多样性):冒号引出设问、破折号双插入、on which定语从句、Used well分词条件、not A but B收尾平行，复杂结构服务论证而不炫技。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写给校长的建议信(目的+好处+做法);雅思论证'VR是否将取代教室'的预测命题。",
-              "论据来源:高考信件严格织入课文'immersive technology / a host of educational applications'词块;雅思用教育本质的普适论据(社会化功能、师生互动)。",
-              "语域:建议信谦和务实(I would be glad to help);雅思立场坚定，让步充分后反驳。",
-              "评分维度:高考重建议具体可行;雅思TR对agree/disagree题要求程度精确——'disagree with the strong form'展示了高阶的命题拆解能力。"
-            ]
-          },
-          "vocabHints": [
-            "turn abstractions into experience",
-            "at each learner's own pace",
-            "practised without risk",
-            "deepen interest and memory",
-            "social capacities",
-            "adjust the lesson in the moment",
-            "blended learning",
-            "enrich rather than abolish"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "预见未来的科技",
@@ -235,6 +176,65 @@
             "changed beyond recognition",
             "excessive future-focus",
             "a servant of living"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "VR的应用与前景",
+      "titleEn": "Virtual Reality in Education",
+      "desc": "拓展阅读核心：VR 是 immersive technology，拥有 a host of educational applications——能 engage students' interest and enhance learning efficiency，尽管 the initial cost 仍是障碍。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "请你用英文给校长写一封建议信，建议学校引进虚拟现实（VR）技术辅助教学，内容包括：1. 写信目的；2. VR 教学的好处；3. 可行的做法。注意：词数100左右。",
+          "reference": "Dear Mr Headmaster,\n\nI am Li Hua, a Senior 2 student. I am writing to suggest introducing virtual reality technology into our classes.\n\nVR is an immersive technology with a host of educational applications. In a geography class, for example, students could \"stand\" on a glacier instead of staring at flat pictures; in chemistry, dangerous experiments could be practised safely. Such experiences engage students' interest and enhance learning efficiency in a way ordinary slides can hardly match.\n\nAdmittedly, the initial cost may discourage us in the beginning, but that could be fixed over time — the school might start with one shared VR classroom and open it to different subjects in turn.\n\nThank you for considering my suggestion. I would be glad to help organise a trial lesson.\n\nYours sincerely,\nLi Hua",
+          "vocabHints": [
+            "immersive technology",
+            "a host of educational applications",
+            "engage students' interest",
+            "enhance learning efficiency",
+            "the initial cost",
+            "be fixed over time",
+            "a shared VR classroom",
+            "organise a trial lesson"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that immersive technologies such as virtual reality will make traditional classrooms unnecessary in the future. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Some futurists announce that immersive technologies such as virtual reality will soon make the traditional classroom unnecessary: why gather thirty children in one room when any lesson can be experienced through a headset? I disagree with this prediction in its strong form, although I expect virtual tools to reshape schooling profoundly.\n\nThe attractions of virtual learning are genuine. A headset can transport students inside a volcano, an ancient city or a human cell, turning abstractions into experience that textbooks cannot match. Lessons can be replayed at each learner's own pace, rural schools can enter laboratories they could never afford to build, and dangerous procedures — chemical reactions, emergency medicine — can be practised without risk. Used well, such immersion deepens both interest and memory.\n\nYet education is far more than the delivery of vivid content. Classrooms teach children to wait their turn, argue respectfully, cooperate with people they did not choose, and accept guidance from adults — social capacities no simulation reproduces, because the other minds in the room must be real. Teachers do more than transmit information: they notice confusion on a face, adjust the lesson in the moment and provide the encouragement on which motivation depends. Long hours inside headsets also raise health concerns, from eyesight to isolation, that no parent can dismiss.\n\nFor these reasons I believe the future is blended rather than purely virtual. Schools will remain the social heart of education, while VR serves as a powerful instrument within them — an extraordinary window, but not a substitute for the human room around it. Technology should enrich the classroom, not abolish it.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'教室将被取代'的强命题给出精确回应——反对强形式但承认深刻变革;技术优势段写足三层(具象化/自定进度/安全演练)再反驳，避免稻草人;结论'blended'是量化后的立场落点。",
+              "Coherence & Cohesion(连贯衔接):The attractions / Yet / For these reasons 骨架分明;修辞设问开题(why gather thirty children...)引出争论;'extraordinary window / not a substitute'的比喻收束与开头设问呼应。",
+              "Lexical Resource(词汇资源):turning abstractions into experience / social capacities no simulation reproduces / the social heart of education / blended 等教育科技话题核心词汇精准;transmit/notice/adjust/provide动词链刻画教师角色。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出设问、破折号双插入、on which定语从句、Used well分词条件、not A but B收尾平行，复杂结构服务论证而不炫技。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写给校长的建议信(目的+好处+做法);雅思论证'VR是否将取代教室'的预测命题。",
+              "论据来源:高考信件严格织入课文'immersive technology / a host of educational applications'词块;雅思用教育本质的普适论据(社会化功能、师生互动)。",
+              "语域:建议信谦和务实(I would be glad to help);雅思立场坚定，让步充分后反驳。",
+              "评分维度:高考重建议具体可行;雅思TR对agree/disagree题要求程度精确——'disagree with the strong form'展示了高阶的命题拆解能力。"
+            ]
+          },
+          "vocabHints": [
+            "turn abstractions into experience",
+            "at each learner's own pace",
+            "practised without risk",
+            "deepen interest and memory",
+            "social capacities",
+            "adjust the lesson in the moment",
+            "blended learning",
+            "enrich rather than abolish"
           ]
         }
       ]

@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "经典电影与人物",
-      "titleEn": "Classic Films & Characters",
-      "desc": "课文剧本选段：阿甘 Despite an IQ of 75, he lives a truly amazing life——经典电影为何打动人心。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你的英国笔友 Emma 来信请你推荐一部值得反复观看的经典电影。请你写一封回信推荐《阿甘正传》（Forrest Gump），内容包括：1. 影片的主要内容；2. 你推荐的理由；3. 期待她的观后感。注意：词数100左右。",
-          "reference": "Dear Emma,\n\nI'd love to recommend Forrest Gump, a classic that I have watched at least three times.\n\nThe film tells the story of Forrest, an ordinary man from Alabama. Despite an IQ of 75, he lives a truly amazing life — he sees, and sometimes influences, some of the major events of the United States in the second half of the 20th century.\n\nWhy do I recommend it? Because it is anything but a simple comedy. Behind the laughter, the film asks a serious question: what makes a life worth living? Forrest's answer — honesty, love and simply running on — has encouraged me whenever I meet difficulties.\n\nDo watch it, and I can't wait to hear your thoughts!\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "a classic",
-            "despite an IQ of 75",
-            "live a truly amazing life",
-            "sees, and sometimes influences",
-            "major events",
-            "anything but",
-            "worth living",
-            "can't wait to"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that films should mainly entertain audiences, while others believe films should also educate and convey serious messages. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "Whether the cinema owes its audience anything more than a good evening is a question critics and filmgoers have argued over for a century. One camp maintains that entertainment is the whole of the contract; the other insists that so powerful a medium must also inform, question and teach. In my view, the two purposes are not rivals but partners, and the finest films refuse to choose between them.\n\nThe case for pure entertainment deserves respect. People arrive at the cinema after long days, seeking laughter, suspense or simple escape, and a film that delivers these honestly has kept its promise. There is also a commercial truth: films that lecture their audiences tend to empty the seats, and an empty cinema teaches nobody anything. Amusement, moreover, is not a trivial service; relief from worry is one of the oldest human needs.\n\nYet those who ask more of film also stand on solid ground. Because a story reaches emotions before it reaches arguments, cinema can change minds that essays cannot touch. A single well-drawn character — an ordinary man stumbling through extraordinary history, a king struggling against his own voice — can teach audiences more about perseverance and dignity than any textbook chapter. To waste such reach on spectacle alone seems a genuine loss.\n\nMy own conclusion is that the dichotomy is false. A film that entertains without substance is forgotten by Monday; a film that educates without pleasure is switched off by the interval. The classics endure precisely because they smuggle their lessons inside delight — we come for the story, and leave with something to think about.",
-          "wordCount": 265,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点+己见完整——引言即抛出'不是对手是伙伴'的辩证立场,两个主体段各让对方站稳(娱乐派:契约论+商业现实+慰藉价值;教育派:情感先于论证+角色的教化力),结论以'假二分'收束并给出机制('smuggle lessons inside delight')。",
-              "Coherence & Cohesion(连贯与衔接):'The case for pure entertainment deserves respect'/'Yet those who ask more of film also stand on solid ground'/'My own conclusion is...'——让步式推进;'forgotten by Monday / switched off by the interval'对句完成结论论证;'we come for the story, and leave with...'首尾闭环。",
-              "Lexical Resource(词汇资源):'owes its audience anything more than a good evening'、'the whole of the contract'、'empty the seats'、'reaches emotions before it reaches arguments'、'smuggle their lessons inside delight'——原创表达密集;暗指阿甘与国王演讲('an ordinary man stumbling through extraordinary history, a king struggling against his own voice')而不点名,素材化用高级。",
-              "Grammatical Range & Accuracy(语法准确性):分号并列观点、because 前置因果、破折号插入例证、so...that 变体('so powerful a medium')、平行对句;句式繁复而准确率极高。"
-            ],
-            "vsGaokao": [
-              "素材用法:本文把阿甘化用为'an ordinary man stumbling through extraordinary history'的匿名例证;高考推荐信则直接点名影片与情节——同一素材,雅思须去具体化。",
-              "体裁:高考是私人推荐信(称呼/落款/期待回应);雅思是公共论证,无私人指向。",
-              "语域:推荐信可用'Do watch it!'的热情祈使;雅思全程克制,热情转化为论证力度。",
-              "评分维度:雅思 TR 要求立场可辩护且贯穿(本文'伙伴论'需两段让步支撑);高考只需理由充分、感染力强。"
-            ]
-          },
-          "vocabHints": [
-            "owe the audience",
-            "the whole of the contract",
-            "simple escape",
-            "empty the seats",
-            "reach emotions before arguments",
-            "well-drawn character",
-            "a false dichotomy",
-            "smuggle lessons inside delight"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "我最难忘的一部电影",
@@ -235,6 +176,65 @@
             "inhabit another country's life",
             "refresh the eye",
             "keep both the mirror and the window open"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "经典电影与人物",
+      "titleEn": "Classic Films & Characters",
+      "desc": "课文剧本选段：阿甘 Despite an IQ of 75, he lives a truly amazing life——经典电影为何打动人心。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Emma 来信请你推荐一部值得反复观看的经典电影。请你写一封回信推荐《阿甘正传》（Forrest Gump），内容包括：1. 影片的主要内容；2. 你推荐的理由；3. 期待她的观后感。注意：词数100左右。",
+          "reference": "Dear Emma,\n\nI'd love to recommend Forrest Gump, a classic that I have watched at least three times.\n\nThe film tells the story of Forrest, an ordinary man from Alabama. Despite an IQ of 75, he lives a truly amazing life — he sees, and sometimes influences, some of the major events of the United States in the second half of the 20th century.\n\nWhy do I recommend it? Because it is anything but a simple comedy. Behind the laughter, the film asks a serious question: what makes a life worth living? Forrest's answer — honesty, love and simply running on — has encouraged me whenever I meet difficulties.\n\nDo watch it, and I can't wait to hear your thoughts!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "a classic",
+            "despite an IQ of 75",
+            "live a truly amazing life",
+            "sees, and sometimes influences",
+            "major events",
+            "anything but",
+            "worth living",
+            "can't wait to"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that films should mainly entertain audiences, while others believe films should also educate and convey serious messages. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether the cinema owes its audience anything more than a good evening is a question critics and filmgoers have argued over for a century. One camp maintains that entertainment is the whole of the contract; the other insists that so powerful a medium must also inform, question and teach. In my view, the two purposes are not rivals but partners, and the finest films refuse to choose between them.\n\nThe case for pure entertainment deserves respect. People arrive at the cinema after long days, seeking laughter, suspense or simple escape, and a film that delivers these honestly has kept its promise. There is also a commercial truth: films that lecture their audiences tend to empty the seats, and an empty cinema teaches nobody anything. Amusement, moreover, is not a trivial service; relief from worry is one of the oldest human needs.\n\nYet those who ask more of film also stand on solid ground. Because a story reaches emotions before it reaches arguments, cinema can change minds that essays cannot touch. A single well-drawn character — an ordinary man stumbling through extraordinary history, a king struggling against his own voice — can teach audiences more about perseverance and dignity than any textbook chapter. To waste such reach on spectacle alone seems a genuine loss.\n\nMy own conclusion is that the dichotomy is false. A film that entertains without substance is forgotten by Monday; a film that educates without pleasure is switched off by the interval. The classics endure precisely because they smuggle their lessons inside delight — we come for the story, and leave with something to think about.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点+己见完整——引言即抛出'不是对手是伙伴'的辩证立场,两个主体段各让对方站稳(娱乐派:契约论+商业现实+慰藉价值;教育派:情感先于论证+角色的教化力),结论以'假二分'收束并给出机制('smuggle lessons inside delight')。",
+              "Coherence & Cohesion(连贯与衔接):'The case for pure entertainment deserves respect'/'Yet those who ask more of film also stand on solid ground'/'My own conclusion is...'——让步式推进;'forgotten by Monday / switched off by the interval'对句完成结论论证;'we come for the story, and leave with...'首尾闭环。",
+              "Lexical Resource(词汇资源):'owes its audience anything more than a good evening'、'the whole of the contract'、'empty the seats'、'reaches emotions before it reaches arguments'、'smuggle their lessons inside delight'——原创表达密集;暗指阿甘与国王演讲('an ordinary man stumbling through extraordinary history, a king struggling against his own voice')而不点名,素材化用高级。",
+              "Grammatical Range & Accuracy(语法准确性):分号并列观点、because 前置因果、破折号插入例证、so...that 变体('so powerful a medium')、平行对句;句式繁复而准确率极高。"
+            ],
+            "vsGaokao": [
+              "素材用法:本文把阿甘化用为'an ordinary man stumbling through extraordinary history'的匿名例证;高考推荐信则直接点名影片与情节——同一素材,雅思须去具体化。",
+              "体裁:高考是私人推荐信(称呼/落款/期待回应);雅思是公共论证,无私人指向。",
+              "语域:推荐信可用'Do watch it!'的热情祈使;雅思全程克制,热情转化为论证力度。",
+              "评分维度:雅思 TR 要求立场可辩护且贯穿(本文'伙伴论'需两段让步支撑);高考只需理由充分、感染力强。"
+            ]
+          },
+          "vocabHints": [
+            "owe the audience",
+            "the whole of the contract",
+            "simple escape",
+            "empty the seats",
+            "reach emotions before arguments",
+            "well-drawn character",
+            "a false dichotomy",
+            "smuggle lessons inside delight"
           ]
         }
       ]

@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "融入异国文化",
-      "titleEn": "Fitting into a New Culture",
-      "desc": "拓展阅读核心：It's very difficult to integrate yourself into a society whose culture is so different from your own——融入不是丢掉自己，而是在真诚与尊重中，找到与新环境相处的方式。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你的朋友 Mike 即将到中国留学，担心难以适应。请你用英文回信，给他一些融入中国生活的建议，内容包括：1. 表达理解；2. 两三条建议；3. 鼓励。注意：词数100左右。",
-          "reference": "Dear Mike,\n\nI'm so glad you're coming to study in China! It's natural to worry, because it is never easy to integrate yourself into a society whose culture is so different from your own.\n\nHere are a few tips. First, learn some basic Chinese — even a sincere \"nihao\" opens doors. Second, don't be afraid to make mistakes; when you slip up, apologise sincerely and people will warm to you. Third, say yes to invitations, share meals, and ask about customs instead of guessing. Little by little, the strange becomes familiar.\n\nYou won't lose who you are by fitting in; you'll simply grow bigger. I can't wait to show you around. See you soon!\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "it's natural to worry",
-            "integrate yourself into a society",
-            "so different from your own",
-            "even a sincere \"nihao\" opens doors",
-            "when you slip up",
-            "apologise sincerely",
-            "the strange becomes familiar",
-            "fitting in"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "When people move to live in a new country, some think they should adapt to the local culture, while others believe they should keep their own culture and traditions. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "As migration increases, newcomers face a delicate question: should they blend into the local culture, or preserve the traditions they bring with them? Some urge full adaptation; others defend cultural continuity. In my view the two are not opposites, and the healthiest path combines respect for the host society with pride in one's own heritage.\n\nThe argument for adapting is practical and considerate. Immigrants who learn the local language, follow local customs and understand local values integrate far more easily — they find work, make friends and avoid the isolation that traps those who remain apart. Adapting also shows respect for the community that has received them, and eases the tensions that unfamiliarity can breed.\n\nYet demanding that newcomers erase their own culture is neither fair nor wise. A person's language, food, festivals and beliefs are part of who they are, and abandoning them causes real loss and rootlessness. Diversity, moreover, enriches the host society itself: the most vibrant cities draw energy precisely from the many cultures that meet within them. A migrant who keeps their heritage while embracing their new home offers the best of both.\n\nThe sensible balance, therefore, is integration without erasure. Newcomers should learn the local ways enough to participate fully, while keeping the traditions that give their lives meaning, and host societies should welcome that blend rather than demand uniformity.\n\nIn conclusion, adapting to a new country and preserving one's own culture are not contradictory but complementary. The most successful immigrants, and the most successful societies, are those that manage to hold both at once.",
-          "wordCount": 260,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点均展开(适应:融入省孤立/表尊重;保留:身份认同/丰富社会)，立场'融入而不抹除'明确，结论落到'二者互补而非对立'。",
-              "Coherence & Cohesion(连贯衔接):The argument for adapting / Yet / therefore / In conclusion 推进工整;'integration without erasure'凝练立场;'the best of both'首尾呼应。",
-              "Lexical Resource(词汇资源):blend into the local culture / cultural continuity / rootlessness / draw energy from / demand uniformity 表达精准。",
-              "Grammatical Range & Accuracy(语法多样性):who定语从句、while对比、not A but B、分词状语，句式多样准确。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写留学适应回信(理解+建议+鼓励);雅思写移民文化适应双边议论文。",
-              "论据来源:高考信件织入课件'integrate yourself into a society / apologise sincerely / fitting in'词块;雅思用移民社会学的普适论据。",
-              "语域:书信热情具体(even a sincere nihao);雅思客观权衡，'互补'立场显层次。",
-              "评分维度:高考重建议可行+鼓励;雅思discuss题高分在于整合——'融入而不抹除'超越二元。"
-            ]
-          },
-          "vocabHints": [
-            "blend into the local culture",
-            "cultural continuity",
-            "the isolation that traps them",
-            "erase their own culture",
-            "rootlessness",
-            "draw energy from many cultures",
-            "integration without erasure",
-            "demand uniformity"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "尊重与包容文化差异",
@@ -235,6 +176,65 @@
             "one's own city becomes a classroom",
             "a privilege rather than a necessity",
             "seek out the unfamiliar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "融入异国文化",
+      "titleEn": "Fitting into a New Culture",
+      "desc": "拓展阅读核心：It's very difficult to integrate yourself into a society whose culture is so different from your own——融入不是丢掉自己，而是在真诚与尊重中，找到与新环境相处的方式。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的朋友 Mike 即将到中国留学，担心难以适应。请你用英文回信，给他一些融入中国生活的建议，内容包括：1. 表达理解；2. 两三条建议；3. 鼓励。注意：词数100左右。",
+          "reference": "Dear Mike,\n\nI'm so glad you're coming to study in China! It's natural to worry, because it is never easy to integrate yourself into a society whose culture is so different from your own.\n\nHere are a few tips. First, learn some basic Chinese — even a sincere \"nihao\" opens doors. Second, don't be afraid to make mistakes; when you slip up, apologise sincerely and people will warm to you. Third, say yes to invitations, share meals, and ask about customs instead of guessing. Little by little, the strange becomes familiar.\n\nYou won't lose who you are by fitting in; you'll simply grow bigger. I can't wait to show you around. See you soon!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "it's natural to worry",
+            "integrate yourself into a society",
+            "so different from your own",
+            "even a sincere \"nihao\" opens doors",
+            "when you slip up",
+            "apologise sincerely",
+            "the strange becomes familiar",
+            "fitting in"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "When people move to live in a new country, some think they should adapt to the local culture, while others believe they should keep their own culture and traditions. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "As migration increases, newcomers face a delicate question: should they blend into the local culture, or preserve the traditions they bring with them? Some urge full adaptation; others defend cultural continuity. In my view the two are not opposites, and the healthiest path combines respect for the host society with pride in one's own heritage.\n\nThe argument for adapting is practical and considerate. Immigrants who learn the local language, follow local customs and understand local values integrate far more easily — they find work, make friends and avoid the isolation that traps those who remain apart. Adapting also shows respect for the community that has received them, and eases the tensions that unfamiliarity can breed.\n\nYet demanding that newcomers erase their own culture is neither fair nor wise. A person's language, food, festivals and beliefs are part of who they are, and abandoning them causes real loss and rootlessness. Diversity, moreover, enriches the host society itself: the most vibrant cities draw energy precisely from the many cultures that meet within them. A migrant who keeps their heritage while embracing their new home offers the best of both.\n\nThe sensible balance, therefore, is integration without erasure. Newcomers should learn the local ways enough to participate fully, while keeping the traditions that give their lives meaning, and host societies should welcome that blend rather than demand uniformity.\n\nIn conclusion, adapting to a new country and preserving one's own culture are not contradictory but complementary. The most successful immigrants, and the most successful societies, are those that manage to hold both at once.",
+          "wordCount": 260,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(适应:融入省孤立/表尊重;保留:身份认同/丰富社会)，立场'融入而不抹除'明确，结论落到'二者互补而非对立'。",
+              "Coherence & Cohesion(连贯衔接):The argument for adapting / Yet / therefore / In conclusion 推进工整;'integration without erasure'凝练立场;'the best of both'首尾呼应。",
+              "Lexical Resource(词汇资源):blend into the local culture / cultural continuity / rootlessness / draw energy from / demand uniformity 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):who定语从句、while对比、not A but B、分词状语，句式多样准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写留学适应回信(理解+建议+鼓励);雅思写移民文化适应双边议论文。",
+              "论据来源:高考信件织入课件'integrate yourself into a society / apologise sincerely / fitting in'词块;雅思用移民社会学的普适论据。",
+              "语域:书信热情具体(even a sincere nihao);雅思客观权衡，'互补'立场显层次。",
+              "评分维度:高考重建议可行+鼓励;雅思discuss题高分在于整合——'融入而不抹除'超越二元。"
+            ]
+          },
+          "vocabHints": [
+            "blend into the local culture",
+            "cultural continuity",
+            "the isolation that traps them",
+            "erase their own culture",
+            "rootlessness",
+            "draw energy from many cultures",
+            "integration without erasure",
+            "demand uniformity"
           ]
         }
       ]

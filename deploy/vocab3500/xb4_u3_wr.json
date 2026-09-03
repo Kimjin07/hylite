@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "为职业生涯做准备",
-      "titleEn": "Preparing for a Career",
-      "desc": "拓展阅读核心：面对求职，你需要 apply for a job、gain some prior knowledge、prioritize your tasks 并 build up a clear profile——机会往往留给有准备的人。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你想申请一家英文杂志社的暑期实习。请你用英文写一封申请信，内容包括：1. 写信目的；2. 你的优势与准备；3. 表达期待。注意：词数100左右。",
-          "reference": "Dear Sir or Madam,\n\nI am writing to apply for the summer internship at your magazine advertised on your website.\n\nAs a Senior 2 student with a strong interest in writing, I have prepared carefully for this opportunity. I have gained some prior knowledge of editing by running our school English newspaper, where I learned to prioritise tasks and meet deadlines. I would be glad to share a short profile of my work if that would help.\n\nAlthough the odds may be against a student with little formal experience, I am a fast learner and eager to contribute. I would welcome the chance of an interview at your convenience. Thank you for considering my application.\n\nYours faithfully,\nLi Hua",
-          "vocabHints": [
-            "apply for the summer internship",
-            "advertised on your website",
-            "prepared carefully for this opportunity",
-            "gained some prior knowledge of",
-            "prioritise tasks and meet deadlines",
-            "a short profile of my work",
-            "the odds may be against",
-            "at your convenience"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that the main purpose of schools is to prepare students for the world of work, while others believe schools should provide a broader education. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "Educators disagree about what schools are chiefly for. Some argue their central task is to prepare young people for employment; others believe education should develop the whole person, not merely a future worker. In my opinion schools must do both, but a broad education should remain the foundation on which job-related skills are built.\n\nThe argument for work preparation is practical. Young people must eventually earn a living, and schools that ignore this leave graduates unready for real life. Teaching relevant skills — from digital literacy to teamwork and financial sense — improves employment prospects and strengthens the economy, and few would deny that these matter greatly to students and society alike.\n\nYet reducing school to job training is short-sighted. The specific skills a job needs change rapidly, and today's students may one day do jobs that do not yet exist. What lasts is the broader capacity that education builds: the ability to think critically, to learn new things, to understand history, science and other cultures, and to become a thoughtful citizen and a rounded human being. A narrow, purely vocational schooling produces workers who cannot adapt and citizens who cannot reflect.\n\nThe wisest approach, then, blends the two. Schools should equip students with practical, employable skills while also cultivating curiosity, character and the ability to keep learning — for it is broad education that allows people to master new work throughout their lives.\n\nIn conclusion, while preparing students for work is a legitimate goal, it should not crowd out the wider purpose of education. The best schools prepare young people not just for a first job, but for a whole life.",
-          "wordCount": 272,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点均展开(就业准备:谋生现实/技能经济;广博教育:技能速变/批判思维公民)，立场'两者兼顾但广博为基'清晰，结论落到'为整个人生做准备'。",
-              "Coherence & Cohesion(连贯衔接):The argument for / Yet / The wisest approach / In conclusion 推进工整;'jobs that do not yet exist'织入单元视角;'first job vs whole life'收束。",
-              "Lexical Resource(词汇资源):prepare for the world of work / digital literacy / short-sighted / a rounded human being / purely vocational 表达精准。",
-              "Grammatical Range & Accuracy(语法多样性):破折号插入技能列举、What lasts主语从句、while对比、for原因收尾，句式多样。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写实习申请信(目的+优势+期待);雅思写学校目的双边议论文。",
-              "论据来源:高考信件织入课件'apply for / prior knowledge / prioritise / profile / the odds'词块;雅思用教育目的的普适论据(未来职业未定)。",
-              "语域:申请信正式谦和(at your convenience);雅思客观权衡，'广博为基'显层次。",
-              "评分维度:高考重信息+得体;雅思discuss题高分在于整合——'兼顾但广博为基'超越二元。"
-            ]
-          },
-          "vocabHints": [
-            "prepare for the world of work",
-            "earn a living",
-            "digital literacy",
-            "employment prospects",
-            "short-sighted",
-            "jobs that do not yet exist",
-            "a rounded human being",
-            "keep learning throughout their lives"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "量入为出·珍惜劳动",
@@ -235,6 +176,65 @@
             "signal to employers",
             "study supplies the principles",
             "knowing but able to do"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "为职业生涯做准备",
+      "titleEn": "Preparing for a Career",
+      "desc": "拓展阅读核心：面对求职，你需要 apply for a job、gain some prior knowledge、prioritize your tasks 并 build up a clear profile——机会往往留给有准备的人。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你想申请一家英文杂志社的暑期实习。请你用英文写一封申请信，内容包括：1. 写信目的；2. 你的优势与准备；3. 表达期待。注意：词数100左右。",
+          "reference": "Dear Sir or Madam,\n\nI am writing to apply for the summer internship at your magazine advertised on your website.\n\nAs a Senior 2 student with a strong interest in writing, I have prepared carefully for this opportunity. I have gained some prior knowledge of editing by running our school English newspaper, where I learned to prioritise tasks and meet deadlines. I would be glad to share a short profile of my work if that would help.\n\nAlthough the odds may be against a student with little formal experience, I am a fast learner and eager to contribute. I would welcome the chance of an interview at your convenience. Thank you for considering my application.\n\nYours faithfully,\nLi Hua",
+          "vocabHints": [
+            "apply for the summer internship",
+            "advertised on your website",
+            "prepared carefully for this opportunity",
+            "gained some prior knowledge of",
+            "prioritise tasks and meet deadlines",
+            "a short profile of my work",
+            "the odds may be against",
+            "at your convenience"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that the main purpose of schools is to prepare students for the world of work, while others believe schools should provide a broader education. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Educators disagree about what schools are chiefly for. Some argue their central task is to prepare young people for employment; others believe education should develop the whole person, not merely a future worker. In my opinion schools must do both, but a broad education should remain the foundation on which job-related skills are built.\n\nThe argument for work preparation is practical. Young people must eventually earn a living, and schools that ignore this leave graduates unready for real life. Teaching relevant skills — from digital literacy to teamwork and financial sense — improves employment prospects and strengthens the economy, and few would deny that these matter greatly to students and society alike.\n\nYet reducing school to job training is short-sighted. The specific skills a job needs change rapidly, and today's students may one day do jobs that do not yet exist. What lasts is the broader capacity that education builds: the ability to think critically, to learn new things, to understand history, science and other cultures, and to become a thoughtful citizen and a rounded human being. A narrow, purely vocational schooling produces workers who cannot adapt and citizens who cannot reflect.\n\nThe wisest approach, then, blends the two. Schools should equip students with practical, employable skills while also cultivating curiosity, character and the ability to keep learning — for it is broad education that allows people to master new work throughout their lives.\n\nIn conclusion, while preparing students for work is a legitimate goal, it should not crowd out the wider purpose of education. The best schools prepare young people not just for a first job, but for a whole life.",
+          "wordCount": 272,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点均展开(就业准备:谋生现实/技能经济;广博教育:技能速变/批判思维公民)，立场'两者兼顾但广博为基'清晰，结论落到'为整个人生做准备'。",
+              "Coherence & Cohesion(连贯衔接):The argument for / Yet / The wisest approach / In conclusion 推进工整;'jobs that do not yet exist'织入单元视角;'first job vs whole life'收束。",
+              "Lexical Resource(词汇资源):prepare for the world of work / digital literacy / short-sighted / a rounded human being / purely vocational 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入技能列举、What lasts主语从句、while对比、for原因收尾，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写实习申请信(目的+优势+期待);雅思写学校目的双边议论文。",
+              "论据来源:高考信件织入课件'apply for / prior knowledge / prioritise / profile / the odds'词块;雅思用教育目的的普适论据(未来职业未定)。",
+              "语域:申请信正式谦和(at your convenience);雅思客观权衡，'广博为基'显层次。",
+              "评分维度:高考重信息+得体;雅思discuss题高分在于整合——'兼顾但广博为基'超越二元。"
+            ]
+          },
+          "vocabHints": [
+            "prepare for the world of work",
+            "earn a living",
+            "digital literacy",
+            "employment prospects",
+            "short-sighted",
+            "jobs that do not yet exist",
+            "a rounded human being",
+            "keep learning throughout their lives"
           ]
         }
       ]

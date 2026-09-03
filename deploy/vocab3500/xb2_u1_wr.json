@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "广告的说服力",
-      "titleEn": "The Power of Advertising",
-      "desc": "拓展阅读核心：广告 tries to persuade people to buy a product or service，成功的广告 will create a desire to buy, thus boosting business——公司为此 launches a mass media advertising campaign。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你班英语角将举行以 \"Advertising: Friend or Foe?\" 为题的讨论会。请你准备一篇发言稿，谈谈广告的利与弊，内容包括：1. 广告的好处；2. 广告的问题；3. 你的态度。注意：词数100左右。",
-          "reference": "Good afternoon, everyone. Today I'd like to share my thoughts on advertising — is it a friend or a foe?\n\nOn the one hand, advertising is useful. When a company wants to promote a product or service, it launches a mass media advertising campaign, and a successful advertisement will create a desire to buy, thus boosting business. Ads at peak times also help us learn about new products quickly.\n\nOn the other hand, advertising tries to persuade people to buy things they may not really need, and some ads even exaggerate the facts.\n\nIn short, advertising is a double-edged sword. As consumers, let's enjoy its convenience but always keep a critical eye. Thank you!",
-          "vocabHints": [
-            "promote a product or service",
-            "launch a mass media advertising campaign",
-            "create a desire to buy",
-            "thus boosting business",
-            "at peak times",
-            "persuade people to buy",
-            "in short",
-            "keep a critical eye"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people claim that advertising has a negative influence on society because it encourages consumers to buy things they do not really need. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Advertising is frequently accused of manufacturing desire: critics claim it persuades people to buy products they neither need nor truly want. I largely agree with this criticism, although I would argue that the fault lies less in advertising itself than in the way it is regulated and consumed.\n\nThe case against advertising is strong. Modern campaigns rarely confine themselves to announcing that a product exists; instead, they attach emotions to it. A soft drink is sold as friendship, a car as freedom, a phone as social status. Because these associations bypass rational judgement, consumers often purchase goods to satisfy feelings rather than needs, and the constant cycle of upgrading — new models, new fashions, new packaging — deepens both household debt and environmental waste. Children are especially vulnerable, since they cannot yet distinguish persuasion from information.\n\nNevertheless, advertising performs functions that societies would miss. It finances much of the journalism and entertainment people enjoy free of charge, informs the public about genuine innovations, and enables small businesses to compete with established giants. The real problem is therefore unregulated persuasion rather than promotion as such. Strict rules on truthfulness, clear labelling of sponsored content and firm limits on advertising aimed at children would preserve the informative value of the industry while curbing its manipulative excesses.\n\nIn conclusion, I agree that much contemporary advertising encourages needless consumption by trading on emotion rather than fact. Yet the sensible response is tighter regulation and better consumer education, not the abolition of an industry that, at its best, keeps markets open and information flowing.",
-          "wordCount": 259,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):明确'基本同意'并立即加限定(错在监管与消费方式而非广告本身)，全文围绕该细化立场展开；批评段三连例(软饮=友谊/汽车=自由/手机=地位)具体可感，解决方案段落实到三项可操作监管措施。",
-              "Coherence & Cohesion(连贯衔接):The case against / Nevertheless / therefore / In conclusion 骨架清晰；'情感绑定→绕过理性→过度消费→债务与浪费'因果链条完整；结尾回收开头的'manufacturing desire'。",
-              "Lexical Resource(词汇资源):manufacturing desire / bypass rational judgement / curbing its manipulative excesses / trading on emotion rather than fact 等高阶表达自然嵌入；'promotion as such'的书面语限定用法准确。",
-              "Grammatical Range & Accuracy(语法多样性):冒号引出观点、分号并列、since原因从句、while对比状语、同位语插入(new models, new fashions, new packaging)多结构交替；被动与主动语态按信息焦点切换。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写英语角发言稿，有称呼致谢等交际框架;雅思为纯议论文，直接进入论证。",
-              "论据来源:高考发言稿织入课文'launch a mass media advertising campaign'等词块;雅思用广告业运作的普适分析(媒体融资、儿童保护、监管设计)。",
-              "语域:发言稿可用设问和感叹(is it a friend or foe?);雅思保持客观学术语气，评价通过词汇选择(accused/vulnerable)传递。",
-              "评分维度:高考发言稿重交际得体+要点覆盖;雅思LR维度要求'精确性'——本文manufacturing/curbing/trading on等动词选择即是得分点。"
-            ]
-          },
-          "vocabHints": [
-            "manufacture desire",
-            "attach emotions to a product",
-            "bypass rational judgement",
-            "the cycle of upgrading",
-            "distinguish persuasion from information",
-            "sponsored content",
-            "curb manipulative excesses",
-            "trade on emotion rather than fact"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "一则新闻的多面",
@@ -235,6 +176,65 @@
             "encourage skimming",
             "subscription models",
             "environmental footprint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "广告的说服力",
+      "titleEn": "The Power of Advertising",
+      "desc": "拓展阅读核心：广告 tries to persuade people to buy a product or service，成功的广告 will create a desire to buy, thus boosting business——公司为此 launches a mass media advertising campaign。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班英语角将举行以 \"Advertising: Friend or Foe?\" 为题的讨论会。请你准备一篇发言稿，谈谈广告的利与弊，内容包括：1. 广告的好处；2. 广告的问题；3. 你的态度。注意：词数100左右。",
+          "reference": "Good afternoon, everyone. Today I'd like to share my thoughts on advertising — is it a friend or a foe?\n\nOn the one hand, advertising is useful. When a company wants to promote a product or service, it launches a mass media advertising campaign, and a successful advertisement will create a desire to buy, thus boosting business. Ads at peak times also help us learn about new products quickly.\n\nOn the other hand, advertising tries to persuade people to buy things they may not really need, and some ads even exaggerate the facts.\n\nIn short, advertising is a double-edged sword. As consumers, let's enjoy its convenience but always keep a critical eye. Thank you!",
+          "vocabHints": [
+            "promote a product or service",
+            "launch a mass media advertising campaign",
+            "create a desire to buy",
+            "thus boosting business",
+            "at peak times",
+            "persuade people to buy",
+            "in short",
+            "keep a critical eye"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people claim that advertising has a negative influence on society because it encourages consumers to buy things they do not really need. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Advertising is frequently accused of manufacturing desire: critics claim it persuades people to buy products they neither need nor truly want. I largely agree with this criticism, although I would argue that the fault lies less in advertising itself than in the way it is regulated and consumed.\n\nThe case against advertising is strong. Modern campaigns rarely confine themselves to announcing that a product exists; instead, they attach emotions to it. A soft drink is sold as friendship, a car as freedom, a phone as social status. Because these associations bypass rational judgement, consumers often purchase goods to satisfy feelings rather than needs, and the constant cycle of upgrading — new models, new fashions, new packaging — deepens both household debt and environmental waste. Children are especially vulnerable, since they cannot yet distinguish persuasion from information.\n\nNevertheless, advertising performs functions that societies would miss. It finances much of the journalism and entertainment people enjoy free of charge, informs the public about genuine innovations, and enables small businesses to compete with established giants. The real problem is therefore unregulated persuasion rather than promotion as such. Strict rules on truthfulness, clear labelling of sponsored content and firm limits on advertising aimed at children would preserve the informative value of the industry while curbing its manipulative excesses.\n\nIn conclusion, I agree that much contemporary advertising encourages needless consumption by trading on emotion rather than fact. Yet the sensible response is tighter regulation and better consumer education, not the abolition of an industry that, at its best, keeps markets open and information flowing.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):明确'基本同意'并立即加限定(错在监管与消费方式而非广告本身)，全文围绕该细化立场展开；批评段三连例(软饮=友谊/汽车=自由/手机=地位)具体可感，解决方案段落实到三项可操作监管措施。",
+              "Coherence & Cohesion(连贯衔接):The case against / Nevertheless / therefore / In conclusion 骨架清晰；'情感绑定→绕过理性→过度消费→债务与浪费'因果链条完整；结尾回收开头的'manufacturing desire'。",
+              "Lexical Resource(词汇资源):manufacturing desire / bypass rational judgement / curbing its manipulative excesses / trading on emotion rather than fact 等高阶表达自然嵌入；'promotion as such'的书面语限定用法准确。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出观点、分号并列、since原因从句、while对比状语、同位语插入(new models, new fashions, new packaging)多结构交替；被动与主动语态按信息焦点切换。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写英语角发言稿，有称呼致谢等交际框架;雅思为纯议论文，直接进入论证。",
+              "论据来源:高考发言稿织入课文'launch a mass media advertising campaign'等词块;雅思用广告业运作的普适分析(媒体融资、儿童保护、监管设计)。",
+              "语域:发言稿可用设问和感叹(is it a friend or foe?);雅思保持客观学术语气，评价通过词汇选择(accused/vulnerable)传递。",
+              "评分维度:高考发言稿重交际得体+要点覆盖;雅思LR维度要求'精确性'——本文manufacturing/curbing/trading on等动词选择即是得分点。"
+            ]
+          },
+          "vocabHints": [
+            "manufacture desire",
+            "attach emotions to a product",
+            "bypass rational judgement",
+            "the cycle of upgrading",
+            "distinguish persuasion from information",
+            "sponsored content",
+            "curb manipulative excesses",
+            "trade on emotion rather than fact"
           ]
         }
       ]

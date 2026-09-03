@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "污染治理的多方博弈",
-      "titleEn": "Industry, Community & Clean Air",
-      "desc": "课文访谈：居民 protested against heavy industry，经理辩称 we've been taking various measures——治污是 one and the same fight。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "假设你是李华，你所在社区附近的工厂排放废气，影响居民生活。请你用英文给市长信箱写一封信，内容包括：1. 反映问题及影响；2. 提出两条建议；3. 表达期望。注意：词数100左右。",
-          "reference": "Dear Mr Mayor,\n\nI am writing to draw your attention to the air pollution caused by the factory near our community.\n\nOver the past months, the smog has coloured the sky a smoky grey, and many residents, including my grandmother, have developed coughs that they can't get rid of. We understand the factory provides jobs, but health should never be the price of profits.\n\nMay I make two suggestions? First, require the factory to adopt new technologies to reduce pollution in the production process, even though these measures may raise its costs. Second, publish air quality data daily so that citizens can monitor the progress.\n\nAfter all, saving our environment and growing our economy should be one and the same fight. I look forward to your reply.\n\nYours sincerely,\nLi Hua",
-          "vocabHints": [
-            "draw one's attention to",
-            "colour the sky a smoky grey",
-            "a cough that one can't get rid of",
-            "take various measures",
-            "reduce pollution in the production process",
-            "raise costs",
-            "one and the same fight",
-            "look forward to"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that individuals can do little to protect the environment, and that only governments and large companies can make a real difference. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "It is tempting to believe that environmental rescue is a job for the powerful alone — that against smokestacks and supply chains, one person's shopping bag hardly matters. I disagree with this view in the main, though I accept the fact hiding inside it: individual action matters most when it refuses to stay individual.\n\nThe pessimists' arithmetic is genuinely sobering. A single household's emissions are a rounding error beside those of a steel plant; a lifetime of careful recycling can be cancelled by one industrial decision. Governments command the laws that ban, tax and subsidise, and corporations control the processes that pollute, so it seems only rational to aim all pressure at them and excuse the individual from a fight he cannot win alone.\n\nYet this reasoning quietly assumes that individuals act only as consumers of their own virtue. In reality, every large actor is steered by small ones. Companies redesign products when buyers desert them — markets are simply millions of shopping bags voting together. Governments tighten standards when voters reward them for it, and the neighbourhood that sorts its waste today supplies the politicians of tomorrow with proof that greener rules can work. History's environmental victories, from cleaner rivers to the recovered ozone layer, began as private complaints that refused to stay private.\n\nMy conclusion is that the opening claim mistakes the individual's role rather than his size. Alone, a citizen is indeed small; connected — as customer, voter and example — he is precisely what governments and companies are made of. The powerful move the world, but the powerless, in sufficient numbers, move the powerful.",
-          "wordCount": 268,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):表态精确('disagree in the main + 接纳其内核'),先诚实呈现对方最强论据(排放量级差/权力结构),再以'个体的角色而非体积'反转论证(消费投票/选票机制/历史先例),结论完成'powerless move the powerful'的闭环,立场有辩证深度。",
-              "Coherence & Cohesion(连贯与衔接):'The pessimists' arithmetic is genuinely sobering'/'Yet this reasoning quietly assumes...'/'My conclusion is...'——让步-破题-收束;'shopping bag'意象从引言的贬义用法到主体段'millions of shopping bags voting together'的正名,一物两用完成全文翻转。",
-              "Lexical Resource(词汇资源):'a rounding error beside...'、'consumers of their own virtue'、'markets are millions of shopping bags voting together'、'private complaints that refused to stay private'、'what governments and companies are made of'——概念化警句密集;课文的博弈语境(protest/measures)升维为机制分析。",
-              "Grammatical Range & Accuracy(语法准确性):破折号自我修正式开头、分号并列论据、插入语('— as customer, voter and example —')、对照收尾句;从句嵌套多层且零误。"
-            ],
-            "vsGaokao": [
-              "对象:高考是给市长的问题反映信(具体工厂/具体建议);雅思论'个体是否无力'的元问题——投诉一件事vs论证一种力量。",
-              "论据来源:本文用市场投票与选举机制,不出现'我们社区的工厂';市长信恰恰要写清具体受害场景(祖母的咳嗽)。",
-              "语域:书信有敬称、请求语气与落款;雅思以格言式对照句收尾,不带请求。",
-              "评分维度:雅思 to what extent 须精确到'接纳内核的不同意';高考书信看问题清楚、建议可行、语气得体。"
-            ]
-          },
-          "vocabHints": [
-            "a job for the powerful alone",
-            "a rounding error",
-            "excuse the individual",
-            "steered by small ones",
-            "desert a product",
-            "reward greener rules",
-            "refuse to stay private",
-            "move the powerful"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "为环保出谋划策",
@@ -235,6 +176,65 @@
             "furthest from any safety net",
             "an instrument of welfare",
             "in a longer hand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "污染治理的多方博弈",
+      "titleEn": "Industry, Community & Clean Air",
+      "desc": "课文访谈：居民 protested against heavy industry，经理辩称 we've been taking various measures——治污是 one and the same fight。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "假设你是李华，你所在社区附近的工厂排放废气，影响居民生活。请你用英文给市长信箱写一封信，内容包括：1. 反映问题及影响；2. 提出两条建议；3. 表达期望。注意：词数100左右。",
+          "reference": "Dear Mr Mayor,\n\nI am writing to draw your attention to the air pollution caused by the factory near our community.\n\nOver the past months, the smog has coloured the sky a smoky grey, and many residents, including my grandmother, have developed coughs that they can't get rid of. We understand the factory provides jobs, but health should never be the price of profits.\n\nMay I make two suggestions? First, require the factory to adopt new technologies to reduce pollution in the production process, even though these measures may raise its costs. Second, publish air quality data daily so that citizens can monitor the progress.\n\nAfter all, saving our environment and growing our economy should be one and the same fight. I look forward to your reply.\n\nYours sincerely,\nLi Hua",
+          "vocabHints": [
+            "draw one's attention to",
+            "colour the sky a smoky grey",
+            "a cough that one can't get rid of",
+            "take various measures",
+            "reduce pollution in the production process",
+            "raise costs",
+            "one and the same fight",
+            "look forward to"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that individuals can do little to protect the environment, and that only governments and large companies can make a real difference. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is tempting to believe that environmental rescue is a job for the powerful alone — that against smokestacks and supply chains, one person's shopping bag hardly matters. I disagree with this view in the main, though I accept the fact hiding inside it: individual action matters most when it refuses to stay individual.\n\nThe pessimists' arithmetic is genuinely sobering. A single household's emissions are a rounding error beside those of a steel plant; a lifetime of careful recycling can be cancelled by one industrial decision. Governments command the laws that ban, tax and subsidise, and corporations control the processes that pollute, so it seems only rational to aim all pressure at them and excuse the individual from a fight he cannot win alone.\n\nYet this reasoning quietly assumes that individuals act only as consumers of their own virtue. In reality, every large actor is steered by small ones. Companies redesign products when buyers desert them — markets are simply millions of shopping bags voting together. Governments tighten standards when voters reward them for it, and the neighbourhood that sorts its waste today supplies the politicians of tomorrow with proof that greener rules can work. History's environmental victories, from cleaner rivers to the recovered ozone layer, began as private complaints that refused to stay private.\n\nMy conclusion is that the opening claim mistakes the individual's role rather than his size. Alone, a citizen is indeed small; connected — as customer, voter and example — he is precisely what governments and companies are made of. The powerful move the world, but the powerless, in sufficient numbers, move the powerful.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确('disagree in the main + 接纳其内核'),先诚实呈现对方最强论据(排放量级差/权力结构),再以'个体的角色而非体积'反转论证(消费投票/选票机制/历史先例),结论完成'powerless move the powerful'的闭环,立场有辩证深度。",
+              "Coherence & Cohesion(连贯与衔接):'The pessimists' arithmetic is genuinely sobering'/'Yet this reasoning quietly assumes...'/'My conclusion is...'——让步-破题-收束;'shopping bag'意象从引言的贬义用法到主体段'millions of shopping bags voting together'的正名,一物两用完成全文翻转。",
+              "Lexical Resource(词汇资源):'a rounding error beside...'、'consumers of their own virtue'、'markets are millions of shopping bags voting together'、'private complaints that refused to stay private'、'what governments and companies are made of'——概念化警句密集;课文的博弈语境(protest/measures)升维为机制分析。",
+              "Grammatical Range & Accuracy(语法准确性):破折号自我修正式开头、分号并列论据、插入语('— as customer, voter and example —')、对照收尾句;从句嵌套多层且零误。"
+            ],
+            "vsGaokao": [
+              "对象:高考是给市长的问题反映信(具体工厂/具体建议);雅思论'个体是否无力'的元问题——投诉一件事vs论证一种力量。",
+              "论据来源:本文用市场投票与选举机制,不出现'我们社区的工厂';市长信恰恰要写清具体受害场景(祖母的咳嗽)。",
+              "语域:书信有敬称、请求语气与落款;雅思以格言式对照句收尾,不带请求。",
+              "评分维度:雅思 to what extent 须精确到'接纳内核的不同意';高考书信看问题清楚、建议可行、语气得体。"
+            ]
+          },
+          "vocabHints": [
+            "a job for the powerful alone",
+            "a rounding error",
+            "excuse the individual",
+            "steered by small ones",
+            "desert a product",
+            "reward greener rules",
+            "refuse to stay private",
+            "move the powerful"
           ]
         }
       ]

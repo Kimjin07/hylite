@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "历史灾难的启示",
-      "titleEn": "Lessons from Pompeii",
-      "desc": "课文书信：庞贝的火山灰 kept the ancient city as it was for future ages——灾难封存了历史，也留下了警示。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你随家人参观了一座地震遗址纪念馆。你校英文报“行走的课堂”栏目正在征稿，请你写一篇参观感想，内容包括：1. 你所见的场景；2. 最触动你的细节；3. 你的思考。注意：词数100左右。",
-          "reference": "Last weekend, I visited the earthquake memorial hall in our province.\n\nBehind the glass, time seemed frozen: a stopped clock, a school bell rescued from the ruins, and photos of streets that the disaster left in pieces. What touched me most was a small blackboard, on which the day's homework was still half-written — the moment the shaking began, frozen forever, just as the ash of Vesuvius kept Pompeii as it was for future ages.\n\nWalking out into the sunshine, I understood why we keep such painful places. Disasters bury cities, but memory rebuilds them — and reminds the living to build stronger, drill harder and treasure every ordinary day.",
-          "vocabHints": [
-            "time seemed frozen",
-            "rescued from the ruins",
-            "leave in pieces",
-            "keep the city as it was",
-            "for future ages",
-            "bury",
-            "the living",
-            "treasure every ordinary day"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that studying past disasters has little value for modern society because technology has changed so much. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Because satellites now watch the skies and sensors listen to the ground, some conclude that the disasters of the past — ancient eruptions, medieval floods — have nothing left to teach us. I disagree with this view almost completely: technology has changed what we can see coming, but not what disasters reveal about how societies fail and survive.\n\nThe argument from obsolescence has surface plausibility. A Roman city had no warning network; we have early-warning apps on every phone. Studying how the unprepared perished, the sceptic says, is history for historians, not guidance for engineers, and scarce research money should watch the future rather than excavate the past.\n\nYet this confuses the instruments of disaster with its logic. Past catastrophes are the only full-scale experiments civilisation has ever run, and their findings have not expired. Pompeii preserves, in stone and ash, the fatal interval between warning signs and evacuation — the hours in which people waited, doubted and reassured one another; modern death tolls still rise or fall on precisely that interval, whatever the technology delivering the alarm. Historical records also calibrate our expectations: cities have repeatedly rebuilt on the same coasts and slopes, and only the long memory of past events tells planners how bad 'worst' can actually be. Forgetting, not ignorance, is the modern vulnerability — and studying the past is organised remembering.\n\nMy conclusion is that technology and history answer different questions: sensors tell us when the earth will move; the past tells us what people will do next. A society that studies only one of them has prepared exactly half a defence.",
-          "wordCount": 268,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):表态清晰('disagree almost completely')且判据精确(技术改变预警,不改变人性与决策逻辑),对方论点公允呈现(资源应投向未来),核心段以庞贝的'警报-撤离间隔'论证古今同构,结论以'两半防御'定量收束。",
-              "Coherence & Cohesion(连贯与衔接):'The argument from obsolescence has surface plausibility'/'Yet this confuses...'/'My conclusion is...'——让步-破题;'the fatal interval'概念贯穿论证;'sensors tell us when.../the past tells us what...'对句完成分工收尾。",
-              "Lexical Resource(词汇资源):'the instruments of disaster with its logic'、'full-scale experiments civilisation has ever run'、'findings have not expired'、'calibrate our expectations'、'how bad worst can actually be'、'organised remembering'——概念化原创密集;课文意象(ash kept the city as it was)转写为论证机制。",
-              "Grammatical Range & Accuracy(语法准确性):because 前置从句开篇、破折号插入例举、分号扩展、whatever 让步、冒号分工句;复杂句准确无误。"
-            ],
-            "vsGaokao": [
-              "体裁:高考是参观感想(场景+细节+思考);雅思是历史价值的论证——一次触动vs一套方法论。",
-              "论据来源:本文把庞贝用作'警报-撤离间隔'的机制证据;感想文把庞贝用作'时间封存'的抒情类比——同一素材,论证vs共情。",
-              "语域:感想文可用'Walking out into the sunshine, I understood...'的叙事抒情;雅思全程分析语气。",
-              "评分维度:雅思须精确回应'技术是否使历史失效';高考看细节动人与感悟自然。"
-            ]
-          },
-          "vocabHints": [
-            "the argument from obsolescence",
-            "surface plausibility",
-            "full-scale experiments",
-            "the fatal interval",
-            "death tolls rise or fall",
-            "calibrate expectations",
-            "organised remembering",
-            "half a defence"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "防灾，别让警惕松懈",
@@ -235,6 +176,65 @@
             "address the source rather than the symptoms",
             "rehearse households",
             "seamanship for a rougher sea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "历史灾难的启示",
+      "titleEn": "Lessons from Pompeii",
+      "desc": "课文书信：庞贝的火山灰 kept the ancient city as it was for future ages——灾难封存了历史，也留下了警示。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你随家人参观了一座地震遗址纪念馆。你校英文报“行走的课堂”栏目正在征稿，请你写一篇参观感想，内容包括：1. 你所见的场景；2. 最触动你的细节；3. 你的思考。注意：词数100左右。",
+          "reference": "Last weekend, I visited the earthquake memorial hall in our province.\n\nBehind the glass, time seemed frozen: a stopped clock, a school bell rescued from the ruins, and photos of streets that the disaster left in pieces. What touched me most was a small blackboard, on which the day's homework was still half-written — the moment the shaking began, frozen forever, just as the ash of Vesuvius kept Pompeii as it was for future ages.\n\nWalking out into the sunshine, I understood why we keep such painful places. Disasters bury cities, but memory rebuilds them — and reminds the living to build stronger, drill harder and treasure every ordinary day.",
+          "vocabHints": [
+            "time seemed frozen",
+            "rescued from the ruins",
+            "leave in pieces",
+            "keep the city as it was",
+            "for future ages",
+            "bury",
+            "the living",
+            "treasure every ordinary day"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that studying past disasters has little value for modern society because technology has changed so much. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Because satellites now watch the skies and sensors listen to the ground, some conclude that the disasters of the past — ancient eruptions, medieval floods — have nothing left to teach us. I disagree with this view almost completely: technology has changed what we can see coming, but not what disasters reveal about how societies fail and survive.\n\nThe argument from obsolescence has surface plausibility. A Roman city had no warning network; we have early-warning apps on every phone. Studying how the unprepared perished, the sceptic says, is history for historians, not guidance for engineers, and scarce research money should watch the future rather than excavate the past.\n\nYet this confuses the instruments of disaster with its logic. Past catastrophes are the only full-scale experiments civilisation has ever run, and their findings have not expired. Pompeii preserves, in stone and ash, the fatal interval between warning signs and evacuation — the hours in which people waited, doubted and reassured one another; modern death tolls still rise or fall on precisely that interval, whatever the technology delivering the alarm. Historical records also calibrate our expectations: cities have repeatedly rebuilt on the same coasts and slopes, and only the long memory of past events tells planners how bad 'worst' can actually be. Forgetting, not ignorance, is the modern vulnerability — and studying the past is organised remembering.\n\nMy conclusion is that technology and history answer different questions: sensors tell us when the earth will move; the past tells us what people will do next. A society that studies only one of them has prepared exactly half a defence.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态清晰('disagree almost completely')且判据精确(技术改变预警,不改变人性与决策逻辑),对方论点公允呈现(资源应投向未来),核心段以庞贝的'警报-撤离间隔'论证古今同构,结论以'两半防御'定量收束。",
+              "Coherence & Cohesion(连贯与衔接):'The argument from obsolescence has surface plausibility'/'Yet this confuses...'/'My conclusion is...'——让步-破题;'the fatal interval'概念贯穿论证;'sensors tell us when.../the past tells us what...'对句完成分工收尾。",
+              "Lexical Resource(词汇资源):'the instruments of disaster with its logic'、'full-scale experiments civilisation has ever run'、'findings have not expired'、'calibrate our expectations'、'how bad worst can actually be'、'organised remembering'——概念化原创密集;课文意象(ash kept the city as it was)转写为论证机制。",
+              "Grammatical Range & Accuracy(语法准确性):because 前置从句开篇、破折号插入例举、分号扩展、whatever 让步、冒号分工句;复杂句准确无误。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是参观感想(场景+细节+思考);雅思是历史价值的论证——一次触动vs一套方法论。",
+              "论据来源:本文把庞贝用作'警报-撤离间隔'的机制证据;感想文把庞贝用作'时间封存'的抒情类比——同一素材,论证vs共情。",
+              "语域:感想文可用'Walking out into the sunshine, I understood...'的叙事抒情;雅思全程分析语气。",
+              "评分维度:雅思须精确回应'技术是否使历史失效';高考看细节动人与感悟自然。"
+            ]
+          },
+          "vocabHints": [
+            "the argument from obsolescence",
+            "surface plausibility",
+            "full-scale experiments",
+            "the fatal interval",
+            "death tolls rise or fall",
+            "calibrate expectations",
+            "organised remembering",
+            "half a defence"
           ]
         }
       ]

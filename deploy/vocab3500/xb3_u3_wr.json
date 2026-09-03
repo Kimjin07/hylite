@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "海上历险记",
-      "titleEn": "Adventure on the High Seas",
-      "desc": "拓展阅读核心：风暴之夜，Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck——恐惧之中的行动力，才是冒险故事真正的主角。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校读书节正在征集英文荐书稿。请你推荐一本你读过的航海冒险小说，内容包括：1. 书的基本内容；2. 印象最深的情节；3. 推荐理由。注意：词数100左右。",
-          "reference": "Hello, everyone! At this year's Reading Festival, I would like to recommend a sea adventure novel that kept me up half the night.\n\nThe story follows a young sailor named Russell on his first ocean voyage. When a terrible storm strikes at midnight, \"Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck.\" From that page on, I was standing beside him — soaked, terrified and determined.\n\nWhat makes the book special is not the storm itself, but how an ordinary boy learns courage: not the absence of fear, but the strength to act in spite of it.\n\nIf you long for the sea and a test of the heart, this voyage is for you.",
-          "vocabHints": [
-            "keep me up half the night",
-            "on his first ocean voyage",
-            "a terrible storm strikes",
-            "felt his blood freeze",
-            "come to oneself",
-            "rush up to the deck",
-            "not the absence of fear",
-            "a test of the heart"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Many people take part in dangerous activities such as sailing across oceans, climbing high mountains or extreme sports. Why do people take these risks? What can be done to reduce the dangers involved? (Write at least 250 words.)",
-          "reference": "From mountaineering to ocean sailing, millions deliberately seek activities in which mistakes can be fatal. This essay considers why danger attracts people and how its risks can be reduced.\n\nThe motives run deeper than recklessness. Modern life is safe and scheduled, and many feel that comfort has crowded out intensity; extreme activities restore the concentration and self-reliance that routine rarely demands. Physiology plays its part — fear releases adrenalin, and mastering it produces a euphoria that ordinary exercise cannot match. For others the appeal is identity and achievement: navigating a storm or reaching a summit provides proof of courage that no examination can certify. Social media has added a further push, turning daring feats into currency for admiration.\n\nRisk, however, can be managed without abolishing the thrill. Proper training is the first safeguard: most accidents involve novices attempting conditions beyond their skill, so graduated qualifications — as diving and aviation already require — should become standard across adventure sports. Equipment and information come next: helmets, locator beacons, weather forecasts and route plans convert many potential tragedies into stories told afterwards. Organised structure helps too; clubs, licensed guides and rescue insurance ensure that when things go wrong, help arrives quickly and the cost does not fall on the public. Finally, honest media portrayals that show the years of preparation, not just the moment of triumph, would correct the illusion that daring alone is enough.\n\nIn conclusion, people pursue danger to feel fully alive and to prove themselves against something real. Since the impulse is ancient and will not disappear, the sensible response is not prohibition but training, regulation and rescue — keeping the adventure while shrinking the gamble.",
-          "wordCount": 277,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):两问齐答且分量均衡——动机段四层(补偿安全生活/生理机制/身份证明/社媒推动)，对策段四招(分级资质/装备信息/组织保障/媒体真实呈现)，结论明确反对禁止路线。",
-              "Coherence & Cohesion(连贯衔接):首段直接预告双问结构;动机与对策段内均用first/next/too/Finally显性排序;'keeping the adventure while shrinking the gamble'对仗收束两问。",
-              "Lexical Resource(词汇资源):comfort has crowded out intensity / currency for admiration / graduated qualifications / tragedies into stories told afterwards 等表达精准生动。",
-              "Grammatical Range & Accuracy(语法多样性):in which定语从句开题、破折号类比插入(as diving and aviation already require)、that no examination can certify否定限定、since原因从句推进结论。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写读书节荐书稿(内容+情节+理由);雅思写why+how双问分析文。",
-              "论据来源:高考荐书稿直接引用课文Russell风暴句作书中金句;雅思用冒险心理学与安全管理的普适论据。",
-              "语域:荐书稿有沉浸感染力(I was standing beside him);雅思冷静归因，抒情仅在fully alive一处。",
-              "评分维度:高考重推荐诚意+情节吸引;雅思双问题型TR关键是两问覆盖均衡——本文段落对称是范式答法。"
-            ]
-          },
-          "vocabHints": [
-            "deliberately seek",
-            "comfort has crowded out intensity",
-            "release adrenalin",
-            "proof of courage",
-            "currency for admiration",
-            "graduated qualifications",
-            "locator beacons",
-            "shrink the gamble"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "广泛阅读的力量",
@@ -235,6 +176,65 @@
             "indict poor management",
             "absorb newcomers",
             "handled with foresight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "海上历险记",
+      "titleEn": "Adventure on the High Seas",
+      "desc": "拓展阅读核心：风暴之夜，Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck——恐惧之中的行动力，才是冒险故事真正的主角。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校读书节正在征集英文荐书稿。请你推荐一本你读过的航海冒险小说，内容包括：1. 书的基本内容；2. 印象最深的情节；3. 推荐理由。注意：词数100左右。",
+          "reference": "Hello, everyone! At this year's Reading Festival, I would like to recommend a sea adventure novel that kept me up half the night.\n\nThe story follows a young sailor named Russell on his first ocean voyage. When a terrible storm strikes at midnight, \"Russell felt his blood freeze, but he quickly came to himself and rushed up to the deck.\" From that page on, I was standing beside him — soaked, terrified and determined.\n\nWhat makes the book special is not the storm itself, but how an ordinary boy learns courage: not the absence of fear, but the strength to act in spite of it.\n\nIf you long for the sea and a test of the heart, this voyage is for you.",
+          "vocabHints": [
+            "keep me up half the night",
+            "on his first ocean voyage",
+            "a terrible storm strikes",
+            "felt his blood freeze",
+            "come to oneself",
+            "rush up to the deck",
+            "not the absence of fear",
+            "a test of the heart"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Many people take part in dangerous activities such as sailing across oceans, climbing high mountains or extreme sports. Why do people take these risks? What can be done to reduce the dangers involved? (Write at least 250 words.)",
+          "reference": "From mountaineering to ocean sailing, millions deliberately seek activities in which mistakes can be fatal. This essay considers why danger attracts people and how its risks can be reduced.\n\nThe motives run deeper than recklessness. Modern life is safe and scheduled, and many feel that comfort has crowded out intensity; extreme activities restore the concentration and self-reliance that routine rarely demands. Physiology plays its part — fear releases adrenalin, and mastering it produces a euphoria that ordinary exercise cannot match. For others the appeal is identity and achievement: navigating a storm or reaching a summit provides proof of courage that no examination can certify. Social media has added a further push, turning daring feats into currency for admiration.\n\nRisk, however, can be managed without abolishing the thrill. Proper training is the first safeguard: most accidents involve novices attempting conditions beyond their skill, so graduated qualifications — as diving and aviation already require — should become standard across adventure sports. Equipment and information come next: helmets, locator beacons, weather forecasts and route plans convert many potential tragedies into stories told afterwards. Organised structure helps too; clubs, licensed guides and rescue insurance ensure that when things go wrong, help arrives quickly and the cost does not fall on the public. Finally, honest media portrayals that show the years of preparation, not just the moment of triumph, would correct the illusion that daring alone is enough.\n\nIn conclusion, people pursue danger to feel fully alive and to prove themselves against something real. Since the impulse is ancient and will not disappear, the sensible response is not prohibition but training, regulation and rescue — keeping the adventure while shrinking the gamble.",
+          "wordCount": 277,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):两问齐答且分量均衡——动机段四层(补偿安全生活/生理机制/身份证明/社媒推动)，对策段四招(分级资质/装备信息/组织保障/媒体真实呈现)，结论明确反对禁止路线。",
+              "Coherence & Cohesion(连贯衔接):首段直接预告双问结构;动机与对策段内均用first/next/too/Finally显性排序;'keeping the adventure while shrinking the gamble'对仗收束两问。",
+              "Lexical Resource(词汇资源):comfort has crowded out intensity / currency for admiration / graduated qualifications / tragedies into stories told afterwards 等表达精准生动。",
+              "Grammatical Range & Accuracy(语法多样性):in which定语从句开题、破折号类比插入(as diving and aviation already require)、that no examination can certify否定限定、since原因从句推进结论。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写读书节荐书稿(内容+情节+理由);雅思写why+how双问分析文。",
+              "论据来源:高考荐书稿直接引用课文Russell风暴句作书中金句;雅思用冒险心理学与安全管理的普适论据。",
+              "语域:荐书稿有沉浸感染力(I was standing beside him);雅思冷静归因，抒情仅在fully alive一处。",
+              "评分维度:高考重推荐诚意+情节吸引;雅思双问题型TR关键是两问覆盖均衡——本文段落对称是范式答法。"
+            ]
+          },
+          "vocabHints": [
+            "deliberately seek",
+            "comfort has crowded out intensity",
+            "release adrenalin",
+            "proof of courage",
+            "currency for admiration",
+            "graduated qualifications",
+            "locator beacons",
+            "shrink the gamble"
           ]
         }
       ]

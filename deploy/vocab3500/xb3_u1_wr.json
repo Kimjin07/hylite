@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "野生动物之旅",
-      "titleEn": "A Wildlife Journey",
-      "desc": "拓展阅读核心：草原 alive with the African wildlife we had come to see——giraffes pulling leaves from the highest branches, elephants with ears flapping lazily，一幅移动的自然长卷。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "暑假里你参加了一次野生动物保护区研学活动。请你为校英文报写一篇英文短文，内容包括：1. 研学见闻；2. 你的收获与感想。注意：词数100左右。",
-          "reference": "This summer I joined a study trip to a wildlife reserve in Yunnan, and it turned out to be the most unforgettable lesson of my life.\n\nAt dawn, with the sun beating down on the grassland, our tents stood lined up facing the distant mountains. The plains were alive with the wildlife we had come to see: elephants were eating grass, ears flapping lazily as they moved slowly along, while birds rose in noisy clouds above the trees. Watching them, we hardly dared to breathe.\n\nOur guide reminded us that every species here depends on the whole chain of life. When we packed up to leave, no one left a single piece of rubbish behind. Nature offers us her beauty; the least we can do is protect it.",
-          "vocabHints": [
-            "a wildlife reserve",
-            "with the sun beating down on",
-            "lined up facing",
-            "alive with the wildlife we had come to see",
-            "ears flapping lazily",
-            "hardly dare to breathe",
-            "the chain of life",
-            "leave nothing behind"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that too much money is spent on protecting wild animals, and that it should be spent on the human population instead. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Whenever governments fund wildlife conservation, some object that the money would serve people better. I disagree with this view in its strict form, because protecting wild animals and serving human interests are not competing goals but deeply connected ones.\n\nAt first glance, the critics seem humane. Hospitals lack beds, schools lack teachers, and millions still live in poverty, so spending fortunes on tigers or rare cranes can look like sentimental luxury. Where budgets are tight, the argument runs, every coin should relieve human suffering first.\n\nThis reasoning, however, rests on a false separation between people and nature. Healthy ecosystems purify water, pollinate crops, stabilise the climate and support fisheries on which hundreds of millions depend; when a species disappears, the web that feeds and protects humans weakens with it. Conservation also pays directly: wildlife tourism funds schools and clinics in many rural regions, employing local people as guides and rangers. Moreover, the sums involved are tiny beside military or advertising budgets — the real choice is rarely between saving elephants and building hospitals, but between conservation and far less noble spending.\n\nThat said, conservation money must be spent wisely, prioritising whole habitats over headline species and involving local communities rather than fencing them out. Programmes that ignore the people living beside reserves usually fail, and deservedly so.\n\nIn conclusion, framing wildlife protection as a theft from human welfare misunderstands both sides of the ledger. A planet that keeps its wild animals is not indulging a hobby; it is maintaining the life-support system on which every human project ultimately depends.",
-          "wordCount": 259,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):明确'不同意其严格形式'并以'人与自然利益相连'为核心论点;先公允呈现对方(预算紧张的道义直觉)再拆解其'虚假二分'，另加让步段(保护资金须用得其所)使立场立体。",
-              "Coherence & Cohesion(连贯衔接):At first glance / however / That said / In conclusion 层层推进;'生态服务→旅游收益→预算对比'三路反驳由虚到实排列;结尾'life-support system'回收核心论点。",
-              "Lexical Resource(词汇资源):sentimental luxury / headline species / fencing them out / both sides of the ledger / life-support system 等表达精准有力;pollinate/stabilise等生态动词专业到位。",
-              "Grammatical Range & Accuracy(语法多样性):on which定语从句、not A but B对比结构、分词状语(prioritising... involving...)、插入语(and deservedly so)干净利落。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写研学游记(见闻+感想);雅思写资金分配价值命题的议论文。",
-              "论据来源:高考游记织入课文'alive with the wildlife / ears flapping lazily'词块;雅思用生态经济学普适论据(生态服务、野生动物旅游)。",
-              "语域:游记有画面与抒情(hardly dared to breathe);雅思以逻辑拆解为主，力度在论证结构。",
-              "评分维度:高考重叙事生动+主题升华;雅思TR考察是否识破题目隐含的'二选一'预设——本文'false separation'正面拆解是高分思辨。"
-            ]
-          },
-          "vocabHints": [
-            "sentimental luxury",
-            "a false separation",
-            "purify water and pollinate crops",
-            "wildlife tourism",
-            "employ local people as rangers",
-            "headline species",
-            "fence out local communities",
-            "life-support system"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "与自然和谐同行",
@@ -235,6 +176,65 @@
             "a genuine exchange",
             "meet halfway",
             "without friction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "野生动物之旅",
+      "titleEn": "A Wildlife Journey",
+      "desc": "拓展阅读核心：草原 alive with the African wildlife we had come to see——giraffes pulling leaves from the highest branches, elephants with ears flapping lazily，一幅移动的自然长卷。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "暑假里你参加了一次野生动物保护区研学活动。请你为校英文报写一篇英文短文，内容包括：1. 研学见闻；2. 你的收获与感想。注意：词数100左右。",
+          "reference": "This summer I joined a study trip to a wildlife reserve in Yunnan, and it turned out to be the most unforgettable lesson of my life.\n\nAt dawn, with the sun beating down on the grassland, our tents stood lined up facing the distant mountains. The plains were alive with the wildlife we had come to see: elephants were eating grass, ears flapping lazily as they moved slowly along, while birds rose in noisy clouds above the trees. Watching them, we hardly dared to breathe.\n\nOur guide reminded us that every species here depends on the whole chain of life. When we packed up to leave, no one left a single piece of rubbish behind. Nature offers us her beauty; the least we can do is protect it.",
+          "vocabHints": [
+            "a wildlife reserve",
+            "with the sun beating down on",
+            "lined up facing",
+            "alive with the wildlife we had come to see",
+            "ears flapping lazily",
+            "hardly dare to breathe",
+            "the chain of life",
+            "leave nothing behind"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that too much money is spent on protecting wild animals, and that it should be spent on the human population instead. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Whenever governments fund wildlife conservation, some object that the money would serve people better. I disagree with this view in its strict form, because protecting wild animals and serving human interests are not competing goals but deeply connected ones.\n\nAt first glance, the critics seem humane. Hospitals lack beds, schools lack teachers, and millions still live in poverty, so spending fortunes on tigers or rare cranes can look like sentimental luxury. Where budgets are tight, the argument runs, every coin should relieve human suffering first.\n\nThis reasoning, however, rests on a false separation between people and nature. Healthy ecosystems purify water, pollinate crops, stabilise the climate and support fisheries on which hundreds of millions depend; when a species disappears, the web that feeds and protects humans weakens with it. Conservation also pays directly: wildlife tourism funds schools and clinics in many rural regions, employing local people as guides and rangers. Moreover, the sums involved are tiny beside military or advertising budgets — the real choice is rarely between saving elephants and building hospitals, but between conservation and far less noble spending.\n\nThat said, conservation money must be spent wisely, prioritising whole habitats over headline species and involving local communities rather than fencing them out. Programmes that ignore the people living beside reserves usually fail, and deservedly so.\n\nIn conclusion, framing wildlife protection as a theft from human welfare misunderstands both sides of the ledger. A planet that keeps its wild animals is not indulging a hobby; it is maintaining the life-support system on which every human project ultimately depends.",
+          "wordCount": 259,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):明确'不同意其严格形式'并以'人与自然利益相连'为核心论点;先公允呈现对方(预算紧张的道义直觉)再拆解其'虚假二分'，另加让步段(保护资金须用得其所)使立场立体。",
+              "Coherence & Cohesion(连贯衔接):At first glance / however / That said / In conclusion 层层推进;'生态服务→旅游收益→预算对比'三路反驳由虚到实排列;结尾'life-support system'回收核心论点。",
+              "Lexical Resource(词汇资源):sentimental luxury / headline species / fencing them out / both sides of the ledger / life-support system 等表达精准有力;pollinate/stabilise等生态动词专业到位。",
+              "Grammatical Range & Accuracy(语法多样性):on which定语从句、not A but B对比结构、分词状语(prioritising... involving...)、插入语(and deservedly so)干净利落。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写研学游记(见闻+感想);雅思写资金分配价值命题的议论文。",
+              "论据来源:高考游记织入课文'alive with the wildlife / ears flapping lazily'词块;雅思用生态经济学普适论据(生态服务、野生动物旅游)。",
+              "语域:游记有画面与抒情(hardly dared to breathe);雅思以逻辑拆解为主，力度在论证结构。",
+              "评分维度:高考重叙事生动+主题升华;雅思TR考察是否识破题目隐含的'二选一'预设——本文'false separation'正面拆解是高分思辨。"
+            ]
+          },
+          "vocabHints": [
+            "sentimental luxury",
+            "a false separation",
+            "purify water and pollinate crops",
+            "wildlife tourism",
+            "employ local people as rangers",
+            "headline species",
+            "fence out local communities",
+            "life-support system"
           ]
         }
       ]

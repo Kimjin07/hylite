@@ -83,85 +83,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "身材焦虑与自我接纳",
-      "titleEn": "Body Image & Self-acceptance",
-      "desc": "课文劝导：盲目追赶 standards of beauty in the media 是 fight a losing battle——take pride in things you do well，接纳自己。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英文报正举办以 \"Learning to Like Myself\" 为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你或身边人曾有的外貌焦虑；2. 转变的经过；3. 你的感悟。注意：词数100左右。",
-          "reference": "For a long time, dark thoughts about my ordinary looks hung over me. Comparing myself with the perfect faces online, I only ended up feeling worse about myself.\n\nThe turning point came when my art teacher praised my sketches in front of the class. For the first time, I realized that everyone has their own talents, and that trying to live up to the standards of beauty in the media is fighting a losing battle.\n\nNow I take pride in the things I do well. My contents, I have learned, are far more important than my cover. Like what you do, and you will learn to like who you are.",
-          "vocabHints": [
-            "dark thoughts hang over sb",
-            "end up feeling worse",
-            "everyone has their own talents",
-            "live up to",
-            "standards of beauty in the media",
-            "fight a losing battle",
-            "take pride in",
-            "contents vs cover"
-          ]
-        },
-        {
-          "source": "读后续写",
-          "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "Ever since a classmate joked that she was 'the tallest girl in the class', Cindy had hated her own height. She began to slouch, to stand at the back, to wish she could disappear. Whenever she passed a mirror, she saw only what she believed was wrong with her.",
-          "para1": "Paragraph 1: Before the class photo, Cindy tried to hide herself at the very back of the group.",
-          "para2": "Paragraph 2: When the photo came out, Cindy looked at it and, for the first time, smiled at herself.",
-          "reference": "Before the class photo, Cindy tried to hide herself at the very back of the group, bending her knees so she would look shorter. But the photographer called out kindly, \"Tall girl in the middle, please — you'll balance the picture perfectly!\" Reluctantly, Cindy stepped forward and stood up straight. To her surprise, her teacher whispered, \"You have such a graceful posture when you don't hide it.\"\n\nWhen the photo came out, Cindy looked at it and, for the first time, smiled at herself. There she was, standing tall in the centre, and she did not look strange at all — she looked confident, even beautiful. She realised that her height had never been the problem; hiding from it had. From that day, Cindy walked with her head held high, comfortable at last in her own skin.",
-          "vocabHints": [
-            "hated her own height",
-            "began to slouch",
-            "wish she could disappear",
-            "stood up straight",
-            "a graceful posture",
-            "standing tall in the centre",
-            "her head held high",
-            "comfortable in her own skin"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Advertising and social media promote unrealistic standards of physical beauty. Some people think this has a harmful effect on young people. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Modern advertising and social media surround young people with images of physical perfection that few real bodies can match. It is widely argued that this stream of idealised beauty does genuine harm to the young, and I agree almost without reservation.\n\nThe central harm is a quiet redefinition of normal. When every billboard face is flawless and every feed is filtered, the ordinary body — the kind most people actually inhabit — begins to look like a failure. Teenagers, still assembling their identities, absorb this arithmetic quickly: they compare, find themselves lacking, and end up feeling worse about a self that was never defective in the first place. The consequences are not merely emotional. Chasing an unreachable standard pushes some towards punishing diets and obsessive exercise, a battle that cannot be won because the finish line is imaginary; others withdraw socially, convinced that their worth is measured in their reflection.\n\nDefenders of the industry reply that such images are aspiration, not instruction, and that beauty content can motivate healthy habits. The argument fails on one decisive point: the standards promoted are not honestly labelled as constructed. A photograph edited beyond reality is presented as reality, and young viewers are invited to judge their unedited selves against it — a comparison rigged from the start.\n\nI would allow one small qualification: the harm is not evenly distributed, and confident teenagers with strong offline lives often shrug the images off. Yet policy cannot be built on the resilient few. Until idealised images carry honest labels, their net effect on the young remains, in my judgement, plainly harmful.",
-          "wordCount": 264,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):程度表态精确——'agree almost without reservation'先行,主体充分论证核心危害(正常的重新定义→比较→自我贬低→极端行为),反方观点一段并当场驳倒('a comparison rigged from the start'),再让一小步(qualification)后收回,立场层次丰富且不骑墙。",
-              "Coherence & Cohesion(连贯与衔接):'The central harm is...'/'Defenders of the industry reply...'/'I would allow one small qualification'——论证-反驳-限定的三段舞步完整;'the finish line is imaginary'呼应课文'losing battle'意象而不搬原句。",
-              "Lexical Resource(词汇资源):'a quiet redefinition of normal'、'still assembling their identities'、'absorb this arithmetic'、'punishing diets'、'worth is measured in their reflection'、'honestly labelled as constructed'——高浓度原创表达;filtered/edited 等数字词汇准确。",
-              "Grammatical Range & Accuracy(语法准确性):破折号插入定义('the ordinary body — the kind most people actually inhabit —')、because 从句嵌比喻、过去分词短语('convinced that...')、until 条件收尾;复杂句密集且无误。"
-            ],
-            "vsGaokao": [
-              "视角对照:高考征文写'我如何走出焦虑'的个人弧线;雅思写'该现象为何有害'的社会论证——同一主题,叙事与说理两条赛道。",
-              "论据来源:本文用行业机制(修图未标注、算法投喂),不用'美术老师表扬我'式个人转折;个人故事在雅思中只能作辅例且本文未用。",
-              "语域:雅思保持批判性学术语气,让步-驳斥-限定的链条不带情绪词;高考征文以真情实感收尾加分。",
-              "评分维度:雅思 to what extent 题必须给出程度并处理反方(本文专段驳斥);高考征文无需反方视角,三要点完整即可。"
-            ]
-          },
-          "vocabHints": [
-            "idealised beauty",
-            "a quiet redefinition of normal",
-            "still assembling their identities",
-            "find themselves lacking",
-            "an unreachable standard",
-            "rigged from the start",
-            "shrug off",
-            "carry honest labels"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "健康生活方式",
@@ -315,6 +236,85 @@
             "perceived flaw",
             "raise the price of remaining natural",
             "the order of self-improvement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "身材焦虑与自我接纳",
+      "titleEn": "Body Image & Self-acceptance",
+      "desc": "课文劝导：盲目追赶 standards of beauty in the media 是 fight a losing battle——take pride in things you do well，接纳自己。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"Learning to Like Myself\" 为主题的征文活动。请你写一篇短文投稿，内容包括：1. 你或身边人曾有的外貌焦虑；2. 转变的经过；3. 你的感悟。注意：词数100左右。",
+          "reference": "For a long time, dark thoughts about my ordinary looks hung over me. Comparing myself with the perfect faces online, I only ended up feeling worse about myself.\n\nThe turning point came when my art teacher praised my sketches in front of the class. For the first time, I realized that everyone has their own talents, and that trying to live up to the standards of beauty in the media is fighting a losing battle.\n\nNow I take pride in the things I do well. My contents, I have learned, are far more important than my cover. Like what you do, and you will learn to like who you are.",
+          "vocabHints": [
+            "dark thoughts hang over sb",
+            "end up feeling worse",
+            "everyone has their own talents",
+            "live up to",
+            "standards of beauty in the media",
+            "fight a losing battle",
+            "take pride in",
+            "contents vs cover"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Ever since a classmate joked that she was 'the tallest girl in the class', Cindy had hated her own height. She began to slouch, to stand at the back, to wish she could disappear. Whenever she passed a mirror, she saw only what she believed was wrong with her.",
+          "para1": "Paragraph 1: Before the class photo, Cindy tried to hide herself at the very back of the group.",
+          "para2": "Paragraph 2: When the photo came out, Cindy looked at it and, for the first time, smiled at herself.",
+          "reference": "Before the class photo, Cindy tried to hide herself at the very back of the group, bending her knees so she would look shorter. But the photographer called out kindly, \"Tall girl in the middle, please — you'll balance the picture perfectly!\" Reluctantly, Cindy stepped forward and stood up straight. To her surprise, her teacher whispered, \"You have such a graceful posture when you don't hide it.\"\n\nWhen the photo came out, Cindy looked at it and, for the first time, smiled at herself. There she was, standing tall in the centre, and she did not look strange at all — she looked confident, even beautiful. She realised that her height had never been the problem; hiding from it had. From that day, Cindy walked with her head held high, comfortable at last in her own skin.",
+          "vocabHints": [
+            "hated her own height",
+            "began to slouch",
+            "wish she could disappear",
+            "stood up straight",
+            "a graceful posture",
+            "standing tall in the centre",
+            "her head held high",
+            "comfortable in her own skin"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Advertising and social media promote unrealistic standards of physical beauty. Some people think this has a harmful effect on young people. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Modern advertising and social media surround young people with images of physical perfection that few real bodies can match. It is widely argued that this stream of idealised beauty does genuine harm to the young, and I agree almost without reservation.\n\nThe central harm is a quiet redefinition of normal. When every billboard face is flawless and every feed is filtered, the ordinary body — the kind most people actually inhabit — begins to look like a failure. Teenagers, still assembling their identities, absorb this arithmetic quickly: they compare, find themselves lacking, and end up feeling worse about a self that was never defective in the first place. The consequences are not merely emotional. Chasing an unreachable standard pushes some towards punishing diets and obsessive exercise, a battle that cannot be won because the finish line is imaginary; others withdraw socially, convinced that their worth is measured in their reflection.\n\nDefenders of the industry reply that such images are aspiration, not instruction, and that beauty content can motivate healthy habits. The argument fails on one decisive point: the standards promoted are not honestly labelled as constructed. A photograph edited beyond reality is presented as reality, and young viewers are invited to judge their unedited selves against it — a comparison rigged from the start.\n\nI would allow one small qualification: the harm is not evenly distributed, and confident teenagers with strong offline lives often shrug the images off. Yet policy cannot be built on the resilient few. Until idealised images carry honest labels, their net effect on the young remains, in my judgement, plainly harmful.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):程度表态精确——'agree almost without reservation'先行,主体充分论证核心危害(正常的重新定义→比较→自我贬低→极端行为),反方观点一段并当场驳倒('a comparison rigged from the start'),再让一小步(qualification)后收回,立场层次丰富且不骑墙。",
+              "Coherence & Cohesion(连贯与衔接):'The central harm is...'/'Defenders of the industry reply...'/'I would allow one small qualification'——论证-反驳-限定的三段舞步完整;'the finish line is imaginary'呼应课文'losing battle'意象而不搬原句。",
+              "Lexical Resource(词汇资源):'a quiet redefinition of normal'、'still assembling their identities'、'absorb this arithmetic'、'punishing diets'、'worth is measured in their reflection'、'honestly labelled as constructed'——高浓度原创表达;filtered/edited 等数字词汇准确。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入定义('the ordinary body — the kind most people actually inhabit —')、because 从句嵌比喻、过去分词短语('convinced that...')、until 条件收尾;复杂句密集且无误。"
+            ],
+            "vsGaokao": [
+              "视角对照:高考征文写'我如何走出焦虑'的个人弧线;雅思写'该现象为何有害'的社会论证——同一主题,叙事与说理两条赛道。",
+              "论据来源:本文用行业机制(修图未标注、算法投喂),不用'美术老师表扬我'式个人转折;个人故事在雅思中只能作辅例且本文未用。",
+              "语域:雅思保持批判性学术语气,让步-驳斥-限定的链条不带情绪词;高考征文以真情实感收尾加分。",
+              "评分维度:雅思 to what extent 题必须给出程度并处理反方(本文专段驳斥);高考征文无需反方视角,三要点完整即可。"
+            ]
+          },
+          "vocabHints": [
+            "idealised beauty",
+            "a quiet redefinition of normal",
+            "still assembling their identities",
+            "find themselves lacking",
+            "an unreachable standard",
+            "rigged from the start",
+            "shrug off",
+            "carry honest labels"
           ]
         }
       ]

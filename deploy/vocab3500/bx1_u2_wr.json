@@ -84,85 +84,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "家庭与安全感",
-      "titleEn": "Family & the Sense of Security",
-      "desc": "《妈妈的银行账户》：一个“并不存在的账户”给全家人带来安全感——家庭如何成为孩子的底气。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英文报正举办以 \"What Family Means to Me\" 为主题的征文活动。请你结合自己或身边人的经历写一篇短文投稿，内容包括：1. 家庭给你的安全感体现在何处；2. 一件具体的小事；3. 你的感悟。注意：词数100左右。",
-          "reference": "Whatever happens, I always know I still have my family to depend upon — that is what family means to me.\n\nLast winter, I failed an important exam and dared not mention it at dinner. My mother said nothing about marks. Instead, she put an extra bowl of my favourite soup in front of me and said, \"Eat first. Everything will turn out all right.\" That warm, secure feeling stayed with me for the whole evening, and I went back to my books with fresh courage.\n\nFamily, I have learned, is not a place where we are never judged; it is a place where we are always received. Like a bank account that never runs out, its love is something we can draw upon in every emergency.",
-          "vocabHints": [
-            "depend upon",
-            "a warm, secure feeling",
-            "turn out all right",
-            "in an emergency",
-            "draw money out of an account",
-            "whatever happens",
-            "count out",
-            "gather around the table"
-          ]
-        },
-        {
-          "source": "读后续写",
-          "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "When Sophie failed the most important exam of the year, she was terrified to go home. Her parents had worked so hard to support her studies, and she was sure she had let them down. Clutching the test paper with its low mark, she walked home more slowly than she ever had before.",
-          "para1": "Paragraph 1: Sophie stood outside her front door for a long time before she dared to go in.",
-          "para2": "Paragraph 2: That evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten.",
-          "reference": "Sophie stood outside her front door for a long time before she dared to go in. When at last she stepped inside and whispered the truth, she braced herself for disappointment. But her father simply put down his newspaper and said, \"A single exam does not decide who you are.\" Her mother hugged her and added, \"We are proud of how hard you tried.\" To her surprise, no one was angry at all.\n\nThat evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten. Home was not a place where she had to be perfect; it was a place where she was loved even when she failed. With her parents beside her, she opened her books again — not out of fear this time, but out of quiet hope. The next exam, she promised herself, would tell a different story.",
-          "vocabHints": [
-            "let them down",
-            "clutching the test paper",
-            "braced herself",
-            "put down his newspaper",
-            "a single exam does not decide who you are",
-            "wrapped in the warmth of her family",
-            "loved even when she failed",
-            "out of quiet hope"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that the family has the greatest influence on a child's development, while others think that outside factors such as friends, school and the media play a more important role. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "What shapes a child most decisively — the home or the wider world — remains a subject of lively debate. Some hold that the family exerts the deepest influence on a young person's development, while others contend that friends, schooling and the media now matter more. In my view, although outside forces grow louder with age, the family remains the quiet foundation on which everything else is built.\n\nSupporters of the second position make a persuasive case. From adolescence onwards, children spend the greater part of their waking hours away from home, absorbing the values of classmates and the messages of a screen-saturated culture. Peer approval can outweigh parental advice; a trend on social media can reshape a teenager's tastes overnight. Judged purely by hours of exposure, the outside world seems to hold the stronger hand.\n\nYet influence is not measured by volume alone. The family provides what no algorithm or classmate can: an unconditional sense of security. A child who knows there is always someone to depend upon acquires the confidence to explore, fail and try again. Habits of honesty, patience and care are rehearsed at the dinner table long before they are tested in public. Even the way young people handle friendship and criticism tends to mirror the emotional patterns first learned at home.\n\nOn balance, therefore, I side with those who place the family first. External voices may decorate the building of character, but the foundations are poured early, at home, and in silence. When those foundations are sound, the louder world can influence a child without ever owning them.",
-          "wordCount": 265,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):三问全答——引言即立立场('the family remains the quiet foundation'),第二段公允展开对方论据(时间占比/同伴认同/社媒),第三段以'影响不以音量计'反转并纵深论证(安全感→敢于试错→情感模式镜像),结论权衡收束,立场首尾一致。",
-              "Coherence & Cohesion(连贯与衔接):'Supporters of the second position...'、'Yet influence is not measured by volume alone'、'On balance, therefore'层层推进;建筑隐喻(foundation→decorate the building→foundations are poured)贯穿三段,成为全文的衔接暗线。",
-              "Lexical Resource(词汇资源):'a screen-saturated culture'、'hold the stronger hand'、'an unconditional sense of security'、'rehearsed at the dinner table'、'influence a child without ever owning them'——搭配新鲜准确;depend upon/security 等词呼应话题而不显堆砌。",
-              "Grammatical Range & Accuracy(语法准确性):破折号插入定义式开头、冒号引出核心概念('provides what no algorithm or classmate can: ...')、关系从句与分词交替使用;长短句节奏明显(第三段末双短句收势),错误几乎为零。"
-            ],
-            "vsGaokao": [
-              "字数与深度:265 词 vs 高考 100 词;高考征文只需一事一悟,雅思要求双方观点各自展开并作出可辩护的权衡。",
-              "论据来源:本文论据是普遍的社会观察(社媒趋势、餐桌习惯),不讲'我妈妈给我盛汤'式个人故事;高考征文恰恰以真实小事取胜——同一主题,取材方向相反。",
-              "语域:学术客观语气,隐喻服务论证而非抒情;高考征文鼓励温情叙事和抒情结尾。",
-              "评分维度:雅思看四维分项,本文的隐喻线与反转结构是为 CC/TR 设计;高考看要点与文采,情感真挚常常比论证严密更加分。"
-            ]
-          },
-          "vocabHints": [
-            "exert influence on",
-            "a screen-saturated culture",
-            "outweigh",
-            "an unconditional sense of security",
-            "someone to depend upon",
-            "rehearsed at the dinner table",
-            "mirror the emotional patterns",
-            "the foundations are poured early"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "别活在比较里",
@@ -316,6 +237,85 @@
             "praise effort rather than ranking",
             "a place of recovery",
             "sharpen young minds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "家庭与安全感",
+      "titleEn": "Family & the Sense of Security",
+      "desc": "《妈妈的银行账户》：一个“并不存在的账户”给全家人带来安全感——家庭如何成为孩子的底气。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"What Family Means to Me\" 为主题的征文活动。请你结合自己或身边人的经历写一篇短文投稿，内容包括：1. 家庭给你的安全感体现在何处；2. 一件具体的小事；3. 你的感悟。注意：词数100左右。",
+          "reference": "Whatever happens, I always know I still have my family to depend upon — that is what family means to me.\n\nLast winter, I failed an important exam and dared not mention it at dinner. My mother said nothing about marks. Instead, she put an extra bowl of my favourite soup in front of me and said, \"Eat first. Everything will turn out all right.\" That warm, secure feeling stayed with me for the whole evening, and I went back to my books with fresh courage.\n\nFamily, I have learned, is not a place where we are never judged; it is a place where we are always received. Like a bank account that never runs out, its love is something we can draw upon in every emergency.",
+          "vocabHints": [
+            "depend upon",
+            "a warm, secure feeling",
+            "turn out all right",
+            "in an emergency",
+            "draw money out of an account",
+            "whatever happens",
+            "count out",
+            "gather around the table"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "When Sophie failed the most important exam of the year, she was terrified to go home. Her parents had worked so hard to support her studies, and she was sure she had let them down. Clutching the test paper with its low mark, she walked home more slowly than she ever had before.",
+          "para1": "Paragraph 1: Sophie stood outside her front door for a long time before she dared to go in.",
+          "para2": "Paragraph 2: That evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten.",
+          "reference": "Sophie stood outside her front door for a long time before she dared to go in. When at last she stepped inside and whispered the truth, she braced herself for disappointment. But her father simply put down his newspaper and said, \"A single exam does not decide who you are.\" Her mother hugged her and added, \"We are proud of how hard you tried.\" To her surprise, no one was angry at all.\n\nThat evening, wrapped in the warmth of her family, Sophie understood something she had almost forgotten. Home was not a place where she had to be perfect; it was a place where she was loved even when she failed. With her parents beside her, she opened her books again — not out of fear this time, but out of quiet hope. The next exam, she promised herself, would tell a different story.",
+          "vocabHints": [
+            "let them down",
+            "clutching the test paper",
+            "braced herself",
+            "put down his newspaper",
+            "a single exam does not decide who you are",
+            "wrapped in the warmth of her family",
+            "loved even when she failed",
+            "out of quiet hope"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that the family has the greatest influence on a child's development, while others think that outside factors such as friends, school and the media play a more important role. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "What shapes a child most decisively — the home or the wider world — remains a subject of lively debate. Some hold that the family exerts the deepest influence on a young person's development, while others contend that friends, schooling and the media now matter more. In my view, although outside forces grow louder with age, the family remains the quiet foundation on which everything else is built.\n\nSupporters of the second position make a persuasive case. From adolescence onwards, children spend the greater part of their waking hours away from home, absorbing the values of classmates and the messages of a screen-saturated culture. Peer approval can outweigh parental advice; a trend on social media can reshape a teenager's tastes overnight. Judged purely by hours of exposure, the outside world seems to hold the stronger hand.\n\nYet influence is not measured by volume alone. The family provides what no algorithm or classmate can: an unconditional sense of security. A child who knows there is always someone to depend upon acquires the confidence to explore, fail and try again. Habits of honesty, patience and care are rehearsed at the dinner table long before they are tested in public. Even the way young people handle friendship and criticism tends to mirror the emotional patterns first learned at home.\n\nOn balance, therefore, I side with those who place the family first. External voices may decorate the building of character, but the foundations are poured early, at home, and in silence. When those foundations are sound, the louder world can influence a child without ever owning them.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):三问全答——引言即立立场('the family remains the quiet foundation'),第二段公允展开对方论据(时间占比/同伴认同/社媒),第三段以'影响不以音量计'反转并纵深论证(安全感→敢于试错→情感模式镜像),结论权衡收束,立场首尾一致。",
+              "Coherence & Cohesion(连贯与衔接):'Supporters of the second position...'、'Yet influence is not measured by volume alone'、'On balance, therefore'层层推进;建筑隐喻(foundation→decorate the building→foundations are poured)贯穿三段,成为全文的衔接暗线。",
+              "Lexical Resource(词汇资源):'a screen-saturated culture'、'hold the stronger hand'、'an unconditional sense of security'、'rehearsed at the dinner table'、'influence a child without ever owning them'——搭配新鲜准确;depend upon/security 等词呼应话题而不显堆砌。",
+              "Grammatical Range & Accuracy(语法准确性):破折号插入定义式开头、冒号引出核心概念('provides what no algorithm or classmate can: ...')、关系从句与分词交替使用;长短句节奏明显(第三段末双短句收势),错误几乎为零。"
+            ],
+            "vsGaokao": [
+              "字数与深度:265 词 vs 高考 100 词;高考征文只需一事一悟,雅思要求双方观点各自展开并作出可辩护的权衡。",
+              "论据来源:本文论据是普遍的社会观察(社媒趋势、餐桌习惯),不讲'我妈妈给我盛汤'式个人故事;高考征文恰恰以真实小事取胜——同一主题,取材方向相反。",
+              "语域:学术客观语气,隐喻服务论证而非抒情;高考征文鼓励温情叙事和抒情结尾。",
+              "评分维度:雅思看四维分项,本文的隐喻线与反转结构是为 CC/TR 设计;高考看要点与文采,情感真挚常常比论证严密更加分。"
+            ]
+          },
+          "vocabHints": [
+            "exert influence on",
+            "a screen-saturated culture",
+            "outweigh",
+            "an unconditional sense of security",
+            "someone to depend upon",
+            "rehearsed at the dinner table",
+            "mirror the emotional patterns",
+            "the foundations are poured early"
           ]
         }
       ]

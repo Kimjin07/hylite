@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "春节与团圆",
-      "titleEn": "Spring Festival & Family Reunion",
-      "desc": "课文叙事：罗言一家的返乡过年——from paper-cuttings to couplets, everything represents joy；After all, home is where all family members are together。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校外教 Mr Green 独自在华过年。请你写一封邮件邀请他到你家共度除夕，内容包括：1. 发出邀请；2. 介绍你家的年俗安排；3. 表达期待。注意：词数100左右。",
-          "reference": "Dear Mr Green,\n\nSpring Festival is around the corner, and my family would be honoured to have you join us for New Year's Eve dinner this Saturday.\n\nLet me preview the evening for you. From the paper-cuttings on the windows to the Spring Festival couplets on the door, everything in my home represents joy, luck and happiness. We will make dumplings together, watch the Spring Festival Gala, and as midnight approaches, set off fireworks in the yard — the whole village will be lit up!\n\nAfter all, home is where people gather, and we would love you to feel at home in China. Shall we pick you up at 4 p.m.?\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "around the corner",
-            "be honoured to",
-            "paper-cuttings",
-            "Spring Festival couplets",
-            "represent joy, luck and happiness",
-            "as midnight approaches",
-            "set off fireworks",
-            "be lit up"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "In many countries, family members increasingly live far apart from each other. Some people think festivals that bring families together are therefore more important than ever. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "As work and study scatter families across cities and continents, the festivals that summon everyone home have acquired a new weight. I agree almost entirely that such occasions matter more now than ever before — not although families live apart, but precisely because they do.\n\nThe first reason is that reunion festivals now perform a function daily life has surrendered. When three generations shared one roof, togetherness needed no calendar; today, scattered relatives may meet in person only once a year. The festival provides what video calls cannot: shared labour and shared idleness — cooking together, sitting together, the unhurried hours in which real conversation surfaces. A grandmother teaching a grandchild to fold dumplings passes on more than recipes; she transmits belonging itself.\n\nSecond, these gatherings maintain identity across distance. Migrants who spend the year adapting to other cities return, briefly, to the place where their habits and dialect need no explanation. The rituals — decorations on the door, particular dishes, greetings exchanged in fixed words — are a language of continuity, telling each family that it remains one thing despite its dispersal. Children raised far from their roots receive, in a single week, an education no textbook offers.\n\nSceptics note that obligatory reunions can be stressful and expensive, and that affection cannot be scheduled. The objection is fair but misdirected: the crowded journey home is not evidence that the festival matters too much, but proof of how much people still consider it worth.\n\nDistance, in short, has not weakened reunion festivals; it has promoted them from custom to necessity.",
-          "wordCount": 258,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):表态精确且反直觉('not although families live apart, but precisely because they do'),双论据纵深展开(团聚功能的历史转移/身份认同的年度维护),反方一段并反转利用(春运拥挤恰证其价值),结论一句完成'custom→necessity'的升格。",
-              "Coherence & Cohesion(连贯与衔接):'The first reason is...'/'Second...'/'Sceptics note...'骨架传统而稳;'togetherness needed no calendar'与'affection cannot be scheduled'遥相呼应;冒号与破折号引导的解释层次丰富。",
-              "Lexical Resource(词汇资源):'summon everyone home'、'a function daily life has surrendered'、'shared labour and shared idleness'、'transmits belonging itself'、'a language of continuity'、'promoted them from custom to necessity'——概念化表达密集;课文意象(fold dumplings/decorations on the door)匿名化用。",
-              "Grammatical Range & Accuracy(语法准确性):not...but 精确表态、when/today 时间对照、插入列举、分词与同位语交替;'The objection is fair but misdirected'式的让步-反转句娴熟。"
-            ],
-            "vsGaokao": [
-              "体裁:高考是除夕邀请邮件(安排+期待);雅思论'团圆节日在离散时代的价值'——请一个人回家vs论一代人回家。",
-              "论据来源:本文用社会学观察(三代同堂的消失/春运);邮件用自家年俗细节(couplets/Gala/fireworks)。",
-              "语域:邮件热情具体('Shall we pick you up at 4 p.m.?');雅思以'promoted from custom to necessity'的判断收束。",
-              "评分维度:雅思要求程度表态+处理反方;高考邀请信看诚意与信息完整,年俗介绍即文化输出加分项。"
-            ]
-          },
-          "vocabHints": [
-            "scatter families across cities",
-            "summon everyone home",
-            "shared labour and shared idleness",
-            "transmit belonging",
-            "a language of continuity",
-            "despite its dispersal",
-            "affection cannot be scheduled",
-            "from custom to necessity"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "异国旅途小记",
@@ -235,6 +176,65 @@
             "meaning enters through the hands",
             "borrow modern clothes",
             "the deepest channel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "春节与团圆",
+      "titleEn": "Spring Festival & Family Reunion",
+      "desc": "课文叙事：罗言一家的返乡过年——from paper-cuttings to couplets, everything represents joy；After all, home is where all family members are together。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校外教 Mr Green 独自在华过年。请你写一封邮件邀请他到你家共度除夕，内容包括：1. 发出邀请；2. 介绍你家的年俗安排；3. 表达期待。注意：词数100左右。",
+          "reference": "Dear Mr Green,\n\nSpring Festival is around the corner, and my family would be honoured to have you join us for New Year's Eve dinner this Saturday.\n\nLet me preview the evening for you. From the paper-cuttings on the windows to the Spring Festival couplets on the door, everything in my home represents joy, luck and happiness. We will make dumplings together, watch the Spring Festival Gala, and as midnight approaches, set off fireworks in the yard — the whole village will be lit up!\n\nAfter all, home is where people gather, and we would love you to feel at home in China. Shall we pick you up at 4 p.m.?\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "around the corner",
+            "be honoured to",
+            "paper-cuttings",
+            "Spring Festival couplets",
+            "represent joy, luck and happiness",
+            "as midnight approaches",
+            "set off fireworks",
+            "be lit up"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "In many countries, family members increasingly live far apart from each other. Some people think festivals that bring families together are therefore more important than ever. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As work and study scatter families across cities and continents, the festivals that summon everyone home have acquired a new weight. I agree almost entirely that such occasions matter more now than ever before — not although families live apart, but precisely because they do.\n\nThe first reason is that reunion festivals now perform a function daily life has surrendered. When three generations shared one roof, togetherness needed no calendar; today, scattered relatives may meet in person only once a year. The festival provides what video calls cannot: shared labour and shared idleness — cooking together, sitting together, the unhurried hours in which real conversation surfaces. A grandmother teaching a grandchild to fold dumplings passes on more than recipes; she transmits belonging itself.\n\nSecond, these gatherings maintain identity across distance. Migrants who spend the year adapting to other cities return, briefly, to the place where their habits and dialect need no explanation. The rituals — decorations on the door, particular dishes, greetings exchanged in fixed words — are a language of continuity, telling each family that it remains one thing despite its dispersal. Children raised far from their roots receive, in a single week, an education no textbook offers.\n\nSceptics note that obligatory reunions can be stressful and expensive, and that affection cannot be scheduled. The objection is fair but misdirected: the crowded journey home is not evidence that the festival matters too much, but proof of how much people still consider it worth.\n\nDistance, in short, has not weakened reunion festivals; it has promoted them from custom to necessity.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):表态精确且反直觉('not although families live apart, but precisely because they do'),双论据纵深展开(团聚功能的历史转移/身份认同的年度维护),反方一段并反转利用(春运拥挤恰证其价值),结论一句完成'custom→necessity'的升格。",
+              "Coherence & Cohesion(连贯与衔接):'The first reason is...'/'Second...'/'Sceptics note...'骨架传统而稳;'togetherness needed no calendar'与'affection cannot be scheduled'遥相呼应;冒号与破折号引导的解释层次丰富。",
+              "Lexical Resource(词汇资源):'summon everyone home'、'a function daily life has surrendered'、'shared labour and shared idleness'、'transmits belonging itself'、'a language of continuity'、'promoted them from custom to necessity'——概念化表达密集;课文意象(fold dumplings/decorations on the door)匿名化用。",
+              "Grammatical Range & Accuracy(语法准确性):not...but 精确表态、when/today 时间对照、插入列举、分词与同位语交替;'The objection is fair but misdirected'式的让步-反转句娴熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是除夕邀请邮件(安排+期待);雅思论'团圆节日在离散时代的价值'——请一个人回家vs论一代人回家。",
+              "论据来源:本文用社会学观察(三代同堂的消失/春运);邮件用自家年俗细节(couplets/Gala/fireworks)。",
+              "语域:邮件热情具体('Shall we pick you up at 4 p.m.?');雅思以'promoted from custom to necessity'的判断收束。",
+              "评分维度:雅思要求程度表态+处理反方;高考邀请信看诚意与信息完整,年俗介绍即文化输出加分项。"
+            ]
+          },
+          "vocabHints": [
+            "scatter families across cities",
+            "summon everyone home",
+            "shared labour and shared idleness",
+            "transmit belonging",
+            "a language of continuity",
+            "despite its dispersal",
+            "affection cannot be scheduled",
+            "from custom to necessity"
           ]
         }
       ]

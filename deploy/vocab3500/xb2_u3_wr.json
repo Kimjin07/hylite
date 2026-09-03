@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "针灸与传统医学",
-      "titleEn": "Acupuncture & Traditional Medicine",
-      "desc": "拓展阅读核心：There is evidence that acupuncture dates back to the Stone Age, when stone tools called bian were used to press areas of the body——针灸是中医智慧的活化石。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校下周六将举办中医文化体验日活动。请你用英文给对中国文化感兴趣的外国朋友 Leo 写一封邮件，邀请他参加，内容包括：1. 活动时间地点；2. 活动内容（如针灸展示）；3. 表达期待。注意：词数100左右。",
-          "reference": "Dear Leo,\n\nHow is everything going? Knowing that you have been interested in traditional Chinese culture, I'm writing to invite you to a Traditional Chinese Medicine experience day at our school hall next Saturday, starting at 9 a.m.\n\nThe highlight will be acupuncture. There is evidence that acupuncture dates back to the Stone Age, when stone tools were used to press areas of the body. Today doctors use fine needles instead, and many patients find it helpful for pain relief. During the activity, a doctor from a local TCM hospital will demonstrate how it works, and we can also learn to recognise common Chinese herbs.\n\nI'm sure the day will offer you a window into Chinese wisdom. Looking forward to your reply.\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "There is evidence that",
-            "date back to the Stone Age",
-            "press areas of the body",
-            "fine needles",
-            "pain relief",
-            "demonstrate how it works",
-            "a window into Chinese wisdom",
-            "look forward to your reply"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Traditional medicine is becoming more popular in many countries. Some people trust traditional treatments more than modern medicine, while others doubt their effectiveness. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "In many countries, clinics offering herbal remedies, acupuncture and other time-honoured treatments now stand beside modern hospitals, and patients increasingly wonder which door to enter. Some trust tradition; others trust only laboratory science. In my view the two approaches are complements rather than rivals, though scientific testing must remain the final judge.\n\nSupporters of traditional medicine offer respectable arguments. Therapies refined over many centuries embody accumulated observation of the human body, and several — acupuncture for pain relief being the best-known example — have earned recognition from mainstream researchers. Traditional practice also tends to treat the patient as a whole person, addressing sleep, diet and stress where a rushed prescription may not, and it is often cheaper and more culturally familiar, which matters greatly in communities where hospitals feel foreign.\n\nSceptics reply that longevity is not proof. Remedies that were never properly tested may be useless or even harmful, and the gravest danger arises when patients abandon proven treatment for serious illness in favour of unverified alternatives. Cancer delayed is cancer advanced; no cultural respect can excuse that cost. Furthermore, an unregulated market invites fraud, with miracle cures sold to the desperate at their most vulnerable moment.\n\nThe reasonable settlement, I believe, is integration under evidence. Traditional therapies should be researched with the same rigour as new drugs: those that pass become part of medicine proper, as several already have, while those that fail should be honestly retired. Patients deserve both the accumulated wisdom of the past and the tested certainty of the present — a mature health system refuses to make them choose blindly between the two.",
-          "wordCount": 268,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点论据具体(传统方:经验积累/整体观/文化可及性;质疑方:未经检验/延误治疗/市场欺诈)，立场'证据之下的整合'是真正的第三条路而非骑墙，并给出可执行标准(与新药同等严格的检验)。",
-              "Coherence & Cohesion(连贯衔接):Supporters / Sceptics reply / The reasonable settlement 对话式推进;'Cancer delayed is cancer advanced'的顶针警句成为质疑段的情感重心;首段'which door to enter'意象与结尾'choose blindly'呼应。",
-              "Lexical Resource(词汇资源):time-honoured treatments / accumulated observation / medicine proper / honestly retired / tested certainty 等表达精准;being the best-known example的独立主格插入自然。",
-              "Grammatical Range & Accuracy(语法多样性):分号对举(Some trust tradition; others...)、where定语从句表条件语境、with复合结构(with miracle cures sold...)、冒号引出处理规则，结构丰富且准确。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写邀请邮件(时间地点+内容+期待);雅思写医学观念双边议论文。",
-              "论据来源:高考邮件织入课文'dates back to the Stone Age'词块介绍针灸;雅思将针灸匿名化为'best-known example'，论据取自循证医学的普适框架。",
-              "语域:邮件私人热情(How is everything going?);雅思冷静权衡，关切通过'at their most vulnerable moment'等措辞传递。",
-              "评分维度:高考重信息完整+邀请得体;雅思CC维度看观点交锋的组织——本文'Sceptics reply'的回应式结构优于平行罗列。"
-            ]
-          },
-          "vocabHints": [
-            "time-honoured treatments",
-            "embody accumulated observation",
-            "treat the patient as a whole person",
-            "culturally familiar",
-            "longevity is not proof",
-            "abandon proven treatment",
-            "integration under evidence",
-            "with the same rigour as"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "别把自己封闭起来",
@@ -235,6 +176,65 @@
             "screen time peaks",
             "take root",
             "consistent enforcement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "针灸与传统医学",
+      "titleEn": "Acupuncture & Traditional Medicine",
+      "desc": "拓展阅读核心：There is evidence that acupuncture dates back to the Stone Age, when stone tools called bian were used to press areas of the body——针灸是中医智慧的活化石。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校下周六将举办中医文化体验日活动。请你用英文给对中国文化感兴趣的外国朋友 Leo 写一封邮件，邀请他参加，内容包括：1. 活动时间地点；2. 活动内容（如针灸展示）；3. 表达期待。注意：词数100左右。",
+          "reference": "Dear Leo,\n\nHow is everything going? Knowing that you have been interested in traditional Chinese culture, I'm writing to invite you to a Traditional Chinese Medicine experience day at our school hall next Saturday, starting at 9 a.m.\n\nThe highlight will be acupuncture. There is evidence that acupuncture dates back to the Stone Age, when stone tools were used to press areas of the body. Today doctors use fine needles instead, and many patients find it helpful for pain relief. During the activity, a doctor from a local TCM hospital will demonstrate how it works, and we can also learn to recognise common Chinese herbs.\n\nI'm sure the day will offer you a window into Chinese wisdom. Looking forward to your reply.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "There is evidence that",
+            "date back to the Stone Age",
+            "press areas of the body",
+            "fine needles",
+            "pain relief",
+            "demonstrate how it works",
+            "a window into Chinese wisdom",
+            "look forward to your reply"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Traditional medicine is becoming more popular in many countries. Some people trust traditional treatments more than modern medicine, while others doubt their effectiveness. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "In many countries, clinics offering herbal remedies, acupuncture and other time-honoured treatments now stand beside modern hospitals, and patients increasingly wonder which door to enter. Some trust tradition; others trust only laboratory science. In my view the two approaches are complements rather than rivals, though scientific testing must remain the final judge.\n\nSupporters of traditional medicine offer respectable arguments. Therapies refined over many centuries embody accumulated observation of the human body, and several — acupuncture for pain relief being the best-known example — have earned recognition from mainstream researchers. Traditional practice also tends to treat the patient as a whole person, addressing sleep, diet and stress where a rushed prescription may not, and it is often cheaper and more culturally familiar, which matters greatly in communities where hospitals feel foreign.\n\nSceptics reply that longevity is not proof. Remedies that were never properly tested may be useless or even harmful, and the gravest danger arises when patients abandon proven treatment for serious illness in favour of unverified alternatives. Cancer delayed is cancer advanced; no cultural respect can excuse that cost. Furthermore, an unregulated market invites fraud, with miracle cures sold to the desperate at their most vulnerable moment.\n\nThe reasonable settlement, I believe, is integration under evidence. Traditional therapies should be researched with the same rigour as new drugs: those that pass become part of medicine proper, as several already have, while those that fail should be honestly retired. Patients deserve both the accumulated wisdom of the past and the tested certainty of the present — a mature health system refuses to make them choose blindly between the two.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点论据具体(传统方:经验积累/整体观/文化可及性;质疑方:未经检验/延误治疗/市场欺诈)，立场'证据之下的整合'是真正的第三条路而非骑墙，并给出可执行标准(与新药同等严格的检验)。",
+              "Coherence & Cohesion(连贯衔接):Supporters / Sceptics reply / The reasonable settlement 对话式推进;'Cancer delayed is cancer advanced'的顶针警句成为质疑段的情感重心;首段'which door to enter'意象与结尾'choose blindly'呼应。",
+              "Lexical Resource(词汇资源):time-honoured treatments / accumulated observation / medicine proper / honestly retired / tested certainty 等表达精准;being the best-known example的独立主格插入自然。",
+              "Grammatical Range & Accuracy(语法多样性):分号对举(Some trust tradition; others...)、where定语从句表条件语境、with复合结构(with miracle cures sold...)、冒号引出处理规则，结构丰富且准确。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写邀请邮件(时间地点+内容+期待);雅思写医学观念双边议论文。",
+              "论据来源:高考邮件织入课文'dates back to the Stone Age'词块介绍针灸;雅思将针灸匿名化为'best-known example'，论据取自循证医学的普适框架。",
+              "语域:邮件私人热情(How is everything going?);雅思冷静权衡，关切通过'at their most vulnerable moment'等措辞传递。",
+              "评分维度:高考重信息完整+邀请得体;雅思CC维度看观点交锋的组织——本文'Sceptics reply'的回应式结构优于平行罗列。"
+            ]
+          },
+          "vocabHints": [
+            "time-honoured treatments",
+            "embody accumulated observation",
+            "treat the patient as a whole person",
+            "culturally familiar",
+            "longevity is not proof",
+            "abandon proven treatment",
+            "integration under evidence",
+            "with the same rigour as"
           ]
         }
       ]

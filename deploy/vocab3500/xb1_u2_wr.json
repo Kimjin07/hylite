@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "无声世界的交响：贝多芬",
-      "titleEn": "Beethoven: Music Against Silence",
-      "desc": "课文传记：almost completely deaf 的贝多芬 never abandoned hope——用铅笔“听”钢琴，让决心 coursing through the music。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英文报以 \"Never Give Up\" 为主题征文。请你以贝多芬的故事为例写一篇短文，内容包括：1. 他遭遇的困境；2. 他如何应对；3. 这个故事给你的启示。注意：词数100左右。",
-          "reference": "Never Give Up\n\nWhen we talk about never giving up, no story moves me more than Beethoven's.\n\nBy the time he was a teenager, he had already enjoyed a reputation as a wonderful young musician. Then came the cruellest blow for any composer: he began to lose his hearing. Yet even in his darkest moments, Beethoven never abandoned hope. When composing at the piano, he would put one end of a pencil in his mouth and place the other end against the instrument, so that he could feel the notes through his teeth.\n\nAt the première of his Ninth Symphony, he was almost completely deaf — yet the music, full of desperate lows and uplifting highs, still shook the world.\n\nFate may take something from everyone; what matters is what we create with what remains.",
-          "vocabHints": [
-            "enjoy a reputation as",
-            "lose one's hearing",
-            "in his darkest moments",
-            "never abandoned hope",
-            "feel the notes",
-            "almost completely deaf",
-            "desperate lows and uplifting highs",
-            "what we create with what remains"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that difficulties and setbacks help people develop stronger characters, while others think they mainly cause harm. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "Whether hardship builds people or breaks them is a question as old as misfortune itself. One tradition celebrates adversity as the forge of character; another warns that suffering mostly wounds. Having weighed both, I believe adversity can strengthen — but only when certain supports are present, which means the second view deserves more respect than proverbs allow it.\n\nThe forging view has famous evidence on its side. History's most moving achievements are disproportionately the work of people who lost something first — composers writing against deafness, athletes rebuilt from injury — and psychology recognises the pattern as real: those who survive difficulty often report sharper priorities, deeper empathy and confidence with a foundation, because it was tested. Struggle also teaches what comfort cannot: resourcefulness is learned only where resources end.\n\nYet the harm view guards an important truth that success stories hide. For every figure who transformed suffering into symphonies, uncounted others were simply worn down — their setbacks brought not wisdom but exhaustion, debt and quiet withdrawal. Adversity's lessons, moreover, are regressive: those with savings, health and supporters can convert a blow into a comeback, while the most vulnerable receive only the blow. To preach that hardship ennobles, without providing help, is comfortable cruelty.\n\nMy conclusion is that adversity is a harsh teacher whose classes only some can afford to attend. It can indeed build strength — the deaf composer proves the ceiling — but the survivors' gallery must not hide the casualties. The right response is neither to seek hardship nor to fear it, but to meet it accompanied: supported people grow where abandoned people break.",
-          "wordCount": 264,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点深度展开(锻造派:历史证据+心理学模式+资源尽头的学习;伤害派:幸存者偏差+逆境课程的累退性),立场'条件论'精确(有支持则强化),结论给出行动姿态('meet it accompanied')——超越励志与悲观的二元。",
-              "Coherence & Cohesion(连贯与衔接):'The forging view has famous evidence on its side'/'Yet the harm view guards an important truth that success stories hide'/'My conclusion is...'——推进有力;'the survivors' gallery must not hide the casualties'完成对幸存者偏差的收束;'supported people grow where abandoned people break'对句结尾。",
-              "Lexical Resource(词汇资源):'the forge of character'、'confidence with a foundation, because it was tested'、'resourcefulness is learned only where resources end'、'comfortable cruelty'、'a harsh teacher whose classes only some can afford to attend'——警句密度极高;贝多芬化为'composers writing against deafness'与'the deaf composer proves the ceiling'的匿名双引。",
-              "Grammatical Range & Accuracy(语法准确性):分词状语('Having weighed both')、插入语('— their setbacks brought not wisdom but... —')、whose 定语从句、neither...nor...but 三段式收尾;复杂句准确。"
-            ],
-            "vsGaokao": [
-              "素材用法:课文贝多芬在高考征文中完整叙事(铅笔听琴/第九交响曲首演);雅思中两度匿名引用并同时用于正反论证——素材的双面性处理。",
-              "体裁:征文是励志叙事+感悟;雅思须给'逆境何时有益'的条件判据并直面幸存者偏差。",
-              "语域:征文以'what we create with what remains'的金句收尾;雅思以社会支持的政策含义收束。",
-              "评分维度:雅思看辩证深度(regressive lessons 的洞察);高考看故事完整、金句点题。"
-            ]
-          },
-          "vocabHints": [
-            "the forge of character",
-            "disproportionately",
-            "sharper priorities",
-            "where resources end",
-            "worn down",
-            "regressive lessons",
-            "comfortable cruelty",
-            "meet it accompanied"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "让音乐流淌",
@@ -235,6 +176,65 @@
             "rehearse reconciliation",
             "open the door, not walk through",
             "crossed both ways"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "无声世界的交响：贝多芬",
+      "titleEn": "Beethoven: Music Against Silence",
+      "desc": "课文传记：almost completely deaf 的贝多芬 never abandoned hope——用铅笔“听”钢琴，让决心 coursing through the music。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报以 \"Never Give Up\" 为主题征文。请你以贝多芬的故事为例写一篇短文，内容包括：1. 他遭遇的困境；2. 他如何应对；3. 这个故事给你的启示。注意：词数100左右。",
+          "reference": "Never Give Up\n\nWhen we talk about never giving up, no story moves me more than Beethoven's.\n\nBy the time he was a teenager, he had already enjoyed a reputation as a wonderful young musician. Then came the cruellest blow for any composer: he began to lose his hearing. Yet even in his darkest moments, Beethoven never abandoned hope. When composing at the piano, he would put one end of a pencil in his mouth and place the other end against the instrument, so that he could feel the notes through his teeth.\n\nAt the première of his Ninth Symphony, he was almost completely deaf — yet the music, full of desperate lows and uplifting highs, still shook the world.\n\nFate may take something from everyone; what matters is what we create with what remains.",
+          "vocabHints": [
+            "enjoy a reputation as",
+            "lose one's hearing",
+            "in his darkest moments",
+            "never abandoned hope",
+            "feel the notes",
+            "almost completely deaf",
+            "desperate lows and uplifting highs",
+            "what we create with what remains"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that difficulties and setbacks help people develop stronger characters, while others think they mainly cause harm. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "Whether hardship builds people or breaks them is a question as old as misfortune itself. One tradition celebrates adversity as the forge of character; another warns that suffering mostly wounds. Having weighed both, I believe adversity can strengthen — but only when certain supports are present, which means the second view deserves more respect than proverbs allow it.\n\nThe forging view has famous evidence on its side. History's most moving achievements are disproportionately the work of people who lost something first — composers writing against deafness, athletes rebuilt from injury — and psychology recognises the pattern as real: those who survive difficulty often report sharper priorities, deeper empathy and confidence with a foundation, because it was tested. Struggle also teaches what comfort cannot: resourcefulness is learned only where resources end.\n\nYet the harm view guards an important truth that success stories hide. For every figure who transformed suffering into symphonies, uncounted others were simply worn down — their setbacks brought not wisdom but exhaustion, debt and quiet withdrawal. Adversity's lessons, moreover, are regressive: those with savings, health and supporters can convert a blow into a comeback, while the most vulnerable receive only the blow. To preach that hardship ennobles, without providing help, is comfortable cruelty.\n\nMy conclusion is that adversity is a harsh teacher whose classes only some can afford to attend. It can indeed build strength — the deaf composer proves the ceiling — but the survivors' gallery must not hide the casualties. The right response is neither to seek hardship nor to fear it, but to meet it accompanied: supported people grow where abandoned people break.",
+          "wordCount": 264,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点深度展开(锻造派:历史证据+心理学模式+资源尽头的学习;伤害派:幸存者偏差+逆境课程的累退性),立场'条件论'精确(有支持则强化),结论给出行动姿态('meet it accompanied')——超越励志与悲观的二元。",
+              "Coherence & Cohesion(连贯与衔接):'The forging view has famous evidence on its side'/'Yet the harm view guards an important truth that success stories hide'/'My conclusion is...'——推进有力;'the survivors' gallery must not hide the casualties'完成对幸存者偏差的收束;'supported people grow where abandoned people break'对句结尾。",
+              "Lexical Resource(词汇资源):'the forge of character'、'confidence with a foundation, because it was tested'、'resourcefulness is learned only where resources end'、'comfortable cruelty'、'a harsh teacher whose classes only some can afford to attend'——警句密度极高;贝多芬化为'composers writing against deafness'与'the deaf composer proves the ceiling'的匿名双引。",
+              "Grammatical Range & Accuracy(语法准确性):分词状语('Having weighed both')、插入语('— their setbacks brought not wisdom but... —')、whose 定语从句、neither...nor...but 三段式收尾;复杂句准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文贝多芬在高考征文中完整叙事(铅笔听琴/第九交响曲首演);雅思中两度匿名引用并同时用于正反论证——素材的双面性处理。",
+              "体裁:征文是励志叙事+感悟;雅思须给'逆境何时有益'的条件判据并直面幸存者偏差。",
+              "语域:征文以'what we create with what remains'的金句收尾;雅思以社会支持的政策含义收束。",
+              "评分维度:雅思看辩证深度(regressive lessons 的洞察);高考看故事完整、金句点题。"
+            ]
+          },
+          "vocabHints": [
+            "the forge of character",
+            "disproportionately",
+            "sharper priorities",
+            "where resources end",
+            "worn down",
+            "regressive lessons",
+            "comfortable cruelty",
+            "meet it accompanied"
           ]
         }
       ]

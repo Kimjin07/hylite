@@ -83,85 +83,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "独处与友谊的平衡",
-      "titleEn": "Solitude & the Value of Friendship",
-      "desc": "课文思辨：我们既需要 quiet periods of reflection 静思独处，也需要友谊 comfort the heart, advise the head——如何平衡？",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英文报正举办以 \"Time Alone, Time Together\" 为主题的征文活动。请你写一篇短文谈谈你对独处与相处的看法，内容包括：1. 独处的价值；2. 友谊的价值；3. 你如何平衡两者。注意：词数100左右。",
-          "reference": "Some of my classmates fear being alone, but I treasure my quiet periods of reflection. When I seek to be alone, I can escape into my own world, sort out my thoughts and work on personal improvement.\n\nYet no one can live on solitude alone. Close friendships comfort the heart, advise the head and help us achieve the goals we set for ourselves. When I share good news with my friends, happiness takes on a greater meaning; when I share a worry, a trouble shared becomes a trouble halved.\n\nMy balance is simple: I keep my mornings for myself and my weekends for my friends. Alone, I recharge; together, we grow — and I would not give up either.",
-          "vocabHints": [
-            "quiet periods of reflection",
-            "seek to be alone",
-            "escape into one's own world",
-            "personal improvement",
-            "comfort the heart, advise the head",
-            "a trouble shared becomes a trouble halved",
-            "take on a greater meaning",
-            "treasure these moments"
-          ]
-        },
-        {
-          "source": "读后续写",
-          "type": "continuation",
-          "typeLabel": "高考读后续写",
-          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
-          "storyContext": "Mia loved her friends dearly, and there was always someone to meet, message or hang out with. Yet lately she felt strangely tired, as if she never had a single moment that belonged only to her. She began to wonder whether needing time alone meant she was a bad friend.",
-          "para1": "Paragraph 1: One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea.",
-          "para2": "Paragraph 2: When Monday came, Mia greeted her friends with a brighter smile than before.",
-          "reference": "One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea. At first she felt guilty, half expecting her phone to fill with disappointed messages. But the quiet afternoon turned out to be exactly what she needed: she read, she rested, she listened to her own thoughts for once. By evening, the tiredness had melted away, replaced by a calm she had not felt in weeks.\n\nWhen Monday came, Mia greeted her friends with a brighter smile than before. She realised that time alone had not made her a worse friend — it had made her a better one, because now she brought real energy and attention to the people she loved. From then on she kept a little space for herself each week, and her friendships, far from suffering, only grew warmer.",
-          "vocabHints": [
-            "loved her friends dearly",
-            "belonged only to her",
-            "felt guilty",
-            "half expecting",
-            "listened to her own thoughts",
-            "the tiredness had melted away",
-            "a calm she had not felt",
-            "a little space for herself"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people prefer to spend most of their free time alone, while others prefer to spend it with friends. Discuss both preferences and explain which you think leads to a happier life. (Write at least 250 words.)",
-          "reference": "How free time is best spent — in one's own company or in that of friends — divides people more sharply than almost any other lifestyle question. Both preferences have committed defenders, and each, I will argue, supplies something the other cannot; the happier life belongs to those who refuse to choose permanently between them.\n\nThe case for solitude is stronger than its quiet reputation suggests. Time alone offers what crowded days rarely allow: unhurried reflection. Freed from the pressure to respond and perform, a person can examine mistakes honestly, plan without interruption and let genuine interests surface. It is no accident that writers, scientists and artists have long guarded their solitary hours; depth of thought demands an empty room.\n\nAdvocates of companionship answer with an equally powerful truth: happiness grows when it is witnessed. Friends multiply joy and divide sorrow; a success celebrated together takes on a greater meaning, while a worry spoken aloud loses half its weight. Beyond comfort, friends supply perspective — they notice our blind spots, challenge our excuses and pull us out of the small circles our own minds draw around us.\n\nMy own conclusion is that the question poses a false choice. Solitude without friendship curdles into loneliness; friendship without solitude leaves a person permanently performing and never reflecting. The happiest people I know move deliberately between the two — withdrawing to understand their lives, returning to share them. Free time, in the end, is not a room to be furnished in one style; it is a rhythm, and the art lies in the alternation.",
-          "wordCount": 262,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双偏好各得一段公允展开,第三问'哪种更幸福'以'拒绝二选一'的辩证立场回应并从引言贯穿到结论——立场有新意且全程一致;每段论点都推演成链(独处→免于表演→深度思考;陪伴→见证→放大快乐+提供视角)。",
-              "Coherence & Cohesion(连贯与衔接):'The case for solitude...'/'Advocates of companionship answer with...'/'My own conclusion is...'推进清晰;'multiply joy and divide sorrow'与'curdles into loneliness / permanently performing'等对句自成衔接;结尾'rhythm/alternation'的比喻收拢全文。",
-              "Lexical Resource(词汇资源):'its quiet reputation'、'let genuine interests surface'、'depth of thought demands an empty room'、'happiness grows when it is witnessed'、'notice our blind spots'、'a room to be furnished in one style'——原创比喻与地道搭配密集且服务论证。",
-              "Grammatical Range & Accuracy(语法准确性):冒号引出核心概念、分号对句('Friends multiply joy and divide sorrow')、分词状语('Freed from the pressure...')、插入语('I will argue')、强调句('It is no accident that...');复杂句准确率极高。"
-            ],
-            "vsGaokao": [
-              "深度对照:高考征文的'平衡'可以是'早晨留给自己、周末留给朋友'的生活化安排;雅思则须把平衡上升为论证过的立场('false choice')并全篇维护。",
-              "论据来源:本文用作家科学家守护独处时光、朋友指出盲点等普适观察;高考征文用个人日常小事——素材层级不同。",
-              "语域:雅思保持学术抽象(curdle/alternation),高考征文可用第一人称叙事和抒情句收尾。",
-              "评分维度:本文'比喻服务论证'是 LR/CC 策略;高考中同样的比喻更多作为文采加分,不承担结构功能。"
-            ]
-          },
-          "vocabHints": [
-            "in one's own company",
-            "unhurried reflection",
-            "let genuine interests surface",
-            "guard one's solitary hours",
-            "multiply joy and divide sorrow",
-            "supply perspective",
-            "blind spots",
-            "the art lies in the alternation"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "科技与友谊",
@@ -315,6 +236,85 @@
             "surrounded yet privately lonely",
             "rank them correctly",
             "the bonds that sustain us"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "独处与友谊的平衡",
+      "titleEn": "Solitude & the Value of Friendship",
+      "desc": "课文思辨：我们既需要 quiet periods of reflection 静思独处，也需要友谊 comfort the heart, advise the head——如何平衡？",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报正举办以 \"Time Alone, Time Together\" 为主题的征文活动。请你写一篇短文谈谈你对独处与相处的看法，内容包括：1. 独处的价值；2. 友谊的价值；3. 你如何平衡两者。注意：词数100左右。",
+          "reference": "Some of my classmates fear being alone, but I treasure my quiet periods of reflection. When I seek to be alone, I can escape into my own world, sort out my thoughts and work on personal improvement.\n\nYet no one can live on solitude alone. Close friendships comfort the heart, advise the head and help us achieve the goals we set for ourselves. When I share good news with my friends, happiness takes on a greater meaning; when I share a worry, a trouble shared becomes a trouble halved.\n\nMy balance is simple: I keep my mornings for myself and my weekends for my friends. Alone, I recharge; together, we grow — and I would not give up either.",
+          "vocabHints": [
+            "quiet periods of reflection",
+            "seek to be alone",
+            "escape into one's own world",
+            "personal improvement",
+            "comfort the heart, advise the head",
+            "a trouble shared becomes a trouble halved",
+            "take on a greater meaning",
+            "treasure these moments"
+          ]
+        },
+        {
+          "source": "读后续写",
+          "type": "continuation",
+          "typeLabel": "高考读后续写",
+          "task": "阅读下面短文，根据所给情节和段落开头语进行续写，使之构成一个完整的故事。续写词数应为150左右。",
+          "storyContext": "Mia loved her friends dearly, and there was always someone to meet, message or hang out with. Yet lately she felt strangely tired, as if she never had a single moment that belonged only to her. She began to wonder whether needing time alone meant she was a bad friend.",
+          "para1": "Paragraph 1: One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea.",
+          "para2": "Paragraph 2: When Monday came, Mia greeted her friends with a brighter smile than before.",
+          "reference": "One Saturday, instead of joining the group, Mia stayed home with a book and a cup of tea. At first she felt guilty, half expecting her phone to fill with disappointed messages. But the quiet afternoon turned out to be exactly what she needed: she read, she rested, she listened to her own thoughts for once. By evening, the tiredness had melted away, replaced by a calm she had not felt in weeks.\n\nWhen Monday came, Mia greeted her friends with a brighter smile than before. She realised that time alone had not made her a worse friend — it had made her a better one, because now she brought real energy and attention to the people she loved. From then on she kept a little space for herself each week, and her friendships, far from suffering, only grew warmer.",
+          "vocabHints": [
+            "loved her friends dearly",
+            "belonged only to her",
+            "felt guilty",
+            "half expecting",
+            "listened to her own thoughts",
+            "the tiredness had melted away",
+            "a calm she had not felt",
+            "a little space for herself"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people prefer to spend most of their free time alone, while others prefer to spend it with friends. Discuss both preferences and explain which you think leads to a happier life. (Write at least 250 words.)",
+          "reference": "How free time is best spent — in one's own company or in that of friends — divides people more sharply than almost any other lifestyle question. Both preferences have committed defenders, and each, I will argue, supplies something the other cannot; the happier life belongs to those who refuse to choose permanently between them.\n\nThe case for solitude is stronger than its quiet reputation suggests. Time alone offers what crowded days rarely allow: unhurried reflection. Freed from the pressure to respond and perform, a person can examine mistakes honestly, plan without interruption and let genuine interests surface. It is no accident that writers, scientists and artists have long guarded their solitary hours; depth of thought demands an empty room.\n\nAdvocates of companionship answer with an equally powerful truth: happiness grows when it is witnessed. Friends multiply joy and divide sorrow; a success celebrated together takes on a greater meaning, while a worry spoken aloud loses half its weight. Beyond comfort, friends supply perspective — they notice our blind spots, challenge our excuses and pull us out of the small circles our own minds draw around us.\n\nMy own conclusion is that the question poses a false choice. Solitude without friendship curdles into loneliness; friendship without solitude leaves a person permanently performing and never reflecting. The happiest people I know move deliberately between the two — withdrawing to understand their lives, returning to share them. Free time, in the end, is not a room to be furnished in one style; it is a rhythm, and the art lies in the alternation.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双偏好各得一段公允展开,第三问'哪种更幸福'以'拒绝二选一'的辩证立场回应并从引言贯穿到结论——立场有新意且全程一致;每段论点都推演成链(独处→免于表演→深度思考;陪伴→见证→放大快乐+提供视角)。",
+              "Coherence & Cohesion(连贯与衔接):'The case for solitude...'/'Advocates of companionship answer with...'/'My own conclusion is...'推进清晰;'multiply joy and divide sorrow'与'curdles into loneliness / permanently performing'等对句自成衔接;结尾'rhythm/alternation'的比喻收拢全文。",
+              "Lexical Resource(词汇资源):'its quiet reputation'、'let genuine interests surface'、'depth of thought demands an empty room'、'happiness grows when it is witnessed'、'notice our blind spots'、'a room to be furnished in one style'——原创比喻与地道搭配密集且服务论证。",
+              "Grammatical Range & Accuracy(语法准确性):冒号引出核心概念、分号对句('Friends multiply joy and divide sorrow')、分词状语('Freed from the pressure...')、插入语('I will argue')、强调句('It is no accident that...');复杂句准确率极高。"
+            ],
+            "vsGaokao": [
+              "深度对照:高考征文的'平衡'可以是'早晨留给自己、周末留给朋友'的生活化安排;雅思则须把平衡上升为论证过的立场('false choice')并全篇维护。",
+              "论据来源:本文用作家科学家守护独处时光、朋友指出盲点等普适观察;高考征文用个人日常小事——素材层级不同。",
+              "语域:雅思保持学术抽象(curdle/alternation),高考征文可用第一人称叙事和抒情句收尾。",
+              "评分维度:本文'比喻服务论证'是 LR/CC 策略;高考中同样的比喻更多作为文采加分,不承担结构功能。"
+            ]
+          },
+          "vocabHints": [
+            "in one's own company",
+            "unhurried reflection",
+            "let genuine interests surface",
+            "guard one's solitary hours",
+            "multiply joy and divide sorrow",
+            "supply perspective",
+            "blind spots",
+            "the art lies in the alternation"
           ]
         }
       ]

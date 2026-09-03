@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "体育融入日常语言",
-      "titleEn": "Sports Idioms in Everyday Language",
-      "desc": "拓展阅读核心：Since sport is an inseparable part of day-to-day life, there are lots of sports idioms that have found their way into everyday language——足球、棒球等运动为英语贡献了大量习语。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英语角将举办'趣味英语'分享会，你准备以体育习语为主题发言。请写一篇发言稿，内容包括：1. 体育习语进入日常语言的现象；2. 举例说明一两个习语的来源和用法；3. 学习建议。注意：词数100左右。",
-          "reference": "Hello, everyone! Welcome to today's English corner. My topic is sports idioms.\n\nSince sport is an inseparable part of day-to-day life, lots of sports idioms have found their way into everyday language. Take football. In a match, players try to kick or head the ball into the opposing team's goal, so English borrows many vivid expressions from the pitch. Baseball gives us another example: a batter is out if he makes three unsuccessful attempts to hit the ball, which is why a failed attempt in life is often called a \"strike\". And if someone's cooking is far better than mine, I simply admit I am not in her league.\n\nIdioms like these make our English vivid and natural. Why not collect a few and try them out this week?",
-          "vocabHints": [
-            "an inseparable part of day-to-day life",
-            "find one's way into everyday language",
-            "kick or head the ball",
-            "the opposing team's goal",
-            "three unsuccessful attempts",
-            "not in one's league",
-            "vivid and natural",
-            "try them out"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that to learn a foreign language well, it is necessary to understand the culture of the countries where it is spoken. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "It is widely claimed that mastering a foreign language demands more than memorising vocabulary and grammar: learners must also understand the culture in which the language lives. I agree almost entirely with this view, since language and culture are woven together at every level of real communication.\n\nThe strongest evidence lies in everyday expressions. Idioms, jokes, politeness formulas and even sporting metaphors carry meanings that no dictionary entry fully explains; a learner who translates them word by word often ends up puzzled or, worse, unintentionally rude. Knowing when to be direct, how to refuse an offer gracefully, or which topics are sensitive at a dinner table is cultural knowledge, yet it determines whether a grammatically perfect sentence succeeds or fails. Business negotiators and exchange students alike discover that fluency without cultural awareness produces misunderstanding faster than silence does.\n\nAdmittedly, the necessary depth of cultural study depends on the learner's purpose. A scientist reading technical papers in English needs terminology far more than table manners, and global English today is spoken mostly between non-native speakers, which dilutes the influence of any single national culture. Nevertheless, even these cases involve culture in a broader sense: the conventions of academic writing differ sharply between countries, and international communication has developed customs of its own that still must be learned.\n\nIn conclusion, while the required dose of cultural understanding varies with one's goals, a language detached from its culture remains a code rather than a means of genuine connection. Learners who explore films, customs and social habits alongside grammar communicate more accurately — and enjoy the journey far more.",
-          "wordCount": 265,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):'几乎完全同意'的量化立场明确;主论段从习语到语用礼仪层层推进，让步段(科学家/全球英语)真实有力后被'broader sense'反收，立场始终一贯。",
-              "Coherence & Cohesion(连贯衔接):The strongest evidence / Admittedly / Nevertheless / In conclusion 骨架清晰;'词典无法解释→逐词翻译闹笑话→语法正确却交际失败'的递进链条完整。",
-              "Lexical Resource(词汇资源):woven together / politeness formulas / dilutes the influence / a code rather than a means of genuine connection 等抽象概念表达精准;faster than silence does的比较结构令人印象深刻。",
-              "Grammatical Range & Accuracy(语法多样性):冒号引出核心命题、yet转折内嵌、which非限定从句、alike后置强调、while让步开启结论段，复杂句自然堆叠无失控。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写英语角分享发言稿(现象+例子+建议);雅思论证'语言学习是否必须懂文化'的普遍命题。",
-              "论据来源:高考发言稿的足球棒球例子严格取自课文;雅思用跨文化交际普适论据(商务谈判、学术写作惯例)，不提课本。",
-              "语域:发言稿口语化互动(Take football. / Why not...);雅思学术书面语，例证以类别而非个案呈现。",
-              "评分维度:高考重趣味性与要点;雅思GRA维度看复杂句准确率——本文嵌套从句密度高而无错误，是band8的语法特征。"
-            ]
-          },
-          "vocabHints": [
-            "woven together",
-            "politeness formulas",
-            "carry meanings no dictionary explains",
-            "end up puzzled",
-            "cultural awareness",
-            "dilute the influence of",
-            "conventions of academic writing",
-            "a means of genuine connection"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "突破极限",
@@ -235,6 +176,65 @@
             "rehearse resilience",
             "a win-at-all-costs mentality",
             "compete honourably"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "体育融入日常语言",
+      "titleEn": "Sports Idioms in Everyday Language",
+      "desc": "拓展阅读核心：Since sport is an inseparable part of day-to-day life, there are lots of sports idioms that have found their way into everyday language——足球、棒球等运动为英语贡献了大量习语。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英语角将举办'趣味英语'分享会，你准备以体育习语为主题发言。请写一篇发言稿，内容包括：1. 体育习语进入日常语言的现象；2. 举例说明一两个习语的来源和用法；3. 学习建议。注意：词数100左右。",
+          "reference": "Hello, everyone! Welcome to today's English corner. My topic is sports idioms.\n\nSince sport is an inseparable part of day-to-day life, lots of sports idioms have found their way into everyday language. Take football. In a match, players try to kick or head the ball into the opposing team's goal, so English borrows many vivid expressions from the pitch. Baseball gives us another example: a batter is out if he makes three unsuccessful attempts to hit the ball, which is why a failed attempt in life is often called a \"strike\". And if someone's cooking is far better than mine, I simply admit I am not in her league.\n\nIdioms like these make our English vivid and natural. Why not collect a few and try them out this week?",
+          "vocabHints": [
+            "an inseparable part of day-to-day life",
+            "find one's way into everyday language",
+            "kick or head the ball",
+            "the opposing team's goal",
+            "three unsuccessful attempts",
+            "not in one's league",
+            "vivid and natural",
+            "try them out"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that to learn a foreign language well, it is necessary to understand the culture of the countries where it is spoken. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is widely claimed that mastering a foreign language demands more than memorising vocabulary and grammar: learners must also understand the culture in which the language lives. I agree almost entirely with this view, since language and culture are woven together at every level of real communication.\n\nThe strongest evidence lies in everyday expressions. Idioms, jokes, politeness formulas and even sporting metaphors carry meanings that no dictionary entry fully explains; a learner who translates them word by word often ends up puzzled or, worse, unintentionally rude. Knowing when to be direct, how to refuse an offer gracefully, or which topics are sensitive at a dinner table is cultural knowledge, yet it determines whether a grammatically perfect sentence succeeds or fails. Business negotiators and exchange students alike discover that fluency without cultural awareness produces misunderstanding faster than silence does.\n\nAdmittedly, the necessary depth of cultural study depends on the learner's purpose. A scientist reading technical papers in English needs terminology far more than table manners, and global English today is spoken mostly between non-native speakers, which dilutes the influence of any single national culture. Nevertheless, even these cases involve culture in a broader sense: the conventions of academic writing differ sharply between countries, and international communication has developed customs of its own that still must be learned.\n\nIn conclusion, while the required dose of cultural understanding varies with one's goals, a language detached from its culture remains a code rather than a means of genuine connection. Learners who explore films, customs and social habits alongside grammar communicate more accurately — and enjoy the journey far more.",
+          "wordCount": 265,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):'几乎完全同意'的量化立场明确;主论段从习语到语用礼仪层层推进，让步段(科学家/全球英语)真实有力后被'broader sense'反收，立场始终一贯。",
+              "Coherence & Cohesion(连贯衔接):The strongest evidence / Admittedly / Nevertheless / In conclusion 骨架清晰;'词典无法解释→逐词翻译闹笑话→语法正确却交际失败'的递进链条完整。",
+              "Lexical Resource(词汇资源):woven together / politeness formulas / dilutes the influence / a code rather than a means of genuine connection 等抽象概念表达精准;faster than silence does的比较结构令人印象深刻。",
+              "Grammatical Range & Accuracy(语法多样性):冒号引出核心命题、yet转折内嵌、which非限定从句、alike后置强调、while让步开启结论段，复杂句自然堆叠无失控。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写英语角分享发言稿(现象+例子+建议);雅思论证'语言学习是否必须懂文化'的普遍命题。",
+              "论据来源:高考发言稿的足球棒球例子严格取自课文;雅思用跨文化交际普适论据(商务谈判、学术写作惯例)，不提课本。",
+              "语域:发言稿口语化互动(Take football. / Why not...);雅思学术书面语，例证以类别而非个案呈现。",
+              "评分维度:高考重趣味性与要点;雅思GRA维度看复杂句准确率——本文嵌套从句密度高而无错误，是band8的语法特征。"
+            ]
+          },
+          "vocabHints": [
+            "woven together",
+            "politeness formulas",
+            "carry meanings no dictionary explains",
+            "end up puzzled",
+            "cultural awareness",
+            "dilute the influence of",
+            "conventions of academic writing",
+            "a means of genuine connection"
           ]
         }
       ]

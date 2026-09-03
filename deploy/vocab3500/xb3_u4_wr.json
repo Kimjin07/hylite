@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "身边的活遗产",
-      "titleEn": "Living Heritage Around Us",
-      "desc": "拓展板块核心词块：be awed by、preserve endangered traditions、heritage protection is at the top of the agenda——遗产不只在远方的神庙，也在校园后街的石桥与手艺里。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "请你为校园广播站写一篇英文广播稿，号召同学们关注和保护身边的文化遗产，内容包括：1. 引出话题；2. 说明保护身边遗产的意义；3. 提出行动建议。注意：词数100左右。",
-          "reference": "Dear schoolmates,\n\nHave you noticed the old stone bridge behind our campus, or the tea house where craftsmen still work by hand? These are not just old things; they are living heritage, and some of them are in urgent need of protection.\n\nHeritage is not only about grand temples far away. A local opera, a paper-cutting skill, a hundred-year-old gate — once gone, they can never truly return. That is why heritage protection should be at the top of our agenda, too.\n\nSo this weekend, why not visit a heritage site nearby, listen to its story, and share it online? The more we stand in awe of their splendour, the harder we will work to preserve them.\n\nThank you for listening!",
-          "vocabHints": [
-            "living heritage",
-            "in urgent need of protection",
-            "once gone, they can never truly return",
-            "at the top of the agenda",
-            "visit a heritage site nearby",
-            "stand in awe of",
-            "splendour",
-            "preserve"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Traditional skills and ways of life are dying out in many places. Some people say it is pointless to try to keep them alive. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "As factories and software replace handwork, some conclude that traditional skills and ways of life die for a reason, and that trying to preserve them is sentimental waste. I strongly disagree: while no society can freeze its past, keeping traditional skills alive is both feasible and valuable.\n\nThe pessimists' logic is straightforward. Crafts lost their markets because machines make goods faster and cheaper; villages empty because cities pay better. If people themselves choose modern lives, propping up old trades with subsidies appears to fight the verdict of both economics and freedom.\n\nThis argument, however, mistakes replacement for worthlessness. First, traditional skills embody accumulated knowledge — of materials, climate, medicine and design — that industrial methods often rediscover expensively later; drought-resistant farming techniques and earthquake-tolerant joinery are practical, not quaint. Second, heritage is identity: crafts, dialects, festivals and cuisines tell communities who they are, and their loss leaves a rootlessness no imported product can fill. Third, the market itself has changed sides: tourists, collectors and consumers increasingly pay a premium for handmade authenticity, so a craft revived is often a livelihood created — as pottery towns and weaving villages on several continents now demonstrate. Preservation, moreover, need not mean museum-freezing; the liveliest traditions survive precisely by adapting, selling online and marrying old technique to new design.\n\nIn conclusion, letting every inherited skill vanish would discard knowledge, identity and income together. The goal is not to trap people in the past but to keep its tools and stories available — a heritage kept alive is a resource, not a burden.",
-          "wordCount": 258,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):对'pointless'的强判断给出'强烈不同意+现实限定(不冻结过去)';先把对方经济逻辑说到最强(市场判决+个人自由)再三路反驳(实用知识/身份认同/市场反转)，每路有具体例证。",
-              "Coherence & Cohesion(连贯衔接):pessimists' logic / however / First / Second / Third / In conclusion 编号推进;'mistakes replacement for worthlessness'一句完成核心概念区分;结尾resource/burden对比呼应题干pointless。",
-              "Lexical Resource(词汇资源):sentimental waste / prop up old trades / practical, not quaint / rootlessness / pay a premium for handmade authenticity / museum-freezing 造词精准表现力强。",
-              "Grammatical Range & Accuracy(语法多样性):while让步开题、破折号知识领域插入列举、so结果从句、marrying分词收尾隐喻，句法与词汇互相配合。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写校园广播稿(口语化号召);雅思写文化价值判断议论文。",
-              "论据来源:高考广播稿织入课件'in urgent need of protection / at the top of the agenda / in awe'词块;雅思用文化经济学普适论据(手工溢价、旱作技术)。",
-              "语域:广播稿有设问互动(Have you noticed...?);雅思书面论证，修辞在概念区分。",
-              "评分维度:高考重号召亲切+建议可行;雅思TR对strong claim题奖励'强立场+精确限定'——disagree但承认'不冻结过去'即是限定。"
-            ]
-          },
-          "vocabHints": [
-            "die for a reason",
-            "prop up old trades",
-            "mistake replacement for worthlessness",
-            "accumulated knowledge",
-            "practical, not quaint",
-            "rootlessness",
-            "pay a premium for authenticity",
-            "museum-freezing"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "分歧中的合作",
@@ -235,6 +176,65 @@
             "timed tickets and daily caps",
             "faithful replicas",
             "revenue reinvested in monitoring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "身边的活遗产",
+      "titleEn": "Living Heritage Around Us",
+      "desc": "拓展板块核心词块：be awed by、preserve endangered traditions、heritage protection is at the top of the agenda——遗产不只在远方的神庙，也在校园后街的石桥与手艺里。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "请你为校园广播站写一篇英文广播稿，号召同学们关注和保护身边的文化遗产，内容包括：1. 引出话题；2. 说明保护身边遗产的意义；3. 提出行动建议。注意：词数100左右。",
+          "reference": "Dear schoolmates,\n\nHave you noticed the old stone bridge behind our campus, or the tea house where craftsmen still work by hand? These are not just old things; they are living heritage, and some of them are in urgent need of protection.\n\nHeritage is not only about grand temples far away. A local opera, a paper-cutting skill, a hundred-year-old gate — once gone, they can never truly return. That is why heritage protection should be at the top of our agenda, too.\n\nSo this weekend, why not visit a heritage site nearby, listen to its story, and share it online? The more we stand in awe of their splendour, the harder we will work to preserve them.\n\nThank you for listening!",
+          "vocabHints": [
+            "living heritage",
+            "in urgent need of protection",
+            "once gone, they can never truly return",
+            "at the top of the agenda",
+            "visit a heritage site nearby",
+            "stand in awe of",
+            "splendour",
+            "preserve"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Traditional skills and ways of life are dying out in many places. Some people say it is pointless to try to keep them alive. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "As factories and software replace handwork, some conclude that traditional skills and ways of life die for a reason, and that trying to preserve them is sentimental waste. I strongly disagree: while no society can freeze its past, keeping traditional skills alive is both feasible and valuable.\n\nThe pessimists' logic is straightforward. Crafts lost their markets because machines make goods faster and cheaper; villages empty because cities pay better. If people themselves choose modern lives, propping up old trades with subsidies appears to fight the verdict of both economics and freedom.\n\nThis argument, however, mistakes replacement for worthlessness. First, traditional skills embody accumulated knowledge — of materials, climate, medicine and design — that industrial methods often rediscover expensively later; drought-resistant farming techniques and earthquake-tolerant joinery are practical, not quaint. Second, heritage is identity: crafts, dialects, festivals and cuisines tell communities who they are, and their loss leaves a rootlessness no imported product can fill. Third, the market itself has changed sides: tourists, collectors and consumers increasingly pay a premium for handmade authenticity, so a craft revived is often a livelihood created — as pottery towns and weaving villages on several continents now demonstrate. Preservation, moreover, need not mean museum-freezing; the liveliest traditions survive precisely by adapting, selling online and marrying old technique to new design.\n\nIn conclusion, letting every inherited skill vanish would discard knowledge, identity and income together. The goal is not to trap people in the past but to keep its tools and stories available — a heritage kept alive is a resource, not a burden.",
+          "wordCount": 258,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'pointless'的强判断给出'强烈不同意+现实限定(不冻结过去)';先把对方经济逻辑说到最强(市场判决+个人自由)再三路反驳(实用知识/身份认同/市场反转)，每路有具体例证。",
+              "Coherence & Cohesion(连贯衔接):pessimists' logic / however / First / Second / Third / In conclusion 编号推进;'mistakes replacement for worthlessness'一句完成核心概念区分;结尾resource/burden对比呼应题干pointless。",
+              "Lexical Resource(词汇资源):sentimental waste / prop up old trades / practical, not quaint / rootlessness / pay a premium for handmade authenticity / museum-freezing 造词精准表现力强。",
+              "Grammatical Range & Accuracy(语法多样性):while让步开题、破折号知识领域插入列举、so结果从句、marrying分词收尾隐喻，句法与词汇互相配合。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写校园广播稿(口语化号召);雅思写文化价值判断议论文。",
+              "论据来源:高考广播稿织入课件'in urgent need of protection / at the top of the agenda / in awe'词块;雅思用文化经济学普适论据(手工溢价、旱作技术)。",
+              "语域:广播稿有设问互动(Have you noticed...?);雅思书面论证，修辞在概念区分。",
+              "评分维度:高考重号召亲切+建议可行;雅思TR对strong claim题奖励'强立场+精确限定'——disagree但承认'不冻结过去'即是限定。"
+            ]
+          },
+          "vocabHints": [
+            "die for a reason",
+            "prop up old trades",
+            "mistake replacement for worthlessness",
+            "accumulated knowledge",
+            "practical, not quaint",
+            "rootlessness",
+            "pay a premium for authenticity",
+            "museum-freezing"
           ]
         }
       ]

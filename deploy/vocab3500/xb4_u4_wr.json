@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "毕业·落幕与启程",
-      "titleEn": "Graduation: A Curtain and a Door",
-      "desc": "拓展阅读核心：毕业典礼 brought down the curtain on my school life——但落幕也是启程，你将带着更成熟的自己，去 carve out a career，去找到 where you fit in。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "临近高中毕业，请你以 \"Goodbye and Hello\" 为题写一篇英文短文投稿校刊，记录你毕业时的心情，内容包括：1. 回望三年；2. 展望未来。注意：词数100左右。",
-          "reference": "The graduation ceremony brought down the curtain on my three years of high school, and my thoughts flashed back to the nervous student I once was.\n\nSo much has changed. I have grown more mature, learned where I fit in, and discovered what brings out the best in me. Saying goodbye to this campus and these friends is not easy; my throat felt tight as the final bell rang.\n\nYet every ending is also a beginning. Ahead of us lie new schools, new cities and one day careers we will carve out for ourselves. I am a little afraid, but mostly excited. Goodbye, my golden years — and hello, whatever comes next. I am ready.",
-          "vocabHints": [
-            "brought down the curtain on",
-            "my thoughts flashed back to",
-            "grown more mature",
-            "learned where I fit in",
-            "brings out the best in me",
-            "my throat felt tight",
-            "carve out for ourselves",
-            "every ending is also a beginning"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people say that the years spent at school and university are the best years of a person's life. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "It is often said that school and university days are the happiest of our lives. I only partly agree: these years hold genuine and irreplaceable joys, but calling them the 'best' overlooks both their hidden pressures and the richer satisfactions that adult life can bring.\n\nThere is clearly truth in the claim. Student years combine relative freedom with few heavy responsibilities: young people are supported by their families, surrounded by friends their own age, and free to explore ideas and interests with time that adults rarely have again. Lifelong friendships are formed, first experiences are treasured, and the campus offers a protected space in which to grow and make mistakes cheaply. For many, these memories glow warmly for the rest of their lives.\n\nYet the picture is not wholly rosy. Student life also carries real stress — the fear of failure, examinations, uncertainty about the future and the ordinary pains of growing up — which nostalgia conveniently erases. Moreover, adult life brings its own deep rewards that school cannot: meaningful work, romantic love, raising a family, independence and the confidence that comes from mastering life. Many people are far happier and more settled at forty than they ever were at eighteen.\n\nIn my view, therefore, the school years are special but not automatically the best. They are one precious chapter, not the whole story, and to insist they are the peak is to undervalue everything that follows.\n\nIn conclusion, while student days offer joys worth cherishing, whether they are truly the best years depends on the person — and for many, the finest years still lie ahead.",
-          "wordCount": 267,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):对'求学岁月最美好'给出'部分同意';承认自由与友谊之乐，但揭示隐藏压力并抬出成年生活的深层回报，立场'一个珍贵篇章而非全部'清晰。",
-              "Coherence & Cohesion(连贯衔接):There is clearly truth / Yet / In my view / In conclusion 推进清晰;'nostalgia conveniently erases'点破美化;'one chapter, not the whole story'收束。",
-              "Lexical Resource(词汇资源):relative freedom / make mistakes cheaply / glow warmly / not wholly rosy / undervalue everything that follows 表达精准。",
-              "Grammatical Range & Accuracy(语法多样性):破折号插入压力列举、which非限定从句、not...but、whether...depends句式，句式多样。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写毕业心情短文(回望+展望);雅思写'求学岁月最美好'命题议论文。",
-              "论据来源:高考短文织入课件'brought down the curtain / flashed back / mature / fit in / bring out the best'词块;雅思用人生阶段的普适论据。",
-              "语域:短文抒情(Goodbye my golden years);雅思学术权衡，'一个篇章'立场显思辨。",
-              "评分维度:高考重情真+结构;雅思TR对agree题看程度——'部分同意+因人而异'是精确表态。"
-            ]
-          },
-          "vocabHints": [
-            "the happiest of our lives",
-            "relative freedom",
-            "make mistakes cheaply",
-            "glow warmly",
-            "not wholly rosy",
-            "nostalgia conveniently erases",
-            "one precious chapter",
-            "the finest years still lie ahead"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "规划未来与终身学习",
@@ -235,6 +176,65 @@
             "adapt to different formats",
             "a flexibility that serves them for life",
             "move toward each other"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "毕业·落幕与启程",
+      "titleEn": "Graduation: A Curtain and a Door",
+      "desc": "拓展阅读核心：毕业典礼 brought down the curtain on my school life——但落幕也是启程，你将带着更成熟的自己，去 carve out a career，去找到 where you fit in。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "临近高中毕业，请你以 \"Goodbye and Hello\" 为题写一篇英文短文投稿校刊，记录你毕业时的心情，内容包括：1. 回望三年；2. 展望未来。注意：词数100左右。",
+          "reference": "The graduation ceremony brought down the curtain on my three years of high school, and my thoughts flashed back to the nervous student I once was.\n\nSo much has changed. I have grown more mature, learned where I fit in, and discovered what brings out the best in me. Saying goodbye to this campus and these friends is not easy; my throat felt tight as the final bell rang.\n\nYet every ending is also a beginning. Ahead of us lie new schools, new cities and one day careers we will carve out for ourselves. I am a little afraid, but mostly excited. Goodbye, my golden years — and hello, whatever comes next. I am ready.",
+          "vocabHints": [
+            "brought down the curtain on",
+            "my thoughts flashed back to",
+            "grown more mature",
+            "learned where I fit in",
+            "brings out the best in me",
+            "my throat felt tight",
+            "carve out for ourselves",
+            "every ending is also a beginning"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people say that the years spent at school and university are the best years of a person's life. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is often said that school and university days are the happiest of our lives. I only partly agree: these years hold genuine and irreplaceable joys, but calling them the 'best' overlooks both their hidden pressures and the richer satisfactions that adult life can bring.\n\nThere is clearly truth in the claim. Student years combine relative freedom with few heavy responsibilities: young people are supported by their families, surrounded by friends their own age, and free to explore ideas and interests with time that adults rarely have again. Lifelong friendships are formed, first experiences are treasured, and the campus offers a protected space in which to grow and make mistakes cheaply. For many, these memories glow warmly for the rest of their lives.\n\nYet the picture is not wholly rosy. Student life also carries real stress — the fear of failure, examinations, uncertainty about the future and the ordinary pains of growing up — which nostalgia conveniently erases. Moreover, adult life brings its own deep rewards that school cannot: meaningful work, romantic love, raising a family, independence and the confidence that comes from mastering life. Many people are far happier and more settled at forty than they ever were at eighteen.\n\nIn my view, therefore, the school years are special but not automatically the best. They are one precious chapter, not the whole story, and to insist they are the peak is to undervalue everything that follows.\n\nIn conclusion, while student days offer joys worth cherishing, whether they are truly the best years depends on the person — and for many, the finest years still lie ahead.",
+          "wordCount": 267,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'求学岁月最美好'给出'部分同意';承认自由与友谊之乐，但揭示隐藏压力并抬出成年生活的深层回报，立场'一个珍贵篇章而非全部'清晰。",
+              "Coherence & Cohesion(连贯衔接):There is clearly truth / Yet / In my view / In conclusion 推进清晰;'nostalgia conveniently erases'点破美化;'one chapter, not the whole story'收束。",
+              "Lexical Resource(词汇资源):relative freedom / make mistakes cheaply / glow warmly / not wholly rosy / undervalue everything that follows 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入压力列举、which非限定从句、not...but、whether...depends句式，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写毕业心情短文(回望+展望);雅思写'求学岁月最美好'命题议论文。",
+              "论据来源:高考短文织入课件'brought down the curtain / flashed back / mature / fit in / bring out the best'词块;雅思用人生阶段的普适论据。",
+              "语域:短文抒情(Goodbye my golden years);雅思学术权衡，'一个篇章'立场显思辨。",
+              "评分维度:高考重情真+结构;雅思TR对agree题看程度——'部分同意+因人而异'是精确表态。"
+            ]
+          },
+          "vocabHints": [
+            "the happiest of our lives",
+            "relative freedom",
+            "make mistakes cheaply",
+            "glow warmly",
+            "not wholly rosy",
+            "nostalgia conveniently erases",
+            "one precious chapter",
+            "the finest years still lie ahead"
           ]
         }
       ]

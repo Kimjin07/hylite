@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "诗仙李白",
-      "titleEn": "Li Bai, the Poet Immortal",
-      "desc": "课文评传：dare not speak in a voice loud 的惊人想象——free expression of strong feelings breathes vitality into his poetry。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你的英国笔友 Oliver 正在学中文诗歌，来信请你介绍一位中国诗人。请你写一封回信介绍李白，内容包括：1. 诗人简介；2. 他的诗风特点（可举诗句）；3. 推荐一首入门作品。注意：词数100左右。",
-          "reference": "Dear Oliver,\n\nHow wonderful that you're learning Chinese poetry! Let me introduce Li Bai, the poet every Chinese child can recite.\n\nLiving in the Tang Dynasty, Li Bai travelled famous mountains and great rivers all his life, encountering different customs and writing over a thousand poems. What makes him special is his striking imagination and free expression of strong feelings, which breathes vitality into everything he describes. In one early poem, standing in a mountain temple at night, he wrote: \"I dare not speak in a voice loud, for fear of scaring dwellers on high\" — as if the stars were just above his head!\n\nFor a start, try Quiet Night Thoughts, four simple lines about moonlight and homesickness. Short as it is, it has comforted Chinese hearts for 1,200 years.\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "recite",
-            "travel famous mountains and great rivers",
-            "encounter different customs",
-            "striking imagination",
-            "free expression of strong feelings",
-            "breathe vitality into",
-            "dare not speak in a voice loud",
-            "comfort hearts"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that schools should spend more time teaching the classical literature of their own country, while others think this time would be better spent on modern practical skills. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "How many classroom hours a nation owes its old poets is a genuine dilemma for modern curricula. Practical-minded reformers would trade classical literature for coding and communication; traditionalists call that trade a quiet self-erasure. My own view is that classical literature is itself a practical subject, wrongly accused — though it must be taught as a living thing, not a museum duty.\n\nThe reformers' case is sincere. Employers do not interview candidates on ancient verse; hours are scarce, and a syllabus is a budget. If education's first duty is to equip the young for work, then spreadsheets, statistics and second languages have obvious claims, and the centuries-old poem looks like an heirloom lovingly kept while the house needs repairs.\n\nYet the opposition mistakes what classical literature actually trains. A student who works through an old poem is decoding compressed language, weighing ambiguity and reconstructing a distant mind — precisely the interpretive muscles that contracts, negotiations and cross-cultural work demand. Classics are also a nation's shared memory: they supply the images and phrases through which citizens recognise one another, and a generation cut off from them becomes a guest in its own culture. Nor is the past impractical: a poet who turned exile into imperishable lines teaches resilience more memorably than any workshop.\n\nMy conclusion is that the choice is misdrawn. Teach the classics, but teach them as their authors wrote them — as living speech about love, loss and mountains — and they will quietly deliver the very skills the reformers demand: close reading, deep memory and a self that knows where it stands.",
-          "wordCount": 262,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点公允(改革派:课时预算与就业问责;传统派:解读肌肉+共享记忆+韧性教育),立场'古典文学本身就是实用学科'反转对立框架,结论给出教学方式条件('as living speech')——讨论落到怎么教。",
-              "Coherence & Cohesion(连贯与衔接):'The reformers' case is sincere'/'Yet the opposition mistakes what classical literature actually trains'/'My conclusion is that the choice is misdrawn'——推进有力;'an heirloom lovingly kept while the house needs repairs'与'a guest in its own culture'两个比喻分别锚定两段;'living speech'收尾呼应'living thing'。",
-              "Lexical Resource(词汇资源):'a quiet self-erasure'、'a syllabus is a budget'、'interpretive muscles'、'a nation's shared memory'、'turned exile into imperishable lines'(李白匿名化用)、'a self that knows where it stands'——概念警句密集。",
-              "Grammatical Range & Accuracy(语法准确性):条件从句('If education's first duty is...')、破折号插入定义、nor 倒装('Nor is the past impractical')、祈使式结论;句式多样准确。"
-            ],
-            "vsGaokao": [
-              "素材用法:李白在回信中点名介绍并引诗句英译;雅思中化为'a poet who turned exile into imperishable lines'——诗人的两种出场方式。",
-              "体裁:回信是诗人导览(生平+诗风+入门作);雅思是课程政策辩论。",
-              "语域:回信有'as if the stars were just above his head!'的惊叹;雅思以'knows where it stands'的静句收束。",
-              "评分维度:雅思看框架反转('classics are practical')的论证力;高考看信息准确、诗句点睛、推荐贴心。"
-            ]
-          },
-          "vocabHints": [
-            "owe its old poets",
-            "a quiet self-erasure",
-            "a syllabus is a budget",
-            "interpretive muscles",
-            "shared memory",
-            "a guest in its own culture",
-            "imperishable lines",
-            "living speech"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "为诗歌发声",
@@ -235,6 +176,65 @@
             "walked without ownership",
             "light the crossroads",
             "borrowed conviction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "诗仙李白",
+      "titleEn": "Li Bai, the Poet Immortal",
+      "desc": "课文评传：dare not speak in a voice loud 的惊人想象——free expression of strong feelings breathes vitality into his poetry。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的英国笔友 Oliver 正在学中文诗歌，来信请你介绍一位中国诗人。请你写一封回信介绍李白，内容包括：1. 诗人简介；2. 他的诗风特点（可举诗句）；3. 推荐一首入门作品。注意：词数100左右。",
+          "reference": "Dear Oliver,\n\nHow wonderful that you're learning Chinese poetry! Let me introduce Li Bai, the poet every Chinese child can recite.\n\nLiving in the Tang Dynasty, Li Bai travelled famous mountains and great rivers all his life, encountering different customs and writing over a thousand poems. What makes him special is his striking imagination and free expression of strong feelings, which breathes vitality into everything he describes. In one early poem, standing in a mountain temple at night, he wrote: \"I dare not speak in a voice loud, for fear of scaring dwellers on high\" — as if the stars were just above his head!\n\nFor a start, try Quiet Night Thoughts, four simple lines about moonlight and homesickness. Short as it is, it has comforted Chinese hearts for 1,200 years.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "recite",
+            "travel famous mountains and great rivers",
+            "encounter different customs",
+            "striking imagination",
+            "free expression of strong feelings",
+            "breathe vitality into",
+            "dare not speak in a voice loud",
+            "comfort hearts"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that schools should spend more time teaching the classical literature of their own country, while others think this time would be better spent on modern practical skills. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "How many classroom hours a nation owes its old poets is a genuine dilemma for modern curricula. Practical-minded reformers would trade classical literature for coding and communication; traditionalists call that trade a quiet self-erasure. My own view is that classical literature is itself a practical subject, wrongly accused — though it must be taught as a living thing, not a museum duty.\n\nThe reformers' case is sincere. Employers do not interview candidates on ancient verse; hours are scarce, and a syllabus is a budget. If education's first duty is to equip the young for work, then spreadsheets, statistics and second languages have obvious claims, and the centuries-old poem looks like an heirloom lovingly kept while the house needs repairs.\n\nYet the opposition mistakes what classical literature actually trains. A student who works through an old poem is decoding compressed language, weighing ambiguity and reconstructing a distant mind — precisely the interpretive muscles that contracts, negotiations and cross-cultural work demand. Classics are also a nation's shared memory: they supply the images and phrases through which citizens recognise one another, and a generation cut off from them becomes a guest in its own culture. Nor is the past impractical: a poet who turned exile into imperishable lines teaches resilience more memorably than any workshop.\n\nMy conclusion is that the choice is misdrawn. Teach the classics, but teach them as their authors wrote them — as living speech about love, loss and mountains — and they will quietly deliver the very skills the reformers demand: close reading, deep memory and a self that knows where it stands.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点公允(改革派:课时预算与就业问责;传统派:解读肌肉+共享记忆+韧性教育),立场'古典文学本身就是实用学科'反转对立框架,结论给出教学方式条件('as living speech')——讨论落到怎么教。",
+              "Coherence & Cohesion(连贯与衔接):'The reformers' case is sincere'/'Yet the opposition mistakes what classical literature actually trains'/'My conclusion is that the choice is misdrawn'——推进有力;'an heirloom lovingly kept while the house needs repairs'与'a guest in its own culture'两个比喻分别锚定两段;'living speech'收尾呼应'living thing'。",
+              "Lexical Resource(词汇资源):'a quiet self-erasure'、'a syllabus is a budget'、'interpretive muscles'、'a nation's shared memory'、'turned exile into imperishable lines'(李白匿名化用)、'a self that knows where it stands'——概念警句密集。",
+              "Grammatical Range & Accuracy(语法准确性):条件从句('If education's first duty is...')、破折号插入定义、nor 倒装('Nor is the past impractical')、祈使式结论;句式多样准确。"
+            ],
+            "vsGaokao": [
+              "素材用法:李白在回信中点名介绍并引诗句英译;雅思中化为'a poet who turned exile into imperishable lines'——诗人的两种出场方式。",
+              "体裁:回信是诗人导览(生平+诗风+入门作);雅思是课程政策辩论。",
+              "语域:回信有'as if the stars were just above his head!'的惊叹;雅思以'knows where it stands'的静句收束。",
+              "评分维度:雅思看框架反转('classics are practical')的论证力;高考看信息准确、诗句点睛、推荐贴心。"
+            ]
+          },
+          "vocabHints": [
+            "owe its old poets",
+            "a quiet self-erasure",
+            "a syllabus is a budget",
+            "interpretive muscles",
+            "shared memory",
+            "a guest in its own culture",
+            "imperishable lines",
+            "living speech"
           ]
         }
       ]

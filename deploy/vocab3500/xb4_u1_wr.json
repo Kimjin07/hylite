@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "毕业致辞·责任的分量",
-      "titleEn": "A Graduation Speech on Responsibility",
-      "desc": "拓展阅读核心：It is my pleasure and privilege to welcome you here today——校长的毕业致辞把责任比作船锚：a ship without an anchor is at the mercy of the waves; likewise, a person who has no sense of responsibility……",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你作为毕业生代表将在高中毕业典礼上用英文发言，主题为'责任'。请写一篇发言稿，内容包括：1. 回顾成长；2. 谈谈责任的意义；3. 对同学们的寄语。注意：词数100左右。",
-          "reference": "Honoured teachers and fellow students, it is my privilege to speak on this special occasion.\n\nThree years ago we arrived as nervous Senior 1 students; today we sit here as confident young adults, ready to walk out into the world. If there is one thing our school has taught us, it is a sense of responsibility. A ship without an anchor is at the mercy of the waves and winds; likewise, a person with no sense of responsibility drifts through life. Responsibility to our families, our society and our own promises is what gives our journey direction.\n\nSo as we say goodbye, let us carry this anchor with us. Wherever we go, may we be people the world can count on. Thank you!",
-          "vocabHints": [
-            "it is my privilege",
-            "on this special occasion",
-            "nervous Senior 1 students",
-            "confident young adults",
-            "a sense of responsibility",
-            "a ship without an anchor",
-            "at the mercy of the waves and winds",
-            "people the world can count on"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that young people today have a weaker sense of responsibility than previous generations. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "It is a familiar complaint that today's young people care less about duty than their parents and grandparents did. I disagree with this claim: young people's sense of responsibility has not weakened but changed shape, and in some ways it has grown.\n\nThose who criticise the young usually point to surface habits — dependence on phones, later independence from parents, or a reluctance to take traditional jobs. Yet these reflect a transformed world rather than lost character. Young people stay in education longer and leave home later largely because the economy demands it, not because they refuse to grow up. What looks like irresponsibility is often simply a different path to adulthood.\n\nIn fact, on many measures the young show responsibility their elders rarely did. They volunteer in large numbers, lead campaigns on climate change and social justice, and hold institutions to account through the very technology critics blame. A generation that organises to protect the planet its parents damaged can hardly be called indifferent to duty. Their sense of responsibility simply extends beyond the household to global concerns.\n\nIt would be naive to pretend every young person is diligent; every generation contains the lazy and the selfish. But the same was true in the past, which nostalgia conveniently forgets.\n\nIn conclusion, I do not accept that young people are less responsible than before. Their duties look different — shaped by new pressures and new causes — but the underlying willingness to care for others and to act rightly remains as strong as ever, and is perhaps directed at a wider world than earlier generations imagined.",
-          "wordCount": 266,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):对'年轻人责任感更弱'明确反对，提出'形态改变而非弱化甚至增强';拆解表面现象(依赖手机/晚独立)为世界变迁，正面举证(志愿/环保/问责)，并加'每代都有懒惰者'的公允让步。",
-              "Coherence & Cohesion(连贯衔接):Those who criticise / In fact / It would be naive / In conclusion 推进清晰;'a different path to adulthood'完成归因转移;'duties look different'收束呼应。",
-              "Lexical Resource(词汇资源):care less about duty / a transformed world / hold institutions to account / nostalgia conveniently forgets 表达精准。",
-              "Grammatical Range & Accuracy(语法多样性):破折号插入(shaped by new pressures)、which非限定从句、not A but B、分词状语，句式多样。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写毕业发言稿(回顾+意义+寄语);雅思论证'年轻人责任感是否变弱'的社会命题。",
-              "论据来源:高考发言织入课件'privilege / a sense of responsibility / a ship without an anchor'词块;雅思用代际社会学的普适论据(志愿、环保运动)。",
-              "语域:发言稿有称呼与寄语(may we be...);雅思客观论证，让步显公允。",
-              "评分维度:高考重感染力+要点;雅思TR对agree题看是否量化——'反对+形态改变'是有层次的回应。"
-            ]
-          },
-          "vocabHints": [
-            "care less about duty",
-            "a transformed world",
-            "a different path to adulthood",
-            "hold institutions to account",
-            "indifferent to duty",
-            "extends beyond the household",
-            "nostalgia conveniently forgets",
-            "act rightly"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "勇于担当·别急于责怪他人",
@@ -235,6 +176,65 @@
             "mistakes hidden fester and repeat",
             "the cover-up that protects pride",
             "defensiveness only imitates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "毕业致辞·责任的分量",
+      "titleEn": "A Graduation Speech on Responsibility",
+      "desc": "拓展阅读核心：It is my pleasure and privilege to welcome you here today——校长的毕业致辞把责任比作船锚：a ship without an anchor is at the mercy of the waves; likewise, a person who has no sense of responsibility……",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你作为毕业生代表将在高中毕业典礼上用英文发言，主题为'责任'。请写一篇发言稿，内容包括：1. 回顾成长；2. 谈谈责任的意义；3. 对同学们的寄语。注意：词数100左右。",
+          "reference": "Honoured teachers and fellow students, it is my privilege to speak on this special occasion.\n\nThree years ago we arrived as nervous Senior 1 students; today we sit here as confident young adults, ready to walk out into the world. If there is one thing our school has taught us, it is a sense of responsibility. A ship without an anchor is at the mercy of the waves and winds; likewise, a person with no sense of responsibility drifts through life. Responsibility to our families, our society and our own promises is what gives our journey direction.\n\nSo as we say goodbye, let us carry this anchor with us. Wherever we go, may we be people the world can count on. Thank you!",
+          "vocabHints": [
+            "it is my privilege",
+            "on this special occasion",
+            "nervous Senior 1 students",
+            "confident young adults",
+            "a sense of responsibility",
+            "a ship without an anchor",
+            "at the mercy of the waves and winds",
+            "people the world can count on"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that young people today have a weaker sense of responsibility than previous generations. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "It is a familiar complaint that today's young people care less about duty than their parents and grandparents did. I disagree with this claim: young people's sense of responsibility has not weakened but changed shape, and in some ways it has grown.\n\nThose who criticise the young usually point to surface habits — dependence on phones, later independence from parents, or a reluctance to take traditional jobs. Yet these reflect a transformed world rather than lost character. Young people stay in education longer and leave home later largely because the economy demands it, not because they refuse to grow up. What looks like irresponsibility is often simply a different path to adulthood.\n\nIn fact, on many measures the young show responsibility their elders rarely did. They volunteer in large numbers, lead campaigns on climate change and social justice, and hold institutions to account through the very technology critics blame. A generation that organises to protect the planet its parents damaged can hardly be called indifferent to duty. Their sense of responsibility simply extends beyond the household to global concerns.\n\nIt would be naive to pretend every young person is diligent; every generation contains the lazy and the selfish. But the same was true in the past, which nostalgia conveniently forgets.\n\nIn conclusion, I do not accept that young people are less responsible than before. Their duties look different — shaped by new pressures and new causes — but the underlying willingness to care for others and to act rightly remains as strong as ever, and is perhaps directed at a wider world than earlier generations imagined.",
+          "wordCount": 266,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):对'年轻人责任感更弱'明确反对，提出'形态改变而非弱化甚至增强';拆解表面现象(依赖手机/晚独立)为世界变迁，正面举证(志愿/环保/问责)，并加'每代都有懒惰者'的公允让步。",
+              "Coherence & Cohesion(连贯衔接):Those who criticise / In fact / It would be naive / In conclusion 推进清晰;'a different path to adulthood'完成归因转移;'duties look different'收束呼应。",
+              "Lexical Resource(词汇资源):care less about duty / a transformed world / hold institutions to account / nostalgia conveniently forgets 表达精准。",
+              "Grammatical Range & Accuracy(语法多样性):破折号插入(shaped by new pressures)、which非限定从句、not A but B、分词状语，句式多样。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写毕业发言稿(回顾+意义+寄语);雅思论证'年轻人责任感是否变弱'的社会命题。",
+              "论据来源:高考发言织入课件'privilege / a sense of responsibility / a ship without an anchor'词块;雅思用代际社会学的普适论据(志愿、环保运动)。",
+              "语域:发言稿有称呼与寄语(may we be...);雅思客观论证，让步显公允。",
+              "评分维度:高考重感染力+要点;雅思TR对agree题看是否量化——'反对+形态改变'是有层次的回应。"
+            ]
+          },
+          "vocabHints": [
+            "care less about duty",
+            "a transformed world",
+            "a different path to adulthood",
+            "hold institutions to account",
+            "indifferent to duty",
+            "extends beyond the household",
+            "nostalgia conveniently forgets",
+            "act rightly"
           ]
         }
       ]

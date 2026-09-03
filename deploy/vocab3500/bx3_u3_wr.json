@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "手机依赖与数字戒断",
-      "titleEn": "Phone Addiction & Digital Detox",
-      "desc": "课文自述：从 my eyes were glued to the little screen 到重获自由——sliding into the habit was easy, but it was difficult to quit。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你的朋友陈杰向你诉苦：他每天睡前刷手机到深夜，白天上课无精打采，想改却改不掉。请你写一封建议信，内容包括：1. 表示理解；2. 分析原因；3. 给出两条可操作的建议。注意：词数100左右。",
-          "reference": "Dear Chen Jie,\n\nI totally understand you — my eyes were once glued to the little screen too, whenever I walked, ate or lay in bed. Sliding into the habit is easy, but quitting it is hard, because every touch brings instant fun while the cost arrives the next morning.\n\nHere are two tricks that saved me. First, charge your phone outside your bedroom and get yourself a cheap alarm clock; when the phone is beyond your reach, sleep comes surprisingly fast. Second, don't quit completely at once — just cut back on the amount of screen time bit by bit, say fifteen minutes less each week.\n\nBelieve me, the empty hours will soon fill up with better things: books, basketball and real rest. You can make it!\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "eyes glued to the screen",
-            "slide into the habit",
-            "quit the habit",
-            "instant fun",
-            "beyond your reach",
-            "cut back on",
-            "bit by bit",
-            "fill up with better things"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Many people today find it difficult to spend time away from their smartphones. What are the causes of this problem? What measures could be taken to solve it? (Write at least 250 words.)",
-          "reference": "The modern phone is the first machine many people touch at dawn and the last they surrender at midnight, and growing numbers admit they cannot comfortably be parted from it. The roots of this dependence are identifiable, and so are the remedies — though none of them is as simple as willpower.\n\nThe causes are engineered before they are personal. Apps are built by teams whose explicit business is capturing attention: endless feeds abolish natural stopping points, notifications convert silence into suspense, and every swipe is rewarded on the same unpredictable schedule that keeps gamblers at slot machines. Onto this design our social lives have been loaded — work messages, family photos, friendships — so that putting the phone down feels less like rest and more like leaving a room where everyone else is still talking. Habit completes the capture: reaching for the screen becomes the automatic answer to every idle moment, until boredom, once the seedbed of thought, is experienced as an emergency.\n\nSolutions must therefore redesign the environment rather than lecture the user. Individuals can make the phone physically inconvenient — charged outside the bedroom, banished from the dinner table — and blunt its hooks by switching off all but human notifications. Schools and employers can normalise unreachable hours, so that disconnection stops carrying social cost. Regulators, finally, should require the same designers who engineered compulsion to engineer stopping points back in.\n\nA tool this useful will never be abandoned, nor should it be. The goal is smaller and harder: to return the phone to the pocket, and the decision to pick it up to its owner.",
-          "wordCount": 268,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):causes+solutions 齐备且深挖机制——原因三层(成瘾设计/社交绑定/习惯固化)层层递进,对策三级(个人环境改造/机构去污名/监管反向设计)与原因一一对应;结尾把目标精确到'把选择权还给主人',不喊戒断口号。",
-              "Coherence & Cohesion(连贯与衔接):'The causes are engineered before they are personal'一句总起原因段并预告立场;'Solutions must therefore redesign the environment rather than lecture the user'镜像转入对策;'leaving a room where everyone else is still talking'的比喻承接社交绑定论证。",
-              "Lexical Resource(词汇资源):'abolish natural stopping points'、'convert silence into suspense'、'the same unpredictable schedule that keeps gamblers at slot machines'、'boredom, once the seedbed of thought'、'blunt its hooks'、'engineer stopping points back in'——机制词汇密集;课文意象(the empty hours)反向化用。",
-              "Grammatical Range & Accuracy(语法准确性):冒号机制列举、so that 结果从句、until 递进、插入语('— charged outside the bedroom, banished from the dinner table —')、not...nor 并列否定;复杂句准确流畅。"
-            ],
-            "vsGaokao": [
-              "体裁:高考是给朋友的建议信(理解+原因+两招);雅思是成因-治理分析——救一个人vs改一套环境。",
-              "论据来源:本文用产品设计机制(无限流/老虎机奖励),不出现'手机放卧室外'的私人小妙招——但同一招在雅思中升格为'redesign the environment'的一类。",
-              "语域:建议信有'You can make it!'的打气;雅思以'return the decision to its owner'的克制收束。",
-              "评分维度:雅思看机制深度与因-策对应;高考看建议可操作、语气暖。"
-            ]
-          },
-          "vocabHints": [
-            "surrender at midnight",
-            "engineered before personal",
-            "abolish stopping points",
-            "unpredictable schedule",
-            "loaded onto the design",
-            "the seedbed of thought",
-            "normalise unreachable hours",
-            "return the decision to its owner"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "网络社区与归属感",
@@ -235,6 +176,65 @@
             "endless scrolling",
             "purge entertainment",
             "in proportion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "手机依赖与数字戒断",
+      "titleEn": "Phone Addiction & Digital Detox",
+      "desc": "课文自述：从 my eyes were glued to the little screen 到重获自由——sliding into the habit was easy, but it was difficult to quit。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你的朋友陈杰向你诉苦：他每天睡前刷手机到深夜，白天上课无精打采，想改却改不掉。请你写一封建议信，内容包括：1. 表示理解；2. 分析原因；3. 给出两条可操作的建议。注意：词数100左右。",
+          "reference": "Dear Chen Jie,\n\nI totally understand you — my eyes were once glued to the little screen too, whenever I walked, ate or lay in bed. Sliding into the habit is easy, but quitting it is hard, because every touch brings instant fun while the cost arrives the next morning.\n\nHere are two tricks that saved me. First, charge your phone outside your bedroom and get yourself a cheap alarm clock; when the phone is beyond your reach, sleep comes surprisingly fast. Second, don't quit completely at once — just cut back on the amount of screen time bit by bit, say fifteen minutes less each week.\n\nBelieve me, the empty hours will soon fill up with better things: books, basketball and real rest. You can make it!\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "eyes glued to the screen",
+            "slide into the habit",
+            "quit the habit",
+            "instant fun",
+            "beyond your reach",
+            "cut back on",
+            "bit by bit",
+            "fill up with better things"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Many people today find it difficult to spend time away from their smartphones. What are the causes of this problem? What measures could be taken to solve it? (Write at least 250 words.)",
+          "reference": "The modern phone is the first machine many people touch at dawn and the last they surrender at midnight, and growing numbers admit they cannot comfortably be parted from it. The roots of this dependence are identifiable, and so are the remedies — though none of them is as simple as willpower.\n\nThe causes are engineered before they are personal. Apps are built by teams whose explicit business is capturing attention: endless feeds abolish natural stopping points, notifications convert silence into suspense, and every swipe is rewarded on the same unpredictable schedule that keeps gamblers at slot machines. Onto this design our social lives have been loaded — work messages, family photos, friendships — so that putting the phone down feels less like rest and more like leaving a room where everyone else is still talking. Habit completes the capture: reaching for the screen becomes the automatic answer to every idle moment, until boredom, once the seedbed of thought, is experienced as an emergency.\n\nSolutions must therefore redesign the environment rather than lecture the user. Individuals can make the phone physically inconvenient — charged outside the bedroom, banished from the dinner table — and blunt its hooks by switching off all but human notifications. Schools and employers can normalise unreachable hours, so that disconnection stops carrying social cost. Regulators, finally, should require the same designers who engineered compulsion to engineer stopping points back in.\n\nA tool this useful will never be abandoned, nor should it be. The goal is smaller and harder: to return the phone to the pocket, and the decision to pick it up to its owner.",
+          "wordCount": 268,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):causes+solutions 齐备且深挖机制——原因三层(成瘾设计/社交绑定/习惯固化)层层递进,对策三级(个人环境改造/机构去污名/监管反向设计)与原因一一对应;结尾把目标精确到'把选择权还给主人',不喊戒断口号。",
+              "Coherence & Cohesion(连贯与衔接):'The causes are engineered before they are personal'一句总起原因段并预告立场;'Solutions must therefore redesign the environment rather than lecture the user'镜像转入对策;'leaving a room where everyone else is still talking'的比喻承接社交绑定论证。",
+              "Lexical Resource(词汇资源):'abolish natural stopping points'、'convert silence into suspense'、'the same unpredictable schedule that keeps gamblers at slot machines'、'boredom, once the seedbed of thought'、'blunt its hooks'、'engineer stopping points back in'——机制词汇密集;课文意象(the empty hours)反向化用。",
+              "Grammatical Range & Accuracy(语法准确性):冒号机制列举、so that 结果从句、until 递进、插入语('— charged outside the bedroom, banished from the dinner table —')、not...nor 并列否定;复杂句准确流畅。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是给朋友的建议信(理解+原因+两招);雅思是成因-治理分析——救一个人vs改一套环境。",
+              "论据来源:本文用产品设计机制(无限流/老虎机奖励),不出现'手机放卧室外'的私人小妙招——但同一招在雅思中升格为'redesign the environment'的一类。",
+              "语域:建议信有'You can make it!'的打气;雅思以'return the decision to its owner'的克制收束。",
+              "评分维度:雅思看机制深度与因-策对应;高考看建议可操作、语气暖。"
+            ]
+          },
+          "vocabHints": [
+            "surrender at midnight",
+            "engineered before personal",
+            "abolish stopping points",
+            "unpredictable schedule",
+            "loaded onto the design",
+            "the seedbed of thought",
+            "normalise unreachable hours",
+            "return the decision to its owner"
           ]
         }
       ]

@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "经典与硬汉精神",
-      "titleEn": "Classics & the Undefeated Spirit",
-      "desc": "课文节选《老人与海》：A man can be destroyed but not defeated——经典何以常读常新。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校英文报开展 \"A Book That Changed Me\" 征文活动。请你写一篇短文，推荐《老人与海》（The Old Man and the Sea），内容包括：1. 书的主要内容；2. 最打动你的一点；3. 它带给你的改变。注意：词数100左右。",
-          "reference": "A Book That Changed Me\n\nThe book I want to share is The Old Man and the Sea by Ernest Hemingway.\n\nThe story is simple: after coming in empty-handed for eighty-four days, the old fisherman Santiago sails far out and battles a huge fish, only to bring back its bones. Yet what shook me was one line — \"A man can be destroyed but not defeated.\"\n\nBefore reading it, I used to give up whenever my efforts seemed to pay off nothing. Santiago taught me that the result may be taken away, but the fight is mine to keep. Last month, though I failed the speech contest again, I signed up for the next one that very evening.\n\nSome books entertain us; this one builds us.",
-          "vocabHints": [
-            "come in empty-handed",
-            "battle a huge fish",
-            "can be destroyed but not defeated",
-            "pay off",
-            "the fight is mine to keep",
-            "sign up for",
-            "shake / shook me",
-            "build us"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people believe that young people should read classic literature, while others think modern books are more relevant to their lives. Discuss both views and give your own opinion. (Write at least 250 words.)",
-          "reference": "What the young should read — the tested classics or the books of their own moment — is a quiet battleground in schools and homes alike. Both camps hold real ground, and my own view is that the question sets a trap: relevance and permanence are not competitors but different nutrients, and a young reader needs both.\n\nThe case for modern books is immediate. They speak the reader's language, walk the reader's streets and wrestle with the reader's problems — screens, identity, a changing climate — without the translation costs of distant centuries. For reluctant readers especially, this closeness is the difference between finishing a book and abandoning it; a story that mirrors one's own life proves that reading is not a foreign country. Modern books, in short, recruit readers.\n\nClassics, their defenders reply, are classics precisely because they have already survived the test the newest books have yet to sit. A novel that still moves readers after a century has isolated something permanent in human nature — endurance, pride, love, defeat — and offers the young a longer measure than their own moment. An old fisherman who refuses to surrender to the sea says more about dignity than a shelf of seasonal bestsellers, because his struggle has already outlived its author, its era and its fashions. Classics, in short, retain readers.\n\nMy conclusion follows from the verbs: let modern books open the door, and classics furnish the house. A reading life built only on the new is forever current and forever shallow; one built only on the old never begins. Wise teachers assign both — and let each explain the other.",
-          "wordCount": 269,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双观点各得完整段并各以警句收束('recruit readers'/'retain readers'——一对动词完成两方定性),立场'不同营养论'从引言贯穿;结论把立场落到可操作分工('open the door / furnish the house'),讨论有纵深有着落。",
-              "Coherence & Cohesion(连贯与衔接):'The case for modern books is immediate'/'Classics, their defenders reply...'/'My conclusion follows from the verbs'——以动词对(recruit/retain)为轴的衔接设计;'reading is not a foreign country'与'translation costs of distant centuries'意象呼应。",
-              "Lexical Resource(词汇资源):'a quiet battleground'、'different nutrients'、'walk the reader's streets'、'the test the newest books have yet to sit'、'a longer measure than their own moment'、'outlived its author, its era and its fashions'——原创密集;老人与海化用为匿名例证('An old fisherman who refuses to surrender to the sea')。",
-              "Grammatical Range & Accuracy(语法准确性):破折号列举('— screens, identity, a changing climate —')、because 从句、现在完成时论证('have already survived')、祈使式结论('let modern books open the door');平行结构工整,准确率极高。"
-            ],
-            "vsGaokao": [
-              "素材用法:课文的桑地亚哥在高考征文中直接点名引用金句;在雅思中匿名化为'an old fisherman'的类型例证——引用规范完全不同。",
-              "体裁:征文写'一本书改变我'的个人弧线;雅思论'该读什么'的教育选择。",
-              "语域:征文可用'this one builds us'的抒情收束;雅思以动词分工的机智收束——情感vs理趣。",
-              "评分维度:雅思看双方公允与立场落地;高考征文看真实感与金句运用(destroyed but not defeated 直接引用是亮点)。"
-            ]
-          },
-          "vocabHints": [
-            "a quiet battleground",
-            "different nutrients",
-            "translation costs",
-            "recruit readers / retain readers",
-            "isolate something permanent",
-            "a longer measure",
-            "open the door / furnish the house",
-            "forever current and forever shallow"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "阅读习惯的养成",
@@ -235,6 +176,65 @@
             "model sophisticated language",
             "the capacity to imagine another's world",
             "keep turning the pages"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "经典与硬汉精神",
+      "titleEn": "Classics & the Undefeated Spirit",
+      "desc": "课文节选《老人与海》：A man can be destroyed but not defeated——经典何以常读常新。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校英文报开展 \"A Book That Changed Me\" 征文活动。请你写一篇短文，推荐《老人与海》（The Old Man and the Sea），内容包括：1. 书的主要内容；2. 最打动你的一点；3. 它带给你的改变。注意：词数100左右。",
+          "reference": "A Book That Changed Me\n\nThe book I want to share is The Old Man and the Sea by Ernest Hemingway.\n\nThe story is simple: after coming in empty-handed for eighty-four days, the old fisherman Santiago sails far out and battles a huge fish, only to bring back its bones. Yet what shook me was one line — \"A man can be destroyed but not defeated.\"\n\nBefore reading it, I used to give up whenever my efforts seemed to pay off nothing. Santiago taught me that the result may be taken away, but the fight is mine to keep. Last month, though I failed the speech contest again, I signed up for the next one that very evening.\n\nSome books entertain us; this one builds us.",
+          "vocabHints": [
+            "come in empty-handed",
+            "battle a huge fish",
+            "can be destroyed but not defeated",
+            "pay off",
+            "the fight is mine to keep",
+            "sign up for",
+            "shake / shook me",
+            "build us"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people believe that young people should read classic literature, while others think modern books are more relevant to their lives. Discuss both views and give your own opinion. (Write at least 250 words.)",
+          "reference": "What the young should read — the tested classics or the books of their own moment — is a quiet battleground in schools and homes alike. Both camps hold real ground, and my own view is that the question sets a trap: relevance and permanence are not competitors but different nutrients, and a young reader needs both.\n\nThe case for modern books is immediate. They speak the reader's language, walk the reader's streets and wrestle with the reader's problems — screens, identity, a changing climate — without the translation costs of distant centuries. For reluctant readers especially, this closeness is the difference between finishing a book and abandoning it; a story that mirrors one's own life proves that reading is not a foreign country. Modern books, in short, recruit readers.\n\nClassics, their defenders reply, are classics precisely because they have already survived the test the newest books have yet to sit. A novel that still moves readers after a century has isolated something permanent in human nature — endurance, pride, love, defeat — and offers the young a longer measure than their own moment. An old fisherman who refuses to surrender to the sea says more about dignity than a shelf of seasonal bestsellers, because his struggle has already outlived its author, its era and its fashions. Classics, in short, retain readers.\n\nMy conclusion follows from the verbs: let modern books open the door, and classics furnish the house. A reading life built only on the new is forever current and forever shallow; one built only on the old never begins. Wise teachers assign both — and let each explain the other.",
+          "wordCount": 269,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双观点各得完整段并各以警句收束('recruit readers'/'retain readers'——一对动词完成两方定性),立场'不同营养论'从引言贯穿;结论把立场落到可操作分工('open the door / furnish the house'),讨论有纵深有着落。",
+              "Coherence & Cohesion(连贯与衔接):'The case for modern books is immediate'/'Classics, their defenders reply...'/'My conclusion follows from the verbs'——以动词对(recruit/retain)为轴的衔接设计;'reading is not a foreign country'与'translation costs of distant centuries'意象呼应。",
+              "Lexical Resource(词汇资源):'a quiet battleground'、'different nutrients'、'walk the reader's streets'、'the test the newest books have yet to sit'、'a longer measure than their own moment'、'outlived its author, its era and its fashions'——原创密集;老人与海化用为匿名例证('An old fisherman who refuses to surrender to the sea')。",
+              "Grammatical Range & Accuracy(语法准确性):破折号列举('— screens, identity, a changing climate —')、because 从句、现在完成时论证('have already survived')、祈使式结论('let modern books open the door');平行结构工整,准确率极高。"
+            ],
+            "vsGaokao": [
+              "素材用法:课文的桑地亚哥在高考征文中直接点名引用金句;在雅思中匿名化为'an old fisherman'的类型例证——引用规范完全不同。",
+              "体裁:征文写'一本书改变我'的个人弧线;雅思论'该读什么'的教育选择。",
+              "语域:征文可用'this one builds us'的抒情收束;雅思以动词分工的机智收束——情感vs理趣。",
+              "评分维度:雅思看双方公允与立场落地;高考征文看真实感与金句运用(destroyed but not defeated 直接引用是亮点)。"
+            ]
+          },
+          "vocabHints": [
+            "a quiet battleground",
+            "different nutrients",
+            "translation costs",
+            "recruit readers / retain readers",
+            "isolate something permanent",
+            "a longer measure",
+            "open the door / furnish the house",
+            "forever current and forever shallow"
           ]
         }
       ]

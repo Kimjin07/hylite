@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "太极与传统健身",
-      "titleEn": "Tai Chi & Traditional Fitness",
-      "desc": "课文随笔：从犹豫到痴迷的太极之旅——balance and flexibility slowly improved，以及阴阳平衡的东方智慧。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你校国际部的交换生 Jack 对中国传统健身运动很感兴趣。请你写一封邮件向他介绍太极拳（tai chi），并邀请他参加学校太极社，内容包括：1. 太极拳的特点；2. 你练习太极的收获；3. 发出邀请。注意：词数100左右。",
-          "reference": "Dear Jack,\n\nGlad to hear you're interested in traditional Chinese exercise! Let me introduce tai chi, my favourite.\n\nUnlike fast, sweaty sports, tai chi looks slow and gentle, yet it is anything but easy. Every move asks for balance between hardness and softness — just as there is no shadow without light, the two must exist together. No wonder some tai chi moves are even named after animals!\n\nSince joining our school's Tai Chi Club, I have found to my satisfaction that my balance and flexibility have slowly improved, and my mind stays calmer before exams.\n\nOur club meets every Friday afternoon. Would you like to join us? I promise you'll fall in love with it.\n\nYours,\nLi Hua",
-          "vocabHints": [
-            "slow and gentle",
-            "balance and flexibility",
-            "to my satisfaction",
-            "no wonder",
-            "be named after animals",
-            "physical balance and mental peace",
-            "no shadow without light",
-            "fall in love with"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people prefer traditional forms of exercise such as tai chi and yoga, while others prefer modern fitness activities such as gym training. Discuss both preferences and give your own opinion. (Write at least 250 words.)",
-          "reference": "The modern search for fitness has split, broadly, into two schools: those who follow centuries-old practices such as tai chi and yoga, and those who train with machines, metrics and mirrors in the gym. Each approach carries a distinct philosophy of what a body is for, and in my view the wisest exercisers borrow from both.\n\nTraditional practices offer what the gym rarely advertises: a treaty between body and mind. Their slow, controlled movements demand a quality of attention that turns exercise into a form of moving meditation, easing stress even as it builds balance and flexibility. Because they need no equipment and punish no joints, they remain available to the old, the injured and the impatient beginner alike — a lifetime practice rather than a seasonal campaign. Their patience, however, is also their obstacle: results arrive quietly, and a generation raised on quick progress often abandons them before the benefits appear.\n\nThe gym answers that impatience directly. Measurable weights, visible muscle and trackable data give training the satisfying shape of a game with scores, and for building raw strength or reshaping a body, no slow art can compete. Yet the gym's virtues carry their own risks: training that chases numbers invites injury, and motivation tied to mirrors tends to expire with the first plateau.\n\nMy conclusion is that the two schools correct each other's failings. The gym gives traditional practice its missing urgency; tradition gives the gym its missing calm. A week with both in it serves the body — and the mind that carries it — better than loyalty to either.",
-          "wordCount": 262,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):双偏好公允展开且各含自我限定(传统:身心条约+普适性,但见效慢;健身房:游戏化激励+增肌效率,但易伤易弃),立场'互补论'贯穿;每段先立后转的结构使讨论有纵深而非各说各话。",
-              "Coherence & Cohesion(连贯与衔接):'Traditional practices offer what the gym rarely advertises'/'The gym answers that impatience directly'/'My conclusion is that the two schools correct each other's failings'——段间以'回应'关系推进,衔接即对话;'missing urgency / missing calm'对句完成互补论证。",
-              "Lexical Resource(词汇资源):'a treaty between body and mind'、'moving meditation'、'a lifetime practice rather than a seasonal campaign'、'the satisfying shape of a game with scores'、'expire with the first plateau'——原创比喻密集;balance and flexibility 等课文词块自然融入。",
-              "Grammatical Range & Accuracy(语法准确性):冒号定义、even as 同步让步、because 前置因果、破折号插入('— and the mind that carries it —');长句层次分明,错误几乎为零。"
-            ],
-            "vsGaokao": [
-              "体裁:高考是私人邀请邮件(介绍+收获+邀请);雅思是两种健身哲学的比较论证。",
-              "论据来源:本文抽象化传统运动的普适特征(无器械/不伤关节),不讲'我们社团周五活动';邮件则靠具体细节亲切动人。",
-              "语域:邮件可用'I promise you'll fall in love with it'的热情承诺;雅思的温度藏在'the mind that carries it'式的克制表达里。",
-              "评分维度:雅思要求偏好讨论覆盖'为什么各有拥趸'的机制层;高考看信息完整与邀请诚意。"
-            ]
-          },
-          "vocabHints": [
-            "two schools of fitness",
-            "a treaty between body and mind",
-            "moving meditation",
-            "punish no joints",
-            "a lifetime practice",
-            "trackable data",
-            "chase numbers",
-            "correct each other's failings"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar",
       "title": "健身中心焕新公告",
@@ -235,6 +176,65 @@
             "undivided responsibility",
             "answer to effort",
             "graduate towards"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "太极与传统健身",
+      "titleEn": "Tai Chi & Traditional Fitness",
+      "desc": "课文随笔：从犹豫到痴迷的太极之旅——balance and flexibility slowly improved，以及阴阳平衡的东方智慧。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你校国际部的交换生 Jack 对中国传统健身运动很感兴趣。请你写一封邮件向他介绍太极拳（tai chi），并邀请他参加学校太极社，内容包括：1. 太极拳的特点；2. 你练习太极的收获；3. 发出邀请。注意：词数100左右。",
+          "reference": "Dear Jack,\n\nGlad to hear you're interested in traditional Chinese exercise! Let me introduce tai chi, my favourite.\n\nUnlike fast, sweaty sports, tai chi looks slow and gentle, yet it is anything but easy. Every move asks for balance between hardness and softness — just as there is no shadow without light, the two must exist together. No wonder some tai chi moves are even named after animals!\n\nSince joining our school's Tai Chi Club, I have found to my satisfaction that my balance and flexibility have slowly improved, and my mind stays calmer before exams.\n\nOur club meets every Friday afternoon. Would you like to join us? I promise you'll fall in love with it.\n\nYours,\nLi Hua",
+          "vocabHints": [
+            "slow and gentle",
+            "balance and flexibility",
+            "to my satisfaction",
+            "no wonder",
+            "be named after animals",
+            "physical balance and mental peace",
+            "no shadow without light",
+            "fall in love with"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people prefer traditional forms of exercise such as tai chi and yoga, while others prefer modern fitness activities such as gym training. Discuss both preferences and give your own opinion. (Write at least 250 words.)",
+          "reference": "The modern search for fitness has split, broadly, into two schools: those who follow centuries-old practices such as tai chi and yoga, and those who train with machines, metrics and mirrors in the gym. Each approach carries a distinct philosophy of what a body is for, and in my view the wisest exercisers borrow from both.\n\nTraditional practices offer what the gym rarely advertises: a treaty between body and mind. Their slow, controlled movements demand a quality of attention that turns exercise into a form of moving meditation, easing stress even as it builds balance and flexibility. Because they need no equipment and punish no joints, they remain available to the old, the injured and the impatient beginner alike — a lifetime practice rather than a seasonal campaign. Their patience, however, is also their obstacle: results arrive quietly, and a generation raised on quick progress often abandons them before the benefits appear.\n\nThe gym answers that impatience directly. Measurable weights, visible muscle and trackable data give training the satisfying shape of a game with scores, and for building raw strength or reshaping a body, no slow art can compete. Yet the gym's virtues carry their own risks: training that chases numbers invites injury, and motivation tied to mirrors tends to expire with the first plateau.\n\nMy conclusion is that the two schools correct each other's failings. The gym gives traditional practice its missing urgency; tradition gives the gym its missing calm. A week with both in it serves the body — and the mind that carries it — better than loyalty to either.",
+          "wordCount": 262,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):双偏好公允展开且各含自我限定(传统:身心条约+普适性,但见效慢;健身房:游戏化激励+增肌效率,但易伤易弃),立场'互补论'贯穿;每段先立后转的结构使讨论有纵深而非各说各话。",
+              "Coherence & Cohesion(连贯与衔接):'Traditional practices offer what the gym rarely advertises'/'The gym answers that impatience directly'/'My conclusion is that the two schools correct each other's failings'——段间以'回应'关系推进,衔接即对话;'missing urgency / missing calm'对句完成互补论证。",
+              "Lexical Resource(词汇资源):'a treaty between body and mind'、'moving meditation'、'a lifetime practice rather than a seasonal campaign'、'the satisfying shape of a game with scores'、'expire with the first plateau'——原创比喻密集;balance and flexibility 等课文词块自然融入。",
+              "Grammatical Range & Accuracy(语法准确性):冒号定义、even as 同步让步、because 前置因果、破折号插入('— and the mind that carries it —');长句层次分明,错误几乎为零。"
+            ],
+            "vsGaokao": [
+              "体裁:高考是私人邀请邮件(介绍+收获+邀请);雅思是两种健身哲学的比较论证。",
+              "论据来源:本文抽象化传统运动的普适特征(无器械/不伤关节),不讲'我们社团周五活动';邮件则靠具体细节亲切动人。",
+              "语域:邮件可用'I promise you'll fall in love with it'的热情承诺;雅思的温度藏在'the mind that carries it'式的克制表达里。",
+              "评分维度:雅思要求偏好讨论覆盖'为什么各有拥趸'的机制层;高考看信息完整与邀请诚意。"
+            ]
+          },
+          "vocabHints": [
+            "two schools of fitness",
+            "a treaty between body and mind",
+            "moving meditation",
+            "punish no joints",
+            "a lifetime practice",
+            "trackable data",
+            "chase numbers",
+            "correct each other's failings"
           ]
         }
       ]

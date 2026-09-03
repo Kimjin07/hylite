@@ -63,65 +63,6 @@
       ]
     },
     {
-      "id": "sub-extended",
-      "section": "Extended reading",
-      "title": "为何探索太空",
-      "titleEn": "Why Explore Space",
-      "desc": "拓展阅读核心：With each space mission comes greater insight——人类甚至需要 find permanent shelter that offers long-term protection，探索既是好奇心，也是远见。",
-      "prompts": [
-        {
-          "source": "高考应用文模拟",
-          "type": "mock",
-          "typeLabel": "高考模拟",
-          "task": "你班将举行以'人类应否继续探索太空'为题的英语辩论会，你是正方一辩。请写一篇发言稿，内容包括：1. 你方观点；2. 两三条理由；3. 总结陈词。注意：词数100左右。",
-          "reference": "Good afternoon, everyone. Our topic today is whether humans should continue to explore space, and my answer is a firm yes.\n\nAdmittedly, space programmes cost enormous sums that could be spent on schools and hospitals. But with each space mission comes greater insight. Satellite technology now guides our buses, forecasts typhoons and connects our classrooms. What's more, scientists believe that one day we may need to find permanent shelter that offers long-term protection beyond Earth — exploring space is, in a sense, insurance for humanity.\n\nThe stars have always called to us. If our ancestors had never sailed beyond the horizon, we would still believe the ocean had an edge. Thank you!",
-          "vocabHints": [
-            "a firm yes",
-            "cost enormous sums",
-            "with each space mission comes greater insight",
-            "satellite technology",
-            "find permanent shelter",
-            "long-term protection",
-            "insurance for humanity",
-            "sail beyond the horizon"
-          ]
-        },
-        {
-          "source": "IELTS Writing Task 2",
-          "type": "ielts",
-          "typeLabel": "雅思议论文",
-          "task": "Some people think that the money spent on space exploration should be used to solve problems on Earth instead. To what extent do you agree or disagree? (Write at least 250 words.)",
-          "reference": "Critics of space programmes argue that the billions devoted to rockets should instead relieve poverty, disease and environmental damage at home. Although the moral force of this argument is obvious, I disagree with it, because space research is among the more productive investments a society can make.\n\nThe critics' logic appeals to urgency. Hunger and homelessness exist now, whereas the rewards of exploring other worlds seem distant and abstract; a hospital saves identifiable lives, while a probe photographs rocks. It can indeed appear indefensible to launch billion-dollar missions while food banks lengthen their queues.\n\nYet the comparison misleads in two ways. First, space budgets are far smaller than they look beside other spending: most industrialised nations devote to space a small fraction of what they spend on defence, and cancelling missions would barely dent social problems whose causes are political rather than financial. Second, the money is not fired into the sky; it employs engineers on Earth and produces technologies that return home. Weather forecasting, disaster monitoring, satellite navigation, water purification and countless medical instruments trace their origins to space research. Farmers time their harvests and rescue services find the lost through systems built for orbit. In addition, studying other planets sharpens our grasp of our own climate — and the sight of Earth from space has itself become an emblem of environmental care.\n\nIn conclusion, framing space and social spending as rivals is a false economy of imagination. A civilisation that stops exploring does not thereby feed its poor; it merely learns less. Wise governments fund both, and each strengthens the other.",
-          "wordCount": 263,
-          "scoringNotes": {
-            "band": "8",
-            "bandFeatures": [
-              "Task Response(任务回应):立场'不同意'明确且承认对方道义力量;反驳双轨(预算占比错觉+技术回流)论据密集具体(气象/导航/净水/医疗仪器)，结论升华为'资助两者、互相成就'。",
-              "Coherence & Cohesion(连贯衔接):critics' logic / Yet...in two ways / First / Second / In conclusion 编号推进清晰;'a hospital saves identifiable lives, while a probe photographs rocks'的对举先替对方说到最强再拆解。",
-              "Lexical Resource(词汇资源):moral force / barely dent / fired into the sky / trace their origins to / an emblem of environmental care / a false economy of imagination 表达凝练有力。",
-              "Grammatical Range & Accuracy(语法多样性):whereas对比、whose定语从句、分号并列长列举、does not thereby feed其否定推理句式，逻辑句法成熟。"
-            ],
-            "vsGaokao": [
-              "体裁:高考写辩论一辩发言稿(观点+理由+陈词);雅思写资金优先级议论文。",
-              "论据来源:高考发言稿织入课文'with each space mission comes greater insight / permanent shelter'词块;雅思用航天经济学普适论据(预算占比、技术转化)。",
-              "语域:辩论稿有修辞煽动(The stars have always called to us);雅思以论证密度取胜，修辞仅在收尾。",
-              "评分维度:高考重立场鲜明+现场感;雅思TR考察能否指出题目预设的虚假对立——'false economy of imagination'正面破题。"
-            ]
-          },
-          "vocabHints": [
-            "relieve poverty and disease",
-            "appeal to urgency",
-            "identifiable lives",
-            "barely dent",
-            "technologies that return home",
-            "trace their origins to",
-            "sharpen our grasp of",
-            "fund both"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sub-grammar",
       "section": "Grammar and usage",
       "title": "航天梦与自律",
@@ -235,6 +176,65 @@
             "independent capability",
             "a common frontier",
             "racing to conquer it apart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-extended",
+      "section": "Extended reading",
+      "title": "为何探索太空",
+      "titleEn": "Why Explore Space",
+      "desc": "拓展阅读核心：With each space mission comes greater insight——人类甚至需要 find permanent shelter that offers long-term protection，探索既是好奇心，也是远见。",
+      "prompts": [
+        {
+          "source": "高考应用文模拟",
+          "type": "mock",
+          "typeLabel": "高考模拟",
+          "task": "你班将举行以'人类应否继续探索太空'为题的英语辩论会，你是正方一辩。请写一篇发言稿，内容包括：1. 你方观点；2. 两三条理由；3. 总结陈词。注意：词数100左右。",
+          "reference": "Good afternoon, everyone. Our topic today is whether humans should continue to explore space, and my answer is a firm yes.\n\nAdmittedly, space programmes cost enormous sums that could be spent on schools and hospitals. But with each space mission comes greater insight. Satellite technology now guides our buses, forecasts typhoons and connects our classrooms. What's more, scientists believe that one day we may need to find permanent shelter that offers long-term protection beyond Earth — exploring space is, in a sense, insurance for humanity.\n\nThe stars have always called to us. If our ancestors had never sailed beyond the horizon, we would still believe the ocean had an edge. Thank you!",
+          "vocabHints": [
+            "a firm yes",
+            "cost enormous sums",
+            "with each space mission comes greater insight",
+            "satellite technology",
+            "find permanent shelter",
+            "long-term protection",
+            "insurance for humanity",
+            "sail beyond the horizon"
+          ]
+        },
+        {
+          "source": "IELTS Writing Task 2",
+          "type": "ielts",
+          "typeLabel": "雅思议论文",
+          "task": "Some people think that the money spent on space exploration should be used to solve problems on Earth instead. To what extent do you agree or disagree? (Write at least 250 words.)",
+          "reference": "Critics of space programmes argue that the billions devoted to rockets should instead relieve poverty, disease and environmental damage at home. Although the moral force of this argument is obvious, I disagree with it, because space research is among the more productive investments a society can make.\n\nThe critics' logic appeals to urgency. Hunger and homelessness exist now, whereas the rewards of exploring other worlds seem distant and abstract; a hospital saves identifiable lives, while a probe photographs rocks. It can indeed appear indefensible to launch billion-dollar missions while food banks lengthen their queues.\n\nYet the comparison misleads in two ways. First, space budgets are far smaller than they look beside other spending: most industrialised nations devote to space a small fraction of what they spend on defence, and cancelling missions would barely dent social problems whose causes are political rather than financial. Second, the money is not fired into the sky; it employs engineers on Earth and produces technologies that return home. Weather forecasting, disaster monitoring, satellite navigation, water purification and countless medical instruments trace their origins to space research. Farmers time their harvests and rescue services find the lost through systems built for orbit. In addition, studying other planets sharpens our grasp of our own climate — and the sight of Earth from space has itself become an emblem of environmental care.\n\nIn conclusion, framing space and social spending as rivals is a false economy of imagination. A civilisation that stops exploring does not thereby feed its poor; it merely learns less. Wise governments fund both, and each strengthens the other.",
+          "wordCount": 263,
+          "scoringNotes": {
+            "band": "8",
+            "bandFeatures": [
+              "Task Response(任务回应):立场'不同意'明确且承认对方道义力量;反驳双轨(预算占比错觉+技术回流)论据密集具体(气象/导航/净水/医疗仪器)，结论升华为'资助两者、互相成就'。",
+              "Coherence & Cohesion(连贯衔接):critics' logic / Yet...in two ways / First / Second / In conclusion 编号推进清晰;'a hospital saves identifiable lives, while a probe photographs rocks'的对举先替对方说到最强再拆解。",
+              "Lexical Resource(词汇资源):moral force / barely dent / fired into the sky / trace their origins to / an emblem of environmental care / a false economy of imagination 表达凝练有力。",
+              "Grammatical Range & Accuracy(语法多样性):whereas对比、whose定语从句、分号并列长列举、does not thereby feed其否定推理句式，逻辑句法成熟。"
+            ],
+            "vsGaokao": [
+              "体裁:高考写辩论一辩发言稿(观点+理由+陈词);雅思写资金优先级议论文。",
+              "论据来源:高考发言稿织入课文'with each space mission comes greater insight / permanent shelter'词块;雅思用航天经济学普适论据(预算占比、技术转化)。",
+              "语域:辩论稿有修辞煽动(The stars have always called to us);雅思以论证密度取胜，修辞仅在收尾。",
+              "评分维度:高考重立场鲜明+现场感;雅思TR考察能否指出题目预设的虚假对立——'false economy of imagination'正面破题。"
+            ]
+          },
+          "vocabHints": [
+            "relieve poverty and disease",
+            "appeal to urgency",
+            "identifiable lives",
+            "barely dent",
+            "technologies that return home",
+            "trace their origins to",
+            "sharpen our grasp of",
+            "fund both"
           ]
         }
       ]
