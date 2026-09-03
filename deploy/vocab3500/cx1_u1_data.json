@@ -7578,5 +7578,3522 @@
         "note": "①光纤是技术性搭配 optical fibre；②\"视觉盛宴\"惯用 a visual feast。"
       }
     ]
+  },
+  {
+    "word": "carve",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/kɑːv/",
+    "partOfSpeech": "v.",
+    "translation": "v. 雕刻，刻；切开（熟肉）；（水流/冰川）侵蚀刻出；开辟，开创",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to cut wood, stone, etc. into a shape or pattern; to cut cooked meat into slices; to form or shape something by cutting or eroding.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "〔地质/自然〕（水流、冰川等）侵蚀刻出（峡谷、沟壑）",
+        "example": "Over thousands of years, deep-sea currents carve channels into the seabed."
+      },
+      {
+        "partOfSpeech": "v. (carve out)",
+        "meaning": "开创，闯出（事业、一片天地）",
+        "example": "She carved out a career studying life in the twilight zone."
+      },
+      {
+        "partOfSpeech": "v. (carve up)",
+        "meaning": "〔贬〕瓜分，分割（土地、市场等）",
+        "example": "Fishing nations carved up the rich coastal waters between them."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "They carved the whale bone into small ornaments."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Rivers slowly carve deep valleys through the rock."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "He carved his name on the old wooden deck."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "carve sth into sth",
+        "translation": "把…雕刻成…",
+        "example": "The artist carved the driftwood into a dolphin. 艺术家把浮木雕成一只海豚。"
+      },
+      {
+        "phrase": "carve sth out of / from sth",
+        "translation": "用（某材料）雕出…",
+        "example": "The figure was carved out of a single block of coral stone. 这个雕像由一整块珊瑚石雕成。"
+      },
+      {
+        "phrase": "carve out a career / a niche",
+        "translation": "开创事业；闯出一片天地",
+        "example": "She carved out a niche in marine research. 她在海洋研究领域闯出一片天地。"
+      },
+      {
+        "phrase": "carve a path / way through sth",
+        "translation": "（冲/凿）开辟出一条通道",
+        "example": "The current carves a path through the deep. 洋流在深海中冲出一条通道。"
+      },
+      {
+        "phrase": "carve up",
+        "translation": "〔贬〕瓜分，划分",
+        "example": "The two firms carved up the market between them. 两家公司把市场瓜分了。"
+      },
+      {
+        "phrase": "carve one's name on sth",
+        "translation": "在…上刻名字",
+        "example": "Sailors once carved their names on the harbour rocks. 水手们曾在港口的岩石上刻下名字。"
+      },
+      {
+        "phrase": "intricately / beautifully carved",
+        "translation": "雕工精细的；雕刻精美的",
+        "example": "an intricately carved wooden boat 一艘雕工精细的木船"
+      }
+    ],
+    "wordForms": {
+      "noun": "carving 雕刻（技艺）；雕刻品 / carver 雕刻者；切肉刀",
+      "verb": "carve (carved, carved)",
+      "adjective": "carved 雕刻的（a carved figure）",
+      "adverb": "",
+      "other": "构词：carve + -ing → carving（动名词兼名词，指雕刻品）。辨析：carve（用刀刻，或切熟肉）／cut（泛指切）／engrave（在硬表面精细刻字或图案）。常见短语动词：carve out（开创）、carve up（瓜分）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Over thousands of years, the river has _______ (carve) a deep canyon through the rock.",
+        "answer": "carved",
+        "note": "熟词僻义：（水流）侵蚀刻出；has + 过去分词，现在完成时。"
+      },
+      {
+        "type": "完成句子",
+        "question": "她在深海研究领域闯出了一片天地。She has _______ _______ a career in deep-sea research.",
+        "answer": "carved out",
+        "note": "carve out 开创（事业/天地），短语动词。"
+      }
+    ]
+  },
+  {
+    "word": "lie",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/laɪ/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 躺，平卧；位于，坐落；（抽象）处于（某状态）；说谎  n. 谎言",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to be in or move into a flat, resting position on a surface; to be situated in a particular place; to say something that is not true; (n.) an untrue statement.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v. (lie in)",
+        "meaning": "（原因、关键、答案）在于",
+        "example": "The answer lies in the way filter feeders trap tiny food."
+      },
+      {
+        "partOfSpeech": "v. (lie ahead)",
+        "meaning": "（困难、机会）在前方，即将到来",
+        "example": "Many discoveries still lie ahead in the deep sea."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（抽象地）处于某种状态（lie hidden / buried / idle）",
+        "example": "Countless species lie hidden in the ocean's twilight zone."
+      },
+      {
+        "partOfSpeech": "n. (the lie of the land)",
+        "meaning": "〔英〕地势，地形；（事情的）形势",
+        "example": "Divers first check the lie of the land on the seabed."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The twilight zone lies below 200 metres."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The wreck lay on the seabed for a century."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "It's wrong to lie to your friends."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "lie on / in sth",
+        "translation": "躺/平卧/沉在…上",
+        "example": "The seal lay on the warm rocks. 海豹躺在温暖的岩石上。"
+      },
+      {
+        "phrase": "lie below / beneath sth",
+        "translation": "位于…之下",
+        "example": "The twilight zone lies below 200 metres. 暮光带位于200米以下。"
+      },
+      {
+        "phrase": "lie in sth",
+        "translation": "（关键/原因）在于…",
+        "example": "The problem lies in the shortage of oxygen. 问题在于缺氧。"
+      },
+      {
+        "phrase": "lie ahead",
+        "translation": "（挑战/机会）在前方，即将到来",
+        "example": "Great challenges lie ahead for ocean explorers. 海洋探险者面临重重挑战。"
+      },
+      {
+        "phrase": "lie low",
+        "translation": "潜伏，躲藏；保持低调",
+        "example": "The octopus lies low among the corals. 章鱼藏身于珊瑚之间。"
+      },
+      {
+        "phrase": "tell a lie",
+        "translation": "说谎，撒谎",
+        "example": "Never tell a lie to your parents. 千万别对父母撒谎。"
+      },
+      {
+        "phrase": "a white lie",
+        "translation": "善意的谎言",
+        "example": "It was only a white lie to comfort her. 那只是安慰她的善意谎言。"
+      }
+    ],
+    "wordForms": {
+      "noun": "lie 谎言 / liar 说谎者",
+      "verb": "lie 躺、位于 (lay – lain – lying) ； lie 说谎 (lied – lied – lying)",
+      "adjective": "lying 说谎的（a lying witness）",
+      "adverb": "",
+      "other": "三组最易混动词：① lie 躺/位于 → lay – lain – lying（不及物）；② lie 说谎 → lied – lied – lying（不及物）；③ lay 放置/下蛋 → laid – laid – laying（及物，后必跟宾语）。判别诀窍：lay 后面一定带宾语。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "Yesterday the diver _______ (lie) on the deck for an hour before going down.",
+        "answer": "lay",
+        "note": "lie（躺）的过去式是 lay，注意与 lay（放置，过去式 laid）区分。"
+      },
+      {
+        "type": "完成句子",
+        "question": "深海探索中还有许多发现在前方等待着我们。Many discoveries still _______ _______ in the deep sea.",
+        "answer": "lie ahead",
+        "note": "lie ahead （发现/挑战/机会）在前方、即将到来；主语复数用原形 lie。"
+      }
+    ]
+  },
+  {
+    "word": "remain",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/rɪˈmeɪn/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 保持，仍然是；剩下，余留；留下，逗留  n.（remains，常用复数）剩余物；遗迹；遗骸",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to continue to be in the same state or condition; to stay in the same place after others have gone; (n. remains) what is left after part has been used, or the body/traces of the dead.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n. (remains)",
+        "meaning": "遗迹，废墟；残余物",
+        "example": "Divers found the remains of an ancient wooden ship."
+      },
+      {
+        "partOfSpeech": "n. (remains)",
+        "meaning": "遗体，遗骸",
+        "example": "The whale's remains slowly sank to the seabed."
+      },
+      {
+        "partOfSpeech": "v. (remain to be done)",
+        "meaning": "尚待（被做），仍有待…",
+        "example": "How these creatures feed remains to be discovered."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Many deep-sea species remain unknown to science."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Only a few fish remained near the surface."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Please remain seated until the boat stops."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "remain + adj. (unknown/unclear/silent/calm)",
+        "translation": "保持（某状态）",
+        "example": "The seabed remains largely unexplored. 海床大部分仍未被探索。"
+      },
+      {
+        "phrase": "remain to be seen / done",
+        "translation": "尚待观察/完成",
+        "example": "How they survive remains to be discovered. 它们如何存活仍有待发现。"
+      },
+      {
+        "phrase": "the remains of sth",
+        "translation": "…的残骸/遗迹",
+        "example": "the remains of a sunken ship 一艘沉船的残骸"
+      },
+      {
+        "phrase": "remain in contact / touch",
+        "translation": "保持联系",
+        "example": "The team remained in contact with the surface. 团队与水面保持联系。"
+      },
+      {
+        "phrase": "remain a mystery / a secret",
+        "translation": "仍是个谜/秘密（remain + 名词作表语）",
+        "example": "Much of the deep sea remains a mystery. 深海的大部分仍是个谜。"
+      },
+      {
+        "phrase": "remain below / at (a level)",
+        "translation": "维持在…（以下/水平）",
+        "example": "The temperature remains below 5°C in the twilight zone. 暮光带温度维持在5℃以下。"
+      },
+      {
+        "phrase": "the remaining sth",
+        "translation": "剩下的…",
+        "example": "They shared the remaining oxygen. 他们分用了剩余的氧气。"
+      }
+    ],
+    "wordForms": {
+      "noun": "remains（恒复数）遗迹/遗骸/残余 / remainder 剩余部分",
+      "verb": "remain (remained, remained)",
+      "adjective": "remaining 剩下的",
+      "adverb": "",
+      "other": "remain 为系动词（link verb），后接形容词或名词作表语，无被动语态、一般不用进行时。辨析：remain / stay / keep 都可表“保持某状态”，remain 更正式书面。名词 remains（遗骸/残余）恒为复数。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "How filter feeders trap enough food still remains to be _______ (discover).",
+        "answer": "discovered",
+        "note": "remain to be done 结构，不定式用被动式 to be done。"
+      },
+      {
+        "type": "完成句子",
+        "question": "深海很大程度上仍然是个谜。The deep sea largely _______ a mystery.",
+        "answer": "remains",
+        "note": "remain 作系动词后接名词作表语，主语单数用 remains。"
+      }
+    ]
+  },
+  {
+    "word": "dive",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/daɪv/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 潜水；跳水；（飞机/鸟）俯冲；猛冲；（数量/价格）骤降  n. 潜水；跳水；俯冲；暴跌",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to jump into water head first, or to swim under water using breathing equipment; to move down quickly and steeply; (n.) an act of diving or a sudden fall.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（价格、数量）骤降，暴跌",
+        "example": "Fish numbers dived after the waters became polluted."
+      },
+      {
+        "partOfSpeech": "v. (dive into)",
+        "meaning": "一头扎进，全身心投入（某事）",
+        "example": "She dived into the study of life in the twilight zone."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "〔非正式，贬〕破旧下等的酒吧/场所",
+        "example": "They met in a dive near the old harbour."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The divers dived to 40 metres below the surface."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Dolphins can dive deep to catch fish."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The submarine made a steep dive into the twilight zone."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "dive into the water / sea",
+        "translation": "跳入水中",
+        "example": "She dived into the cold sea. 她跳进冰冷的海里。"
+      },
+      {
+        "phrase": "dive to (a depth)",
+        "translation": "下潜到…（深度）",
+        "example": "The submersible dived to 1,000 metres. 潜水器下潜到1000米。"
+      },
+      {
+        "phrase": "scuba / deep-sea diving",
+        "translation": "水肺潜水；深海潜水",
+        "example": "He is trained in deep-sea diving. 他受过深海潜水训练。"
+      },
+      {
+        "phrase": "dive for pearls",
+        "translation": "潜水采珍珠",
+        "example": "Divers who dive for pearls hold their breath. 采珠潜水者要屏住呼吸。"
+      },
+      {
+        "phrase": "dive into sth",
+        "translation": "一头扎进/全身心投入",
+        "example": "She dived into her marine research. 她一头扎进海洋研究。"
+      },
+      {
+        "phrase": "take a nosedive / take a dive",
+        "translation": "暴跌，急剧下降",
+        "example": "Oxygen levels take a dive below 200 metres. 200米以下含氧量骤降。"
+      },
+      {
+        "phrase": "make a dive",
+        "translation": "进行一次潜水/跳水；猛扑",
+        "example": "The team made another dive at dawn. 团队黎明时又下潜一次。"
+      }
+    ],
+    "wordForms": {
+      "noun": "dive 潜水/俯冲 / diver 潜水员 / diving 潜水（运动）",
+      "verb": "dive (dived / 〔美〕dove ; dived)",
+      "adjective": "diving 潜水的（a diving suit 潜水服）",
+      "adverb": "",
+      "other": "过去式英式用 dived，美式常用 dove。派生：diver 潜水员，diving 潜水运动（scuba diving 水肺潜水）。短语 dive in 埋头开始/一头扎进。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The research team _______ (dive) to 500 metres yesterday to film the twilight zone.",
+        "answer": "dived",
+        "note": "一般过去时；英式过去式为 dived（美式亦作 dove）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "海豚能潜到深处捕鱼。Dolphins can _______ deep to catch fish.",
+        "answer": "dive",
+        "note": "情态动词 can 后接动词原形 dive。"
+      }
+    ]
+  },
+  {
+    "word": "sink",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/sɪŋk/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 下沉，沉没；（使）沉没；下陷，塌陷；（数量/程度）降低；（心情）沮丧  n. 水槽，洗涤池",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to go down below the surface of water or another liquid; to fall to a lower level or amount; (n.) a fixed basin with a water supply for washing.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（厨房/卫生间的）水槽，洗涤池",
+        "example": "A pile of dirty dishes lay in the sink."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（心情）沮丧，消沉（one's heart sinks）",
+        "example": "Her heart sank when the last light disappeared."
+      },
+      {
+        "partOfSpeech": "v. (sink in)",
+        "meaning": "（信息、道理）被理解，被领会",
+        "example": "It took a while for the danger to sink in."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "把（钱、时间）大量投入",
+        "example": "They sank millions into deep-ocean research."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The heavy anchor slowly sank to the bottom."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Sinking below 200 metres, we enter the twilight zone."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She rinsed the seashells in the sink."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "sink below (a level)",
+        "translation": "下沉/降到…以下",
+        "example": "Sinking below 200 metres, we enter the twilight zone. 下沉到200米以下，我们便进入暮光带。"
+      },
+      {
+        "phrase": "sink to the bottom / seabed",
+        "translation": "沉到底部/海床",
+        "example": "The wreck sank to the seabed. 那艘残船沉入海床。"
+      },
+      {
+        "phrase": "a sinking ship",
+        "translation": "正在下沉的船",
+        "example": "Rats are said to leave a sinking ship. 据说老鼠会弃沉船而逃。"
+      },
+      {
+        "phrase": "sink or swim",
+        "translation": "自生自灭；不成则败",
+        "example": "In the deep, it's sink or swim. 在深海里，不成则败。"
+      },
+      {
+        "phrase": "one's heart sinks",
+        "translation": "心一沉；感到沮丧",
+        "example": "My heart sank at the bad news. 听到坏消息我心里一沉。"
+      },
+      {
+        "phrase": "sink in",
+        "translation": "（道理/信息）被领悟",
+        "example": "The warning finally sank in. 那个警告终于被听进去了。"
+      },
+      {
+        "phrase": "sink money / time into sth",
+        "translation": "把钱/时间投入…",
+        "example": "They sank a fortune into the expedition. 他们为这次探险投入巨资。"
+      }
+    ],
+    "wordForms": {
+      "noun": "sink 水槽 / the sinking 下沉、沉没",
+      "verb": "sink (sank, sunk)",
+      "adjective": "sunken 沉没的；深陷的（sunken treasure；sunken eyes） / sinking 下沉的（a sinking feeling 不祥的预感）",
+      "adverb": "",
+      "other": "不规则变化 sink – sank – sunk（勿写成 sank–sank）。作形容词多用 sunken（沉没的/深陷的）。反义：float 漂浮。辨析：sink（自沉，不及物；也可及物“使沉没”）与 drown（指人/动物淹死）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The old ship _______ (sink) to the seabed a hundred years ago.",
+        "answer": "sank",
+        "note": "一般过去时；sink 的过去式是 sank（过去分词才是 sunk）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "下沉到200米以下，我们便进入暮光带。_______ below 200 metres, we enter the twilight zone.",
+        "answer": "Sinking",
+        "note": "现在分词作状语，与主语 we 是主动关系（课文原句）。"
+      }
+    ]
+  },
+  {
+    "word": "measure",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈmeʒə/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 测量；（尺寸/数量）为，达…；衡量，判断  n. 措施，办法；程度，一定量；计量单位，尺度",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to find the size, amount, degree or rate of something; to be of a particular size; (n.) an official action taken to achieve an aim, or a way of judging or measuring something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n. (measures)",
+        "meaning": "措施，办法（常用复数）",
+        "example": "Strict measures are needed to protect marine life."
+      },
+      {
+        "partOfSpeech": "n. (a measure of)",
+        "meaning": "一定程度的，一定量的",
+        "example": "Filter feeders need a measure of luck to catch food."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（物体尺寸）为，达…（系动词，接数值，不用被动）",
+        "example": "The giant squid measures over 10 metres in length."
+      },
+      {
+        "partOfSpeech": "v. (measure up)",
+        "meaning": "达到标准，符合要求",
+        "example": "Few divers measure up to such deep descents."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Scientists measure the ocean's depth with sonar."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "A blue whale can measure up to 30 metres long."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Strict measures now protect the coral reef."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "measure the depth / temperature",
+        "translation": "测量深度/温度",
+        "example": "They measured the depth of the twilight zone. 他们测量了暮光带的深度。"
+      },
+      {
+        "phrase": "take measures (to do sth)",
+        "translation": "采取措施（做某事）",
+        "example": "We must take measures to save marine life. 我们必须采取措施拯救海洋生物。"
+      },
+      {
+        "phrase": "a measure of sth",
+        "translation": "一定程度的…",
+        "example": "The dive brought a measure of success. 这次潜水取得了一定程度的成功。"
+      },
+      {
+        "phrase": "measure up (to sth)",
+        "translation": "达到（标准/期望）",
+        "example": "The data didn't measure up to expectations. 数据未达预期。"
+      },
+      {
+        "phrase": "beyond measure",
+        "translation": "无法计量；极其",
+        "example": "The ocean's riches are beyond measure. 海洋的财富难以计量。"
+      },
+      {
+        "phrase": "for good measure",
+        "translation": "另外，加上；以防万一",
+        "example": "They took extra oxygen for good measure. 他们额外多带了氧气以防万一。"
+      },
+      {
+        "phrase": "made to measure",
+        "translation": "量身定制的",
+        "example": "a made-to-measure diving suit 一套量身定制的潜水服"
+      }
+    ],
+    "wordForms": {
+      "noun": "measure 措施；尺度 / measurement 测量；尺寸（数据）",
+      "verb": "measure (measured, measured)",
+      "adjective": "measurable 可测量的 / measured 慎重的，有分寸的（in a measured tone）",
+      "adverb": "measurably 明显地，可觉察地",
+      "other": "辨析：measure（动词“测量”或名词“措施/尺度”）与 measurement（测量的结果、尺寸数据）。系动词用法 measure + 数值（尺寸/长度为…），不用被动。名词“措施”义 measures 常用复数。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The government has taken strict _______ (measure) to protect the coral reef.",
+        "answer": "measures",
+        "note": "take measures 采取措施，名词用复数。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "The blue whale can _______ (measure / measurement) up to 30 metres in length.",
+        "answer": "measure",
+        "note": "此处表“（长度）为…”，用动词 measure 作系动词接数值，不用名词。"
+      }
+    ]
+  },
+  {
+    "word": "pressure",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈpreʃə/",
+    "partOfSpeech": "noun (also verb)",
+    "translation": "压力；压强，压力（物理）；气压；（精神/社会的）压力，逼迫；施压，迫使（动词）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the force produced by pressing on something, or the force of a gas/liquid per unit area; also a feeling of stress or being urged to act.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaning": "（对某人）施压，逼迫（做某事）",
+        "example": "They pressured him into signing the agreement."
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaning": "（气象）气压",
+        "example": "Low pressure over the sea often brings storms."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "The water pressure increases sharply as you dive deeper."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Deep-sea creatures survive under enormous pressure."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Don't let others pressure you into a hasty choice."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "water pressure",
+        "translation": "水压",
+        "example": "Water pressure can crush anything not adapted to it. 水压能压碎任何未适应它的东西。"
+      },
+      {
+        "phrase": "under pressure",
+        "translation": "在压力/高压之下",
+        "example": "A submarine's hull must stay strong under pressure. 潜艇的外壳必须在高压下保持坚固。"
+      },
+      {
+        "phrase": "withstand pressure",
+        "translation": "承受压力",
+        "example": "Few animals can withstand the pressure of the deep sea. 很少有动物能承受深海的压力。"
+      },
+      {
+        "phrase": "put pressure on sb",
+        "translation": "对某人施压",
+        "example": "Exams put a lot of pressure on students. 考试给学生很大压力。"
+      },
+      {
+        "phrase": "atmospheric pressure",
+        "translation": "大气压",
+        "example": "Atmospheric pressure falls as you climb higher. 海拔越高，大气压越低。"
+      },
+      {
+        "phrase": "blood pressure",
+        "translation": "血压",
+        "example": "The doctor checked his blood pressure. 医生测了他的血压。"
+      },
+      {
+        "phrase": "pressure builds up",
+        "translation": "压力累积",
+        "example": "Pressure builds up as the diver descends. 潜水员下潜时压力不断累积。"
+      }
+    ],
+    "wordForms": {
+      "noun": "pressure",
+      "verb": "pressure / pressurize（英式 pressurise）",
+      "adjective": "pressured / pressurized",
+      "adverb": "—",
+      "other": "构词：press(压)+ -ure(名词后缀)；重音在第一音节 ˈpreʃə；名词可作动词表\"施压\""
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "As the divers went deeper, the water ____ (press) on their bodies grew far stronger.",
+        "answer": "pressure",
+        "note": "考 press 的名词形式，加后缀 -ure 构成 pressure"
+      },
+      {
+        "type": "汉译英",
+        "question": "深海生物生活在巨大的水压之下。（提示用 under ... pressure）____",
+        "answer": "Deep-sea creatures live under enormous water pressure.",
+        "note": "固定搭配 under pressure 表\"承受压力\"；water pressure 水压"
+      }
+    ]
+  },
+  {
+    "word": "avoid",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/əˈvɔɪd/",
+    "partOfSpeech": "verb",
+    "translation": "避免，防止；躲开，回避；（法律）使无效，撤销（合同）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to prevent something bad from happening, or to keep away from a person, thing or action.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaning": "（法律）使（合同等）失效，撤销",
+        "example": "The buyer may avoid the contract if the goods are faulty."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Many small fish avoid predators by hiding among corals."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "You should avoid diving alone in deep water."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Filter feeders avoid competition by eating tiny plankton."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "avoid doing sth",
+        "translation": "避免做某事",
+        "example": "Divers avoid touching the fragile corals. 潜水员避免触碰脆弱的珊瑚。"
+      },
+      {
+        "phrase": "avoid predators",
+        "translation": "躲避捕食者",
+        "example": "Deep-sea fish avoid predators by giving off little light. 深海鱼靠几乎不发光来躲避捕食者。"
+      },
+      {
+        "phrase": "avoid danger",
+        "translation": "避开危险",
+        "example": "Sailors watch the weather to avoid danger. 水手观察天气以避开危险。"
+      },
+      {
+        "phrase": "avoid contact with",
+        "translation": "避免接触",
+        "example": "Swimmers should avoid contact with jellyfish. 游泳者应避免接触水母。"
+      },
+      {
+        "phrase": "narrowly avoid",
+        "translation": "险些避免，勉强躲过",
+        "example": "The boat narrowly avoided the rocks. 小船险些撞上礁石。"
+      },
+      {
+        "phrase": "hard to avoid",
+        "translation": "难以避免",
+        "example": "Some risks are hard to avoid at sea. 有些海上风险难以避免。"
+      },
+      {
+        "phrase": "avoid a collision",
+        "translation": "避免碰撞",
+        "example": "The captain turned to avoid a collision. 船长转向以避免碰撞。"
+      }
+    ],
+    "wordForms": {
+      "noun": "avoidance",
+      "verb": "avoid",
+      "adjective": "avoidable / unavoidable",
+      "adverb": "unavoidably",
+      "other": "用法核心：avoid + 动名词(doing)，不可接不定式，avoid to do (×)"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "In the twilight zone, small creatures avoid ____ (be) seen by producing almost no light.",
+        "answer": "being",
+        "note": "avoid 后接动名词；\"被看见\"用被动动名词 being + 过去分词"
+      },
+      {
+        "type": "汉译英",
+        "question": "为了避免被捕食者发现，很多鱼藏在珊瑚里。____",
+        "answer": "To avoid being spotted by predators, many fish hide among the corals.",
+        "note": "avoid doing 结构；被动用 being spotted/seen"
+      }
+    ]
+  },
+  {
+    "word": "reveal",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/rɪˈviːl/",
+    "partOfSpeech": "verb (also noun)",
+    "translation": "揭示，揭露；显示，表明；使显露，展现",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make known or show something that was previously hidden or secret.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaning": "（节目/设计中的）揭晓时刻，揭幕",
+        "example": "The big reveal came at the very end of the show."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "verb",
+        "sentence": "New cameras reveal strange creatures living in the deep sea."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "The study revealed how filter feeders capture their food."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "As the fog lifted, the rocky coast was revealed."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "reveal the truth",
+        "translation": "揭示真相",
+        "example": "The experiment revealed the truth about deep-sea light. 实验揭示了关于深海光的真相。"
+      },
+      {
+        "phrase": "research/study reveals that...",
+        "translation": "研究表明……",
+        "example": "The research reveals that the twilight zone is full of life. 研究表明微光区充满生命。"
+      },
+      {
+        "phrase": "reveal a secret",
+        "translation": "揭露秘密",
+        "example": "He promised never to reveal the secret. 他保证绝不泄露秘密。"
+      },
+      {
+        "phrase": "reveal details",
+        "translation": "透露细节",
+        "example": "The scientist refused to reveal further details. 那位科学家拒绝透露更多细节。"
+      },
+      {
+        "phrase": "reveal sth to sb",
+        "translation": "向某人透露某事",
+        "example": "The data revealed a new species to biologists. 这些数据向生物学家揭示了一个新物种。"
+      },
+      {
+        "phrase": "clearly reveal",
+        "translation": "清楚地显示",
+        "example": "The scan clearly revealed the fish's shape. 扫描清楚地显示出鱼的形状。"
+      },
+      {
+        "phrase": "reveal itself",
+        "translation": "显现出来",
+        "example": "A whole ecosystem revealed itself in the dark water. 整个生态系统在黑暗的海水中显现出来。"
+      }
+    ],
+    "wordForms": {
+      "noun": "revelation /（口语）the reveal",
+      "verb": "reveal",
+      "adjective": "revealing / revealed",
+      "adverb": "revealingly",
+      "other": "反义词 conceal(隐藏)；常用句型 reveal that 从句 / reveal + 疑问词从句(how, why)"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Recent research has ____ (reveal) surprising facts about life in the deep sea.",
+        "answer": "revealed",
+        "note": "现在完成时 has + 过去分词 revealed"
+      },
+      {
+        "type": "汉译英",
+        "question": "这项研究揭示了滤食动物是如何获取食物的。____",
+        "answer": "The study revealed how filter feeders get their food.",
+        "note": "reveal 后可接 how 引导的宾语从句"
+      }
+    ]
+  },
+  {
+    "word": "adapt",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/əˈdæpt/",
+    "partOfSpeech": "verb",
+    "translation": "（使）适应；改编，改写（书/剧本等）；改造，调整",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to change your behaviour or something else so that it fits a new situation or use.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaning": "改编（把小说等改成电影/剧本）",
+        "example": "The novel was adapted for the screen."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Deep-sea animals have adapted to darkness and cold."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Species must adapt or die when the environment changes."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "The film was adapted from a famous novel."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "adapt to sth",
+        "translation": "适应某事物",
+        "example": "Creatures adapt to the high pressure of the deep sea. 生物适应深海的高压。"
+      },
+      {
+        "phrase": "be well adapted to",
+        "translation": "很好地适应于",
+        "example": "Filter feeders are well adapted to catching plankton. 滤食动物很适合捕捉浮游生物。"
+      },
+      {
+        "phrase": "adapt oneself to",
+        "translation": "使自己适应",
+        "example": "Divers must adapt themselves to the cold water. 潜水员必须让自己适应冷水。"
+      },
+      {
+        "phrase": "adapt to doing sth",
+        "translation": "适应做某事",
+        "example": "They slowly adapted to living in the dark. 他们慢慢适应了在黑暗中生活。"
+      },
+      {
+        "phrase": "adapt from",
+        "translation": "由……改编而来",
+        "example": "The movie was adapted from a true story. 这部电影改编自真实故事。"
+      },
+      {
+        "phrase": "quickly adapt",
+        "translation": "迅速适应",
+        "example": "Some fish quickly adapt to new conditions. 有些鱼能迅速适应新环境。"
+      },
+      {
+        "phrase": "adapt and survive",
+        "translation": "适应并生存",
+        "example": "Only those that adapt and survive pass on their genes. 只有适应并存活的才能传递基因。"
+      }
+    ],
+    "wordForms": {
+      "noun": "adaptation / adaptability / adapter(adaptor)",
+      "verb": "adapt",
+      "adjective": "adaptable / adapted / adaptive",
+      "adverb": "adaptively",
+      "other": "易混三词：adapt(适应) ≠ adopt(采用/收养) ≠ adept(熟练的)"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "Marine animals must ____ (adapt / adopt) to survive in the cold, dark deep sea.",
+        "answer": "adapt",
+        "note": "adapt 意为\"适应\"；adopt 意为\"收养/采用\"，二者勿混"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "It takes time for divers to adapt ____ the high pressure underwater.",
+        "answer": "to",
+        "note": "固定搭配 adapt to sth 适应某事物"
+      }
+    ]
+  },
+  {
+    "word": "insight",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈɪnsaɪt/",
+    "partOfSpeech": "noun",
+    "translation": "洞察力，洞悉；（对复杂事物的）深刻理解，见解",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a clear, deep understanding of a complicated situation, subject or person.",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Deep-sea research gives us insight into unknown life."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Her talk offered fresh insights into ocean ecosystems."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "New technology provides insight into the twilight zone."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "insight into sth",
+        "translation": "对……的洞察/深入了解",
+        "example": "The study gives insight into deep-sea life. 该研究让我们深入了解深海生命。"
+      },
+      {
+        "phrase": "gain an insight into",
+        "translation": "获得对……的了解",
+        "example": "We gained an insight into how corals feed. 我们了解了珊瑚是如何进食的。"
+      },
+      {
+        "phrase": "provide/offer insight",
+        "translation": "提供见解",
+        "example": "Her lecture offered valuable insight. 她的讲座提供了宝贵见解。"
+      },
+      {
+        "phrase": "fresh/valuable insight",
+        "translation": "新颖的/宝贵的见解",
+        "example": "The photos gave fresh insight into the seabed. 这些照片给了我们对海床的新认识。"
+      },
+      {
+        "phrase": "deep insight",
+        "translation": "深刻的洞察",
+        "example": "She spoke with deep insight about the ocean. 她对海洋谈得很有洞见。"
+      },
+      {
+        "phrase": "a flash of insight",
+        "translation": "灵光一现的领悟，顿悟",
+        "example": "In a flash of insight, she understood how the fish glowed. 灵光一闪，她明白了鱼是如何发光的。"
+      },
+      {
+        "phrase": "with insight",
+        "translation": "有洞察力地",
+        "example": "He described the reef with real insight. 他很有洞见地描述了那片珊瑚礁。"
+      }
+    ],
+    "wordForms": {
+      "noun": "insight",
+      "verb": "—（无对应动词，常用 gain/give insight）",
+      "adjective": "insightful",
+      "adverb": "insightfully",
+      "other": "构词：in-(向内)+ sight(看)→\"看进去\"即洞察；固定搭配 insight into sth"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The documentary gives us a deep insight ____ how filter feeders live.",
+        "answer": "into",
+        "note": "固定搭配 insight into sth，介词用 into"
+      },
+      {
+        "type": "汉译英",
+        "question": "这项新研究让我们深入了解了微光区里的生命。____",
+        "answer": "This new study gives us (an) insight into life in the twilight zone.",
+        "note": "give/gain insight into sth；insight 后固定接 into"
+      }
+    ]
+  },
+  {
+    "word": "motion",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈməʊʃən/",
+    "partOfSpeech": "noun (also verb)",
+    "translation": "运动，移动；动作，姿势，手势；（会议上的）动议，提案；打手势示意（动词）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the act or process of moving, or the way something moves; also a formal proposal put to a meeting.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaning": "（会议/议会的）动议，提案",
+        "example": "The motion was passed by a large majority."
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaning": "打手势示意（某人做某事）",
+        "example": "The guide motioned for the divers to follow her."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "The gentle motion of the waves rocked the small boat."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Corals sway with the constant motion of the current."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "She motioned him to keep quiet."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in motion",
+        "translation": "在运动中，运转中",
+        "example": "The camera captured a shark in motion. 相机拍下了一条游动中的鲨鱼。"
+      },
+      {
+        "phrase": "slow motion",
+        "translation": "慢动作",
+        "example": "The whale moved as if in slow motion. 鲸鱼像慢动作一般游动。"
+      },
+      {
+        "phrase": "set/put sth in motion",
+        "translation": "使某事开始，启动",
+        "example": "The current sets the plankton in motion. 水流使浮游生物动起来。"
+      },
+      {
+        "phrase": "constant motion",
+        "translation": "不停的运动",
+        "example": "The ocean is in constant motion. 海洋在不停地运动。"
+      },
+      {
+        "phrase": "range of motion",
+        "translation": "活动范围",
+        "example": "The robot arm has a wide range of motion. 机械臂活动范围很大。"
+      },
+      {
+        "phrase": "motion sickness",
+        "translation": "晕动病，晕船",
+        "example": "Rough seas gave her motion sickness. 汹涌的海面让她晕船。"
+      },
+      {
+        "phrase": "a graceful motion",
+        "translation": "优雅的动作",
+        "example": "The ray swam with a graceful motion. 蝠鲼以优雅的动作游动。"
+      }
+    ],
+    "wordForms": {
+      "noun": "motion",
+      "verb": "motion",
+      "adjective": "motionless",
+      "adverb": "motionlessly",
+      "other": "词根 mot-(移动) 同源词：move, motor, motive；motionless 意为\"一动不动\""
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The deep-sea predator stayed almost ____ (motion), waiting silently for prey.",
+        "answer": "motionless",
+        "note": "motion + 后缀 -less → 形容词 motionless，一动不动"
+      },
+      {
+        "type": "汉译英",
+        "question": "海浪轻柔的起伏使小船摇晃。____",
+        "answer": "The gentle motion of the waves rocked the small boat.",
+        "note": "motion 在此表\"(起伏)运动\"，为可数名词"
+      }
+    ]
+  },
+  {
+    "word": "case",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/keɪs/",
+    "partOfSpeech": "noun; verb",
+    "translation": "n. 情况，事例，实例；案例，案件；病例；箱，盒，容器；论据，主张；(语法)格。v. 把…装箱；(俚)踩点，事先侦察",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a particular situation or an instance of something; a matter investigated by police or a court; a container for holding things.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaning": "(语法)格，如主格、宾格",
+        "example": "In Latin, a noun changes its ending according to case."
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaning": "(俚语)踩点，作案前实地侦察",
+        "example": "The thieves cased the building before breaking in."
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaning": "(医)病例，患者",
+        "example": "Doctors reported the first case of the disease."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "In this case, the twilight zone begins below 200 metres."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Scientists studied a rare case of deep-sea gigantism."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Pack the fragile samples in a padded case."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in case (of)",
+        "translation": "以防；万一",
+        "example": "Divers carry a torch in case the deep water is pitch-black. 潜水员带上手电，以防深水一片漆黑。"
+      },
+      {
+        "phrase": "in any case",
+        "translation": "无论如何，反正",
+        "example": "In any case, sunlight cannot reach these depths. 无论如何，阳光都到不了这些深度。"
+      },
+      {
+        "phrase": "make a case for",
+        "translation": "为…提出理由，论证",
+        "example": "Scientists made a case for protecting coral reefs. 科学家为保护珊瑚礁提出了论据。"
+      },
+      {
+        "phrase": "a case of",
+        "translation": "一例…；一箱…",
+        "example": "This is a clear case of adaptation to darkness. 这是一个明显的适应黑暗的例子。"
+      },
+      {
+        "phrase": "be the case",
+        "translation": "属实，是事实",
+        "example": "If that is the case, filter feeders can thrive here. 如果情况属实，滤食动物就能在此繁盛。"
+      },
+      {
+        "phrase": "a case study",
+        "translation": "案例研究",
+        "example": "The twilight zone is a case study in survival. 暮光区是一个关于生存的案例研究。"
+      },
+      {
+        "phrase": "as is often the case",
+        "translation": "正如常有的情形",
+        "example": "As is often the case, the deepest species are the strangest. 正如常有的情形，最深处的物种最奇特。"
+      }
+    ],
+    "wordForms": {
+      "noun": "case",
+      "verb": "case",
+      "adjective": "—",
+      "adverb": "—",
+      "other": "辨析 case / situation / instance：case 侧重具体的事例或案例。固定结构 in case + 从句（以防…），in case of + 名词（万一…发生时）。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "Take extra oxygen tanks ____ ____ an emergency deep below the surface. (in case / in case of)",
+        "answer": "in case of",
+        "note": "后接名词 an emergency 用 in case of；若接从句则用 in case。"
+      },
+      {
+        "type": "汉译英",
+        "question": "无论如何，阳光都到不了暮光区。(用 in any case)",
+        "answer": "In any case, sunlight cannot reach the twilight zone.",
+        "note": "in any case 意为“无论如何、反正”，置于句首作状语。"
+      }
+    ]
+  },
+  {
+    "word": "length",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/leŋθ/",
+    "partOfSpeech": "noun",
+    "translation": "n. 长度；(时间的)长短，一段时间；(游泳池的)一个来回，一趟；(布/绳等的)一段；程度",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the measurement of something from one end to the other; the amount of time something lasts.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaning": "(游泳)池长，游一个来回的距离",
+        "example": "She swam twenty lengths of the pool before breakfast."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "A blue whale can reach thirty metres in length."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "The dive lasted the length of the whole afternoon."
+      },
+      {
+        "partOfSpeech": "noun",
+        "sentence": "Measure the length of the seaweed before you record it."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in length",
+        "translation": "长度为，长达",
+        "example": "Some giant squid are twelve metres in length. 有些大王乌贼长达十二米。"
+      },
+      {
+        "phrase": "go to great lengths (to do)",
+        "translation": "竭尽全力，不遗余力",
+        "example": "Divers go to great lengths to reach the twilight zone. 潜水员竭尽全力抵达暮光区。"
+      },
+      {
+        "phrase": "at length",
+        "translation": "详尽地；(文)最终",
+        "example": "The biologist described the reef at length. 那位生物学家详尽地描述了那片珊瑚礁。"
+      },
+      {
+        "phrase": "a length of",
+        "translation": "一段(绳、管、缆等)",
+        "example": "They lowered a length of cable to the seabed. 他们把一段电缆放到海床上。"
+      },
+      {
+        "phrase": "the length and breadth of",
+        "translation": "遍及…各处",
+        "example": "They searched the length and breadth of the ocean. 他们搜遍了整个海洋。"
+      },
+      {
+        "phrase": "full length",
+        "translation": "全长；伸直地",
+        "example": "The eel stretched to its full length. 那条鳗鱼伸展到全长。"
+      },
+      {
+        "phrase": "at arm's length",
+        "translation": "保持一臂之距，敬而远之",
+        "example": "Handle the jellyfish at arm's length. 处理水母时要保持一臂之距。"
+      }
+    ],
+    "wordForms": {
+      "noun": "length",
+      "verb": "lengthen",
+      "adjective": "long / lengthy",
+      "adverb": "lengthily",
+      "other": "拼写链 long(形)→length(名, 注意 -th)→lengthen(动)。辨析 long 中性，lengthy 多含“冗长”贬义。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Some anglerfish measure only a few centimetres in ____ (long).",
+        "answer": "length",
+        "note": "介词 in 后接名词，long 的名词形式为 length，表“长度”。"
+      },
+      {
+        "type": "汉译英",
+        "question": "科学家们竭尽全力研究深海生物。(用 go to great lengths)",
+        "answer": "Scientists go to great lengths to study deep-sea creatures.",
+        "note": "go to great lengths to do sth 意为“不遗余力做某事”，lengths 须用复数。"
+      }
+    ]
+  },
+  {
+    "word": "lay",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/leɪ/",
+    "partOfSpeech": "verb; adjective",
+    "translation": "v. 放置，搁；下(蛋)，产(卵)；铺设，敷设；布置(餐桌)；使处于某种状态。adj. 外行的，非专业的；世俗的，非神职的。(也是 lie “躺”的过去式)",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to put something down carefully in a flat position; (of a bird or fish) to produce eggs; not professionally trained in a particular subject.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaning": "外行的，非专业的",
+        "example": "To a lay reader, deep-sea terms can be confusing."
+      },
+      {
+        "partOfSpeech": "adjective",
+        "meaning": "世俗的，非神职的",
+        "example": "The service was led by a lay preacher."
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaning": "(易混点)lie “躺”的过去式，非 lay 本身",
+        "example": "Yesterday the tired seal lay on the warm rock."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Many fish lay thousands of eggs among the corals."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Engineers lay cables across the ocean floor."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Divers carefully lay the samples on the deck."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "lay eggs",
+        "translation": "产卵，下蛋",
+        "example": "Some deep-sea fish lay eggs that drift slowly upwards. 一些深海鱼产下会缓缓上浮的卵。"
+      },
+      {
+        "phrase": "lay (a) cable",
+        "translation": "铺设电缆",
+        "example": "Ships lay cables along the seabed for the internet. 船只沿海床铺设互联网电缆。"
+      },
+      {
+        "phrase": "lay out",
+        "translation": "摆开，布置；陈述",
+        "example": "She laid out the specimens on the bench. 她把标本摆在工作台上。"
+      },
+      {
+        "phrase": "lay down",
+        "translation": "放下；规定(规则)",
+        "example": "The team laid down strict diving rules. 团队制定了严格的潜水规则。"
+      },
+      {
+        "phrase": "lay the foundation for",
+        "translation": "为…奠定基础",
+        "example": "This study laid the foundation for marine research. 这项研究为海洋研究奠定了基础。"
+      },
+      {
+        "phrase": "lay the table",
+        "translation": "摆放餐具，布置餐桌",
+        "example": "Lay the table before the crew comes back. 船员回来前把餐桌摆好。"
+      },
+      {
+        "phrase": "lay emphasis / stress on",
+        "translation": "强调，着重于",
+        "example": "The report lays stress on protecting the reef. 报告着重强调保护珊瑚礁。"
+      },
+      {
+        "phrase": "lay off",
+        "translation": "解雇；停止",
+        "example": "The company laid off part of the research crew. 公司裁掉了部分研究人员。"
+      }
+    ],
+    "wordForms": {
+      "noun": "—",
+      "verb": "lay (lay-laid-laid)",
+      "adjective": "lay (外行的)",
+      "adverb": "—",
+      "other": "核心辨析：lay 及物“放/产卵”(lay-laid-laid)；lie 不及物“躺”(lie-lay-lain)；lie “说谎”(lie-lied-lied)。派生 layer 层、layout 布局。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "The turtle crawled ashore to ____ its eggs in the warm sand. (lay / lie)",
+        "answer": "lay",
+        "note": "lay 为及物动词“产(卵)”，后接宾语 its eggs；lie 不及物，不能带宾语。"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "Engineers have ____ (lay) hundreds of kilometres of cable on the seabed.",
+        "answer": "laid",
+        "note": "lay-laid-laid，现在完成时 have + 过去分词 laid，表“已铺设”。"
+      }
+    ]
+  },
+  {
+    "word": "apart",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/əˈpɑːt/",
+    "partOfSpeech": "adverb; adjective",
+    "translation": "adv. 相隔，相距；分开地，分离地；成碎片地。adj.(作表语)分开的，有区别的(如 worlds apart)。apart from 除…之外",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "separated by a distance or by a period of time; into separate pieces or parts.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaning": "(英, 习语 joking/kidding apart)说正经的，言归正传",
+        "example": "Joking apart, the deep sea is a dangerous place to work."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adverb",
+        "sentence": "The two reefs lie several miles apart."
+      },
+      {
+        "partOfSpeech": "adverb",
+        "sentence": "Under crushing pressure, an old submersible could fall apart."
+      },
+      {
+        "partOfSpeech": "adjective",
+        "sentence": "Life above and below 200 metres seems worlds apart."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "apart from",
+        "translation": "除…之外(相当于 except / besides)",
+        "example": "Apart from bacteria, little lives in the deepest trenches. 除了细菌，最深的海沟里几乎没有生物。"
+      },
+      {
+        "phrase": "fall apart",
+        "translation": "破碎，解体；崩溃",
+        "example": "The old wreck slowly fell apart on the seabed. 那艘旧沉船在海床上慢慢解体。"
+      },
+      {
+        "phrase": "take apart",
+        "translation": "拆开，拆卸",
+        "example": "They took the camera apart to fix the leak. 他们把相机拆开修理漏水处。"
+      },
+      {
+        "phrase": "tell apart",
+        "translation": "区分，分辨",
+        "example": "In the dark it is hard to tell the two species apart. 在黑暗中很难区分这两个物种。"
+      },
+      {
+        "phrase": "set apart",
+        "translation": "使显得与众不同，使突出",
+        "example": "Bioluminescence sets these fish apart from the rest. 生物发光使这些鱼显得与众不同。"
+      },
+      {
+        "phrase": "worlds apart",
+        "translation": "天壤之别，截然不同",
+        "example": "The sunlit surface and the twilight zone are worlds apart. 阳光照射的海面与暮光区有天壤之别。"
+      },
+      {
+        "phrase": "drift apart",
+        "translation": "(关系)逐渐疏远",
+        "example": "Over the years, the two research partners slowly drifted apart. 多年来，两位科研搭档渐渐疏远了。"
+      },
+      {
+        "phrase": "keep apart",
+        "translation": "使分开，隔开",
+        "example": "Keep the two species apart in the tank. 把这两个物种在水缸里隔开。"
+      }
+    ],
+    "wordForms": {
+      "noun": "—",
+      "verb": "—",
+      "adjective": "apart (作表语, 如 worlds apart)",
+      "adverb": "apart",
+      "other": "反义 together；apart from = aside from(美式)= 除…之外；常与位移动词连用：fall/take/tell/set + apart。"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "____ ____ a few pale shrimp, the trench floor looks completely empty. (除…之外)",
+        "answer": "Apart from",
+        "note": "apart from 引导“除…之外”，相当于 except for / besides，置于句首作状语。"
+      },
+      {
+        "type": "汉译英",
+        "question": "在高压之下，那艘旧潜水器可能会散架。(用 fall apart)",
+        "answer": "Under high pressure, the old submersible may fall apart.",
+        "note": "fall apart 意为“散架、解体”，为“动词 + apart”的固定短语。"
+      }
+    ]
+  },
+  {
+    "word": "arise",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/əˈraɪz/",
+    "partOfSpeech": "verb",
+    "translation": "vi. (问题、情况等)出现，发生，产生；(arise from/out of)由…引起，源于；(文)起身，起立；(太阳、雾等)升起",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(of a problem, situation or opportunity) to begin to exist or happen; to result or develop from something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaning": "(文学/古)起身，起立",
+        "example": "The captain arose before dawn to check the instruments."
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaning": "(文学)升起，上升",
+        "example": "A thin mist arose from the calm water at daybreak."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "verb",
+        "sentence": "New questions arise as we explore the twilight zone."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Serious problems may arise from the crushing pressure."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "A dispute arose over how to protect the reef."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "arise from / out of",
+        "translation": "由…引起，产生于",
+        "example": "Many strange adaptations arise from a lack of light. 许多奇特的适应源于光线的缺乏。"
+      },
+      {
+        "phrase": "problems / difficulties arise",
+        "translation": "问题、困难出现",
+        "example": "Serious problems arise when the oxygen supply runs low. 当氧气供应不足时，就会出现严重问题。"
+      },
+      {
+        "phrase": "the question arises whether",
+        "translation": "于是产生了是否…的问题",
+        "example": "The question arises whether we should mine the deep sea. 于是产生了我们是否应当开采深海的问题。"
+      },
+      {
+        "phrase": "opportunities arise",
+        "translation": "机会出现",
+        "example": "Feeding opportunities arise in the twilight zone. 暮光区里出现了觅食的机会。"
+      },
+      {
+        "phrase": "should the need arise",
+        "translation": "如有需要(倒装虚拟)",
+        "example": "Should the need arise, the divers will surface at once. 如有需要，潜水员会立即浮出水面。"
+      },
+      {
+        "phrase": "as the occasion arises",
+        "translation": "一旦需要，一有机会",
+        "example": "The team samples the water as the occasion arises. 团队一有需要就采集水样。"
+      }
+    ],
+    "wordForms": {
+      "noun": "—",
+      "verb": "arise (arise-arose-arisen)",
+      "adjective": "—",
+      "adverb": "—",
+      "other": "辨析 arise(vi.发生, 无宾语无被动) / arouse(vt.唤起, 需宾语) / rise(vi.升起 rise-rose-risen) / raise(vt.举起、养育 raise-raised-raised)。arise 多与抽象名词 problem、question、situation 搭配。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Several unexpected problems have ____ (arise) since the mission began.",
+        "answer": "arisen",
+        "note": "arise-arose-arisen，现在完成时 have + 过去分词 arisen。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "New difficulties may ____ when scientists study the deep sea. (arise / arouse)",
+        "answer": "arise",
+        "note": "主语 difficulties 自身“出现”，用不及物动词 arise；arouse 及物，须带宾语。"
+      }
+    ]
+  },
+  {
+    "word": "debate",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/dɪˈbeɪt/",
+    "partOfSpeech": "noun; verb",
+    "translation": "n. 辩论，争论，讨论；辩论会。v. 辩论，争论(某问题)；仔细考虑，盘算(是否…)",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a formal discussion of opposing arguments; a general public argument about a subject. (v.) to discuss or argue about something formally; to consider a decision carefully.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaning": "(内心)反复考虑，权衡，盘算",
+        "example": "She debated whether to dive deeper or turn back."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "noun",
+        "sentence": "There is fierce debate about deep-sea mining."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "Scientists debate how life survives the crushing pressure."
+      },
+      {
+        "partOfSpeech": "verb",
+        "sentence": "He debated whether to release the rare samples."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a heated / fierce debate",
+        "translation": "激烈的辩论",
+        "example": "A heated debate arose over ocean protection. 关于海洋保护爆发了激烈的辩论。"
+      },
+      {
+        "phrase": "open to debate",
+        "translation": "有待商榷，尚有争议",
+        "example": "How deep the twilight zone reaches is open to debate. 暮光区延伸多深仍有待商榷。"
+      },
+      {
+        "phrase": "under debate",
+        "translation": "在讨论中，正被争论",
+        "example": "The deep-sea mining plan is still under debate. 深海采矿计划仍在讨论之中。"
+      },
+      {
+        "phrase": "a matter / topic of debate",
+        "translation": "有争议的问题，争论的话题",
+        "example": "The cause of the die-off is a matter of debate. 这次大量死亡的成因是个有争议的问题。"
+      },
+      {
+        "phrase": "debate over / about",
+        "translation": "关于…的辩论",
+        "example": "The debate over ocean warming continues. 关于海洋变暖的辩论仍在继续。"
+      },
+      {
+        "phrase": "debate whether",
+        "translation": "争论/盘算是否",
+        "example": "They debated whether to explore the trench further. 他们争论是否要进一步探索海沟。"
+      },
+      {
+        "phrase": "spark / provoke debate",
+        "translation": "引发辩论",
+        "example": "The discovery sparked debate among biologists. 这一发现在生物学家中引发了辩论。"
+      },
+      {
+        "phrase": "hold / have a debate",
+        "translation": "举行辩论",
+        "example": "The class held a debate on protecting coral reefs. 全班就保护珊瑚礁举行了一场辩论。"
+      }
+    ],
+    "wordForms": {
+      "noun": "debate",
+      "verb": "debate",
+      "adjective": "debatable (有争议的，值得商榷的)",
+      "adverb": "debatably",
+      "other": "debatable 意为“有争议的”；debate over/about + 名词。近义辨析 argument(偏争吵) / discussion(更中性) / debate(正式对立式讨论)。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Whether humans should mine the deep sea is still open to ____ (debate).",
+        "answer": "debate",
+        "note": "open to debate 为固定搭配“有待商榷”，debate 在此作名词。"
+      },
+      {
+        "type": "汉译英",
+        "question": "科学家们长期争论深海生物如何在高压下生存。(用 debate)",
+        "answer": "Scientists have long debated how deep-sea creatures survive under high pressure.",
+        "note": "debate 作及物动词，后接 how 引导的宾语从句；现在完成时表持续争论。"
+      }
+    ]
+  },
+  {
+    "word": "state",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/steɪt/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 状态，状况；国家，政府，州  v. 陈述，声明，规定",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the condition someone or something is in at a particular time; a nation or its government; (verb) to express something formally in speech or writing",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "国事的，正式而隆重的（作定语）",
+        "example": "The president paid a state visit to Japan. 总统对日本进行了国事访问。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（非正式）激动或慌乱的状态，不安（in a state）",
+        "example": "She was in a real state before the dive. 下潜前她非常紧张不安。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "the States 美国（非正式）",
+        "example": "He moved back to the States last year. 他去年搬回美国了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Please state your name and position clearly."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In the twilight zone, life exists in a strange state."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The report states that many deep-sea species remain unknown."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "state of mind",
+        "translation": "心境，心理状态",
+        "example": "Divers must keep a calm state of mind. 潜水员必须保持冷静的心态。"
+      },
+      {
+        "phrase": "in a state of + n.",
+        "translation": "处于…的状态",
+        "example": "The reef is in a state of decline. 这片珊瑚礁正处于衰退状态。"
+      },
+      {
+        "phrase": "solid/liquid/gaseous state",
+        "translation": "固/液/气态",
+        "example": "Water exists in three states of matter. 水以三种物质状态存在。"
+      },
+      {
+        "phrase": "state clearly that",
+        "translation": "明确声明/指出",
+        "example": "The study states clearly that the species is rare. 研究明确指出该物种稀有。"
+      },
+      {
+        "phrase": "state-of-the-art",
+        "translation": "最先进的，最尖端的",
+        "example": "State-of-the-art submersibles explore the deep sea. 最先进的潜水器探索深海。"
+      },
+      {
+        "phrase": "head of state",
+        "translation": "国家元首",
+        "example": "Several heads of state attended the summit. 几位国家元首出席了峰会。"
+      },
+      {
+        "phrase": "state school",
+        "translation": "公立学校（英）",
+        "example": "In the UK, most children attend state schools. 在英国，大多数孩子上公立学校。"
+      },
+      {
+        "phrase": "as stated above",
+        "translation": "如上所述",
+        "example": "As stated above, sunlight fades below 200 metres. 如上所述，200米以下阳光渐弱。"
+      }
+    ],
+    "wordForms": {
+      "noun": "state 状态/国家；statement 陈述，声明；statesman 政治家",
+      "verb": "state 陈述，声明，规定",
+      "adjective": "stated 规定的，声明的（the stated aim）；stateless 无国籍的",
+      "adverb": "—",
+      "other": "state（陈述）比 say/tell 更正式、书面；state-of-the-art 为连字符复合形容词，作定语"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The report ______ (state) that filter feeders trap tiny particles from the water.",
+        "answer": "states",
+        "note": "主语 report 为第三人称单数，一般现在时谓语加 -s。"
+      },
+      {
+        "type": "汉译英",
+        "question": "科学家仍不清楚这些深海生物的确切状态。（state）",
+        "answer": "Scientists still don't know the exact state of these deep-sea creatures.",
+        "note": "state 作可数名词表“状态、状况”，前常加形容词与冠词 the。"
+      }
+    ]
+  },
+  {
+    "word": "regard",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/rɪˈɡɑːd/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 把…视为，认为；（正式）注视  n. 尊重，敬重；关注，顾及；（复数）问候",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(verb) to think of or consider someone or something in a particular way; (noun) respect, admiration, or attention",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（书面/信函）问候，致意（常用复数 regards）",
+        "example": "Please give my regards to your team. 请代我向你的团队问好。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（正式/文学）注视，端详",
+        "example": "She regarded the strange fish with suspicion. 她以怀疑的目光注视着那条奇怪的鱼。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "关注，顾及（with/without regard for）",
+        "example": "They dived with no regard for the danger. 他们不顾危险就下潜了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Many scientists regard the twilight zone as Earth's last frontier."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Deep-sea explorers often work with little regard for danger."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "She regarded the glowing creature with amazement."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "regard sth as sth",
+        "translation": "把…视为…",
+        "example": "Biologists regard corals as animals. 生物学家把珊瑚视为动物。"
+      },
+      {
+        "phrase": "with/in regard to",
+        "translation": "关于，至于",
+        "example": "With regard to the twilight zone, data is scarce. 关于暮光区，数据很少。"
+      },
+      {
+        "phrase": "have a high regard for",
+        "translation": "高度尊重/评价",
+        "example": "We have a high regard for their research. 我们高度评价他们的研究。"
+      },
+      {
+        "phrase": "give my regards to sb",
+        "translation": "代我向某人问好",
+        "example": "Please give my regards to your parents. 请代我向你父母问好。"
+      },
+      {
+        "phrase": "without regard for",
+        "translation": "不顾，不考虑",
+        "example": "They fished without regard for the environment. 他们捕鱼时不顾环境。"
+      },
+      {
+        "phrase": "kind/best regards",
+        "translation": "此致敬意（信件结尾）",
+        "example": "Best regards, and thanks for your help. 此致敬意，并谢谢你的帮助。"
+      },
+      {
+        "phrase": "in this regard",
+        "translation": "在这一点上，就此而言",
+        "example": "In this regard, more study is needed. 在这一点上，还需更多研究。"
+      },
+      {
+        "phrase": "regard sb with suspicion",
+        "translation": "以怀疑的眼光看待某人",
+        "example": "Locals regarded the newcomers with suspicion. 当地人以怀疑的眼光看待新来者。"
+      }
+    ],
+    "wordForms": {
+      "noun": "regard 尊重/关注；disregard 漠视，无视",
+      "verb": "regard 把…视为；disregard 无视",
+      "adjective": "regardless（of）不顾…的，无论…的",
+      "adverb": "regardless 不管怎样",
+      "other": "regarding = concerning = about 关于（介词）；固定搭配 regard sb/sth as，不用 regard…to be"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Corals are often ______ (regard) as plants, but they are actually animals.",
+        "answer": "regarded",
+        "note": "be regarded as 被动结构，“被视为”。"
+      },
+      {
+        "type": "汉译英",
+        "question": "关于深海勘探，仍有许多未知。（with regard to）",
+        "answer": "With regard to deep-sea exploration, much remains unknown.",
+        "note": "with regard to = 关于，介词短语，后接名词/动名词。"
+      }
+    ]
+  },
+  {
+    "word": "distance",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈdɪstəns/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 距离，间距；远处；（时间的）间隔；（情感）疏远  v. 使疏远，与…保持距离",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the amount of space between two points or things; a faraway point; (verb) to make oneself less involved with someone or something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "distance oneself from 与…疏远，撇清关系",
+        "example": "The firm distanced itself from the scandal. 公司与那起丑闻撇清了关系。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（情感上的）疏远，冷淡",
+        "example": "There was a certain distance in his voice. 他的语气里有几分冷淡。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Sunlight cannot travel the full distance to the ocean floor."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In the distance, a whale rose to breathe."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "He quickly distanced himself from the failed plan."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in the distance",
+        "translation": "在远处",
+        "example": "In the distance, a whale broke the surface. 远处，一头鲸跃出水面。"
+      },
+      {
+        "phrase": "from a distance",
+        "translation": "从远处",
+        "example": "From a distance, the reef looked grey. 从远处看，珊瑚礁一片灰暗。"
+      },
+      {
+        "phrase": "at a distance of ... metres",
+        "translation": "在…米远处",
+        "example": "The twilight zone begins at a distance of 200 metres down. 暮光区始于水下200米处。"
+      },
+      {
+        "phrase": "a safe distance",
+        "translation": "安全距离",
+        "example": "Keep a safe distance from the sharks. 与鲨鱼保持安全距离。"
+      },
+      {
+        "phrase": "within walking distance",
+        "translation": "步行可达的范围内",
+        "example": "The harbour is within walking distance. 港口步行即可到达。"
+      },
+      {
+        "phrase": "keep sb at a distance",
+        "translation": "与某人保持距离，疏远",
+        "example": "She keeps strangers at a distance. 她与陌生人保持距离。"
+      },
+      {
+        "phrase": "distance oneself from",
+        "translation": "使自己疏远/撇清",
+        "example": "He distanced himself from the claim. 他与那种说法撇清了关系。"
+      },
+      {
+        "phrase": "travel a great distance",
+        "translation": "传播/行进很远的距离",
+        "example": "Sound can travel a great distance underwater. 声音在水下能传播很远。"
+      }
+    ],
+    "wordForms": {
+      "noun": "distance 距离，间距",
+      "verb": "distance 使疏远，保持距离",
+      "adjective": "distant 遥远的；疏远冷淡的（a distant relative / a distant manner）",
+      "adverb": "distantly 遥远地；冷淡地",
+      "other": "long-distance 长途的（复合形容词）；distant 兼指空间“遥远”与情感“疏远”"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Scientists measured the ______ (distant) from the surface to the seabed.",
+        "answer": "distance",
+        "note": "冠词 the 后、介词 from 前需用名词，形容词 distant → 名词 distance。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这家公司试图与那起丑闻撇清关系。（distance）",
+        "answer": "The company tried to distance itself from the scandal.",
+        "note": "distance oneself from sth 表“与…疏远、撇清关系”，作动词用。"
+      }
+    ]
+  },
+  {
+    "word": "current",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈkʌrənt/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "n.（水/气/电）流；潮流，趋势  adj. 当前的，现今的；通用的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(noun) a continuous flowing movement of water, air, or electricity; (adjective) happening or existing now",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "流通的，通用的（in current use）",
+        "example": "This word is no longer in current use. 这个词已不再通用。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（思想、情感的）潮流，思潮",
+        "example": "A current of unease ran through the crew. 一股不安的情绪在船员中蔓延。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Strong ocean currents carry nutrients into the twilight zone."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Current research focuses on the deep sea's filter feeders."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The diver was swept away by a powerful current."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "ocean/sea current",
+        "translation": "洋流",
+        "example": "Ocean currents move heat around the planet. 洋流在全球输送热量。"
+      },
+      {
+        "phrase": "warm/cold current",
+        "translation": "暖流/寒流",
+        "example": "A cold current cools the coastal water. 一股寒流使沿岸海水变凉。"
+      },
+      {
+        "phrase": "electric current",
+        "translation": "电流",
+        "example": "The eel produces a strong electric current. 这种鳗鱼能产生强电流。"
+      },
+      {
+        "phrase": "against/with the current",
+        "translation": "逆流/顺流",
+        "example": "It is hard to swim against the current. 逆流游泳很吃力。"
+      },
+      {
+        "phrase": "current affairs",
+        "translation": "时事",
+        "example": "She writes about current affairs. 她撰写时事文章。"
+      },
+      {
+        "phrase": "the current situation/trend",
+        "translation": "当前形势/趋势",
+        "example": "The current trend is toward deeper exploration. 当前趋势是向更深处探索。"
+      },
+      {
+        "phrase": "an undercurrent of",
+        "translation": "暗流；潜藏的（情绪）",
+        "example": "There was an undercurrent of fear on board. 船上潜藏着一股恐惧情绪。"
+      },
+      {
+        "phrase": "the current issue",
+        "translation": "本期（刊物）",
+        "example": "The current issue features deep-sea life. 本期专题是深海生物。"
+      }
+    ],
+    "wordForms": {
+      "noun": "current 水流/电流；currency 货币，通货",
+      "verb": "—",
+      "adjective": "current 当前的，现今的；通用的",
+      "adverb": "currently 目前，现在（= at present）",
+      "other": "current（当前的）≈ present；undercurrent 暗流，潜流；current 没有动词形式"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Warm ocean ______ (current) carry nutrients toward the surface.",
+        "answer": "currents",
+        "note": "current 作“洋流”是可数名词，此处主语为复数，故加 -s。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "______ research on the twilight zone is still limited. (Current / Currently)",
+        "answer": "Current",
+        "note": "修饰名词 research 须用形容词 current；currently 是副词，不能修饰名词。"
+      }
+    ]
+  },
+  {
+    "word": "impact",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈɪmpækt/ (n.)  /ɪmˈpækt/ (v.)",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 影响，作用；冲击，撞击  v. 影响；冲击，撞击",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(noun) a strong effect or influence; the force of one object striking another; (verb) to affect strongly or to strike",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（物理）撞击，碰撞（的力）",
+        "example": "The shell shattered on impact with the rock. 贝壳撞到岩石上就碎了。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "impact on sth 对…产生影响（不及物用法）",
+        "example": "Overfishing impacts on the whole food chain. 过度捕捞影响整个食物链。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Climate change has a huge impact on marine life."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Rising temperatures directly impact fragile coral reefs."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The meteor hit the sea with tremendous impact."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "have an impact on",
+        "translation": "对…有影响",
+        "example": "Warming seas have a serious impact on filter feeders. 海水变暖严重影响滤食动物。"
+      },
+      {
+        "phrase": "make an impact",
+        "translation": "产生影响，留下印象",
+        "example": "The documentary made a big impact. 这部纪录片影响很大。"
+      },
+      {
+        "phrase": "environmental impact",
+        "translation": "环境影响",
+        "example": "The project's environmental impact was assessed. 该项目的环境影响已被评估。"
+      },
+      {
+        "phrase": "a major/significant impact",
+        "translation": "重大影响",
+        "example": "Plastic has a major impact on ocean life. 塑料对海洋生物有重大影响。"
+      },
+      {
+        "phrase": "the impact of A on B",
+        "translation": "A 对 B 的影响",
+        "example": "the impact of warming on coral reefs 变暖对珊瑚礁的影响"
+      },
+      {
+        "phrase": "on impact",
+        "translation": "碰撞时，一撞即…",
+        "example": "The glass broke on impact. 玻璃一撞就碎了。"
+      },
+      {
+        "phrase": "soften/cushion the impact",
+        "translation": "缓和冲击",
+        "example": "Sand helped soften the impact. 沙子缓和了撞击。"
+      },
+      {
+        "phrase": "impact assessment",
+        "translation": "影响评估",
+        "example": "They carried out an impact assessment. 他们进行了影响评估。"
+      }
+    ],
+    "wordForms": {
+      "noun": "impact 影响；撞击",
+      "verb": "impact 影响；撞击",
+      "adjective": "impacted 受影响的；（牙）阻生的；impactful 有影响力的（非正式）",
+      "adverb": "—",
+      "other": "名前动后：名词重读 /ˈɪmpækt/，动词重读 /ɪmˈpækt/；have an impact on = affect = influence"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Ocean warming has had a serious ______ (impact) on coral reefs.",
+        "answer": "impact",
+        "note": "have/had a(n) … impact on 为固定名词搭配，此处填名词原形。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "In “Rising temperatures impact marine life,” the word impact is used as a ______. (noun / verb)",
+        "answer": "verb",
+        "note": "此处 impact 后直接跟宾语，作及物动词，重音后移读 /ɪmˈpækt/。"
+      }
+    ]
+  },
+  {
+    "word": "rise",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/raɪz/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 上升，升起；起身；增加，上涨；（地位）提升  n. 上升，增加；（英）加薪；斜坡，小丘",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(verb) to move upward or increase in amount, level, or number; (noun) an increase or an upward movement",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（英）加薪（= 美式 raise）",
+        "example": "She asked her boss for a pay rise. 她向老板要求加薪。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "起义，反抗（rise up against）",
+        "example": "The people rose up against the ruler. 人民起来反抗统治者。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（江河）发源",
+        "example": "The river rises in the mountains. 这条河发源于群山之中。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "As we descend, the water pressure rises sharply."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Sea levels are rising because of global warming."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "There has been a steady rise in ocean temperatures."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a rise in temperature/sea level",
+        "translation": "温度/海平面的上升",
+        "example": "The rise in sea temperature threatens corals. 海水温度上升威胁珊瑚。"
+      },
+      {
+        "phrase": "give rise to",
+        "translation": "引起，导致",
+        "example": "Warming seas give rise to coral bleaching. 海水变暖引发珊瑚白化。"
+      },
+      {
+        "phrase": "rise to the surface",
+        "translation": "升到水面",
+        "example": "Bubbles slowly rise to the surface. 气泡慢慢升到水面。"
+      },
+      {
+        "phrase": "rise sharply/steadily",
+        "translation": "急剧/稳步上升",
+        "example": "Ocean acidity has risen sharply. 海洋酸度急剧上升。"
+      },
+      {
+        "phrase": "on the rise",
+        "translation": "在上升，在增加",
+        "example": "Sea levels are on the rise. 海平面正在上升。"
+      },
+      {
+        "phrase": "rise and fall",
+        "translation": "起落，涨落",
+        "example": "the rise and fall of the tides 潮水的涨落"
+      },
+      {
+        "phrase": "a pay rise",
+        "translation": "加薪（英）",
+        "example": "The workers demanded a pay rise. 工人们要求加薪。"
+      },
+      {
+        "phrase": "rise up against",
+        "translation": "起义反抗",
+        "example": "The colonists rose up against the empire. 殖民地人民起来反抗帝国。"
+      }
+    ],
+    "wordForms": {
+      "noun": "rise 上升，增加；（英）加薪；early riser 早起的人",
+      "verb": "rise（rose, risen）上升，不及物",
+      "adjective": "rising 上升的，增长的（rising sea levels）",
+      "adverb": "—",
+      "other": "rise 不及物无宾语 / raise 及物需宾语 / arise 出现、发生，三者勿混；give rise to 引起"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Sea levels have ______ (rise) steadily over the past century.",
+        "answer": "risen",
+        "note": "现在完成时用过去分词；rise-rose-risen，勿与 raise-raised-raised 混淆。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "Global warming has caused sea temperatures to ______. (rise / raise)",
+        "answer": "rise",
+        "note": "温度自身“上升”用不及物动词 rise；raise 及物，须带宾语。"
+      }
+    ]
+  },
+  {
+    "word": "rate",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/reɪt/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 速度；速率；比率；(出生/死亡等)率；价格/费用；等级  v. 评估；评价；把…列为；被列为",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) the speed or frequency at which something happens, or a proportion/charge measured against another quantity; (v.) to assess or be regarded as having a particular standard or value.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "价格；收费；费率",
+        "example": "Hotels charge a higher rate during the peak diving season."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "认为；把…评价为",
+        "example": "Scientists rate the twilight zone as one of the least explored places on Earth."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Coral reefs are dying at an alarming rate."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A dolphin's heart rate drops sharply when it dives."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Experts rate this reef among the world's healthiest."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "at a(n) ... rate",
+        "translation": "以…的速度/速率",
+        "example": "Plastic enters the ocean at an alarming rate. 塑料正以惊人的速度进入海洋。"
+      },
+      {
+        "phrase": "the rate of sth",
+        "translation": "…的速率",
+        "example": "The rate of coral bleaching has risen sharply. 珊瑚白化的速率急剧上升。"
+      },
+      {
+        "phrase": "survival / birth / death rate",
+        "translation": "存活率/出生率/死亡率",
+        "example": "Filter feeders have a high survival rate on the reef. 滤食动物在珊瑚礁上存活率很高。"
+      },
+      {
+        "phrase": "at this rate",
+        "translation": "照这样下去",
+        "example": "At this rate, the species will soon vanish. 照这样下去,这个物种很快就会消失。"
+      },
+      {
+        "phrase": "at any rate",
+        "translation": "无论如何；至少",
+        "example": "At any rate, we must protect the reefs. 无论如何,我们必须保护珊瑚礁。"
+      },
+      {
+        "phrase": "growth rate",
+        "translation": "生长速度；增长率",
+        "example": "Deep-water corals have a very slow growth rate. 深水珊瑚生长速度非常缓慢。"
+      },
+      {
+        "phrase": "heart rate",
+        "translation": "心率",
+        "example": "The whale lowers its heart rate to save oxygen. 鲸降低心率以节省氧气。"
+      },
+      {
+        "phrase": "exchange / interest rate",
+        "translation": "汇率/利率",
+        "example": "The exchange rate changed overnight. 汇率一夜之间变了。"
+      }
+    ],
+    "wordForms": {
+      "noun": "rate；rating (评级；收视率)",
+      "verb": "rate",
+      "adjective": "first-rate 一流的 / second-rate 二流的",
+      "adverb": "—",
+      "other": "构词:first-rate/second-rate 复合形容词；辨析 rate(速率,可数)vs speed(速度)vs pace(步调节奏)；heart rate 两词分写"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Coral reefs are disappearing at an alarming ____ (rate). 珊瑚礁正以惊人的速度消失。",
+        "answer": "rate",
+        "note": "at a(n) ... rate 固定搭配,表'以…的速度/速率'"
+      },
+      {
+        "type": "汉译英",
+        "question": "照这样下去,这个物种就会灭绝。(rate)",
+        "answer": "At this rate, the species will die out.",
+        "note": "at this rate 照这样下去,rate 前不加复数"
+      }
+    ]
+  },
+  {
+    "word": "trap",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/træp/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 陷阱；圈套；困境  v. 诱捕；使受困；截留/困住(热量、气体、颗粒等)",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a device or trick for catching animals or people, or a difficult situation hard to escape; (v.) to catch or hold something so that it cannot escape.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "截留；困住(热量、气体、水等物质)",
+        "example": "The ocean traps huge amounts of heat from the sun."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "圈套；骗局(诱人上当的问题或计谋)",
+        "example": "The tricky question was a trap to catch careless students."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Filter feeders trap tiny food particles from the water."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The diver was trapped in the wreck by the current."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Ghost nets are a deadly trap for dolphins."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "trap sth/sb in",
+        "translation": "把…困在/截留在",
+        "example": "The oil slick trapped seabirds in the water. 浮油把海鸟困在水中。"
+      },
+      {
+        "phrase": "be trapped in / under",
+        "translation": "被困在…里/下面",
+        "example": "A seal was trapped under the ice. 一只海豹被困在冰层下面。"
+      },
+      {
+        "phrase": "set / lay a trap",
+        "translation": "设陷阱；设圈套",
+        "example": "Poachers set traps for sea turtles. 偷猎者为海龟设下陷阱。"
+      },
+      {
+        "phrase": "fall into a trap",
+        "translation": "落入陷阱",
+        "example": "Small fish fall into the anemone's trap. 小鱼落入海葵的陷阱。"
+      },
+      {
+        "phrase": "trap heat / gas",
+        "translation": "截留热量/气体",
+        "example": "Greenhouse gases trap heat in the atmosphere. 温室气体把热量截留在大气层中。"
+      },
+      {
+        "phrase": "trap food / particles",
+        "translation": "滤住食物/颗粒",
+        "example": "Baleen traps plankton from the seawater. 鲸须从海水中滤住浮游生物。"
+      },
+      {
+        "phrase": "a death trap",
+        "translation": "死亡陷阱",
+        "example": "Abandoned nets are a death trap for marine life. 废弃渔网是海洋生物的死亡陷阱。"
+      }
+    ],
+    "wordForms": {
+      "noun": "trap；trapper (设陷阱者;捕兽人)",
+      "verb": "trap (trapped, trapped, trapping)",
+      "adjective": "trapped 被困的",
+      "adverb": "—",
+      "other": "重读闭音节双写辅音:trap→trapped/trapping；辨析 trap(诱捕/困住,含设计意味)vs catch(抓住,泛用)vs capture(俘获,强调过程)"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The dolphins were ____ (trap) in the fishing net for hours. 海豚被困在渔网里数小时。",
+        "answer": "trapped",
+        "note": "be trapped in 被困在;trap 重读闭音节,过去分词双写 p"
+      },
+      {
+        "type": "辨析选词",
+        "question": "Baleen whales ____ (trap / catch) plankton by filtering seawater. 须鲸通过过滤海水滤住浮游生物。",
+        "answer": "trap",
+        "note": "trap 强调'滤住/困住细小颗粒',贴合滤食(filter feeder)主题;catch 太笼统"
+      }
+    ]
+  },
+  {
+    "word": "rather",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈrɑːðə/",
+    "partOfSpeech": "adv.",
+    "translation": "adv. 相当；有点；(与 would 连用)宁可；(or rather)更确切地说；(正式)相反,倒是",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to a fairly large degree; used to express preference (with 'would'); or to correct or contrast a previous statement.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adv.",
+        "meaning": "更确切地说(用于纠正前言,常作 or rather)",
+        "example": "We saw a squid, or rather a giant squid."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "meaning": "(正式)相反;倒是(否定前句,提出相反情况)",
+        "example": "The deep sea is not empty; rather, it teems with life."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "The twilight zone is rather dark and cold."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "I would rather explore the reef than the open sea."
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "It's a mammal, or rather, a marine mammal."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "would rather do (than do)",
+        "translation": "宁愿做…(而不做…)",
+        "example": "Divers would rather wait than risk the storm. 潜水员宁愿等待也不愿冒险闯风暴。"
+      },
+      {
+        "phrase": "rather than",
+        "translation": "而不是",
+        "example": "Corals feed by filtering rather than hunting. 珊瑚靠过滤而不是捕猎进食。"
+      },
+      {
+        "phrase": "or rather",
+        "translation": "更确切地说",
+        "example": "a fish, or rather a lanternfish 一条鱼,更确切地说是一条灯笼鱼"
+      },
+      {
+        "phrase": "rather like",
+        "translation": "有点像;相当像",
+        "example": "A ray looks rather like a flattened shark. 蝠鲼看起来有点像被压扁的鲨鱼。"
+      },
+      {
+        "phrase": "rather too",
+        "translation": "未免太…",
+        "example": "The water here is rather too deep to dive. 这里的水未免太深,无法下潜。"
+      },
+      {
+        "phrase": "rather a lot / a few",
+        "translation": "相当多",
+        "example": "There are rather a lot of jellyfish this year. 今年的水母相当多。"
+      },
+      {
+        "phrase": "would rather sb did",
+        "translation": "宁愿某人做(从句用过去式)",
+        "example": "I would rather you didn't touch the coral. 我宁愿你别碰珊瑚。"
+      }
+    ],
+    "wordForms": {
+      "noun": "—",
+      "verb": "—",
+      "adjective": "—",
+      "adverb": "rather",
+      "other": "程度副词,可修饰形容词/副词/动词/名词短语(rather a mess)；辨析:would rather do than do(后接动词原形)vs prefer to do rather than do；rather than 连接平行成分;or rather 用于纠正"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "Filter feeders get food by filtering, ____ ____ (而不是) hunting. 滤食动物靠过滤而不是捕猎获取食物。",
+        "answer": "rather than",
+        "note": "rather than 连接两个平行成分(filtering / hunting),前后形式一致"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "I would rather you ____ (not touch) the fragile coral. 我宁愿你别碰脆弱的珊瑚。",
+        "answer": "didn't touch",
+        "note": "would rather + 从句时,从句用一般过去式表现在或将来的愿望"
+      }
+    ]
+  },
+  {
+    "word": "drill",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/drɪl/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 钻头；钻机；(重复的)操练/训练；(应急)演习  v. 钻孔；操练；反复灌输",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a tool for boring holes, or repetitive training / a practice exercise; (v.) to make a hole with a drill, or to train and teach by repetition.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(应急)演习",
+        "example": "The crew ran a lifeboat drill before the deep-sea dive."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "把…反复灌输(给某人);反复操练",
+        "example": "The teacher drilled the new words into the students."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Oil companies drill deep beneath the seabed."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The students did a pronunciation drill in class."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The ship holds a safety drill every month."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "drill for oil / gas",
+        "translation": "钻探石油/天然气",
+        "example": "Firms now drill for oil far out at sea. 公司如今在远海钻探石油。"
+      },
+      {
+        "phrase": "drill a hole (in)",
+        "translation": "(在…上)钻孔",
+        "example": "Some sea snails drill a hole in shells to feed. 有些海螺在贝壳上钻孔取食。"
+      },
+      {
+        "phrase": "a fire / safety / emergency drill",
+        "translation": "消防/安全/应急演习",
+        "example": "The crew practised an emergency drill. 船员演练了一次应急演习。"
+      },
+      {
+        "phrase": "drill sth into sb",
+        "translation": "把…反复灌输给某人",
+        "example": "The coach drilled the rules into the team. 教练把规则反复灌输给队伍。"
+      },
+      {
+        "phrase": "an electric drill",
+        "translation": "电钻",
+        "example": "He bored the hole with an electric drill. 他用电钻钻了这个孔。"
+      },
+      {
+        "phrase": "a drilling rig / platform",
+        "translation": "钻井平台",
+        "example": "The drilling platform threatens nearby marine life. 钻井平台威胁着附近的海洋生物。"
+      },
+      {
+        "phrase": "grammar / pronunciation drill",
+        "translation": "语法/发音操练",
+        "example": "We did a listening drill in class. 我们在课上做了一次听力操练。"
+      }
+    ],
+    "wordForms": {
+      "noun": "drill；driller (钻探者);drilling (钻探;操练)",
+      "verb": "drill",
+      "adjective": "—",
+      "adverb": "—",
+      "other": "一词多义串联:钻(工具/动作)→操练(重复训练)→演习;辨析 drill(反复操练某项技能)vs train(全面训练)vs practise(练习)"
+    },
+    "classPractice": [
+      {
+        "type": "汉译英",
+        "question": "石油公司在海底深处钻探。(drill)",
+        "answer": "Oil companies drill deep beneath the seabed.",
+        "note": "drill 作动词'钻探',drill for oil 钻探石油"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "The whole crew took part in a fire ____ (drill) before sailing. 起航前全体船员参加了一次消防演习。",
+        "answer": "drill",
+        "note": "drill 此处为名词'演习',a fire drill 消防演习"
+      }
+    ]
+  },
+  {
+    "word": "intense",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ɪnˈtens/",
+    "partOfSpeech": "adj.",
+    "translation": "adj. 强烈的；剧烈的；紧张的；(感情/态度)热切的、认真的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "of very great force, strength, degree or amount; or (of a person) very earnest and having strong feelings.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "(人)热切认真的;感情强烈的",
+        "example": "She is an intense young scientist who thinks about nothing but the deep sea."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The pressure in the deep sea is intense."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Below 200 metres there is intense darkness."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "There is intense competition for food down here."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "intense pressure",
+        "translation": "强大的压力",
+        "example": "The intense pressure would crush most submarines. 强大的压力会压毁大多数潜艇。"
+      },
+      {
+        "phrase": "intense cold / heat",
+        "translation": "严寒/酷热",
+        "example": "Deep-sea creatures survive the intense cold. 深海生物能在严寒中存活。"
+      },
+      {
+        "phrase": "intense competition",
+        "translation": "激烈的竞争",
+        "example": "There is intense competition for light near the surface. 近海面对光的竞争非常激烈。"
+      },
+      {
+        "phrase": "intense pain",
+        "translation": "剧痛",
+        "example": "A jellyfish sting causes intense pain. 水母蜇伤会引起剧痛。"
+      },
+      {
+        "phrase": "intense darkness / light",
+        "translation": "浓黑/强光",
+        "example": "The twilight zone fades into intense darkness. 暮光区渐渐没入浓黑之中。"
+      },
+      {
+        "phrase": "intense interest",
+        "translation": "浓厚的兴趣",
+        "example": "Scientists take an intense interest in the twilight zone. 科学家对暮光区抱有浓厚的兴趣。"
+      },
+      {
+        "phrase": "intense concentration",
+        "translation": "高度专注；全神贯注",
+        "example": "Piloting the submersible demands intense concentration. 驾驶深潜器需要全神贯注。"
+      }
+    ],
+    "wordForms": {
+      "noun": "intensity 强度;intensification 加剧",
+      "verb": "intensify 加强;增强",
+      "adjective": "intense 强烈的 / intensive 密集的、集中的",
+      "adverb": "intensely 强烈地 / intensively 集中地、密集地",
+      "other": "重点辨析 intense(程度强烈,多指主观感受:intense pain/heat)vs intensive(高度集中/密集:intensive care 重症监护、intensive farming 集约农业);名词 intensity,动词 intensify"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "The deep sea puts creatures under ____ (intense / intensive) pressure. 深海使生物承受强大的压力。",
+        "answer": "intense",
+        "note": "intense 强调程度强烈;intensive 意为'密集/集中的',此处不通"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "As you sink deeper, the pressure ____ (intense) rapidly. 越往下沉,压力增强得越快。",
+        "answer": "intensifies",
+        "note": "此处需动词,intense→intensify(增强);主语第三人称单数用 intensifies"
+      }
+    ]
+  },
+  {
+    "word": "close",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/kləʊs/ (adj./adv.)，/kləʊz/ (v./n.结束义)",
+    "partOfSpeech": "adj. & adv. & v. & n.",
+    "translation": "adj. 近的；亲密的；仔细的；势均力敌的  adv. 靠近地  v. 关闭；结束；(使)靠拢  n. 结束；末尾",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(adj./adv., /kləʊs/) near in space, time or relationship, or careful and thorough; (v., /kləʊz/) to shut or bring to an end.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "势均力敌的;不相上下的(比赛/结果)",
+        "example": "It was a close race between the two research teams."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "(空气)闷热的;不通风的",
+        "example": "The air inside the diving cabin felt close and stuffy."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "结束;末尾(常作 the close of)",
+        "example": "The expedition came to a close at dusk."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Most marine life lives close to the surface."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The sea anemone closes around its prey."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A close look reveals tiny filter feeders."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "close to",
+        "translation": "靠近；接近",
+        "example": "Most marine life lives close to the surface. 大多数海洋生物生活在接近海面的地方。"
+      },
+      {
+        "phrase": "a close look / examination",
+        "translation": "仔细观察",
+        "example": "Take a close look at the plankton. 仔细观察这些浮游生物。"
+      },
+      {
+        "phrase": "pay close attention to",
+        "translation": "密切关注",
+        "example": "Scientists pay close attention to reef health. 科学家密切关注珊瑚礁的健康。"
+      },
+      {
+        "phrase": "a close relationship",
+        "translation": "密切的关系",
+        "example": "Corals and algae have a close relationship. 珊瑚与藻类关系密切。"
+      },
+      {
+        "phrase": "a close call / shave",
+        "translation": "侥幸脱险；千钧一发",
+        "example": "The diver had a close call with a shark. 潜水员与鲨鱼擦身而过,险些遇险。"
+      },
+      {
+        "phrase": "come to a close",
+        "translation": "结束",
+        "example": "The dive came to a close at dusk. 潜水在黄昏时结束。"
+      },
+      {
+        "phrase": "close in",
+        "translation": "(黑暗/夜幕等)逼近;笼罩",
+        "example": "Darkness closes in below 200 metres. 200米以下,黑暗渐渐笼罩。"
+      },
+      {
+        "phrase": "close by",
+        "translation": "在附近",
+        "example": "A shark lurked close by. 一条鲨鱼潜伏在附近。"
+      }
+    ],
+    "wordForms": {
+      "noun": "close 结束;closure 关闭、倒闭;closeness 亲密",
+      "verb": "close",
+      "adjective": "close 近的;closed 关闭的;closing 结尾的",
+      "adverb": "close 靠近地 / closely 密切地、仔细地",
+      "other": "一词二音:形容词/副词 /kləʊs/,动词及'结束'义名词 /kləʊz/;副词辨析 close(空间上靠近:stand close)vs closely(密切/仔细:watch closely)"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Scientists watched the filter feeders ____ (close) to see how they eat. 科学家仔细观察滤食动物如何进食。",
+        "answer": "closely",
+        "note": "'仔细地/密切地'用 closely;close 作副词只表空间上'靠近'"
+      },
+      {
+        "type": "汉译英",
+        "question": "大多数海洋生物生活在接近海面的地方。(close)",
+        "answer": "Most marine life lives close to the surface.",
+        "note": "close to 接近;此处 close 为形容词/副词,读 /kləʊs/"
+      }
+    ]
+  },
+  {
+    "word": "storage",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈstɔːrɪdʒ/",
+    "partOfSpeech": "n.",
+    "translation": "n. 储存，存放；保管；储藏空间；（数据/计算机）存储，存储容量",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the keeping of things somewhere until they are needed; the space or capacity used for this",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（计算机/数据）存储，存储空间，存储容量",
+        "example": "The dive camera has 256 GB of storage for deep-sea footage. 这台深潜相机有256GB存储空间用于深海影像。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The twilight zone plays a key role in the storage of carbon."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "We need more storage for the marine research equipment."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in storage",
+        "translation": "存放着，在储藏中（暂不使用）",
+        "example": "The old diving suits are kept in storage. 旧潜水服存放在仓库里。"
+      },
+      {
+        "phrase": "carbon storage",
+        "translation": "碳封存，碳储存",
+        "example": "The deep ocean is vital for long-term carbon storage. 深海对长期碳封存至关重要。"
+      },
+      {
+        "phrase": "energy storage",
+        "translation": "能量储存",
+        "example": "Whales rely on fat as energy storage. 鲸依靠脂肪作为能量储存。"
+      },
+      {
+        "phrase": "data / cloud storage",
+        "translation": "数据/云存储",
+        "example": "Researchers uploaded the samples to cloud storage. 研究人员把样本数据上传到云存储。"
+      },
+      {
+        "phrase": "storage space / capacity",
+        "translation": "储存空间/存储容量",
+        "example": "The submarine has limited storage space. 潜水器的储存空间有限。"
+      },
+      {
+        "phrase": "food storage",
+        "translation": "食物储存",
+        "example": "Proper food storage is vital on long research voyages. 妥善的食物储存在长途科考航行中至关重要。"
+      },
+      {
+        "phrase": "cold storage",
+        "translation": "冷藏；（比喻）搁置，暂缓",
+        "example": "The fresh catch was put into cold storage. 新鲜渔获被放进冷藏库。"
+      }
+    ],
+    "wordForms": {
+      "noun": "storage 储存；store 商店；储备，储存物",
+      "verb": "store 储存，存放",
+      "adjective": "stored 储存的（stored energy 储存的能量）",
+      "other": "构词：store(v.存储)+‑age(名词后缀，表行为/状态)→storage；不可数名词，无复数；重音在首音节 /ˈstɔːr‑/。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Filter feeders depend on the ______ (store) of energy as fat to survive the deep cold.",
+        "answer": "storage",
+        "note": "store(v.)+‑age 变名词；of 短语的中心词要用名词 storage。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这些深海数据被安全地保存在云存储中。（cloud storage）",
+        "answer": "The deep-sea data is safely kept in cloud storage.",
+        "note": "storage 不可数；cloud/data storage 固定搭配，无复数。"
+      }
+    ]
+  },
+  {
+    "word": "root",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ruːt/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 根，根部；根源，根本原因；（pl.）根基，祖籍，故土；词根；（数学）方根 v. 生根，扎根；使固定不动；（root out）根除；（root for）支持，声援",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the part of a plant that grows underground; the origin or basic cause of something; (v.) to grow roots or become fixed",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "根源，根本原因",
+        "example": "Overfishing is the root of the problem. 过度捕捞是这个问题的根源。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数 roots）根基，出身，祖籍",
+        "example": "She never forgot her roots. 她从未忘记自己的根。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "root out 根除，铲除",
+        "example": "We must root out pollution along the coast. 我们必须根除沿海的污染。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "root for sb（美，口语）为……加油，声援",
+        "example": "The whole team was rooting for the divers. 全队都在为潜水员加油。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Unlike land plants, seaweeds have no real roots and cling to rocks."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "His fear of the deep is rooted in a childhood memory."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Curiosity is the root of all scientific discovery."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the root of the problem",
+        "translation": "问题的根源",
+        "example": "Warming water is the root of the reef's decline. 水温上升是珊瑚礁衰退的根源。"
+      },
+      {
+        "phrase": "take root",
+        "translation": "生根，扎根；（观念等）确立",
+        "example": "The idea of ocean protection soon took root. 保护海洋的理念很快扎下了根。"
+      },
+      {
+        "phrase": "be rooted in sth",
+        "translation": "根植于，源于",
+        "example": "Marine science is rooted in careful observation. 海洋科学植根于细致的观察。"
+      },
+      {
+        "phrase": "root out sth",
+        "translation": "根除，铲除",
+        "example": "The plan aims to root out plastic waste. 该计划旨在根除塑料垃圾。"
+      },
+      {
+        "phrase": "root for sb",
+        "translation": "为……加油，支持",
+        "example": "Everyone was rooting for the young biologist. 大家都在为这位年轻生物学家加油。"
+      },
+      {
+        "phrase": "put down roots",
+        "translation": "落地生根，定居",
+        "example": "Mangroves put down roots in shallow seawater. 红树林在浅海海水中扎根。"
+      },
+      {
+        "phrase": "square root",
+        "translation": "平方根",
+        "example": "The square root of 144 is 12. 144的平方根是12。"
+      }
+    ],
+    "wordForms": {
+      "noun": "root 根；根源；roots 根基，祖籍",
+      "verb": "root 生根；根除(out)；支持(for)",
+      "adjective": "rooted 根深蒂固的；rootless 无根的，漂泊的",
+      "other": "复数 roots 常指“根基/祖籍/故土”；辨清 take root(生根，不及物) 与 root out(根除，及物)；/ruːt/ 与 route(英/ruːt/) 同音。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "The government promised to ______ (take root / root out) corruption in the fishing industry.",
+        "answer": "root out",
+        "note": "root out=eliminate 根除，及物；take root=生根扎根，不及物，不能带宾语。"
+      },
+      {
+        "type": "完成句子",
+        "question": "他对深海的恐惧源于童年的一次经历。His fear of the deep ______ ______ ______ a childhood experience.",
+        "answer": "is rooted in",
+        "note": "be rooted in=源于，根植于；主语单数用 is。"
+      }
+    ]
+  },
+  {
+    "word": "sweep",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/swiːp/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 打扫，清扫；席卷，横扫；（风、浪、水流）猛刮、卷走；掠过，扫过；蔓延，扩散；快速移动 n. 打扫；挥动；（海岸、道路等的）绵延，一大片；彻底的胜利",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to clean a surface with a brush; to move or spread quickly and forcefully across an area",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（风、浪、情绪等）席卷，横扫，迅速蔓延",
+        "example": "A wave of panic swept through the crowd. 一阵恐慌席卷了人群。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（水流、风）冲走，卷走",
+        "example": "The current swept the diver out to sea. 水流把潜水员卷向大海。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "掠过，扫过；（目光）扫视",
+        "example": "Her eyes swept the dark horizon. 她的目光扫过黑暗的地平线。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（海岸线、道路等的）绵延，一大片",
+        "example": "We admired the wide sweep of coastline. 我们欣赏着绵延的海岸线。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Strong currents sweep tiny food particles down to filter feeders."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "A wave of excitement swept through the research team."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She gave the deck a quick sweep before the dive."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "sweep the floor / deck",
+        "translation": "扫地/扫甲板",
+        "example": "The sailors swept the deck every morning. 水手们每天早上打扫甲板。"
+      },
+      {
+        "phrase": "sweep through",
+        "translation": "席卷，横扫；迅速蔓延",
+        "example": "A cold current swept through the reef. 一股寒流席卷了珊瑚礁。"
+      },
+      {
+        "phrase": "sweep away",
+        "translation": "冲走，席卷；彻底清除",
+        "example": "The storm swept away part of the pier. 风暴冲走了码头的一部分。"
+      },
+      {
+        "phrase": "sweep sb/sth out to sea",
+        "translation": "把……卷入大海",
+        "example": "The tide swept the raft out to sea. 潮水把木筏卷入大海。"
+      },
+      {
+        "phrase": "sweep across",
+        "translation": "横扫，掠过",
+        "example": "Searchlights swept across the black water. 探照灯扫过漆黑的水面。"
+      },
+      {
+        "phrase": "make a clean sweep",
+        "translation": "大获全胜；彻底清除",
+        "example": "Our team made a clean sweep of the medals. 我们队包揽了所有奖牌。"
+      },
+      {
+        "phrase": "a sweep of sth",
+        "translation": "一大片，绵延的……",
+        "example": "Below us lay a vast sweep of ocean. 我们脚下是一大片海洋。"
+      }
+    ],
+    "wordForms": {
+      "noun": "sweep 打扫；绵延；彻底胜利；sweeper 清扫工/清扫器",
+      "verb": "sweep 扫；席卷；掠过（sweep-swept-swept）",
+      "adjective": "sweeping 影响广泛的，大范围的；笼统的（sweeping changes / a sweeping statement）",
+      "adverb": "sweepingly 广泛地，一概地",
+      "other": "不规则动词 sweep-swept-swept；sweeping 既可指“全面的(reforms)”，也可贬指“以偏概全的(generalization)”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Last night a violent storm ______ (sweep) away part of the floating research platform.",
+        "answer": "swept",
+        "note": "sweep-swept-swept 为不规则动词；Last night 提示用一般过去时。"
+      },
+      {
+        "type": "汉译英",
+        "question": "谣言迅速传遍了整个村庄。（sweep through）",
+        "answer": "The rumour quickly swept through the village.",
+        "note": "sweep through=席卷、迅速蔓延；此处用过去式 swept。"
+      }
+    ]
+  },
+  {
+    "word": "balance",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈbæləns/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 平衡，均衡；天平，秤；（银行账户）余额，结余；差额，余款 v. （使）平衡；权衡；结算（账目）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "an even distribution that keeps something steady; (v.) to keep or put something in a steady, even state",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（银行账户）余额，结余",
+        "example": "Please check your account balance. 请查看你的账户余额。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "天平，秤",
+        "example": "The plankton was weighed on a delicate balance. 浮游生物在精密天平上称重。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Filter feeders help keep the ocean's ecosystem in balance."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The diver struggled to balance on the rocking boat."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "We must balance economic needs against ocean conservation."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "keep / lose your balance",
+        "translation": "保持/失去平衡",
+        "example": "The seal lost its balance on the wet rock. 海豹在湿滑的岩石上失去了平衡。"
+      },
+      {
+        "phrase": "the balance of nature",
+        "translation": "自然界的平衡，生态平衡",
+        "example": "Deep-sea creatures help maintain the balance of nature. 深海生物有助于维持生态平衡。"
+      },
+      {
+        "phrase": "upset the balance",
+        "translation": "打破平衡",
+        "example": "Overfishing can upset the balance of the marine ecosystem. 过度捕捞会打破海洋生态的平衡。"
+      },
+      {
+        "phrase": "strike / find a balance (between)",
+        "translation": "（在……之间）找到平衡点",
+        "example": "We must strike a balance between fishing and conservation. 我们必须在捕鱼与保护之间找到平衡。"
+      },
+      {
+        "phrase": "a balanced diet",
+        "translation": "均衡的饮食",
+        "example": "A balanced diet keeps the crew healthy during long voyages. 均衡的饮食让船员在长途航行中保持健康。"
+      },
+      {
+        "phrase": "on balance",
+        "translation": "总的来说，权衡之下",
+        "example": "On balance, the expedition succeeded. 总的来说，这次考察是成功的。"
+      },
+      {
+        "phrase": "account / bank balance",
+        "translation": "账户/银行余额",
+        "example": "The project's bank balance ran low. 项目的银行余额所剩不多。"
+      }
+    ],
+    "wordForms": {
+      "noun": "balance 平衡；余额；imbalance 不平衡，失衡",
+      "verb": "balance 使平衡；权衡",
+      "adjective": "balanced 平衡的，均衡的；unbalanced 不平衡的",
+      "other": "辨清 on balance(总的来说) 与 in balance(处于平衡状态)；反义名词 imbalance；固定搭配 a balanced diet。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "A ______ (balance) diet keeps deep-sea divers healthy and alert.",
+        "answer": "balanced",
+        "note": "balanced 为过去分词转化的形容词作定语，意为“均衡的”。"
+      },
+      {
+        "type": "汉译英",
+        "question": "我们必须在发展与海洋保护之间找到平衡。（strike a balance）",
+        "answer": "We must strike a balance between development and ocean conservation.",
+        "note": "strike / find a balance between A and B=在A与B之间取得平衡。"
+      }
+    ]
+  },
+  {
+    "word": "objective",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 1",
+    "pronunciation": "/əbˈdʒektɪv/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "n. 目标，目的；（军事）攻击目标；（显微镜、望远镜的）物镜 adj. 客观的，不带个人偏见的；（语法）宾格的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a thing you aim at or want to achieve; (adj.) based on facts, not influenced by personal feelings",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "客观的，如实的（与 subjective 主观的相对）",
+        "example": "Scientists must give an objective account of the data. 科学家必须如实客观地陈述数据。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（显微镜、望远镜的）物镜",
+        "example": "She adjusted the microscope's objective to study plankton. 她调节显微镜的物镜来观察浮游生物。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The main objective of the dive was to film filter feeders."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Scientists must stay objective when studying the twilight zone."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "We need objective data, not personal opinions."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "achieve / meet an objective",
+        "translation": "达成目标",
+        "example": "The team achieved its research objective. 团队达成了研究目标。"
+      },
+      {
+        "phrase": "the main / primary objective",
+        "translation": "主要目标",
+        "example": "The primary objective was to map the seabed. 主要目标是绘制海床图。"
+      },
+      {
+        "phrase": "set an objective",
+        "translation": "设定目标",
+        "example": "They set a clear objective before diving. 他们下潜前设定了明确的目标。"
+      },
+      {
+        "phrase": "an objective view / assessment",
+        "translation": "客观的看法/评估",
+        "example": "We need an objective view of the coral's health. 我们需要对珊瑚健康状况的客观评估。"
+      },
+      {
+        "phrase": "objective data / evidence",
+        "translation": "客观数据/证据",
+        "example": "The sensors provide objective data on water temperature. 传感器提供关于水温的客观数据。"
+      },
+      {
+        "phrase": "be objective about sth",
+        "translation": "客观看待……",
+        "example": "Try to be objective about the results. 尽量客观看待这些结果。"
+      },
+      {
+        "phrase": "learning objectives",
+        "translation": "学习目标",
+        "example": "This unit's learning objectives include marine vocabulary. 本单元的学习目标包括海洋词汇。"
+      }
+    ],
+    "wordForms": {
+      "noun": "objective 目标；object 物体，目标，宾语；objectivity 客观性",
+      "verb": "object /əbˈdʒekt/ 反对，抗议",
+      "adjective": "objective 客观的（≠ subjective 主观的）",
+      "adverb": "objectively 客观地",
+      "other": "重音辨析：名词/形容词 objective 与动词 object 重音都在第二音节；名词 object /ˈɒbdʒɪkt/ 重音前移；反义词 subjective。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "A good scientist keeps an ______ (objective / subjective) view, free from personal bias.",
+        "answer": "objective",
+        "note": "objective=客观的，不受个人情感影响；subjective=主观的，恰为反义。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这次考察的主要目标是研究深海滤食动物。（objective）",
+        "answer": "The main objective of the expedition was to study deep-sea filter feeders.",
+        "note": "objective 作名词=目标(goal)；the main objective 为常见搭配。"
+      }
+    ]
   }
 ]
