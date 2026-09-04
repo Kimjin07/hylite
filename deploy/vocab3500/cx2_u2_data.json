@@ -7105,5 +7105,1251 @@
         "note": "find shelter ≈ take refuge，都表\"躲避（风雨）\"；take refuge 为固定搭配，refuge 不可数。"
       }
     ]
+  },
+  {
+    "word": "address",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/əˈdres/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 处理，设法解决（问题、困难）；向……讲话，发表演说；称呼；在（信封等）上写地址 n. 地址，住址；演讲，致辞",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to think seriously about a problem or situation and start dealing with it; also, to speak formally to a group of people, or the place where somebody lives.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "称呼（某人），（以某种头衔）称谓，常用 address sb as...",
+        "example": "Should we address her as Professor or Doctor? 我们该称呼她教授还是博士？"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "在（信件、包裹）上写收件人姓名地址",
+        "example": "The parcel was wrongly addressed and came back. 包裹地址写错了，被退了回来。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "称呼语，称谓方式（常用 a form of address）",
+        "example": "“Your Honour” is the usual form of address for a judge in court. 在法庭上，“法官阁下”是对法官通常的称呼语。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The new policy addresses the problem of rising carbon dioxide emissions. 新政策着手解决二氧化碳排放上升的问题。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The mayor addressed the students about the city's recycling plan. 市长就本市的回收计划向学生们发表了讲话。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her keynote address on clean energy lasted only fifteen minutes. 她关于清洁能源的主旨演讲只用了十五分钟。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "address the problem / issue of sth",
+        "translation": "着手解决……问题",
+        "example": "We must address the issue of food waste in school canteens. 我们必须解决学校食堂食物浪费的问题。"
+      },
+      {
+        "phrase": "address climate change",
+        "translation": "应对气候变化",
+        "example": "Renewable energy alone cannot address climate change. 仅靠可再生能源无法应对气候变化。"
+      },
+      {
+        "phrase": "address public concerns",
+        "translation": "回应公众的关切",
+        "example": "The company addressed public concerns about the new power plant. 公司回应了公众对新电厂的关切。"
+      },
+      {
+        "phrase": "address the meeting / the audience",
+        "translation": "在会上讲话；向听众发表演说",
+        "example": "The engineer addressed the meeting on smart grids. 那位工程师在会上就智能电网发言。"
+      },
+      {
+        "phrase": "deliver / give an address",
+        "translation": "发表演讲",
+        "example": "The minister delivered an address on carbon neutrality. 部长就碳中和发表了演讲。"
+      },
+      {
+        "phrase": "address sb as ...",
+        "translation": "称呼某人为……",
+        "example": "Please address me as Dr Lin. 请称呼我林博士。"
+      },
+      {
+        "phrase": "a change of address",
+        "translation": "地址变更",
+        "example": "Remember to report a change of address to the post office. 记得向邮局申报地址变更。"
+      }
+    ],
+    "wordForms": {
+      "noun": "address（地址；演讲）；addressee（收信人，收件人）",
+      "verb": "address（addressed, addressed, addressing）",
+      "adjective": "—",
+      "adverb": "—",
+      "other": "①及物动词，直接跟宾语：address the problem/issue，不能说 address to the problem；对比 deal with / cope with / tackle（tackle 亦可直接跟宾语，deal、cope 必须带介词）。②读音：英式名词、动词都读 /əˈdres/；美式名词常读 /ˈædres/（重音前移），动词仍读 /əˈdres/。③固定结构 address oneself to sth 意为“着手处理某事”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "______ (address) the audience at the opening ceremony, the scientist warned of a coming food crisis.",
+        "answer": "Addressing",
+        "note": "逗号前无连词、缺谓语，需用非谓语；scientist 与 address（向……讲话）是主动关系，故用现在分词 Addressing 作状语。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 address / speak 的适当形式填空：No single country can ______ climate change alone; at yesterday's summit the premier ______ to the delegates for half an hour.",
+        "answer": "address; spoke",
+        "note": "address 作“设法应对、解决”时是及物动词，后面直接接 climate change，不能说 address to；speak 表“讲话”时不及物，须用 speak to sb (about sth)，且由 yesterday's summit 决定用过去式 spoke。"
+      }
+    ]
+  },
+  {
+    "word": "alternative",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ɔːlˈtɜːnətɪv/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "n. 可供选择的事物，替代品，选择余地 adj. 可替代的，供选择的；非传统的，另类的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a thing that you can choose to do or use instead of something else; (adj.) able to be used instead of something else, or different from what is usual and traditional.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "非传统的，另类的，非主流的（指音乐、医疗、生活方式等）",
+        "example": "Alternative rock became popular in the 1990s. 另类摇滚在20世纪90年代流行起来。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Wind and solar power are clean alternative sources of energy. 风能和太阳能是清洁的替代能源。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Cycling to school is a green alternative to driving. 骑车上学是开车之外的一种绿色选择。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Some patients try alternative medicine when normal treatment fails. 常规治疗无效时，有些病人会尝试替代疗法。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "an alternative to sth",
+        "translation": "……的替代品，替代……的选择",
+        "example": "Biomass is a cleaner alternative to coal. 生物质是比煤更清洁的替代品。"
+      },
+      {
+        "phrase": "alternative energy / energy sources",
+        "translation": "替代能源",
+        "example": "The city has invested heavily in alternative energy. 该市在替代能源上投入巨大。"
+      },
+      {
+        "phrase": "have no alternative but to do sth",
+        "translation": "别无选择，只好做某事",
+        "example": "We had no alternative but to cut power at peak hours. 我们别无选择，只能在用电高峰限电。"
+      },
+      {
+        "phrase": "a viable / practical alternative",
+        "translation": "可行的替代方案",
+        "example": "Hydrogen is now a viable alternative to diesel for heavy trucks. 氢能如今是重型卡车柴油之外可行的替代选择。"
+      },
+      {
+        "phrase": "offer / provide an alternative",
+        "translation": "提供另一种选择",
+        "example": "A smart grid offers an alternative to building new plants. 智能电网提供了另一种选择，可以不必新建电厂。"
+      },
+      {
+        "phrase": "weigh up the alternatives",
+        "translation": "权衡各种选择",
+        "example": "Before voting, the committee weighed up the alternatives. 表决之前，委员会权衡了各种选择。"
+      },
+      {
+        "phrase": "alternative medicine",
+        "translation": "替代疗法（如针灸、草药）",
+        "example": "Alternative medicine remains popular in many regions. 替代疗法在许多地区依然流行。"
+      },
+      {
+        "phrase": "the only alternative",
+        "translation": "唯一的选择",
+        "example": "Storing surplus wind power seemed the only alternative. 储存多余的风电似乎是唯一的选择。"
+      }
+    ],
+    "wordForms": {
+      "noun": "alternative（替代品，选择）；alternation（交替，轮流，对应动词 alternate）",
+      "verb": "alternate /ˈɔːltəneɪt/（交替，轮流）",
+      "adjective": "alternative（可替代的；另类的）；alternate /ɔːlˈtɜːnət/（交替的，间隔的，如 on alternate days 每隔一天）",
+      "adverb": "alternatively（或者，要不然）；alternately（交替地，轮流地）",
+      "other": "①介词固定：an alternative to sth（……的替代品），不说 an alternative of sth；注意 for 只表示“供……使用”（an alternative to diesel for heavy trucks）。②have no alternative but to do sth 中 but 是介词，后接带 to 的不定式。③形近词组必须分清：alternative energy 替代能源 ≠ alternate energy；alternatively＝换个方案说，alternately＝一个接一个地。④alternate 一词两读：动词 /ˈɔːltəneɪt/，形容词 /ɔːlˈtɜːnət/。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Wind farms provide a clean ______ (alternate) to burning coal in winter.",
+        "answer": "alternative",
+        "note": "a 与 to 之间需名词“替代品”，应用 alternative；alternate 意为“交替（的）”，与语境不符。搭配为 an alternative to sth。"
+      },
+      {
+        "type": "完成句子",
+        "question": "面对突然停电，他们别无选择，只能推迟这场线上讲座。Facing the sudden blackout, they had ______ ______ ______ ______ ______ the online lecture.",
+        "answer": "no alternative but to postpone",
+        "note": "have no alternative but to do sth＝别无选择只好做某事；but 是介词，后面必须接带 to 的不定式 postpone（对比 do nothing but do sth 中省略 to）。"
+      }
+    ]
+  },
+  {
+    "word": "substitute",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈsʌbstɪtjuːt/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 代替品，代用品；替补队员；（美）代课教师 v. 用……代替，代替，取代；（体育）替换（队员）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a person or thing that takes the place of somebody or something else; (v.) to use something new or different instead of what is normally used.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "替补队员（体育比赛中替换上场的球员）",
+        "example": "He came on as a substitute in the second half. 下半场他作为替补队员上场。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "代课教师（尤美，＝substitute teacher）",
+        "example": "A substitute took our English class today. 今天一位代课老师给我们上英语课。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "There is no substitute for cutting carbon emissions at source. 从源头削减碳排放是无可替代的。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Many bakeries now substitute plant milk for cow's milk. 许多面包店现在用植物奶代替牛奶。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The coach sent on a substitute ten minutes before full time. 终场前十分钟教练派上了一名替补。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "substitute A for B",
+        "translation": "用A代替B",
+        "example": "Farmers substitute solar pumps for diesel ones. 农民用太阳能水泵代替柴油水泵。"
+      },
+      {
+        "phrase": "substitute for sb/sth",
+        "translation": "代替某人/某物（不及物用法）",
+        "example": "Nothing can substitute for a reliable power supply. 没有什么能代替可靠的供电。"
+      },
+      {
+        "phrase": "a substitute for sth",
+        "translation": "……的替代品",
+        "example": "Biogas is a clean substitute for firewood. 沼气是柴火的清洁替代品。"
+      },
+      {
+        "phrase": "there is no substitute for sth",
+        "translation": "……是无可替代的",
+        "example": "There is no substitute for a good night's sleep before an exam. 考试前睡个好觉是无可替代的。"
+      },
+      {
+        "phrase": "a poor / inadequate substitute",
+        "translation": "蹩脚的、不够好的替代品",
+        "example": "Recycling is a poor substitute for producing less waste. 回收远远比不上少产生垃圾。"
+      },
+      {
+        "phrase": "a sugar substitute",
+        "translation": "代糖，糖的代用品",
+        "example": "Many soft drinks now use a sugar substitute. 许多软饮料现在使用代糖。"
+      },
+      {
+        "phrase": "a substitute teacher",
+        "translation": "代课教师",
+        "example": "Our substitute teacher let us finish the experiment. 代课老师让我们把实验做完。"
+      },
+      {
+        "phrase": "bring on a substitute / make a substitution",
+        "translation": "换上替补队员；做一次换人",
+        "example": "The manager made two substitutions in the last ten minutes. 主教练在最后十分钟做了两次换人。"
+      }
+    ],
+    "wordForms": {
+      "noun": "substitute（代替品；替补队员）；substitution（代替，替换；换人）",
+      "verb": "substitute（substituted, substituted, substituting）",
+      "adjective": "—（substitute 本身无形容词形式；substitute teacher、substitute goods 中是名词作定语）",
+      "adverb": "—",
+      "other": "高频考点是“谁替谁”的语序：substitute A for B＝用A代替B（A 是新上场的）；replace B with A＝用A替换B（B 是被换下的），两句中新旧成分位置正好相反。substitute 还可不及物：substitute for sb/sth。名词短语 make a substitution 表示“做一次替换/换人”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "______ (substitute) plant protein for beef can cut a family's carbon footprint.",
+        "answer": "Substituting",
+        "note": "句中已有谓语 can cut，空处作主语，需用动名词 Substituting；同时考查结构 substitute A for B（用植物蛋白代替牛肉）。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 substitute / replace 的适当形式填空：The canteen has ______ paper straws for plastic ones, and has also ______ all its old fridges with efficient models.",
+        "answer": "substituted; replaced",
+        "note": "substitute A for B 中先说新事物 paper straws；replace B with A 中先说被换掉的旧事物 old fridges，两个结构的语序恰好相反。"
+      }
+    ]
+  },
+  {
+    "word": "virtue",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈvɜːtʃuː/",
+    "partOfSpeech": "n.",
+    "translation": "n. 美德，德行；（不可数）善良，正直；优点，长处",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "behaviour or an attitude that shows high moral standards; also, a good or useful quality of a thing.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（事物的）优点，长处，好处（可数，常说 one of its virtues）",
+        "example": "The chief virtue of biogas is that it uses waste. 沼气的主要优点是能利用废弃物。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "用于介词短语 by virtue of，意为“凭借，由于”（较正式）",
+        "example": "She got the post by virtue of her long experience. 她凭借丰富的经验得到了这个职位。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "用于习语 make a virtue of necessity，意为“把不得不做的事说成是自愿的美德”",
+        "example": "Facing a fuel shortage, they made a virtue of necessity and cycled to work. 面对燃料短缺，他们索性把骑车上班当成美德。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Patience is a virtue when you are changing old habits. 改掉旧习惯时，耐心是一种美德。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Thrift was once regarded as the highest household virtue. 节俭曾被视为最高的持家美德。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Wind power has the virtue of being endlessly renewable. 风电的优点在于可以无限再生。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "by virtue of sth",
+        "translation": "凭借，由于",
+        "example": "By virtue of its long coastline, the town gets steady wind. 凭借漫长的海岸线，该镇风力稳定。"
+      },
+      {
+        "phrase": "a life of virtue",
+        "translation": "有德行的一生（此处 virtue 不可数）",
+        "example": "The old monk chose a life of virtue and study. 那位老僧选择了修德与治学的一生。"
+      },
+      {
+        "phrase": "the virtue of doing sth",
+        "translation": "做某事的好处",
+        "example": "The teacher stressed the virtue of finishing your plate. 老师强调了把盘中餐吃完的好处。"
+      },
+      {
+        "phrase": "a man / woman of virtue",
+        "translation": "品德高尚的人",
+        "example": "He is remembered as a man of great virtue. 人们记得他是位德行高尚的人。"
+      },
+      {
+        "phrase": "make a virtue of necessity",
+        "translation": "把无奈之举说成美德；变被动为主动",
+        "example": "Short of storage, the plant made a virtue of necessity and sold power cheaply at night. 因缺少储能，电厂索性夜间低价售电，把无奈变成了卖点。"
+      },
+      {
+        "phrase": "moral virtues",
+        "translation": "道德品质",
+        "example": "Honesty and thrift are moral virtues worth teaching. 诚实与节俭是值得传授的道德品质。"
+      },
+      {
+        "phrase": "praise / extol the virtues of sth",
+        "translation": "盛赞……的优点",
+        "example": "The article praised the virtues of home-grown vegetables. 那篇文章盛赞了自家种菜的好处。"
+      },
+      {
+        "phrase": "virtue and vice",
+        "translation": "善与恶；美德与恶习",
+        "example": "The novel explores virtue and vice in wartime. 这部小说探讨战时的善与恶。"
+      }
+    ],
+    "wordForms": {
+      "noun": "virtue（美德；优点）",
+      "verb": "—",
+      "adjective": "virtuous（品德高尚的，正直的）",
+      "adverb": "virtuously（品行端正地）",
+      "other": "①反义词是 vice（恶习；缺点）。②形近词莫混：virtue（美德）/ virtual（虚拟的，实际上的）/ virtually（几乎，差不多）。③表“美德、善良”时通常不可数（a life of virtue）；表“具体的美德条目”或“优点”时可数（one of its greatest virtues）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "He is a ______ (virtue) young man who never lets good food go into the bin.",
+        "answer": "virtuous",
+        "note": "空处在冠词 a 与名词 man 之间作定语，需形容词形式 virtuous（品德高尚的）；名词 virtue 不能修饰名词 man。"
+      },
+      {
+        "type": "完成句子",
+        "question": "凭借充足的阳光，这个村庄成了第一个用上太阳能电网的村庄。______ ______ ______ its plentiful sunshine, the village became the first to run on a solar grid.",
+        "answer": "By virtue of",
+        "note": "by virtue of＝凭借、由于，是介词短语，后接名词或动名词；此处不能用 by virtue 单独出现，of 不可省。"
+      }
+    ]
+  },
+  {
+    "word": "urge",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ɜːdʒ/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 敦促，力劝，催促；强烈要求，竭力主张；驱赶（牲畜等）前进 n. 强烈的欲望，冲动",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to advise or try hard to persuade somebody to do something; (n.) a strong wish or need to do something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "驱赶（牲畜、马等）向前走",
+        "example": "The farmer urged his cattle towards the shed. 农夫赶着牛群往牛棚走。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "urge sb on：为某人加油鼓劲，激励某人继续",
+        "example": "The crowd urged the runners on in the final lap. 最后一圈时人群为跑者加油。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Scientists urge governments to cut carbon dioxide emissions quickly. 科学家敦促各国政府迅速削减二氧化碳排放。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The head teacher urged that the survey results be made public. 校长强烈要求公开调查结果。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She felt a sudden urge to join the food waste campaign. 她突然产生了参加食物浪费宣传活动的冲动。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "urge sb to do sth",
+        "translation": "敦促、力劝某人做某事",
+        "example": "The teacher urged us to order less food. 老师劝我们少点些饭菜。"
+      },
+      {
+        "phrase": "urge that sb (should) do sth",
+        "translation": "强烈要求某人做某事（虚拟语气）",
+        "example": "He urged that the old grid (should) be upgraded. 他强烈要求升级旧电网。"
+      },
+      {
+        "phrase": "urge sb on",
+        "translation": "为某人加油，激励某人继续下去",
+        "example": "Classmates urged her on as she carried the last box. 她搬最后一箱时，同学们为她加油。"
+      },
+      {
+        "phrase": "feel / have an urge to do sth",
+        "translation": "有做某事的冲动",
+        "example": "I had an urge to switch off every idle light. 我有种把所有闲着的灯都关掉的冲动。"
+      },
+      {
+        "phrase": "resist the urge to do sth",
+        "translation": "忍住做某事的冲动",
+        "example": "Resist the urge to buy more than you can eat. 忍住别买超过你食量的东西。"
+      },
+      {
+        "phrase": "urge caution / restraint",
+        "translation": "呼吁谨慎／克制",
+        "example": "Experts urge caution about relying on one energy source. 专家呼吁谨慎，不要依赖单一能源。"
+      },
+      {
+        "phrase": "strongly urge",
+        "translation": "强烈敦促",
+        "example": "The report strongly urges cities to build smart grids. 报告强烈敦促各城市建设智能电网。"
+      },
+      {
+        "phrase": "urge action on sth",
+        "translation": "敦促就……采取行动",
+        "example": "The open letter urged action on food waste. 那封公开信敦促就食物浪费采取行动。"
+      }
+    ],
+    "wordForms": {
+      "noun": "urge（冲动，强烈的欲望）；urgency（紧迫，急迫）",
+      "verb": "urge（urged, urged, urging）",
+      "adjective": "urgent（紧急的，迫切的）",
+      "adverb": "urgently（紧急地，急迫地）",
+      "other": "①三种句型：urge sb to do sth／urge doing sth／urge that + 主语 +(should)+ 动词原形（宾语从句用虚拟语气，should 常省略）。②名词 urge 后常接不定式：the urge to do sth，动词搭配 feel/have/resist an urge。③语气强于 encourage、advise，含“急切催促”意味。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The committee urged that every canteen ______ (weigh) its leftovers once a week.",
+        "answer": "(should) weigh",
+        "note": "urge 表示“强烈要求”，其后宾语从句用虚拟语气 should + 动词原形，should 可省略，故填 weigh 或 should weigh，不能用 weighs。"
+      },
+      {
+        "type": "完成句子",
+        "question": "路过垃圾桶时，她忍住了把剩饭倒掉的冲动。Passing the bin, she ______ the ______ ______ throw away the leftovers.",
+        "answer": "resisted; urge; to",
+        "note": "resist the urge to do sth＝忍住做某事的冲动；名词 urge 后用不定式 to do，不能用 of doing；主句时态与 Passing 一致，用过去式 resisted。"
+      }
+    ]
+  },
+  {
+    "word": "concern",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/kənˈsɜːn/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 担心，忧虑；关心的事，重要的事；关切，关怀 v. 涉及，关系到；对……很重要；使担忧，使操心",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a feeling of worry, especially one shared by many people; (v.) to affect or involve somebody, or to make somebody worried.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "公司，企业，商行（如 a going concern 经营正常的企业）",
+        "example": "The family bakery is still a going concern. 这家家族面包店仍在正常经营。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "用于公函开头套语 To whom it may concern：敬启者（不知收信人姓名时使用）",
+        "example": "To whom it may concern: I am writing to recommend Li Hua. 敬启者：我写信是为推荐李华。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Rising sea levels are a growing concern for coastal cities. 海平面上升日益成为沿海城市的忧虑。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "This report concerns the safety of the new smart grid. 这份报告涉及新智能电网的安全性。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her main concern is how much bread the shop throws away. 她最关心的是这家店扔掉多少面包。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "express / raise concern(s) about (over) sth",
+        "translation": "对……表示担忧",
+        "example": "Residents raised concerns about noise from the turbines. 居民对风机的噪音表示担忧。"
+      },
+      {
+        "phrase": "a cause for concern",
+        "translation": "令人担忧的事，值得关注的原因",
+        "example": "The falling water level is a real cause for concern. 水位不断下降确实令人担忧。"
+      },
+      {
+        "phrase": "be concerned about sth",
+        "translation": "担心某事",
+        "example": "Students are concerned about wasted food in the canteen. 学生们担心食堂里被浪费的食物。"
+      },
+      {
+        "phrase": "be concerned with sth",
+        "translation": "与……有关；关注……",
+        "example": "Unit Two is concerned with renewable energy. 第二单元涉及可再生能源。"
+      },
+      {
+        "phrase": "as far as ... be concerned",
+        "translation": "就……而言",
+        "example": "As far as farmers are concerned, water matters most. 就农民而言，水最重要。"
+      },
+      {
+        "phrase": "be of great concern to sb",
+        "translation": "为某人所深切关注",
+        "example": "Food security is of great concern to every country. 粮食安全为每个国家所深切关注。"
+      },
+      {
+        "phrase": "show concern for sb",
+        "translation": "关心某人",
+        "example": "The campaign shows concern for hungry families nearby. 这项活动体现了对附近饥饿家庭的关心。"
+      },
+      {
+        "phrase": "concern oneself with sth",
+        "translation": "操心、过问某事",
+        "example": "Don't concern yourself with details before the plan is approved. 计划批准前别操心细节。"
+      }
+    ],
+    "wordForms": {
+      "noun": "concern（担心；关切的事；企业）",
+      "verb": "concern（concerned, concerned, concerning）",
+      "adjective": "concerned（担心的；有关的）；concerning（令人担忧的，如 a concerning trend）",
+      "adverb": "—",
+      "other": "①位置决定意思：concerned 作定语后置时意为“有关的”（the people concerned 有关人员），作表语时意为“担心的”（be concerned about）。②concerning 还可作介词＝about“关于”。③辨析：be concerned about＝担心；be concerned with＝与……有关、关注；as far as ... be concerned＝就……而言。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "As far as cost is ______ (concern), solar power keeps getting cheaper every year.",
+        "answer": "concerned",
+        "note": "固定句型 as far as ... be concerned＝就……而言，此处需过去分词 concerned 与 is 构成表语结构，不能填 concerning。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 about / with 填空：Teachers are deeply concerned ______ the amount of rice thrown away, while today's lesson is concerned ______ how a smart grid saves power.",
+        "answer": "about; with",
+        "note": "be concerned about 表“为……担心”；be concerned with 表“与……有关、涉及”。前句是担忧，后句是课程内容涉及，两者不可互换。"
+      }
+    ]
+  },
+  {
+    "word": "flow",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/fləʊ/",
+    "partOfSpeech": "n. & vi.",
+    "translation": "n. 流动，流量；（人、车、资金、信息等的）流通，流；vi. 流动，流淌；（言谈、文章）流畅地进行；（人群、车辆）川流不息地移动",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to move steadily and continuously in one direction, as a liquid, gas or electric current does; (n.) the steady, continuous movement of something in this way",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "涨潮（与 ebb 退潮相对；ebb and flow 亦引申为“盛衰起伏”）",
+        "example": "Fishing boats set out on the flow and come back on the ebb. 渔船趁涨潮出海，趁退潮返航。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（头发、衣服、旗帜）飘垂，垂落",
+        "example": "Her long black hair flowed down over her shoulders. 她乌黑的长发披垂在肩上。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（flow from）源于，由……产生（多用于抽象事物）",
+        "example": "Most of these problems flow from poor planning. 这些问题多半源于规划不当。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Electricity flows from the wind farm into the national grid. 电从风电场流入国家电网。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A steady flow of clean power keeps the smart grid stable. 稳定的清洁电力供应使智能电网保持稳定。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Once the first jokes were over, conversation flowed easily all evening. 最初几句玩笑过后，整晚的谈话都很顺畅。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "flow into / out of sth",
+        "translation": "流入／流出某处",
+        "example": "The river flows out of a mountain lake and into the sea. 这条河从一个山中湖泊流出，最终注入大海。"
+      },
+      {
+        "phrase": "the flow of electricity / current",
+        "translation": "电流的流动",
+        "example": "A smart grid controls the flow of electricity between cities. 智能电网调控城市之间的电力流动。"
+      },
+      {
+        "phrase": "cash flow",
+        "translation": "现金流（财务术语）",
+        "example": "The clean energy project has a healthy cash flow. 这个清洁能源项目现金流良好。"
+      },
+      {
+        "phrase": "traffic flow",
+        "translation": "车流量，交通流量",
+        "example": "Smoother traffic flow means less carbon dioxide from cars. 车流更顺畅意味着汽车排出的二氧化碳更少。"
+      },
+      {
+        "phrase": "the free flow of information",
+        "translation": "信息的自由流通",
+        "example": "Modern science depends on the free flow of information between laboratories. 现代科学依赖各实验室之间信息的自由流通。"
+      },
+      {
+        "phrase": "go with the flow",
+        "translation": "随大流，顺其自然（口语）",
+        "example": "New students often just go with the flow instead of saying what they really think. 新生常常随大流，而不说出自己真实的想法。"
+      },
+      {
+        "phrase": "the ebb and flow of sth",
+        "translation": "潮起潮落；（事物的）盛衰起伏",
+        "example": "Historians study the ebb and flow of great civilisations. 历史学家研究各大文明的兴衰起伏。"
+      },
+      {
+        "phrase": "be in full flow",
+        "translation": "（讲话／活动）正进行得热火朝天",
+        "example": "The debate on renewable energy was in full flow when the bell rang. 铃响时关于可再生能源的辩论正激烈进行。"
+      }
+    ],
+    "wordForms": {
+      "noun": "flow 流动，流量；inflow 流入（量）；outflow 流出（量）；overflow 溢出；flow chart 流程图",
+      "verb": "flow 流动（flow-flowed-flowed，规则变化）",
+      "adjective": "flowing 流动的；飘垂的；（文笔、线条）流畅的（flowing water / flowing hair / a flowing style）",
+      "adverb": "—（无常用副词；表“流畅地”一般用 smoothly）",
+      "other": "易错点：flow 是规则动词，过去式 flowed，切勿写成 flew（那是 fly 的过去式）。用法：flow 为不及物动词，不能说 flow sth；“使某物流动”用 make sth flow / channel sth。名词 flow 常接 of + 抽象名词（the flow of traffic / information / capital）。反义搭配是 ebb（退潮，衰落）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Last spring water from the melting snow ____ (flow) down the valley and filled the reservoir.",
+        "answer": "flowed",
+        "note": "and filled 与所填动词并列，可知全句为一般过去时；flow 是规则动词，过去式为 flowed，切勿误写成 flew（那是 fly 的过去式）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "他们发现，减少食物浪费带来的好处远超预期。They found that the benefits ____ ____ cutting food waste were far greater than expected.",
+        "answer": "flowing from",
+        "note": "flow from 意为“源于、由……产生”；此处用现在分词短语作后置定语修饰 benefits，相当于定语从句 that flow from cutting food waste。"
+      }
+    ]
+  },
+  {
+    "word": "generate",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈdʒenəreɪt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 产生，发出（电、热等）；引起，造成（兴趣、争议、结果）；创造（就业、收入、利润）；（计算机）生成（数据、报告）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to produce energy such as electricity or heat; to cause something such as interest, income, jobs or a result to exist or begin",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（计算机）自动生成（密码、图形、序列、报告等）",
+        "example": "The system generates a new password every ninety days. 系统每九十天自动生成一个新密码。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（语言学）（按规则）生成（句子）——生成语法 generative grammar 的核心用语",
+        "example": "A few simple rules can generate an endless number of sentences. 少数简单规则就能生成无穷多的句子。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Wind turbines here generate enough electricity for twenty thousand homes. 这里的风力涡轮机发的电够两万户人家使用。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Badly written rules often generate more problems than they solve. 措辞拙劣的规章往往带来比它们解决的更多的问题。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Recycling plants have generated thousands of jobs in this province. 回收工厂在本省创造了数千个就业岗位。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "generate electricity / power",
+        "translation": "发电",
+        "example": "Solar panels generate electricity even on cloudy days. 太阳能板即使在阴天也能发电。"
+      },
+      {
+        "phrase": "generate heat",
+        "translation": "产生热量",
+        "example": "Burning fossil fuels generates heat and carbon dioxide. 燃烧化石燃料会产生热量和二氧化碳。"
+      },
+      {
+        "phrase": "generate income / revenue / profit",
+        "translation": "创收，产生收益／利润",
+        "example": "Selling sorted metal generates income for the village. 卖分类好的金属为村里带来收入。"
+      },
+      {
+        "phrase": "generate jobs / employment",
+        "translation": "创造就业机会",
+        "example": "The renewable energy industry has generated millions of jobs worldwide. 可再生能源产业已在全球创造了数百万个岗位。"
+      },
+      {
+        "phrase": "generate interest / enthusiasm",
+        "translation": "引起兴趣／激发热情",
+        "example": "The head teacher's speech generated real enthusiasm for the tree-planting day. 校长的讲话激发了大家参加植树日的热情。"
+      },
+      {
+        "phrase": "generate waste",
+        "translation": "产生垃圾／废弃物",
+        "example": "An average household generates about one kilo of waste a day. 一个普通家庭每天产生约一公斤垃圾。"
+      },
+      {
+        "phrase": "generate data / a report",
+        "translation": "生成数据／报告",
+        "example": "The smart grid generates data on power use every minute. 智能电网每分钟生成一次用电数据。"
+      },
+      {
+        "phrase": "generate debate / controversy",
+        "translation": "引发辩论／争议",
+        "example": "The new carbon tax generated heated debate online. 新的碳税在网上引发了激烈争论。"
+      }
+    ],
+    "wordForms": {
+      "noun": "generation 发电，产生；一代（人）；generator 发电机，发生器",
+      "verb": "generate 产生（generate-generated-generated）；regenerate 使再生，重建",
+      "adjective": "generative 有生成能力的（generative AI 生成式人工智能）；generated 生成的（过去分词作定语）",
+      "adverb": "—（无常用副词形式）",
+      "other": "构词法：词根 gen（生、产生）家族——generate 产生、generation 一代、gene 基因、genetic 遗传的、genius 天才。辨析：generate 的宾语多是电、热、收入、就业、兴趣等“看不见的产出”，produce 的宾语更常是具体产品（produce cars／crops）。读音重音在第一音节 /ˈdʒenəreɪt/。名词 generation 一词两义：the generation of electricity（发电）与 the younger generation（年轻一代）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The wind farm on the hill is capable of ____ (generate) power for the whole town.",
+        "answer": "generating",
+        "note": "be capable of 中的 of 是介词，后接动名词，故用 generating；同义结构 be able to generate 则用动词原形。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这场关于粮食安全的展览在学生中引起了极大的兴趣。The exhibition on food security ____ ____ ____ among the students.",
+        "answer": "generated great interest",
+        "note": "generate interest 意为“引起兴趣”；展览已举办完毕，用一般过去时 generated；interest 表“兴趣”时不可数，此处不加 a。"
+      }
+    ]
+  },
+  {
+    "word": "desert",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "n. /ˈdezət/；v. /dɪˈzɜːt/",
+    "partOfSpeech": "n. & vt./vi. & adj.",
+    "translation": "n. 沙漠，荒漠；vt. 抛弃，遗弃（人）；离弃（某地）；vi./vt.（军人）擅离职守，开小差；adj.（作定语）沙漠的，荒无人烟的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a large area of land covered with sand or rocks where there is very little rain and few plants; (v.) to leave a person or place with no intention of returning, or to leave the armed forces without permission",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（勇气、运气、灵感等）突然离某人而去，即“某人顿时失去……”",
+        "example": "His luck deserted him in the final round of the contest. 在比赛的最后一轮，他的运气突然用尽了。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数 deserts，读 /dɪˈzɜːts/）应得的赏罚：get / receive one's just deserts 罪有应得",
+        "example": "The illegal dumpers finally got their just deserts. 那些非法倾倒垃圾的人终于得到了应有的惩罚。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（比喻）……的荒漠，匮乏之地：a cultural desert 文化荒漠；a food desert 生鲜食品匮乏区",
+        "example": "With no library and no cinema, the new town felt like a cultural desert. 没有图书馆也没有电影院，这座新城像一片文化荒漠。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Half of this province is desert, yet solar farms thrive there. 这个省一半是沙漠，太阳能电场却在那里蓬勃发展。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Young farmers have deserted the dry village for city jobs. 年轻农民离开干旱的村庄去城里打工了。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The team tested a small wind turbine on a desert island. 团队在一座荒岛上测试了一台小型风力涡轮机。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in the desert / the Sahara Desert",
+        "translation": "在沙漠中／撒哈拉沙漠",
+        "example": "Huge solar panels now stand in the desert. 如今沙漠中矗立着巨大的太阳能板。"
+      },
+      {
+        "phrase": "turn (sth) into desert",
+        "translation": "（使）变成沙漠",
+        "example": "Overgrazing can turn good farmland into desert. 过度放牧会把良田变成沙漠。"
+      },
+      {
+        "phrase": "desert plants / animals",
+        "translation": "沙漠植物／动物",
+        "example": "Desert plants survive on very little water. 沙漠植物靠极少的水就能存活。"
+      },
+      {
+        "phrase": "a desert island",
+        "translation": "荒岛，无人岛",
+        "example": "Imagine living on a desert island with no electricity. 想象一下住在没有电的荒岛上。"
+      },
+      {
+        "phrase": "desert one's post / duty",
+        "translation": "擅离职守，玩忽职守",
+        "example": "No soldier is allowed to desert his post. 任何士兵都不得擅离职守。"
+      },
+      {
+        "phrase": "desert one's family / wife",
+        "translation": "抛弃家人／妻子",
+        "example": "He deserted his family and never came back. 他抛下家人，再也没有回来。"
+      },
+      {
+        "phrase": "desert the countryside for the cities",
+        "translation": "离开乡村涌入城市",
+        "example": "When wells dry up, farmers desert the countryside for the cities. 水井干涸时，农民便离开乡村涌入城市。"
+      },
+      {
+        "phrase": "a deserted village / deserted streets",
+        "translation": "空无一人的村庄／冷清的街道（deserted 作形容词）",
+        "example": "The streets were deserted during the sandstorm. 沙尘暴期间街上空无一人。"
+      }
+    ],
+    "wordForms": {
+      "noun": "desert 沙漠；deserter 逃兵，背弃者；desertion 遗弃，开小差；desertification 沙漠化",
+      "verb": "desert 抛弃，擅离（desert-deserted-deserted）",
+      "adjective": "deserted 空无一人的，被遗弃的；desert（作定语）沙漠的、荒芜的",
+      "adverb": "—（无常用副词形式）",
+      "other": "音形陷阱一：名词“沙漠”重音在前 /ˈdezət/，动词“抛弃”重音在后 /dɪˈzɜːt/，同形不同音。音形陷阱二：dessert（甜点）/dɪˈzɜːt/ 与动词 desert 同音，但多一个 s——记忆法：甜点太好吃，想再来一份，所以多个 s。用法提示：表“荒无人烟的”一般用过去分词形式 deserted（a deserted town），而 desert island 是固定说法。环保写作高频名词：desertification（沙漠化）。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "The village looked completely ____ (desert / deserted / dessert) after the young people moved away.",
+        "answer": "deserted",
+        "note": "look 后接形容词作表语，此处需“空无一人的”，用过去分词形式 deserted；desert 作定语只用于 desert island / desert plants 等固定搭配；dessert 意为甜点，与句意无关。"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "His courage ____ (desert) him the moment he stood up to face the whole hall.",
+        "answer": "deserted",
+        "note": "由 the moment he stood up 可知全句为一般过去时；desert 在此为熟词僻义“（勇气等）离某人而去”，即“他顿时失去了勇气”。"
+      }
+    ]
+  },
+  {
+    "word": "account",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/əˈkaʊnt/",
+    "partOfSpeech": "n. & vi.",
+    "translation": "n. 账户，账目；描述，叙述，报道；（网络）账号；vi.（account for）占（比例、数量）；解释，说明（原因）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a spoken or written description of an event; an arrangement with a bank or company for keeping and using money; (account for) to form a particular amount or part of a total, or to explain the cause of something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "重要性，价值（多用于 of no / little account 结构）",
+        "example": "His objection was of little account at the meeting. 他的反对意见在会上无足轻重。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（正式）认为，视为（account sb/sth + 名词、形容词或 as 短语）",
+        "example": "She was accounted one of the finest climate scientists. 她被认为是最优秀的气候科学家之一。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（商业）客户，主顾（尤指长期合作的大客户）",
+        "example": "The agency has just won a big new energy account. 那家广告公司刚刚拿下一个新能源大客户。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her account of the two weeks she spent in the rainforest held the whole class spellbound. 她讲述在雨林度过的两周，全班听得入了迷。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Coal still accounts for over half of the country's power. 煤炭仍占全国电力的一半以上。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "He opened a savings account to fund his rooftop solar panels. 他开了个储蓄账户来筹钱装屋顶太阳能板。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "account for（比例）",
+        "translation": "占（比例、数量）",
+        "example": "Renewable energy accounts for nearly 30% of our electricity. 可再生能源占我们用电量的近30%。"
+      },
+      {
+        "phrase": "account for（原因）",
+        "translation": "解释，说明（原因）",
+        "example": "Heavy rain accounts for this year's poor harvest. 大雨是今年收成不好的原因。"
+      },
+      {
+        "phrase": "take sth into account / take account of sth",
+        "translation": "考虑到，把……考虑在内",
+        "example": "We must take storage costs into account. 我们必须把储能成本考虑在内。"
+      },
+      {
+        "phrase": "on account of",
+        "translation": "由于，因为（后接名词或动名词）",
+        "example": "The wheat failed on account of the long drought. 由于长期干旱，小麦颗粒无收。"
+      },
+      {
+        "phrase": "give an account of sth",
+        "translation": "叙述，描述某事",
+        "example": "She gave a clear account of how the smart grid works. 她清楚地讲述了智能电网的运作方式。"
+      },
+      {
+        "phrase": "open / close a bank account",
+        "translation": "开立／注销银行账户",
+        "example": "You can open an account online in five minutes. 你五分钟就能在网上开好账户。"
+      },
+      {
+        "phrase": "by all accounts",
+        "translation": "据大家说，据各方所言",
+        "example": "By all accounts, the recycling scheme has been a success. 据大家说，这个回收方案很成功。"
+      },
+      {
+        "phrase": "on no account",
+        "translation": "决不（置于句首时主句部分倒装）",
+        "example": "On no account should good food be thrown away. 决不应该扔掉好好的食物。"
+      }
+    ],
+    "wordForms": {
+      "noun": "account 账户，叙述；accountant 会计（师）；accounting 会计学，会计工作；accountability 问责，责任",
+      "verb": "account（for）占；解释（account-accounted-accounted）",
+      "adjective": "accountable 应负责的，须作解释的（be accountable to sb for sth）",
+      "adverb": "—（无常用副词形式）",
+      "other": "句法提示：on no account 意为“决不”，放句首时主句用部分倒装——On no account should we waste food.（× On no account we should…）。搭配辨析：take...into account = take account of = consider；account for 表“占比”时不用被动语态。词源助记：ac-（=to 向）+ count（数）→ 把数目交代清楚 → 账目、说明。注意介词固定：on account of sth（因为）≠ buy sth on account（赊购，先记账后付）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Last year online sales ____ (account) for nearly a third of the bookshop's total income.",
+        "answer": "accounted",
+        "note": "由时间状语 last year 判断用一般过去时；account for 在此表“占（比例）”，且表“占比”时不用被动语态，故填 accounted。"
+      },
+      {
+        "type": "完成句子",
+        "question": "决不能仅仅因为图方便就浪费食物。____ ____ ____ should food be wasted just for convenience.",
+        "answer": "On no account",
+        "note": "on no account 意为“决不”，为否定意义的短语，置于句首时主句须部分倒装，即 should + 主语 + 动词原形。"
+      }
+    ]
+  },
+  {
+    "word": "invest",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ɪnˈvest/",
+    "partOfSpeech": "vt. & vi.",
+    "translation": "vi./vt. 投资，入股；投入（时间、精力、感情）；vt.（正式）授予（权力、职位、头衔）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to put money, time or effort into something in order to make a profit or to get a useful result later",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "授予，赋予（某人权力、职位）：invest sb with sth",
+        "example": "The new law invests the committee with wide powers. 新法律授予该委员会广泛的权力。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（口语，常带幽默色彩）（下决心）购置，添置（较贵的东西）",
+        "example": "I think it's time we invested in a new fridge. 我看我们该添置一台新冰箱了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Many countries now invest heavily in wind and solar power. 许多国家如今大举投资风能和太阳能。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She invested her savings in a small recycling business. 她把积蓄投入了一家小型回收企业。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Our class invested three weekends in preparing the science fair project. 我们班在准备科技节项目上投入了三个周末。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "invest in sth",
+        "translation": "投资于……（介词固定用 in）",
+        "example": "The government plans to invest in smart grids. 政府计划投资智能电网。"
+      },
+      {
+        "phrase": "invest money / capital in sth",
+        "translation": "把资金投入……",
+        "example": "They invested 20 million yuan in a desert solar farm. 他们向一座沙漠太阳能电场投资了两千万元。"
+      },
+      {
+        "phrase": "invest heavily / wisely",
+        "translation": "大举投资／明智地投资",
+        "example": "Farmers who invest wisely can survive a bad year. 投资明智的农户能熬过歉收年。"
+      },
+      {
+        "phrase": "invest time and energy in (doing) sth",
+        "translation": "在（做）……上投入时间和精力",
+        "example": "He invested months in teaching villagers to make compost. 他花了好几个月教村民做堆肥。"
+      },
+      {
+        "phrase": "invest sb with sth",
+        "translation": "授予某人（权力等）",
+        "example": "The mayor was invested with power to close polluting factories. 市长被授予关停污染工厂的权力。"
+      },
+      {
+        "phrase": "a wise / safe investment",
+        "translation": "明智的／稳妥的投资（名词搭配）",
+        "example": "Better insulation is a safe investment for any school. 改善保温层对任何学校都是稳妥的投资。"
+      },
+      {
+        "phrase": "return on investment",
+        "translation": "投资回报（率）",
+        "example": "Wind farms offer a high return on investment over time. 长期来看，风电场投资回报率很高。"
+      },
+      {
+        "phrase": "investor confidence",
+        "translation": "投资者信心",
+        "example": "Clear climate policies have raised investor confidence. 明确的气候政策提振了投资者信心。"
+      }
+    ],
+    "wordForms": {
+      "noun": "investment 投资（额），投入；investor 投资者，投资方",
+      "verb": "invest 投资（invest-invested-invested）；reinvest 再投资",
+      "adjective": "invested 已投入的（过去分词作定语：invested capital 已投入的资本）；注意 investment 本身是名词，作定语时仍为名词（investment fund 投资基金）",
+      "adverb": "—（无常用副词形式）",
+      "other": "介词铁律：表“投资于”必须用 invest in sth，不能说 invest to / invest on；“把钱投进某处”为 invest money in sth。“授予”义固定为 invest sb with sth。名词 investment 既可数（a wise investment）又不可数（total investment）。词源助记：in-（进入）+ vest（衣服）→ 原义“给某人穿上官服”即授职，后引申出“把钱投进去”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Rather than leave the money in the bank, the couple decided to invest most of it ____ their daughter's education.",
+        "answer": "in",
+        "note": "invest sth in sth 是固定搭配，表“把（钱、时间等）投入……”，介词只能用 in，不能用 to 或 on。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这个村子在过去五年里已在垃圾回收上投入了大量资金。The village ____ ____ a lot of money in recycling over the past five years.",
+        "answer": "has invested",
+        "note": "over the past five years 是现在完成时的标志性时间状语；主语 the village 视作单数第三人称，故用 has invested。"
+      }
+    ]
+  },
+  {
+    "word": "recycle",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌriːˈsaɪkl/",
+    "partOfSpeech": "vt. & vi.",
+    "translation": "vt./vi. 回收利用，再循环（处理废弃物使其可再用）；vt. 使（水、热量等）循环使用；再利用（材料、资源）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to treat used objects or materials so that they can be used again, or to put something through a cycle so that it can serve a new purpose",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（含贬义）把旧观点、旧素材改头换面重新拿来用",
+        "example": "The speech simply recycled ideas from last year's report. 那篇讲话不过是把去年报告里的观点换个说法再用一遍。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Our school recycles almost all its paper and plastic bottles. 我们学校几乎回收所有的纸张和塑料瓶。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "If everyone recycled, landfills would fill up far more slowly. 如果人人都做回收，垃圾填埋场填满的速度会慢得多。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Waste heat from the plant is recycled to warm nearby homes. 电厂的余热被循环利用来给附近住宅供暖。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "recycle paper / plastic / glass / metal",
+        "translation": "回收纸张／塑料／玻璃／金属",
+        "example": "Sorting rubbish first makes it much easier to recycle plastic. 先做垃圾分类会让塑料回收容易得多。"
+      },
+      {
+        "phrase": "recycle waste / rubbish",
+        "translation": "回收处理垃圾、废弃物",
+        "example": "The city recycles about half of its household waste. 这座城市回收了大约一半的生活垃圾。"
+      },
+      {
+        "phrase": "recycled materials / recycled paper",
+        "translation": "再生材料／再生纸",
+        "example": "The campaign posters were printed on recycled paper. 宣传海报是用再生纸印的。"
+      },
+      {
+        "phrase": "a recycling bin / centre / plant",
+        "translation": "回收箱／回收站／回收厂",
+        "example": "Please put empty cans in the blue recycling bin. 请把空罐子扔进蓝色回收箱。"
+      },
+      {
+        "phrase": "be recycled into sth",
+        "translation": "被回收再制成……",
+        "example": "Old plastic bottles can be recycled into warm winter jackets. 旧塑料瓶能被回收再制成保暖的冬衣。"
+      },
+      {
+        "phrase": "recycle food waste into compost",
+        "translation": "把厨余垃圾回收制成堆肥",
+        "example": "Our canteen recycles food waste into compost for the garden. 我们食堂把厨余垃圾做成花园用的堆肥。"
+      },
+      {
+        "phrase": "the recycling rate",
+        "translation": "回收率",
+        "example": "The country's recycling rate has risen to 35%. 该国的回收率已升至35%。"
+      },
+      {
+        "phrase": "reduce, reuse and recycle",
+        "translation": "减量、再用、回收（环保“三R”原则）",
+        "example": "Reduce, reuse and recycle should guide our daily choices. “减量、再用、回收”应当指导我们的日常选择。"
+      }
+    ],
+    "wordForms": {
+      "noun": "recycling 回收（利用，不可数）；recyclables 可回收物（常用复数）；recycler 回收者，回收企业",
+      "verb": "recycle 回收利用（recycle-recycled-recycled）",
+      "adjective": "recycled 回收再造的（recycled paper）；recyclable 可回收的（recyclable packaging）",
+      "adverb": "—（无常用副词形式）",
+      "other": "构词法：re-（再）+ cycle（循环）→ 再循环；同族 re- 词：reuse 再利用、renew 更新、renewable 可再生的。核心辨析：recycled 表“已被回收再造的”（被动、已完成），recyclable 表“可以被回收的”（具备属性），高考常在此设空。名词 recycling 不可数，可作定语构成 recycling bin / rate / plant。读音提示：重音在第二音节 /ˌriːˈsaɪkl/，cycle 中的 c 读 /s/。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "Most of this packaging is ____ (recycled / recyclable), so please don't throw it away with food waste.",
+        "answer": "recyclable",
+        "note": "句意强调这些包装“可以被回收”的属性，用形容词 recyclable；recycled 意为“已回收再造的”，如 recycled paper，与句中 so please don't throw it away 的逻辑不符。"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "In this factory, tonnes of waste glass ____ (recycle) into road-building material every month.",
+        "answer": "are recycled",
+        "note": "waste glass 与 recycle 之间是被动关系，every month 提示一般现在时，故用被动语态；主语中心词 tonnes 为复数，助动词用 are。"
+      }
+    ]
   }
 ]

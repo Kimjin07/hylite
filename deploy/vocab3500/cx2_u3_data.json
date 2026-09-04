@@ -7357,5 +7357,1221 @@
         "note": "‘高速公路匝道’美式/中性用 ramp，英式亦作 slip road。"
       }
     ]
+  },
+  {
+    "word": "commit",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/kəˈmɪt/",
+    "partOfSpeech": "v.",
+    "translation": "v. 犯（罪、错误）；承诺，保证，使承担义务；致力于，投身于；拨出，投入（资金、人力、部队）；把……交托、送交（收押、收治）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to do something wrong or illegal; to promise sincerely that you will do or support something; to set aside money, time or forces for a particular purpose.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "commit sth to memory：把……牢记在心，背下来",
+        "example": "He committed the address to memory rather than write it down. 他没有写下地址，而是把它牢记在心。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "commit sth to paper / writing：把（想法、回忆）写下来，形成文字",
+        "example": "She finally committed her wartime memories to paper. 她终于把战时的回忆写了下来。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "commit sb to prison / hospital（法律）：（依法）将某人收押、强制送医收治",
+        "example": "The magistrate committed him to prison for contempt of court. 治安法官以藐视法庭罪将他收押入狱。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v. 拨出，投入（资源）",
+        "sentence": "The UN has committed millions of dollars to rebuilding the ruined city. 联合国已拨出数百万美元重建这座废墟之城。"
+      },
+      {
+        "partOfSpeech": "v. 承诺，致力于",
+        "sentence": "The mayor committed himself to reopening the town library within a year. 市长承诺一年之内重开镇图书馆。"
+      },
+      {
+        "partOfSpeech": "v. 犯（罪、错）",
+        "sentence": "Soldiers who commit crimes in wartime must still face trial. 战时犯罪的士兵仍须受审。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "commit a crime / an offence",
+        "translation": "犯罪，犯下罪行",
+        "example": "No one believed the quiet bookseller had committed a crime. 没人相信那位安静的书商犯了罪。"
+      },
+      {
+        "phrase": "commit a serious error / a blunder",
+        "translation": "犯（严重）错误（较正式；日常小错一般说 make a mistake）",
+        "example": "The young clerk committed a costly error in the accounts. 那个年轻店员在账目上犯了一个代价高昂的错误。"
+      },
+      {
+        "phrase": "commit oneself to (doing) sth / be committed to (doing) sth",
+        "translation": "承诺做某事；致力于（to 是介词，后接名词或动名词，不接动词原形）",
+        "example": "The school is committed to helping every child learn to read. 学校致力于帮助每个孩子学会阅读。"
+      },
+      {
+        "phrase": "commit money / funds / resources to sth",
+        "translation": "为……拨款，投入资源",
+        "example": "The company has committed £2 million to the flood-relief fund. 公司已向水灾救助基金投入200万英镑。"
+      },
+      {
+        "phrase": "commit troops / peacekeepers to sth",
+        "translation": "向……派遣（维和）部队",
+        "example": "Several countries committed peacekeepers to the region. 数国向该地区派遣了维和部队。"
+      },
+      {
+        "phrase": "commit sth to memory",
+        "translation": "把……熟记于心，背下来",
+        "example": "The girl committed her favourite poem to memory in one evening. 女孩一个晚上就把最喜欢的那首诗背了下来。"
+      },
+      {
+        "phrase": "commit sth to paper / writing",
+        "translation": "把……写下来，付诸文字",
+        "example": "He committed every detail of the dusty shop to paper. 他把那家尘封书店的每个细节都写了下来。"
+      }
+    ],
+    "wordForms": {
+      "noun": "commitment（承诺；投入；义务，责任）; committee（委员会）; commission（委托；委员会；佣金，同源词）",
+      "verb": "commit — committed — committed — committing — commits",
+      "adjective": "committed（尽心尽力的，忠诚投入的）；如 a committed volunteer 一名尽心尽力的志愿者",
+      "adverb": "—（无对应派生副词；常用 fully / wholeheartedly committed 表“全身心投入”）",
+      "other": "拼写陷阱：commit 重音在后一音节，加后缀要双写 t（committed / committing / committee），但名词 commitment 不双写（commitment，非 committment）。句法关键：commit oneself to sth / be committed to sth 中 to 是介词，后接名词或 -ing；对比 promise to do sth 用不定式。辨析：commit（做出、犯下、承诺）≠ admit（承认）≠ submit（提交）——三者同用 -mit 词根（送、放），前缀不同。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The UN is committed to ______ (protect) human rights all over the world.",
+        "answer": "protecting",
+        "note": "be committed to 中 to 是介词，后接动名词，故填 protecting，不能填 protect。"
+      },
+      {
+        "type": "完成句子",
+        "question": "多年来，她一直致力于为难民服务。For years, she ______ ______ ______ ______ ______ refugees. (commit / serve)",
+        "answer": "has committed herself to serving",
+        "note": "commit oneself to (doing) sth 致力于做某事；for years 与现在完成时连用，故用 has committed；to 后接动名词 serving。"
+      }
+    ]
+  },
+  {
+    "word": "dimension",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/daɪˈmenʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 方面，特点，层面；维（数），度；（常用复数）尺寸，面积，大小；（常用复数）规模，程度",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a measurement of something in one direction, such as length, width or height; (plural) the size or extent of something; an aspect or feature of a situation.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数）事态的规模、严重程度，多与 take on / assume 连用",
+        "example": "By July the drought had assumed alarming dimensions. 到七月，旱情已发展到令人担忧的规模。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（物理、科幻）维度，空间；the fourth dimension 指时间",
+        "example": "In the story the boy slips into another dimension. 故事里那个男孩滑入了另一个维度。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（工程制图等技术用语）标注尺寸；按规定尺寸加工",
+        "example": "All the parts are dimensioned in millimetres. 所有零件的尺寸均以毫米标注。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n. 方面，层面",
+        "sentence": "The old letters reveal a personal dimension to the scientist's work. 这些旧信揭示了这位科学家工作中个人化的一面。"
+      },
+      {
+        "partOfSpeech": "n. 尺寸，大小",
+        "sentence": "The bookshop's dimensions were tiny, yet its shelves held thousands of books. 那家书店面积很小，书架上却有数千本书。"
+      },
+      {
+        "partOfSpeech": "n. 规模，程度",
+        "sentence": "The clean-up operation has taken on dimensions no one expected. 清理工作的规模已超出所有人的预料。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "add a new dimension to sth",
+        "translation": "为……增添新的一面／新的意义",
+        "example": "Music adds a whole new dimension to the film. 音乐为这部影片增添了全新的层次。"
+      },
+      {
+        "phrase": "the moral / political / human dimension of sth",
+        "translation": "某事的道德／政治／人性层面",
+        "example": "We must not ignore the human dimension of the crisis. 我们不能忽视这场危机中人的层面。"
+      },
+      {
+        "phrase": "the dimensions of a room / shelf / box",
+        "translation": "房间／书架／箱子的尺寸（此义用复数）",
+        "example": "Measure the dimensions of the shelf before ordering it. 订购前先量好书架的尺寸。"
+      },
+      {
+        "phrase": "in three dimensions; three-dimensional (3D)",
+        "translation": "以三维方式；三维的，立体的",
+        "example": "The ruined old town was modelled in three dimensions. 这座毁于战火的老城被制成了三维模型。"
+      },
+      {
+        "phrase": "take on / assume alarming dimensions",
+        "translation": "发展到令人担忧的规模",
+        "example": "Within a week the outbreak had taken on alarming dimensions. 一周之内，疫情就发展到令人担忧的规模。"
+      },
+      {
+        "phrase": "the fourth dimension",
+        "translation": "第四维（通常指时间）",
+        "example": "Time is often called the fourth dimension. 时间常被称作第四维。"
+      }
+    ],
+    "wordForms": {
+      "noun": "dimension（维；方面；尺寸）; dimensionality（维度，维数，学术用语）",
+      "verb": "dimension（（制图、工程）标注尺寸），使用范围窄",
+      "adjective": "dimensional（……维的，如 two-/three-dimensional）; dimensionless（无量纲的，科技用语）",
+      "adverb": "dimensionally（在尺寸／维度方面）",
+      "other": "读音有两读，/daɪˈmenʃn/ 与 /dɪˈmenʃn/ 均可，重音都在第二音节。数的用法：表“尺寸、规模”时几乎总用复数 dimensions；表“方面、层面”时可数单复皆可（a new dimension / several dimensions）。构词：di-（分开）+ mens（量，同 measure, immense）→ “量出来的量度”。书写：three-dimensional 作定语要用连字符且 dimension 不加 s（a three-dimensional model，不说 three-dimensions model）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The ruined city was rebuilt with the help of a three-______ (dimension) computer model.",
+        "answer": "dimensional",
+        "note": "此处修饰 model，需形容词形式 dimensional；three-dimensional 用连字符连接，dimension 不加 -s。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这段志愿经历为她对贫困的理解增添了新的一面。The volunteer experience ______ ______ ______ ______ to her understanding of poverty.",
+        "answer": "added a new dimension",
+        "note": "add a new dimension to sth 为……增添新的一面；此处 dimension 可数，需加不定冠词 a。"
+      }
+    ]
+  },
+  {
+    "word": "resolution",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ˌrezəˈluːʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 决心，决意；（会议表决通过的）决议；（问题、争端的）解决；（图像、屏幕的）分辨率",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a firm decision to do or not to do something; a formal decision agreed on by a vote at a meeting; the act of solving a problem or ending a dispute; the degree of detail visible in an image.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（医学）（炎症、肿胀、症状的）消退，消散",
+        "example": "The scan showed complete resolution of the inflammation. 扫描显示炎症已完全消退。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（小说、影视情节的）收束，结局；矛盾的化解部分",
+        "example": "The resolution of the story comes in the final chapter. 故事的结局出现在最后一章。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（不可数，较正式）坚毅，果决的品质",
+        "example": "Only a woman of great resolution could have made that journey alone. 只有意志极其坚定的女性才能独自完成那次旅行。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n. 决议",
+        "sentence": "The Security Council passed a resolution calling for an immediate ceasefire. 安理会通过了一项要求立即停火的决议。"
+      },
+      {
+        "partOfSpeech": "n. 决心",
+        "sentence": "She made a firm resolution never to break a promise again. 她下定决心再也不食言。"
+      },
+      {
+        "partOfSpeech": "n. 解决",
+        "sentence": "Both sides hoped for a peaceful resolution of the long dispute. 双方都希望这场长期争端得到和平解决。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "pass / adopt a resolution",
+        "translation": "通过一项决议",
+        "example": "The board adopted a resolution to ban smoking in all its buildings. 董事会通过决议，禁止在其所有楼宇内吸烟。"
+      },
+      {
+        "phrase": "a draft resolution; put forward a draft resolution",
+        "translation": "决议草案；提出决议草案",
+        "example": "Three countries put forward a draft resolution on famine relief. 三个国家提出了一项关于饥荒救援的决议草案。"
+      },
+      {
+        "phrase": "a resolution on / against sth",
+        "translation": "关于／反对……的决议（注意介词 on 与 against）",
+        "example": "They voted on a resolution against the use of force. 他们就一项反对使用武力的决议进行了表决。"
+      },
+      {
+        "phrase": "make a resolution to do sth",
+        "translation": "下决心做某事（New Year's resolution 新年决心）",
+        "example": "He made a resolution to read one old book a week. 他下决心每周读一本旧书。"
+      },
+      {
+        "phrase": "with (great) resolution; show resolution",
+        "translation": "坚定地；表现出决心（此义不可数，不加冠词）",
+        "example": "The nurses worked with great resolution through the night. 护士们整夜坚定地工作着。"
+      },
+      {
+        "phrase": "the peaceful resolution of a conflict / dispute",
+        "translation": "冲突／争端的和平解决",
+        "example": "The UN works for the peaceful resolution of conflicts. 联合国致力于冲突的和平解决。"
+      },
+      {
+        "phrase": "high / low resolution",
+        "translation": "高／低分辨率",
+        "example": "High-resolution photos revealed the damaged rooftops. 高分辨率照片显示出受损的屋顶。"
+      }
+    ],
+    "wordForms": {
+      "noun": "resolution（决心；决议；解决；分辨率）; resolve（决心，正式书面语，不可数）; resoluteness（坚决）",
+      "verb": "resolve — resolved — resolved — resolving（决心；解决；分解）",
+      "adjective": "resolute（坚决的，坚定不移的）; resolved（下定决心的，作表语）; unresolved（未解决的）",
+      "adverb": "resolutely（坚决地）",
+      "other": "派生链：resolve → resolution / resolute → resolutely。可数性辨析：表“一个具体的决心”和“决议”时可数（make a resolution / pass a resolution）；表“坚毅这一品质”时不可数（with resolution）。同源名词 resolve 也表“决心”，更正式：strengthen one's resolve 坚定决心。发音注意：重音在第三音节 /ˌrezəˈluːʃn/，首音节读 /rez/ 而非 /rɪ/，与动词 resolve /rɪˈzɒlv/ 不同。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The General Assembly passed a ______ (resolve) calling for more humanitarian aid.",
+        "answer": "resolution",
+        "note": "passed 后需名词作宾语，动词 resolve 的名词形式为 resolution；pass a resolution 意为“通过决议”。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "选词：After the shop burned down, she went on working with quiet ______ (resolution / solution).",
+        "answer": "resolution",
+        "note": "此处表“决心、坚毅”，用不可数的 resolution；solution 指“解决办法／溶液”，不能表示决心。"
+      }
+    ]
+  },
+  {
+    "word": "intervene",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ˌɪntəˈviːn/",
+    "partOfSpeech": "v.",
+    "translation": "v. 干预，干涉，介入；调停，出面制止；插话，打断；（时间）介于其间，（事件）横插进来打断",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to become involved in a situation in order to change or improve it; to interrupt someone who is speaking; (of time or an event) to come between two points or to happen and delay something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（时间）相隔、横亘其间；（事件）中途发生并打断原有安排",
+        "example": "Twenty years intervened between his first and second visit to the town. 他两次到访这座小镇之间相隔了二十年。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（在谈话、讨论中）插话，打断",
+        "example": "May I intervene here for just a moment? 我可以在这里插一句吗？"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（法律）第三方参加诉讼，作为利害关系人介入案件",
+        "example": "Two charities asked to intervene in the case. 两家慈善机构请求作为第三方参加此案诉讼。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v. 干预，介入",
+        "sentence": "The UN finally decided to intervene to stop the fighting. 联合国最终决定介入以制止交火。"
+      },
+      {
+        "partOfSpeech": "v. 出面制止，调停",
+        "sentence": "A stranger intervened when the two boys started fighting in the street. 两个男孩在街上打起来时，一个陌生人出面制止。"
+      },
+      {
+        "partOfSpeech": "v. （事件）横插进来打断",
+        "sentence": "They planned to reopen the shop, but the war intervened. 他们本打算重开书店，但战争横插了进来。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "intervene in sth",
+        "translation": "干预、介入某事（intervene 是不及物动词，不能直接跟宾语）",
+        "example": "The government refused to intervene in the dispute between the two companies. 政府拒绝介入两家公司之间的纠纷。"
+      },
+      {
+        "phrase": "intervene to do sth",
+        "translation": "出面做某事，介入以便……",
+        "example": "Peacekeepers intervened to protect the fleeing villagers. 维和人员出面保护逃难的村民。"
+      },
+      {
+        "phrase": "intervene on behalf of sb",
+        "translation": "代表某人出面，为某人说情",
+        "example": "A teacher intervened on behalf of the frightened student. 一位老师为受惊的学生出面说话。"
+      },
+      {
+        "phrase": "intervene between A and B",
+        "translation": "在双方之间调停",
+        "example": "The owner intervened between the two angry customers. 店主在两位怒气冲冲的顾客之间调停。"
+      },
+      {
+        "phrase": "intervene directly / personally / promptly",
+        "translation": "直接／亲自／及时介入",
+        "example": "The mayor intervened personally to save the old bookshop. 市长亲自出面保住了这家旧书店。"
+      },
+      {
+        "phrase": "military / armed / humanitarian intervention (n.)",
+        "translation": "军事／武装／人道主义干预",
+        "example": "Many delegates opposed armed intervention in the conflict. 许多代表反对武装干预这场冲突。"
+      },
+      {
+        "phrase": "the intervening years / period (adj.)",
+        "translation": "其间的那些年／那段时期",
+        "example": "In the intervening years the shelves had gathered dust. 在其间的那些年里，书架积满了灰尘。"
+      }
+    ],
+    "wordForms": {
+      "noun": "intervention（干预，介入；调停；干预措施）; interventionist（干预主义者）",
+      "verb": "intervene — intervened — intervened — intervening — intervenes",
+      "adjective": "intervening（其间的，介于中间的）; interventionist（主张干预的）",
+      "adverb": "—（无常用派生副词；常用 directly, personally, promptly, forcibly 等修饰 intervene）",
+      "other": "词根提示：inter-（在……之间）+ ven-（来，同 convene 召集、prevent 预防、event 事件）→ “走到中间”即干预。最常考的语法点：intervene 为不及物动词，说 intervene in the dispute，不能说 intervene the dispute；名词是 intervention（intervention in sth）。形容词 intervening 几乎只修饰时间段（the intervening years/months），不表“干预的”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The Security Council refused to intervene ______ the country's internal affairs.",
+        "answer": "in",
+        "note": "intervene 是不及物动词，“干预某事”须用 intervene in sth，不能直接接宾语。"
+      },
+      {
+        "type": "完成句子",
+        "question": "在其间的那几个月里，两国之间没有举行任何会谈。In the ______ ______, the two countries held no talks at all. (intervene / month)",
+        "answer": "intervening months",
+        "note": "intervening 作形容词表“其间的”，专门修饰时间段；此处指若干个月，故用复数 months。"
+      }
+    ]
+  },
+  {
+    "word": "worthy",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈwɜːði/",
+    "partOfSpeech": "adj. (also n.)",
+    "translation": "adj. 值得的，配得上的（常用 be worthy of）；值得尊敬的，有价值的；（略带贬义）用心良善却枯燥乏味的 n. （常含戏谑）名流，头面人物",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "deserving respect, admiration or support; (worthy of something) good enough for or deserving something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "（略带贬义）立意端正、用心良善但沉闷乏味的",
+        "example": "The lecture on aid work was worthy but dull. 那场关于援助工作的讲座立意端正却枯燥乏味。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数 worthies，多含戏谑意味）当地名流，头面人物",
+        "example": "Local worthies gathered for the library's reopening. 当地的头面人物齐聚图书馆重开典礼。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj. 崇高的，有价值的",
+        "sentence": "Helping refugees rebuild their lives is a worthy cause. 帮助难民重建生活是一项崇高的事业。"
+      },
+      {
+        "partOfSpeech": "adj. 值得（+ of）",
+        "sentence": "Her quiet years in the dusty bookshop are worthy of respect. 她在尘封书店里度过的安静岁月值得敬重。"
+      },
+      {
+        "partOfSpeech": "adj. 当之无愧的",
+        "sentence": "The old volunteer proved a worthy winner of the medal. 这位年长的志愿者证明自己是当之无愧的获奖者。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a worthy cause",
+        "translation": "崇高的事业，正当而值得支持的目标",
+        "example": "Students raised money for a worthy cause. 学生们为一项崇高的事业筹款。"
+      },
+      {
+        "phrase": "be worthy of sth",
+        "translation": "值得……，配得上……（worthy 后必须加 of）",
+        "example": "Her courage that night was worthy of admiration. 她那天晚上的勇气值得敬佩。"
+      },
+      {
+        "phrase": "be worthy of note / mention",
+        "translation": "值得注意／值得一提",
+        "example": "One line in the old letter is worthy of note. 那封旧信里有一句话值得注意。"
+      },
+      {
+        "phrase": "a worthy opponent / winner",
+        "translation": "可敬的对手；当之无愧的获胜者",
+        "example": "He shook hands with his rival and called him a worthy opponent. 他与对手握手，称他是可敬的对手。"
+      },
+      {
+        "phrase": "be worthy to do sth",
+        "translation": "（较正式、书面）配得上做某事",
+        "example": "He felt he was not worthy to speak for them. 他觉得自己不配代表他们发言。"
+      },
+      {
+        "phrase": "worthy of the name",
+        "translation": "名副其实的，配得上这个称号的",
+        "example": "No hotel worthy of the name would treat its guests like that. 任何名副其实的酒店都不会那样对待客人。"
+      }
+    ],
+    "wordForms": {
+      "noun": "worth（价值）; worthiness（值得，配得上）; worthy（名流，可数，常用复数 worthies）",
+      "verb": "—（本族无常用动词；worth 只作介词／形容词（be worth doing）或名词（of great worth），不作动词）",
+      "adjective": "worthy — worthier — worthiest; worthwhile（值得做的）; worthless（毫无价值的）; unworthy（不值得的，不配的）",
+      "adverb": "worthily（无愧地，体面地）",
+      "other": "后缀 -worthy 表“值得……的／经得起……的”，是高频构词：trustworthy 值得信赖的、praiseworthy 值得称赞的、noteworthy 值得注意的、newsworthy 有新闻价值的、seaworthy 适航的。三词辨析（必考）：be worth + 名词／动名词（The book is worth reading）；be worthy of + 名词／动名词 或 be worthy to do（worthy of praise / worthy to be praised）；worthwhile 指“值得花时间精力的”（It is worthwhile to help / It is worthwhile helping，现多写作一个词）。注意 y→i：worthy → worthier / worthiest / worthily / worthiness。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "选词：Their years of work for refugees are ______ (worth / worthy) of the highest praise.",
+        "answer": "worthy",
+        "note": "of 前只能用 worthy：be worthy of sth；worth 后直接接名词或动名词，不接 of。"
+      },
+      {
+        "type": "完成句子",
+        "question": "任何名副其实的书店都会存些老地图。Any bookshop ______ ______ ______ ______ keeps some old maps.",
+        "answer": "worthy of the name",
+        "note": "worthy of the name 意为“名副其实的”，此处为形容词短语作后置定语修饰 bookshop。"
+      }
+    ]
+  },
+  {
+    "word": "comfort",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈkʌmfət/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 舒适，安逸；安慰，慰藉；（可数）令人安慰的人或事；（复数 comforts）使生活舒适的设施与享受 v. 安慰，抚慰",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a pleasant and easy state free from pain or worry; the feeling of being less sad or anxious, or a person or thing that gives this feeling; (verb) to make someone feel less sad or worried.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "comfort break（英）／comfort station（美）：（长途行程或会议中的）如厕休息；公共厕所（委婉说法）",
+        "example": "The driver stopped for a ten-minute comfort break. 司机停车让大家方便休息十分钟。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "aid and comfort（正式、法律用语）：给（敌方的）支持与援助，即“通敌”",
+        "example": "He was accused of giving aid and comfort to the enemy. 他被控为敌人提供支援，即通敌。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v. 安慰",
+        "sentence": "A young nurse comforted the crying child outside the ruined school. 一位年轻护士在毁坏的学校外安慰哭泣的孩子。"
+      },
+      {
+        "partOfSpeech": "n. 慰藉（不可数）",
+        "sentence": "The dusty bookshop offered warmth, quiet and unexpected comfort. 那家尘封的书店给人温暖、宁静与意外的慰藉。"
+      },
+      {
+        "partOfSpeech": "n. 舒适设施（复数）",
+        "sentence": "Refugees left behind the small comforts of daily life. 难民们抛下了日常生活中那些小小的舒适。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be a (great) comfort to sb",
+        "translation": "对某人是（莫大的）安慰（此义可数，加 a）",
+        "example": "Your letters were a great comfort to her. 你的信对她是莫大的安慰。"
+      },
+      {
+        "phrase": "take comfort in / from sth",
+        "translation": "从……中得到安慰",
+        "example": "He took comfort from the fact that the children were safe. 得知孩子们平安无事，他心里得到了安慰。"
+      },
+      {
+        "phrase": "live in comfort",
+        "translation": "生活舒适安逸（此义不可数，无冠词）",
+        "example": "After the war few families lived in comfort. 战后没有几个家庭生活安逸。"
+      },
+      {
+        "phrase": "the comforts of home; creature comforts",
+        "translation": "家的舒适；物质享受，生活上的舒适条件",
+        "example": "He gave up the comforts of home to serve overseas. 他放弃家的舒适，去海外服务。"
+      },
+      {
+        "phrase": "cold comfort",
+        "translation": "聊胜于无的安慰，起不了什么作用的宽慰",
+        "example": "Distant promises of aid were cold comfort to the hungry. 遥远的援助承诺对饥民而言只是聊胜于无的安慰。"
+      },
+      {
+        "phrase": "comfort zone",
+        "translation": "舒适区（熟悉而不必费力的范围）",
+        "example": "Volunteering pushed her out of her comfort zone. 志愿服务把她推出了舒适区。"
+      },
+      {
+        "phrase": "comfort food",
+        "translation": "治愈系食物，能带来慰藉的家常食物",
+        "example": "For him, warm soup is the ultimate comfort food. 对他来说，热汤是最治愈的食物。"
+      },
+      {
+        "phrase": "too ... for comfort",
+        "translation": "……得让人心里发毛，过分到令人不安",
+        "example": "The shellfire came too close for comfort. 炮火近得让人心里发毛。"
+      }
+    ],
+    "wordForms": {
+      "noun": "comfort（舒适；安慰）; discomfort（不适，不便）; comforter（安慰者；美式指厚被子；英式旧指长羊毛围巾）",
+      "verb": "comfort — comforted — comforted — comforting — comforts（安慰，抚慰）",
+      "adjective": "comfortable（舒适的；宽裕的）; comforting（令人欣慰的）; uncomfortable（不舒服的）; comfy（口语：舒服的）",
+      "adverb": "comfortably（舒适地；轻松地，如 comfortably ahead 轻松领先）",
+      "other": "词源解释一词两义：com-（加强语气）+ fortis（强壮，同 fort, force）→ 原义“使坚强、鼓舞”，故 comfort 兼有“安慰”与“舒适”。可数性是考点：表抽象的“舒适／安慰”不可数（live in comfort, find comfort）；指“令人安慰的人或事”可数（a comfort to sb）；指“舒适设施、享受”用复数（modern comforts, creature comforts）。发音提醒：comfortable 常读作 /ˈkʌmftəbl/，中间 -or- 弱读脱落，不读四个音节。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Knowing that help was on the way was a great ______ (comfortable) to the villagers.",
+        "answer": "comfort",
+        "note": "was 后作表语需名词，形容词 comfortable 的名词形式为 comfort；a great comfort to sb 意为“对某人是莫大的安慰”，此义可数故用 a。"
+      },
+      {
+        "type": "完成句子",
+        "question": "在那些艰难的日子里，她从旧书的气味中得到慰藉。In those hard days, she ______ ______ ______ the smell of old books.",
+        "answer": "took comfort in",
+        "note": "take comfort in sth 从……中得到安慰；in 亦可换为 from；根据 in those hard days 用一般过去时 took。"
+      }
+    ]
+  },
+  {
+    "word": "arise",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/əˈraɪz/",
+    "partOfSpeech": "vi.",
+    "translation": "vi. （问题、困难、机会等）出现，发生，产生；由…引起，源于（arise from/out of）；（正式、书面）起身，站起来；（文学、书面）（烟、尘、雾等）升起，腾起",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to begin to exist or come to people's notice, especially a problem, question or opportunity; (formal) to get up from a sitting or lying position.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "由…产生，因…而起（arise from / out of sth，强调来源，相当于 result from）",
+        "example": "The United Nations arose out of the ruins of the Second World War. 联合国诞生于第二次世界大战的废墟之中。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（正式、文学）起身，起床（≈ get up，现代英语多见于书面语和固定表达）",
+        "example": "He arose before dawn to queue for water. 天亮前他就起身去排队取水。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（文学、书面）（烟、尘、雾、气味等）升起，腾起——日常英语一般用 rise",
+        "example": "Thick smoke arose from the shattered rooftops. 浓烟从破碎的屋顶上升腾而起。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "New problems arose when the food supplies ran out. 食物供给耗尽时，新的问题出现了。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Many disputes arise from a simple lack of trust. 许多争端源于一种简单的缺乏信任。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "He arose from his chair and greeted the elderly visitor. 他从椅子上起身，向那位年长的来访者问好。（正式、书面）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "arise from / out of sth",
+        "translation": "由…引起，产生于…",
+        "example": "Most of these difficulties arise from a shortage of clean water. 这些困难多半源于清洁水源短缺。"
+      },
+      {
+        "phrase": "problems / difficulties arise",
+        "translation": "问题、困难出现",
+        "example": "Problems arose as soon as the camp doubled in size. 营地规模一扩大一倍，问题就出现了。"
+      },
+      {
+        "phrase": "a dispute / conflict arises over sth",
+        "translation": "因某事产生争端、冲突",
+        "example": "A dispute arose over who should distribute the medicine. 关于该由谁分发药品，产生了争执。"
+      },
+      {
+        "phrase": "if / when the need arises",
+        "translation": "如果（当）有需要的时候",
+        "example": "The team can send extra doctors if the need arises. 如有需要，该团队可加派医生。"
+      },
+      {
+        "phrase": "questions arise as to whether...",
+        "translation": "关于是否…的问题随之产生",
+        "example": "Questions arose as to whether the aid had been fairly shared. 关于援助是否分配公平的疑问随之而来。"
+      },
+      {
+        "phrase": "an opportunity arises",
+        "translation": "（机会）出现，来临",
+        "example": "She joined the rescue team as soon as an opportunity arose. 一有机会，她就加入了救援队。"
+      },
+      {
+        "phrase": "matters arising (from the minutes)",
+        "translation": "（会议用语）由上次记录引出的待议事项",
+        "example": "The chair moved on to matters arising from the last meeting. 主席接着讨论上次会议引出的待议事项。"
+      }
+    ],
+    "wordForms": {
+      "noun": "—（arise 无对应常用名词；表“出现/产生”的名词用 emergence、occurrence，表“来源”用 origin）",
+      "verb": "arise（arose, arisen, arising）——不规则变化，与 rise（rose, risen）同型",
+      "adjective": "—（arising 只作现在分词/动名词，如 the problems arising from the war）",
+      "adverb": "—",
+      "other": "①四词辨析：arise（不及物，主语多为问题/情况/机会，抽象）｜rise（不及物，实物上升、数字上涨、太阳升起）｜raise（及物，举起、提出、筹集）｜arouse（及物，唤起兴趣/怀疑/情感）。②arise 无被动语态，不能说 be arisen。③常见倒装虚拟：Should any problem arise, please contact us. ④会议英语固定说法 matters arising（上次会议记录中的后续事项）。⑤“浴火重生”的固定习语是 rise from the ashes，用 rise 不用 arise。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The United Nations ______ (arise) out of the ruins of the Second World War.",
+        "answer": "arose",
+        "note": "叙述历史事实用一般过去时；arise 为不规则动词 arise-arose-arisen，且不及物、无被动，不能写成 was arisen。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "从 arise / arouse / raise 中选择恰当的词填空（用适当形式）：Should any dispute ______ between the two sides, the UN will step in.",
+        "answer": "arise",
+        "note": "主语是 dispute（争端本身“出现”），须用不及物动词 arise；arouse 是及物动词“激起（情感、怀疑）”，raise 是及物动词“举起、提出、筹集”，二者都需要宾语。句首 Should 引导省略 if 的倒装条件句，其后用动词原形。"
+      }
+    ]
+  },
+  {
+    "word": "devote",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/dɪˈvəʊt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 把（时间、精力、金钱等）奉献给，投入于；devote oneself to 致力于，献身于；（把篇幅、空间、土地等）专门用于，拨给",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to give your time, energy, money or attention to a particular person, activity or purpose; to use a particular amount of space, time or land for one purpose only.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（把版面、空间、时间、土地等资源）专门拨给、辟出来用于（不含“献身”的感情色彩，只是分配）",
+        "example": "Half the shop was devoted to second-hand poetry. 这家店有一半的地方专门用来摆二手诗集。"
+      },
+      {
+        "partOfSpeech": "adj.（过去分词转化的形容词 devoted）",
+        "meaning": "be devoted to sb 深爱某人、对某人忠诚（不是“致力于某人”），与 be devoted to sth“专用于/致力于某事”区分",
+        "example": "The old bookseller was devoted to his regular customers. 那位老书商对他的老主顾一片真心。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She devoted her life to helping refugees find shelter. 她一生致力于帮助难民找到栖身之所。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The UN devotes huge resources to feeding people in famine areas. 联合国投入巨大资源为饥荒地区的人们提供食物。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He devoted every Saturday morning to repairing bicycles for the neighbours. 他把每个周六上午都用来给邻居们修自行车。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "devote oneself to (doing) sth",
+        "translation": "致力于，献身于某事",
+        "example": "She devoted herself to teaching the children in the camp. 她全身心投入到营地儿童的教学中。"
+      },
+      {
+        "phrase": "devote one's life to sth",
+        "translation": "把一生献给某事",
+        "example": "He devoted his life to serving others. 他把一生都献给了服务他人。"
+      },
+      {
+        "phrase": "devote time / energy to sth",
+        "translation": "把时间、精力投入到某事上",
+        "example": "Volunteers devote much energy to sorting donated clothes. 志愿者们花很多精力整理捐来的衣物。"
+      },
+      {
+        "phrase": "devote resources / funds to sth",
+        "translation": "把资源、资金投入到某方面",
+        "example": "More funds should be devoted to rebuilding the schools. 应把更多资金投入到重建学校上。"
+      },
+      {
+        "phrase": "devote attention to sth",
+        "translation": "关注某事，把注意力放在某事上",
+        "example": "The report devotes special attention to displaced children. 该报告特别关注流离失所的儿童。"
+      },
+      {
+        "phrase": "devote a chapter / a page to sth",
+        "translation": "用一章（一页）的篇幅写某事",
+        "example": "The guidebook devotes a chapter to the city's night markets. 那本指南用一整章介绍这座城市的夜市。"
+      },
+      {
+        "phrase": "be devoted to sb",
+        "translation": "深爱着某人，对某人一片忠诚",
+        "example": "The old man was devoted to his late wife. 老人对亡妻一往情深。"
+      }
+    ],
+    "wordForms": {
+      "noun": "devotion（奉献；忠诚；热爱，devotion to duty 忠于职守）; devotee（热爱者，狂热爱好者）",
+      "verb": "devote（devoted, devoted, devoting）——规则动词，以不发音的 e 结尾，加 -ing 时去 e",
+      "adjective": "devoted（忠实的；挚爱的；专用的，a devoted volunteer 一位忠诚的志愿者）",
+      "adverb": "devotedly（忠诚地，全心全意地）",
+      "other": "①核心句型 devote sth / oneself to sth 或 to doing sth——to 是介词，后面只能接名词或 v-ing：devote himself to studying English ✓，devote himself to study English ✗（若 study 用作名词，devote himself to study“埋头研究”也成立）。②常用被动 be devoted to，此时既可表“被用于”，也可表“忠于、热爱”，靠语境区分。③构词：devote + -ion → devotion（去 e 加 -ion），devote + -ee → devotee。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "She devoted herself to ______ (help) the homeless after the war ended.",
+        "answer": "helping",
+        "note": "devote oneself to 中的 to 是介词而非不定式符号，后接动名词 helping。同类结构还有 look forward to / lead to / be used to doing。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这位老人把一生都献给了为他人服务。The old man ______ ______ ______ ______ serving others.（每空一词）",
+        "answer": "devoted his life to",
+        "note": "共四空，对应 devoted / his / life / to：devote one's life to (doing) sth“把一生献给…”，to 为介词，故用动名词 serving。若要强调“全部”，可说 devoted his whole life to（五个词），空数不符，本题不填。"
+      }
+    ]
+  },
+  {
+    "word": "pound",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/paʊnd/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 磅（重量单位，约合0.454千克，缩写 lb）；英镑（英国货币单位，符号 £）；（流浪动物）收容所，（违章车辆）扣押场。v. （连续用力）猛击，捶打；（用炮火）轰击；（心脏）剧烈跳动，怦怦直跳；捣碎，舂成粉末；（脚步）重重地走",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a unit of weight equal to 0.454 kilograms, or the unit of money used in the UK; (v.) to hit something hard many times, or (of the heart) to beat quickly and strongly.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（用炮弹、炸弹）连续轰击，狂轰滥炸（使化为废墟）",
+        "example": "For weeks the guns pounded the old quarter of the city. 大炮连续数周轰击这座城市的老城区。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（心脏因恐惧、激动而）怦怦狂跳；（血液）在体内奔涌",
+        "example": "My heart pounded as the door creaked open. 门吱呀一声开了，我的心怦怦直跳。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "把…捣碎、舂成粉末或糊状",
+        "example": "She pounded the dried beans into a fine powder. 她把干豆子捣成了细粉。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（无主流浪动物的）收容所；（被拖走车辆的）扣押场",
+        "example": "The abandoned dog was taken to the local pound. 那只被遗弃的狗被送进了当地的收容所。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The parcel of medicine weighed about five pounds. 那包药大约重五磅。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "He paid ten pounds for a second-hand dictionary. 他花十英镑买下一本二手词典。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Bombs pounded the town until it lay in ruins. 炸弹不断轰击这座小镇，直到它化为废墟。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a pound of sth",
+        "translation": "一磅…（重量）",
+        "example": "Each family received a pound of rice a day. 每户人家每天领到一磅大米。"
+      },
+      {
+        "phrase": "weigh ... pounds",
+        "translation": "重…磅",
+        "example": "The relief box weighed nearly forty pounds. 那个救援箱重近四十磅。"
+      },
+      {
+        "phrase": "cost / pay ... pounds",
+        "translation": "值…英镑／付…英镑",
+        "example": "The whole pile of old maps cost only five pounds. 那一整摞旧地图才卖五英镑。"
+      },
+      {
+        "phrase": "pound on the door",
+        "translation": "用力砸门，捶门",
+        "example": "Someone was pounding on the door in the middle of the night. 半夜里有人在使劲砸门。"
+      },
+      {
+        "phrase": "one's heart pounds (with fear / excitement)",
+        "translation": "（因害怕、激动）心怦怦直跳",
+        "example": "His heart pounded with excitement as the results were read out. 宣读结果时，他激动得心怦怦直跳。"
+      },
+      {
+        "phrase": "pound sth into powder / paste",
+        "translation": "把某物捣成粉末／糊状",
+        "example": "They pounded the chickpeas into a thick paste. 他们把鹰嘴豆捣成浓稠的糊。"
+      },
+      {
+        "phrase": "be pounded by shells / bombs",
+        "translation": "遭到炮弹、炸弹的连续轰击",
+        "example": "The harbour had been pounded by shells for days. 港口连日遭到炮弹轰击。"
+      },
+      {
+        "phrase": "pound the streets",
+        "translation": "（为找工作、巡逻等）在街上来回奔走",
+        "example": "He pounded the streets looking for volunteer work. 他四处奔走寻找志愿工作。"
+      }
+    ],
+    "wordForms": {
+      "noun": "pound（磅；英镑；收容所），复数 pounds；pounding（重击声；惨败、重创，take a pounding 遭受重创）",
+      "verb": "pound（pounded, pounded, pounding）——规则动词",
+      "adjective": "pounding（剧烈的，咚咚作响的，a pounding headache 一阵阵抽痛的头痛）",
+      "adverb": "—",
+      "other": "①货币符号 £ 写在数字前：£20，读作 twenty pounds；重量缩写为 lb（源自拉丁语 libra），5 lb。②作复合形容词时不加 -s：a five-pound note（五英镑纸币）、a two-pound bag，但 five pounds of rice 中要加 -s。③注意与 pond（池塘）拼写形近而音义全异：/paʊnd/ vs /pɒnd/。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "My heart was ______ (pound) as I pushed open the door of the old bookshop.",
+        "answer": "pounding",
+        "note": "was + v-ing 构成过去进行时，描写“当时正怦怦跳”的持续状态；pound 在此表示心脏剧烈跳动，为不及物用法。"
+      },
+      {
+        "type": "完成句子",
+        "question": "他花了三英镑买下那本诗集。He ______ three ______ for that collection of poems.（每空一词）",
+        "answer": "paid; pounds",
+        "note": "pay + 金额 + for sth 表示“花多少钱买某物”，pay 的过去式为 paid；pound 作货币单位时是可数名词，three 后要用复数 pounds（对比复合形容词 a three-pound book 中不加 -s）。"
+      }
+    ]
+  },
+  {
+    "word": "gesture",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈdʒestʃə(r)/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 手势，姿势，（表示意思的）动作；（表明态度、情感的）姿态，表示，表意之举。v. 做手势，用动作示意",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a movement of the hand, head or body that expresses an idea or feeling; an action done to show a particular attitude or intention towards others.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（表明善意、支持、抗议等态度的）姿态、表示——并非肢体动作，常与 symbolic / token / empty 连用，暗含“只是做做样子”",
+        "example": "Sending one lorry of food was only a token gesture. 只送去一卡车食物不过是象征性的姿态。"
+      },
+      {
+        "partOfSpeech": "vi.（亦可作 vt.: gesture sb to do sth）",
+        "meaning": "（不出声地）用手势示意某人做某事：gesture (for) sb to do sth",
+        "example": "The guard gestured for us to wait outside the gate. 警卫示意我们在门外等候。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She made a small gesture of thanks to the driver. 她向司机做了个小小的致谢动作。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Sending books to the camp was a kind gesture. 给营地寄书是个善意之举。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "He gestured towards a shelf of old atlases at the back. 他朝后面那排旧地图册指了指。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "make a gesture",
+        "translation": "做一个手势；做出一种姿态",
+        "example": "He made a quick gesture and the queue moved on. 他迅速做了个手势，队伍便继续前行。"
+      },
+      {
+        "phrase": "a gesture of goodwill",
+        "translation": "善意的表示",
+        "example": "The donation was meant as a gesture of goodwill. 这笔捐款意在表示善意。"
+      },
+      {
+        "phrase": "a symbolic / token gesture",
+        "translation": "象征性的举动，做做样子的表示",
+        "example": "Critics called the aid a purely symbolic gesture. 批评者称这笔援助纯属象征性姿态。"
+      },
+      {
+        "phrase": "gesture to / towards sth",
+        "translation": "朝某处做手势，指向某物",
+        "example": "She gestured towards the row of empty seats. 她朝那排空座位指了指。"
+      },
+      {
+        "phrase": "gesture (for) sb to do sth",
+        "translation": "示意某人做某事",
+        "example": "The old man gestured for me to sit down. 老人示意我坐下。"
+      },
+      {
+        "phrase": "with a gesture of despair / impatience",
+        "translation": "带着绝望（不耐烦）的动作",
+        "example": "He shut the ledger with a gesture of despair. 他带着绝望的动作合上了账簿。"
+      },
+      {
+        "phrase": "hand gestures",
+        "translation": "手势（作交流方式时常用复数）",
+        "example": "Where language failed, hand gestures did the work. 语言无能为力之处，手势派上了用场。"
+      }
+    ],
+    "wordForms": {
+      "noun": "gesture（手势；姿态）; gesticulation（（激动时的）指手画脚，较正式）",
+      "verb": "gesture（gestured, gestured, gesturing）; gesticulate（（激动地）打手势比划）",
+      "adjective": "gestural（手势的，姿态的，多用于学术语境）",
+      "adverb": "—",
+      "other": "①注意读音：重音在首音节，-ture 读 /tʃə(r)/，与 picture、culture 同规律。②名词短语用 make a gesture，不用 do a gesture。③动词句型两条：gesture to / at / towards sth（朝…做手势）和 gesture (for) sb to do sth（示意某人做某事）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Saying nothing, the shopkeeper ______ (gesture) to me to come closer.",
+        "answer": "gestured",
+        "note": "全句叙述过去发生的事，用一般过去时；此处考 gesture 的动词用法与句型 gesture to sb to do sth（示意某人做某事）。"
+      },
+      {
+        "type": "汉译英",
+        "question": "为难民募集图书虽是小事，却是一种善意的表示。Collecting books for the refugees was a small thing, but it was ______ ______ ______ ______.（每空一词）",
+        "answer": "a gesture of goodwill",
+        "note": "四空对应 a / gesture / of / goodwill，为固定搭配“善意的表示”；此处 gesture 用的是“姿态、表意之举”这一抽象义，而非“手势”。"
+      }
+    ]
+  },
+  {
+    "word": "anticipate",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/ænˈtɪsɪpeɪt/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 预料，预期，预计（并为之做准备）；期待，盼望；预先想到并处理（需求、问题）；先于（某人）做某事",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to expect that something will happen and be ready to deal with it; to think with pleasure about something that is going to happen.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "预先察觉并满足（他人的需要、愿望），提前把事情办在前头",
+        "example": "A good host anticipates his guests' needs. 好的主人会预先想到客人的需要。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "抢先于（某人）做某事，比…更早提出或做出（≈ do sth before sb else does）",
+        "example": "Chinese printers anticipated Europeans by several centuries. 中国的印刷工匠比欧洲人早了好几个世纪。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The UN anticipated a serious food shortage in the region. 联合国预料该地区会出现严重粮食短缺。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "We anticipate arriving before the volunteers set up camp. 我们预计会在志愿者扎营之前到达。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Nobody anticipated that the little bookshop would close. 谁也没料到那家小书店会关门。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "anticipate doing sth",
+        "translation": "预计、预料会做某事",
+        "example": "We anticipate reaching the camp by nightfall. 我们预计天黑前抵达营地。"
+      },
+      {
+        "phrase": "anticipate that + 从句",
+        "translation": "预料…（后接完整句子）",
+        "example": "Officials anticipate that more families will need shelter. 官员们预料会有更多家庭需要庇护所。"
+      },
+      {
+        "phrase": "anticipate problems / difficulties",
+        "translation": "预见到问题、困难",
+        "example": "The team anticipated problems in transporting the water. 该团队预见到运水会有困难。"
+      },
+      {
+        "phrase": "anticipate sb's needs",
+        "translation": "预先想到某人的需要",
+        "example": "Good aid workers anticipate people's needs before being asked. 优秀的救援人员不等人开口就想到其需要。"
+      },
+      {
+        "phrase": "in anticipation of sth",
+        "translation": "预料到…（而提前做准备）",
+        "example": "They stored grain in anticipation of a hard winter. 他们储存粮食以防严冬来临。"
+      },
+      {
+        "phrase": "sooner / earlier than anticipated",
+        "translation": "比预料的更早",
+        "example": "The rains came sooner than anticipated. 雨季比预料的来得更早。"
+      },
+      {
+        "phrase": "eagerly anticipated",
+        "translation": "备受期待的，翘首以盼的",
+        "example": "The reopening of the bookshop was eagerly anticipated. 这家书店的重新开张令人翘首以盼。"
+      }
+    ],
+    "wordForms": {
+      "noun": "anticipation（预期，预料；期待，in anticipation of 预料到…而…）",
+      "verb": "anticipate（anticipated, anticipated, anticipating）——规则动词，去 e 加 -ed/-ing",
+      "adjective": "anticipated（预期的，the anticipated cost 预计费用）; anticipatory（预期的，先行的，较正式）",
+      "adverb": "—（anticipatorily 极少使用，口笔语中一般不用）",
+      "other": "①句型：anticipate + 名词 / v-ing / that 从句，不能说 anticipate sb to do sth（这一点与 expect 相反：expect sb to do sth ✓）。②比较状语从句中常省略为 than anticipated / as anticipated（= than it was anticipated）。③构词：anticipate + -ion → anticipation；重音在第二音节 /ænˈtɪsɪpeɪt/。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The relief team arrived sooner than ______ (anticipate), bringing clean water and blankets.",
+        "answer": "anticipated",
+        "note": "than (it was) anticipated 为比较状语从句的省略结构，省去主语和 be 后只保留过去分词，表被动“比被预料的更早”。"
+      },
+      {
+        "type": "完成句子",
+        "question": "我们没有料到那家旧书店会那么突然地关门。We didn't ______ ______ the old bookshop would close so suddenly.（每空一词）",
+        "answer": "anticipate that",
+        "note": "助动词 didn't 后用动词原形 anticipate；anticipate 后可接 that 从句（口语中 that 常省略，本题两空须写出）。注意不能说 anticipate the bookshop to close；若换成 expect 则可说 expect the bookshop to close。"
+      }
+    ]
+  },
+  {
+    "word": "pursue",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 3",
+    "pronunciation": "/pəˈsjuː/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 追求，努力争取（目标、事业、幸福等）；继续从事，推行（计划、政策、学业）；追赶，追捕；继续讨论，追究（话题、问题）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make an effort over time to achieve or obtain something; to continue with a plan, activity or discussion; to follow someone in order to catch them.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "继续讨论，追问，追究（某话题或问题）",
+        "example": "I'd rather not pursue this point any further. 这一点我不想再追究下去了。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（令人不快的记忆、传言、名声等）纠缠，缠住（某人）不放",
+        "example": "Rumours of that mistake pursued him for the rest of his career. 关于那次失误的传言纠缠了他此后的整个职业生涯。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She chose to pursue a career in humanitarian aid. 她选择投身人道主义援助事业。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Police pursued the stolen truck through the ruined streets. 警察追赶那辆被盗的卡车穿过残破的街道。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "We will pursue this plan despite the obvious difficulties. 尽管困难显而易见，我们仍会推进这一计划。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "pursue a career in sth",
+        "translation": "从事…事业，走…这条职业道路",
+        "example": "He decided to pursue a career in medicine. 他决定从医。"
+      },
+      {
+        "phrase": "pursue a goal / a dream",
+        "translation": "追求目标、梦想",
+        "example": "They pursued the same goal for over forty years. 四十多年来他们追求着同一个目标。"
+      },
+      {
+        "phrase": "pursue one's studies",
+        "translation": "继续学业，深造",
+        "example": "She pursued her studies while working at the shelter. 她一边在收容所工作，一边继续学业。"
+      },
+      {
+        "phrase": "pursue a policy / strategy",
+        "translation": "推行某项政策、策略",
+        "example": "The organization pursues a policy of strict neutrality. 该组织奉行严格中立的政策。"
+      },
+      {
+        "phrase": "pursue peace / a peaceful settlement",
+        "translation": "谋求和平／和平解决",
+        "example": "Its members pledged to pursue a peaceful settlement. 其成员承诺谋求和平解决方案。"
+      },
+      {
+        "phrase": "in pursuit of sth",
+        "translation": "为了追求…",
+        "example": "They crossed the desert in pursuit of safety. 为了寻求安全，他们穿越了沙漠。"
+      },
+      {
+        "phrase": "pursue the matter (further)",
+        "translation": "进一步追究此事",
+        "example": "The reporter promised to pursue the matter further. 记者承诺进一步追究此事。"
+      },
+      {
+        "phrase": "be pursued by sb",
+        "translation": "被…追赶、追捕",
+        "example": "The thief was pursued by two shopkeepers. 那个小偷被两名店主追赶。"
+      }
+    ],
+    "wordForms": {
+      "noun": "pursuit（追求；追赶；（常用复数）事业、活动、爱好，leisure pursuits 休闲活动）; pursuer（追赶者，追捕者）",
+      "verb": "pursue（pursued, pursued, pursuing）——规则动词，以 e 结尾，去 e 加 -ing",
+      "adjective": "—（无常用形容词；表“追赶的/被追捕的”用分词，如 the pursuing car、the pursued man）",
+      "adverb": "—",
+      "other": "①名词形式拼写会变：pursue → pursuit（-ue 变 -uit），常考短语 in pursuit of sth（追求…）。②英式读 /pəˈsjuː/，美式读 /pərˈsuː/，注意 -sue 的 /sjuː/。③辨析：pursue 强调长期、有目标地追求或推进；chase 多指体力上的追赶；seek 语气较正式，指“寻求（帮助、建议、机会）”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "In ______ (pursue) of world peace, the UN has sent peacekeepers to many countries.",
+        "answer": "pursuit",
+        "note": "in pursuit of 为固定短语，介词 in 后须用名词；注意名词形式拼写由 -ue 变为 -uit，写成 pursue 或 pursuement 均错。"
+      },
+      {
+        "type": "汉译英",
+        "question": "尽管困难重重，她仍决心投身人道主义事业。Despite the difficulties, she was determined to ______ ______ ______ ______ humanitarian work.（每空一词）",
+        "answer": "pursue a career in",
+        "note": "四空对应 pursue / a / career / in：pursue a career in sth 意为“从事…事业”；be determined to do sth 后接动词原形 pursue。"
+      }
+    ]
   }
 ]

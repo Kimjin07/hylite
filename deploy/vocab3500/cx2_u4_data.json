@@ -6028,5 +6028,738 @@
         "note": "原题型标注：辨析选词（stain 动词/名词义）。此处 stain 作及物动词，取抽象义“玷污（名誉）”，宾语 his reputation，用原形与情态动词 will 搭配。"
       }
     ]
+  },
+  {
+    "word": "subject",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈsʌbdʒɪkt/（n. & adj.）；/səbˈdʒekt/（v.）",
+    "partOfSpeech": "n. & adj. & vt.",
+    "translation": "n. 话题，主题；学科，科目；（研究/实验的）对象，受试者；（君主国的）臣民，国民；【语法】主语　adj.（与 to 连用）受…管辖的，须服从的；易受…影响的；以…为条件的　vt. /səbˈdʒekt/ 使遭受，使经受；使服从，征服",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the topic, person or thing that is being discussed, studied or dealt with; a branch of knowledge taught at school; (adj., with to) controlled by, likely to be affected by, or dependent on sth; (v.) to make sb/sth undergo or submit to sth, often sth unpleasant",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "be subject to sth：受…管辖／须服从…；易受…影响；以…为条件",
+        "example": "Even senior officials are subject to the law.｜连高级官员也要受法律约束。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "/səbˈdʒekt/ subject sb/sth to sth：使遭受，使经受（常用被动 be subjected to）",
+        "example": "New drugs are subjected to years of strict testing before they go on sale.｜新药上市前要经受多年的严格检验。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（君主国的）臣民，国民（与共和国的 citizen 相对）",
+        "example": "Loyal subjects once swore an oath to the king.｜昔日的臣民要向国王宣誓效忠。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（实验或调查的）对象，受试者",
+        "example": "Ten subjects took part in the memory test.｜十名受试者参加了记忆测试。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【语法】主语",
+        "example": "In this sentence, 'the court' is the subject.｜在这个句子里，the court 是主语。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Intellectual property is the subject of today's class debate.｜知识产权是今天课堂辩论的主题。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Nobody is above the law; all of us are subject to it.｜没有人凌驾于法律之上，我们都受它约束。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The lab subjected every new design to a strict safety test.｜实验室让每件新设计都经受了严格的安全测试。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be subject to the law / to the same rules",
+        "translation": "受法律（同样规则）约束",
+        "example": "Under the constitution, even the president is subject to the law.｜依照宪法，即使总统也受法律约束。"
+      },
+      {
+        "phrase": "be subject to change / approval",
+        "translation": "可能变动；须经批准（正式告示语）",
+        "example": "Patent filing fees are subject to change without notice.｜专利申请费可能调整，恕不另行通知。"
+      },
+      {
+        "phrase": "subject sb/sth to sth",
+        "translation": "使某人／某物遭受（经受）…",
+        "example": "Officials subjected every package at the border to a careful check.｜边检人员让每个包裹都经过了仔细检查。"
+      },
+      {
+        "phrase": "the subject of a lawsuit / a patent",
+        "translation": "诉讼的标的；专利所涉之物",
+        "example": "That secret formula is now the subject of a patent dispute.｜那个秘方如今成了专利纠纷的标的。"
+      },
+      {
+        "phrase": "change the subject",
+        "translation": "转移话题，岔开话题",
+        "example": "He quickly changed the subject when piracy was mentioned.｜一提到盗版，他就迅速岔开了话题。"
+      },
+      {
+        "phrase": "on the subject of sth",
+        "translation": "关于…（引出话题）",
+        "example": "On the subject of trademarks, our lawyer gave three warnings.｜关于商标，我们的律师给出了三点提醒。"
+      },
+      {
+        "phrase": "a compulsory / an elective subject",
+        "translation": "必修／选修科目",
+        "example": "Basic law has become an elective subject in our school.｜基础法律已成为我校的一门选修课。"
+      },
+      {
+        "phrase": "a British subject",
+        "translation": "英国臣民（君主国国民的旧称）",
+        "example": "In the days of the empire, anyone born in its territories was a British subject.｜在帝国时代，凡出生在其领地上的人都是英国臣民。"
+      }
+    ],
+    "wordForms": {
+      "noun": "subject（话题；学科；受试者；臣民；主语）；subjection（n. 征服，服从）；subjectivity（n. 主观性）",
+      "verb": "subject /səbˈdʒekt/（vt. 使遭受；使服从 —— subjected, subjecting）",
+      "adjective": "subject（受制于…的，主要用于 be subject to 结构；作定语时可表「受统治的」，如 subject peoples）；subjective（主观的）",
+      "adverb": "subjectively（主观地）",
+      "other": "重音「名前动后」：名词/形容词 /ˈsʌbdʒɪkt/，动词 /səbˈdʒekt/（同 record、present、object）。辨析：be subject to sth＝受…支配／易受…影响（to 是介词，后接名词或动名词：subject to inspection / to being inspected）；be subjected to sth＝被施加、被迫经受（多为不好的事），是动词 subject 的被动式，二者不可混用。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "In a country ruled by law, everyone, officials included, is subject ______ the same rules.",
+        "answer": "to",
+        "note": "be subject to sth「受…约束／支配」是固定搭配，to 为介词，后接名词；不可写成 subject with/for。"
+      },
+      {
+        "type": "汉译英",
+        "question": "任何嫌疑人都不得遭受不公正的对待。（subject）",
+        "answer": "No suspect should be subjected to unfair treatment.",
+        "note": "「遭受」用被动 be subjected to sth（动词 subject 重音在后 /səbˈdʒekt/）；若写成 be subject to 则变成「受…支配」，意思不对。"
+      }
+    ]
+  },
+  {
+    "word": "originate",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/əˈrɪdʒɪneɪt/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "vi. 起源，发源，产生（常与 in/from/with 连用）；（交通工具）始发于　vt. 创始，首创，发明",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to happen or appear for the first time in a particular place, time or situation; (transitive) to create or start sth new such as an idea, a design or a plan",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "创始，首创，发明（此时为及物动词，宾语是被创造出来的事物）",
+        "example": "She originated a scheme to protect young inventors' designs.｜她首创了一套保护年轻发明者设计的方案。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "【交通】（航班、列车等）始发于某地",
+        "example": "The flight originating in Shanghai was delayed by fog.｜由上海始发的航班因大雾延误。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Many modern patent rules originated in nineteenth-century Britain.｜许多现代专利规则起源于19世纪的英国。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Her doubts about the contract originated from one unclear clause.｜她对这份合同的怀疑源于其中一个含糊的条款。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "It was printers, not writers, who originated the earliest form of copyright.｜最早形式的版权是印刷商而非作家首创的。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "originate in + 地点/时期",
+        "translation": "起源于（某地、某时代）",
+        "example": "Common law originated in medieval England.｜普通法起源于中世纪的英格兰。"
+      },
+      {
+        "phrase": "originate from sth",
+        "translation": "源自（某原因、某来源）",
+        "example": "Most copyright cases originate from careless copying online.｜多数版权案件源于网上的随意复制。"
+      },
+      {
+        "phrase": "originate with sb",
+        "translation": "由某人首创，出自某人之手",
+        "example": "The proposal to shorten patent terms originated with a student.｜缩短专利期限的提议出自一名学生。"
+      },
+      {
+        "phrase": "originate as sth",
+        "translation": "最初是…（后来演变）",
+        "example": "The word 'patent' originated as a term for an open official letter.｜patent 一词最初指一种公开的官方文书。"
+      },
+      {
+        "phrase": "be believed / thought to have originated",
+        "translation": "据信起源于…（谈过去的起源须用不定式完成式）",
+        "example": "Trial by jury is thought to have originated in Norman England.｜陪审团审判据信起源于诺曼时期的英格兰。"
+      },
+      {
+        "phrase": "originate an idea / a design / a scheme",
+        "translation": "首创某种想法／设计／方案（及物用法）",
+        "example": "He originated a design that later won a national patent.｜他首创的一项设计后来获得了国家专利。"
+      },
+      {
+        "phrase": "goods originating in a country",
+        "translation": "原产于某国的商品（贸易与海关用语）",
+        "example": "Only goods originating in that region carry the special mark.｜只有原产于该地区的商品才带有此专用标志。"
+      }
+    ],
+    "wordForms": {
+      "noun": "origin（起源，出身，常用复数 origins）；originator（创始人，首创者）；originality（独创性，是作品受版权保护的前提）",
+      "verb": "originate（起源；首创 —— originated, originating）",
+      "adjective": "original（最初的；原创的，未被抄袭的）",
+      "adverb": "originally（起初，原来）",
+      "other": "构词：origin + -ate（名词→动词），重音落在第二音节 /əˈrɪdʒɪneɪt/。用法关键：表「起源」时是不及物动词，绝不能用被动——×The idea was originated in Venice. √The idea originated in Venice.；只有表「首创、发明」时才及物（originate a design）。介词分工：originate in（地点／时代）、originate from（原因／来源）、originate with sb（由某人首创）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The idea of protecting inventions by law ______ (originate) in Venice, where the first patent statute was passed in 1474.",
+        "answer": "originated",
+        "note": "1474 表明是过去的事实，用一般过去时；originate 表「起源」是不及物动词，不能写成 was originated。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这场商标纠纷起源于一个简单的误会。The trademark dispute ______ ______ a simple misunderstanding.（用 originate）",
+        "answer": "originated from",
+        "note": "originate from sth 表「源于（某原因）」；叙述过去发生的事用过去式，且不用被动语态。"
+      }
+    ]
+  },
+  {
+    "word": "instrument",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈɪnstrəmənt/",
+    "partOfSpeech": "n.",
+    "translation": "n. （精密的）仪器，器械；乐器（＝musical instrument）；（达到目的的）手段，工具；【法律】正式文件，法律文书；（飞机等的）仪表",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a tool or device used for careful, scientific or delicate work; an object used for producing music; a means by which sth is achieved; (law) a formal written document such as a contract or a patent",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【法律】正式文件，法律文书（如合同、条约、专利证书）",
+        "example": "A patent is a legal instrument that must be registered.｜专利是一份必须注册的法律文书。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（被用来达到某种目的的）手段，工具，也可指「被人利用的人」",
+        "example": "He became a mere instrument in his boss's plan.｜他沦为老板计划中的一个工具。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【航空】（飞机、汽车的）仪表；fly on instruments 指依靠仪表飞行",
+        "example": "The pilot flew on instruments through the thick fog.｜飞行员在浓雾中依靠仪表飞行。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Scientists calibrate each instrument before recording any data.｜科学家在记录数据前会校准每一台仪器。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Law is the chief instrument by which a society keeps order.｜法律是社会维持秩序的主要手段。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The two countries exchanged the instruments of ratification last week.｜两国上周交换了批准书。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a legal instrument",
+        "translation": "法律文书（合同、专利、条约等）",
+        "example": "A signed contract is a legal instrument binding both sides.｜签署的合同是对双方都有约束力的法律文书。"
+      },
+      {
+        "phrase": "an instrument of sth",
+        "translation": "…的工具／手段",
+        "example": "Education is a powerful instrument of social change.｜教育是推动社会变革的有力工具。"
+      },
+      {
+        "phrase": "a blunt instrument",
+        "translation": "（喻）粗糙生硬的手段；（字面）钝器",
+        "example": "Criminal law is a blunt instrument for stopping online piracy.｜用刑法制止网络盗版是一种生硬的手段。"
+      },
+      {
+        "phrase": "scientific / precision instruments",
+        "translation": "科学仪器；精密仪器",
+        "example": "Precision instruments can reveal the tiniest flaw in a fake.｜精密仪器能查出赝品上最细微的破绽。"
+      },
+      {
+        "phrase": "a musical instrument; play an instrument",
+        "translation": "乐器；演奏乐器",
+        "example": "She plays three musical instruments and composes her own songs.｜她会演奏三种乐器，还自己作曲。"
+      },
+      {
+        "phrase": "the instrument panel",
+        "translation": "仪表盘",
+        "example": "A red light on the instrument panel warned of engine trouble.｜仪表盘上的红灯提示发动机故障。"
+      },
+      {
+        "phrase": "be instrumental in (doing) sth",
+        "translation": "在…中发挥重要作用（形容词形式的固定考点）",
+        "example": "Her research was instrumental in tightening the copyright rules.｜她的研究对收紧版权规则起了重要作用。"
+      }
+    ],
+    "wordForms": {
+      "noun": "instrument（仪器；乐器；手段；法律文书）；instrumentation（器械配备；乐器配置）；instrumentalist（器乐演奏者）",
+      "verb": "instrument（vt. 给…装配仪表，仅限工程技术语境，中学不作要求 —— instrumented, instrumenting）",
+      "adjective": "instrumental（起重要作用的；用乐器演奏的）",
+      "adverb": "instrumentally（少用；表「起重要作用」一般用 be instrumental in doing sth，不用副词）",
+      "other": "词根 stru-「建造、装配」，与 construct、structure、instruct 同源。高频考点：be instrumental in doing sth「在…中起关键作用」，in 为介词，后必须接动名词。辨析：instrument 多指精密仪器或专业器械（surgical/scientific instruments）；tool 指手工工具；device 指有具体功能的装置；乐器只说 musical instrument，不说 music tool。"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "他在起草这部知识产权法的过程中发挥了重要作用。He ______ ______ ______ drafting the intellectual property law.（用 instrument 的形容词形式）",
+        "answer": "was instrumental in",
+        "note": "be instrumental in doing sth 是固定结构：in 为介词，后接动名词 drafting；不可写成 was instrumental to draft。"
+      },
+      {
+        "type": "汉译英",
+        "question": "法律应当成为伸张正义的工具，而不是压迫的手段。（instrument）",
+        "answer": "The law should be an instrument of justice, not of oppression.",
+        "note": "an instrument of sth 表「…的工具／手段」；后半句为避免重复，用 not of oppression 承前省略 an instrument。"
+      }
+    ]
+  },
+  {
+    "word": "core",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/kɔː(r)/",
+    "partOfSpeech": "n. & adj. & vt.",
+    "translation": "n. 核心，要点，最重要的部分；（水果的）果核；（地球的）地核；（反应堆的）堆芯　adj. 核心的，最主要的（一般只作定语）　vt. 挖去（水果的）核",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the most important or central part of sth; the hard central part of a fruit that contains the seeds; (adj.) most important or essential; (v.) to remove the core from a fruit",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "挖去（苹果、梨等的）果核",
+        "example": "Peel and core the apples before you bake them.｜烤苹果之前先削皮去核。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【地质／核能】地核；（核反应堆的）堆芯",
+        "example": "Temperatures at the earth's core exceed 5,000°C.｜地核温度超过5000摄氏度。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【计算机】（处理器的）核心，如 a four-core processor 四核处理器",
+        "example": "This laptop runs on an eight-core processor.｜这台笔记本电脑用的是八核处理器。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Fairness lies at the core of every workable legal system.｜公平处于每一套行之有效的法律制度的核心。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Respect for other people's work is a core value here.｜尊重他人的劳动成果是这里的一项核心价值观。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Core the pears first, then simmer them for ten minutes.｜先把梨去核，再小火煮十分钟。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "at the core of sth",
+        "translation": "处于…的核心",
+        "example": "Trust sits at the core of the relationship between judge and jury.｜信任处于法官与陪审团关系的核心。"
+      },
+      {
+        "phrase": "the core of the problem / argument",
+        "translation": "问题／论点的核心",
+        "example": "The core of the dispute is who really owns the patent.｜争议的核心是这项专利究竟归谁所有。"
+      },
+      {
+        "phrase": "core values / principles",
+        "translation": "核心价值观／核心原则",
+        "example": "Honesty and fairness are the core principles of our school.｜诚实与公平是我校的核心原则。"
+      },
+      {
+        "phrase": "a core subject / core curriculum",
+        "translation": "核心科目／核心课程",
+        "example": "Basic legal knowledge is now part of the core curriculum.｜基础法律知识现已纳入核心课程。"
+      },
+      {
+        "phrase": "core business",
+        "translation": "核心业务",
+        "example": "Selling patents is not the company's core business.｜出售专利并不是这家公司的核心业务。"
+      },
+      {
+        "phrase": "a hard core of sb",
+        "translation": "（某群体中）顽固的少数人",
+        "example": "A hard core of repeat offenders is responsible for most of these crimes.｜这类犯罪大多是少数惯犯所为。"
+      },
+      {
+        "phrase": "to the core",
+        "translation": "彻底地，十足地（放在形容词或动词之后）",
+        "example": "He is honest to the core, even when nobody is watching.｜他诚实透顶，哪怕无人监督也是如此。"
+      },
+      {
+        "phrase": "an apple core",
+        "translation": "苹果核",
+        "example": "Don't drop the apple core on the pavement—that's littering.｜别把苹果核扔在人行道上，那是乱丢垃圾。"
+      }
+    ],
+    "wordForms": {
+      "noun": "core（核心；果核）；hard core（顽固的核心分子；硬核）",
+      "verb": "core（vt. 去核 —— cored, coring）",
+      "adjective": "core（核心的，一般只作定语）；hard-core（作定语时常加连字符，如 hard-core supporters）",
+      "adverb": "—（core 无副词形式；表「彻底地」用短语 to the core）",
+      "other": "core 作形容词一般只作定语，不作表语，也不受程度副词修饰：√a core subject，×This subject is very core。同音／近形词注意区分：core /kɔː/（核心）、corps /kɔː/（军团，ps 不发音）、chore /tʃɔː/（家务杂事）、corn（谷物）。常见近义：the core of ≈ the heart of ≈ the essence of。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Whether ideas themselves can be owned lies ______ the core of the copyright debate.",
+        "answer": "at",
+        "note": "at the core of sth「处于…的核心」为固定搭配（≈ at the heart of），介词用 at，不用 in。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这桩侵权丑闻让整个公司深受震动。（to the core）",
+        "answer": "The scandal over infringement shook the whole company to the core.",
+        "note": "to the core 意为「彻底地、深深地」，置于动词或形容词之后作程度状语，属固定短语，core 不加 s。"
+      }
+    ]
+  },
+  {
+    "word": "distinctive",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/dɪˈstɪŋktɪv/",
+    "partOfSpeech": "adj.",
+    "translation": "adj. 独特的，与众不同的，有辨识度的（因某个特征而容易被认出）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "having a special quality, style or appearance that makes sth clearly different from others and easy to recognise",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "【商标法】具有显著性的（足以区分商品来源，因而可获注册的）",
+        "example": "A mark must be distinctive before it can be registered.｜商标须具有显著性才能获准注册。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "【语言学】区别性的，如 distinctive feature「区别特征」",
+        "example": "Voicing is a distinctive feature separating /p/ from /b/.｜清浊是区分 /p/ 与 /b/ 的区别特征。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Her handwriting has a distinctive slant that experts recognise at once.｜她的字迹有一种独特的倾斜，专家一眼就能认出。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Holmes noticed the distinctive stains on the assistant's trouser knees.｜福尔摩斯注意到那伙计裤子膝盖上独特的污渍。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A distinctive brand name is far easier to defend in court.｜独特的品牌名在法庭上要好维护得多。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a distinctive feature / characteristic",
+        "translation": "显著特征，独有的特点",
+        "example": "Bright packaging is this product's most distinctive feature.｜鲜艳的包装是这款产品最显著的特征。"
+      },
+      {
+        "phrase": "a distinctive style / voice",
+        "translation": "独特的风格／嗓音",
+        "example": "The writer's distinctive style makes any copy easy to spot.｜这位作家风格独特，抄袭之作一眼可辨。"
+      },
+      {
+        "phrase": "a distinctive trademark / logo",
+        "translation": "有辨识度的商标／标志",
+        "example": "A distinctive logo lets customers recognise the brand at a glance.｜有辨识度的标志让顾客一眼就认出这个品牌。"
+      },
+      {
+        "phrase": "highly distinctive",
+        "translation": "极具辨识度的（highly 是最常见的程度修饰语）",
+        "example": "Her jewellery designs are highly distinctive and instantly recognisable.｜她的珠宝设计极具辨识度，一眼就能认出。"
+      },
+      {
+        "phrase": "a distinctive flavour / smell",
+        "translation": "独特的味道／气味",
+        "example": "This tea has a distinctive smoky flavour from the mountains.｜这种茶有山间独特的烟熏味。"
+      },
+      {
+        "phrase": "distinctive markings",
+        "translation": "（动物身上）独特的斑纹、花纹",
+        "example": "The bird has distinctive black markings on both wings.｜这种鸟双翼上有独特的黑色斑纹。"
+      },
+      {
+        "phrase": "give sth a distinctive identity",
+        "translation": "赋予…独特的身份／形象",
+        "example": "Careful branding gave the small firm a distinctive identity.｜精心的品牌打造赋予这家小公司独特的形象。"
+      }
+    ],
+    "wordForms": {
+      "noun": "distinction（区别；卓越，优异，如 graduate with distinction）；distinctiveness（独特性；【商标法】显著性）",
+      "verb": "distinguish（vt. 区分，辨别 —— distinguish A from B / between A and B）",
+      "adjective": "distinctive（有辨识度的）；distinct（清晰的；截然不同的）；distinguished（卓越的，著名的）；distinguishable（可辨别的）",
+      "adverb": "distinctively（以独特的方式）；distinctly（清楚地，明显地）",
+      "other": "【核心易混】distinctive 强调「有别于他者、易于识别」，修饰 logo、style、smell 等特征；distinct 强调「清晰可辨」或「截然不同」，固定用 be distinct from（×be distinctive from）。副词同理：I distinctly remember signing it.（清楚地记得）≠ distinctively（以独特方式）。构词链：distinguish（v.）→ distinct（adj.）→ distinctive（adj.）；词根 -stinct-/-stingu-「刺、做记号」引申为「区分」，同族词有 instinct、extinguish。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "To be registered, a trademark must be ______ (distinct / distinctive) enough for shoppers to tell one brand from another.",
+        "answer": "distinctive",
+        "note": "此处强调「有辨识度、能与他者区别开」，用 distinctive；distinct 多表「清晰的」或用于 be distinct from「与…截然不同」。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这个品牌独特的红色标志已被注册为商标。（distinctive）",
+        "answer": "The brand's distinctive red logo has been registered as a trademark.",
+        "note": "distinctive 作定语修饰 logo；「已被注册」用现在完成时的被动 has been registered，register sth as a trademark 为常用搭配。"
+      }
+    ]
+  },
+  {
+    "word": "secure",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/sɪˈkjʊə(r)/",
+    "partOfSpeech": "adj. & vt.",
+    "translation": "adj. 安全的，有保障的；牢固的，固定好的；安心的，无忧的；（工作、地位）稳固的　vt.（尤指经努力）获得，取得；保障，保护，使安全；把…固定牢",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(adj.) safe from harm or loss, firmly fixed in position, or free from worry; (v.) to obtain or achieve sth, especially after effort; to make sth safe, or to fasten it firmly",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（经过努力）获得，取得，谋得（正式，≈ obtain 但强调「争取到」）",
+        "example": "After long negotiations, she secured a contract with a major publisher.｜经过长时间谈判，她与一家大出版社签下了合同。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "把…拴牢，固定好（使不松动、不脱落）",
+        "example": "He secured the cellar door with a heavy iron bar.｜他用一根粗铁棍把地下室的门闩牢了。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "【金融】以（财产）作担保／抵押（常用 be secured on/against sth）",
+        "example": "The loan was secured against their family house.｜这笔贷款以他们的家宅作抵押。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The company secured exclusive rights to the new formula.｜公司取得了该新配方的独家权利。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Keep your passwords secure so that hackers cannot steal your designs.｜保管好密码，让黑客偷不走你的设计。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "With the patent granted, her position in the market felt secure.｜专利获批后，她在市场上的地位显得稳固了。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "secure a patent / copyright / trademark",
+        "translation": "取得专利／版权／商标",
+        "example": "The firm secured the trademark for its new logo within six months.｜这家公司在半年内为新标志取得了商标。"
+      },
+      {
+        "phrase": "secure sth for sb",
+        "translation": "为某人争取到某物",
+        "example": "A written contract secures fair payment for every author.｜书面合同为每位作者争取到了公平的报酬。"
+      },
+      {
+        "phrase": "secure a job / a place / a loan",
+        "translation": "谋得工作／名额／贷款",
+        "example": "She secured a place at law school after three interviews.｜经过三轮面试，她拿到了法学院的入学名额。"
+      },
+      {
+        "phrase": "be secure against / from sth",
+        "translation": "免受…侵害，能防住…",
+        "example": "No online file is completely secure from determined hackers.｜面对铁了心的黑客，没有哪个在线文件是绝对安全的。"
+      },
+      {
+        "phrase": "feel secure (about sth)",
+        "translation": "感到安心、有保障",
+        "example": "Employees feel secure when their contracts are clearly written.｜合同写得清楚，员工才会感到安心。"
+      },
+      {
+        "phrase": "a secure connection / a secure server",
+        "translation": "安全连接／安全服务器",
+        "example": "Always upload your designs through a secure connection.｜上传设计稿务必使用安全连接。"
+      },
+      {
+        "phrase": "financially secure",
+        "translation": "经济上有保障的",
+        "example": "A single successful patent made the inventor financially secure.｜一项成功的专利让这位发明家经济上有了保障。"
+      }
+    ],
+    "wordForms": {
+      "noun": "security（安全；保安；担保物；复数 securities 指「证券」）；insecurity（不安全；不安全感）",
+      "verb": "secure（vt. 获得；保障；固定 —— secured, securing）",
+      "adjective": "secure（安全的，牢固的）；insecure（不安全的；缺乏自信的）；secured（有担保的，如 a secured loan）",
+      "adverb": "securely（牢固地，安全地）；insecurely（不牢固地）",
+      "other": "词源 se-「没有」+ cura「忧虑」→「无忧的」，故有「安心的」一义（同根 cure, curious）。动词的「获得」义是高考高频考点，语域较正式：secure a patent/contract/job ≈ obtain，但突出「费力争取到」。介词搭配：be secure against / from sth（免受…侵害），不用 to；secure sth for sb（为某人争取到某物）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "After years of testing and paperwork, the team finally ______ (secure) a patent for their design.",
+        "answer": "secured",
+        "note": "After years of... 与 finally 提示动作已完成，用一般过去时；secure 在此为及物动词，意为「（经努力）获得」。"
+      },
+      {
+        "type": "完成句子",
+        "question": "只有当你的文件被妥善保护时，你的创意才能免受剽窃。Only when your files are kept ______ can your ideas be safe from theft.（用 secure）",
+        "answer": "secure",
+        "note": "keep + 宾语 + 形容词，故填形容词 secure「安全的、有保障的」；Only when 从句置于句首时主句用部分倒装 can your ideas be...。"
+      }
+    ]
+  },
+  {
+    "word": "consist",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 4",
+    "pronunciation": "/kənˈsɪst/",
+    "partOfSpeech": "vi.（不及物动词：无被动语态，一般不用进行时；另有极罕见的铁路名词用法 n. /ˈkɒnsɪst/，高考不考）",
+    "translation": "vi. 由…组成，由…构成（consist of）；在于，本质是（consist in）；（正式、偏旧）与…一致，相符（consist with）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to be formed or made up of particular parts, things or people (consist of); to have sth as its main or essential feature (consist in). Consist is intransitive: it has no passive form and is not normally used in the progressive.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（正式、偏旧）consist with sth：与…一致，与…相符（现代英语更常说 be consistent with）",
+        "example": "The witness's story does not consist with the facts we have gathered.｜证人的说法与我们掌握的事实并不相符。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（美国铁路行业术语，读音重音前移 /ˈkɒnsɪst/）列车编组：一列火车所挂车厢与机车的组合",
+        "example": "The freight train's consist included forty grain cars.｜这列货车的编组里有四十节运粮车厢。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi. consist of",
+        "sentence": "A healthy lifestyle consists of regular exercise, balanced meals and enough sleep.｜健康的生活方式由规律运动、均衡饮食和充足睡眠组成。"
+      },
+      {
+        "partOfSpeech": "vi. consist in",
+        "sentence": "For me, the fun of hiking consists in the talk along the way, not in reaching the top.｜对我来说，徒步的乐趣在于一路上的交谈，而不在于登顶。"
+      },
+      {
+        "partOfSpeech": "vi.（consisting of 作后置定语，= which consists of）",
+        "sentence": "We watched a documentary consisting of five short films about ocean life.｜我们看了一部由五个海洋生物短片组成的纪录片。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "consist of sth",
+        "translation": "由…组成，由…构成（整体→部分；绝不用被动）",
+        "example": "A balanced breakfast consists of milk, eggs and whole-grain bread.｜均衡的早餐由牛奶、鸡蛋和全麦面包组成。"
+      },
+      {
+        "phrase": "consist in sth / in doing sth",
+        "translation": "（本质、关键）在于…",
+        "example": "True friendship consists in standing by someone when things go wrong.｜真正的友谊在于对方遇到麻烦时依然守在他身边。"
+      },
+      {
+        "phrase": "consist mainly / largely of",
+        "translation": "主要由…组成",
+        "example": "The audience consisted mainly of parents and younger students.｜观众主要由家长和低年级学生组成。"
+      },
+      {
+        "phrase": "consist entirely of",
+        "translation": "完全由…组成",
+        "example": "This year's paper consists entirely of reading and writing tasks.｜今年的试卷完全由阅读和写作任务组成。"
+      },
+      {
+        "phrase": "consist of little more than",
+        "translation": "只不过由…构成，充其量不过是…",
+        "example": "His so-called apology consisted of little more than a shrug.｜他所谓的道歉只不过是耸了耸肩罢了。"
+      },
+      {
+        "phrase": "What does sth consist of?",
+        "translation": "…由哪些部分组成？（疑问句式，仍不可用被动）",
+        "example": "What exactly does the training course consist of?｜这门培训课程具体由哪些内容组成？"
+      },
+      {
+        "phrase": "consisting of ...（现在分词短语作后置定语）",
+        "translation": "由…组成的…",
+        "example": "A team consisting of three students from our class won the debate.｜一支由我们班三名同学组成的队伍赢得了辩论赛。"
+      }
+    ],
+    "wordForms": {
+      "noun": "consistency（一致性；连贯性；（液体的）稠度）；consistence（同义，罕用）。注意：表示“构成、成分”要用 composition / make-up，不能用 consistency。",
+      "verb": "consist（consists / consisted / consisted / consisting，规则变化）；同义表达：comprise（vt.）、be composed of、be made up of",
+      "adjective": "consistent（一致的；始终如一的），be consistent with sth 与…相符；反义 inconsistent（前后矛盾的）",
+      "adverb": "consistently（一贯地，始终如一地）",
+      "other": "词源：con-（共同）+ sistere（站立）→“站在一起”→由…组成。三大高频错点：①不及物动词，无被动，×be consisted of，要么 consist of，要么 be made up of / be composed of；②一般不用进行时，×is consisting of；③consist of（列出组成部分）≠ consist in（指出本质、关键所在）。与 comprise 对比：comprise 是及物动词，The team comprises eleven players.；口语中常见的 be comprised of 有争议，考试用 be made up of / be composed of 更稳妥。主谓一致取决于主语本身：Our team consists of...（单数）／The materials consist of...（复数）。",
+      "adjectiveNote": ""
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Our school choir ______ (consist) of forty students from three different grades.",
+        "answer": "consists",
+        "note": "consist 是不及物动词，绝不能写 is consisted of；主语 Our school choir 视为整体作单数，故用 consists；该词也不用进行时（×is consisting of）。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 in / of 填空：①The training course consists ______ four modules and a final project. ②The charm of the old town consists ______ its narrow stone streets and slow pace.",
+        "answer": "① of ② in",
+        "note": "consist of 列举“由哪些部分组成”；consist in 指出“本质／魅力／关键在于”。②句强调古镇魅力之所在，故用 in。"
+      },
+      {
+        "type": "单句改错",
+        "question": "Our volunteer group is consisted of twelve high school students.",
+        "answer": "is consisted of → consists of（或把 consist 换掉：is made up of / is composed of）",
+        "note": "consist 无被动语态，这是该词最常见的错误；若一定要用被动结构表达“由…组成”，须换成 be made up of / be composed of。"
+      }
+    ]
   }
 ]

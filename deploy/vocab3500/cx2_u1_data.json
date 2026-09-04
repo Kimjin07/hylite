@@ -7203,5 +7203,1688 @@
         "note": "make a rash decision 固定搭配；后接定语从句 that/which you will regret（宾语从句关系词可省）。"
       }
     ]
+  },
+  {
+    "word": "strain",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/streɪn/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. （病毒、细菌、动植物的）品系，毒株，品种；压力，负担；扭伤，拉伤；拉力，张力；（常作复数）旋律，曲调　v. 拉伤，扭伤（肌肉等）；竭力，尽力；拉紧；过滤；使（关系）紧张",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a particular variety or type of a virus, bacterium, plant or animal; a pressure or demand that makes something difficult to bear; an injury caused by stretching a muscle too far. (v.) to injure a body part by stretching it too much; to make a very great effort; to pour liquid through a sieve to separate the solid parts; to make a relationship difficult or tense.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数 strains）乐曲的旋律，曲调片段",
+        "example": "The strains of a violin drifted out of the hospital window. 小提琴的旋律从医院窗口飘了出来。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "过滤，滤去（液体中的固体）",
+        "example": "Strain the soup carefully before you give it to the patient. 把汤仔细滤一遍再端给病人。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（家族或性格中的）遗传特质，一股…劲儿",
+        "example": "There is a strain of stubbornness running through the whole family. 这一家人身上都有一股倔劲儿。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.（毒株）",
+        "sentence": "Researchers soon identified a more infectious strain of the virus."
+      },
+      {
+        "partOfSpeech": "n.（压力）",
+        "sentence": "The sudden wave of patients put a heavy strain on hospitals."
+      },
+      {
+        "partOfSpeech": "v.（竭力）",
+        "sentence": "Volunteers strained every nerve to deliver food before dark."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a new strain of coronavirus",
+        "translation": "一种新型冠状病毒毒株",
+        "example": "Covid-19 is caused by a new strain of coronavirus. 新冠肺炎由一种新型冠状病毒毒株引起。"
+      },
+      {
+        "phrase": "a drug-resistant strain",
+        "translation": "耐药菌株／毒株",
+        "example": "A drug-resistant strain spread quickly through the ward. 一种耐药菌株在病房里迅速扩散。"
+      },
+      {
+        "phrase": "put a strain on sth/sb",
+        "translation": "给…造成压力、负担",
+        "example": "The outbreak put a strain on the whole health system. 疫情给整个医疗系统造成了沉重负担。"
+      },
+      {
+        "phrase": "under (great) strain",
+        "translation": "承受着（巨大）压力",
+        "example": "The nurses worked under great strain for three months. 护士们在巨大压力下连续工作了三个月。"
+      },
+      {
+        "phrase": "strain a muscle",
+        "translation": "拉伤肌肉",
+        "example": "He strained a muscle while carrying supplies upstairs. 他把物资搬上楼时拉伤了肌肉。"
+      },
+      {
+        "phrase": "strain one's ears/eyes",
+        "translation": "竖起耳朵听／费力地看",
+        "example": "She strained her ears to catch the doctor's low voice. 她竖起耳朵才听清医生的低语。"
+      },
+      {
+        "phrase": "strain relations between",
+        "translation": "使…之间的关系紧张",
+        "example": "Weeks of lockdown strained relations between the neighbours. 数周封控使邻里关系变得紧张。"
+      },
+      {
+        "phrase": "strain every nerve to do sth",
+        "translation": "竭尽全力做某事",
+        "example": "Doctors strained every nerve to save the elderly patient. 医生们竭尽全力抢救那位老年病人。"
+      }
+    ],
+    "wordForms": {
+      "noun": "strain 毒株／压力／拉伤；strainer 滤网，漏勺",
+      "verb": "strain 拉伤，竭力，过滤（规则变化：strain-strained-strained）；同源 restrain 抑制，constrain 限制",
+      "adjective": "strained 疲惫紧张的；不自然的（strained relations 紧张的关系；a strained smile 勉强的笑容）",
+      "adverb": "",
+      "other": "①一词多义提醒：n. 毒株／压力／（复数）旋律；v. 拉伤／竭力／过滤。②辨析 strain vs sprain：strain a muscle 拉伤肌肉肌腱，sprain one's ankle 扭伤脚踝关节。③辨析 strain vs stress vs pressure：stress 侧重精神压力，pressure 侧重外来施压，strain 强调超负荷后产生的紧张与损耗。④表\"毒株\"时为可数名词：a new strain of coronavirus / several strains of flu virus；表\"压力\"时可数不可数皆可（put a strain on… / be under strain）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "After three weeks in the ICU, the young doctor's face looked pale and ______ (strain).",
+        "answer": "strained",
+        "note": "strain 的形容词 strained 表\"疲惫紧张的、不自然的\"，与 pale 并列作 looked 的表语；strained 还可修饰关系（strained relations 关系紧张）。"
+      },
+      {
+        "type": "汉译英",
+        "question": "连续数月的超负荷工作给医护人员造成了巨大压力。\nMonths of overwork ______ a huge ______ on medical workers.",
+        "answer": "put / strain（Months of overwork put a huge strain on medical workers.）",
+        "note": "put a strain on sb/sth 是固定搭配，strain 此处为可数名词\"压力、负担\"，前可加 huge/heavy/enormous；注意与\"毒株\"义 a strain of coronavirus 区分。"
+      }
+    ]
+  },
+  {
+    "word": "vaccine",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈvæksiːn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 疫苗，菌苗",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a substance that is put into a person's or an animal's body, usually by injection, to protect them from a disease by making the body produce antibodies.",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Two doses of this vaccine protect most people for about a year."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The vaccine has to be stored at a very low temperature."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A safe and effective vaccine gave the whole community fresh hope."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "develop a vaccine",
+        "translation": "研制疫苗",
+        "example": "Teams worked day and night to develop a vaccine. 各团队夜以继日地研制疫苗。"
+      },
+      {
+        "phrase": "a vaccine against sth",
+        "translation": "抗（某种疾病）的疫苗",
+        "example": "There is still no perfect vaccine against the common cold. 至今仍没有防治普通感冒的完美疫苗。"
+      },
+      {
+        "phrase": "receive/get a vaccine",
+        "translation": "接种疫苗",
+        "example": "People over sixty received the vaccine first. 六十岁以上的人先接种疫苗。"
+      },
+      {
+        "phrase": "a dose of vaccine",
+        "translation": "一剂疫苗",
+        "example": "The second dose of vaccine is given three weeks later. 第二剂疫苗在三周后接种。"
+      },
+      {
+        "phrase": "roll out a vaccine",
+        "translation": "大规模推广接种疫苗",
+        "example": "The country rolled out the vaccine to remote villages. 该国把疫苗推广到偏远村庄。"
+      },
+      {
+        "phrase": "a flu vaccine",
+        "translation": "流感疫苗",
+        "example": "Older people are advised to have a flu vaccine every autumn. 建议老年人每年秋天接种流感疫苗。"
+      },
+      {
+        "phrase": "clinical trials of a vaccine",
+        "translation": "疫苗的临床试验",
+        "example": "Clinical trials of the vaccine involved forty thousand volunteers. 该疫苗的临床试验有四万名志愿者参与。"
+      },
+      {
+        "phrase": "vaccine hesitancy",
+        "translation": "疫苗犹豫（对接种的迟疑）",
+        "example": "Doctors used simple facts to overcome vaccine hesitancy. 医生用简明的事实打消人们对疫苗的疑虑。"
+      }
+    ],
+    "wordForms": {
+      "noun": "vaccine 疫苗（物）；vaccination 疫苗接种（事）",
+      "verb": "vaccinate 给…接种疫苗（规则变化：vaccinate-vaccinated-vaccinated；vaccinate sb against sth）",
+      "adjective": "vaccinated 已接种的；unvaccinated 未接种的",
+      "adverb": "",
+      "other": "①词源：源自拉丁语 vacca\"母牛\"，因 Jenner 用牛痘（cowpox）制成人类第一支疫苗。②三词辨析：vaccine 是\"物\"（一支疫苗），vaccination 是\"事\"（接种这一行为），injection 指打针这个动作。③可数名词：a vaccine, two vaccines；作定语可说 vaccine rollout、vaccine passport。④介词固定用 against：a vaccine against the virus；\"接种疫苗\"说 have/get/receive a vaccine 或 be vaccinated，不用 eat/drink。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Millions of people were ______ (vaccine) against Covid-19 within just a few months.",
+        "answer": "vaccinated",
+        "note": "名词 vaccine → 动词 vaccinate；\"某人被接种\"用被动 be vaccinated against sth，介词只能用 against。"
+      },
+      {
+        "type": "完成句子",
+        "question": "在创纪录的时间里，科学家们研制出了一种抗冠状病毒的疫苗。\nScientists ______ ______ ______ against the coronavirus in record time.",
+        "answer": "developed a vaccine",
+        "note": "develop a vaccine 表\"研制疫苗\"（不用 invent，疫苗属研发而非发明）；vaccine 可数，此处首次提及用不定冠词 a；in record time 意为\"以创纪录的速度\"。"
+      }
+    ]
+  },
+  {
+    "word": "alert",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/əˈlɜːt/",
+    "partOfSpeech": "adj. & v. & n.",
+    "translation": "adj. 警觉的，警惕的；（头脑）机敏的，反应快的　v. 向…报警；提醒，使意识到　n. 警报；戒备（状态）；（手机、系统的）提示消息",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(adj.) quick to notice and react to anything unusual or dangerous; (v.) to warn someone about a possible danger or problem so that they are ready for it; (n.) a warning of danger, or a state of readiness to deal with danger.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "【医学】（伤病员）神志清醒、有反应的（常与 conscious 连用）",
+        "example": "When the ambulance arrived, the injured man was still conscious and alert. 救护车到达时，伤者仍然神志清醒、有反应。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（手机或系统推送的）提示信息，通知",
+        "example": "Health alerts kept popping up on everyone's phone. 健康提示不断弹出在每个人的手机上。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Stay alert to early signs such as a sore throat."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The nurse alerted the doctor to a sudden drop in blood pressure."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The city remained on high alert as cases rose again."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be alert to sth",
+        "translation": "对…保持警觉",
+        "example": "Doctors were alert to the first signs of the new strain. 医生对这种新毒株的最初迹象保持警觉。"
+      },
+      {
+        "phrase": "stay/remain alert",
+        "translation": "保持警惕",
+        "example": "Stay alert and keep washing your hands. 保持警惕，坚持洗手。"
+      },
+      {
+        "phrase": "on the alert (for)",
+        "translation": "处于戒备状态；提防",
+        "example": "Nurses were on the alert for patients with high fevers. 护士们警惕着出现高烧的病人。"
+      },
+      {
+        "phrase": "alert sb to sth",
+        "translation": "提醒某人注意某事",
+        "example": "An app alerted us to a close contact on the bus. 一款应用提醒我们注意公交车上的密接情况。"
+      },
+      {
+        "phrase": "a red alert",
+        "translation": "红色警报，最高级别警戒",
+        "example": "The district issued a red alert after twenty new cases. 该区在新增二十例后发布了红色警报。"
+      },
+      {
+        "phrase": "an alert mind / mentally alert",
+        "translation": "头脑清醒机敏",
+        "example": "Enough sleep keeps your mind alert in class. 充足的睡眠能让你上课时头脑清醒。"
+      },
+      {
+        "phrase": "sound/raise the alert",
+        "translation": "发出警报，拉响警报",
+        "example": "A young doctor was the first to sound the alert. 一位年轻医生最先拉响了警报。"
+      }
+    ],
+    "wordForms": {
+      "noun": "alert 警报，戒备；alertness 警觉，机敏",
+      "verb": "alert 向…报警，提醒（规则变化：alert-alerted-alerted；alert sb to sth）",
+      "adjective": "alert 警觉的；机敏的",
+      "adverb": "alertly 警觉地，机敏地",
+      "other": "①一词三类同形，句法各不相同：adj. be alert to sth；v. alert sb to sth（不能说 alert sb sth）；n. 多用于 on the alert / a red alert / sound the alert。②辨析 alert / aware / vigilant：aware 只表\"知道、意识到\"，alert 强调察觉后能立刻反应，vigilant 更书面，指长时间持续戒备。③重音在第二音节 a-LERT /əˈlɜːt/，勿读成首重音。④alert 作 adj. 通常作表语或前置定语（an alert student 机灵的学生）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Her ______ (alert) saved the whole ward from a serious infection.",
+        "answer": "alertness",
+        "note": "空前有形容词性物主代词 Her，且作句子主语，须填名词 alertness\"警觉、机敏\"；alert 本身作名词时意为\"警报\"，与句意不符。"
+      },
+      {
+        "type": "完成句子",
+        "question": "一条手机推送提醒居民注意附近的疫情。\nA phone message ______ residents ______ the outbreak nearby.",
+        "answer": "alerted / to",
+        "note": "alert sb to sth 是固定结构，to 为介词不可省，也不可换成 of；主句时态为一般过去时，故用 alerted。"
+      }
+    ]
+  },
+  {
+    "word": "painkiller",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈpeɪnkɪlə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "n. 止痛药，镇痛剂",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a drug or medicine that takes away or reduces physical pain.",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Take one painkiller every six hours and never exceed the dose."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Painkillers may damage the liver if taken in large amounts."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She kept a small packet of painkillers in her first-aid kit."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "take a painkiller",
+        "translation": "服用止痛药",
+        "example": "He took a painkiller and lay down quietly. 他吃了片止痛药，安静地躺下。"
+      },
+      {
+        "phrase": "a strong/mild painkiller",
+        "translation": "强效／温和的止痛药",
+        "example": "The doctor prescribed a strong painkiller after the operation. 医生在手术后开了强效止痛药。"
+      },
+      {
+        "phrase": "over-the-counter painkillers",
+        "translation": "非处方止痛药",
+        "example": "Over-the-counter painkillers are sold without a prescription. 非处方止痛药无需处方即可购买。"
+      },
+      {
+        "phrase": "excessive use of painkillers",
+        "translation": "过量使用止痛药",
+        "example": "Excessive use of painkillers can irritate the stomach lining. 过量使用止痛药会刺激胃黏膜。"
+      },
+      {
+        "phrase": "be on painkillers",
+        "translation": "（一段时间内）一直在服用止痛药",
+        "example": "She has been on painkillers ever since the operation. 手术之后她一直在服用止痛药。"
+      },
+      {
+        "phrase": "the painkiller wears off",
+        "translation": "止痛药药效消退",
+        "example": "When the painkiller wore off, the pain came back. 止痛药药效一过，疼痛又回来了。"
+      },
+      {
+        "phrase": "become addicted to painkillers",
+        "translation": "对止痛药上瘾",
+        "example": "Some patients become addicted to painkillers after long treatment. 一些病人在长期治疗后对止痛药上瘾。"
+      }
+    ],
+    "wordForms": {
+      "noun": "painkiller 止痛药；pain 疼痛，痛苦",
+      "verb": "（无对应动词；表\"止痛\"用 kill/relieve/ease the pain）",
+      "adjective": "painful 疼痛的，令人痛苦的；painless 无痛的",
+      "adverb": "painfully 疼痛地；令人痛苦地",
+      "other": "①构词法：pain（疼痛）+ kill（消灭）+ -er（施动之物）→ painkiller；同类\"宾语+动词+er\"复合名词：lifesaver 救生员／救命之物、timekeeper 计时员、peacemaker 调解者、troublemaker 捣乱者。②可数名词，复数 painkillers，泛指止痛药时常用复数。③同义表达：pain reliever（美式常用）、analgesic /ˌænəlˈdʒiːzɪk/（医学术语）。④注意 -less 后缀的 painless 是\"无痛的\"，不要与 painkiller 混用。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "用 painful / painless / painkiller 填空：The injection itself was quick and almost ______, but the wound became so ______ at night that she had to take a ______.",
+        "answer": "painless / painful / painkiller",
+        "note": "同一词族三形：-less 表\"无…的\"→ painless 无痛的；-ful 表\"充满…的\"→ painful 疼痛的；pain + killer 表\"止痛之物\"→ painkiller，第三空前有 a，须填可数名词单数。"
+      },
+      {
+        "type": "汉译英",
+        "question": "医生给她开了一种强效止痛药，并提醒她一天不要服用超过三次。\nThe doctor ______ her a strong ______ and warned her not to take it more than three times a day.",
+        "answer": "prescribed / painkiller（The doctor prescribed her a strong painkiller and warned her not to take it more than three times a day.）",
+        "note": "prescribe sb sth = prescribe sth for sb\"给某人开（药）\"；painkiller 为可数名词，被 a strong 修饰用单数；\"服药\"用 take，不用 eat。"
+      }
+    ]
+  },
+  {
+    "word": "appetite",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈæpɪtaɪt/",
+    "partOfSpeech": "n.",
+    "translation": "n. 食欲，胃口；（对某事物的）强烈渴望，浓厚兴趣",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the physical feeling that makes you want to eat; also a strong desire or enthusiasm for something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "【商业·金融】（承担风险、投入资金的）意愿，偏好，如 risk appetite 风险偏好",
+        "example": "The bank has little appetite for risky loans this year. 该银行今年不太愿意做高风险贷款。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（常用复数 appetites）（对食物、享乐等的）各种欲望",
+        "example": "He has slowly learned to control his appetites. 他慢慢学会了克制自己的种种欲望。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.（食欲）",
+        "sentence": "A high fever often leaves patients with no appetite at all."
+      },
+      {
+        "partOfSpeech": "n.（渴望）",
+        "sentence": "Her appetite for learning grew during the months of online classes."
+      },
+      {
+        "partOfSpeech": "n.（食欲）",
+        "sentence": "Fresh air and exercise gave the children healthy appetites."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "lose one's appetite",
+        "translation": "失去食欲，没有胃口",
+        "example": "She lost her appetite the day the fever began. 发烧那天她就没了胃口。"
+      },
+      {
+        "phrase": "have a good/poor appetite",
+        "translation": "胃口好／胃口差",
+        "example": "The patient has a poor appetite but sleeps well. 这位病人胃口不好，但睡得不错。"
+      },
+      {
+        "phrase": "spoil one's appetite",
+        "translation": "影响某人的食欲",
+        "example": "Don't eat sweets now; you'll spoil your appetite. 现在别吃糖，会影响你吃饭的胃口。"
+      },
+      {
+        "phrase": "an appetite for sth",
+        "translation": "对…的强烈渴望／浓厚兴趣",
+        "example": "The volunteers showed a huge appetite for helping strangers. 志愿者们表现出极强的助人热情。"
+      },
+      {
+        "phrase": "whet sb's appetite",
+        "translation": "吊起某人的兴趣，勾起某人的胃口",
+        "example": "The trailer whetted everyone's appetite for the new film. 那段预告片吊起了大家对这部新片的兴趣。"
+      },
+      {
+        "phrase": "work up an appetite",
+        "translation": "（活动后）使人有了食欲",
+        "example": "A long walk helped him work up an appetite. 走了很远的路让他有了胃口。"
+      },
+      {
+        "phrase": "curb/control one's appetite",
+        "translation": "控制食欲",
+        "example": "Doctors advised him to curb his appetite for salty food. 医生建议他控制对咸食的偏好。"
+      }
+    ],
+    "wordForms": {
+      "noun": "appetite 食欲，渴望；appetizer（英式亦作 appetiser）开胃菜，开胃品",
+      "verb": "（无对应动词；\"开胃、勾起兴趣\"用 whet the appetite，whet-whetted-whetted）",
+      "adjective": "appetizing 开胃的，诱人的；unappetizing 倒胃口的",
+      "adverb": "appetizingly 诱人地（少用）",
+      "other": "①拼写与重音：ap-pe-tite /ˈæpɪtaɪt/ 重音在首音节，中间是 -pe- 不是 -pi-，词尾 -tite 读 /taɪt/。②可数名词：a good appetite / different appetites。③介词固定用 for：an appetite for knowledge，不可用 of/to。④辨析：appetite 指生理食欲或对某物的强烈渴望；hunger 指饥饿感；craving 指难以抑制的嗜求；desire 泛指愿望。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The chicken soup smelled so ______ (appetite) that even the feverish boy asked for more.",
+        "answer": "appetizing",
+        "note": "名词 appetite → 形容词 appetizing\"开胃的、诱人的\"；smell 为系动词，后接形容词作表语，so...that... 引导结果状语从句。"
+      },
+      {
+        "type": "完成句子",
+        "question": "那本关于这场疫情的书吊起了我对医学的兴趣。\nThe book about the pandemic ______ my ______ for medicine.",
+        "answer": "whetted / appetite",
+        "note": "whet sb's appetite for sth 意为\"勾起某人对某事物的兴趣\"，whet 的过去式为 whetted（重读闭音节双写 t）；appetite 后接 for，不能用 to。"
+      }
+    ]
+  },
+  {
+    "word": "priceless",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈpraɪsləs/",
+    "partOfSpeech": "adj.",
+    "translation": "adj. 无价的，贵重到无法估价的；极其珍贵的；（非正式）极其滑稽的，令人捧腹的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "so valuable that it is impossible to calculate a price for it; (informal) extremely funny or amusing.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "【非正式】太逗了，极其滑稽的（多用于形容表情、说法）",
+        "example": "The look on his face when he saw the bill was priceless. 他看到账单时的表情太逗了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The courage shown by those nurses was simply priceless."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Good health is priceless; no amount of money can buy it."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The museum lost several priceless paintings in the fire."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a priceless treasure",
+        "translation": "无价之宝",
+        "example": "That bronze vase is a priceless treasure. 那只青铜瓶是无价之宝。"
+      },
+      {
+        "phrase": "priceless experience",
+        "translation": "极其宝贵的经历",
+        "example": "Working as a volunteer gave me priceless experience. 做志愿者给了我极其宝贵的经历。"
+      },
+      {
+        "phrase": "be priceless to sb",
+        "translation": "对某人来说无比珍贵",
+        "example": "Those handwritten letters are priceless to her. 那些手写的信对她来说无比珍贵。"
+      },
+      {
+        "phrase": "a priceless opportunity",
+        "translation": "千载难逢的机会",
+        "example": "Meeting the frontline doctors was a priceless opportunity. 见到一线医生是个千载难逢的机会。"
+      },
+      {
+        "phrase": "prove priceless",
+        "translation": "被证明极其宝贵",
+        "example": "Neighbours' small kindnesses proved priceless during the lockdown. 封控期间邻里的小小善意被证明极其宝贵。"
+      },
+      {
+        "phrase": "a priceless collection",
+        "translation": "无价的收藏（品）",
+        "example": "The gallery houses a priceless collection of Tang pottery. 这家美术馆藏有一批无价的唐代陶器。"
+      },
+      {
+        "phrase": "absolutely priceless",
+        "translation": "（口语）简直太逗了",
+        "example": "His imitation of the head teacher was absolutely priceless. 他模仿班主任的样子简直太逗了。"
+      }
+    ],
+    "wordForms": {
+      "noun": "price 价格；pricelessness 无价（罕用）",
+      "verb": "price 给…定价，标价（The book is priced at 30 yuan.）",
+      "adjective": "priceless 无价的；pricey/pricy 昂贵的（口语）；valuable 有价值的；worthless / valueless 毫无价值的",
+      "adverb": "",
+      "other": "①反直觉陷阱：-less 通常表\"没有…的\"（homeless 无家可归的），但 priceless 不是\"没有价值\"，而是\"贵重到无法标价\"；表\"毫无价值\"要用 worthless 或 valueless。同类反直觉词：invaluable 极宝贵的（≠ 没价值）。②三词辨析：valuable 值钱的、有价值的（可比较，very valuable）；priceless 贵重到无法用钱衡量（一般不用 very 修饰，用 absolutely/simply）；invaluable 多修饰帮助、建议、信息等抽象事物，指\"非常有用\"。③构词：price（n./v.）+ -less → priceless。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "用 priceless / worthless 填空：Good health is ______, while a fake vaccine is not only ______ but also dangerous.",
+        "answer": "priceless / worthless",
+        "note": "priceless 表\"贵重到无法标价\"，褒义；worthless 才表\"毫无价值的\"，贬义。切勿因 -less 后缀而把 priceless 误解成\"没有价值的\"。"
+      },
+      {
+        "type": "汉译英",
+        "question": "在那些艰难的日子里，邻里之间的相互扶持是无价的。\nIn those hard days, the support neighbours gave one another ______ ______.",
+        "answer": "was priceless（In those hard days, the support neighbours gave one another was priceless.）",
+        "note": "the support (that) neighbours gave one another 是省略了关系代词的定语从句，主语中心词 support 为不可数名词，谓语用单数 was；priceless 作表语，不用 very 修饰。"
+      }
+    ]
+  },
+  {
+    "word": "cautious",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈkɔːʃəs/",
+    "partOfSpeech": "adj.",
+    "translation": "adj. 谨慎的，小心的，慎重的；（表态、估计）有保留的，不把话说满的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "careful to avoid possible danger, risk or mistakes; sometimes deliberately restrained so as not to promise or claim too much",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "（用于评价、欢迎、估计等）有保留的，留有余地的，不把话说满的（cautious optimism / a cautious welcome / a cautious estimate）",
+        "example": "The minister gave the reopening plan a cautious welcome. 部长对复课计划表示了有保留的欢迎。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Be cautious about forwarding health advice you cannot verify online. 转发你无法核实的健康建议时要谨慎。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Doctors remain cautious although new infections have fallen for weeks. 尽管新增感染已连续数周下降，医生们仍持谨慎态度。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Cautious shoppers checked the expiry date on every box of masks. 谨慎的顾客把每盒口罩的保质期都查了一遍。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be cautious about (doing) sth",
+        "translation": "对（做）某事持谨慎态度",
+        "example": "Parents were cautious about sending their children back to school. 家长们对送孩子返校一事持谨慎态度。"
+      },
+      {
+        "phrase": "be cautious of sb/sth",
+        "translation": "提防某人／某物",
+        "example": "Be cautious of strangers selling so-called free vaccine pills. 要提防兜售所谓免费疫苗药丸的陌生人。"
+      },
+      {
+        "phrase": "cautious optimism",
+        "translation": "谨慎乐观",
+        "example": "There is cautious optimism that the outbreak is easing. 人们谨慎乐观地认为疫情正在缓解。"
+      },
+      {
+        "phrase": "a cautious approach",
+        "translation": "谨慎的做法／策略",
+        "example": "The city took a cautious approach to reopening schools. 该市对学校复课采取了谨慎的做法。"
+      },
+      {
+        "phrase": "overly cautious / over-cautious",
+        "translation": "过分谨慎的",
+        "example": "Some students think the campus rules are overly cautious. 有些学生觉得校园规定过于谨慎。"
+      },
+      {
+        "phrase": "a cautious estimate",
+        "translation": "保守的估计",
+        "example": "A cautious estimate puts the number of volunteers at 3,000. 保守估计志愿者有三千人。"
+      },
+      {
+        "phrase": "remain / stay cautious",
+        "translation": "保持谨慎",
+        "example": "Even after recovery, patients should stay cautious. 即使康复之后，患者也应保持谨慎。"
+      }
+    ],
+    "wordForms": {
+      "noun": "caution（谨慎，小心；警告）; precaution（预防措施，常用复数 precautions）",
+      "verb": "caution（告诫，警告：caution sb against doing sth）",
+      "adjective": "cautious（谨慎的）; incautious（不谨慎的，较少用）; precautionary（预防性的：precautionary measures）",
+      "adverb": "cautiously（谨慎地）; incautiously（不谨慎地）",
+      "other": "构词：caution（谨慎）+ -ous（形容词后缀）。介词辨析：be cautious ABOUT doing sth 指自己做事时小心；be cautious OF sb/sth 指提防某人某物。名词短语 with caution 相当于副词 cautiously（慎重地），说明书上常见；take precautions against sth 表『采取措施预防某事』。cautious 是以 -ous 结尾的双音节形容词，比较级、最高级只能用 more cautious / most cautious，不能写成 cautiouser。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Nurses moved ____ (cautious) between the beds so as not to wake the sleeping patients.",
+        "answer": "cautiously",
+        "note": "空格修饰实义动词 moved，须用副词 cautiously；cautious 是形容词，只能修饰名词或作表语。"
+      },
+      {
+        "type": "完成句子",
+        "question": "面对新变种，专家们对疫苗的效果表示谨慎乐观。Faced with the new variant, experts expressed ____ ____ about the vaccine.",
+        "answer": "cautious optimism",
+        "note": "cautious optimism 是『形容词+名词』的固定搭配，表『谨慎乐观』；若改用形容词结构则说 were cautiously optimistic about the vaccine。"
+      }
+    ]
+  },
+  {
+    "word": "bargain",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈbɑːɡən/",
+    "partOfSpeech": "n., vi.",
+    "translation": "n. 便宜货，特价商品；协议，交易　vi. 讨价还价，商谈（价钱或条件）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) something bought for less than its usual price, or an agreement in which each side promises to do something for the other; (vi.) to discuss prices or conditions in order to reach an agreement",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "bargain for / on sth：预料到，指望（多用于否定句，或 more than sb bargained for）",
+        "example": "The volunteers got more than they bargained for. 志愿者们遇到的麻烦比他们预想的多得多。"
+      },
+      {
+        "partOfSpeech": "n.（作定语）",
+        "meaning": "廉价的，特价的（bargain price / bargain offer / bargain hunter）",
+        "example": "She bought the winter coat at a bargain price. 她以特价买下了这件冬衣。"
+      },
+      {
+        "partOfSpeech": "短语",
+        "meaning": "into the bargain（英式）：而且，此外（用于补充一个额外的好处或坏处；美式说 in the bargain）",
+        "example": "This mask is cheap, and washable into the bargain. 这种口罩便宜，而且还可水洗。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "At ten yuan a box, those masks were a real bargain. 十元一盒，那些口罩真是便宜货。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "We made a bargain: I cook, and my brother shops. 我们说好了：我做饭，弟弟去采买。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The two sides bargained for hours over the price of ventilators. 双方就呼吸机的价格谈了好几个小时。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a real / good bargain",
+        "translation": "真正的便宜货，很划算的东西",
+        "example": "This second-hand microscope is a real bargain. 这台二手显微镜真是便宜货。"
+      },
+      {
+        "phrase": "strike / make a bargain with sb",
+        "translation": "与某人达成协议",
+        "example": "The town struck a bargain with a local factory to supply masks. 镇上与当地一家工厂达成协议供应口罩。"
+      },
+      {
+        "phrase": "drive a hard bargain",
+        "translation": "讨价还价很厉害，在条件上寸步不让",
+        "example": "The supplier drove a hard bargain over delivery dates. 供货商在交货日期上寸步不让。"
+      },
+      {
+        "phrase": "bargain with sb over / about sth",
+        "translation": "就某事与某人讨价还价",
+        "example": "She bargained with the driver about the fare all the way to the station. 一路到车站，她都在跟司机讲价钱。"
+      },
+      {
+        "phrase": "keep one's side of the bargain",
+        "translation": "信守自己那部分约定",
+        "example": "He kept his side of the bargain and stayed home for fourteen days. 他信守约定，在家待满了十四天。"
+      },
+      {
+        "phrase": "collective bargaining",
+        "translation": "（劳资）集体谈判",
+        "example": "Nurses won better pay through collective bargaining. 护士们通过集体谈判争取到了更好的待遇。"
+      },
+      {
+        "phrase": "bargaining power / a bargaining chip",
+        "translation": "议价能力／谈判筹码",
+        "example": "Small clinics have little bargaining power with big suppliers. 小诊所在大供应商面前几乎没有议价能力。"
+      }
+    ],
+    "wordForms": {
+      "noun": "bargain（便宜货；协议）; bargaining（讨价还价，谈判，不可数）; bargainer（谈判者，较少用）",
+      "verb": "bargain（bargained, bargaining）",
+      "adjective": "没有独立的形容词形式；bargain 直接作定语表『特价的』：a bargain price / bargain offer",
+      "adverb": "无",
+      "other": "读音提醒：重音在第一音节 /ˈbɑːɡən/，第二音节弱读为 /ən/，不读作 gain /ɡeɪn/。语法提醒：bargain 作动词是不及物动词，与人、事搭配须带介词——bargain with sb over / about / for sth，不能说 bargain sth。名词 bargain 可数：a bargain / bargains。近义辨析：bargain 侧重『为价钱讨价还价』，negotiate 更正式且可及物（negotiate a deal / a contract）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The volunteers ____ (bargain) with several factories before the masks were finally donated.",
+        "answer": "bargained",
+        "note": "全句讲述过去那段经历，before 从句已用过去时，主句同用一般过去时 bargained；bargain 是不及物动词，与人搭配必须说 bargain with sb。"
+      },
+      {
+        "type": "完成句子",
+        "question": "他们和这家药店达成了协议：先供货，月底付款。They ____ ____ ____ with the pharmacy: goods first, payment at the end of the month.",
+        "answer": "struck / made a bargain",
+        "note": "strike / make a bargain with sb 表『与某人达成协议』，此处用过去式 struck 或 made；bargain 表『协议』时可数，前面要加 a。"
+      }
+    ]
+  },
+  {
+    "word": "trick",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/trɪk/",
+    "partOfSpeech": "n., vt.",
+    "translation": "n. 诡计，骗局，伎俩；把戏，戏法；窍门，诀窍；恶作剧　vt. 欺骗，哄骗",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a clever act or plan intended to deceive someone, to entertain people, or to make something easier to do; (vt.) to deceive someone, especially in order to get something from them",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "短语",
+        "meaning": "do the trick：奏效，管用，解决问题",
+        "example": "A spoonful of honey should do the trick for a sore throat. 一勺蜂蜜应该就能治好嗓子痛。"
+      },
+      {
+        "partOfSpeech": "n.（作定语）",
+        "meaning": "用来骗人的；特技的（a trick question 有陷阱的问题；trick photography 特技摄影）",
+        "example": "That was a trick question with no correct answer at all. 那是个根本没有正确答案的陷阱题。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（牌戏中的）一墩牌，一圈（一轮打出的牌）",
+        "example": "She won the last three tricks and the whole game. 她赢下最后三墩牌，也赢了整局。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Scammers used a simple trick to steal people's vaccine appointment codes. 骗子用一个简单的伎俩窃取了人们的疫苗预约码。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Older nurses taught us little tricks for calming frightened patients. 老护士教了我们一些安抚受惊病人的小窍门。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He was tricked into paying for medicine that never arrived. 他被骗付了钱，药却始终没送到。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "play a trick on sb",
+        "translation": "捉弄某人，对某人搞恶作剧",
+        "example": "Don't play tricks on the nurses; they are exhausted. 别捉弄护士们，他们已经精疲力尽了。"
+      },
+      {
+        "phrase": "trick sb into doing sth",
+        "translation": "骗某人做某事",
+        "example": "The email tricked her into clicking a fake link. 那封邮件骗她点开了一个假链接。"
+      },
+      {
+        "phrase": "trick sb out of sth",
+        "translation": "骗走某人的某物",
+        "example": "The caller tricked the old man out of his savings. 打电话的人骗走了老人的积蓄。"
+      },
+      {
+        "phrase": "a dirty trick",
+        "translation": "卑鄙的手段",
+        "example": "Selling fake test kits during a pandemic is a dirty trick. 大疫当前兜售假检测试剂是卑鄙的手段。"
+      },
+      {
+        "phrase": "the trick is to do sth",
+        "translation": "诀窍在于做某事",
+        "example": "The trick is to keep the mask tight over your nose. 诀窍在于让口罩紧贴鼻梁。"
+      },
+      {
+        "phrase": "the tricks of the trade",
+        "translation": "行业诀窍，看家本领",
+        "example": "A retired doctor taught the volunteers the tricks of the trade. 一位退休医生把看家本领教给了志愿者。"
+      },
+      {
+        "phrase": "a magic / card trick",
+        "translation": "魔术／纸牌戏法",
+        "example": "He cheered up the children in the ward with a card trick. 他用一个纸牌戏法逗乐了病房里的孩子。"
+      },
+      {
+        "phrase": "fall for sb's trick",
+        "translation": "上某人的当，中某人的圈套",
+        "example": "Many people fell for the same trick twice. 许多人在同一个骗局上栽了两次。"
+      }
+    ],
+    "wordForms": {
+      "noun": "trick（诡计；戏法；窍门）; trickery（欺骗手段，不可数）; trickster（骗子，耍花招的人）",
+      "verb": "trick（tricked, tricking）",
+      "adjective": "tricky（棘手的，难对付的；狡猾的）",
+      "adverb": "trickily（狡猾地，用得很少）",
+      "other": "拼写：trick 以 -ck 结尾，加 -ed/-ing 不双写辅音，写作 tricked / tricking。考点提醒：形容词 tricky 在高考中更常考『棘手的、难处理的』义（a tricky situation / question），而非『狡猾的』。搭配对比：trick sb INTO doing sth（骗某人做某事）↔ trick sb OUT OF sth（骗走某人财物）。注意 trick question（陷阱题，名词作定语）≠ tricky question（难题）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Fake charity messages ____ (trick) hundreds of donors into sending money last spring.",
+        "answer": "tricked",
+        "note": "last spring 表明用一般过去时；trick sb into doing sth 中 into 是介词，后面接动名词 sending。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 trick / cheat 的适当形式填空，并补出必要的介词：He ____ me ____ signing the paper, and later he even ____ in the final exam.",
+        "answer": "tricked; into; cheated",
+        "note": "trick sb into doing sth 表『骗某人做某事』，trick 及物，后跟介词 into＋动名词；cheat 表『（考试中）作弊』时是不及物动词，说 cheat in / on an exam，不能说 cheat sb into doing sth。cheat 若要表『骗取』则用 cheat sb out of sth。"
+      }
+    ]
+  },
+  {
+    "word": "victim",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈvɪktɪm/",
+    "partOfSpeech": "n.",
+    "translation": "n. 受害者，受难者；（疾病、事故、灾难的）患者，遇难者，灾民；牺牲品",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a person who has been harmed, injured or killed as a result of a crime, disease, accident or disaster, or who suffers because of someone else's actions",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（古代祭祀中）献给神的祭品，牺牲（词的本义，今多见于历史或宗教语境）",
+        "example": "In ancient rituals a lamb was offered as a victim. 在古代祭祀中，人们把羔羊作为祭品献上。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Volunteers delivered hot meals to victims of the outbreak every evening. 志愿者每天傍晚给疫情中的受害者送热饭。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Police say the victim of the phone scam lost her savings. 警方说这起电话诈骗的受害者损失了全部积蓄。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Most flood victims were housed in the school gym overnight. 大多数洪灾灾民当晚被安置在学校体育馆。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "fall victim to sth",
+        "translation": "成为…的受害者；患上（疾病），遭受（灾难）",
+        "example": "Thousands fell victim to the new strain within weeks. 数千人在几周之内感染了这种新毒株。"
+      },
+      {
+        "phrase": "claim victims / claim lives",
+        "translation": "（疫病、灾难）夺去…的生命",
+        "example": "The pandemic has claimed victims in every province. 这场大流行在各省都夺去了人的生命。"
+      },
+      {
+        "phrase": "an innocent victim",
+        "translation": "无辜的受害者",
+        "example": "Children are the innocent victims of every epidemic. 孩子是每一场疫情中无辜的受害者。"
+      },
+      {
+        "phrase": "earthquake / flood victims",
+        "translation": "地震灾民／洪灾灾民",
+        "example": "People from all walks of life donated to the earthquake victims. 各行各业的人都为地震灾民捐款。"
+      },
+      {
+        "phrase": "a victim of circumstances",
+        "translation": "环境（时运）的牺牲品，身不由己的人",
+        "example": "Far from being a criminal, he was a victim of circumstances. 他远非罪犯，只是环境的牺牲品。"
+      },
+      {
+        "phrase": "play the victim",
+        "translation": "装可怜，把自己说成受害者",
+        "example": "Instead of apologising, he played the victim. 他非但不道歉，反而装起可怜来。"
+      },
+      {
+        "phrase": "a victim of one's own success",
+        "translation": "因自身太成功而受累",
+        "example": "The donation hotline became a victim of its own success. 这条捐赠热线因太受欢迎而不堪重负。"
+      }
+    ],
+    "wordForms": {
+      "noun": "victim（受害者，牺牲品）; victimization / victimisation（受害，受迫害）",
+      "verb": "victimize / victimise（使受害；欺凌，不公正地对待）",
+      "adjective": "victimized（受欺凌的、被不公正对待的）; victimless（无受害者的：a victimless crime）；没有常用的 -ic / -ful 形容词形式",
+      "adverb": "无",
+      "other": "词源提示：victim 来自拉丁语 victima『祭品』，与 victor（胜利者）、victory（胜利，源自 vincere 征服）不同源，拼写相近但词义无关，勿混。语法提醒：固定短语 fall victim to sth 中 victim 前不加冠词；单独作表语时必须加冠词，如 He became a victim of the disease. 可数名词，复数为 victims。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The outbreak had claimed over two thousand ____ (victim) by the end of March.",
+        "answer": "victims",
+        "note": "over two thousand 后接可数名词复数 victims；claim victims 意为『夺去…的生命』，注意别误写成 victors（胜利者）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "去年冬天，我的两位邻居成了这种病毒的受害者。Last winter two of my neighbours ____ ____ ____ the virus.",
+        "answer": "fell victim to",
+        "note": "fall victim to sth 是固定搭配，victim 前不加冠词（即使主语是复数也说 fell victim to）；last winter 提示用过去式 fell。"
+      }
+    ]
+  },
+  {
+    "word": "witness",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈwɪtnəs/",
+    "partOfSpeech": "n., vt.",
+    "translation": "n. 目击者，见证人；（法庭）证人；证据，证明　vt. 目击，亲眼看到；（时代、地点）见证…的发生；为（文件、签名）作见证",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) a person who sees something happen or who gives evidence in a court of law; (vt.) to see something happen, or (of a time or place) to be the setting in which something important happens",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（以时间、地点作主语）见证，经历（某事发生）——写作高频用法",
+        "example": "The year 2020 witnessed the fastest vaccine development in history. 2020 年见证了史上最快的疫苗研发。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（在文件上）为签名作见证，见证签署",
+        "example": "A teacher witnessed her signature on the consent form. 一位老师为她在同意书上的签名作了见证。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "证据，证明（多用于 bear witness to sth）",
+        "example": "The empty streets bore witness to people's fear. 空荡的街道见证了人们的恐惧。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Police asked every witness to describe exactly what they had seen. 警方请每位目击者准确描述他们所看到的情况。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "We witnessed neighbours leaving vegetables at the doors of quarantined families. 我们亲眼看到邻居把蔬菜放在隔离家庭的门口。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "That spring witnessed an outpouring of help from ordinary citizens. 那个春天见证了普通市民涌泉般的援助。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a key witness",
+        "translation": "关键证人",
+        "example": "She was the key witness in the fraud case. 她是那起诈骗案的关键证人。"
+      },
+      {
+        "phrase": "a witness to sth",
+        "translation": "某事的目击者／见证人",
+        "example": "He was a witness to the whole rescue. 他见证了整个营救过程。"
+      },
+      {
+        "phrase": "call sb as a witness",
+        "translation": "传某人作证",
+        "example": "The court called the nurse as a witness. 法庭传这位护士出庭作证。"
+      },
+      {
+        "phrase": "bear witness to sth",
+        "translation": "证明，为…作证；见证",
+        "example": "These medals bear witness to the doctors' courage. 这些奖章见证了医生们的勇气。"
+      },
+      {
+        "phrase": "witness sth first-hand",
+        "translation": "亲身目睹某事",
+        "example": "Interns witnessed the epidemic first-hand in the ward. 实习生在病房里亲身目睹了这场疫情。"
+      },
+      {
+        "phrase": "a witness statement",
+        "translation": "证人证词，笔录",
+        "example": "The police took a witness statement from the driver. 警方录取了司机的证词。"
+      },
+      {
+        "phrase": "witness the birth of sth",
+        "translation": "见证…的诞生",
+        "example": "Our city witnessed the birth of a nationwide volunteer network. 我们这座城市见证了一个全国志愿者网络的诞生。"
+      },
+      {
+        "phrase": "an eyewitness account",
+        "translation": "目击者的叙述",
+        "example": "Her eyewitness account moved the whole class. 她作为目击者的叙述打动了全班同学。"
+      }
+    ],
+    "wordForms": {
+      "noun": "witness（目击者，证人；证据）; eyewitness（目击者）",
+      "verb": "witness（witnessed, witnessing）",
+      "adjective": "无常用形容词形式（不存在 witnessful / witnessable 这类词）",
+      "adverb": "无",
+      "other": "语法提醒：witness 作动词是及物动词，直接接名词或名词短语——witness an accident / witness sb doing sth，不能说 witness to do sth；作名词表『目击者』时常与介词 to 连用：a witness to the accident。拼写：名词以 -ss 结尾，复数加 -es，写作 witnesses。写作提分点：用『时间/地点 + witness + 名词』替换 There be 或 happen，如 The past decade has witnessed...；时间地点作主语时只能用主动语态，不可写成 was witnessed。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The past century ____ (witness) several major flu pandemics across the world.",
+        "answer": "has witnessed",
+        "note": "the past century 表『从过去延续到现在的一段时间』，常与现在完成时连用，故填 has witnessed；时间段作主语表『见证』时只能用主动语态，不能写成 has been witnessed。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这位老人是那场事故唯一的目击者。The old man was the only ____ ____ that accident.",
+        "answer": "witness to",
+        "note": "witness 作名词表『目击者』时后接介词 to；the only 后接单数可数名词，故用 witness 而非 witnesses。"
+      }
+    ]
+  },
+  {
+    "word": "impact",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈɪmpækt/（n.）；/ɪmˈpækt/（v.）",
+    "partOfSpeech": "n., vt. & vi.",
+    "translation": "n. 影响，作用，效果；冲击，撞击（力）　vt. & vi. 对…产生影响；撞击",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "(n.) the powerful effect that an event, person or policy has on a situation, or the force with which one object hits another; (v.) to have a strong effect on someone or something",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "撞击，碰撞（力）；on impact 意为『碰撞的一瞬间，一撞上就』",
+        "example": "The bottle of alcohol shattered on impact with the floor. 那瓶酒精一落地就摔碎了。"
+      },
+      {
+        "partOfSpeech": "vt.（多用于过去分词 impacted）",
+        "meaning": "使紧压嵌入；impacted 指（智齿等）阻生的、嵌塞的（医学用语）",
+        "example": "The dentist removed an impacted wisdom tooth. 牙医拔掉了一颗阻生智齿。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Vaccines have had an enormous impact on the death rate. 疫苗对死亡率产生了巨大影响。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "School closures impacted children's mental health more than anyone expected. 停课对孩子心理健康的影响超出了所有人的预料。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The helmet cracked, but it absorbed most of the impact. 头盔裂了，但它吸收了大部分冲击力。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "have an impact on sb/sth",
+        "translation": "对某人／某事产生影响",
+        "example": "Small daily habits have a real impact on public health. 日常的小习惯对公共卫生有实实在在的影响。"
+      },
+      {
+        "phrase": "make an impact",
+        "translation": "产生影响，留下深刻印象",
+        "example": "The young volunteers really made an impact in that village. 那些年轻志愿者在那个村子里确实产生了影响。"
+      },
+      {
+        "phrase": "a far-reaching / lasting impact",
+        "translation": "深远的／持久的影响",
+        "example": "The outbreak has had a far-reaching impact on daily life. 这场疫情对日常生活产生了深远的影响。"
+      },
+      {
+        "phrase": "cushion / soften the impact of sth",
+        "translation": "缓和…的冲击",
+        "example": "Government aid cushioned the impact of the lockdown on small shops. 政府补助缓和了封控对小店铺的冲击。"
+      },
+      {
+        "phrase": "impact on sth（动词用法）",
+        "translation": "（作动词）对…产生影响",
+        "example": "Rising cases are impacting on hospital services. 病例上升正在影响医院的各项服务。"
+      },
+      {
+        "phrase": "an environmental impact assessment",
+        "translation": "环境影响评价",
+        "example": "The new factory must pass an environmental impact assessment. 这家新工厂必须通过环境影响评价。"
+      },
+      {
+        "phrase": "the point of impact",
+        "translation": "撞击点，碰撞位置",
+        "example": "Engineers examined the point of impact carefully. 工程师仔细检查了撞击点。"
+      }
+    ],
+    "wordForms": {
+      "noun": "impact（影响；撞击）",
+      "verb": "impact（impacted, impacting）",
+      "adjective": "impactful（有影响力的，较新且偏口语，考试作文慎用）; impacted（受影响的；（牙）阻生的）",
+      "adverb": "无（不要生造 impactfully）",
+      "other": "重音规律：名词读 ˈimpact（重音在前），动词读 imˈpact（重音在后），与 record、increase、export 同属『名前动后』的重音移位规律。搭配要点：名词固定说 have an impact ON sth，介词只能用 on，不能用 to / for；动词既可及物（impact sth），也可说 impact on sth（英式更常见）。impact 表『影响』时通常可数，前面要加 a / an 或 the，如 a huge impact；只有 little / no / much impact 等少数量词搭配中才不加冠词。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Last spring their donations ____ (impact) thousands of families in record time.",
+        "answer": "impacted",
+        "note": "时间状语 last spring 明确指向过去，用一般过去时 impacted；impact 作动词可直接接宾语，也可说 impacted on thousands of families（英式用法）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "志愿者的到来对这个社区产生了深远的影响。The arrival of the volunteers ____ ____ profound impact ____ this community.",
+        "answer": "had a; on",
+        "note": "have an impact on sb/sth 是固定搭配；impact 表『影响』时可数，前加 a（a profound impact），介词只能用 on，不能换成 to 或 for；主语中心词是 arrival，动词用单数过去式 had。"
+      }
+    ]
+  },
+  {
+    "word": "exaggerate",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ɪɡˈzædʒəreɪt/",
+    "partOfSpeech": "vt., vi.",
+    "translation": "vt. & vi. 夸大，夸张，言过其实 vt. 使更明显，放大（差异、缺点、特征）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make something seem larger, better, worse or more important than it really is; also, to make a feature or difference more noticeable than it usually is.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "使…更明显，放大（差距、特征、缺陷）——不含“说谎”之意，指客观上凸显",
+        "example": "The pandemic exaggerated the gap between rich and poor districts. 这场大流行放大了贫富城区之间的差距。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Some websites exaggerated the danger of the new strain and spread panic. 一些网站夸大了新毒株的危险，散播恐慌。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "He always exaggerates when he talks about his weeks in quarantine. 他一讲起隔离的那几周就总爱夸张。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Weeks of night shifts exaggerated the shadows under her eyes. 连续数周上夜班使她的黑眼圈更加明显。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "exaggerate the danger/risk of sth",
+        "translation": "夸大…的危险／风险",
+        "example": "Rumours exaggerated the risk of the vaccine. 谣言夸大了疫苗的风险。"
+      },
+      {
+        "phrase": "grossly/greatly/wildly exaggerate",
+        "translation": "大大夸大，严重言过其实",
+        "example": "The death figures posted online were grossly exaggerated. 网上发布的死亡数字被严重夸大了。"
+      },
+      {
+        "phrase": "tend to exaggerate",
+        "translation": "往往言过其实，惯于夸张",
+        "example": "People tend to exaggerate when they are frightened. 人在害怕时往往会夸大其词。"
+      },
+      {
+        "phrase": "It is impossible/hard to exaggerate the importance of sth",
+        "translation": "再怎么强调…的重要性也不为过",
+        "example": "It is impossible to exaggerate the importance of hand hygiene. 手部卫生的重要性再怎么强调也不为过。"
+      },
+      {
+        "phrase": "without exaggeration",
+        "translation": "毫不夸张地说（名词形式作状语）",
+        "example": "Without exaggeration, this was the busiest winter of her life. 毫不夸张地说，这是她一生中最忙的一个冬天。"
+      },
+      {
+        "phrase": "an exaggerated account/report",
+        "translation": "夸大失实的叙述／报道",
+        "example": "An exaggerated report of shortages emptied every shelf. 一则夸大缺货的报道让货架全空了。"
+      },
+      {
+        "phrase": "exaggerate one's own role/achievements",
+        "translation": "夸大自己的作用／功劳",
+        "example": "The real heroes never exaggerate their own role. 真正的英雄从不夸大自己的作用。"
+      },
+      {
+        "phrase": "It is no exaggeration to say that ...",
+        "translation": "说…毫不夸张（名词固定说法）",
+        "example": "It is no exaggeration to say that the small clinic saved hundreds of lives. 说这家小诊所挽救了数百条生命，毫不夸张。"
+      }
+    ],
+    "wordForms": {
+      "noun": "exaggeration 夸张，夸大；夸大的说法（It is no exaggeration to say that ...）",
+      "verb": "exaggerate 夸大，夸张（规则变化：exaggerated / exaggerating）",
+      "adjective": "exaggerated 夸大的，言过其实的；（动作、表情）夸张的",
+      "adverb": "exaggeratedly 夸张地",
+      "other": "构词法：ex-（向外）+ agger（堆，heap）+ -ate → 越堆越高 → 夸大。拼写陷阱：中间双 g、单 r（exa-gg-e-r-ate；名词 exaggeration 同样只有一个 r）。句法：exaggerate 及物时直接接宾语，不说 exaggerate about sth；不及物时单独使用（He's exaggerating.）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Without ____ (exaggerate), the doctors in that ward worked over twelve hours a day.",
+        "answer": "exaggeration",
+        "note": "介词 without 后须接名词，动词 exaggerate → 名词 exaggeration（注意只有一个 r）；without exaggeration 意为“毫不夸张地说”，作句首状语。"
+      },
+      {
+        "type": "完成句子",
+        "question": "有些广告大大夸大了这种保健饮料的功效。\nSome advertisements ____ ____ the effects of the health drink.",
+        "answer": "greatly / grossly exaggerated",
+        "note": "exaggerate 为及物动词，直接跟宾语 the effects，不能写成 exaggerated about；greatly / grossly / wildly 是它最常见的程度副词搭配；全句叙述过去，用过去式 exaggerated。"
+      }
+    ]
+  },
+  {
+    "word": "hardship",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈhɑːdʃɪp/",
+    "partOfSpeech": "n.",
+    "translation": "n.（尤指因缺钱、缺物造成的）艰难，困苦，苦难（不可数）；[C] 造成困苦的具体难事、苦难经历（常用复数 hardships）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a situation in which life is difficult or unpleasant, especially because you do not have enough money, food or comfort; (countable) a particular thing that causes such difficulty.",
+    "uncommonMeanings": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.（不可数）",
+        "sentence": "Many small families faced real financial hardship during the long lockdown. 长期封控期间，许多小家庭陷入了真正的经济困难。"
+      },
+      {
+        "partOfSpeech": "n.（可数，复数）",
+        "sentence": "The young doctors shared the hardships of the villagers they served. 年轻医生们与他们服务的村民同甘共苦。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Years of hardship never weakened her trust in her neighbours. 多年的困苦从未削弱她对邻里的信任。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "financial/economic hardship",
+        "translation": "经济困难，生计艰难",
+        "example": "Months of closure pushed the corner shop into financial hardship. 数月停业让街角小店陷入经济困难。"
+      },
+      {
+        "phrase": "endure/suffer great hardship",
+        "translation": "忍受／遭受巨大苦难",
+        "example": "Frontline nurses endured great hardship far from home. 一线护士远离家乡，忍受了巨大的艰辛。"
+      },
+      {
+        "phrase": "cause hardship to sb",
+        "translation": "给某人造成困难",
+        "example": "Sudden travel bans caused hardship to migrant workers. 突如其来的出行禁令给外来务工者造成了困难。"
+      },
+      {
+        "phrase": "in times of hardship",
+        "translation": "在困难时期",
+        "example": "In times of hardship, people from all walks of life pull together. 在困难时期，各行各业的人们齐心协力。"
+      },
+      {
+        "phrase": "the hardships of war/lockdown",
+        "translation": "战争／封控带来的种种苦难（可数复数）",
+        "example": "Her grandmother often spoke of the hardships of war. 她奶奶常提起战争年代的种种苦难。"
+      },
+      {
+        "phrase": "undue hardship",
+        "translation": "（正式，多见于法律与公文）过重的负担，过度的困难",
+        "example": "The new fee should not impose undue hardship on poor students. 这项新收费不应给贫困学生带来过重负担。"
+      },
+      {
+        "phrase": "a hardship fund/allowance",
+        "translation": "困难补助基金／艰苦地区津贴",
+        "example": "The university set up a hardship fund for stranded students. 学校为滞留学生设立了困难补助基金。"
+      }
+    ],
+    "wordForms": {
+      "noun": "hardship 艰难，困苦；苦难经历（抽象义不可数，具体难事可数 hardships）",
+      "verb": "",
+      "adjective": "hard 艰难的，困难的（hardship 的词根）",
+      "adverb": "hard 努力地，猛烈地；hardly 几乎不（两者含义完全不同，勿混）",
+      "other": "构词法：hard + -ship（表“状态、身份”的名词后缀，同类：friendship, membership, leadership, championship）。可数性：表抽象“困苦”不可数，不加 a、不加 -s（great hardship）；指一件件具体难事时可数（the hardships of war）。hardship 没有对应动词，harden（使变硬／变冷酷）由 hard 派生，与之无义项关联；hardy（能吃苦的，耐寒的）源自古法语 hardi，不是 hard 的派生词，不要当成 hardship 的形容词形式。搭配陷阱：不说 a hardship life，应说 a life of hardship 或 a hard life。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The family went through years of ____ (hard) after the flood destroyed their farm.",
+        "answer": "hardship",
+        "note": "介词 of 后须接名词；hard 加名词后缀 -ship 构成 hardship，表抽象“困苦”时不可数，故不加 a、不加 -s。"
+      },
+      {
+        "type": "汉译英",
+        "question": "疫情期间，许多小店面临严重的经济困难。（用 hardship）\n____",
+        "answer": "During the pandemic, many small shops faced serious financial hardship.",
+        "note": "financial hardship 为不可数用法，前面不加 a；face / suffer / experience hardship 均为常见搭配（不说 meet a hardship）；注意 shops 用复数，faced 用过去式。"
+      }
+    ]
+  },
+  {
+    "word": "fabric",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/ˈfæbrɪk/",
+    "partOfSpeech": "n.",
+    "translation": "n. 织物，布料，纺织品；[sing.]（社会、生活、制度的）结构，根基，肌理；[sing.]（建筑物的）主体结构",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "cloth made by weaving or knitting; (singular) the basic structure that holds a society, a system or a building together.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n. [sing.]",
+        "meaning": "（社会、生活的）结构，根基，肌理——熟词僻义，常与 society, community, daily life 连用",
+        "example": "The long outbreak tore at the social fabric of the neighbourhood. 长期的疫情撕扯着这个社区的社会肌理。"
+      },
+      {
+        "partOfSpeech": "n. [sing.]",
+        "meaning": "（建筑物的）主体结构，即墙体、地板与屋顶",
+        "example": "Damp has damaged the fabric of the old hospital building. 潮气损坏了这座老医院大楼的主体结构。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.（布料）",
+        "sentence": "Masks made of tightly woven fabric can block most droplets. 用密织布料做成的口罩能挡住大部分飞沫。"
+      },
+      {
+        "partOfSpeech": "n.（社会结构）",
+        "sentence": "Two months of silence tested the very fabric of city life. 两个月的沉寂考验着城市生活的根基。"
+      },
+      {
+        "partOfSpeech": "n.（建筑结构）",
+        "sentence": "Repairs to the fabric of the school hall cost a fortune. 修缮学校礼堂的主体结构花费不菲。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "cotton/woven fabric",
+        "translation": "棉布／机织布料",
+        "example": "She lined the winter coat with soft cotton fabric. 她用柔软的棉布给冬衣做了衬里。"
+      },
+      {
+        "phrase": "a piece/length of fabric",
+        "translation": "一块／一段布料（不可数时的量词说法）",
+        "example": "The tailor cut a length of fabric into twenty narrow strips. 裁缝把一段布料剪成了二十条窄条。"
+      },
+      {
+        "phrase": "synthetic/man-made fabric",
+        "translation": "合成／人造纤维织物",
+        "example": "Synthetic fabric dries faster than cotton. 合成面料比棉布干得快。"
+      },
+      {
+        "phrase": "the fabric of society / the social fabric",
+        "translation": "社会结构，社会肌理",
+        "example": "Mutual help strengthened the fabric of society during the outbreak. 疫情中的互助加固了社会的肌理。"
+      },
+      {
+        "phrase": "be woven into the fabric of sth",
+        "translation": "融入…之中，成为…不可分割的一部分",
+        "example": "Care for neighbours is woven into the fabric of this old town. 关照邻里已融入这座老城的肌理。"
+      },
+      {
+        "phrase": "tear/damage the fabric of sth",
+        "translation": "撕裂／破坏…的结构",
+        "example": "Rumours can damage the fabric of public trust. 谣言会破坏公众信任的根基。"
+      },
+      {
+        "phrase": "the fabric of the building",
+        "translation": "建筑物的主体结构",
+        "example": "The fire spared the fabric of the building. 大火没有伤及建筑主体。"
+      },
+      {
+        "phrase": "fabric softener",
+        "translation": "衣物柔顺剂",
+        "example": "She added fabric softener to the last rinse. 她在最后一遍漂洗时加了柔顺剂。"
+      }
+    ],
+    "wordForms": {
+      "noun": "fabric 织物；（社会、建筑的）结构｜fabrication 捏造，编造；伪造品；（部件的）制作",
+      "verb": "fabricate 编造（谎言、借口、证据）；制造，组装",
+      "adjective": "fabricated 编造的，虚构的；预制的（prefabricated 预制的）",
+      "adverb": "",
+      "other": "词源：拉丁 fabrica（作坊、工艺）→ 做出来的东西 → 布料 → 引申为“结构”。可数性：泛指“布料”不可数（soft cotton fabric, a piece of fabric）；指某一种面料或多种面料时可数（a light waterproof fabric / natural fabrics）。指“社会／建筑结构”永远用单数且加 the（the fabric of ...）。辨析陷阱：fabric 是名词，fabricate 才是动词“编造”；勿与 factory（工厂）、fable（寓言）混淆。"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "邻里互助早已融入这座城市的肌理。\nHelping one's neighbours has long been ____ ____ ____ ____ of this city. （weave, fabric）",
+        "answer": "woven into the fabric",
+        "note": "固定表达 be woven into the fabric of sth；weave 的过去分词是不规则形式 woven（weave-wove-woven），此处与 has been 构成现在完成时的被动；fabric 前必须加 the。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 fabric / fabricate 的适当形式填空：The scarf is made of soft, light ____, and the reporter later admitted that he had ____ the whole interview.",
+        "answer": "fabric; fabricated",
+        "note": "第一空由形容词 soft, light 修饰且无冠词，需不可数名词 fabric（面料）；第二空在 had 之后须用过去分词，动词 fabricate（编造）→ fabricated，与 admitted 构成“过去的过去”。"
+      }
+    ]
+  },
+  {
+    "word": "regard",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/rɪˈɡɑːd/",
+    "partOfSpeech": "vt., n.",
+    "translation": "vt. 把…看作，将…视为（regard sb/sth as）；（以某种方式）看待；（书面语）注视 n. 尊敬，敬重；关心，顾及；（复数 regards）问候，致意；方面，点（in this regard）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to think of somebody or something in a particular way; (noun) respect or admiration for somebody, attention or care given to something, or friendly greetings sent to somebody.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "注视，端详（书面语，常带方式状语）",
+        "example": "She regarded the crowded ward in silence. 她默默地注视着拥挤的病房。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "关心，顾及（多用于 without regard for / have regard to）",
+        "example": "He kept delivering medicine without regard for his own safety. 他不顾自身安危，一直坚持送药。"
+      },
+      {
+        "partOfSpeech": "n.（复数）",
+        "meaning": "问候，致意（regards，书信与口头均可）",
+        "example": "Please give my regards to the nurses on your ward. 请代我问候你病房里的护士们。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Most parents regard vaccination as the safest way to protect children. 多数家长把接种疫苗视为保护孩子最安全的方式。"
+      },
+      {
+        "partOfSpeech": "n.（尊敬）",
+        "sentence": "The old village doctor is held in high regard by everyone here. 这位老村医受到这里每个人的敬重。"
+      },
+      {
+        "partOfSpeech": "n.（方面）",
+        "sentence": "In this regard, ordinary volunteers taught us more than experts. 在这一点上，普通志愿者比专家教给我们的更多。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "regard sb/sth as sth",
+        "translation": "把…视为…（as 不可省略）",
+        "example": "People soon regarded mask-wearing as a basic courtesy. 人们很快把戴口罩视为一种基本礼貌。"
+      },
+      {
+        "phrase": "be widely/generally regarded as",
+        "translation": "被普遍认为是（被动结构）",
+        "example": "That vaccine team is widely regarded as the country's best. 那支疫苗团队被普遍认为是全国最优秀的。"
+      },
+      {
+        "phrase": "regard sth with alarm/suspicion",
+        "translation": "以惊恐／怀疑的态度看待某事",
+        "example": "Villagers first regarded the new strain with alarm. 村民们起初对这种新毒株充满惊恐。"
+      },
+      {
+        "phrase": "hold sb in high regard",
+        "translation": "对某人十分敬重",
+        "example": "The whole street holds those delivery riders in high regard. 整条街的人都很敬重那些送货骑手。"
+      },
+      {
+        "phrase": "with regard to sth",
+        "translation": "关于，至于（正式，= concerning）",
+        "example": "With regard to travel, the rules changed almost weekly. 关于出行，规定几乎每周都在变。"
+      },
+      {
+        "phrase": "in this/that regard",
+        "translation": "在这／那一方面",
+        "example": "In that regard, the community's response was remarkable. 在那一方面，这个社区的反应堪称出色。"
+      },
+      {
+        "phrase": "without regard for/to sth",
+        "translation": "不顾，不考虑",
+        "example": "She worked double shifts without regard for her own health. 她连上两班，全然不顾自己的身体。"
+      },
+      {
+        "phrase": "give/send one's regards to sb",
+        "translation": "向某人问好，代为致意",
+        "example": "Give my regards to your grandparents when you call. 你打电话时代我向祖父母问好。"
+      }
+    ],
+    "wordForms": {
+      "noun": "regard 尊敬；关注，顾及；(pl.) regards 问候",
+      "verb": "regard 视为；看待；（书面语）注视（规则变化：regarded / regarding）",
+      "adjective": "",
+      "adverb": "regardless 不管怎样，仍然（regardless of + 名词／what, how 引导的从句 = 不顾，不管）",
+      "other": "词源：re-（回）+ gard（= guard 看守）→ 回头看 → 注视 → 看待。句法辨析：regard sb as sth 中 as 不可省；同构的还有 think of / look on / view sb as；而 consider 可说 consider him (to be) a hero，不必加 as。介词短语易错点：with regard to 不加 s，as regards（关于）必须加 s；另有 regarding prep. 关于。名词 regards 只在“问候”义上用复数。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Those night-shift cleaners are rarely ____ (regard) as heroes, but no hospital could run without them.",
+        "answer": "regarded",
+        "note": "be regarded as 是 regard sb as sth 的被动形式，主语 cleaners 是被“视为”的一方，故用过去分词 regarded 与 are 构成被动语态；as 不能省略。"
+      },
+      {
+        "type": "完成句子",
+        "question": "关于疫苗，专家提醒我们不要轻信谣言。\n____ ____ ____ the vaccine, experts warn us not to believe rumours.",
+        "answer": "With regard to",
+        "note": "with regard to = 关于（正式语域），后接名词或动名词；注意此处 regard 不加 s（只有 as regards 才带 s），且不能写成 with regard of。"
+      }
+    ]
+  },
+  {
+    "word": "drag",
+    "textbook": "拓展创新学程二",
+    "unit": "Unit 1",
+    "pronunciation": "/dræɡ/",
+    "partOfSpeech": "vt., vi., n.",
+    "translation": "vt. 拖，拽；硬拉（某人）去；拖长，使拖延 vi.（时间、活动）过得缓慢，拖沓；（衣物等）拖在地上 n. 拖累，累赘；[U]（空气、水的）阻力；（非正式）令人厌烦的人或事",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to pull somebody or something along with effort and difficulty; (of time or an event) to pass or continue slowly and boringly; (noun) something that holds back progress, or the force of air or water that slows a moving object down.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（时间、会议等）过得极慢，令人难熬地拖着",
+        "example": "The last week of quarantine really dragged. 隔离的最后一周过得格外难熬。"
+      },
+      {
+        "partOfSpeech": "n. [sing.]",
+        "meaning": "拖累，累赘（a drag on sth）",
+        "example": "Poor internet access became a drag on online teaching. 网络不畅成了网课的一大拖累。"
+      },
+      {
+        "partOfSpeech": "n.（非正式）",
+        "meaning": "讨厌的事，无聊的人",
+        "example": "Staying indoors for six weeks was such a drag. 关在家里六周实在无聊透了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "He dragged heavy boxes of medicine up six flights of stairs. 他把一箱箱沉重的药品拖上了六层楼。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The empty afternoons dragged, and no one knew when it would end. 空荡荡的下午过得极慢，没人知道何时是尽头。"
+      },
+      {
+        "partOfSpeech": "n.（阻力，不可数）",
+        "sentence": "Cyclists wear tight clothing to reduce air drag. 骑行者穿紧身衣是为了减小空气阻力。"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "drag sth into/out of sth",
+        "translation": "把某物拖进／拖出…",
+        "example": "Two nurses dragged the oxygen cylinder into the ward. 两名护士把氧气瓶拖进了病房。"
+      },
+      {
+        "phrase": "drag on",
+        "translation": "（不及物）拖沓地持续，拖延下去",
+        "example": "The lockdown dragged on for another month. 封控又拖了一个月。"
+      },
+      {
+        "phrase": "drag sth out",
+        "translation": "（及物）故意拖长，使拉长",
+        "example": "Don't drag out the meeting; the volunteers are exhausted. 别把会议拖长了，志愿者们都累坏了。"
+      },
+      {
+        "phrase": "drag one's feet/heels",
+        "translation": "故意拖延，磨磨蹭蹭",
+        "example": "Some countries dragged their feet over sharing vaccines. 一些国家在共享疫苗上一直拖着不动。"
+      },
+      {
+        "phrase": "drag sb into sth",
+        "translation": "把某人卷入（争论、麻烦）",
+        "example": "Don't drag me into your argument about masks. 别把我卷进你们关于口罩的争论。"
+      },
+      {
+        "phrase": "a drag on sth",
+        "translation": "对…的拖累，…的负担",
+        "example": "The long closure was a drag on small businesses. 长期停业成了小微企业的拖累。"
+      },
+      {
+        "phrase": "drag oneself out of bed",
+        "translation": "硬撑着爬起来",
+        "example": "Exhausted, she dragged herself out of bed for the night shift. 她累极了，还是硬撑着起床去上夜班。"
+      },
+      {
+        "phrase": "drag and drop",
+        "translation": "拖放（鼠标操作）",
+        "example": "Just drag and drop the file into the shared folder. 把文件拖放到共享文件夹里就行。"
+      }
+    ],
+    "wordForms": {
+      "noun": "drag 拖累，累赘；（空气、水的）阻力；（非正式）讨厌的事",
+      "verb": "drag 拖，拽（不规则拼写变化：过去式／过去分词 dragged，现在分词 dragging）",
+      "adjective": "dragging（时间、疼痛）持续而缓慢的，拖沓的（a dragging pain 隐隐持续的钝痛）",
+      "adverb": "",
+      "other": "拼写规则：单音节词，词尾为“辅+元+辅”，加 -ed/-ing 须双写 g → dragged / dragging。读音辨析：drag /dræɡ/ 与 drug /drʌɡ/（药品）拼写、读音都不同，勿混。语法分工：drag on 不及物，主语是时间／事件本身（The meeting dragged on.）；drag sth out 及物，主语是人，指故意拖长；另有 drag sth up 意为“翻出（旧事）”，不是“往上拖”。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The talks ____ (drag) on for weeks before the two sides finally reached an agreement.",
+        "answer": "dragged",
+        "note": "before 从句用一般过去时，主句也须用过去式；drag 词尾“辅+元+辅”须双写 g 变 dragged；drag on 为不及物短语，意为“拖沓地持续”，主语是 talks 本身，后面不能再接宾语。"
+      },
+      {
+        "type": "完成句子",
+        "question": "有关部门在处理这起投诉上仍然拖拖拉拉。\nThe department is still ____ ____ ____ over the complaint.",
+        "answer": "dragging its feet",
+        "note": "drag one's feet = 故意拖延；one's 必须与主语一致，主语 the department 为单数无生命，用 its；is still 后接现在分词，双写 g 写作 dragging。"
+      }
+    ]
   }
 ]
