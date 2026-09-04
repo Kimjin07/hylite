@@ -8420,5 +8420,2949 @@
         "note": "语境为“可怕的经历”，用 nightmare；dream 多指美梦或愿望，语义相反。"
       }
     ]
+  },
+  {
+    "word": "casual",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈkæʒuəl/",
+    "partOfSpeech": "adj.；n.",
+    "translation": "adj. 漫不经心的，满不在乎的；非正式的，休闲的；临时的，非固定的（工作）；偶然的，不经意的  n.（常作复数）临时工；便装",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "relaxed and not showing much care, effort or planning; informal in style; (of work) temporary and irregular.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "临时工，散工（常用复数 casuals）",
+        "example": "The warehouse takes on casuals before every holiday. 每逢假期前，仓库都会招一批临时工。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "偶然的，无意中的（不是事先安排好的）",
+        "example": "A casual remark by an engineer started the whole safety debate. 一位工程师的无心之言引发了整场安全争论。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "（工作、合同）临时的，不固定的（多作定语）",
+        "example": "Most testers are on casual contracts with no fixed hours. 多数测试员签的是没有固定工时的临时合同。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A casual observer sees a normal taxi; only the roof sensors give it away."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "His casual attitude towards testing worried the whole safety team."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The company hired ten casuals to clean the test track."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a casual observer",
+        "translation": "一般旁观者，外行人",
+        "example": "To a casual observer, the car looks like any other taxi. 在外行看来，这辆车和普通出租车没什么两样。"
+      },
+      {
+        "phrase": "be casual about sth",
+        "translation": "对……满不在乎，掉以轻心",
+        "example": "Don't be casual about safety just because the car drives itself. 别因为车能自动驾驶就对安全掉以轻心。"
+      },
+      {
+        "phrase": "smart casual",
+        "translation": "商务休闲装（比正装随意、比便装正式的着装要求）",
+        "example": "The invitation says smart casual, so leave the jeans at home. 请柬上写的是商务休闲装，所以别穿牛仔裤。"
+      },
+      {
+        "phrase": "casual clothes / casual wear",
+        "translation": "休闲服，便装",
+        "example": "The engineers wore casual clothes even at the launch. 工程师们连产品发布会也穿着休闲装。"
+      },
+      {
+        "phrase": "casual work / casual labour",
+        "translation": "临时工作，零工",
+        "example": "He does casual work at weekends to pay for the course. 他周末打零工来付学费。"
+      },
+      {
+        "phrase": "a casual acquaintance",
+        "translation": "泛泛之交",
+        "example": "She is just a casual acquaintance, not a close friend. 她只是泛泛之交，算不上密友。"
+      },
+      {
+        "phrase": "a casual conversation / chat",
+        "translation": "闲聊，随意的交谈",
+        "example": "The idea came out of a casual conversation over coffee. 这个想法出自一次喝咖啡时的闲聊。"
+      },
+      {
+        "phrase": "in a casual tone",
+        "translation": "用漫不经心的语气",
+        "example": "He said it in a casual tone to hide his worry. 他用漫不经心的语气说出来，掩饰心里的担忧。"
+      }
+    ],
+    "wordForms": {
+      "noun": "casualness 随意；不经意 ／ casual(s) 临时工；便装",
+      "verb": "—（无对应动词）",
+      "adjective": "casual 漫不经心的；休闲的；临时的；偶然的",
+      "adverb": "casually 漫不经心地；随意地",
+      "other": "形近词必辨：casual /ˈkæʒuəl/ 随意的 ≠ causal /ˈkɔːzl/ 因果的（a causal link 因果联系）。casualty（伤亡者）虽与 casual 同源，今义已完全分离。表\"临时的\"时 casual 一般作定语：casual work/labour/contract；若说 His attitude is casual，意思就回到\"漫不经心\"。"
+    },
+    "classPractice": [
+      {
+        "type": "辨析选词",
+        "question": "选词填空（casual / causal）：To a ______ observer the vehicle looks perfectly normal, but its roof is packed with sensors.",
+        "answer": "casual",
+        "note": "a casual observer 指\"不留心的旁观者、外行\"；causal 意为\"因果的\"，如 a causal link，与\"观察者\"搭不上，语义不通。"
+      },
+      {
+        "type": "单句语法填空",
+        "question": "Asked who should take the blame, the engineer shrugged and answered ______ (casual).",
+        "answer": "casually",
+        "note": "空格修饰动词 answered，作状语须用副词 casually；形容词 casual 不能修饰动词。"
+      }
+    ]
+  },
+  {
+    "word": "instruct",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ɪnˈstrʌkt/",
+    "partOfSpeech": "v.",
+    "translation": "v. 指示，命令；教，指导，训练；（正式）通知，告知；（英）委托（律师）办案",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to tell someone officially or formally to do something; to teach someone a subject or a skill.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（正式）通知，告知（多用被动 be instructed that...）",
+        "example": "We have been instructed that the car was in autonomous mode. 我们已获知当时车辆处于自动驾驶模式。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（英式法律）委托（律师）出庭、办理案件",
+        "example": "The victim's family instructed a lawyer to sue the carmaker. 受害者家属委托律师起诉这家汽车制造商。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Programmers instruct the car to brake the moment a sensor detects a child."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Who has the right to instruct a machine on whose life to save?"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "She instructs beginners in basic road safety every Saturday morning."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "instruct sb to do sth",
+        "translation": "指示／命令某人做某事",
+        "example": "The system instructed the driver to take back control. 系统指示驾驶员接管车辆。"
+      },
+      {
+        "phrase": "be instructed to do sth",
+        "translation": "奉命做某事",
+        "example": "Test drivers are instructed to keep both hands near the wheel. 测试驾驶员奉命把双手放在方向盘附近。"
+      },
+      {
+        "phrase": "instruct sb in sth",
+        "translation": "教某人某门学科／某项技能",
+        "example": "He instructs new staff in sensor repair. 他教新员工修传感器。"
+      },
+      {
+        "phrase": "instruct sb (on) how to do sth",
+        "translation": "指导某人如何做某事",
+        "example": "The manual instructs owners on how to update the software. 手册指导车主如何升级软件。"
+      },
+      {
+        "phrase": "unless otherwise instructed",
+        "translation": "除非另有指示",
+        "example": "Unless otherwise instructed, keep the car in manual mode. 除非另有指示，请让车辆保持手动模式。"
+      },
+      {
+        "phrase": "instruct the jury",
+        "translation": "（法官）向陪审团作出指示",
+        "example": "The judge instructed the jury to ignore that remark. 法官指示陪审团不要理会那句话。"
+      },
+      {
+        "phrase": "follow / carry out instructions",
+        "translation": "遵照、执行指令",
+        "example": "The car simply followed instructions written by humans. 汽车只是执行了人类写下的指令。"
+      },
+      {
+        "phrase": "an instruction manual",
+        "translation": "使用说明书",
+        "example": "Few owners ever read the instruction manual. 很少有车主真的读过说明书。"
+      }
+    ],
+    "wordForms": {
+      "noun": "instruction 指示，命令（表\"操作说明\"时通常用复数 instructions）；教学 ／ instructor 教练，讲师",
+      "verb": "instruct 指示；教导",
+      "adjective": "instructive 有教益的，给人启发的 ／ instructional 教学（用）的",
+      "adverb": "instructively 有教益地",
+      "other": "句型只用 instruct sb to do sth，不说 instruct sb doing 或 instruct sb do；instruct sb in sth 后接学科或技能。辨析：an instructive experience（让人长见识的经历）≠ an instructional video（教学视频）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "When the road ahead was blocked, the system instructed the driver ______ (take) back control at once.",
+        "answer": "to take",
+        "note": "instruct sb to do sth 指示某人做某事，宾语后须接不定式；不能说 instruct sb doing 或 instruct sb do。"
+      },
+      {
+        "type": "汉译英",
+        "question": "手册指导车主如何在恶劣天气中使用自动驾驶功能。（instruct）",
+        "answer": "The manual instructs owners on how to use the self-driving function in bad weather.",
+        "note": "instruct sb on how to do sth 指导某人如何做某事；on 可以省略（instructs owners how to use...），但不能换成 in——instruct sb in sth 后面接的是学科或技能，如 instruct sb in first aid。"
+      }
+    ]
+  },
+  {
+    "word": "accelerate",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/əkˈseləreɪt/",
+    "partOfSpeech": "v.",
+    "translation": "v.（使）加速，（车辆）提速；加快，促进（进程）；使（某事）提前发生",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to move faster, or to make something happen faster or earlier than expected.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "让（学生）跳级、加快学业进度（教育用语）",
+        "example": "The school accelerated her through two years of maths. 学校让她跳过了两年的数学课程。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（物理）使产生加速度（速度大小或方向发生改变）",
+        "example": "A force is needed to accelerate any object. 使任何物体产生加速度都需要力。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The car accelerated smoothly and joined the traffic without a driver."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Should a self-driving car accelerate or brake when a crash is unavoidable?"
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The accident accelerated the making of new laws on driverless taxis."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "accelerate smoothly",
+        "translation": "平稳加速",
+        "example": "The electric car accelerates smoothly from a standstill. 这辆电动车从静止起步时加速平稳。"
+      },
+      {
+        "phrase": "accelerate from zero to 100 km/h",
+        "translation": "从0加速到100公里/小时",
+        "example": "It accelerates from zero to 100 km/h in four seconds. 它四秒内从0加速到100公里/小时。"
+      },
+      {
+        "phrase": "accelerate hard / sharply",
+        "translation": "猛加速，急加速",
+        "example": "Never accelerate hard on a wet road. 湿滑路面上千万别猛加速。"
+      },
+      {
+        "phrase": "accelerate away",
+        "translation": "加速驶离",
+        "example": "The van accelerated away before the police arrived. 警察赶到前，那辆面包车加速驶离。"
+      },
+      {
+        "phrase": "accelerate the process of ...",
+        "translation": "加快……的进程",
+        "example": "The crash accelerated the process of writing safety rules. 这起车祸加快了制定安全规则的进程。"
+      },
+      {
+        "phrase": "accelerate economic growth",
+        "translation": "促进经济增长",
+        "example": "New technology may accelerate economic growth. 新技术可能促进经济增长。"
+      },
+      {
+        "phrase": "step on / hit the accelerator",
+        "translation": "踩油门（accelerator 为其名词）",
+        "example": "In a panic he hit the accelerator instead of the brake. 慌乱中他踩了油门而不是刹车。"
+      },
+      {
+        "phrase": "at an accelerating pace",
+        "translation": "以越来越快的速度",
+        "example": "Driverless taxis are spreading at an accelerating pace. 无人出租车正以越来越快的速度普及。"
+      }
+    ],
+    "wordForms": {
+      "noun": "acceleration 加速；加速度 ／ accelerator 油门踏板；加速器",
+      "verb": "accelerate 加速；促进",
+      "adjective": "accelerated 加快的（an accelerated course 速成班）／ accelerating 不断提速的",
+      "adverb": "—",
+      "other": "反义表达：decelerate / slow down 减速，brake 刹车。accelerate 既可及物（accelerate the process）又可不及物（The car accelerated）。重音在第二音节：ac-CEL-er-ate /əkˈseləreɪt/；名词 acceleration 重音后移到 -ra-：/əkˌseləˈreɪʃn/。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Sensors keep measuring the car's speed and ______ (accelerate) so that the computer can react in time.",
+        "answer": "acceleration",
+        "note": "and 连接的是与名词 speed 并列的成分，故填名词 acceleration（加速度），不能用动词原形。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这场事故加快了自动驾驶立法的进程。 The accident has ______ ______ ______ ______ making laws on self-driving cars. (accelerate)",
+        "answer": "accelerated the process of",
+        "note": "accelerate the process of doing sth 加快做某事的进程；has 后用过去分词 accelerated，事故的影响延续至今。"
+      }
+    ]
+  },
+  {
+    "word": "resolve",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/rɪˈzɒlv/",
+    "partOfSpeech": "v.；n.",
+    "translation": "v. 解决（问题、争端）；决心，决意（做某事）；（会议）正式通过决议；分解，分辨（光线、图像等）  n. 决心，坚定的意志",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to find a satisfactory way of dealing with a problem or disagreement; to decide firmly to do something; (noun) strong determination.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "决心，坚定的意志（不可数）",
+        "example": "Nothing weakened her resolve to make the roads safer. 什么也没能动摇她让道路更安全的决心。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（会议、委员会）正式决议，表决通过",
+        "example": "The committee resolved that every test car should carry a safety driver. 委员会决议每辆测试车都必须配安全员。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "分辨出（细节）；分解为（resolve sth into sth）",
+        "example": "In poor light the camera can hardly resolve the fine detail of a road sign. 光线不好时，摄像头几乎分辨不出路牌上的细节。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Engineers cannot resolve this moral dilemma simply by writing more code."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "After the crash she resolved to study the ethics of algorithms."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Public anger only strengthened the government's resolve to tighten the rules."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "resolve a problem / an issue",
+        "translation": "解决问题",
+        "example": "Better sensors alone will not resolve this problem. 光靠更好的传感器解决不了这个问题。"
+      },
+      {
+        "phrase": "resolve a dispute / conflict",
+        "translation": "化解争端、冲突",
+        "example": "The two companies resolved their dispute out of court. 两家公司在庭外化解了争端。"
+      },
+      {
+        "phrase": "remain unresolved",
+        "translation": "仍未解决，悬而未决",
+        "example": "Who is to blame remains unresolved. 到底该由谁负责，仍然悬而未决。"
+      },
+      {
+        "phrase": "resolve to do sth",
+        "translation": "决心做某事",
+        "example": "He resolved to report every fault he found. 他决心把发现的每一个故障都上报。"
+      },
+      {
+        "phrase": "be resolved to do sth",
+        "translation": "下定决心做某事",
+        "example": "The city is resolved to test the cars slowly and carefully. 该市决意缓慢而谨慎地测试这些车。"
+      },
+      {
+        "phrase": "firm resolve",
+        "translation": "坚定的决心",
+        "example": "It takes firm resolve to admit a design mistake. 承认设计失误需要坚定的决心。"
+      },
+      {
+        "phrase": "strengthen / weaken sb's resolve",
+        "translation": "增强／削弱某人的决心",
+        "example": "The accident only strengthened their resolve. 事故反而增强了他们的决心。"
+      },
+      {
+        "phrase": "resolve sth into sth",
+        "translation": "把……分解为……",
+        "example": "White light can be resolved into seven colours. 白光可以分解成七种颜色。"
+      }
+    ],
+    "wordForms": {
+      "noun": "resolution 决心；决议；分辨率 ／ resolve 决心（n.，不可数）",
+      "verb": "resolve 解决；决心；分解",
+      "adjective": "resolute 坚决的 ／ resolved 下定决心的 ／ unresolved 未解决的",
+      "adverb": "resolutely 坚决地",
+      "other": "名词 resolution 三义要分清：New Year's resolutions 新年决心／pass a resolution 通过决议／high resolution 高分辨率（camera resolution 摄像头分辨率）。句型 resolve to do sth = make up one's mind to do sth，不说 resolve doing。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "A high-______ (resolve) camera can tell a plastic bag from a small child.",
+        "answer": "resolution",
+        "note": "high-resolution（高分辨率的）由\"形容词 high + 名词 resolution\"构成复合定语，resolution 是 resolve 的名词形式。"
+      },
+      {
+        "type": "完成句子",
+        "question": "面对这一伦理难题，工程师们决心找到更公平的算法。 Faced with the ethical dilemma, the engineers ______ ______ ______ a fairer algorithm. (resolve)",
+        "answer": "resolved to find",
+        "note": "resolve to do sth 决心做某事；句子叙述过去的事，用过去式 resolved，to 后接动词原形。"
+      }
+    ]
+  },
+  {
+    "word": "bound",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/baʊnd/",
+    "partOfSpeech": "adj.；v.；n.（也是 bind 的过去式/过去分词）",
+    "translation": "adj. 一定的，必然的（be bound to do）；受约束的，有义务的；准备前往……的（be bound for）  v. 跳跃着前进；构成……的边界，围住  n.（常用复数）界限，范围；跳跃  【bind 的过去式/过去分词】捆绑；使受约束",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "certain or very likely to happen; obliged by law or duty; travelling towards a place; (v) to move in leaps, or to form the boundary of an area.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "跳跃着奔跑，蹦跳前进（规则变化 bound–bounded–bounded）",
+        "example": "A dog bounded across the road and the car braked at once. 一条狗蹦跳着穿过马路，车立刻刹住了。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（复数 bounds）界限，范围",
+        "example": "The debate has gone beyond the bounds of engineering. 这场争论已经超出了工程学的范围。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "构成……的边界，围住（多用被动）",
+        "example": "The test track is bounded by a three-metre fence. 测试跑道四周围着三米高的护栏。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "If bias stays in the code, such accidents are bound to happen again."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The shuttle is bound for the airport and stops nowhere else."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The deer bounded out of the trees straight into the headlights."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be bound to do sth",
+        "translation": "必然会／注定要做某事",
+        "example": "Machines are bound to make mistakes sooner or later. 机器迟早必然会出错。"
+      },
+      {
+        "phrase": "be bound by law / by the rules",
+        "translation": "受法律／规则约束",
+        "example": "Carmakers are bound by law to report every crash. 汽车制造商依法必须报告每一起事故。"
+      },
+      {
+        "phrase": "be bound for ...",
+        "translation": "开往……，前往……",
+        "example": "The driverless bus was bound for the science park. 那辆无人巴士开往科技园。"
+      },
+      {
+        "phrase": "be bound up with sth",
+        "translation": "与……密切相关",
+        "example": "Safety is bound up with how the software is written. 安全与软件如何编写密切相关。"
+      },
+      {
+        "phrase": "out of bounds",
+        "translation": "禁止入内；越界",
+        "example": "The test area is out of bounds to visitors. 测试区禁止访客进入。"
+      },
+      {
+        "phrase": "within the bounds of possibility",
+        "translation": "在可能的范围之内",
+        "example": "A city without private cars is within the bounds of possibility. 一座没有私家车的城市并非没有可能。"
+      },
+      {
+        "phrase": "know no bounds",
+        "translation": "无止境，没有限度",
+        "example": "Their enthusiasm for new technology knew no bounds. 他们对新技术的热情没有止境。"
+      },
+      {
+        "phrase": "be duty-bound to do sth",
+        "translation": "有义务／有责任做某事",
+        "example": "Engineers are duty-bound to warn the public of the risk. 工程师有责任向公众提示风险。"
+      }
+    ],
+    "wordForms": {
+      "noun": "boundary 边界，分界线 ／ bounds 界限，范围",
+      "verb": "bind (bind–bound–bound) 捆绑；使受约束；装订 ／ bound (bound–bounded–bounded) 跳跃；围住",
+      "adjective": "bound 必然的；受约束的 ／ boundless 无限的 ／ unbounded 无边无际的",
+      "adverb": "boundlessly 无限地",
+      "other": "三重身份别混：①bind 的过去式/过去分词，bind–bound–bound（His hands were bound 他的手被捆着）；②形容词 be bound to do 表\"必然\"，不表\"打算\"；③另有一个规则动词 bound–bounded–bounded（跳跃；围住），与 bind 同形而不同源。构词成分 -bound：homeward-bound 归途中的、snowbound 被雪困住的、spellbound 着迷的。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Carmakers are ______ (bind) by law to record what the car \"saw\" in the seconds before a crash.",
+        "answer": "bound",
+        "note": "be bound by law 依法受约束，用 bind 的过去分词构成被动结构；bind–bound–bound 为不规则变化，注意与规则动词 bound–bounded（跳跃）区分。"
+      },
+      {
+        "type": "完成句子",
+        "question": "只要程序里还带着偏见，这样的悲剧就必然会重演。 As long as bias remains in the code, such tragedies ______ ______ ______ ______ again. (bound)",
+        "answer": "are bound to happen",
+        "note": "be bound to do sth 表示\"必然会\"；主语 tragedies 是复数，故用 are；主句用一般现在时表示对将来的必然判断。"
+      }
+    ]
+  },
+  {
+    "word": "vision",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈvɪʒn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 视力，视觉；眼光，远见，洞察力；憧憬，设想，构想；幻象，幻觉；（电视的）图像",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the ability to see; the ability to imagine and plan for the future; a picture in your mind of how something could be.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "幻象，梦幻般显现的景象（宗教或梦中所见）",
+        "example": "She said she had seen a vision of her grandmother. 她说她看见了祖母的幻影。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（电视、直播的）图像，画面信号",
+        "example": "We had sound but no vision for two minutes. 有两分钟只有声音没有画面。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Computer vision lets the car recognise a stop sign in a tenth of a second."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Fog and heavy rain seriously reduce a driver's vision."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "His vision of car-free city centres seemed crazy thirty years ago."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "computer vision",
+        "translation": "计算机视觉",
+        "example": "Computer vision turns camera images into driving decisions. 计算机视觉把摄像头图像变成驾驶决策。"
+      },
+      {
+        "phrase": "field of vision",
+        "translation": "视野",
+        "example": "A tall lorry blocked the sensor's field of vision. 一辆高大的卡车挡住了传感器的视野。"
+      },
+      {
+        "phrase": "night vision",
+        "translation": "夜视（能力）",
+        "example": "Infrared cameras give the car night vision. 红外摄像头让汽车具备夜视能力。"
+      },
+      {
+        "phrase": "blurred vision",
+        "translation": "视力模糊",
+        "example": "Tiredness causes blurred vision and slow reactions. 疲劳会导致视力模糊、反应迟钝。"
+      },
+      {
+        "phrase": "a man / woman of vision",
+        "translation": "有远见的人",
+        "example": "Only a man of vision would fund such a project. 只有有远见的人才会资助这样的项目。"
+      },
+      {
+        "phrase": "a vision of the future",
+        "translation": "对未来的憧憬，未来图景",
+        "example": "The film offers a vision of the future without traffic jams. 这部电影描绘了一个没有堵车的未来图景。"
+      },
+      {
+        "phrase": "tunnel vision",
+        "translation": "目光狭隘；管状视野",
+        "example": "Judging the technology by cost alone is tunnel vision. 只按成本评判这项技术是目光狭隘。"
+      },
+      {
+        "phrase": "perfect vision",
+        "translation": "极好的视力",
+        "example": "Even a driver with perfect vision cannot see round a corner. 即使视力极好的司机也看不到拐角后面。"
+      }
+    ],
+    "wordForms": {
+      "noun": "vision 视觉；远见 ／ visibility 能见度 ／ visionary 有远见的人",
+      "verb": "envision / envisage 展望，设想 ／ visualize 想象，使形象化",
+      "adjective": "visual 视觉的 ／ visible 看得见的 ／ visionary 有远见的（也可作名词，指有远见的人）",
+      "adverb": "visually 在视觉上 ／ visibly 明显地",
+      "other": "辨析：vision 指\"看的能力／远见\"，sight 指视力或看到的景象，view 指视野或看法。词根 vis-（看）还构成 revise, supervise, evidence。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The designer was truly ______ (vision): back in 1990 he pictured streets full of driverless cars.",
+        "answer": "visionary",
+        "note": "系动词 was 后作表语须用形容词，vision 的形容词 visionary 意为\"有远见的\"。"
+      },
+      {
+        "type": "汉译英",
+        "question": "在浓雾中，司机的视野受到严重限制。（vision）",
+        "answer": "In thick fog, the driver's field of vision is severely limited.",
+        "note": "field of vision 视野；也可写作 the driver's vision is badly limited，此处 vision 不可数。"
+      }
+    ]
+  },
+  {
+    "word": "exchange",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ɪksˈtʃeɪndʒ/",
+    "partOfSpeech": "v.；n.",
+    "translation": "v. 交换，互换；交流（意见、信息）；兑换（货币）；调换（商品）  n. 交换，交流；（激烈的）争论，交锋；交易所；电话交换台；交换项目",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to give something to someone and receive something else from them in return; (n) the act of giving and receiving things of the same kind.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（简短而激烈的）争论，言语交锋",
+        "example": "There was a heated exchange between the lawyer and the engineer. 律师和工程师之间发生了一场激烈的交锋。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "电话交换台（局）",
+        "example": "The old telephone exchange is now a data centre. 那座老电话交换局如今成了数据中心。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "调换（买回的商品）",
+        "example": "You can exchange the phone within seven days. 七天之内你可以调换这部手机。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Connected cars exchange information about ice and accidents every few seconds."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In exchange for cheaper rides, passengers hand over their travel data."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The meeting ended with an angry exchange about who was at fault."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "exchange information / data",
+        "translation": "交换信息／数据",
+        "example": "Cars ahead exchange data with the cars behind. 前车与后车之间交换数据。"
+      },
+      {
+        "phrase": "exchange ideas / views with sb",
+        "translation": "与某人交流看法",
+        "example": "Engineers exchanged views with philosophers on the dilemma. 工程师就这一难题与哲学家交流了看法。"
+      },
+      {
+        "phrase": "exchange A for B",
+        "translation": "用A换（成）B",
+        "example": "She exchanged her old car for a driverless one. 她用旧车换了一辆无人驾驶汽车。"
+      },
+      {
+        "phrase": "in exchange for sth",
+        "translation": "作为……的交换",
+        "example": "They get free software in exchange for their driving records. 他们交出行车记录，作为交换获得免费软件。"
+      },
+      {
+        "phrase": "a heated / angry exchange",
+        "translation": "激烈的争论",
+        "example": "A heated exchange followed the release of the crash report. 事故报告公布后引发了一场激烈争论。"
+      },
+      {
+        "phrase": "the exchange rate",
+        "translation": "汇率",
+        "example": "The exchange rate changes every day. 汇率每天都在变。"
+      },
+      {
+        "phrase": "an exchange student / programme",
+        "translation": "交换生／交换项目",
+        "example": "She went to Japan as an exchange student. 她作为交换生去了日本。"
+      },
+      {
+        "phrase": "exchange glances",
+        "translation": "交换眼神，对视一下",
+        "example": "The two testers exchanged glances and said nothing. 两名测试员交换了一下眼神，什么也没说。"
+      }
+    ],
+    "wordForms": {
+      "noun": "exchange 交换；交流；交易所（the Stock Exchange 证券交易所）",
+      "verb": "exchange 交换；兑换；调换",
+      "adjective": "exchangeable 可交换的；可兑换的",
+      "adverb": "—",
+      "other": "两个定式别写错：exchange A for B（用A换B）／in exchange for sth（作为交换）。辨析：exchange 强调双方互给，change 只表\"改变、更换\"，interchange 多指信息或位置互换（也指立交桥）。"
+    },
+    "classPractice": [
+      {
+        "type": "完成句子",
+        "question": "作为交换，用户允许公司收集他们的行车数据。 ______ ______ ______ free maps, users allow the company to collect their driving data. (exchange)",
+        "answer": "In exchange for",
+        "note": "in exchange for sth 为固定介词短语，for 后接换得的东西；置于句首时首字母大写。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "选词填空（exchange / change）：After the test drive the two engineers ______ phone numbers and promised to keep in touch.",
+        "answer": "exchanged",
+        "note": "双方互给电话号码用 exchange（互换）；change 意为\"改变、更换\"，不含\"互相给予\"之意。"
+      }
+    ]
+  },
+  {
+    "word": "tailor",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈteɪlə(r)/",
+    "partOfSpeech": "v.；n.",
+    "translation": "v. 使适合（特定需要），量身定做；缝制、剪裁（衣服）  n. 裁缝（做西装、外套等的人）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to make or change something so that it suits a particular person, purpose or situation; (n) a person who makes clothes such as suits and coats.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "裁缝，成衣匠（本义，今天课文中多用引申的动词义）",
+        "example": "The suit was made by a tailor in Shanghai. 这套西装是上海一位裁缝做的。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（按尺寸）缝制，剪裁（衣服）",
+        "example": "The coat is beautifully tailored. 这件大衣剪裁精美。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Driving software must be tailored to the traffic rules of each country."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The company tailors its safety training to new drivers' needs."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "His grandfather worked as a tailor for over forty years."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "tailor sth to sth（常用被动 be tailored to）",
+        "translation": "使某物适合……；按……定制",
+        "example": "The algorithm is tailored to crowded Chinese streets. 这套算法是为拥挤的中国街道量身设计的。"
+      },
+      {
+        "phrase": "tailor sth for sb",
+        "translation": "为某人定制某物",
+        "example": "They tailored a test plan for the local government. 他们为当地政府定制了一份测试方案。"
+      },
+      {
+        "phrase": "tailor-made (for/to)",
+        "translation": "量身定做的；再合适不过的",
+        "example": "This job seems tailor-made for her. 这份工作简直是为她量身定做的。"
+      },
+      {
+        "phrase": "a well-tailored suit",
+        "translation": "剪裁合体的西装",
+        "example": "He wore a well-tailored dark suit to the hearing. 他穿着一套剪裁合体的深色西装出席听证会。"
+      },
+      {
+        "phrase": "fine tailoring",
+        "translation": "精湛的剪裁做工",
+        "example": "The jacket looks plain, but the tailoring is fine. 这件外套样式朴素，做工却十分精湛。"
+      },
+      {
+        "phrase": "tailored solutions / services",
+        "translation": "定制方案／服务",
+        "example": "The firm offers tailored solutions to each city. 这家公司为每座城市提供定制方案。"
+      },
+      {
+        "phrase": "tailor your CV to the job",
+        "translation": "让简历贴合所申请的职位",
+        "example": "Tailor your CV to the job you are applying for. 让你的简历贴合你申请的那份工作。"
+      },
+      {
+        "phrase": "the tailor's (shop)",
+        "translation": "裁缝店",
+        "example": "She took the trousers to the tailor's. 她把裤子拿到裁缝店去了。"
+      }
+    ],
+    "wordForms": {
+      "noun": "tailor 裁缝 ／ tailoring 裁缝手艺；剪裁做工",
+      "verb": "tailor 使适合；缝制",
+      "adjective": "tailored 剪裁合体的；定制的 ／ tailor-made 量身定做的",
+      "adverb": "—",
+      "other": "名词零派生为动词（tailor → to tailor），与 name, water 同理。最常用被动式 be tailored to/for sth；近义表达 customize / adapt sth to sth；tailor-made ≈ custom-made。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Safety rules must be ______ (tailor) to the road conditions of each city.",
+        "answer": "tailored",
+        "note": "rules 与 tailor 为被动关系，情态动词 must 后用 be done；be tailored to 意为\"使适合……\"。"
+      },
+      {
+        "type": "汉译英",
+        "question": "这套系统是为中国复杂的路况量身定制的。（tailor）",
+        "answer": "The system is tailored to China's complicated road conditions.",
+        "note": "be tailored to sth 为……量身定制，也可说 be tailor-made for China's complicated road conditions。"
+      }
+    ]
+  },
+  {
+    "word": "faith",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/feɪθ/",
+    "partOfSpeech": "n.",
+    "translation": "n. 信任，信心，信念；宗教信仰，教派；(正式)诚意，守信",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "strong trust or confidence in someone or something; belief in a religion or in a set of principles",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(可数)宗教，教派——指一整套信仰体系，此时可说 a faith / different faiths",
+        "example": "People of several faiths share the same prayer room."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(正式)诚意，守信——只出现在固定短语 in good faith、keep/break faith with sb 中",
+        "example": "The engineers reported the fault in good faith."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Many passengers still have little faith in cars that drive themselves."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "One fatal crash destroyed years of public faith in the technology."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "have faith in sb/sth",
+        "translation": "信任，对……有信心",
+        "example": "Few passengers have faith in a car that makes moral choices. 很少有乘客信任一辆会做道德选择的车。"
+      },
+      {
+        "phrase": "lose faith in sth",
+        "translation": "对……失去信心",
+        "example": "After the accident, the city lost faith in driverless buses. 事故之后，这座城市对无人驾驶公交失去了信心。"
+      },
+      {
+        "phrase": "put/place one's faith in sth",
+        "translation": "把信任寄托于……",
+        "example": "Should we put our faith in an algorithm? 我们该把信任寄托在一套算法上吗？"
+      },
+      {
+        "phrase": "blind faith (in sth)",
+        "translation": "盲目的信任",
+        "example": "Blind faith in autopilot makes drivers careless. 对自动驾驶的盲目信任让司机麻痹大意。"
+      },
+      {
+        "phrase": "restore/regain public faith in sth",
+        "translation": "重建/恢复公众对……的信心",
+        "example": "Only open test data can restore public faith in these cars. 只有公开测试数据才能重建公众对这些车的信心。"
+      },
+      {
+        "phrase": "in good faith",
+        "translation": "出于善意，真诚地(作状语)",
+        "example": "The company shared the crash report in good faith. 公司出于诚意公开了那份事故报告。"
+      },
+      {
+        "phrase": "keep/break faith with sb",
+        "translation": "对……守信/失信",
+        "example": "The maker broke faith with buyers by hiding the defect. 厂商隐瞒缺陷，对买主失了信。"
+      },
+      {
+        "phrase": "a leap of faith",
+        "translation": "凭信心的一跃，冒险一试",
+        "example": "Riding in a driverless taxi still feels like a leap of faith. 坐无人驾驶出租车仍像是一次冒险的信任。"
+      }
+    ],
+    "wordForms": {
+      "noun": "faith 信心/信仰；faithfulness 忠诚",
+      "adjective": "faithful 忠实的，可靠的(be faithful to sb/sth)",
+      "adverb": "faithfully 忠实地",
+      "other": "表\"信心\"时不可数(much/little faith)，表\"宗教教派\"时可数(a faith, different faiths)；英式书信中收信人不具名(Dear Sir/Madam)时结尾用 Yours faithfully；faith 没有对应动词，\"信任\"用 trust sb / believe in sth。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The fatal accident badly shook the public's faith ____ self-driving technology.",
+        "answer": "in",
+        "note": "have / lose / shake one's faith 后面固定接介词 in，不用 to 或 on。"
+      },
+      {
+        "type": "完成句子",
+        "question": "如果没有严格的道路测试，人们绝不会信任这些汽车。Without strict road tests, people will never ____ ____ ____ these cars.",
+        "answer": "have faith in",
+        "note": "have faith in sb/sth 意为\"信任\"；will never 后接动词原形 have。"
+      }
+    ]
+  },
+  {
+    "word": "shake",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ʃeɪk/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. (使)摇动，抖动；(因冷、怕、气愤而)发抖；动摇(信心、信念)；n. 摇动，抖动",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to move quickly up and down or from side to side; to tremble; to make someone's belief or confidence weaker",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "使震惊，使心神不宁(多用被动 be shaken by sth，不指身体的摇动)",
+        "example": "The whole team was badly shaken by the test results."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(口语)奶昔(= milkshake)",
+        "example": "He ordered a chocolate shake at the drive-through."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The sudden braking shook the passengers in the back seat."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "One accident shook public trust in driverless taxis overnight."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "She gave the loose sensor a firm shake and it fell off."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "shake one's head",
+        "translation": "摇头(表示否定或不赞成)",
+        "example": "The engineer shook her head at the risky design. 工程师对这个冒险的设计摇了摇头。"
+      },
+      {
+        "phrase": "shake hands (with sb)",
+        "translation": "与……握手",
+        "example": "The two teams shook hands after the test drive. 试驾结束后两队人握了手。"
+      },
+      {
+        "phrase": "shake sb's faith/confidence in sth",
+        "translation": "动摇某人对……的信心",
+        "example": "The report shook the city's confidence in the sensors. 那份报告动摇了全市对这些传感器的信心。"
+      },
+      {
+        "phrase": "shake with fear/cold/laughter",
+        "translation": "因害怕/寒冷/大笑而发抖",
+        "example": "The passenger was shaking with fear after the near miss. 险些相撞后，那名乘客吓得直发抖。"
+      },
+      {
+        "phrase": "shake off sth / shake sth off",
+        "translation": "摆脱，甩掉(怀疑、疾病、追赶者)",
+        "example": "The industry cannot shake off doubts about safety. 这个行业摆脱不了对安全的质疑。"
+      },
+      {
+        "phrase": "shake sth up",
+        "translation": "彻底改革，重组",
+        "example": "Driverless technology will shake up the taxi industry. 无人驾驶技术将彻底改变出租车行业。"
+      },
+      {
+        "phrase": "give sth a shake",
+        "translation": "摇一摇，抖一抖",
+        "example": "Give the camera cover a shake before you fit it. 装摄像头盖前先抖一抖。"
+      }
+    ],
+    "wordForms": {
+      "noun": "shake 摇动，抖动(give sth a shake)",
+      "verb": "shake — shook — shaken（不规则变化；现在分词 shaking）",
+      "adjective": "shaky 颤抖的；不牢靠的(a shaky argument 站不住脚的论点)",
+      "adverb": "shakily 颤抖地",
+      "other": "过去分词 shaken 常用于被动表\"被吓到/被震撼\"：be badly shaken by sth；辨析 shake 与 shock：shake 侧重\"摇动/动摇\"，shock 侧重\"令人震惊\"，He was shocked ≠ He was shaking。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Public trust in the technology was badly ____ (shake) by the fatal crash last year.",
+        "answer": "shaken",
+        "note": "shake-shook-shaken，此处 be+过去分词构成被动语态，意为\"被动摇\"。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 shake off / shake up 的适当形式填空：The company still cannot ____ the doubts about its safety record.",
+        "answer": "shake off",
+        "note": "shake off 意为\"摆脱(怀疑等)\"；shake up 意为\"彻底改革\"，与句意不符。"
+      }
+    ]
+  },
+  {
+    "word": "employ",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ɪmˈplɔɪ/",
+    "partOfSpeech": "v.",
+    "translation": "v. 雇用，聘用；使用，采用(方法、技术、手段)",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to pay someone to work for you; to use a method, skill or machine for a particular purpose",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(正式)使(自己、时间、精力)忙于，埋头于：employ oneself in (doing) sth",
+        "example": "She employed her holidays in learning to write code."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(正式、略旧)受雇，雇用，仅见于 in the employ of sb",
+        "example": "He is in the employ of a robotics company."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Self-driving cars employ radar and cameras to sense their surroundings."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The laboratory employs over two hundred safety engineers."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "employ sb as sth",
+        "translation": "雇某人担任……",
+        "example": "The lab employed him as a road tester. 实验室雇他做路测员。"
+      },
+      {
+        "phrase": "employ sb to do sth",
+        "translation": "雇某人做某事",
+        "example": "They employed students to record traffic data. 他们雇学生记录交通数据。"
+      },
+      {
+        "phrase": "employ a method/technique/strategy",
+        "translation": "采用某种方法/技术/策略",
+        "example": "Engineers employ a new technique to train the system. 工程师采用一种新技术来训练该系统。"
+      },
+      {
+        "phrase": "be widely employed (in sth)",
+        "translation": "被广泛使用于……(主语是物)",
+        "example": "Laser sensors are widely employed in driverless cars. 激光传感器在无人驾驶汽车上被广泛使用。"
+      },
+      {
+        "phrase": "be employed in (doing) sth",
+        "translation": "受雇从事，忙于……(主语是人；主语若是物则表\"被用于\")",
+        "example": "Hundreds of workers are employed in testing the software. 数百名员工从事该软件的测试工作。"
+      },
+      {
+        "phrase": "employ oneself in (doing) sth",
+        "translation": "使自己埋头于……",
+        "example": "He employed himself in checking every line of code. 他埋头逐行检查代码。"
+      },
+      {
+        "phrase": "be self-employed",
+        "translation": "自主经营的，做个体的",
+        "example": "Many delivery drivers are self-employed. 许多送货司机是个体经营者。"
+      }
+    ],
+    "wordForms": {
+      "noun": "employer 雇主；employee 雇员；employment 雇用，就业；unemployment 失业",
+      "verb": "employ 雇用；使用",
+      "adjective": "employed 有工作的；unemployed 失业的；employable 有就业能力的",
+      "other": "后缀辨析：-er 表施动者(employer 雇主)，-ee 表受动者(employee 雇员)；写作升级：把 use new technology 换成 employ new technology 更书面；同一句型靠宾语定词义：employ sb to do sth 是\"雇某人做某事\"，employ sth to do sth 是\"用某物来做某事\"。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Radar and cameras are widely ____ (employ) in self-driving cars to detect pedestrians.",
+        "answer": "employed",
+        "note": "主语 radar and cameras 是被使用的对象，用 be+过去分词；此处 employ = use。"
+      },
+      {
+        "type": "汉译英",
+        "question": "翻译(用 employ)：这家公司雇了三十名工程师来测试新的传感器。____",
+        "answer": "The company employed thirty engineers to test the new sensors.",
+        "note": "employ sb to do sth 雇某人做某事；不可写成 employ sb doing sth。"
+      }
+    ]
+  },
+  {
+    "word": "peak",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/piːk/",
+    "partOfSpeech": "n. & v. & adj.",
+    "translation": "n. 山顶，山峰；最高点，顶峰；(数据的)峰值；v. 达到高峰，达到最高值；adj. 高峰时期的，最高的",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the highest point or level that something reaches; the pointed top of a mountain; to reach the highest point",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(英)帽舌，鸭舌帽前伸的檐",
+        "example": "He pulled down the peak of his cap against the sun."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(人的状态、水平)达到巅峰，处于最佳状态——主语是人而非数字",
+        "example": "Most sprinters peak in their mid-twenties."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Sales of driverless taxis reached a peak last summer."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "City traffic peaks at about eight in the morning."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The system is tested under peak traffic conditions."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "reach/hit a peak",
+        "translation": "达到顶峰",
+        "example": "Demand for the service reached a peak in June. 这项服务的需求在六月达到顶峰。"
+      },
+      {
+        "phrase": "at its peak",
+        "translation": "在最鼎盛/最高的时候",
+        "example": "At its peak, the fleet had five thousand cars. 车队最鼎盛时有五千辆车。"
+      },
+      {
+        "phrase": "peak hours / peak time",
+        "translation": "高峰时段",
+        "example": "Driverless buses avoid the centre at peak hours. 无人驾驶公交在高峰时段避开市中心。"
+      },
+      {
+        "phrase": "peak season",
+        "translation": "旺季",
+        "example": "Hotel prices double in the peak season. 旺季酒店价格翻一倍。"
+      },
+      {
+        "phrase": "peak at + 数字",
+        "translation": "峰值达到……",
+        "example": "The test speed peaked at 120 kilometres per hour. 测试车速峰值达到每小时120公里。"
+      },
+      {
+        "phrase": "the peak of one's career",
+        "translation": "事业的顶峰",
+        "example": "She left the lab at the peak of her career. 她在事业顶峰时离开了实验室。"
+      },
+      {
+        "phrase": "off-peak",
+        "translation": "非高峰的(时段/票价)",
+        "example": "Off-peak rides are much cheaper. 非高峰时段的行程便宜得多。"
+      },
+      {
+        "phrase": "the highest peak (in/of ...)",
+        "translation": "最高峰(山峰，字面义)",
+        "example": "Mount Everest is the highest peak in the world. 珠穆朗玛峰是世界最高峰。"
+      }
+    ],
+    "wordForms": {
+      "noun": "peak 顶峰，峰值",
+      "verb": "peak 达到最高点(规则变化 peaked, peaking)",
+      "adjective": "peak 高峰的(同形，只作定语)",
+      "other": "同音异形词辨析：peak 顶峰 / peek 偷看 / pique 激起(好奇、兴趣)，三词都读 /piːk/，考试常设陷阱；反义构词 off-peak 非高峰的；peak 作形容词只能作定语(peak hours)，不能说 The traffic is peak。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The number of road tests ____ (peak) in 2022 and has dropped ever since.",
+        "answer": "peaked",
+        "note": "peak 此处作动词\"达到最高值\"，与时间状语 in 2022 搭配用一般过去时。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 peak / peek 填空：Traffic is heaviest during ____ hours in the morning.",
+        "answer": "peak",
+        "note": "peak hours 高峰时段，peak 在此作定语形容词；peek 意为\"偷看\"，与句意无关。"
+      }
+    ]
+  },
+  {
+    "word": "stick",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/stɪk/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 粘贴，粘住；把……插入，戳；卡住，动弹不得；n. 棍，棒；手杖；条状物",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to fix one thing to another with glue or tape; to push a pointed object into something; a long thin piece of wood",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(机件、门窗)卡住，动不了，多说 get stuck / the door sticks",
+        "example": "The car door often sticks in wet weather."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(英)手杖，拐杖(= walking stick)",
+        "example": "The old man crossed the road with a stick."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(英式口语，多用于否定句)忍受，受得了",
+        "example": "I can't stick people who use phones while driving."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Dirt stuck to the camera and blocked the car's view."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Someone had stuck a warning label on the dashboard."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A child waved a stick in front of the moving car."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "stick to sth",
+        "translation": "坚持；遵守(规则、计划)",
+        "example": "The car always sticks to the speed limit. 这辆车总是遵守限速。"
+      },
+      {
+        "phrase": "stick sth on/to sth",
+        "translation": "把……粘/贴在……上",
+        "example": "They stuck a small camera to the windscreen. 他们把一个小摄像头粘在挡风玻璃上。"
+      },
+      {
+        "phrase": "get stuck (in sth)",
+        "translation": "被困住，卡住",
+        "example": "The taxi got stuck in heavy traffic. 那辆出租车堵在了车流里。"
+      },
+      {
+        "phrase": "stick out",
+        "translation": "伸出；显眼",
+        "example": "A broken branch stuck out into the road. 一根断枝伸到了路面上。"
+      },
+      {
+        "phrase": "stick with sb/sth",
+        "translation": "继续用；不放弃(不换别的)",
+        "example": "The team stuck with the older software. 团队继续沿用较旧的软件。"
+      },
+      {
+        "phrase": "stick up for sb",
+        "translation": "支持，维护(某人)",
+        "example": "She stuck up for the young programmer at the meeting. 会上她维护了那位年轻程序员。"
+      },
+      {
+        "phrase": "stick one's head out of sth",
+        "translation": "把头伸出……",
+        "example": "Never stick your head out of a moving car. 千万别把头伸出行驶中的车外。"
+      }
+    ],
+    "wordForms": {
+      "noun": "stick 棍/手杖；sticker 贴纸",
+      "verb": "stick — stuck — stuck（不规则变化；现在分词 sticking）",
+      "adjective": "sticky 黏的；(问题)棘手的(a sticky problem)",
+      "other": "stuck 可作形容词表\"被困住的、卡住的\"：be/get stuck in traffic；辨析 stick to sth(遵守/坚持，宾语是规则、计划、事实) 与 insist on doing sth(坚持要做某事)。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Mud had ____ (stick) to the sensor, so the car failed to read the road sign.",
+        "answer": "stuck",
+        "note": "stick-stuck-stuck；had+过去分词表示动作发生在 failed 之前。"
+      },
+      {
+        "type": "完成句子",
+        "question": "无论交通多拥堵，这辆自动驾驶汽车总是遵守限速。However heavy the traffic is, the self-driving car always ____ ____ the speed limit.",
+        "answer": "sticks to",
+        "note": "stick to sth 遵守；主语 the car 为第三人称单数，一般现在时用 sticks。"
+      }
+    ]
+  },
+  {
+    "word": "estimate",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈestɪmeɪt/ (v.) /ˈestɪmət/ (n.)",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 估计，估算；判断，评价；n. 估计，估算；(工程、维修的)报价单；评价，看法",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to guess the size, cost or value of something using the information you have; a judgement of an amount or of someone's worth",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(施工方或维修方给出的)估价单，报价",
+        "example": "The garage gave us an estimate of 3,000 yuan for the repair."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "对某人能力或价值的评价、看法：one's estimate of sb",
+        "example": "My estimate of his ability rose after the road test."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Engineers estimate that the sensor can see 200 metres ahead."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The car estimates the distance to the vehicle in front."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "At a rough estimate, testing will take another two years."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "estimate that + 从句",
+        "translation": "估计……",
+        "example": "Experts estimate that driverless cars could halve accidents. 专家估计无人驾驶汽车能把事故减少一半。"
+      },
+      {
+        "phrase": "It is estimated that ...",
+        "translation": "据估计……(写作引数据常用句型)",
+        "example": "It is estimated that the system reacts in 0.1 seconds. 据估计该系统的反应时间是0.1秒。"
+      },
+      {
+        "phrase": "be estimated at + 数字",
+        "translation": "估计为……(数额)",
+        "example": "The cost of the project is estimated at ten million yuan. 该项目成本估计为一千万元。"
+      },
+      {
+        "phrase": "at a rough / conservative estimate",
+        "translation": "粗略估计/保守估计(固定状语，用 at)",
+        "example": "At a rough estimate, half the taxis are driverless. 粗略估计，一半的出租车是无人驾驶的。"
+      },
+      {
+        "phrase": "underestimate / overestimate sth",
+        "translation": "低估/高估",
+        "example": "Drivers often underestimate the braking distance. 司机常常低估刹车距离。"
+      },
+      {
+        "phrase": "estimate the distance/speed/cost",
+        "translation": "估算距离/速度/成本",
+        "example": "The radar estimates the speed of the car ahead. 雷达估算前车的车速。"
+      },
+      {
+        "phrase": "an estimate of sth",
+        "translation": "对……的估计(名词用法)",
+        "example": "The report gives an estimate of the risks. 报告给出了对风险的估计。"
+      }
+    ],
+    "wordForms": {
+      "noun": "estimate 估计，报价单；estimation 估计，评价",
+      "verb": "estimate 估计，估算",
+      "adjective": "estimated 估计的(the estimated cost 估计成本)",
+      "other": "词性影响读音：动词读 /ˈestɪmeɪt/，名词读 /ˈestɪmət/；前缀 over- / under- 构成 overestimate 高估、underestimate 低估；It is estimated that... 是写作中引数据的高频句型，可与 According to some estimates, ... 互换。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "It ____ ____ (estimate) that self-driving cars will make up half of new sales by 2035.",
+        "answer": "is estimated",
+        "note": "It is estimated that... 为固定被动句型，it 作形式主语，陈述当前普遍估计用一般现在时。"
+      },
+      {
+        "type": "汉译英",
+        "question": "翻译(用 rough estimate)：据粗略估计，这套传感器能在两百米外发现行人。____",
+        "answer": "At a rough estimate, the sensors can detect pedestrians two hundred metres away.",
+        "note": "固定状语是 at a rough estimate(不用 in)；也可改写为 It is roughly estimated that the sensors can detect...。"
+      }
+    ]
+  },
+  {
+    "word": "concentrate",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈkɒnsntreɪt/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 集中注意力，专心；把……集中于；浓缩；n. 浓缩物，浓缩液",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to give all your attention to one thing; to bring things together into one place; to make a liquid stronger by removing water",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(人或事物)聚集于某地，集中分布(常用被动 be concentrated in/around)",
+        "example": "Most driverless taxis are concentrated in a few large cities."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "浓缩(液体)，使变浓",
+        "example": "The juice is concentrated by removing most of the water."
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "浓缩物，浓缩液(可数/不可数)",
+        "example": "Add three cups of water to the orange concentrate."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "It is hard to concentrate on the road while texting."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "The team concentrated all its efforts on night driving."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The factory sells the fruit as a concentrate."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "concentrate on (doing) sth",
+        "translation": "专心于，集中精力做……",
+        "example": "The driver must still concentrate on the road. 司机仍必须专心看路。"
+      },
+      {
+        "phrase": "concentrate one's attention/efforts/resources on sth",
+        "translation": "把注意力/精力/资源集中投入……",
+        "example": "The company concentrated its resources on safety software. 公司把资源集中投入安全软件。"
+      },
+      {
+        "phrase": "find it hard to concentrate",
+        "translation": "难以集中注意力",
+        "example": "Tired drivers find it hard to concentrate. 疲劳的司机难以集中注意力。"
+      },
+      {
+        "phrase": "be concentrated in/around",
+        "translation": "集中在(某地/某范围)",
+        "example": "Test routes are concentrated in three districts. 测试路线集中在三个区。"
+      },
+      {
+        "phrase": "lose concentration",
+        "translation": "注意力涣散，走神(名词形式)",
+        "example": "One second of lost concentration can cause a crash. 一秒钟的走神就可能造成撞车。"
+      },
+      {
+        "phrase": "break sb's concentration",
+        "translation": "打断某人的专注",
+        "example": "A phone call broke his concentration completely. 一通电话彻底打断了他的专注。"
+      }
+    ],
+    "wordForms": {
+      "noun": "concentration 专心，专注；(液体的)浓度",
+      "verb": "concentrate 集中；浓缩",
+      "adjective": "concentrated 全神贯注的；浓缩的(concentrated juice)",
+      "other": "concentrate 表\"专心\"时是不及物动词，须说 concentrate on sth，不能说 concentrate sth；只有 concentrate one's attention/efforts on sth 这种\"把某物集中起来\"的用法才带宾语；concentration 另有\"浓度\"义，如 the concentration of carbon dioxide。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Drivers must concentrate ____ the road even when the car is driving itself.",
+        "answer": "on",
+        "note": "concentrate on sth 为固定搭配，表示\"专注于\"，不能用 in 或 at。"
+      },
+      {
+        "type": "完成句子",
+        "question": "一秒钟的注意力不集中就可能导致严重事故。One second of lost ____ can lead to a serious accident.",
+        "answer": "concentration",
+        "note": "of 后需要名词形式 concentration(不可数)；lose concentration 走神，lost 在此作定语。"
+      }
+    ]
+  },
+  {
+    "word": "distract",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/dɪˈstrækt/",
+    "partOfSpeech": "v.",
+    "translation": "v. 使分心，分散(注意力)；转移(某人的)注意力；(常用被动)使心烦意乱",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to take someone's attention away from what they are doing or thinking about",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "(常用被动 be distracted with/by)使心烦意乱，使焦虑不安——描写心情而非注意力",
+        "example": "He was distracted with worry the night before the test."
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "转移视线，用别的事情掩盖问题：distract attention from sth",
+        "example": "The new model was launched to distract attention from the safety scandal."
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "A ringing phone can distract the driver for several seconds."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Do not let the screen distract you from the road ahead."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "distract sb from (doing) sth",
+        "translation": "使某人从……分心",
+        "example": "Loud music distracts drivers from traffic sounds. 大声的音乐使司机听不见路面声响。"
+      },
+      {
+        "phrase": "distract sb's attention",
+        "translation": "分散某人的注意力",
+        "example": "The flashing advertisement distracted his attention. 那则闪动的广告分散了他的注意力。"
+      },
+      {
+        "phrase": "be distracted by sth",
+        "translation": "被……分散了注意力",
+        "example": "The safety driver was distracted by a message. 那名安全员被一条消息分了神。"
+      },
+      {
+        "phrase": "be easily distracted",
+        "translation": "容易分心",
+        "example": "Young drivers are easily distracted by their phones. 年轻司机容易被手机分心。"
+      },
+      {
+        "phrase": "distracted driving",
+        "translation": "分心驾驶(交通安全术语)",
+        "example": "Distracted driving causes thousands of accidents each year. 分心驾驶每年造成数千起事故。"
+      },
+      {
+        "phrase": "a distraction (from sth)",
+        "translation": "使人分心的事物(名词形式)",
+        "example": "A talking passenger is a real distraction. 说话的乘客确实让人分心。"
+      },
+      {
+        "phrase": "distract oneself (by doing sth)",
+        "translation": "(做某事)转移自己的注意力",
+        "example": "He distracted himself by counting the road signs. 他数着路牌来转移注意力。"
+      }
+    ],
+    "wordForms": {
+      "noun": "distraction 分心；使人分心的事物",
+      "verb": "distract 使分心(规则变化 distracted, distracting)",
+      "adjective": "distracting 使人分心的(修饰事物)；distracted 分神的、心烦意乱的(修饰人)",
+      "adverb": "distractedly 心不在焉地",
+      "other": "-ing/-ed 形容词辨析：a distracting noise 令人分心的噪音 vs a distracted driver 分神的司机；词根记忆 dis-(分开)+tract(拉)=把注意力\"拉开\"，同根词 attract 吸引、extract 提取、contract 收缩。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The flashing advertisement distracted the driver ____ the road ahead.",
+        "answer": "from",
+        "note": "distract sb from sth 使某人从……分心，介词固定用 from。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 distracting / distracted 填空：A ____ driver may fail to see a child crossing the road.",
+        "answer": "distracted",
+        "note": "修饰人用 -ed 形式表示\"分神的\"；-ing 形式 distracting 用来修饰令人分心的事物。"
+      }
+    ]
+  },
+  {
+    "word": "consume",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/kənˈsjuːm/",
+    "partOfSpeech": "vt.",
+    "translation": "vt. 消耗，耗费（能量、时间、资源）；吃，喝，摄入；消费（商品、服务或影音内容）；（火）烧毁，吞噬；（强烈情感）使充满，占据心神",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to use up time, energy, fuel or resources; to eat or drink something; to buy and use goods, services or media; (of fire) to destroy something completely",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（书面）（火）烧毁，吞噬",
+        "example": "Fire consumed the battery pack in under a minute. 大火不到一分钟就吞噬了电池组。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（强烈情感）使充满，占据心神，多用被动 be consumed with / by",
+        "example": "He was consumed with guilt after the crash. 车祸之后他被愧疚吞噬。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Self-driving cars consume less fuel by choosing smoother routes."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Testing the sensor system consumed three years and millions of pounds."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "An adult consumes about two litres of water a day."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "consume energy / fuel",
+        "translation": "消耗能量、燃料",
+        "example": "Radar and lidar together consume a lot of energy. 雷达和激光雷达合起来很耗电。"
+      },
+      {
+        "phrase": "consume time and effort",
+        "translation": "耗费时间和精力",
+        "example": "Writing the safety rules consumed time and effort. 制定安全规则耗费了大量时间和精力。"
+      },
+      {
+        "phrase": "time-consuming",
+        "translation": "费时的，耗时的（复合形容词）",
+        "example": "Checking every sensor by hand is time-consuming. 逐个手工检查传感器很费时。"
+      },
+      {
+        "phrase": "be consumed with guilt / curiosity",
+        "translation": "被内疚、好奇心占据",
+        "example": "The programmer was consumed with curiosity about the data. 那位程序员对这些数据充满好奇。"
+      },
+      {
+        "phrase": "be consumed by fire / flames",
+        "translation": "被大火吞噬",
+        "example": "The test car was consumed by flames within minutes. 试验车几分钟内就被火焰吞噬。"
+      },
+      {
+        "phrase": "consume food and drink",
+        "translation": "吃喝，摄入饮食",
+        "example": "Passengers may consume food and drink on board. 乘客可以在车上吃东西喝饮料。"
+      },
+      {
+        "phrase": "consume news / content",
+        "translation": "消费（接收）新闻、影音内容",
+        "example": "Teenagers consume most of their news on short-video apps. 青少年的新闻大多是在短视频里消费的。"
+      }
+    ],
+    "wordForms": {
+      "noun": "consumption 消耗量，消费；consumer 消费者",
+      "verb": "consume — consumed — consumed（规则变化）",
+      "adjective": "consuming 强烈的（a consuming interest 强烈的兴趣）；consumable 消耗性的",
+      "adverb": "—",
+      "other": "拼写陷阱：名词是 consumption，不是 consumeation。-sume 家族：assume 假定 / resume 恢复、继续 / presume 推测，名词分别为 assumption / resumption / presumption。复合形容词由\"名词+现在分词\"构成：time-consuming 费时的、energy-consuming 耗能的。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Better software has cut the car's fuel ____ (consume) by nearly a fifth.",
+        "answer": "consumption",
+        "note": "cut 后需名词作宾语；consume 的名词形式是 consumption（注意 -sume → -sumption 的拼写变化），fuel consumption 意为\"燃油消耗量\"。"
+      },
+      {
+        "type": "完成句子",
+        "question": "车祸之后，那位工程师满心愧疚。After the crash, the engineer ____ ____ ____ guilt.",
+        "answer": "was consumed with（by 亦可）",
+        "note": "be consumed with / by + 情绪，表示\"被…占据、充满\"；主语单数且为过去语境，故用 was consumed。"
+      }
+    ]
+  },
+  {
+    "word": "overturn",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˌəʊvəˈtɜːn/",
+    "partOfSpeech": "vt. & vi.",
+    "translation": "vt. 推翻，撤销（决定、判决）；颠覆（观念、制度）；使翻倒 vi.（车、船等）翻倒，倾覆",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to officially change a decision so that it no longer has force; to prove an idea or system wrong; to turn over onto the side or upside down",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（法律）撤销，推翻（原判、定罪）",
+        "example": "The appeal court overturned his conviction. 上诉法院撤销了对他的定罪。"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（车、船）翻倒，倾覆（overturn 唯一的不及物用法，后面不接宾语）",
+        "example": "The lorry overturned on the icy motorway. 卡车在结冰的高速路上翻了车。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "One serious accident could overturn the public's belief that driverless cars are safe."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "The court overturned the ruling on who was at fault."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The boat overturned, but everyone swam safely to shore."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "overturn a decision / ruling",
+        "translation": "推翻决定、裁定",
+        "example": "The regulator overturned its earlier decision on road tests. 监管机构推翻了此前关于路测的决定。"
+      },
+      {
+        "phrase": "overturn a conviction / verdict",
+        "translation": "（法律）撤销定罪、推翻判决",
+        "example": "New evidence overturned the verdict against the driver. 新证据推翻了对司机不利的判决。"
+      },
+      {
+        "phrase": "overturn a theory / a long-held belief",
+        "translation": "颠覆理论、颠覆长期成见",
+        "example": "The results overturn the belief that machines never panic. 结果颠覆了\"机器不会慌乱\"的成见。"
+      },
+      {
+        "phrase": "overturn tradition / the existing order",
+        "translation": "颠覆传统、颠覆现有秩序",
+        "example": "Driverless taxis may overturn a century-old tradition of human drivers. 无人出租车可能颠覆延续百年的人类驾驶传统。"
+      },
+      {
+        "phrase": "overturn a ban on sth",
+        "translation": "解除对…的禁令",
+        "example": "The city overturned its ban on night testing. 该市解除了夜间测试禁令。"
+      },
+      {
+        "phrase": "overturn a car / lorry",
+        "translation": "使汽车、卡车翻倒",
+        "example": "The blast overturned two parked cars. 爆炸掀翻了两辆停放的汽车。"
+      },
+      {
+        "phrase": "be overturned by strong winds / waves",
+        "translation": "被大风、巨浪掀翻",
+        "example": "The small ferry was overturned by huge waves. 那艘小渡轮被巨浪掀翻了。"
+      }
+    ],
+    "wordForms": {
+      "noun": "无常用名词形式；\"（判决的）推翻\"多用 reversal，\"（政权的）颠覆\"用 overthrow",
+      "verb": "overturn — overturned — overturned（规则变化）",
+      "adjective": "overturned 翻倒的（an overturned truck 一辆翻倒的卡车）",
+      "adverb": "—",
+      "other": "over- 前缀词族：overturn 推翻/翻倒、overthrow 推翻（政权）、overlook 忽视/俯瞰、overtake 超车。注意变化形式：overturn 为规则动词，而 overthrow — overthrew — overthrown、overtake — overtook — overtaken 均为不规则。辨析：overturn a verdict 撤销判决，overthrow a government 推翻政府。overturn 既可及物（overturn the car）又可不及物（the car overturned）。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Last month the court ____ (overturn) the earlier decision and blamed the software maker.",
+        "answer": "overturned",
+        "note": "Last month 提示一般过去时；overturn 为规则动词，直接加 -ed。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "New crash data may ____ the long-held belief that human drivers are always safer. (overturn / overthrow)",
+        "answer": "overturn",
+        "note": "推翻观念、判决、决定用 overturn；overthrow 通常指用武力推翻政权或统治者，不与 belief 搭配。"
+      }
+    ]
+  },
+  {
+    "word": "anticipation",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ænˌtɪsɪˈpeɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 预料，预期；期待，盼望（含兴奋感）；预判，未雨绸缪的准备",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the act of expecting something and getting ready for it; the excited feeling of waiting for something to happen",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "预判（力）：预见对方或形势的变化并提前应对（多见于驾驶、球类等语境）",
+        "example": "Safe driving depends on anticipation of other people's mistakes. 安全驾驶靠的是对别人失误的预判。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The car slowed in anticipation of a child stepping out."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "There is great anticipation ahead of the driverless taxi launch."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her face showed a mixture of fear and anticipation."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in anticipation of sth",
+        "translation": "预料到…（而提前做某事）",
+        "example": "The route was changed in anticipation of heavy snow. 因预料有大雪，路线被改了。"
+      },
+      {
+        "phrase": "in anticipation（单独使用）",
+        "translation": "预先，提前",
+        "example": "She had already packed her bags in anticipation. 她早已提前收拾好行李。"
+      },
+      {
+        "phrase": "with (eager) anticipation",
+        "translation": "怀着（急切的）期待",
+        "example": "Students watched the demo with eager anticipation. 学生们满怀期待地看着演示。"
+      },
+      {
+        "phrase": "a sense of anticipation",
+        "translation": "一种期待感、预感",
+        "example": "A sense of anticipation filled the test track. 试车场上弥漫着期待的气氛。"
+      },
+      {
+        "phrase": "build (up) anticipation",
+        "translation": "制造、积聚期待",
+        "example": "The company built anticipation with an online countdown. 公司用线上倒计时制造期待。"
+      },
+      {
+        "phrase": "anticipation of danger / risk",
+        "translation": "对危险、风险的预判",
+        "example": "Anticipation of risk is what the software must learn. 软件必须学会的正是对风险的预判。"
+      }
+    ],
+    "wordForms": {
+      "noun": "anticipation 预期，期待",
+      "verb": "anticipate — anticipated — anticipated 预料，预计；预判",
+      "adjective": "anticipated 预期的；much-anticipated 备受期待的；anticipatory 预先的，期待的",
+      "adverb": "—",
+      "other": "anticipate 后接名词或 doing，不接 to do（anticipate meeting problems），也可接 that 从句。辨析：anticipate 含\"预见并提前应对\"，expect 只表示\"预计会发生\"。动词变名词走 -ate → -ation：anticipate→anticipation，operate→operation。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "In ____ (anticipate) of heavy rain, the road test was moved to Friday.",
+        "answer": "anticipation",
+        "note": "介词 In 后需名词，短语 in anticipation of 意为\"预料到…而…\"，故填名词 anticipation。"
+      },
+      {
+        "type": "汉译英",
+        "question": "预判到有人会闯红灯，那辆车提前减速了。The car slowed down early ____ ____ ____ someone running the red light.",
+        "answer": "in anticipation of",
+        "note": "\"预料到…而…\"用 in anticipation of，of 是介词，后接名词或动名词复合结构（someone running…）。"
+      }
+    ]
+  },
+  {
+    "word": "depart",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/dɪˈpɑːt/",
+    "partOfSpeech": "vi.（美式及时刻表用语中亦可作 vt.）",
+    "translation": "vi. 离开，出发，起程（depart from / for）；背离，违反（depart from）；（婉辞）去世",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to leave, especially to begin a journey; to start doing something differently from what is usual",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（婉辞）去世，离世（depart this life）",
+        "example": "He departed this life quietly at home. 他在家中安详离世。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（美式及时刻表用语）离开（某地），从（某地）发出，直接跟地点作宾语",
+        "example": "Flight CA981 departs Beijing at one o'clock. 国航981次航班一点从北京起飞。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "The driverless shuttle departs from Gate 3 every ten minutes."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Their design departs from everything engineers had tried before."
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "We depart for the test centre at dawn tomorrow."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "depart from + 地点",
+        "translation": "从…出发，离开…",
+        "example": "Robot buses depart from the north gate hourly. 无人巴士每小时从北门发车。"
+      },
+      {
+        "phrase": "depart for + 地点",
+        "translation": "动身前往…",
+        "example": "The engineers departed for Shanghai that evening. 工程师们当晚动身去了上海。"
+      },
+      {
+        "phrase": "depart from tradition / the norm",
+        "translation": "背离传统、打破常规",
+        "example": "Removing the steering wheel departs from the norm. 去掉方向盘是对常规的背离。"
+      },
+      {
+        "phrase": "depart from the script",
+        "translation": "脱稿，不按既定安排走",
+        "example": "The speaker departed from the script to answer us. 演讲者脱稿回答了我们的问题。"
+      },
+      {
+        "phrase": "depart on time / on schedule",
+        "translation": "准点出发，按时发车",
+        "example": "The shuttle departed on time despite the rain. 尽管下雨，班车仍准点发车。"
+      },
+      {
+        "phrase": "be due to depart",
+        "translation": "预定（何时）出发",
+        "example": "The last bus is due to depart at eleven. 末班车预定十一点发车。"
+      },
+      {
+        "phrase": "depart this life",
+        "translation": "与世长辞（婉辞）",
+        "example": "The old inventor departed this life last winter. 那位老发明家于去年冬天辞世。"
+      }
+    ],
+    "wordForms": {
+      "noun": "departure 离开，出发；a departure from … 对…的背离",
+      "verb": "depart — departed — departed（规则变化）",
+      "adjective": "departing 即将出发的（departing passengers 出港旅客）；departed 已故的（the departed 逝者）",
+      "adverb": "—",
+      "other": "反义词是 arrive。depart 一般不及物，需接 from / for；但在时刻表和美式英语中可直接跟地点（depart Beijing）。名词拼写为 departure（-ure 结尾）：departure lounge 候机厅，departure time 出发时间。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The airport shuttle ____ (depart) for Terminal 2 every twenty minutes.",
+        "answer": "departs",
+        "note": "陈述固定时刻表用一般现在时，主语 The airport shuttle 为第三人称单数，故填 departs；\"前往某地\"用 depart for。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这个安全方案背离了公司一贯的做法。The safety plan ____ ____ the company's usual practice.",
+        "answer": "departs from",
+        "note": "\"背离，不同于\"用 depart from；陈述现状用一般现在时，主语单数故加 -s。"
+      }
+    ]
+  },
+  {
+    "word": "swift",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/swɪft/",
+    "partOfSpeech": "adj., n.",
+    "translation": "adj. 快速的，迅速的；（反应）敏捷的，立即的；（水流）湍急的 n. 雨燕",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "happening or moving very quickly, or done without delay; (as a noun) a small fast-flying bird with long narrow wings",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "雨燕（一种飞行极快、几乎终日不落地的鸟）",
+        "example": "Swifts can stay in the air for months at a time. 雨燕能连续数月不落地。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "A swift response from the braking system can save a life."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The robot taxi made a swift turn to avoid the cyclist."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A swift shot past the window and disappeared."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a swift response / reaction",
+        "translation": "迅速的反应",
+        "example": "Sensors allow a swift reaction to sudden danger. 传感器让车辆对突发危险迅速反应。"
+      },
+      {
+        "phrase": "take swift action",
+        "translation": "迅速采取行动",
+        "example": "The city took swift action after the accident. 事故后该市迅速采取了行动。"
+      },
+      {
+        "phrase": "be swift to do sth",
+        "translation": "迅速做某事",
+        "example": "Critics were swift to point out the flaw. 批评者迅速指出了这个缺陷。"
+      },
+      {
+        "phrase": "a swift decision",
+        "translation": "果断而迅速的决定",
+        "example": "The car must make a swift decision in milliseconds. 车辆必须在毫秒之间作出迅速决定。"
+      },
+      {
+        "phrase": "a swift glance",
+        "translation": "匆匆一瞥",
+        "example": "He gave the empty seat a swift glance. 他朝空座位匆匆瞥了一眼。"
+      },
+      {
+        "phrase": "swift progress",
+        "translation": "快速的进展",
+        "example": "Lidar has made swift progress in five years. 激光雷达五年来进展迅速。"
+      },
+      {
+        "phrase": "a swift current / stream",
+        "translation": "湍急的水流",
+        "example": "The swift current carried the boat away. 湍急的水流把小船冲走了。"
+      }
+    ],
+    "wordForms": {
+      "noun": "swiftness 迅速，敏捷；swift 雨燕",
+      "verb": "—",
+      "adjective": "swift — swifter — swiftest（单音节词直接加 -er / -est）",
+      "adverb": "swiftly 迅速地",
+      "other": "辨析：swift 多指动作短促而快，书面色彩较浓；quick 口语化，侧重反应快；rapid 多修饰变化、增长（rapid growth）；fast 多指人或物本身速度快。全大写的 SWIFT 是国际银行结算系统的专名，与\"快\"无关。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The car braked ____ (swift) and stopped centimetres from the pedestrian.",
+        "answer": "swiftly",
+        "note": "此处修饰动词 braked，需用副词形式 swiftly，不能用形容词 swift。"
+      },
+      {
+        "type": "完成句子",
+        "question": "事故发生后，那家公司迅速道了歉。After the accident, the company ____ ____ ____ apologise.",
+        "answer": "was swift to",
+        "note": "be swift to do sth 意为\"迅速做某事\"；主语为单数且是过去语境，故用 was swift to + 动词原形。"
+      }
+    ]
+  },
+  {
+    "word": "operation",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˌɒpəˈreɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "n. 运转，运行；操作，（机器的）使用；手术；（有组织的）行动，如救援、军事行动；企业，经营活动；（数学）运算",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the way a machine or system works, or the process of making it work; also a medical procedure, an organized activity, or a business",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "手术",
+        "example": "She had an operation on her knee last spring. 去年春天她做了膝盖手术。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "企业，业务，经营实体",
+        "example": "The garage is a small family operation. 这家修车行是个小型家族企业。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（数学）运算",
+        "example": "Addition and division are basic operations. 加法和除法是基本运算。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sensors are useless when the system is not in operation."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Drivers need training in the safe operation of the new software."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Doctors performed a three-hour operation after the crash."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in operation",
+        "translation": "在运转中；（法规）在实施中",
+        "example": "The driverless line has been in operation since May. 这条无人驾驶线路自五月起投入运营。"
+      },
+      {
+        "phrase": "come into operation",
+        "translation": "开始运转；（法律）开始生效",
+        "example": "The new traffic rules come into operation next month. 新交规下月开始实施。"
+      },
+      {
+        "phrase": "put sth into operation",
+        "translation": "实施，使…运转起来",
+        "example": "The city put the shuttle plan into operation quickly. 该市迅速实施了班车计划。"
+      },
+      {
+        "phrase": "be out of operation",
+        "translation": "停止运转，无法使用",
+        "example": "One lidar unit was out of operation that night. 那晚有一台激光雷达停止工作。"
+      },
+      {
+        "phrase": "the operation of sth",
+        "translation": "…的运行方式，…的操作",
+        "example": "Few passengers understand the operation of the sensors. 很少有乘客了解传感器的运行方式。"
+      },
+      {
+        "phrase": "have / undergo an operation (on sth)",
+        "translation": "接受（某部位的）手术",
+        "example": "The injured cyclist had an operation on his arm. 受伤的骑车人做了手臂手术。"
+      },
+      {
+        "phrase": "carry out a rescue operation",
+        "translation": "实施救援行动",
+        "example": "Firefighters carried out a rescue operation at dawn. 消防员在黎明时实施了救援行动。"
+      },
+      {
+        "phrase": "the four basic operations",
+        "translation": "（数学）四则运算",
+        "example": "Children learn the four basic operations at school. 孩子们在学校学习四则运算。"
+      }
+    ],
+    "wordForms": {
+      "noun": "operation 运行/手术/行动；operator 操作员，运营商；operations（复数）业务，运营",
+      "verb": "operate — operated — operated 运转，操作；operate on sb 给某人做手术",
+      "adjective": "operational 运行中的，可使用的；operating（operating system 操作系统）",
+      "adverb": "operationally 在运行、操作层面上",
+      "other": "注意 operate on sb（给某人动手术）≠ operate sth（操作某物）。in operation 相当于 working 或 in force。-ate 动词加 -ion 变名词：operate→operation，anticipate→anticipation。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The new safety rules will come into ____ (operate) next January.",
+        "answer": "operation",
+        "note": "come into operation 意为\"开始实施、生效\"；介词 into 后需名词形式 operation。"
+      },
+      {
+        "type": "完成句子",
+        "question": "这条无人巴士线路已经运营两年了。The driverless bus line has been ____ ____ for two years.",
+        "answer": "in operation",
+        "note": "in operation 表示\"在运转、运营中\"，与 has been 搭配表示持续到现在的状态。"
+      }
+    ]
+  },
+  {
+    "word": "hurdle",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈhɜːdl/",
+    "partOfSpeech": "n., vt. & vi.",
+    "translation": "n. 障碍，难关；（跨栏赛用的）栏架；（复数）跨栏赛 v. 跨越，跳过（栏架、障碍）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a problem or difficulty that must be dealt with before you can make progress; also a frame that runners jump over in a race",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "跨栏赛（常用复数，如 the 110 metres hurdles）",
+        "example": "Liu Xiang won the 110 metres hurdles in 2004. 刘翔在2004年赢得110米栏冠军。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（英式，农用）可移动的木栅栏，围栏",
+        "example": "The sheep were kept in by wooden hurdles. 羊群被木栅栏圈住。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Public trust is the biggest hurdle facing driverless taxis."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Two legal hurdles remain before the cars can be sold."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "She hurdled the barrier and ran onto the track."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "clear a hurdle",
+        "translation": "跨过一道难关，闯过一关",
+        "example": "The design cleared its final safety hurdle in May. 该设计五月通过了最后一道安全关。"
+      },
+      {
+        "phrase": "face a hurdle",
+        "translation": "面临障碍",
+        "example": "Makers still face a hurdle over who is at fault. 厂商仍面临\"谁之过\"这一难题。"
+      },
+      {
+        "phrase": "a major / big hurdle",
+        "translation": "主要障碍，大难关",
+        "example": "Cost remains a major hurdle for small towns. 成本仍是小城镇的主要障碍。"
+      },
+      {
+        "phrase": "the final hurdle",
+        "translation": "最后一道关卡",
+        "example": "Public opinion is the final hurdle, not technology. 最后一关是民意，而不是技术。"
+      },
+      {
+        "phrase": "fall at the first hurdle",
+        "translation": "一开始就失败，出师不利",
+        "example": "The team fell at the first hurdle: the car failed its very first road test. 团队出师不利，那辆车首次路测就没通过。"
+      },
+      {
+        "phrase": "a legal / regulatory hurdle",
+        "translation": "法律上、监管上的障碍",
+        "example": "Every country sets its own regulatory hurdles. 各国都设有自己的监管门槛。"
+      },
+      {
+        "phrase": "the 110 metres hurdles",
+        "translation": "110米栏（跨栏赛）",
+        "example": "He trains for the 110 metres hurdles every day. 他每天为110米栏训练。"
+      },
+      {
+        "phrase": "hurdle a fence",
+        "translation": "跨过栅栏",
+        "example": "The runner hurdled a fence to reach the road. 那名跑者跨过栅栏跑上马路。"
+      }
+    ],
+    "wordForms": {
+      "noun": "hurdle 障碍，栏架；hurdler 跨栏运动员；hurdling 跨栏运动",
+      "verb": "hurdle — hurdled — hurdled 跨越（规则变化）",
+      "adjective": "—",
+      "adverb": "—",
+      "other": "辨析：hurdle 强调\"可以逐一闯过的关卡\"，常搭 clear / fall at；obstacle 泛指挡路的障碍物；barrier 强调隔断作用的屏障。注意与 huddle 区分：hurdle /ˈhɜːdl/ 障碍，huddle /ˈhʌdl/ 挤作一团。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Driverless cars still face several technical ____ (hurdle) before they go on sale.",
+        "answer": "hurdles",
+        "note": "several 后接可数名词复数，hurdle 是可数名词，故填 hurdles。"
+      },
+      {
+        "type": "汉译英",
+        "question": "赢得公众信任是最大的一道难关。Winning public trust is ____ ____ ____.",
+        "answer": "the biggest hurdle",
+        "note": "\"最大的难关\"用形容词最高级修饰 hurdle，最高级前须加定冠词 the。"
+      }
+    ]
+  },
+  {
+    "word": "total",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ˈtəʊtl/",
+    "partOfSpeech": "adj., n., vt.",
+    "translation": "adj. 总的，全部的；完全的，彻底的 n. 总数，合计 vt. 总计达；（美式口语）把（车）撞毁报废",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the whole number or amount after everything has been added together; or complete and absolute",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "总计达，合计为（后接数字，一般不用于被动语态）",
+        "example": "Orders for the new model totalled twelve thousand. 新车型订单总计一万二千辆。"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "（美式口语）把（车）撞毁、撞报废",
+        "example": "He totalled his father's car on the motorway. 他在高速路上把父亲的车撞报废了。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The total cost of the sensor system is still very high."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In total, twelve cities have approved driverless taxi trials."
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Repairs to the damaged car totalled three thousand pounds."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in total",
+        "translation": "总共，合计",
+        "example": "The test ran for 400 hours in total. 这次测试总共进行了400小时。"
+      },
+      {
+        "phrase": "a total of + 数字",
+        "translation": "总共…（后接复数名词）",
+        "example": "A total of 30 robot buses joined the trial. 共有30辆无人巴士参加试运行。"
+      },
+      {
+        "phrase": "the total number / amount of",
+        "translation": "…的总数、总量",
+        "example": "The total number of accidents fell last year. 去年事故总数下降了。"
+      },
+      {
+        "phrase": "a total failure / disaster",
+        "translation": "彻底的失败、灾难",
+        "example": "The first road test was a total failure. 第一次路测彻底失败了。"
+      },
+      {
+        "phrase": "a total stranger",
+        "translation": "素不相识的人",
+        "example": "Would you get into a car driven by a total stranger? 你会坐上陌生人开的车吗？"
+      },
+      {
+        "phrase": "bring the total to",
+        "translation": "使总数达到",
+        "example": "Two new cities bring the total to fourteen. 新增两座城市使总数达到十四座。"
+      },
+      {
+        "phrase": "total up (the figures)",
+        "translation": "把（数字）加起来",
+        "example": "Please total up the repair costs. 请把维修费用加总一下。"
+      }
+    ],
+    "wordForms": {
+      "noun": "total 总数，合计",
+      "verb": "total — totalled — totalled（英式，双写 l）；美式 total — totaled — totaled",
+      "adjective": "total 总的；完全的，彻底的",
+      "adverb": "totally 完全地，彻底地",
+      "other": "主谓一致要点：\"A total of + 复数名词\"作主语，谓语用复数（A total of 20 cars were tested）；\"The total number of + 复数名词\"作主语，谓语用单数（The total number of cars is 20）。total 表\"彻底的\"时通常不用比较级。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "A total of 30 driverless buses ____ (be) tested in the city last year.",
+        "answer": "were",
+        "note": "\"A total of + 复数名词\"作主语时谓语用复数；last year 提示一般过去时，且 buses 与 test 是被动关系，故填 were（were tested）。"
+      },
+      {
+        "type": "完成句子",
+        "question": "对许多乘客来说，无人驾驶是一种全新的体验。For many passengers, this is a ____ new experience.（total）",
+        "answer": "totally",
+        "note": "空格修饰形容词 new，须用副词 totally；若填 total 则成了两个形容词并列修饰 experience，语义不通。"
+      }
+    ]
+  },
+  {
+    "word": "superior",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/suːˈpɪəriə(r)/",
+    "partOfSpeech": "adj. & n.",
+    "translation": "adj. （质量、水平）更好的，更优越的；（级别、地位）更高的，上级的；有优越感的，高傲的 n. 上级，上司",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "better in quality, ability or rank than someone or something else; behaving as if you believe you are better than other people; (n.) a person of higher rank or position, especially at work.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "高傲的，自以为高人一等的（含贬义）",
+        "example": "He listened to our idea with a superior smile. 他带着高傲的微笑听我们的想法。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "（数量、兵力）占优势的，多得多的",
+        "example": "The small patrol boat was captured by a superior force. 那艘小巡逻艇被一支兵力占优的部队俘获。"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "（be superior to）不为……所动，不屑于（正式用法）",
+        "example": "A good judge is superior to flattery. 好法官不为奉承所动。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "In thick fog, radar is far superior to an ordinary camera."
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Computers are superior in reaction speed, yet weaker in moral judgement."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "His superiors praised the calm way he handled the night test."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be superior to sb/sth",
+        "translation": "优于……，比……更好（用 to，不用 than）",
+        "example": "Lidar is superior to cameras when the light is poor. 光线不好时，激光雷达优于摄像头。"
+      },
+      {
+        "phrase": "far/vastly/much superior",
+        "translation": "远远优越，大大胜过（不能用 more/most 修饰）",
+        "example": "The new braking software is vastly superior to last year's. 新的制动软件远胜去年的版本。"
+      },
+      {
+        "phrase": "superior quality/performance",
+        "translation": "上乘的质量／更佳的性能",
+        "example": "Buyers pay extra for superior safety performance. 买家愿为更好的安全性能多付钱。"
+      },
+      {
+        "phrase": "be superior in sth",
+        "translation": "在某方面更强／占优",
+        "example": "Machines are superior in patience, but not in understanding. 机器在耐心上占优，在理解力上则不然。"
+      },
+      {
+        "phrase": "one's immediate superior / a superior officer",
+        "translation": "直属上司／上级军官",
+        "example": "Every fault must be reported to your immediate superior. 每一处故障都必须上报直属上司。"
+      },
+      {
+        "phrase": "with a superior air/smile",
+        "translation": "带着高傲的神情／微笑",
+        "example": "He corrected me with a superior air. 他带着高傲的神情纠正我。"
+      },
+      {
+        "phrase": "prove superior",
+        "translation": "（在比较、测试中）被证明更胜一筹",
+        "example": "In the night trials the laser system proved superior. 在夜间试验中，激光系统更胜一筹。"
+      }
+    ],
+    "wordForms": {
+      "noun": "superiority 优越（性），优势；superior 上级，上司（可数）",
+      "verb": "—（本词无对应动词，勿自造 superiorize）",
+      "adjective": "superior 更好的，上级的，高傲的（反义 inferior 较差的，下级的）",
+      "adverb": "superiorly（极少用，日常写作不必使用）",
+      "other": "拉丁比较级形容词家族 superior / inferior / senior / junior / prior 一律接 to，不接 than，也不加 more、most；程度用 far, vastly, much 修饰（注意 major、minor 不属此列，不接 to）。派生短语：a sense of superiority 优越感；superiority complex 优越情结。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "In heavy rain, radar proves far superior ______ ordinary cameras.",
+        "answer": "to",
+        "note": "superior 属于拉丁比较级形容词，比较对象前用介词 to，不能写成 than；且 far 已表程度，不再加 more。"
+      },
+      {
+        "type": "完成句子",
+        "question": "每一处故障都必须上报给你的直属上司。Every fault must be reported to your ______ ______.",
+        "answer": "immediate superior",
+        "note": "考 superior 的名词义\"上级，上司\"，是可数名词，前面可加 immediate 表\"直属的\"；不可写成 superior man 或 higher。"
+      }
+    ]
+  },
+  {
+    "word": "shine",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ʃaɪn/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 发光，照耀；把（灯等）照向；表现突出，出色 n. 光亮，光泽",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to produce or reflect light; to point a light in a particular direction; to be very good at an activity; (n.) brightness or a polished look.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "擦亮，把……擦得发亮（此义过去式、过去分词用 shined）",
+        "example": "He shined his shoes before the interview. 面试前他把皮鞋擦得锃亮。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（眼睛、脸庞）因某种情绪而发亮，洋溢（shine with）",
+        "example": "Her eyes shone with excitement at the test result. 看到测试结果，她眼里闪着兴奋的光。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "擦亮（鞋等）的动作（give sth a shine）",
+        "example": "Give your boots a shine before the ceremony. 典礼前把靴子擦一擦。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Headlights shone through the fog and lit up the road ahead."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Cameras shine in daylight, but they struggle badly at night."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The rain washed the car and left a bright shine on it."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "shine a light on sth",
+        "translation": "用灯照向……；使……为人所知，揭示",
+        "example": "The report shines a light on the ethics of driverless cars. 这份报告揭示了无人驾驶汽车的伦理问题。"
+      },
+      {
+        "phrase": "shine at/in sth",
+        "translation": "在……方面出色",
+        "example": "He shines at coding but hates writing reports. 他编程很出色，却讨厌写报告。"
+      },
+      {
+        "phrase": "shine on/onto sth",
+        "translation": "照在……上",
+        "example": "A beam from the drone shone onto the flooded road. 无人机的光柱照在被水淹的路面上。"
+      },
+      {
+        "phrase": "shine through",
+        "translation": "（品质、才能）显露出来",
+        "example": "Her calm judgement shone through in the emergency. 紧急关头，她冷静的判断力显露无遗。"
+      },
+      {
+        "phrase": "shine with pride/joy",
+        "translation": "（因自豪、喜悦）闪着光",
+        "example": "His face shone with pride when the car parked itself. 车自动泊好时，他脸上洋溢着自豪。"
+      },
+      {
+        "phrase": "take a shine to sb",
+        "translation": "一下子喜欢上某人（口语）",
+        "example": "The children took a shine to the new teacher. 孩子们一下子就喜欢上了新老师。"
+      },
+      {
+        "phrase": "rain or shine",
+        "translation": "无论晴雨，风雨无阻",
+        "example": "The delivery robots work rain or shine. 无论晴雨，配送机器人都照常工作。"
+      }
+    ],
+    "wordForms": {
+      "noun": "shine 光泽，擦亮；sunshine 阳光；shiner（口语）被打青的眼圈",
+      "verb": "shine — shone — shone（发光、照耀）／shine — shined — shined（擦亮）",
+      "adjective": "shiny 闪亮的；shining 发光的，杰出的（a shining example 光辉的榜样）",
+      "adverb": "—（shiningly 极少使用）",
+      "other": "一词两套变形是本词最大考点：表\"发光\"用 shone /ʃɒn/，表\"擦亮\"用 shined。另有 outshine — outshone — outshone 胜过、比……更出色。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The moment the fog lifted, the sun ______ (shine) on the wet test track.",
+        "answer": "shone",
+        "note": "句子讲过去发生的事，用过去式；表\"发光、照耀\"时过去式是 shone，不是 shined。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 shone / shined 填空：Before the interview, the young engineer ______ his shoes until they gleamed.",
+        "answer": "shined",
+        "note": "这里 shine 是及物动词\"擦亮\"，宾语是 shoes，过去式用 shined；若表示\"发出光、照耀\"则用 shone。"
+      }
+    ]
+  },
+  {
+    "word": "track",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/træk/",
+    "partOfSpeech": "n. & v.",
+    "translation": "n. 小路，小道；轨道，铁轨；足迹，痕迹；跑道，田径 v. 跟踪，追踪；（用仪器）监测……的动向",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "a rough path or a railway line; a mark left by a person, animal or vehicle; (v.) to follow the movements or progress of someone or something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（唱片、专辑中的）一首曲子，音轨",
+        "example": "The last track on the album lasts eight minutes. 专辑的最后一首曲子长达八分钟。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（坦克、推土机的）履带",
+        "example": "Bulldozers move on tracks instead of wheels. 推土机靠履带而不是轮子行进。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（把泥、雪）踩着带进屋里，留下脏脚印（多用于美式英语）",
+        "example": "Don't track mud into the workshop. 别把泥踩进车间里。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A narrow track led through the trees to the test site."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Sensors track every moving object around the car in real time."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The tyres left clear tracks in the wet sand."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "keep track of sth/sb",
+        "translation": "掌握……的动态，记录，弄清……的下落",
+        "example": "The system keeps track of every cyclist nearby. 系统掌握着附近每一个骑车人的动向。"
+      },
+      {
+        "phrase": "lose track of sth/sb",
+        "translation": "失去……的线索；记不清",
+        "example": "I lost track of time while reading the safety report. 读安全报告时我忘了时间。"
+      },
+      {
+        "phrase": "track sth/sb down",
+        "translation": "追查到，寻获",
+        "example": "The team tracked down the bug in the braking code. 团队追查出了制动代码里的漏洞。"
+      },
+      {
+        "phrase": "on the right/wrong track",
+        "translation": "思路（方向）对／错",
+        "example": "The designers believe they are on the right track. 设计者相信他们的思路是对的。"
+      },
+      {
+        "phrase": "go/get off track",
+        "translation": "偏离正轨；跑题",
+        "example": "The project went off track after the accident. 事故之后这个项目偏离了正轨。"
+      },
+      {
+        "phrase": "a track record",
+        "translation": "过往业绩，一贯表现",
+        "example": "The company has a good safety track record. 这家公司有良好的安全记录。"
+      },
+      {
+        "phrase": "off the beaten track",
+        "translation": "偏僻，人迹罕至",
+        "example": "The test centre lies off the beaten track, deep in the hills. 试验场地处偏僻，深在山里。"
+      },
+      {
+        "phrase": "a railway track",
+        "translation": "铁轨",
+        "example": "Never walk along a railway track. 千万不要沿着铁轨行走。"
+      },
+      {
+        "phrase": "track and field",
+        "translation": "田径（运动）",
+        "example": "She takes part in track and field events. 她参加田径比赛。"
+      }
+    ],
+    "wordForms": {
+      "noun": "track 小路，轨道，曲目；tracker 追踪器，追踪者；tracking 追踪，跟踪（tracking system 追踪系统）",
+      "verb": "track（规则变化：tracked / tracked）；sidetrack 使离题，使分心",
+      "adjective": "tracked 履带式的（a tracked vehicle 履带车）",
+      "adverb": "—",
+      "other": "合成词记忆串：soundtrack 电影原声、racetrack 赛道、backtrack 折返／改口。注意 keep/lose track of 中 track 不加冠词、不用复数，后接名词或 wh- 从句。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "Cameras and radar keep ______ of pedestrians who suddenly step onto the road.",
+        "answer": "track",
+        "note": "keep track of \"掌握……的动向\"为固定搭配，track 前不加冠词、也不用复数。"
+      },
+      {
+        "type": "完成句子",
+        "question": "工程师们花了三天才追查出软件故障的原因。It took the engineers three days to ______ ______ the cause of the fault.",
+        "answer": "track down",
+        "note": "track down 意为\"追查到、查出\"；to 后接动词原形 track，宾语 the cause 放在副词 down 之后（也可说 track the cause down）。"
+      }
+    ]
+  },
+  {
+    "word": "ground",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/ɡraʊnd/",
+    "partOfSpeech": "n. & v. & adj.",
+    "translation": "n. 地面，土地；场地，运动场；（常用复数）理由，根据 v. 使（飞机）停飞；使……以……为基础 adj. 磨碎的（grind 的过去分词）",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "the solid surface of the earth; an area of land used for a particular purpose; (usually plural) a reason for doing or believing something; (v.) to stop an aircraft from flying, or to base something firmly on facts or experience; (adj., from grind) crushed into small pieces or powder.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（作为惩罚）罚（孩子）不许外出",
+        "example": "His parents grounded him for a week after the crash. 出事之后，父母罚他一周不准出门。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（复数 grounds）（建筑物周围的）庭园，场地",
+        "example": "Visitors may walk freely in the hospital grounds. 参观者可以在医院的庭园里自由散步。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（使船）搁浅",
+        "example": "The ferry grounded on a sandbank in thick fog. 渡轮在浓雾中搁浅在沙洲上。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The sensor scans the ground ahead about thirty times a second."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Safety worries gave critics solid grounds for stricter road tests."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Bad weather grounded every flight, so the team drove instead."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "on the ground",
+        "translation": "在地面上；在实地，在现场",
+        "example": "The rules look fair on paper but harder on the ground. 这些规则纸面上公平，实地执行却更难。"
+      },
+      {
+        "phrase": "grounds for (doing) sth",
+        "translation": "做某事的理由、依据",
+        "example": "Poor testing is grounds for refusing the licence. 测试不足是拒发牌照的理由。"
+      },
+      {
+        "phrase": "on the grounds that/of",
+        "translation": "以……为理由",
+        "example": "The city refused the trial on the grounds that the streets were narrow. 市政府以街道狭窄为由拒绝了试验。"
+      },
+      {
+        "phrase": "be grounded in/on sth",
+        "translation": "以……为基础，根植于",
+        "example": "Every decision the car makes is grounded in probability. 这辆车的每个决定都建立在概率之上。"
+      },
+      {
+        "phrase": "gain ground",
+        "translation": "取得进展，日益流行（反义 lose ground 失利，落后）",
+        "example": "Driverless taxis are gaining ground in big cities. 无人驾驶出租车在大城市日益流行。"
+      },
+      {
+        "phrase": "common ground",
+        "translation": "（双方的）共同点，共识",
+        "example": "Engineers and philosophers must find common ground on responsibility. 工程师和哲学家必须在责任问题上找到共识。"
+      },
+      {
+        "phrase": "stand one's ground",
+        "translation": "坚持立场，寸步不让",
+        "example": "She stood her ground and refused to sign the report. 她坚持立场，拒绝在报告上签字。"
+      },
+      {
+        "phrase": "get sth off the ground",
+        "translation": "使（计划、项目）启动起来",
+        "example": "It took two years to get the project off the ground. 这个项目花了两年才启动。"
+      }
+    ],
+    "wordForms": {
+      "noun": "ground 地面，理由；grounding（学科的）基础训练（a good grounding in physics）；groundwork 基础工作，准备",
+      "verb": "ground — grounded — grounded（使停飞；使搁浅；以……为基础）",
+      "adjective": "groundless 毫无根据的；groundbreaking 开创性的；ground 磨碎的（ground beef 牛肉末）",
+      "adverb": "—",
+      "other": "两个同形的 ground 千万别混：动词 ground（使停飞）是规则变化 grounded/grounded；而 grind（磨碎）— ground — ground 才产生\"磨碎的\"这层意思。表\"理由\"\"庭园\"\"（咖啡）渣\"时通常用复数 grounds。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "The council banned the road test on the ______ that the streets were too narrow.",
+        "answer": "grounds",
+        "note": "on the grounds that... \"以……为理由\"是固定表达，该结构中 ground 恒用复数 grounds。"
+      },
+      {
+        "type": "辨析选词",
+        "question": "用 grounded / ground 填空：Thick fog ______ all the flights, and the engineers had to drive to the test site.",
+        "answer": "grounded",
+        "note": "此处需要动词 ground\"使停飞\"的过去式，为规则变化 grounded；ground 只有作 grind（磨碎）的过去式和过去分词时才是不规则形式。"
+      }
+    ]
+  },
+  {
+    "word": "flow",
+    "textbook": "拓展创新学程一",
+    "unit": "Unit 3",
+    "pronunciation": "/fləʊ/",
+    "partOfSpeech": "v. & n.",
+    "translation": "v. 流动，流淌；（车流、信息）顺畅移动；（话语、文字）流畅地展开 n. 流动，流量；（信息、资金的）流通；（语言、思路的）连贯",
+    "source": "补充词汇",
+    "section": "补充词汇",
+    "sub_section": "补充词汇（课件重点·非词汇表）",
+    "original_sentence": "",
+    "readingExamples": [],
+    "definitionEn": "to move steadily and continuously in one direction, the way a liquid does; (n.) a steady, continuous movement or supply of something.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（flow with）充盈着，遍地都是（书面语）",
+        "example": "They dreamed of a land flowing with milk and honey. 他们梦想着一片流着奶与蜜的土地。"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "涨潮（the flow，与表\"退潮\"的 ebb 相对；the ebb and flow 也指盛衰起伏）",
+        "example": "Fishermen watch the ebb and flow of the tide. 渔民留意潮水的涨落。"
+      },
+      {
+        "partOfSpeech": "v.",
+        "meaning": "（长发、衣裙）飘垂，垂拂",
+        "example": "Her long hair flowed over her shoulders. 她的长发披垂在肩上。"
+      }
+    ],
+    "posExamples": [
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Data flows from the sensors to the computer many times a second."
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Smart traffic lights improve the flow of cars at busy junctions."
+      },
+      {
+        "partOfSpeech": "v.",
+        "sentence": "Once she relaxed, her arguments flowed clearly and the debate improved."
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the flow of traffic",
+        "translation": "车流（的通行）",
+        "example": "Driverless cars could smooth the flow of traffic. 无人驾驶汽车能让车流更顺畅。"
+      },
+      {
+        "phrase": "a steady flow of information/data",
+        "translation": "稳定的信息流／数据流",
+        "example": "A steady flow of data keeps the car aware of its surroundings. 稳定的数据流让汽车随时了解周围环境。"
+      },
+      {
+        "phrase": "flow into/through/out of",
+        "translation": "流入／流经／流出",
+        "example": "Signals flow through the cables to the braking system. 信号经由线缆流向制动系统。"
+      },
+      {
+        "phrase": "flow from sth",
+        "translation": "源于，由……引起",
+        "example": "The hardest problems flow from the programming, not the machine. 最难的问题源于编程，而非机器本身。"
+      },
+      {
+        "phrase": "cash flow",
+        "translation": "现金流",
+        "example": "Poor cash flow forced the start-up to close. 现金流不佳迫使这家初创公司关门。"
+      },
+      {
+        "phrase": "go with the flow",
+        "translation": "随大流，顺其自然",
+        "example": "Rather than argue, he decided to go with the flow. 他不愿争辩，决定顺其自然。"
+      },
+      {
+        "phrase": "stem the flow of sth",
+        "translation": "遏制……的涌流／外流",
+        "example": "New rules were written to stem the flow of complaints. 制定新规是为了遏制投诉的涌来。"
+      },
+      {
+        "phrase": "in full flow",
+        "translation": "（谈话、活动）正进行得起劲",
+        "example": "The ethics debate was in full flow when the bell rang. 铃响时那场伦理辩论正激烈。"
+      }
+    ],
+    "wordForms": {
+      "noun": "flow 流动，流量；inflow 流入量；outflow 流出量；overflow 溢出，过剩",
+      "verb": "flow — flowed — flowed（规则变化）；overflow — overflowed — overflowed 溢出",
+      "adjective": "flowing 流动的；飘逸的；（文笔）流畅的",
+      "adverb": "—（fluently 属于 fluent，不是 flow 的副词）",
+      "other": "最常见的错误是把过去式写成 flew（那是 fly 的过去式）。同源词根 flu-（拉丁 fluere \"流\"）：fluent 流利的、fluid 液体、influence 影响（本义\"流入\"）。常用复合词 flow chart 流程图。"
+    },
+    "classPractice": [
+      {
+        "type": "单句语法填空",
+        "question": "All night, data ______ (flow) from the roadside sensors without a single break.",
+        "answer": "flowed",
+        "note": "All night 提示用过去时；flow 是规则动词，过去式为 flowed，不可误写成 fly 的过去式 flew。"
+      },
+      {
+        "type": "完成句子",
+        "question": "更聪明的红绿灯能改善高峰时段的车流。Smarter traffic lights can improve the ______ ______ ______ during rush hour.",
+        "answer": "flow of traffic",
+        "note": "the flow of traffic \"车流\"是固定的名词化搭配，improve 后接名词短语；flow 此处是不可数名词，与后面的 traffic 之间用 of 连接。"
+      }
+    ]
   }
 ]
